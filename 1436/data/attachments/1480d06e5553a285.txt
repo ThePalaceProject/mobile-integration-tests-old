@@ -1,0 +1,37 @@
+2022-12-05 10:48:31 INFO  - Scenario 'Check of a book title and author in LYRASIS' start
+2022-12-05 10:48:31 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-05 10:49:15 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-05 10:49:15 INFO  - Session id - 15df0377e62daa88c907323cb15ff47134412835
+2022-12-05 10:49:15 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-05 10:49:15 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-05 10:49:18 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-05 10:49:18 INFO  - Button 'Search' :: Clicking
+2022-12-05 10:49:20 INFO  - Text Field 'Search' :: Clearing
+2022-12-05 10:49:20 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-05 10:49:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-05 10:49:23 INFO  - Step 1 - I open Catalog
+2022-12-05 10:49:23 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-05 10:49:45 INFO  - Step 2 - I open search modal
+2022-12-05 10:50:05 INFO  - Button 'Search' :: Clicking
+2022-12-05 10:50:07 INFO  - Step 3 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-05 10:50:07 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-05 10:50:07 INFO  - randomBookName: A Line to Kill
+2022-12-05 10:50:08 INFO  - Error details button is not present
+2022-12-05 10:50:08 INFO  - Text Field 'Search value input' :: Sending keys 'A Line to Kill'
+2022-12-05 10:50:08 INFO  - Button 'Apply search' :: Clicking
+2022-12-05 10:50:10 INFO  - Error details button is not present
+2022-12-05 10:50:12 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2022-12-05 10:50:12 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-05 10:50:33 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-05 10:50:34 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-05 10:50:34 INFO  - Label 'lblBookName' :: Clicking
+2022-12-05 10:50:35 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2022-12-05 10:50:35 INFO  - Label 'Book title' :: Getting text from element
+2022-12-05 10:50:37 INFO  - Label 'Book Authors' :: Getting text from element
+2022-12-05 10:50:37 INFO  - Label 'Book title' :: Getting text from element
+2022-12-05 10:50:37 INFO  - Label 'Book Authors' :: Getting text from element
+2022-12-05 10:50:38 INFO  - Step 7 - Book 'bookInfo' has correct title and author name on book details screen
+2022-12-05 10:50:38 INFO  - Step 8 - The book cover is displayed on book details screen
+2022-12-05 10:50:38 INFO  - Taking screenshot
+2022-12-05 10:50:39 INFO  - Unlocking credential for current thread
+2022-12-05 10:50:39 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@687d2bbc

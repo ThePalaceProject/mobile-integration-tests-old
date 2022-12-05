@@ -1,0 +1,41 @@
+2022-12-05 11:38:41 INFO  - Scenario 'Check related books section in LYRASIS' start
+2022-12-05 11:38:41 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-05 11:39:20 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-05 11:39:20 INFO  - Session id - c4cc3f2029fbe7b0fcddf860da8e094508e4d19d
+2022-12-05 11:39:20 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-05 11:39:20 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-05 11:39:23 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-05 11:39:23 INFO  - Button 'Search' :: Clicking
+2022-12-05 11:39:25 INFO  - Text Field 'Search' :: Clearing
+2022-12-05 11:39:25 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-05 11:39:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-05 11:39:27 INFO  - Step 1 - I open Catalog
+2022-12-05 11:39:28 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-05 11:39:49 INFO  - Step 2 - I open search modal
+2022-12-05 11:40:09 INFO  - Button 'Search' :: Clicking
+2022-12-05 11:40:11 INFO  - Step 3 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-05 11:40:11 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-05 11:40:11 INFO  - randomBookName: The Hidden
+2022-12-05 11:40:11 INFO  - Error details button is not present
+2022-12-05 11:40:12 INFO  - Text Field 'Search value input' :: Sending keys 'The Hidden'
+2022-12-05 11:40:13 INFO  - Button 'Apply search' :: Clicking
+2022-12-05 11:40:15 INFO  - Error details button is not present
+2022-12-05 11:40:16 INFO  - Step 4 - I switch to 'eBooks' catalog tab
+2022-12-05 11:40:16 INFO  - Button 'eBooks' :: Clicking
+2022-12-05 11:40:39 INFO  - Step 5 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-05 11:40:40 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-05 11:40:40 INFO  - Label 'lblBookName' :: Clicking
+2022-12-05 11:40:41 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2022-12-05 11:40:41 INFO  - Label 'Book title' :: Getting text from element
+2022-12-05 11:40:42 INFO  - Label 'Book Authors' :: Getting text from element
+2022-12-05 11:40:43 INFO  - Label 'Book title' :: Getting text from element
+2022-12-05 11:40:43 INFO  - Label 'Book Authors' :: Getting text from element
+2022-12-05 11:40:44 INFO  - Step 7 - Related books section is displayed on book details screen
+2022-12-05 11:40:44 INFO  - Label 'Book title' :: Getting text from element
+2022-12-05 11:40:45 INFO  - Label 'Book Authors' :: Getting text from element
+2022-12-05 11:40:46 INFO  - Swiping from coordinates (x:540; y:1759) to (x:540; y:329)
+2022-12-05 11:40:48 INFO  - Step 8 - There is a list of related books on book details screen
+2022-12-05 11:40:49 INFO  - Step 9 - More button in related books section is available on book details screen
+2022-12-05 11:40:49 INFO  - Taking screenshot
+2022-12-05 11:40:51 INFO  - Unlocking credential for current thread
+2022-12-05 11:40:51 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@687d2bbc
