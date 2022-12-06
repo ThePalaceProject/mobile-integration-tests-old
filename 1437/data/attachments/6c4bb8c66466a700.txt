@@ -1,0 +1,80 @@
+2022-12-06 02:34:54 INFO  - Scenario 'Navigate by Page' start
+2022-12-06 02:34:54 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-06 02:39:51 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-06 02:39:51 INFO  - Session id - cbf91b87aca6b448d02e4d106f8ce71479f860ee
+2022-12-06 02:39:51 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-06 02:39:51 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-06 02:39:55 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-06 02:39:56 INFO  - Button 'Search' :: Clicking
+2022-12-06 02:40:00 INFO  - Text Field 'Search' :: Clearing
+2022-12-06 02:40:00 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-06 02:40:05 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-06 02:40:06 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-06 02:40:06 INFO  - Button 'tabSettings' :: Clicking
+2022-12-06 02:40:08 INFO  - Button 'tabSettings' :: Clicking
+2022-12-06 02:40:10 INFO  - Button 'Accounts' :: Clicking
+2022-12-06 02:40:13 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-06 02:40:13 INFO  - Button 'tabSettings' :: Clicking
+2022-12-06 02:40:14 INFO  - Button 'tabSettings' :: Clicking
+2022-12-06 02:40:16 INFO  - Button 'Accounts' :: Clicking
+2022-12-06 02:40:18 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-06 02:40:19 INFO  - Locking credential with barcode 01230000000283
+2022-12-06 02:40:19 INFO  - There are books on the account: 
+2022-12-06 02:40:20 INFO  - There is not books on the account.
+2022-12-06 02:40:20 INFO  - Count of books on the account after opening account: 0
+2022-12-06 02:40:20 INFO  - Text Field 'Card' :: Clearing
+2022-12-06 02:40:20 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-06 02:40:22 INFO  - Text Field 'Pin' :: Clearing
+2022-12-06 02:40:22 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-06 02:40:25 INFO  - Button 'Log in' :: Clicking
+2022-12-06 02:40:35 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-06 02:40:36 INFO  - Step 3 - Login is performed successfully
+2022-12-06 02:40:59 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-06 02:41:00 INFO  - Step 4 - I open Catalog
+2022-12-06 02:41:00 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-06 02:41:21 INFO  - Step 5 - I open search modal
+2022-12-06 02:41:42 INFO  - Button 'Search' :: Clicking
+2022-12-06 02:41:44 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-06 02:41:44 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-06 02:41:44 INFO  - randomBookName: Five Tuesdays in Winter
+2022-12-06 02:41:45 INFO  - Error details button is not present
+2022-12-06 02:41:46 INFO  - Text Field 'Search value input' :: Sending keys 'Five Tuesdays in Winter'
+2022-12-06 02:41:48 INFO  - Button 'Apply search' :: Clicking
+2022-12-06 02:41:50 INFO  - Error details button is not present
+2022-12-06 02:41:54 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-06 02:41:57 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-06 02:41:58 INFO  - Button 'actionButton' :: Clicking
+2022-12-06 02:42:07 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-06 02:42:09 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-06 02:42:10 INFO  - Label 'lblBookName' :: Clicking
+2022-12-06 02:42:11 INFO  - Step 9 - Click READ action button on book details screen
+2022-12-06 02:42:12 INFO  - Button 'Read' :: Clicking
+2022-12-06 02:42:14 INFO  - Step 10 - 'bookInfo' book is present on epub reader screen
+2022-12-06 02:42:21 INFO  - Label 'lblBookName' :: Getting text from element
+2022-12-06 02:42:22 INFO  - Book name on epub reader screen - Five Tuesdays in Winter
+2022-12-06 02:42:22 INFO  - Step 11 - I click on right book corner on epub reader screen
+2022-12-06 02:42:25 INFO  - Step 12 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2022-12-06 02:42:25 INFO  - Label 'lblPageNumber' :: Getting text from element
+2022-12-06 02:42:26 INFO  - Label 'lblChapterName' :: Getting text from element
+2022-12-06 02:42:28 INFO  - Step 13 - I click on right book corner on epub reader screen
+2022-12-06 02:42:31 INFO  - Step 14 - Next page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2022-12-06 02:42:31 INFO  - Label 'lblPageNumber' :: Getting text from element
+2022-12-06 02:42:33 INFO  - actualPageNumberOfNextPage12
+2022-12-06 02:42:33 INFO  - expectedPageNumberOfNextPage13
+2022-12-06 02:42:33 INFO  - Label 'lblChapterName' :: Getting text from element
+2022-12-06 02:42:34 INFO  - actualChapterNameOfNextPageCreature
+2022-12-06 02:42:34 INFO  - expectedChapterNameOfNextPageCreature
+2022-12-06 02:42:34 INFO  - Taking screenshot
+2022-12-06 02:42:37 INFO  - Test finished - logging out
+2022-12-06 02:42:39 INFO  - Button 'tabSettings' :: Clicking
+2022-12-06 02:42:42 INFO  - Button 'tabSettings' :: Clicking
+2022-12-06 02:42:44 INFO  - Button 'Accounts' :: Clicking
+2022-12-06 02:42:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-06 02:42:48 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-06 02:42:49 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-06 02:42:50 INFO  - Button 'Log out' :: Clicking
+2022-12-06 02:42:52 INFO  - Button 'Log in' :: Getting text from element
+2022-12-06 02:42:57 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-06 02:42:58 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-06 02:42:59 INFO  - Unlocking credential for current thread
+2022-12-06 02:42:59 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2708e2e2
