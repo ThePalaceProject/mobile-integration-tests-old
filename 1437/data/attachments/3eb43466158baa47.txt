@@ -1,0 +1,41 @@
+2022-12-06 02:56:54 INFO  - Scenario 'Check fields in Information section in LYRASIS' start
+2022-12-06 02:56:54 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-06 02:58:00 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-06 02:58:00 INFO  - Session id - 210a97184c6699debfb02ae7d53c63bcf928336f
+2022-12-06 02:58:00 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-06 02:58:00 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-06 02:58:03 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-06 02:58:04 INFO  - Button 'Search' :: Clicking
+2022-12-06 02:58:05 INFO  - Text Field 'Search' :: Clearing
+2022-12-06 02:58:05 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-06 02:58:08 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-06 02:58:09 INFO  - Step 1 - I open Catalog
+2022-12-06 02:58:09 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-06 02:58:30 INFO  - Step 2 - I open search modal
+2022-12-06 02:58:50 INFO  - Button 'Search' :: Clicking
+2022-12-06 02:58:51 INFO  - Step 3 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-06 02:58:51 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-06 02:58:51 INFO  - randomBookName: These Precious Days
+2022-12-06 02:58:51 INFO  - Error details button is not present
+2022-12-06 02:58:51 INFO  - Text Field 'Search value input' :: Sending keys 'These Precious Days'
+2022-12-06 02:58:52 INFO  - Button 'Apply search' :: Clicking
+2022-12-06 02:58:53 INFO  - Error details button is not present
+2022-12-06 02:58:56 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2022-12-06 02:58:56 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-06 02:59:17 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-06 02:59:18 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-06 02:59:18 INFO  - Label 'lblBookName' :: Clicking
+2022-12-06 02:59:19 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2022-12-06 02:59:19 INFO  - Label 'Book title' :: Getting text from element
+2022-12-06 02:59:20 INFO  - Label 'Book Authors' :: Getting text from element
+2022-12-06 02:59:20 INFO  - Label 'Book title' :: Getting text from element
+2022-12-06 02:59:21 INFO  - Label 'Book Authors' :: Getting text from element
+2022-12-06 02:59:22 INFO  - Step 7 - Publisher and Categories in Information section are displayed on book details screen
+2022-12-06 02:59:22 INFO  - Swiping from coordinates (x:720; y:2324) to (x:720; y:435)
+2022-12-06 02:59:26 INFO  - Step 8 - Publisher and Categories in Information section are correct on book details screen
+2022-12-06 02:59:26 INFO  - Swiping from coordinates (x:720; y:2324) to (x:720; y:435)
+2022-12-06 02:59:27 INFO  - Label 'lblPublisher' :: Getting text from element
+2022-12-06 02:59:29 INFO  - Label 'lblCategories' :: Getting text from element
+2022-12-06 02:59:30 INFO  - Taking screenshot
+2022-12-06 02:59:31 INFO  - Unlocking credential for current thread
+2022-12-06 02:59:31 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@538c25b2

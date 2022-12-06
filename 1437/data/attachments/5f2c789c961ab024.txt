@@ -1,0 +1,64 @@
+2022-12-06 03:04:54 INFO  - Scenario 'Open book to last page read' start
+2022-12-06 03:04:54 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-06 03:07:01 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-06 03:07:01 INFO  - Session id - f28a5a9f58558e32305026bef77d7d809fbbaeb0
+2022-12-06 03:07:01 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2022-12-06 03:07:01 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-06 03:07:04 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-06 03:07:05 INFO  - Button 'Search' :: Clicking
+2022-12-06 03:07:08 INFO  - Text Field 'Search' :: Clearing
+2022-12-06 03:07:08 INFO  - Text Field 'Search' :: Typing 'Palace Bookshelf'
+2022-12-06 03:07:11 INFO  - Button 'Palace Bookshelf' :: Clicking
+2022-12-06 03:07:11 INFO  - Step 1 - I open Catalog
+2022-12-06 03:07:11 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-06 03:07:33 INFO  - Step 2 - I open search modal
+2022-12-06 03:07:54 INFO  - Button 'Search' :: Clicking
+2022-12-06 03:07:56 INFO  - Step 3 - I search for 'Flower Fables' and save bookName as 'bookNameInfo'
+2022-12-06 03:07:57 INFO  - Error details button is not present
+2022-12-06 03:07:57 INFO  - Text Field 'Search value input' :: Sending keys 'Flower Fables'
+2022-12-06 03:07:58 INFO  - Button 'Apply search' :: Clicking
+2022-12-06 03:08:01 INFO  - Error details button is not present
+2022-12-06 03:08:02 INFO  - Step 4 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-06 03:08:04 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-06 03:08:06 INFO  - Button 'actionButton' :: Clicking
+2022-12-06 03:08:10 INFO  - Step 5 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-06 03:08:11 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-06 03:08:12 INFO  - Label 'lblBookName' :: Clicking
+2022-12-06 03:08:13 INFO  - Step 6 - Click READ action button on book details screen
+2022-12-06 03:08:14 INFO  - Button 'Read' :: Clicking
+2022-12-06 03:08:15 INFO  - Step 7 - I scroll page forward from 7 to 10 times
+2022-12-06 03:08:15 INFO  - Scrolling 7 times on reader epub screen
+2022-12-06 03:08:34 INFO  - Step 8 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2022-12-06 03:08:34 INFO  - Label 'lblPageNumber' :: Getting text from element
+2022-12-06 03:08:35 INFO  - Label 'lblChapterName' :: Getting text from element
+2022-12-06 03:08:36 INFO  - Step 9 - Wait for 3 seconds
+2022-12-06 03:08:39 INFO  - Step 10 - I return to previous screen for epub and pdf
+2022-12-06 03:08:40 INFO  - Step 11 - Click READ action button on book details screen
+2022-12-06 03:08:41 INFO  - Button 'Read' :: Clicking
+2022-12-06 03:08:41 INFO  - Step 12 - 'bookInfo' book is present on epub reader screen
+2022-12-06 03:08:44 INFO  - Label 'lblBookName' :: Getting text from element
+2022-12-06 03:08:44 INFO  - Book name on epub reader screen - Flower Fables
+2022-12-06 03:08:44 INFO  - Step 13 - PageNumber 'pageNumberKey' is correct
+2022-12-06 03:08:44 INFO  - Label 'lblPageNumber' :: Getting text from element
+2022-12-06 03:08:45 INFO  - Step 14 - I scroll page forward from 3 to 4 times
+2022-12-06 03:08:45 INFO  - Scrolling 3 times on reader epub screen
+2022-12-06 03:08:52 INFO  - Step 15 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2022-12-06 03:08:52 INFO  - Label 'lblPageNumber' :: Getting text from element
+2022-12-06 03:08:52 INFO  - Label 'lblChapterName' :: Getting text from element
+2022-12-06 03:08:53 INFO  - Step 16 - Wait for 3 seconds
+2022-12-06 03:08:56 INFO  - Step 17 - I restart app
+2022-12-06 03:09:20 INFO  - Step 18 - I open Books
+2022-12-06 03:09:20 INFO  - Button 'tabBooks' :: Clicking
+2022-12-06 03:09:21 INFO  - Step 19 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2022-12-06 03:09:23 INFO  - Step 20 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2022-12-06 03:09:23 INFO  - Label 'lblBookName' :: Clicking
+2022-12-06 03:09:24 INFO  - Step 21 - Click READ action button on book details screen
+2022-12-06 03:09:25 INFO  - Button 'Read' :: Clicking
+2022-12-06 03:09:26 INFO  - Step 22 - 'bookInfo' book is present on epub reader screen
+2022-12-06 03:09:28 INFO  - Label 'lblBookName' :: Getting text from element
+2022-12-06 03:09:29 INFO  - Book name on epub reader screen - Flower Fables
+2022-12-06 03:09:29 INFO  - Step 23 - PageNumber 'pageNumberKey' is correct
+2022-12-06 03:09:29 INFO  - Label 'lblPageNumber' :: Getting text from element
+2022-12-06 03:09:30 INFO  - Taking screenshot
+2022-12-06 03:09:31 INFO  - Unlocking credential for current thread
+2022-12-06 03:09:31 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1d6ece8b
