@@ -1,0 +1,78 @@
+2022-12-13 16:37:38 INFO  - Scenario 'Epub: Navigate by Page' start
+2022-12-13 16:37:38 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-13 16:37:59 INFO  - Application on platform 'IOS' is ready...
+2022-12-13 16:38:00 INFO  - Session id - 38e7b8cb3193842622b3be37fed89d2b9e2f88c9
+2022-12-13 16:38:00 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2022-12-13 16:38:02 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-13 16:38:03 INFO  - Text Field 'Search field' :: Clicking
+2022-12-13 16:38:10 INFO  - Text Field 'Search field' :: Clearing
+2022-12-13 16:38:10 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2022-12-13 16:38:21 INFO  - Button 'Palace Bookshelf' :: Clicking
+2022-12-13 16:38:23 INFO  - Button 'Settings' :: Clicking
+2022-12-13 16:38:27 INFO  - Button 'Testing button' :: Clicking
+2022-12-13 16:38:28 INFO  - Step 1 - Enable hidden libraries
+2022-12-13 16:38:28 INFO  - Button 'Hidden libraries button' :: Clicking
+2022-12-13 16:38:29 INFO  - Step 2 - I open Catalog
+2022-12-13 16:38:30 INFO  - Button 'Catalog' :: Clicking
+2022-12-13 16:38:51 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2022-12-13 16:38:52 INFO  - Button 'Logo' :: Clicking
+2022-12-13 16:38:54 INFO  - Button 'Add library btn' :: Clicking
+2022-12-13 16:38:56 INFO  - Text Field 'Search field' :: Clicking
+2022-12-13 16:39:05 INFO  - Text Field 'Search field' :: Clearing
+2022-12-13 16:39:05 INFO  - Text Field 'Search field' :: Typing 'A1QA Test Library'
+2022-12-13 16:39:18 INFO  - Button 'A1QA Test Library' :: Clicking
+2022-12-13 16:39:39 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2022-12-13 16:39:40 INFO  - Button 'Settings' :: Clicking
+2022-12-13 16:39:42 INFO  - Button 'Settings' :: Clicking
+2022-12-13 16:39:43 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-13 16:39:46 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2022-12-13 16:39:46 INFO  - Button 'Settings' :: Clicking
+2022-12-13 16:39:48 INFO  - Button 'Settings' :: Clicking
+2022-12-13 16:39:49 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-13 16:39:53 INFO  - Locking credential with barcode 01230000000282
+2022-12-13 16:39:53 INFO  - There are books on the account: 
+2022-12-13 16:40:24 INFO  - There is not books on the account.
+2022-12-13 16:40:24 INFO  - Count of books on the account after opening account: 0
+2022-12-13 16:40:46 INFO  - Text Field 'Card' :: Clicking
+2022-12-13 16:40:47 INFO  - Text Field 'Card' :: Clearing
+2022-12-13 16:40:47 INFO  - Text Field 'Card' :: Typing '01230000000282'
+2022-12-13 16:40:51 INFO  - Text Field 'Pin' :: Clearing
+2022-12-13 16:40:51 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-13 16:40:55 INFO  - Button 'Log in' :: Clicking
+2022-12-13 16:41:18 INFO  - Step 6 - Login is performed successfully
+2022-12-13 16:41:19 INFO  - Step 7 - I open Catalog
+2022-12-13 16:41:19 INFO  - Button 'Catalog' :: Clicking
+2022-12-13 16:41:41 INFO  - Step 8 - I open search modal
+2022-12-13 16:42:02 INFO  - Button 'Search' :: Clicking
+2022-12-13 16:42:05 INFO  - Step 9 - I search for "The Book Thief" and save bookName as 'bookNameInfo'
+2022-12-13 16:42:06 INFO  - Text Field 'Search value input' :: Sending keys 'The Book Thief'
+2022-12-13 16:42:07 INFO  - Button 'Search' :: Clicking
+2022-12-13 16:42:10 INFO  - Step 10 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-13 16:42:27 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-13 16:42:28 INFO  - Button 'actionButton' :: Clicking
+2022-12-13 16:42:51 INFO  - Step 11 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-13 16:42:53 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-13 16:42:55 INFO  - Label 'lblBookName' :: Clicking
+2022-12-13 16:42:57 INFO  - Step 12 - Click READ action button on book details screen
+2022-12-13 16:42:58 INFO  - Button 'Read' :: Clicking
+2022-12-13 16:43:05 INFO  - Alert appears and dismiss alert
+2022-12-13 16:43:05 INFO  - Step 13 - 'bookInfo' book is present on epub reader screen
+2022-12-13 16:43:05 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2022-12-13 16:43:07 INFO  - Book name on epub reader screen - The Book Thief
+2022-12-13 16:43:07 INFO  - Step 14 - I click on right book corner on epub reader screen
+2022-12-13 16:43:11 INFO  - Step 15 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2022-12-13 16:43:11 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2022-12-13 16:43:12 INFO  - Taking screenshot
+2022-12-13 16:43:13 INFO  - Test finished - logging out
+2022-12-13 16:43:17 INFO  - Button 'Settings' :: Clicking
+2022-12-13 16:43:18 INFO  - Button 'Settings' :: Clicking
+2022-12-13 16:43:20 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-13 16:43:24 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-13 16:43:26 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-13 16:43:27 INFO  - Button 'Log out' :: Clicking
+2022-12-13 16:43:29 INFO  - Button 'Log out approve' :: Clicking
+2022-12-13 16:43:51 INFO  - Button 'Log in' :: Getting text from element
+2022-12-13 16:43:52 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-13 16:43:53 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-13 16:43:54 INFO  - Unlocking credential for current thread
+2022-12-13 16:43:54 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6c0acce4
