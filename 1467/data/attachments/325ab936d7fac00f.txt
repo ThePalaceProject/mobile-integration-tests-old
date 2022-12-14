@@ -1,0 +1,66 @@
+2022-12-14 01:10:49 INFO  - Scenario 'Check invalid data in searching Lyrasis' start
+2022-12-14 01:10:49 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-14 01:11:27 INFO  - Application on platform 'IOS' is ready...
+2022-12-14 01:11:27 INFO  - Session id - 9d38c90d1804efd4c3a840941be221aa37df9b6d
+2022-12-14 01:11:27 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-14 01:11:29 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-14 01:11:30 INFO  - Text Field 'Search field' :: Clicking
+2022-12-14 01:11:37 INFO  - Text Field 'Search field' :: Clearing
+2022-12-14 01:11:37 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-14 01:11:46 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-14 01:12:08 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-14 01:12:09 INFO  - Button 'Settings' :: Clicking
+2022-12-14 01:12:17 INFO  - Button 'Settings' :: Clicking
+2022-12-14 01:12:18 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-14 01:12:20 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-14 01:12:20 INFO  - Button 'Settings' :: Clicking
+2022-12-14 01:12:21 INFO  - Button 'Settings' :: Clicking
+2022-12-14 01:12:22 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-14 01:12:25 INFO  - Locking credential with barcode 01230000000282
+2022-12-14 01:12:25 INFO  - There are books on the account: 
+2022-12-14 01:12:26 INFO  - bookName: Find Layla: A Novel Distributor: Palace Marketplace
+2022-12-14 01:12:26 INFO  - Count of books on the account after opening account: 1
+2022-12-14 01:12:47 INFO  - Text Field 'Card' :: Clicking
+2022-12-14 01:12:48 INFO  - Text Field 'Card' :: Clearing
+2022-12-14 01:12:48 INFO  - Text Field 'Card' :: Typing '01230000000282'
+2022-12-14 01:12:53 INFO  - Text Field 'Pin' :: Clearing
+2022-12-14 01:12:53 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-14 01:12:58 INFO  - Button 'Log in' :: Clicking
+2022-12-14 01:13:07 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2022-12-14 01:13:10 INFO  - Step 3 - Login is performed successfully
+2022-12-14 01:13:11 INFO  - Step 4 - I open Catalog
+2022-12-14 01:13:11 INFO  - Button 'Catalog' :: Clicking
+2022-12-14 01:13:35 INFO  - Step 5 - I open search modal
+2022-12-14 01:13:56 INFO  - Button 'Search' :: Clicking
+2022-12-14 01:13:58 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-14 01:13:58 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-14 01:13:58 INFO  - randomBookName: The Story of the Houston Rockets :
+2022-12-14 01:13:59 INFO  - Text Field 'Search value input' :: Sending keys 'The Story of the Houston Rockets :'
+2022-12-14 01:14:01 INFO  - Button 'Search' :: Clicking
+2022-12-14 01:14:03 INFO  - Step 7 - I switch to 'eBooks' catalog tab
+2022-12-14 01:14:03 INFO  - Button 'eBooks' :: Clicking
+2022-12-14 01:14:46 INFO  - Step 8 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-14 01:15:03 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-14 01:15:04 INFO  - Button 'actionButton' :: Clicking
+2022-12-14 01:15:26 INFO  - Step 9 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2022-12-14 01:15:28 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-14 01:15:29 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-14 01:15:31 INFO  - Label 'lblBookName' :: Clicking
+2022-12-14 01:15:33 INFO  - Step 11 - Click READ action button on book details screen
+2022-12-14 01:15:35 INFO  - Button 'Read' :: Clicking
+2022-12-14 01:15:56 INFO  - Step 12 - Reader pdf screen is opened
+2022-12-14 01:15:57 INFO  - Step 13 - I open search pdf screen
+2022-12-14 01:15:57 INFO  - Button 'Search button' :: Clicking
+2022-12-14 01:16:25 INFO  - Taking screenshot
+2022-12-14 01:16:34 INFO  - Test finished - logging out
+2022-12-14 01:16:38 INFO  - Button 'Settings' :: Clicking
+2022-12-14 01:16:39 INFO  - Button 'Settings' :: Clicking
+2022-12-14 01:16:40 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-14 01:16:45 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-14 01:16:46 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-14 01:16:47 INFO  - Button 'Log out' :: Clicking
+2022-12-14 01:16:48 INFO  - Button 'Log out approve' :: Clicking
+2022-12-14 01:16:51 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-14 01:16:53 INFO  - Button 'Log in' :: Getting text from element
+2022-12-14 01:17:14 INFO  - Unlocking credential for current thread
+2022-12-14 01:17:14 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@40ac6c94

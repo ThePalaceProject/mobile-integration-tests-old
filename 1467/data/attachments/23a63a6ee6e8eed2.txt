@@ -1,0 +1,71 @@
+2022-12-14 00:59:46 INFO  - Scenario 'Alert: Check of Cancel button after Remove button tapping' start
+2022-12-14 00:59:46 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-14 01:00:05 INFO  - Application on platform 'IOS' is ready...
+2022-12-14 01:00:05 INFO  - Session id - 15760109d6089185d0c4cc9e4a718277ad35fab4
+2022-12-14 01:00:05 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-14 01:00:07 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-14 01:00:08 INFO  - Text Field 'Search field' :: Clicking
+2022-12-14 01:00:14 INFO  - Text Field 'Search field' :: Clearing
+2022-12-14 01:00:14 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-14 01:00:24 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-14 01:00:46 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2022-12-14 01:00:46 INFO  - Button 'Settings' :: Clicking
+2022-12-14 01:00:47 INFO  - Button 'Settings' :: Clicking
+2022-12-14 01:00:48 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-14 01:00:51 INFO  - Locking credential with barcode 01230000000280
+2022-12-14 01:00:51 INFO  - There are books on the account: 
+2022-12-14 01:01:22 INFO  - bookName: 20th Century Passenger Flying Boats Distributor: Palace Marketplace
+2022-12-14 01:01:22 INFO  - bookName: Pipe Dreams Distributor: Palace Marketplace
+2022-12-14 01:01:22 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2022-12-14 01:01:22 INFO  - bookName: One Good Dish Distributor: Palace Marketplace
+2022-12-14 01:01:22 INFO  - Count of books on the account after opening account: 4
+2022-12-14 01:01:44 INFO  - Text Field 'Card' :: Clicking
+2022-12-14 01:01:45 INFO  - Text Field 'Card' :: Clearing
+2022-12-14 01:01:45 INFO  - Text Field 'Card' :: Typing '01230000000280'
+2022-12-14 01:01:48 INFO  - Text Field 'Pin' :: Clearing
+2022-12-14 01:01:48 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-14 01:01:51 INFO  - Button 'Log in' :: Clicking
+2022-12-14 01:02:14 INFO  - Step 2 - Login is performed successfully
+2022-12-14 01:02:15 INFO  - Step 3 - I open Catalog
+2022-12-14 01:02:15 INFO  - Button 'Catalog' :: Clicking
+2022-12-14 01:02:36 INFO  - Step 4 - I open search modal
+2022-12-14 01:02:56 INFO  - Button 'Search' :: Clicking
+2022-12-14 01:02:58 INFO  - Step 5 - I search 'unavailable' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-14 01:02:58 INFO  - Count of attempts to get random book name without bad symbols-2
+2022-12-14 01:02:58 INFO  - randomBookName: The Call of the Wild
+2022-12-14 01:02:59 INFO  - Text Field 'Search value input' :: Sending keys 'The Call of the Wild'
+2022-12-14 01:03:00 INFO  - Button 'Search' :: Clicking
+2022-12-14 01:03:03 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2022-12-14 01:03:03 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-14 01:03:45 INFO  - Step 7 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-14 01:03:46 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-14 01:03:47 INFO  - Label 'lblBookName' :: Clicking
+2022-12-14 01:03:48 INFO  - Step 8 - Click RESERVE action button on book details screen
+2022-12-14 01:03:48 INFO  - Button 'Reserve' :: Clicking
+2022-12-14 01:03:54 INFO  - Alert appears and dismiss alert
+2022-12-14 01:03:54 INFO  - Step 9 - I open Holds
+2022-12-14 01:03:54 INFO  - Button 'Reservations' :: Clicking
+2022-12-14 01:03:56 INFO  - Step 10 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2022-12-14 01:03:57 INFO  - Step 11 - Open AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2022-12-14 01:03:58 INFO  - Label 'lblBookName' :: Clicking
+2022-12-14 01:03:59 INFO  - Step 12 - Click REMOVE button but cancel the action by clicking CANCEL button on the alert
+2022-12-14 01:03:59 INFO  - Button 'Remove' :: Clicking
+2022-12-14 01:04:03 INFO  - Button 'Cancel ActionButtonAlert' :: Clicking
+2022-12-14 01:04:04 INFO  - Step 13 - I open Holds
+2022-12-14 01:04:04 INFO  - Button 'Reservations' :: Clicking
+2022-12-14 01:04:05 INFO  - Step 14 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2022-12-14 01:04:06 INFO  - Taking screenshot
+2022-12-14 01:04:07 INFO  - Test finished - logging out
+2022-12-14 01:04:10 INFO  - Button 'Settings' :: Clicking
+2022-12-14 01:04:12 INFO  - Button 'Settings' :: Clicking
+2022-12-14 01:04:13 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-14 01:04:16 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-14 01:04:17 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-14 01:04:17 INFO  - Button 'Log out' :: Clicking
+2022-12-14 01:04:18 INFO  - Button 'Log out approve' :: Clicking
+2022-12-14 01:04:21 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-14 01:04:23 INFO  - Button 'Log in' :: Getting text from element
+2022-12-14 01:04:26 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-14 01:04:27 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-14 01:04:28 INFO  - Unlocking credential for current thread
+2022-12-14 01:04:28 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7d83db6e
