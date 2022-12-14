@@ -1,0 +1,73 @@
+2022-12-14 19:48:22 INFO  - Scenario 'Check of book title and back button in Lyrasis' start
+2022-12-14 19:48:22 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-14 19:51:08 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-14 19:51:08 INFO  - Session id - 2301cb3c9dcc55583ee9a513ef98a0c9d4937345
+2022-12-14 19:51:08 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-14 19:51:08 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-14 19:51:11 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-14 19:51:11 INFO  - Button 'Search' :: Clicking
+2022-12-14 19:51:13 INFO  - Text Field 'Search' :: Clearing
+2022-12-14 19:51:13 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-14 19:51:16 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-14 19:51:16 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-14 19:51:16 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 19:51:18 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 19:51:19 INFO  - Button 'Accounts' :: Clicking
+2022-12-14 19:51:21 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-14 19:51:21 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 19:51:21 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 19:51:22 INFO  - Button 'Accounts' :: Clicking
+2022-12-14 19:51:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-14 19:51:24 INFO  - Locking credential with barcode 01230000000280
+2022-12-14 19:51:24 INFO  - There are books on the account: 
+2022-12-14 19:51:25 INFO  - bookName: Pipe Dreams Distributor: Palace Marketplace
+2022-12-14 19:51:25 INFO  - bookName: 20th Century Passenger Flying Boats Distributor: Palace Marketplace
+2022-12-14 19:51:25 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2022-12-14 19:51:25 INFO  - bookName: One Good Dish Distributor: Palace Marketplace
+2022-12-14 19:51:25 INFO  - Count of books on the account after opening account: 4
+2022-12-14 19:51:25 INFO  - Text Field 'Card' :: Clearing
+2022-12-14 19:51:25 INFO  - Text Field 'Card' :: Typing '01230000000280'
+2022-12-14 19:51:27 INFO  - Text Field 'Pin' :: Clearing
+2022-12-14 19:51:27 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-14 19:51:29 INFO  - Button 'Log in' :: Clicking
+2022-12-14 19:51:35 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-14 19:51:35 INFO  - Step 3 - Login is performed successfully
+2022-12-14 19:51:57 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-14 19:51:57 INFO  - Step 4 - I open Catalog
+2022-12-14 19:51:57 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-14 19:52:19 INFO  - Step 5 - I open search modal
+2022-12-14 19:52:40 INFO  - Button 'Search' :: Clicking
+2022-12-14 19:52:41 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-14 19:52:41 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-14 19:52:41 INFO  - randomBookName: The Story of the San Diego Padres :
+2022-12-14 19:52:42 INFO  - Error details button is not present
+2022-12-14 19:52:42 INFO  - Text Field 'Search value input' :: Sending keys 'The Story of the San Diego Padres :'
+2022-12-14 19:52:43 INFO  - Button 'Apply search' :: Clicking
+2022-12-14 19:52:46 INFO  - Error details button is not present
+2022-12-14 19:52:48 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-14 19:52:49 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-14 19:52:50 INFO  - Button 'actionButton' :: Clicking
+2022-12-14 19:52:55 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2022-12-14 19:52:56 INFO  - Step 9 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-14 19:52:56 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-14 19:52:57 INFO  - Label 'lblBookName' :: Clicking
+2022-12-14 19:52:57 INFO  - Step 10 - Click READ action button on book details screen
+2022-12-14 19:52:58 INFO  - Button 'Read' :: Clicking
+2022-12-14 19:53:01 INFO  - Step 11 - Reader pdf screen is opened
+2022-12-14 19:53:08 INFO  - Step 12 - The book name is 'bookNameInfo' on pdf reader screen
+2022-12-14 19:53:08 INFO  - Label 'Book name' :: Getting text from element
+2022-12-14 19:53:09 INFO  - Step 13 - I close pdf reader by back button
+2022-12-14 19:53:09 INFO  - Button 'Back button' :: Clicking
+2022-12-14 19:53:09 INFO  - Step 14 - Book "bookNameInfo" is opened on book details screen
+2022-12-14 19:53:09 INFO  - Taking screenshot
+2022-12-14 19:53:12 INFO  - Test finished - logging out
+2022-12-14 19:53:13 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 19:53:20 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 19:53:21 INFO  - Button 'Accounts' :: Clicking
+2022-12-14 19:53:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-14 19:53:24 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-14 19:53:24 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-14 19:53:25 INFO  - Button 'Log out' :: Clicking
+2022-12-14 19:53:26 INFO  - Button 'Log in' :: Getting text from element
+2022-12-14 19:53:46 INFO  - Unlocking credential for current thread
+2022-12-14 19:53:46 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@310c1336

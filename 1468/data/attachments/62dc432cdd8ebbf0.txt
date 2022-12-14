@@ -1,0 +1,81 @@
+2022-12-14 19:22:01 INFO  - Scenario 'Get a book from Subcategory List View and Return from Books in LYRASIS' start
+2022-12-14 19:22:01 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-14 19:22:37 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-14 19:22:37 INFO  - Session id - ca3e79094d0ff12a1bbe15b1f24c470a00b4632f
+2022-12-14 19:22:37 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-14 19:22:37 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-14 19:22:40 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-14 19:22:40 INFO  - Button 'Search' :: Clicking
+2022-12-14 19:22:42 INFO  - Text Field 'Search' :: Clearing
+2022-12-14 19:22:42 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-14 19:22:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-14 19:22:45 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2022-12-14 19:22:46 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 19:22:47 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 19:22:48 INFO  - Button 'Accounts' :: Clicking
+2022-12-14 19:22:49 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-14 19:22:50 INFO  - Locking credential with barcode 01230000000280
+2022-12-14 19:22:50 INFO  - There are books on the account: 
+2022-12-14 19:22:52 INFO  - bookName: One Good Dish Distributor: Palace Marketplace
+2022-12-14 19:22:52 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2022-12-14 19:22:52 INFO  - bookName: Pipe Dreams Distributor: Palace Marketplace
+2022-12-14 19:22:52 INFO  - bookName: 20th Century Passenger Flying Boats Distributor: Palace Marketplace
+2022-12-14 19:22:52 INFO  - Count of books on the account after opening account: 4
+2022-12-14 19:22:52 INFO  - Text Field 'Card' :: Clearing
+2022-12-14 19:22:52 INFO  - Text Field 'Card' :: Typing '01230000000280'
+2022-12-14 19:22:54 INFO  - Text Field 'Pin' :: Clearing
+2022-12-14 19:22:54 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-14 19:22:57 INFO  - Button 'Log in' :: Clicking
+2022-12-14 19:23:09 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-14 19:23:09 INFO  - Step 2 - Login is performed successfully
+2022-12-14 19:23:30 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-14 19:23:31 INFO  - Step 3 - I open Catalog
+2022-12-14 19:23:31 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-14 19:23:52 INFO  - Step 4 - I open search modal
+2022-12-14 19:24:12 INFO  - Button 'Search' :: Clicking
+2022-12-14 19:24:13 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-14 19:24:13 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-14 19:24:13 INFO  - randomBookName: Legends of the North Cascades
+2022-12-14 19:24:14 INFO  - Error details button is not present
+2022-12-14 19:24:14 INFO  - Text Field 'Search value input' :: Sending keys 'Legends of the North Cascades'
+2022-12-14 19:24:14 INFO  - Button 'Apply search' :: Clicking
+2022-12-14 19:24:16 INFO  - Error details button is not present
+2022-12-14 19:24:20 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2022-12-14 19:24:20 INFO  - Button 'eBooks' :: Clicking
+2022-12-14 19:24:41 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-14 19:24:41 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-14 19:24:42 INFO  - Button 'actionButton' :: Clicking
+2022-12-14 19:24:48 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2022-12-14 19:24:49 INFO  - Step 9 - Click READ action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-14 19:24:50 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-14 19:24:50 INFO  - Button 'actionButton' :: Clicking
+2022-12-14 19:24:51 INFO  - Step 10 - Wait for 3 seconds
+2022-12-14 19:24:54 INFO  - Step 11 - 'bookInfo' book is present on epub reader screen
+2022-12-14 19:24:56 INFO  - Label 'lblBookName' :: Getting text from element
+2022-12-14 19:24:57 INFO  - Book name on epub reader screen - Legends of the North Cascades: A Novel
+2022-12-14 19:24:57 INFO  - Step 12 - I return to previous screen for epub and pdf
+2022-12-14 19:24:59 INFO  - Step 13 - I open Books
+2022-12-14 19:24:59 INFO  - Button 'tabBooks' :: Clicking
+2022-12-14 19:25:00 INFO  - Step 14 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2022-12-14 19:25:03 INFO  - Step 15 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2022-12-14 19:25:04 INFO  - Label 'lblBookName' :: Clicking
+2022-12-14 19:25:04 INFO  - Step 16 - Click RETURN action button on book details screen
+2022-12-14 19:25:05 INFO  - Button 'Return' :: Clicking
+2022-12-14 19:25:10 INFO  - Step 17 - I open Books
+2022-12-14 19:25:10 INFO  - Button 'tabBooks' :: Clicking
+2022-12-14 19:25:11 INFO  - Step 18 - Wait for 7 seconds
+2022-12-14 19:25:18 INFO  - Step 19 - EBOOK book with READ action button and 'bookInfo' bookInfo is not present on books screen
+2022-12-14 19:25:59 INFO  - Taking screenshot
+2022-12-14 19:26:01 INFO  - Test finished - logging out
+2022-12-14 19:26:02 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 19:26:05 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 19:26:06 INFO  - Button 'Accounts' :: Clicking
+2022-12-14 19:26:07 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-14 19:26:09 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-14 19:26:09 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-14 19:26:10 INFO  - Button 'Log out' :: Clicking
+2022-12-14 19:26:10 INFO  - Button 'Log in' :: Getting text from element
+2022-12-14 19:26:15 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-14 19:26:15 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-14 19:26:16 INFO  - Unlocking credential for current thread
+2022-12-14 19:26:16 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@310c1336

@@ -1,0 +1,94 @@
+2022-12-14 19:58:47 INFO  - Scenario 'Open book to last page read' start
+2022-12-14 19:58:47 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-14 20:02:50 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-14 20:02:50 INFO  - Session id - 467c8e12d54991bf33c3941842e68a14e2795410
+2022-12-14 20:02:50 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-14 20:02:50 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-14 20:02:54 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-14 20:02:55 INFO  - Button 'Search' :: Clicking
+2022-12-14 20:02:57 INFO  - Text Field 'Search' :: Clearing
+2022-12-14 20:02:57 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-14 20:03:00 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-14 20:03:01 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-14 20:03:01 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 20:03:03 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 20:03:04 INFO  - Button 'Accounts' :: Clicking
+2022-12-14 20:03:06 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-14 20:03:06 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 20:03:06 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 20:03:08 INFO  - Button 'Accounts' :: Clicking
+2022-12-14 20:03:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-14 20:03:10 INFO  - Locking credential with barcode 01230000000281
+2022-12-14 20:03:10 INFO  - There are books on the account: 
+2022-12-14 20:03:11 INFO  - bookName: Love spell Distributor: Palace Marketplace
+2022-12-14 20:03:11 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2022-12-14 20:03:11 INFO  - bookName: Unplugged Play: Preschool Distributor: Palace Marketplace
+2022-12-14 20:03:11 INFO  - bookName: The Promise Distributor: Palace Marketplace
+2022-12-14 20:03:11 INFO  - bookName: My Animal Atlas Distributor: Palace Marketplace
+2022-12-14 20:03:11 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2022-12-14 20:03:11 INFO  - Count of books on the account after opening account: 6
+2022-12-14 20:03:11 INFO  - Text Field 'Card' :: Clearing
+2022-12-14 20:03:11 INFO  - Text Field 'Card' :: Typing '01230000000281'
+2022-12-14 20:03:13 INFO  - Text Field 'Pin' :: Clearing
+2022-12-14 20:03:13 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-14 20:03:15 INFO  - Button 'Log in' :: Clicking
+2022-12-14 20:03:20 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-14 20:03:21 INFO  - Step 3 - Login is performed successfully
+2022-12-14 20:03:43 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-14 20:03:43 INFO  - Step 4 - I open Catalog
+2022-12-14 20:03:43 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-14 20:04:04 INFO  - Step 5 - I open search modal
+2022-12-14 20:04:24 INFO  - Button 'Search' :: Clicking
+2022-12-14 20:04:26 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-14 20:04:26 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-14 20:04:26 INFO  - randomBookName: We Sailed It Our Way
+2022-12-14 20:04:26 INFO  - Error details button is not present
+2022-12-14 20:04:27 INFO  - Text Field 'Search value input' :: Sending keys 'We Sailed It Our Way'
+2022-12-14 20:04:28 INFO  - Button 'Apply search' :: Clicking
+2022-12-14 20:04:30 INFO  - Error details button is not present
+2022-12-14 20:04:33 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-14 20:04:35 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-14 20:04:35 INFO  - Button 'actionButton' :: Clicking
+2022-12-14 20:05:14 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-14 20:05:15 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-14 20:05:15 INFO  - Label 'lblBookName' :: Clicking
+2022-12-14 20:05:15 INFO  - Step 9 - Click READ action button on book details screen
+2022-12-14 20:05:16 INFO  - Button 'Read' :: Clicking
+2022-12-14 20:05:17 INFO  - Step 10 - I scroll page forward from 7 to 10 times
+2022-12-14 20:05:17 INFO  - Scrolling 9 times on reader epub screen
+2022-12-14 20:05:49 INFO  - Step 11 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2022-12-14 20:05:49 INFO  - Label 'lblPageNumber' :: Getting text from element
+2022-12-14 20:05:51 INFO  - Label 'lblChapterName' :: Getting text from element
+2022-12-14 20:05:52 INFO  - Step 12 - Wait for 3 seconds
+2022-12-14 20:05:55 INFO  - Step 13 - I return to previous screen for epub and pdf
+2022-12-14 20:05:57 INFO  - Step 14 - Click READ action button on book details screen
+2022-12-14 20:05:57 INFO  - Button 'Read' :: Clicking
+2022-12-14 20:05:58 INFO  - Step 15 - 'bookInfo' book is present on epub reader screen
+2022-12-14 20:06:04 INFO  - Label 'lblBookName' :: Getting text from element
+2022-12-14 20:06:05 INFO  - Book name on epub reader screen - We Sailed It Our Way
+2022-12-14 20:06:05 INFO  - Step 16 - PageNumber 'pageNumberKey' is correct
+2022-12-14 20:06:05 INFO  - Label 'lblPageNumber' :: Getting text from element
+2022-12-14 20:06:05 INFO  - Step 17 - I scroll page forward from 3 to 4 times
+2022-12-14 20:06:06 INFO  - Scrolling 3 times on reader epub screen
+2022-12-14 20:06:12 INFO  - Step 18 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2022-12-14 20:06:12 INFO  - Label 'lblPageNumber' :: Getting text from element
+2022-12-14 20:06:14 INFO  - Label 'lblChapterName' :: Getting text from element
+2022-12-14 20:06:15 INFO  - Step 19 - Wait for 3 seconds
+2022-12-14 20:06:18 INFO  - Step 20 - I restart app
+2022-12-14 20:06:42 INFO  - Step 21 - I open Books
+2022-12-14 20:06:42 INFO  - Button 'tabBooks' :: Clicking
+2022-12-14 20:06:42 INFO  - Step 22 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2022-12-14 20:07:23 INFO  - Taking screenshot
+2022-12-14 20:07:25 INFO  - Test finished - logging out
+2022-12-14 20:07:26 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 20:07:28 INFO  - Button 'tabSettings' :: Clicking
+2022-12-14 20:07:29 INFO  - Button 'Accounts' :: Clicking
+2022-12-14 20:07:30 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-14 20:07:32 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-14 20:07:33 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-14 20:07:33 INFO  - Button 'Log out' :: Clicking
+2022-12-14 20:07:34 INFO  - Button 'Log in' :: Getting text from element
+2022-12-14 20:07:40 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-14 20:07:41 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-14 20:07:41 INFO  - Unlocking credential for current thread
+2022-12-14 20:07:41 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@25effcc5
