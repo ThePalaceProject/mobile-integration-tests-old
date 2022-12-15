@@ -1,0 +1,1090 @@
+2022-12-15 19:47:02 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2022-12-15 19:47:02 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-15 19:47:36 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-15 19:47:36 INFO  - Session id - 3bac2ab4da994153a6bda8e0d67fa9588fe1f10c
+2022-12-15 19:47:36 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-15 19:47:36 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-15 19:47:39 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-15 19:47:40 INFO  - Button 'Search' :: Clicking
+2022-12-15 19:47:43 INFO  - Text Field 'Search' :: Clearing
+2022-12-15 19:47:43 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-15 19:47:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-15 19:47:46 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-15 19:47:46 INFO  - Button 'tabSettings' :: Clicking
+2022-12-15 19:47:48 INFO  - Button 'tabSettings' :: Clicking
+2022-12-15 19:47:49 INFO  - Button 'Accounts' :: Clicking
+2022-12-15 19:47:51 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-15 19:47:51 INFO  - Button 'tabSettings' :: Clicking
+2022-12-15 19:47:52 INFO  - Button 'tabSettings' :: Clicking
+2022-12-15 19:47:53 INFO  - Button 'Accounts' :: Clicking
+2022-12-15 19:47:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-15 19:47:56 INFO  - Locking credential with barcode 01230000000283
+2022-12-15 19:47:56 INFO  - There are books on the account: 
+2022-12-15 19:47:57 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-15 19:47:57 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-15 19:47:57 INFO  - Count of books on the account after opening account: 2
+2022-12-15 19:47:57 INFO  - Text Field 'Card' :: Clearing
+2022-12-15 19:47:57 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-15 19:47:59 INFO  - Text Field 'Pin' :: Clearing
+2022-12-15 19:47:59 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-15 19:48:01 INFO  - Button 'Log in' :: Clicking
+2022-12-15 19:48:09 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-15 19:48:10 INFO  - Step 3 - Login is performed successfully
+2022-12-15 19:48:31 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-15 19:48:32 INFO  - Step 4 - I open Catalog
+2022-12-15 19:48:32 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-15 19:48:53 INFO  - Step 5 - I open search modal
+2022-12-15 19:49:14 INFO  - Button 'Search' :: Clicking
+2022-12-15 19:49:15 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-15 19:49:15 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-15 19:49:15 INFO  - randomBookName: An Education
+2022-12-15 19:49:16 INFO  - Error details button is not present
+2022-12-15 19:49:16 INFO  - Text Field 'Search value input' :: Sending keys 'An Education'
+2022-12-15 19:49:17 INFO  - Button 'Apply search' :: Clicking
+2022-12-15 19:49:19 INFO  - Error details button is not present
+2022-12-15 19:49:22 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-15 19:49:24 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-15 19:49:24 INFO  - Button 'actionButton' :: Clicking
+2022-12-15 19:49:30 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-15 19:49:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-15 19:49:33 INFO  - Label 'lblBookName' :: Clicking
+2022-12-15 19:49:34 INFO  - Step 9 - Click READ action button on book details screen
+2022-12-15 19:49:35 INFO  - Button 'Read' :: Clicking
+2022-12-15 19:49:36 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2022-12-15 19:49:36 INFO  - Scrolling 7 times on reader epub screen
+2022-12-15 19:49:59 INFO  - Step 11 - I save font size as 'fontSize'
+2022-12-15 19:50:00 INFO  - context - NATIVE_APP
+2022-12-15 19:50:00 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2022-12-15 19:50:01 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2022-12-15 19:50:02 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.2.13.4" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<p class="p0"><span class="t2">An Education</span></p>
+<p class="p0">By Katharine O’Neill</p>
+<p class="p2">Rena was feeling better after a second glass of wine. She and Tracey had consumed a lot of it since they had arrived at the cabin, snuggling in the warmth as the snow swirled around outside. Not much of a drinker herself, Rena had never expected the influence the wine had on her—like she was wrapped up in a warm blanket. Or perhaps it was the log fire burning away in the fireplace. Rena didn’t know at this point.</p>
+<p class="p2">She looked across at Tracey, who was curled up on the other end of the couch, nursing her own glass of wine. Her smile had faded and she was looking a little despondent. Rena couldn’t blame her; she was feeling the same.</p>
+<p class="p2">This winter holiday was meant to be for four people to get away from the hustle and bustle of the city. Rena and Andy, Tracey and Louise. Rena hadn’t seen her best friend for months due to their hectic lifestyles, and she simply wanted to spend the week after Christmas with Louise.</p>
+<p class="p2">But that had all gone to shit. Now she was here, very newly single, with her best friend’s girlfriend. Newly single, as well.</p>
+<p class="p2">It was worrying to see Tracey down like this. She was always outgoing and fun, a twinkle always in her eye, and a smile was never too far away. Now she was looking forlorn, staring into the rapidly diminishing wine in her glass.</p>
+<p class="p2">To see someone, as strong as Tracey, discover the woman she loved had cheated on her and be shattered by it, hurt Rena. She wanted to hold Tracey, comfort her as she cried. The urge to hold Tracey was an odd sensation, but Rena had a feeling, from the way Tracey kept looking at her, that she wouldn’t mind.</p>
+<p class="p2">Rena had thought herself straight, but there was something about Tracey that had drawn Rena to her. At thirty, Tracey was toned and physically fit. She had the vitality of a teenager. Rena found it a struggle to keep up with her and Louise. Her best friend seemed to feed off Tracey’s energy.</p>
+<p class="p2">Being curvy and a tad overweight, Rena wasn’t able to move after them as quickly. Even Andy left Rena behind. And that lowered Rena’s mood, especially when Andy jabbed at her about her weight.</p>
+<p class="p2">He wouldn’t be saying anything about her weight now.</p>
+<p class="p2">Rena watched as Tracey ran her hand through her black curls. Her breasts, encased in a soft red jumper, moved as her arm lifts. Then her jumper rode up and Rena saw the smooth, flat skin of Tracey’s stomach.</p>
+<p class="p2">Somehow, watching Tracey made Rena’s mouth go dry.</p>
+<p class="p2">The wine was doing something to her.</p>
+<p class="p2">Rena put her glass to one side and turned to Tracey, curling her legs under her.</p>
+<p class="p2">“Have you ever cheated on someone, Tracey?”</p>
+<p class="p2">“What did you say?”</p>
+<p class="p2">Tracey looked confused. Rena bit her lip.</p>
+<p class="p2">“Have you ever cheated on a girlfriend?”</p>
+<p class="p2">“Of course I haven’t.” Tracey scowled. “I would never do that. I don’t think I even have it in me to cheat. Why are you asking?”</p>
+<p class="p2">“I don’t really know.” Rena slowly stretched out her legs, inching her toes closer to Tracey’s feet. “I don’t think I have it in me to cheat, either. But I wanted to know how anyone could have the ability to cheat and not feel any guilt over it.”</p>
+<p class="p2">Tracey snorted.</p>
+<p class="p2">“Well, I’m the wrong person to ask about that.” Tracey put her glass on the table bedside her. Then she rubbed her eyes and yawned. “Sometimes, I guess they do feel something. But often it’s only regret, because they’ve been caught. It’s a sense of control, cheating. They’re in charge and it’s empowering. But, if I’m honest, I don’t see the attraction.”</p>
+<p class="p2">“Neither do I.” Rena paused. “Did you know Louise was into men as well?”</p>
+<p class="p2">“I knew she was bisexual, but she had mentioned more than once that she didn’t find Andy attractive.”</p>
+<p class="p2">Rena grunted.</p>
+<p class="p2">“Kind of difficult to argue when there’s eight inches of cock shoved inside you.”</p>
+<p class="p2">Tracey stared at her. Then she threw her head back and laughed. Rena tried to laugh, but the pain was still there. Her boyfriend and her best friend, gone. Three days and it was still fresh.</p>
+<p class="p2">“Louise was my best friend.”</p>
+<p class="p2">Tracey’s expression softened. She shifted around, sliding across the couch and putting an arm around Rena’s shoulders. Rena didn’t argue as Tracey hugged her, rubbing her back. Rena sighed and closed her eyes. This felt good. Really good.</p>
+<p class="p2">Tracey shifted a little, and then she was using both hands, massaging Rena’s shoulders. This had Rena moaning. She did love a massage. Maybe she should ask Tracey to do them more often.</p>
+<p class="p2">Then Rena realized that Tracey’s hands were drifting even lower down her back, her fingers brushing against the hem of her sweater. It had ridden up to reveal some flesh at the small of her back. Rena tried not to shiver as Tracey’s fingers brushed her skin.</p>
+<p class="p2">Tracey hesitated for the briefest of moments and then she pushed her hands under Rena’s sweater.</p>
+<p class="p2">Rena had never known Tracey to be so brazen. Was she coming onto her? The thought that Tracey was making the moves on her had Rena’s clit throbbing. Rena had to bite her lip to stop herself from rubbing her pelvis against the couch. Her heart pounded as Tracey’s fingers pushed up her back, still rubbing her warm palms over her skin. Then her fingers brushed against Rena’s bra strap.</p>
+<p class="p2">Rena had never had a woman try to seduce her. And she realized that she liked it. When it was a beautiful woman like Tracey, it felt empowering. Rena swallowed.</p>
+<p class="p2">“Can I ask you a question, Tracey?”</p>
+<p class="p2">“Depends on what the question is.”</p>
+<p class="p2">“What’s it like making love to a woman?”</p>
+<p class="p2">Tracey’s hands paused, her hands right over the clasp of Rena’s bra.</p>
+<p class="p2">“Why do you ask that?”</p>
+<p class="p2">“I’m curious.”</p>
+<p class="p2">Rena didn’t want to turn around, but she wanted to see Tracey. She shifted onto her back, Tracey’s hands staying where they were as Rena moved. Now her hands were lying on Rena’s breasts, her nipples stabbing Tracey’s hands.</p>
+<p class="p2">“I’ve always been curious. How does…you know…how does it work?”</p>
+<p class="p2">Tracey’s eyes were darkening, her pupils dilating. Rena saw her nostrils twitch.</p>
+<p class="p2">“It’s pretty much the same as making love to a man.” She flexed her fingers over Rena’s breasts. “There are just a few anatomical differences.”</p>
+<p class="p2">Rena felt as though she was having a heart attack. Andy had never done this to her. The attraction to him felt muted compared to what she was feeling now. Tracey had some kind of hold on her that Rena couldn’t describe. And it felt so good.</p>
+<p class="p2">She did have a momentary thought about Andy, however. She was a single woman, but he was still fresh in her mind. There was that moment of regret, as if she was cheating on him.</p>
+<p class="p2">“Hey.” Tracey’s face was closer to hers, her expression saying she knew where Rena’s thoughts were. “Don’t think about them. They’re not here and we are. Let’s focus on us.”</p>
+<p class="p2">“I wish I could.” Rena stared at the ceiling. “I just don’t know how. My brain keeps switching back to them. I don’t want to think about them, but it’s there.”</p>
+<p class="p2">She wasn’t prepared for Tracey’s kiss, a gentle brush of lips across hers before a firmer press. Rena started, but found herself relaxing into the kiss, her hands lifting to run up Tracey’s sides.</p>
+<p class="p2">This was good. Too good. Rena’s brain switched back on and she pulled away.</p>
+<p class="p2">“What are you doing?”</p>
+<p class="p2">Tracey grinned. Her hands squeezed Rena’s breasts.</p>
+<p class="p2">“Trying to distract you.” She then rolled Rena’s nipples between her fingers. “Is it working?”</p>
+<p class="p2">Rena gasped and thrust her breasts into Tracey’s hands. The tugging seemed to go straight down to her clit, which was pulsating hard as her panties became wet. She squeezed her thighs together to try and ward off the throbbing.</p>
+<p class="p2">“Keep kissing me and I’ll find out.” She whispered.</p>
+<p class="p2">Tracey laughed.</p>
+<p class="p2">“With pleasure.”</p>
+<p class="p2">This time the kiss was more passionate, Tracey slipping her arms around Rena and pulling her into her arms. Her tongue slipped along Rena’s lips and Rena opened her mouth, Tracey’s tongue diving inside. Rena shuddered as her tongue was rubbed and sucked into Tracey’s mouth. Her hands cupped Tracey’s breasts for the first time and gave them a firm squeeze. Tracey groaned into Rena’s mouth, kissing her more fiercely. She really could kiss. Rena was trembling, her arousal twisting in her belly and steadily growing.</p>
+<p class="p2">Tracey pulled away and slid to kneel on the floor. She urged Rena to sit up and tugged her sweater up. Rena raised her arms and Tracey pulled her sweater off, tossing it onto the floor. Rena unsnapped her bra and slid it down her arms, throwing it aside. She wasn’t expecting for Tracey to pounce on her, sucking one breast into her mouth. Pleasure burst inside her. Rena clutched onto Tracey’s shoulders, her fingers digging in as Tracey sucked one nipple and then the other into her mouth, using her tongue and teeth to titillate. Her hands slid down to Rena’s backside, slipping inside her jeans and cupping her backside.</p>
+<p class="p2">Rena felt like her head was about to explode. She needed a release soon. Never had she reached a climax so quickly, only to be teetering on the edge with Tracey refusing to let her fall. She felt Tracey gently ease her back as her hands drifted to her jeans.</p>
+<p class="p2">“I feel like a virgin on her first time.” She gasped as Tracey unsnapped her jeans.</p>
+<p class="p2">Tracey grinned and pressed a kiss to her navel.</p>
+<p class="p2">“Just relax. Let me do the work.” She nudged Rena’s hips. “Lift your hips and spread your legs.”</p>
+<p class="p2">Rena lifted her hips and Tracey tugged off her jeans, pulling her panties with them. They joined the rest of her clothes on the floor and Tracey sat back as Rena spread her legs. Normally, she was nervous about showing her naked body to anyone. Even Andy hadn’t seen her body in anything other than shadow. But there was something about the way Tracey was looking at her that had Rena feeling sexy. The woman practically growled as Rena opened up her legs, her body flushed and throbbing.</p>
+<p class="p2">“Just gorgeous.” Tracey shuffled forward and ran her hands up Rena’s legs. “Absolutely gorgeous.”</p>
+<p class="p2">She brushed her fingers over Rena’s pussy and Rena yelped.</p>
+<p class="p2">“Wet already. Am I turning you on?”</p>
+<p class="p2">“Yes.” Rena panted. “You’re turning me on.”</p>
+<p class="p2">“Good.”</p>
+<p class="p2">Tracey lowered her head and Rena gasped when she felt cool lips on her clit, Tracey’s tongue flicking out over her hardened bud. Rena’s body began to hum as Tracey’s mouth worked over her clit and licked around her pussy, her tongue dipping inside. Then Rena felt a finger slipping in, Tracey’s hand turning and her finger curling up. It rubbed against Rena’s G-spot and that had electricity shooting up Rena’s back and coming around to tighten her nipples.</p>
+<p class="p2">Her climax was so close.</p>
+<p class="p2">Tracey began to lick faster, adding another finger to the first and thrusting hard and fast. Rena opened her legs wider to take more in, her hands going to Tracey’s head. She threaded her fingers through Tracey’s hair, keeping her head pinned to her pussy. Her orgasm was very close now and she didn’t want to run away from it.</p>
+<p class="p2">When it did come, Rena was completely caught off-guard. It seemed to slam into her and she let out a scream, her back arching off the couch and almost causing her to slide off. Tracey drew out the orgasm for a long time, making Rena feel like she was struggling for air. She couldn’t carry on, but Tracey was determined to wring her out.</p>
+<p class="p2">And Rena didn’t want it to stop.</p>
+<p class="p2">“Holy shit!”</p>
+<p class="p3">* * * *</p>
+<p class="p2">Rena looked beautiful laying there naked, her body flushed with her orgasm. And she tasted so sweet as well. Tracey couldn’t get enough of her. She wanted to pull Rena to the floor and jump on her, but she was clearly worn out and needed a break.</p>
+<p class="p2">Giving Rena’s pussy one final lick and kiss, she crawled up Rena’s body. Rena accepted her kiss gladly, pulling Tracey against her. Having a naked woman in her arms when she was still fully dressed felt rather erotic.</p>
+<p class="p2">“Wow.” Rena panted as Tracey drew back, tracing her tongue down her neck. “Just…wow.”</p>
+<p class="p2">Tracey chuckled.</p>
+<p class="p2">“I’m glad you could enjoy it.”</p>
+<p class="p2">“I haven’t had amazing sex like that in a long time.”</p>
+<p class="p2">“Really? Andy was always bragging to us about having a great sex life.”</p>
+<p class="p2">“Not with me.” Rena lifted her head. “We hadn’t had sex in months.”</p>
+<p class="p2">Tracey groaned when she realized what she had heard.</p>
+<p class="p2">“Oh, God. We were fools, weren’t we?”</p>
+<p class="p2">Rena tugged her head up and kissed her hard.</p>
+<p class="p2">“Not now. We got rid of them, didn’t we?”</p>
+<p class="p2">“We did.” Tracey rubbed her body against Rena’s, feeling the other woman’s nipples pressing against her. “Men are overrated, anyway.”</p>
+<p class="p2">Rena giggled.</p>
+<p class="p2">“With you around, certainly.” She paused. “Were you serious before?”</p>
+<p class="p2">“About what?”</p>
+<p class="p2">“You mentioned when we first met that you’d never had a man’s cock before. Were you serious about that?”</p>
+<p class="p2">“Sort of.” Tracey drew back a little and made a face. “A guy took my virginity when I was seventeen. I didn’t find it appealing at all. Put me right off.”</p>
+<p class="p2">“It’s not as bad as you think it is.” Rena rose up, giving Tracey a sly grin. “Because I’ve just thought of something that could show you.”</p>
+<p class="p2">Tracey watched in amazement as Rena jumped off the couch and padded naked towards the bedroom she and Andy would have been sharing. She couldn’t take her eyes off her backside. Firm, curvy and round. Tracey could feel her hands itching to grab a hold of her again. She licked her lips, still tasting Rena’s juices on her mouth.</p>
+<p class="p2">She wanted another taste.</p>
+<p class="p2">Rena came back a moment later, carrying a bag that looked familiar. Tracey sat up when she saw the distinctive color.</p>
+<p class="p2">“Oh, God. That’s Louise’s holdall. What are you doing with it?”</p>
+<p class="p2">“I accidentally picked it up instead of mine when I left. I didn’t realize until we got here.”</p>
+<p class="p2">“What were her things doing at yours?”</p>
+<p class="p2">Rena shuddered.</p>
+<p class="p2">“I don’t know, and I don’t want to think about it. But I had a root around and I got an eyeful, let me tell you.”</p>
+<p class="p2">Tracey knew why. She could feel her face going red as she reached for the bag.</p>
+<p class="p2">“We do use a lot of toys. But I don’t recognize half of these.” She picked out a few life-size dildos, a butt plug, and a harness. Tracey had never seen this harness before. “And what is that?”</p>
+<p class="p2">Rena took it and inspected it.</p>
+<p class="p2">“It’s a double-dildo strap-on harness.”</p>
+<p class="p2">“What…?”</p>
+<p class="p2">“It’s for double penetration.”</p>
+<p class="p2">Tracey’s mouth fell open. Louise had brought that along for a reason. Tracey wasn’t above using a strap-on in lovemaking, but she had never had it used on her. And from the gleam in Rena’s eyes, she was thinking of doing that exactly.</p>
+<p class="p2">“You want to use it?”</p>
+<p class="p2">Rena grinned and leant over.</p>
+<p class="p2">“Not me. I want to use it on you.”</p>
+<p class="p2">“Me?” Tracey squeaked.</p>
+<p class="p2">Rena pulled back, still grinning.</p>
+<p class="p2">“You’ve shown me something I never knew was incredible. It’s time I returned the favour.”</p>
+<p class="p2">Tracey wasn’t sure about that. She hadn’t enjoyed it the last time. But that had been with a fumbling seventeen-year-old. Not with Rena Santiago.</p>
+<p class="p2">So, when Rena started kissing her, easing her down onto the rug, Tracey didn’t stop her. She liked this side of Rena. Now she was taking control, more at ease. Her hands danced over Tracey’s skin, running under her sweater and into her leggings. Tracey lifted her hips and felt Rena’s hands cup her backside, pushing her panties out the way.</p>
+<p class="p2">Tracey had been unsure before. But now with Rena touching her, kissing down her chest as she tugged off Tracey’s shirt, she could feel the arousal building. The thought of Rena wearing the strap-on had Tracey whimpering. It was an erotic image.</p>
+<p class="p2">It didn’t take long for Rena to undress Tracey, tossing her clothes to the side. Then she reached for the harness and put it on. Tracey lay on the rug and watched as Rena picked out a dildo that had to be at least eight inches and with a thick girth, along with a bottle of lube. She almost forgot how to breathe as Rena fixed the dildo to the harness and started to slather it was lube. That was more enticing than she thought.</p>
+<p class="p2">Tracey licked her lips. Rena looked up at her and grinned.</p>
+<p class="p2">“On your hands and knees.” She ordered.</p>
+<p class="p2">Tracey wasn’t about to argue. She rolled onto her front and rose up onto her knees, her hands flat on the floor. Rena shifted in behind her and nudged her knees open. Tracey braced herself as she felt the hard head of the dildo press against her pussy. Rena shushed her and rubbed a hand down her back.</p>
+<p class="p2">“Easy. I’ll go slow. Just relax.”</p>
+<p class="p2">Then she began to slide forward. The dildo slid through Tracey’s pussy lips and inside her. It stretched her in a way Tracey hadn’t anticipated. She gasped, her hands tightening in the rug.</p>
+<p class="p2">“Okay?” Rena breathed.</p>
+<p class="p2">Tracey couldn’t say anything. The pressure was turning into intense pleasure. She could only nod and she slowly pushed back.</p>
+<p class="p2">Rena didn’t disappoint. She drew out a little and then thrust back in, the dildo sliding in more. Tracey moaned. That was better than she thought.</p>
+<p class="p2">Rena pushed the dildo in more and more until she was fully seated in Tracey’s pussy. Tracey was breathing heavily, her pussy clamping on the dildo. God, this felt so good. Then Rena leant over, her fingers finding Tracey’s clit.</p>
+<p class="p2">“I’m going to fuck you now.” She whispered as she rubbed Tracey’s clit. “Come for me.”</p>
+<p class="p2">Tracey was almost knocked onto the floor as Rena pulled the dildo out and rammed it back in. Fireworks began to go off in her head and Tracey cried out. Her skin was covered in goose bumps. Her fingers rubbing on Tracey’s clit, Rena fucked her, her pelvis hitting Tracey’s backside. Her other hand came around and cupped Tracey’s breast, tweaking her nipple.</p>
+<p class="p2">Then Rena pulled Tracey upright. Tracey found her body flush against hers and the angle of the dildo changed. It rubbed against her G-spot and her orgasm exploded. Tracey shuddered and writhed in Rena’s arms as she carried on thrusting, drawing her climax out until Tracey was sweating and shuddering in her arms. Her body felt as though she had been running a marathon.</p>
+<p class="p2">Eventually, Rena slowed down and eased her thrusting until she had stopped, still fully wedged in Tracey’s pussy. She gently lowered them to the floor, lying on top of Tracey as both of them got their breath back.</p>
+<p class="p2">Tracey had thought she wasn’t missing anything. Now she realized she was missing a lot. She wondered if Rena would show her a bit more on their vacation. Or if Tracey could use the strap-on with Rena. The idea of fucking Rena with a dildo was a temptation she wanted to explore.</p>
+<p class="p2">Then Rena started giggling above her. Tracey lifted her head.</p>
+<p class="p2">“What’s so funny?”</p>
+<p class="p2">“Don’t look now,” Rena whispered, “But Andy and Louise are in the doorway and they’re staring at us.”</p>
+<p class="p2">Andy and Louise were here? They must have paid for another couple of tickets. Why they thought they could go on the vacation with their exes without consequence, Tracey had no idea. But they weren’t going to stay with them. And after what they had done, Tracey wasn’t going to stop her pleasure to deal with them.</p>
+<p class="p2">Looping her leg behind Rena’s, she rolled them until Rena was on her back. Tracey climbed off, the dildo sliding out of her, and turned, straddling Rena’s hips. She slid down onto the dildo again and sighed, cupping Rena’s breasts as Rena arched her back.</p>
+<p class="p2">“Let them look.” She whispered back. “I’m not done with you yet.”</p>
+<p class="p4"> </p>
+<p class="p4">THE END</p>
+<p class="p4"> </p>
+</body>
+</html>
+2022-12-15 19:50:02 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2022-12-15 19:50:02 INFO  - Step 12 - I open font settings
+2022-12-15 19:50:03 INFO  - Button 'btnFontSettings' :: Clicking
+2022-12-15 19:50:04 INFO  - Step 13 - I INCREASE_FONT of text
+2022-12-15 19:50:04 INFO  - Button 'setTextLarger' :: Clicking
+2022-12-15 19:50:05 INFO  - Step 14 - Font size 'fontSize' is increased
+2022-12-15 19:50:05 INFO  - context - NATIVE_APP
+2022-12-15 19:50:05 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2022-12-15 19:50:06 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2022-12-15 19:50:06 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.2.13.4" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<p class="p0"><span class="t2">An Education</span></p>
+<p class="p0">By Katharine O’Neill</p>
+<p class="p2">Rena was feeling better after a second glass of wine. She and Tracey had consumed a lot of it since they had arrived at the cabin, snuggling in the warmth as the snow swirled around outside. Not much of a drinker herself, Rena had never expected the influence the wine had on her—like she was wrapped up in a warm blanket. Or perhaps it was the log fire burning away in the fireplace. Rena didn’t know at this point.</p>
+<p class="p2">She looked across at Tracey, who was curled up on the other end of the couch, nursing her own glass of wine. Her smile had faded and she was looking a little despondent. Rena couldn’t blame her; she was feeling the same.</p>
+<p class="p2">This winter holiday was meant to be for four people to get away from the hustle and bustle of the city. Rena and Andy, Tracey and Louise. Rena hadn’t seen her best friend for months due to their hectic lifestyles, and she simply wanted to spend the week after Christmas with Louise.</p>
+<p class="p2">But that had all gone to shit. Now she was here, very newly single, with her best friend’s girlfriend. Newly single, as well.</p>
+<p class="p2">It was worrying to see Tracey down like this. She was always outgoing and fun, a twinkle always in her eye, and a smile was never too far away. Now she was looking forlorn, staring into the rapidly diminishing wine in her glass.</p>
+<p class="p2">To see someone, as strong as Tracey, discover the woman she loved had cheated on her and be shattered by it, hurt Rena. She wanted to hold Tracey, comfort her as she cried. The urge to hold Tracey was an odd sensation, but Rena had a feeling, from the way Tracey kept looking at her, that she wouldn’t mind.</p>
+<p class="p2">Rena had thought herself straight, but there was something about Tracey that had drawn Rena to her. At thirty, Tracey was toned and physically fit. She had the vitality of a teenager. Rena found it a struggle to keep up with her and Louise. Her best friend seemed to feed off Tracey’s energy.</p>
+<p class="p2">Being curvy and a tad overweight, Rena wasn’t able to move after them as quickly. Even Andy left Rena behind. And that lowered Rena’s mood, especially when Andy jabbed at her about her weight.</p>
+<p class="p2">He wouldn’t be saying anything about her weight now.</p>
+<p class="p2">Rena watched as Tracey ran her hand through her black curls. Her breasts, encased in a soft red jumper, moved as her arm lifts. Then her jumper rode up and Rena saw the smooth, flat skin of Tracey’s stomach.</p>
+<p class="p2">Somehow, watching Tracey made Rena’s mouth go dry.</p>
+<p class="p2">The wine was doing something to her.</p>
+<p class="p2">Rena put her glass to one side and turned to Tracey, curling her legs under her.</p>
+<p class="p2">“Have you ever cheated on someone, Tracey?”</p>
+<p class="p2">“What did you say?”</p>
+<p class="p2">Tracey looked confused. Rena bit her lip.</p>
+<p class="p2">“Have you ever cheated on a girlfriend?”</p>
+<p class="p2">“Of course I haven’t.” Tracey scowled. “I would never do that. I don’t think I even have it in me to cheat. Why are you asking?”</p>
+<p class="p2">“I don’t really know.” Rena slowly stretched out her legs, inching her toes closer to Tracey’s feet. “I don’t think I have it in me to cheat, either. But I wanted to know how anyone could have the ability to cheat and not feel any guilt over it.”</p>
+<p class="p2">Tracey snorted.</p>
+<p class="p2">“Well, I’m the wrong person to ask about that.” Tracey put her glass on the table bedside her. Then she rubbed her eyes and yawned. “Sometimes, I guess they do feel something. But often it’s only regret, because they’ve been caught. It’s a sense of control, cheating. They’re in charge and it’s empowering. But, if I’m honest, I don’t see the attraction.”</p>
+<p class="p2">“Neither do I.” Rena paused. “Did you know Louise was into men as well?”</p>
+<p class="p2">“I knew she was bisexual, but she had mentioned more than once that she didn’t find Andy attractive.”</p>
+<p class="p2">Rena grunted.</p>
+<p class="p2">“Kind of difficult to argue when there’s eight inches of cock shoved inside you.”</p>
+<p class="p2">Tracey stared at her. Then she threw her head back and laughed. Rena tried to laugh, but the pain was still there. Her boyfriend and her best friend, gone. Three days and it was still fresh.</p>
+<p class="p2">“Louise was my best friend.”</p>
+<p class="p2">Tracey’s expression softened. She shifted around, sliding across the couch and putting an arm around Rena’s shoulders. Rena didn’t argue as Tracey hugged her, rubbing her back. Rena sighed and closed her eyes. This felt good. Really good.</p>
+<p class="p2">Tracey shifted a little, and then she was using both hands, massaging Rena’s shoulders. This had Rena moaning. She did love a massage. Maybe she should ask Tracey to do them more often.</p>
+<p class="p2">Then Rena realized that Tracey’s hands were drifting even lower down her back, her fingers brushing against the hem of her sweater. It had ridden up to reveal some flesh at the small of her back. Rena tried not to shiver as Tracey’s fingers brushed her skin.</p>
+<p class="p2">Tracey hesitated for the briefest of moments and then she pushed her hands under Rena’s sweater.</p>
+<p class="p2">Rena had never known Tracey to be so brazen. Was she coming onto her? The thought that Tracey was making the moves on her had Rena’s clit throbbing. Rena had to bite her lip to stop herself from rubbing her pelvis against the couch. Her heart pounded as Tracey’s fingers pushed up her back, still rubbing her warm palms over her skin. Then her fingers brushed against Rena’s bra strap.</p>
+<p class="p2">Rena had never had a woman try to seduce her. And she realized that she liked it. When it was a beautiful woman like Tracey, it felt empowering. Rena swallowed.</p>
+<p class="p2">“Can I ask you a question, Tracey?”</p>
+<p class="p2">“Depends on what the question is.”</p>
+<p class="p2">“What’s it like making love to a woman?”</p>
+<p class="p2">Tracey’s hands paused, her hands right over the clasp of Rena’s bra.</p>
+<p class="p2">“Why do you ask that?”</p>
+<p class="p2">“I’m curious.”</p>
+<p class="p2">Rena didn’t want to turn around, but she wanted to see Tracey. She shifted onto her back, Tracey’s hands staying where they were as Rena moved. Now her hands were lying on Rena’s breasts, her nipples stabbing Tracey’s hands.</p>
+<p class="p2">“I’ve always been curious. How does…you know…how does it work?”</p>
+<p class="p2">Tracey’s eyes were darkening, her pupils dilating. Rena saw her nostrils twitch.</p>
+<p class="p2">“It’s pretty much the same as making love to a man.” She flexed her fingers over Rena’s breasts. “There are just a few anatomical differences.”</p>
+<p class="p2">Rena felt as though she was having a heart attack. Andy had never done this to her. The attraction to him felt muted compared to what she was feeling now. Tracey had some kind of hold on her that Rena couldn’t describe. And it felt so good.</p>
+<p class="p2">She did have a momentary thought about Andy, however. She was a single woman, but he was still fresh in her mind. There was that moment of regret, as if she was cheating on him.</p>
+<p class="p2">“Hey.” Tracey’s face was closer to hers, her expression saying she knew where Rena’s thoughts were. “Don’t think about them. They’re not here and we are. Let’s focus on us.”</p>
+<p class="p2">“I wish I could.” Rena stared at the ceiling. “I just don’t know how. My brain keeps switching back to them. I don’t want to think about them, but it’s there.”</p>
+<p class="p2">She wasn’t prepared for Tracey’s kiss, a gentle brush of lips across hers before a firmer press. Rena started, but found herself relaxing into the kiss, her hands lifting to run up Tracey’s sides.</p>
+<p class="p2">This was good. Too good. Rena’s brain switched back on and she pulled away.</p>
+<p class="p2">“What are you doing?”</p>
+<p class="p2">Tracey grinned. Her hands squeezed Rena’s breasts.</p>
+<p class="p2">“Trying to distract you.” She then rolled Rena’s nipples between her fingers. “Is it working?”</p>
+<p class="p2">Rena gasped and thrust her breasts into Tracey’s hands. The tugging seemed to go straight down to her clit, which was pulsating hard as her panties became wet. She squeezed her thighs together to try and ward off the throbbing.</p>
+<p class="p2">“Keep kissing me and I’ll find out.” She whispered.</p>
+<p class="p2">Tracey laughed.</p>
+<p class="p2">“With pleasure.”</p>
+<p class="p2">This time the kiss was more passionate, Tracey slipping her arms around Rena and pulling her into her arms. Her tongue slipped along Rena’s lips and Rena opened her mouth, Tracey’s tongue diving inside. Rena shuddered as her tongue was rubbed and sucked into Tracey’s mouth. Her hands cupped Tracey’s breasts for the first time and gave them a firm squeeze. Tracey groaned into Rena’s mouth, kissing her more fiercely. She really could kiss. Rena was trembling, her arousal twisting in her belly and steadily growing.</p>
+<p class="p2">Tracey pulled away and slid to kneel on the floor. She urged Rena to sit up and tugged her sweater up. Rena raised her arms and Tracey pulled her sweater off, tossing it onto the floor. Rena unsnapped her bra and slid it down her arms, throwing it aside. She wasn’t expecting for Tracey to pounce on her, sucking one breast into her mouth. Pleasure burst inside her. Rena clutched onto Tracey’s shoulders, her fingers digging in as Tracey sucked one nipple and then the other into her mouth, using her tongue and teeth to titillate. Her hands slid down to Rena’s backside, slipping inside her jeans and cupping her backside.</p>
+<p class="p2">Rena felt like her head was about to explode. She needed a release soon. Never had she reached a climax so quickly, only to be teetering on the edge with Tracey refusing to let her fall. She felt Tracey gently ease her back as her hands drifted to her jeans.</p>
+<p class="p2">“I feel like a virgin on her first time.” She gasped as Tracey unsnapped her jeans.</p>
+<p class="p2">Tracey grinned and pressed a kiss to her navel.</p>
+<p class="p2">“Just relax. Let me do the work.” She nudged Rena’s hips. “Lift your hips and spread your legs.”</p>
+<p class="p2">Rena lifted her hips and Tracey tugged off her jeans, pulling her panties with them. They joined the rest of her clothes on the floor and Tracey sat back as Rena spread her legs. Normally, she was nervous about showing her naked body to anyone. Even Andy hadn’t seen her body in anything other than shadow. But there was something about the way Tracey was looking at her that had Rena feeling sexy. The woman practically growled as Rena opened up her legs, her body flushed and throbbing.</p>
+<p class="p2">“Just gorgeous.” Tracey shuffled forward and ran her hands up Rena’s legs. “Absolutely gorgeous.”</p>
+<p class="p2">She brushed her fingers over Rena’s pussy and Rena yelped.</p>
+<p class="p2">“Wet already. Am I turning you on?”</p>
+<p class="p2">“Yes.” Rena panted. “You’re turning me on.”</p>
+<p class="p2">“Good.”</p>
+<p class="p2">Tracey lowered her head and Rena gasped when she felt cool lips on her clit, Tracey’s tongue flicking out over her hardened bud. Rena’s body began to hum as Tracey’s mouth worked over her clit and licked around her pussy, her tongue dipping inside. Then Rena felt a finger slipping in, Tracey’s hand turning and her finger curling up. It rubbed against Rena’s G-spot and that had electricity shooting up Rena’s back and coming around to tighten her nipples.</p>
+<p class="p2">Her climax was so close.</p>
+<p class="p2">Tracey began to lick faster, adding another finger to the first and thrusting hard and fast. Rena opened her legs wider to take more in, her hands going to Tracey’s head. She threaded her fingers through Tracey’s hair, keeping her head pinned to her pussy. Her orgasm was very close now and she didn’t want to run away from it.</p>
+<p class="p2">When it did come, Rena was completely caught off-guard. It seemed to slam into her and she let out a scream, her back arching off the couch and almost causing her to slide off. Tracey drew out the orgasm for a long time, making Rena feel like she was struggling for air. She couldn’t carry on, but Tracey was determined to wring her out.</p>
+<p class="p2">And Rena didn’t want it to stop.</p>
+<p class="p2">“Holy shit!”</p>
+<p class="p3">* * * *</p>
+<p class="p2">Rena looked beautiful laying there naked, her body flushed with her orgasm. And she tasted so sweet as well. Tracey couldn’t get enough of her. She wanted to pull Rena to the floor and jump on her, but she was clearly worn out and needed a break.</p>
+<p class="p2">Giving Rena’s pussy one final lick and kiss, she crawled up Rena’s body. Rena accepted her kiss gladly, pulling Tracey against her. Having a naked woman in her arms when she was still fully dressed felt rather erotic.</p>
+<p class="p2">“Wow.” Rena panted as Tracey drew back, tracing her tongue down her neck. “Just…wow.”</p>
+<p class="p2">Tracey chuckled.</p>
+<p class="p2">“I’m glad you could enjoy it.”</p>
+<p class="p2">“I haven’t had amazing sex like that in a long time.”</p>
+<p class="p2">“Really? Andy was always bragging to us about having a great sex life.”</p>
+<p class="p2">“Not with me.” Rena lifted her head. “We hadn’t had sex in months.”</p>
+<p class="p2">Tracey groaned when she realized what she had heard.</p>
+<p class="p2">“Oh, God. We were fools, weren’t we?”</p>
+<p class="p2">Rena tugged her head up and kissed her hard.</p>
+<p class="p2">“Not now. We got rid of them, didn’t we?”</p>
+<p class="p2">“We did.” Tracey rubbed her body against Rena’s, feeling the other woman’s nipples pressing against her. “Men are overrated, anyway.”</p>
+<p class="p2">Rena giggled.</p>
+<p class="p2">“With you around, certainly.” She paused. “Were you serious before?”</p>
+<p class="p2">“About what?”</p>
+<p class="p2">“You mentioned when we first met that you’d never had a man’s cock before. Were you serious about that?”</p>
+<p class="p2">“Sort of.” Tracey drew back a little and made a face. “A guy took my virginity when I was seventeen. I didn’t find it appealing at all. Put me right off.”</p>
+<p class="p2">“It’s not as bad as you think it is.” Rena rose up, giving Tracey a sly grin. “Because I’ve just thought of something that could show you.”</p>
+<p class="p2">Tracey watched in amazement as Rena jumped off the couch and padded naked towards the bedroom she and Andy would have been sharing. She couldn’t take her eyes off her backside. Firm, curvy and round. Tracey could feel her hands itching to grab a hold of her again. She licked her lips, still tasting Rena’s juices on her mouth.</p>
+<p class="p2">She wanted another taste.</p>
+<p class="p2">Rena came back a moment later, carrying a bag that looked familiar. Tracey sat up when she saw the distinctive color.</p>
+<p class="p2">“Oh, God. That’s Louise’s holdall. What are you doing with it?”</p>
+<p class="p2">“I accidentally picked it up instead of mine when I left. I didn’t realize until we got here.”</p>
+<p class="p2">“What were her things doing at yours?”</p>
+<p class="p2">Rena shuddered.</p>
+<p class="p2">“I don’t know, and I don’t want to think about it. But I had a root around and I got an eyeful, let me tell you.”</p>
+<p class="p2">Tracey knew why. She could feel her face going red as she reached for the bag.</p>
+<p class="p2">“We do use a lot of toys. But I don’t recognize half of these.” She picked out a few life-size dildos, a butt plug, and a harness. Tracey had never seen this harness before. “And what is that?”</p>
+<p class="p2">Rena took it and inspected it.</p>
+<p class="p2">“It’s a double-dildo strap-on harness.”</p>
+<p class="p2">“What…?”</p>
+<p class="p2">“It’s for double penetration.”</p>
+<p class="p2">Tracey’s mouth fell open. Louise had brought that along for a reason. Tracey wasn’t above using a strap-on in lovemaking, but she had never had it used on her. And from the gleam in Rena’s eyes, she was thinking of doing that exactly.</p>
+<p class="p2">“You want to use it?”</p>
+<p class="p2">Rena grinned and leant over.</p>
+<p class="p2">“Not me. I want to use it on you.”</p>
+<p class="p2">“Me?” Tracey squeaked.</p>
+<p class="p2">Rena pulled back, still grinning.</p>
+<p class="p2">“You’ve shown me something I never knew was incredible. It’s time I returned the favour.”</p>
+<p class="p2">Tracey wasn’t sure about that. She hadn’t enjoyed it the last time. But that had been with a fumbling seventeen-year-old. Not with Rena Santiago.</p>
+<p class="p2">So, when Rena started kissing her, easing her down onto the rug, Tracey didn’t stop her. She liked this side of Rena. Now she was taking control, more at ease. Her hands danced over Tracey’s skin, running under her sweater and into her leggings. Tracey lifted her hips and felt Rena’s hands cup her backside, pushing her panties out the way.</p>
+<p class="p2">Tracey had been unsure before. But now with Rena touching her, kissing down her chest as she tugged off Tracey’s shirt, she could feel the arousal building. The thought of Rena wearing the strap-on had Tracey whimpering. It was an erotic image.</p>
+<p class="p2">It didn’t take long for Rena to undress Tracey, tossing her clothes to the side. Then she reached for the harness and put it on. Tracey lay on the rug and watched as Rena picked out a dildo that had to be at least eight inches and with a thick girth, along with a bottle of lube. She almost forgot how to breathe as Rena fixed the dildo to the harness and started to slather it was lube. That was more enticing than she thought.</p>
+<p class="p2">Tracey licked her lips. Rena looked up at her and grinned.</p>
+<p class="p2">“On your hands and knees.” She ordered.</p>
+<p class="p2">Tracey wasn’t about to argue. She rolled onto her front and rose up onto her knees, her hands flat on the floor. Rena shifted in behind her and nudged her knees open. Tracey braced herself as she felt the hard head of the dildo press against her pussy. Rena shushed her and rubbed a hand down her back.</p>
+<p class="p2">“Easy. I’ll go slow. Just relax.”</p>
+<p class="p2">Then she began to slide forward. The dildo slid through Tracey’s pussy lips and inside her. It stretched her in a way Tracey hadn’t anticipated. She gasped, her hands tightening in the rug.</p>
+<p class="p2">“Okay?” Rena breathed.</p>
+<p class="p2">Tracey couldn’t say anything. The pressure was turning into intense pleasure. She could only nod and she slowly pushed back.</p>
+<p class="p2">Rena didn’t disappoint. She drew out a little and then thrust back in, the dildo sliding in more. Tracey moaned. That was better than she thought.</p>
+<p class="p2">Rena pushed the dildo in more and more until she was fully seated in Tracey’s pussy. Tracey was breathing heavily, her pussy clamping on the dildo. God, this felt so good. Then Rena leant over, her fingers finding Tracey’s clit.</p>
+<p class="p2">“I’m going to fuck you now.” She whispered as she rubbed Tracey’s clit. “Come for me.”</p>
+<p class="p2">Tracey was almost knocked onto the floor as Rena pulled the dildo out and rammed it back in. Fireworks began to go off in her head and Tracey cried out. Her skin was covered in goose bumps. Her fingers rubbing on Tracey’s clit, Rena fucked her, her pelvis hitting Tracey’s backside. Her other hand came around and cupped Tracey’s breast, tweaking her nipple.</p>
+<p class="p2">Then Rena pulled Tracey upright. Tracey found her body flush against hers and the angle of the dildo changed. It rubbed against her G-spot and her orgasm exploded. Tracey shuddered and writhed in Rena’s arms as she carried on thrusting, drawing her climax out until Tracey was sweating and shuddering in her arms. Her body felt as though she had been running a marathon.</p>
+<p class="p2">Eventually, Rena slowed down and eased her thrusting until she had stopped, still fully wedged in Tracey’s pussy. She gently lowered them to the floor, lying on top of Tracey as both of them got their breath back.</p>
+<p class="p2">Tracey had thought she wasn’t missing anything. Now she realized she was missing a lot. She wondered if Rena would show her a bit more on their vacation. Or if Tracey could use the strap-on with Rena. The idea of fucking Rena with a dildo was a temptation she wanted to explore.</p>
+<p class="p2">Then Rena started giggling above her. Tracey lifted her head.</p>
+<p class="p2">“What’s so funny?”</p>
+<p class="p2">“Don’t look now,” Rena whispered, “But Andy and Louise are in the doorway and they’re staring at us.”</p>
+<p class="p2">Andy and Louise were here? They must have paid for another couple of tickets. Why they thought they could go on the vacation with their exes without consequence, Tracey had no idea. But they weren’t going to stay with them. And after what they had done, Tracey wasn’t going to stop her pleasure to deal with them.</p>
+<p class="p2">Looping her leg behind Rena’s, she rolled them until Rena was on her back. Tracey climbed off, the dildo sliding out of her, and turned, straddling Rena’s hips. She slid down onto the dildo again and sighed, cupping Rena’s breasts as Rena arched her back.</p>
+<p class="p2">“Let them look.” She whispered back. “I’m not done with you yet.”</p>
+<p class="p4"> </p>
+<p class="p4">THE END</p>
+<p class="p4"> </p>
+</body>
+</html>
+2022-12-15 19:50:06 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2022-12-15 19:50:07 INFO  - Step 15 - I restart app
+2022-12-15 19:50:32 INFO  - Step 16 - I open Books
+2022-12-15 19:50:32 INFO  - Button 'tabBooks' :: Clicking
+2022-12-15 19:50:33 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2022-12-15 19:50:34 INFO  - Label 'lblBookName' :: Clicking
+2022-12-15 19:50:35 INFO  - Step 18 - Click READ action button on book details screen
+2022-12-15 19:50:36 INFO  - Button 'Read' :: Clicking
+2022-12-15 19:50:39 INFO  - Step 19 - Font size 'fontSize' is increased
+2022-12-15 19:50:39 INFO  - context - NATIVE_APP
+2022-12-15 19:50:42 INFO  - context - NATIVE_APP
+2022-12-15 19:50:42 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2022-12-15 19:50:44 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2022-12-15 19:50:44 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.2.13.4" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<p class="p0"><span class="t2">An Education</span></p>
+<p class="p0">By Katharine O’Neill</p>
+<p class="p2">Rena was feeling better after a second glass of wine. She and Tracey had consumed a lot of it since they had arrived at the cabin, snuggling in the warmth as the snow swirled around outside. Not much of a drinker herself, Rena had never expected the influence the wine had on her—like she was wrapped up in a warm blanket. Or perhaps it was the log fire burning away in the fireplace. Rena didn’t know at this point.</p>
+<p class="p2">She looked across at Tracey, who was curled up on the other end of the couch, nursing her own glass of wine. Her smile had faded and she was looking a little despondent. Rena couldn’t blame her; she was feeling the same.</p>
+<p class="p2">This winter holiday was meant to be for four people to get away from the hustle and bustle of the city. Rena and Andy, Tracey and Louise. Rena hadn’t seen her best friend for months due to their hectic lifestyles, and she simply wanted to spend the week after Christmas with Louise.</p>
+<p class="p2">But that had all gone to shit. Now she was here, very newly single, with her best friend’s girlfriend. Newly single, as well.</p>
+<p class="p2">It was worrying to see Tracey down like this. She was always outgoing and fun, a twinkle always in her eye, and a smile was never too far away. Now she was looking forlorn, staring into the rapidly diminishing wine in her glass.</p>
+<p class="p2">To see someone, as strong as Tracey, discover the woman she loved had cheated on her and be shattered by it, hurt Rena. She wanted to hold Tracey, comfort her as she cried. The urge to hold Tracey was an odd sensation, but Rena had a feeling, from the way Tracey kept looking at her, that she wouldn’t mind.</p>
+<p class="p2">Rena had thought herself straight, but there was something about Tracey that had drawn Rena to her. At thirty, Tracey was toned and physically fit. She had the vitality of a teenager. Rena found it a struggle to keep up with her and Louise. Her best friend seemed to feed off Tracey’s energy.</p>
+<p class="p2">Being curvy and a tad overweight, Rena wasn’t able to move after them as quickly. Even Andy left Rena behind. And that lowered Rena’s mood, especially when Andy jabbed at her about her weight.</p>
+<p class="p2">He wouldn’t be saying anything about her weight now.</p>
+<p class="p2">Rena watched as Tracey ran her hand through her black curls. Her breasts, encased in a soft red jumper, moved as her arm lifts. Then her jumper rode up and Rena saw the smooth, flat skin of Tracey’s stomach.</p>
+<p class="p2">Somehow, watching Tracey made Rena’s mouth go dry.</p>
+<p class="p2">The wine was doing something to her.</p>
+<p class="p2">Rena put her glass to one side and turned to Tracey, curling her legs under her.</p>
+<p class="p2">“Have you ever cheated on someone, Tracey?”</p>
+<p class="p2">“What did you say?”</p>
+<p class="p2">Tracey looked confused. Rena bit her lip.</p>
+<p class="p2">“Have you ever cheated on a girlfriend?”</p>
+<p class="p2">“Of course I haven’t.” Tracey scowled. “I would never do that. I don’t think I even have it in me to cheat. Why are you asking?”</p>
+<p class="p2">“I don’t really know.” Rena slowly stretched out her legs, inching her toes closer to Tracey’s feet. “I don’t think I have it in me to cheat, either. But I wanted to know how anyone could have the ability to cheat and not feel any guilt over it.”</p>
+<p class="p2">Tracey snorted.</p>
+<p class="p2">“Well, I’m the wrong person to ask about that.” Tracey put her glass on the table bedside her. Then she rubbed her eyes and yawned. “Sometimes, I guess they do feel something. But often it’s only regret, because they’ve been caught. It’s a sense of control, cheating. They’re in charge and it’s empowering. But, if I’m honest, I don’t see the attraction.”</p>
+<p class="p2">“Neither do I.” Rena paused. “Did you know Louise was into men as well?”</p>
+<p class="p2">“I knew she was bisexual, but she had mentioned more than once that she didn’t find Andy attractive.”</p>
+<p class="p2">Rena grunted.</p>
+<p class="p2">“Kind of difficult to argue when there’s eight inches of cock shoved inside you.”</p>
+<p class="p2">Tracey stared at her. Then she threw her head back and laughed. Rena tried to laugh, but the pain was still there. Her boyfriend and her best friend, gone. Three days and it was still fresh.</p>
+<p class="p2">“Louise was my best friend.”</p>
+<p class="p2">Tracey’s expression softened. She shifted around, sliding across the couch and putting an arm around Rena’s shoulders. Rena didn’t argue as Tracey hugged her, rubbing her back. Rena sighed and closed her eyes. This felt good. Really good.</p>
+<p class="p2">Tracey shifted a little, and then she was using both hands, massaging Rena’s shoulders. This had Rena moaning. She did love a massage. Maybe she should ask Tracey to do them more often.</p>
+<p class="p2">Then Rena realized that Tracey’s hands were drifting even lower down her back, her fingers brushing against the hem of her sweater. It had ridden up to reveal some flesh at the small of her back. Rena tried not to shiver as Tracey’s fingers brushed her skin.</p>
+<p class="p2">Tracey hesitated for the briefest of moments and then she pushed her hands under Rena’s sweater.</p>
+<p class="p2">Rena had never known Tracey to be so brazen. Was she coming onto her? The thought that Tracey was making the moves on her had Rena’s clit throbbing. Rena had to bite her lip to stop herself from rubbing her pelvis against the couch. Her heart pounded as Tracey’s fingers pushed up her back, still rubbing her warm palms over her skin. Then her fingers brushed against Rena’s bra strap.</p>
+<p class="p2">Rena had never had a woman try to seduce her. And she realized that she liked it. When it was a beautiful woman like Tracey, it felt empowering. Rena swallowed.</p>
+<p class="p2">“Can I ask you a question, Tracey?”</p>
+<p class="p2">“Depends on what the question is.”</p>
+<p class="p2">“What’s it like making love to a woman?”</p>
+<p class="p2">Tracey’s hands paused, her hands right over the clasp of Rena’s bra.</p>
+<p class="p2">“Why do you ask that?”</p>
+<p class="p2">“I’m curious.”</p>
+<p class="p2">Rena didn’t want to turn around, but she wanted to see Tracey. She shifted onto her back, Tracey’s hands staying where they were as Rena moved. Now her hands were lying on Rena’s breasts, her nipples stabbing Tracey’s hands.</p>
+<p class="p2">“I’ve always been curious. How does…you know…how does it work?”</p>
+<p class="p2">Tracey’s eyes were darkening, her pupils dilating. Rena saw her nostrils twitch.</p>
+<p class="p2">“It’s pretty much the same as making love to a man.” She flexed her fingers over Rena’s breasts. “There are just a few anatomical differences.”</p>
+<p class="p2">Rena felt as though she was having a heart attack. Andy had never done this to her. The attraction to him felt muted compared to what she was feeling now. Tracey had some kind of hold on her that Rena couldn’t describe. And it felt so good.</p>
+<p class="p2">She did have a momentary thought about Andy, however. She was a single woman, but he was still fresh in her mind. There was that moment of regret, as if she was cheating on him.</p>
+<p class="p2">“Hey.” Tracey’s face was closer to hers, her expression saying she knew where Rena’s thoughts were. “Don’t think about them. They’re not here and we are. Let’s focus on us.”</p>
+<p class="p2">“I wish I could.” Rena stared at the ceiling. “I just don’t know how. My brain keeps switching back to them. I don’t want to think about them, but it’s there.”</p>
+<p class="p2">She wasn’t prepared for Tracey’s kiss, a gentle brush of lips across hers before a firmer press. Rena started, but found herself relaxing into the kiss, her hands lifting to run up Tracey’s sides.</p>
+<p class="p2">This was good. Too good. Rena’s brain switched back on and she pulled away.</p>
+<p class="p2">“What are you doing?”</p>
+<p class="p2">Tracey grinned. Her hands squeezed Rena’s breasts.</p>
+<p class="p2">“Trying to distract you.” She then rolled Rena’s nipples between her fingers. “Is it working?”</p>
+<p class="p2">Rena gasped and thrust her breasts into Tracey’s hands. The tugging seemed to go straight down to her clit, which was pulsating hard as her panties became wet. She squeezed her thighs together to try and ward off the throbbing.</p>
+<p class="p2">“Keep kissing me and I’ll find out.” She whispered.</p>
+<p class="p2">Tracey laughed.</p>
+<p class="p2">“With pleasure.”</p>
+<p class="p2">This time the kiss was more passionate, Tracey slipping her arms around Rena and pulling her into her arms. Her tongue slipped along Rena’s lips and Rena opened her mouth, Tracey’s tongue diving inside. Rena shuddered as her tongue was rubbed and sucked into Tracey’s mouth. Her hands cupped Tracey’s breasts for the first time and gave them a firm squeeze. Tracey groaned into Rena’s mouth, kissing her more fiercely. She really could kiss. Rena was trembling, her arousal twisting in her belly and steadily growing.</p>
+<p class="p2">Tracey pulled away and slid to kneel on the floor. She urged Rena to sit up and tugged her sweater up. Rena raised her arms and Tracey pulled her sweater off, tossing it onto the floor. Rena unsnapped her bra and slid it down her arms, throwing it aside. She wasn’t expecting for Tracey to pounce on her, sucking one breast into her mouth. Pleasure burst inside her. Rena clutched onto Tracey’s shoulders, her fingers digging in as Tracey sucked one nipple and then the other into her mouth, using her tongue and teeth to titillate. Her hands slid down to Rena’s backside, slipping inside her jeans and cupping her backside.</p>
+<p class="p2">Rena felt like her head was about to explode. She needed a release soon. Never had she reached a climax so quickly, only to be teetering on the edge with Tracey refusing to let her fall. She felt Tracey gently ease her back as her hands drifted to her jeans.</p>
+<p class="p2">“I feel like a virgin on her first time.” She gasped as Tracey unsnapped her jeans.</p>
+<p class="p2">Tracey grinned and pressed a kiss to her navel.</p>
+<p class="p2">“Just relax. Let me do the work.” She nudged Rena’s hips. “Lift your hips and spread your legs.”</p>
+<p class="p2">Rena lifted her hips and Tracey tugged off her jeans, pulling her panties with them. They joined the rest of her clothes on the floor and Tracey sat back as Rena spread her legs. Normally, she was nervous about showing her naked body to anyone. Even Andy hadn’t seen her body in anything other than shadow. But there was something about the way Tracey was looking at her that had Rena feeling sexy. The woman practically growled as Rena opened up her legs, her body flushed and throbbing.</p>
+<p class="p2">“Just gorgeous.” Tracey shuffled forward and ran her hands up Rena’s legs. “Absolutely gorgeous.”</p>
+<p class="p2">She brushed her fingers over Rena’s pussy and Rena yelped.</p>
+<p class="p2">“Wet already. Am I turning you on?”</p>
+<p class="p2">“Yes.” Rena panted. “You’re turning me on.”</p>
+<p class="p2">“Good.”</p>
+<p class="p2">Tracey lowered her head and Rena gasped when she felt cool lips on her clit, Tracey’s tongue flicking out over her hardened bud. Rena’s body began to hum as Tracey’s mouth worked over her clit and licked around her pussy, her tongue dipping inside. Then Rena felt a finger slipping in, Tracey’s hand turning and her finger curling up. It rubbed against Rena’s G-spot and that had electricity shooting up Rena’s back and coming around to tighten her nipples.</p>
+<p class="p2">Her climax was so close.</p>
+<p class="p2">Tracey began to lick faster, adding another finger to the first and thrusting hard and fast. Rena opened her legs wider to take more in, her hands going to Tracey’s head. She threaded her fingers through Tracey’s hair, keeping her head pinned to her pussy. Her orgasm was very close now and she didn’t want to run away from it.</p>
+<p class="p2">When it did come, Rena was completely caught off-guard. It seemed to slam into her and she let out a scream, her back arching off the couch and almost causing her to slide off. Tracey drew out the orgasm for a long time, making Rena feel like she was struggling for air. She couldn’t carry on, but Tracey was determined to wring her out.</p>
+<p class="p2">And Rena didn’t want it to stop.</p>
+<p class="p2">“Holy shit!”</p>
+<p class="p3">* * * *</p>
+<p class="p2">Rena looked beautiful laying there naked, her body flushed with her orgasm. And she tasted so sweet as well. Tracey couldn’t get enough of her. She wanted to pull Rena to the floor and jump on her, but she was clearly worn out and needed a break.</p>
+<p class="p2">Giving Rena’s pussy one final lick and kiss, she crawled up Rena’s body. Rena accepted her kiss gladly, pulling Tracey against her. Having a naked woman in her arms when she was still fully dressed felt rather erotic.</p>
+<p class="p2">“Wow.” Rena panted as Tracey drew back, tracing her tongue down her neck. “Just…wow.”</p>
+<p class="p2">Tracey chuckled.</p>
+<p class="p2">“I’m glad you could enjoy it.”</p>
+<p class="p2">“I haven’t had amazing sex like that in a long time.”</p>
+<p class="p2">“Really? Andy was always bragging to us about having a great sex life.”</p>
+<p class="p2">“Not with me.” Rena lifted her head. “We hadn’t had sex in months.”</p>
+<p class="p2">Tracey groaned when she realized what she had heard.</p>
+<p class="p2">“Oh, God. We were fools, weren’t we?”</p>
+<p class="p2">Rena tugged her head up and kissed her hard.</p>
+<p class="p2">“Not now. We got rid of them, didn’t we?”</p>
+<p class="p2">“We did.” Tracey rubbed her body against Rena’s, feeling the other woman’s nipples pressing against her. “Men are overrated, anyway.”</p>
+<p class="p2">Rena giggled.</p>
+<p class="p2">“With you around, certainly.” She paused. “Were you serious before?”</p>
+<p class="p2">“About what?”</p>
+<p class="p2">“You mentioned when we first met that you’d never had a man’s cock before. Were you serious about that?”</p>
+<p class="p2">“Sort of.” Tracey drew back a little and made a face. “A guy took my virginity when I was seventeen. I didn’t find it appealing at all. Put me right off.”</p>
+<p class="p2">“It’s not as bad as you think it is.” Rena rose up, giving Tracey a sly grin. “Because I’ve just thought of something that could show you.”</p>
+<p class="p2">Tracey watched in amazement as Rena jumped off the couch and padded naked towards the bedroom she and Andy would have been sharing. She couldn’t take her eyes off her backside. Firm, curvy and round. Tracey could feel her hands itching to grab a hold of her again. She licked her lips, still tasting Rena’s juices on her mouth.</p>
+<p class="p2">She wanted another taste.</p>
+<p class="p2">Rena came back a moment later, carrying a bag that looked familiar. Tracey sat up when she saw the distinctive color.</p>
+<p class="p2">“Oh, God. That’s Louise’s holdall. What are you doing with it?”</p>
+<p class="p2">“I accidentally picked it up instead of mine when I left. I didn’t realize until we got here.”</p>
+<p class="p2">“What were her things doing at yours?”</p>
+<p class="p2">Rena shuddered.</p>
+<p class="p2">“I don’t know, and I don’t want to think about it. But I had a root around and I got an eyeful, let me tell you.”</p>
+<p class="p2">Tracey knew why. She could feel her face going red as she reached for the bag.</p>
+<p class="p2">“We do use a lot of toys. But I don’t recognize half of these.” She picked out a few life-size dildos, a butt plug, and a harness. Tracey had never seen this harness before. “And what is that?”</p>
+<p class="p2">Rena took it and inspected it.</p>
+<p class="p2">“It’s a double-dildo strap-on harness.”</p>
+<p class="p2">“What…?”</p>
+<p class="p2">“It’s for double penetration.”</p>
+<p class="p2">Tracey’s mouth fell open. Louise had brought that along for a reason. Tracey wasn’t above using a strap-on in lovemaking, but she had never had it used on her. And from the gleam in Rena’s eyes, she was thinking of doing that exactly.</p>
+<p class="p2">“You want to use it?”</p>
+<p class="p2">Rena grinned and leant over.</p>
+<p class="p2">“Not me. I want to use it on you.”</p>
+<p class="p2">“Me?” Tracey squeaked.</p>
+<p class="p2">Rena pulled back, still grinning.</p>
+<p class="p2">“You’ve shown me something I never knew was incredible. It’s time I returned the favour.”</p>
+<p class="p2">Tracey wasn’t sure about that. She hadn’t enjoyed it the last time. But that had been with a fumbling seventeen-year-old. Not with Rena Santiago.</p>
+<p class="p2">So, when Rena started kissing her, easing her down onto the rug, Tracey didn’t stop her. She liked this side of Rena. Now she was taking control, more at ease. Her hands danced over Tracey’s skin, running under her sweater and into her leggings. Tracey lifted her hips and felt Rena’s hands cup her backside, pushing her panties out the way.</p>
+<p class="p2">Tracey had been unsure before. But now with Rena touching her, kissing down her chest as she tugged off Tracey’s shirt, she could feel the arousal building. The thought of Rena wearing the strap-on had Tracey whimpering. It was an erotic image.</p>
+<p class="p2">It didn’t take long for Rena to undress Tracey, tossing her clothes to the side. Then she reached for the harness and put it on. Tracey lay on the rug and watched as Rena picked out a dildo that had to be at least eight inches and with a thick girth, along with a bottle of lube. She almost forgot how to breathe as Rena fixed the dildo to the harness and started to slather it was lube. That was more enticing than she thought.</p>
+<p class="p2">Tracey licked her lips. Rena looked up at her and grinned.</p>
+<p class="p2">“On your hands and knees.” She ordered.</p>
+<p class="p2">Tracey wasn’t about to argue. She rolled onto her front and rose up onto her knees, her hands flat on the floor. Rena shifted in behind her and nudged her knees open. Tracey braced herself as she felt the hard head of the dildo press against her pussy. Rena shushed her and rubbed a hand down her back.</p>
+<p class="p2">“Easy. I’ll go slow. Just relax.”</p>
+<p class="p2">Then she began to slide forward. The dildo slid through Tracey’s pussy lips and inside her. It stretched her in a way Tracey hadn’t anticipated. She gasped, her hands tightening in the rug.</p>
+<p class="p2">“Okay?” Rena breathed.</p>
+<p class="p2">Tracey couldn’t say anything. The pressure was turning into intense pleasure. She could only nod and she slowly pushed back.</p>
+<p class="p2">Rena didn’t disappoint. She drew out a little and then thrust back in, the dildo sliding in more. Tracey moaned. That was better than she thought.</p>
+<p class="p2">Rena pushed the dildo in more and more until she was fully seated in Tracey’s pussy. Tracey was breathing heavily, her pussy clamping on the dildo. God, this felt so good. Then Rena leant over, her fingers finding Tracey’s clit.</p>
+<p class="p2">“I’m going to fuck you now.” She whispered as she rubbed Tracey’s clit. “Come for me.”</p>
+<p class="p2">Tracey was almost knocked onto the floor as Rena pulled the dildo out and rammed it back in. Fireworks began to go off in her head and Tracey cried out. Her skin was covered in goose bumps. Her fingers rubbing on Tracey’s clit, Rena fucked her, her pelvis hitting Tracey’s backside. Her other hand came around and cupped Tracey’s breast, tweaking her nipple.</p>
+<p class="p2">Then Rena pulled Tracey upright. Tracey found her body flush against hers and the angle of the dildo changed. It rubbed against her G-spot and her orgasm exploded. Tracey shuddered and writhed in Rena’s arms as she carried on thrusting, drawing her climax out until Tracey was sweating and shuddering in her arms. Her body felt as though she had been running a marathon.</p>
+<p class="p2">Eventually, Rena slowed down and eased her thrusting until she had stopped, still fully wedged in Tracey’s pussy. She gently lowered them to the floor, lying on top of Tracey as both of them got their breath back.</p>
+<p class="p2">Tracey had thought she wasn’t missing anything. Now she realized she was missing a lot. She wondered if Rena would show her a bit more on their vacation. Or if Tracey could use the strap-on with Rena. The idea of fucking Rena with a dildo was a temptation she wanted to explore.</p>
+<p class="p2">Then Rena started giggling above her. Tracey lifted her head.</p>
+<p class="p2">“What’s so funny?”</p>
+<p class="p2">“Don’t look now,” Rena whispered, “But Andy and Louise are in the doorway and they’re staring at us.”</p>
+<p class="p2">Andy and Louise were here? They must have paid for another couple of tickets. Why they thought they could go on the vacation with their exes without consequence, Tracey had no idea. But they weren’t going to stay with them. And after what they had done, Tracey wasn’t going to stop her pleasure to deal with them.</p>
+<p class="p2">Looping her leg behind Rena’s, she rolled them until Rena was on her back. Tracey climbed off, the dildo sliding out of her, and turned, straddling Rena’s hips. She slid down onto the dildo again and sighed, cupping Rena’s breasts as Rena arched her back.</p>
+<p class="p2">“Let them look.” She whispered back. “I’m not done with you yet.”</p>
+<p class="p4"> </p>
+<p class="p4">THE END</p>
+<p class="p4"> </p>
+</body>
+</html>
+2022-12-15 19:50:44 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2022-12-15 19:50:45 INFO  - Step 20 - I return to previous screen from epub
+2022-12-15 19:50:46 INFO  - Button 'btnBack' :: Clicking
+2022-12-15 19:50:46 INFO  - Step 21 - Click READ action button on book details screen
+2022-12-15 19:50:48 INFO  - Button 'Read' :: Clicking
+2022-12-15 19:50:48 INFO  - Step 22 - Font size 'fontSize' is increased
+2022-12-15 19:50:49 INFO  - context - NATIVE_APP
+2022-12-15 19:50:49 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2022-12-15 19:50:52 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2022-12-15 19:50:52 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.2.13.4" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<p class="p0"><span class="t2">An Education</span></p>
+<p class="p0">By Katharine O’Neill</p>
+<p class="p2">Rena was feeling better after a second glass of wine. She and Tracey had consumed a lot of it since they had arrived at the cabin, snuggling in the warmth as the snow swirled around outside. Not much of a drinker herself, Rena had never expected the influence the wine had on her—like she was wrapped up in a warm blanket. Or perhaps it was the log fire burning away in the fireplace. Rena didn’t know at this point.</p>
+<p class="p2">She looked across at Tracey, who was curled up on the other end of the couch, nursing her own glass of wine. Her smile had faded and she was looking a little despondent. Rena couldn’t blame her; she was feeling the same.</p>
+<p class="p2">This winter holiday was meant to be for four people to get away from the hustle and bustle of the city. Rena and Andy, Tracey and Louise. Rena hadn’t seen her best friend for months due to their hectic lifestyles, and she simply wanted to spend the week after Christmas with Louise.</p>
+<p class="p2">But that had all gone to shit. Now she was here, very newly single, with her best friend’s girlfriend. Newly single, as well.</p>
+<p class="p2">It was worrying to see Tracey down like this. She was always outgoing and fun, a twinkle always in her eye, and a smile was never too far away. Now she was looking forlorn, staring into the rapidly diminishing wine in her glass.</p>
+<p class="p2">To see someone, as strong as Tracey, discover the woman she loved had cheated on her and be shattered by it, hurt Rena. She wanted to hold Tracey, comfort her as she cried. The urge to hold Tracey was an odd sensation, but Rena had a feeling, from the way Tracey kept looking at her, that she wouldn’t mind.</p>
+<p class="p2">Rena had thought herself straight, but there was something about Tracey that had drawn Rena to her. At thirty, Tracey was toned and physically fit. She had the vitality of a teenager. Rena found it a struggle to keep up with her and Louise. Her best friend seemed to feed off Tracey’s energy.</p>
+<p class="p2">Being curvy and a tad overweight, Rena wasn’t able to move after them as quickly. Even Andy left Rena behind. And that lowered Rena’s mood, especially when Andy jabbed at her about her weight.</p>
+<p class="p2">He wouldn’t be saying anything about her weight now.</p>
+<p class="p2">Rena watched as Tracey ran her hand through her black curls. Her breasts, encased in a soft red jumper, moved as her arm lifts. Then her jumper rode up and Rena saw the smooth, flat skin of Tracey’s stomach.</p>
+<p class="p2">Somehow, watching Tracey made Rena’s mouth go dry.</p>
+<p class="p2">The wine was doing something to her.</p>
+<p class="p2">Rena put her glass to one side and turned to Tracey, curling her legs under her.</p>
+<p class="p2">“Have you ever cheated on someone, Tracey?”</p>
+<p class="p2">“What did you say?”</p>
+<p class="p2">Tracey looked confused. Rena bit her lip.</p>
+<p class="p2">“Have you ever cheated on a girlfriend?”</p>
+<p class="p2">“Of course I haven’t.” Tracey scowled. “I would never do that. I don’t think I even have it in me to cheat. Why are you asking?”</p>
+<p class="p2">“I don’t really know.” Rena slowly stretched out her legs, inching her toes closer to Tracey’s feet. “I don’t think I have it in me to cheat, either. But I wanted to know how anyone could have the ability to cheat and not feel any guilt over it.”</p>
+<p class="p2">Tracey snorted.</p>
+<p class="p2">“Well, I’m the wrong person to ask about that.” Tracey put her glass on the table bedside her. Then she rubbed her eyes and yawned. “Sometimes, I guess they do feel something. But often it’s only regret, because they’ve been caught. It’s a sense of control, cheating. They’re in charge and it’s empowering. But, if I’m honest, I don’t see the attraction.”</p>
+<p class="p2">“Neither do I.” Rena paused. “Did you know Louise was into men as well?”</p>
+<p class="p2">“I knew she was bisexual, but she had mentioned more than once that she didn’t find Andy attractive.”</p>
+<p class="p2">Rena grunted.</p>
+<p class="p2">“Kind of difficult to argue when there’s eight inches of cock shoved inside you.”</p>
+<p class="p2">Tracey stared at her. Then she threw her head back and laughed. Rena tried to laugh, but the pain was still there. Her boyfriend and her best friend, gone. Three days and it was still fresh.</p>
+<p class="p2">“Louise was my best friend.”</p>
+<p class="p2">Tracey’s expression softened. She shifted around, sliding across the couch and putting an arm around Rena’s shoulders. Rena didn’t argue as Tracey hugged her, rubbing her back. Rena sighed and closed her eyes. This felt good. Really good.</p>
+<p class="p2">Tracey shifted a little, and then she was using both hands, massaging Rena’s shoulders. This had Rena moaning. She did love a massage. Maybe she should ask Tracey to do them more often.</p>
+<p class="p2">Then Rena realized that Tracey’s hands were drifting even lower down her back, her fingers brushing against the hem of her sweater. It had ridden up to reveal some flesh at the small of her back. Rena tried not to shiver as Tracey’s fingers brushed her skin.</p>
+<p class="p2">Tracey hesitated for the briefest of moments and then she pushed her hands under Rena’s sweater.</p>
+<p class="p2">Rena had never known Tracey to be so brazen. Was she coming onto her? The thought that Tracey was making the moves on her had Rena’s clit throbbing. Rena had to bite her lip to stop herself from rubbing her pelvis against the couch. Her heart pounded as Tracey’s fingers pushed up her back, still rubbing her warm palms over her skin. Then her fingers brushed against Rena’s bra strap.</p>
+<p class="p2">Rena had never had a woman try to seduce her. And she realized that she liked it. When it was a beautiful woman like Tracey, it felt empowering. Rena swallowed.</p>
+<p class="p2">“Can I ask you a question, Tracey?”</p>
+<p class="p2">“Depends on what the question is.”</p>
+<p class="p2">“What’s it like making love to a woman?”</p>
+<p class="p2">Tracey’s hands paused, her hands right over the clasp of Rena’s bra.</p>
+<p class="p2">“Why do you ask that?”</p>
+<p class="p2">“I’m curious.”</p>
+<p class="p2">Rena didn’t want to turn around, but she wanted to see Tracey. She shifted onto her back, Tracey’s hands staying where they were as Rena moved. Now her hands were lying on Rena’s breasts, her nipples stabbing Tracey’s hands.</p>
+<p class="p2">“I’ve always been curious. How does…you know…how does it work?”</p>
+<p class="p2">Tracey’s eyes were darkening, her pupils dilating. Rena saw her nostrils twitch.</p>
+<p class="p2">“It’s pretty much the same as making love to a man.” She flexed her fingers over Rena’s breasts. “There are just a few anatomical differences.”</p>
+<p class="p2">Rena felt as though she was having a heart attack. Andy had never done this to her. The attraction to him felt muted compared to what she was feeling now. Tracey had some kind of hold on her that Rena couldn’t describe. And it felt so good.</p>
+<p class="p2">She did have a momentary thought about Andy, however. She was a single woman, but he was still fresh in her mind. There was that moment of regret, as if she was cheating on him.</p>
+<p class="p2">“Hey.” Tracey’s face was closer to hers, her expression saying she knew where Rena’s thoughts were. “Don’t think about them. They’re not here and we are. Let’s focus on us.”</p>
+<p class="p2">“I wish I could.” Rena stared at the ceiling. “I just don’t know how. My brain keeps switching back to them. I don’t want to think about them, but it’s there.”</p>
+<p class="p2">She wasn’t prepared for Tracey’s kiss, a gentle brush of lips across hers before a firmer press. Rena started, but found herself relaxing into the kiss, her hands lifting to run up Tracey’s sides.</p>
+<p class="p2">This was good. Too good. Rena’s brain switched back on and she pulled away.</p>
+<p class="p2">“What are you doing?”</p>
+<p class="p2">Tracey grinned. Her hands squeezed Rena’s breasts.</p>
+<p class="p2">“Trying to distract you.” She then rolled Rena’s nipples between her fingers. “Is it working?”</p>
+<p class="p2">Rena gasped and thrust her breasts into Tracey’s hands. The tugging seemed to go straight down to her clit, which was pulsating hard as her panties became wet. She squeezed her thighs together to try and ward off the throbbing.</p>
+<p class="p2">“Keep kissing me and I’ll find out.” She whispered.</p>
+<p class="p2">Tracey laughed.</p>
+<p class="p2">“With pleasure.”</p>
+<p class="p2">This time the kiss was more passionate, Tracey slipping her arms around Rena and pulling her into her arms. Her tongue slipped along Rena’s lips and Rena opened her mouth, Tracey’s tongue diving inside. Rena shuddered as her tongue was rubbed and sucked into Tracey’s mouth. Her hands cupped Tracey’s breasts for the first time and gave them a firm squeeze. Tracey groaned into Rena’s mouth, kissing her more fiercely. She really could kiss. Rena was trembling, her arousal twisting in her belly and steadily growing.</p>
+<p class="p2">Tracey pulled away and slid to kneel on the floor. She urged Rena to sit up and tugged her sweater up. Rena raised her arms and Tracey pulled her sweater off, tossing it onto the floor. Rena unsnapped her bra and slid it down her arms, throwing it aside. She wasn’t expecting for Tracey to pounce on her, sucking one breast into her mouth. Pleasure burst inside her. Rena clutched onto Tracey’s shoulders, her fingers digging in as Tracey sucked one nipple and then the other into her mouth, using her tongue and teeth to titillate. Her hands slid down to Rena’s backside, slipping inside her jeans and cupping her backside.</p>
+<p class="p2">Rena felt like her head was about to explode. She needed a release soon. Never had she reached a climax so quickly, only to be teetering on the edge with Tracey refusing to let her fall. She felt Tracey gently ease her back as her hands drifted to her jeans.</p>
+<p class="p2">“I feel like a virgin on her first time.” She gasped as Tracey unsnapped her jeans.</p>
+<p class="p2">Tracey grinned and pressed a kiss to her navel.</p>
+<p class="p2">“Just relax. Let me do the work.” She nudged Rena’s hips. “Lift your hips and spread your legs.”</p>
+<p class="p2">Rena lifted her hips and Tracey tugged off her jeans, pulling her panties with them. They joined the rest of her clothes on the floor and Tracey sat back as Rena spread her legs. Normally, she was nervous about showing her naked body to anyone. Even Andy hadn’t seen her body in anything other than shadow. But there was something about the way Tracey was looking at her that had Rena feeling sexy. The woman practically growled as Rena opened up her legs, her body flushed and throbbing.</p>
+<p class="p2">“Just gorgeous.” Tracey shuffled forward and ran her hands up Rena’s legs. “Absolutely gorgeous.”</p>
+<p class="p2">She brushed her fingers over Rena’s pussy and Rena yelped.</p>
+<p class="p2">“Wet already. Am I turning you on?”</p>
+<p class="p2">“Yes.” Rena panted. “You’re turning me on.”</p>
+<p class="p2">“Good.”</p>
+<p class="p2">Tracey lowered her head and Rena gasped when she felt cool lips on her clit, Tracey’s tongue flicking out over her hardened bud. Rena’s body began to hum as Tracey’s mouth worked over her clit and licked around her pussy, her tongue dipping inside. Then Rena felt a finger slipping in, Tracey’s hand turning and her finger curling up. It rubbed against Rena’s G-spot and that had electricity shooting up Rena’s back and coming around to tighten her nipples.</p>
+<p class="p2">Her climax was so close.</p>
+<p class="p2">Tracey began to lick faster, adding another finger to the first and thrusting hard and fast. Rena opened her legs wider to take more in, her hands going to Tracey’s head. She threaded her fingers through Tracey’s hair, keeping her head pinned to her pussy. Her orgasm was very close now and she didn’t want to run away from it.</p>
+<p class="p2">When it did come, Rena was completely caught off-guard. It seemed to slam into her and she let out a scream, her back arching off the couch and almost causing her to slide off. Tracey drew out the orgasm for a long time, making Rena feel like she was struggling for air. She couldn’t carry on, but Tracey was determined to wring her out.</p>
+<p class="p2">And Rena didn’t want it to stop.</p>
+<p class="p2">“Holy shit!”</p>
+<p class="p3">* * * *</p>
+<p class="p2">Rena looked beautiful laying there naked, her body flushed with her orgasm. And she tasted so sweet as well. Tracey couldn’t get enough of her. She wanted to pull Rena to the floor and jump on her, but she was clearly worn out and needed a break.</p>
+<p class="p2">Giving Rena’s pussy one final lick and kiss, she crawled up Rena’s body. Rena accepted her kiss gladly, pulling Tracey against her. Having a naked woman in her arms when she was still fully dressed felt rather erotic.</p>
+<p class="p2">“Wow.” Rena panted as Tracey drew back, tracing her tongue down her neck. “Just…wow.”</p>
+<p class="p2">Tracey chuckled.</p>
+<p class="p2">“I’m glad you could enjoy it.”</p>
+<p class="p2">“I haven’t had amazing sex like that in a long time.”</p>
+<p class="p2">“Really? Andy was always bragging to us about having a great sex life.”</p>
+<p class="p2">“Not with me.” Rena lifted her head. “We hadn’t had sex in months.”</p>
+<p class="p2">Tracey groaned when she realized what she had heard.</p>
+<p class="p2">“Oh, God. We were fools, weren’t we?”</p>
+<p class="p2">Rena tugged her head up and kissed her hard.</p>
+<p class="p2">“Not now. We got rid of them, didn’t we?”</p>
+<p class="p2">“We did.” Tracey rubbed her body against Rena’s, feeling the other woman’s nipples pressing against her. “Men are overrated, anyway.”</p>
+<p class="p2">Rena giggled.</p>
+<p class="p2">“With you around, certainly.” She paused. “Were you serious before?”</p>
+<p class="p2">“About what?”</p>
+<p class="p2">“You mentioned when we first met that you’d never had a man’s cock before. Were you serious about that?”</p>
+<p class="p2">“Sort of.” Tracey drew back a little and made a face. “A guy took my virginity when I was seventeen. I didn’t find it appealing at all. Put me right off.”</p>
+<p class="p2">“It’s not as bad as you think it is.” Rena rose up, giving Tracey a sly grin. “Because I’ve just thought of something that could show you.”</p>
+<p class="p2">Tracey watched in amazement as Rena jumped off the couch and padded naked towards the bedroom she and Andy would have been sharing. She couldn’t take her eyes off her backside. Firm, curvy and round. Tracey could feel her hands itching to grab a hold of her again. She licked her lips, still tasting Rena’s juices on her mouth.</p>
+<p class="p2">She wanted another taste.</p>
+<p class="p2">Rena came back a moment later, carrying a bag that looked familiar. Tracey sat up when she saw the distinctive color.</p>
+<p class="p2">“Oh, God. That’s Louise’s holdall. What are you doing with it?”</p>
+<p class="p2">“I accidentally picked it up instead of mine when I left. I didn’t realize until we got here.”</p>
+<p class="p2">“What were her things doing at yours?”</p>
+<p class="p2">Rena shuddered.</p>
+<p class="p2">“I don’t know, and I don’t want to think about it. But I had a root around and I got an eyeful, let me tell you.”</p>
+<p class="p2">Tracey knew why. She could feel her face going red as she reached for the bag.</p>
+<p class="p2">“We do use a lot of toys. But I don’t recognize half of these.” She picked out a few life-size dildos, a butt plug, and a harness. Tracey had never seen this harness before. “And what is that?”</p>
+<p class="p2">Rena took it and inspected it.</p>
+<p class="p2">“It’s a double-dildo strap-on harness.”</p>
+<p class="p2">“What…?”</p>
+<p class="p2">“It’s for double penetration.”</p>
+<p class="p2">Tracey’s mouth fell open. Louise had brought that along for a reason. Tracey wasn’t above using a strap-on in lovemaking, but she had never had it used on her. And from the gleam in Rena’s eyes, she was thinking of doing that exactly.</p>
+<p class="p2">“You want to use it?”</p>
+<p class="p2">Rena grinned and leant over.</p>
+<p class="p2">“Not me. I want to use it on you.”</p>
+<p class="p2">“Me?” Tracey squeaked.</p>
+<p class="p2">Rena pulled back, still grinning.</p>
+<p class="p2">“You’ve shown me something I never knew was incredible. It’s time I returned the favour.”</p>
+<p class="p2">Tracey wasn’t sure about that. She hadn’t enjoyed it the last time. But that had been with a fumbling seventeen-year-old. Not with Rena Santiago.</p>
+<p class="p2">So, when Rena started kissing her, easing her down onto the rug, Tracey didn’t stop her. She liked this side of Rena. Now she was taking control, more at ease. Her hands danced over Tracey’s skin, running under her sweater and into her leggings. Tracey lifted her hips and felt Rena’s hands cup her backside, pushing her panties out the way.</p>
+<p class="p2">Tracey had been unsure before. But now with Rena touching her, kissing down her chest as she tugged off Tracey’s shirt, she could feel the arousal building. The thought of Rena wearing the strap-on had Tracey whimpering. It was an erotic image.</p>
+<p class="p2">It didn’t take long for Rena to undress Tracey, tossing her clothes to the side. Then she reached for the harness and put it on. Tracey lay on the rug and watched as Rena picked out a dildo that had to be at least eight inches and with a thick girth, along with a bottle of lube. She almost forgot how to breathe as Rena fixed the dildo to the harness and started to slather it was lube. That was more enticing than she thought.</p>
+<p class="p2">Tracey licked her lips. Rena looked up at her and grinned.</p>
+<p class="p2">“On your hands and knees.” She ordered.</p>
+<p class="p2">Tracey wasn’t about to argue. She rolled onto her front and rose up onto her knees, her hands flat on the floor. Rena shifted in behind her and nudged her knees open. Tracey braced herself as she felt the hard head of the dildo press against her pussy. Rena shushed her and rubbed a hand down her back.</p>
+<p class="p2">“Easy. I’ll go slow. Just relax.”</p>
+<p class="p2">Then she began to slide forward. The dildo slid through Tracey’s pussy lips and inside her. It stretched her in a way Tracey hadn’t anticipated. She gasped, her hands tightening in the rug.</p>
+<p class="p2">“Okay?” Rena breathed.</p>
+<p class="p2">Tracey couldn’t say anything. The pressure was turning into intense pleasure. She could only nod and she slowly pushed back.</p>
+<p class="p2">Rena didn’t disappoint. She drew out a little and then thrust back in, the dildo sliding in more. Tracey moaned. That was better than she thought.</p>
+<p class="p2">Rena pushed the dildo in more and more until she was fully seated in Tracey’s pussy. Tracey was breathing heavily, her pussy clamping on the dildo. God, this felt so good. Then Rena leant over, her fingers finding Tracey’s clit.</p>
+<p class="p2">“I’m going to fuck you now.” She whispered as she rubbed Tracey’s clit. “Come for me.”</p>
+<p class="p2">Tracey was almost knocked onto the floor as Rena pulled the dildo out and rammed it back in. Fireworks began to go off in her head and Tracey cried out. Her skin was covered in goose bumps. Her fingers rubbing on Tracey’s clit, Rena fucked her, her pelvis hitting Tracey’s backside. Her other hand came around and cupped Tracey’s breast, tweaking her nipple.</p>
+<p class="p2">Then Rena pulled Tracey upright. Tracey found her body flush against hers and the angle of the dildo changed. It rubbed against her G-spot and her orgasm exploded. Tracey shuddered and writhed in Rena’s arms as she carried on thrusting, drawing her climax out until Tracey was sweating and shuddering in her arms. Her body felt as though she had been running a marathon.</p>
+<p class="p2">Eventually, Rena slowed down and eased her thrusting until she had stopped, still fully wedged in Tracey’s pussy. She gently lowered them to the floor, lying on top of Tracey as both of them got their breath back.</p>
+<p class="p2">Tracey had thought she wasn’t missing anything. Now she realized she was missing a lot. She wondered if Rena would show her a bit more on their vacation. Or if Tracey could use the strap-on with Rena. The idea of fucking Rena with a dildo was a temptation she wanted to explore.</p>
+<p class="p2">Then Rena started giggling above her. Tracey lifted her head.</p>
+<p class="p2">“What’s so funny?”</p>
+<p class="p2">“Don’t look now,” Rena whispered, “But Andy and Louise are in the doorway and they’re staring at us.”</p>
+<p class="p2">Andy and Louise were here? They must have paid for another couple of tickets. Why they thought they could go on the vacation with their exes without consequence, Tracey had no idea. But they weren’t going to stay with them. And after what they had done, Tracey wasn’t going to stop her pleasure to deal with them.</p>
+<p class="p2">Looping her leg behind Rena’s, she rolled them until Rena was on her back. Tracey climbed off, the dildo sliding out of her, and turned, straddling Rena’s hips. She slid down onto the dildo again and sighed, cupping Rena’s breasts as Rena arched her back.</p>
+<p class="p2">“Let them look.” She whispered back. “I’m not done with you yet.”</p>
+<p class="p4"> </p>
+<p class="p4">THE END</p>
+<p class="p4"> </p>
+</body>
+</html>
+2022-12-15 19:50:52 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2022-12-15 19:50:53 INFO  - Step 23 - I save font size as 'fontSize'
+2022-12-15 19:50:53 INFO  - context - NATIVE_APP
+2022-12-15 19:50:53 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2022-12-15 19:50:55 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2022-12-15 19:50:55 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.2.13.4" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<p class="p0"><span class="t2">An Education</span></p>
+<p class="p0">By Katharine O’Neill</p>
+<p class="p2">Rena was feeling better after a second glass of wine. She and Tracey had consumed a lot of it since they had arrived at the cabin, snuggling in the warmth as the snow swirled around outside. Not much of a drinker herself, Rena had never expected the influence the wine had on her—like she was wrapped up in a warm blanket. Or perhaps it was the log fire burning away in the fireplace. Rena didn’t know at this point.</p>
+<p class="p2">She looked across at Tracey, who was curled up on the other end of the couch, nursing her own glass of wine. Her smile had faded and she was looking a little despondent. Rena couldn’t blame her; she was feeling the same.</p>
+<p class="p2">This winter holiday was meant to be for four people to get away from the hustle and bustle of the city. Rena and Andy, Tracey and Louise. Rena hadn’t seen her best friend for months due to their hectic lifestyles, and she simply wanted to spend the week after Christmas with Louise.</p>
+<p class="p2">But that had all gone to shit. Now she was here, very newly single, with her best friend’s girlfriend. Newly single, as well.</p>
+<p class="p2">It was worrying to see Tracey down like this. She was always outgoing and fun, a twinkle always in her eye, and a smile was never too far away. Now she was looking forlorn, staring into the rapidly diminishing wine in her glass.</p>
+<p class="p2">To see someone, as strong as Tracey, discover the woman she loved had cheated on her and be shattered by it, hurt Rena. She wanted to hold Tracey, comfort her as she cried. The urge to hold Tracey was an odd sensation, but Rena had a feeling, from the way Tracey kept looking at her, that she wouldn’t mind.</p>
+<p class="p2">Rena had thought herself straight, but there was something about Tracey that had drawn Rena to her. At thirty, Tracey was toned and physically fit. She had the vitality of a teenager. Rena found it a struggle to keep up with her and Louise. Her best friend seemed to feed off Tracey’s energy.</p>
+<p class="p2">Being curvy and a tad overweight, Rena wasn’t able to move after them as quickly. Even Andy left Rena behind. And that lowered Rena’s mood, especially when Andy jabbed at her about her weight.</p>
+<p class="p2">He wouldn’t be saying anything about her weight now.</p>
+<p class="p2">Rena watched as Tracey ran her hand through her black curls. Her breasts, encased in a soft red jumper, moved as her arm lifts. Then her jumper rode up and Rena saw the smooth, flat skin of Tracey’s stomach.</p>
+<p class="p2">Somehow, watching Tracey made Rena’s mouth go dry.</p>
+<p class="p2">The wine was doing something to her.</p>
+<p class="p2">Rena put her glass to one side and turned to Tracey, curling her legs under her.</p>
+<p class="p2">“Have you ever cheated on someone, Tracey?”</p>
+<p class="p2">“What did you say?”</p>
+<p class="p2">Tracey looked confused. Rena bit her lip.</p>
+<p class="p2">“Have you ever cheated on a girlfriend?”</p>
+<p class="p2">“Of course I haven’t.” Tracey scowled. “I would never do that. I don’t think I even have it in me to cheat. Why are you asking?”</p>
+<p class="p2">“I don’t really know.” Rena slowly stretched out her legs, inching her toes closer to Tracey’s feet. “I don’t think I have it in me to cheat, either. But I wanted to know how anyone could have the ability to cheat and not feel any guilt over it.”</p>
+<p class="p2">Tracey snorted.</p>
+<p class="p2">“Well, I’m the wrong person to ask about that.” Tracey put her glass on the table bedside her. Then she rubbed her eyes and yawned. “Sometimes, I guess they do feel something. But often it’s only regret, because they’ve been caught. It’s a sense of control, cheating. They’re in charge and it’s empowering. But, if I’m honest, I don’t see the attraction.”</p>
+<p class="p2">“Neither do I.” Rena paused. “Did you know Louise was into men as well?”</p>
+<p class="p2">“I knew she was bisexual, but she had mentioned more than once that she didn’t find Andy attractive.”</p>
+<p class="p2">Rena grunted.</p>
+<p class="p2">“Kind of difficult to argue when there’s eight inches of cock shoved inside you.”</p>
+<p class="p2">Tracey stared at her. Then she threw her head back and laughed. Rena tried to laugh, but the pain was still there. Her boyfriend and her best friend, gone. Three days and it was still fresh.</p>
+<p class="p2">“Louise was my best friend.”</p>
+<p class="p2">Tracey’s expression softened. She shifted around, sliding across the couch and putting an arm around Rena’s shoulders. Rena didn’t argue as Tracey hugged her, rubbing her back. Rena sighed and closed her eyes. This felt good. Really good.</p>
+<p class="p2">Tracey shifted a little, and then she was using both hands, massaging Rena’s shoulders. This had Rena moaning. She did love a massage. Maybe she should ask Tracey to do them more often.</p>
+<p class="p2">Then Rena realized that Tracey’s hands were drifting even lower down her back, her fingers brushing against the hem of her sweater. It had ridden up to reveal some flesh at the small of her back. Rena tried not to shiver as Tracey’s fingers brushed her skin.</p>
+<p class="p2">Tracey hesitated for the briefest of moments and then she pushed her hands under Rena’s sweater.</p>
+<p class="p2">Rena had never known Tracey to be so brazen. Was she coming onto her? The thought that Tracey was making the moves on her had Rena’s clit throbbing. Rena had to bite her lip to stop herself from rubbing her pelvis against the couch. Her heart pounded as Tracey’s fingers pushed up her back, still rubbing her warm palms over her skin. Then her fingers brushed against Rena’s bra strap.</p>
+<p class="p2">Rena had never had a woman try to seduce her. And she realized that she liked it. When it was a beautiful woman like Tracey, it felt empowering. Rena swallowed.</p>
+<p class="p2">“Can I ask you a question, Tracey?”</p>
+<p class="p2">“Depends on what the question is.”</p>
+<p class="p2">“What’s it like making love to a woman?”</p>
+<p class="p2">Tracey’s hands paused, her hands right over the clasp of Rena’s bra.</p>
+<p class="p2">“Why do you ask that?”</p>
+<p class="p2">“I’m curious.”</p>
+<p class="p2">Rena didn’t want to turn around, but she wanted to see Tracey. She shifted onto her back, Tracey’s hands staying where they were as Rena moved. Now her hands were lying on Rena’s breasts, her nipples stabbing Tracey’s hands.</p>
+<p class="p2">“I’ve always been curious. How does…you know…how does it work?”</p>
+<p class="p2">Tracey’s eyes were darkening, her pupils dilating. Rena saw her nostrils twitch.</p>
+<p class="p2">“It’s pretty much the same as making love to a man.” She flexed her fingers over Rena’s breasts. “There are just a few anatomical differences.”</p>
+<p class="p2">Rena felt as though she was having a heart attack. Andy had never done this to her. The attraction to him felt muted compared to what she was feeling now. Tracey had some kind of hold on her that Rena couldn’t describe. And it felt so good.</p>
+<p class="p2">She did have a momentary thought about Andy, however. She was a single woman, but he was still fresh in her mind. There was that moment of regret, as if she was cheating on him.</p>
+<p class="p2">“Hey.” Tracey’s face was closer to hers, her expression saying she knew where Rena’s thoughts were. “Don’t think about them. They’re not here and we are. Let’s focus on us.”</p>
+<p class="p2">“I wish I could.” Rena stared at the ceiling. “I just don’t know how. My brain keeps switching back to them. I don’t want to think about them, but it’s there.”</p>
+<p class="p2">She wasn’t prepared for Tracey’s kiss, a gentle brush of lips across hers before a firmer press. Rena started, but found herself relaxing into the kiss, her hands lifting to run up Tracey’s sides.</p>
+<p class="p2">This was good. Too good. Rena’s brain switched back on and she pulled away.</p>
+<p class="p2">“What are you doing?”</p>
+<p class="p2">Tracey grinned. Her hands squeezed Rena’s breasts.</p>
+<p class="p2">“Trying to distract you.” She then rolled Rena’s nipples between her fingers. “Is it working?”</p>
+<p class="p2">Rena gasped and thrust her breasts into Tracey’s hands. The tugging seemed to go straight down to her clit, which was pulsating hard as her panties became wet. She squeezed her thighs together to try and ward off the throbbing.</p>
+<p class="p2">“Keep kissing me and I’ll find out.” She whispered.</p>
+<p class="p2">Tracey laughed.</p>
+<p class="p2">“With pleasure.”</p>
+<p class="p2">This time the kiss was more passionate, Tracey slipping her arms around Rena and pulling her into her arms. Her tongue slipped along Rena’s lips and Rena opened her mouth, Tracey’s tongue diving inside. Rena shuddered as her tongue was rubbed and sucked into Tracey’s mouth. Her hands cupped Tracey’s breasts for the first time and gave them a firm squeeze. Tracey groaned into Rena’s mouth, kissing her more fiercely. She really could kiss. Rena was trembling, her arousal twisting in her belly and steadily growing.</p>
+<p class="p2">Tracey pulled away and slid to kneel on the floor. She urged Rena to sit up and tugged her sweater up. Rena raised her arms and Tracey pulled her sweater off, tossing it onto the floor. Rena unsnapped her bra and slid it down her arms, throwing it aside. She wasn’t expecting for Tracey to pounce on her, sucking one breast into her mouth. Pleasure burst inside her. Rena clutched onto Tracey’s shoulders, her fingers digging in as Tracey sucked one nipple and then the other into her mouth, using her tongue and teeth to titillate. Her hands slid down to Rena’s backside, slipping inside her jeans and cupping her backside.</p>
+<p class="p2">Rena felt like her head was about to explode. She needed a release soon. Never had she reached a climax so quickly, only to be teetering on the edge with Tracey refusing to let her fall. She felt Tracey gently ease her back as her hands drifted to her jeans.</p>
+<p class="p2">“I feel like a virgin on her first time.” She gasped as Tracey unsnapped her jeans.</p>
+<p class="p2">Tracey grinned and pressed a kiss to her navel.</p>
+<p class="p2">“Just relax. Let me do the work.” She nudged Rena’s hips. “Lift your hips and spread your legs.”</p>
+<p class="p2">Rena lifted her hips and Tracey tugged off her jeans, pulling her panties with them. They joined the rest of her clothes on the floor and Tracey sat back as Rena spread her legs. Normally, she was nervous about showing her naked body to anyone. Even Andy hadn’t seen her body in anything other than shadow. But there was something about the way Tracey was looking at her that had Rena feeling sexy. The woman practically growled as Rena opened up her legs, her body flushed and throbbing.</p>
+<p class="p2">“Just gorgeous.” Tracey shuffled forward and ran her hands up Rena’s legs. “Absolutely gorgeous.”</p>
+<p class="p2">She brushed her fingers over Rena’s pussy and Rena yelped.</p>
+<p class="p2">“Wet already. Am I turning you on?”</p>
+<p class="p2">“Yes.” Rena panted. “You’re turning me on.”</p>
+<p class="p2">“Good.”</p>
+<p class="p2">Tracey lowered her head and Rena gasped when she felt cool lips on her clit, Tracey’s tongue flicking out over her hardened bud. Rena’s body began to hum as Tracey’s mouth worked over her clit and licked around her pussy, her tongue dipping inside. Then Rena felt a finger slipping in, Tracey’s hand turning and her finger curling up. It rubbed against Rena’s G-spot and that had electricity shooting up Rena’s back and coming around to tighten her nipples.</p>
+<p class="p2">Her climax was so close.</p>
+<p class="p2">Tracey began to lick faster, adding another finger to the first and thrusting hard and fast. Rena opened her legs wider to take more in, her hands going to Tracey’s head. She threaded her fingers through Tracey’s hair, keeping her head pinned to her pussy. Her orgasm was very close now and she didn’t want to run away from it.</p>
+<p class="p2">When it did come, Rena was completely caught off-guard. It seemed to slam into her and she let out a scream, her back arching off the couch and almost causing her to slide off. Tracey drew out the orgasm for a long time, making Rena feel like she was struggling for air. She couldn’t carry on, but Tracey was determined to wring her out.</p>
+<p class="p2">And Rena didn’t want it to stop.</p>
+<p class="p2">“Holy shit!”</p>
+<p class="p3">* * * *</p>
+<p class="p2">Rena looked beautiful laying there naked, her body flushed with her orgasm. And she tasted so sweet as well. Tracey couldn’t get enough of her. She wanted to pull Rena to the floor and jump on her, but she was clearly worn out and needed a break.</p>
+<p class="p2">Giving Rena’s pussy one final lick and kiss, she crawled up Rena’s body. Rena accepted her kiss gladly, pulling Tracey against her. Having a naked woman in her arms when she was still fully dressed felt rather erotic.</p>
+<p class="p2">“Wow.” Rena panted as Tracey drew back, tracing her tongue down her neck. “Just…wow.”</p>
+<p class="p2">Tracey chuckled.</p>
+<p class="p2">“I’m glad you could enjoy it.”</p>
+<p class="p2">“I haven’t had amazing sex like that in a long time.”</p>
+<p class="p2">“Really? Andy was always bragging to us about having a great sex life.”</p>
+<p class="p2">“Not with me.” Rena lifted her head. “We hadn’t had sex in months.”</p>
+<p class="p2">Tracey groaned when she realized what she had heard.</p>
+<p class="p2">“Oh, God. We were fools, weren’t we?”</p>
+<p class="p2">Rena tugged her head up and kissed her hard.</p>
+<p class="p2">“Not now. We got rid of them, didn’t we?”</p>
+<p class="p2">“We did.” Tracey rubbed her body against Rena’s, feeling the other woman’s nipples pressing against her. “Men are overrated, anyway.”</p>
+<p class="p2">Rena giggled.</p>
+<p class="p2">“With you around, certainly.” She paused. “Were you serious before?”</p>
+<p class="p2">“About what?”</p>
+<p class="p2">“You mentioned when we first met that you’d never had a man’s cock before. Were you serious about that?”</p>
+<p class="p2">“Sort of.” Tracey drew back a little and made a face. “A guy took my virginity when I was seventeen. I didn’t find it appealing at all. Put me right off.”</p>
+<p class="p2">“It’s not as bad as you think it is.” Rena rose up, giving Tracey a sly grin. “Because I’ve just thought of something that could show you.”</p>
+<p class="p2">Tracey watched in amazement as Rena jumped off the couch and padded naked towards the bedroom she and Andy would have been sharing. She couldn’t take her eyes off her backside. Firm, curvy and round. Tracey could feel her hands itching to grab a hold of her again. She licked her lips, still tasting Rena’s juices on her mouth.</p>
+<p class="p2">She wanted another taste.</p>
+<p class="p2">Rena came back a moment later, carrying a bag that looked familiar. Tracey sat up when she saw the distinctive color.</p>
+<p class="p2">“Oh, God. That’s Louise’s holdall. What are you doing with it?”</p>
+<p class="p2">“I accidentally picked it up instead of mine when I left. I didn’t realize until we got here.”</p>
+<p class="p2">“What were her things doing at yours?”</p>
+<p class="p2">Rena shuddered.</p>
+<p class="p2">“I don’t know, and I don’t want to think about it. But I had a root around and I got an eyeful, let me tell you.”</p>
+<p class="p2">Tracey knew why. She could feel her face going red as she reached for the bag.</p>
+<p class="p2">“We do use a lot of toys. But I don’t recognize half of these.” She picked out a few life-size dildos, a butt plug, and a harness. Tracey had never seen this harness before. “And what is that?”</p>
+<p class="p2">Rena took it and inspected it.</p>
+<p class="p2">“It’s a double-dildo strap-on harness.”</p>
+<p class="p2">“What…?”</p>
+<p class="p2">“It’s for double penetration.”</p>
+<p class="p2">Tracey’s mouth fell open. Louise had brought that along for a reason. Tracey wasn’t above using a strap-on in lovemaking, but she had never had it used on her. And from the gleam in Rena’s eyes, she was thinking of doing that exactly.</p>
+<p class="p2">“You want to use it?”</p>
+<p class="p2">Rena grinned and leant over.</p>
+<p class="p2">“Not me. I want to use it on you.”</p>
+<p class="p2">“Me?” Tracey squeaked.</p>
+<p class="p2">Rena pulled back, still grinning.</p>
+<p class="p2">“You’ve shown me something I never knew was incredible. It’s time I returned the favour.”</p>
+<p class="p2">Tracey wasn’t sure about that. She hadn’t enjoyed it the last time. But that had been with a fumbling seventeen-year-old. Not with Rena Santiago.</p>
+<p class="p2">So, when Rena started kissing her, easing her down onto the rug, Tracey didn’t stop her. She liked this side of Rena. Now she was taking control, more at ease. Her hands danced over Tracey’s skin, running under her sweater and into her leggings. Tracey lifted her hips and felt Rena’s hands cup her backside, pushing her panties out the way.</p>
+<p class="p2">Tracey had been unsure before. But now with Rena touching her, kissing down her chest as she tugged off Tracey’s shirt, she could feel the arousal building. The thought of Rena wearing the strap-on had Tracey whimpering. It was an erotic image.</p>
+<p class="p2">It didn’t take long for Rena to undress Tracey, tossing her clothes to the side. Then she reached for the harness and put it on. Tracey lay on the rug and watched as Rena picked out a dildo that had to be at least eight inches and with a thick girth, along with a bottle of lube. She almost forgot how to breathe as Rena fixed the dildo to the harness and started to slather it was lube. That was more enticing than she thought.</p>
+<p class="p2">Tracey licked her lips. Rena looked up at her and grinned.</p>
+<p class="p2">“On your hands and knees.” She ordered.</p>
+<p class="p2">Tracey wasn’t about to argue. She rolled onto her front and rose up onto her knees, her hands flat on the floor. Rena shifted in behind her and nudged her knees open. Tracey braced herself as she felt the hard head of the dildo press against her pussy. Rena shushed her and rubbed a hand down her back.</p>
+<p class="p2">“Easy. I’ll go slow. Just relax.”</p>
+<p class="p2">Then she began to slide forward. The dildo slid through Tracey’s pussy lips and inside her. It stretched her in a way Tracey hadn’t anticipated. She gasped, her hands tightening in the rug.</p>
+<p class="p2">“Okay?” Rena breathed.</p>
+<p class="p2">Tracey couldn’t say anything. The pressure was turning into intense pleasure. She could only nod and she slowly pushed back.</p>
+<p class="p2">Rena didn’t disappoint. She drew out a little and then thrust back in, the dildo sliding in more. Tracey moaned. That was better than she thought.</p>
+<p class="p2">Rena pushed the dildo in more and more until she was fully seated in Tracey’s pussy. Tracey was breathing heavily, her pussy clamping on the dildo. God, this felt so good. Then Rena leant over, her fingers finding Tracey’s clit.</p>
+<p class="p2">“I’m going to fuck you now.” She whispered as she rubbed Tracey’s clit. “Come for me.”</p>
+<p class="p2">Tracey was almost knocked onto the floor as Rena pulled the dildo out and rammed it back in. Fireworks began to go off in her head and Tracey cried out. Her skin was covered in goose bumps. Her fingers rubbing on Tracey’s clit, Rena fucked her, her pelvis hitting Tracey’s backside. Her other hand came around and cupped Tracey’s breast, tweaking her nipple.</p>
+<p class="p2">Then Rena pulled Tracey upright. Tracey found her body flush against hers and the angle of the dildo changed. It rubbed against her G-spot and her orgasm exploded. Tracey shuddered and writhed in Rena’s arms as she carried on thrusting, drawing her climax out until Tracey was sweating and shuddering in her arms. Her body felt as though she had been running a marathon.</p>
+<p class="p2">Eventually, Rena slowed down and eased her thrusting until she had stopped, still fully wedged in Tracey’s pussy. She gently lowered them to the floor, lying on top of Tracey as both of them got their breath back.</p>
+<p class="p2">Tracey had thought she wasn’t missing anything. Now she realized she was missing a lot. She wondered if Rena would show her a bit more on their vacation. Or if Tracey could use the strap-on with Rena. The idea of fucking Rena with a dildo was a temptation she wanted to explore.</p>
+<p class="p2">Then Rena started giggling above her. Tracey lifted her head.</p>
+<p class="p2">“What’s so funny?”</p>
+<p class="p2">“Don’t look now,” Rena whispered, “But Andy and Louise are in the doorway and they’re staring at us.”</p>
+<p class="p2">Andy and Louise were here? They must have paid for another couple of tickets. Why they thought they could go on the vacation with their exes without consequence, Tracey had no idea. But they weren’t going to stay with them. And after what they had done, Tracey wasn’t going to stop her pleasure to deal with them.</p>
+<p class="p2">Looping her leg behind Rena’s, she rolled them until Rena was on her back. Tracey climbed off, the dildo sliding out of her, and turned, straddling Rena’s hips. She slid down onto the dildo again and sighed, cupping Rena’s breasts as Rena arched her back.</p>
+<p class="p2">“Let them look.” She whispered back. “I’m not done with you yet.”</p>
+<p class="p4"> </p>
+<p class="p4">THE END</p>
+<p class="p4"> </p>
+</body>
+</html>
+2022-12-15 19:50:55 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2022-12-15 19:50:55 INFO  - Step 24 - I open font settings
+2022-12-15 19:50:56 INFO  - Button 'btnFontSettings' :: Clicking
+2022-12-15 19:50:57 INFO  - Step 25 - I DECREASE_FONT of text
+2022-12-15 19:50:57 INFO  - Button 'setTextSmaller' :: Clicking
+2022-12-15 19:50:58 INFO  - Step 26 - Font size 'fontSize' is decreased
+2022-12-15 19:50:59 INFO  - context - NATIVE_APP
+2022-12-15 19:50:59 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2022-12-15 19:51:00 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2022-12-15 19:51:00 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.2.13.4" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<p class="p0"><span class="t2">An Education</span></p>
+<p class="p0">By Katharine O’Neill</p>
+<p class="p2">Rena was feeling better after a second glass of wine. She and Tracey had consumed a lot of it since they had arrived at the cabin, snuggling in the warmth as the snow swirled around outside. Not much of a drinker herself, Rena had never expected the influence the wine had on her—like she was wrapped up in a warm blanket. Or perhaps it was the log fire burning away in the fireplace. Rena didn’t know at this point.</p>
+<p class="p2">She looked across at Tracey, who was curled up on the other end of the couch, nursing her own glass of wine. Her smile had faded and she was looking a little despondent. Rena couldn’t blame her; she was feeling the same.</p>
+<p class="p2">This winter holiday was meant to be for four people to get away from the hustle and bustle of the city. Rena and Andy, Tracey and Louise. Rena hadn’t seen her best friend for months due to their hectic lifestyles, and she simply wanted to spend the week after Christmas with Louise.</p>
+<p class="p2">But that had all gone to shit. Now she was here, very newly single, with her best friend’s girlfriend. Newly single, as well.</p>
+<p class="p2">It was worrying to see Tracey down like this. She was always outgoing and fun, a twinkle always in her eye, and a smile was never too far away. Now she was looking forlorn, staring into the rapidly diminishing wine in her glass.</p>
+<p class="p2">To see someone, as strong as Tracey, discover the woman she loved had cheated on her and be shattered by it, hurt Rena. She wanted to hold Tracey, comfort her as she cried. The urge to hold Tracey was an odd sensation, but Rena had a feeling, from the way Tracey kept looking at her, that she wouldn’t mind.</p>
+<p class="p2">Rena had thought herself straight, but there was something about Tracey that had drawn Rena to her. At thirty, Tracey was toned and physically fit. She had the vitality of a teenager. Rena found it a struggle to keep up with her and Louise. Her best friend seemed to feed off Tracey’s energy.</p>
+<p class="p2">Being curvy and a tad overweight, Rena wasn’t able to move after them as quickly. Even Andy left Rena behind. And that lowered Rena’s mood, especially when Andy jabbed at her about her weight.</p>
+<p class="p2">He wouldn’t be saying anything about her weight now.</p>
+<p class="p2">Rena watched as Tracey ran her hand through her black curls. Her breasts, encased in a soft red jumper, moved as her arm lifts. Then her jumper rode up and Rena saw the smooth, flat skin of Tracey’s stomach.</p>
+<p class="p2">Somehow, watching Tracey made Rena’s mouth go dry.</p>
+<p class="p2">The wine was doing something to her.</p>
+<p class="p2">Rena put her glass to one side and turned to Tracey, curling her legs under her.</p>
+<p class="p2">“Have you ever cheated on someone, Tracey?”</p>
+<p class="p2">“What did you say?”</p>
+<p class="p2">Tracey looked confused. Rena bit her lip.</p>
+<p class="p2">“Have you ever cheated on a girlfriend?”</p>
+<p class="p2">“Of course I haven’t.” Tracey scowled. “I would never do that. I don’t think I even have it in me to cheat. Why are you asking?”</p>
+<p class="p2">“I don’t really know.” Rena slowly stretched out her legs, inching her toes closer to Tracey’s feet. “I don’t think I have it in me to cheat, either. But I wanted to know how anyone could have the ability to cheat and not feel any guilt over it.”</p>
+<p class="p2">Tracey snorted.</p>
+<p class="p2">“Well, I’m the wrong person to ask about that.” Tracey put her glass on the table bedside her. Then she rubbed her eyes and yawned. “Sometimes, I guess they do feel something. But often it’s only regret, because they’ve been caught. It’s a sense of control, cheating. They’re in charge and it’s empowering. But, if I’m honest, I don’t see the attraction.”</p>
+<p class="p2">“Neither do I.” Rena paused. “Did you know Louise was into men as well?”</p>
+<p class="p2">“I knew she was bisexual, but she had mentioned more than once that she didn’t find Andy attractive.”</p>
+<p class="p2">Rena grunted.</p>
+<p class="p2">“Kind of difficult to argue when there’s eight inches of cock shoved inside you.”</p>
+<p class="p2">Tracey stared at her. Then she threw her head back and laughed. Rena tried to laugh, but the pain was still there. Her boyfriend and her best friend, gone. Three days and it was still fresh.</p>
+<p class="p2">“Louise was my best friend.”</p>
+<p class="p2">Tracey’s expression softened. She shifted around, sliding across the couch and putting an arm around Rena’s shoulders. Rena didn’t argue as Tracey hugged her, rubbing her back. Rena sighed and closed her eyes. This felt good. Really good.</p>
+<p class="p2">Tracey shifted a little, and then she was using both hands, massaging Rena’s shoulders. This had Rena moaning. She did love a massage. Maybe she should ask Tracey to do them more often.</p>
+<p class="p2">Then Rena realized that Tracey’s hands were drifting even lower down her back, her fingers brushing against the hem of her sweater. It had ridden up to reveal some flesh at the small of her back. Rena tried not to shiver as Tracey’s fingers brushed her skin.</p>
+<p class="p2">Tracey hesitated for the briefest of moments and then she pushed her hands under Rena’s sweater.</p>
+<p class="p2">Rena had never known Tracey to be so brazen. Was she coming onto her? The thought that Tracey was making the moves on her had Rena’s clit throbbing. Rena had to bite her lip to stop herself from rubbing her pelvis against the couch. Her heart pounded as Tracey’s fingers pushed up her back, still rubbing her warm palms over her skin. Then her fingers brushed against Rena’s bra strap.</p>
+<p class="p2">Rena had never had a woman try to seduce her. And she realized that she liked it. When it was a beautiful woman like Tracey, it felt empowering. Rena swallowed.</p>
+<p class="p2">“Can I ask you a question, Tracey?”</p>
+<p class="p2">“Depends on what the question is.”</p>
+<p class="p2">“What’s it like making love to a woman?”</p>
+<p class="p2">Tracey’s hands paused, her hands right over the clasp of Rena’s bra.</p>
+<p class="p2">“Why do you ask that?”</p>
+<p class="p2">“I’m curious.”</p>
+<p class="p2">Rena didn’t want to turn around, but she wanted to see Tracey. She shifted onto her back, Tracey’s hands staying where they were as Rena moved. Now her hands were lying on Rena’s breasts, her nipples stabbing Tracey’s hands.</p>
+<p class="p2">“I’ve always been curious. How does…you know…how does it work?”</p>
+<p class="p2">Tracey’s eyes were darkening, her pupils dilating. Rena saw her nostrils twitch.</p>
+<p class="p2">“It’s pretty much the same as making love to a man.” She flexed her fingers over Rena’s breasts. “There are just a few anatomical differences.”</p>
+<p class="p2">Rena felt as though she was having a heart attack. Andy had never done this to her. The attraction to him felt muted compared to what she was feeling now. Tracey had some kind of hold on her that Rena couldn’t describe. And it felt so good.</p>
+<p class="p2">She did have a momentary thought about Andy, however. She was a single woman, but he was still fresh in her mind. There was that moment of regret, as if she was cheating on him.</p>
+<p class="p2">“Hey.” Tracey’s face was closer to hers, her expression saying she knew where Rena’s thoughts were. “Don’t think about them. They’re not here and we are. Let’s focus on us.”</p>
+<p class="p2">“I wish I could.” Rena stared at the ceiling. “I just don’t know how. My brain keeps switching back to them. I don’t want to think about them, but it’s there.”</p>
+<p class="p2">She wasn’t prepared for Tracey’s kiss, a gentle brush of lips across hers before a firmer press. Rena started, but found herself relaxing into the kiss, her hands lifting to run up Tracey’s sides.</p>
+<p class="p2">This was good. Too good. Rena’s brain switched back on and she pulled away.</p>
+<p class="p2">“What are you doing?”</p>
+<p class="p2">Tracey grinned. Her hands squeezed Rena’s breasts.</p>
+<p class="p2">“Trying to distract you.” She then rolled Rena’s nipples between her fingers. “Is it working?”</p>
+<p class="p2">Rena gasped and thrust her breasts into Tracey’s hands. The tugging seemed to go straight down to her clit, which was pulsating hard as her panties became wet. She squeezed her thighs together to try and ward off the throbbing.</p>
+<p class="p2">“Keep kissing me and I’ll find out.” She whispered.</p>
+<p class="p2">Tracey laughed.</p>
+<p class="p2">“With pleasure.”</p>
+<p class="p2">This time the kiss was more passionate, Tracey slipping her arms around Rena and pulling her into her arms. Her tongue slipped along Rena’s lips and Rena opened her mouth, Tracey’s tongue diving inside. Rena shuddered as her tongue was rubbed and sucked into Tracey’s mouth. Her hands cupped Tracey’s breasts for the first time and gave them a firm squeeze. Tracey groaned into Rena’s mouth, kissing her more fiercely. She really could kiss. Rena was trembling, her arousal twisting in her belly and steadily growing.</p>
+<p class="p2">Tracey pulled away and slid to kneel on the floor. She urged Rena to sit up and tugged her sweater up. Rena raised her arms and Tracey pulled her sweater off, tossing it onto the floor. Rena unsnapped her bra and slid it down her arms, throwing it aside. She wasn’t expecting for Tracey to pounce on her, sucking one breast into her mouth. Pleasure burst inside her. Rena clutched onto Tracey’s shoulders, her fingers digging in as Tracey sucked one nipple and then the other into her mouth, using her tongue and teeth to titillate. Her hands slid down to Rena’s backside, slipping inside her jeans and cupping her backside.</p>
+<p class="p2">Rena felt like her head was about to explode. She needed a release soon. Never had she reached a climax so quickly, only to be teetering on the edge with Tracey refusing to let her fall. She felt Tracey gently ease her back as her hands drifted to her jeans.</p>
+<p class="p2">“I feel like a virgin on her first time.” She gasped as Tracey unsnapped her jeans.</p>
+<p class="p2">Tracey grinned and pressed a kiss to her navel.</p>
+<p class="p2">“Just relax. Let me do the work.” She nudged Rena’s hips. “Lift your hips and spread your legs.”</p>
+<p class="p2">Rena lifted her hips and Tracey tugged off her jeans, pulling her panties with them. They joined the rest of her clothes on the floor and Tracey sat back as Rena spread her legs. Normally, she was nervous about showing her naked body to anyone. Even Andy hadn’t seen her body in anything other than shadow. But there was something about the way Tracey was looking at her that had Rena feeling sexy. The woman practically growled as Rena opened up her legs, her body flushed and throbbing.</p>
+<p class="p2">“Just gorgeous.” Tracey shuffled forward and ran her hands up Rena’s legs. “Absolutely gorgeous.”</p>
+<p class="p2">She brushed her fingers over Rena’s pussy and Rena yelped.</p>
+<p class="p2">“Wet already. Am I turning you on?”</p>
+<p class="p2">“Yes.” Rena panted. “You’re turning me on.”</p>
+<p class="p2">“Good.”</p>
+<p class="p2">Tracey lowered her head and Rena gasped when she felt cool lips on her clit, Tracey’s tongue flicking out over her hardened bud. Rena’s body began to hum as Tracey’s mouth worked over her clit and licked around her pussy, her tongue dipping inside. Then Rena felt a finger slipping in, Tracey’s hand turning and her finger curling up. It rubbed against Rena’s G-spot and that had electricity shooting up Rena’s back and coming around to tighten her nipples.</p>
+<p class="p2">Her climax was so close.</p>
+<p class="p2">Tracey began to lick faster, adding another finger to the first and thrusting hard and fast. Rena opened her legs wider to take more in, her hands going to Tracey’s head. She threaded her fingers through Tracey’s hair, keeping her head pinned to her pussy. Her orgasm was very close now and she didn’t want to run away from it.</p>
+<p class="p2">When it did come, Rena was completely caught off-guard. It seemed to slam into her and she let out a scream, her back arching off the couch and almost causing her to slide off. Tracey drew out the orgasm for a long time, making Rena feel like she was struggling for air. She couldn’t carry on, but Tracey was determined to wring her out.</p>
+<p class="p2">And Rena didn’t want it to stop.</p>
+<p class="p2">“Holy shit!”</p>
+<p class="p3">* * * *</p>
+<p class="p2">Rena looked beautiful laying there naked, her body flushed with her orgasm. And she tasted so sweet as well. Tracey couldn’t get enough of her. She wanted to pull Rena to the floor and jump on her, but she was clearly worn out and needed a break.</p>
+<p class="p2">Giving Rena’s pussy one final lick and kiss, she crawled up Rena’s body. Rena accepted her kiss gladly, pulling Tracey against her. Having a naked woman in her arms when she was still fully dressed felt rather erotic.</p>
+<p class="p2">“Wow.” Rena panted as Tracey drew back, tracing her tongue down her neck. “Just…wow.”</p>
+<p class="p2">Tracey chuckled.</p>
+<p class="p2">“I’m glad you could enjoy it.”</p>
+<p class="p2">“I haven’t had amazing sex like that in a long time.”</p>
+<p class="p2">“Really? Andy was always bragging to us about having a great sex life.”</p>
+<p class="p2">“Not with me.” Rena lifted her head. “We hadn’t had sex in months.”</p>
+<p class="p2">Tracey groaned when she realized what she had heard.</p>
+<p class="p2">“Oh, God. We were fools, weren’t we?”</p>
+<p class="p2">Rena tugged her head up and kissed her hard.</p>
+<p class="p2">“Not now. We got rid of them, didn’t we?”</p>
+<p class="p2">“We did.” Tracey rubbed her body against Rena’s, feeling the other woman’s nipples pressing against her. “Men are overrated, anyway.”</p>
+<p class="p2">Rena giggled.</p>
+<p class="p2">“With you around, certainly.” She paused. “Were you serious before?”</p>
+<p class="p2">“About what?”</p>
+<p class="p2">“You mentioned when we first met that you’d never had a man’s cock before. Were you serious about that?”</p>
+<p class="p2">“Sort of.” Tracey drew back a little and made a face. “A guy took my virginity when I was seventeen. I didn’t find it appealing at all. Put me right off.”</p>
+<p class="p2">“It’s not as bad as you think it is.” Rena rose up, giving Tracey a sly grin. “Because I’ve just thought of something that could show you.”</p>
+<p class="p2">Tracey watched in amazement as Rena jumped off the couch and padded naked towards the bedroom she and Andy would have been sharing. She couldn’t take her eyes off her backside. Firm, curvy and round. Tracey could feel her hands itching to grab a hold of her again. She licked her lips, still tasting Rena’s juices on her mouth.</p>
+<p class="p2">She wanted another taste.</p>
+<p class="p2">Rena came back a moment later, carrying a bag that looked familiar. Tracey sat up when she saw the distinctive color.</p>
+<p class="p2">“Oh, God. That’s Louise’s holdall. What are you doing with it?”</p>
+<p class="p2">“I accidentally picked it up instead of mine when I left. I didn’t realize until we got here.”</p>
+<p class="p2">“What were her things doing at yours?”</p>
+<p class="p2">Rena shuddered.</p>
+<p class="p2">“I don’t know, and I don’t want to think about it. But I had a root around and I got an eyeful, let me tell you.”</p>
+<p class="p2">Tracey knew why. She could feel her face going red as she reached for the bag.</p>
+<p class="p2">“We do use a lot of toys. But I don’t recognize half of these.” She picked out a few life-size dildos, a butt plug, and a harness. Tracey had never seen this harness before. “And what is that?”</p>
+<p class="p2">Rena took it and inspected it.</p>
+<p class="p2">“It’s a double-dildo strap-on harness.”</p>
+<p class="p2">“What…?”</p>
+<p class="p2">“It’s for double penetration.”</p>
+<p class="p2">Tracey’s mouth fell open. Louise had brought that along for a reason. Tracey wasn’t above using a strap-on in lovemaking, but she had never had it used on her. And from the gleam in Rena’s eyes, she was thinking of doing that exactly.</p>
+<p class="p2">“You want to use it?”</p>
+<p class="p2">Rena grinned and leant over.</p>
+<p class="p2">“Not me. I want to use it on you.”</p>
+<p class="p2">“Me?” Tracey squeaked.</p>
+<p class="p2">Rena pulled back, still grinning.</p>
+<p class="p2">“You’ve shown me something I never knew was incredible. It’s time I returned the favour.”</p>
+<p class="p2">Tracey wasn’t sure about that. She hadn’t enjoyed it the last time. But that had been with a fumbling seventeen-year-old. Not with Rena Santiago.</p>
+<p class="p2">So, when Rena started kissing her, easing her down onto the rug, Tracey didn’t stop her. She liked this side of Rena. Now she was taking control, more at ease. Her hands danced over Tracey’s skin, running under her sweater and into her leggings. Tracey lifted her hips and felt Rena’s hands cup her backside, pushing her panties out the way.</p>
+<p class="p2">Tracey had been unsure before. But now with Rena touching her, kissing down her chest as she tugged off Tracey’s shirt, she could feel the arousal building. The thought of Rena wearing the strap-on had Tracey whimpering. It was an erotic image.</p>
+<p class="p2">It didn’t take long for Rena to undress Tracey, tossing her clothes to the side. Then she reached for the harness and put it on. Tracey lay on the rug and watched as Rena picked out a dildo that had to be at least eight inches and with a thick girth, along with a bottle of lube. She almost forgot how to breathe as Rena fixed the dildo to the harness and started to slather it was lube. That was more enticing than she thought.</p>
+<p class="p2">Tracey licked her lips. Rena looked up at her and grinned.</p>
+<p class="p2">“On your hands and knees.” She ordered.</p>
+<p class="p2">Tracey wasn’t about to argue. She rolled onto her front and rose up onto her knees, her hands flat on the floor. Rena shifted in behind her and nudged her knees open. Tracey braced herself as she felt the hard head of the dildo press against her pussy. Rena shushed her and rubbed a hand down her back.</p>
+<p class="p2">“Easy. I’ll go slow. Just relax.”</p>
+<p class="p2">Then she began to slide forward. The dildo slid through Tracey’s pussy lips and inside her. It stretched her in a way Tracey hadn’t anticipated. She gasped, her hands tightening in the rug.</p>
+<p class="p2">“Okay?” Rena breathed.</p>
+<p class="p2">Tracey couldn’t say anything. The pressure was turning into intense pleasure. She could only nod and she slowly pushed back.</p>
+<p class="p2">Rena didn’t disappoint. She drew out a little and then thrust back in, the dildo sliding in more. Tracey moaned. That was better than she thought.</p>
+<p class="p2">Rena pushed the dildo in more and more until she was fully seated in Tracey’s pussy. Tracey was breathing heavily, her pussy clamping on the dildo. God, this felt so good. Then Rena leant over, her fingers finding Tracey’s clit.</p>
+<p class="p2">“I’m going to fuck you now.” She whispered as she rubbed Tracey’s clit. “Come for me.”</p>
+<p class="p2">Tracey was almost knocked onto the floor as Rena pulled the dildo out and rammed it back in. Fireworks began to go off in her head and Tracey cried out. Her skin was covered in goose bumps. Her fingers rubbing on Tracey’s clit, Rena fucked her, her pelvis hitting Tracey’s backside. Her other hand came around and cupped Tracey’s breast, tweaking her nipple.</p>
+<p class="p2">Then Rena pulled Tracey upright. Tracey found her body flush against hers and the angle of the dildo changed. It rubbed against her G-spot and her orgasm exploded. Tracey shuddered and writhed in Rena’s arms as she carried on thrusting, drawing her climax out until Tracey was sweating and shuddering in her arms. Her body felt as though she had been running a marathon.</p>
+<p class="p2">Eventually, Rena slowed down and eased her thrusting until she had stopped, still fully wedged in Tracey’s pussy. She gently lowered them to the floor, lying on top of Tracey as both of them got their breath back.</p>
+<p class="p2">Tracey had thought she wasn’t missing anything. Now she realized she was missing a lot. She wondered if Rena would show her a bit more on their vacation. Or if Tracey could use the strap-on with Rena. The idea of fucking Rena with a dildo was a temptation she wanted to explore.</p>
+<p class="p2">Then Rena started giggling above her. Tracey lifted her head.</p>
+<p class="p2">“What’s so funny?”</p>
+<p class="p2">“Don’t look now,” Rena whispered, “But Andy and Louise are in the doorway and they’re staring at us.”</p>
+<p class="p2">Andy and Louise were here? They must have paid for another couple of tickets. Why they thought they could go on the vacation with their exes without consequence, Tracey had no idea. But they weren’t going to stay with them. And after what they had done, Tracey wasn’t going to stop her pleasure to deal with them.</p>
+<p class="p2">Looping her leg behind Rena’s, she rolled them until Rena was on her back. Tracey climbed off, the dildo sliding out of her, and turned, straddling Rena’s hips. She slid down onto the dildo again and sighed, cupping Rena’s breasts as Rena arched her back.</p>
+<p class="p2">“Let them look.” She whispered back. “I’m not done with you yet.”</p>
+<p class="p4"> </p>
+<p class="p4">THE END</p>
+<p class="p4"> </p>
+</body>
+</html>
+2022-12-15 19:51:00 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2022-12-15 19:51:01 INFO  - Taking screenshot
+2022-12-15 19:51:03 INFO  - Test finished - logging out
+2022-12-15 19:51:05 INFO  - Button 'tabSettings' :: Clicking
+2022-12-15 19:51:07 INFO  - Button 'tabSettings' :: Clicking
+2022-12-15 19:51:08 INFO  - Button 'Accounts' :: Clicking
+2022-12-15 19:51:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-15 19:51:11 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-15 19:51:12 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-15 19:51:13 INFO  - Button 'Log out' :: Clicking
+2022-12-15 19:51:13 INFO  - Button 'Log in' :: Getting text from element
+2022-12-15 19:51:18 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-15 19:51:19 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-15 19:51:19 INFO  - Unlocking credential for current thread
+2022-12-15 19:51:19 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6048b011
