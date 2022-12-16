@@ -1,0 +1,95 @@
+2022-12-16 01:27:50 INFO  - Scenario 'Audiobooks: Check closing playback speed and sleep timer' start
+2022-12-16 01:27:50 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-16 01:28:22 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-16 01:28:22 INFO  - Session id - 94530a1ceae6991f1e7d6615ba1d026605afc180
+2022-12-16 01:28:22 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2022-12-16 01:28:22 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-16 01:28:24 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-16 01:28:25 INFO  - Button 'Search' :: Clicking
+2022-12-16 01:28:27 INFO  - Text Field 'Search' :: Clearing
+2022-12-16 01:28:27 INFO  - Text Field 'Search' :: Typing 'Palace Bookshelf'
+2022-12-16 01:28:30 INFO  - Button 'Palace Bookshelf' :: Clicking
+2022-12-16 01:28:31 INFO  - Button 'tabSettings' :: Clicking
+2022-12-16 01:28:38 INFO  - Button 'Debug options button' :: Clicking
+2022-12-16 01:28:38 INFO  - Step 1 - Enable hidden libraries
+2022-12-16 01:28:39 INFO  - Swiping from coordinates (x:720; y:2324) to (x:720; y:435)
+2022-12-16 01:28:40 INFO  - Button 'Hidden libraries button' :: Clicking
+2022-12-16 01:28:41 INFO  - Step 2 - I open Catalog
+2022-12-16 01:28:41 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-16 01:29:04 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2022-12-16 01:29:04 INFO  - Button 'Logo' :: Clicking
+2022-12-16 01:29:04 INFO  - Button 'Add library btn' :: Clicking
+2022-12-16 01:29:06 INFO  - Button 'Search' :: Clicking
+2022-12-16 01:29:08 INFO  - Text Field 'Search' :: Clearing
+2022-12-16 01:29:08 INFO  - Text Field 'Search' :: Typing 'A1QA Test Library'
+2022-12-16 01:29:11 INFO  - Button 'A1QA Test Library' :: Clicking
+2022-12-16 01:29:34 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2022-12-16 01:29:34 INFO  - Button 'tabSettings' :: Clicking
+2022-12-16 01:29:35 INFO  - Button 'tabSettings' :: Clicking
+2022-12-16 01:29:36 INFO  - Button 'Accounts' :: Clicking
+2022-12-16 01:29:38 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2022-12-16 01:29:38 INFO  - Button 'tabSettings' :: Clicking
+2022-12-16 01:29:40 INFO  - Button 'tabSettings' :: Clicking
+2022-12-16 01:29:41 INFO  - Button 'Accounts' :: Clicking
+2022-12-16 01:29:41 INFO  - Button 'A1QA Test Library' :: Clicking
+2022-12-16 01:29:42 INFO  - Locking credential with barcode 01230000000282
+2022-12-16 01:29:42 INFO  - There are books on the account: 
+2022-12-16 01:29:44 INFO  - bookName: Find Layla: A Novel Distributor: Palace Marketplace
+2022-12-16 01:29:44 INFO  - bookName: Timequake Distributor: Palace Marketplace
+2022-12-16 01:29:44 INFO  - Count of books on the account after opening account: 2
+2022-12-16 01:29:44 INFO  - Text Field 'Card' :: Clearing
+2022-12-16 01:29:44 INFO  - Text Field 'Card' :: Typing '01230000000282'
+2022-12-16 01:29:47 INFO  - Text Field 'Pin' :: Clearing
+2022-12-16 01:29:47 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-16 01:29:49 INFO  - Button 'Log in' :: Clicking
+2022-12-16 01:29:55 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-16 01:29:55 INFO  - Step 6 - Login is performed successfully
+2022-12-16 01:30:17 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-16 01:30:18 INFO  - Step 7 - I open Catalog
+2022-12-16 01:30:18 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-16 01:30:39 INFO  - Step 8 - I open search modal
+2022-12-16 01:31:00 INFO  - Button 'Search' :: Clicking
+2022-12-16 01:31:02 INFO  - Step 9 - I search for "The Lost Symbol" and save bookName as 'bookNameInfo'
+2022-12-16 01:31:03 INFO  - Error details button is not present
+2022-12-16 01:31:03 INFO  - Text Field 'Search value input' :: Sending keys 'The Lost Symbol'
+2022-12-16 01:31:04 INFO  - Button 'Apply search' :: Clicking
+2022-12-16 01:31:06 INFO  - Error details button is not present
+2022-12-16 01:31:09 INFO  - Step 10 - I switch to 'Audiobooks' catalog tab
+2022-12-16 01:31:09 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-16 01:31:30 INFO  - Step 11 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-16 01:31:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-16 01:31:32 INFO  - Label 'lblBookName' :: Clicking
+2022-12-16 01:31:33 INFO  - Step 12 - Click GET action button on book details screen
+2022-12-16 01:31:34 INFO  - Button 'Get' :: Clicking
+2022-12-16 01:31:39 INFO  - Step 13 - I check that book contains LISTEN action button on book details screen
+2022-12-16 01:31:40 INFO  - Step 14 - Click LISTEN action button on book details screen
+2022-12-16 01:31:40 INFO  - Button 'Listen' :: Clicking
+2022-12-16 01:31:41 INFO  - Step 15 - Audio player screen of book 'bookInfo' is opened
+2022-12-16 01:31:59 INFO  - Step 16 - The speed by default is 1.0
+2022-12-16 01:31:59 INFO  - Button 'Button play speed' :: Getting text from element
+2022-12-16 01:31:59 INFO  - Step 17 - Open playback speed on audio player screen
+2022-12-16 01:32:00 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2022-12-16 01:32:00 INFO  - Step 18 - Close playback speed screen
+2022-12-16 01:32:00 INFO  - Button 'Cancel button' :: Clicking
+2022-12-16 01:32:01 INFO  - Step 19 - Play button is present on audio player screen
+2022-12-16 01:32:03 INFO  - Step 20 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2022-12-16 01:32:03 INFO  - Button 'btnSleepTimer' :: Clicking
+2022-12-16 01:32:04 INFO  - Button 'End of file' :: Clicking
+2022-12-16 01:32:05 INFO  - Step 21 - Sleep timer is set to endOfChapter on audio player screen
+2022-12-16 01:32:06 INFO  - Step 22 - Open sleep timer on audio player screen
+2022-12-16 01:32:06 INFO  - Button 'btnSleepTimer' :: Clicking
+2022-12-16 01:32:06 INFO  - Step 23 - Close sleep timer screen
+2022-12-16 01:32:06 INFO  - Button 'Cancel button' :: Clicking
+2022-12-16 01:32:08 INFO  - Step 24 - Play button is present on audio player screen
+2022-12-16 01:32:08 INFO  - Taking screenshot
+2022-12-16 01:32:13 INFO  - Test finished - logging out
+2022-12-16 01:32:15 INFO  - Button 'tabSettings' :: Clicking
+2022-12-16 01:32:17 INFO  - Button 'tabSettings' :: Clicking
+2022-12-16 01:32:18 INFO  - Button 'Accounts' :: Clicking
+2022-12-16 01:32:19 INFO  - Button 'A1QA Test Library' :: Clicking
+2022-12-16 01:32:22 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-16 01:32:22 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-16 01:32:23 INFO  - Button 'Log out' :: Clicking
+2022-12-16 01:32:24 INFO  - Button 'Log in' :: Getting text from element
+2022-12-16 01:32:44 INFO  - Unlocking credential for current thread
+2022-12-16 01:32:44 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@60b67a48
