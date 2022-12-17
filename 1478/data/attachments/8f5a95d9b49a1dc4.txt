@@ -1,0 +1,69 @@
+2022-12-17 15:54:12 INFO  - Scenario 'Playback speed: Check of playback speed' start
+2022-12-17 15:54:12 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-17 15:55:18 INFO  - Application on platform 'IOS' is ready...
+2022-12-17 15:55:18 INFO  - Session id - 1fe66968749a3a7cbebef6a8016fc7f357fcf505
+2022-12-17 15:55:18 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-17 15:55:19 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-17 15:55:20 INFO  - Text Field 'Search field' :: Clicking
+2022-12-17 15:55:26 INFO  - Text Field 'Search field' :: Clearing
+2022-12-17 15:55:26 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-17 15:55:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-17 15:55:57 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-17 15:55:57 INFO  - Button 'Settings' :: Clicking
+2022-12-17 15:55:59 INFO  - Button 'Settings' :: Clicking
+2022-12-17 15:56:00 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 15:56:01 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-17 15:56:01 INFO  - Button 'Settings' :: Clicking
+2022-12-17 15:56:02 INFO  - Button 'Settings' :: Clicking
+2022-12-17 15:56:03 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 15:56:05 INFO  - Locking credential with barcode 01230000000282
+2022-12-17 15:56:05 INFO  - There are books on the account: 
+2022-12-17 15:56:37 INFO  - bookName: Timequake Distributor: Palace Marketplace
+2022-12-17 15:56:37 INFO  - bookName: Find Layla: A Novel Distributor: Palace Marketplace
+2022-12-17 15:56:37 INFO  - Count of books on the account after opening account: 2
+2022-12-17 15:56:58 INFO  - Text Field 'Card' :: Clicking
+2022-12-17 15:56:59 INFO  - Text Field 'Card' :: Clearing
+2022-12-17 15:56:59 INFO  - Text Field 'Card' :: Typing '01230000000282'
+2022-12-17 15:57:02 INFO  - Text Field 'Pin' :: Clearing
+2022-12-17 15:57:02 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-17 15:57:06 INFO  - Button 'Log in' :: Clicking
+2022-12-17 15:57:14 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2022-12-17 15:57:16 INFO  - Step 3 - Login is performed successfully
+2022-12-17 15:57:17 INFO  - Step 4 - I open Catalog
+2022-12-17 15:57:17 INFO  - Button 'Catalog' :: Clicking
+2022-12-17 15:57:40 INFO  - Step 5 - I open search modal
+2022-12-17 15:58:00 INFO  - Button 'Search' :: Clicking
+2022-12-17 15:58:04 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-17 15:58:04 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-17 15:58:04 INFO  - randomBookName: Love Overboard
+2022-12-17 15:58:04 INFO  - Text Field 'Search value input' :: Sending keys 'Love Overboard'
+2022-12-17 15:58:06 INFO  - Button 'Search' :: Clicking
+2022-12-17 15:58:09 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-17 15:58:09 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-17 15:58:52 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-17 15:58:54 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-17 15:58:55 INFO  - Label 'lblBookName' :: Clicking
+2022-12-17 15:58:57 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-17 15:58:58 INFO  - Button 'Get' :: Clicking
+2022-12-17 15:59:20 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-17 15:59:21 INFO  - Step 11 - Click LISTEN action button on book details screen
+2022-12-17 15:59:22 INFO  - Button 'Listen' :: Clicking
+2022-12-17 15:59:43 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2022-12-17 15:59:44 INFO  - Step 13 - Select 1.25X playback speed on playback speed audiobook screen
+2022-12-17 15:59:44 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2022-12-17 15:59:45 INFO  - Button 'One and one quarter faster than normal speed.' :: Clicking
+2022-12-17 15:59:46 INFO  - Step 14 - Current playback speed value is 1.25X on audio player screen
+2022-12-17 16:00:06 INFO  - Taking screenshot
+2022-12-17 16:00:07 INFO  - Test finished - logging out
+2022-12-17 16:00:11 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:00:11 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:00:12 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 16:00:14 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-17 16:00:15 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-17 16:00:16 INFO  - Button 'Log out' :: Clicking
+2022-12-17 16:00:17 INFO  - Button 'Log out approve' :: Clicking
+2022-12-17 16:00:38 INFO  - Button 'Log in' :: Getting text from element
+2022-12-17 16:00:39 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-17 16:00:40 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-17 16:00:41 INFO  - Unlocking credential for current thread
+2022-12-17 16:00:41 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3e088a1c

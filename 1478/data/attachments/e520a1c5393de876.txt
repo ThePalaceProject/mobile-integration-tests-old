@@ -1,0 +1,75 @@
+2022-12-17 16:07:36 INFO  - Scenario 'Playback speed: Check of playback speed' start
+2022-12-17 16:07:36 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-17 16:08:32 INFO  - Application on platform 'IOS' is ready...
+2022-12-17 16:08:32 INFO  - Session id - 4320c7357a6ffe1705619c713af03190e22396d8
+2022-12-17 16:08:32 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-17 16:08:33 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-17 16:08:34 INFO  - Text Field 'Search field' :: Clicking
+2022-12-17 16:08:39 INFO  - Text Field 'Search field' :: Clearing
+2022-12-17 16:08:39 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-17 16:08:50 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-17 16:09:12 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-17 16:09:12 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:09:14 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:09:15 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 16:09:16 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-17 16:09:16 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:09:17 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:09:17 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 16:09:19 INFO  - Locking credential with barcode 01230000000281
+2022-12-17 16:09:19 INFO  - There are books on the account: 
+2022-12-17 16:09:20 INFO  - bookName: My Animal Atlas Distributor: Palace Marketplace
+2022-12-17 16:09:20 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2022-12-17 16:09:20 INFO  - bookName: Chinese Food : Distributor: BiblioBoard
+2022-12-17 16:09:20 INFO  - bookName: Unplugged Play: Preschool Distributor: Palace Marketplace
+2022-12-17 16:09:20 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2022-12-17 16:09:20 INFO  - bookName: The Misbehavior of Markets Distributor: Palace Marketplace
+2022-12-17 16:09:20 INFO  - bookName: The Promise Distributor: Palace Marketplace
+2022-12-17 16:09:20 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2022-12-17 16:09:20 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2022-12-17 16:09:20 INFO  - bookName: Love spell Distributor: Palace Marketplace
+2022-12-17 16:09:20 INFO  - Count of books on the account after opening account: 10
+2022-12-17 16:09:42 INFO  - Text Field 'Card' :: Clicking
+2022-12-17 16:09:43 INFO  - Text Field 'Card' :: Clearing
+2022-12-17 16:09:43 INFO  - Text Field 'Card' :: Typing '01230000000281'
+2022-12-17 16:09:46 INFO  - Text Field 'Pin' :: Clearing
+2022-12-17 16:09:46 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-17 16:09:49 INFO  - Button 'Log in' :: Clicking
+2022-12-17 16:10:11 INFO  - Step 3 - Login is performed successfully
+2022-12-17 16:10:12 INFO  - Step 4 - I open Catalog
+2022-12-17 16:10:12 INFO  - Button 'Catalog' :: Clicking
+2022-12-17 16:10:33 INFO  - Step 5 - I open search modal
+2022-12-17 16:10:55 INFO  - Button 'Search' :: Clicking
+2022-12-17 16:10:59 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-17 16:10:59 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-17 16:10:59 INFO  - randomBookName: Ask the Passengers
+2022-12-17 16:10:59 INFO  - Text Field 'Search value input' :: Sending keys 'Ask the Passengers'
+2022-12-17 16:11:01 INFO  - Button 'Search' :: Clicking
+2022-12-17 16:11:03 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-17 16:11:04 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-17 16:11:45 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-17 16:11:47 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-17 16:11:49 INFO  - Label 'lblBookName' :: Clicking
+2022-12-17 16:11:50 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-17 16:11:52 INFO  - Button 'Get' :: Clicking
+2022-12-17 16:12:13 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-17 16:12:14 INFO  - Step 11 - Click LISTEN action button on book details screen
+2022-12-17 16:12:15 INFO  - Button 'Listen' :: Clicking
+2022-12-17 16:12:36 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2022-12-17 16:12:37 INFO  - Step 13 - Select 2X playback speed on playback speed audiobook screen
+2022-12-17 16:12:37 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2022-12-17 16:12:38 INFO  - Button 'Two times normal speed. Fastest.' :: Clicking
+2022-12-17 16:12:39 INFO  - Step 14 - Current playback speed value is 2X on audio player screen
+2022-12-17 16:12:59 INFO  - Taking screenshot
+2022-12-17 16:13:01 INFO  - Test finished - logging out
+2022-12-17 16:13:04 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:13:05 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:13:06 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 16:13:09 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-17 16:13:09 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-17 16:13:10 INFO  - Button 'Log out' :: Clicking
+2022-12-17 16:13:11 INFO  - Button 'Log out approve' :: Clicking
+2022-12-17 16:13:14 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-17 16:13:16 INFO  - Button 'Log in' :: Getting text from element
+2022-12-17 16:13:37 INFO  - Unlocking credential for current thread
+2022-12-17 16:13:37 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3e088a1c

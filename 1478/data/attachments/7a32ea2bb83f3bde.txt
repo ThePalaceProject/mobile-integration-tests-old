@@ -1,0 +1,70 @@
+2022-12-17 16:47:07 INFO  - Scenario 'Check buttons under the book title in LYRASIS' start
+2022-12-17 16:47:07 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-17 16:48:07 INFO  - Application on platform 'IOS' is ready...
+2022-12-17 16:48:08 INFO  - Session id - c53850e3c84a34fae38a8dd5d7f393dd492680cb
+2022-12-17 16:48:08 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-17 16:48:09 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-17 16:48:10 INFO  - Text Field 'Search field' :: Clicking
+2022-12-17 16:48:17 INFO  - Text Field 'Search field' :: Clearing
+2022-12-17 16:48:17 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-17 16:48:28 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-17 16:48:50 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2022-12-17 16:48:50 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:48:53 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:48:54 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 16:48:57 INFO  - Locking credential with barcode 01230000000283
+2022-12-17 16:48:57 INFO  - There are books on the account: 
+2022-12-17 16:49:30 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-17 16:49:30 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-17 16:49:30 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-17 16:49:30 INFO  - Count of books on the account after opening account: 3
+2022-12-17 16:49:52 INFO  - Text Field 'Card' :: Clicking
+2022-12-17 16:49:53 INFO  - Text Field 'Card' :: Clearing
+2022-12-17 16:49:53 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-17 16:49:57 INFO  - Text Field 'Pin' :: Clearing
+2022-12-17 16:49:57 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-17 16:50:01 INFO  - Button 'Log in' :: Clicking
+2022-12-17 16:50:25 INFO  - Step 2 - Login is performed successfully
+2022-12-17 16:50:26 INFO  - Step 3 - I open Catalog
+2022-12-17 16:50:26 INFO  - Button 'Catalog' :: Clicking
+2022-12-17 16:50:48 INFO  - Step 4 - I open search modal
+2022-12-17 16:51:08 INFO  - Button 'Search' :: Clicking
+2022-12-17 16:51:12 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-17 16:51:12 INFO  - Count of attempts to get random book name without bad symbols-3
+2022-12-17 16:51:12 INFO  - randomBookName: Transient Desires
+2022-12-17 16:51:13 INFO  - Text Field 'Search value input' :: Sending keys 'Transient Desires'
+2022-12-17 16:51:15 INFO  - Button 'Search' :: Clicking
+2022-12-17 16:51:18 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2022-12-17 16:51:18 INFO  - Button 'eBooks' :: Clicking
+2022-12-17 16:52:00 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-17 16:52:18 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-17 16:52:19 INFO  - Button 'actionButton' :: Clicking
+2022-12-17 16:52:43 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2022-12-17 16:52:45 INFO  - Step 9 - I open Books
+2022-12-17 16:52:45 INFO  - Button 'My Books' :: Clicking
+2022-12-17 16:52:47 INFO  - Step 10 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2022-12-17 16:52:50 INFO  - Step 11 - EBOOK book with RETURN action button and 'bookInfo' bookInfo is present on books screen
+2022-12-17 16:52:52 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2022-12-17 16:52:54 INFO  - Label 'lblBookName' :: Clicking
+2022-12-17 16:52:56 INFO  - Step 13 - Click READ action button on book details screen
+2022-12-17 16:52:57 INFO  - Button 'Read' :: Clicking
+2022-12-17 16:53:04 INFO  - Alert appears and dismiss alert
+2022-12-17 16:53:04 INFO  - Step 14 - Wait for 5 seconds
+2022-12-17 16:53:09 INFO  - Step 15 - I restart app
+2022-12-17 16:53:37 INFO  - Step 16 - I open Books
+2022-12-17 16:53:37 INFO  - Button 'My Books' :: Clicking
+2022-12-17 16:53:40 INFO  - Step 17 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2022-12-17 16:53:43 INFO  - Step 18 - EBOOK book with RETURN action button and 'bookInfo' bookInfo is present on books screen
+2022-12-17 16:53:45 INFO  - Taking screenshot
+2022-12-17 16:53:49 INFO  - Test finished - logging out
+2022-12-17 16:53:52 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:53:53 INFO  - Button 'Settings' :: Clicking
+2022-12-17 16:53:54 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 16:53:58 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-17 16:53:59 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-17 16:54:00 INFO  - Button 'Log out' :: Clicking
+2022-12-17 16:54:01 INFO  - Button 'Log out approve' :: Clicking
+2022-12-17 16:54:04 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-17 16:54:05 INFO  - Button 'Log in' :: Getting text from element
+2022-12-17 16:54:27 INFO  - Unlocking credential for current thread
+2022-12-17 16:54:27 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@460071ce

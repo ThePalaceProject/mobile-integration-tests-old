@@ -1,0 +1,64 @@
+2022-12-17 15:25:45 INFO  - Scenario 'Get a book from Book Detail View and Return from Books in LYRASIS' start
+2022-12-17 15:25:45 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-17 15:26:53 INFO  - Application on platform 'IOS' is ready...
+2022-12-17 15:26:53 INFO  - Session id - b1cde9a6ffe6a6db854acce128a44a7fed7030c0
+2022-12-17 15:26:53 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-17 15:26:54 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-17 15:26:55 INFO  - Text Field 'Search field' :: Clicking
+2022-12-17 15:27:01 INFO  - Text Field 'Search field' :: Clearing
+2022-12-17 15:27:01 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-17 15:27:11 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-17 15:27:32 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2022-12-17 15:27:32 INFO  - Button 'Settings' :: Clicking
+2022-12-17 15:27:35 INFO  - Button 'Settings' :: Clicking
+2022-12-17 15:27:35 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 15:27:37 INFO  - Locking credential with barcode 01230000000283
+2022-12-17 15:27:37 INFO  - There are books on the account: 
+2022-12-17 15:27:38 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-17 15:27:38 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-17 15:27:38 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-17 15:27:38 INFO  - Count of books on the account after opening account: 3
+2022-12-17 15:28:00 INFO  - Text Field 'Card' :: Clicking
+2022-12-17 15:28:01 INFO  - Text Field 'Card' :: Clearing
+2022-12-17 15:28:01 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-17 15:28:04 INFO  - Text Field 'Pin' :: Clearing
+2022-12-17 15:28:04 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-17 15:28:07 INFO  - Button 'Log in' :: Clicking
+2022-12-17 15:28:30 INFO  - Step 2 - Login is performed successfully
+2022-12-17 15:28:31 INFO  - Step 3 - I open Catalog
+2022-12-17 15:28:31 INFO  - Button 'Catalog' :: Clicking
+2022-12-17 15:28:54 INFO  - Step 4 - I open search modal
+2022-12-17 15:29:16 INFO  - Button 'Search' :: Clicking
+2022-12-17 15:29:19 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-17 15:29:19 INFO  - Count of attempts to get random book name without bad symbols-2
+2022-12-17 15:29:19 INFO  - randomBookName: Libertie
+2022-12-17 15:29:20 INFO  - Text Field 'Search value input' :: Sending keys 'Libertie'
+2022-12-17 15:29:21 INFO  - Button 'Search' :: Clicking
+2022-12-17 15:29:25 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2022-12-17 15:29:25 INFO  - Button 'eBooks' :: Clicking
+2022-12-17 15:30:06 INFO  - Step 7 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-17 15:30:09 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-17 15:30:10 INFO  - Label 'lblBookName' :: Clicking
+2022-12-17 15:30:12 INFO  - Step 8 - Click GET action button on book details screen
+2022-12-17 15:30:14 INFO  - Button 'Get' :: Clicking
+2022-12-17 15:30:35 INFO  - Step 9 - I close Book Details for IOSTab
+2022-12-17 15:30:36 INFO  - Step 10 - I open Books
+2022-12-17 15:30:36 INFO  - Button 'My Books' :: Clicking
+2022-12-17 15:30:37 INFO  - Step 11 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2022-12-17 15:30:39 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2022-12-17 15:30:41 INFO  - Label 'lblBookName' :: Clicking
+2022-12-17 15:30:42 INFO  - Step 13 - Click RETURN action button on book details screen
+2022-12-17 15:30:44 INFO  - Button 'Return' :: Clicking
+2022-12-17 15:30:48 INFO  - Button 'Return ActionButtonAlert' :: Clicking
+2022-12-17 15:30:50 INFO  - Step 14 - I close Book Details for IOSTab
+2022-12-17 15:30:50 INFO  - Step 15 - I open Books
+2022-12-17 15:30:50 INFO  - Button 'My Books' :: Clicking
+2022-12-17 15:30:51 INFO  - Step 16 - Wait for 10 seconds
+2022-12-17 15:31:02 INFO  - Step 17 - EBOOK book with READ action button and 'bookInfo' bookInfo is not present on books screen
+2022-12-17 15:31:43 INFO  - Taking screenshot
+2022-12-17 15:31:44 INFO  - Test finished - logging out
+2022-12-17 15:31:48 INFO  - Button 'Settings' :: Clicking
+2022-12-17 15:31:48 INFO  - Button 'Settings' :: Clicking
+2022-12-17 15:31:49 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 15:31:50 INFO  - Unlocking credential for current thread
+2022-12-17 15:31:50 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@460071ce

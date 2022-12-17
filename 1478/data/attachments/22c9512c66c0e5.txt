@@ -1,0 +1,65 @@
+2022-12-17 14:32:20 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2022-12-17 14:32:20 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-17 14:33:28 INFO  - Application on platform 'IOS' is ready...
+2022-12-17 14:33:28 INFO  - Session id - 1d1e674af365325553ad7fb7f7e22580ee9a5a22
+2022-12-17 14:33:28 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-17 14:33:29 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-17 14:33:30 INFO  - Text Field 'Search field' :: Clicking
+2022-12-17 14:33:36 INFO  - Text Field 'Search field' :: Clearing
+2022-12-17 14:33:36 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-17 14:33:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-17 14:34:10 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2022-12-17 14:34:10 INFO  - Button 'Settings' :: Clicking
+2022-12-17 14:34:12 INFO  - Button 'Settings' :: Clicking
+2022-12-17 14:34:13 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 14:34:15 INFO  - Locking credential with barcode 01230000000281
+2022-12-17 14:34:15 INFO  - There are books on the account: 
+2022-12-17 14:34:17 INFO  - bookName: My Animal Atlas Distributor: Palace Marketplace
+2022-12-17 14:34:17 INFO  - bookName: Love spell Distributor: Palace Marketplace
+2022-12-17 14:34:17 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2022-12-17 14:34:17 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2022-12-17 14:34:17 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2022-12-17 14:34:17 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2022-12-17 14:34:17 INFO  - bookName: The Promise Distributor: Palace Marketplace
+2022-12-17 14:34:17 INFO  - bookName: Unplugged Play: Preschool Distributor: Palace Marketplace
+2022-12-17 14:34:17 INFO  - Count of books on the account after opening account: 8
+2022-12-17 14:34:38 INFO  - Text Field 'Card' :: Clicking
+2022-12-17 14:34:39 INFO  - Text Field 'Card' :: Clearing
+2022-12-17 14:34:39 INFO  - Text Field 'Card' :: Typing '01230000000281'
+2022-12-17 14:34:42 INFO  - Text Field 'Pin' :: Clearing
+2022-12-17 14:34:42 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-17 14:34:45 INFO  - Button 'Log in' :: Clicking
+2022-12-17 14:35:08 INFO  - Step 2 - Login is performed successfully
+2022-12-17 14:35:09 INFO  - Step 3 - I open Catalog
+2022-12-17 14:35:09 INFO  - Button 'Catalog' :: Clicking
+2022-12-17 14:35:31 INFO  - Step 4 - I open search modal
+2022-12-17 14:35:52 INFO  - Button 'Search' :: Clicking
+2022-12-17 14:35:55 INFO  - Step 5 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-17 14:35:55 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-17 14:35:55 INFO  - randomBookName: Stink: the Incredible Shrinking Kid
+2022-12-17 14:35:56 INFO  - Text Field 'Search value input' :: Sending keys 'Stink: the Incredible Shrinking Kid'
+2022-12-17 14:35:57 INFO  - Button 'Search' :: Clicking
+2022-12-17 14:36:00 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2022-12-17 14:36:00 INFO  - Button 'eBooks' :: Clicking
+2022-12-17 14:36:42 INFO  - Step 7 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-17 14:36:44 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-17 14:36:45 INFO  - Label 'lblBookName' :: Clicking
+2022-12-17 14:36:46 INFO  - Step 8 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2022-12-17 14:36:46 INFO  - Button 'Get' :: Clicking
+2022-12-17 14:36:48 INFO  - Button 'Cancel' :: Clicking
+2022-12-17 14:37:02 INFO  - Step 9 - I check that book contains DOWNLOAD action button on book details screen
+2022-12-17 14:37:03 INFO  - Step 10 - I check that book contains RETURN action button on book details screen
+2022-12-17 14:37:04 INFO  - Taking screenshot
+2022-12-17 14:37:05 INFO  - Test finished - logging out
+2022-12-17 14:37:09 INFO  - Button 'Settings' :: Clicking
+2022-12-17 14:37:10 INFO  - Button 'Settings' :: Clicking
+2022-12-17 14:37:10 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-17 14:37:13 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-17 14:37:13 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-17 14:37:14 INFO  - Button 'Log out' :: Clicking
+2022-12-17 14:37:15 INFO  - Button 'Log out approve' :: Clicking
+2022-12-17 14:38:36 INFO  - Button 'Log in' :: Getting text from element
+2022-12-17 14:38:37 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-17 14:38:38 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-17 14:38:39 INFO  - Unlocking credential for current thread
+2022-12-17 14:38:39 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@638dfac8
