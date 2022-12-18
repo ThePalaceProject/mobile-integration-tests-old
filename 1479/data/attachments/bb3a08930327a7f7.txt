@@ -1,0 +1,43 @@
+2022-12-17 23:50:36 INFO  - Scenario 'Check fields in Information section in LYRASIS' start
+2022-12-17 23:50:36 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-17 23:51:12 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-17 23:51:12 INFO  - Session id - 0ed73c12f785c83c0f1682878ad0088ffcd16838
+2022-12-17 23:51:12 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-17 23:51:12 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-17 23:51:15 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-17 23:51:15 INFO  - Button 'Search' :: Clicking
+2022-12-17 23:51:17 INFO  - Text Field 'Search' :: Clearing
+2022-12-17 23:51:17 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-17 23:51:19 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-17 23:51:19 INFO  - Step 1 - I open Catalog
+2022-12-17 23:51:19 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-17 23:51:41 INFO  - Step 2 - I open search modal
+2022-12-17 23:52:02 INFO  - Button 'Search' :: Clicking
+2022-12-17 23:52:04 INFO  - Step 3 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-17 23:52:04 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-17 23:52:04 INFO  - randomBookName: Full Body Burden
+2022-12-17 23:52:04 INFO  - Error details button is not present
+2022-12-17 23:52:04 INFO  - Text Field 'Search value input' :: Sending keys 'Full Body Burden'
+2022-12-17 23:52:05 INFO  - Button 'Apply search' :: Clicking
+2022-12-17 23:52:06 INFO  - Error details button is not present
+2022-12-17 23:52:09 INFO  - Step 4 - I switch to 'eBooks' catalog tab
+2022-12-17 23:52:10 INFO  - Button 'eBooks' :: Clicking
+2022-12-17 23:52:30 INFO  - Step 5 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-17 23:52:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-17 23:52:31 INFO  - Label 'lblBookName' :: Clicking
+2022-12-17 23:52:31 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2022-12-17 23:52:31 INFO  - Label 'Book title' :: Getting text from element
+2022-12-17 23:52:32 INFO  - Label 'Book Authors' :: Getting text from element
+2022-12-17 23:52:32 INFO  - Label 'Book title' :: Getting text from element
+2022-12-17 23:52:33 INFO  - Label 'Book Authors' :: Getting text from element
+2022-12-17 23:52:33 INFO  - Step 7 - Publisher and Categories in Information section are displayed on book details screen
+2022-12-17 23:52:33 INFO  - Swiping from coordinates (x:540; y:1759) to (x:540; y:329)
+2022-12-17 23:52:36 INFO  - Step 8 - Publisher and Categories in Information section are correct on book details screen
+2022-12-17 23:52:36 INFO  - Swiping from coordinates (x:540; y:1759) to (x:540; y:329)
+2022-12-17 23:52:37 INFO  - Label 'lblPublisher' :: Getting text from element
+2022-12-17 23:52:39 INFO  - Label 'lblCategories' :: Getting text from element
+2022-12-17 23:52:39 INFO  - Step 9 - Distributor is equal to 'Axis 360' on book details screen
+2022-12-17 23:52:39 INFO  - Label 'lblDistributor' :: Getting text from element
+2022-12-17 23:52:40 INFO  - Taking screenshot
+2022-12-17 23:52:41 INFO  - Unlocking credential for current thread
+2022-12-17 23:52:41 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1258a11e
