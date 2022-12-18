@@ -1,0 +1,38 @@
+2022-12-18 09:40:52 INFO  - Scenario 'Open book to last page read' start
+2022-12-18 09:40:52 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-18 09:41:44 INFO  - Application on platform 'IOS' is ready...
+2022-12-18 09:41:44 INFO  - Session id - fdd3753ff4f145fd531c4f58cb2e9a4e5428ec25
+2022-12-18 09:41:44 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2022-12-18 09:41:45 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-18 09:41:46 INFO  - Text Field 'Search field' :: Clicking
+2022-12-18 09:41:52 INFO  - Text Field 'Search field' :: Clearing
+2022-12-18 09:41:52 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2022-12-18 09:42:02 INFO  - Button 'Palace Bookshelf' :: Clicking
+2022-12-18 09:42:24 INFO  - Step 1 - I open Catalog
+2022-12-18 09:42:24 INFO  - Button 'Catalog' :: Clicking
+2022-12-18 09:42:45 INFO  - Step 2 - I open search modal
+2022-12-18 09:43:06 INFO  - Button 'Search' :: Clicking
+2022-12-18 09:43:08 INFO  - Step 3 - I search for 'Deep into Pharo' and save bookName as 'bookNameInfo'
+2022-12-18 09:43:09 INFO  - Text Field 'Search value input' :: Sending keys 'Deep into Pharo'
+2022-12-18 09:43:10 INFO  - Button 'Search' :: Clicking
+2022-12-18 09:43:13 INFO  - Step 4 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-18 09:43:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-18 09:43:32 INFO  - Button 'actionButton' :: Clicking
+2022-12-18 09:43:56 INFO  - Step 5 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2022-12-18 09:43:58 INFO  - Step 6 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-18 09:44:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-18 09:44:02 INFO  - Label 'lblBookName' :: Clicking
+2022-12-18 09:44:04 INFO  - Step 7 - Click READ action button on book details screen
+2022-12-18 09:44:06 INFO  - Button 'Read' :: Clicking
+2022-12-18 09:44:28 INFO  - Step 8 - Reader pdf screen is opened
+2022-12-18 09:44:32 INFO  - Step 9 - I swipe pdf page forward from 4 to 6 times on reader pdf screen
+2022-12-18 09:44:32 INFO  - Swipe 4 times on reader pdf screen
+2022-12-18 09:44:36 INFO  - Swiping from coordinates (x:737; y:346) to (x:63; y:346)
+2022-12-18 09:44:43 INFO  - Swiping from coordinates (x:737; y:346) to (x:63; y:346)
+2022-12-18 09:44:50 INFO  - Swiping from coordinates (x:737; y:346) to (x:63; y:346)
+2022-12-18 09:44:57 INFO  - Swiping from coordinates (x:737; y:346) to (x:63; y:346)
+2022-12-18 09:45:00 INFO  - Step 10 - I save page number as 'pageNumber' on pdf reader screen
+2022-12-18 09:45:21 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2022-12-18 09:45:42 INFO  - Taking screenshot
+2022-12-18 09:46:30 INFO  - Unlocking credential for current thread
+2022-12-18 09:46:30 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6c500419

@@ -1,0 +1,35 @@
+2022-12-18 05:59:15 INFO  - Scenario 'Check of a "More..." button in Description section in LYRASIS' start
+2022-12-18 05:59:15 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-18 06:00:26 INFO  - Application on platform 'IOS' is ready...
+2022-12-18 06:00:26 INFO  - Session id - 90c558dcb791f07f7c96c2e29bdabe07c438a9a5
+2022-12-18 06:00:26 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-18 06:00:28 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-18 06:00:28 INFO  - Text Field 'Search field' :: Clicking
+2022-12-18 06:00:34 INFO  - Text Field 'Search field' :: Clearing
+2022-12-18 06:00:34 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-18 06:00:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-18 06:01:06 INFO  - Step 1 - I open Catalog
+2022-12-18 06:01:06 INFO  - Button 'Catalog' :: Clicking
+2022-12-18 06:01:29 INFO  - Step 2 - I open search modal
+2022-12-18 06:01:51 INFO  - Button 'Search' :: Clicking
+2022-12-18 06:01:53 INFO  - Step 3 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-18 06:01:53 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-18 06:01:53 INFO  - randomBookName: The Hobbit
+2022-12-18 06:01:54 INFO  - Text Field 'Search value input' :: Sending keys 'The Hobbit'
+2022-12-18 06:01:56 INFO  - Button 'Search' :: Clicking
+2022-12-18 06:01:59 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2022-12-18 06:01:59 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-18 06:02:42 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-18 06:02:43 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-18 06:02:44 INFO  - Label 'lblBookName' :: Clicking
+2022-12-18 06:02:45 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2022-12-18 06:02:47 INFO  - Label 'Book title' :: Getting text from element
+2022-12-18 06:02:53 INFO  - Label 'Author' :: Getting text from element
+2022-12-18 06:02:58 INFO  - Label 'Book title' :: Getting text from element
+2022-12-18 06:03:05 INFO  - Label 'Author' :: Getting text from element
+2022-12-18 06:03:07 INFO  - Step 7 - Description is not empty in book details screen
+2022-12-18 06:03:07 INFO  - Label 'Info in description section' :: Getting text from element
+2022-12-18 06:03:08 INFO  - Step 8 - Button More in Description is available on book details screen
+2022-12-18 06:03:09 INFO  - Taking screenshot
+2022-12-18 06:03:11 INFO  - Unlocking credential for current thread
+2022-12-18 06:03:11 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@676ff81b
