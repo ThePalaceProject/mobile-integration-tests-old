@@ -1,0 +1,38 @@
+2022-12-19 03:53:01 INFO  - Scenario 'Check fields in Information section in LYRASIS' start
+2022-12-19 03:53:01 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-19 03:53:31 INFO  - Application on platform 'IOS' is ready...
+2022-12-19 03:53:31 INFO  - Session id - 3fb4b1d7746dd904825b39520b3c97d7157d44d6
+2022-12-19 03:53:31 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-19 03:53:33 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-19 03:53:33 INFO  - Text Field 'Search field' :: Clicking
+2022-12-19 03:53:39 INFO  - Text Field 'Search field' :: Clearing
+2022-12-19 03:53:39 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-19 03:53:48 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-19 03:54:09 INFO  - Step 1 - I open Catalog
+2022-12-19 03:54:09 INFO  - Button 'Catalog' :: Clicking
+2022-12-19 03:54:30 INFO  - Step 2 - I open search modal
+2022-12-19 03:54:51 INFO  - Button 'Search' :: Clicking
+2022-12-19 03:54:53 INFO  - Step 3 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-19 03:54:53 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-19 03:54:53 INFO  - randomBookName: Love Overboard
+2022-12-19 03:54:53 INFO  - Text Field 'Search value input' :: Sending keys 'Love Overboard'
+2022-12-19 03:54:54 INFO  - Button 'Search' :: Clicking
+2022-12-19 03:54:56 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2022-12-19 03:54:56 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-19 03:55:38 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-19 03:55:39 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-19 03:55:39 INFO  - Label 'lblBookName' :: Clicking
+2022-12-19 03:55:40 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2022-12-19 03:55:42 INFO  - Label 'Book title' :: Getting text from element
+2022-12-19 03:55:46 INFO  - Label 'Author' :: Getting text from element
+2022-12-19 03:55:49 INFO  - Label 'Book title' :: Getting text from element
+2022-12-19 03:55:52 INFO  - Label 'Author' :: Getting text from element
+2022-12-19 03:55:53 INFO  - Step 7 - Publisher and Categories in Information section are displayed on book details screen
+2022-12-19 03:55:57 INFO  - Step 8 - Publisher and Categories in Information section are correct on book details screen
+2022-12-19 03:55:57 INFO  - Label 'lblPublisher' :: Getting attribute 'name'
+2022-12-19 03:55:59 INFO  - Label 'lblCategories' :: Getting attribute 'name'
+2022-12-19 03:56:01 INFO  - Step 9 - Distributor is equal to 'Axis 360' on book details screen
+2022-12-19 03:56:01 INFO  - Label 'lblDistributor' :: Getting attribute 'name'
+2022-12-19 03:56:03 INFO  - Taking screenshot
+2022-12-19 03:56:05 INFO  - Unlocking credential for current thread
+2022-12-19 03:56:05 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@76d90cc
