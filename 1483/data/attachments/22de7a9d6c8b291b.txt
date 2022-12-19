@@ -1,0 +1,135 @@
+2022-12-19 18:36:13 INFO  - Scenario 'Font settings: Check of font style' start
+2022-12-19 18:36:13 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-19 18:36:36 INFO  - Application on platform 'IOS' is ready...
+2022-12-19 18:36:37 INFO  - Session id - 50a98943564c3a7a9160237dc774f4134f9b0790
+2022-12-19 18:36:37 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-19 18:36:39 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-19 18:36:40 INFO  - Text Field 'Search field' :: Clicking
+2022-12-19 18:36:47 INFO  - Text Field 'Search field' :: Clearing
+2022-12-19 18:36:47 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-19 18:36:57 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-19 18:37:19 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-19 18:37:19 INFO  - Button 'Settings' :: Clicking
+2022-12-19 18:37:20 INFO  - Button 'Settings' :: Clicking
+2022-12-19 18:37:21 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-19 18:37:23 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-19 18:37:23 INFO  - Button 'Settings' :: Clicking
+2022-12-19 18:37:24 INFO  - Button 'Settings' :: Clicking
+2022-12-19 18:37:25 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-19 18:37:29 INFO  - Locking credential with barcode 01230000000281
+2022-12-19 18:37:29 INFO  - There are books on the account: 
+2022-12-19 18:38:00 INFO  - bookName: Love spell Distributor: Palace Marketplace
+2022-12-19 18:38:00 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2022-12-19 18:38:00 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2022-12-19 18:38:00 INFO  - bookName: My Animal Atlas Distributor: Palace Marketplace
+2022-12-19 18:38:00 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2022-12-19 18:38:00 INFO  - bookName: The Promise Distributor: Palace Marketplace
+2022-12-19 18:38:00 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2022-12-19 18:38:00 INFO  - bookName: Unplugged Play: Preschool Distributor: Palace Marketplace
+2022-12-19 18:38:00 INFO  - bookName: The Misbehavior of Markets Distributor: Palace Marketplace
+2022-12-19 18:38:00 INFO  - Count of books on the account after opening account: 9
+2022-12-19 18:38:22 INFO  - Text Field 'Card' :: Clicking
+2022-12-19 18:38:23 INFO  - Text Field 'Card' :: Clearing
+2022-12-19 18:38:23 INFO  - Text Field 'Card' :: Typing '01230000000281'
+2022-12-19 18:38:27 INFO  - Text Field 'Pin' :: Clearing
+2022-12-19 18:38:27 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-19 18:38:30 INFO  - Button 'Log in' :: Clicking
+2022-12-19 18:38:54 INFO  - Step 3 - Login is performed successfully
+2022-12-19 18:38:55 INFO  - Step 4 - I open Catalog
+2022-12-19 18:38:55 INFO  - Button 'Catalog' :: Clicking
+2022-12-19 18:39:16 INFO  - Step 5 - I open search modal
+2022-12-19 18:39:37 INFO  - Button 'Search' :: Clicking
+2022-12-19 18:39:39 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-19 18:39:39 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-19 18:39:39 INFO  - randomBookName: Chocolate Cream Pie Murder
+2022-12-19 18:39:40 INFO  - Text Field 'Search value input' :: Sending keys 'Chocolate Cream Pie Murder'
+2022-12-19 18:39:42 INFO  - Button 'Search' :: Clicking
+2022-12-19 18:39:45 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-19 18:40:02 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-19 18:40:03 INFO  - Button 'actionButton' :: Clicking
+2022-12-19 18:40:27 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-19 18:40:30 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-19 18:40:31 INFO  - Label 'lblBookName' :: Clicking
+2022-12-19 18:40:33 INFO  - Step 9 - Click READ action button on book details screen
+2022-12-19 18:40:33 INFO  - Button 'Read' :: Clicking
+2022-12-19 18:40:42 INFO  - Alert appears and dismiss alert
+2022-12-19 18:40:42 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2022-12-19 18:40:42 INFO  - Scrolling 7 times on reader epub screen
+2022-12-19 18:41:14 INFO  - Step 11 - I open font settings
+2022-12-19 18:41:15 INFO  - Button 'btnFontSettings' :: Clicking
+2022-12-19 18:41:16 INFO  - Step 12 - I change font style to FONT_SERIF
+2022-12-19 18:41:16 INFO  - Button 'Serif font' :: Clicking
+2022-12-19 18:41:18 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2022-12-19 18:41:19 INFO  - count of contextHandles-9
+2022-12-19 18:41:20 INFO  - Step 14 - I restart app
+2022-12-19 18:41:48 INFO  - Step 15 - I open Books
+2022-12-19 18:41:48 INFO  - Button 'My Books' :: Clicking
+2022-12-19 18:41:49 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2022-12-19 18:41:50 INFO  - Label 'lblBookName' :: Clicking
+2022-12-19 18:41:52 INFO  - Step 17 - Click READ action button on book details screen
+2022-12-19 18:41:53 INFO  - Button 'Read' :: Clicking
+2022-12-19 18:42:14 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2022-12-19 18:42:14 INFO  - count of contextHandles-5
+2022-12-19 18:42:15 INFO  - Step 19 - I return to previous screen from epub
+2022-12-19 18:42:16 INFO  - Button 'btnBack' :: Clicking
+2022-12-19 18:42:17 INFO  - Step 20 - Click READ action button on book details screen
+2022-12-19 18:42:18 INFO  - Button 'Read' :: Clicking
+2022-12-19 18:42:40 INFO  - Step 21 - Book text displays in FONT_SERIF font
+2022-12-19 18:42:40 INFO  - count of contextHandles-5
+2022-12-19 18:42:41 INFO  - Step 22 - I open font settings
+2022-12-19 18:42:42 INFO  - Button 'btnFontSettings' :: Clicking
+2022-12-19 18:42:43 INFO  - Step 23 - I change font style to FONT_SANS
+2022-12-19 18:42:43 INFO  - Button 'Sans font' :: Clicking
+2022-12-19 18:42:45 INFO  - Step 24 - Book text displays in FONT_SANS font
+2022-12-19 18:42:45 INFO  - count of contextHandles-5
+2022-12-19 18:42:45 INFO  - Step 25 - I restart app
+2022-12-19 18:43:13 INFO  - Step 26 - I open Books
+2022-12-19 18:43:13 INFO  - Button 'My Books' :: Clicking
+2022-12-19 18:43:15 INFO  - Step 27 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2022-12-19 18:43:16 INFO  - Label 'lblBookName' :: Clicking
+2022-12-19 18:43:18 INFO  - Step 28 - Click READ action button on book details screen
+2022-12-19 18:43:19 INFO  - Button 'Read' :: Clicking
+2022-12-19 18:43:40 INFO  - Step 29 - Book text displays in FONT_SANS font
+2022-12-19 18:43:41 INFO  - count of contextHandles-5
+2022-12-19 18:43:41 INFO  - Step 30 - I return to previous screen from epub
+2022-12-19 18:43:42 INFO  - Button 'btnBack' :: Clicking
+2022-12-19 18:43:44 INFO  - Step 31 - Click READ action button on book details screen
+2022-12-19 18:43:44 INFO  - Button 'Read' :: Clicking
+2022-12-19 18:44:06 INFO  - Step 32 - Book text displays in FONT_SANS font
+2022-12-19 18:44:06 INFO  - count of contextHandles-5
+2022-12-19 18:44:07 INFO  - Step 33 - I open font settings
+2022-12-19 18:44:08 INFO  - Button 'btnFontSettings' :: Clicking
+2022-12-19 18:44:09 INFO  - Step 34 - I change font style to FONT_DYSLEXIC
+2022-12-19 18:44:09 INFO  - Button 'Open dyslexic font' :: Clicking
+2022-12-19 18:44:11 INFO  - Step 35 - Book text displays in FONT_DYSLEXIC font
+2022-12-19 18:44:11 INFO  - count of contextHandles-5
+2022-12-19 18:44:11 INFO  - Step 36 - I restart app
+2022-12-19 18:44:40 INFO  - Step 37 - I open Books
+2022-12-19 18:44:40 INFO  - Button 'My Books' :: Clicking
+2022-12-19 18:44:42 INFO  - Step 38 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2022-12-19 18:44:43 INFO  - Label 'lblBookName' :: Clicking
+2022-12-19 18:44:44 INFO  - Step 39 - Click READ action button on book details screen
+2022-12-19 18:44:45 INFO  - Button 'Read' :: Clicking
+2022-12-19 18:45:07 INFO  - Step 40 - Book text displays in FONT_DYSLEXIC font
+2022-12-19 18:45:08 INFO  - count of contextHandles-5
+2022-12-19 18:45:08 INFO  - Step 41 - I return to previous screen from epub
+2022-12-19 18:45:10 INFO  - Button 'btnBack' :: Clicking
+2022-12-19 18:45:11 INFO  - Step 42 - Click READ action button on book details screen
+2022-12-19 18:45:12 INFO  - Button 'Read' :: Clicking
+2022-12-19 18:45:35 INFO  - Step 43 - Book text displays in FONT_DYSLEXIC font
+2022-12-19 18:45:35 INFO  - count of contextHandles-5
+2022-12-19 18:45:35 INFO  - Taking screenshot
+2022-12-19 18:45:37 INFO  - Test finished - logging out
+2022-12-19 18:45:41 INFO  - Button 'Settings' :: Clicking
+2022-12-19 18:45:42 INFO  - Button 'Settings' :: Clicking
+2022-12-19 18:45:43 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-19 18:45:47 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-19 18:45:48 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-19 18:45:49 INFO  - Button 'Log out' :: Clicking
+2022-12-19 18:45:50 INFO  - Button 'Log out approve' :: Clicking
+2022-12-19 18:45:54 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-19 18:45:56 INFO  - Button 'Log in' :: Getting text from element
+2022-12-19 18:45:59 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-19 18:46:00 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-19 18:46:01 INFO  - Unlocking credential for current thread
+2022-12-19 18:46:01 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@766f8262
