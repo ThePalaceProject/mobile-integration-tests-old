@@ -1,0 +1,35 @@
+2022-12-20 00:36:26 INFO  - Scenario 'Check related books section in LYRASIS' start
+2022-12-20 00:36:26 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-20 00:37:05 INFO  - Application on platform 'IOS' is ready...
+2022-12-20 00:37:05 INFO  - Session id - 5a96718cbc39b8ac276f2b42ae7f00681172b6bb
+2022-12-20 00:37:05 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-20 00:37:07 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-20 00:37:08 INFO  - Text Field 'Search field' :: Clicking
+2022-12-20 00:37:14 INFO  - Text Field 'Search field' :: Clearing
+2022-12-20 00:37:14 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-20 00:37:26 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-20 00:37:47 INFO  - Step 1 - I open Catalog
+2022-12-20 00:37:47 INFO  - Button 'Catalog' :: Clicking
+2022-12-20 00:38:59 INFO  - Step 2 - I open search modal
+2022-12-20 00:39:19 INFO  - Button 'Search' :: Clicking
+2022-12-20 00:39:21 INFO  - Step 3 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-20 00:39:21 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-20 00:39:21 INFO  - randomBookName: The Secret Lives of Church Ladies
+2022-12-20 00:39:22 INFO  - Text Field 'Search value input' :: Sending keys 'The Secret Lives of Church Ladies'
+2022-12-20 00:39:24 INFO  - Button 'Search' :: Clicking
+2022-12-20 00:39:27 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2022-12-20 00:39:27 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-20 00:40:08 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-20 00:40:10 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-20 00:40:11 INFO  - Label 'lblBookName' :: Clicking
+2022-12-20 00:40:12 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2022-12-20 00:40:14 INFO  - Label 'Book title' :: Getting text from element
+2022-12-20 00:40:18 INFO  - Label 'Author' :: Getting text from element
+2022-12-20 00:40:23 INFO  - Label 'Book title' :: Getting text from element
+2022-12-20 00:40:27 INFO  - Label 'Author' :: Getting text from element
+2022-12-20 00:40:28 INFO  - Step 7 - Related books section is displayed on book details screen
+2022-12-20 00:40:30 INFO  - Label 'Book title' :: Getting text from element
+2022-12-20 00:40:34 INFO  - Label 'Author' :: Getting text from element
+2022-12-20 00:40:35 INFO  - Taking screenshot
+2022-12-20 00:40:37 INFO  - Unlocking credential for current thread
+2022-12-20 00:40:37 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6445718d

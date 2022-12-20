@@ -1,0 +1,83 @@
+2022-12-19 23:17:04 INFO  - Scenario 'Audiobooks: Open the audiobook at the last open chapter and check time code' start
+2022-12-19 23:17:04 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-19 23:17:32 INFO  - Application on platform 'IOS' is ready...
+2022-12-19 23:17:32 INFO  - Session id - d9161b8f2699ef0002a9c180aa9403dc4f448fe7
+2022-12-19 23:17:32 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2022-12-19 23:17:34 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-19 23:17:35 INFO  - Text Field 'Search field' :: Clicking
+2022-12-19 23:17:41 INFO  - Text Field 'Search field' :: Clearing
+2022-12-19 23:17:41 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2022-12-19 23:17:52 INFO  - Button 'Palace Bookshelf' :: Clicking
+2022-12-19 23:17:53 INFO  - Button 'Settings' :: Clicking
+2022-12-19 23:17:57 INFO  - Button 'Testing button' :: Clicking
+2022-12-19 23:17:58 INFO  - Step 1 - Enable hidden libraries
+2022-12-19 23:17:58 INFO  - Button 'Hidden libraries button' :: Clicking
+2022-12-19 23:17:59 INFO  - Step 2 - I open Catalog
+2022-12-19 23:18:00 INFO  - Button 'Catalog' :: Clicking
+2022-12-19 23:18:22 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2022-12-19 23:18:22 INFO  - Button 'Logo' :: Clicking
+2022-12-19 23:18:24 INFO  - Button 'Add library btn' :: Clicking
+2022-12-19 23:18:26 INFO  - Text Field 'Search field' :: Clicking
+2022-12-19 23:18:34 INFO  - Text Field 'Search field' :: Clearing
+2022-12-19 23:18:34 INFO  - Text Field 'Search field' :: Typing 'A1QA Test Library'
+2022-12-19 23:18:45 INFO  - Button 'A1QA Test Library' :: Clicking
+2022-12-19 23:19:07 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2022-12-19 23:19:07 INFO  - Button 'Settings' :: Clicking
+2022-12-19 23:19:08 INFO  - Button 'Settings' :: Clicking
+2022-12-19 23:19:10 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-19 23:19:12 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2022-12-19 23:19:12 INFO  - Button 'Settings' :: Clicking
+2022-12-19 23:19:13 INFO  - Button 'Settings' :: Clicking
+2022-12-19 23:19:15 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-19 23:19:18 INFO  - Locking credential with barcode 01230000000283
+2022-12-19 23:19:18 INFO  - There are books on the account: 
+2022-12-19 23:19:49 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-19 23:19:49 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-19 23:19:49 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-19 23:19:49 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2022-12-19 23:19:49 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2022-12-19 23:19:49 INFO  - Count of books on the account after opening account: 5
+2022-12-19 23:20:11 INFO  - Text Field 'Card' :: Clicking
+2022-12-19 23:20:12 INFO  - Text Field 'Card' :: Clearing
+2022-12-19 23:20:12 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-19 23:20:14 INFO  - Text Field 'Pin' :: Clearing
+2022-12-19 23:20:14 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-19 23:20:17 INFO  - Button 'Log in' :: Clicking
+2022-12-19 23:20:26 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2022-12-19 23:20:27 INFO  - Step 6 - Login is performed successfully
+2022-12-19 23:20:28 INFO  - Step 7 - I open Catalog
+2022-12-19 23:20:28 INFO  - Button 'Catalog' :: Clicking
+2022-12-19 23:20:50 INFO  - Step 8 - I open search modal
+2022-12-19 23:21:11 INFO  - Button 'Search' :: Clicking
+2022-12-19 23:21:13 INFO  - Step 9 - I search for "Catching Fire" and save bookName as 'bookNameInfo'
+2022-12-19 23:21:14 INFO  - Text Field 'Search value input' :: Sending keys 'Catching Fire'
+2022-12-19 23:21:15 INFO  - Button 'Search' :: Clicking
+2022-12-19 23:21:17 INFO  - Step 10 - I switch to 'Audiobooks' catalog tab
+2022-12-19 23:21:17 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-19 23:21:59 INFO  - Step 11 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-19 23:22:00 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-19 23:22:01 INFO  - Label 'lblBookName' :: Clicking
+2022-12-19 23:22:02 INFO  - Step 12 - Click GET action button on book details screen
+2022-12-19 23:22:03 INFO  - Button 'Get' :: Clicking
+2022-12-19 23:22:25 INFO  - Step 13 - I check that book contains LISTEN action button on book details screen
+2022-12-19 23:22:25 INFO  - Step 14 - Click LISTEN action button on book details screen
+2022-12-19 23:22:26 INFO  - Button 'Listen' :: Clicking
+2022-12-19 23:22:48 INFO  - Step 15 - Audio player screen of book 'bookInfo' is opened
+2022-12-19 23:22:48 INFO  - Step 16 - Open toc audiobook screen
+2022-12-19 23:22:48 INFO  - Button 'btnToc' :: Clicking
+2022-12-19 23:22:50 INFO  - Step 17 - Open random chapter on toc audiobook screen and save chapter name as 'chapterNameKey'
+2022-12-19 23:22:51 INFO  - Taking screenshot
+2022-12-19 23:22:52 INFO  - Test finished - logging out
+2022-12-19 23:22:57 INFO  - Button 'Settings' :: Clicking
+2022-12-19 23:22:59 INFO  - Button 'Settings' :: Clicking
+2022-12-19 23:23:01 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-19 23:23:05 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-19 23:23:06 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-19 23:23:07 INFO  - Button 'Log out' :: Clicking
+2022-12-19 23:23:08 INFO  - Button 'Log out approve' :: Clicking
+2022-12-19 23:23:12 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-19 23:23:14 INFO  - Button 'Log in' :: Getting text from element
+2022-12-19 23:23:18 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-19 23:23:19 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-19 23:23:20 INFO  - Unlocking credential for current thread
+2022-12-19 23:23:20 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5433afd7
