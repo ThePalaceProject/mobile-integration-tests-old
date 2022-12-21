@@ -1,0 +1,27 @@
+2022-12-21 06:12:10 INFO  - Scenario 'Palace: Check of canceling the downloading from book details view' start
+2022-12-21 06:12:10 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-21 06:12:41 INFO  - Application on platform 'IOS' is ready...
+2022-12-21 06:12:42 INFO  - Session id - 649e877c23468c7b07f7d807f4732489f8380071
+2022-12-21 06:12:42 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2022-12-21 06:12:44 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-21 06:12:45 INFO  - Text Field 'Search field' :: Clicking
+2022-12-21 06:12:50 INFO  - Text Field 'Search field' :: Clearing
+2022-12-21 06:12:50 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2022-12-21 06:13:00 INFO  - Button 'Palace Bookshelf' :: Clicking
+2022-12-21 06:13:21 INFO  - Step 1 - I open Catalog
+2022-12-21 06:13:21 INFO  - Button 'Catalog' :: Clicking
+2022-12-21 06:13:42 INFO  - Step 2 - I open search modal
+2022-12-21 06:14:03 INFO  - Button 'Search' :: Clicking
+2022-12-21 06:14:05 INFO  - Step 3 - I search for "The Ragged Edge" and save bookName as 'bookNameInfo'
+2022-12-21 06:14:06 INFO  - Text Field 'Search value input' :: Sending keys 'The Ragged Edge'
+2022-12-21 06:14:07 INFO  - Button 'Search' :: Clicking
+2022-12-21 06:14:09 INFO  - Step 4 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-21 06:14:10 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-21 06:14:11 INFO  - Label 'lblBookName' :: Clicking
+2022-12-21 06:14:12 INFO  - Step 5 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2022-12-21 06:14:12 INFO  - Button 'Get' :: Clicking
+2022-12-21 06:14:14 INFO  - Button 'Cancel' :: Clicking
+2022-12-21 06:14:22 INFO  - Step 6 - I check that book contains DOWNLOAD action button on book details screen
+2022-12-21 06:14:42 INFO  - Taking screenshot
+2022-12-21 06:14:44 INFO  - Unlocking credential for current thread
+2022-12-21 06:14:44 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@224055fb
