@@ -1,0 +1,81 @@
+2022-12-21 03:54:44 INFO  - Scenario 'Check of switching to the next time' start
+2022-12-21 03:54:44 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-21 03:55:09 INFO  - Application on platform 'IOS' is ready...
+2022-12-21 03:55:09 INFO  - Session id - c463f43adc25ba8125d3f111e008fccf1774be01
+2022-12-21 03:55:09 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-21 03:55:11 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-21 03:55:11 INFO  - Text Field 'Search field' :: Clicking
+2022-12-21 03:55:17 INFO  - Text Field 'Search field' :: Clearing
+2022-12-21 03:55:17 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-21 03:55:26 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-21 03:55:47 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-21 03:55:47 INFO  - Button 'Settings' :: Clicking
+2022-12-21 03:55:48 INFO  - Button 'Settings' :: Clicking
+2022-12-21 03:55:48 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 03:55:49 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-21 03:55:49 INFO  - Button 'Settings' :: Clicking
+2022-12-21 03:55:50 INFO  - Button 'Settings' :: Clicking
+2022-12-21 03:55:51 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 03:55:53 INFO  - Locking credential with barcode 01230000000280
+2022-12-21 03:55:53 INFO  - There are books on the account: 
+2022-12-21 03:56:24 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2022-12-21 03:56:24 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2022-12-21 03:56:24 INFO  - bookName: Frederick and Catherine Distributor: Palace Marketplace
+2022-12-21 03:56:24 INFO  - bookName: One Good Dish Distributor: Palace Marketplace
+2022-12-21 03:56:24 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-21 03:56:24 INFO  - bookName: 20th Century Passenger Flying Boats Distributor: Palace Marketplace
+2022-12-21 03:56:24 INFO  - bookName: Pipe Dreams Distributor: Palace Marketplace
+2022-12-21 03:56:24 INFO  - Count of books on the account after opening account: 7
+2022-12-21 03:56:46 INFO  - Text Field 'Card' :: Clicking
+2022-12-21 03:56:47 INFO  - Text Field 'Card' :: Clearing
+2022-12-21 03:56:47 INFO  - Text Field 'Card' :: Typing '01230000000280'
+2022-12-21 03:56:51 INFO  - Text Field 'Pin' :: Clearing
+2022-12-21 03:56:51 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-21 03:56:54 INFO  - Button 'Log in' :: Clicking
+2022-12-21 03:57:17 INFO  - Step 3 - Login is performed successfully
+2022-12-21 03:57:18 INFO  - Step 4 - I open Catalog
+2022-12-21 03:57:18 INFO  - Button 'Catalog' :: Clicking
+2022-12-21 03:57:39 INFO  - Step 5 - I open search modal
+2022-12-21 03:57:59 INFO  - Button 'Search' :: Clicking
+2022-12-21 03:58:01 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-21 03:58:01 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-21 03:58:01 INFO  - randomBookName: iGen
+2022-12-21 03:58:02 INFO  - Text Field 'Search value input' :: Sending keys 'iGen'
+2022-12-21 03:58:02 INFO  - Button 'Search' :: Clicking
+2022-12-21 03:58:04 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-21 03:58:04 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-21 03:58:46 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-21 03:58:48 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-21 03:58:49 INFO  - Label 'lblBookName' :: Clicking
+2022-12-21 03:58:50 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-21 03:58:51 INFO  - Button 'Get' :: Clicking
+2022-12-21 03:59:13 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-21 03:59:18 INFO  - Step 11 - Click LISTEN action button on book details screen
+2022-12-21 03:59:19 INFO  - Button 'Listen' :: Clicking
+2022-12-21 03:59:41 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2022-12-21 03:59:41 INFO  - Step 13 - Open toc audiobook screen
+2022-12-21 03:59:42 INFO  - Button 'btnToc' :: Clicking
+2022-12-21 03:59:43 INFO  - Step 14 - The first chapter is loaded
+2022-12-21 03:59:47 INFO  - Step 15 - Open the 1 chapter on toc audiobook screen and save the chapter name as 'chapterName' and chapter number as 'chapterNumber'
+2022-12-21 03:59:55 INFO  - Label 'element 1' :: Getting attribute 'name'
+2022-12-21 03:59:55 INFO  - Label 'element 1' :: Clicking
+2022-12-21 03:59:56 INFO  - Step 16 - Select 2X playback speed on playback speed audiobook screen
+2022-12-21 03:59:56 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2022-12-21 03:59:58 INFO  - Button 'Two times normal speed. Fastest.' :: Clicking
+2022-12-21 03:59:59 INFO  - Step 17 - Listen a chapter on audio player screen
+2022-12-21 04:00:00 INFO  - Label 'lblRightTime' :: Getting attribute 'value'
+2022-12-21 04:00:22 INFO  - Step 18 - Next chapter play automatically and chapter name is not 'chapterName' on audio player screen
+2022-12-21 04:00:43 INFO  - Label 'lblChapterName' :: Getting attribute 'value'
+2022-12-21 04:00:43 INFO  - Taking screenshot
+2022-12-21 04:00:45 INFO  - Test finished - logging out
+2022-12-21 04:00:48 INFO  - Button 'Settings' :: Clicking
+2022-12-21 04:00:49 INFO  - Button 'Settings' :: Clicking
+2022-12-21 04:00:50 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 04:00:53 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-21 04:00:54 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-21 04:00:55 INFO  - Button 'Log out' :: Clicking
+2022-12-21 04:00:56 INFO  - Button 'Log out approve' :: Clicking
+2022-12-21 04:00:59 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-21 04:01:00 INFO  - Button 'Log in' :: Getting text from element
+2022-12-21 04:01:21 INFO  - Unlocking credential for current thread
+2022-12-21 04:01:21 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6085d2bb

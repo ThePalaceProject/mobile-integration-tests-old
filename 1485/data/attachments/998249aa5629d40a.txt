@@ -1,0 +1,76 @@
+2022-12-21 04:29:16 INFO  - Scenario 'Check of file numbers' start
+2022-12-21 04:29:16 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-21 04:29:41 INFO  - Application on platform 'IOS' is ready...
+2022-12-21 04:29:41 INFO  - Session id - a9b736b8fb5241281f3c431a20ad75c0f8c34499
+2022-12-21 04:29:41 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-21 04:29:42 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-21 04:29:43 INFO  - Text Field 'Search field' :: Clicking
+2022-12-21 04:29:48 INFO  - Text Field 'Search field' :: Clearing
+2022-12-21 04:29:48 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-21 04:29:58 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-21 04:30:20 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-21 04:30:20 INFO  - Button 'Settings' :: Clicking
+2022-12-21 04:30:21 INFO  - Button 'Settings' :: Clicking
+2022-12-21 04:30:22 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 04:30:23 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-21 04:30:23 INFO  - Button 'Settings' :: Clicking
+2022-12-21 04:30:23 INFO  - Button 'Settings' :: Clicking
+2022-12-21 04:30:24 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 04:30:26 INFO  - Locking credential with barcode 01230000000283
+2022-12-21 04:30:26 INFO  - There are books on the account: 
+2022-12-21 04:30:58 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-21 04:30:58 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2022-12-21 04:30:58 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2022-12-21 04:30:58 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-21 04:30:58 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-21 04:30:58 INFO  - Count of books on the account after opening account: 5
+2022-12-21 04:31:19 INFO  - Text Field 'Card' :: Clicking
+2022-12-21 04:31:20 INFO  - Text Field 'Card' :: Clearing
+2022-12-21 04:31:20 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-21 04:31:22 INFO  - Text Field 'Pin' :: Clearing
+2022-12-21 04:31:22 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-21 04:31:25 INFO  - Button 'Log in' :: Clicking
+2022-12-21 04:31:47 INFO  - Step 3 - Login is performed successfully
+2022-12-21 04:31:48 INFO  - Step 4 - I open Catalog
+2022-12-21 04:31:48 INFO  - Button 'Catalog' :: Clicking
+2022-12-21 04:32:09 INFO  - Step 5 - I open search modal
+2022-12-21 04:32:30 INFO  - Button 'Search' :: Clicking
+2022-12-21 04:32:32 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-21 04:32:32 INFO  - Count of attempts to get random book name without bad symbols-3
+2022-12-21 04:32:32 INFO  - randomBookName: Six Months in 1945
+2022-12-21 04:32:33 INFO  - Text Field 'Search value input' :: Sending keys 'Six Months in 1945'
+2022-12-21 04:32:34 INFO  - Button 'Search' :: Clicking
+2022-12-21 04:32:37 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-21 04:32:37 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-21 04:33:19 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-21 04:33:21 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-21 04:33:22 INFO  - Label 'lblBookName' :: Clicking
+2022-12-21 04:33:23 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-21 04:33:24 INFO  - Button 'Get' :: Clicking
+2022-12-21 04:33:46 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-21 04:33:47 INFO  - Step 11 - Click LISTEN action button on book details screen
+2022-12-21 04:33:47 INFO  - Button 'Listen' :: Clicking
+2022-12-21 04:34:09 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2022-12-21 04:34:10 INFO  - Step 13 - Open toc audiobook screen
+2022-12-21 04:34:10 INFO  - Button 'btnToc' :: Clicking
+2022-12-21 04:34:11 INFO  - Step 14 - The first chapter is loaded
+2022-12-21 04:35:31 INFO  - Step 15 - Open the 3 chapter on toc audiobook screen and save the chapter name as 'chapterName' and chapter number as 'chapterNumber'
+2022-12-21 04:38:48 INFO  - Label 'element 3' :: Getting attribute 'name'
+2022-12-21 04:38:49 INFO  - Label 'element 3' :: Clicking
+2022-12-21 04:38:51 INFO  - Step 16 - Chapter number is 'chapterNumber' on audio player screen
+2022-12-21 04:38:51 INFO  - Label 'lblChapterName' :: Getting attribute 'value'
+2022-12-21 04:38:52 INFO  - Taking screenshot
+2022-12-21 04:38:54 INFO  - Test finished - logging out
+2022-12-21 04:38:57 INFO  - Button 'Settings' :: Clicking
+2022-12-21 04:38:58 INFO  - Button 'Settings' :: Clicking
+2022-12-21 04:38:59 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 04:39:02 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-21 04:39:03 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-21 04:39:04 INFO  - Button 'Log out' :: Clicking
+2022-12-21 04:39:05 INFO  - Button 'Log out approve' :: Clicking
+2022-12-21 04:39:08 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-21 04:39:09 INFO  - Button 'Log in' :: Getting text from element
+2022-12-21 04:39:12 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-21 04:39:13 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-21 04:39:13 INFO  - Unlocking credential for current thread
+2022-12-21 04:39:13 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6085d2bb

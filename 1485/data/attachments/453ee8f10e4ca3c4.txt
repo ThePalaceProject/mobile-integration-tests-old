@@ -1,0 +1,81 @@
+2022-12-21 03:48:58 INFO  - Scenario 'Navigate by Page Lyrasis' start
+2022-12-21 03:48:58 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-21 03:49:33 INFO  - Application on platform 'IOS' is ready...
+2022-12-21 03:49:33 INFO  - Session id - 22a0061b3fea9c29bbe196017282aa91a1e201f6
+2022-12-21 03:49:33 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-21 03:49:35 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-21 03:49:35 INFO  - Text Field 'Search field' :: Clicking
+2022-12-21 03:49:41 INFO  - Text Field 'Search field' :: Clearing
+2022-12-21 03:49:41 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-21 03:49:50 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-21 03:50:12 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-21 03:50:12 INFO  - Button 'Settings' :: Clicking
+2022-12-21 03:50:13 INFO  - Button 'Settings' :: Clicking
+2022-12-21 03:50:14 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 03:50:15 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-21 03:50:15 INFO  - Button 'Settings' :: Clicking
+2022-12-21 03:50:16 INFO  - Button 'Settings' :: Clicking
+2022-12-21 03:50:16 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 03:50:19 INFO  - Locking credential with barcode 01230000000283
+2022-12-21 03:50:19 INFO  - There are books on the account: 
+2022-12-21 03:50:50 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2022-12-21 03:50:50 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-21 03:50:50 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-21 03:50:50 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2022-12-21 03:50:50 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-21 03:50:50 INFO  - Count of books on the account after opening account: 5
+2022-12-21 03:51:11 INFO  - Text Field 'Card' :: Clicking
+2022-12-21 03:51:12 INFO  - Text Field 'Card' :: Clearing
+2022-12-21 03:51:12 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-21 03:51:14 INFO  - Text Field 'Pin' :: Clearing
+2022-12-21 03:51:14 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-21 03:52:17 INFO  - Button 'Log in' :: Clicking
+2022-12-21 03:52:40 INFO  - Step 3 - Login is performed successfully
+2022-12-21 03:52:41 INFO  - Step 4 - I open Catalog
+2022-12-21 03:52:41 INFO  - Button 'Catalog' :: Clicking
+2022-12-21 03:53:02 INFO  - Step 5 - I open search modal
+2022-12-21 03:53:22 INFO  - Button 'Search' :: Clicking
+2022-12-21 03:53:24 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-21 03:53:24 INFO  - Count of attempts to get random book name without bad symbols-2
+2022-12-21 03:53:24 INFO  - randomBookName: Spider :
+2022-12-21 03:53:25 INFO  - Text Field 'Search value input' :: Sending keys 'Spider :'
+2022-12-21 03:53:25 INFO  - Button 'Search' :: Clicking
+2022-12-21 03:53:28 INFO  - Step 7 - I switch to 'eBooks' catalog tab
+2022-12-21 03:53:28 INFO  - Button 'eBooks' :: Clicking
+2022-12-21 03:54:11 INFO  - Step 8 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-21 03:54:28 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-21 03:54:30 INFO  - Button 'actionButton' :: Clicking
+2022-12-21 03:54:52 INFO  - Step 9 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2022-12-21 03:54:54 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-21 03:54:56 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-21 03:54:57 INFO  - Label 'lblBookName' :: Clicking
+2022-12-21 03:54:58 INFO  - Step 11 - Click READ action button on book details screen
+2022-12-21 03:55:00 INFO  - Button 'Read' :: Clicking
+2022-12-21 03:55:22 INFO  - Step 12 - Reader pdf screen is opened
+2022-12-21 03:55:23 INFO  - Step 13 - I save page number as 'pageInfo' on pdf reader screen
+2022-12-21 03:55:24 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2022-12-21 03:55:26 INFO  - Step 14 - I go to next page on reader pdf screen
+2022-12-21 03:55:29 INFO  - Swiping from coordinates (x:320; y:321) to (x:2; y:321)
+2022-12-21 03:55:31 INFO  - Step 15 - Page number increased by 1 from 'pageInfo' on pdf reader screen
+2022-12-21 03:55:52 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2022-12-21 03:55:54 INFO  - Step 16 - I save page number as 'pageInfo2' on pdf reader screen
+2022-12-21 03:55:55 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2022-12-21 03:55:56 INFO  - Step 17 - I go to previous page on reader pdf screen
+2022-12-21 03:55:59 INFO  - Swiping from coordinates (x:108; y:180) to (x:425; y:180)
+2022-12-21 03:56:01 INFO  - Step 18 - Page number decreased by 1 from 'pageInfo2' on pdf reader screen
+2022-12-21 03:56:21 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2022-12-21 03:56:23 INFO  - Taking screenshot
+2022-12-21 03:56:32 INFO  - Test finished - logging out
+2022-12-21 03:56:35 INFO  - Button 'Settings' :: Clicking
+2022-12-21 03:56:35 INFO  - Button 'Settings' :: Clicking
+2022-12-21 03:56:36 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 03:56:38 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-21 03:56:39 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-21 03:56:39 INFO  - Button 'Log out' :: Clicking
+2022-12-21 03:56:40 INFO  - Button 'Log out approve' :: Clicking
+2022-12-21 03:56:44 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-21 03:56:45 INFO  - Button 'Log in' :: Getting text from element
+2022-12-21 03:56:50 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-21 03:56:51 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-21 03:56:52 INFO  - Unlocking credential for current thread
+2022-12-21 03:56:52 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2459eaaa

@@ -1,0 +1,71 @@
+2022-12-21 01:57:08 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2022-12-21 01:57:08 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-21 01:57:42 INFO  - Application on platform 'IOS' is ready...
+2022-12-21 01:57:42 INFO  - Session id - ea46f62376ae7fc9d9ed1ac9d329b6ea72ae1c00
+2022-12-21 01:57:42 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-21 01:57:43 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-21 01:57:44 INFO  - Text Field 'Search field' :: Clicking
+2022-12-21 01:57:50 INFO  - Text Field 'Search field' :: Clearing
+2022-12-21 01:57:50 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-21 01:57:58 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-21 01:58:19 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-21 01:58:19 INFO  - Button 'Settings' :: Clicking
+2022-12-21 01:58:20 INFO  - Button 'Settings' :: Clicking
+2022-12-21 01:58:21 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 01:58:22 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-21 01:58:22 INFO  - Button 'Settings' :: Clicking
+2022-12-21 01:58:23 INFO  - Button 'Settings' :: Clicking
+2022-12-21 01:58:24 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 01:58:26 INFO  - Locking credential with barcode 01230000000282
+2022-12-21 01:58:26 INFO  - There are books on the account: 
+2022-12-21 01:58:57 INFO  - bookName: Timequake Distributor: Palace Marketplace
+2022-12-21 01:58:57 INFO  - bookName: Find Layla: A Novel Distributor: Palace Marketplace
+2022-12-21 01:58:57 INFO  - Count of books on the account after opening account: 2
+2022-12-21 01:59:19 INFO  - Text Field 'Card' :: Clicking
+2022-12-21 01:59:19 INFO  - Text Field 'Card' :: Clearing
+2022-12-21 01:59:19 INFO  - Text Field 'Card' :: Typing '01230000000282'
+2022-12-21 01:59:22 INFO  - Text Field 'Pin' :: Clearing
+2022-12-21 01:59:22 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-21 01:59:25 INFO  - Button 'Log in' :: Clicking
+2022-12-21 01:59:34 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2022-12-21 01:59:36 INFO  - Step 3 - Login is performed successfully
+2022-12-21 01:59:37 INFO  - Step 4 - I open Catalog
+2022-12-21 01:59:37 INFO  - Button 'Catalog' :: Clicking
+2022-12-21 01:59:59 INFO  - Step 5 - I open search modal
+2022-12-21 02:00:19 INFO  - Button 'Search' :: Clicking
+2022-12-21 02:00:21 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-21 02:00:21 INFO  - Count of attempts to get random book name without bad symbols-4
+2022-12-21 02:00:21 INFO  - randomBookName: Christmas Dessert Murder
+2022-12-21 02:00:22 INFO  - Text Field 'Search value input' :: Sending keys 'Christmas Dessert Murder'
+2022-12-21 02:00:23 INFO  - Button 'Search' :: Clicking
+2022-12-21 02:00:26 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-21 02:00:43 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-21 02:00:44 INFO  - Button 'actionButton' :: Clicking
+2022-12-21 02:01:06 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-21 02:01:08 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-21 02:01:08 INFO  - Label 'lblBookName' :: Clicking
+2022-12-21 02:01:09 INFO  - Step 9 - Click READ action button on book details screen
+2022-12-21 02:01:11 INFO  - Button 'Read' :: Clicking
+2022-12-21 02:01:32 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2022-12-21 02:01:32 INFO  - Scrolling 8 times on reader epub screen
+2022-12-21 02:01:52 INFO  - Step 11 - I save font size as 'fontSize'
+2022-12-21 02:01:52 INFO  - count of contextHandles-8
+2022-12-21 02:01:53 INFO  - Step 12 - I open font settings
+2022-12-21 02:01:54 INFO  - Button 'btnFontSettings' :: Clicking
+2022-12-21 02:01:54 INFO  - Step 13 - I INCREASE_FONT of text
+2022-12-21 02:01:54 INFO  - Button 'Increase font size' :: Clicking
+2022-12-21 02:02:15 INFO  - Taking screenshot
+2022-12-21 02:02:16 INFO  - Test finished - logging out
+2022-12-21 02:02:19 INFO  - Button 'Settings' :: Clicking
+2022-12-21 02:02:20 INFO  - Button 'Settings' :: Clicking
+2022-12-21 02:02:21 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 02:02:24 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-21 02:02:25 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-21 02:02:25 INFO  - Button 'Log out' :: Clicking
+2022-12-21 02:02:26 INFO  - Button 'Log out approve' :: Clicking
+2022-12-21 02:02:29 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-21 02:02:30 INFO  - Button 'Log in' :: Getting text from element
+2022-12-21 02:02:33 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-21 02:02:34 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-21 02:02:35 INFO  - Unlocking credential for current thread
+2022-12-21 02:02:35 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6471b75f

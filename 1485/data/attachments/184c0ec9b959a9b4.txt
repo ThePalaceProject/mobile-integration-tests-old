@@ -1,0 +1,64 @@
+2022-12-21 02:24:02 INFO  - Scenario 'LYRASIS: Reserving from Book Detail View' start
+2022-12-21 02:24:02 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-21 02:24:27 INFO  - Application on platform 'IOS' is ready...
+2022-12-21 02:24:27 INFO  - Session id - 0536d55e286fc27aaea5b118c8245e9b6824540f
+2022-12-21 02:24:27 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-21 02:24:29 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-21 02:24:29 INFO  - Text Field 'Search field' :: Clicking
+2022-12-21 02:24:35 INFO  - Text Field 'Search field' :: Clearing
+2022-12-21 02:24:35 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-21 02:24:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-21 02:25:06 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2022-12-21 02:25:06 INFO  - Button 'Settings' :: Clicking
+2022-12-21 02:25:07 INFO  - Button 'Settings' :: Clicking
+2022-12-21 02:25:08 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 02:25:10 INFO  - Locking credential with barcode 01230000000283
+2022-12-21 02:25:10 INFO  - There are books on the account: 
+2022-12-21 02:25:42 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2022-12-21 02:25:42 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-21 02:25:42 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-21 02:25:42 INFO  - bookName: My Year Abroad Distributor: Palace Marketplace
+2022-12-21 02:25:42 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-21 02:25:42 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2022-12-21 02:25:42 INFO  - Count of books on the account after opening account: 6
+2022-12-21 02:26:03 INFO  - Text Field 'Card' :: Clicking
+2022-12-21 02:26:03 INFO  - Text Field 'Card' :: Clearing
+2022-12-21 02:26:03 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-21 02:26:06 INFO  - Text Field 'Pin' :: Clearing
+2022-12-21 02:26:06 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-21 02:26:08 INFO  - Button 'Log in' :: Clicking
+2022-12-21 02:26:30 INFO  - Step 2 - Login is performed successfully
+2022-12-21 02:26:31 INFO  - Step 3 - I open Catalog
+2022-12-21 02:26:31 INFO  - Button 'Catalog' :: Clicking
+2022-12-21 02:26:53 INFO  - Step 4 - I open search modal
+2022-12-21 02:27:13 INFO  - Button 'Search' :: Clicking
+2022-12-21 02:27:15 INFO  - Step 5 - I search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-21 02:27:15 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-21 02:27:15 INFO  - randomBookName: Dream Hoarders
+2022-12-21 02:27:15 INFO  - Text Field 'Search value input' :: Sending keys 'Dream Hoarders'
+2022-12-21 02:27:16 INFO  - Button 'Search' :: Clicking
+2022-12-21 02:27:19 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2022-12-21 02:27:19 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-21 02:28:00 INFO  - Step 7 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-21 02:28:02 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-21 02:28:03 INFO  - Label 'lblBookName' :: Clicking
+2022-12-21 02:28:03 INFO  - Step 8 - Click RESERVE action button on book details screen
+2022-12-21 02:28:05 INFO  - Button 'Reserve' :: Clicking
+2022-12-21 02:28:11 INFO  - Alert appears and dismiss alert
+2022-12-21 02:28:11 INFO  - Step 9 - I check that book contains REMOVE action button on book details screen
+2022-12-21 02:29:22 INFO  - Button 'Error details' :: Getting text from element
+2022-12-21 02:29:24 INFO  - Taking screenshot
+2022-12-21 02:29:25 INFO  - Test finished - logging out
+2022-12-21 02:29:28 INFO  - Button 'Settings' :: Clicking
+2022-12-21 02:29:29 INFO  - Button 'Settings' :: Clicking
+2022-12-21 02:29:30 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-21 02:29:33 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-21 02:29:34 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-21 02:29:34 INFO  - Button 'Log out' :: Clicking
+2022-12-21 02:29:35 INFO  - Button 'Log out approve' :: Clicking
+2022-12-21 02:29:38 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-21 02:29:39 INFO  - Button 'Log in' :: Getting text from element
+2022-12-21 02:29:42 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-21 02:29:43 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-21 02:29:44 INFO  - Unlocking credential for current thread
+2022-12-21 02:29:44 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@fc3d545
