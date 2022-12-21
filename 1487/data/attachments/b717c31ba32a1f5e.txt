@@ -1,0 +1,79 @@
+2022-12-21 19:19:40 INFO  - Scenario 'Get a book from Book Detail View and Return from Books in LYRASIS' start
+2022-12-21 19:19:40 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-21 19:20:12 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-21 19:20:12 INFO  - Session id - 117acfe39de5acbdfd77d994197aee56ec074794
+2022-12-21 19:20:12 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-21 19:20:12 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-21 19:20:15 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-21 19:20:16 INFO  - Button 'Search' :: Clicking
+2022-12-21 19:20:17 INFO  - Text Field 'Search' :: Clearing
+2022-12-21 19:20:17 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-21 19:20:21 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-21 19:20:21 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2022-12-21 19:20:21 INFO  - Button 'tabSettings' :: Clicking
+2022-12-21 19:20:23 INFO  - Button 'tabSettings' :: Clicking
+2022-12-21 19:20:24 INFO  - Button 'Accounts' :: Clicking
+2022-12-21 19:20:25 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-21 19:20:26 INFO  - Locking credential with barcode 01230000000281
+2022-12-21 19:20:26 INFO  - There are books on the account: 
+2022-12-21 19:20:58 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2022-12-21 19:20:58 INFO  - bookName: The Misbehavior of Markets Distributor: Palace Marketplace
+2022-12-21 19:20:58 INFO  - bookName: Love spell Distributor: Palace Marketplace
+2022-12-21 19:20:58 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2022-12-21 19:20:58 INFO  - bookName: The Promise Distributor: Palace Marketplace
+2022-12-21 19:20:58 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2022-12-21 19:20:58 INFO  - bookName: Unplugged Play: Preschool Distributor: Palace Marketplace
+2022-12-21 19:20:58 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2022-12-21 19:20:58 INFO  - bookName: My Animal Atlas Distributor: Palace Marketplace
+2022-12-21 19:20:58 INFO  - Count of books on the account after opening account: 9
+2022-12-21 19:20:58 INFO  - Text Field 'Card' :: Clearing
+2022-12-21 19:20:58 INFO  - Text Field 'Card' :: Typing '01230000000281'
+2022-12-21 19:21:00 INFO  - Text Field 'Pin' :: Clearing
+2022-12-21 19:21:00 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-21 19:21:03 INFO  - Button 'Log in' :: Clicking
+2022-12-21 19:21:10 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-21 19:21:10 INFO  - Step 2 - Login is performed successfully
+2022-12-21 19:21:32 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-21 19:21:32 INFO  - Step 3 - I open Catalog
+2022-12-21 19:21:32 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-21 19:21:53 INFO  - Step 4 - I open search modal
+2022-12-21 19:22:14 INFO  - Button 'Search' :: Clicking
+2022-12-21 19:22:15 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-21 19:22:15 INFO  - Count of attempts to get random book name without bad symbols-3
+2022-12-21 19:22:15 INFO  - randomBookName: Juliet Takes a Breath: The Graphic Novel
+2022-12-21 19:22:16 INFO  - Error details button is not present
+2022-12-21 19:22:16 INFO  - Text Field 'Search value input' :: Sending keys 'Juliet Takes a Breath: The Graphic Novel'
+2022-12-21 19:22:17 INFO  - Button 'Apply search' :: Clicking
+2022-12-21 19:22:19 INFO  - Error details button is not present
+2022-12-21 19:22:23 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2022-12-21 19:22:23 INFO  - Button 'eBooks' :: Clicking
+2022-12-21 19:22:44 INFO  - Step 7 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-21 19:22:44 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-21 19:22:45 INFO  - Label 'lblBookName' :: Clicking
+2022-12-21 19:22:45 INFO  - Step 8 - Click GET action button on book details screen
+2022-12-21 19:22:46 INFO  - Button 'Get' :: Clicking
+2022-12-21 19:23:02 INFO  - Step 9 - I close Book Details for IOSTab
+2022-12-21 19:23:02 INFO  - Step 10 - I open Books
+2022-12-21 19:23:02 INFO  - Button 'tabBooks' :: Clicking
+2022-12-21 19:23:02 INFO  - Step 11 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2022-12-21 19:23:04 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2022-12-21 19:23:05 INFO  - Label 'lblBookName' :: Clicking
+2022-12-21 19:23:06 INFO  - Step 13 - Click RETURN action button on book details screen
+2022-12-21 19:23:07 INFO  - Button 'Return' :: Clicking
+2022-12-21 19:23:09 INFO  - Step 14 - I close Book Details for IOSTab
+2022-12-21 19:23:09 INFO  - Step 15 - I open Books
+2022-12-21 19:23:10 INFO  - Button 'tabBooks' :: Clicking
+2022-12-21 19:23:10 INFO  - Step 16 - Wait for 10 seconds
+2022-12-21 19:23:21 INFO  - Step 17 - EBOOK book with READ action button and 'bookInfo' bookInfo is not present on books screen
+2022-12-21 19:24:01 INFO  - Taking screenshot
+2022-12-21 19:24:02 INFO  - Test finished - logging out
+2022-12-21 19:24:04 INFO  - Button 'tabSettings' :: Clicking
+2022-12-21 19:24:06 INFO  - Button 'tabSettings' :: Clicking
+2022-12-21 19:24:08 INFO  - Button 'Accounts' :: Clicking
+2022-12-21 19:24:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-21 19:24:11 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-21 19:24:12 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-21 19:24:12 INFO  - Button 'Log out' :: Clicking
+2022-12-21 19:24:14 INFO  - Button 'Log in' :: Getting text from element
+2022-12-21 19:24:34 INFO  - Unlocking credential for current thread
+2022-12-21 19:24:34 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@716bc8a3
