@@ -1,0 +1,99 @@
+2022-12-22 20:08:54 INFO  - Scenario 'Navigate by Audiobook' start
+2022-12-22 20:08:54 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-22 20:09:25 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-22 20:09:25 INFO  - Session id - 0215ec923ac2c71ca05c5b4b9f450055d9903f2b
+2022-12-22 20:09:25 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-22 20:09:25 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-22 20:09:28 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-22 20:09:28 INFO  - Button 'Search' :: Clicking
+2022-12-22 20:09:30 INFO  - Text Field 'Search' :: Clearing
+2022-12-22 20:09:30 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-22 20:09:32 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-22 20:09:32 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-22 20:09:32 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:10:38 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:10:38 INFO  - Button 'Accounts' :: Clicking
+2022-12-22 20:10:40 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-22 20:10:40 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:10:41 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:10:41 INFO  - Button 'Accounts' :: Clicking
+2022-12-22 20:10:42 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-22 20:10:43 INFO  - Locking credential with barcode 01230000000280
+2022-12-22 20:10:43 INFO  - There are books on the account: 
+2022-12-22 20:11:15 INFO  - bookName: iGen Distributor: Palace Marketplace
+2022-12-22 20:11:15 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2022-12-22 20:11:15 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2022-12-22 20:11:15 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-22 20:11:15 INFO  - bookName: One Good Dish Distributor: Palace Marketplace
+2022-12-22 20:11:15 INFO  - bookName: Pipe Dreams Distributor: Palace Marketplace
+2022-12-22 20:11:15 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2022-12-22 20:11:15 INFO  - bookName: 20th Century Passenger Flying Boats Distributor: Palace Marketplace
+2022-12-22 20:11:15 INFO  - bookName: Frederick and Catherine Distributor: Palace Marketplace
+2022-12-22 20:11:15 INFO  - Count of books on the account after opening account: 9
+2022-12-22 20:11:15 INFO  - Text Field 'Card' :: Clearing
+2022-12-22 20:11:15 INFO  - Text Field 'Card' :: Typing '01230000000280'
+2022-12-22 20:11:17 INFO  - Text Field 'Pin' :: Clearing
+2022-12-22 20:11:17 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-22 20:11:19 INFO  - Button 'Log in' :: Clicking
+2022-12-22 20:11:25 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-22 20:11:25 INFO  - Step 3 - Login is performed successfully
+2022-12-22 20:11:47 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-22 20:11:47 INFO  - Step 4 - I open Catalog
+2022-12-22 20:11:47 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-22 20:12:08 INFO  - Step 5 - I open search modal
+2022-12-22 20:12:29 INFO  - Button 'Search' :: Clicking
+2022-12-22 20:12:30 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-22 20:12:30 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-22 20:12:30 INFO  - randomBookName: The Call of the Wild
+2022-12-22 20:12:30 INFO  - Error details button is not present
+2022-12-22 20:12:31 INFO  - Text Field 'Search value input' :: Sending keys 'The Call of the Wild'
+2022-12-22 20:12:32 INFO  - Button 'Apply search' :: Clicking
+2022-12-22 20:12:34 INFO  - Error details button is not present
+2022-12-22 20:12:38 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-22 20:12:38 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-22 20:12:58 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-22 20:12:59 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-22 20:13:00 INFO  - Label 'lblBookName' :: Clicking
+2022-12-22 20:13:00 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-22 20:13:01 INFO  - Button 'Get' :: Clicking
+2022-12-22 20:13:06 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-22 20:13:07 INFO  - Step 11 - Click LISTEN action button on book details screen
+2022-12-22 20:13:07 INFO  - Button 'Listen' :: Clicking
+2022-12-22 20:13:07 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2022-12-22 20:13:14 INFO  - Step 13 - Tap play button on audio player screen
+2022-12-22 20:13:14 INFO  - Button 'btnPlay' :: Clicking
+2022-12-22 20:13:15 INFO  - Step 14 - Pause button is present on audio player screen
+2022-12-22 20:13:15 INFO  - Step 15 - Tap pause button on audio player screen
+2022-12-22 20:13:15 INFO  - Button 'btnPause' :: Clicking
+2022-12-22 20:13:15 INFO  - Step 16 - Play button is present on audio player screen
+2022-12-22 20:13:16 INFO  - Step 17 - Book is not playing on audio player screen
+2022-12-22 20:13:16 INFO  - Label 'lblLeftTime' :: Getting text from element
+2022-12-22 20:13:18 INFO  - Label 'lblLeftTime' :: Getting text from element
+2022-12-22 20:13:19 INFO  - Step 18 - Tap play button on audio player screen
+2022-12-22 20:13:19 INFO  - Button 'btnPlay' :: Clicking
+2022-12-22 20:13:19 INFO  - Step 19 - Save book play time as 'timeAhead' on audio player screen
+2022-12-22 20:13:19 INFO  - Label 'lblLeftTime' :: Getting text from element
+2022-12-22 20:13:20 INFO  - Step 20 - Skip ahead 15 seconds on audio player screen
+2022-12-22 20:13:20 INFO  - Button 'btnSkipAhead' :: Clicking
+2022-12-22 20:13:20 INFO  - Step 21 - Playback has been moved forward by 15 seconds from 'timeAhead' seconds on audio player screen
+2022-12-22 20:13:20 INFO  - Label 'lblLeftTime' :: Getting text from element
+2022-12-22 20:13:21 INFO  - diff between times for move forward - 15
+2022-12-22 20:13:21 INFO  - Step 22 - Save book play time as 'timeBehind' on audio player screen
+2022-12-22 20:13:21 INFO  - Label 'lblLeftTime' :: Getting text from element
+2022-12-22 20:13:21 INFO  - Step 23 - Skip behind 15 seconds on audio player screen
+2022-12-22 20:13:21 INFO  - Button 'btnSkipBehind' :: Clicking
+2022-12-22 20:13:22 INFO  - Step 24 - Playback has been moved behind by 15 seconds from 'timeBehind' seconds on audio player screen
+2022-12-22 20:13:22 INFO  - Label 'lblLeftTime' :: Getting text from element
+2022-12-22 20:13:23 INFO  - diff between times for move behind - 15
+2022-12-22 20:13:23 INFO  - Taking screenshot
+2022-12-22 20:13:24 INFO  - Test finished - logging out
+2022-12-22 20:13:25 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:13:28 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:13:29 INFO  - Button 'Accounts' :: Clicking
+2022-12-22 20:13:30 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-22 20:13:32 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-22 20:13:32 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-22 20:13:32 INFO  - Button 'Log out' :: Clicking
+2022-12-22 20:13:33 INFO  - Button 'Log in' :: Getting text from element
+2022-12-22 20:13:54 INFO  - Unlocking credential for current thread
+2022-12-22 20:13:54 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@462f34ba

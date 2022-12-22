@@ -1,0 +1,67 @@
+2022-12-22 20:03:00 INFO  - Scenario 'Navigate by Audiobook' start
+2022-12-22 20:03:00 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-22 20:03:34 INFO  - Application on platform 'ANDROID' is ready...
+2022-12-22 20:03:35 INFO  - Session id - 8d340965e1ddae5819206823b86ab77cebd0fce7
+2022-12-22 20:03:35 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-22 20:03:35 INFO  - Button 'btnCloseTutorial' :: Clicking
+2022-12-22 20:03:38 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-22 20:03:38 INFO  - Button 'Search' :: Clicking
+2022-12-22 20:03:40 INFO  - Text Field 'Search' :: Clearing
+2022-12-22 20:03:40 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2022-12-22 20:03:42 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-22 20:03:43 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-22 20:03:43 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:03:44 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:03:45 INFO  - Button 'Accounts' :: Clicking
+2022-12-22 20:03:47 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-22 20:03:47 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:03:47 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:03:48 INFO  - Button 'Accounts' :: Clicking
+2022-12-22 20:03:49 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-22 20:03:50 INFO  - Locking credential with barcode 01230000000282
+2022-12-22 20:03:50 INFO  - There are books on the account: 
+2022-12-22 20:04:47 INFO  - bookName: Find Layla: A Novel Distributor: Palace Marketplace
+2022-12-22 20:04:47 INFO  - bookName: Timequake Distributor: Palace Marketplace
+2022-12-22 20:04:47 INFO  - Count of books on the account after opening account: 2
+2022-12-22 20:04:47 INFO  - Text Field 'Card' :: Clearing
+2022-12-22 20:04:47 INFO  - Text Field 'Card' :: Typing '01230000000282'
+2022-12-22 20:04:50 INFO  - Text Field 'Pin' :: Clearing
+2022-12-22 20:04:50 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-22 20:04:52 INFO  - Button 'Log in' :: Clicking
+2022-12-22 20:05:00 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-22 20:05:00 INFO  - Step 3 - Login is performed successfully
+2022-12-22 20:05:21 INFO  - Button 'Log ... action' :: Getting text from element
+2022-12-22 20:05:21 INFO  - Step 4 - I open Catalog
+2022-12-22 20:05:21 INFO  - Button 'tabCatalog' :: Clicking
+2022-12-22 20:05:44 INFO  - Step 5 - I open search modal
+2022-12-22 20:06:04 INFO  - Button 'Search' :: Clicking
+2022-12-22 20:06:05 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-22 20:06:05 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-22 20:06:05 INFO  - randomBookName: Legacy
+2022-12-22 20:06:06 INFO  - Error details button is not present
+2022-12-22 20:06:06 INFO  - Text Field 'Search value input' :: Sending keys 'Legacy'
+2022-12-22 20:06:06 INFO  - Button 'Apply search' :: Clicking
+2022-12-22 20:06:08 INFO  - Error details button is not present
+2022-12-22 20:06:19 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-22 20:06:19 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-22 20:06:40 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-22 20:06:41 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-22 20:06:41 INFO  - Label 'lblBookName' :: Clicking
+2022-12-22 20:06:42 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-22 20:06:43 INFO  - Button 'Get' :: Clicking
+2022-12-22 20:06:49 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-22 20:06:49 INFO  - Step 11 - Click LISTEN action button on book details screen
+2022-12-22 20:06:49 INFO  - Button 'Listen' :: Clicking
+2022-12-22 20:06:50 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2022-12-22 20:07:11 INFO  - Taking screenshot
+2022-12-22 20:07:12 INFO  - Test finished - logging out
+2022-12-22 20:07:13 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:07:15 INFO  - Button 'tabSettings' :: Clicking
+2022-12-22 20:07:16 INFO  - Button 'Accounts' :: Clicking
+2022-12-22 20:07:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-22 20:07:19 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-22 20:07:19 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-22 20:07:23 INFO  - Button 'Log out' :: Clicking
+2022-12-22 20:07:24 INFO  - Button 'Log in' :: Getting text from element
+2022-12-22 20:07:44 INFO  - Unlocking credential for current thread
+2022-12-22 20:07:44 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@462f34ba
