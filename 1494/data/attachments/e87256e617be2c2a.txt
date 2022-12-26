@@ -1,0 +1,74 @@
+2022-12-26 21:52:13 INFO  - Scenario 'Check of not rewinding forward and back by tapping on time bar' start
+2022-12-26 21:52:13 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-26 21:54:19 INFO  - Application on platform 'IOS' is ready...
+2022-12-26 21:54:19 INFO  - Session id - 4b5016070e9a712db2ca2764636c63595e45defc
+2022-12-26 21:54:19 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-26 21:54:22 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-26 21:54:22 INFO  - Text Field 'Search field' :: Clicking
+2022-12-26 21:54:30 INFO  - Text Field 'Search field' :: Clearing
+2022-12-26 21:54:30 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-26 21:54:40 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-26 21:55:02 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-26 21:55:02 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:55:03 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:55:04 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-26 21:55:06 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-26 21:55:06 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:55:07 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:55:08 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-26 21:55:12 INFO  - Locking credential with barcode 01230000000283
+2022-12-26 21:55:12 INFO  - There are books on the account: 
+2022-12-26 21:55:43 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2022-12-26 21:55:43 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-26 21:55:43 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2022-12-26 21:55:43 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2022-12-26 21:55:43 INFO  - bookName: The guide to starting school Distributor: Palace Marketplace
+2022-12-26 21:55:43 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2022-12-26 21:55:43 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-26 21:55:43 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-26 21:55:43 INFO  - Count of books on the account after opening account: 8
+2022-12-26 21:56:04 INFO  - Text Field 'Card' :: Clicking
+2022-12-26 21:56:05 INFO  - Text Field 'Card' :: Clearing
+2022-12-26 21:56:05 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-26 21:56:08 INFO  - Text Field 'Pin' :: Clearing
+2022-12-26 21:56:08 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-26 21:56:12 INFO  - Button 'Log in' :: Clicking
+2022-12-26 21:56:35 INFO  - Step 3 - Login is performed successfully
+2022-12-26 21:56:35 INFO  - Step 4 - I open Catalog
+2022-12-26 21:56:36 INFO  - Button 'Catalog' :: Clicking
+2022-12-26 21:56:57 INFO  - Step 5 - I open search modal
+2022-12-26 21:57:18 INFO  - Button 'Search' :: Clicking
+2022-12-26 21:57:20 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-26 21:57:20 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-26 21:57:20 INFO  - randomBookName: Godsgrave
+2022-12-26 21:57:20 INFO  - Text Field 'Search value input' :: Sending keys 'Godsgrave'
+2022-12-26 21:57:22 INFO  - Button 'Search' :: Clicking
+2022-12-26 21:57:24 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-26 21:57:24 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-26 21:58:06 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-26 21:58:07 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-26 21:58:08 INFO  - Label 'lblBookName' :: Clicking
+2022-12-26 21:58:09 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-26 21:58:10 INFO  - Button 'Get' :: Clicking
+2022-12-26 21:58:32 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-26 21:58:33 INFO  - Step 11 - Click LISTEN action button on book details screen
+2022-12-26 21:58:34 INFO  - Button 'Listen' :: Clicking
+2022-12-26 21:58:38 INFO  - Alert appears and dismiss alert
+2022-12-26 21:58:38 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2022-12-26 21:58:39 INFO  - Step 13 - Tap play button on audio player screen
+2022-12-26 21:58:39 INFO  - Button 'btnPlay' :: Clicking
+2022-12-26 21:59:00 INFO  - Taking screenshot
+2022-12-26 21:59:02 INFO  - Test finished - logging out
+2022-12-26 21:59:05 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:59:06 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:59:07 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-26 21:59:11 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-26 21:59:11 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-26 21:59:12 INFO  - Button 'Log out' :: Clicking
+2022-12-26 21:59:13 INFO  - Button 'Log out approve' :: Clicking
+2022-12-26 21:59:17 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-26 21:59:18 INFO  - Button 'Log in' :: Getting text from element
+2022-12-26 21:59:22 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-26 21:59:22 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-26 21:59:23 INFO  - Unlocking credential for current thread
+2022-12-26 21:59:23 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5d522689

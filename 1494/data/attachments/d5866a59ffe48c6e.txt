@@ -1,0 +1,77 @@
+2022-12-26 21:48:20 INFO  - Scenario 'Alert: Check of Cancel button after Remove button tapping' start
+2022-12-26 21:48:20 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-26 21:51:04 INFO  - Application on platform 'IOS' is ready...
+2022-12-26 21:51:07 INFO  - Session id - 4bb0fa83c225d41a1c4d21a23d87d0eec0d40785
+2022-12-26 21:51:07 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-26 21:51:09 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-26 21:51:10 INFO  - Text Field 'Search field' :: Clicking
+2022-12-26 21:51:16 INFO  - Text Field 'Search field' :: Clearing
+2022-12-26 21:51:16 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-26 21:51:26 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-26 21:51:48 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2022-12-26 21:51:48 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:51:50 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:51:51 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-26 21:51:53 INFO  - Locking credential with barcode 01230000000280
+2022-12-26 21:51:53 INFO  - There are books on the account: 
+2022-12-26 21:52:25 INFO  - bookName: Africa and Beyond Distributor: Palace Marketplace
+2022-12-26 21:52:25 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2022-12-26 21:52:25 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-26 21:52:25 INFO  - bookName: One Good Dish Distributor: Palace Marketplace
+2022-12-26 21:52:25 INFO  - bookName: 20th Century Passenger Flying Boats Distributor: Palace Marketplace
+2022-12-26 21:52:25 INFO  - bookName: Pipe Dreams Distributor: Palace Marketplace
+2022-12-26 21:52:25 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2022-12-26 21:52:25 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2022-12-26 21:52:25 INFO  - bookName: iGen Distributor: Palace Marketplace
+2022-12-26 21:52:25 INFO  - bookName: Frederick and Catherine Distributor: Palace Marketplace
+2022-12-26 21:52:25 INFO  - Count of books on the account after opening account: 10
+2022-12-26 21:52:46 INFO  - Text Field 'Card' :: Clicking
+2022-12-26 21:52:47 INFO  - Text Field 'Card' :: Clearing
+2022-12-26 21:52:47 INFO  - Text Field 'Card' :: Typing '01230000000280'
+2022-12-26 21:52:50 INFO  - Text Field 'Pin' :: Clearing
+2022-12-26 21:52:50 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-26 21:52:54 INFO  - Button 'Log in' :: Clicking
+2022-12-26 21:53:17 INFO  - Step 2 - Login is performed successfully
+2022-12-26 21:53:18 INFO  - Step 3 - I open Catalog
+2022-12-26 21:53:18 INFO  - Button 'Catalog' :: Clicking
+2022-12-26 21:53:40 INFO  - Step 4 - I open search modal
+2022-12-26 21:54:00 INFO  - Button 'Search' :: Clicking
+2022-12-26 21:54:03 INFO  - Step 5 - I search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-26 21:54:03 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-26 21:54:03 INFO  - randomBookName: Deep Work
+2022-12-26 21:54:03 INFO  - Text Field 'Search value input' :: Sending keys 'Deep Work'
+2022-12-26 21:54:04 INFO  - Button 'Search' :: Clicking
+2022-12-26 21:54:07 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2022-12-26 21:54:07 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-26 21:54:48 INFO  - Step 7 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-26 21:54:49 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-26 21:54:50 INFO  - Label 'lblBookName' :: Clicking
+2022-12-26 21:54:51 INFO  - Step 8 - Click RESERVE action button on book details screen
+2022-12-26 21:54:52 INFO  - Button 'Reserve' :: Clicking
+2022-12-26 21:54:58 INFO  - Alert appears and dismiss alert
+2022-12-26 21:54:58 INFO  - Step 9 - I open Holds
+2022-12-26 21:54:58 INFO  - Button 'Reservations' :: Clicking
+2022-12-26 21:55:00 INFO  - Step 10 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2022-12-26 21:55:02 INFO  - Step 11 - Open AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2022-12-26 21:55:02 INFO  - Label 'lblBookName' :: Clicking
+2022-12-26 21:55:03 INFO  - Step 12 - Click REMOVE button but cancel the action by clicking CANCEL button on the alert
+2022-12-26 21:55:04 INFO  - Button 'Remove' :: Clicking
+2022-12-26 21:55:08 INFO  - Button 'Cancel ActionButtonAlert' :: Clicking
+2022-12-26 21:55:09 INFO  - Step 13 - I open Holds
+2022-12-26 21:55:09 INFO  - Button 'Reservations' :: Clicking
+2022-12-26 21:55:10 INFO  - Step 14 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2022-12-26 21:55:11 INFO  - Taking screenshot
+2022-12-26 21:55:12 INFO  - Test finished - logging out
+2022-12-26 21:55:16 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:55:17 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:55:18 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-26 21:55:21 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-26 21:55:22 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-26 21:55:23 INFO  - Button 'Log out' :: Clicking
+2022-12-26 21:55:24 INFO  - Button 'Log out approve' :: Clicking
+2022-12-26 21:55:27 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-26 21:55:28 INFO  - Button 'Log in' :: Getting text from element
+2022-12-26 21:55:45 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-26 21:55:46 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-26 21:55:47 INFO  - Unlocking credential for current thread
+2022-12-26 21:55:47 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@76432f15
