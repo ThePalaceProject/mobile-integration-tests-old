@@ -1,0 +1,66 @@
+2022-12-26 21:39:54 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2022-12-26 21:39:54 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-26 21:41:09 INFO  - Application on platform 'IOS' is ready...
+2022-12-26 21:41:09 INFO  - Session id - 3dd6c9ab9051e86769aec8cee9b03236c7d4c7b7
+2022-12-26 21:41:09 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-26 21:41:11 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-26 21:41:12 INFO  - Text Field 'Search field' :: Clicking
+2022-12-26 21:41:18 INFO  - Text Field 'Search field' :: Clearing
+2022-12-26 21:41:18 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-26 21:41:29 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-26 21:41:50 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2022-12-26 21:41:51 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:41:52 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:41:53 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-26 21:41:56 INFO  - Locking credential with barcode 01230000000281
+2022-12-26 21:41:56 INFO  - There are books on the account: 
+2022-12-26 21:42:27 INFO  - bookName: Unplugged Play: Preschool Distributor: Palace Marketplace
+2022-12-26 21:42:27 INFO  - bookName: The Promise Distributor: Palace Marketplace
+2022-12-26 21:42:27 INFO  - bookName: The Tomb Distributor: Palace Marketplace
+2022-12-26 21:42:27 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2022-12-26 21:42:27 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2022-12-26 21:42:27 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2022-12-26 21:42:27 INFO  - bookName: The Misbehavior of Markets Distributor: Palace Marketplace
+2022-12-26 21:42:27 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2022-12-26 21:42:27 INFO  - bookName: Love spell Distributor: Palace Marketplace
+2022-12-26 21:42:27 INFO  - bookName: My Animal Atlas Distributor: Palace Marketplace
+2022-12-26 21:42:27 INFO  - Count of books on the account after opening account: 10
+2022-12-26 21:42:48 INFO  - Text Field 'Card' :: Clicking
+2022-12-26 21:42:49 INFO  - Text Field 'Card' :: Clearing
+2022-12-26 21:42:49 INFO  - Text Field 'Card' :: Typing '01230000000281'
+2022-12-26 21:42:52 INFO  - Text Field 'Pin' :: Clearing
+2022-12-26 21:42:52 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-26 21:42:55 INFO  - Button 'Log in' :: Clicking
+2022-12-26 21:43:17 INFO  - Step 2 - Login is performed successfully
+2022-12-26 21:43:18 INFO  - Step 3 - I open Catalog
+2022-12-26 21:43:18 INFO  - Button 'Catalog' :: Clicking
+2022-12-26 21:43:40 INFO  - Step 4 - I open search modal
+2022-12-26 21:44:00 INFO  - Button 'Search' :: Clicking
+2022-12-26 21:44:02 INFO  - Step 5 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-26 21:44:02 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-26 21:44:02 INFO  - randomBookName: The Black Swan of Paris
+2022-12-26 21:44:03 INFO  - Text Field 'Search value input' :: Sending keys 'The Black Swan of Paris'
+2022-12-26 21:44:04 INFO  - Button 'Search' :: Clicking
+2022-12-26 21:44:06 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2022-12-26 21:44:06 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-26 21:44:48 INFO  - Step 7 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-26 21:44:49 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-26 21:44:50 INFO  - Label 'lblBookName' :: Clicking
+2022-12-26 21:44:51 INFO  - Step 8 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2022-12-26 21:44:51 INFO  - Button 'Get' :: Clicking
+2022-12-26 21:44:52 INFO  - Button 'Cancel' :: Clicking
+2022-12-26 21:45:13 INFO  - Taking screenshot
+2022-12-26 21:45:14 INFO  - Test finished - logging out
+2022-12-26 21:45:17 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:45:18 INFO  - Button 'Settings' :: Clicking
+2022-12-26 21:45:19 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-26 21:45:22 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-26 21:45:23 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-26 21:45:23 INFO  - Button 'Log out' :: Clicking
+2022-12-26 21:45:25 INFO  - Button 'Log out approve' :: Clicking
+2022-12-26 21:45:28 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-26 21:45:29 INFO  - Button 'Log in' :: Getting text from element
+2022-12-26 21:45:32 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-26 21:45:33 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-26 21:45:34 INFO  - Unlocking credential for current thread
+2022-12-26 21:45:34 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7a98bfef
