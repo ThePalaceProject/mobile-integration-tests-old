@@ -1,0 +1,71 @@
+2022-12-27 23:36:48 INFO  - Scenario 'Open book to last page read' start
+2022-12-27 23:36:48 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-27 23:37:09 INFO  - Application on platform 'IOS' is ready...
+2022-12-27 23:37:10 INFO  - Session id - 08c14d4185f8da17ce13cb71d57330726951f771
+2022-12-27 23:37:10 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-27 23:37:11 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-27 23:37:12 INFO  - Text Field 'Search field' :: Clicking
+2022-12-27 23:37:18 INFO  - Text Field 'Search field' :: Clearing
+2022-12-27 23:37:18 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-27 23:37:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-27 23:37:48 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-27 23:37:48 INFO  - Button 'Settings' :: Clicking
+2022-12-27 23:37:50 INFO  - Button 'Settings' :: Clicking
+2022-12-27 23:37:50 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-27 23:37:51 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-27 23:37:52 INFO  - Button 'Settings' :: Clicking
+2022-12-27 23:37:52 INFO  - Button 'Settings' :: Clicking
+2022-12-27 23:37:53 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-27 23:37:56 INFO  - Locking credential with barcode 01230000000283
+2022-12-27 23:37:56 INFO  - There are books on the account: 
+2022-12-27 23:38:28 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2022-12-27 23:38:28 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2022-12-27 23:38:28 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-27 23:38:28 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2022-12-27 23:38:28 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2022-12-27 23:38:28 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-27 23:38:28 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-27 23:38:28 INFO  - bookName: The guide to starting school Distributor: Palace Marketplace
+2022-12-27 23:38:28 INFO  - Count of books on the account after opening account: 8
+2022-12-27 23:38:49 INFO  - Text Field 'Card' :: Clicking
+2022-12-27 23:38:50 INFO  - Text Field 'Card' :: Clearing
+2022-12-27 23:38:50 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-27 23:38:53 INFO  - Text Field 'Pin' :: Clearing
+2022-12-27 23:38:53 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-27 23:38:56 INFO  - Button 'Log in' :: Clicking
+2022-12-27 23:39:18 INFO  - Step 3 - Login is performed successfully
+2022-12-27 23:39:19 INFO  - Step 4 - I open Catalog
+2022-12-27 23:39:19 INFO  - Button 'Catalog' :: Clicking
+2022-12-27 23:39:41 INFO  - Step 5 - I open search modal
+2022-12-27 23:40:01 INFO  - Button 'Search' :: Clicking
+2022-12-27 23:40:03 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-27 23:40:03 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-27 23:40:03 INFO  - randomBookName: The High 5 Habit
+2022-12-27 23:40:03 INFO  - Text Field 'Search value input' :: Sending keys 'The High 5 Habit'
+2022-12-27 23:40:04 INFO  - Button 'Search' :: Clicking
+2022-12-27 23:40:06 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-27 23:40:22 INFO  - Button 'actionButton' :: Clicking
+2022-12-27 23:40:44 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-27 23:40:45 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-27 23:40:47 INFO  - Label 'lblBookName' :: Clicking
+2022-12-27 23:40:48 INFO  - Step 9 - Click READ action button on book details screen
+2022-12-27 23:40:50 INFO  - Button 'Read' :: Clicking
+2022-12-27 23:41:11 INFO  - Step 10 - I scroll page forward from 7 to 10 times
+2022-12-27 23:41:11 INFO  - Scrolling 9 times on reader epub screen
+2022-12-27 23:41:44 INFO  - Step 11 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2022-12-27 23:41:44 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2022-12-27 23:42:08 INFO  - Taking screenshot
+2022-12-27 23:42:13 INFO  - Test finished - logging out
+2022-12-27 23:42:16 INFO  - Button 'Settings' :: Clicking
+2022-12-27 23:42:17 INFO  - Button 'Settings' :: Clicking
+2022-12-27 23:42:17 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-27 23:42:21 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-27 23:42:21 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-27 23:42:22 INFO  - Button 'Log out' :: Clicking
+2022-12-27 23:42:23 INFO  - Button 'Log out approve' :: Clicking
+2022-12-27 23:42:26 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-27 23:42:27 INFO  - Button 'Log in' :: Getting text from element
+2022-12-27 23:42:29 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-27 23:42:30 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-27 23:42:31 INFO  - Unlocking credential for current thread
+2022-12-27 23:42:31 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@24acfb01

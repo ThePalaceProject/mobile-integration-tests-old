@@ -1,0 +1,78 @@
+2022-12-28 01:19:19 INFO  - Scenario 'Hold from Book Detail View and Cancel remove from holds tab (IOS)' start
+2022-12-28 01:19:19 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-28 01:19:40 INFO  - Application on platform 'IOS' is ready...
+2022-12-28 01:19:41 INFO  - Session id - 5ae37aae93b5351df8845aa457183afd64e27bcf
+2022-12-28 01:19:41 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-28 01:19:42 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-28 01:19:43 INFO  - Text Field 'Search field' :: Clicking
+2022-12-28 01:19:49 INFO  - Text Field 'Search field' :: Clearing
+2022-12-28 01:19:49 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-28 01:19:58 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-28 01:20:19 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2022-12-28 01:20:20 INFO  - Button 'Settings' :: Clicking
+2022-12-28 01:20:21 INFO  - Button 'Settings' :: Clicking
+2022-12-28 01:20:22 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-28 01:20:25 INFO  - Locking credential with barcode 01230000000283
+2022-12-28 01:20:25 INFO  - There are books on the account: 
+2022-12-28 01:20:56 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2022-12-28 01:20:56 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2022-12-28 01:20:56 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2022-12-28 01:20:56 INFO  - bookName: The guide to starting school Distributor: Palace Marketplace
+2022-12-28 01:20:56 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-28 01:20:56 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-28 01:20:56 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2022-12-28 01:20:56 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-28 01:20:56 INFO  - Count of books on the account after opening account: 8
+2022-12-28 01:21:17 INFO  - Text Field 'Card' :: Clicking
+2022-12-28 01:21:18 INFO  - Text Field 'Card' :: Clearing
+2022-12-28 01:21:18 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-28 01:21:21 INFO  - Text Field 'Pin' :: Clearing
+2022-12-28 01:21:21 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-28 01:21:24 INFO  - Button 'Log in' :: Clicking
+2022-12-28 01:21:46 INFO  - Step 2 - Login is performed successfully
+2022-12-28 01:21:46 INFO  - Step 3 - I open Catalog
+2022-12-28 01:21:46 INFO  - Button 'Catalog' :: Clicking
+2022-12-28 01:23:02 INFO  - Step 4 - I open search modal
+2022-12-28 01:23:22 INFO  - Button 'Search' :: Clicking
+2022-12-28 01:23:24 INFO  - Step 5 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-28 01:23:24 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-28 01:23:24 INFO  - randomBookName: Milk and Honey
+2022-12-28 01:23:24 INFO  - Text Field 'Search value input' :: Sending keys 'Milk and Honey'
+2022-12-28 01:23:25 INFO  - Button 'Search' :: Clicking
+2022-12-28 01:23:28 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2022-12-28 01:23:28 INFO  - Button 'eBooks' :: Clicking
+2022-12-28 01:24:10 INFO  - Step 7 - Open EBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-28 01:24:11 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-28 01:24:11 INFO  - Label 'lblBookName' :: Clicking
+2022-12-28 01:24:12 INFO  - Step 8 - Book 'bookInfo' is opened on book details screen
+2022-12-28 01:24:14 INFO  - Label 'Book title' :: Getting text from element
+2022-12-28 01:24:17 INFO  - Label 'Author' :: Getting text from element
+2022-12-28 01:24:20 INFO  - Label 'Book title' :: Getting text from element
+2022-12-28 01:24:23 INFO  - Label 'Author' :: Getting text from element
+2022-12-28 01:24:23 INFO  - Step 9 - Click RESERVE action button on book details screen
+2022-12-28 01:24:24 INFO  - Button 'Reserve' :: Clicking
+2022-12-28 01:24:30 INFO  - Alert appears and dismiss alert
+2022-12-28 01:24:30 INFO  - Step 10 - I check that book contains REMOVE action button on book details screen
+2022-12-28 01:24:38 INFO  - Step 11 - Click REMOVE action button on book details screen and click CANCEL action button on alert. Only for ios
+2022-12-28 01:24:38 INFO  - Button 'Remove' :: Clicking
+2022-12-28 01:24:40 INFO  - Button 'Cancel ActionButtonAlert' :: Clicking
+2022-12-28 01:24:41 INFO  - Step 12 - I check that book contains REMOVE action button on book details screen
+2022-12-28 01:24:41 INFO  - Step 13 - I close Book Details for IOSTab
+2022-12-28 01:24:42 INFO  - Step 14 - I open Holds
+2022-12-28 01:24:42 INFO  - Button 'Reservations' :: Clicking
+2022-12-28 01:24:42 INFO  - Step 15 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2022-12-28 01:24:44 INFO  - Taking screenshot
+2022-12-28 01:24:45 INFO  - Test finished - logging out
+2022-12-28 01:24:48 INFO  - Button 'Settings' :: Clicking
+2022-12-28 01:24:49 INFO  - Button 'Settings' :: Clicking
+2022-12-28 01:24:49 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-28 01:24:53 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-28 01:24:54 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-28 01:24:54 INFO  - Button 'Log out' :: Clicking
+2022-12-28 01:24:55 INFO  - Button 'Log out approve' :: Clicking
+2022-12-28 01:24:57 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-28 01:24:58 INFO  - Button 'Log in' :: Getting text from element
+2022-12-28 01:25:01 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-28 01:25:01 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-28 01:25:02 INFO  - Unlocking credential for current thread
+2022-12-28 01:25:02 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@b0f56c3
