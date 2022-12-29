@@ -1,0 +1,81 @@
+2022-12-29 04:16:44 INFO  - Scenario 'Check time tracking line' start
+2022-12-29 04:16:44 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-29 04:17:06 INFO  - Application on platform 'IOS' is ready...
+2022-12-29 04:17:06 INFO  - Session id - f33ac660b1fc9d8a2ff37b6eae35e3e1af27c79c
+2022-12-29 04:17:06 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-29 04:17:07 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-29 04:17:08 INFO  - Text Field 'Search field' :: Clicking
+2022-12-29 04:17:15 INFO  - Text Field 'Search field' :: Clearing
+2022-12-29 04:17:15 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-29 04:17:26 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-29 04:17:47 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-29 04:17:47 INFO  - Button 'Settings' :: Clicking
+2022-12-29 04:17:49 INFO  - Button 'Settings' :: Clicking
+2022-12-29 04:17:50 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-29 04:17:51 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-29 04:17:51 INFO  - Button 'Settings' :: Clicking
+2022-12-29 04:17:52 INFO  - Button 'Settings' :: Clicking
+2022-12-29 04:17:53 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-29 04:17:55 INFO  - Locking credential with barcode 01230000000283
+2022-12-29 04:17:55 INFO  - There are books on the account: 
+2022-12-29 04:18:30 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2022-12-29 04:18:30 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-29 04:18:30 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-29 04:18:30 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2022-12-29 04:18:30 INFO  - bookName: The guide to starting school Distributor: Palace Marketplace
+2022-12-29 04:18:30 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-29 04:18:30 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2022-12-29 04:18:30 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2022-12-29 04:18:30 INFO  - Count of books on the account after opening account: 8
+2022-12-29 04:18:51 INFO  - Text Field 'Card' :: Clicking
+2022-12-29 04:18:52 INFO  - Text Field 'Card' :: Clearing
+2022-12-29 04:18:52 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-29 04:18:55 INFO  - Text Field 'Pin' :: Clearing
+2022-12-29 04:18:55 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-29 04:18:58 INFO  - Button 'Log in' :: Clicking
+2022-12-29 04:19:20 INFO  - Step 3 - Login is performed successfully
+2022-12-29 04:19:20 INFO  - Step 4 - I open Catalog
+2022-12-29 04:19:20 INFO  - Button 'Catalog' :: Clicking
+2022-12-29 04:19:42 INFO  - Step 5 - I open search modal
+2022-12-29 04:20:02 INFO  - Button 'Search' :: Clicking
+2022-12-29 04:20:04 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-29 04:20:04 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-29 04:20:04 INFO  - randomBookName: The Alchemist
+2022-12-29 04:20:05 INFO  - Text Field 'Search value input' :: Sending keys 'The Alchemist'
+2022-12-29 04:20:06 INFO  - Button 'Search' :: Clicking
+2022-12-29 04:20:08 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-29 04:20:08 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-29 04:20:50 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-29 04:20:51 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-29 04:20:52 INFO  - Label 'lblBookName' :: Clicking
+2022-12-29 04:20:53 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-29 04:20:54 INFO  - Button 'Get' :: Clicking
+2022-12-29 04:21:15 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-29 04:21:16 INFO  - Step 11 - Click LISTEN action button on book details screen
+2022-12-29 04:21:17 INFO  - Button 'Listen' :: Clicking
+2022-12-29 04:21:38 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2022-12-29 04:21:39 INFO  - Step 13 - Tap play button on audio player screen
+2022-12-29 04:21:39 INFO  - Button 'btnPlay' :: Clicking
+2022-12-29 04:21:40 INFO  - Step 14 - Pause button is present on audio player screen
+2022-12-29 04:21:40 INFO  - Step 15 - Tap pause button on audio player screen
+2022-12-29 04:21:41 INFO  - Button 'btnPause' :: Clicking
+2022-12-29 04:21:41 INFO  - Step 16 - Play button is present on audio player screen
+2022-12-29 04:21:42 INFO  - Step 17 - Save book play time as 'timeInfo' on audio player screen
+2022-12-29 04:21:42 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2022-12-29 04:21:42 INFO  - Step 18 - I stretch slider on the time tracking line forward on audio player screen
+2022-12-29 04:21:43 INFO  - Step 19 - Wait for 5 seconds
+2022-12-29 04:21:49 INFO  - Step 20 - Playing time is not equal to 'timeInfo' on audio playing screen
+2022-12-29 04:21:49 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2022-12-29 04:21:49 INFO  - Taking screenshot
+2022-12-29 04:21:51 INFO  - Test finished - logging out
+2022-12-29 04:21:54 INFO  - Button 'Settings' :: Clicking
+2022-12-29 04:21:55 INFO  - Button 'Settings' :: Clicking
+2022-12-29 04:21:56 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-29 04:21:59 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-29 04:21:59 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-29 04:22:00 INFO  - Button 'Log out' :: Clicking
+2022-12-29 04:22:01 INFO  - Button 'Log out approve' :: Clicking
+2022-12-29 04:22:04 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-29 04:22:05 INFO  - Button 'Log in' :: Getting text from element
+2022-12-29 04:22:26 INFO  - Unlocking credential for current thread
+2022-12-29 04:22:26 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@24c95ec6

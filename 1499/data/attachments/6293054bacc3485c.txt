@@ -1,0 +1,71 @@
+2022-12-29 01:51:46 INFO  - Scenario 'Open the audiobook at the last open chapter and check time code' start
+2022-12-29 01:51:46 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-29 01:52:06 INFO  - Application on platform 'IOS' is ready...
+2022-12-29 01:52:06 INFO  - Session id - f782d6e890b6ffc0e4ed7b9ba50b2e4b280b6df3
+2022-12-29 01:52:06 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-29 01:52:07 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-29 01:52:08 INFO  - Text Field 'Search field' :: Clicking
+2022-12-29 01:52:15 INFO  - Text Field 'Search field' :: Clearing
+2022-12-29 01:52:15 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-29 01:52:25 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-29 01:52:46 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-29 01:52:46 INFO  - Button 'Settings' :: Clicking
+2022-12-29 01:52:48 INFO  - Button 'Settings' :: Clicking
+2022-12-29 01:52:48 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-29 01:52:50 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-29 01:52:50 INFO  - Button 'Settings' :: Clicking
+2022-12-29 01:52:51 INFO  - Button 'Settings' :: Clicking
+2022-12-29 01:52:52 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-29 01:52:54 INFO  - Locking credential with barcode 01230000000280
+2022-12-29 01:52:54 INFO  - There are books on the account: 
+2022-12-29 01:53:26 INFO  - bookName: Pipe Dreams Distributor: Palace Marketplace
+2022-12-29 01:53:26 INFO  - bookName: 20th Century Passenger Flying Boats Distributor: Palace Marketplace
+2022-12-29 01:53:26 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2022-12-29 01:53:26 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2022-12-29 01:53:26 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2022-12-29 01:53:26 INFO  - bookName: iGen Distributor: Palace Marketplace
+2022-12-29 01:53:26 INFO  - bookName: Frederick and Catherine Distributor: Palace Marketplace
+2022-12-29 01:53:26 INFO  - bookName: Africa and Beyond Distributor: Palace Marketplace
+2022-12-29 01:53:26 INFO  - bookName: One Good Dish Distributor: Palace Marketplace
+2022-12-29 01:53:26 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-29 01:53:26 INFO  - Count of books on the account after opening account: 10
+2022-12-29 01:53:47 INFO  - Text Field 'Card' :: Clicking
+2022-12-29 01:53:47 INFO  - Text Field 'Card' :: Clearing
+2022-12-29 01:53:47 INFO  - Text Field 'Card' :: Typing '01230000000280'
+2022-12-29 01:53:50 INFO  - Text Field 'Pin' :: Clearing
+2022-12-29 01:53:50 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-29 01:53:53 INFO  - Button 'Log in' :: Clicking
+2022-12-29 01:54:14 INFO  - Step 3 - Login is performed successfully
+2022-12-29 01:54:15 INFO  - Step 4 - I open Catalog
+2022-12-29 01:54:15 INFO  - Button 'Catalog' :: Clicking
+2022-12-29 01:54:37 INFO  - Step 5 - I open search modal
+2022-12-29 01:54:58 INFO  - Button 'Search' :: Clicking
+2022-12-29 01:54:59 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-29 01:54:59 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-29 01:54:59 INFO  - randomBookName: The Misbehavior of Markets
+2022-12-29 01:55:00 INFO  - Text Field 'Search value input' :: Sending keys 'The Misbehavior of Markets'
+2022-12-29 01:55:01 INFO  - Button 'Search' :: Clicking
+2022-12-29 01:55:04 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-29 01:55:04 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-29 01:55:45 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-29 01:55:46 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-29 01:55:47 INFO  - Label 'lblBookName' :: Clicking
+2022-12-29 01:55:48 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-29 01:55:49 INFO  - Button 'Get' :: Clicking
+2022-12-29 01:55:54 INFO  - Alert appears and dismiss alert
+2022-12-29 01:55:54 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-29 01:56:15 INFO  - Taking screenshot
+2022-12-29 01:56:16 INFO  - Test finished - logging out
+2022-12-29 01:56:19 INFO  - Button 'Settings' :: Clicking
+2022-12-29 01:56:20 INFO  - Button 'Settings' :: Clicking
+2022-12-29 01:56:21 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-29 01:56:23 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-29 01:56:24 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-29 01:56:24 INFO  - Button 'Log out' :: Clicking
+2022-12-29 01:56:25 INFO  - Button 'Log out approve' :: Clicking
+2022-12-29 01:56:29 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-29 01:56:30 INFO  - Button 'Log in' :: Getting text from element
+2022-12-29 01:56:33 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-29 01:56:34 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-29 01:56:34 INFO  - Unlocking credential for current thread
+2022-12-29 01:56:34 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@24c95ec6

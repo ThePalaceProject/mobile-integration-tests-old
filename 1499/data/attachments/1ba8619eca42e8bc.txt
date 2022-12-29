@@ -1,0 +1,68 @@
+2022-12-29 02:48:52 INFO  - Scenario 'LYRASIS: Getting and returning books from Book Detail View' start
+2022-12-29 02:48:52 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-29 02:49:10 INFO  - Application on platform 'IOS' is ready...
+2022-12-29 02:49:11 INFO  - Session id - a9ad24fd0e817eee13155fd07f625a2df7eb8e55
+2022-12-29 02:49:11 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-29 02:49:12 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-29 02:49:13 INFO  - Text Field 'Search field' :: Clicking
+2022-12-29 02:49:19 INFO  - Text Field 'Search field' :: Clearing
+2022-12-29 02:49:19 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-29 02:49:30 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-29 02:49:53 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2022-12-29 02:49:53 INFO  - Button 'Settings' :: Clicking
+2022-12-29 02:49:54 INFO  - Button 'Settings' :: Clicking
+2022-12-29 02:49:55 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-29 02:49:57 INFO  - Locking credential with barcode 01230000000283
+2022-12-29 02:49:57 INFO  - There are books on the account: 
+2022-12-29 02:50:29 INFO  - bookName: The guide to starting school Distributor: Palace Marketplace
+2022-12-29 02:50:29 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2022-12-29 02:50:29 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2022-12-29 02:50:29 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-29 02:50:29 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2022-12-29 02:50:29 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-29 02:50:29 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2022-12-29 02:50:29 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-29 02:50:29 INFO  - Count of books on the account after opening account: 8
+2022-12-29 02:50:50 INFO  - Text Field 'Card' :: Clicking
+2022-12-29 02:50:51 INFO  - Text Field 'Card' :: Clearing
+2022-12-29 02:50:51 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-29 02:50:54 INFO  - Text Field 'Pin' :: Clearing
+2022-12-29 02:50:54 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-29 02:50:57 INFO  - Button 'Log in' :: Clicking
+2022-12-29 02:51:19 INFO  - Step 2 - Login is performed successfully
+2022-12-29 02:51:20 INFO  - Step 3 - I open Catalog
+2022-12-29 02:51:20 INFO  - Button 'Catalog' :: Clicking
+2022-12-29 02:51:41 INFO  - Step 4 - I open search modal
+2022-12-29 02:52:02 INFO  - Button 'Search' :: Clicking
+2022-12-29 02:52:04 INFO  - Step 5 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-29 02:52:04 INFO  - Count of attempts to get random book name without bad symbols-3
+2022-12-29 02:52:04 INFO  - randomBookName: In Defense of Open Society
+2022-12-29 02:52:04 INFO  - Text Field 'Search value input' :: Sending keys 'In Defense of Open Society'
+2022-12-29 02:52:05 INFO  - Button 'Search' :: Clicking
+2022-12-29 02:52:08 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2022-12-29 02:52:08 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-29 02:52:50 INFO  - Step 7 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-29 02:52:51 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-29 02:52:52 INFO  - Label 'lblBookName' :: Clicking
+2022-12-29 02:52:53 INFO  - Step 8 - Click GET action button on book details screen
+2022-12-29 02:52:54 INFO  - Button 'Get' :: Clicking
+2022-12-29 02:53:15 INFO  - Step 9 - I check that book contains LISTEN action button on book details screen
+2022-12-29 02:53:15 INFO  - Step 10 - Click RETURN action button on book details screen
+2022-12-29 02:53:16 INFO  - Button 'Return' :: Clicking
+2022-12-29 02:53:19 INFO  - Button 'Return ActionButtonAlert' :: Clicking
+2022-12-29 02:53:20 INFO  - Step 11 - I check that book contains GET action button on book details screen
+2022-12-29 02:53:41 INFO  - Taking screenshot
+2022-12-29 02:53:43 INFO  - Test finished - logging out
+2022-12-29 02:53:45 INFO  - Button 'Settings' :: Clicking
+2022-12-29 02:53:46 INFO  - Button 'Settings' :: Clicking
+2022-12-29 02:53:47 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-29 02:53:50 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-29 02:53:51 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-29 02:53:51 INFO  - Button 'Log out' :: Clicking
+2022-12-29 02:53:52 INFO  - Button 'Log out approve' :: Clicking
+2022-12-29 02:53:55 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-29 02:53:56 INFO  - Button 'Log in' :: Getting text from element
+2022-12-29 02:53:59 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-29 02:53:59 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-29 02:54:00 INFO  - Unlocking credential for current thread
+2022-12-29 02:54:00 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@68cbeac6
