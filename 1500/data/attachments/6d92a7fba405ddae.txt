@@ -1,0 +1,88 @@
+2022-12-30 04:46:26 INFO  - Scenario 'Check of not rewinding forward and back by tapping on time bar' start
+2022-12-30 04:46:26 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-30 04:46:58 INFO  - Application on platform 'IOS' is ready...
+2022-12-30 04:46:58 INFO  - Session id - e5f2d244bb568734bd2df2980e6069f3148bdc1f
+2022-12-30 04:46:58 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-30 04:47:00 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-30 04:47:00 INFO  - Text Field 'Search field' :: Clicking
+2022-12-30 04:47:06 INFO  - Text Field 'Search field' :: Clearing
+2022-12-30 04:47:06 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-30 04:47:15 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-30 04:47:36 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-30 04:47:36 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:47:37 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:47:37 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-30 04:47:39 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-30 04:47:39 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:47:40 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:47:40 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-30 04:47:43 INFO  - Locking credential with barcode 01230000000283
+2022-12-30 04:47:43 INFO  - There are books on the account: 
+2022-12-30 04:48:14 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2022-12-30 04:48:14 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-30 04:48:14 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-30 04:48:14 INFO  - bookName: The guide to starting school Distributor: Palace Marketplace
+2022-12-30 04:48:14 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2022-12-30 04:48:14 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-30 04:48:14 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2022-12-30 04:48:14 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2022-12-30 04:48:14 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2022-12-30 04:48:14 INFO  - Count of books on the account after opening account: 9
+2022-12-30 04:48:36 INFO  - Text Field 'Card' :: Clicking
+2022-12-30 04:48:36 INFO  - Text Field 'Card' :: Clearing
+2022-12-30 04:48:36 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-30 04:48:39 INFO  - Text Field 'Pin' :: Clearing
+2022-12-30 04:48:39 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-30 04:48:42 INFO  - Button 'Log in' :: Clicking
+2022-12-30 04:49:04 INFO  - Step 3 - Login is performed successfully
+2022-12-30 04:49:04 INFO  - Step 4 - I open Catalog
+2022-12-30 04:49:04 INFO  - Button 'Catalog' :: Clicking
+2022-12-30 04:49:26 INFO  - Step 5 - I open search modal
+2022-12-30 04:49:46 INFO  - Button 'Search' :: Clicking
+2022-12-30 04:49:48 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-30 04:49:48 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-30 04:49:48 INFO  - randomBookName: The Song of Achilles
+2022-12-30 04:49:49 INFO  - Text Field 'Search value input' :: Sending keys 'The Song of Achilles'
+2022-12-30 04:49:50 INFO  - Button 'Search' :: Clicking
+2022-12-30 04:49:52 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-30 04:49:52 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-30 04:50:34 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-30 04:50:35 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-30 04:50:36 INFO  - Label 'lblBookName' :: Clicking
+2022-12-30 04:50:37 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-30 04:50:38 INFO  - Button 'Get' :: Clicking
+2022-12-30 04:50:59 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-30 04:51:00 INFO  - Step 11 - Click LISTEN action button on book details screen
+2022-12-30 04:51:01 INFO  - Button 'Listen' :: Clicking
+2022-12-30 04:51:22 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2022-12-30 04:51:22 INFO  - Step 13 - Tap play button on audio player screen
+2022-12-30 04:51:22 INFO  - Button 'btnPlay' :: Clicking
+2022-12-30 04:51:23 INFO  - Step 14 - Pause button is present on audio player screen
+2022-12-30 04:51:24 INFO  - Step 15 - Tap pause button on audio player screen
+2022-12-30 04:51:24 INFO  - Button 'btnPause' :: Clicking
+2022-12-30 04:51:25 INFO  - Step 16 - Play button is present on audio player screen
+2022-12-30 04:51:25 INFO  - Step 17 - I stretch slider on the time tracking line forward on audio player screen
+2022-12-30 04:51:26 INFO  - Step 18 - Wait for 5 seconds
+2022-12-30 04:51:32 INFO  - Step 19 - Save book play time as 'timeBehind' on audio player screen
+2022-12-30 04:51:32 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2022-12-30 04:51:33 INFO  - Step 20 - I tap on the time bar forward on audio player screen
+2022-12-30 04:51:35 INFO  - Step 21 - Save book play time as 'timeForward' on audio player screen
+2022-12-30 04:51:35 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2022-12-30 04:51:36 INFO  - Step 22 - Play times 'timeBehind' and 'timeForward' are equals
+2022-12-30 04:51:36 INFO  - Step 23 - I tap on the time bar back on audio player screen
+2022-12-30 04:51:38 INFO  - Step 24 - Save book play time as 'timeBackward' on audio player screen
+2022-12-30 04:51:38 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2022-12-30 04:51:38 INFO  - Step 25 - Play times 'timeBehind' and 'timeBackward' are equals
+2022-12-30 04:51:38 INFO  - Taking screenshot
+2022-12-30 04:51:43 INFO  - Test finished - logging out
+2022-12-30 04:51:47 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:51:48 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:51:49 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-30 04:51:51 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-30 04:51:52 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-30 04:51:53 INFO  - Button 'Log out' :: Clicking
+2022-12-30 04:51:54 INFO  - Button 'Log out approve' :: Clicking
+2022-12-30 04:51:56 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-30 04:51:57 INFO  - Button 'Log in' :: Getting text from element
+2022-12-30 04:52:18 INFO  - Unlocking credential for current thread
+2022-12-30 04:52:18 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2c7e48a5

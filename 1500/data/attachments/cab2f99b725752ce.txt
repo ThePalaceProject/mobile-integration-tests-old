@@ -1,0 +1,85 @@
+2022-12-30 04:04:40 INFO  - Scenario 'Check playback speed and sleep timer' start
+2022-12-30 04:04:40 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-30 04:05:14 INFO  - Application on platform 'IOS' is ready...
+2022-12-30 04:05:14 INFO  - Session id - f0abc2b615ef1f4910fa22ead6fbe8e94d90ec83
+2022-12-30 04:05:14 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-30 04:05:16 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-30 04:05:16 INFO  - Text Field 'Search field' :: Clicking
+2022-12-30 04:05:22 INFO  - Text Field 'Search field' :: Clearing
+2022-12-30 04:05:22 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-30 04:05:31 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-30 04:05:52 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-30 04:05:52 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:05:54 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:05:54 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-30 04:05:56 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-30 04:05:56 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:05:57 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:05:58 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-30 04:06:01 INFO  - Locking credential with barcode 01230000000282
+2022-12-30 04:06:01 INFO  - There are books on the account: 
+2022-12-30 04:06:32 INFO  - bookName: As a Man Lives Distributor: Palace Marketplace
+2022-12-30 04:06:32 INFO  - bookName: Legacy Distributor: Palace Marketplace
+2022-12-30 04:06:32 INFO  - bookName: Find Layla: A Novel Distributor: Palace Marketplace
+2022-12-30 04:06:32 INFO  - bookName: In Defense of Open Society Distributor: Palace Marketplace
+2022-12-30 04:06:32 INFO  - bookName: Timequake Distributor: Palace Marketplace
+2022-12-30 04:06:32 INFO  - bookName: An Appeal to the World Distributor: Palace Marketplace
+2022-12-30 04:06:32 INFO  - Count of books on the account after opening account: 6
+2022-12-30 04:06:54 INFO  - Text Field 'Card' :: Clicking
+2022-12-30 04:06:55 INFO  - Text Field 'Card' :: Clearing
+2022-12-30 04:06:55 INFO  - Text Field 'Card' :: Typing '01230000000282'
+2022-12-30 04:06:57 INFO  - Text Field 'Pin' :: Clearing
+2022-12-30 04:06:57 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-30 04:07:00 INFO  - Button 'Log in' :: Clicking
+2022-12-30 04:07:05 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2022-12-30 04:07:08 INFO  - Step 3 - Login is performed successfully
+2022-12-30 04:07:09 INFO  - Step 4 - I open Catalog
+2022-12-30 04:07:09 INFO  - Button 'Catalog' :: Clicking
+2022-12-30 04:07:31 INFO  - Step 5 - I open search modal
+2022-12-30 04:07:51 INFO  - Button 'Search' :: Clicking
+2022-12-30 04:07:54 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-30 04:07:54 INFO  - Count of attempts to get random book name without bad symbols-3
+2022-12-30 04:07:54 INFO  - randomBookName: Pinocchio
+2022-12-30 04:07:54 INFO  - Text Field 'Search value input' :: Sending keys 'Pinocchio'
+2022-12-30 04:07:55 INFO  - Button 'Search' :: Clicking
+2022-12-30 04:07:58 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-30 04:07:58 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-30 04:08:39 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-30 04:08:40 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-30 04:08:41 INFO  - Label 'lblBookName' :: Clicking
+2022-12-30 04:08:42 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-30 04:08:44 INFO  - Button 'Get' :: Clicking
+2022-12-30 04:09:05 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-30 04:09:06 INFO  - Step 11 - Click LISTEN action button on book details screen
+2022-12-30 04:09:06 INFO  - Button 'Listen' :: Clicking
+2022-12-30 04:09:28 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2022-12-30 04:09:29 INFO  - Step 13 - The speed by default is 1.0
+2022-12-30 04:09:29 INFO  - Button 'Button play speed' :: Getting text from element
+2022-12-30 04:09:29 INFO  - Step 14 - Open playback speed on audio player screen
+2022-12-30 04:09:29 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2022-12-30 04:09:31 INFO  - Step 15 - Close playback speed screen
+2022-12-30 04:09:31 INFO  - Button 'cancel button' :: Clicking
+2022-12-30 04:09:32 INFO  - Step 16 - Play button is present on audio player screen
+2022-12-30 04:09:32 INFO  - Step 17 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2022-12-30 04:09:32 INFO  - Button 'btnSleepTimer' :: Clicking
+2022-12-30 04:09:33 INFO  - Button 'End of Chapter' :: Clicking
+2022-12-30 04:09:34 INFO  - Step 18 - Sleep timer is set to endOfChapter on audio player screen
+2022-12-30 04:09:34 INFO  - Label 'lblRightTime' :: Getting attribute 'value'
+2022-12-30 04:09:36 INFO  - Step 19 - Open sleep timer on audio player screen
+2022-12-30 04:09:36 INFO  - Button 'btnSleepTimer' :: Clicking
+2022-12-30 04:09:37 INFO  - Step 20 - Close sleep timer screen
+2022-12-30 04:09:37 INFO  - Button 'Cancel button' :: Clicking
+2022-12-30 04:09:38 INFO  - Step 21 - Play button is present on audio player screen
+2022-12-30 04:09:39 INFO  - Taking screenshot
+2022-12-30 04:09:42 INFO  - Test finished - logging out
+2022-12-30 04:09:45 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:09:46 INFO  - Button 'Settings' :: Clicking
+2022-12-30 04:09:47 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-30 04:09:50 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-30 04:09:50 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-30 04:09:51 INFO  - Button 'Log out' :: Clicking
+2022-12-30 04:09:52 INFO  - Button 'Log out approve' :: Clicking
+2022-12-30 04:09:54 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-30 04:09:55 INFO  - Button 'Log in' :: Getting text from element
+2022-12-30 04:10:16 INFO  - Unlocking credential for current thread
+2022-12-30 04:10:16 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2c7e48a5

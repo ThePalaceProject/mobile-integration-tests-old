@@ -1,0 +1,100 @@
+2022-12-30 01:56:30 INFO  - Scenario 'Open the audiobook at the last open chapter and check time code' start
+2022-12-30 01:56:30 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-30 01:56:51 INFO  - Application on platform 'IOS' is ready...
+2022-12-30 01:56:51 INFO  - Session id - ef6f63282e3fb0812cee38c5ac9585e411065b5a
+2022-12-30 01:56:51 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-30 01:56:53 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-30 01:56:53 INFO  - Text Field 'Search field' :: Clicking
+2022-12-30 01:56:59 INFO  - Text Field 'Search field' :: Clearing
+2022-12-30 01:56:59 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-30 01:57:08 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-30 01:57:30 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2022-12-30 01:57:30 INFO  - Button 'Settings' :: Clicking
+2022-12-30 01:57:31 INFO  - Button 'Settings' :: Clicking
+2022-12-30 01:57:32 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-30 01:57:33 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2022-12-30 01:57:33 INFO  - Button 'Settings' :: Clicking
+2022-12-30 01:57:34 INFO  - Button 'Settings' :: Clicking
+2022-12-30 01:57:35 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-30 01:57:37 INFO  - Locking credential with barcode 01230000000283
+2022-12-30 01:57:37 INFO  - There are books on the account: 
+2022-12-30 01:58:09 INFO  - bookName: Above World Distributor: Axis 360
+2022-12-30 01:58:09 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2022-12-30 01:58:09 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2022-12-30 01:58:09 INFO  - bookName: The guide to starting school Distributor: Palace Marketplace
+2022-12-30 01:58:09 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2022-12-30 01:58:09 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2022-12-30 01:58:09 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2022-12-30 01:58:09 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2022-12-30 01:58:09 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2022-12-30 01:58:09 INFO  - Count of books on the account after opening account: 9
+2022-12-30 01:58:30 INFO  - Text Field 'Card' :: Clicking
+2022-12-30 01:58:31 INFO  - Text Field 'Card' :: Clearing
+2022-12-30 01:58:31 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2022-12-30 01:58:34 INFO  - Text Field 'Pin' :: Clearing
+2022-12-30 01:58:34 INFO  - Text Field 'Pin' :: Typing '********'
+2022-12-30 01:58:36 INFO  - Button 'Log in' :: Clicking
+2022-12-30 01:58:58 INFO  - Step 3 - Login is performed successfully
+2022-12-30 01:58:59 INFO  - Step 4 - I open Catalog
+2022-12-30 01:58:59 INFO  - Button 'Catalog' :: Clicking
+2022-12-30 01:59:21 INFO  - Step 5 - I open search modal
+2022-12-30 01:59:41 INFO  - Button 'Search' :: Clicking
+2022-12-30 01:59:43 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-30 01:59:43 INFO  - Count of attempts to get random book name without bad symbols-1
+2022-12-30 01:59:43 INFO  - randomBookName: The Call of the Wild
+2022-12-30 01:59:43 INFO  - Text Field 'Search value input' :: Sending keys 'The Call of the Wild'
+2022-12-30 01:59:45 INFO  - Button 'Search' :: Clicking
+2022-12-30 01:59:46 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2022-12-30 01:59:46 INFO  - Button 'Audiobooks' :: Clicking
+2022-12-30 02:00:29 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-30 02:00:30 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-30 02:00:30 INFO  - Label 'lblBookName' :: Clicking
+2022-12-30 02:00:31 INFO  - Step 9 - Click GET action button on book details screen
+2022-12-30 02:00:33 INFO  - Button 'Get' :: Clicking
+2022-12-30 02:00:54 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2022-12-30 02:00:55 INFO  - Step 11 - Click LISTEN action button on book details screen
+2022-12-30 02:00:57 INFO  - Button 'Listen' :: Clicking
+2022-12-30 02:01:19 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2022-12-30 02:01:20 INFO  - Step 13 - Open toc audiobook screen
+2022-12-30 02:01:20 INFO  - Button 'btnToc' :: Clicking
+2022-12-30 02:01:21 INFO  - Step 14 - The first chapter is loaded
+2022-12-30 02:01:23 INFO  - Step 15 - Open random chapter on toc audiobook screen and save chapter name as 'chapterNameKey'
+2022-12-30 02:01:34 INFO  - Label 'element 2' :: Getting attribute 'name'
+2022-12-30 02:01:35 INFO  - Label 'element 2' :: Clicking
+2022-12-30 02:01:36 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2022-12-30 02:01:36 INFO  - Step 17 - Chapter name on audio player screen is equal to 'chapterNameKey' saved chapter name
+2022-12-30 02:01:36 INFO  - Label 'lblChapterName' :: Getting attribute 'value'
+2022-12-30 02:01:38 INFO  - Label 'lblChapterName' :: Getting attribute 'value'
+2022-12-30 02:01:39 INFO  - Step 18 - Pause button is present on audio player screen
+2022-12-30 02:01:40 INFO  - Step 19 - Select 2X playback speed on playback speed audiobook screen
+2022-12-30 02:01:40 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2022-12-30 02:01:41 INFO  - Button 'Two times normal speed. Fastest.' :: Clicking
+2022-12-30 02:01:42 INFO  - Step 20 - Wait for 3 seconds
+2022-12-30 02:01:45 INFO  - Step 21 - Tap pause button on audio player screen
+2022-12-30 02:01:46 INFO  - Button 'btnPause' :: Clicking
+2022-12-30 02:01:46 INFO  - Step 22 - Play button is present on audio player screen
+2022-12-30 02:01:47 INFO  - Step 23 - Save book play time as 'timeAhead' on audio player screen
+2022-12-30 02:01:47 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2022-12-30 02:01:48 INFO  - Step 24 - Return to previous screen from audio player screen
+2022-12-30 02:01:48 INFO  - Button 'btnBack' :: Clicking
+2022-12-30 02:01:48 INFO  - Step 25 - Click LISTEN action button on book details screen
+2022-12-30 02:01:49 INFO  - Button 'Listen' :: Clicking
+2022-12-30 02:02:10 INFO  - Step 26 - Audio player screen of book 'bookInfo' is opened
+2022-12-30 02:02:11 INFO  - Step 27 - Chapter name on audio player screen is equal to 'chapterNameKey' saved chapter name
+2022-12-30 02:02:11 INFO  - Label 'lblChapterName' :: Getting attribute 'value'
+2022-12-30 02:02:12 INFO  - Label 'lblChapterName' :: Getting attribute 'value'
+2022-12-30 02:02:13 INFO  - Taking screenshot
+2022-12-30 02:02:16 INFO  - Test finished - logging out
+2022-12-30 02:02:19 INFO  - Button 'Settings' :: Clicking
+2022-12-30 02:02:21 INFO  - Button 'Settings' :: Clicking
+2022-12-30 02:02:21 INFO  - Button 'btnLibraries' :: Clicking
+2022-12-30 02:02:25 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-30 02:02:25 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-30 02:02:26 INFO  - Button 'Log out' :: Clicking
+2022-12-30 02:02:27 INFO  - Button 'Log out approve' :: Clicking
+2022-12-30 02:02:30 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2022-12-30 02:02:31 INFO  - Button 'Log in' :: Getting text from element
+2022-12-30 02:02:34 INFO  - Text Field 'Card' :: Getting text from element
+2022-12-30 02:02:35 INFO  - Text Field 'Pin' :: Getting text from element
+2022-12-30 02:02:35 INFO  - Unlocking credential for current thread
+2022-12-30 02:02:35 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2c7e48a5
