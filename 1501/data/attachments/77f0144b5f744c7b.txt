@@ -1,0 +1,34 @@
+2022-12-30 06:16:55 INFO  - Scenario 'Check of a book title and author in LYRASIS' start
+2022-12-30 06:16:55 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2022-12-30 06:17:18 INFO  - Application on platform 'IOS' is ready...
+2022-12-30 06:17:18 INFO  - Session id - 655a8ad0c7ed65eaf1910d5c3d1188c4f2917d14
+2022-12-30 06:17:19 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2022-12-30 06:17:21 INFO  - Button 'btnFindLibrary' :: Clicking
+2022-12-30 06:17:21 INFO  - Text Field 'Search field' :: Clicking
+2022-12-30 06:17:28 INFO  - Text Field 'Search field' :: Clearing
+2022-12-30 06:17:28 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2022-12-30 06:17:37 INFO  - Button 'LYRASIS Reads' :: Clicking
+2022-12-30 06:17:58 INFO  - Step 1 - I open Catalog
+2022-12-30 06:17:58 INFO  - Button 'Catalog' :: Clicking
+2022-12-30 06:18:20 INFO  - Step 2 - I open search modal
+2022-12-30 06:18:40 INFO  - Button 'Search' :: Clicking
+2022-12-30 06:18:42 INFO  - Step 3 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2022-12-30 06:18:42 INFO  - Count of attempts to get random book name without bad symbols-2
+2022-12-30 06:18:42 INFO  - randomBookName: Under the Bayou Moon
+2022-12-30 06:18:43 INFO  - Text Field 'Search value input' :: Sending keys 'Under the Bayou Moon'
+2022-12-30 06:18:44 INFO  - Button 'Search' :: Clicking
+2022-12-30 06:18:47 INFO  - Step 4 - I switch to 'eBooks' catalog tab
+2022-12-30 06:18:47 INFO  - Button 'eBooks' :: Clicking
+2022-12-30 06:19:29 INFO  - Step 5 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2022-12-30 06:19:30 INFO  - Label 'lblAuthor' :: Getting text from element
+2022-12-30 06:19:31 INFO  - Label 'lblBookName' :: Clicking
+2022-12-30 06:19:32 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2022-12-30 06:19:34 INFO  - Label 'Book title' :: Getting text from element
+2022-12-30 06:19:38 INFO  - Label 'Author' :: Getting text from element
+2022-12-30 06:19:43 INFO  - Label 'Book title' :: Getting text from element
+2022-12-30 06:19:46 INFO  - Label 'Author' :: Getting text from element
+2022-12-30 06:19:47 INFO  - Step 7 - Book 'bookInfo' has correct title and author name on book details screen
+2022-12-30 06:19:47 INFO  - Step 8 - The book cover is displayed on book details screen
+2022-12-30 06:19:47 INFO  - Taking screenshot
+2022-12-30 06:19:51 INFO  - Unlocking credential for current thread
+2022-12-30 06:19:51 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@30f5183e
