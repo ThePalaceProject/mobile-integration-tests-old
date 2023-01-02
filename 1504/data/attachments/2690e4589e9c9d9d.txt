@@ -1,0 +1,69 @@
+2023-01-02 19:48:13 INFO  - Scenario 'Alert: Check of Cancel button after Return button tapping' start
+2023-01-02 19:48:13 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-02 19:48:29 INFO  - Application on platform 'IOS' is ready...
+2023-01-02 19:48:29 INFO  - Session id - bf8afcef708d9da3a7276838df15bd4965e5da8b
+2023-01-02 19:48:29 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-02 19:48:31 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-02 19:48:31 INFO  - Text Field 'Search field' :: Clicking
+2023-01-02 19:48:37 INFO  - Text Field 'Search field' :: Clearing
+2023-01-02 19:48:37 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-02 19:48:46 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-02 19:49:07 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-01-02 19:49:07 INFO  - Button 'Settings' :: Clicking
+2023-01-02 19:49:08 INFO  - Button 'Settings' :: Clicking
+2023-01-02 19:49:09 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-02 19:49:11 INFO  - Locking credential with barcode 01230000000281
+2023-01-02 19:49:11 INFO  - There are books on the account: 
+2023-01-02 19:49:43 INFO  - bookName: The Tomb Distributor: Palace Marketplace
+2023-01-02 19:49:43 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-01-02 19:49:43 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-01-02 19:49:43 INFO  - bookName: Unplugged Play: Preschool Distributor: Palace Marketplace
+2023-01-02 19:49:43 INFO  - bookName: The Misbehavior of Markets Distributor: Palace Marketplace
+2023-01-02 19:49:43 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2023-01-02 19:49:43 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-01-02 19:49:43 INFO  - bookName: The Promise Distributor: Palace Marketplace
+2023-01-02 19:49:43 INFO  - bookName: Love spell Distributor: Palace Marketplace
+2023-01-02 19:49:43 INFO  - bookName: My Animal Atlas Distributor: Palace Marketplace
+2023-01-02 19:49:43 INFO  - Count of books on the account after opening account: 10
+2023-01-02 19:50:04 INFO  - Text Field 'Card' :: Clicking
+2023-01-02 19:50:04 INFO  - Text Field 'Card' :: Clearing
+2023-01-02 19:50:04 INFO  - Text Field 'Card' :: Typing '01230000000281'
+2023-01-02 19:50:07 INFO  - Text Field 'Pin' :: Clearing
+2023-01-02 19:50:07 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-02 19:50:09 INFO  - Button 'Log in' :: Clicking
+2023-01-02 19:50:31 INFO  - Step 2 - Login is performed successfully
+2023-01-02 19:50:31 INFO  - Step 3 - I open Catalog
+2023-01-02 19:50:31 INFO  - Button 'Catalog' :: Clicking
+2023-01-02 19:50:53 INFO  - Step 4 - I open search modal
+2023-01-02 19:51:13 INFO  - Button 'Search' :: Clicking
+2023-01-02 19:51:15 INFO  - Step 5 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-02 19:51:15 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-02 19:51:15 INFO  - randomBookName: The Mother Tongue
+2023-01-02 19:51:16 INFO  - Text Field 'Search value input' :: Sending keys 'The Mother Tongue'
+2023-01-02 19:51:17 INFO  - Button 'Search' :: Clicking
+2023-01-02 19:51:19 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2023-01-02 19:51:19 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-02 19:52:00 INFO  - Step 7 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-02 19:52:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-02 19:52:02 INFO  - Label 'lblBookName' :: Clicking
+2023-01-02 19:52:03 INFO  - Step 8 - Click GET action button on book details screen
+2023-01-02 19:52:04 INFO  - Button 'Get' :: Clicking
+2023-01-02 19:52:09 INFO  - Alert appears and dismiss alert
+2023-01-02 19:52:09 INFO  - Step 9 - I open Books
+2023-01-02 19:52:09 INFO  - Button 'My Books' :: Clicking
+2023-01-02 19:52:10 INFO  - Step 10 - AUDIOBOOK book with LISTEN action button and 'bookInfo' bookInfo is present on books screen
+2023-01-02 19:52:50 INFO  - Taking screenshot
+2023-01-02 19:52:52 INFO  - Test finished - logging out
+2023-01-02 19:52:55 INFO  - Button 'Settings' :: Clicking
+2023-01-02 19:52:56 INFO  - Button 'Settings' :: Clicking
+2023-01-02 19:52:56 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-02 19:52:59 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-02 19:52:59 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-02 19:53:00 INFO  - Button 'Log out' :: Clicking
+2023-01-02 19:53:01 INFO  - Button 'Log out approve' :: Clicking
+2023-01-02 19:53:03 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-01-02 19:53:05 INFO  - Button 'Log in' :: Getting text from element
+2023-01-02 19:53:08 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-02 19:53:09 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-02 19:53:09 INFO  - Unlocking credential for current thread
+2023-01-02 19:53:09 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@a4b781b

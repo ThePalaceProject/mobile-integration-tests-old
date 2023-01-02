@@ -1,0 +1,77 @@
+2023-01-02 18:48:28 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-01-02 18:48:28 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-02 18:48:47 INFO  - Application on platform 'IOS' is ready...
+2023-01-02 18:48:47 INFO  - Session id - a09b400bf9cceb9b9da08bcffef575388c6bc868
+2023-01-02 18:48:47 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-02 18:48:48 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-02 18:48:49 INFO  - Text Field 'Search field' :: Clicking
+2023-01-02 18:48:55 INFO  - Text Field 'Search field' :: Clearing
+2023-01-02 18:48:55 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-02 18:49:04 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-02 18:49:26 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-02 18:49:26 INFO  - Button 'Settings' :: Clicking
+2023-01-02 18:49:27 INFO  - Button 'Settings' :: Clicking
+2023-01-02 18:49:28 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-02 18:49:29 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-02 18:49:29 INFO  - Button 'Settings' :: Clicking
+2023-01-02 18:49:30 INFO  - Button 'Settings' :: Clicking
+2023-01-02 18:49:30 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-02 18:49:32 INFO  - Locking credential with barcode 01230000000283
+2023-01-02 18:49:32 INFO  - There are books on the account: 
+2023-01-02 18:50:04 INFO  - bookName: The guide to starting school Distributor: Palace Marketplace
+2023-01-02 18:50:04 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-01-02 18:50:04 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-01-02 18:50:04 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-01-02 18:50:04 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-01-02 18:50:04 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-01-02 18:50:04 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2023-01-02 18:50:04 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2023-01-02 18:50:04 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2023-01-02 18:50:04 INFO  - Count of books on the account after opening account: 9
+2023-01-02 18:50:25 INFO  - Text Field 'Card' :: Clicking
+2023-01-02 18:50:26 INFO  - Text Field 'Card' :: Clearing
+2023-01-02 18:50:26 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2023-01-02 18:50:28 INFO  - Text Field 'Pin' :: Clearing
+2023-01-02 18:50:28 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-02 18:50:30 INFO  - Button 'Log in' :: Clicking
+2023-01-02 18:51:05 INFO  - Step 3 - Login is performed successfully
+2023-01-02 18:51:06 INFO  - Step 4 - I open Catalog
+2023-01-02 18:51:06 INFO  - Button 'Catalog' :: Clicking
+2023-01-02 18:51:26 INFO  - Step 5 - I open search modal
+2023-01-02 18:51:47 INFO  - Button 'Search' :: Clicking
+2023-01-02 18:51:49 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-02 18:51:49 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-02 18:51:49 INFO  - randomBookName: Later
+2023-01-02 18:51:50 INFO  - Text Field 'Search value input' :: Sending keys 'Later'
+2023-01-02 18:51:50 INFO  - Button 'Search' :: Clicking
+2023-01-02 18:51:52 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-02 18:52:09 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-02 18:52:10 INFO  - Button 'actionButton' :: Clicking
+2023-01-02 18:52:32 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-02 18:52:33 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-02 18:52:34 INFO  - Label 'lblBookName' :: Clicking
+2023-01-02 18:52:35 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-02 18:52:37 INFO  - Button 'Read' :: Clicking
+2023-01-02 18:52:58 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-02 18:52:58 INFO  - Scrolling 8 times on reader epub screen
+2023-01-02 18:53:32 INFO  - Step 11 - I save font size as 'fontSize'
+2023-01-02 18:53:33 INFO  - count of contextHandles-8
+2023-01-02 18:53:33 INFO  - Step 12 - I open font settings
+2023-01-02 18:53:34 INFO  - Button 'Font Settings' :: Clicking
+2023-01-02 18:53:35 INFO  - Step 13 - I INCREASE_FONT of text
+2023-01-02 18:53:36 INFO  - Button 'Increase font size' :: Clicking
+2023-01-02 18:53:56 INFO  - Taking screenshot
+2023-01-02 18:53:58 INFO  - Test finished - logging out
+2023-01-02 18:54:01 INFO  - Button 'Settings' :: Clicking
+2023-01-02 18:54:02 INFO  - Button 'Settings' :: Clicking
+2023-01-02 18:54:02 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-02 18:54:05 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-02 18:54:06 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-02 18:54:06 INFO  - Button 'Log out' :: Clicking
+2023-01-02 18:54:07 INFO  - Button 'Log out approve' :: Clicking
+2023-01-02 18:54:10 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-01-02 18:54:11 INFO  - Button 'Log in' :: Getting text from element
+2023-01-02 18:54:14 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-02 18:54:15 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-02 18:54:15 INFO  - Unlocking credential for current thread
+2023-01-02 18:54:15 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2e6d6300
