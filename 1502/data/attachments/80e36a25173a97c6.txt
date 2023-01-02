@@ -1,0 +1,38 @@
+2023-01-01 23:01:27 INFO  - Scenario 'Check fields in Information section in LYRASIS' start
+2023-01-01 23:01:27 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-01 23:01:46 INFO  - Application on platform 'IOS' is ready...
+2023-01-01 23:01:46 INFO  - Session id - 3b874530ed7792bcc9e2ffe639896ec2f33f47b5
+2023-01-01 23:01:46 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-01 23:01:48 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-01 23:01:49 INFO  - Text Field 'Search field' :: Clicking
+2023-01-01 23:01:55 INFO  - Text Field 'Search field' :: Clearing
+2023-01-01 23:01:55 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-01 23:02:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-01 23:02:28 INFO  - Step 1 - I open Catalog
+2023-01-01 23:02:28 INFO  - Button 'Catalog' :: Clicking
+2023-01-01 23:02:51 INFO  - Step 2 - I open search modal
+2023-01-01 23:03:11 INFO  - Button 'Search' :: Clicking
+2023-01-01 23:03:14 INFO  - Step 3 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-01 23:03:14 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-01 23:03:14 INFO  - randomBookName: Blacktop Wasteland
+2023-01-01 23:03:14 INFO  - Text Field 'Search value input' :: Sending keys 'Blacktop Wasteland'
+2023-01-01 23:03:15 INFO  - Button 'Search' :: Clicking
+2023-01-01 23:03:18 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2023-01-01 23:03:18 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-01 23:04:00 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-01 23:04:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-01 23:04:02 INFO  - Label 'lblBookName' :: Clicking
+2023-01-01 23:04:03 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-01-01 23:04:05 INFO  - Label 'Book title' :: Getting text from element
+2023-01-01 23:04:10 INFO  - Label 'Author' :: Getting text from element
+2023-01-01 23:04:14 INFO  - Label 'Book title' :: Getting text from element
+2023-01-01 23:04:19 INFO  - Label 'Author' :: Getting text from element
+2023-01-01 23:04:20 INFO  - Step 7 - Publisher and Categories in Information section are displayed on book details screen
+2023-01-01 23:04:25 INFO  - Step 8 - Publisher and Categories in Information section are correct on book details screen
+2023-01-01 23:04:25 INFO  - Label 'lblPublisher' :: Getting attribute 'name'
+2023-01-01 23:04:29 INFO  - Label 'lblCategories' :: Getting attribute 'name'
+2023-01-01 23:04:32 INFO  - Step 9 - Distributor is equal to 'Bibliotheca' on book details screen
+2023-01-01 23:04:32 INFO  - Label 'lblDistributor' :: Getting attribute 'name'
+2023-01-01 23:04:34 INFO  - Taking screenshot
+2023-01-01 23:04:36 INFO  - Unlocking credential for current thread
+2023-01-01 23:04:36 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@59c02f73
