@@ -1,0 +1,80 @@
+2023-01-02 05:52:40 INFO  - Scenario 'Hold from Book Detail View and Cancel remove from holds tab (IOS)' start
+2023-01-02 05:52:40 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-02 05:53:00 INFO  - Application on platform 'IOS' is ready...
+2023-01-02 05:53:00 INFO  - Session id - 5952e4f4aa66d33402fdfd089a395a8dcc9f98fa
+2023-01-02 05:53:00 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-02 05:53:02 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-02 05:53:03 INFO  - Text Field 'Search field' :: Clicking
+2023-01-02 05:53:09 INFO  - Text Field 'Search field' :: Clearing
+2023-01-02 05:53:09 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-02 05:53:19 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-02 05:53:41 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-01-02 05:53:41 INFO  - Button 'Settings' :: Clicking
+2023-01-02 05:53:42 INFO  - Button 'Settings' :: Clicking
+2023-01-02 05:53:43 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-02 05:53:46 INFO  - Locking credential with barcode 01230000000280
+2023-01-02 05:53:46 INFO  - There are books on the account: 
+2023-01-02 05:54:17 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2023-01-02 05:54:17 INFO  - bookName: One Good Dish Distributor: Palace Marketplace
+2023-01-02 05:54:17 INFO  - bookName: Africa and Beyond Distributor: Palace Marketplace
+2023-01-02 05:54:17 INFO  - bookName: iGen Distributor: Palace Marketplace
+2023-01-02 05:54:17 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2023-01-02 05:54:17 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2023-01-02 05:54:17 INFO  - bookName: 20th Century Passenger Flying Boats Distributor: Palace Marketplace
+2023-01-02 05:54:17 INFO  - bookName: Pipe Dreams Distributor: Palace Marketplace
+2023-01-02 05:54:17 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-01-02 05:54:17 INFO  - bookName: Frederick and Catherine Distributor: Palace Marketplace
+2023-01-02 05:54:17 INFO  - Count of books on the account after opening account: 10
+2023-01-02 05:54:38 INFO  - Text Field 'Card' :: Clicking
+2023-01-02 05:54:39 INFO  - Text Field 'Card' :: Clearing
+2023-01-02 05:54:39 INFO  - Text Field 'Card' :: Typing '01230000000280'
+2023-01-02 05:54:42 INFO  - Text Field 'Pin' :: Clearing
+2023-01-02 05:54:42 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-02 05:54:46 INFO  - Button 'Log in' :: Clicking
+2023-01-02 05:55:08 INFO  - Step 2 - Login is performed successfully
+2023-01-02 05:55:09 INFO  - Step 3 - I open Catalog
+2023-01-02 05:55:09 INFO  - Button 'Catalog' :: Clicking
+2023-01-02 05:55:30 INFO  - Step 4 - I open search modal
+2023-01-02 05:55:50 INFO  - Button 'Search' :: Clicking
+2023-01-02 05:55:53 INFO  - Step 5 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-02 05:55:53 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-02 05:55:53 INFO  - randomBookName: Milk and Honey
+2023-01-02 05:55:54 INFO  - Text Field 'Search value input' :: Sending keys 'Milk and Honey'
+2023-01-02 05:55:55 INFO  - Button 'Search' :: Clicking
+2023-01-02 05:55:58 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-01-02 05:55:58 INFO  - Button 'eBooks' :: Clicking
+2023-01-02 05:56:40 INFO  - Step 7 - Open EBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-02 05:56:41 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-02 05:56:42 INFO  - Label 'lblBookName' :: Clicking
+2023-01-02 05:56:44 INFO  - Step 8 - Book 'bookInfo' is opened on book details screen
+2023-01-02 05:56:45 INFO  - Label 'Book title' :: Getting text from element
+2023-01-02 05:56:49 INFO  - Label 'Author' :: Getting text from element
+2023-01-02 05:56:51 INFO  - Label 'Book title' :: Getting text from element
+2023-01-02 05:56:54 INFO  - Label 'Author' :: Getting text from element
+2023-01-02 05:56:55 INFO  - Step 9 - Click RESERVE action button on book details screen
+2023-01-02 05:56:55 INFO  - Button 'Reserve' :: Clicking
+2023-01-02 05:57:02 INFO  - Alert appears and dismiss alert
+2023-01-02 05:57:02 INFO  - Step 10 - I check that book contains REMOVE action button on book details screen
+2023-01-02 05:57:03 INFO  - Step 11 - Click REMOVE action button on book details screen and click CANCEL action button on alert. Only for ios
+2023-01-02 05:57:04 INFO  - Button 'Remove' :: Clicking
+2023-01-02 05:57:06 INFO  - Button 'Cancel ActionButtonAlert' :: Clicking
+2023-01-02 05:57:07 INFO  - Step 12 - I check that book contains REMOVE action button on book details screen
+2023-01-02 05:57:08 INFO  - Step 13 - I close Book Details for IOSTab
+2023-01-02 05:57:08 INFO  - Step 14 - I open Holds
+2023-01-02 05:57:08 INFO  - Button 'Reservations' :: Clicking
+2023-01-02 05:57:09 INFO  - Step 15 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-01-02 05:57:10 INFO  - Taking screenshot
+2023-01-02 05:57:12 INFO  - Test finished - logging out
+2023-01-02 05:57:15 INFO  - Button 'Settings' :: Clicking
+2023-01-02 05:57:16 INFO  - Button 'Settings' :: Clicking
+2023-01-02 05:57:17 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-02 05:57:20 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-02 05:57:21 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-02 05:57:22 INFO  - Button 'Log out' :: Clicking
+2023-01-02 05:57:23 INFO  - Button 'Log out approve' :: Clicking
+2023-01-02 05:57:26 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-01-02 05:57:28 INFO  - Button 'Log in' :: Getting text from element
+2023-01-02 05:57:31 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-02 05:57:32 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-02 05:57:33 INFO  - Unlocking credential for current thread
+2023-01-02 05:57:33 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@442e35a5
