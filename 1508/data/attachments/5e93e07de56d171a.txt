@@ -1,0 +1,77 @@
+2023-01-05 00:57:16 INFO  - Scenario 'Alert: Check of Cancel button after Remove button tapping' start
+2023-01-05 00:57:16 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-05 00:57:35 INFO  - Application on platform 'IOS' is ready...
+2023-01-05 00:57:35 INFO  - Session id - 6d635ac37cbd5111e9a97649d359791e969da620
+2023-01-05 00:57:35 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-05 00:57:37 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-05 00:57:37 INFO  - Text Field 'Search field' :: Clicking
+2023-01-05 00:57:44 INFO  - Text Field 'Search field' :: Clearing
+2023-01-05 00:57:44 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-05 00:57:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-05 00:58:16 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-01-05 00:58:16 INFO  - Button 'Settings' :: Clicking
+2023-01-05 00:58:17 INFO  - Button 'Settings' :: Clicking
+2023-01-05 00:58:18 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-05 00:58:20 INFO  - Locking credential with barcode 01230000000281
+2023-01-05 00:58:20 INFO  - There are books on the account: 
+2023-01-05 00:59:17 INFO  - bookName: Unplugged Play: Preschool Distributor: Palace Marketplace
+2023-01-05 00:59:17 INFO  - bookName: My Animal Atlas Distributor: Palace Marketplace
+2023-01-05 00:59:17 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-01-05 00:59:17 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-01-05 00:59:17 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-01-05 00:59:17 INFO  - bookName: Love spell Distributor: Palace Marketplace
+2023-01-05 00:59:17 INFO  - bookName: The Tomb Distributor: Palace Marketplace
+2023-01-05 00:59:17 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2023-01-05 00:59:17 INFO  - bookName: The Misbehavior of Markets Distributor: Palace Marketplace
+2023-01-05 00:59:17 INFO  - bookName: The Promise Distributor: Palace Marketplace
+2023-01-05 00:59:17 INFO  - Count of books on the account after opening account: 10
+2023-01-05 00:59:38 INFO  - Text Field 'Card' :: Clicking
+2023-01-05 00:59:39 INFO  - Text Field 'Card' :: Clearing
+2023-01-05 00:59:39 INFO  - Text Field 'Card' :: Typing '01230000000281'
+2023-01-05 00:59:42 INFO  - Text Field 'Pin' :: Clearing
+2023-01-05 00:59:42 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-05 00:59:45 INFO  - Button 'Log in' :: Clicking
+2023-01-05 01:00:07 INFO  - Step 2 - Login is performed successfully
+2023-01-05 01:00:07 INFO  - Step 3 - I open Catalog
+2023-01-05 01:00:07 INFO  - Button 'Catalog' :: Clicking
+2023-01-05 01:00:29 INFO  - Step 4 - I open search modal
+2023-01-05 01:01:38 INFO  - Button 'Search' :: Clicking
+2023-01-05 01:01:41 INFO  - Step 5 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-05 01:01:41 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-05 01:01:41 INFO  - randomBookName: Chocolate Cream Pie Murder
+2023-01-05 01:01:42 INFO  - Text Field 'Search value input' :: Sending keys 'Chocolate Cream Pie Murder'
+2023-01-05 01:01:43 INFO  - Button 'Search' :: Clicking
+2023-01-05 01:01:47 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-01-05 01:01:47 INFO  - Button 'eBooks' :: Clicking
+2023-01-05 01:02:29 INFO  - Step 7 - Open EBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-05 01:02:30 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-05 01:02:30 INFO  - Label 'lblBookName' :: Clicking
+2023-01-05 01:02:31 INFO  - Step 8 - Click RESERVE action button on book details screen
+2023-01-05 01:02:33 INFO  - Button 'Reserve' :: Clicking
+2023-01-05 01:02:39 INFO  - Alert appears and dismiss alert
+2023-01-05 01:02:39 INFO  - Step 9 - I open Holds
+2023-01-05 01:02:39 INFO  - Button 'Reservations' :: Clicking
+2023-01-05 01:02:41 INFO  - Step 10 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-01-05 01:02:42 INFO  - Step 11 - Open EBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2023-01-05 01:02:43 INFO  - Label 'lblBookName' :: Clicking
+2023-01-05 01:02:44 INFO  - Step 12 - Click REMOVE button but cancel the action by clicking CANCEL button on the alert
+2023-01-05 01:02:44 INFO  - Button 'Remove' :: Clicking
+2023-01-05 01:02:47 INFO  - Button 'Cancel ActionButtonAlert' :: Clicking
+2023-01-05 01:02:49 INFO  - Step 13 - I open Holds
+2023-01-05 01:02:49 INFO  - Button 'Reservations' :: Clicking
+2023-01-05 01:02:50 INFO  - Step 14 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-01-05 01:02:51 INFO  - Taking screenshot
+2023-01-05 01:02:52 INFO  - Test finished - logging out
+2023-01-05 01:02:55 INFO  - Button 'Settings' :: Clicking
+2023-01-05 01:02:57 INFO  - Button 'Settings' :: Clicking
+2023-01-05 01:02:58 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-05 01:03:03 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-05 01:03:03 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-05 01:03:04 INFO  - Button 'Log out' :: Clicking
+2023-01-05 01:03:05 INFO  - Button 'Log out approve' :: Clicking
+2023-01-05 01:03:08 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-01-05 01:03:09 INFO  - Button 'Log in' :: Getting text from element
+2023-01-05 01:03:13 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-05 01:03:14 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-05 01:03:15 INFO  - Unlocking credential for current thread
+2023-01-05 01:03:15 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4e2072c0
