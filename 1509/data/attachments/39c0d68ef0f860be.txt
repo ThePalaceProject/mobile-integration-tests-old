@@ -1,0 +1,31 @@
+2023-01-05 10:02:59 INFO  - Scenario 'Check of a book title and author in LYRASIS' start
+2023-01-05 10:02:59 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-05 10:03:17 INFO  - Application on platform 'IOS' is ready...
+2023-01-05 10:03:17 INFO  - Session id - d38f0b32d75c61ae4432554ea2fc7288aa09af35
+2023-01-05 10:03:17 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-05 10:03:19 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-05 10:03:19 INFO  - Text Field 'Search field' :: Clicking
+2023-01-05 10:03:26 INFO  - Text Field 'Search field' :: Clearing
+2023-01-05 10:03:26 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-05 10:03:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-05 10:03:57 INFO  - Step 1 - I open Catalog
+2023-01-05 10:03:57 INFO  - Button 'Catalog' :: Clicking
+2023-01-05 10:04:19 INFO  - Step 2 - I open search modal
+2023-01-05 10:04:40 INFO  - Button 'Search' :: Clicking
+2023-01-05 10:04:42 INFO  - Step 3 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-05 10:04:42 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-05 10:04:42 INFO  - randomBookName: Mother Goose Stories
+2023-01-05 10:04:42 INFO  - Text Field 'Search value input' :: Sending keys 'Mother Goose Stories'
+2023-01-05 10:04:43 INFO  - Button 'Search' :: Clicking
+2023-01-05 10:04:46 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2023-01-05 10:04:46 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-05 10:05:28 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-05 10:05:29 INFO  - Label 'lblBookName' :: Clicking
+2023-01-05 10:05:30 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-01-05 10:05:31 INFO  - Label 'Book title' :: Getting text from element
+2023-01-05 10:05:35 INFO  - Label 'Author' :: Getting text from element
+2023-01-05 10:05:38 INFO  - Label 'Book title' :: Getting text from element
+2023-01-05 10:05:41 INFO  - Label 'Author' :: Getting text from element
+2023-01-05 10:05:42 INFO  - Taking screenshot
+2023-01-05 10:05:44 INFO  - Unlocking credential for current thread
+2023-01-05 10:05:44 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@65ef310e
