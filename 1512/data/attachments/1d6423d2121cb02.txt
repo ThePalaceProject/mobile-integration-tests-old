@@ -1,0 +1,68 @@
+2023-01-08 02:44:37 INFO  - Scenario 'LYRASIS: Reserving from Book Detail View' start
+2023-01-08 02:44:37 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-08 02:45:14 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-08 02:45:14 INFO  - Session id - e48c8ad9303f92993eb44a1c13626b43bf0d1a87
+2023-01-08 02:45:14 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-08 02:45:14 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-08 02:45:17 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-08 02:45:17 INFO  - Button 'Search' :: Clicking
+2023-01-08 02:45:20 INFO  - Text Field 'Search' :: Clearing
+2023-01-08 02:45:20 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-08 02:45:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-08 02:45:22 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-01-08 02:45:22 INFO  - Button 'tabSettings' :: Clicking
+2023-01-08 02:45:24 INFO  - Button 'tabSettings' :: Clicking
+2023-01-08 02:45:25 INFO  - Button 'Accounts' :: Clicking
+2023-01-08 02:45:26 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-08 02:45:27 INFO  - Locking credential with barcode 01230000000283
+2023-01-08 02:45:27 INFO  - There are books on the account: 
+2023-01-08 02:45:58 INFO  - bookName: The Lost Book of Adana Moreau Distributor: Palace Marketplace
+2023-01-08 02:45:58 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-01-08 02:45:58 INFO  - bookName: Everything You Need to Ace Geometry in One Big Fat Notebook Distributor: Palace Marketplace
+2023-01-08 02:45:58 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-01-08 02:45:58 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-01-08 02:45:58 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2023-01-08 02:45:58 INFO  - bookName: Love at the End of the World Distributor: Palace Marketplace
+2023-01-08 02:45:58 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-01-08 02:45:58 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-01-08 02:45:58 INFO  - bookName: The guide to starting school Distributor: Palace Marketplace
+2023-01-08 02:45:58 INFO  - Count of books on the account after opening account: 10
+2023-01-08 02:45:58 INFO  - Text Field 'Card' :: Clearing
+2023-01-08 02:45:58 INFO  - Text Field 'Card' :: Typing '01230000000283'
+2023-01-08 02:46:01 INFO  - Text Field 'Pin' :: Clearing
+2023-01-08 02:46:01 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-08 02:46:03 INFO  - Button 'Log in' :: Clicking
+2023-01-08 02:46:39 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-08 02:46:40 INFO  - Step 2 - Login is performed successfully
+2023-01-08 02:47:01 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-08 02:47:01 INFO  - Step 3 - I open Catalog
+2023-01-08 02:47:01 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-08 02:47:21 INFO  - Step 4 - I open search modal
+2023-01-08 02:47:42 INFO  - Button 'Search' :: Clicking
+2023-01-08 02:47:43 INFO  - Step 5 - I search 'unavailable' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-08 02:47:43 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-08 02:47:43 INFO  - randomBookName: Turning the Tide
+2023-01-08 02:47:43 INFO  - Error details button is not present
+2023-01-08 02:47:43 INFO  - Text Field 'Search value input' :: Sending keys 'Turning the Tide'
+2023-01-08 02:47:44 INFO  - Button 'Apply search' :: Clicking
+2023-01-08 02:47:47 INFO  - Error details button is not present
+2023-01-08 02:47:50 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2023-01-08 02:47:50 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-08 02:48:11 INFO  - Step 7 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-08 02:48:11 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-08 02:48:12 INFO  - Label 'lblBookName' :: Clicking
+2023-01-08 02:48:12 INFO  - Step 8 - Click RESERVE action button on book details screen
+2023-01-08 02:48:13 INFO  - Button 'Reserve' :: Clicking
+2023-01-08 02:48:18 INFO  - Step 9 - I check that book contains REMOVE action button on book details screen
+2023-01-08 02:48:19 INFO  - Taking screenshot
+2023-01-08 02:48:20 INFO  - Test finished - logging out
+2023-01-08 02:48:20 INFO  - Button 'tabSettings' :: Clicking
+2023-01-08 02:48:23 INFO  - Button 'tabSettings' :: Clicking
+2023-01-08 02:48:24 INFO  - Button 'Accounts' :: Clicking
+2023-01-08 02:48:25 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-08 02:48:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-08 02:48:27 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-08 02:48:27 INFO  - Button 'Log out' :: Clicking
+2023-01-08 02:48:27 INFO  - Button 'Log in' :: Getting text from element
+2023-01-08 02:48:48 INFO  - Unlocking credential for current thread
+2023-01-08 02:48:48 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1eaea60a
