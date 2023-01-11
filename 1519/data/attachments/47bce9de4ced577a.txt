@@ -1,0 +1,75 @@
+2023-01-11 03:49:59 INFO  - Scenario 'Check books sorting in Reservations' start
+2023-01-11 03:49:59 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-11 03:50:31 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-11 03:50:31 INFO  - Session id - d68f65607c499942eaa3e26d7bf1b646dd7302d6
+2023-01-11 03:50:31 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-11 03:50:31 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-11 03:50:34 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-11 03:50:34 INFO  - Button 'Search' :: Clicking
+2023-01-11 03:50:37 INFO  - Text Field 'Search' :: Clearing
+2023-01-11 03:50:37 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-11 03:50:40 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-11 03:50:42 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-01-11 03:50:42 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 03:50:43 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 03:50:43 INFO  - Button 'Accounts' :: Clicking
+2023-01-11 03:50:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-11 03:50:45 INFO  - Locking credential with barcode 01230000000306
+2023-01-11 03:50:45 INFO  - There are books on the account: 
+2023-01-11 03:50:47 INFO  - There is not books on the account.
+2023-01-11 03:50:47 INFO  - Count of books on the account after opening account: 0
+2023-01-11 03:50:47 INFO  - Text Field 'Card' :: Clearing
+2023-01-11 03:50:47 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-01-11 03:50:49 INFO  - Text Field 'Pin' :: Clearing
+2023-01-11 03:50:49 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-11 03:50:51 INFO  - Button 'Log in' :: Clicking
+2023-01-11 03:50:57 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-11 03:50:58 INFO  - Step 2 - Login is performed successfully
+2023-01-11 03:51:19 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-11 03:51:19 INFO  - Step 3 - I open Catalog
+2023-01-11 03:51:19 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-11 03:51:40 INFO  - Step 4 - I open search modal
+2023-01-11 03:52:00 INFO  - Button 'Search' :: Clicking
+2023-01-11 03:52:01 INFO  - Step 5 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-11 03:52:01 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-11 03:52:01 INFO  - randomBookName: These Precious Days
+2023-01-11 03:52:02 INFO  - Error details button is not present
+2023-01-11 03:52:02 INFO  - Text Field 'Search value input' :: Sending keys 'These Precious Days'
+2023-01-11 03:52:03 INFO  - Button 'Apply search' :: Clicking
+2023-01-11 03:52:05 INFO  - Error details button is not present
+2023-01-11 03:52:09 INFO  - Step 6 - Click RESERVE action button on AUDIOBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-11 03:52:10 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-11 03:52:11 INFO  - Button 'actionButton' :: Clicking
+2023-01-11 03:52:15 INFO  - Step 7 - I open Catalog
+2023-01-11 03:52:15 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-11 03:52:35 INFO  - Step 8 - I open search modal
+2023-01-11 03:52:56 INFO  - Button 'Search' :: Clicking
+2023-01-11 03:52:57 INFO  - Step 9 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo2'
+2023-01-11 03:52:57 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-11 03:52:57 INFO  - randomBookName: The Dressmakers of Auschwitz
+2023-01-11 03:52:58 INFO  - Error details button is not present
+2023-01-11 03:52:58 INFO  - Text Field 'Search value input' :: Sending keys 'The Dressmakers of Auschwitz'
+2023-01-11 03:52:59 INFO  - Button 'Apply search' :: Clicking
+2023-01-11 03:53:01 INFO  - Error details button is not present
+2023-01-11 03:53:04 INFO  - Step 10 - Click RESERVE action button on AUDIOBOOK book with 'bookNameInfo2' bookName on catalog books screen and save book as 'bookInfo2'
+2023-01-11 03:53:05 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-11 03:53:05 INFO  - Button 'actionButton' :: Clicking
+2023-01-11 03:53:09 INFO  - Step 11 - Clear search field on catalog books screen
+2023-01-11 03:53:09 INFO  - Step 12 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo3'
+2023-01-11 03:53:09 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-11 03:53:09 INFO  - randomBookName: Chocolate Cream Pie Murder
+2023-01-11 03:53:09 INFO  - Error details button is not present
+2023-01-11 03:53:30 INFO  - Taking screenshot
+2023-01-11 03:53:31 INFO  - Test finished - logging out
+2023-01-11 03:53:32 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 03:53:35 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 03:53:36 INFO  - Button 'Accounts' :: Clicking
+2023-01-11 03:53:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-11 03:53:40 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-11 03:53:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-11 03:53:43 INFO  - Button 'Log out' :: Clicking
+2023-01-11 03:53:43 INFO  - Button 'Log in' :: Getting text from element
+2023-01-11 03:53:48 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-11 03:53:49 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-11 03:53:49 INFO  - Unlocking credential for current thread
+2023-01-11 03:53:49 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@616ffad2
