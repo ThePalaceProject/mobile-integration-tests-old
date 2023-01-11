@@ -1,0 +1,77 @@
+2023-01-10 22:55:33 INFO  - Scenario 'Navigate by Page Lyrasis' start
+2023-01-10 22:55:33 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-10 22:55:53 INFO  - Application on platform 'IOS' is ready...
+2023-01-10 22:55:53 INFO  - Session id - 041cf614960c15adf3c19560a0265463af30e693
+2023-01-10 22:55:53 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-10 22:55:55 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-10 22:55:55 INFO  - Text Field 'Search field' :: Clicking
+2023-01-10 22:56:01 INFO  - Text Field 'Search field' :: Clearing
+2023-01-10 22:56:01 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-10 22:56:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-10 22:56:31 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-10 22:56:31 INFO  - Button 'Settings' :: Clicking
+2023-01-10 22:56:32 INFO  - Button 'Settings' :: Clicking
+2023-01-10 22:56:33 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-10 22:56:35 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-10 22:56:35 INFO  - Button 'Settings' :: Clicking
+2023-01-10 22:56:35 INFO  - Button 'Settings' :: Clicking
+2023-01-10 22:56:36 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-10 22:56:38 INFO  - Locking credential with barcode 01230000000304
+2023-01-10 22:56:38 INFO  - There are books on the account: 
+2023-01-10 22:56:39 INFO  - There is not books on the account.
+2023-01-10 22:56:39 INFO  - Count of books on the account after opening account: 0
+2023-01-10 22:57:00 INFO  - Text Field 'Card' :: Clicking
+2023-01-10 22:57:01 INFO  - Text Field 'Card' :: Clearing
+2023-01-10 22:57:01 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-10 22:57:04 INFO  - Text Field 'Pin' :: Clearing
+2023-01-10 22:57:04 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-10 22:57:06 INFO  - Button 'Log in' :: Clicking
+2023-01-10 22:57:14 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-10 22:57:15 INFO  - Step 3 - Login is performed successfully
+2023-01-10 22:57:16 INFO  - Step 4 - I open Catalog
+2023-01-10 22:57:16 INFO  - Button 'Catalog' :: Clicking
+2023-01-10 22:57:37 INFO  - Step 5 - I open search modal
+2023-01-10 22:57:57 INFO  - Button 'Search' :: Clicking
+2023-01-10 22:57:59 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-10 22:57:59 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-10 22:57:59 INFO  - randomBookName: Good for Me: Play and Exercise
+2023-01-10 22:58:00 INFO  - Text Field 'Search value input' :: Sending keys 'Good for Me: Play and Exercise'
+2023-01-10 22:58:01 INFO  - Button 'Search' :: Clicking
+2023-01-10 22:58:03 INFO  - Step 7 - I switch to 'eBooks' catalog tab
+2023-01-10 22:58:04 INFO  - Button 'eBooks' :: Clicking
+2023-01-10 22:58:45 INFO  - Step 8 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-10 22:59:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-10 22:59:02 INFO  - Button 'actionButton' :: Clicking
+2023-01-10 22:59:25 INFO  - Step 9 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-01-10 22:59:26 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-10 22:59:28 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-10 22:59:29 INFO  - Label 'lblBookName' :: Clicking
+2023-01-10 22:59:30 INFO  - Step 11 - Click READ action button on book details screen
+2023-01-10 22:59:32 INFO  - Button 'Read' :: Clicking
+2023-01-10 22:59:53 INFO  - Step 12 - Reader pdf screen is opened
+2023-01-10 22:59:54 INFO  - Step 13 - I save page number as 'pageInfo' on pdf reader screen
+2023-01-10 22:59:55 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-01-10 22:59:56 INFO  - Step 14 - I go to next page on reader pdf screen
+2023-01-10 22:59:58 INFO  - Swiping from coordinates (x:319; y:308) to (x:4; y:308)
+2023-01-10 23:00:00 INFO  - Step 15 - Page number increased by 1 from 'pageInfo' on pdf reader screen
+2023-01-10 23:00:21 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-01-10 23:00:22 INFO  - Step 16 - I save page number as 'pageInfo2' on pdf reader screen
+2023-01-10 23:00:23 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-01-10 23:00:25 INFO  - Step 17 - I go to previous page on reader pdf screen
+2023-01-10 23:00:27 INFO  - Swiping from coordinates (x:109; y:153) to (x:423; y:153)
+2023-01-10 23:00:29 INFO  - Step 18 - Page number decreased by 1 from 'pageInfo2' on pdf reader screen
+2023-01-10 23:00:50 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-01-10 23:00:51 INFO  - Taking screenshot
+2023-01-10 23:00:57 INFO  - Test finished - logging out
+2023-01-10 23:01:00 INFO  - Button 'Settings' :: Clicking
+2023-01-10 23:01:01 INFO  - Button 'Settings' :: Clicking
+2023-01-10 23:01:02 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-10 23:01:05 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-10 23:01:05 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-10 23:01:06 INFO  - Button 'Log out' :: Clicking
+2023-01-10 23:01:06 INFO  - Button 'Log out approve' :: Clicking
+2023-01-10 23:01:27 INFO  - Button 'Log in' :: Getting text from element
+2023-01-10 23:01:28 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-10 23:01:29 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-10 23:01:30 INFO  - Unlocking credential for current thread
+2023-01-10 23:01:30 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@34399eb6
