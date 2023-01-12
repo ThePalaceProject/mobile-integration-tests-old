@@ -1,0 +1,420 @@
+2023-01-11 21:44:04 INFO  - Scenario 'Font settings: Check of font style' start
+2023-01-11 21:44:04 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-11 21:44:30 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-11 21:44:30 INFO  - Session id - 93870b92add01502c67c5e79b68ba6348049811e
+2023-01-11 21:44:30 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-11 21:44:30 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-11 21:44:33 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-11 21:44:34 INFO  - Button 'Search' :: Clicking
+2023-01-11 21:44:36 INFO  - Text Field 'Search' :: Clearing
+2023-01-11 21:44:36 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-11 21:44:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-11 21:44:39 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-11 21:44:39 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:44:41 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:44:42 INFO  - Button 'Accounts' :: Clicking
+2023-01-11 21:44:44 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-11 21:44:44 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:44:45 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:44:46 INFO  - Button 'Accounts' :: Clicking
+2023-01-11 21:44:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-11 21:44:48 INFO  - Locking credential with barcode 01230000000304
+2023-01-11 21:44:48 INFO  - There are books on the account: 
+2023-01-11 21:44:48 INFO  - There is not books on the account.
+2023-01-11 21:44:48 INFO  - Count of books on the account after opening account: 0
+2023-01-11 21:44:48 INFO  - Text Field 'Card' :: Clearing
+2023-01-11 21:44:48 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-11 21:44:50 INFO  - Text Field 'Pin' :: Clearing
+2023-01-11 21:44:50 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-11 21:44:51 INFO  - Button 'Log in' :: Clicking
+2023-01-11 21:44:57 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-11 21:44:57 INFO  - Step 3 - Login is performed successfully
+2023-01-11 21:45:18 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-11 21:45:19 INFO  - Step 4 - I open Catalog
+2023-01-11 21:45:19 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-11 21:45:40 INFO  - Step 5 - I open search modal
+2023-01-11 21:46:01 INFO  - Button 'Search' :: Clicking
+2023-01-11 21:46:02 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-11 21:46:02 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-11 21:46:02 INFO  - randomBookName: Leo Tolstoy
+2023-01-11 21:46:02 INFO  - Error details button is not present
+2023-01-11 21:46:02 INFO  - Text Field 'Search value input' :: Sending keys 'Leo Tolstoy'
+2023-01-11 21:46:03 INFO  - Button 'Apply search' :: Clicking
+2023-01-11 21:46:05 INFO  - Error details button is not present
+2023-01-11 21:46:06 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-11 21:46:09 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-11 21:46:10 INFO  - Button 'actionButton' :: Clicking
+2023-01-11 21:46:16 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-11 21:46:16 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-11 21:46:16 INFO  - Label 'lblBookName' :: Clicking
+2023-01-11 21:46:18 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-11 21:46:18 INFO  - Button 'Read' :: Clicking
+2023-01-11 21:46:19 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-11 21:46:19 INFO  - Scrolling 7 times on reader epub screen
+2023-01-11 21:46:32 INFO  - Step 11 - I open font settings
+2023-01-11 21:46:33 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-11 21:46:33 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-01-11 21:46:33 INFO  - Button 'setFontSerif' :: Clicking
+2023-01-11 21:46:34 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-01-11 21:46:35 INFO  - context - NATIVE_APP
+2023-01-11 21:46:35 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-11 21:46:36 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-11 21:46:36 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+    <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.6.0" />
+   
+    <title>The Project Gutenberg eBook of Leo Tolstoy, by G. K. Chesterton, G. H. Perris.</title>
+    <meta content="Ebookmaker 0.10.5 by Project Gutenberg" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="../Styles/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="../Styles/page_styles.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  <body class="x-ebookmaker">
+<h2 id="pgepubid00002" class="calibre5"><a id="TOLSTOY" class="pcalibre2 pcalibre calibre9 pcalibre1"></a>TOLSTOY</h2>
+<div class="figleft"><a id="ill_2" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0002.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY AS AN OFFICER</p>
+</div>
+</div>
+<p class="calibre4"><span>I</span>F any one wishes to form the fullest estimate of the real character and influence of the great man whose name is prefixed to these remarks, he will not find it in his novels, splendid as they are, or in his ethical views, clearly and finely as they are conceived and expanded. He will find it best expressed in the news that has recently come from Canada, that a sect of Russian Christian anarchists has turned all its animals loose, on the ground that it is immoral to possess them or control them. About such an incident as this there is a quality altogether independent of the rightness or wrongness, the sanity or insanity, of the view. It is first and foremost a reminder that the world is still young. There are still theories of life as insanely reasonable as those which were disputed under the clear blue skies of Athens. There are still examples of a faith as fierce and practical as that of the Mahometans, who swept across Africa and Europe, shouting a single word. To the languid contemporary politician and philosopher it seems doubtless like something out of a dream, that in this iron-bound, homogeneous, and clockwork age, a company of European men in boots and waistcoats should begin to insist on taking the horse out of the shafts of the omnibus, and lift the pig out of his pig-sty, and the dog out of his kennel, because of a moral scruple or theory. It is like a page from some fairy farce to imagine the Doukhabor solemnly escorting a hen to the door of the yard and bidding it a benevolent farewell as it sets out on its travels. <a id="page_2" class="pcalibre2 pcalibre pcalibre1" title="{2}"></a></p>
+<table class="bbxx">
+<tbody class="calibre1"><tr class="c1">
+<td class="calibre12"><a id="ill_3" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0003.jpg" alt="[Image unavailable.]" class="calibre2" /></td>
+<td class="calibre12">TOLSTOY<br class="calibre" />
+IN<br class="calibre" />
+HIS<br class="calibre" />
+STUDENT<br class="calibre" />
+DAYS</td>
+</tr>
+</tbody>
+</table>
+<p class="nind">All this, as I say, seems mere muddle-headed absurdity to the typical leader of human society in this decade, to a man like Mr. Balfour, or Mr. Wyndham. But there is nevertheless a further thing to be said, and that is that, if Mr. Balfour could be converted to a religion which taught him that he was morally bound to walk into the House of Commons on his hands, and he did walk on his hands, if Mr. Wyndham could accept a creed which taught that he ought to dye his hair blue, and he did dye his hair blue, they would both of them be, almost beyond description, better and happier men than they are. For there is only one happiness possible or conceivable under the sun, and that is enthusiasm—that strange and splendid<a id="page_3" class="pcalibre2 pcalibre pcalibre1" title="{3}"></a> word that has passed through so many vicissitudes, which meant, in the eighteenth century the condition of a lunatic, and in ancient Greece the presence of a god.</p>
+<div class="figcenter"><a id="ill_4" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0004.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">YASNAYA POLYANA, THE COUNTRY HOME OF COUNT TOLSTOY</p>
+</div>
+</div>
+<p class="calibre4">This great act of heroic consistency which has taken place in Canada is the best example of the work of Tolstoy. It is true (as I believe) that the Doukhabors have an origin quite independent of the great Russian moralist, but there can surely be little doubt that their emergence into importance and the growth and mental distinction of their sect, is due to his admirable summary and justification of their scheme of ethics. Tolstoy, besides being a magnificent novelist, is one of the very few men alive who have a real, solid, and serious view of life. He is a Catholic church, of which he is the only member, the somewhat arrogant Pope and the somewhat submissive layman. He is one of the two or three men in Europe, who have an attitude towards things so entirely their own, that we could supply their inevitable view on anything—a silk hat, a Home Rule Bill, an Indian poem, or a pound of tobacco. There are three men in existence who have such an attitude: Tolstoy, Mr. Bernard Shaw, and my friend Mr. Hilaire Belloc. They are all diametrically opposed to each other, but they all have this essential resemblance,<a id="page_4" class="pcalibre2 pcalibre pcalibre1" title="{4}"></a> that, given their basis of thought, their soil of conviction, their opinions on every earthly subject grow there naturally, like flowers in a field. There are certain views of certain things that they must take: they do not form opinions, the opinions form themselves. Take, for instance, in the case of Tolstoy, the mere list of miscellaneous objects which I wrote down at random above, a silk hat, a Home Rule Bill, an Indian poem, and a pound of tobacco. Tolstoy would say: “I believe in the utmost possible simplification of life; therefore, this silk hat is a black abortion.” He would say: “I believe in the utmost possible simplification of life; therefore, this Home Rule Bill is a mere peddling compromise; it is no good to break up a centralised empire into nations, you must break the nation up into individuals.” He would say: “I believe in the utmost possible simplification of life; therefore, I am interested in this Indian poem, for Eastern ethics, under all their apparent gorgeousness, are far simpler and more Tolstoyan than Western.” He would say: “I believe in the utmost possible simplification of life; therefore, this pound of tobacco is a thing of evil; take it away.” Everything in the world, from the Bible to a bootjack, can be, and is, reduced by Tolstoy to this great fundamental Tolstoyan principle, the simplification of life. When we deal with a body of opinion like this we are dealing with an incident in the history of Europe infinitely more important than the appearance of Napoleon Buonaparte.</p>
+<div class="figcenter"><a id="ill_5" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0005.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">THE APPROACH TO THE PARK AT YASNAYA POLYANA</p>
+</div>
+</div>
+<p class="calibre4">This emergence of Tolstoy, with his awful and simple ethics, is important in more ways than one. Among other things it is a very interesting commentary on an attitude which has been taken up for the matter of half a century by all the avowed opponents of religion. The secularist and the sceptic have denounced Christianity first and<a id="page_5" class="pcalibre2 pcalibre pcalibre1" title="{5}"></a></p>
+<div class="figcenter"><a id="ill_6" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0006.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">THE GATEWAY-ENTRANCE TO YASNAYA POLYANA</p>
+</div>
+</div>
+<p class="nind">foremost, because of its encouragement of fanaticism; because religious excitement led men to burn their neighbours, and to dance naked down the street. How queer it all sounds now. Religion can be swept out of the matter altogether, and still there are philosophical and ethical theories which can produce fanaticism enough to fill the world. Fanaticism has nothing at all to do with religion. There are grave scientific theories which, if carried out logically, would result in the same fires in the market-place and the same nakedness in the street. There are modern æsthetes who would expose themselves like the Adamites if they could do it in elegant attitudes. There are modern scientific moralists who would burn their opponents alive, and would be quite contented if they were burnt by some new chemical process. And if any one doubts this proposition—that fanaticism has nothing to do with religion, but has only to do with human nature—let him take this case of Tolstoy and the Doukhabors. A sect of men start with no theology at all, but with the simple doctrine that we ought to love our neighbour and use no force against him, and they end in thinking it wicked to carry a leather handbag, or to ride in a cart. A great modern writer who erases theology altogether, denies the validity of the Scriptures and the Churches alike, forms a purely ethical theory that love should be the instrument of reform, and ends by maintaining that we have no right to strike a man if he is torturing a child before our eyes. He goes on, he develops a theory of the mind and the emotions, which might be held by the most rigid atheist, and he ends by maintaining that the sexual<a id="page_6" class="pcalibre2 pcalibre pcalibre1" title="{6}"></a> relation out of which all humanity has come, is not only not moral, but is positively not natural. This is fanaticism as it has been and as it will always be. Destroy the last copy of the Bible, and persecution and insane orgies will be founded on Mr. Herbert Spencer’s “Synthetic Philosophy.” Some of the broadest thinkers of the Middle Ages believed in faggots, and some of the broadest thinkers in the nineteenth century believe in dynamite.</p>
+<div class="figcenter"><a id="ill_7" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0007.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY WITH HIS BICYCLE</p>
+<p class="calibre3">(Photographed in 1896)</p>
+</div>
+</div>
+<p class="calibre4">The truth is that Tolstoy, with his immense genius, with his colossal faith, with his vast fearlessness and vast knowledge of life, is deficient in one faculty and one faculty alone. He is not a mystic: and therefore he has a tendency to go mad. Men talk of the extravagances and frenzies that have been produced by mysticism: they are a mere drop in the bucket. In the main, and from the beginning of time, mysticism has kept men sane. The thing that has driven them mad was logic. It is significant that, with all that has been said about the excitability of poets, only one English poet ever went mad, and he went mad from a logical system of theology. He was Cowper, and his poetry retarded his insanity for many years. So poetry, in which Tolstoy is deficient, has always been a tonic and sanative thing. The only thing that has kept the race of men from the mad extremes of the convent and the pirate-galley, the night-club and the lethal chamber, has been mysticism—the belief that logic is misleading, and that things are not what they seem.</p>
+<p class="r"><span class="smcap1">G. K. Chesterton.</span><br class="calibre" /></p>
+<p class="calibre4"><a id="page_7" class="pcalibre2 pcalibre pcalibre1" title="{7}"></a></p>
+<div class="figcenter"><a id="ill_8" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0008.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">“THE TREE OF THE POOR”</p>
+<p class="calibre3">Where Tolstoy receives the peasants and listens with unwearying patience to their tales of distress</p>
+</div>
+</div>
+<div class="figleft"><a id="ill_9" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0009.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY, AN EARLY PORTRAIT</p>
+</div>
+</div>
+</body>
+</html>
+2023-01-11 21:46:36 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-11 21:46:37 INFO  - Step 14 - I restart app
+2023-01-11 21:47:01 INFO  - Step 15 - I open Books
+2023-01-11 21:47:01 INFO  - Button 'tabBooks' :: Clicking
+2023-01-11 21:47:02 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-11 21:47:03 INFO  - Label 'lblBookName' :: Clicking
+2023-01-11 21:47:03 INFO  - Step 17 - Click READ action button on book details screen
+2023-01-11 21:47:04 INFO  - Button 'Read' :: Clicking
+2023-01-11 21:47:05 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-01-11 21:47:05 INFO  - context - NATIVE_APP
+2023-01-11 21:47:07 INFO  - context - NATIVE_APP
+2023-01-11 21:47:07 INFO  - context - NATIVE_APP
+2023-01-11 21:47:07 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-11 21:47:09 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-11 21:47:09 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+    <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.6.0" />
+   
+    <title>The Project Gutenberg eBook of Leo Tolstoy, by G. K. Chesterton, G. H. Perris.</title>
+    <meta content="Ebookmaker 0.10.5 by Project Gutenberg" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="../Styles/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="../Styles/page_styles.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  <body class="x-ebookmaker">
+<h2 id="pgepubid00002" class="calibre5"><a id="TOLSTOY" class="pcalibre2 pcalibre calibre9 pcalibre1"></a>TOLSTOY</h2>
+<div class="figleft"><a id="ill_2" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0002.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY AS AN OFFICER</p>
+</div>
+</div>
+<p class="calibre4"><span>I</span>F any one wishes to form the fullest estimate of the real character and influence of the great man whose name is prefixed to these remarks, he will not find it in his novels, splendid as they are, or in his ethical views, clearly and finely as they are conceived and expanded. He will find it best expressed in the news that has recently come from Canada, that a sect of Russian Christian anarchists has turned all its animals loose, on the ground that it is immoral to possess them or control them. About such an incident as this there is a quality altogether independent of the rightness or wrongness, the sanity or insanity, of the view. It is first and foremost a reminder that the world is still young. There are still theories of life as insanely reasonable as those which were disputed under the clear blue skies of Athens. There are still examples of a faith as fierce and practical as that of the Mahometans, who swept across Africa and Europe, shouting a single word. To the languid contemporary politician and philosopher it seems doubtless like something out of a dream, that in this iron-bound, homogeneous, and clockwork age, a company of European men in boots and waistcoats should begin to insist on taking the horse out of the shafts of the omnibus, and lift the pig out of his pig-sty, and the dog out of his kennel, because of a moral scruple or theory. It is like a page from some fairy farce to imagine the Doukhabor solemnly escorting a hen to the door of the yard and bidding it a benevolent farewell as it sets out on its travels. <a id="page_2" class="pcalibre2 pcalibre pcalibre1" title="{2}"></a></p>
+<table class="bbxx">
+<tbody class="calibre1"><tr class="c1">
+<td class="calibre12"><a id="ill_3" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0003.jpg" alt="[Image unavailable.]" class="calibre2" /></td>
+<td class="calibre12">TOLSTOY<br class="calibre" />
+IN<br class="calibre" />
+HIS<br class="calibre" />
+STUDENT<br class="calibre" />
+DAYS</td>
+</tr>
+</tbody>
+</table>
+<p class="nind">All this, as I say, seems mere muddle-headed absurdity to the typical leader of human society in this decade, to a man like Mr. Balfour, or Mr. Wyndham. But there is nevertheless a further thing to be said, and that is that, if Mr. Balfour could be converted to a religion which taught him that he was morally bound to walk into the House of Commons on his hands, and he did walk on his hands, if Mr. Wyndham could accept a creed which taught that he ought to dye his hair blue, and he did dye his hair blue, they would both of them be, almost beyond description, better and happier men than they are. For there is only one happiness possible or conceivable under the sun, and that is enthusiasm—that strange and splendid<a id="page_3" class="pcalibre2 pcalibre pcalibre1" title="{3}"></a> word that has passed through so many vicissitudes, which meant, in the eighteenth century the condition of a lunatic, and in ancient Greece the presence of a god.</p>
+<div class="figcenter"><a id="ill_4" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0004.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">YASNAYA POLYANA, THE COUNTRY HOME OF COUNT TOLSTOY</p>
+</div>
+</div>
+<p class="calibre4">This great act of heroic consistency which has taken place in Canada is the best example of the work of Tolstoy. It is true (as I believe) that the Doukhabors have an origin quite independent of the great Russian moralist, but there can surely be little doubt that their emergence into importance and the growth and mental distinction of their sect, is due to his admirable summary and justification of their scheme of ethics. Tolstoy, besides being a magnificent novelist, is one of the very few men alive who have a real, solid, and serious view of life. He is a Catholic church, of which he is the only member, the somewhat arrogant Pope and the somewhat submissive layman. He is one of the two or three men in Europe, who have an attitude towards things so entirely their own, that we could supply their inevitable view on anything—a silk hat, a Home Rule Bill, an Indian poem, or a pound of tobacco. There are three men in existence who have such an attitude: Tolstoy, Mr. Bernard Shaw, and my friend Mr. Hilaire Belloc. They are all diametrically opposed to each other, but they all have this essential resemblance,<a id="page_4" class="pcalibre2 pcalibre pcalibre1" title="{4}"></a> that, given their basis of thought, their soil of conviction, their opinions on every earthly subject grow there naturally, like flowers in a field. There are certain views of certain things that they must take: they do not form opinions, the opinions form themselves. Take, for instance, in the case of Tolstoy, the mere list of miscellaneous objects which I wrote down at random above, a silk hat, a Home Rule Bill, an Indian poem, and a pound of tobacco. Tolstoy would say: “I believe in the utmost possible simplification of life; therefore, this silk hat is a black abortion.” He would say: “I believe in the utmost possible simplification of life; therefore, this Home Rule Bill is a mere peddling compromise; it is no good to break up a centralised empire into nations, you must break the nation up into individuals.” He would say: “I believe in the utmost possible simplification of life; therefore, I am interested in this Indian poem, for Eastern ethics, under all their apparent gorgeousness, are far simpler and more Tolstoyan than Western.” He would say: “I believe in the utmost possible simplification of life; therefore, this pound of tobacco is a thing of evil; take it away.” Everything in the world, from the Bible to a bootjack, can be, and is, reduced by Tolstoy to this great fundamental Tolstoyan principle, the simplification of life. When we deal with a body of opinion like this we are dealing with an incident in the history of Europe infinitely more important than the appearance of Napoleon Buonaparte.</p>
+<div class="figcenter"><a id="ill_5" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0005.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">THE APPROACH TO THE PARK AT YASNAYA POLYANA</p>
+</div>
+</div>
+<p class="calibre4">This emergence of Tolstoy, with his awful and simple ethics, is important in more ways than one. Among other things it is a very interesting commentary on an attitude which has been taken up for the matter of half a century by all the avowed opponents of religion. The secularist and the sceptic have denounced Christianity first and<a id="page_5" class="pcalibre2 pcalibre pcalibre1" title="{5}"></a></p>
+<div class="figcenter"><a id="ill_6" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0006.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">THE GATEWAY-ENTRANCE TO YASNAYA POLYANA</p>
+</div>
+</div>
+<p class="nind">foremost, because of its encouragement of fanaticism; because religious excitement led men to burn their neighbours, and to dance naked down the street. How queer it all sounds now. Religion can be swept out of the matter altogether, and still there are philosophical and ethical theories which can produce fanaticism enough to fill the world. Fanaticism has nothing at all to do with religion. There are grave scientific theories which, if carried out logically, would result in the same fires in the market-place and the same nakedness in the street. There are modern æsthetes who would expose themselves like the Adamites if they could do it in elegant attitudes. There are modern scientific moralists who would burn their opponents alive, and would be quite contented if they were burnt by some new chemical process. And if any one doubts this proposition—that fanaticism has nothing to do with religion, but has only to do with human nature—let him take this case of Tolstoy and the Doukhabors. A sect of men start with no theology at all, but with the simple doctrine that we ought to love our neighbour and use no force against him, and they end in thinking it wicked to carry a leather handbag, or to ride in a cart. A great modern writer who erases theology altogether, denies the validity of the Scriptures and the Churches alike, forms a purely ethical theory that love should be the instrument of reform, and ends by maintaining that we have no right to strike a man if he is torturing a child before our eyes. He goes on, he develops a theory of the mind and the emotions, which might be held by the most rigid atheist, and he ends by maintaining that the sexual<a id="page_6" class="pcalibre2 pcalibre pcalibre1" title="{6}"></a> relation out of which all humanity has come, is not only not moral, but is positively not natural. This is fanaticism as it has been and as it will always be. Destroy the last copy of the Bible, and persecution and insane orgies will be founded on Mr. Herbert Spencer’s “Synthetic Philosophy.” Some of the broadest thinkers of the Middle Ages believed in faggots, and some of the broadest thinkers in the nineteenth century believe in dynamite.</p>
+<div class="figcenter"><a id="ill_7" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0007.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY WITH HIS BICYCLE</p>
+<p class="calibre3">(Photographed in 1896)</p>
+</div>
+</div>
+<p class="calibre4">The truth is that Tolstoy, with his immense genius, with his colossal faith, with his vast fearlessness and vast knowledge of life, is deficient in one faculty and one faculty alone. He is not a mystic: and therefore he has a tendency to go mad. Men talk of the extravagances and frenzies that have been produced by mysticism: they are a mere drop in the bucket. In the main, and from the beginning of time, mysticism has kept men sane. The thing that has driven them mad was logic. It is significant that, with all that has been said about the excitability of poets, only one English poet ever went mad, and he went mad from a logical system of theology. He was Cowper, and his poetry retarded his insanity for many years. So poetry, in which Tolstoy is deficient, has always been a tonic and sanative thing. The only thing that has kept the race of men from the mad extremes of the convent and the pirate-galley, the night-club and the lethal chamber, has been mysticism—the belief that logic is misleading, and that things are not what they seem.</p>
+<p class="r"><span class="smcap1">G. K. Chesterton.</span><br class="calibre" /></p>
+<p class="calibre4"><a id="page_7" class="pcalibre2 pcalibre pcalibre1" title="{7}"></a></p>
+<div class="figcenter"><a id="ill_8" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0008.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">“THE TREE OF THE POOR”</p>
+<p class="calibre3">Where Tolstoy receives the peasants and listens with unwearying patience to their tales of distress</p>
+</div>
+</div>
+<div class="figleft"><a id="ill_9" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0009.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY, AN EARLY PORTRAIT</p>
+</div>
+</div>
+</body>
+</html>
+2023-01-11 21:47:09 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-11 21:47:10 INFO  - Step 19 - I return to previous screen from epub
+2023-01-11 21:47:10 INFO  - Button 'btnBack' :: Clicking
+2023-01-11 21:47:11 INFO  - Step 20 - Click READ action button on book details screen
+2023-01-11 21:47:12 INFO  - Button 'Read' :: Clicking
+2023-01-11 21:47:13 INFO  - Step 21 - Book text displays in FONT_SERIF font
+2023-01-11 21:47:14 INFO  - context - NATIVE_APP
+2023-01-11 21:47:14 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-11 21:47:16 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-11 21:47:16 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+    <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.6.0" />
+   
+    <title>The Project Gutenberg eBook of Leo Tolstoy, by G. K. Chesterton, G. H. Perris.</title>
+    <meta content="Ebookmaker 0.10.5 by Project Gutenberg" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="../Styles/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="../Styles/page_styles.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  <body class="x-ebookmaker">
+<h2 id="pgepubid00002" class="calibre5"><a id="TOLSTOY" class="pcalibre2 pcalibre calibre9 pcalibre1"></a>TOLSTOY</h2>
+<div class="figleft"><a id="ill_2" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0002.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY AS AN OFFICER</p>
+</div>
+</div>
+<p class="calibre4"><span>I</span>F any one wishes to form the fullest estimate of the real character and influence of the great man whose name is prefixed to these remarks, he will not find it in his novels, splendid as they are, or in his ethical views, clearly and finely as they are conceived and expanded. He will find it best expressed in the news that has recently come from Canada, that a sect of Russian Christian anarchists has turned all its animals loose, on the ground that it is immoral to possess them or control them. About such an incident as this there is a quality altogether independent of the rightness or wrongness, the sanity or insanity, of the view. It is first and foremost a reminder that the world is still young. There are still theories of life as insanely reasonable as those which were disputed under the clear blue skies of Athens. There are still examples of a faith as fierce and practical as that of the Mahometans, who swept across Africa and Europe, shouting a single word. To the languid contemporary politician and philosopher it seems doubtless like something out of a dream, that in this iron-bound, homogeneous, and clockwork age, a company of European men in boots and waistcoats should begin to insist on taking the horse out of the shafts of the omnibus, and lift the pig out of his pig-sty, and the dog out of his kennel, because of a moral scruple or theory. It is like a page from some fairy farce to imagine the Doukhabor solemnly escorting a hen to the door of the yard and bidding it a benevolent farewell as it sets out on its travels. <a id="page_2" class="pcalibre2 pcalibre pcalibre1" title="{2}"></a></p>
+<table class="bbxx">
+<tbody class="calibre1"><tr class="c1">
+<td class="calibre12"><a id="ill_3" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0003.jpg" alt="[Image unavailable.]" class="calibre2" /></td>
+<td class="calibre12">TOLSTOY<br class="calibre" />
+IN<br class="calibre" />
+HIS<br class="calibre" />
+STUDENT<br class="calibre" />
+DAYS</td>
+</tr>
+</tbody>
+</table>
+<p class="nind">All this, as I say, seems mere muddle-headed absurdity to the typical leader of human society in this decade, to a man like Mr. Balfour, or Mr. Wyndham. But there is nevertheless a further thing to be said, and that is that, if Mr. Balfour could be converted to a religion which taught him that he was morally bound to walk into the House of Commons on his hands, and he did walk on his hands, if Mr. Wyndham could accept a creed which taught that he ought to dye his hair blue, and he did dye his hair blue, they would both of them be, almost beyond description, better and happier men than they are. For there is only one happiness possible or conceivable under the sun, and that is enthusiasm—that strange and splendid<a id="page_3" class="pcalibre2 pcalibre pcalibre1" title="{3}"></a> word that has passed through so many vicissitudes, which meant, in the eighteenth century the condition of a lunatic, and in ancient Greece the presence of a god.</p>
+<div class="figcenter"><a id="ill_4" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0004.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">YASNAYA POLYANA, THE COUNTRY HOME OF COUNT TOLSTOY</p>
+</div>
+</div>
+<p class="calibre4">This great act of heroic consistency which has taken place in Canada is the best example of the work of Tolstoy. It is true (as I believe) that the Doukhabors have an origin quite independent of the great Russian moralist, but there can surely be little doubt that their emergence into importance and the growth and mental distinction of their sect, is due to his admirable summary and justification of their scheme of ethics. Tolstoy, besides being a magnificent novelist, is one of the very few men alive who have a real, solid, and serious view of life. He is a Catholic church, of which he is the only member, the somewhat arrogant Pope and the somewhat submissive layman. He is one of the two or three men in Europe, who have an attitude towards things so entirely their own, that we could supply their inevitable view on anything—a silk hat, a Home Rule Bill, an Indian poem, or a pound of tobacco. There are three men in existence who have such an attitude: Tolstoy, Mr. Bernard Shaw, and my friend Mr. Hilaire Belloc. They are all diametrically opposed to each other, but they all have this essential resemblance,<a id="page_4" class="pcalibre2 pcalibre pcalibre1" title="{4}"></a> that, given their basis of thought, their soil of conviction, their opinions on every earthly subject grow there naturally, like flowers in a field. There are certain views of certain things that they must take: they do not form opinions, the opinions form themselves. Take, for instance, in the case of Tolstoy, the mere list of miscellaneous objects which I wrote down at random above, a silk hat, a Home Rule Bill, an Indian poem, and a pound of tobacco. Tolstoy would say: “I believe in the utmost possible simplification of life; therefore, this silk hat is a black abortion.” He would say: “I believe in the utmost possible simplification of life; therefore, this Home Rule Bill is a mere peddling compromise; it is no good to break up a centralised empire into nations, you must break the nation up into individuals.” He would say: “I believe in the utmost possible simplification of life; therefore, I am interested in this Indian poem, for Eastern ethics, under all their apparent gorgeousness, are far simpler and more Tolstoyan than Western.” He would say: “I believe in the utmost possible simplification of life; therefore, this pound of tobacco is a thing of evil; take it away.” Everything in the world, from the Bible to a bootjack, can be, and is, reduced by Tolstoy to this great fundamental Tolstoyan principle, the simplification of life. When we deal with a body of opinion like this we are dealing with an incident in the history of Europe infinitely more important than the appearance of Napoleon Buonaparte.</p>
+<div class="figcenter"><a id="ill_5" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0005.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">THE APPROACH TO THE PARK AT YASNAYA POLYANA</p>
+</div>
+</div>
+<p class="calibre4">This emergence of Tolstoy, with his awful and simple ethics, is important in more ways than one. Among other things it is a very interesting commentary on an attitude which has been taken up for the matter of half a century by all the avowed opponents of religion. The secularist and the sceptic have denounced Christianity first and<a id="page_5" class="pcalibre2 pcalibre pcalibre1" title="{5}"></a></p>
+<div class="figcenter"><a id="ill_6" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0006.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">THE GATEWAY-ENTRANCE TO YASNAYA POLYANA</p>
+</div>
+</div>
+<p class="nind">foremost, because of its encouragement of fanaticism; because religious excitement led men to burn their neighbours, and to dance naked down the street. How queer it all sounds now. Religion can be swept out of the matter altogether, and still there are philosophical and ethical theories which can produce fanaticism enough to fill the world. Fanaticism has nothing at all to do with religion. There are grave scientific theories which, if carried out logically, would result in the same fires in the market-place and the same nakedness in the street. There are modern æsthetes who would expose themselves like the Adamites if they could do it in elegant attitudes. There are modern scientific moralists who would burn their opponents alive, and would be quite contented if they were burnt by some new chemical process. And if any one doubts this proposition—that fanaticism has nothing to do with religion, but has only to do with human nature—let him take this case of Tolstoy and the Doukhabors. A sect of men start with no theology at all, but with the simple doctrine that we ought to love our neighbour and use no force against him, and they end in thinking it wicked to carry a leather handbag, or to ride in a cart. A great modern writer who erases theology altogether, denies the validity of the Scriptures and the Churches alike, forms a purely ethical theory that love should be the instrument of reform, and ends by maintaining that we have no right to strike a man if he is torturing a child before our eyes. He goes on, he develops a theory of the mind and the emotions, which might be held by the most rigid atheist, and he ends by maintaining that the sexual<a id="page_6" class="pcalibre2 pcalibre pcalibre1" title="{6}"></a> relation out of which all humanity has come, is not only not moral, but is positively not natural. This is fanaticism as it has been and as it will always be. Destroy the last copy of the Bible, and persecution and insane orgies will be founded on Mr. Herbert Spencer’s “Synthetic Philosophy.” Some of the broadest thinkers of the Middle Ages believed in faggots, and some of the broadest thinkers in the nineteenth century believe in dynamite.</p>
+<div class="figcenter"><a id="ill_7" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0007.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY WITH HIS BICYCLE</p>
+<p class="calibre3">(Photographed in 1896)</p>
+</div>
+</div>
+<p class="calibre4">The truth is that Tolstoy, with his immense genius, with his colossal faith, with his vast fearlessness and vast knowledge of life, is deficient in one faculty and one faculty alone. He is not a mystic: and therefore he has a tendency to go mad. Men talk of the extravagances and frenzies that have been produced by mysticism: they are a mere drop in the bucket. In the main, and from the beginning of time, mysticism has kept men sane. The thing that has driven them mad was logic. It is significant that, with all that has been said about the excitability of poets, only one English poet ever went mad, and he went mad from a logical system of theology. He was Cowper, and his poetry retarded his insanity for many years. So poetry, in which Tolstoy is deficient, has always been a tonic and sanative thing. The only thing that has kept the race of men from the mad extremes of the convent and the pirate-galley, the night-club and the lethal chamber, has been mysticism—the belief that logic is misleading, and that things are not what they seem.</p>
+<p class="r"><span class="smcap1">G. K. Chesterton.</span><br class="calibre" /></p>
+<p class="calibre4"><a id="page_7" class="pcalibre2 pcalibre pcalibre1" title="{7}"></a></p>
+<div class="figcenter"><a id="ill_8" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0008.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">“THE TREE OF THE POOR”</p>
+<p class="calibre3">Where Tolstoy receives the peasants and listens with unwearying patience to their tales of distress</p>
+</div>
+</div>
+<div class="figleft"><a id="ill_9" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0009.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY, AN EARLY PORTRAIT</p>
+</div>
+</div>
+</body>
+</html>
+2023-01-11 21:47:16 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-11 21:47:17 INFO  - Step 22 - I open font settings
+2023-01-11 21:47:17 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-11 21:47:18 INFO  - Step 23 - I change font style to FONT_SANS
+2023-01-11 21:47:18 INFO  - Button 'setFontSans' :: Clicking
+2023-01-11 21:47:19 INFO  - Step 24 - Book text displays in FONT_SANS font
+2023-01-11 21:47:20 INFO  - context - NATIVE_APP
+2023-01-11 21:47:20 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-11 21:47:21 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-11 21:47:21 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+    <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.6.0" />
+   
+    <title>The Project Gutenberg eBook of Leo Tolstoy, by G. K. Chesterton, G. H. Perris.</title>
+    <meta content="Ebookmaker 0.10.5 by Project Gutenberg" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="../Styles/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="../Styles/page_styles.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  <body class="x-ebookmaker">
+<h2 id="pgepubid00002" class="calibre5"><a id="TOLSTOY" class="pcalibre2 pcalibre calibre9 pcalibre1"></a>TOLSTOY</h2>
+<div class="figleft"><a id="ill_2" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0002.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY AS AN OFFICER</p>
+</div>
+</div>
+<p class="calibre4"><span>I</span>F any one wishes to form the fullest estimate of the real character and influence of the great man whose name is prefixed to these remarks, he will not find it in his novels, splendid as they are, or in his ethical views, clearly and finely as they are conceived and expanded. He will find it best expressed in the news that has recently come from Canada, that a sect of Russian Christian anarchists has turned all its animals loose, on the ground that it is immoral to possess them or control them. About such an incident as this there is a quality altogether independent of the rightness or wrongness, the sanity or insanity, of the view. It is first and foremost a reminder that the world is still young. There are still theories of life as insanely reasonable as those which were disputed under the clear blue skies of Athens. There are still examples of a faith as fierce and practical as that of the Mahometans, who swept across Africa and Europe, shouting a single word. To the languid contemporary politician and philosopher it seems doubtless like something out of a dream, that in this iron-bound, homogeneous, and clockwork age, a company of European men in boots and waistcoats should begin to insist on taking the horse out of the shafts of the omnibus, and lift the pig out of his pig-sty, and the dog out of his kennel, because of a moral scruple or theory. It is like a page from some fairy farce to imagine the Doukhabor solemnly escorting a hen to the door of the yard and bidding it a benevolent farewell as it sets out on its travels. <a id="page_2" class="pcalibre2 pcalibre pcalibre1" title="{2}"></a></p>
+<table class="bbxx">
+<tbody class="calibre1"><tr class="c1">
+<td class="calibre12"><a id="ill_3" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0003.jpg" alt="[Image unavailable.]" class="calibre2" /></td>
+<td class="calibre12">TOLSTOY<br class="calibre" />
+IN<br class="calibre" />
+HIS<br class="calibre" />
+STUDENT<br class="calibre" />
+DAYS</td>
+</tr>
+</tbody>
+</table>
+<p class="nind">All this, as I say, seems mere muddle-headed absurdity to the typical leader of human society in this decade, to a man like Mr. Balfour, or Mr. Wyndham. But there is nevertheless a further thing to be said, and that is that, if Mr. Balfour could be converted to a religion which taught him that he was morally bound to walk into the House of Commons on his hands, and he did walk on his hands, if Mr. Wyndham could accept a creed which taught that he ought to dye his hair blue, and he did dye his hair blue, they would both of them be, almost beyond description, better and happier men than they are. For there is only one happiness possible or conceivable under the sun, and that is enthusiasm—that strange and splendid<a id="page_3" class="pcalibre2 pcalibre pcalibre1" title="{3}"></a> word that has passed through so many vicissitudes, which meant, in the eighteenth century the condition of a lunatic, and in ancient Greece the presence of a god.</p>
+<div class="figcenter"><a id="ill_4" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0004.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">YASNAYA POLYANA, THE COUNTRY HOME OF COUNT TOLSTOY</p>
+</div>
+</div>
+<p class="calibre4">This great act of heroic consistency which has taken place in Canada is the best example of the work of Tolstoy. It is true (as I believe) that the Doukhabors have an origin quite independent of the great Russian moralist, but there can surely be little doubt that their emergence into importance and the growth and mental distinction of their sect, is due to his admirable summary and justification of their scheme of ethics. Tolstoy, besides being a magnificent novelist, is one of the very few men alive who have a real, solid, and serious view of life. He is a Catholic church, of which he is the only member, the somewhat arrogant Pope and the somewhat submissive layman. He is one of the two or three men in Europe, who have an attitude towards things so entirely their own, that we could supply their inevitable view on anything—a silk hat, a Home Rule Bill, an Indian poem, or a pound of tobacco. There are three men in existence who have such an attitude: Tolstoy, Mr. Bernard Shaw, and my friend Mr. Hilaire Belloc. They are all diametrically opposed to each other, but they all have this essential resemblance,<a id="page_4" class="pcalibre2 pcalibre pcalibre1" title="{4}"></a> that, given their basis of thought, their soil of conviction, their opinions on every earthly subject grow there naturally, like flowers in a field. There are certain views of certain things that they must take: they do not form opinions, the opinions form themselves. Take, for instance, in the case of Tolstoy, the mere list of miscellaneous objects which I wrote down at random above, a silk hat, a Home Rule Bill, an Indian poem, and a pound of tobacco. Tolstoy would say: “I believe in the utmost possible simplification of life; therefore, this silk hat is a black abortion.” He would say: “I believe in the utmost possible simplification of life; therefore, this Home Rule Bill is a mere peddling compromise; it is no good to break up a centralised empire into nations, you must break the nation up into individuals.” He would say: “I believe in the utmost possible simplification of life; therefore, I am interested in this Indian poem, for Eastern ethics, under all their apparent gorgeousness, are far simpler and more Tolstoyan than Western.” He would say: “I believe in the utmost possible simplification of life; therefore, this pound of tobacco is a thing of evil; take it away.” Everything in the world, from the Bible to a bootjack, can be, and is, reduced by Tolstoy to this great fundamental Tolstoyan principle, the simplification of life. When we deal with a body of opinion like this we are dealing with an incident in the history of Europe infinitely more important than the appearance of Napoleon Buonaparte.</p>
+<div class="figcenter"><a id="ill_5" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0005.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">THE APPROACH TO THE PARK AT YASNAYA POLYANA</p>
+</div>
+</div>
+<p class="calibre4">This emergence of Tolstoy, with his awful and simple ethics, is important in more ways than one. Among other things it is a very interesting commentary on an attitude which has been taken up for the matter of half a century by all the avowed opponents of religion. The secularist and the sceptic have denounced Christianity first and<a id="page_5" class="pcalibre2 pcalibre pcalibre1" title="{5}"></a></p>
+<div class="figcenter"><a id="ill_6" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0006.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">THE GATEWAY-ENTRANCE TO YASNAYA POLYANA</p>
+</div>
+</div>
+<p class="nind">foremost, because of its encouragement of fanaticism; because religious excitement led men to burn their neighbours, and to dance naked down the street. How queer it all sounds now. Religion can be swept out of the matter altogether, and still there are philosophical and ethical theories which can produce fanaticism enough to fill the world. Fanaticism has nothing at all to do with religion. There are grave scientific theories which, if carried out logically, would result in the same fires in the market-place and the same nakedness in the street. There are modern æsthetes who would expose themselves like the Adamites if they could do it in elegant attitudes. There are modern scientific moralists who would burn their opponents alive, and would be quite contented if they were burnt by some new chemical process. And if any one doubts this proposition—that fanaticism has nothing to do with religion, but has only to do with human nature—let him take this case of Tolstoy and the Doukhabors. A sect of men start with no theology at all, but with the simple doctrine that we ought to love our neighbour and use no force against him, and they end in thinking it wicked to carry a leather handbag, or to ride in a cart. A great modern writer who erases theology altogether, denies the validity of the Scriptures and the Churches alike, forms a purely ethical theory that love should be the instrument of reform, and ends by maintaining that we have no right to strike a man if he is torturing a child before our eyes. He goes on, he develops a theory of the mind and the emotions, which might be held by the most rigid atheist, and he ends by maintaining that the sexual<a id="page_6" class="pcalibre2 pcalibre pcalibre1" title="{6}"></a> relation out of which all humanity has come, is not only not moral, but is positively not natural. This is fanaticism as it has been and as it will always be. Destroy the last copy of the Bible, and persecution and insane orgies will be founded on Mr. Herbert Spencer’s “Synthetic Philosophy.” Some of the broadest thinkers of the Middle Ages believed in faggots, and some of the broadest thinkers in the nineteenth century believe in dynamite.</p>
+<div class="figcenter"><a id="ill_7" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0007.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY WITH HIS BICYCLE</p>
+<p class="calibre3">(Photographed in 1896)</p>
+</div>
+</div>
+<p class="calibre4">The truth is that Tolstoy, with his immense genius, with his colossal faith, with his vast fearlessness and vast knowledge of life, is deficient in one faculty and one faculty alone. He is not a mystic: and therefore he has a tendency to go mad. Men talk of the extravagances and frenzies that have been produced by mysticism: they are a mere drop in the bucket. In the main, and from the beginning of time, mysticism has kept men sane. The thing that has driven them mad was logic. It is significant that, with all that has been said about the excitability of poets, only one English poet ever went mad, and he went mad from a logical system of theology. He was Cowper, and his poetry retarded his insanity for many years. So poetry, in which Tolstoy is deficient, has always been a tonic and sanative thing. The only thing that has kept the race of men from the mad extremes of the convent and the pirate-galley, the night-club and the lethal chamber, has been mysticism—the belief that logic is misleading, and that things are not what they seem.</p>
+<p class="r"><span class="smcap1">G. K. Chesterton.</span><br class="calibre" /></p>
+<p class="calibre4"><a id="page_7" class="pcalibre2 pcalibre pcalibre1" title="{7}"></a></p>
+<div class="figcenter"><a id="ill_8" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0008.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">“THE TREE OF THE POOR”</p>
+<p class="calibre3">Where Tolstoy receives the peasants and listens with unwearying patience to their tales of distress</p>
+</div>
+</div>
+<div class="figleft"><a id="ill_9" class="pcalibre2 pcalibre pcalibre1"></a> <img src="../Images/img0009.jpg" alt="[Image unavailable.]" class="calibre2" />
+<div class="caption">
+<p class="calibre3">TOLSTOY, AN EARLY PORTRAIT</p>
+</div>
+</div>
+</body>
+</html>
+2023-01-11 21:47:21 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-11 21:47:22 INFO  - Taking screenshot
+2023-01-11 21:47:23 INFO  - Test finished - logging out
+2023-01-11 21:47:25 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:47:27 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:47:28 INFO  - Button 'Accounts' :: Clicking
+2023-01-11 21:47:29 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-11 21:47:31 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-11 21:47:31 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-11 21:47:33 INFO  - Button 'Log out' :: Clicking
+2023-01-11 21:47:33 INFO  - Button 'Log in' :: Getting text from element
+2023-01-11 21:47:37 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-11 21:47:37 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-11 21:47:38 INFO  - Unlocking credential for current thread
+2023-01-11 21:47:38 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@74fd2129

@@ -1,0 +1,1078 @@
+2023-01-11 21:32:53 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-01-11 21:32:53 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-11 21:33:20 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-11 21:33:20 INFO  - Session id - 2ba36b7860a0bf0139ea1a05777eaf78e2219835
+2023-01-11 21:33:20 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-11 21:33:20 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-11 21:33:23 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-11 21:33:23 INFO  - Button 'Search' :: Clicking
+2023-01-11 21:33:25 INFO  - Text Field 'Search' :: Clearing
+2023-01-11 21:33:25 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-11 21:33:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-11 21:33:28 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-11 21:33:28 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:33:29 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:33:30 INFO  - Button 'Accounts' :: Clicking
+2023-01-11 21:33:32 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-11 21:33:32 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:33:33 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:33:33 INFO  - Button 'Accounts' :: Clicking
+2023-01-11 21:33:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-11 21:33:36 INFO  - Locking credential with barcode 01230000000304
+2023-01-11 21:33:36 INFO  - There are books on the account: 
+2023-01-11 21:33:37 INFO  - There is not books on the account.
+2023-01-11 21:33:37 INFO  - Count of books on the account after opening account: 0
+2023-01-11 21:33:37 INFO  - Text Field 'Card' :: Clearing
+2023-01-11 21:33:37 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-11 21:33:39 INFO  - Text Field 'Pin' :: Clearing
+2023-01-11 21:33:39 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-11 21:33:40 INFO  - Button 'Log in' :: Clicking
+2023-01-11 21:33:46 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-11 21:33:46 INFO  - Step 3 - Login is performed successfully
+2023-01-11 21:34:08 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-11 21:34:08 INFO  - Step 4 - I open Catalog
+2023-01-11 21:34:08 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-11 21:34:29 INFO  - Step 5 - I open search modal
+2023-01-11 21:34:49 INFO  - Button 'Search' :: Clicking
+2023-01-11 21:34:51 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-11 21:34:51 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-11 21:34:51 INFO  - randomBookName: The Voyages of the Discovery
+2023-01-11 21:34:51 INFO  - Error details button is not present
+2023-01-11 21:34:51 INFO  - Text Field 'Search value input' :: Sending keys 'The Voyages of the Discovery'
+2023-01-11 21:34:52 INFO  - Button 'Apply search' :: Clicking
+2023-01-11 21:34:54 INFO  - Error details button is not present
+2023-01-11 21:34:58 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-11 21:34:58 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-11 21:35:00 INFO  - Button 'actionButton' :: Clicking
+2023-01-11 21:35:42 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-11 21:35:43 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-11 21:35:43 INFO  - Label 'lblBookName' :: Clicking
+2023-01-11 21:35:44 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-11 21:35:45 INFO  - Button 'Read' :: Clicking
+2023-01-11 21:35:46 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-11 21:35:46 INFO  - Scrolling 7 times on reader epub screen
+2023-01-11 21:36:03 INFO  - Step 11 - I save font size as 'fontSize'
+2023-01-11 21:36:03 INFO  - context - NATIVE_APP
+2023-01-11 21:36:03 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-11 21:36:05 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-11 21:36:05 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Voyages of the Discovery</title>
+<link rel="stylesheet" type="text/css" href="spi.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<table width="100%" style="margin-top:3.5em;">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody>
+<tr>
+<td valign="top"><a id="page5"></a><img src="images/page005_image001.jpg" alt="image" /></td>
+<td valign="top"><span style="font-size:2em;">C<small>ONTENTS</small></span></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" style="margin-top:1.5em;">
+<colgroup>
+<col width="8%" />
+<col width="92%" />
+</colgroup>
+<tbody>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rpreface" href="06_preface.html#preface">Preface</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">   P<small>ART</small> I</td>
+<td valign="top">THE NATIONAL ANTARCTIC EXPEDITION, 1901–04</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch01" href="07_chapter1.html#ch01">            1</a></td>
+<td valign="top"><a href="07_chapter1.html#ch01">South Polar Exploration</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch02" href="08_chapter2.html#ch02">            2</a></td>
+<td valign="top"><a href="08_chapter2.html#ch02">The Building of the Discovery</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch03" href="09_chapter3.html#ch03">            3</a></td>
+<td valign="top"><a href="09_chapter3.html#ch03">The First Outward Voyage</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch04" href="10_chapter4.html#ch04">            4</a></td>
+<td valign="top"><a href="10_chapter4.html#ch04">Winter Quarters, McMurdo Sound, 1902</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch05" href="11_chapter5.html#ch05">            5</a></td>
+<td valign="top"><a href="11_chapter5.html#ch05">Sledging South, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch06" href="12_chapter6.html#ch06">            6</a></td>
+<td valign="top"><a href="12_chapter6.html#ch06">The Relief Expedition of the Morning, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch07" href="13_chapter7.html#ch07">            7</a></td>
+<td valign="top"><a href="13_chapter7.html#ch07">Scott’s Western Journey, 1903</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch08" href="14_chapter8.html#ch08">            8</a></td>
+<td valign="top"><a href="14_chapter8.html#ch08">The Second Relief Expedition and Release of Discovery, 1903–04</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch09" href="15_chapter9.html#ch09">            9</a></td>
+<td valign="top"><a href="15_chapter9.html#ch09">Homeward Bound, 1904</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> II</td>
+<td valign="top">VOYAGES TO HUDSON BAY, 1905–11</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch10" href="16_chapter10.html#ch10">           10</a></td>
+<td valign="top"><a href="16_chapter10.html#ch10">Purchase by the Hudson’s Bay Company</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch11" href="17_chapter11.html#ch11">           11</a></td>
+<td valign="top"><a href="17_chapter11.html#ch11">Voyages 1907–11</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> III</td>
+<td valign="top">WORLD WAR I AND ITS AFTERMATH, 1915–20</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch12" href="18_chapter12.html#ch12">           12</a></td>
+<td valign="top"><a href="18_chapter12.html#ch12">To New York and Archangel, 1915</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch13" href="19_chapter13.html#ch13">           13</a></td>
+<td valign="top"><a href="19_chapter13.html#ch13">The Search for Shackleton, 1916</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch14" href="20_chapter14.html#ch14">           14</a></td>
+<td valign="top"><a href="20_chapter14.html#ch14">Last Wartime Voyages</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch15" href="21_chapter15.html#ch15">           15</a></td>
+<td valign="top"><a href="21_chapter15.html#ch15">South Russian Venture, 1919–20</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> IV</td>
+<td valign="top">THE OCEANOGRAPHIC EXPEDITIONS, 1925–27</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch16" href="22_chapter16.html#ch16">           16</a></td>
+<td valign="top"><a href="22_chapter16.html#ch16">The Plight of the Great Whales</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch17" href="23_chapter17.html#ch17">           17</a></td>
+<td valign="top"><a href="23_chapter17.html#ch17">To South Georgia and the Falklands, 1925–26</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch18" href="24_chapter18.html#ch18">           18</a></td>
+<td valign="top"><a href="24_chapter18.html#ch18">Second Season in the Antarctic, 1926–27</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> V</td>
+<td valign="top">THE BANZARE, 1929–31</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch19" href="25_chapter19.html#ch19">           19</a></td>
+<td valign="top"><a href="25_chapter19.html#ch19">Origins of the BANZARE and the First Voyage, 1929–30</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch20" href="26_chapter20.html#ch20">           20</a></td>
+<td valign="top"><a href="26_chapter20.html#ch20">Second BANZARE Voyage, 1930–31</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">P<small>ART</small> VI</td>
+<td valign="top">SEA SCOUTS AND AFTER, 1932–2001</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch21" href="27_chapter21.html#ch21">           21</a></td>
+<td valign="top"><a href="27_chapter21.html#ch21">Berthed in London, 1932–86</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch22" href="28_chapter22.html#ch22">           22</a></td>
+<td valign="top"><a href="28_chapter22.html#ch22">Home to Dundee</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rappendix" href="29_appendix.html#appendix"><em>Appendix</em>: Restoration and Display</a></td>
+</tr>
+<tr>
+<td valign="top"> </td>
+<td valign="top"><a id="rindex" href="30_index.html#index"><em>Index</em></a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+2023-01-11 21:36:05 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-11 21:36:05 INFO  - Step 12 - I open font settings
+2023-01-11 21:36:06 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-11 21:36:06 INFO  - Step 13 - I INCREASE_FONT of text
+2023-01-11 21:36:06 INFO  - Button 'setTextLarger' :: Clicking
+2023-01-11 21:36:07 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-01-11 21:36:07 INFO  - context - NATIVE_APP
+2023-01-11 21:36:07 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-11 21:36:08 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-11 21:36:08 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Voyages of the Discovery</title>
+<link rel="stylesheet" type="text/css" href="spi.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<table width="100%" style="margin-top:3.5em;">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody>
+<tr>
+<td valign="top"><a id="page5"></a><img src="images/page005_image001.jpg" alt="image" /></td>
+<td valign="top"><span style="font-size:2em;">C<small>ONTENTS</small></span></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" style="margin-top:1.5em;">
+<colgroup>
+<col width="8%" />
+<col width="92%" />
+</colgroup>
+<tbody>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rpreface" href="06_preface.html#preface">Preface</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">   P<small>ART</small> I</td>
+<td valign="top">THE NATIONAL ANTARCTIC EXPEDITION, 1901–04</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch01" href="07_chapter1.html#ch01">            1</a></td>
+<td valign="top"><a href="07_chapter1.html#ch01">South Polar Exploration</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch02" href="08_chapter2.html#ch02">            2</a></td>
+<td valign="top"><a href="08_chapter2.html#ch02">The Building of the Discovery</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch03" href="09_chapter3.html#ch03">            3</a></td>
+<td valign="top"><a href="09_chapter3.html#ch03">The First Outward Voyage</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch04" href="10_chapter4.html#ch04">            4</a></td>
+<td valign="top"><a href="10_chapter4.html#ch04">Winter Quarters, McMurdo Sound, 1902</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch05" href="11_chapter5.html#ch05">            5</a></td>
+<td valign="top"><a href="11_chapter5.html#ch05">Sledging South, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch06" href="12_chapter6.html#ch06">            6</a></td>
+<td valign="top"><a href="12_chapter6.html#ch06">The Relief Expedition of the Morning, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch07" href="13_chapter7.html#ch07">            7</a></td>
+<td valign="top"><a href="13_chapter7.html#ch07">Scott’s Western Journey, 1903</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch08" href="14_chapter8.html#ch08">            8</a></td>
+<td valign="top"><a href="14_chapter8.html#ch08">The Second Relief Expedition and Release of Discovery, 1903–04</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch09" href="15_chapter9.html#ch09">            9</a></td>
+<td valign="top"><a href="15_chapter9.html#ch09">Homeward Bound, 1904</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> II</td>
+<td valign="top">VOYAGES TO HUDSON BAY, 1905–11</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch10" href="16_chapter10.html#ch10">           10</a></td>
+<td valign="top"><a href="16_chapter10.html#ch10">Purchase by the Hudson’s Bay Company</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch11" href="17_chapter11.html#ch11">           11</a></td>
+<td valign="top"><a href="17_chapter11.html#ch11">Voyages 1907–11</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> III</td>
+<td valign="top">WORLD WAR I AND ITS AFTERMATH, 1915–20</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch12" href="18_chapter12.html#ch12">           12</a></td>
+<td valign="top"><a href="18_chapter12.html#ch12">To New York and Archangel, 1915</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch13" href="19_chapter13.html#ch13">           13</a></td>
+<td valign="top"><a href="19_chapter13.html#ch13">The Search for Shackleton, 1916</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch14" href="20_chapter14.html#ch14">           14</a></td>
+<td valign="top"><a href="20_chapter14.html#ch14">Last Wartime Voyages</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch15" href="21_chapter15.html#ch15">           15</a></td>
+<td valign="top"><a href="21_chapter15.html#ch15">South Russian Venture, 1919–20</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> IV</td>
+<td valign="top">THE OCEANOGRAPHIC EXPEDITIONS, 1925–27</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch16" href="22_chapter16.html#ch16">           16</a></td>
+<td valign="top"><a href="22_chapter16.html#ch16">The Plight of the Great Whales</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch17" href="23_chapter17.html#ch17">           17</a></td>
+<td valign="top"><a href="23_chapter17.html#ch17">To South Georgia and the Falklands, 1925–26</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch18" href="24_chapter18.html#ch18">           18</a></td>
+<td valign="top"><a href="24_chapter18.html#ch18">Second Season in the Antarctic, 1926–27</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> V</td>
+<td valign="top">THE BANZARE, 1929–31</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch19" href="25_chapter19.html#ch19">           19</a></td>
+<td valign="top"><a href="25_chapter19.html#ch19">Origins of the BANZARE and the First Voyage, 1929–30</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch20" href="26_chapter20.html#ch20">           20</a></td>
+<td valign="top"><a href="26_chapter20.html#ch20">Second BANZARE Voyage, 1930–31</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">P<small>ART</small> VI</td>
+<td valign="top">SEA SCOUTS AND AFTER, 1932–2001</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch21" href="27_chapter21.html#ch21">           21</a></td>
+<td valign="top"><a href="27_chapter21.html#ch21">Berthed in London, 1932–86</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch22" href="28_chapter22.html#ch22">           22</a></td>
+<td valign="top"><a href="28_chapter22.html#ch22">Home to Dundee</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rappendix" href="29_appendix.html#appendix"><em>Appendix</em>: Restoration and Display</a></td>
+</tr>
+<tr>
+<td valign="top"> </td>
+<td valign="top"><a id="rindex" href="30_index.html#index"><em>Index</em></a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+2023-01-11 21:36:08 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-11 21:36:09 INFO  - Step 15 - I restart app
+2023-01-11 21:36:33 INFO  - Step 16 - I open Books
+2023-01-11 21:36:33 INFO  - Button 'tabBooks' :: Clicking
+2023-01-11 21:36:33 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-11 21:36:34 INFO  - Label 'lblBookName' :: Clicking
+2023-01-11 21:36:35 INFO  - Step 18 - Click READ action button on book details screen
+2023-01-11 21:36:36 INFO  - Button 'Read' :: Clicking
+2023-01-11 21:36:36 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-01-11 21:36:37 INFO  - context - NATIVE_APP
+2023-01-11 21:36:38 INFO  - context - NATIVE_APP
+2023-01-11 21:36:39 INFO  - context - NATIVE_APP
+2023-01-11 21:36:39 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-11 21:36:40 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-11 21:36:40 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Voyages of the Discovery</title>
+<link rel="stylesheet" type="text/css" href="spi.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<table width="100%" style="margin-top:3.5em;">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody>
+<tr>
+<td valign="top"><a id="page5"></a><img src="images/page005_image001.jpg" alt="image" /></td>
+<td valign="top"><span style="font-size:2em;">C<small>ONTENTS</small></span></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" style="margin-top:1.5em;">
+<colgroup>
+<col width="8%" />
+<col width="92%" />
+</colgroup>
+<tbody>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rpreface" href="06_preface.html#preface">Preface</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">   P<small>ART</small> I</td>
+<td valign="top">THE NATIONAL ANTARCTIC EXPEDITION, 1901–04</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch01" href="07_chapter1.html#ch01">            1</a></td>
+<td valign="top"><a href="07_chapter1.html#ch01">South Polar Exploration</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch02" href="08_chapter2.html#ch02">            2</a></td>
+<td valign="top"><a href="08_chapter2.html#ch02">The Building of the Discovery</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch03" href="09_chapter3.html#ch03">            3</a></td>
+<td valign="top"><a href="09_chapter3.html#ch03">The First Outward Voyage</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch04" href="10_chapter4.html#ch04">            4</a></td>
+<td valign="top"><a href="10_chapter4.html#ch04">Winter Quarters, McMurdo Sound, 1902</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch05" href="11_chapter5.html#ch05">            5</a></td>
+<td valign="top"><a href="11_chapter5.html#ch05">Sledging South, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch06" href="12_chapter6.html#ch06">            6</a></td>
+<td valign="top"><a href="12_chapter6.html#ch06">The Relief Expedition of the Morning, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch07" href="13_chapter7.html#ch07">            7</a></td>
+<td valign="top"><a href="13_chapter7.html#ch07">Scott’s Western Journey, 1903</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch08" href="14_chapter8.html#ch08">            8</a></td>
+<td valign="top"><a href="14_chapter8.html#ch08">The Second Relief Expedition and Release of Discovery, 1903–04</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch09" href="15_chapter9.html#ch09">            9</a></td>
+<td valign="top"><a href="15_chapter9.html#ch09">Homeward Bound, 1904</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> II</td>
+<td valign="top">VOYAGES TO HUDSON BAY, 1905–11</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch10" href="16_chapter10.html#ch10">           10</a></td>
+<td valign="top"><a href="16_chapter10.html#ch10">Purchase by the Hudson’s Bay Company</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch11" href="17_chapter11.html#ch11">           11</a></td>
+<td valign="top"><a href="17_chapter11.html#ch11">Voyages 1907–11</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> III</td>
+<td valign="top">WORLD WAR I AND ITS AFTERMATH, 1915–20</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch12" href="18_chapter12.html#ch12">           12</a></td>
+<td valign="top"><a href="18_chapter12.html#ch12">To New York and Archangel, 1915</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch13" href="19_chapter13.html#ch13">           13</a></td>
+<td valign="top"><a href="19_chapter13.html#ch13">The Search for Shackleton, 1916</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch14" href="20_chapter14.html#ch14">           14</a></td>
+<td valign="top"><a href="20_chapter14.html#ch14">Last Wartime Voyages</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch15" href="21_chapter15.html#ch15">           15</a></td>
+<td valign="top"><a href="21_chapter15.html#ch15">South Russian Venture, 1919–20</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> IV</td>
+<td valign="top">THE OCEANOGRAPHIC EXPEDITIONS, 1925–27</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch16" href="22_chapter16.html#ch16">           16</a></td>
+<td valign="top"><a href="22_chapter16.html#ch16">The Plight of the Great Whales</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch17" href="23_chapter17.html#ch17">           17</a></td>
+<td valign="top"><a href="23_chapter17.html#ch17">To South Georgia and the Falklands, 1925–26</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch18" href="24_chapter18.html#ch18">           18</a></td>
+<td valign="top"><a href="24_chapter18.html#ch18">Second Season in the Antarctic, 1926–27</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> V</td>
+<td valign="top">THE BANZARE, 1929–31</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch19" href="25_chapter19.html#ch19">           19</a></td>
+<td valign="top"><a href="25_chapter19.html#ch19">Origins of the BANZARE and the First Voyage, 1929–30</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch20" href="26_chapter20.html#ch20">           20</a></td>
+<td valign="top"><a href="26_chapter20.html#ch20">Second BANZARE Voyage, 1930–31</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">P<small>ART</small> VI</td>
+<td valign="top">SEA SCOUTS AND AFTER, 1932–2001</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch21" href="27_chapter21.html#ch21">           21</a></td>
+<td valign="top"><a href="27_chapter21.html#ch21">Berthed in London, 1932–86</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch22" href="28_chapter22.html#ch22">           22</a></td>
+<td valign="top"><a href="28_chapter22.html#ch22">Home to Dundee</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rappendix" href="29_appendix.html#appendix"><em>Appendix</em>: Restoration and Display</a></td>
+</tr>
+<tr>
+<td valign="top"> </td>
+<td valign="top"><a id="rindex" href="30_index.html#index"><em>Index</em></a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+2023-01-11 21:36:40 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-11 21:36:41 INFO  - Step 20 - I return to previous screen from epub
+2023-01-11 21:36:41 INFO  - Button 'btnBack' :: Clicking
+2023-01-11 21:36:42 INFO  - Step 21 - Click READ action button on book details screen
+2023-01-11 21:36:43 INFO  - Button 'Read' :: Clicking
+2023-01-11 21:36:43 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-01-11 21:36:44 INFO  - context - NATIVE_APP
+2023-01-11 21:36:44 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-11 21:36:45 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-11 21:36:45 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Voyages of the Discovery</title>
+<link rel="stylesheet" type="text/css" href="spi.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<table width="100%" style="margin-top:3.5em;">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody>
+<tr>
+<td valign="top"><a id="page5"></a><img src="images/page005_image001.jpg" alt="image" /></td>
+<td valign="top"><span style="font-size:2em;">C<small>ONTENTS</small></span></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" style="margin-top:1.5em;">
+<colgroup>
+<col width="8%" />
+<col width="92%" />
+</colgroup>
+<tbody>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rpreface" href="06_preface.html#preface">Preface</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">   P<small>ART</small> I</td>
+<td valign="top">THE NATIONAL ANTARCTIC EXPEDITION, 1901–04</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch01" href="07_chapter1.html#ch01">            1</a></td>
+<td valign="top"><a href="07_chapter1.html#ch01">South Polar Exploration</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch02" href="08_chapter2.html#ch02">            2</a></td>
+<td valign="top"><a href="08_chapter2.html#ch02">The Building of the Discovery</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch03" href="09_chapter3.html#ch03">            3</a></td>
+<td valign="top"><a href="09_chapter3.html#ch03">The First Outward Voyage</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch04" href="10_chapter4.html#ch04">            4</a></td>
+<td valign="top"><a href="10_chapter4.html#ch04">Winter Quarters, McMurdo Sound, 1902</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch05" href="11_chapter5.html#ch05">            5</a></td>
+<td valign="top"><a href="11_chapter5.html#ch05">Sledging South, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch06" href="12_chapter6.html#ch06">            6</a></td>
+<td valign="top"><a href="12_chapter6.html#ch06">The Relief Expedition of the Morning, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch07" href="13_chapter7.html#ch07">            7</a></td>
+<td valign="top"><a href="13_chapter7.html#ch07">Scott’s Western Journey, 1903</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch08" href="14_chapter8.html#ch08">            8</a></td>
+<td valign="top"><a href="14_chapter8.html#ch08">The Second Relief Expedition and Release of Discovery, 1903–04</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch09" href="15_chapter9.html#ch09">            9</a></td>
+<td valign="top"><a href="15_chapter9.html#ch09">Homeward Bound, 1904</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> II</td>
+<td valign="top">VOYAGES TO HUDSON BAY, 1905–11</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch10" href="16_chapter10.html#ch10">           10</a></td>
+<td valign="top"><a href="16_chapter10.html#ch10">Purchase by the Hudson’s Bay Company</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch11" href="17_chapter11.html#ch11">           11</a></td>
+<td valign="top"><a href="17_chapter11.html#ch11">Voyages 1907–11</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> III</td>
+<td valign="top">WORLD WAR I AND ITS AFTERMATH, 1915–20</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch12" href="18_chapter12.html#ch12">           12</a></td>
+<td valign="top"><a href="18_chapter12.html#ch12">To New York and Archangel, 1915</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch13" href="19_chapter13.html#ch13">           13</a></td>
+<td valign="top"><a href="19_chapter13.html#ch13">The Search for Shackleton, 1916</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch14" href="20_chapter14.html#ch14">           14</a></td>
+<td valign="top"><a href="20_chapter14.html#ch14">Last Wartime Voyages</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch15" href="21_chapter15.html#ch15">           15</a></td>
+<td valign="top"><a href="21_chapter15.html#ch15">South Russian Venture, 1919–20</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> IV</td>
+<td valign="top">THE OCEANOGRAPHIC EXPEDITIONS, 1925–27</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch16" href="22_chapter16.html#ch16">           16</a></td>
+<td valign="top"><a href="22_chapter16.html#ch16">The Plight of the Great Whales</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch17" href="23_chapter17.html#ch17">           17</a></td>
+<td valign="top"><a href="23_chapter17.html#ch17">To South Georgia and the Falklands, 1925–26</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch18" href="24_chapter18.html#ch18">           18</a></td>
+<td valign="top"><a href="24_chapter18.html#ch18">Second Season in the Antarctic, 1926–27</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> V</td>
+<td valign="top">THE BANZARE, 1929–31</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch19" href="25_chapter19.html#ch19">           19</a></td>
+<td valign="top"><a href="25_chapter19.html#ch19">Origins of the BANZARE and the First Voyage, 1929–30</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch20" href="26_chapter20.html#ch20">           20</a></td>
+<td valign="top"><a href="26_chapter20.html#ch20">Second BANZARE Voyage, 1930–31</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">P<small>ART</small> VI</td>
+<td valign="top">SEA SCOUTS AND AFTER, 1932–2001</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch21" href="27_chapter21.html#ch21">           21</a></td>
+<td valign="top"><a href="27_chapter21.html#ch21">Berthed in London, 1932–86</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch22" href="28_chapter22.html#ch22">           22</a></td>
+<td valign="top"><a href="28_chapter22.html#ch22">Home to Dundee</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rappendix" href="29_appendix.html#appendix"><em>Appendix</em>: Restoration and Display</a></td>
+</tr>
+<tr>
+<td valign="top"> </td>
+<td valign="top"><a id="rindex" href="30_index.html#index"><em>Index</em></a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+2023-01-11 21:36:45 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-11 21:36:46 INFO  - Step 23 - I save font size as 'fontSize'
+2023-01-11 21:36:46 INFO  - context - NATIVE_APP
+2023-01-11 21:36:46 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-11 21:36:47 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-11 21:36:47 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Voyages of the Discovery</title>
+<link rel="stylesheet" type="text/css" href="spi.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<table width="100%" style="margin-top:3.5em;">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody>
+<tr>
+<td valign="top"><a id="page5"></a><img src="images/page005_image001.jpg" alt="image" /></td>
+<td valign="top"><span style="font-size:2em;">C<small>ONTENTS</small></span></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" style="margin-top:1.5em;">
+<colgroup>
+<col width="8%" />
+<col width="92%" />
+</colgroup>
+<tbody>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rpreface" href="06_preface.html#preface">Preface</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">   P<small>ART</small> I</td>
+<td valign="top">THE NATIONAL ANTARCTIC EXPEDITION, 1901–04</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch01" href="07_chapter1.html#ch01">            1</a></td>
+<td valign="top"><a href="07_chapter1.html#ch01">South Polar Exploration</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch02" href="08_chapter2.html#ch02">            2</a></td>
+<td valign="top"><a href="08_chapter2.html#ch02">The Building of the Discovery</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch03" href="09_chapter3.html#ch03">            3</a></td>
+<td valign="top"><a href="09_chapter3.html#ch03">The First Outward Voyage</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch04" href="10_chapter4.html#ch04">            4</a></td>
+<td valign="top"><a href="10_chapter4.html#ch04">Winter Quarters, McMurdo Sound, 1902</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch05" href="11_chapter5.html#ch05">            5</a></td>
+<td valign="top"><a href="11_chapter5.html#ch05">Sledging South, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch06" href="12_chapter6.html#ch06">            6</a></td>
+<td valign="top"><a href="12_chapter6.html#ch06">The Relief Expedition of the Morning, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch07" href="13_chapter7.html#ch07">            7</a></td>
+<td valign="top"><a href="13_chapter7.html#ch07">Scott’s Western Journey, 1903</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch08" href="14_chapter8.html#ch08">            8</a></td>
+<td valign="top"><a href="14_chapter8.html#ch08">The Second Relief Expedition and Release of Discovery, 1903–04</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch09" href="15_chapter9.html#ch09">            9</a></td>
+<td valign="top"><a href="15_chapter9.html#ch09">Homeward Bound, 1904</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> II</td>
+<td valign="top">VOYAGES TO HUDSON BAY, 1905–11</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch10" href="16_chapter10.html#ch10">           10</a></td>
+<td valign="top"><a href="16_chapter10.html#ch10">Purchase by the Hudson’s Bay Company</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch11" href="17_chapter11.html#ch11">           11</a></td>
+<td valign="top"><a href="17_chapter11.html#ch11">Voyages 1907–11</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> III</td>
+<td valign="top">WORLD WAR I AND ITS AFTERMATH, 1915–20</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch12" href="18_chapter12.html#ch12">           12</a></td>
+<td valign="top"><a href="18_chapter12.html#ch12">To New York and Archangel, 1915</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch13" href="19_chapter13.html#ch13">           13</a></td>
+<td valign="top"><a href="19_chapter13.html#ch13">The Search for Shackleton, 1916</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch14" href="20_chapter14.html#ch14">           14</a></td>
+<td valign="top"><a href="20_chapter14.html#ch14">Last Wartime Voyages</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch15" href="21_chapter15.html#ch15">           15</a></td>
+<td valign="top"><a href="21_chapter15.html#ch15">South Russian Venture, 1919–20</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> IV</td>
+<td valign="top">THE OCEANOGRAPHIC EXPEDITIONS, 1925–27</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch16" href="22_chapter16.html#ch16">           16</a></td>
+<td valign="top"><a href="22_chapter16.html#ch16">The Plight of the Great Whales</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch17" href="23_chapter17.html#ch17">           17</a></td>
+<td valign="top"><a href="23_chapter17.html#ch17">To South Georgia and the Falklands, 1925–26</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch18" href="24_chapter18.html#ch18">           18</a></td>
+<td valign="top"><a href="24_chapter18.html#ch18">Second Season in the Antarctic, 1926–27</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> V</td>
+<td valign="top">THE BANZARE, 1929–31</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch19" href="25_chapter19.html#ch19">           19</a></td>
+<td valign="top"><a href="25_chapter19.html#ch19">Origins of the BANZARE and the First Voyage, 1929–30</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch20" href="26_chapter20.html#ch20">           20</a></td>
+<td valign="top"><a href="26_chapter20.html#ch20">Second BANZARE Voyage, 1930–31</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">P<small>ART</small> VI</td>
+<td valign="top">SEA SCOUTS AND AFTER, 1932–2001</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch21" href="27_chapter21.html#ch21">           21</a></td>
+<td valign="top"><a href="27_chapter21.html#ch21">Berthed in London, 1932–86</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch22" href="28_chapter22.html#ch22">           22</a></td>
+<td valign="top"><a href="28_chapter22.html#ch22">Home to Dundee</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rappendix" href="29_appendix.html#appendix"><em>Appendix</em>: Restoration and Display</a></td>
+</tr>
+<tr>
+<td valign="top"> </td>
+<td valign="top"><a id="rindex" href="30_index.html#index"><em>Index</em></a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+2023-01-11 21:36:47 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-11 21:36:48 INFO  - Step 24 - I open font settings
+2023-01-11 21:36:48 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-11 21:36:48 INFO  - Step 25 - I DECREASE_FONT of text
+2023-01-11 21:36:48 INFO  - Button 'setTextSmaller' :: Clicking
+2023-01-11 21:36:49 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-01-11 21:36:50 INFO  - context - NATIVE_APP
+2023-01-11 21:36:50 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-11 21:36:51 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-11 21:36:51 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Voyages of the Discovery</title>
+<link rel="stylesheet" type="text/css" href="spi.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<table width="100%" style="margin-top:3.5em;">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody>
+<tr>
+<td valign="top"><a id="page5"></a><img src="images/page005_image001.jpg" alt="image" /></td>
+<td valign="top"><span style="font-size:2em;">C<small>ONTENTS</small></span></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" style="margin-top:1.5em;">
+<colgroup>
+<col width="8%" />
+<col width="92%" />
+</colgroup>
+<tbody>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rpreface" href="06_preface.html#preface">Preface</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">   P<small>ART</small> I</td>
+<td valign="top">THE NATIONAL ANTARCTIC EXPEDITION, 1901–04</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch01" href="07_chapter1.html#ch01">            1</a></td>
+<td valign="top"><a href="07_chapter1.html#ch01">South Polar Exploration</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch02" href="08_chapter2.html#ch02">            2</a></td>
+<td valign="top"><a href="08_chapter2.html#ch02">The Building of the Discovery</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch03" href="09_chapter3.html#ch03">            3</a></td>
+<td valign="top"><a href="09_chapter3.html#ch03">The First Outward Voyage</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch04" href="10_chapter4.html#ch04">            4</a></td>
+<td valign="top"><a href="10_chapter4.html#ch04">Winter Quarters, McMurdo Sound, 1902</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch05" href="11_chapter5.html#ch05">            5</a></td>
+<td valign="top"><a href="11_chapter5.html#ch05">Sledging South, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch06" href="12_chapter6.html#ch06">            6</a></td>
+<td valign="top"><a href="12_chapter6.html#ch06">The Relief Expedition of the Morning, 1902–03</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch07" href="13_chapter7.html#ch07">            7</a></td>
+<td valign="top"><a href="13_chapter7.html#ch07">Scott’s Western Journey, 1903</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch08" href="14_chapter8.html#ch08">            8</a></td>
+<td valign="top"><a href="14_chapter8.html#ch08">The Second Relief Expedition and Release of Discovery, 1903–04</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch09" href="15_chapter9.html#ch09">            9</a></td>
+<td valign="top"><a href="15_chapter9.html#ch09">Homeward Bound, 1904</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> II</td>
+<td valign="top">VOYAGES TO HUDSON BAY, 1905–11</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch10" href="16_chapter10.html#ch10">           10</a></td>
+<td valign="top"><a href="16_chapter10.html#ch10">Purchase by the Hudson’s Bay Company</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch11" href="17_chapter11.html#ch11">           11</a></td>
+<td valign="top"><a href="17_chapter11.html#ch11">Voyages 1907–11</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> III</td>
+<td valign="top">WORLD WAR I AND ITS AFTERMATH, 1915–20</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch12" href="18_chapter12.html#ch12">           12</a></td>
+<td valign="top"><a href="18_chapter12.html#ch12">To New York and Archangel, 1915</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch13" href="19_chapter13.html#ch13">           13</a></td>
+<td valign="top"><a href="19_chapter13.html#ch13">The Search for Shackleton, 1916</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch14" href="20_chapter14.html#ch14">           14</a></td>
+<td valign="top"><a href="20_chapter14.html#ch14">Last Wartime Voyages</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch15" href="21_chapter15.html#ch15">           15</a></td>
+<td valign="top"><a href="21_chapter15.html#ch15">South Russian Venture, 1919–20</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> P<small>ART</small> IV</td>
+<td valign="top">THE OCEANOGRAPHIC EXPEDITIONS, 1925–27</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch16" href="22_chapter16.html#ch16">           16</a></td>
+<td valign="top"><a href="22_chapter16.html#ch16">The Plight of the Great Whales</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch17" href="23_chapter17.html#ch17">           17</a></td>
+<td valign="top"><a href="23_chapter17.html#ch17">To South Georgia and the Falklands, 1925–26</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch18" href="24_chapter18.html#ch18">           18</a></td>
+<td valign="top"><a href="24_chapter18.html#ch18">Second Season in the Antarctic, 1926–27</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">  P<small>ART</small> V</td>
+<td valign="top">THE BANZARE, 1929–31</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch19" href="25_chapter19.html#ch19">           19</a></td>
+<td valign="top"><a href="25_chapter19.html#ch19">Origins of the BANZARE and the First Voyage, 1929–30</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch20" href="26_chapter20.html#ch20">           20</a></td>
+<td valign="top"><a href="26_chapter20.html#ch20">Second BANZARE Voyage, 1930–31</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top">P<small>ART</small> VI</td>
+<td valign="top">SEA SCOUTS AND AFTER, 1932–2001</td>
+</tr>
+<tr>
+<td valign="top"><a id="rch21" href="27_chapter21.html#ch21">           21</a></td>
+<td valign="top"><a href="27_chapter21.html#ch21">Berthed in London, 1932–86</a></td>
+</tr>
+<tr>
+<td valign="top"><a id="rch22" href="28_chapter22.html#ch22">           22</a></td>
+<td valign="top"><a href="28_chapter22.html#ch22">Home to Dundee</a></td>
+</tr>
+<tr class="spaceUper">
+<td valign="top"> </td>
+<td valign="top"><a id="rappendix" href="29_appendix.html#appendix"><em>Appendix</em>: Restoration and Display</a></td>
+</tr>
+<tr>
+<td valign="top"> </td>
+<td valign="top"><a id="rindex" href="30_index.html#index"><em>Index</em></a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+2023-01-11 21:36:51 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-11 21:36:51 INFO  - Taking screenshot
+2023-01-11 21:36:52 INFO  - Test finished - logging out
+2023-01-11 21:36:53 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:36:56 INFO  - Button 'tabSettings' :: Clicking
+2023-01-11 21:36:57 INFO  - Button 'Accounts' :: Clicking
+2023-01-11 21:36:58 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-11 21:37:00 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-11 21:37:00 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-11 21:37:00 INFO  - Button 'Log out' :: Clicking
+2023-01-11 21:37:01 INFO  - Button 'Log in' :: Getting text from element
+2023-01-11 21:37:04 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-11 21:37:04 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-11 21:37:05 INFO  - Unlocking credential for current thread
+2023-01-11 21:37:05 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@74fd2129
