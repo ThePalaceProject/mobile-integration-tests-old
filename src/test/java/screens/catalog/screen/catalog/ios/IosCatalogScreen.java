@@ -17,7 +17,6 @@ import framework.utilities.swipe.SwipeElementUtils;
 import org.openqa.selenium.By;
 import screens.catalog.screen.catalog.CatalogScreen;
 
-import java.time.Duration;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -27,7 +26,7 @@ import java.util.stream.Collectors;
 public class IosCatalogScreen extends CatalogScreen {
     private static final String LANE_BY_NAME_LOCATOR_PART = "(//XCUIElementTypeOther[.//XCUIElementTypeButton[@name=\"%1$s\"]]/following-sibling::XCUIElementTypeCell)[1]";
     private static final String BOOK_COVER_IN_LANE_LOCATOR = "/XCUIElementTypeButton";
-    private static final String UNIQUE_ELEMENT = "//XCUIElementTypeNavigationBar/XCUIElementTypeButton[contains(@name, \"Change Library Account\")]";
+    private static final String UNIQUE_ELEMENT = "//XCUIElementTypeNavigationBar/XCUIElementTypeButton[1]";
     private static final String SPECIFIC_CATEGORY_LOCATOR = UNIQUE_ELEMENT + "/parent::XCUIElementTypeNavigationBar/following-sibling::XCUIElementTypeOther//XCUIElementTypeTable/XCUIElementTypeOther/XCUIElementTypeButton[contains(@name, \"%s\")]";
     private static final String CATEGORIES_LOCATOR = UNIQUE_ELEMENT + "/parent::XCUIElementTypeNavigationBar/following-sibling::XCUIElementTypeOther//XCUIElementTypeTable/XCUIElementTypeOther/XCUIElementTypeButton[1]";
     private static final String LIBRARY_BUTTON_LOCATOR_PATTERN = "//XCUIElementTypeButton[@name=\"%1$s\"]";
@@ -38,13 +37,13 @@ public class IosCatalogScreen extends CatalogScreen {
     private static final String SECTION_TITLE = "//XCUIElementTypeNavigationBar/XCUIElementTypeStaticText[@name=\"%s\"]";
     private static final int COUNT_OF_CATEGORIES_TO_WAIT_FOR = 5;
 
-    private final ILabel firstLaneName =
-            getElementFactory().getLabel(By.xpath(CATEGORIES_LOCATOR), "First lane name", ElementState.EXISTS_IN_ANY_STATE);
+    private final ILabel firstLaneName = getElementFactory().getLabel(By.xpath(CATEGORIES_LOCATOR), "First lane name", ElementState.EXISTS_IN_ANY_STATE);
     private final GetNameOfBookTypeBtb btnBookNameTypeSection = (button ->
             getElementFactory().getButton(By.xpath(String.format("//XCUIElementTypeSegmentedControl/XCUIElementTypeButton[@name=\"%s\"]", button)),
                     String.format("%s type of sorting", button)));
-    private final IButton btnLogo =
-            getElementFactory().getButton(By.xpath("//XCUIElementTypeNavigationBar/XCUIElementTypeButton[contains(@name, \"SwitchLibrary\")]"), "Logo");
+    private final IButton btnLogo = getElementFactory().getButton(By.xpath("//XCUIElementTypeNavigationBar/XCUIElementTypeButton[1]"), "Logo");
+    private final ILabel lblCatalog = getElementFactory().getLabel(By.xpath("//XCUIElementTypeNavigationBar/XCUIElementTypeStaticText"), "Catalog label");
+    private final IButton btnMore = getElementFactory().getButton(By.xpath("//XCUIElementTypeTable/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]"), "More button");
 
     public IosCatalogScreen() {
         super(By.xpath(UNIQUE_ELEMENT));
@@ -61,6 +60,13 @@ public class IosCatalogScreen extends CatalogScreen {
         AqualityServices.getLogger().info("amount of books from all subcategories on screen - " + listOfNames.size());
         return listOfNames;
     }
+
+    @Override
+    public String getTextFromCatalogLabel() {
+        return lblCatalog.getText();
+    }
+
+
 
     @Override
     public boolean areCategoryRowsLoaded() {
@@ -133,6 +139,11 @@ public class IosCatalogScreen extends CatalogScreen {
     public boolean isMoreBtnPresent() {
         List<IButton> buttons = getMoreBtn();
         return buttons.stream().allMatch(button -> button.state().isDisplayed());
+    }
+
+    @Override
+    public String getTextFromMoreBtn() {
+        return btnMore.getText();
     }
 
     @Override

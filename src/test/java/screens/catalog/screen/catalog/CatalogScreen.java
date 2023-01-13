@@ -12,6 +12,7 @@ public abstract class CatalogScreen extends Screen {
     }
 
     public abstract List<String> getListOfBooksNames();
+    public abstract String getTextFromCatalogLabel();
 
     public abstract boolean areCategoryRowsLoaded();
 
@@ -30,6 +31,7 @@ public abstract class CatalogScreen extends Screen {
     public abstract Set<String> getAllCategoriesNames();
 
     public abstract boolean isMoreBtnPresent();
+    public abstract String getTextFromMoreBtn();
 
     public abstract String clickToMoreBtn();
 

@@ -8,8 +8,10 @@ import constants.keysForContext.ScenarioContextKey;
 import constants.localization.catalog.BookActionButtonNames;
 import enums.localization.facetedsearch.FacetAvailabilityKeys;
 import enums.localization.facetedsearch.FacetSortByKeys;
+import enums.localization.translation.Spanish;
 import framework.utilities.ScenarioContext;
 import framework.utilities.ScreenshotUtils;
+import framework.utilities.TranslationUtils;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -48,6 +50,16 @@ public class CatalogSteps {
     public void categoryRowsAreLoaded() {
         boolean isCategoryRowsPresent = catalogScreen.areCategoryRowsLoaded();
         Assert.assertTrue("Category rows are not loaded.", isCategoryRowsPresent);
+    }
+
+    @Then("Label Catalog and More... button are translated on catalog screen")
+    public void areCatalogItemsTranslated(){
+        SoftAssertions softAssertions = new SoftAssertions();
+        softAssertions.assertThat(TranslationUtils.isTranslationCorrect(catalogScreen.getTextFromCatalogLabel(), Spanish.CATALOG.i18n()))
+                .as("Catalog is not translated").isTrue();
+        softAssertions.assertThat(catalogScreen.getTextFromMoreBtn().contains(Spanish.MORE.i18n()))
+                .as("More button is not translated").isTrue();
+        softAssertions.assertAll();
     }
 
     @Then("Category names are correct on catalog book screen")

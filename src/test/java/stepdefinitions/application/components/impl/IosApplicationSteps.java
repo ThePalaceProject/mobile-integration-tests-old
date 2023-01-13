@@ -99,4 +99,9 @@ public class IosApplicationSteps extends AbstractApplicationSteps {
     public String getTypeOfButton(String type) {
         return bottomMenuForm.getTypeOfTab(type);
     }
+
+    @Override
+    public boolean isFindYourLibScreenOpened() {
+        return findYourLibScreen.isScreenOpened();
+    }
 }

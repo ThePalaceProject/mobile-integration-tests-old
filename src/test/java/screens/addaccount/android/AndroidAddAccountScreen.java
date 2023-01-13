@@ -89,6 +89,18 @@ public class AndroidAddAccountScreen extends AddAccountScreen {
         return Ordering.natural().isOrdered(libraries);
     }
 
+    @Override
+    public String getTestFromAddAccountLabel() {
+        //only for ios
+        return null;
+    }
+
+    @Override
+    public String getTextFromBackBtn() {
+        //only for iOS
+        return null;
+    }
+
     private IButton getLibraryButton(String libraryName) {
         return getElementFactory().getButton(By.xpath(String.format(LIBRARY_BUTTON_LOCATOR_PATTERN, libraryName)), libraryName);
     }

@@ -25,4 +25,8 @@ public abstract class AddAccountScreen extends Screen {
     public abstract boolean isAddLibScreenOpened();
 
     public abstract boolean isSortingOfLibrariesCorrect();
+
+    public abstract String getTestFromAddAccountLabel();
+
+    public abstract String getTextFromBackBtn();
 }

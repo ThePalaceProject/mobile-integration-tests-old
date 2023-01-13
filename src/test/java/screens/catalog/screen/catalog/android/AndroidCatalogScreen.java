@@ -54,6 +54,12 @@ public class AndroidCatalogScreen extends CatalogScreen {
     }
 
     @Override
+    public String getTextFromCatalogLabel() {
+        //only for ios
+        return null;
+    }
+
+    @Override
     public boolean areCategoryRowsLoaded() {
         return AqualityServices.getConditionalWait().waitFor(() -> getLabels(FEED_LANE_TITLES_LOC).size() > 0);
     }
@@ -123,6 +129,12 @@ public class AndroidCatalogScreen extends CatalogScreen {
     public boolean isMoreBtnPresent() {
         List<IButton> buttons = getMoreBtn();
         return buttons.stream().allMatch(button -> button.state().isDisplayed());
+    }
+
+    @Override
+    public String getTextFromMoreBtn() {
+        //only for ios
+        return null;
     }
 
     @Override

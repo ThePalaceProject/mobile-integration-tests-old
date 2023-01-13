@@ -1,4 +1,4 @@
-package enums.localization.account;
+package enums.localization.translation;
 
 import constants.localization.providers.AbstractILocalizationProvider;
 import constants.localization.providers.LocalizationProviderFactory;
@@ -9,12 +9,16 @@ import lombok.NonNull;
 import java.util.Locale;
 
 @AllArgsConstructor
-public enum AccountScreenLoginStatus implements LocalizedValue {
-    SIGN_IN("sign_in"),
-    SIGN_OUT("sign_out");
+public enum Spanish implements LocalizedValue {
+
+    FIND_YOUR_LIBRARY("find_your_library"),
+    ADD_ACCOUNT("add_account"),
+    BACK("back"),
+    CATALOG("catalog"),
+    MORE("more");
 
     private static final AbstractILocalizationProvider localizationProvider =
-            LocalizationProviderFactory.getProvider("account.AccountScreenLoginStatus");
+            LocalizationProviderFactory.getProvider("translation.Spanish");
 
     private final String key;
 

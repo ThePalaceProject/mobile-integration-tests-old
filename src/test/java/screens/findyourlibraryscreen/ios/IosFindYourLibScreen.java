@@ -14,11 +14,15 @@ import java.util.List;
 @ScreenType(platform = PlatformName.IOS)
 public class IosFindYourLibScreen extends FindYourLibScreen {
 
+    private final ILabel findYourLibScreen = getElementFactory().getLabel(By.xpath("//XCUIElementTypeWindow/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]"), "Find your library screen");
+    private final ILabel lblFindYourLibrary = getElementFactory().getLabel(By.xpath(FIND_YOUR_LIBRARY_LOCATOR
+            + "/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView[1]/XCUIElementTypeStaticText"), "Find your library label");
     private final IButton btnAddLib = getElementFactory().getButton(By.xpath("//XCUIElementTypeScrollView//XCUIElementTypeButton[@name=\"Add Library\"]"), "Add library btn");
     private final CreatingLibraryLocator libraryLocator = (index ->
             getElementFactory().getLabel(By.xpath(String.format("//XCUIElementTypeSheet//XCUIElementTypeScrollView[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[%d]/XCUIElementTypeButton", index)), "Library"));
     private final IButton btnCancel = getElementFactory().getButton(By.xpath("//XCUIElementTypeSheet//XCUIElementTypeScrollView//XCUIElementTypeButton[@name=\"Cancel\"]"), "Close button");
     private static final String LIBRARY_NAME = "//XCUIElementTypeSheet//XCUIElementTypeScrollView//XCUIElementTypeButton[@name=\"%s\"]";
+    private static final String FIND_YOUR_LIBRARY_LOCATOR = "//XCUIElementTypeWindow/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]";
 
     public IosFindYourLibScreen() {
         super(By.xpath("//XCUIElementTypeSheet[@name=\"Find Your Library\"]"));
@@ -44,6 +48,26 @@ public class IosFindYourLibScreen extends FindYourLibScreen {
     @Override
     public void tapCancelBtn() {
         btnCancel.click();
+    }
+
+    @Override
+    public boolean isScreenOpened() {
+        return findYourLibScreen.state().waitForDisplayed();
+    }
+
+    @Override
+    public String getTextFromCancelBtn() {
+        return null;
+    }
+
+    @Override
+    public String getTextFromAddLibraryBtn() {
+        return null;
+    }
+
+    @Override
+    public String getTextFromFindYourLibLbl() {
+        return lblFindYourLibrary.getText();
     }
 
     private List<String > getListOfLibraries(int listSize) {

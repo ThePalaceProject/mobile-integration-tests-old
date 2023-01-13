@@ -5,7 +5,9 @@ import aquality.appium.mobile.application.PlatformName;
 import com.google.inject.Inject;
 import enums.keysforcontext.ContextLibrariesKeys;
 import enums.localization.catalog.EnumActionButtonsForBooksAndAlertsKeys;
+import enums.localization.translation.Spanish;
 import framework.utilities.ScenarioContext;
+import framework.utilities.TranslationUtils;
 import framework.utilities.swipe.SwipeElementUtils;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -118,6 +120,16 @@ public class AccountSteps {
     @When("I close account screen")
     public void closeAccount(){
         accountScreen.closeAccountScreen();
+    }
+
+    @Then("Label Add account is translated as Añadir biblioteca on add account screen")
+    public void isAddAccountLblTranslated(){
+        Assert.assertTrue("Add library label is not translated", TranslationUtils.isTranslationCorrect(addAccountScreen.getTestFromAddAccountLabel(), Spanish.ADD_ACCOUNT.i18n()));
+    }
+
+    @Then("Back button is translated as Atrás on add account screen")
+    public void isBackButtonTranslated(){
+        Assert.assertTrue("Back button is not translated", TranslationUtils.isTranslationCorrect(addAccountScreen.getTextFromBackBtn(), Spanish.BACK.i18n()));
     }
 
     @Then("Library {string} is present on add account screen")

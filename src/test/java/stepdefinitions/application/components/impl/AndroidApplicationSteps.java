@@ -68,4 +68,10 @@ public class AndroidApplicationSteps extends AbstractApplicationSteps {
     public String getTypeOfButton(String type) {
         return bottomMenuForm.getTypeOfTab(type);
     }
+
+    @Override
+    public boolean isFindYourLibScreenOpened() {
+        //only for ios
+        return false;
+    }
 }

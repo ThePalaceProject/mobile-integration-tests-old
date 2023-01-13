@@ -16,11 +16,13 @@ import java.util.List;
 @ScreenType(platform = PlatformName.IOS)
 public class IosAddAccountScreen extends AddAccountScreen {
     private final ITextBox txbSearchField = getElementFactory().getTextBox(By.xpath("//XCUIElementTypeSearchField"), "Search field");
+    private final IButton btnClearText = getElementFactory().getButton(By.xpath("//XCUIElementTypeButton[@name=\"Clear text\"]"), "Clear text button");
+    private final ILabel lblAddLibrary = getElementFactory().getLabel(By.xpath("//XCUIElementTypeNavigationBar/XCUIElementTypeStaticText"), "Add Library label");
+    private final IButton btnBack = getElementFactory().getButton(By.xpath("//XCUIElementTypeNavigationBar/XCUIElementTypeButton"), "Back button");
+
     private static final String MAIN_ELEMENT = "//XCUIElementTypeSheet[@name=\"Add Your Library\"]";
     public static final String LIBRARY_BUTTON_LOCATOR_PATTERN = "//XCUIElementTypeStaticText[contains(@name, \"%s\")]";
     private static final String LIB_NAME_LOCATOR = "//XCUIElementTypeTable//XCUIElementTypeCell//XCUIElementTypeStaticText[2]";
-    private final IButton btnClearText = getElementFactory().getButton(By.xpath("//XCUIElementTypeButton[@name=\"Clear text\"]"), "Clear text button");
-    private final ILabel lblAddLibrary = getElementFactory().getLabel(By.xpath("//XCUIElementTypeNavigationBar/XCUIElementTypeStaticText[@name=\"Add Library\"]"), "Add Library label");
 
     public IosAddAccountScreen() {
         super(By.xpath(MAIN_ELEMENT));
@@ -86,6 +88,16 @@ public class IosAddAccountScreen extends AddAccountScreen {
         List<String > libraries = getLibrariesNames();
         libraries.remove(0);
         return Ordering.natural().isOrdered(libraries);
+    }
+
+    @Override
+    public String getTestFromAddAccountLabel() {
+        return lblAddLibrary.getText();
+    }
+
+    @Override
+    public String getTextFromBackBtn() {
+        return btnBack.getText();
     }
 
     private List<String> getLibrariesNames() {

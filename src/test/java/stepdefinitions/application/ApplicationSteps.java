@@ -56,8 +56,12 @@ public class ApplicationSteps extends BaseSteps implements IApplicationSteps {
 
     @When("I add libraries by the logo:")
     public void addSevLibraries(List<String> libraries){
-        libraries.forEach(abstractApplicationSteps::addAccountByTheLogo
-        );
+        libraries.forEach(abstractApplicationSteps::addAccountByTheLogo);
+    }
+
+    @Then("Find your library screen is opened")
+    public void isFindYouLibOpened(){
+        Assert.assertTrue("Find your library screen is not opened", abstractApplicationSteps.isFindYourLibScreenOpened());
     }
 
     @When("I save {int} amount as {string}")
@@ -97,6 +101,18 @@ public class ApplicationSteps extends BaseSteps implements IApplicationSteps {
     @Override
     public void closeWelcomeScreen() {
         abstractApplicationSteps.closeWelcomeScreen();
+    }
+
+    @Then("Button Find your library is translated as Encuentra tu biblioteca on welcome screen")
+    @Override
+    public void checkFindYourLibTranslation() {
+        abstractApplicationSteps.checkFindYourLibTranslation();
+    }
+
+    @Then("Find your library label, add library and cancel buttons are translated on find your library screen")
+    @Override
+    public void checkFindYourLibScreenTranslation() {
+        abstractApplicationSteps.checkFindYourLibScreenTranslation();
     }
 
     @Then("Welcome screen is opened")
