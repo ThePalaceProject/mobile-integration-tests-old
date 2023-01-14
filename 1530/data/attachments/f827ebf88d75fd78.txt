@@ -1,0 +1,88 @@
+2023-01-14 00:35:34 INFO  - Scenario 'Open book to last page read' start
+2023-01-14 00:35:34 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-14 00:36:15 INFO  - Application on platform 'IOS' is ready...
+2023-01-14 00:36:15 INFO  - Session id - 40a0a4a48852efce4e7b15e7c3910ace1eb85f8e
+2023-01-14 00:36:15 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-14 00:36:17 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-14 00:36:17 INFO  - Text Field 'Search field' :: Clicking
+2023-01-14 00:36:25 INFO  - Text Field 'Search field' :: Clearing
+2023-01-14 00:36:25 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-14 00:36:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 00:36:38 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-14 00:36:38 INFO  - Button 'Settings' :: Clicking
+2023-01-14 00:36:39 INFO  - Button 'Settings' :: Clicking
+2023-01-14 00:36:40 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-14 00:36:44 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-14 00:36:44 INFO  - Button 'Settings' :: Clicking
+2023-01-14 00:36:44 INFO  - Button 'Settings' :: Clicking
+2023-01-14 00:36:45 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-14 00:36:47 INFO  - Locking credential with barcode 01230000000303
+2023-01-14 00:36:47 INFO  - There are books on the account: 
+2023-01-14 00:36:48 INFO  - There is not books on the account.
+2023-01-14 00:36:48 INFO  - Count of books on the account after opening account: 0
+2023-01-14 00:37:10 INFO  - Text Field 'Card' :: Clicking
+2023-01-14 00:37:11 INFO  - Text Field 'Card' :: Clearing
+2023-01-14 00:37:11 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-01-14 00:37:14 INFO  - Text Field 'Pin' :: Clearing
+2023-01-14 00:37:14 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-14 00:37:18 INFO  - Button 'Log in' :: Clicking
+2023-01-14 00:37:25 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-14 00:37:28 INFO  - Step 3 - Login is performed successfully
+2023-01-14 00:37:29 INFO  - Step 4 - I open Catalog
+2023-01-14 00:37:29 INFO  - Button 'Catalog' :: Clicking
+2023-01-14 00:37:31 INFO  - Step 5 - I open search modal
+2023-01-14 00:37:33 INFO  - Button 'Search' :: Clicking
+2023-01-14 00:37:36 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-14 00:37:36 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-14 00:37:36 INFO  - randomBookName: A Hint of Magic 3: Boy Trouble
+2023-01-14 00:37:37 INFO  - Text Field 'Search value input' :: Sending keys 'A Hint of Magic 3: Boy Trouble'
+2023-01-14 00:37:39 INFO  - Button 'Search' :: Clicking
+2023-01-14 00:37:41 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 00:37:59 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 00:38:00 INFO  - Button 'actionButton' :: Clicking
+2023-01-14 00:38:23 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 00:38:25 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 00:38:27 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 00:38:28 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-14 00:38:30 INFO  - Button 'Read' :: Clicking
+2023-01-14 00:38:52 INFO  - Step 10 - I scroll page forward from 7 to 10 times
+2023-01-14 00:38:52 INFO  - Scrolling 8 times on reader epub screen
+2023-01-14 00:39:10 INFO  - Step 11 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-01-14 00:39:10 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-14 00:39:11 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-14 00:39:12 INFO  - Step 12 - Wait for 3 seconds
+2023-01-14 00:39:15 INFO  - Step 13 - I return to previous screen for epub and pdf
+2023-01-14 00:39:17 INFO  - Button 'btnBack' :: Clicking
+2023-01-14 00:39:18 INFO  - Step 14 - Click READ action button on book details screen
+2023-01-14 00:39:19 INFO  - Button 'Read' :: Clicking
+2023-01-14 00:39:41 INFO  - Step 15 - 'bookInfo' book is present on epub reader screen
+2023-01-14 00:39:41 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-01-14 00:39:58 INFO  - Book name on epub reader screen - A Hint of Magic 3: Boy Trouble
+2023-01-14 00:39:58 INFO  - Step 16 - PageNumber 'pageNumberKey' is correct
+2023-01-14 00:39:58 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-14 00:39:59 INFO  - Step 17 - I scroll page forward from 3 to 4 times
+2023-01-14 00:39:59 INFO  - Scrolling 3 times on reader epub screen
+2023-01-14 00:40:09 INFO  - Step 18 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-01-14 00:40:09 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-14 00:40:10 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-14 00:40:11 INFO  - Step 19 - Wait for 3 seconds
+2023-01-14 00:40:14 INFO  - Step 20 - I restart app
+2023-01-14 00:40:22 INFO  - Step 21 - I open Books
+2023-01-14 00:40:22 INFO  - Button 'My Books' :: Clicking
+2023-01-14 00:40:23 INFO  - Step 22 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-01-14 00:40:24 INFO  - Step 23 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-14 00:40:25 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 00:40:26 INFO  - Step 24 - Click READ action button on book details screen
+2023-01-14 00:40:27 INFO  - Button 'Read' :: Clicking
+2023-01-14 00:40:48 INFO  - Step 25 - 'bookInfo' book is present on epub reader screen
+2023-01-14 00:40:48 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-01-14 00:41:05 INFO  - Book name on epub reader screen - A Hint of Magic 3: Boy Trouble
+2023-01-14 00:41:05 INFO  - Step 26 - PageNumber 'pageNumberKey' is correct
+2023-01-14 00:41:05 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-14 00:41:06 INFO  - Taking screenshot
+2023-01-14 00:41:09 INFO  - Test finished - logging out
+2023-01-14 00:41:13 INFO  - Button 'Settings' :: Clicking
+2023-01-14 00:41:13 INFO  - Button 'Settings' :: Clicking
+2023-01-14 00:41:14 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-14 00:41:16 INFO  - Unlocking credential for current thread
+2023-01-14 00:41:16 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@14134790
