@@ -1,0 +1,85 @@
+2023-01-14 05:18:38 INFO  - Scenario 'Epub: Font settings: Check of font style' start
+2023-01-14 05:18:38 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-14 05:19:11 INFO  - Application on platform 'IOS' is ready...
+2023-01-14 05:19:11 INFO  - Session id - 59acc20f3273dd3f51d9ec400ed28201a06bfc00
+2023-01-14 05:19:11 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2023-01-14 05:19:12 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-14 05:19:13 INFO  - Text Field 'Search field' :: Clicking
+2023-01-14 05:19:21 INFO  - Text Field 'Search field' :: Clearing
+2023-01-14 05:19:21 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-01-14 05:19:32 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-01-14 05:19:33 INFO  - Button 'Settings' :: Clicking
+2023-01-14 05:19:36 INFO  - Button 'Testing button' :: Clicking
+2023-01-14 05:19:37 INFO  - Step 1 - Enable hidden libraries
+2023-01-14 05:19:37 INFO  - Button 'Hidden libraries button' :: Clicking
+2023-01-14 05:19:38 INFO  - Step 2 - I open Catalog
+2023-01-14 05:19:38 INFO  - Button 'Catalog' :: Clicking
+2023-01-14 05:19:40 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2023-01-14 05:19:40 INFO  - Button 'Logo' :: Clicking
+2023-01-14 05:19:41 INFO  - Button 'Add library btn' :: Clicking
+2023-01-14 05:19:43 INFO  - Text Field 'Search field' :: Clicking
+2023-01-14 05:19:51 INFO  - Text Field 'Search field' :: Clearing
+2023-01-14 05:19:51 INFO  - Text Field 'Search field' :: Typing 'A1QA Test Library'
+2023-01-14 05:20:03 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-01-14 05:20:05 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2023-01-14 05:20:05 INFO  - Button 'Settings' :: Clicking
+2023-01-14 05:20:06 INFO  - Button 'Settings' :: Clicking
+2023-01-14 05:20:07 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-14 05:20:09 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2023-01-14 05:20:09 INFO  - Button 'Settings' :: Clicking
+2023-01-14 05:20:10 INFO  - Button 'Settings' :: Clicking
+2023-01-14 05:20:11 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-14 05:20:14 INFO  - Locking credential with barcode 01230000000304
+2023-01-14 05:20:14 INFO  - There are books on the account: 
+2023-01-14 05:20:16 INFO  - There is not books on the account.
+2023-01-14 05:20:16 INFO  - Count of books on the account after opening account: 0
+2023-01-14 05:20:38 INFO  - Text Field 'Card' :: Clicking
+2023-01-14 05:20:39 INFO  - Text Field 'Card' :: Clearing
+2023-01-14 05:20:39 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-14 05:20:43 INFO  - Text Field 'Pin' :: Clearing
+2023-01-14 05:20:43 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-14 05:20:46 INFO  - Button 'Log in' :: Clicking
+2023-01-14 05:20:59 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-14 05:21:01 INFO  - Step 6 - Login is performed successfully
+2023-01-14 05:21:02 INFO  - Step 7 - I open Catalog
+2023-01-14 05:21:02 INFO  - Button 'Catalog' :: Clicking
+2023-01-14 05:21:04 INFO  - Step 8 - I open search modal
+2023-01-14 05:21:05 INFO  - Button 'Search' :: Clicking
+2023-01-14 05:21:08 INFO  - Step 9 - I search for "A Game of Thrones" and save bookName as 'bookNameInfo'
+2023-01-14 05:21:09 INFO  - Text Field 'Search value input' :: Sending keys 'A Game of Thrones'
+2023-01-14 05:21:11 INFO  - Button 'Search' :: Clicking
+2023-01-14 05:21:13 INFO  - Step 10 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 05:21:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 05:21:32 INFO  - Button 'actionButton' :: Clicking
+2023-01-14 05:21:55 INFO  - Step 11 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 05:21:57 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 05:21:59 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 05:22:00 INFO  - Step 12 - Click READ action button on book details screen
+2023-01-14 05:22:02 INFO  - Button 'Read' :: Clicking
+2023-01-14 05:22:24 INFO  - Step 13 - I scroll page forward from 7 to 9 times
+2023-01-14 05:22:24 INFO  - Scrolling 7 times on reader epub screen
+2023-01-14 05:22:58 INFO  - Step 14 - I open font settings
+2023-01-14 05:22:59 INFO  - Button 'Font Settings' :: Clicking
+2023-01-14 05:23:01 INFO  - Step 15 - I change font style to FONT_SERIF
+2023-01-14 05:23:01 INFO  - Button 'Serif font' :: Clicking
+2023-01-14 05:23:03 INFO  - Step 16 - Book text displays in FONT_SERIF font
+2023-01-14 05:23:03 INFO  - count of contextHandles-8
+2023-01-14 05:23:04 INFO  - Step 17 - I restart app
+2023-01-14 05:23:12 INFO  - Step 18 - I open Books
+2023-01-14 05:23:12 INFO  - Button 'My Books' :: Clicking
+2023-01-14 05:23:13 INFO  - Step 19 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-14 05:23:35 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 05:23:56 INFO  - Taking screenshot
+2023-01-14 05:24:01 INFO  - Test finished - logging out
+2023-01-14 05:24:04 INFO  - Button 'Settings' :: Clicking
+2023-01-14 05:24:05 INFO  - Button 'Settings' :: Clicking
+2023-01-14 05:24:06 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-14 05:24:09 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 05:24:10 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 05:24:10 INFO  - Button 'Log out' :: Clicking
+2023-01-14 05:24:11 INFO  - Button 'Log out approve' :: Clicking
+2023-01-14 05:24:32 INFO  - Button 'Log in' :: Getting text from element
+2023-01-14 05:24:34 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 05:24:35 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 05:24:36 INFO  - Unlocking credential for current thread
+2023-01-14 05:24:36 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@43fc5ba4
