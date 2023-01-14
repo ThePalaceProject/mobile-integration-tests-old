@@ -1,0 +1,67 @@
+2023-01-14 11:32:27 INFO  - Scenario 'Check end of chapter sleep timer' start
+2023-01-14 11:32:27 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-14 11:33:24 INFO  - Application on platform 'IOS' is ready...
+2023-01-14 11:33:24 INFO  - Session id - 43f3bdffd330ad4b38d480696df26b3863c30003
+2023-01-14 11:33:24 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-14 11:33:25 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-14 11:33:26 INFO  - Text Field 'Search field' :: Clicking
+2023-01-14 11:33:32 INFO  - Text Field 'Search field' :: Clearing
+2023-01-14 11:33:32 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-14 11:33:42 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 11:33:44 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-14 11:33:44 INFO  - Button 'Settings' :: Clicking
+2023-01-14 11:33:45 INFO  - Button 'Settings' :: Clicking
+2023-01-14 11:33:45 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-14 11:33:46 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-14 11:33:46 INFO  - Button 'Settings' :: Clicking
+2023-01-14 11:33:47 INFO  - Button 'Settings' :: Clicking
+2023-01-14 11:33:48 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-14 11:33:50 INFO  - Locking credential with barcode 01230000000304
+2023-01-14 11:33:50 INFO  - There are books on the account: 
+2023-01-14 11:33:50 INFO  - There is not books on the account.
+2023-01-14 11:33:50 INFO  - Count of books on the account after opening account: 0
+2023-01-14 11:34:12 INFO  - Text Field 'Card' :: Clicking
+2023-01-14 11:34:14 INFO  - Text Field 'Card' :: Clearing
+2023-01-14 11:34:14 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-14 11:34:17 INFO  - Text Field 'Pin' :: Clearing
+2023-01-14 11:34:17 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-14 11:34:21 INFO  - Button 'Log in' :: Clicking
+2023-01-14 11:34:29 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-14 11:34:31 INFO  - Step 3 - Login is performed successfully
+2023-01-14 11:34:32 INFO  - Step 4 - I open Catalog
+2023-01-14 11:34:32 INFO  - Button 'Catalog' :: Clicking
+2023-01-14 11:34:35 INFO  - Step 5 - I open search modal
+2023-01-14 11:34:36 INFO  - Button 'Search' :: Clicking
+2023-01-14 11:34:38 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-14 11:34:38 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-14 11:34:38 INFO  - randomBookName: Apples Never Fall
+2023-01-14 11:34:39 INFO  - Text Field 'Search value input' :: Sending keys 'Apples Never Fall'
+2023-01-14 11:34:41 INFO  - Button 'Search' :: Clicking
+2023-01-14 11:34:43 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-01-14 11:34:43 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-14 11:35:26 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 11:35:29 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 11:35:31 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 11:35:32 INFO  - Step 9 - Click GET action button on book details screen
+2023-01-14 11:35:41 INFO  - Button 'Get' :: Clicking
+2023-01-14 11:36:11 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-01-14 11:36:13 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-01-14 11:36:15 INFO  - Button 'Listen' :: Clicking
+2023-01-14 11:36:37 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-01-14 11:36:38 INFO  - Step 13 - Open toc audiobook screen
+2023-01-14 11:36:38 INFO  - Button 'btnToc' :: Clicking
+2023-01-14 11:36:38 INFO  - Step 14 - The first chapter is loaded
+2023-01-14 11:36:58 INFO  - Taking screenshot
+2023-01-14 11:37:05 INFO  - Test finished - logging out
+2023-01-14 11:37:09 INFO  - Button 'Settings' :: Clicking
+2023-01-14 11:37:10 INFO  - Button 'Settings' :: Clicking
+2023-01-14 11:37:10 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-14 11:37:13 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 11:37:13 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 11:37:14 INFO  - Button 'Log out' :: Clicking
+2023-01-14 11:37:15 INFO  - Button 'Log out approve' :: Clicking
+2023-01-14 11:37:36 INFO  - Button 'Log in' :: Getting text from element
+2023-01-14 11:37:38 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 11:37:38 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 11:37:39 INFO  - Unlocking credential for current thread
+2023-01-14 11:37:39 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7e5204fc
