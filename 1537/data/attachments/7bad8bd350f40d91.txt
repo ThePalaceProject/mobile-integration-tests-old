@@ -1,0 +1,30 @@
+2023-01-15 13:08:40 INFO  - Scenario 'Palace: Check of canceling the downloading from book details view' start
+2023-01-15 13:08:40 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-15 13:09:20 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-15 13:09:20 INFO  - Session id - ee8dd3745529fe81465b041e6a0173448293c42e
+2023-01-15 13:09:20 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2023-01-15 13:09:20 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-15 13:09:23 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-15 13:09:24 INFO  - Button 'Search' :: Clicking
+2023-01-15 13:09:27 INFO  - Text Field 'Search' :: Clearing
+2023-01-15 13:09:27 INFO  - Text Field 'Search' :: Typing 'Palace Bookshelf'
+2023-01-15 13:09:30 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-01-15 13:09:31 INFO  - Step 1 - I open Catalog
+2023-01-15 13:09:31 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-15 13:09:53 INFO  - Step 2 - I open search modal
+2023-01-15 13:10:13 INFO  - Button 'Search' :: Clicking
+2023-01-15 13:10:15 INFO  - Step 3 - I search for "The Ragged Edge" and save bookName as 'bookNameInfo'
+2023-01-15 13:10:15 INFO  - Error details button is not present
+2023-01-15 13:10:16 INFO  - Text Field 'Search value input' :: Sending keys 'The Ragged Edge'
+2023-01-15 13:10:17 INFO  - Button 'Apply search' :: Clicking
+2023-01-15 13:10:20 INFO  - Error details button is not present
+2023-01-15 13:10:22 INFO  - Step 4 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-15 13:10:24 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-15 13:10:25 INFO  - Label 'lblBookName' :: Clicking
+2023-01-15 13:10:26 INFO  - Step 5 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-01-15 13:10:26 INFO  - Button 'Get' :: Clicking
+2023-01-15 13:10:28 INFO  - Button 'Cancel' :: Clicking
+2023-01-15 13:10:29 INFO  - Step 6 - I check that book contains DOWNLOAD action button on book details screen
+2023-01-15 13:10:50 INFO  - Taking screenshot
+2023-01-15 13:10:51 INFO  - Unlocking credential for current thread
+2023-01-15 13:10:51 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@c402a01
