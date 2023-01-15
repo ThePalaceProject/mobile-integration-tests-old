@@ -1,0 +1,73 @@
+2023-01-15 19:05:24 INFO  - Scenario 'LYRASIS: Getting and returning books from Book Detail View' start
+2023-01-15 19:05:24 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-15 19:05:49 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-15 19:05:49 INFO  - Session id - 4ac4c7230b729afeca5c3433852faa38cc545197
+2023-01-15 19:05:49 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-15 19:05:49 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-15 19:05:52 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-15 19:05:52 INFO  - Button 'Search' :: Clicking
+2023-01-15 19:05:54 INFO  - Text Field 'Search' :: Clearing
+2023-01-15 19:05:54 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-15 19:05:56 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-15 19:05:56 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-01-15 19:05:56 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 19:05:58 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 19:05:59 INFO  - Button 'Accounts' :: Clicking
+2023-01-15 19:06:01 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-15 19:06:01 INFO  - Locking credential with barcode 01230000000303
+2023-01-15 19:06:01 INFO  - There are books on the account: 
+2023-01-15 19:06:02 INFO  - There is not books on the account.
+2023-01-15 19:06:02 INFO  - Count of books on the account after opening account: 0
+2023-01-15 19:06:02 INFO  - Text Field 'Card' :: Clearing
+2023-01-15 19:06:02 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-01-15 19:06:03 INFO  - Text Field 'Pin' :: Clearing
+2023-01-15 19:06:03 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-15 19:06:05 INFO  - Button 'Log in' :: Clicking
+2023-01-15 19:06:10 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-15 19:06:11 INFO  - Step 2 - Login is performed successfully
+2023-01-15 19:06:31 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-15 19:06:32 INFO  - Step 3 - I open Catalog
+2023-01-15 19:06:32 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-15 19:06:54 INFO  - Step 4 - I open search modal
+2023-01-15 19:07:14 INFO  - Button 'Search' :: Clicking
+2023-01-15 19:07:15 INFO  - Step 5 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-15 19:07:15 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-15 19:07:15 INFO  - randomBookName: Small Business Startup Guide
+2023-01-15 19:07:15 INFO  - Error details button is not present
+2023-01-15 19:07:15 INFO  - Text Field 'Search value input' :: Sending keys 'Small Business Startup Guide'
+2023-01-15 19:07:16 INFO  - Button 'Apply search' :: Clicking
+2023-01-15 19:07:17 INFO  - Error details button is not present
+2023-01-15 19:07:21 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-01-15 19:07:21 INFO  - Button 'eBooks' :: Clicking
+2023-01-15 19:07:42 INFO  - Step 7 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-15 19:07:42 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-15 19:07:42 INFO  - Label 'lblBookName' :: Clicking
+2023-01-15 19:07:43 INFO  - Step 8 - Click GET action button on book details screen
+2023-01-15 19:07:44 INFO  - Button 'Get' :: Clicking
+2023-01-15 19:07:50 INFO  - Step 9 - I check that book contains READ action button on book details screen
+2023-01-15 19:07:51 INFO  - Step 10 - Click RETURN action button on book details screen
+2023-01-15 19:07:51 INFO  - Button 'Return' :: Clicking
+2023-01-15 19:07:54 INFO  - Step 11 - I check that book contains GET action button on book details screen
+2023-01-15 19:07:54 INFO  - Step 12 - Click GET action button on book details screen
+2023-01-15 19:07:54 INFO  - Button 'Get' :: Clicking
+2023-01-15 19:07:59 INFO  - Step 13 - I check that book contains READ action button on book details screen
+2023-01-15 19:07:59 INFO  - Step 14 - Click READ action button on book details screen
+2023-01-15 19:08:00 INFO  - Button 'Read' :: Clicking
+2023-01-15 19:08:01 INFO  - Step 15 - Wait for 3 seconds
+2023-01-15 19:08:04 INFO  - Step 16 - Book 'bookInfo' with EBOOK type is present on epub or pdf or audiobook screen
+2023-01-15 19:08:05 INFO  - Label 'lblBookName' :: Getting text from element
+2023-01-15 19:08:05 INFO  - Book name on epub reader screen - Small Business Startup Guide (9781543975413)
+2023-01-15 19:08:05 INFO  - Taking screenshot
+2023-01-15 19:08:07 INFO  - Test finished - logging out
+2023-01-15 19:08:08 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 19:08:10 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 19:08:11 INFO  - Button 'Accounts' :: Clicking
+2023-01-15 19:08:12 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-15 19:08:14 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-15 19:08:14 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-15 19:08:14 INFO  - Button 'Log out' :: Clicking
+2023-01-15 19:08:15 INFO  - Button 'Log in' :: Getting text from element
+2023-01-15 19:08:18 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-15 19:08:18 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-15 19:08:18 INFO  - Unlocking credential for current thread
+2023-01-15 19:08:18 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@525e8b3d

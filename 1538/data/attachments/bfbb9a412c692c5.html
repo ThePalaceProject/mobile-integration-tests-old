@@ -1,0 +1,585 @@
+2023-01-15 18:56:42 INFO  - Scenario 'Font settings: Check of font style' start
+2023-01-15 18:56:42 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-15 18:57:06 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-15 18:57:06 INFO  - Session id - 402d9009316ab7bb9fbf6570427990259226e038
+2023-01-15 18:57:06 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-15 18:57:06 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-15 18:57:09 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-15 18:57:09 INFO  - Button 'Search' :: Clicking
+2023-01-15 18:57:11 INFO  - Text Field 'Search' :: Clearing
+2023-01-15 18:57:11 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-15 18:57:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-15 18:57:14 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-15 18:57:14 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 18:57:15 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 18:57:16 INFO  - Button 'Accounts' :: Clicking
+2023-01-15 18:57:18 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-15 18:57:18 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 18:57:18 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 18:57:19 INFO  - Button 'Accounts' :: Clicking
+2023-01-15 18:57:20 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-15 18:57:21 INFO  - Locking credential with barcode 01230000000304
+2023-01-15 18:57:21 INFO  - There are books on the account: 
+2023-01-15 18:57:21 INFO  - There is not books on the account.
+2023-01-15 18:57:21 INFO  - Count of books on the account after opening account: 0
+2023-01-15 18:57:21 INFO  - Text Field 'Card' :: Clearing
+2023-01-15 18:57:21 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-15 18:57:23 INFO  - Text Field 'Pin' :: Clearing
+2023-01-15 18:57:23 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-15 18:57:24 INFO  - Button 'Log in' :: Clicking
+2023-01-15 18:57:30 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-15 18:57:30 INFO  - Step 3 - Login is performed successfully
+2023-01-15 18:57:51 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-15 18:57:51 INFO  - Step 4 - I open Catalog
+2023-01-15 18:57:51 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-15 18:58:13 INFO  - Step 5 - I open search modal
+2023-01-15 18:58:34 INFO  - Button 'Search' :: Clicking
+2023-01-15 18:58:35 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-15 18:58:35 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-15 18:58:35 INFO  - randomBookName: Nemesis
+2023-01-15 18:58:35 INFO  - Error details button is not present
+2023-01-15 18:58:35 INFO  - Text Field 'Search value input' :: Sending keys 'Nemesis'
+2023-01-15 18:58:36 INFO  - Button 'Apply search' :: Clicking
+2023-01-15 18:58:37 INFO  - Error details button is not present
+2023-01-15 18:58:38 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-15 18:58:40 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-15 18:58:40 INFO  - Button 'actionButton' :: Clicking
+2023-01-15 18:58:46 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-15 18:58:46 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-15 18:58:47 INFO  - Label 'lblBookName' :: Clicking
+2023-01-15 18:58:47 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-15 18:58:48 INFO  - Button 'Read' :: Clicking
+2023-01-15 18:58:48 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-15 18:58:48 INFO  - Scrolling 7 times on reader epub screen
+2023-01-15 18:59:01 INFO  - Step 11 - I open font settings
+2023-01-15 18:59:02 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-15 18:59:02 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-01-15 18:59:03 INFO  - Button 'setFontSerif' :: Clicking
+2023-01-15 18:59:03 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-01-15 18:59:04 INFO  - context - NATIVE_APP
+2023-01-15 18:59:04 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-15 18:59:05 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-15 18:59:05 INFO  - <html xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>SYL</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/media.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body class="content">
+  <div id="chapter-1" class="element element-container-single element-bodymatter element-type-chapter element-with-heading">
+    <div class="heading heading-with-title heading-with-image" id="chapter-1-heading">
+      <div class="heading-contents">
+        <div class="title-subtitle-block title-block-with-element-number">
+          <div class="element-number-block">
+            <h2 class="element-number">1</h2>
+          </div>
+          <div class="title-block">
+            <h1 class="title">SYL</h1>
+          </div>
+        </div>
+        <div class="heading-image-block heading-image-aspect-square heading-image-block-after-title-and-subtitle">
+          <div class="heading-image-size-container" style="width: 25%">
+            <img src="images/syls-sun.jpg" alt="" class="heading-image-image" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text" id="chapter-1-text">
+      <p class="first first-in-chapter first-full-width"><span class="first-phrase">When the weather</span> in the mortal realm</p>
+      <p class="subsq">Goes crazy</p>
+      <p class="subsq">It’s a sign that Faerie magic is afoot</p>
+      <p class="subsq">- Glamma’s Grimm</p>
+      <hr class="implicit-break" />
+      <p class="first first-in-section first-full-width"><span class="first-letter first-letter-i">I</span>n all the books I’ve ever read, Faeries are immortal. Puck, Ozma, Gloriana the great Fairy Queene, even Tinkerbell—each one forever young, forever beautiful. Flitting through time, totally untouched by it.</p>
+      <p class="subsq">And me? I’m forever stuck in the mortal realm. At a pep rally, of all things.</p>
+      <p class="subsq">It’s not exactly the stuff Fae legends are made of. I’m the rightful Queen of the fair Fae and the Summer Court, but even with all my sunfire and white flame power, time’s been kicking my butt lately.</p>
+      <p class="subsq">Today, I’m racing against it, on the trail of a major Bleed.</p>
+      <p class="subsq">The Faerie realms aren’t all that stable these days.</p>
+      <p class="subsq">I keep my eyes—and my Fae-sight—peeled. There’s no telling when or where the energies of Faerie will leak into the mortal world. Every inch of me is keyed up, waiting for the <i>pop-pop-hiss</i> that always comes before a Bleed. Outside, a freak September snowstorm rages, shaking the windows, snow and lightning lashing the black morning as hail <i>pink, pink, pinks</i> at the glass. The thick stink of ozone oozes through the windows, and all the hairs on the back of my neck stand on end.</p>
+      <p class="subsq">Weather’s gone crazy. I’ll have to act fast when the Bleed happens.</p>
+      <p class="subsq">I jump as the doors open ahead, and the noise from Richmond Elite High’s auditorium hits me like a pom-pommed fist. I can already smell the sweaty sports equipment. My classmates, all of us piled into the muggy foyer, hoot and chatter, filled with first-day-back excitement. I’m prodded along, everyone shuffling toward the doors in a mass exodus.</p>
+      <p class="subsq">They make it look so easy. Just shuffle along…</p>
+      <p class="subsq">Forget everything that’s happened. Forget that I’m in the middle of a Fae apocalypse, ever since the Dark Faerie realm literally smashed into the Fair Faerie realm.</p>
+      <p class="subsq">Forget losing Rouen, my soul-bound love.</p>
+      <p class="subsq">As the freshman class enters the auditorium first, the clock above the doors changes. 8:05 am. Two minutes from the last time I checked. Frustration hits me, furious as the storm outside. I’ve felt every month, every day, every <i>second</i> I’ve been without Rouen Rivoche, the rightful Queen of the dark Fae. My mortal enemy.</p>
+      <p class="subsq">We defied the odds—and the ancient war between our Faerie Courts—by falling in love. Now, every breath without her hurts. It’s all I can do to stand here, captive to my mortal life.</p>
+      <p class="subsq">Our class bottlenecks in the foyer. As seniors, we’re last, so it’ll be a bit of a wait while everyone else gets seated.</p>
+      <p class="subsq">Truth is, I wasn’t born Fae. I was a sleeper-princess, a rare type of Fae whose powers were locked away. I only Awakened when I met Rouen. My Summer powers exploded out of me to clash with her Winter, my sunfire and white flame against her cold lightning and thundersnow. She awoke something else in me too—confidence, pride, duty to my people,<i> love</i>. But as Glamma always says, Faerie giveth and Faerie taketh away.</p>
+      <p class="subsq">Well, Faerie took away, all right.</p>
+      <p class="subsq">It took my Roue, and I’m going to get her back if I have to burn all of Dark Faerie to its bones.</p>
+      <p class="subsq">I look down at my hand, white flames flashing across my skin. The dark Fae responsible? Oh yeah, she’s gonna get one heck of a suntan.</p>
+      <p class="subsq">But first, the Bleed.</p>
+      <p class="subsq">Lightning zaps the sky and thunder booms, shaking the entire building. Some of the kids around me get quiet, eyes round, as the lights flicker. Miss Mack waves everyone on. “No dawdling now.” Everyone keeps shuffling along. Miss Mack’s slate-grey eyes fall on me like she knows I’m up to something.</p>
+      <p class="subsq">I swear, the algebra teacher’s got a sixth sense or something.</p>
+      <p class="subsq">I put my head down. <i>Shuffle, shuffle. Nothing to see here.</i></p>
+      <p class="subsq">The sophomores enter the auditorium to freshmen shouting. I’m so over petty interclass rivalries. I should be out there, looking for Roue. Instead, I’m stuck at Richmond E on the first day of school, trapped between a pep rally and tracking down a Bleed.</p>
+      <p class="subsq">Here’s the thing though: Roue’s not lost. I know just where she is.</p>
+      <p class="subsq">In the collapsing throne room of FrankenFaerie (what I’ve been calling our jammed-together realms), under a wicked curse to obey only her dark side—the dark side that wants to kill me and rule over all of Faerie as Overqueen. All because of a certain meddling pocket púca, a malicious, mischievous shape-shifting dark Fae.</p>
+      <p class="subsq">Miss Jardin. My old librarian-turned-enemy.</p>
+      <p class="subsq">She used her woo-woo to bring out Roue’s dark side, and now, my Roue’s hell-bent on rekindling the ages-old war between our peoples. Meanwhile, our two opposing realms, Dark Faerie and Fair Faerie, are fused, Summer and Winter locked into a battle for dominance that will tear<i> all </i>of Faerie apart, unless we can stop it. And if we don’t heal Faerie, it’ll tear the Shroud that connects and separates all the various dimensions.</p>
+      <p class="subsq">Faerie is the linchpin.</p>
+      <p class="subsq">Pull it out, and everything, the entire multiverse, every single dimension—the mortal realm, the underworld, Faerie, the Snickleways, Oz, freaking Narnia—they all come crashing down.</p>
+      <p class="subsq"><i>Shuffle, shuffle.</i> There go the juniors.</p>
+      <p class="subsq">The Shroud’s already weakening. The Bleeds are proof. That, and people <i>eidolizing</i> (turning into their hidden Faerie selves). Last week, a lady at the grocery store turned into a dark Fae foxkine and devoured the entire meat department. The week before that, a kid at Chimborazo Park <i>eidolized</i> into a redcap on the playground. Needless to say, a lot of other kids needed stitches. And probably therapy.</p>
+      <p class="subsq">“Quiet in the foyer.” Miss Mack scolds some unruly girls giggling at their phones.</p>
+      <p class="subsq">Me, I finally got a cheap smart phone with the money I saved from my delivery job, but all I seem to do on it is use ScanSnoop, the app I made that acts like a police scanner. Mom, Glamma, and I’ve taken to listening to the police scanners for anything “weird” or “magical,” then I go there and try to pick up the pieces. Or heal the pieces, to be more exact. Healing is one of my powers as the rightful Queen of Summer.</p>
+      <p class="subsq">Thankfully, my white flame’s up to the task.</p>
+      <p class="subsq">But the Bleeds are getting worse, more frequent. I can’t chase them all down.</p>
+      <p class="subsq">Meanwhile, the darkest, loneliest areas of Richmond (RVA to the locals) are also <i>eidolizing</i>, rogue Faerie energy transforming normal streets, buildings, and alleyways into hyper-realized Faerie landscapes. So far, they’ve all come with built-in Glamouries that shield their true natures from mortals.</p>
+      <p class="subsq">So far. <i>Roue, I really need you.</i></p>
+      <p class="subsq">“Come on down!” Principal Fetch shouts from the stage, waving the juniors on with a red Richmond Elite spiders megaphone. He and the Cheer-Cheer Squad start up some kind of rallying cry.</p>
+      <p class="subsq">I swear, if I survive this chaos, I’m gonna need some kind of medal. Got Out of Bed This Morning, it should read. It can hang on my vanity right next to my other medals: Dressed Myself and Dragged My Butt to School. Meanwhile, my besties are practically vibrating with excitement. It’s the beginning of the school year.</p>
+      <p class="subsq">Our senior year.</p>
+      <p class="subsq">I should be excited too. On stage, Principal Fetch is listing all the cool stuff to get psyched about: spring formals, field trips, spirit week, senior prom.</p>
+      <p class="subsq">All of it without Roue.</p>
+      <p class="subsq"><i>Hurry up already, Bleed, </i>I think, and for once, Faerie obeys.</p>
+      <p class="subsq"><i>Pop-pop-hissssss!</i> The air splits with a sound like an old radiator turning on, and a shimmering energy vortex opens up on the left side of the auditorium. Ever see oil on the ground after it rains?</p>
+      <p class="subsq">A Bleed is like that, all swirly-dark rainbow energy, reaching out with multicolor tendrils.</p>
+      <p class="subsq">With my Fae-sight, I’m the only one who sees it, but over the crowd of seniors, I also see rabbit ears. Someone’s <i>eidolizing</i>. I position myself at an angle and catch a glimpse of Mekhi Jackson. He’s the closest to the Bleed, his ears elongating, sprouting white fur.</p>
+      <p class="subsq">Púca ears.</p>
+      <p class="subsq">That’s a hard no. We do not need another púca up in here.</p>
+      <p class="subsq">I need to heal that Bleed and now. Before Mekhi <i>eidolizes </i>and starts pulling people out of a hat. But Miss Mack’s still watching. I need a distraction.</p>
+      <p class="subsq">Looking around, I spot Pru ahead of me in the crowd. “Pru! Hey!”</p>
+      <p class="subsq">She notices me right away. “Syl, there you are!”</p>
+      <p class="subsq">Pru’s the mother hen of our group—mermaid-blue hair, olive complexion, five-foot-eight inches of curvy sass and snark. She sweeps her vibrant hair from her brown eyes as she comes my way, shoving right through a group of football players.</p>
+      <p class="subsq">My Pru’s no pushover.</p>
+      <p class="subsq">“What’s up?” she asks.</p>
+      <p class="subsq">“I need a distraction,” I say, eying the fire alarm across the auditorium. Our class starts shuffling forward. It’s our turn. Mekhi’s ears are almost done growing. While some mortals are Wakeful, meaning they can sometimes see Faerie energy, that doesn’t seem to be the case for him. Still, they’re <i>his</i> ears. He’s going to notice any second now, and if I can’t heal the Bleed in time, more of my classmates are going to transform into their Fae selves.</p>
+      <p class="subsq">“Pru. Distraction. Now.”</p>
+      <p class="subsq">“Right.” Pru springs into action. “Lennon!”</p>
+      <p class="subsq">“Hi!” Lennon turns from reading some monster-girl comic on her phone. Where Pru’s sassy and curvy, Lennon’s quiet and adorable, with her long pin-straight black hair, Goth Lolita dress, and her cat-ear headphones glowing vibrant hot pink around her neck, pulsing in time with the tinny K-pop she’s listening to.</p>
+      <p class="subsq">“Gimme.” Pru grabs the headphones and unplugs them from Lennon’s phone.</p>
+      <p class="subsq">K-pop blares into the foyer, and several people whip around our way, including Miss Mack. Her eyes fixate on Pru, who dances away from me, dragging Lennon into the center of the foyer for everyone to see. All eyes turn to them.</p>
+      <p class="subsq">Score!</p>
+      <p class="subsq">With a wave of my hand, I throw up a don’t-see-me Glamoury. Shivers tingle across my skin as it settles into place, hiding me. It also has the helpful side effect of ensuring people don’t notice me vanishing either.</p>
+      <p class="subsq">Being a queen has its merits.</p>
+      <p class="subsq">I speed over to the fire alarm. Guilt seeps into my chest. I’m a play-by-the-rules kind of girl, so I hate the thought of pulling it. Mekhi’s fingers reach for his rabbit ears—</p>
+      <p class="subsq"><i>Slam!</i> I pull the fire alarm. Desperate times and all.</p>
+      <p class="subsq"><i>Weee-oooo! Weee-ooo! Weee-oooo! </i>The alarm blares, and Miss Mack immediately begins ushering everyone out. “All right, people! Single file. No pushing!” she shouts over the alarm. Groans and moans accompany all the students as they file out.</p>
+      <p class="subsq">I wait by the fire alarm, out of the way.</p>
+      <p class="subsq">Pru looks in my direction. She can’t see through my Glamoury, but she shoots a thumbs-up toward my vicinity. Whispering my thanks, I head into the now-empty auditorium.</p>
+      <p class="subsq">Outside, the storm crashes violently, wind and hail smashing at the long windows. The Bleed hangs in the air like an oily rainbow, seeping outward in tendrils, wrapping around the tables and chairs. Faerie toadstools begin to sprout on everything, crazy orange vines rushing up the walls. Tiny dragonflies buzz around everything.</p>
+      <p class="subsq">I’ve got only seconds to act.</p>
+      <p class="subsq">I crack my knuckles and shake out my hands. In a flash, I summon my white flame. It flares up from my center, rushing heat through me, and my palms burn bright with it.</p>
+      <p class="subsq"><i>All right, Bleed. Get ready for it. Syl Skye’s on the job.</i></p>
+      <p class="subsq">But as I blast it with my white fire, burning the vestiges of Faerie from the mortal realm and healing the vortex, I feel it in my gut. The Bleeds are getting stronger. One day soon, I won’t be able to heal them.</p>
+      <p class="subsq">All of Faerie will explode into the mortal realm.</p>
+      <p class="subsq"><i>Roue, I really, really need you!</i></p>
+      <p class="subsq">Because the real kicker is—only two soul-bound queens can heal Faerie.</p>
+    </div>
+  </div>
+</body>
+</html>
+2023-01-15 18:59:05 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-15 18:59:05 INFO  - Step 14 - I restart app
+2023-01-15 18:59:29 INFO  - Step 15 - I open Books
+2023-01-15 18:59:29 INFO  - Button 'tabBooks' :: Clicking
+2023-01-15 18:59:30 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-15 18:59:31 INFO  - Label 'lblBookName' :: Clicking
+2023-01-15 18:59:31 INFO  - Step 17 - Click READ action button on book details screen
+2023-01-15 18:59:32 INFO  - Button 'Read' :: Clicking
+2023-01-15 18:59:32 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-01-15 18:59:32 INFO  - context - NATIVE_APP
+2023-01-15 18:59:33 INFO  - context - NATIVE_APP
+2023-01-15 18:59:34 INFO  - context - NATIVE_APP
+2023-01-15 18:59:35 INFO  - context - NATIVE_APP
+2023-01-15 18:59:35 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-15 19:00:36 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-15 19:00:36 INFO  - <html xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>SYL</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/media.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body class="content">
+  <div id="chapter-1" class="element element-container-single element-bodymatter element-type-chapter element-with-heading">
+    <div class="heading heading-with-title heading-with-image" id="chapter-1-heading">
+      <div class="heading-contents">
+        <div class="title-subtitle-block title-block-with-element-number">
+          <div class="element-number-block">
+            <h2 class="element-number">1</h2>
+          </div>
+          <div class="title-block">
+            <h1 class="title">SYL</h1>
+          </div>
+        </div>
+        <div class="heading-image-block heading-image-aspect-square heading-image-block-after-title-and-subtitle">
+          <div class="heading-image-size-container" style="width: 25%">
+            <img src="images/syls-sun.jpg" alt="" class="heading-image-image" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text" id="chapter-1-text">
+      <p class="first first-in-chapter first-full-width"><span class="first-phrase">When the weather</span> in the mortal realm</p>
+      <p class="subsq">Goes crazy</p>
+      <p class="subsq">It’s a sign that Faerie magic is afoot</p>
+      <p class="subsq">- Glamma’s Grimm</p>
+      <hr class="implicit-break" />
+      <p class="first first-in-section first-full-width"><span class="first-letter first-letter-i">I</span>n all the books I’ve ever read, Faeries are immortal. Puck, Ozma, Gloriana the great Fairy Queene, even Tinkerbell—each one forever young, forever beautiful. Flitting through time, totally untouched by it.</p>
+      <p class="subsq">And me? I’m forever stuck in the mortal realm. At a pep rally, of all things.</p>
+      <p class="subsq">It’s not exactly the stuff Fae legends are made of. I’m the rightful Queen of the fair Fae and the Summer Court, but even with all my sunfire and white flame power, time’s been kicking my butt lately.</p>
+      <p class="subsq">Today, I’m racing against it, on the trail of a major Bleed.</p>
+      <p class="subsq">The Faerie realms aren’t all that stable these days.</p>
+      <p class="subsq">I keep my eyes—and my Fae-sight—peeled. There’s no telling when or where the energies of Faerie will leak into the mortal world. Every inch of me is keyed up, waiting for the <i>pop-pop-hiss</i> that always comes before a Bleed. Outside, a freak September snowstorm rages, shaking the windows, snow and lightning lashing the black morning as hail <i>pink, pink, pinks</i> at the glass. The thick stink of ozone oozes through the windows, and all the hairs on the back of my neck stand on end.</p>
+      <p class="subsq">Weather’s gone crazy. I’ll have to act fast when the Bleed happens.</p>
+      <p class="subsq">I jump as the doors open ahead, and the noise from Richmond Elite High’s auditorium hits me like a pom-pommed fist. I can already smell the sweaty sports equipment. My classmates, all of us piled into the muggy foyer, hoot and chatter, filled with first-day-back excitement. I’m prodded along, everyone shuffling toward the doors in a mass exodus.</p>
+      <p class="subsq">They make it look so easy. Just shuffle along…</p>
+      <p class="subsq">Forget everything that’s happened. Forget that I’m in the middle of a Fae apocalypse, ever since the Dark Faerie realm literally smashed into the Fair Faerie realm.</p>
+      <p class="subsq">Forget losing Rouen, my soul-bound love.</p>
+      <p class="subsq">As the freshman class enters the auditorium first, the clock above the doors changes. 8:05 am. Two minutes from the last time I checked. Frustration hits me, furious as the storm outside. I’ve felt every month, every day, every <i>second</i> I’ve been without Rouen Rivoche, the rightful Queen of the dark Fae. My mortal enemy.</p>
+      <p class="subsq">We defied the odds—and the ancient war between our Faerie Courts—by falling in love. Now, every breath without her hurts. It’s all I can do to stand here, captive to my mortal life.</p>
+      <p class="subsq">Our class bottlenecks in the foyer. As seniors, we’re last, so it’ll be a bit of a wait while everyone else gets seated.</p>
+      <p class="subsq">Truth is, I wasn’t born Fae. I was a sleeper-princess, a rare type of Fae whose powers were locked away. I only Awakened when I met Rouen. My Summer powers exploded out of me to clash with her Winter, my sunfire and white flame against her cold lightning and thundersnow. She awoke something else in me too—confidence, pride, duty to my people,<i> love</i>. But as Glamma always says, Faerie giveth and Faerie taketh away.</p>
+      <p class="subsq">Well, Faerie took away, all right.</p>
+      <p class="subsq">It took my Roue, and I’m going to get her back if I have to burn all of Dark Faerie to its bones.</p>
+      <p class="subsq">I look down at my hand, white flames flashing across my skin. The dark Fae responsible? Oh yeah, she’s gonna get one heck of a suntan.</p>
+      <p class="subsq">But first, the Bleed.</p>
+      <p class="subsq">Lightning zaps the sky and thunder booms, shaking the entire building. Some of the kids around me get quiet, eyes round, as the lights flicker. Miss Mack waves everyone on. “No dawdling now.” Everyone keeps shuffling along. Miss Mack’s slate-grey eyes fall on me like she knows I’m up to something.</p>
+      <p class="subsq">I swear, the algebra teacher’s got a sixth sense or something.</p>
+      <p class="subsq">I put my head down. <i>Shuffle, shuffle. Nothing to see here.</i></p>
+      <p class="subsq">The sophomores enter the auditorium to freshmen shouting. I’m so over petty interclass rivalries. I should be out there, looking for Roue. Instead, I’m stuck at Richmond E on the first day of school, trapped between a pep rally and tracking down a Bleed.</p>
+      <p class="subsq">Here’s the thing though: Roue’s not lost. I know just where she is.</p>
+      <p class="subsq">In the collapsing throne room of FrankenFaerie (what I’ve been calling our jammed-together realms), under a wicked curse to obey only her dark side—the dark side that wants to kill me and rule over all of Faerie as Overqueen. All because of a certain meddling pocket púca, a malicious, mischievous shape-shifting dark Fae.</p>
+      <p class="subsq">Miss Jardin. My old librarian-turned-enemy.</p>
+      <p class="subsq">She used her woo-woo to bring out Roue’s dark side, and now, my Roue’s hell-bent on rekindling the ages-old war between our peoples. Meanwhile, our two opposing realms, Dark Faerie and Fair Faerie, are fused, Summer and Winter locked into a battle for dominance that will tear<i> all </i>of Faerie apart, unless we can stop it. And if we don’t heal Faerie, it’ll tear the Shroud that connects and separates all the various dimensions.</p>
+      <p class="subsq">Faerie is the linchpin.</p>
+      <p class="subsq">Pull it out, and everything, the entire multiverse, every single dimension—the mortal realm, the underworld, Faerie, the Snickleways, Oz, freaking Narnia—they all come crashing down.</p>
+      <p class="subsq"><i>Shuffle, shuffle.</i> There go the juniors.</p>
+      <p class="subsq">The Shroud’s already weakening. The Bleeds are proof. That, and people <i>eidolizing</i> (turning into their hidden Faerie selves). Last week, a lady at the grocery store turned into a dark Fae foxkine and devoured the entire meat department. The week before that, a kid at Chimborazo Park <i>eidolized</i> into a redcap on the playground. Needless to say, a lot of other kids needed stitches. And probably therapy.</p>
+      <p class="subsq">“Quiet in the foyer.” Miss Mack scolds some unruly girls giggling at their phones.</p>
+      <p class="subsq">Me, I finally got a cheap smart phone with the money I saved from my delivery job, but all I seem to do on it is use ScanSnoop, the app I made that acts like a police scanner. Mom, Glamma, and I’ve taken to listening to the police scanners for anything “weird” or “magical,” then I go there and try to pick up the pieces. Or heal the pieces, to be more exact. Healing is one of my powers as the rightful Queen of Summer.</p>
+      <p class="subsq">Thankfully, my white flame’s up to the task.</p>
+      <p class="subsq">But the Bleeds are getting worse, more frequent. I can’t chase them all down.</p>
+      <p class="subsq">Meanwhile, the darkest, loneliest areas of Richmond (RVA to the locals) are also <i>eidolizing</i>, rogue Faerie energy transforming normal streets, buildings, and alleyways into hyper-realized Faerie landscapes. So far, they’ve all come with built-in Glamouries that shield their true natures from mortals.</p>
+      <p class="subsq">So far. <i>Roue, I really need you.</i></p>
+      <p class="subsq">“Come on down!” Principal Fetch shouts from the stage, waving the juniors on with a red Richmond Elite spiders megaphone. He and the Cheer-Cheer Squad start up some kind of rallying cry.</p>
+      <p class="subsq">I swear, if I survive this chaos, I’m gonna need some kind of medal. Got Out of Bed This Morning, it should read. It can hang on my vanity right next to my other medals: Dressed Myself and Dragged My Butt to School. Meanwhile, my besties are practically vibrating with excitement. It’s the beginning of the school year.</p>
+      <p class="subsq">Our senior year.</p>
+      <p class="subsq">I should be excited too. On stage, Principal Fetch is listing all the cool stuff to get psyched about: spring formals, field trips, spirit week, senior prom.</p>
+      <p class="subsq">All of it without Roue.</p>
+      <p class="subsq"><i>Hurry up already, Bleed, </i>I think, and for once, Faerie obeys.</p>
+      <p class="subsq"><i>Pop-pop-hissssss!</i> The air splits with a sound like an old radiator turning on, and a shimmering energy vortex opens up on the left side of the auditorium. Ever see oil on the ground after it rains?</p>
+      <p class="subsq">A Bleed is like that, all swirly-dark rainbow energy, reaching out with multicolor tendrils.</p>
+      <p class="subsq">With my Fae-sight, I’m the only one who sees it, but over the crowd of seniors, I also see rabbit ears. Someone’s <i>eidolizing</i>. I position myself at an angle and catch a glimpse of Mekhi Jackson. He’s the closest to the Bleed, his ears elongating, sprouting white fur.</p>
+      <p class="subsq">Púca ears.</p>
+      <p class="subsq">That’s a hard no. We do not need another púca up in here.</p>
+      <p class="subsq">I need to heal that Bleed and now. Before Mekhi <i>eidolizes </i>and starts pulling people out of a hat. But Miss Mack’s still watching. I need a distraction.</p>
+      <p class="subsq">Looking around, I spot Pru ahead of me in the crowd. “Pru! Hey!”</p>
+      <p class="subsq">She notices me right away. “Syl, there you are!”</p>
+      <p class="subsq">Pru’s the mother hen of our group—mermaid-blue hair, olive complexion, five-foot-eight inches of curvy sass and snark. She sweeps her vibrant hair from her brown eyes as she comes my way, shoving right through a group of football players.</p>
+      <p class="subsq">My Pru’s no pushover.</p>
+      <p class="subsq">“What’s up?” she asks.</p>
+      <p class="subsq">“I need a distraction,” I say, eying the fire alarm across the auditorium. Our class starts shuffling forward. It’s our turn. Mekhi’s ears are almost done growing. While some mortals are Wakeful, meaning they can sometimes see Faerie energy, that doesn’t seem to be the case for him. Still, they’re <i>his</i> ears. He’s going to notice any second now, and if I can’t heal the Bleed in time, more of my classmates are going to transform into their Fae selves.</p>
+      <p class="subsq">“Pru. Distraction. Now.”</p>
+      <p class="subsq">“Right.” Pru springs into action. “Lennon!”</p>
+      <p class="subsq">“Hi!” Lennon turns from reading some monster-girl comic on her phone. Where Pru’s sassy and curvy, Lennon’s quiet and adorable, with her long pin-straight black hair, Goth Lolita dress, and her cat-ear headphones glowing vibrant hot pink around her neck, pulsing in time with the tinny K-pop she’s listening to.</p>
+      <p class="subsq">“Gimme.” Pru grabs the headphones and unplugs them from Lennon’s phone.</p>
+      <p class="subsq">K-pop blares into the foyer, and several people whip around our way, including Miss Mack. Her eyes fixate on Pru, who dances away from me, dragging Lennon into the center of the foyer for everyone to see. All eyes turn to them.</p>
+      <p class="subsq">Score!</p>
+      <p class="subsq">With a wave of my hand, I throw up a don’t-see-me Glamoury. Shivers tingle across my skin as it settles into place, hiding me. It also has the helpful side effect of ensuring people don’t notice me vanishing either.</p>
+      <p class="subsq">Being a queen has its merits.</p>
+      <p class="subsq">I speed over to the fire alarm. Guilt seeps into my chest. I’m a play-by-the-rules kind of girl, so I hate the thought of pulling it. Mekhi’s fingers reach for his rabbit ears—</p>
+      <p class="subsq"><i>Slam!</i> I pull the fire alarm. Desperate times and all.</p>
+      <p class="subsq"><i>Weee-oooo! Weee-ooo! Weee-oooo! </i>The alarm blares, and Miss Mack immediately begins ushering everyone out. “All right, people! Single file. No pushing!” she shouts over the alarm. Groans and moans accompany all the students as they file out.</p>
+      <p class="subsq">I wait by the fire alarm, out of the way.</p>
+      <p class="subsq">Pru looks in my direction. She can’t see through my Glamoury, but she shoots a thumbs-up toward my vicinity. Whispering my thanks, I head into the now-empty auditorium.</p>
+      <p class="subsq">Outside, the storm crashes violently, wind and hail smashing at the long windows. The Bleed hangs in the air like an oily rainbow, seeping outward in tendrils, wrapping around the tables and chairs. Faerie toadstools begin to sprout on everything, crazy orange vines rushing up the walls. Tiny dragonflies buzz around everything.</p>
+      <p class="subsq">I’ve got only seconds to act.</p>
+      <p class="subsq">I crack my knuckles and shake out my hands. In a flash, I summon my white flame. It flares up from my center, rushing heat through me, and my palms burn bright with it.</p>
+      <p class="subsq"><i>All right, Bleed. Get ready for it. Syl Skye’s on the job.</i></p>
+      <p class="subsq">But as I blast it with my white fire, burning the vestiges of Faerie from the mortal realm and healing the vortex, I feel it in my gut. The Bleeds are getting stronger. One day soon, I won’t be able to heal them.</p>
+      <p class="subsq">All of Faerie will explode into the mortal realm.</p>
+      <p class="subsq"><i>Roue, I really, really need you!</i></p>
+      <p class="subsq">Because the real kicker is—only two soul-bound queens can heal Faerie.</p>
+    </div>
+  </div>
+</body>
+</html>
+2023-01-15 19:00:36 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-15 19:00:36 INFO  - Step 19 - I return to previous screen from epub
+2023-01-15 19:00:37 INFO  - Button 'btnBack' :: Clicking
+2023-01-15 19:00:37 INFO  - Step 20 - Click READ action button on book details screen
+2023-01-15 19:00:38 INFO  - Button 'Read' :: Clicking
+2023-01-15 19:00:38 INFO  - Step 21 - Book text displays in FONT_SERIF font
+2023-01-15 19:00:40 INFO  - context - NATIVE_APP
+2023-01-15 19:00:40 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-15 19:00:41 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-15 19:00:41 INFO  - <html xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>SYL</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/media.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body class="content">
+  <div id="chapter-1" class="element element-container-single element-bodymatter element-type-chapter element-with-heading">
+    <div class="heading heading-with-title heading-with-image" id="chapter-1-heading">
+      <div class="heading-contents">
+        <div class="title-subtitle-block title-block-with-element-number">
+          <div class="element-number-block">
+            <h2 class="element-number">1</h2>
+          </div>
+          <div class="title-block">
+            <h1 class="title">SYL</h1>
+          </div>
+        </div>
+        <div class="heading-image-block heading-image-aspect-square heading-image-block-after-title-and-subtitle">
+          <div class="heading-image-size-container" style="width: 25%">
+            <img src="images/syls-sun.jpg" alt="" class="heading-image-image" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text" id="chapter-1-text">
+      <p class="first first-in-chapter first-full-width"><span class="first-phrase">When the weather</span> in the mortal realm</p>
+      <p class="subsq">Goes crazy</p>
+      <p class="subsq">It’s a sign that Faerie magic is afoot</p>
+      <p class="subsq">- Glamma’s Grimm</p>
+      <hr class="implicit-break" />
+      <p class="first first-in-section first-full-width"><span class="first-letter first-letter-i">I</span>n all the books I’ve ever read, Faeries are immortal. Puck, Ozma, Gloriana the great Fairy Queene, even Tinkerbell—each one forever young, forever beautiful. Flitting through time, totally untouched by it.</p>
+      <p class="subsq">And me? I’m forever stuck in the mortal realm. At a pep rally, of all things.</p>
+      <p class="subsq">It’s not exactly the stuff Fae legends are made of. I’m the rightful Queen of the fair Fae and the Summer Court, but even with all my sunfire and white flame power, time’s been kicking my butt lately.</p>
+      <p class="subsq">Today, I’m racing against it, on the trail of a major Bleed.</p>
+      <p class="subsq">The Faerie realms aren’t all that stable these days.</p>
+      <p class="subsq">I keep my eyes—and my Fae-sight—peeled. There’s no telling when or where the energies of Faerie will leak into the mortal world. Every inch of me is keyed up, waiting for the <i>pop-pop-hiss</i> that always comes before a Bleed. Outside, a freak September snowstorm rages, shaking the windows, snow and lightning lashing the black morning as hail <i>pink, pink, pinks</i> at the glass. The thick stink of ozone oozes through the windows, and all the hairs on the back of my neck stand on end.</p>
+      <p class="subsq">Weather’s gone crazy. I’ll have to act fast when the Bleed happens.</p>
+      <p class="subsq">I jump as the doors open ahead, and the noise from Richmond Elite High’s auditorium hits me like a pom-pommed fist. I can already smell the sweaty sports equipment. My classmates, all of us piled into the muggy foyer, hoot and chatter, filled with first-day-back excitement. I’m prodded along, everyone shuffling toward the doors in a mass exodus.</p>
+      <p class="subsq">They make it look so easy. Just shuffle along…</p>
+      <p class="subsq">Forget everything that’s happened. Forget that I’m in the middle of a Fae apocalypse, ever since the Dark Faerie realm literally smashed into the Fair Faerie realm.</p>
+      <p class="subsq">Forget losing Rouen, my soul-bound love.</p>
+      <p class="subsq">As the freshman class enters the auditorium first, the clock above the doors changes. 8:05 am. Two minutes from the last time I checked. Frustration hits me, furious as the storm outside. I’ve felt every month, every day, every <i>second</i> I’ve been without Rouen Rivoche, the rightful Queen of the dark Fae. My mortal enemy.</p>
+      <p class="subsq">We defied the odds—and the ancient war between our Faerie Courts—by falling in love. Now, every breath without her hurts. It’s all I can do to stand here, captive to my mortal life.</p>
+      <p class="subsq">Our class bottlenecks in the foyer. As seniors, we’re last, so it’ll be a bit of a wait while everyone else gets seated.</p>
+      <p class="subsq">Truth is, I wasn’t born Fae. I was a sleeper-princess, a rare type of Fae whose powers were locked away. I only Awakened when I met Rouen. My Summer powers exploded out of me to clash with her Winter, my sunfire and white flame against her cold lightning and thundersnow. She awoke something else in me too—confidence, pride, duty to my people,<i> love</i>. But as Glamma always says, Faerie giveth and Faerie taketh away.</p>
+      <p class="subsq">Well, Faerie took away, all right.</p>
+      <p class="subsq">It took my Roue, and I’m going to get her back if I have to burn all of Dark Faerie to its bones.</p>
+      <p class="subsq">I look down at my hand, white flames flashing across my skin. The dark Fae responsible? Oh yeah, she’s gonna get one heck of a suntan.</p>
+      <p class="subsq">But first, the Bleed.</p>
+      <p class="subsq">Lightning zaps the sky and thunder booms, shaking the entire building. Some of the kids around me get quiet, eyes round, as the lights flicker. Miss Mack waves everyone on. “No dawdling now.” Everyone keeps shuffling along. Miss Mack’s slate-grey eyes fall on me like she knows I’m up to something.</p>
+      <p class="subsq">I swear, the algebra teacher’s got a sixth sense or something.</p>
+      <p class="subsq">I put my head down. <i>Shuffle, shuffle. Nothing to see here.</i></p>
+      <p class="subsq">The sophomores enter the auditorium to freshmen shouting. I’m so over petty interclass rivalries. I should be out there, looking for Roue. Instead, I’m stuck at Richmond E on the first day of school, trapped between a pep rally and tracking down a Bleed.</p>
+      <p class="subsq">Here’s the thing though: Roue’s not lost. I know just where she is.</p>
+      <p class="subsq">In the collapsing throne room of FrankenFaerie (what I’ve been calling our jammed-together realms), under a wicked curse to obey only her dark side—the dark side that wants to kill me and rule over all of Faerie as Overqueen. All because of a certain meddling pocket púca, a malicious, mischievous shape-shifting dark Fae.</p>
+      <p class="subsq">Miss Jardin. My old librarian-turned-enemy.</p>
+      <p class="subsq">She used her woo-woo to bring out Roue’s dark side, and now, my Roue’s hell-bent on rekindling the ages-old war between our peoples. Meanwhile, our two opposing realms, Dark Faerie and Fair Faerie, are fused, Summer and Winter locked into a battle for dominance that will tear<i> all </i>of Faerie apart, unless we can stop it. And if we don’t heal Faerie, it’ll tear the Shroud that connects and separates all the various dimensions.</p>
+      <p class="subsq">Faerie is the linchpin.</p>
+      <p class="subsq">Pull it out, and everything, the entire multiverse, every single dimension—the mortal realm, the underworld, Faerie, the Snickleways, Oz, freaking Narnia—they all come crashing down.</p>
+      <p class="subsq"><i>Shuffle, shuffle.</i> There go the juniors.</p>
+      <p class="subsq">The Shroud’s already weakening. The Bleeds are proof. That, and people <i>eidolizing</i> (turning into their hidden Faerie selves). Last week, a lady at the grocery store turned into a dark Fae foxkine and devoured the entire meat department. The week before that, a kid at Chimborazo Park <i>eidolized</i> into a redcap on the playground. Needless to say, a lot of other kids needed stitches. And probably therapy.</p>
+      <p class="subsq">“Quiet in the foyer.” Miss Mack scolds some unruly girls giggling at their phones.</p>
+      <p class="subsq">Me, I finally got a cheap smart phone with the money I saved from my delivery job, but all I seem to do on it is use ScanSnoop, the app I made that acts like a police scanner. Mom, Glamma, and I’ve taken to listening to the police scanners for anything “weird” or “magical,” then I go there and try to pick up the pieces. Or heal the pieces, to be more exact. Healing is one of my powers as the rightful Queen of Summer.</p>
+      <p class="subsq">Thankfully, my white flame’s up to the task.</p>
+      <p class="subsq">But the Bleeds are getting worse, more frequent. I can’t chase them all down.</p>
+      <p class="subsq">Meanwhile, the darkest, loneliest areas of Richmond (RVA to the locals) are also <i>eidolizing</i>, rogue Faerie energy transforming normal streets, buildings, and alleyways into hyper-realized Faerie landscapes. So far, they’ve all come with built-in Glamouries that shield their true natures from mortals.</p>
+      <p class="subsq">So far. <i>Roue, I really need you.</i></p>
+      <p class="subsq">“Come on down!” Principal Fetch shouts from the stage, waving the juniors on with a red Richmond Elite spiders megaphone. He and the Cheer-Cheer Squad start up some kind of rallying cry.</p>
+      <p class="subsq">I swear, if I survive this chaos, I’m gonna need some kind of medal. Got Out of Bed This Morning, it should read. It can hang on my vanity right next to my other medals: Dressed Myself and Dragged My Butt to School. Meanwhile, my besties are practically vibrating with excitement. It’s the beginning of the school year.</p>
+      <p class="subsq">Our senior year.</p>
+      <p class="subsq">I should be excited too. On stage, Principal Fetch is listing all the cool stuff to get psyched about: spring formals, field trips, spirit week, senior prom.</p>
+      <p class="subsq">All of it without Roue.</p>
+      <p class="subsq"><i>Hurry up already, Bleed, </i>I think, and for once, Faerie obeys.</p>
+      <p class="subsq"><i>Pop-pop-hissssss!</i> The air splits with a sound like an old radiator turning on, and a shimmering energy vortex opens up on the left side of the auditorium. Ever see oil on the ground after it rains?</p>
+      <p class="subsq">A Bleed is like that, all swirly-dark rainbow energy, reaching out with multicolor tendrils.</p>
+      <p class="subsq">With my Fae-sight, I’m the only one who sees it, but over the crowd of seniors, I also see rabbit ears. Someone’s <i>eidolizing</i>. I position myself at an angle and catch a glimpse of Mekhi Jackson. He’s the closest to the Bleed, his ears elongating, sprouting white fur.</p>
+      <p class="subsq">Púca ears.</p>
+      <p class="subsq">That’s a hard no. We do not need another púca up in here.</p>
+      <p class="subsq">I need to heal that Bleed and now. Before Mekhi <i>eidolizes </i>and starts pulling people out of a hat. But Miss Mack’s still watching. I need a distraction.</p>
+      <p class="subsq">Looking around, I spot Pru ahead of me in the crowd. “Pru! Hey!”</p>
+      <p class="subsq">She notices me right away. “Syl, there you are!”</p>
+      <p class="subsq">Pru’s the mother hen of our group—mermaid-blue hair, olive complexion, five-foot-eight inches of curvy sass and snark. She sweeps her vibrant hair from her brown eyes as she comes my way, shoving right through a group of football players.</p>
+      <p class="subsq">My Pru’s no pushover.</p>
+      <p class="subsq">“What’s up?” she asks.</p>
+      <p class="subsq">“I need a distraction,” I say, eying the fire alarm across the auditorium. Our class starts shuffling forward. It’s our turn. Mekhi’s ears are almost done growing. While some mortals are Wakeful, meaning they can sometimes see Faerie energy, that doesn’t seem to be the case for him. Still, they’re <i>his</i> ears. He’s going to notice any second now, and if I can’t heal the Bleed in time, more of my classmates are going to transform into their Fae selves.</p>
+      <p class="subsq">“Pru. Distraction. Now.”</p>
+      <p class="subsq">“Right.” Pru springs into action. “Lennon!”</p>
+      <p class="subsq">“Hi!” Lennon turns from reading some monster-girl comic on her phone. Where Pru’s sassy and curvy, Lennon’s quiet and adorable, with her long pin-straight black hair, Goth Lolita dress, and her cat-ear headphones glowing vibrant hot pink around her neck, pulsing in time with the tinny K-pop she’s listening to.</p>
+      <p class="subsq">“Gimme.” Pru grabs the headphones and unplugs them from Lennon’s phone.</p>
+      <p class="subsq">K-pop blares into the foyer, and several people whip around our way, including Miss Mack. Her eyes fixate on Pru, who dances away from me, dragging Lennon into the center of the foyer for everyone to see. All eyes turn to them.</p>
+      <p class="subsq">Score!</p>
+      <p class="subsq">With a wave of my hand, I throw up a don’t-see-me Glamoury. Shivers tingle across my skin as it settles into place, hiding me. It also has the helpful side effect of ensuring people don’t notice me vanishing either.</p>
+      <p class="subsq">Being a queen has its merits.</p>
+      <p class="subsq">I speed over to the fire alarm. Guilt seeps into my chest. I’m a play-by-the-rules kind of girl, so I hate the thought of pulling it. Mekhi’s fingers reach for his rabbit ears—</p>
+      <p class="subsq"><i>Slam!</i> I pull the fire alarm. Desperate times and all.</p>
+      <p class="subsq"><i>Weee-oooo! Weee-ooo! Weee-oooo! </i>The alarm blares, and Miss Mack immediately begins ushering everyone out. “All right, people! Single file. No pushing!” she shouts over the alarm. Groans and moans accompany all the students as they file out.</p>
+      <p class="subsq">I wait by the fire alarm, out of the way.</p>
+      <p class="subsq">Pru looks in my direction. She can’t see through my Glamoury, but she shoots a thumbs-up toward my vicinity. Whispering my thanks, I head into the now-empty auditorium.</p>
+      <p class="subsq">Outside, the storm crashes violently, wind and hail smashing at the long windows. The Bleed hangs in the air like an oily rainbow, seeping outward in tendrils, wrapping around the tables and chairs. Faerie toadstools begin to sprout on everything, crazy orange vines rushing up the walls. Tiny dragonflies buzz around everything.</p>
+      <p class="subsq">I’ve got only seconds to act.</p>
+      <p class="subsq">I crack my knuckles and shake out my hands. In a flash, I summon my white flame. It flares up from my center, rushing heat through me, and my palms burn bright with it.</p>
+      <p class="subsq"><i>All right, Bleed. Get ready for it. Syl Skye’s on the job.</i></p>
+      <p class="subsq">But as I blast it with my white fire, burning the vestiges of Faerie from the mortal realm and healing the vortex, I feel it in my gut. The Bleeds are getting stronger. One day soon, I won’t be able to heal them.</p>
+      <p class="subsq">All of Faerie will explode into the mortal realm.</p>
+      <p class="subsq"><i>Roue, I really, really need you!</i></p>
+      <p class="subsq">Because the real kicker is—only two soul-bound queens can heal Faerie.</p>
+    </div>
+  </div>
+</body>
+</html>
+2023-01-15 19:00:41 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-15 19:00:41 INFO  - Step 22 - I open font settings
+2023-01-15 19:00:41 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-15 19:00:42 INFO  - Step 23 - I change font style to FONT_SANS
+2023-01-15 19:00:42 INFO  - Button 'setFontSans' :: Clicking
+2023-01-15 19:00:43 INFO  - Step 24 - Book text displays in FONT_SANS font
+2023-01-15 19:00:43 INFO  - context - NATIVE_APP
+2023-01-15 19:00:43 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-15 19:00:44 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-15 19:00:44 INFO  - <html xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>SYL</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/media.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body class="content">
+  <div id="chapter-1" class="element element-container-single element-bodymatter element-type-chapter element-with-heading">
+    <div class="heading heading-with-title heading-with-image" id="chapter-1-heading">
+      <div class="heading-contents">
+        <div class="title-subtitle-block title-block-with-element-number">
+          <div class="element-number-block">
+            <h2 class="element-number">1</h2>
+          </div>
+          <div class="title-block">
+            <h1 class="title">SYL</h1>
+          </div>
+        </div>
+        <div class="heading-image-block heading-image-aspect-square heading-image-block-after-title-and-subtitle">
+          <div class="heading-image-size-container" style="width: 25%">
+            <img src="images/syls-sun.jpg" alt="" class="heading-image-image" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text" id="chapter-1-text">
+      <p class="first first-in-chapter first-full-width"><span class="first-phrase">When the weather</span> in the mortal realm</p>
+      <p class="subsq">Goes crazy</p>
+      <p class="subsq">It’s a sign that Faerie magic is afoot</p>
+      <p class="subsq">- Glamma’s Grimm</p>
+      <hr class="implicit-break" />
+      <p class="first first-in-section first-full-width"><span class="first-letter first-letter-i">I</span>n all the books I’ve ever read, Faeries are immortal. Puck, Ozma, Gloriana the great Fairy Queene, even Tinkerbell—each one forever young, forever beautiful. Flitting through time, totally untouched by it.</p>
+      <p class="subsq">And me? I’m forever stuck in the mortal realm. At a pep rally, of all things.</p>
+      <p class="subsq">It’s not exactly the stuff Fae legends are made of. I’m the rightful Queen of the fair Fae and the Summer Court, but even with all my sunfire and white flame power, time’s been kicking my butt lately.</p>
+      <p class="subsq">Today, I’m racing against it, on the trail of a major Bleed.</p>
+      <p class="subsq">The Faerie realms aren’t all that stable these days.</p>
+      <p class="subsq">I keep my eyes—and my Fae-sight—peeled. There’s no telling when or where the energies of Faerie will leak into the mortal world. Every inch of me is keyed up, waiting for the <i>pop-pop-hiss</i> that always comes before a Bleed. Outside, a freak September snowstorm rages, shaking the windows, snow and lightning lashing the black morning as hail <i>pink, pink, pinks</i> at the glass. The thick stink of ozone oozes through the windows, and all the hairs on the back of my neck stand on end.</p>
+      <p class="subsq">Weather’s gone crazy. I’ll have to act fast when the Bleed happens.</p>
+      <p class="subsq">I jump as the doors open ahead, and the noise from Richmond Elite High’s auditorium hits me like a pom-pommed fist. I can already smell the sweaty sports equipment. My classmates, all of us piled into the muggy foyer, hoot and chatter, filled with first-day-back excitement. I’m prodded along, everyone shuffling toward the doors in a mass exodus.</p>
+      <p class="subsq">They make it look so easy. Just shuffle along…</p>
+      <p class="subsq">Forget everything that’s happened. Forget that I’m in the middle of a Fae apocalypse, ever since the Dark Faerie realm literally smashed into the Fair Faerie realm.</p>
+      <p class="subsq">Forget losing Rouen, my soul-bound love.</p>
+      <p class="subsq">As the freshman class enters the auditorium first, the clock above the doors changes. 8:05 am. Two minutes from the last time I checked. Frustration hits me, furious as the storm outside. I’ve felt every month, every day, every <i>second</i> I’ve been without Rouen Rivoche, the rightful Queen of the dark Fae. My mortal enemy.</p>
+      <p class="subsq">We defied the odds—and the ancient war between our Faerie Courts—by falling in love. Now, every breath without her hurts. It’s all I can do to stand here, captive to my mortal life.</p>
+      <p class="subsq">Our class bottlenecks in the foyer. As seniors, we’re last, so it’ll be a bit of a wait while everyone else gets seated.</p>
+      <p class="subsq">Truth is, I wasn’t born Fae. I was a sleeper-princess, a rare type of Fae whose powers were locked away. I only Awakened when I met Rouen. My Summer powers exploded out of me to clash with her Winter, my sunfire and white flame against her cold lightning and thundersnow. She awoke something else in me too—confidence, pride, duty to my people,<i> love</i>. But as Glamma always says, Faerie giveth and Faerie taketh away.</p>
+      <p class="subsq">Well, Faerie took away, all right.</p>
+      <p class="subsq">It took my Roue, and I’m going to get her back if I have to burn all of Dark Faerie to its bones.</p>
+      <p class="subsq">I look down at my hand, white flames flashing across my skin. The dark Fae responsible? Oh yeah, she’s gonna get one heck of a suntan.</p>
+      <p class="subsq">But first, the Bleed.</p>
+      <p class="subsq">Lightning zaps the sky and thunder booms, shaking the entire building. Some of the kids around me get quiet, eyes round, as the lights flicker. Miss Mack waves everyone on. “No dawdling now.” Everyone keeps shuffling along. Miss Mack’s slate-grey eyes fall on me like she knows I’m up to something.</p>
+      <p class="subsq">I swear, the algebra teacher’s got a sixth sense or something.</p>
+      <p class="subsq">I put my head down. <i>Shuffle, shuffle. Nothing to see here.</i></p>
+      <p class="subsq">The sophomores enter the auditorium to freshmen shouting. I’m so over petty interclass rivalries. I should be out there, looking for Roue. Instead, I’m stuck at Richmond E on the first day of school, trapped between a pep rally and tracking down a Bleed.</p>
+      <p class="subsq">Here’s the thing though: Roue’s not lost. I know just where she is.</p>
+      <p class="subsq">In the collapsing throne room of FrankenFaerie (what I’ve been calling our jammed-together realms), under a wicked curse to obey only her dark side—the dark side that wants to kill me and rule over all of Faerie as Overqueen. All because of a certain meddling pocket púca, a malicious, mischievous shape-shifting dark Fae.</p>
+      <p class="subsq">Miss Jardin. My old librarian-turned-enemy.</p>
+      <p class="subsq">She used her woo-woo to bring out Roue’s dark side, and now, my Roue’s hell-bent on rekindling the ages-old war between our peoples. Meanwhile, our two opposing realms, Dark Faerie and Fair Faerie, are fused, Summer and Winter locked into a battle for dominance that will tear<i> all </i>of Faerie apart, unless we can stop it. And if we don’t heal Faerie, it’ll tear the Shroud that connects and separates all the various dimensions.</p>
+      <p class="subsq">Faerie is the linchpin.</p>
+      <p class="subsq">Pull it out, and everything, the entire multiverse, every single dimension—the mortal realm, the underworld, Faerie, the Snickleways, Oz, freaking Narnia—they all come crashing down.</p>
+      <p class="subsq"><i>Shuffle, shuffle.</i> There go the juniors.</p>
+      <p class="subsq">The Shroud’s already weakening. The Bleeds are proof. That, and people <i>eidolizing</i> (turning into their hidden Faerie selves). Last week, a lady at the grocery store turned into a dark Fae foxkine and devoured the entire meat department. The week before that, a kid at Chimborazo Park <i>eidolized</i> into a redcap on the playground. Needless to say, a lot of other kids needed stitches. And probably therapy.</p>
+      <p class="subsq">“Quiet in the foyer.” Miss Mack scolds some unruly girls giggling at their phones.</p>
+      <p class="subsq">Me, I finally got a cheap smart phone with the money I saved from my delivery job, but all I seem to do on it is use ScanSnoop, the app I made that acts like a police scanner. Mom, Glamma, and I’ve taken to listening to the police scanners for anything “weird” or “magical,” then I go there and try to pick up the pieces. Or heal the pieces, to be more exact. Healing is one of my powers as the rightful Queen of Summer.</p>
+      <p class="subsq">Thankfully, my white flame’s up to the task.</p>
+      <p class="subsq">But the Bleeds are getting worse, more frequent. I can’t chase them all down.</p>
+      <p class="subsq">Meanwhile, the darkest, loneliest areas of Richmond (RVA to the locals) are also <i>eidolizing</i>, rogue Faerie energy transforming normal streets, buildings, and alleyways into hyper-realized Faerie landscapes. So far, they’ve all come with built-in Glamouries that shield their true natures from mortals.</p>
+      <p class="subsq">So far. <i>Roue, I really need you.</i></p>
+      <p class="subsq">“Come on down!” Principal Fetch shouts from the stage, waving the juniors on with a red Richmond Elite spiders megaphone. He and the Cheer-Cheer Squad start up some kind of rallying cry.</p>
+      <p class="subsq">I swear, if I survive this chaos, I’m gonna need some kind of medal. Got Out of Bed This Morning, it should read. It can hang on my vanity right next to my other medals: Dressed Myself and Dragged My Butt to School. Meanwhile, my besties are practically vibrating with excitement. It’s the beginning of the school year.</p>
+      <p class="subsq">Our senior year.</p>
+      <p class="subsq">I should be excited too. On stage, Principal Fetch is listing all the cool stuff to get psyched about: spring formals, field trips, spirit week, senior prom.</p>
+      <p class="subsq">All of it without Roue.</p>
+      <p class="subsq"><i>Hurry up already, Bleed, </i>I think, and for once, Faerie obeys.</p>
+      <p class="subsq"><i>Pop-pop-hissssss!</i> The air splits with a sound like an old radiator turning on, and a shimmering energy vortex opens up on the left side of the auditorium. Ever see oil on the ground after it rains?</p>
+      <p class="subsq">A Bleed is like that, all swirly-dark rainbow energy, reaching out with multicolor tendrils.</p>
+      <p class="subsq">With my Fae-sight, I’m the only one who sees it, but over the crowd of seniors, I also see rabbit ears. Someone’s <i>eidolizing</i>. I position myself at an angle and catch a glimpse of Mekhi Jackson. He’s the closest to the Bleed, his ears elongating, sprouting white fur.</p>
+      <p class="subsq">Púca ears.</p>
+      <p class="subsq">That’s a hard no. We do not need another púca up in here.</p>
+      <p class="subsq">I need to heal that Bleed and now. Before Mekhi <i>eidolizes </i>and starts pulling people out of a hat. But Miss Mack’s still watching. I need a distraction.</p>
+      <p class="subsq">Looking around, I spot Pru ahead of me in the crowd. “Pru! Hey!”</p>
+      <p class="subsq">She notices me right away. “Syl, there you are!”</p>
+      <p class="subsq">Pru’s the mother hen of our group—mermaid-blue hair, olive complexion, five-foot-eight inches of curvy sass and snark. She sweeps her vibrant hair from her brown eyes as she comes my way, shoving right through a group of football players.</p>
+      <p class="subsq">My Pru’s no pushover.</p>
+      <p class="subsq">“What’s up?” she asks.</p>
+      <p class="subsq">“I need a distraction,” I say, eying the fire alarm across the auditorium. Our class starts shuffling forward. It’s our turn. Mekhi’s ears are almost done growing. While some mortals are Wakeful, meaning they can sometimes see Faerie energy, that doesn’t seem to be the case for him. Still, they’re <i>his</i> ears. He’s going to notice any second now, and if I can’t heal the Bleed in time, more of my classmates are going to transform into their Fae selves.</p>
+      <p class="subsq">“Pru. Distraction. Now.”</p>
+      <p class="subsq">“Right.” Pru springs into action. “Lennon!”</p>
+      <p class="subsq">“Hi!” Lennon turns from reading some monster-girl comic on her phone. Where Pru’s sassy and curvy, Lennon’s quiet and adorable, with her long pin-straight black hair, Goth Lolita dress, and her cat-ear headphones glowing vibrant hot pink around her neck, pulsing in time with the tinny K-pop she’s listening to.</p>
+      <p class="subsq">“Gimme.” Pru grabs the headphones and unplugs them from Lennon’s phone.</p>
+      <p class="subsq">K-pop blares into the foyer, and several people whip around our way, including Miss Mack. Her eyes fixate on Pru, who dances away from me, dragging Lennon into the center of the foyer for everyone to see. All eyes turn to them.</p>
+      <p class="subsq">Score!</p>
+      <p class="subsq">With a wave of my hand, I throw up a don’t-see-me Glamoury. Shivers tingle across my skin as it settles into place, hiding me. It also has the helpful side effect of ensuring people don’t notice me vanishing either.</p>
+      <p class="subsq">Being a queen has its merits.</p>
+      <p class="subsq">I speed over to the fire alarm. Guilt seeps into my chest. I’m a play-by-the-rules kind of girl, so I hate the thought of pulling it. Mekhi’s fingers reach for his rabbit ears—</p>
+      <p class="subsq"><i>Slam!</i> I pull the fire alarm. Desperate times and all.</p>
+      <p class="subsq"><i>Weee-oooo! Weee-ooo! Weee-oooo! </i>The alarm blares, and Miss Mack immediately begins ushering everyone out. “All right, people! Single file. No pushing!” she shouts over the alarm. Groans and moans accompany all the students as they file out.</p>
+      <p class="subsq">I wait by the fire alarm, out of the way.</p>
+      <p class="subsq">Pru looks in my direction. She can’t see through my Glamoury, but she shoots a thumbs-up toward my vicinity. Whispering my thanks, I head into the now-empty auditorium.</p>
+      <p class="subsq">Outside, the storm crashes violently, wind and hail smashing at the long windows. The Bleed hangs in the air like an oily rainbow, seeping outward in tendrils, wrapping around the tables and chairs. Faerie toadstools begin to sprout on everything, crazy orange vines rushing up the walls. Tiny dragonflies buzz around everything.</p>
+      <p class="subsq">I’ve got only seconds to act.</p>
+      <p class="subsq">I crack my knuckles and shake out my hands. In a flash, I summon my white flame. It flares up from my center, rushing heat through me, and my palms burn bright with it.</p>
+      <p class="subsq"><i>All right, Bleed. Get ready for it. Syl Skye’s on the job.</i></p>
+      <p class="subsq">But as I blast it with my white fire, burning the vestiges of Faerie from the mortal realm and healing the vortex, I feel it in my gut. The Bleeds are getting stronger. One day soon, I won’t be able to heal them.</p>
+      <p class="subsq">All of Faerie will explode into the mortal realm.</p>
+      <p class="subsq"><i>Roue, I really, really need you!</i></p>
+      <p class="subsq">Because the real kicker is—only two soul-bound queens can heal Faerie.</p>
+    </div>
+  </div>
+</body>
+</html>
+2023-01-15 19:00:44 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-15 19:00:44 INFO  - Taking screenshot
+2023-01-15 19:00:45 INFO  - Test finished - logging out
+2023-01-15 19:00:46 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 19:00:48 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 19:00:49 INFO  - Button 'Accounts' :: Clicking
+2023-01-15 19:00:51 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-15 19:00:52 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-15 19:00:52 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-15 19:00:52 INFO  - Button 'Log out' :: Clicking
+2023-01-15 19:00:52 INFO  - Button 'Log in' :: Getting text from element
+2023-01-15 19:00:56 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-15 19:00:56 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-15 19:00:56 INFO  - Unlocking credential for current thread
+2023-01-15 19:00:56 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5e572a6d
