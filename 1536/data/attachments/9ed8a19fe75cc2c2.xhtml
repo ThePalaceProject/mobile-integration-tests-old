@@ -1,0 +1,317 @@
+2023-01-15 08:06:22 INFO  - Scenario 'Font settings: Check of text theme' start
+2023-01-15 08:06:22 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-15 08:07:04 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-15 08:07:04 INFO  - Session id - 634c254c0248c188fa6416092d595efac43b11b2
+2023-01-15 08:07:04 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-15 08:07:04 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-15 08:07:07 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-15 08:07:07 INFO  - Button 'Search' :: Clicking
+2023-01-15 08:07:09 INFO  - Text Field 'Search' :: Clearing
+2023-01-15 08:07:09 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-15 08:07:11 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-15 08:07:12 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-15 08:07:12 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 08:07:13 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 08:07:14 INFO  - Button 'Accounts' :: Clicking
+2023-01-15 08:07:16 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-15 08:07:16 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 08:07:16 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 08:07:17 INFO  - Button 'Accounts' :: Clicking
+2023-01-15 08:07:18 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-15 08:07:19 INFO  - Locking credential with barcode 01230000000305
+2023-01-15 08:07:19 INFO  - There are books on the account: 
+2023-01-15 08:07:20 INFO  - There is not books on the account.
+2023-01-15 08:07:20 INFO  - Count of books on the account after opening account: 0
+2023-01-15 08:07:20 INFO  - Text Field 'Card' :: Clearing
+2023-01-15 08:07:20 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-01-15 08:07:21 INFO  - Text Field 'Pin' :: Clearing
+2023-01-15 08:07:21 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-15 08:07:23 INFO  - Button 'Log in' :: Clicking
+2023-01-15 08:07:30 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-15 08:07:30 INFO  - Step 3 - Login is performed successfully
+2023-01-15 08:07:51 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-15 08:07:52 INFO  - Step 4 - I open Catalog
+2023-01-15 08:07:52 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-15 08:08:12 INFO  - Step 5 - I open search modal
+2023-01-15 08:08:33 INFO  - Button 'Search' :: Clicking
+2023-01-15 08:08:34 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-15 08:08:34 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-15 08:08:34 INFO  - randomBookName: The Book of Ingeniously Daring Chemistry
+2023-01-15 08:08:34 INFO  - Error details button is not present
+2023-01-15 08:08:34 INFO  - Text Field 'Search value input' :: Sending keys 'The Book of Ingeniously Daring Chemistry'
+2023-01-15 08:08:34 INFO  - Button 'Apply search' :: Clicking
+2023-01-15 08:08:36 INFO  - Error details button is not present
+2023-01-15 08:08:39 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-15 08:08:41 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-15 08:08:41 INFO  - Button 'actionButton' :: Clicking
+2023-01-15 08:09:29 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-15 08:09:29 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-15 08:09:30 INFO  - Label 'lblBookName' :: Clicking
+2023-01-15 08:09:30 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-15 08:09:31 INFO  - Button 'Read' :: Clicking
+2023-01-15 08:09:31 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-15 08:09:31 INFO  - Scrolling 8 times on reader epub screen
+2023-01-15 08:09:52 INFO  - Step 11 - I open font settings
+2023-01-15 08:09:53 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-15 08:09:53 INFO  - Step 12 - I change contrast to BLACK_TEXT_ON_WHITE
+2023-01-15 08:09:53 INFO  - Button 'setThemeLight' :: Clicking
+2023-01-15 08:09:54 INFO  - Step 13 - The BLACK_TEXT_ON_WHITE background is correct
+2023-01-15 08:09:54 INFO  - context - NATIVE_APP
+2023-01-15 08:09:54 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-15 08:09:55 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-15 08:09:55 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>The Book of Ingeniously Daring Chemistry</title>
+		<link href="css/idGeneratedStyles_0.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="intro" lang="en-US" xml:lang="en-US">
+			<p id="_idParaDest-22" class="FMH"><a id="_idTextAnchor000"></a>introduction</p>
+			<p class="AHD">Matter Really Matters </p>
+			<p class="T1">Think about that word “matter” for a moment. Do you have any idea what it means? Is everything some sort of matter? Or maybe some stuff is and other stuff is something else? Or could it be that things are made up partly of matter, with other things, like forces, mixed in? Maybe none of these answers is even close? Or the answer is just too darned complicated to find? <em>Does it even really matter?</em></p>
+			<p class="img"><img class="" src="image/p_viii.jpg" alt="" /></p>
+			<p class="T">The answer is 100 percent YES. It does matter, and best of all, finding out how and why is a whole lot of fun. That’s what this book will do. It’s going to show you how everything <em>is</em> matter, but more than that, it will help you see the world around you in a whole new way. You’ll understand why things look the way they do (or why they sometimes can’t be seen), why they behave the way they do, and what can and cannot be changed about them. </p>
+			<p class="T">The following pages will take you on a chemistry journey through the inner workings of all matter. When we think of matter, we think of “things”—doughnuts, car tires, cell phones, and pineapples. They all seem different, but if we look more closely, we learn that those familiar examples share certain elements; it’s just that those elements are put together in different ways. </p>
+			<p class="T">And it’s that word, “elements,” that is the key to understanding matter. Once you start separating the bits that make an apple an apple or a pencil a pencil, you eventually get to a point where you can’t do any more separating. You find the basic building blocks of matter, the things that can be arranged in all sorts of awesome ways to make the world around us. These are the elements, the “end of the line,” beyond which it’s impossible to reduce things into simpler structures. </p>
+			<p class="T">That is the world this book inhabits—the world of elements. You’ll see that these elements are all atoms, but atoms differ from one another in particular ways. The differences come from the tiny particles that all atoms have, but in different numbers and arrangements. The number of protons (the positively charged particles) is the main “ID check” of an element. The protons are all in the nucleus, or center, of each atom. And just to make things interesting, you might also find neutrons inside some of these atoms, too. Neutrons have no charge, but they do have mass (weight) . . . and that can make elements behave differently.</p>
+			<p class="img"><img class="_idGenObjectAttribute-2" src="image/p_0ix.png" alt="" /></p>
+			<p class="T">Things really get going when you come across the negatively charged electrons, which orbit the nucleus a little bit like planets orbiting the Sun. Just as you might have noticed with electricity or magnets, opposites attract, so the negative charge of one element might attract the positive charge of another . . . leading to some pretty cool connections. Electrons are the fidgety members of the element drama—they might stay put and attract other elements, or jump off to a different element, or even share time between two elements. At this point, you come to learn one of the keys to all science: The behavior of electrons dictates so much of what we call chemistry.</p>
+			<p class="AHD">Setting the Table</p>
+			<p class="T1">Just how do those elements get along with each other? It’s easy to see that gold looks different from carbon and each of those is unlike aluminum or oxygen. What’s harder to see is that the elements aren’t all out in the world behaving uncontrollably—unlike your screwball brother or sister, there’s a way to predict their behavior. How? That’s where the periodic table of elements comes into play. </p>
+			<p class="T">The periodic table is a road map of all the matter in the universe. It arranges the elements according to the particles that make them up. Since the main ID for an element is its number of protons, the table begins with hydrogen (which has one proton, so its atomic number is 1) and ends with oganesson, which has an atomic number of 118. You probably hadn’t ever heard of oganesson before a few seconds ago, but now you can probably work out how many protons it has!</p>
+			<p class="img"><img class="_idGenObjectAttribute-3" src="image/p_00x.png" alt="" /></p>
+			<p class="T">We’ve gone pretty easily from 1 to 118, but why are the elements arranged in rows and columns? That takes us back to those orbiting electrons. Think again of electron orbits, which scientists call “shells” or “energy levels.” Well, atoms have seven possible electron shells. Once the innermost shell (which can hold two electrons) has been filled up, electrons move to the second shell, and when that’s filled, they start in on the third, and so forth. And each shell can hold more electrons than the previous one. But take another look at the periodic table. Notice how that bigger top chunk has seven rows—that’s because there are seven possible electron shells. So the elements in the first row have one electron shell, those in the second have two, and so on, right up to the seventh row.</p>
+			<p class="img"><img class="_idGenObjectAttribute-4" src="image/p_0xi.png" alt="" /></p>
+			<p class="T">When scientists first grouped elements in this way, they called each row a “period.” So they were building a “periodic table.” Ta-da! This is all beginning to fall into place. But what about the columns? What do they mean?</p>
+			<p class="T">The answer is still all about electrons—specifically, the number of electrons in the outermost shell of each element. The electrons in the inner shells are tucked away from contact with other atoms, but those in the outer shells (called “valence electrons”) can jump ship, invite others, or split their time with another element. As long as they haven’t filled up all the available spaces in that shell, that is. Those filled shells don’t deal with other elements, just like the electrons of the inner shells.</p>
+			<p class="T">We know that the rows tell us how many electron shells an element has. The columns go further, telling us how many electrons are in those outer shells. Look down the first column, starting with hydrogen. Even though the elements in that column pile on more and more electrons as you go farther down, they all have one thing in common: Each of them has just one electron in its outer shell. Chemists call a group of elements making up one of these columns—guess what—a “group.”</p>
+			<p class="T">And in the next column? Each member of that group of elements—containing some familiar names (magnesium, calcium) and some unfamiliar (beryllium, strontium)—has two electrons in that outer shell.</p>
+			<p class="T">Columns 3 to 12 are the “rebels” of the periodic table. They have valence electrons in every electron shell, not just the outermost shell. That gives them some unusual properties, which we’ll examine firsthand later in the book. Columns 13 onward get back in step, though: From boron on down, the elements have three valence electrons, carbon’s column has four, nitrogen’s column has five, and so on.</p>
+			<p class="AHD">How This Book Works</p>
+			<p class="T1">This book will take you on a trip through the periodic table. Not all of it, because many of the elements—especially in the smaller bottom chunk—are rare, dangerous, or exist only for a split second. But you’ll be making stops down the rows and across the columns, getting to know enough of the “key players” to see the wider picture. Plus, you’ll be able to see how some of the “relatives” of those elements might be extremely dangerous or volatile, even though they share some of the same characteristics.</p>
+			<p class="T">Each chapter will be devoted to a single element, which you’ll get to know really well. The chapter includes that element’s:</p>
+			<p class="BL"><span class="BL-bullets">•</span> Atomic number (how many protons it has)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Atomic weight (protons plus neutrons, on average)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Element symbol (the official abbreviation)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Electrons in the outer shell (also called “valence electrons”)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Melting point (the temperature that makes it melt)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Boiling point (the temperature that makes it boil)</p>
+			<p class="Tsp">All of this information defines the essence of an element. You’ll also learn more so you can form a clearer picture of that element—what it looks like, when it was discovered, where it is found, the useful stuff it does, and the quirky qualities that help give it character. </p>
+			<p class="T">Getting to know an element is like being introduced to a new friend, and then it’s time to “Meet the Relatives.” You’ll learn about an element’s crazy cousin or wacky uncle, and you’ll see how these other elements in their period or group behave, working with similar amounts or arrangements of particles. It’s also a chance to find out that some of the wilder chemical reactions—way beyond the scope of “hands-on” experiments—still depend on the same basic chemical ingredients as these familiar elements.</p>
+			<p class="T">Each of the first 20 chapters of the book focuses on an element that you can find easily—although it’s usually combined with one or more other elements. But don’t forget: Some of these more familiar elements can still turn out to be dangerous, as you’ll see in the “Danger Level” panel. </p>
+			<p class="T">These chapters will finish with at least one hands-on chemistry experiment to drive home some of the memorable features of the chapter’s element. It might involve just the one element, or maybe you’ll be getting really scientific by forming compounds (see <a href="ch_1-4.xhtml#p_022">here</a>) with more than one element. Either way it will be fun, and you won’t have to worry about getting “scientific material” from special suppliers—you probably have what you need to reveal the mysteries of the periodic table in your kitchen or tucked away in a closet.</p>
+			<p class="T">After rolling up your sleeves with those 20 elements, you’ll learn about the “Dirty Dozen”—12 of the most dangerous elements of all. Some of these, like plutonium, have the potential to blow the world to bits. Others, such as polonium, could poison an entire city in an instant. You’ll also learn about elements that people once thought were safe, or even healthful. Now they know better!</p>
+			<p class="T">It’s time to start exploring.</p>
+	</body>
+</html>
+2023-01-15 08:09:55 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-15 08:09:56 INFO  - Step 14 - I restart app
+2023-01-15 08:10:20 INFO  - Step 15 - I open Books
+2023-01-15 08:10:20 INFO  - Button 'tabBooks' :: Clicking
+2023-01-15 08:10:22 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-15 08:10:22 INFO  - Label 'lblBookName' :: Clicking
+2023-01-15 08:10:22 INFO  - Step 17 - Click READ action button on book details screen
+2023-01-15 08:10:23 INFO  - Button 'Read' :: Clicking
+2023-01-15 08:10:24 INFO  - Step 18 - The BLACK_TEXT_ON_WHITE background is correct
+2023-01-15 08:10:24 INFO  - context - NATIVE_APP
+2023-01-15 08:10:24 INFO  - context - NATIVE_APP
+2023-01-15 08:10:26 INFO  - context - NATIVE_APP
+2023-01-15 08:10:26 INFO  - context - NATIVE_APP
+2023-01-15 08:10:26 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-15 08:10:27 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-15 08:10:27 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>The Book of Ingeniously Daring Chemistry</title>
+		<link href="css/idGeneratedStyles_0.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="intro" lang="en-US" xml:lang="en-US">
+			<p id="_idParaDest-22" class="FMH"><a id="_idTextAnchor000"></a>introduction</p>
+			<p class="AHD">Matter Really Matters </p>
+			<p class="T1">Think about that word “matter” for a moment. Do you have any idea what it means? Is everything some sort of matter? Or maybe some stuff is and other stuff is something else? Or could it be that things are made up partly of matter, with other things, like forces, mixed in? Maybe none of these answers is even close? Or the answer is just too darned complicated to find? <em>Does it even really matter?</em></p>
+			<p class="img"><img class="" src="image/p_viii.jpg" alt="" /></p>
+			<p class="T">The answer is 100 percent YES. It does matter, and best of all, finding out how and why is a whole lot of fun. That’s what this book will do. It’s going to show you how everything <em>is</em> matter, but more than that, it will help you see the world around you in a whole new way. You’ll understand why things look the way they do (or why they sometimes can’t be seen), why they behave the way they do, and what can and cannot be changed about them. </p>
+			<p class="T">The following pages will take you on a chemistry journey through the inner workings of all matter. When we think of matter, we think of “things”—doughnuts, car tires, cell phones, and pineapples. They all seem different, but if we look more closely, we learn that those familiar examples share certain elements; it’s just that those elements are put together in different ways. </p>
+			<p class="T">And it’s that word, “elements,” that is the key to understanding matter. Once you start separating the bits that make an apple an apple or a pencil a pencil, you eventually get to a point where you can’t do any more separating. You find the basic building blocks of matter, the things that can be arranged in all sorts of awesome ways to make the world around us. These are the elements, the “end of the line,” beyond which it’s impossible to reduce things into simpler structures. </p>
+			<p class="T">That is the world this book inhabits—the world of elements. You’ll see that these elements are all atoms, but atoms differ from one another in particular ways. The differences come from the tiny particles that all atoms have, but in different numbers and arrangements. The number of protons (the positively charged particles) is the main “ID check” of an element. The protons are all in the nucleus, or center, of each atom. And just to make things interesting, you might also find neutrons inside some of these atoms, too. Neutrons have no charge, but they do have mass (weight) . . . and that can make elements behave differently.</p>
+			<p class="img"><img class="_idGenObjectAttribute-2" src="image/p_0ix.png" alt="" /></p>
+			<p class="T">Things really get going when you come across the negatively charged electrons, which orbit the nucleus a little bit like planets orbiting the Sun. Just as you might have noticed with electricity or magnets, opposites attract, so the negative charge of one element might attract the positive charge of another . . . leading to some pretty cool connections. Electrons are the fidgety members of the element drama—they might stay put and attract other elements, or jump off to a different element, or even share time between two elements. At this point, you come to learn one of the keys to all science: The behavior of electrons dictates so much of what we call chemistry.</p>
+			<p class="AHD">Setting the Table</p>
+			<p class="T1">Just how do those elements get along with each other? It’s easy to see that gold looks different from carbon and each of those is unlike aluminum or oxygen. What’s harder to see is that the elements aren’t all out in the world behaving uncontrollably—unlike your screwball brother or sister, there’s a way to predict their behavior. How? That’s where the periodic table of elements comes into play. </p>
+			<p class="T">The periodic table is a road map of all the matter in the universe. It arranges the elements according to the particles that make them up. Since the main ID for an element is its number of protons, the table begins with hydrogen (which has one proton, so its atomic number is 1) and ends with oganesson, which has an atomic number of 118. You probably hadn’t ever heard of oganesson before a few seconds ago, but now you can probably work out how many protons it has!</p>
+			<p class="img"><img class="_idGenObjectAttribute-3" src="image/p_00x.png" alt="" /></p>
+			<p class="T">We’ve gone pretty easily from 1 to 118, but why are the elements arranged in rows and columns? That takes us back to those orbiting electrons. Think again of electron orbits, which scientists call “shells” or “energy levels.” Well, atoms have seven possible electron shells. Once the innermost shell (which can hold two electrons) has been filled up, electrons move to the second shell, and when that’s filled, they start in on the third, and so forth. And each shell can hold more electrons than the previous one. But take another look at the periodic table. Notice how that bigger top chunk has seven rows—that’s because there are seven possible electron shells. So the elements in the first row have one electron shell, those in the second have two, and so on, right up to the seventh row.</p>
+			<p class="img"><img class="_idGenObjectAttribute-4" src="image/p_0xi.png" alt="" /></p>
+			<p class="T">When scientists first grouped elements in this way, they called each row a “period.” So they were building a “periodic table.” Ta-da! This is all beginning to fall into place. But what about the columns? What do they mean?</p>
+			<p class="T">The answer is still all about electrons—specifically, the number of electrons in the outermost shell of each element. The electrons in the inner shells are tucked away from contact with other atoms, but those in the outer shells (called “valence electrons”) can jump ship, invite others, or split their time with another element. As long as they haven’t filled up all the available spaces in that shell, that is. Those filled shells don’t deal with other elements, just like the electrons of the inner shells.</p>
+			<p class="T">We know that the rows tell us how many electron shells an element has. The columns go further, telling us how many electrons are in those outer shells. Look down the first column, starting with hydrogen. Even though the elements in that column pile on more and more electrons as you go farther down, they all have one thing in common: Each of them has just one electron in its outer shell. Chemists call a group of elements making up one of these columns—guess what—a “group.”</p>
+			<p class="T">And in the next column? Each member of that group of elements—containing some familiar names (magnesium, calcium) and some unfamiliar (beryllium, strontium)—has two electrons in that outer shell.</p>
+			<p class="T">Columns 3 to 12 are the “rebels” of the periodic table. They have valence electrons in every electron shell, not just the outermost shell. That gives them some unusual properties, which we’ll examine firsthand later in the book. Columns 13 onward get back in step, though: From boron on down, the elements have three valence electrons, carbon’s column has four, nitrogen’s column has five, and so on.</p>
+			<p class="AHD">How This Book Works</p>
+			<p class="T1">This book will take you on a trip through the periodic table. Not all of it, because many of the elements—especially in the smaller bottom chunk—are rare, dangerous, or exist only for a split second. But you’ll be making stops down the rows and across the columns, getting to know enough of the “key players” to see the wider picture. Plus, you’ll be able to see how some of the “relatives” of those elements might be extremely dangerous or volatile, even though they share some of the same characteristics.</p>
+			<p class="T">Each chapter will be devoted to a single element, which you’ll get to know really well. The chapter includes that element’s:</p>
+			<p class="BL"><span class="BL-bullets">•</span> Atomic number (how many protons it has)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Atomic weight (protons plus neutrons, on average)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Element symbol (the official abbreviation)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Electrons in the outer shell (also called “valence electrons”)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Melting point (the temperature that makes it melt)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Boiling point (the temperature that makes it boil)</p>
+			<p class="Tsp">All of this information defines the essence of an element. You’ll also learn more so you can form a clearer picture of that element—what it looks like, when it was discovered, where it is found, the useful stuff it does, and the quirky qualities that help give it character. </p>
+			<p class="T">Getting to know an element is like being introduced to a new friend, and then it’s time to “Meet the Relatives.” You’ll learn about an element’s crazy cousin or wacky uncle, and you’ll see how these other elements in their period or group behave, working with similar amounts or arrangements of particles. It’s also a chance to find out that some of the wilder chemical reactions—way beyond the scope of “hands-on” experiments—still depend on the same basic chemical ingredients as these familiar elements.</p>
+			<p class="T">Each of the first 20 chapters of the book focuses on an element that you can find easily—although it’s usually combined with one or more other elements. But don’t forget: Some of these more familiar elements can still turn out to be dangerous, as you’ll see in the “Danger Level” panel. </p>
+			<p class="T">These chapters will finish with at least one hands-on chemistry experiment to drive home some of the memorable features of the chapter’s element. It might involve just the one element, or maybe you’ll be getting really scientific by forming compounds (see <a href="ch_1-4.xhtml#p_022">here</a>) with more than one element. Either way it will be fun, and you won’t have to worry about getting “scientific material” from special suppliers—you probably have what you need to reveal the mysteries of the periodic table in your kitchen or tucked away in a closet.</p>
+			<p class="T">After rolling up your sleeves with those 20 elements, you’ll learn about the “Dirty Dozen”—12 of the most dangerous elements of all. Some of these, like plutonium, have the potential to blow the world to bits. Others, such as polonium, could poison an entire city in an instant. You’ll also learn about elements that people once thought were safe, or even healthful. Now they know better!</p>
+			<p class="T">It’s time to start exploring.</p>
+	</body>
+</html>
+2023-01-15 08:10:27 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-15 08:10:28 INFO  - Step 19 - I return to previous screen from epub
+2023-01-15 08:10:28 INFO  - Button 'btnBack' :: Clicking
+2023-01-15 08:10:29 INFO  - Step 20 - Click READ action button on book details screen
+2023-01-15 08:10:30 INFO  - Button 'Read' :: Clicking
+2023-01-15 08:10:30 INFO  - Step 21 - The BLACK_TEXT_ON_WHITE background is correct
+2023-01-15 08:10:31 INFO  - context - NATIVE_APP
+2023-01-15 08:10:31 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-15 08:10:32 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-15 08:10:32 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>The Book of Ingeniously Daring Chemistry</title>
+		<link href="css/idGeneratedStyles_0.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="intro" lang="en-US" xml:lang="en-US">
+			<p id="_idParaDest-22" class="FMH"><a id="_idTextAnchor000"></a>introduction</p>
+			<p class="AHD">Matter Really Matters </p>
+			<p class="T1">Think about that word “matter” for a moment. Do you have any idea what it means? Is everything some sort of matter? Or maybe some stuff is and other stuff is something else? Or could it be that things are made up partly of matter, with other things, like forces, mixed in? Maybe none of these answers is even close? Or the answer is just too darned complicated to find? <em>Does it even really matter?</em></p>
+			<p class="img"><img class="" src="image/p_viii.jpg" alt="" /></p>
+			<p class="T">The answer is 100 percent YES. It does matter, and best of all, finding out how and why is a whole lot of fun. That’s what this book will do. It’s going to show you how everything <em>is</em> matter, but more than that, it will help you see the world around you in a whole new way. You’ll understand why things look the way they do (or why they sometimes can’t be seen), why they behave the way they do, and what can and cannot be changed about them. </p>
+			<p class="T">The following pages will take you on a chemistry journey through the inner workings of all matter. When we think of matter, we think of “things”—doughnuts, car tires, cell phones, and pineapples. They all seem different, but if we look more closely, we learn that those familiar examples share certain elements; it’s just that those elements are put together in different ways. </p>
+			<p class="T">And it’s that word, “elements,” that is the key to understanding matter. Once you start separating the bits that make an apple an apple or a pencil a pencil, you eventually get to a point where you can’t do any more separating. You find the basic building blocks of matter, the things that can be arranged in all sorts of awesome ways to make the world around us. These are the elements, the “end of the line,” beyond which it’s impossible to reduce things into simpler structures. </p>
+			<p class="T">That is the world this book inhabits—the world of elements. You’ll see that these elements are all atoms, but atoms differ from one another in particular ways. The differences come from the tiny particles that all atoms have, but in different numbers and arrangements. The number of protons (the positively charged particles) is the main “ID check” of an element. The protons are all in the nucleus, or center, of each atom. And just to make things interesting, you might also find neutrons inside some of these atoms, too. Neutrons have no charge, but they do have mass (weight) . . . and that can make elements behave differently.</p>
+			<p class="img"><img class="_idGenObjectAttribute-2" src="image/p_0ix.png" alt="" /></p>
+			<p class="T">Things really get going when you come across the negatively charged electrons, which orbit the nucleus a little bit like planets orbiting the Sun. Just as you might have noticed with electricity or magnets, opposites attract, so the negative charge of one element might attract the positive charge of another . . . leading to some pretty cool connections. Electrons are the fidgety members of the element drama—they might stay put and attract other elements, or jump off to a different element, or even share time between two elements. At this point, you come to learn one of the keys to all science: The behavior of electrons dictates so much of what we call chemistry.</p>
+			<p class="AHD">Setting the Table</p>
+			<p class="T1">Just how do those elements get along with each other? It’s easy to see that gold looks different from carbon and each of those is unlike aluminum or oxygen. What’s harder to see is that the elements aren’t all out in the world behaving uncontrollably—unlike your screwball brother or sister, there’s a way to predict their behavior. How? That’s where the periodic table of elements comes into play. </p>
+			<p class="T">The periodic table is a road map of all the matter in the universe. It arranges the elements according to the particles that make them up. Since the main ID for an element is its number of protons, the table begins with hydrogen (which has one proton, so its atomic number is 1) and ends with oganesson, which has an atomic number of 118. You probably hadn’t ever heard of oganesson before a few seconds ago, but now you can probably work out how many protons it has!</p>
+			<p class="img"><img class="_idGenObjectAttribute-3" src="image/p_00x.png" alt="" /></p>
+			<p class="T">We’ve gone pretty easily from 1 to 118, but why are the elements arranged in rows and columns? That takes us back to those orbiting electrons. Think again of electron orbits, which scientists call “shells” or “energy levels.” Well, atoms have seven possible electron shells. Once the innermost shell (which can hold two electrons) has been filled up, electrons move to the second shell, and when that’s filled, they start in on the third, and so forth. And each shell can hold more electrons than the previous one. But take another look at the periodic table. Notice how that bigger top chunk has seven rows—that’s because there are seven possible electron shells. So the elements in the first row have one electron shell, those in the second have two, and so on, right up to the seventh row.</p>
+			<p class="img"><img class="_idGenObjectAttribute-4" src="image/p_0xi.png" alt="" /></p>
+			<p class="T">When scientists first grouped elements in this way, they called each row a “period.” So they were building a “periodic table.” Ta-da! This is all beginning to fall into place. But what about the columns? What do they mean?</p>
+			<p class="T">The answer is still all about electrons—specifically, the number of electrons in the outermost shell of each element. The electrons in the inner shells are tucked away from contact with other atoms, but those in the outer shells (called “valence electrons”) can jump ship, invite others, or split their time with another element. As long as they haven’t filled up all the available spaces in that shell, that is. Those filled shells don’t deal with other elements, just like the electrons of the inner shells.</p>
+			<p class="T">We know that the rows tell us how many electron shells an element has. The columns go further, telling us how many electrons are in those outer shells. Look down the first column, starting with hydrogen. Even though the elements in that column pile on more and more electrons as you go farther down, they all have one thing in common: Each of them has just one electron in its outer shell. Chemists call a group of elements making up one of these columns—guess what—a “group.”</p>
+			<p class="T">And in the next column? Each member of that group of elements—containing some familiar names (magnesium, calcium) and some unfamiliar (beryllium, strontium)—has two electrons in that outer shell.</p>
+			<p class="T">Columns 3 to 12 are the “rebels” of the periodic table. They have valence electrons in every electron shell, not just the outermost shell. That gives them some unusual properties, which we’ll examine firsthand later in the book. Columns 13 onward get back in step, though: From boron on down, the elements have three valence electrons, carbon’s column has four, nitrogen’s column has five, and so on.</p>
+			<p class="AHD">How This Book Works</p>
+			<p class="T1">This book will take you on a trip through the periodic table. Not all of it, because many of the elements—especially in the smaller bottom chunk—are rare, dangerous, or exist only for a split second. But you’ll be making stops down the rows and across the columns, getting to know enough of the “key players” to see the wider picture. Plus, you’ll be able to see how some of the “relatives” of those elements might be extremely dangerous or volatile, even though they share some of the same characteristics.</p>
+			<p class="T">Each chapter will be devoted to a single element, which you’ll get to know really well. The chapter includes that element’s:</p>
+			<p class="BL"><span class="BL-bullets">•</span> Atomic number (how many protons it has)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Atomic weight (protons plus neutrons, on average)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Element symbol (the official abbreviation)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Electrons in the outer shell (also called “valence electrons”)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Melting point (the temperature that makes it melt)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Boiling point (the temperature that makes it boil)</p>
+			<p class="Tsp">All of this information defines the essence of an element. You’ll also learn more so you can form a clearer picture of that element—what it looks like, when it was discovered, where it is found, the useful stuff it does, and the quirky qualities that help give it character. </p>
+			<p class="T">Getting to know an element is like being introduced to a new friend, and then it’s time to “Meet the Relatives.” You’ll learn about an element’s crazy cousin or wacky uncle, and you’ll see how these other elements in their period or group behave, working with similar amounts or arrangements of particles. It’s also a chance to find out that some of the wilder chemical reactions—way beyond the scope of “hands-on” experiments—still depend on the same basic chemical ingredients as these familiar elements.</p>
+			<p class="T">Each of the first 20 chapters of the book focuses on an element that you can find easily—although it’s usually combined with one or more other elements. But don’t forget: Some of these more familiar elements can still turn out to be dangerous, as you’ll see in the “Danger Level” panel. </p>
+			<p class="T">These chapters will finish with at least one hands-on chemistry experiment to drive home some of the memorable features of the chapter’s element. It might involve just the one element, or maybe you’ll be getting really scientific by forming compounds (see <a href="ch_1-4.xhtml#p_022">here</a>) with more than one element. Either way it will be fun, and you won’t have to worry about getting “scientific material” from special suppliers—you probably have what you need to reveal the mysteries of the periodic table in your kitchen or tucked away in a closet.</p>
+			<p class="T">After rolling up your sleeves with those 20 elements, you’ll learn about the “Dirty Dozen”—12 of the most dangerous elements of all. Some of these, like plutonium, have the potential to blow the world to bits. Others, such as polonium, could poison an entire city in an instant. You’ll also learn about elements that people once thought were safe, or even healthful. Now they know better!</p>
+			<p class="T">It’s time to start exploring.</p>
+	</body>
+</html>
+2023-01-15 08:10:32 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-15 08:10:33 INFO  - Step 22 - I open font settings
+2023-01-15 08:10:34 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-15 08:10:34 INFO  - Step 23 - I change contrast to BLACK_TEXT_ON_SEPIA
+2023-01-15 08:10:34 INFO  - Button 'setThemeSepia' :: Clicking
+2023-01-15 08:10:35 INFO  - Step 24 - The BLACK_TEXT_ON_SEPIA background is correct
+2023-01-15 08:10:35 INFO  - context - NATIVE_APP
+2023-01-15 08:10:35 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-15 08:10:36 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-15 08:10:36 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>The Book of Ingeniously Daring Chemistry</title>
+		<link href="css/idGeneratedStyles_0.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="intro" lang="en-US" xml:lang="en-US">
+			<p id="_idParaDest-22" class="FMH"><a id="_idTextAnchor000"></a>introduction</p>
+			<p class="AHD">Matter Really Matters </p>
+			<p class="T1">Think about that word “matter” for a moment. Do you have any idea what it means? Is everything some sort of matter? Or maybe some stuff is and other stuff is something else? Or could it be that things are made up partly of matter, with other things, like forces, mixed in? Maybe none of these answers is even close? Or the answer is just too darned complicated to find? <em>Does it even really matter?</em></p>
+			<p class="img"><img class="" src="image/p_viii.jpg" alt="" /></p>
+			<p class="T">The answer is 100 percent YES. It does matter, and best of all, finding out how and why is a whole lot of fun. That’s what this book will do. It’s going to show you how everything <em>is</em> matter, but more than that, it will help you see the world around you in a whole new way. You’ll understand why things look the way they do (or why they sometimes can’t be seen), why they behave the way they do, and what can and cannot be changed about them. </p>
+			<p class="T">The following pages will take you on a chemistry journey through the inner workings of all matter. When we think of matter, we think of “things”—doughnuts, car tires, cell phones, and pineapples. They all seem different, but if we look more closely, we learn that those familiar examples share certain elements; it’s just that those elements are put together in different ways. </p>
+			<p class="T">And it’s that word, “elements,” that is the key to understanding matter. Once you start separating the bits that make an apple an apple or a pencil a pencil, you eventually get to a point where you can’t do any more separating. You find the basic building blocks of matter, the things that can be arranged in all sorts of awesome ways to make the world around us. These are the elements, the “end of the line,” beyond which it’s impossible to reduce things into simpler structures. </p>
+			<p class="T">That is the world this book inhabits—the world of elements. You’ll see that these elements are all atoms, but atoms differ from one another in particular ways. The differences come from the tiny particles that all atoms have, but in different numbers and arrangements. The number of protons (the positively charged particles) is the main “ID check” of an element. The protons are all in the nucleus, or center, of each atom. And just to make things interesting, you might also find neutrons inside some of these atoms, too. Neutrons have no charge, but they do have mass (weight) . . . and that can make elements behave differently.</p>
+			<p class="img"><img class="_idGenObjectAttribute-2" src="image/p_0ix.png" alt="" /></p>
+			<p class="T">Things really get going when you come across the negatively charged electrons, which orbit the nucleus a little bit like planets orbiting the Sun. Just as you might have noticed with electricity or magnets, opposites attract, so the negative charge of one element might attract the positive charge of another . . . leading to some pretty cool connections. Electrons are the fidgety members of the element drama—they might stay put and attract other elements, or jump off to a different element, or even share time between two elements. At this point, you come to learn one of the keys to all science: The behavior of electrons dictates so much of what we call chemistry.</p>
+			<p class="AHD">Setting the Table</p>
+			<p class="T1">Just how do those elements get along with each other? It’s easy to see that gold looks different from carbon and each of those is unlike aluminum or oxygen. What’s harder to see is that the elements aren’t all out in the world behaving uncontrollably—unlike your screwball brother or sister, there’s a way to predict their behavior. How? That’s where the periodic table of elements comes into play. </p>
+			<p class="T">The periodic table is a road map of all the matter in the universe. It arranges the elements according to the particles that make them up. Since the main ID for an element is its number of protons, the table begins with hydrogen (which has one proton, so its atomic number is 1) and ends with oganesson, which has an atomic number of 118. You probably hadn’t ever heard of oganesson before a few seconds ago, but now you can probably work out how many protons it has!</p>
+			<p class="img"><img class="_idGenObjectAttribute-3" src="image/p_00x.png" alt="" /></p>
+			<p class="T">We’ve gone pretty easily from 1 to 118, but why are the elements arranged in rows and columns? That takes us back to those orbiting electrons. Think again of electron orbits, which scientists call “shells” or “energy levels.” Well, atoms have seven possible electron shells. Once the innermost shell (which can hold two electrons) has been filled up, electrons move to the second shell, and when that’s filled, they start in on the third, and so forth. And each shell can hold more electrons than the previous one. But take another look at the periodic table. Notice how that bigger top chunk has seven rows—that’s because there are seven possible electron shells. So the elements in the first row have one electron shell, those in the second have two, and so on, right up to the seventh row.</p>
+			<p class="img"><img class="_idGenObjectAttribute-4" src="image/p_0xi.png" alt="" /></p>
+			<p class="T">When scientists first grouped elements in this way, they called each row a “period.” So they were building a “periodic table.” Ta-da! This is all beginning to fall into place. But what about the columns? What do they mean?</p>
+			<p class="T">The answer is still all about electrons—specifically, the number of electrons in the outermost shell of each element. The electrons in the inner shells are tucked away from contact with other atoms, but those in the outer shells (called “valence electrons”) can jump ship, invite others, or split their time with another element. As long as they haven’t filled up all the available spaces in that shell, that is. Those filled shells don’t deal with other elements, just like the electrons of the inner shells.</p>
+			<p class="T">We know that the rows tell us how many electron shells an element has. The columns go further, telling us how many electrons are in those outer shells. Look down the first column, starting with hydrogen. Even though the elements in that column pile on more and more electrons as you go farther down, they all have one thing in common: Each of them has just one electron in its outer shell. Chemists call a group of elements making up one of these columns—guess what—a “group.”</p>
+			<p class="T">And in the next column? Each member of that group of elements—containing some familiar names (magnesium, calcium) and some unfamiliar (beryllium, strontium)—has two electrons in that outer shell.</p>
+			<p class="T">Columns 3 to 12 are the “rebels” of the periodic table. They have valence electrons in every electron shell, not just the outermost shell. That gives them some unusual properties, which we’ll examine firsthand later in the book. Columns 13 onward get back in step, though: From boron on down, the elements have three valence electrons, carbon’s column has four, nitrogen’s column has five, and so on.</p>
+			<p class="AHD">How This Book Works</p>
+			<p class="T1">This book will take you on a trip through the periodic table. Not all of it, because many of the elements—especially in the smaller bottom chunk—are rare, dangerous, or exist only for a split second. But you’ll be making stops down the rows and across the columns, getting to know enough of the “key players” to see the wider picture. Plus, you’ll be able to see how some of the “relatives” of those elements might be extremely dangerous or volatile, even though they share some of the same characteristics.</p>
+			<p class="T">Each chapter will be devoted to a single element, which you’ll get to know really well. The chapter includes that element’s:</p>
+			<p class="BL"><span class="BL-bullets">•</span> Atomic number (how many protons it has)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Atomic weight (protons plus neutrons, on average)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Element symbol (the official abbreviation)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Electrons in the outer shell (also called “valence electrons”)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Melting point (the temperature that makes it melt)</p>
+			<p class="BL"><span class="BL-bullets">•</span> Boiling point (the temperature that makes it boil)</p>
+			<p class="Tsp">All of this information defines the essence of an element. You’ll also learn more so you can form a clearer picture of that element—what it looks like, when it was discovered, where it is found, the useful stuff it does, and the quirky qualities that help give it character. </p>
+			<p class="T">Getting to know an element is like being introduced to a new friend, and then it’s time to “Meet the Relatives.” You’ll learn about an element’s crazy cousin or wacky uncle, and you’ll see how these other elements in their period or group behave, working with similar amounts or arrangements of particles. It’s also a chance to find out that some of the wilder chemical reactions—way beyond the scope of “hands-on” experiments—still depend on the same basic chemical ingredients as these familiar elements.</p>
+			<p class="T">Each of the first 20 chapters of the book focuses on an element that you can find easily—although it’s usually combined with one or more other elements. But don’t forget: Some of these more familiar elements can still turn out to be dangerous, as you’ll see in the “Danger Level” panel. </p>
+			<p class="T">These chapters will finish with at least one hands-on chemistry experiment to drive home some of the memorable features of the chapter’s element. It might involve just the one element, or maybe you’ll be getting really scientific by forming compounds (see <a href="ch_1-4.xhtml#p_022">here</a>) with more than one element. Either way it will be fun, and you won’t have to worry about getting “scientific material” from special suppliers—you probably have what you need to reveal the mysteries of the periodic table in your kitchen or tucked away in a closet.</p>
+			<p class="T">After rolling up your sleeves with those 20 elements, you’ll learn about the “Dirty Dozen”—12 of the most dangerous elements of all. Some of these, like plutonium, have the potential to blow the world to bits. Others, such as polonium, could poison an entire city in an instant. You’ll also learn about elements that people once thought were safe, or even healthful. Now they know better!</p>
+			<p class="T">It’s time to start exploring.</p>
+	</body>
+</html>
+2023-01-15 08:10:36 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-15 08:10:36 INFO  - Taking screenshot
+2023-01-15 08:10:37 INFO  - Test finished - logging out
+2023-01-15 08:10:38 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 08:10:41 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 08:10:42 INFO  - Button 'Accounts' :: Clicking
+2023-01-15 08:10:43 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-15 08:10:44 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-15 08:10:45 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-15 08:10:45 INFO  - Button 'Log out' :: Clicking
+2023-01-15 08:10:45 INFO  - Button 'Log in' :: Getting text from element
+2023-01-15 08:10:49 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-15 08:10:49 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-15 08:10:50 INFO  - Unlocking credential for current thread
+2023-01-15 08:10:50 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@47fa006a
