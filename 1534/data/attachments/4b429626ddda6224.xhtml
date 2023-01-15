@@ -1,0 +1,148 @@
+2023-01-14 22:04:46 INFO  - Scenario 'Font settings: Check of text theme' start
+2023-01-14 22:04:46 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-14 22:05:22 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-14 22:05:22 INFO  - Session id - 708e9b6e563cd638287b3d9a55d46fa1e4734b2f
+2023-01-14 22:05:22 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-14 22:05:22 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-14 22:05:25 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-14 22:05:25 INFO  - Button 'Search' :: Clicking
+2023-01-14 22:05:27 INFO  - Text Field 'Search' :: Clearing
+2023-01-14 22:05:27 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-14 22:05:29 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 22:05:30 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-14 22:05:30 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 22:05:31 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 22:05:32 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 22:05:34 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-14 22:05:34 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 22:05:35 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 22:05:35 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 22:05:37 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 22:05:37 INFO  - Locking credential with barcode 01230000000305
+2023-01-14 22:05:37 INFO  - There are books on the account: 
+2023-01-14 22:05:38 INFO  - There is not books on the account.
+2023-01-14 22:05:38 INFO  - Count of books on the account after opening account: 0
+2023-01-14 22:05:38 INFO  - Text Field 'Card' :: Clearing
+2023-01-14 22:05:38 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-01-14 22:05:40 INFO  - Text Field 'Pin' :: Clearing
+2023-01-14 22:05:40 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-14 22:05:42 INFO  - Button 'Log in' :: Clicking
+2023-01-14 22:05:49 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-14 22:05:49 INFO  - Step 3 - Login is performed successfully
+2023-01-14 22:06:10 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-14 22:06:10 INFO  - Step 4 - I open Catalog
+2023-01-14 22:06:10 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-14 22:06:30 INFO  - Step 5 - I open search modal
+2023-01-14 22:06:51 INFO  - Button 'Search' :: Clicking
+2023-01-14 22:06:52 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-14 22:06:52 INFO  - Count of attempts to get random book name without bad symbols-3
+2023-01-14 22:06:52 INFO  - randomBookName: Under the Bayou Moon
+2023-01-14 22:06:52 INFO  - Error details button is not present
+2023-01-14 22:06:52 INFO  - Text Field 'Search value input' :: Sending keys 'Under the Bayou Moon'
+2023-01-14 22:06:53 INFO  - Button 'Apply search' :: Clicking
+2023-01-14 22:06:54 INFO  - Error details button is not present
+2023-01-14 22:06:57 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 22:06:58 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 22:06:59 INFO  - Button 'actionButton' :: Clicking
+2023-01-14 22:07:05 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 22:07:06 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 22:07:06 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 22:07:06 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-14 22:07:08 INFO  - Button 'Read' :: Clicking
+2023-01-14 22:07:08 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-14 22:07:08 INFO  - Scrolling 8 times on reader epub screen
+2023-01-14 22:07:28 INFO  - Step 11 - I open font settings
+2023-01-14 22:07:29 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-14 22:07:29 INFO  - Step 12 - I change contrast to BLACK_TEXT_ON_WHITE
+2023-01-14 22:07:30 INFO  - Button 'setThemeLight' :: Clicking
+2023-01-14 22:07:30 INFO  - Step 13 - The BLACK_TEXT_ON_WHITE background is correct
+2023-01-14 22:07:31 INFO  - context - NATIVE_APP
+2023-01-14 22:07:31 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 22:07:32 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 22:07:32 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Under_the_Bayou_Moon_epubCS21-6</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:0635da90-1d80-49e5-9b86-07a1f97bfb8e" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body id="Under_the_Bayou_Moon_epubCS21-6" xml:lang="en-US">
+  <div>
+    <span epub:type="pagebreak" id="page7" title="7"></span> <a id="_idParaDest-7"></a><a id="_idTextAnchor006"></a> 
+
+    <h1 class="toc-marker">Dedication</h1>
+
+    <p class="dedication-first">For all the teachers, <br />with loving memories <br />of a truly gifted one, <br />Patricia Donahoo McCranie, <br />“Aunt Patsy”</p>
+  </div>
+</body>
+</html>
+2023-01-14 22:07:32 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 22:07:32 INFO  - Step 14 - I restart app
+2023-01-14 22:07:56 INFO  - Step 15 - I open Books
+2023-01-14 22:07:57 INFO  - Button 'tabBooks' :: Clicking
+2023-01-14 22:07:57 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-14 22:07:58 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 22:07:58 INFO  - Step 17 - Click READ action button on book details screen
+2023-01-14 22:07:59 INFO  - Button 'Read' :: Clicking
+2023-01-14 22:08:00 INFO  - Step 18 - The BLACK_TEXT_ON_WHITE background is correct
+2023-01-14 22:08:00 INFO  - context - NATIVE_APP
+2023-01-14 22:08:01 INFO  - context - NATIVE_APP
+2023-01-14 22:08:02 INFO  - context - NATIVE_APP
+2023-01-14 22:08:03 INFO  - context - NATIVE_APP
+2023-01-14 22:08:03 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 22:08:03 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 22:08:04 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Under_the_Bayou_Moon_epubCS21-6</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:0635da90-1d80-49e5-9b86-07a1f97bfb8e" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body id="Under_the_Bayou_Moon_epubCS21-6" xml:lang="en-US">
+  <div>
+    <span epub:type="pagebreak" id="page7" title="7"></span> <a id="_idParaDest-7"></a><a id="_idTextAnchor006"></a> 
+
+    <h1 class="toc-marker">Dedication</h1>
+
+    <p class="dedication-first">For all the teachers, <br />with loving memories <br />of a truly gifted one, <br />Patricia Donahoo McCranie, <br />“Aunt Patsy”</p>
+  </div>
+</body>
+</html>
+2023-01-14 22:08:04 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 22:08:04 INFO  - Step 19 - I return to previous screen from epub
+2023-01-14 22:08:05 INFO  - Button 'btnBack' :: Clicking
+2023-01-14 22:08:05 INFO  - Step 20 - Click READ action button on book details screen
+2023-01-14 22:08:06 INFO  - Button 'Read' :: Clicking
+2023-01-14 22:08:06 INFO  - Step 21 - The BLACK_TEXT_ON_WHITE background is correct
+2023-01-14 22:08:07 INFO  - context - NATIVE_APP
+2023-01-14 22:08:07 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 22:08:07 INFO  - Taking screenshot
+2023-01-14 22:08:09 INFO  - Test finished - logging out
+2023-01-14 22:08:09 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 22:08:12 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 22:08:13 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 22:08:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 22:08:15 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 22:08:16 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 22:08:16 INFO  - Button 'Log out' :: Clicking
+2023-01-14 22:08:16 INFO  - Button 'Log in' :: Getting text from element
+2023-01-14 22:08:20 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 22:08:20 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 22:08:21 INFO  - Unlocking credential for current thread
+2023-01-14 22:08:21 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@27d481e8

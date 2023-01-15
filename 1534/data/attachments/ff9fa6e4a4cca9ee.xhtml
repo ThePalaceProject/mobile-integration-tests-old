@@ -1,0 +1,406 @@
+2023-01-14 21:48:48 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-01-14 21:48:48 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-14 21:49:26 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-14 21:49:26 INFO  - Session id - 7d5c2ee77713967b3d3b426b30beb63c79e473e1
+2023-01-14 21:49:26 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-14 21:49:26 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-14 21:49:29 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-14 21:49:29 INFO  - Button 'Search' :: Clicking
+2023-01-14 21:49:31 INFO  - Text Field 'Search' :: Clearing
+2023-01-14 21:49:31 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-14 21:49:33 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 21:49:33 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-14 21:49:33 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:49:35 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:49:36 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 21:49:38 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-14 21:49:38 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:49:38 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:49:39 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 21:49:40 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 21:49:40 INFO  - Locking credential with barcode 01230000000306
+2023-01-14 21:49:40 INFO  - There are books on the account: 
+2023-01-14 21:49:41 INFO  - There is not books on the account.
+2023-01-14 21:49:41 INFO  - Count of books on the account after opening account: 0
+2023-01-14 21:49:41 INFO  - Text Field 'Card' :: Clearing
+2023-01-14 21:49:41 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-01-14 21:49:43 INFO  - Text Field 'Pin' :: Clearing
+2023-01-14 21:49:43 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-14 21:49:45 INFO  - Button 'Log in' :: Clicking
+2023-01-14 21:49:51 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-14 21:49:51 INFO  - Step 3 - Login is performed successfully
+2023-01-14 21:50:12 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-14 21:50:12 INFO  - Step 4 - I open Catalog
+2023-01-14 21:50:12 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-14 21:50:34 INFO  - Step 5 - I open search modal
+2023-01-14 21:50:54 INFO  - Button 'Search' :: Clicking
+2023-01-14 21:50:55 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-14 21:50:56 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-14 21:50:56 INFO  - randomBookName: A Spoonful of Ginger
+2023-01-14 21:50:56 INFO  - Error details button is not present
+2023-01-14 21:50:56 INFO  - Text Field 'Search value input' :: Sending keys 'A Spoonful of Ginger'
+2023-01-14 21:50:56 INFO  - Button 'Apply search' :: Clicking
+2023-01-14 21:50:58 INFO  - Error details button is not present
+2023-01-14 21:51:01 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 21:51:02 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 21:51:02 INFO  - Button 'actionButton' :: Clicking
+2023-01-14 21:51:12 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 21:51:12 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 21:51:13 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 21:51:13 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-14 21:51:14 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:51:14 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-14 21:51:14 INFO  - Scrolling 8 times on reader epub screen
+2023-01-14 21:51:33 INFO  - Step 11 - I save font size as 'fontSize'
+2023-01-14 21:51:33 INFO  - context - NATIVE_APP
+2023-01-14 21:51:33 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:51:34 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:51:34 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>A Spoonful of Ginger</title>
+<link href="Simo_9780307957078_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:aa44d7fc-0083-4225-9bab-c42958d863d3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="toc" id="toc"><a id="pageix"></a><span class="color_0033FF">Contents</span></h1>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ack_r1.htm"><em>Acknowledgments</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_itr_r1.htm">Introduction</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c01_r1.htm">Nourishing Soups</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c02_r1.htm">Seafood</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c03_r1.htm">Poultry: Chicken and Duck</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c04_r1.htm">Pork, Beef, and Lamb</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c05_r1.htm">Vegetables: Stir-Fries, Pickles, and Salads</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c06_r1.htm">Soybeans and Tofu</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c07_r1.htm">The Neutralizers: Rice, Breads, and Noodles</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c08_r1.htm">Sweet Flavors</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c09_r1.htm">The Kitchen Clinic and Herbal Tonics</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_bib_r1.htm"><em>Bibliography</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ind_r1.htm"><em>Index</em></a></p>
+</body>
+</html>
+2023-01-14 21:51:34 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:51:34 INFO  - Step 12 - I open font settings
+2023-01-14 21:51:34 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-14 21:51:35 INFO  - Step 13 - I INCREASE_FONT of text
+2023-01-14 21:51:35 INFO  - Button 'setTextLarger' :: Clicking
+2023-01-14 21:51:35 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-01-14 21:51:36 INFO  - context - NATIVE_APP
+2023-01-14 21:51:36 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:51:36 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:51:36 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>A Spoonful of Ginger</title>
+<link href="Simo_9780307957078_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:aa44d7fc-0083-4225-9bab-c42958d863d3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="toc" id="toc"><a id="pageix"></a><span class="color_0033FF">Contents</span></h1>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ack_r1.htm"><em>Acknowledgments</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_itr_r1.htm">Introduction</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c01_r1.htm">Nourishing Soups</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c02_r1.htm">Seafood</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c03_r1.htm">Poultry: Chicken and Duck</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c04_r1.htm">Pork, Beef, and Lamb</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c05_r1.htm">Vegetables: Stir-Fries, Pickles, and Salads</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c06_r1.htm">Soybeans and Tofu</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c07_r1.htm">The Neutralizers: Rice, Breads, and Noodles</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c08_r1.htm">Sweet Flavors</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c09_r1.htm">The Kitchen Clinic and Herbal Tonics</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_bib_r1.htm"><em>Bibliography</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ind_r1.htm"><em>Index</em></a></p>
+</body>
+</html>
+2023-01-14 21:51:36 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:51:36 INFO  - Step 15 - I restart app
+2023-01-14 21:52:01 INFO  - Step 16 - I open Books
+2023-01-14 21:52:01 INFO  - Button 'tabBooks' :: Clicking
+2023-01-14 21:52:01 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-14 21:52:02 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 21:52:02 INFO  - Step 18 - Click READ action button on book details screen
+2023-01-14 21:52:03 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:52:03 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-01-14 21:52:03 INFO  - context - NATIVE_APP
+2023-01-14 21:52:04 INFO  - context - NATIVE_APP
+2023-01-14 21:52:05 INFO  - context - NATIVE_APP
+2023-01-14 21:52:05 INFO  - context - NATIVE_APP
+2023-01-14 21:52:05 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:52:06 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:52:06 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>A Spoonful of Ginger</title>
+<link href="Simo_9780307957078_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:aa44d7fc-0083-4225-9bab-c42958d863d3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="toc" id="toc"><a id="pageix"></a><span class="color_0033FF">Contents</span></h1>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ack_r1.htm"><em>Acknowledgments</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_itr_r1.htm">Introduction</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c01_r1.htm">Nourishing Soups</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c02_r1.htm">Seafood</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c03_r1.htm">Poultry: Chicken and Duck</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c04_r1.htm">Pork, Beef, and Lamb</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c05_r1.htm">Vegetables: Stir-Fries, Pickles, and Salads</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c06_r1.htm">Soybeans and Tofu</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c07_r1.htm">The Neutralizers: Rice, Breads, and Noodles</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c08_r1.htm">Sweet Flavors</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c09_r1.htm">The Kitchen Clinic and Herbal Tonics</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_bib_r1.htm"><em>Bibliography</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ind_r1.htm"><em>Index</em></a></p>
+</body>
+</html>
+2023-01-14 21:52:06 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:52:06 INFO  - Step 20 - I return to previous screen from epub
+2023-01-14 21:52:07 INFO  - Button 'btnBack' :: Clicking
+2023-01-14 21:52:07 INFO  - Step 21 - Click READ action button on book details screen
+2023-01-14 21:52:08 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:52:09 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-01-14 21:52:09 INFO  - context - NATIVE_APP
+2023-01-14 21:52:09 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:52:10 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:52:11 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>A Spoonful of Ginger</title>
+<link href="Simo_9780307957078_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:aa44d7fc-0083-4225-9bab-c42958d863d3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="toc" id="toc"><a id="pageix"></a><span class="color_0033FF">Contents</span></h1>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ack_r1.htm"><em>Acknowledgments</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_itr_r1.htm">Introduction</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c01_r1.htm">Nourishing Soups</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c02_r1.htm">Seafood</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c03_r1.htm">Poultry: Chicken and Duck</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c04_r1.htm">Pork, Beef, and Lamb</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c05_r1.htm">Vegetables: Stir-Fries, Pickles, and Salads</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c06_r1.htm">Soybeans and Tofu</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c07_r1.htm">The Neutralizers: Rice, Breads, and Noodles</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c08_r1.htm">Sweet Flavors</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c09_r1.htm">The Kitchen Clinic and Herbal Tonics</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_bib_r1.htm"><em>Bibliography</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ind_r1.htm"><em>Index</em></a></p>
+</body>
+</html>
+2023-01-14 21:52:11 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:52:11 INFO  - Step 23 - I save font size as 'fontSize'
+2023-01-14 21:52:11 INFO  - context - NATIVE_APP
+2023-01-14 21:52:11 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:52:11 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:52:11 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>A Spoonful of Ginger</title>
+<link href="Simo_9780307957078_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:aa44d7fc-0083-4225-9bab-c42958d863d3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="toc" id="toc"><a id="pageix"></a><span class="color_0033FF">Contents</span></h1>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ack_r1.htm"><em>Acknowledgments</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_itr_r1.htm">Introduction</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c01_r1.htm">Nourishing Soups</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c02_r1.htm">Seafood</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c03_r1.htm">Poultry: Chicken and Duck</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c04_r1.htm">Pork, Beef, and Lamb</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c05_r1.htm">Vegetables: Stir-Fries, Pickles, and Salads</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c06_r1.htm">Soybeans and Tofu</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c07_r1.htm">The Neutralizers: Rice, Breads, and Noodles</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c08_r1.htm">Sweet Flavors</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c09_r1.htm">The Kitchen Clinic and Herbal Tonics</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_bib_r1.htm"><em>Bibliography</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ind_r1.htm"><em>Index</em></a></p>
+</body>
+</html>
+2023-01-14 21:52:11 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:52:12 INFO  - Step 24 - I open font settings
+2023-01-14 21:52:12 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-14 21:52:12 INFO  - Step 25 - I DECREASE_FONT of text
+2023-01-14 21:52:13 INFO  - Button 'setTextSmaller' :: Clicking
+2023-01-14 21:52:13 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-01-14 21:52:14 INFO  - context - NATIVE_APP
+2023-01-14 21:52:14 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:52:14 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:52:14 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>A Spoonful of Ginger</title>
+<link href="Simo_9780307957078_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:aa44d7fc-0083-4225-9bab-c42958d863d3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="toc" id="toc"><a id="pageix"></a><span class="color_0033FF">Contents</span></h1>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ack_r1.htm"><em>Acknowledgments</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_itr_r1.htm">Introduction</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c01_r1.htm">Nourishing Soups</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c02_r1.htm">Seafood</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c03_r1.htm">Poultry: Chicken and Duck</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c04_r1.htm">Pork, Beef, and Lamb</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c05_r1.htm">Vegetables: Stir-Fries, Pickles, and Salads</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c06_r1.htm">Soybeans and Tofu</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c07_r1.htm">The Neutralizers: Rice, Breads, and Noodles</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c08_r1.htm">Sweet Flavors</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c09_r1.htm">The Kitchen Clinic and Herbal Tonics</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_bib_r1.htm"><em>Bibliography</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ind_r1.htm"><em>Index</em></a></p>
+</body>
+</html>
+2023-01-14 21:52:14 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:52:14 INFO  - Step 27 - I restart app
+2023-01-14 21:52:39 INFO  - Step 28 - I open Books
+2023-01-14 21:52:39 INFO  - Button 'tabBooks' :: Clicking
+2023-01-14 21:52:39 INFO  - Step 29 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-14 21:52:40 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 21:52:40 INFO  - Step 30 - Click READ action button on book details screen
+2023-01-14 21:52:41 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:52:41 INFO  - Step 31 - Font size 'fontSize' is decreased
+2023-01-14 21:52:41 INFO  - context - NATIVE_APP
+2023-01-14 21:52:43 INFO  - context - NATIVE_APP
+2023-01-14 21:52:44 INFO  - context - NATIVE_APP
+2023-01-14 21:52:44 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:52:44 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:52:44 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>A Spoonful of Ginger</title>
+<link href="Simo_9780307957078_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:aa44d7fc-0083-4225-9bab-c42958d863d3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="toc" id="toc"><a id="pageix"></a><span class="color_0033FF">Contents</span></h1>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ack_r1.htm"><em>Acknowledgments</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_itr_r1.htm">Introduction</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c01_r1.htm">Nourishing Soups</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c02_r1.htm">Seafood</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c03_r1.htm">Poultry: Chicken and Duck</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c04_r1.htm">Pork, Beef, and Lamb</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c05_r1.htm">Vegetables: Stir-Fries, Pickles, and Salads</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c06_r1.htm">Soybeans and Tofu</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c07_r1.htm">The Neutralizers: Rice, Breads, and Noodles</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c08_r1.htm">Sweet Flavors</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c09_r1.htm">The Kitchen Clinic and Herbal Tonics</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_bib_r1.htm"><em>Bibliography</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ind_r1.htm"><em>Index</em></a></p>
+</body>
+</html>
+2023-01-14 21:52:44 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:52:44 INFO  - Step 32 - I return to previous screen from epub
+2023-01-14 21:52:45 INFO  - Button 'btnBack' :: Clicking
+2023-01-14 21:52:45 INFO  - Step 33 - Click READ action button on book details screen
+2023-01-14 21:52:46 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:52:47 INFO  - Step 34 - Font size 'fontSize' is decreased
+2023-01-14 21:52:47 INFO  - context - NATIVE_APP
+2023-01-14 21:52:47 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:52:48 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:52:48 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>A Spoonful of Ginger</title>
+<link href="Simo_9780307957078_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:aa44d7fc-0083-4225-9bab-c42958d863d3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="toc" id="toc"><a id="pageix"></a><span class="color_0033FF">Contents</span></h1>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ack_r1.htm"><em>Acknowledgments</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_itr_r1.htm">Introduction</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c01_r1.htm">Nourishing Soups</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c02_r1.htm">Seafood</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c03_r1.htm">Poultry: Chicken and Duck</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c04_r1.htm">Pork, Beef, and Lamb</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c05_r1.htm">Vegetables: Stir-Fries, Pickles, and Salads</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c06_r1.htm">Soybeans and Tofu</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c07_r1.htm">The Neutralizers: Rice, Breads, and Noodles</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c08_r1.htm">Sweet Flavors</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_c09_r1.htm">The Kitchen Clinic and Herbal Tonics</a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_bib_r1.htm"><em>Bibliography</em></a></p>
+<p class="toc"><a class="hlink" href="Simo_9780307957078_epub_ind_r1.htm"><em>Index</em></a></p>
+</body>
+</html>
+2023-01-14 21:52:48 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:52:49 INFO  - Taking screenshot
+2023-01-14 21:52:50 INFO  - Test finished - logging out
+2023-01-14 21:52:51 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:52:54 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:52:55 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 21:52:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 21:52:57 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 21:52:57 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 21:52:57 INFO  - Button 'Log out' :: Clicking
+2023-01-14 21:52:58 INFO  - Button 'Log in' :: Getting text from element
+2023-01-14 21:53:01 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 21:53:01 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 21:53:02 INFO  - Unlocking credential for current thread
+2023-01-14 21:53:02 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@27d481e8

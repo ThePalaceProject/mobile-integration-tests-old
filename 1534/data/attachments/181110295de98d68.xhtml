@@ -1,0 +1,550 @@
+2023-01-14 21:53:06 INFO  - Scenario 'Font settings: Check of font style' start
+2023-01-14 21:53:06 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-14 21:53:45 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-14 21:53:45 INFO  - Session id - 50c31ea24fec99b1b823395c23df32e64d4202ae
+2023-01-14 21:53:45 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-14 21:53:46 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-14 21:53:49 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-14 21:53:49 INFO  - Button 'Search' :: Clicking
+2023-01-14 21:53:51 INFO  - Text Field 'Search' :: Clearing
+2023-01-14 21:53:51 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-14 21:53:52 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 21:53:52 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-14 21:53:53 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:53:54 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:53:55 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 21:53:56 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-14 21:53:56 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:53:57 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:53:57 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 21:53:58 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 21:53:59 INFO  - Locking credential with barcode 01230000000306
+2023-01-14 21:53:59 INFO  - There are books on the account: 
+2023-01-14 21:54:00 INFO  - There is not books on the account.
+2023-01-14 21:54:00 INFO  - Count of books on the account after opening account: 0
+2023-01-14 21:54:00 INFO  - Text Field 'Card' :: Clearing
+2023-01-14 21:54:00 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-01-14 21:54:02 INFO  - Text Field 'Pin' :: Clearing
+2023-01-14 21:54:02 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-14 21:54:04 INFO  - Button 'Log in' :: Clicking
+2023-01-14 21:54:10 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-14 21:54:10 INFO  - Step 3 - Login is performed successfully
+2023-01-14 21:54:31 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-14 21:54:31 INFO  - Step 4 - I open Catalog
+2023-01-14 21:54:31 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-14 21:54:51 INFO  - Step 5 - I open search modal
+2023-01-14 21:55:11 INFO  - Button 'Search' :: Clicking
+2023-01-14 21:55:12 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-14 21:55:12 INFO  - Count of attempts to get random book name without bad symbols-3
+2023-01-14 21:55:12 INFO  - randomBookName: Where I Come From
+2023-01-14 21:55:12 INFO  - Error details button is not present
+2023-01-14 21:55:13 INFO  - Text Field 'Search value input' :: Sending keys 'Where I Come From'
+2023-01-14 21:55:13 INFO  - Button 'Apply search' :: Clicking
+2023-01-14 21:55:15 INFO  - Error details button is not present
+2023-01-14 21:55:19 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 21:55:19 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 21:55:19 INFO  - Button 'actionButton' :: Clicking
+2023-01-14 21:55:25 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 21:55:26 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 21:55:26 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 21:55:26 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-14 21:55:27 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:55:27 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-14 21:55:27 INFO  - Scrolling 8 times on reader epub screen
+2023-01-14 21:55:47 INFO  - Step 11 - I open font settings
+2023-01-14 21:55:48 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-14 21:55:49 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-01-14 21:55:49 INFO  - Button 'setFontSerif' :: Clicking
+2023-01-14 21:55:49 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-01-14 21:55:50 INFO  - context - NATIVE_APP
+2023-01-14 21:55:50 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:55:50 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:55:50 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Where I Come From: Life Lessons from a Latino Chef</title>
+<link href="../styles/9781683356790.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:dc3391c9-e8c8-4c17-8894-157ad3fe78da" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body epub:type="frontmatter">
+<nav epub:type="toc" id="toc1">
+<header>
+<h2 class="h2c" epub:type="title" id="contents"><span epub:type="pagebreak" id="page_vii" title="vii"></span><span class="smallcaps">CONTENTS</span></h2>
+</header>
+<p class="tocb"><a href="intro.xhtml#intro">Introduction</a></p>
+<p class="tocb"><a href="ch01.xhtml#ch01">Chapter One: El Paso to New York City</a></p>
+<p class="tocb"><a href="ch02.xhtml#ch02">Chapter Two: Mi Casa Es Su Casa</a></p>
+<p class="tocb"><a href="ch03.xhtml#ch03">Chapter Three: Two States of Mind</a></p>
+<p class="toc"><a href="ch04.xhtml#ch04">Chapter Four: Pushing Boundaries</a></p>
+<p class="toclevb"><a href="ch04.xhtml#ch04rec1"><em>Recipe: Zarela’s Pineapple-Ginger Chicken Wings with Soy-Pineapple Glaze</em></a></p>
+<p class="tocb"><a href="ch05.xhtml#ch05">Chapter Five: A Lesson in Loss</a></p>
+<p class="toc"><a href="ch06.xhtml#ch06">Chapter Six: On the Road and in the Street</a></p>
+<p class="toclevb"><a href="ch06.xhtml#ch06rec2"><em>Recipe: Tio Mario’s Famous Chili con Carne Colorado-Style Burritos</em></a></p>
+<p class="tocb"><a href="ch07.xhtml#ch07">Chapter Seven: Into the Wild</a></p>
+<p class="toc"><a href="ch08.xhtml#ch08">Chapter Eight: The Big (and Not So) Easy</a></p>
+<p class="toclevb"><a href="ch08.xhtml#ch08rec3"><em>Recipe: A Quick New Orleans Shellfish Étouffée</em></a></p>
+<p class="tocb"><a href="ch09.xhtml#ch09">Chapter Nine: A Lesson in Higher Learning</a></p>
+<p class="toc"><a href="ch10.xhtml#ch10">Chapter Ten: Nuevo Latino</a></p>
+<p class="toclevb"><a href="ch10.xhtml#ch10rec4"><em>Recipe: Mixed Seafood Ceviche Negro with Citrus and Chiles</em></a></p>
+<p class="toc"><a href="ch11.xhtml#ch11">Chapter Eleven: California Dreaming</a></p>
+<p class="toclevb"><a href="ch11.xhtml#ch11rec5"><em>Recipe: Pumpkin Ravioli with Sage Brown Butter</em></a></p>
+<p class="tocb"><a href="ch12.xhtml#ch12">Chapter Twelve: Return to New York</a></p>
+<p class="toc"><a href="ch13.xhtml#ch13">Chapter Thirteen: Living the Dream</a></p>
+<p class="toclevb"><a href="ch13.xhtml#ch13rec6"><em>Recipe: Bacalao-Stuffed Sweet Plantains with Crema Mexicana</em></a></p>
+<p class="tocb"><a href="ch14.xhtml#ch14">Chapter Fourteen: Food Gets Famous</a></p>
+<p class="toc"><a href="ch15.xhtml#ch15">Chapter Fifteen: Mexican Cooking on Camera</a></p>
+<p class="toclevb"><a href="ch15.xhtml#ch15rec7"><em>Recipe: Seafood Stew with Coconut and Chipotle</em></a></p>
+<p class="toc"><span epub:type="pagebreak" id="page_viii" title="viii"></span><a href="ch16.xhtml#ch16">Chapter Sixteen: Centrico</a></p>
+<p class="toclevb"><a href="ch16.xhtml#ch16rec8"><em>Recipe: Sautéed Hominy with Pico de Gallo and Oregano</em></a></p>
+<p class="toc"><a href="ch17.xhtml#ch17">Chapter Seventeen: Ife &amp; Yuma</a></p>
+<p class="toclevb"><a href="ch17.xhtml#ch17rec9"><em>Recipe: Seared Salmon with Pumpkin Seed Mole</em></a></p>
+<p class="toc"><a href="ch18.xhtml#ch18">Chapter Eighteen: A Painful Split</a></p>
+<p class="toclevb"><a href="ch18.xhtml#ch18rec10"><em>Recipe: Caldo Gallegos of White Bean, Chorizo, and Swiss Chard</em></a></p>
+<p class="tocb"><a href="ch19.xhtml#ch19">Chapter Nineteen: A Wider World</a></p>
+<p class="toc"><a href="ch20.xhtml#ch20">Chapter Twenty: New Orleans Calling</a></p>
+<p class="toclev"><a href="ch20.xhtml#ch20rec11"><em>Recipe: Johnny Sánchez Brussels Sprouts Salad with Butternut Squash, Cotija, and Jalapeño Vinaigrette</em></a></p>
+<p class="toclevb"><a href="ch20.xhtml#ch20rec12"><em>Recipe: Tequila-Battered Cauliflower Tacos with Chimichurri and Chipotle Mayonnaise</em></a></p>
+<p class="tocb"><a href="ch21.xhtml#ch21">Chapter Twenty-One: Feeding Change</a></p>
+<p class="tocb"><a href="epilogue.xhtml#epilogue">Epilogue: Where I Come from . . . and Where I’m Going</a></p>
+<p class="tocb"><a href="ack.xhtml#ack">Acknowledgments</a></p>
+</nav>
+</body>
+</html>
+2023-01-14 21:55:50 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:55:51 INFO  - Step 14 - I restart app
+2023-01-14 21:56:15 INFO  - Step 15 - I open Books
+2023-01-14 21:56:15 INFO  - Button 'tabBooks' :: Clicking
+2023-01-14 21:56:15 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-14 21:56:16 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 21:56:16 INFO  - Step 17 - Click READ action button on book details screen
+2023-01-14 21:56:18 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:56:18 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-01-14 21:56:18 INFO  - context - NATIVE_APP
+2023-01-14 21:56:18 INFO  - context - NATIVE_APP
+2023-01-14 21:56:20 INFO  - context - NATIVE_APP
+2023-01-14 21:56:20 INFO  - context - NATIVE_APP
+2023-01-14 21:56:20 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:56:21 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:56:21 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Where I Come From: Life Lessons from a Latino Chef</title>
+<link href="../styles/9781683356790.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:dc3391c9-e8c8-4c17-8894-157ad3fe78da" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body epub:type="frontmatter">
+<nav epub:type="toc" id="toc1">
+<header>
+<h2 class="h2c" epub:type="title" id="contents"><span epub:type="pagebreak" id="page_vii" title="vii"></span><span class="smallcaps">CONTENTS</span></h2>
+</header>
+<p class="tocb"><a href="intro.xhtml#intro">Introduction</a></p>
+<p class="tocb"><a href="ch01.xhtml#ch01">Chapter One: El Paso to New York City</a></p>
+<p class="tocb"><a href="ch02.xhtml#ch02">Chapter Two: Mi Casa Es Su Casa</a></p>
+<p class="tocb"><a href="ch03.xhtml#ch03">Chapter Three: Two States of Mind</a></p>
+<p class="toc"><a href="ch04.xhtml#ch04">Chapter Four: Pushing Boundaries</a></p>
+<p class="toclevb"><a href="ch04.xhtml#ch04rec1"><em>Recipe: Zarela’s Pineapple-Ginger Chicken Wings with Soy-Pineapple Glaze</em></a></p>
+<p class="tocb"><a href="ch05.xhtml#ch05">Chapter Five: A Lesson in Loss</a></p>
+<p class="toc"><a href="ch06.xhtml#ch06">Chapter Six: On the Road and in the Street</a></p>
+<p class="toclevb"><a href="ch06.xhtml#ch06rec2"><em>Recipe: Tio Mario’s Famous Chili con Carne Colorado-Style Burritos</em></a></p>
+<p class="tocb"><a href="ch07.xhtml#ch07">Chapter Seven: Into the Wild</a></p>
+<p class="toc"><a href="ch08.xhtml#ch08">Chapter Eight: The Big (and Not So) Easy</a></p>
+<p class="toclevb"><a href="ch08.xhtml#ch08rec3"><em>Recipe: A Quick New Orleans Shellfish Étouffée</em></a></p>
+<p class="tocb"><a href="ch09.xhtml#ch09">Chapter Nine: A Lesson in Higher Learning</a></p>
+<p class="toc"><a href="ch10.xhtml#ch10">Chapter Ten: Nuevo Latino</a></p>
+<p class="toclevb"><a href="ch10.xhtml#ch10rec4"><em>Recipe: Mixed Seafood Ceviche Negro with Citrus and Chiles</em></a></p>
+<p class="toc"><a href="ch11.xhtml#ch11">Chapter Eleven: California Dreaming</a></p>
+<p class="toclevb"><a href="ch11.xhtml#ch11rec5"><em>Recipe: Pumpkin Ravioli with Sage Brown Butter</em></a></p>
+<p class="tocb"><a href="ch12.xhtml#ch12">Chapter Twelve: Return to New York</a></p>
+<p class="toc"><a href="ch13.xhtml#ch13">Chapter Thirteen: Living the Dream</a></p>
+<p class="toclevb"><a href="ch13.xhtml#ch13rec6"><em>Recipe: Bacalao-Stuffed Sweet Plantains with Crema Mexicana</em></a></p>
+<p class="tocb"><a href="ch14.xhtml#ch14">Chapter Fourteen: Food Gets Famous</a></p>
+<p class="toc"><a href="ch15.xhtml#ch15">Chapter Fifteen: Mexican Cooking on Camera</a></p>
+<p class="toclevb"><a href="ch15.xhtml#ch15rec7"><em>Recipe: Seafood Stew with Coconut and Chipotle</em></a></p>
+<p class="toc"><span epub:type="pagebreak" id="page_viii" title="viii"></span><a href="ch16.xhtml#ch16">Chapter Sixteen: Centrico</a></p>
+<p class="toclevb"><a href="ch16.xhtml#ch16rec8"><em>Recipe: Sautéed Hominy with Pico de Gallo and Oregano</em></a></p>
+<p class="toc"><a href="ch17.xhtml#ch17">Chapter Seventeen: Ife &amp; Yuma</a></p>
+<p class="toclevb"><a href="ch17.xhtml#ch17rec9"><em>Recipe: Seared Salmon with Pumpkin Seed Mole</em></a></p>
+<p class="toc"><a href="ch18.xhtml#ch18">Chapter Eighteen: A Painful Split</a></p>
+<p class="toclevb"><a href="ch18.xhtml#ch18rec10"><em>Recipe: Caldo Gallegos of White Bean, Chorizo, and Swiss Chard</em></a></p>
+<p class="tocb"><a href="ch19.xhtml#ch19">Chapter Nineteen: A Wider World</a></p>
+<p class="toc"><a href="ch20.xhtml#ch20">Chapter Twenty: New Orleans Calling</a></p>
+<p class="toclev"><a href="ch20.xhtml#ch20rec11"><em>Recipe: Johnny Sánchez Brussels Sprouts Salad with Butternut Squash, Cotija, and Jalapeño Vinaigrette</em></a></p>
+<p class="toclevb"><a href="ch20.xhtml#ch20rec12"><em>Recipe: Tequila-Battered Cauliflower Tacos with Chimichurri and Chipotle Mayonnaise</em></a></p>
+<p class="tocb"><a href="ch21.xhtml#ch21">Chapter Twenty-One: Feeding Change</a></p>
+<p class="tocb"><a href="epilogue.xhtml#epilogue">Epilogue: Where I Come from . . . and Where I’m Going</a></p>
+<p class="tocb"><a href="ack.xhtml#ack">Acknowledgments</a></p>
+</nav>
+</body>
+</html>
+2023-01-14 21:56:21 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:56:21 INFO  - Step 19 - I return to previous screen from epub
+2023-01-14 21:56:22 INFO  - Button 'btnBack' :: Clicking
+2023-01-14 21:56:22 INFO  - Step 20 - Click READ action button on book details screen
+2023-01-14 21:56:23 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:56:23 INFO  - Step 21 - Book text displays in FONT_SERIF font
+2023-01-14 21:56:24 INFO  - context - NATIVE_APP
+2023-01-14 21:56:25 INFO  - context - NATIVE_APP
+2023-01-14 21:56:25 INFO  - context - NATIVE_APP
+2023-01-14 21:56:25 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:56:26 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:56:26 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Where I Come From: Life Lessons from a Latino Chef</title>
+<link href="../styles/9781683356790.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:dc3391c9-e8c8-4c17-8894-157ad3fe78da" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body epub:type="frontmatter">
+<nav epub:type="toc" id="toc1">
+<header>
+<h2 class="h2c" epub:type="title" id="contents"><span epub:type="pagebreak" id="page_vii" title="vii"></span><span class="smallcaps">CONTENTS</span></h2>
+</header>
+<p class="tocb"><a href="intro.xhtml#intro">Introduction</a></p>
+<p class="tocb"><a href="ch01.xhtml#ch01">Chapter One: El Paso to New York City</a></p>
+<p class="tocb"><a href="ch02.xhtml#ch02">Chapter Two: Mi Casa Es Su Casa</a></p>
+<p class="tocb"><a href="ch03.xhtml#ch03">Chapter Three: Two States of Mind</a></p>
+<p class="toc"><a href="ch04.xhtml#ch04">Chapter Four: Pushing Boundaries</a></p>
+<p class="toclevb"><a href="ch04.xhtml#ch04rec1"><em>Recipe: Zarela’s Pineapple-Ginger Chicken Wings with Soy-Pineapple Glaze</em></a></p>
+<p class="tocb"><a href="ch05.xhtml#ch05">Chapter Five: A Lesson in Loss</a></p>
+<p class="toc"><a href="ch06.xhtml#ch06">Chapter Six: On the Road and in the Street</a></p>
+<p class="toclevb"><a href="ch06.xhtml#ch06rec2"><em>Recipe: Tio Mario’s Famous Chili con Carne Colorado-Style Burritos</em></a></p>
+<p class="tocb"><a href="ch07.xhtml#ch07">Chapter Seven: Into the Wild</a></p>
+<p class="toc"><a href="ch08.xhtml#ch08">Chapter Eight: The Big (and Not So) Easy</a></p>
+<p class="toclevb"><a href="ch08.xhtml#ch08rec3"><em>Recipe: A Quick New Orleans Shellfish Étouffée</em></a></p>
+<p class="tocb"><a href="ch09.xhtml#ch09">Chapter Nine: A Lesson in Higher Learning</a></p>
+<p class="toc"><a href="ch10.xhtml#ch10">Chapter Ten: Nuevo Latino</a></p>
+<p class="toclevb"><a href="ch10.xhtml#ch10rec4"><em>Recipe: Mixed Seafood Ceviche Negro with Citrus and Chiles</em></a></p>
+<p class="toc"><a href="ch11.xhtml#ch11">Chapter Eleven: California Dreaming</a></p>
+<p class="toclevb"><a href="ch11.xhtml#ch11rec5"><em>Recipe: Pumpkin Ravioli with Sage Brown Butter</em></a></p>
+<p class="tocb"><a href="ch12.xhtml#ch12">Chapter Twelve: Return to New York</a></p>
+<p class="toc"><a href="ch13.xhtml#ch13">Chapter Thirteen: Living the Dream</a></p>
+<p class="toclevb"><a href="ch13.xhtml#ch13rec6"><em>Recipe: Bacalao-Stuffed Sweet Plantains with Crema Mexicana</em></a></p>
+<p class="tocb"><a href="ch14.xhtml#ch14">Chapter Fourteen: Food Gets Famous</a></p>
+<p class="toc"><a href="ch15.xhtml#ch15">Chapter Fifteen: Mexican Cooking on Camera</a></p>
+<p class="toclevb"><a href="ch15.xhtml#ch15rec7"><em>Recipe: Seafood Stew with Coconut and Chipotle</em></a></p>
+<p class="toc"><span epub:type="pagebreak" id="page_viii" title="viii"></span><a href="ch16.xhtml#ch16">Chapter Sixteen: Centrico</a></p>
+<p class="toclevb"><a href="ch16.xhtml#ch16rec8"><em>Recipe: Sautéed Hominy with Pico de Gallo and Oregano</em></a></p>
+<p class="toc"><a href="ch17.xhtml#ch17">Chapter Seventeen: Ife &amp; Yuma</a></p>
+<p class="toclevb"><a href="ch17.xhtml#ch17rec9"><em>Recipe: Seared Salmon with Pumpkin Seed Mole</em></a></p>
+<p class="toc"><a href="ch18.xhtml#ch18">Chapter Eighteen: A Painful Split</a></p>
+<p class="toclevb"><a href="ch18.xhtml#ch18rec10"><em>Recipe: Caldo Gallegos of White Bean, Chorizo, and Swiss Chard</em></a></p>
+<p class="tocb"><a href="ch19.xhtml#ch19">Chapter Nineteen: A Wider World</a></p>
+<p class="toc"><a href="ch20.xhtml#ch20">Chapter Twenty: New Orleans Calling</a></p>
+<p class="toclev"><a href="ch20.xhtml#ch20rec11"><em>Recipe: Johnny Sánchez Brussels Sprouts Salad with Butternut Squash, Cotija, and Jalapeño Vinaigrette</em></a></p>
+<p class="toclevb"><a href="ch20.xhtml#ch20rec12"><em>Recipe: Tequila-Battered Cauliflower Tacos with Chimichurri and Chipotle Mayonnaise</em></a></p>
+<p class="tocb"><a href="ch21.xhtml#ch21">Chapter Twenty-One: Feeding Change</a></p>
+<p class="tocb"><a href="epilogue.xhtml#epilogue">Epilogue: Where I Come from . . . and Where I’m Going</a></p>
+<p class="tocb"><a href="ack.xhtml#ack">Acknowledgments</a></p>
+</nav>
+</body>
+</html>
+2023-01-14 21:56:26 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:56:26 INFO  - Step 22 - I open font settings
+2023-01-14 21:56:27 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-14 21:56:27 INFO  - Step 23 - I change font style to FONT_SANS
+2023-01-14 21:56:27 INFO  - Button 'setFontSans' :: Clicking
+2023-01-14 21:56:28 INFO  - Step 24 - Book text displays in FONT_SANS font
+2023-01-14 21:56:28 INFO  - context - NATIVE_APP
+2023-01-14 21:56:28 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:56:29 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:56:29 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Where I Come From: Life Lessons from a Latino Chef</title>
+<link href="../styles/9781683356790.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:dc3391c9-e8c8-4c17-8894-157ad3fe78da" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body epub:type="frontmatter">
+<nav epub:type="toc" id="toc1">
+<header>
+<h2 class="h2c" epub:type="title" id="contents"><span epub:type="pagebreak" id="page_vii" title="vii"></span><span class="smallcaps">CONTENTS</span></h2>
+</header>
+<p class="tocb"><a href="intro.xhtml#intro">Introduction</a></p>
+<p class="tocb"><a href="ch01.xhtml#ch01">Chapter One: El Paso to New York City</a></p>
+<p class="tocb"><a href="ch02.xhtml#ch02">Chapter Two: Mi Casa Es Su Casa</a></p>
+<p class="tocb"><a href="ch03.xhtml#ch03">Chapter Three: Two States of Mind</a></p>
+<p class="toc"><a href="ch04.xhtml#ch04">Chapter Four: Pushing Boundaries</a></p>
+<p class="toclevb"><a href="ch04.xhtml#ch04rec1"><em>Recipe: Zarela’s Pineapple-Ginger Chicken Wings with Soy-Pineapple Glaze</em></a></p>
+<p class="tocb"><a href="ch05.xhtml#ch05">Chapter Five: A Lesson in Loss</a></p>
+<p class="toc"><a href="ch06.xhtml#ch06">Chapter Six: On the Road and in the Street</a></p>
+<p class="toclevb"><a href="ch06.xhtml#ch06rec2"><em>Recipe: Tio Mario’s Famous Chili con Carne Colorado-Style Burritos</em></a></p>
+<p class="tocb"><a href="ch07.xhtml#ch07">Chapter Seven: Into the Wild</a></p>
+<p class="toc"><a href="ch08.xhtml#ch08">Chapter Eight: The Big (and Not So) Easy</a></p>
+<p class="toclevb"><a href="ch08.xhtml#ch08rec3"><em>Recipe: A Quick New Orleans Shellfish Étouffée</em></a></p>
+<p class="tocb"><a href="ch09.xhtml#ch09">Chapter Nine: A Lesson in Higher Learning</a></p>
+<p class="toc"><a href="ch10.xhtml#ch10">Chapter Ten: Nuevo Latino</a></p>
+<p class="toclevb"><a href="ch10.xhtml#ch10rec4"><em>Recipe: Mixed Seafood Ceviche Negro with Citrus and Chiles</em></a></p>
+<p class="toc"><a href="ch11.xhtml#ch11">Chapter Eleven: California Dreaming</a></p>
+<p class="toclevb"><a href="ch11.xhtml#ch11rec5"><em>Recipe: Pumpkin Ravioli with Sage Brown Butter</em></a></p>
+<p class="tocb"><a href="ch12.xhtml#ch12">Chapter Twelve: Return to New York</a></p>
+<p class="toc"><a href="ch13.xhtml#ch13">Chapter Thirteen: Living the Dream</a></p>
+<p class="toclevb"><a href="ch13.xhtml#ch13rec6"><em>Recipe: Bacalao-Stuffed Sweet Plantains with Crema Mexicana</em></a></p>
+<p class="tocb"><a href="ch14.xhtml#ch14">Chapter Fourteen: Food Gets Famous</a></p>
+<p class="toc"><a href="ch15.xhtml#ch15">Chapter Fifteen: Mexican Cooking on Camera</a></p>
+<p class="toclevb"><a href="ch15.xhtml#ch15rec7"><em>Recipe: Seafood Stew with Coconut and Chipotle</em></a></p>
+<p class="toc"><span epub:type="pagebreak" id="page_viii" title="viii"></span><a href="ch16.xhtml#ch16">Chapter Sixteen: Centrico</a></p>
+<p class="toclevb"><a href="ch16.xhtml#ch16rec8"><em>Recipe: Sautéed Hominy with Pico de Gallo and Oregano</em></a></p>
+<p class="toc"><a href="ch17.xhtml#ch17">Chapter Seventeen: Ife &amp; Yuma</a></p>
+<p class="toclevb"><a href="ch17.xhtml#ch17rec9"><em>Recipe: Seared Salmon with Pumpkin Seed Mole</em></a></p>
+<p class="toc"><a href="ch18.xhtml#ch18">Chapter Eighteen: A Painful Split</a></p>
+<p class="toclevb"><a href="ch18.xhtml#ch18rec10"><em>Recipe: Caldo Gallegos of White Bean, Chorizo, and Swiss Chard</em></a></p>
+<p class="tocb"><a href="ch19.xhtml#ch19">Chapter Nineteen: A Wider World</a></p>
+<p class="toc"><a href="ch20.xhtml#ch20">Chapter Twenty: New Orleans Calling</a></p>
+<p class="toclev"><a href="ch20.xhtml#ch20rec11"><em>Recipe: Johnny Sánchez Brussels Sprouts Salad with Butternut Squash, Cotija, and Jalapeño Vinaigrette</em></a></p>
+<p class="toclevb"><a href="ch20.xhtml#ch20rec12"><em>Recipe: Tequila-Battered Cauliflower Tacos with Chimichurri and Chipotle Mayonnaise</em></a></p>
+<p class="tocb"><a href="ch21.xhtml#ch21">Chapter Twenty-One: Feeding Change</a></p>
+<p class="tocb"><a href="epilogue.xhtml#epilogue">Epilogue: Where I Come from . . . and Where I’m Going</a></p>
+<p class="tocb"><a href="ack.xhtml#ack">Acknowledgments</a></p>
+</nav>
+</body>
+</html>
+2023-01-14 21:56:29 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:56:29 INFO  - Step 25 - I restart app
+2023-01-14 21:56:53 INFO  - Step 26 - I open Books
+2023-01-14 21:56:53 INFO  - Button 'tabBooks' :: Clicking
+2023-01-14 21:56:53 INFO  - Step 27 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-14 21:56:54 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 21:56:55 INFO  - Step 28 - Click READ action button on book details screen
+2023-01-14 21:56:56 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:56:56 INFO  - Step 29 - Book text displays in FONT_SANS font
+2023-01-14 21:56:56 INFO  - context - NATIVE_APP
+2023-01-14 21:56:56 INFO  - context - NATIVE_APP
+2023-01-14 21:56:57 INFO  - context - NATIVE_APP
+2023-01-14 21:56:58 INFO  - context - NATIVE_APP
+2023-01-14 21:56:58 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:56:59 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:56:59 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Where I Come From: Life Lessons from a Latino Chef</title>
+<link href="../styles/9781683356790.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:dc3391c9-e8c8-4c17-8894-157ad3fe78da" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body epub:type="frontmatter">
+<nav epub:type="toc" id="toc1">
+<header>
+<h2 class="h2c" epub:type="title" id="contents"><span epub:type="pagebreak" id="page_vii" title="vii"></span><span class="smallcaps">CONTENTS</span></h2>
+</header>
+<p class="tocb"><a href="intro.xhtml#intro">Introduction</a></p>
+<p class="tocb"><a href="ch01.xhtml#ch01">Chapter One: El Paso to New York City</a></p>
+<p class="tocb"><a href="ch02.xhtml#ch02">Chapter Two: Mi Casa Es Su Casa</a></p>
+<p class="tocb"><a href="ch03.xhtml#ch03">Chapter Three: Two States of Mind</a></p>
+<p class="toc"><a href="ch04.xhtml#ch04">Chapter Four: Pushing Boundaries</a></p>
+<p class="toclevb"><a href="ch04.xhtml#ch04rec1"><em>Recipe: Zarela’s Pineapple-Ginger Chicken Wings with Soy-Pineapple Glaze</em></a></p>
+<p class="tocb"><a href="ch05.xhtml#ch05">Chapter Five: A Lesson in Loss</a></p>
+<p class="toc"><a href="ch06.xhtml#ch06">Chapter Six: On the Road and in the Street</a></p>
+<p class="toclevb"><a href="ch06.xhtml#ch06rec2"><em>Recipe: Tio Mario’s Famous Chili con Carne Colorado-Style Burritos</em></a></p>
+<p class="tocb"><a href="ch07.xhtml#ch07">Chapter Seven: Into the Wild</a></p>
+<p class="toc"><a href="ch08.xhtml#ch08">Chapter Eight: The Big (and Not So) Easy</a></p>
+<p class="toclevb"><a href="ch08.xhtml#ch08rec3"><em>Recipe: A Quick New Orleans Shellfish Étouffée</em></a></p>
+<p class="tocb"><a href="ch09.xhtml#ch09">Chapter Nine: A Lesson in Higher Learning</a></p>
+<p class="toc"><a href="ch10.xhtml#ch10">Chapter Ten: Nuevo Latino</a></p>
+<p class="toclevb"><a href="ch10.xhtml#ch10rec4"><em>Recipe: Mixed Seafood Ceviche Negro with Citrus and Chiles</em></a></p>
+<p class="toc"><a href="ch11.xhtml#ch11">Chapter Eleven: California Dreaming</a></p>
+<p class="toclevb"><a href="ch11.xhtml#ch11rec5"><em>Recipe: Pumpkin Ravioli with Sage Brown Butter</em></a></p>
+<p class="tocb"><a href="ch12.xhtml#ch12">Chapter Twelve: Return to New York</a></p>
+<p class="toc"><a href="ch13.xhtml#ch13">Chapter Thirteen: Living the Dream</a></p>
+<p class="toclevb"><a href="ch13.xhtml#ch13rec6"><em>Recipe: Bacalao-Stuffed Sweet Plantains with Crema Mexicana</em></a></p>
+<p class="tocb"><a href="ch14.xhtml#ch14">Chapter Fourteen: Food Gets Famous</a></p>
+<p class="toc"><a href="ch15.xhtml#ch15">Chapter Fifteen: Mexican Cooking on Camera</a></p>
+<p class="toclevb"><a href="ch15.xhtml#ch15rec7"><em>Recipe: Seafood Stew with Coconut and Chipotle</em></a></p>
+<p class="toc"><span epub:type="pagebreak" id="page_viii" title="viii"></span><a href="ch16.xhtml#ch16">Chapter Sixteen: Centrico</a></p>
+<p class="toclevb"><a href="ch16.xhtml#ch16rec8"><em>Recipe: Sautéed Hominy with Pico de Gallo and Oregano</em></a></p>
+<p class="toc"><a href="ch17.xhtml#ch17">Chapter Seventeen: Ife &amp; Yuma</a></p>
+<p class="toclevb"><a href="ch17.xhtml#ch17rec9"><em>Recipe: Seared Salmon with Pumpkin Seed Mole</em></a></p>
+<p class="toc"><a href="ch18.xhtml#ch18">Chapter Eighteen: A Painful Split</a></p>
+<p class="toclevb"><a href="ch18.xhtml#ch18rec10"><em>Recipe: Caldo Gallegos of White Bean, Chorizo, and Swiss Chard</em></a></p>
+<p class="tocb"><a href="ch19.xhtml#ch19">Chapter Nineteen: A Wider World</a></p>
+<p class="toc"><a href="ch20.xhtml#ch20">Chapter Twenty: New Orleans Calling</a></p>
+<p class="toclev"><a href="ch20.xhtml#ch20rec11"><em>Recipe: Johnny Sánchez Brussels Sprouts Salad with Butternut Squash, Cotija, and Jalapeño Vinaigrette</em></a></p>
+<p class="toclevb"><a href="ch20.xhtml#ch20rec12"><em>Recipe: Tequila-Battered Cauliflower Tacos with Chimichurri and Chipotle Mayonnaise</em></a></p>
+<p class="tocb"><a href="ch21.xhtml#ch21">Chapter Twenty-One: Feeding Change</a></p>
+<p class="tocb"><a href="epilogue.xhtml#epilogue">Epilogue: Where I Come from . . . and Where I’m Going</a></p>
+<p class="tocb"><a href="ack.xhtml#ack">Acknowledgments</a></p>
+</nav>
+</body>
+</html>
+2023-01-14 21:56:59 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:56:59 INFO  - Step 30 - I return to previous screen from epub
+2023-01-14 21:57:00 INFO  - Button 'btnBack' :: Clicking
+2023-01-14 21:57:00 INFO  - Step 31 - Click READ action button on book details screen
+2023-01-14 21:57:01 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:57:01 INFO  - Step 32 - Book text displays in FONT_SANS font
+2023-01-14 21:57:01 INFO  - context - NATIVE_APP
+2023-01-14 21:57:01 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:57:03 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:57:03 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Where I Come From: Life Lessons from a Latino Chef</title>
+<link href="../styles/9781683356790.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:dc3391c9-e8c8-4c17-8894-157ad3fe78da" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body epub:type="frontmatter">
+<nav epub:type="toc" id="toc1">
+<header>
+<h2 class="h2c" epub:type="title" id="contents"><span epub:type="pagebreak" id="page_vii" title="vii"></span><span class="smallcaps">CONTENTS</span></h2>
+</header>
+<p class="tocb"><a href="intro.xhtml#intro">Introduction</a></p>
+<p class="tocb"><a href="ch01.xhtml#ch01">Chapter One: El Paso to New York City</a></p>
+<p class="tocb"><a href="ch02.xhtml#ch02">Chapter Two: Mi Casa Es Su Casa</a></p>
+<p class="tocb"><a href="ch03.xhtml#ch03">Chapter Three: Two States of Mind</a></p>
+<p class="toc"><a href="ch04.xhtml#ch04">Chapter Four: Pushing Boundaries</a></p>
+<p class="toclevb"><a href="ch04.xhtml#ch04rec1"><em>Recipe: Zarela’s Pineapple-Ginger Chicken Wings with Soy-Pineapple Glaze</em></a></p>
+<p class="tocb"><a href="ch05.xhtml#ch05">Chapter Five: A Lesson in Loss</a></p>
+<p class="toc"><a href="ch06.xhtml#ch06">Chapter Six: On the Road and in the Street</a></p>
+<p class="toclevb"><a href="ch06.xhtml#ch06rec2"><em>Recipe: Tio Mario’s Famous Chili con Carne Colorado-Style Burritos</em></a></p>
+<p class="tocb"><a href="ch07.xhtml#ch07">Chapter Seven: Into the Wild</a></p>
+<p class="toc"><a href="ch08.xhtml#ch08">Chapter Eight: The Big (and Not So) Easy</a></p>
+<p class="toclevb"><a href="ch08.xhtml#ch08rec3"><em>Recipe: A Quick New Orleans Shellfish Étouffée</em></a></p>
+<p class="tocb"><a href="ch09.xhtml#ch09">Chapter Nine: A Lesson in Higher Learning</a></p>
+<p class="toc"><a href="ch10.xhtml#ch10">Chapter Ten: Nuevo Latino</a></p>
+<p class="toclevb"><a href="ch10.xhtml#ch10rec4"><em>Recipe: Mixed Seafood Ceviche Negro with Citrus and Chiles</em></a></p>
+<p class="toc"><a href="ch11.xhtml#ch11">Chapter Eleven: California Dreaming</a></p>
+<p class="toclevb"><a href="ch11.xhtml#ch11rec5"><em>Recipe: Pumpkin Ravioli with Sage Brown Butter</em></a></p>
+<p class="tocb"><a href="ch12.xhtml#ch12">Chapter Twelve: Return to New York</a></p>
+<p class="toc"><a href="ch13.xhtml#ch13">Chapter Thirteen: Living the Dream</a></p>
+<p class="toclevb"><a href="ch13.xhtml#ch13rec6"><em>Recipe: Bacalao-Stuffed Sweet Plantains with Crema Mexicana</em></a></p>
+<p class="tocb"><a href="ch14.xhtml#ch14">Chapter Fourteen: Food Gets Famous</a></p>
+<p class="toc"><a href="ch15.xhtml#ch15">Chapter Fifteen: Mexican Cooking on Camera</a></p>
+<p class="toclevb"><a href="ch15.xhtml#ch15rec7"><em>Recipe: Seafood Stew with Coconut and Chipotle</em></a></p>
+<p class="toc"><span epub:type="pagebreak" id="page_viii" title="viii"></span><a href="ch16.xhtml#ch16">Chapter Sixteen: Centrico</a></p>
+<p class="toclevb"><a href="ch16.xhtml#ch16rec8"><em>Recipe: Sautéed Hominy with Pico de Gallo and Oregano</em></a></p>
+<p class="toc"><a href="ch17.xhtml#ch17">Chapter Seventeen: Ife &amp; Yuma</a></p>
+<p class="toclevb"><a href="ch17.xhtml#ch17rec9"><em>Recipe: Seared Salmon with Pumpkin Seed Mole</em></a></p>
+<p class="toc"><a href="ch18.xhtml#ch18">Chapter Eighteen: A Painful Split</a></p>
+<p class="toclevb"><a href="ch18.xhtml#ch18rec10"><em>Recipe: Caldo Gallegos of White Bean, Chorizo, and Swiss Chard</em></a></p>
+<p class="tocb"><a href="ch19.xhtml#ch19">Chapter Nineteen: A Wider World</a></p>
+<p class="toc"><a href="ch20.xhtml#ch20">Chapter Twenty: New Orleans Calling</a></p>
+<p class="toclev"><a href="ch20.xhtml#ch20rec11"><em>Recipe: Johnny Sánchez Brussels Sprouts Salad with Butternut Squash, Cotija, and Jalapeño Vinaigrette</em></a></p>
+<p class="toclevb"><a href="ch20.xhtml#ch20rec12"><em>Recipe: Tequila-Battered Cauliflower Tacos with Chimichurri and Chipotle Mayonnaise</em></a></p>
+<p class="tocb"><a href="ch21.xhtml#ch21">Chapter Twenty-One: Feeding Change</a></p>
+<p class="tocb"><a href="epilogue.xhtml#epilogue">Epilogue: Where I Come from . . . and Where I’m Going</a></p>
+<p class="tocb"><a href="ack.xhtml#ack">Acknowledgments</a></p>
+</nav>
+</body>
+</html>
+2023-01-14 21:57:03 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:57:03 INFO  - Step 33 - I open font settings
+2023-01-14 21:57:05 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-14 21:57:05 INFO  - Step 34 - I change font style to FONT_DYSLEXIC
+2023-01-14 21:57:05 INFO  - Button 'setFontDyslexic' :: Clicking
+2023-01-14 21:57:06 INFO  - Step 35 - Book text displays in FONT_DYSLEXIC font
+2023-01-14 21:57:06 INFO  - context - NATIVE_APP
+2023-01-14 21:57:06 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:57:06 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:57:06 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Where I Come From: Life Lessons from a Latino Chef</title>
+<link href="../styles/9781683356790.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:dc3391c9-e8c8-4c17-8894-157ad3fe78da" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body epub:type="frontmatter">
+<nav epub:type="toc" id="toc1">
+<header>
+<h2 class="h2c" epub:type="title" id="contents"><span epub:type="pagebreak" id="page_vii" title="vii"></span><span class="smallcaps">CONTENTS</span></h2>
+</header>
+<p class="tocb"><a href="intro.xhtml#intro">Introduction</a></p>
+<p class="tocb"><a href="ch01.xhtml#ch01">Chapter One: El Paso to New York City</a></p>
+<p class="tocb"><a href="ch02.xhtml#ch02">Chapter Two: Mi Casa Es Su Casa</a></p>
+<p class="tocb"><a href="ch03.xhtml#ch03">Chapter Three: Two States of Mind</a></p>
+<p class="toc"><a href="ch04.xhtml#ch04">Chapter Four: Pushing Boundaries</a></p>
+<p class="toclevb"><a href="ch04.xhtml#ch04rec1"><em>Recipe: Zarela’s Pineapple-Ginger Chicken Wings with Soy-Pineapple Glaze</em></a></p>
+<p class="tocb"><a href="ch05.xhtml#ch05">Chapter Five: A Lesson in Loss</a></p>
+<p class="toc"><a href="ch06.xhtml#ch06">Chapter Six: On the Road and in the Street</a></p>
+<p class="toclevb"><a href="ch06.xhtml#ch06rec2"><em>Recipe: Tio Mario’s Famous Chili con Carne Colorado-Style Burritos</em></a></p>
+<p class="tocb"><a href="ch07.xhtml#ch07">Chapter Seven: Into the Wild</a></p>
+<p class="toc"><a href="ch08.xhtml#ch08">Chapter Eight: The Big (and Not So) Easy</a></p>
+<p class="toclevb"><a href="ch08.xhtml#ch08rec3"><em>Recipe: A Quick New Orleans Shellfish Étouffée</em></a></p>
+<p class="tocb"><a href="ch09.xhtml#ch09">Chapter Nine: A Lesson in Higher Learning</a></p>
+<p class="toc"><a href="ch10.xhtml#ch10">Chapter Ten: Nuevo Latino</a></p>
+<p class="toclevb"><a href="ch10.xhtml#ch10rec4"><em>Recipe: Mixed Seafood Ceviche Negro with Citrus and Chiles</em></a></p>
+<p class="toc"><a href="ch11.xhtml#ch11">Chapter Eleven: California Dreaming</a></p>
+<p class="toclevb"><a href="ch11.xhtml#ch11rec5"><em>Recipe: Pumpkin Ravioli with Sage Brown Butter</em></a></p>
+<p class="tocb"><a href="ch12.xhtml#ch12">Chapter Twelve: Return to New York</a></p>
+<p class="toc"><a href="ch13.xhtml#ch13">Chapter Thirteen: Living the Dream</a></p>
+<p class="toclevb"><a href="ch13.xhtml#ch13rec6"><em>Recipe: Bacalao-Stuffed Sweet Plantains with Crema Mexicana</em></a></p>
+<p class="tocb"><a href="ch14.xhtml#ch14">Chapter Fourteen: Food Gets Famous</a></p>
+<p class="toc"><a href="ch15.xhtml#ch15">Chapter Fifteen: Mexican Cooking on Camera</a></p>
+<p class="toclevb"><a href="ch15.xhtml#ch15rec7"><em>Recipe: Seafood Stew with Coconut and Chipotle</em></a></p>
+<p class="toc"><span epub:type="pagebreak" id="page_viii" title="viii"></span><a href="ch16.xhtml#ch16">Chapter Sixteen: Centrico</a></p>
+<p class="toclevb"><a href="ch16.xhtml#ch16rec8"><em>Recipe: Sautéed Hominy with Pico de Gallo and Oregano</em></a></p>
+<p class="toc"><a href="ch17.xhtml#ch17">Chapter Seventeen: Ife &amp; Yuma</a></p>
+<p class="toclevb"><a href="ch17.xhtml#ch17rec9"><em>Recipe: Seared Salmon with Pumpkin Seed Mole</em></a></p>
+<p class="toc"><a href="ch18.xhtml#ch18">Chapter Eighteen: A Painful Split</a></p>
+<p class="toclevb"><a href="ch18.xhtml#ch18rec10"><em>Recipe: Caldo Gallegos of White Bean, Chorizo, and Swiss Chard</em></a></p>
+<p class="tocb"><a href="ch19.xhtml#ch19">Chapter Nineteen: A Wider World</a></p>
+<p class="toc"><a href="ch20.xhtml#ch20">Chapter Twenty: New Orleans Calling</a></p>
+<p class="toclev"><a href="ch20.xhtml#ch20rec11"><em>Recipe: Johnny Sánchez Brussels Sprouts Salad with Butternut Squash, Cotija, and Jalapeño Vinaigrette</em></a></p>
+<p class="toclevb"><a href="ch20.xhtml#ch20rec12"><em>Recipe: Tequila-Battered Cauliflower Tacos with Chimichurri and Chipotle Mayonnaise</em></a></p>
+<p class="tocb"><a href="ch21.xhtml#ch21">Chapter Twenty-One: Feeding Change</a></p>
+<p class="tocb"><a href="epilogue.xhtml#epilogue">Epilogue: Where I Come from . . . and Where I’m Going</a></p>
+<p class="tocb"><a href="ack.xhtml#ack">Acknowledgments</a></p>
+</nav>
+</body>
+</html>
+2023-01-14 21:57:06 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:57:06 INFO  - Taking screenshot
+2023-01-14 21:57:07 INFO  - Test finished - logging out
+2023-01-14 21:57:08 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:57:11 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:57:11 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 21:57:12 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 21:57:14 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 21:57:14 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 21:57:15 INFO  - Button 'Log out' :: Clicking
+2023-01-14 21:57:15 INFO  - Button 'Log in' :: Getting text from element
+2023-01-14 21:57:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 21:57:24 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 21:57:24 INFO  - Unlocking credential for current thread
+2023-01-14 21:57:24 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@27d481e8

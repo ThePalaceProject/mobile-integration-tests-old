@@ -1,0 +1,311 @@
+2023-01-14 21:41:46 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-01-14 21:41:46 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-14 21:42:23 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-14 21:42:23 INFO  - Session id - 29913c05c38eb48f4859dc5f51d022d3e1fccf4f
+2023-01-14 21:42:23 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-14 21:42:24 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-14 21:42:26 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-14 21:42:27 INFO  - Button 'Search' :: Clicking
+2023-01-14 21:42:28 INFO  - Text Field 'Search' :: Clearing
+2023-01-14 21:42:28 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-14 21:42:31 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 21:42:31 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-14 21:42:31 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:42:32 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:42:33 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 21:42:36 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-14 21:42:36 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:42:37 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:42:37 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 21:42:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 21:42:39 INFO  - Locking credential with barcode 01230000000304
+2023-01-14 21:42:39 INFO  - There are books on the account: 
+2023-01-14 21:42:41 INFO  - There is not books on the account.
+2023-01-14 21:42:41 INFO  - Count of books on the account after opening account: 0
+2023-01-14 21:42:41 INFO  - Text Field 'Card' :: Clearing
+2023-01-14 21:42:41 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-14 21:42:43 INFO  - Text Field 'Pin' :: Clearing
+2023-01-14 21:42:43 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-14 21:42:45 INFO  - Button 'Log in' :: Clicking
+2023-01-14 21:42:51 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-14 21:42:51 INFO  - Step 3 - Login is performed successfully
+2023-01-14 21:43:12 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-14 21:43:12 INFO  - Step 4 - I open Catalog
+2023-01-14 21:43:12 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-14 21:43:33 INFO  - Step 5 - I open search modal
+2023-01-14 21:43:53 INFO  - Button 'Search' :: Clicking
+2023-01-14 21:43:54 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-14 21:43:54 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-14 21:43:54 INFO  - randomBookName: House of Earth and Blood
+2023-01-14 21:43:54 INFO  - Error details button is not present
+2023-01-14 21:43:54 INFO  - Text Field 'Search value input' :: Sending keys 'House of Earth and Blood'
+2023-01-14 21:43:55 INFO  - Button 'Apply search' :: Clicking
+2023-01-14 21:43:56 INFO  - Error details button is not present
+2023-01-14 21:43:59 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 21:44:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 21:44:01 INFO  - Button 'actionButton' :: Clicking
+2023-01-14 21:44:08 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 21:44:08 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 21:44:08 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 21:44:09 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-14 21:44:10 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:44:10 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-14 21:44:10 INFO  - Scrolling 7 times on reader epub screen
+2023-01-14 21:44:27 INFO  - Step 11 - I save font size as 'fontSize'
+2023-01-14 21:44:27 INFO  - context - NATIVE_APP
+2023-01-14 21:44:27 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:44:28 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:44:28 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>House of Earth and Blood</title>
+<meta content="text/html; charset=utf-8" http-equiv="default-style" />
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:51494c38-45f5-4f9f-8093-fde6db42dff5" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="body">
+<p class="tit"><span aria-label="v" id="pg_v" role="doc-pagebreak"></span><img alt="" class="img90" src="../images/CC_EarthBlood_TP.jpg" /></p>
+</div>
+</body>
+</html>
+2023-01-14 21:44:28 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:44:28 INFO  - Step 12 - I open font settings
+2023-01-14 21:44:28 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-14 21:44:28 INFO  - Step 13 - I INCREASE_FONT of text
+2023-01-14 21:44:28 INFO  - Button 'setTextLarger' :: Clicking
+2023-01-14 21:44:29 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-01-14 21:44:29 INFO  - context - NATIVE_APP
+2023-01-14 21:44:29 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:44:30 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:44:30 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>House of Earth and Blood</title>
+<meta content="text/html; charset=utf-8" http-equiv="default-style" />
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:51494c38-45f5-4f9f-8093-fde6db42dff5" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="body">
+<p class="tit"><span aria-label="v" id="pg_v" role="doc-pagebreak"></span><img alt="" class="img90" src="../images/CC_EarthBlood_TP.jpg" /></p>
+</div>
+</body>
+</html>
+2023-01-14 21:44:30 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:44:30 INFO  - Step 15 - I restart app
+2023-01-14 21:44:54 INFO  - Step 16 - I open Books
+2023-01-14 21:44:54 INFO  - Button 'tabBooks' :: Clicking
+2023-01-14 21:44:54 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-14 21:44:55 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 21:44:56 INFO  - Step 18 - Click READ action button on book details screen
+2023-01-14 21:44:57 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:44:57 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-01-14 21:44:57 INFO  - context - NATIVE_APP
+2023-01-14 21:44:58 INFO  - context - NATIVE_APP
+2023-01-14 21:44:59 INFO  - context - NATIVE_APP
+2023-01-14 21:44:59 INFO  - context - NATIVE_APP
+2023-01-14 21:44:59 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:45:00 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:45:00 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>House of Earth and Blood</title>
+<meta content="text/html; charset=utf-8" http-equiv="default-style" />
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:51494c38-45f5-4f9f-8093-fde6db42dff5" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="body">
+<p class="tit"><span aria-label="v" id="pg_v" role="doc-pagebreak"></span><img alt="" class="img90" src="../images/CC_EarthBlood_TP.jpg" /></p>
+</div>
+</body>
+</html>
+2023-01-14 21:45:00 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:45:00 INFO  - Step 20 - I return to previous screen from epub
+2023-01-14 21:45:01 INFO  - Button 'btnBack' :: Clicking
+2023-01-14 21:45:01 INFO  - Step 21 - Click READ action button on book details screen
+2023-01-14 21:45:02 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:45:02 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-01-14 21:45:03 INFO  - context - NATIVE_APP
+2023-01-14 21:45:03 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:45:04 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:45:04 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>House of Earth and Blood</title>
+<meta content="text/html; charset=utf-8" http-equiv="default-style" />
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:51494c38-45f5-4f9f-8093-fde6db42dff5" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="body">
+<p class="tit"><span aria-label="v" id="pg_v" role="doc-pagebreak"></span><img alt="" class="img90" src="../images/CC_EarthBlood_TP.jpg" /></p>
+</div>
+</body>
+</html>
+2023-01-14 21:45:04 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:45:04 INFO  - Step 23 - I save font size as 'fontSize'
+2023-01-14 21:45:05 INFO  - context - NATIVE_APP
+2023-01-14 21:45:05 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:45:05 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:45:05 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>House of Earth and Blood</title>
+<meta content="text/html; charset=utf-8" http-equiv="default-style" />
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:51494c38-45f5-4f9f-8093-fde6db42dff5" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="body">
+<p class="tit"><span aria-label="v" id="pg_v" role="doc-pagebreak"></span><img alt="" class="img90" src="../images/CC_EarthBlood_TP.jpg" /></p>
+</div>
+</body>
+</html>
+2023-01-14 21:45:05 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:45:06 INFO  - Step 24 - I open font settings
+2023-01-14 21:45:06 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-14 21:45:07 INFO  - Step 25 - I DECREASE_FONT of text
+2023-01-14 21:45:07 INFO  - Button 'setTextSmaller' :: Clicking
+2023-01-14 21:45:07 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-01-14 21:45:08 INFO  - context - NATIVE_APP
+2023-01-14 21:45:08 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:45:08 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:45:08 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>House of Earth and Blood</title>
+<meta content="text/html; charset=utf-8" http-equiv="default-style" />
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:51494c38-45f5-4f9f-8093-fde6db42dff5" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="body">
+<p class="tit"><span aria-label="v" id="pg_v" role="doc-pagebreak"></span><img alt="" class="img90" src="../images/CC_EarthBlood_TP.jpg" /></p>
+</div>
+</body>
+</html>
+2023-01-14 21:45:08 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:45:08 INFO  - Step 27 - I restart app
+2023-01-14 21:45:32 INFO  - Step 28 - I open Books
+2023-01-14 21:45:32 INFO  - Button 'tabBooks' :: Clicking
+2023-01-14 21:45:32 INFO  - Step 29 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-14 21:45:34 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 21:45:34 INFO  - Step 30 - Click READ action button on book details screen
+2023-01-14 21:45:35 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:45:35 INFO  - Step 31 - Font size 'fontSize' is decreased
+2023-01-14 21:45:35 INFO  - context - NATIVE_APP
+2023-01-14 21:45:36 INFO  - context - NATIVE_APP
+2023-01-14 21:45:37 INFO  - context - NATIVE_APP
+2023-01-14 21:45:38 INFO  - context - NATIVE_APP
+2023-01-14 21:45:38 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:45:38 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:45:38 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>House of Earth and Blood</title>
+<meta content="text/html; charset=utf-8" http-equiv="default-style" />
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:51494c38-45f5-4f9f-8093-fde6db42dff5" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="body">
+<p class="tit"><span aria-label="v" id="pg_v" role="doc-pagebreak"></span><img alt="" class="img90" src="../images/CC_EarthBlood_TP.jpg" /></p>
+</div>
+</body>
+</html>
+2023-01-14 21:45:38 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:45:38 INFO  - Step 32 - I return to previous screen from epub
+2023-01-14 21:45:39 INFO  - Button 'btnBack' :: Clicking
+2023-01-14 21:45:40 INFO  - Step 33 - Click READ action button on book details screen
+2023-01-14 21:45:41 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:45:41 INFO  - Step 34 - Font size 'fontSize' is decreased
+2023-01-14 21:45:41 INFO  - context - NATIVE_APP
+2023-01-14 21:45:41 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 21:45:42 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 21:45:43 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>House of Earth and Blood</title>
+<meta content="text/html; charset=utf-8" http-equiv="default-style" />
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:51494c38-45f5-4f9f-8093-fde6db42dff5" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="body">
+<p class="tit"><span aria-label="v" id="pg_v" role="doc-pagebreak"></span><img alt="" class="img90" src="../images/CC_EarthBlood_TP.jpg" /></p>
+</div>
+</body>
+</html>
+2023-01-14 21:45:43 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 21:45:43 INFO  - Taking screenshot
+2023-01-14 21:45:44 INFO  - Test finished - logging out
+2023-01-14 21:45:45 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:45:48 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:45:49 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 21:45:49 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 21:45:51 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 21:45:51 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 21:45:51 INFO  - Button 'Log out' :: Clicking
+2023-01-14 21:45:52 INFO  - Button 'Log in' :: Getting text from element
+2023-01-14 21:45:55 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 21:45:55 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 21:45:56 INFO  - Unlocking credential for current thread
+2023-01-14 21:45:56 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@27d481e8

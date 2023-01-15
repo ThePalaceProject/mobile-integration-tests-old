@@ -1,0 +1,237 @@
+2023-01-14 21:57:28 INFO  - Scenario 'Font settings: Check of font style' start
+2023-01-14 21:57:28 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-14 21:58:06 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-14 21:58:06 INFO  - Session id - 3e7b58ee0a86a94fb149957873d8eab32f81bda9
+2023-01-14 21:58:06 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-14 21:58:06 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-14 21:58:09 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-14 21:58:09 INFO  - Button 'Search' :: Clicking
+2023-01-14 21:58:11 INFO  - Text Field 'Search' :: Clearing
+2023-01-14 21:58:11 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-14 21:58:13 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 21:58:14 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-14 21:58:14 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:58:15 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:58:16 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 21:58:18 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-14 21:58:18 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:58:18 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 21:58:19 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 21:58:20 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 21:58:20 INFO  - Locking credential with barcode 01230000000306
+2023-01-14 21:58:20 INFO  - There are books on the account: 
+2023-01-14 21:58:21 INFO  - There is not books on the account.
+2023-01-14 21:58:21 INFO  - Count of books on the account after opening account: 0
+2023-01-14 21:58:21 INFO  - Text Field 'Card' :: Clearing
+2023-01-14 21:58:21 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-01-14 21:58:23 INFO  - Text Field 'Pin' :: Clearing
+2023-01-14 21:58:23 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-14 21:58:25 INFO  - Button 'Log in' :: Clicking
+2023-01-14 21:58:34 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-14 21:58:34 INFO  - Step 3 - Login is performed successfully
+2023-01-14 21:58:55 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-14 21:58:55 INFO  - Step 4 - I open Catalog
+2023-01-14 21:58:55 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-14 21:59:15 INFO  - Step 5 - I open search modal
+2023-01-14 21:59:35 INFO  - Button 'Search' :: Clicking
+2023-01-14 21:59:36 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-14 21:59:37 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-14 21:59:37 INFO  - randomBookName: Global Mom
+2023-01-14 21:59:37 INFO  - Error details button is not present
+2023-01-14 21:59:37 INFO  - Text Field 'Search value input' :: Sending keys 'Global Mom'
+2023-01-14 21:59:37 INFO  - Button 'Apply search' :: Clicking
+2023-01-14 21:59:39 INFO  - Error details button is not present
+2023-01-14 21:59:41 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 21:59:43 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 21:59:43 INFO  - Button 'actionButton' :: Clicking
+2023-01-14 21:59:50 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-14 21:59:50 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-14 21:59:51 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 21:59:51 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-14 21:59:52 INFO  - Button 'Read' :: Clicking
+2023-01-14 21:59:52 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-14 21:59:52 INFO  - Scrolling 7 times on reader epub screen
+2023-01-14 22:00:09 INFO  - Step 11 - I open font settings
+2023-01-14 22:00:10 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-14 22:00:10 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-01-14 22:00:10 INFO  - Button 'setFontSerif' :: Clicking
+2023-01-14 22:00:11 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-01-14 22:00:12 INFO  - context - NATIVE_APP
+2023-01-14 22:00:12 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 22:00:12 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 22:00:12 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Acknowledgements</title>
+		<link href="css/GlobalMom__idstyles.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="Acknowledgements" xml:lang="en-US">
+		<div class="Basic-Text-Frame-2">
+			<p class="Story-Title-2 para-style-override-2"><span class="Drop-Cap char-style-override-3">Acknowledgments</span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3">As would be expected, a book called </span><span class="Italics-1 char-style-override-4">Global Mom </span><span class="Drop-Cap char-style-override-3">has been a global undertaking requiring multiple moms, not just the one on the cover. Producing this manuscript has drawn on the gifts and graciousness of a worldwide circle of friends, some of whom I’ve already mentioned in these pages. Others, I wish to thank here. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Sharlee Mullins Glenn, mentor and wordsmith warrior, has been compassionate, visionary, persistent, and charitable. Her influence has sustained me and fueled not only this book, but also virtually all my writing. In my many moments of reticence, hers has been the firm hand on my shoulder pushing me onward. I thank her, ad infinitum.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Those affiliated with the women’s literary journal </span><span class="Italics-1 char-style-override-4">Segullah </span><span class="Drop-Cap char-style-override-3">aided in the development of my voice and the telling of this story. Angela S. Hallstrom, Michelle Lehnardt, Lisa Garfield, and Kathryn Lynard Soper offered invaluable writerly feedback, hashing out and mulling through my prose, peeling it down to its core and then to its seeds. They brought me onboard their vessel as a poetry editor and also helped me cut my blogging teeth. Michelle filmed, edited, and produced the video trailer for this book’s release. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Jacque A. White, Kristiina H. Sorensen, Bonnie Jean Beesley, Maja Busche Wensel, Sharon Leigh, and Elaine S. Dalton, my âmes-sœurs, or soul sisters, were at my side in pivotal life moments described in these pages. Astrid Tuminez, Mary Bingham Lee, Kimberly Carlile, and Sharon Eubank aided by reading early copy, to which they gave skillful editorial suggestions. Maggie Wickes and Amy Stewart, this book’s official editors, picked through the manuscript like seasoned archaeologists pick through sand with a microscope and tweezers. Crystal Patriarche and Kim Cecere of BookSparks Public Relations put turbo boosters on my back and sent me sailing, book in my sweaty clutch.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Some of this book’s “moms” have been men. Christopher Robbins, indefatigable CEO of Familius, embodied the kind of wise guidance and accessibility most writers can only dream of finding in a publisher. While building a company, recovering from a severe ski accident concussion, and while living for months in a different time zone from his family, Christopher kept his sense of humor and never forfeited his cool, keen judgment. Above all, he honored my voice as it retold my family’s story.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Christian Karlsson, the epitome of modesty and excellence, was my Norwegian correspondent. Jim Richards, Rick Walton, Jack Harrell, Kirk Lovell Shaw, and Tyler Chadwick each championed my writing and promoted it to others. Kirby Bivans, gentle sound master of La Forge studios in Versonnex, France, oversaw my recording of the audio version of this book. Robb White and Aaron Hubbard demonstrated the best of the human spirit in supporting our family throughout months and years of living with enormous loss.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">My brother Aaron Dalton has been a valued constant in this peripatetic life we live, as well as my go-to guy for everything from pop culture to Proust quotes. He has not only read many of these chapters and offered sparkling insights, but has lived them right along with us. We are forever indebted.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">My beloved parents, David J. and Donna G. Dalton, were my first, middle, and last readers. Some of my sweetest healing hours have been spent listening to them recite aloud to each other the first drafts of every single chapter. In more ways than I can describe, I owe them my life. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Finally: my Bradfords, without whom there is neither story to tell nor life to live. Claire Bradford, awe-inspiring daughter, gave her trademark sharp-eyed organizational help and cheered me sweetly on through every step of living and chronicling this life. Dalton Bradford—on-site tech support, camera crew, film editor, blog curator, current events commentator—gave his precocious and precious insights. Luc Bradford, our Luminous One, whose tech savvy at age ten outstripped mine at forty-something, got me quickly up to speed, and shared (too many) hours sitting at my elbow, both of us on our laptops. Parker Bradford, whose enormous and resounding mortal absence matches his echoing and infinite ongoingness. </span><span class="Drop-Cap char-style-override-3">“</span><span class="Drop-Cap char-style-override-3">Par C</span><span class="Drop-Cap char-style-override-3">œ</span><span class="Drop-Cap char-style-override-3">ur” is the very heart of this book. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">And Randall: my “part,” not merely my partner. He has with constant and astounding generosity of spirit literally and figuratively given our family the world. While the demands of his profession might have made him seem absent in many of these pages, he is in fact the book’s silent main character. His loving presence made this life and book possible, and makes any and all places for me home. </span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3"></span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3">Prangins, Switzerland, June 2013</span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3"></span></p>
+		</div>
+	</body>
+</html>
+2023-01-14 22:00:12 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 22:00:12 INFO  - Step 14 - I restart app
+2023-01-14 22:00:37 INFO  - Step 15 - I open Books
+2023-01-14 22:00:37 INFO  - Button 'tabBooks' :: Clicking
+2023-01-14 22:00:37 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-14 22:00:38 INFO  - Label 'lblBookName' :: Clicking
+2023-01-14 22:00:38 INFO  - Step 17 - Click READ action button on book details screen
+2023-01-14 22:00:39 INFO  - Button 'Read' :: Clicking
+2023-01-14 22:00:39 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-01-14 22:00:40 INFO  - context - NATIVE_APP
+2023-01-14 22:00:40 INFO  - context - NATIVE_APP
+2023-01-14 22:00:41 INFO  - context - NATIVE_APP
+2023-01-14 22:00:42 INFO  - context - NATIVE_APP
+2023-01-14 22:00:42 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 22:00:42 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 22:00:42 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Acknowledgements</title>
+		<link href="css/GlobalMom__idstyles.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="Acknowledgements" xml:lang="en-US">
+		<div class="Basic-Text-Frame-2">
+			<p class="Story-Title-2 para-style-override-2"><span class="Drop-Cap char-style-override-3">Acknowledgments</span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3">As would be expected, a book called </span><span class="Italics-1 char-style-override-4">Global Mom </span><span class="Drop-Cap char-style-override-3">has been a global undertaking requiring multiple moms, not just the one on the cover. Producing this manuscript has drawn on the gifts and graciousness of a worldwide circle of friends, some of whom I’ve already mentioned in these pages. Others, I wish to thank here. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Sharlee Mullins Glenn, mentor and wordsmith warrior, has been compassionate, visionary, persistent, and charitable. Her influence has sustained me and fueled not only this book, but also virtually all my writing. In my many moments of reticence, hers has been the firm hand on my shoulder pushing me onward. I thank her, ad infinitum.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Those affiliated with the women’s literary journal </span><span class="Italics-1 char-style-override-4">Segullah </span><span class="Drop-Cap char-style-override-3">aided in the development of my voice and the telling of this story. Angela S. Hallstrom, Michelle Lehnardt, Lisa Garfield, and Kathryn Lynard Soper offered invaluable writerly feedback, hashing out and mulling through my prose, peeling it down to its core and then to its seeds. They brought me onboard their vessel as a poetry editor and also helped me cut my blogging teeth. Michelle filmed, edited, and produced the video trailer for this book’s release. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Jacque A. White, Kristiina H. Sorensen, Bonnie Jean Beesley, Maja Busche Wensel, Sharon Leigh, and Elaine S. Dalton, my âmes-sœurs, or soul sisters, were at my side in pivotal life moments described in these pages. Astrid Tuminez, Mary Bingham Lee, Kimberly Carlile, and Sharon Eubank aided by reading early copy, to which they gave skillful editorial suggestions. Maggie Wickes and Amy Stewart, this book’s official editors, picked through the manuscript like seasoned archaeologists pick through sand with a microscope and tweezers. Crystal Patriarche and Kim Cecere of BookSparks Public Relations put turbo boosters on my back and sent me sailing, book in my sweaty clutch.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Some of this book’s “moms” have been men. Christopher Robbins, indefatigable CEO of Familius, embodied the kind of wise guidance and accessibility most writers can only dream of finding in a publisher. While building a company, recovering from a severe ski accident concussion, and while living for months in a different time zone from his family, Christopher kept his sense of humor and never forfeited his cool, keen judgment. Above all, he honored my voice as it retold my family’s story.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Christian Karlsson, the epitome of modesty and excellence, was my Norwegian correspondent. Jim Richards, Rick Walton, Jack Harrell, Kirk Lovell Shaw, and Tyler Chadwick each championed my writing and promoted it to others. Kirby Bivans, gentle sound master of La Forge studios in Versonnex, France, oversaw my recording of the audio version of this book. Robb White and Aaron Hubbard demonstrated the best of the human spirit in supporting our family throughout months and years of living with enormous loss.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">My brother Aaron Dalton has been a valued constant in this peripatetic life we live, as well as my go-to guy for everything from pop culture to Proust quotes. He has not only read many of these chapters and offered sparkling insights, but has lived them right along with us. We are forever indebted.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">My beloved parents, David J. and Donna G. Dalton, were my first, middle, and last readers. Some of my sweetest healing hours have been spent listening to them recite aloud to each other the first drafts of every single chapter. In more ways than I can describe, I owe them my life. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Finally: my Bradfords, without whom there is neither story to tell nor life to live. Claire Bradford, awe-inspiring daughter, gave her trademark sharp-eyed organizational help and cheered me sweetly on through every step of living and chronicling this life. Dalton Bradford—on-site tech support, camera crew, film editor, blog curator, current events commentator—gave his precocious and precious insights. Luc Bradford, our Luminous One, whose tech savvy at age ten outstripped mine at forty-something, got me quickly up to speed, and shared (too many) hours sitting at my elbow, both of us on our laptops. Parker Bradford, whose enormous and resounding mortal absence matches his echoing and infinite ongoingness. </span><span class="Drop-Cap char-style-override-3">“</span><span class="Drop-Cap char-style-override-3">Par C</span><span class="Drop-Cap char-style-override-3">œ</span><span class="Drop-Cap char-style-override-3">ur” is the very heart of this book. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">And Randall: my “part,” not merely my partner. He has with constant and astounding generosity of spirit literally and figuratively given our family the world. While the demands of his profession might have made him seem absent in many of these pages, he is in fact the book’s silent main character. His loving presence made this life and book possible, and makes any and all places for me home. </span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3"></span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3">Prangins, Switzerland, June 2013</span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3"></span></p>
+		</div>
+	</body>
+</html>
+2023-01-14 22:00:42 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 22:00:43 INFO  - Step 19 - I return to previous screen from epub
+2023-01-14 22:00:43 INFO  - Button 'btnBack' :: Clicking
+2023-01-14 22:00:44 INFO  - Step 20 - Click READ action button on book details screen
+2023-01-14 22:00:45 INFO  - Button 'Read' :: Clicking
+2023-01-14 22:00:45 INFO  - Step 21 - Book text displays in FONT_SERIF font
+2023-01-14 22:00:45 INFO  - context - NATIVE_APP
+2023-01-14 22:00:45 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 22:00:47 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 22:00:47 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Acknowledgements</title>
+		<link href="css/GlobalMom__idstyles.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="Acknowledgements" xml:lang="en-US">
+		<div class="Basic-Text-Frame-2">
+			<p class="Story-Title-2 para-style-override-2"><span class="Drop-Cap char-style-override-3">Acknowledgments</span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3">As would be expected, a book called </span><span class="Italics-1 char-style-override-4">Global Mom </span><span class="Drop-Cap char-style-override-3">has been a global undertaking requiring multiple moms, not just the one on the cover. Producing this manuscript has drawn on the gifts and graciousness of a worldwide circle of friends, some of whom I’ve already mentioned in these pages. Others, I wish to thank here. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Sharlee Mullins Glenn, mentor and wordsmith warrior, has been compassionate, visionary, persistent, and charitable. Her influence has sustained me and fueled not only this book, but also virtually all my writing. In my many moments of reticence, hers has been the firm hand on my shoulder pushing me onward. I thank her, ad infinitum.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Those affiliated with the women’s literary journal </span><span class="Italics-1 char-style-override-4">Segullah </span><span class="Drop-Cap char-style-override-3">aided in the development of my voice and the telling of this story. Angela S. Hallstrom, Michelle Lehnardt, Lisa Garfield, and Kathryn Lynard Soper offered invaluable writerly feedback, hashing out and mulling through my prose, peeling it down to its core and then to its seeds. They brought me onboard their vessel as a poetry editor and also helped me cut my blogging teeth. Michelle filmed, edited, and produced the video trailer for this book’s release. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Jacque A. White, Kristiina H. Sorensen, Bonnie Jean Beesley, Maja Busche Wensel, Sharon Leigh, and Elaine S. Dalton, my âmes-sœurs, or soul sisters, were at my side in pivotal life moments described in these pages. Astrid Tuminez, Mary Bingham Lee, Kimberly Carlile, and Sharon Eubank aided by reading early copy, to which they gave skillful editorial suggestions. Maggie Wickes and Amy Stewart, this book’s official editors, picked through the manuscript like seasoned archaeologists pick through sand with a microscope and tweezers. Crystal Patriarche and Kim Cecere of BookSparks Public Relations put turbo boosters on my back and sent me sailing, book in my sweaty clutch.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Some of this book’s “moms” have been men. Christopher Robbins, indefatigable CEO of Familius, embodied the kind of wise guidance and accessibility most writers can only dream of finding in a publisher. While building a company, recovering from a severe ski accident concussion, and while living for months in a different time zone from his family, Christopher kept his sense of humor and never forfeited his cool, keen judgment. Above all, he honored my voice as it retold my family’s story.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Christian Karlsson, the epitome of modesty and excellence, was my Norwegian correspondent. Jim Richards, Rick Walton, Jack Harrell, Kirk Lovell Shaw, and Tyler Chadwick each championed my writing and promoted it to others. Kirby Bivans, gentle sound master of La Forge studios in Versonnex, France, oversaw my recording of the audio version of this book. Robb White and Aaron Hubbard demonstrated the best of the human spirit in supporting our family throughout months and years of living with enormous loss.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">My brother Aaron Dalton has been a valued constant in this peripatetic life we live, as well as my go-to guy for everything from pop culture to Proust quotes. He has not only read many of these chapters and offered sparkling insights, but has lived them right along with us. We are forever indebted.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">My beloved parents, David J. and Donna G. Dalton, were my first, middle, and last readers. Some of my sweetest healing hours have been spent listening to them recite aloud to each other the first drafts of every single chapter. In more ways than I can describe, I owe them my life. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Finally: my Bradfords, without whom there is neither story to tell nor life to live. Claire Bradford, awe-inspiring daughter, gave her trademark sharp-eyed organizational help and cheered me sweetly on through every step of living and chronicling this life. Dalton Bradford—on-site tech support, camera crew, film editor, blog curator, current events commentator—gave his precocious and precious insights. Luc Bradford, our Luminous One, whose tech savvy at age ten outstripped mine at forty-something, got me quickly up to speed, and shared (too many) hours sitting at my elbow, both of us on our laptops. Parker Bradford, whose enormous and resounding mortal absence matches his echoing and infinite ongoingness. </span><span class="Drop-Cap char-style-override-3">“</span><span class="Drop-Cap char-style-override-3">Par C</span><span class="Drop-Cap char-style-override-3">œ</span><span class="Drop-Cap char-style-override-3">ur” is the very heart of this book. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">And Randall: my “part,” not merely my partner. He has with constant and astounding generosity of spirit literally and figuratively given our family the world. While the demands of his profession might have made him seem absent in many of these pages, he is in fact the book’s silent main character. His loving presence made this life and book possible, and makes any and all places for me home. </span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3"></span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3">Prangins, Switzerland, June 2013</span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3"></span></p>
+		</div>
+	</body>
+</html>
+2023-01-14 22:00:47 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 22:00:47 INFO  - Step 22 - I open font settings
+2023-01-14 22:00:48 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-14 22:00:49 INFO  - Step 23 - I change font style to FONT_SANS
+2023-01-14 22:00:49 INFO  - Button 'setFontSans' :: Clicking
+2023-01-14 22:00:49 INFO  - Step 24 - Book text displays in FONT_SANS font
+2023-01-14 22:00:50 INFO  - context - NATIVE_APP
+2023-01-14 22:00:50 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-14 22:00:50 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-14 22:00:50 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Acknowledgements</title>
+		<link href="css/GlobalMom__idstyles.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="Acknowledgements" xml:lang="en-US">
+		<div class="Basic-Text-Frame-2">
+			<p class="Story-Title-2 para-style-override-2"><span class="Drop-Cap char-style-override-3">Acknowledgments</span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3">As would be expected, a book called </span><span class="Italics-1 char-style-override-4">Global Mom </span><span class="Drop-Cap char-style-override-3">has been a global undertaking requiring multiple moms, not just the one on the cover. Producing this manuscript has drawn on the gifts and graciousness of a worldwide circle of friends, some of whom I’ve already mentioned in these pages. Others, I wish to thank here. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Sharlee Mullins Glenn, mentor and wordsmith warrior, has been compassionate, visionary, persistent, and charitable. Her influence has sustained me and fueled not only this book, but also virtually all my writing. In my many moments of reticence, hers has been the firm hand on my shoulder pushing me onward. I thank her, ad infinitum.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Those affiliated with the women’s literary journal </span><span class="Italics-1 char-style-override-4">Segullah </span><span class="Drop-Cap char-style-override-3">aided in the development of my voice and the telling of this story. Angela S. Hallstrom, Michelle Lehnardt, Lisa Garfield, and Kathryn Lynard Soper offered invaluable writerly feedback, hashing out and mulling through my prose, peeling it down to its core and then to its seeds. They brought me onboard their vessel as a poetry editor and also helped me cut my blogging teeth. Michelle filmed, edited, and produced the video trailer for this book’s release. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Jacque A. White, Kristiina H. Sorensen, Bonnie Jean Beesley, Maja Busche Wensel, Sharon Leigh, and Elaine S. Dalton, my âmes-sœurs, or soul sisters, were at my side in pivotal life moments described in these pages. Astrid Tuminez, Mary Bingham Lee, Kimberly Carlile, and Sharon Eubank aided by reading early copy, to which they gave skillful editorial suggestions. Maggie Wickes and Amy Stewart, this book’s official editors, picked through the manuscript like seasoned archaeologists pick through sand with a microscope and tweezers. Crystal Patriarche and Kim Cecere of BookSparks Public Relations put turbo boosters on my back and sent me sailing, book in my sweaty clutch.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Some of this book’s “moms” have been men. Christopher Robbins, indefatigable CEO of Familius, embodied the kind of wise guidance and accessibility most writers can only dream of finding in a publisher. While building a company, recovering from a severe ski accident concussion, and while living for months in a different time zone from his family, Christopher kept his sense of humor and never forfeited his cool, keen judgment. Above all, he honored my voice as it retold my family’s story.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Christian Karlsson, the epitome of modesty and excellence, was my Norwegian correspondent. Jim Richards, Rick Walton, Jack Harrell, Kirk Lovell Shaw, and Tyler Chadwick each championed my writing and promoted it to others. Kirby Bivans, gentle sound master of La Forge studios in Versonnex, France, oversaw my recording of the audio version of this book. Robb White and Aaron Hubbard demonstrated the best of the human spirit in supporting our family throughout months and years of living with enormous loss.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">My brother Aaron Dalton has been a valued constant in this peripatetic life we live, as well as my go-to guy for everything from pop culture to Proust quotes. He has not only read many of these chapters and offered sparkling insights, but has lived them right along with us. We are forever indebted.</span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">My beloved parents, David J. and Donna G. Dalton, were my first, middle, and last readers. Some of my sweetest healing hours have been spent listening to them recite aloud to each other the first drafts of every single chapter. In more ways than I can describe, I owe them my life. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">Finally: my Bradfords, without whom there is neither story to tell nor life to live. Claire Bradford, awe-inspiring daughter, gave her trademark sharp-eyed organizational help and cheered me sweetly on through every step of living and chronicling this life. Dalton Bradford—on-site tech support, camera crew, film editor, blog curator, current events commentator—gave his precocious and precious insights. Luc Bradford, our Luminous One, whose tech savvy at age ten outstripped mine at forty-something, got me quickly up to speed, and shared (too many) hours sitting at my elbow, both of us on our laptops. Parker Bradford, whose enormous and resounding mortal absence matches his echoing and infinite ongoingness. </span><span class="Drop-Cap char-style-override-3">“</span><span class="Drop-Cap char-style-override-3">Par C</span><span class="Drop-Cap char-style-override-3">œ</span><span class="Drop-Cap char-style-override-3">ur” is the very heart of this book. </span></p>
+			<p class="Body-text-1 para-style-override-4"><span class="Drop-Cap char-style-override-3">And Randall: my “part,” not merely my partner. He has with constant and astounding generosity of spirit literally and figuratively given our family the world. While the demands of his profession might have made him seem absent in many of these pages, he is in fact the book’s silent main character. His loving presence made this life and book possible, and makes any and all places for me home. </span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3"></span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3">Prangins, Switzerland, June 2013</span></p>
+			<p class="Body-text-1 para-style-override-3"><span class="Drop-Cap char-style-override-3"></span></p>
+		</div>
+	</body>
+</html>
+2023-01-14 22:00:50 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-14 22:00:50 INFO  - Taking screenshot
+2023-01-14 22:00:51 INFO  - Test finished - logging out
+2023-01-14 22:00:52 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 22:00:55 INFO  - Button 'tabSettings' :: Clicking
+2023-01-14 22:00:55 INFO  - Button 'Accounts' :: Clicking
+2023-01-14 22:00:56 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-14 22:00:58 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 22:00:59 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 22:00:59 INFO  - Button 'Log out' :: Clicking
+2023-01-14 22:00:59 INFO  - Button 'Log in' :: Getting text from element
+2023-01-14 22:01:03 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-14 22:01:03 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-14 22:01:04 INFO  - Unlocking credential for current thread
+2023-01-14 22:01:04 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@27d481e8
