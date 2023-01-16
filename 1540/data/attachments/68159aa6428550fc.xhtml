@@ -1,0 +1,285 @@
+2023-01-16 18:47:33 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-01-16 18:47:33 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-16 18:48:07 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-16 18:48:07 INFO  - Session id - 54d10aaa4f469c5286b71ea406dde1ea29b1cbdc
+2023-01-16 18:48:07 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-16 18:48:07 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-16 18:48:10 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-16 18:48:10 INFO  - Button 'Search' :: Clicking
+2023-01-16 18:48:12 INFO  - Text Field 'Search' :: Clearing
+2023-01-16 18:48:12 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-16 18:48:15 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-16 18:48:15 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-16 18:48:16 INFO  - Button 'tabSettings' :: Clicking
+2023-01-16 18:48:17 INFO  - Button 'tabSettings' :: Clicking
+2023-01-16 18:48:18 INFO  - Button 'Accounts' :: Clicking
+2023-01-16 18:48:20 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-16 18:48:20 INFO  - Button 'tabSettings' :: Clicking
+2023-01-16 18:48:20 INFO  - Button 'tabSettings' :: Clicking
+2023-01-16 18:48:21 INFO  - Button 'Accounts' :: Clicking
+2023-01-16 18:48:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-16 18:48:23 INFO  - Locking credential with barcode 01230000000305
+2023-01-16 18:48:23 INFO  - There are books on the account: 
+2023-01-16 18:48:24 INFO  - There is not books on the account.
+2023-01-16 18:48:24 INFO  - Count of books on the account after opening account: 0
+2023-01-16 18:48:24 INFO  - Text Field 'Card' :: Clearing
+2023-01-16 18:48:24 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-01-16 18:48:26 INFO  - Text Field 'Pin' :: Clearing
+2023-01-16 18:48:26 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-16 18:48:29 INFO  - Button 'Log in' :: Clicking
+2023-01-16 18:48:35 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-16 18:48:35 INFO  - Step 3 - Login is performed successfully
+2023-01-16 18:48:57 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-16 18:48:57 INFO  - Step 4 - I open Catalog
+2023-01-16 18:48:57 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-16 18:49:18 INFO  - Step 5 - I open search modal
+2023-01-16 18:49:38 INFO  - Button 'Search' :: Clicking
+2023-01-16 18:49:39 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-16 18:49:39 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-16 18:49:39 INFO  - randomBookName: Cloud Cuckoo Land
+2023-01-16 18:49:40 INFO  - Error details button is not present
+2023-01-16 18:49:40 INFO  - Text Field 'Search value input' :: Sending keys 'Cloud Cuckoo Land'
+2023-01-16 18:49:41 INFO  - Button 'Apply search' :: Clicking
+2023-01-16 18:49:42 INFO  - Error details button is not present
+2023-01-16 18:49:46 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-16 18:49:47 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-16 18:49:47 INFO  - Button 'actionButton' :: Clicking
+2023-01-16 18:49:54 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-16 18:49:55 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-16 18:49:55 INFO  - Label 'lblBookName' :: Clicking
+2023-01-16 18:49:56 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-16 18:49:57 INFO  - Button 'Read' :: Clicking
+2023-01-16 18:49:57 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-16 18:49:57 INFO  - Scrolling 7 times on reader epub screen
+2023-01-16 18:50:20 INFO  - Step 11 - I save font size as 'fontSize'
+2023-01-16 18:50:21 INFO  - context - NATIVE_APP
+2023-01-16 18:50:21 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-16 18:50:21 INFO  - context - WEBVIEW_Terrace
+2023-01-16 18:50:22 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-16 18:50:22 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en-us" xml:lang="en-us" style="--RS__viewportWidth:calc(1080px / 2.8125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Praise</title>
+<link rel="stylesheet" type="text/css" href="../styles/9781982168452.css" />
+<link rel="stylesheet" type="text/css" href="../styles/SS_global.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+    <h1 id="praise_hd" class="h1pr">Praise for <i>CLOUD CUCKOO LAND</i></h1>
+    <p class="FSQ">“<i>Cloud Cuckoo Land</i> is a wildly inventive novel that teems with life, straddles an enormous range of experience and learning, and embodies the storytelling gifts that it celebrates. . . . A humane and uplifting book for adults that’s infused with the magic of childhood reading experiences.”</p>
+    <p class="FSC">—Marcel Theroux, <i>The New York Times</i><i> </i><i>Book Review</i> </p>
+    <p class="FSQ">“Of all our contemporary fiction writers, Anthony Doerr is the one whose novels seem to be the purest response to the primal request—<i>tell me a story</i>. . . . <i>Cloud Cuckoo Land</i> transports us far above the stars and down into the mud. It dazzles and disturbs. And I for one wanted Doerr’s vast and overwhelming story to last much, much longer.”</p>
+    <p class="FSC">—Maureen Corrigan, <i>Fresh Air</i></p>
+    <p class="FSQ">“In a big fiction year . . . <i>Cloud Cuckoo Land </i>stands out. . . . Doerr’s characters are astoundingly resilient, suggesting that we may yet save ourselves, with literature an essential tool.”</p>
+    <p class="FSC">—Hamilton Cain, <i>The Boston Globe</i> </p>
+    <p class="FSQ">“There is a kind of book a seasoned writer produces after a big success: large-hearted, wide in scope, and joyous. Following his Pulitzer winner, <a href="https://www.theguardian.com/books/2014/may/17/all-the-light-we-cannot-see-anthony-doerr-review"><i>All the Light We Cannot See</i></a>, Anthony Doerr’s <i>Cloud Cuckoo Land</i> is a deep lungful of fresh air—and a gift of a novel.”</p>
+    <p class="FSC">—Elizabeth Knox, <i>The Guardian</i> </p>
+    <p class="FSQ">“The greatest joy in <i>Cloud Cuckoo Land</i> comes from watching the pieces snap into place. It is an epic of the quietest kind, whispering across six hundred years in a voice no louder than a librarian’s.”</p>
+    <p class="FSC">—Jason Sheehan, NPR.org </p>
+    <p class="FSQ">“Doerr’s creation lifts off quickly, soars, and then, like the various wildfowl wheeling through the story, lands with practiced finesse. . . . Fueled by deep imagination and insistent compassion, Doerr weaves together his storylines with brisk pacing that never feels rushed.”</p>
+    <p class="FSC">—Erin Douglass, <i>The Christian Science </i><i> </i><i>Monitor</i></p>
+    <p class="FSQ">“Readers will come away from it with a greater appreciation for those invisible qualities that have bound human life across the ages—the love of a good story and the joy of returning home.”</p>
+    <p class="FSC">—Samantha Spengler, <i>Wired</i></p>
+    <p class="FSQ">“<i>Cloud Cuckoo Land </i>is bound to leave as indelible a mark on readers as <i>All the Light We Cannot See</i>.”</p>
+    <p class="FSC">—Alessia Santoro, <i>PopSugar</i></p>
+    <p class="FSQ">“<i>Cloud Cuckoo Land</i> sings with the beauty of Doerr’s first published stories and rekindles the awe felt by book enthusiasts longing to recapture the feeling of being swept away by the absorbing power of our earliest loved tales.”</p>
+    <p class="FSC">—Lisa V. Hancock, <i>Pittsburgh Post-Gazette</i></p>
+    <p class="FSQ">“Anthony Doerr is not just a master of storytelling. He is, arguably, a magician. . . . There’s no need to dream of a beautiful land, up above the clouds, to escape 2021 for a few hours. Anthony Doerr’s magic, captured in the pages of this thrilling, lovely, deeply satisfying book, will take you there.”</p>
+    <p class="FSC">—Gail Pennington, <i>St. Louis Post-Dispatch</i> </p>
+    <p class="FSQ">“A seamless tapestry . . . Ultimately, Doerr seeks to remind us of the many ways we are tied to the natural world.”</p>
+    <p class="FSC">—Bethanne Patrick, <i>Los Angeles Times</i></p>
+    <p class="FSQ">“As with all of Doerr’s books, the characters in <i>Cloud Cuckoo Land</i> are beautifully described, the story is mesmerizing, and the carefully crafted tapestry of themes pulls characters and time periods together into an incandescent whole—tempting the reader to start over as soon as the book is finished.”</p>
+    <p class="FSC">—Diana Furchtgott-Roth, <i>Forbes</i> </p>
+    <p class="FSQ">“Sweeping and atmospheric.”</p>
+    <p class="FSC">—<i>Time</i></p>
+    <p class="FSQ">“Beautiful and enthralling, a masterpiece . . . If you love books, you’ll love this book.”</p>
+    <p class="FSC">—Rebecca Bennett, <i>Austin American-</i><i> </i><i>Statesman</i></p>
+    <p class="FSQ">“As intimate as a bedtime story, a love letter to libraries and bibliophiles.”</p>
+    <p class="FSC">—<i>Oprah Daily</i></p>
+    <p class="FSQ">“A deft and intricately woven tale [and] one of the most memorable books of the year.”</p>
+    <p class="FSC">—Ron Sylvester, <i>The Spokane </i><i> </i><i>Spokesman-Review</i></p>
+    <p class="FSQ">“A trip well worth taking with the inimitable Doerr.”</p>
+    <p class="FSC">—Rob Merrill, Associated Press </p>
+    <p class="FSQ">“Packed with lush details and a gripping narrative.”</p>
+    <p class="FSC">—Keziah Weir, <i>Vanity Fair</i></p>
+    <p class="FSQ">“This engagingly written, big-hearted book is a must-read—­immersive popular fiction that breaks boundaries and makes you look at the world a bit differently.”</p>
+    <p class="FSC">—Jake Kerridge, <i>The Daily Mirror</i></p>
+    <p class="FSQ"><i>“Cloud Cuckoo Land </i>is an impressive achievement and a joy to read. Serious novels are rarely this fun. In a world where nature and stories are more precious than ever, this fine book is an education, a comfort, and inspiration.”</p>
+    <p class="FSC">—Melissa Katsoulis, <i>The Times</i> (UK)</p>
+    <p class="FSQ">“Epic and profound.”</p>
+    <p class="FSC">—Claire Martin,<i> People</i> </p>
+    <p class="FSQ">“Ambitious and complex . . . [Doerr] weaves it all together beautifully.”</p>
+    <p class="FSC">—Angela Haupt,<i>The Washington Post</i> </p>
+    <p class="FSQ">“A tour de force of a novel . . . recalling Jorge Luis Borges, Umberto Eco, and Ursula K. LeGuin . . . A literary salon to which all manner of storytellers and readers are invited.”</p>
+    <p class="FSC">—Jenny McPhee, <i>Air Mail</i> </p>
+    <p class="FSQ">“Anthony Doerr’s talent for deftly weaving the crisscrossed stories of adults and children will tug at your heartstrings and remind you of the power of resilience and hope.”</p>
+    <p class="FSC">—Ashley Leath,<i> Country Living</i></p>
+    <p class="FSQ">“A dazzling epic of love, war, and the joy of books.”</p>
+    <p class="FSC">—<i>The Guardian</i></p>
+    <p class="FSQ">“A sweeping epic.”</p>
+    <p class="FSC">—K. W. Colyard, <i>Bustle </i></p>
+    <p class="FSQ">“A novel of epic stature and ambition.”</p>
+    <p class="FSC">—Emerson Malone, <i>Buzzfeed</i> </p>
+    <p class="FSQ">“In <i>Cloud Cuckoo Land</i>, Anthony Doerr takes his talents to the epic.”</p>
+    <p class="FSC">—Seija Rankin, <i>Entertainment Weekly </i></p>
+    <p class="FSQ">“If you’re looking for a superb novel, look no further.”</p>
+    <p class="FSC">—Bethanne Patrick, <i>The Washington Post</i> </p>
+    <p class="FSQ">“Sprawling and ambitious and imaginative . . . [Doerr] is a writer with the rare ability to achieve the universal and the specific simultaneously. His stories, both vast and intimate, are dazzling, sometimes dizzying in their scope. . . . <i>Cloud Cuckoo Land</i> is unlike anything you’ve ever read.”</p>
+    <p class="FSC">—Samantha Schoech, <i>San Francisco </i><i> </i><i>Chronicle</i> </p>
+    <p class="FSQ">“Worth the seven-year wait . . . Will leave you in awe.”</p>
+    <p class="FSC">—Tierney Bricker, <i>E! Online</i> </p>
+    <p class="FSQ">“A poignant story told with heart and wit . . . [with] short, lively chapters [that] move at a lively clip.”</p>
+    <p class="FSC">—Kristyn Kusek Lewis, <i>Real Simple</i></p>
+    <p class="FSQ">“A sweeping literary fiction novel exploring past, present, and future through the lives of young people on the cusp of adulthood . . . This is a novel unlike any other.”</p>
+    <p class="FSC">—Rachel Brittain, <i>Book Riot</i></p>
+    <p class="FSQ">“An intricately braided story . . . [and] a stunning, mind-bending tale of survival and how closely we’re all connected.”</p>
+    <p class="FSC">—Lizz Schumer, <i>Good Housekeeping</i></p>
+    <p class="FSQ">“<i>Cloud Cuckoo Land</i> is as extreme a departure as they come, but so original you won’t care.”</p>
+    <p class="FSC">—<i>Los Angeles Times</i></p>
+    <p class="FSQ">“Bittersweet, <i>Cloud Cuckoo Land</i> is both an omen for what the future may hold, and a beacon of hope for what can be if we take care of each other and our planet. Doerr stole our hearts in his 2014 novel <i>All the Light We Cannot See</i>, which won the top spot on bestseller lists around the world, as well as the 2015 Pulitzer Prize for fiction. It appears he was merely clearing his throat—in <i>Cloud Cuckoo Land</i>, Doerr positively sings.”</p>
+    <p class="FSC">—Katrina Sklepowich, <i>Winnipeg Free Press</i></p>
+    <p class="FSQ">“It feels wonderful . . . to spend a few days losing oneself in an exquisitely built book.”</p>
+    <p class="FSC">—Eve Andrews, <i>Grist</i> </p>
+    <p class="FSQ">“Another masterful novel from Anthony Doerr.”</p>
+    <p class="FSC">—Dean Poling, <i>Valdosta Daily Times</i></p>
+    <p class="FSQ">“Divinely inspired storytelling.”</p>
+    <p class="FSC">—Melony Carey, <i>Muskogee Phoenix</i></p>
+</body>
+</html>
+2023-01-16 18:50:22 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-16 18:50:23 INFO  - Step 12 - I open font settings
+2023-01-16 18:50:23 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-16 18:50:24 INFO  - Step 13 - I INCREASE_FONT of text
+2023-01-16 18:50:24 INFO  - Button 'setTextLarger' :: Clicking
+2023-01-16 18:50:25 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-01-16 18:50:25 INFO  - context - NATIVE_APP
+2023-01-16 18:50:25 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-16 18:50:25 INFO  - context - WEBVIEW_Terrace
+2023-01-16 18:50:26 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-16 18:50:26 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en-us" xml:lang="en-us" style="--RS__viewportWidth:calc(1080px / 2.8125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Praise</title>
+<link rel="stylesheet" type="text/css" href="../styles/9781982168452.css" />
+<link rel="stylesheet" type="text/css" href="../styles/SS_global.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+    <h1 id="praise_hd" class="h1pr">Praise for <i>CLOUD CUCKOO LAND</i></h1>
+    <p class="FSQ">“<i>Cloud Cuckoo Land</i> is a wildly inventive novel that teems with life, straddles an enormous range of experience and learning, and embodies the storytelling gifts that it celebrates. . . . A humane and uplifting book for adults that’s infused with the magic of childhood reading experiences.”</p>
+    <p class="FSC">—Marcel Theroux, <i>The New York Times</i><i> </i><i>Book Review</i> </p>
+    <p class="FSQ">“Of all our contemporary fiction writers, Anthony Doerr is the one whose novels seem to be the purest response to the primal request—<i>tell me a story</i>. . . . <i>Cloud Cuckoo Land</i> transports us far above the stars and down into the mud. It dazzles and disturbs. And I for one wanted Doerr’s vast and overwhelming story to last much, much longer.”</p>
+    <p class="FSC">—Maureen Corrigan, <i>Fresh Air</i></p>
+    <p class="FSQ">“In a big fiction year . . . <i>Cloud Cuckoo Land </i>stands out. . . . Doerr’s characters are astoundingly resilient, suggesting that we may yet save ourselves, with literature an essential tool.”</p>
+    <p class="FSC">—Hamilton Cain, <i>The Boston Globe</i> </p>
+    <p class="FSQ">“There is a kind of book a seasoned writer produces after a big success: large-hearted, wide in scope, and joyous. Following his Pulitzer winner, <a href="https://www.theguardian.com/books/2014/may/17/all-the-light-we-cannot-see-anthony-doerr-review"><i>All the Light We Cannot See</i></a>, Anthony Doerr’s <i>Cloud Cuckoo Land</i> is a deep lungful of fresh air—and a gift of a novel.”</p>
+    <p class="FSC">—Elizabeth Knox, <i>The Guardian</i> </p>
+    <p class="FSQ">“The greatest joy in <i>Cloud Cuckoo Land</i> comes from watching the pieces snap into place. It is an epic of the quietest kind, whispering across six hundred years in a voice no louder than a librarian’s.”</p>
+    <p class="FSC">—Jason Sheehan, NPR.org </p>
+    <p class="FSQ">“Doerr’s creation lifts off quickly, soars, and then, like the various wildfowl wheeling through the story, lands with practiced finesse. . . . Fueled by deep imagination and insistent compassion, Doerr weaves together his storylines with brisk pacing that never feels rushed.”</p>
+    <p class="FSC">—Erin Douglass, <i>The Christian Science </i><i> </i><i>Monitor</i></p>
+    <p class="FSQ">“Readers will come away from it with a greater appreciation for those invisible qualities that have bound human life across the ages—the love of a good story and the joy of returning home.”</p>
+    <p class="FSC">—Samantha Spengler, <i>Wired</i></p>
+    <p class="FSQ">“<i>Cloud Cuckoo Land </i>is bound to leave as indelible a mark on readers as <i>All the Light We Cannot See</i>.”</p>
+    <p class="FSC">—Alessia Santoro, <i>PopSugar</i></p>
+    <p class="FSQ">“<i>Cloud Cuckoo Land</i> sings with the beauty of Doerr’s first published stories and rekindles the awe felt by book enthusiasts longing to recapture the feeling of being swept away by the absorbing power of our earliest loved tales.”</p>
+    <p class="FSC">—Lisa V. Hancock, <i>Pittsburgh Post-Gazette</i></p>
+    <p class="FSQ">“Anthony Doerr is not just a master of storytelling. He is, arguably, a magician. . . . There’s no need to dream of a beautiful land, up above the clouds, to escape 2021 for a few hours. Anthony Doerr’s magic, captured in the pages of this thrilling, lovely, deeply satisfying book, will take you there.”</p>
+    <p class="FSC">—Gail Pennington, <i>St. Louis Post-Dispatch</i> </p>
+    <p class="FSQ">“A seamless tapestry . . . Ultimately, Doerr seeks to remind us of the many ways we are tied to the natural world.”</p>
+    <p class="FSC">—Bethanne Patrick, <i>Los Angeles Times</i></p>
+    <p class="FSQ">“As with all of Doerr’s books, the characters in <i>Cloud Cuckoo Land</i> are beautifully described, the story is mesmerizing, and the carefully crafted tapestry of themes pulls characters and time periods together into an incandescent whole—tempting the reader to start over as soon as the book is finished.”</p>
+    <p class="FSC">—Diana Furchtgott-Roth, <i>Forbes</i> </p>
+    <p class="FSQ">“Sweeping and atmospheric.”</p>
+    <p class="FSC">—<i>Time</i></p>
+    <p class="FSQ">“Beautiful and enthralling, a masterpiece . . . If you love books, you’ll love this book.”</p>
+    <p class="FSC">—Rebecca Bennett, <i>Austin American-</i><i> </i><i>Statesman</i></p>
+    <p class="FSQ">“As intimate as a bedtime story, a love letter to libraries and bibliophiles.”</p>
+    <p class="FSC">—<i>Oprah Daily</i></p>
+    <p class="FSQ">“A deft and intricately woven tale [and] one of the most memorable books of the year.”</p>
+    <p class="FSC">—Ron Sylvester, <i>The Spokane </i><i> </i><i>Spokesman-Review</i></p>
+    <p class="FSQ">“A trip well worth taking with the inimitable Doerr.”</p>
+    <p class="FSC">—Rob Merrill, Associated Press </p>
+    <p class="FSQ">“Packed with lush details and a gripping narrative.”</p>
+    <p class="FSC">—Keziah Weir, <i>Vanity Fair</i></p>
+    <p class="FSQ">“This engagingly written, big-hearted book is a must-read—­immersive popular fiction that breaks boundaries and makes you look at the world a bit differently.”</p>
+    <p class="FSC">—Jake Kerridge, <i>The Daily Mirror</i></p>
+    <p class="FSQ"><i>“Cloud Cuckoo Land </i>is an impressive achievement and a joy to read. Serious novels are rarely this fun. In a world where nature and stories are more precious than ever, this fine book is an education, a comfort, and inspiration.”</p>
+    <p class="FSC">—Melissa Katsoulis, <i>The Times</i> (UK)</p>
+    <p class="FSQ">“Epic and profound.”</p>
+    <p class="FSC">—Claire Martin,<i> People</i> </p>
+    <p class="FSQ">“Ambitious and complex . . . [Doerr] weaves it all together beautifully.”</p>
+    <p class="FSC">—Angela Haupt,<i>The Washington Post</i> </p>
+    <p class="FSQ">“A tour de force of a novel . . . recalling Jorge Luis Borges, Umberto Eco, and Ursula K. LeGuin . . . A literary salon to which all manner of storytellers and readers are invited.”</p>
+    <p class="FSC">—Jenny McPhee, <i>Air Mail</i> </p>
+    <p class="FSQ">“Anthony Doerr’s talent for deftly weaving the crisscrossed stories of adults and children will tug at your heartstrings and remind you of the power of resilience and hope.”</p>
+    <p class="FSC">—Ashley Leath,<i> Country Living</i></p>
+    <p class="FSQ">“A dazzling epic of love, war, and the joy of books.”</p>
+    <p class="FSC">—<i>The Guardian</i></p>
+    <p class="FSQ">“A sweeping epic.”</p>
+    <p class="FSC">—K. W. Colyard, <i>Bustle </i></p>
+    <p class="FSQ">“A novel of epic stature and ambition.”</p>
+    <p class="FSC">—Emerson Malone, <i>Buzzfeed</i> </p>
+    <p class="FSQ">“In <i>Cloud Cuckoo Land</i>, Anthony Doerr takes his talents to the epic.”</p>
+    <p class="FSC">—Seija Rankin, <i>Entertainment Weekly </i></p>
+    <p class="FSQ">“If you’re looking for a superb novel, look no further.”</p>
+    <p class="FSC">—Bethanne Patrick, <i>The Washington Post</i> </p>
+    <p class="FSQ">“Sprawling and ambitious and imaginative . . . [Doerr] is a writer with the rare ability to achieve the universal and the specific simultaneously. His stories, both vast and intimate, are dazzling, sometimes dizzying in their scope. . . . <i>Cloud Cuckoo Land</i> is unlike anything you’ve ever read.”</p>
+    <p class="FSC">—Samantha Schoech, <i>San Francisco </i><i> </i><i>Chronicle</i> </p>
+    <p class="FSQ">“Worth the seven-year wait . . . Will leave you in awe.”</p>
+    <p class="FSC">—Tierney Bricker, <i>E! Online</i> </p>
+    <p class="FSQ">“A poignant story told with heart and wit . . . [with] short, lively chapters [that] move at a lively clip.”</p>
+    <p class="FSC">—Kristyn Kusek Lewis, <i>Real Simple</i></p>
+    <p class="FSQ">“A sweeping literary fiction novel exploring past, present, and future through the lives of young people on the cusp of adulthood . . . This is a novel unlike any other.”</p>
+    <p class="FSC">—Rachel Brittain, <i>Book Riot</i></p>
+    <p class="FSQ">“An intricately braided story . . . [and] a stunning, mind-bending tale of survival and how closely we’re all connected.”</p>
+    <p class="FSC">—Lizz Schumer, <i>Good Housekeeping</i></p>
+    <p class="FSQ">“<i>Cloud Cuckoo Land</i> is as extreme a departure as they come, but so original you won’t care.”</p>
+    <p class="FSC">—<i>Los Angeles Times</i></p>
+    <p class="FSQ">“Bittersweet, <i>Cloud Cuckoo Land</i> is both an omen for what the future may hold, and a beacon of hope for what can be if we take care of each other and our planet. Doerr stole our hearts in his 2014 novel <i>All the Light We Cannot See</i>, which won the top spot on bestseller lists around the world, as well as the 2015 Pulitzer Prize for fiction. It appears he was merely clearing his throat—in <i>Cloud Cuckoo Land</i>, Doerr positively sings.”</p>
+    <p class="FSC">—Katrina Sklepowich, <i>Winnipeg Free Press</i></p>
+    <p class="FSQ">“It feels wonderful . . . to spend a few days losing oneself in an exquisitely built book.”</p>
+    <p class="FSC">—Eve Andrews, <i>Grist</i> </p>
+    <p class="FSQ">“Another masterful novel from Anthony Doerr.”</p>
+    <p class="FSC">—Dean Poling, <i>Valdosta Daily Times</i></p>
+    <p class="FSQ">“Divinely inspired storytelling.”</p>
+    <p class="FSC">—Melony Carey, <i>Muskogee Phoenix</i></p>
+</body>
+</html>
+2023-01-16 18:50:26 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-16 18:50:26 INFO  - Step 15 - I restart app
+2023-01-16 18:50:51 INFO  - Step 16 - I open Books
+2023-01-16 18:50:51 INFO  - Button 'tabBooks' :: Clicking
+2023-01-16 18:50:51 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-16 18:50:52 INFO  - Label 'lblBookName' :: Clicking
+2023-01-16 18:50:53 INFO  - Step 18 - Click READ action button on book details screen
+2023-01-16 18:50:54 INFO  - Button 'Read' :: Clicking
+2023-01-16 18:50:54 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-01-16 18:50:54 INFO  - context - NATIVE_APP
+2023-01-16 18:50:54 INFO  - context - WEBVIEW_Terrace
+2023-01-16 18:50:55 INFO  - Taking screenshot
+2023-01-16 18:50:57 INFO  - Test finished - logging out
+2023-01-16 18:50:58 INFO  - Button 'tabSettings' :: Clicking
+2023-01-16 18:51:01 INFO  - Button 'tabSettings' :: Clicking
+2023-01-16 18:51:02 INFO  - Button 'Accounts' :: Clicking
+2023-01-16 18:51:03 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-16 18:51:05 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-16 18:51:05 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-16 18:51:05 INFO  - Button 'Log out' :: Clicking
+2023-01-16 18:51:06 INFO  - Button 'Log in' :: Getting text from element
+2023-01-16 18:51:09 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-16 18:51:10 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-16 18:51:10 INFO  - Unlocking credential for current thread
+2023-01-16 18:51:10 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2a07ad62
