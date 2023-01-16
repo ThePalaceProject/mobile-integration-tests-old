@@ -1,0 +1,88 @@
+2023-01-15 23:41:40 INFO  - Scenario 'Audiobooks: Open the audiobook at the last open chapter and check time code' start
+2023-01-15 23:41:40 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-15 23:42:06 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-15 23:42:06 INFO  - Session id - 50a0bc9ec42d7062f37389c321b4fabb29a110a1
+2023-01-15 23:42:06 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2023-01-15 23:42:07 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-15 23:42:08 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-15 23:42:09 INFO  - Button 'Search' :: Clicking
+2023-01-15 23:42:11 INFO  - Text Field 'Search' :: Clearing
+2023-01-15 23:42:11 INFO  - Text Field 'Search' :: Typing 'Palace Bookshelf'
+2023-01-15 23:42:13 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-01-15 23:42:14 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 23:42:19 INFO  - Button 'Debug options button' :: Clicking
+2023-01-15 23:42:20 INFO  - Step 1 - Enable hidden libraries
+2023-01-15 23:42:20 INFO  - Swiping from coordinates (x:720; y:2324) to (x:720; y:435)
+2023-01-15 23:42:22 INFO  - Button 'Hidden libraries button' :: Clicking
+2023-01-15 23:42:22 INFO  - Step 2 - I open Catalog
+2023-01-15 23:42:22 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-15 23:42:45 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2023-01-15 23:42:45 INFO  - Button 'Logo' :: Clicking
+2023-01-15 23:42:46 INFO  - Button 'Add library btn' :: Clicking
+2023-01-15 23:42:47 INFO  - Button 'Search' :: Clicking
+2023-01-15 23:42:49 INFO  - Text Field 'Search' :: Clearing
+2023-01-15 23:42:49 INFO  - Text Field 'Search' :: Typing 'A1QA Test Library'
+2023-01-15 23:42:51 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-01-15 23:43:12 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2023-01-15 23:43:12 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 23:43:13 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 23:43:13 INFO  - Button 'Accounts' :: Clicking
+2023-01-15 23:43:15 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2023-01-15 23:43:15 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 23:43:16 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 23:43:17 INFO  - Button 'Accounts' :: Clicking
+2023-01-15 23:43:17 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-01-15 23:43:18 INFO  - Locking credential with barcode 01230000000304
+2023-01-15 23:43:18 INFO  - There are books on the account: 
+2023-01-15 23:43:20 INFO  - There is not books on the account.
+2023-01-15 23:43:20 INFO  - Count of books on the account after opening account: 0
+2023-01-15 23:43:20 INFO  - Text Field 'Card' :: Clearing
+2023-01-15 23:43:20 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-15 23:43:21 INFO  - Text Field 'Pin' :: Clearing
+2023-01-15 23:43:21 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-15 23:43:23 INFO  - Button 'Log in' :: Clicking
+2023-01-15 23:43:29 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-15 23:43:29 INFO  - Step 6 - Login is performed successfully
+2023-01-15 23:43:50 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-15 23:43:50 INFO  - Step 7 - I open Catalog
+2023-01-15 23:43:50 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-15 23:44:11 INFO  - Step 8 - I open search modal
+2023-01-15 23:44:31 INFO  - Button 'Search' :: Clicking
+2023-01-15 23:44:32 INFO  - Step 9 - I search for "Catching Fire" and save bookName as 'bookNameInfo'
+2023-01-15 23:44:32 INFO  - Error details button is not present
+2023-01-15 23:44:33 INFO  - Text Field 'Search value input' :: Sending keys 'Catching Fire'
+2023-01-15 23:44:33 INFO  - Button 'Apply search' :: Clicking
+2023-01-15 23:44:34 INFO  - Error details button is not present
+2023-01-15 23:44:37 INFO  - Step 10 - I switch to 'Audiobooks' catalog tab
+2023-01-15 23:44:37 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-15 23:44:58 INFO  - Step 11 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-15 23:44:59 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-15 23:44:59 INFO  - Label 'lblBookName' :: Clicking
+2023-01-15 23:44:59 INFO  - Step 12 - Click GET action button on book details screen
+2023-01-15 23:45:00 INFO  - Button 'Get' :: Clicking
+2023-01-15 23:45:07 INFO  - Step 13 - I check that book contains LISTEN action button on book details screen
+2023-01-15 23:45:07 INFO  - Step 14 - Click LISTEN action button on book details screen
+2023-01-15 23:45:07 INFO  - Button 'Listen' :: Clicking
+2023-01-15 23:45:08 INFO  - Step 15 - Audio player screen of book 'bookInfo' is opened
+2023-01-15 23:45:11 INFO  - Step 16 - Open toc audiobook screen
+2023-01-15 23:45:11 INFO  - Button 'btnToc' :: Clicking
+2023-01-15 23:45:11 INFO  - Step 17 - Open random chapter on toc audiobook screen and save chapter name as 'chapterNameKey'
+2023-01-15 23:46:04 INFO  - Label 'element 10' :: Getting attribute 'text'
+2023-01-15 23:46:04 INFO  - Label 'element 10' :: Clicking
+2023-01-15 23:46:04 INFO  - Step 18 - Audio player screen of book 'bookInfo' is opened
+2023-01-15 23:46:05 INFO  - Step 19 - Chapter name on audio player screen is equal to 'chapterNameKey' saved chapter name
+2023-01-15 23:46:05 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-01-15 23:46:06 INFO  - Taking screenshot
+2023-01-15 23:46:07 INFO  - Test finished - logging out
+2023-01-15 23:46:09 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 23:46:11 INFO  - Button 'tabSettings' :: Clicking
+2023-01-15 23:46:12 INFO  - Button 'Accounts' :: Clicking
+2023-01-15 23:46:13 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-01-15 23:46:15 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-15 23:46:15 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-15 23:46:15 INFO  - Button 'Log out' :: Clicking
+2023-01-15 23:46:16 INFO  - Button 'Log in' :: Getting text from element
+2023-01-15 23:46:22 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-15 23:46:22 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-15 23:46:22 INFO  - Unlocking credential for current thread
+2023-01-15 23:46:22 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@762c4814
