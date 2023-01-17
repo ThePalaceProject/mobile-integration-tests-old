@@ -1,0 +1,37 @@
+2023-01-16 23:41:12 INFO  - Scenario 'Check of a book title and author in LYRASIS' start
+2023-01-16 23:41:12 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-16 23:41:44 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-16 23:41:44 INFO  - Session id - 0f3ab7763538cf7fc2136ab8c3b5d3813a02af3e
+2023-01-16 23:41:44 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-16 23:41:45 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-16 23:41:47 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-16 23:41:47 INFO  - Button 'Search' :: Clicking
+2023-01-16 23:41:49 INFO  - Text Field 'Search' :: Clearing
+2023-01-16 23:41:49 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-16 23:41:52 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-16 23:41:53 INFO  - Step 1 - I open Catalog
+2023-01-16 23:41:53 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-16 23:42:15 INFO  - Step 2 - I open search modal
+2023-01-16 23:42:35 INFO  - Button 'Search' :: Clicking
+2023-01-16 23:42:36 INFO  - Step 3 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-16 23:42:36 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-16 23:42:36 INFO  - randomBookName: The 500 Years of Indigenous Resistance Comic Book: Revised and Expanded
+2023-01-16 23:42:37 INFO  - Error details button is not present
+2023-01-16 23:42:37 INFO  - Text Field 'Search value input' :: Sending keys 'The 500 Years of Indigenous Resistance Comic Book: Revised and Expanded'
+2023-01-16 23:42:38 INFO  - Button 'Apply search' :: Clicking
+2023-01-16 23:42:40 INFO  - Error details button is not present
+2023-01-16 23:42:43 INFO  - Step 4 - I switch to 'eBooks' catalog tab
+2023-01-16 23:42:43 INFO  - Button 'eBooks' :: Clicking
+2023-01-16 23:43:04 INFO  - Step 5 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-16 23:43:05 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-16 23:43:06 INFO  - Label 'lblBookName' :: Clicking
+2023-01-16 23:43:06 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-01-16 23:43:06 INFO  - Label 'Book title' :: Getting text from element
+2023-01-16 23:43:07 INFO  - Label 'Book Authors' :: Getting text from element
+2023-01-16 23:43:08 INFO  - Label 'Book title' :: Getting text from element
+2023-01-16 23:43:09 INFO  - Label 'Book Authors' :: Getting text from element
+2023-01-16 23:43:10 INFO  - Step 7 - Book 'bookInfo' has correct title and author name on book details screen
+2023-01-16 23:43:10 INFO  - Step 8 - The book cover is displayed on book details screen
+2023-01-16 23:43:10 INFO  - Taking screenshot
+2023-01-16 23:43:11 INFO  - Unlocking credential for current thread
+2023-01-16 23:43:11 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3c03f9bf
