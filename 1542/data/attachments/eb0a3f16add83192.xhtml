@@ -1,0 +1,262 @@
+2023-01-18 03:45:05 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-01-18 03:45:05 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-18 03:45:32 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-18 03:45:32 INFO  - Session id - afac54aa78c3e8c3c42eb1f6f4c33962d656e0cd
+2023-01-18 03:45:32 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-18 03:45:32 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-18 03:45:35 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-18 03:45:36 INFO  - Button 'Search' :: Clicking
+2023-01-18 03:45:37 INFO  - Text Field 'Search' :: Clearing
+2023-01-18 03:45:37 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-18 03:45:40 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 03:45:41 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-18 03:45:41 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 03:45:42 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 03:45:43 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 03:45:45 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-18 03:45:45 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 03:45:46 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 03:45:47 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 03:45:48 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 03:45:49 INFO  - Locking credential with barcode 01230000000306
+2023-01-18 03:45:49 INFO  - There are books on the account: 
+2023-01-18 03:45:50 INFO  - There is not books on the account.
+2023-01-18 03:45:50 INFO  - Count of books on the account after opening account: 0
+2023-01-18 03:45:50 INFO  - Text Field 'Card' :: Clearing
+2023-01-18 03:45:50 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-01-18 03:45:51 INFO  - Text Field 'Pin' :: Clearing
+2023-01-18 03:45:51 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-18 03:45:53 INFO  - Button 'Log in' :: Clicking
+2023-01-18 03:45:59 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 03:46:00 INFO  - Step 3 - Login is performed successfully
+2023-01-18 03:46:21 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 03:46:21 INFO  - Step 4 - I open Catalog
+2023-01-18 03:46:21 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-18 03:46:44 INFO  - Step 5 - I open search modal
+2023-01-18 03:47:04 INFO  - Button 'Search' :: Clicking
+2023-01-18 03:47:05 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-18 03:47:05 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-18 03:47:05 INFO  - randomBookName: The Emperor Commodus
+2023-01-18 03:47:06 INFO  - Error details button is not present
+2023-01-18 03:47:06 INFO  - Text Field 'Search value input' :: Sending keys 'The Emperor Commodus'
+2023-01-18 03:47:06 INFO  - Button 'Apply search' :: Clicking
+2023-01-18 03:47:08 INFO  - Error details button is not present
+2023-01-18 03:47:11 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-18 03:47:12 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-18 03:47:12 INFO  - Button 'actionButton' :: Clicking
+2023-01-18 03:47:21 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-18 03:47:22 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-18 03:47:22 INFO  - Label 'lblBookName' :: Clicking
+2023-01-18 03:47:22 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-18 03:47:23 INFO  - Button 'Read' :: Clicking
+2023-01-18 03:47:24 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-18 03:47:24 INFO  - Scrolling 8 times on reader epub screen
+2023-01-18 03:47:46 INFO  - Step 11 - I save font size as 'fontSize'
+2023-01-18 03:47:47 INFO  - context - NATIVE_APP
+2023-01-18 03:47:47 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-18 03:47:48 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-18 03:47:48 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Emperor Commodus</title>
+<link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" />
+<link rel="stylesheet" type="application/vnd.adobe-page-template+xml" href="../styles/page-template.xpgt" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="Synopsis">
+<p class="fm-title"><a id="page_vi"></a><b>Synopsis</b></p>
+<p class="noindent1"><span class="dropcap">T</span>he notorious emperor Commodus is synonymous with extravagance, megalomania and infamously fighting as a gladiator in the coliseum of ancient Rome. Both mad and bad, his advisors, fearing for their lives, arranged for him to be strangled by his own wrestler in the baths of the imperial palace. However he was emperor for fifteen years, a reign whose duration alone suggests that he could not have been all of these things and survived. This book is a complete re-evaluation of this tumultuous period of Roman history as Commodus struggled with the crises he inherited from his vaunted father, the philosopher, Emperor Marcus Aurelius. The Roman Empire was suffering from the dual canker of a devastating plague that was destroying whole armies and emptying cities, whilst years of almost unceasing warfare had left large areas of the empire pillaged. The finances of the empire buckled under the strain.</p>
+<p class="para">Commodus, according to the senatorial historian Cassius Dio, inherited a kingdom of gold and left it one of iron and rust. This account challenges this view which has been unquestionably accepted by many historians and film-makers. Faced with an unstable political structure and a financial system on the brink of collapse, a system that rewarded a small aristocratic elite, he attempted to transform the empire in order to create an imperial government based on an autocratic monarchy supported by a professional cadre of imperial freedmen and officials rather than rely on an increasingly disloyal and self-serving group of senatorial nobles. Deprived of their access to imperial privileges, gifts and promotions, a small group of aristocratic families repeatedly conspired to murder the very man they publicly praised and from whom they sought access to high office.</p>
+<p class="para">Commodus rejected the values of the old republic that Augustus had hidden his new imperial and monarchical government behind. Commodus saw himself in the role of a supreme patron, ruling for the good of all. Fighting as a gladiator in the grounds of the imperial palace from a young age, he increasingly associated himself with the demigod Hercules. Both had prodigious physical strength and excelled as huntsmen and warriors; both repeatedly faced death and survived and both sought the divine through their deeds in helping mankind. Commodus’ appearance before the baying crowds in the coliseum was an empathetic expression of his understanding of mankind’s resilience in a world of chaos and sudden death in a time of deadly plague. To the Romans chanting his name, he had transcended <a id="page_vii"></a>the mortal to become their ‘Roman Hercules’, fighting to preserve the empire, to preserve the future, to create a new golden age. This the Roman populace readily accepted, their emperor had after all virtually rebuilt their city after its destruction in a devastating fire. Yet one small elite group of aristocrats resented the threat to their status, power and influence. They recalled their privileged golden age during the reign of Marcus Aurelius, and in order to justify their murder of his son, they decried Commodus’ actions as those of a madman, a tyrant and a serial debaucher, and so had him assassinated. The consequence? Nearly a hundred years of barbarian invasions, bloody civil wars and the transformation of the empire into the very system that Commodus had tried to create.</p>
+<p class="para">This book is designed to be accessible to the general reader and also for those with a more detailed knowledge of the period. It is a unique biography of the emperor; none has ever been published in English, the only other biography was written by F Grosso in Italian in 1964. This work has never been translated into English. Two recent books on Commodus are both thematically based, whose authors explicitly state that their works are not meant to be a comprehensive, chronological or holistic approach to his reign. Both are highly academic analytical works that are aimed at a narrow but specialized audience. <i>Commodus: An Emperor at the Crossroads</i> written by O Hekster is not widely available and mainly focuses on the emperor’s presentation of himself as the god Hercules rather than an overview of his life. <i>The Emperor Commodus: Gladiator, Hercules or Tyrant</i> by G Adams is essentially a detailed commentary on the three main ancient sources that record the reign of Commodus and an evaluation of their ‘anti-Commodian’ nature. Historians and publishers have focused on his predecessor and father Marcus Aurelius and his eventual successor Septimius Severus. The important reign of Commodus which marked a turning point in Roman history, has been virtually ignored. <i>The Emperor Commodus: God and Gladiator</i> is unique in evaluating his reign as a whole against new research that has taken place on the nature of politics in imperial Rome. The actions of the emperor are placed into the political, religious and social context of ancient Rome drawing upon a wide range of recent academic research. However, the old assumptions are rigorously questioned, as are the ancient senatorial sources. Yet the intention is to paint a picture of a man who daily faced sudden death, a man betrayed by his own mother, sister and brothers-in-law. A man who rose above the hostility of the elite that he was a member of to attempt to create a new Rome. A man who was betrayed by the woman he loved. In Commodus we find a very human face, a man of ready emotion: fear, anger, passion, love. He was a man looking for loyalty, and yet was betrayed by those closest to him.</p>
+</div>
+</body>
+</html>
+2023-01-18 03:47:48 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-18 03:47:49 INFO  - Step 12 - I open font settings
+2023-01-18 03:47:49 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-18 03:47:49 INFO  - Step 13 - I INCREASE_FONT of text
+2023-01-18 03:47:49 INFO  - Button 'setTextLarger' :: Clicking
+2023-01-18 03:47:50 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-01-18 03:47:51 INFO  - context - NATIVE_APP
+2023-01-18 03:47:51 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-18 03:47:52 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-18 03:47:52 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Emperor Commodus</title>
+<link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" />
+<link rel="stylesheet" type="application/vnd.adobe-page-template+xml" href="../styles/page-template.xpgt" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="Synopsis">
+<p class="fm-title"><a id="page_vi"></a><b>Synopsis</b></p>
+<p class="noindent1"><span class="dropcap">T</span>he notorious emperor Commodus is synonymous with extravagance, megalomania and infamously fighting as a gladiator in the coliseum of ancient Rome. Both mad and bad, his advisors, fearing for their lives, arranged for him to be strangled by his own wrestler in the baths of the imperial palace. However he was emperor for fifteen years, a reign whose duration alone suggests that he could not have been all of these things and survived. This book is a complete re-evaluation of this tumultuous period of Roman history as Commodus struggled with the crises he inherited from his vaunted father, the philosopher, Emperor Marcus Aurelius. The Roman Empire was suffering from the dual canker of a devastating plague that was destroying whole armies and emptying cities, whilst years of almost unceasing warfare had left large areas of the empire pillaged. The finances of the empire buckled under the strain.</p>
+<p class="para">Commodus, according to the senatorial historian Cassius Dio, inherited a kingdom of gold and left it one of iron and rust. This account challenges this view which has been unquestionably accepted by many historians and film-makers. Faced with an unstable political structure and a financial system on the brink of collapse, a system that rewarded a small aristocratic elite, he attempted to transform the empire in order to create an imperial government based on an autocratic monarchy supported by a professional cadre of imperial freedmen and officials rather than rely on an increasingly disloyal and self-serving group of senatorial nobles. Deprived of their access to imperial privileges, gifts and promotions, a small group of aristocratic families repeatedly conspired to murder the very man they publicly praised and from whom they sought access to high office.</p>
+<p class="para">Commodus rejected the values of the old republic that Augustus had hidden his new imperial and monarchical government behind. Commodus saw himself in the role of a supreme patron, ruling for the good of all. Fighting as a gladiator in the grounds of the imperial palace from a young age, he increasingly associated himself with the demigod Hercules. Both had prodigious physical strength and excelled as huntsmen and warriors; both repeatedly faced death and survived and both sought the divine through their deeds in helping mankind. Commodus’ appearance before the baying crowds in the coliseum was an empathetic expression of his understanding of mankind’s resilience in a world of chaos and sudden death in a time of deadly plague. To the Romans chanting his name, he had transcended <a id="page_vii"></a>the mortal to become their ‘Roman Hercules’, fighting to preserve the empire, to preserve the future, to create a new golden age. This the Roman populace readily accepted, their emperor had after all virtually rebuilt their city after its destruction in a devastating fire. Yet one small elite group of aristocrats resented the threat to their status, power and influence. They recalled their privileged golden age during the reign of Marcus Aurelius, and in order to justify their murder of his son, they decried Commodus’ actions as those of a madman, a tyrant and a serial debaucher, and so had him assassinated. The consequence? Nearly a hundred years of barbarian invasions, bloody civil wars and the transformation of the empire into the very system that Commodus had tried to create.</p>
+<p class="para">This book is designed to be accessible to the general reader and also for those with a more detailed knowledge of the period. It is a unique biography of the emperor; none has ever been published in English, the only other biography was written by F Grosso in Italian in 1964. This work has never been translated into English. Two recent books on Commodus are both thematically based, whose authors explicitly state that their works are not meant to be a comprehensive, chronological or holistic approach to his reign. Both are highly academic analytical works that are aimed at a narrow but specialized audience. <i>Commodus: An Emperor at the Crossroads</i> written by O Hekster is not widely available and mainly focuses on the emperor’s presentation of himself as the god Hercules rather than an overview of his life. <i>The Emperor Commodus: Gladiator, Hercules or Tyrant</i> by G Adams is essentially a detailed commentary on the three main ancient sources that record the reign of Commodus and an evaluation of their ‘anti-Commodian’ nature. Historians and publishers have focused on his predecessor and father Marcus Aurelius and his eventual successor Septimius Severus. The important reign of Commodus which marked a turning point in Roman history, has been virtually ignored. <i>The Emperor Commodus: God and Gladiator</i> is unique in evaluating his reign as a whole against new research that has taken place on the nature of politics in imperial Rome. The actions of the emperor are placed into the political, religious and social context of ancient Rome drawing upon a wide range of recent academic research. However, the old assumptions are rigorously questioned, as are the ancient senatorial sources. Yet the intention is to paint a picture of a man who daily faced sudden death, a man betrayed by his own mother, sister and brothers-in-law. A man who rose above the hostility of the elite that he was a member of to attempt to create a new Rome. A man who was betrayed by the woman he loved. In Commodus we find a very human face, a man of ready emotion: fear, anger, passion, love. He was a man looking for loyalty, and yet was betrayed by those closest to him.</p>
+</div>
+</body>
+</html>
+2023-01-18 03:47:52 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-18 03:47:53 INFO  - Step 15 - I restart app
+2023-01-18 03:48:17 INFO  - Step 16 - I open Books
+2023-01-18 03:48:17 INFO  - Button 'tabBooks' :: Clicking
+2023-01-18 03:48:19 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-18 03:48:19 INFO  - Label 'lblBookName' :: Clicking
+2023-01-18 03:48:19 INFO  - Step 18 - Click READ action button on book details screen
+2023-01-18 03:48:21 INFO  - Button 'Read' :: Clicking
+2023-01-18 03:48:21 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-01-18 03:48:22 INFO  - context - NATIVE_APP
+2023-01-18 03:48:23 INFO  - context - NATIVE_APP
+2023-01-18 03:48:24 INFO  - context - NATIVE_APP
+2023-01-18 03:48:24 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-18 03:48:25 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-18 03:48:25 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Emperor Commodus</title>
+<link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" />
+<link rel="stylesheet" type="application/vnd.adobe-page-template+xml" href="../styles/page-template.xpgt" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="Synopsis">
+<p class="fm-title"><a id="page_vi"></a><b>Synopsis</b></p>
+<p class="noindent1"><span class="dropcap">T</span>he notorious emperor Commodus is synonymous with extravagance, megalomania and infamously fighting as a gladiator in the coliseum of ancient Rome. Both mad and bad, his advisors, fearing for their lives, arranged for him to be strangled by his own wrestler in the baths of the imperial palace. However he was emperor for fifteen years, a reign whose duration alone suggests that he could not have been all of these things and survived. This book is a complete re-evaluation of this tumultuous period of Roman history as Commodus struggled with the crises he inherited from his vaunted father, the philosopher, Emperor Marcus Aurelius. The Roman Empire was suffering from the dual canker of a devastating plague that was destroying whole armies and emptying cities, whilst years of almost unceasing warfare had left large areas of the empire pillaged. The finances of the empire buckled under the strain.</p>
+<p class="para">Commodus, according to the senatorial historian Cassius Dio, inherited a kingdom of gold and left it one of iron and rust. This account challenges this view which has been unquestionably accepted by many historians and film-makers. Faced with an unstable political structure and a financial system on the brink of collapse, a system that rewarded a small aristocratic elite, he attempted to transform the empire in order to create an imperial government based on an autocratic monarchy supported by a professional cadre of imperial freedmen and officials rather than rely on an increasingly disloyal and self-serving group of senatorial nobles. Deprived of their access to imperial privileges, gifts and promotions, a small group of aristocratic families repeatedly conspired to murder the very man they publicly praised and from whom they sought access to high office.</p>
+<p class="para">Commodus rejected the values of the old republic that Augustus had hidden his new imperial and monarchical government behind. Commodus saw himself in the role of a supreme patron, ruling for the good of all. Fighting as a gladiator in the grounds of the imperial palace from a young age, he increasingly associated himself with the demigod Hercules. Both had prodigious physical strength and excelled as huntsmen and warriors; both repeatedly faced death and survived and both sought the divine through their deeds in helping mankind. Commodus’ appearance before the baying crowds in the coliseum was an empathetic expression of his understanding of mankind’s resilience in a world of chaos and sudden death in a time of deadly plague. To the Romans chanting his name, he had transcended <a id="page_vii"></a>the mortal to become their ‘Roman Hercules’, fighting to preserve the empire, to preserve the future, to create a new golden age. This the Roman populace readily accepted, their emperor had after all virtually rebuilt their city after its destruction in a devastating fire. Yet one small elite group of aristocrats resented the threat to their status, power and influence. They recalled their privileged golden age during the reign of Marcus Aurelius, and in order to justify their murder of his son, they decried Commodus’ actions as those of a madman, a tyrant and a serial debaucher, and so had him assassinated. The consequence? Nearly a hundred years of barbarian invasions, bloody civil wars and the transformation of the empire into the very system that Commodus had tried to create.</p>
+<p class="para">This book is designed to be accessible to the general reader and also for those with a more detailed knowledge of the period. It is a unique biography of the emperor; none has ever been published in English, the only other biography was written by F Grosso in Italian in 1964. This work has never been translated into English. Two recent books on Commodus are both thematically based, whose authors explicitly state that their works are not meant to be a comprehensive, chronological or holistic approach to his reign. Both are highly academic analytical works that are aimed at a narrow but specialized audience. <i>Commodus: An Emperor at the Crossroads</i> written by O Hekster is not widely available and mainly focuses on the emperor’s presentation of himself as the god Hercules rather than an overview of his life. <i>The Emperor Commodus: Gladiator, Hercules or Tyrant</i> by G Adams is essentially a detailed commentary on the three main ancient sources that record the reign of Commodus and an evaluation of their ‘anti-Commodian’ nature. Historians and publishers have focused on his predecessor and father Marcus Aurelius and his eventual successor Septimius Severus. The important reign of Commodus which marked a turning point in Roman history, has been virtually ignored. <i>The Emperor Commodus: God and Gladiator</i> is unique in evaluating his reign as a whole against new research that has taken place on the nature of politics in imperial Rome. The actions of the emperor are placed into the political, religious and social context of ancient Rome drawing upon a wide range of recent academic research. However, the old assumptions are rigorously questioned, as are the ancient senatorial sources. Yet the intention is to paint a picture of a man who daily faced sudden death, a man betrayed by his own mother, sister and brothers-in-law. A man who rose above the hostility of the elite that he was a member of to attempt to create a new Rome. A man who was betrayed by the woman he loved. In Commodus we find a very human face, a man of ready emotion: fear, anger, passion, love. He was a man looking for loyalty, and yet was betrayed by those closest to him.</p>
+</div>
+</body>
+</html>
+2023-01-18 03:48:25 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-18 03:48:25 INFO  - Step 20 - I return to previous screen from epub
+2023-01-18 03:48:26 INFO  - Button 'btnBack' :: Clicking
+2023-01-18 03:48:26 INFO  - Step 21 - Click READ action button on book details screen
+2023-01-18 03:48:27 INFO  - Button 'Read' :: Clicking
+2023-01-18 03:48:29 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-01-18 03:48:29 INFO  - context - NATIVE_APP
+2023-01-18 03:48:29 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-18 03:48:30 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-18 03:48:30 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Emperor Commodus</title>
+<link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" />
+<link rel="stylesheet" type="application/vnd.adobe-page-template+xml" href="../styles/page-template.xpgt" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="Synopsis">
+<p class="fm-title"><a id="page_vi"></a><b>Synopsis</b></p>
+<p class="noindent1"><span class="dropcap">T</span>he notorious emperor Commodus is synonymous with extravagance, megalomania and infamously fighting as a gladiator in the coliseum of ancient Rome. Both mad and bad, his advisors, fearing for their lives, arranged for him to be strangled by his own wrestler in the baths of the imperial palace. However he was emperor for fifteen years, a reign whose duration alone suggests that he could not have been all of these things and survived. This book is a complete re-evaluation of this tumultuous period of Roman history as Commodus struggled with the crises he inherited from his vaunted father, the philosopher, Emperor Marcus Aurelius. The Roman Empire was suffering from the dual canker of a devastating plague that was destroying whole armies and emptying cities, whilst years of almost unceasing warfare had left large areas of the empire pillaged. The finances of the empire buckled under the strain.</p>
+<p class="para">Commodus, according to the senatorial historian Cassius Dio, inherited a kingdom of gold and left it one of iron and rust. This account challenges this view which has been unquestionably accepted by many historians and film-makers. Faced with an unstable political structure and a financial system on the brink of collapse, a system that rewarded a small aristocratic elite, he attempted to transform the empire in order to create an imperial government based on an autocratic monarchy supported by a professional cadre of imperial freedmen and officials rather than rely on an increasingly disloyal and self-serving group of senatorial nobles. Deprived of their access to imperial privileges, gifts and promotions, a small group of aristocratic families repeatedly conspired to murder the very man they publicly praised and from whom they sought access to high office.</p>
+<p class="para">Commodus rejected the values of the old republic that Augustus had hidden his new imperial and monarchical government behind. Commodus saw himself in the role of a supreme patron, ruling for the good of all. Fighting as a gladiator in the grounds of the imperial palace from a young age, he increasingly associated himself with the demigod Hercules. Both had prodigious physical strength and excelled as huntsmen and warriors; both repeatedly faced death and survived and both sought the divine through their deeds in helping mankind. Commodus’ appearance before the baying crowds in the coliseum was an empathetic expression of his understanding of mankind’s resilience in a world of chaos and sudden death in a time of deadly plague. To the Romans chanting his name, he had transcended <a id="page_vii"></a>the mortal to become their ‘Roman Hercules’, fighting to preserve the empire, to preserve the future, to create a new golden age. This the Roman populace readily accepted, their emperor had after all virtually rebuilt their city after its destruction in a devastating fire. Yet one small elite group of aristocrats resented the threat to their status, power and influence. They recalled their privileged golden age during the reign of Marcus Aurelius, and in order to justify their murder of his son, they decried Commodus’ actions as those of a madman, a tyrant and a serial debaucher, and so had him assassinated. The consequence? Nearly a hundred years of barbarian invasions, bloody civil wars and the transformation of the empire into the very system that Commodus had tried to create.</p>
+<p class="para">This book is designed to be accessible to the general reader and also for those with a more detailed knowledge of the period. It is a unique biography of the emperor; none has ever been published in English, the only other biography was written by F Grosso in Italian in 1964. This work has never been translated into English. Two recent books on Commodus are both thematically based, whose authors explicitly state that their works are not meant to be a comprehensive, chronological or holistic approach to his reign. Both are highly academic analytical works that are aimed at a narrow but specialized audience. <i>Commodus: An Emperor at the Crossroads</i> written by O Hekster is not widely available and mainly focuses on the emperor’s presentation of himself as the god Hercules rather than an overview of his life. <i>The Emperor Commodus: Gladiator, Hercules or Tyrant</i> by G Adams is essentially a detailed commentary on the three main ancient sources that record the reign of Commodus and an evaluation of their ‘anti-Commodian’ nature. Historians and publishers have focused on his predecessor and father Marcus Aurelius and his eventual successor Septimius Severus. The important reign of Commodus which marked a turning point in Roman history, has been virtually ignored. <i>The Emperor Commodus: God and Gladiator</i> is unique in evaluating his reign as a whole against new research that has taken place on the nature of politics in imperial Rome. The actions of the emperor are placed into the political, religious and social context of ancient Rome drawing upon a wide range of recent academic research. However, the old assumptions are rigorously questioned, as are the ancient senatorial sources. Yet the intention is to paint a picture of a man who daily faced sudden death, a man betrayed by his own mother, sister and brothers-in-law. A man who rose above the hostility of the elite that he was a member of to attempt to create a new Rome. A man who was betrayed by the woman he loved. In Commodus we find a very human face, a man of ready emotion: fear, anger, passion, love. He was a man looking for loyalty, and yet was betrayed by those closest to him.</p>
+</div>
+</body>
+</html>
+2023-01-18 03:48:30 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-18 03:48:31 INFO  - Step 23 - I save font size as 'fontSize'
+2023-01-18 03:48:31 INFO  - context - NATIVE_APP
+2023-01-18 03:48:31 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-18 03:48:32 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-18 03:48:32 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Emperor Commodus</title>
+<link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" />
+<link rel="stylesheet" type="application/vnd.adobe-page-template+xml" href="../styles/page-template.xpgt" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="Synopsis">
+<p class="fm-title"><a id="page_vi"></a><b>Synopsis</b></p>
+<p class="noindent1"><span class="dropcap">T</span>he notorious emperor Commodus is synonymous with extravagance, megalomania and infamously fighting as a gladiator in the coliseum of ancient Rome. Both mad and bad, his advisors, fearing for their lives, arranged for him to be strangled by his own wrestler in the baths of the imperial palace. However he was emperor for fifteen years, a reign whose duration alone suggests that he could not have been all of these things and survived. This book is a complete re-evaluation of this tumultuous period of Roman history as Commodus struggled with the crises he inherited from his vaunted father, the philosopher, Emperor Marcus Aurelius. The Roman Empire was suffering from the dual canker of a devastating plague that was destroying whole armies and emptying cities, whilst years of almost unceasing warfare had left large areas of the empire pillaged. The finances of the empire buckled under the strain.</p>
+<p class="para">Commodus, according to the senatorial historian Cassius Dio, inherited a kingdom of gold and left it one of iron and rust. This account challenges this view which has been unquestionably accepted by many historians and film-makers. Faced with an unstable political structure and a financial system on the brink of collapse, a system that rewarded a small aristocratic elite, he attempted to transform the empire in order to create an imperial government based on an autocratic monarchy supported by a professional cadre of imperial freedmen and officials rather than rely on an increasingly disloyal and self-serving group of senatorial nobles. Deprived of their access to imperial privileges, gifts and promotions, a small group of aristocratic families repeatedly conspired to murder the very man they publicly praised and from whom they sought access to high office.</p>
+<p class="para">Commodus rejected the values of the old republic that Augustus had hidden his new imperial and monarchical government behind. Commodus saw himself in the role of a supreme patron, ruling for the good of all. Fighting as a gladiator in the grounds of the imperial palace from a young age, he increasingly associated himself with the demigod Hercules. Both had prodigious physical strength and excelled as huntsmen and warriors; both repeatedly faced death and survived and both sought the divine through their deeds in helping mankind. Commodus’ appearance before the baying crowds in the coliseum was an empathetic expression of his understanding of mankind’s resilience in a world of chaos and sudden death in a time of deadly plague. To the Romans chanting his name, he had transcended <a id="page_vii"></a>the mortal to become their ‘Roman Hercules’, fighting to preserve the empire, to preserve the future, to create a new golden age. This the Roman populace readily accepted, their emperor had after all virtually rebuilt their city after its destruction in a devastating fire. Yet one small elite group of aristocrats resented the threat to their status, power and influence. They recalled their privileged golden age during the reign of Marcus Aurelius, and in order to justify their murder of his son, they decried Commodus’ actions as those of a madman, a tyrant and a serial debaucher, and so had him assassinated. The consequence? Nearly a hundred years of barbarian invasions, bloody civil wars and the transformation of the empire into the very system that Commodus had tried to create.</p>
+<p class="para">This book is designed to be accessible to the general reader and also for those with a more detailed knowledge of the period. It is a unique biography of the emperor; none has ever been published in English, the only other biography was written by F Grosso in Italian in 1964. This work has never been translated into English. Two recent books on Commodus are both thematically based, whose authors explicitly state that their works are not meant to be a comprehensive, chronological or holistic approach to his reign. Both are highly academic analytical works that are aimed at a narrow but specialized audience. <i>Commodus: An Emperor at the Crossroads</i> written by O Hekster is not widely available and mainly focuses on the emperor’s presentation of himself as the god Hercules rather than an overview of his life. <i>The Emperor Commodus: Gladiator, Hercules or Tyrant</i> by G Adams is essentially a detailed commentary on the three main ancient sources that record the reign of Commodus and an evaluation of their ‘anti-Commodian’ nature. Historians and publishers have focused on his predecessor and father Marcus Aurelius and his eventual successor Septimius Severus. The important reign of Commodus which marked a turning point in Roman history, has been virtually ignored. <i>The Emperor Commodus: God and Gladiator</i> is unique in evaluating his reign as a whole against new research that has taken place on the nature of politics in imperial Rome. The actions of the emperor are placed into the political, religious and social context of ancient Rome drawing upon a wide range of recent academic research. However, the old assumptions are rigorously questioned, as are the ancient senatorial sources. Yet the intention is to paint a picture of a man who daily faced sudden death, a man betrayed by his own mother, sister and brothers-in-law. A man who rose above the hostility of the elite that he was a member of to attempt to create a new Rome. A man who was betrayed by the woman he loved. In Commodus we find a very human face, a man of ready emotion: fear, anger, passion, love. He was a man looking for loyalty, and yet was betrayed by those closest to him.</p>
+</div>
+</body>
+</html>
+2023-01-18 03:48:32 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-18 03:48:33 INFO  - Step 24 - I open font settings
+2023-01-18 03:48:33 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-18 03:48:34 INFO  - Step 25 - I DECREASE_FONT of text
+2023-01-18 03:48:34 INFO  - Button 'setTextSmaller' :: Clicking
+2023-01-18 03:48:35 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-01-18 03:48:35 INFO  - context - NATIVE_APP
+2023-01-18 03:48:35 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-18 03:48:36 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-18 03:48:37 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Emperor Commodus</title>
+<link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" />
+<link rel="stylesheet" type="application/vnd.adobe-page-template+xml" href="../styles/page-template.xpgt" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="Synopsis">
+<p class="fm-title"><a id="page_vi"></a><b>Synopsis</b></p>
+<p class="noindent1"><span class="dropcap">T</span>he notorious emperor Commodus is synonymous with extravagance, megalomania and infamously fighting as a gladiator in the coliseum of ancient Rome. Both mad and bad, his advisors, fearing for their lives, arranged for him to be strangled by his own wrestler in the baths of the imperial palace. However he was emperor for fifteen years, a reign whose duration alone suggests that he could not have been all of these things and survived. This book is a complete re-evaluation of this tumultuous period of Roman history as Commodus struggled with the crises he inherited from his vaunted father, the philosopher, Emperor Marcus Aurelius. The Roman Empire was suffering from the dual canker of a devastating plague that was destroying whole armies and emptying cities, whilst years of almost unceasing warfare had left large areas of the empire pillaged. The finances of the empire buckled under the strain.</p>
+<p class="para">Commodus, according to the senatorial historian Cassius Dio, inherited a kingdom of gold and left it one of iron and rust. This account challenges this view which has been unquestionably accepted by many historians and film-makers. Faced with an unstable political structure and a financial system on the brink of collapse, a system that rewarded a small aristocratic elite, he attempted to transform the empire in order to create an imperial government based on an autocratic monarchy supported by a professional cadre of imperial freedmen and officials rather than rely on an increasingly disloyal and self-serving group of senatorial nobles. Deprived of their access to imperial privileges, gifts and promotions, a small group of aristocratic families repeatedly conspired to murder the very man they publicly praised and from whom they sought access to high office.</p>
+<p class="para">Commodus rejected the values of the old republic that Augustus had hidden his new imperial and monarchical government behind. Commodus saw himself in the role of a supreme patron, ruling for the good of all. Fighting as a gladiator in the grounds of the imperial palace from a young age, he increasingly associated himself with the demigod Hercules. Both had prodigious physical strength and excelled as huntsmen and warriors; both repeatedly faced death and survived and both sought the divine through their deeds in helping mankind. Commodus’ appearance before the baying crowds in the coliseum was an empathetic expression of his understanding of mankind’s resilience in a world of chaos and sudden death in a time of deadly plague. To the Romans chanting his name, he had transcended <a id="page_vii"></a>the mortal to become their ‘Roman Hercules’, fighting to preserve the empire, to preserve the future, to create a new golden age. This the Roman populace readily accepted, their emperor had after all virtually rebuilt their city after its destruction in a devastating fire. Yet one small elite group of aristocrats resented the threat to their status, power and influence. They recalled their privileged golden age during the reign of Marcus Aurelius, and in order to justify their murder of his son, they decried Commodus’ actions as those of a madman, a tyrant and a serial debaucher, and so had him assassinated. The consequence? Nearly a hundred years of barbarian invasions, bloody civil wars and the transformation of the empire into the very system that Commodus had tried to create.</p>
+<p class="para">This book is designed to be accessible to the general reader and also for those with a more detailed knowledge of the period. It is a unique biography of the emperor; none has ever been published in English, the only other biography was written by F Grosso in Italian in 1964. This work has never been translated into English. Two recent books on Commodus are both thematically based, whose authors explicitly state that their works are not meant to be a comprehensive, chronological or holistic approach to his reign. Both are highly academic analytical works that are aimed at a narrow but specialized audience. <i>Commodus: An Emperor at the Crossroads</i> written by O Hekster is not widely available and mainly focuses on the emperor’s presentation of himself as the god Hercules rather than an overview of his life. <i>The Emperor Commodus: Gladiator, Hercules or Tyrant</i> by G Adams is essentially a detailed commentary on the three main ancient sources that record the reign of Commodus and an evaluation of their ‘anti-Commodian’ nature. Historians and publishers have focused on his predecessor and father Marcus Aurelius and his eventual successor Septimius Severus. The important reign of Commodus which marked a turning point in Roman history, has been virtually ignored. <i>The Emperor Commodus: God and Gladiator</i> is unique in evaluating his reign as a whole against new research that has taken place on the nature of politics in imperial Rome. The actions of the emperor are placed into the political, religious and social context of ancient Rome drawing upon a wide range of recent academic research. However, the old assumptions are rigorously questioned, as are the ancient senatorial sources. Yet the intention is to paint a picture of a man who daily faced sudden death, a man betrayed by his own mother, sister and brothers-in-law. A man who rose above the hostility of the elite that he was a member of to attempt to create a new Rome. A man who was betrayed by the woman he loved. In Commodus we find a very human face, a man of ready emotion: fear, anger, passion, love. He was a man looking for loyalty, and yet was betrayed by those closest to him.</p>
+</div>
+</body>
+</html>
+2023-01-18 03:48:37 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-18 03:48:37 INFO  - Taking screenshot
+2023-01-18 03:48:39 INFO  - Test finished - logging out
+2023-01-18 03:48:40 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 03:48:43 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 03:48:44 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 03:48:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 03:48:47 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 03:48:48 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 03:48:48 INFO  - Button 'Log out' :: Clicking
+2023-01-18 03:48:49 INFO  - Button 'Log in' :: Getting text from element
+2023-01-18 03:48:52 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 03:48:53 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 03:48:54 INFO  - Unlocking credential for current thread
+2023-01-18 03:48:54 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6ef5ab08
