@@ -1,0 +1,82 @@
+2023-01-18 17:01:23 INFO  - Scenario 'Settings: Check of Vertical scrolling in Lyrasis' start
+2023-01-18 17:01:23 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-18 17:01:58 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-18 17:01:58 INFO  - Session id - 387357e7ddfbeaf160434158722441a9a3401483
+2023-01-18 17:01:58 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-18 17:01:58 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-18 17:02:01 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-18 17:02:02 INFO  - Button 'Search' :: Clicking
+2023-01-18 17:02:05 INFO  - Text Field 'Search' :: Clearing
+2023-01-18 17:02:05 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-18 17:02:07 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 17:02:09 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-18 17:02:09 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:02:10 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:02:11 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 17:02:12 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-18 17:02:13 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:02:13 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:02:14 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 17:02:15 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 17:02:16 INFO  - Locking credential with barcode 01230000000303
+2023-01-18 17:02:16 INFO  - There are books on the account: 
+2023-01-18 17:02:17 INFO  - There is not books on the account.
+2023-01-18 17:02:17 INFO  - Count of books on the account after opening account: 0
+2023-01-18 17:02:17 INFO  - Text Field 'Card' :: Clearing
+2023-01-18 17:02:17 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-01-18 17:02:19 INFO  - Text Field 'Pin' :: Clearing
+2023-01-18 17:02:19 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-18 17:02:21 INFO  - Button 'Log in' :: Clicking
+2023-01-18 17:02:27 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 17:02:27 INFO  - Step 3 - Login is performed successfully
+2023-01-18 17:02:49 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 17:02:49 INFO  - Step 4 - I open Catalog
+2023-01-18 17:02:49 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-18 17:03:10 INFO  - Step 5 - I open search modal
+2023-01-18 17:03:30 INFO  - Button 'Search' :: Clicking
+2023-01-18 17:03:32 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-18 17:03:32 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-18 17:03:32 INFO  - randomBookName: The Future of Transportation :
+2023-01-18 17:03:32 INFO  - Error details button is not present
+2023-01-18 17:03:32 INFO  - Text Field 'Search value input' :: Sending keys 'The Future of Transportation :'
+2023-01-18 17:03:33 INFO  - Button 'Apply search' :: Clicking
+2023-01-18 17:03:34 INFO  - Error details button is not present
+2023-01-18 17:03:38 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-18 17:03:38 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-18 17:03:39 INFO  - Button 'actionButton' :: Clicking
+2023-01-18 17:03:44 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-01-18 17:03:44 INFO  - Step 9 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-18 17:03:45 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-18 17:03:45 INFO  - Label 'lblBookName' :: Clicking
+2023-01-18 17:03:46 INFO  - Step 10 - Click READ action button on book details screen
+2023-01-18 17:03:47 INFO  - Button 'Read' :: Clicking
+2023-01-18 17:03:47 INFO  - Step 11 - Reader pdf screen is opened
+2023-01-18 17:03:53 INFO  - Step 12 - I open pdf settings screen on pdf reader screen
+2023-01-18 17:03:53 INFO  - Button 'Settings' :: Clicking
+2023-01-18 17:03:54 INFO  - Step 13 - I tap Vertical scrolling on pdf settings screen
+2023-01-18 17:03:54 INFO  - Button 'Vertical scrolling' :: Clicking
+2023-01-18 17:03:55 INFO  - Step 14 - I open pdf settings screen on pdf reader screen
+2023-01-18 17:03:55 INFO  - Button 'Settings' :: Clicking
+2023-01-18 17:03:56 INFO  - Step 15 - Vertical scrolling is chosen on settings screen
+2023-01-18 17:03:56 INFO  - Button 'Vertical scrolling' :: Getting attribute 'checked'
+2023-01-18 17:03:57 INFO  - Step 16 - Spreads options are available on settings screen
+2023-01-18 17:03:58 INFO  - Step 17 - I open pdf settings screen on pdf reader screen
+2023-01-18 17:03:58 INFO  - Button 'Settings' :: Clicking
+2023-01-18 17:03:58 INFO  - Step 18 - I save page number as 'pageInfo' on pdf reader screen
+2023-01-18 17:03:58 INFO  - Label 'Page number' :: Getting text from element
+2023-01-18 17:03:59 INFO  - Step 19 - I scroll page down on pdf reader screen
+2023-01-18 17:04:00 INFO  - Swiping from coordinates (x:540; y:2106) to (x:540; y:0)
+2023-01-18 17:04:00 INFO  - Taking screenshot
+2023-01-18 17:04:03 INFO  - Test finished - logging out
+2023-01-18 17:04:04 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:04:07 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:04:08 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 17:04:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 17:04:10 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 17:04:11 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 17:04:11 INFO  - Button 'Log out' :: Clicking
+2023-01-18 17:04:11 INFO  - Button 'Log in' :: Getting text from element
+2023-01-18 17:04:15 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 17:04:15 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 17:04:16 INFO  - Unlocking credential for current thread
+2023-01-18 17:04:16 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6248852a

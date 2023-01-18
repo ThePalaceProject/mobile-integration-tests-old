@@ -1,0 +1,57 @@
+2023-01-18 17:08:31 INFO  - Scenario 'Hold from Subcategory List View and Remove a Reserved Book from Holds' start
+2023-01-18 17:08:31 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-18 17:09:04 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-18 17:09:04 INFO  - Session id - 50f007858568c7040c5424c96c09fd72a877e61c
+2023-01-18 17:09:04 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-18 17:09:04 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-18 17:09:07 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-18 17:09:07 INFO  - Button 'Search' :: Clicking
+2023-01-18 17:09:10 INFO  - Text Field 'Search' :: Clearing
+2023-01-18 17:09:10 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-18 17:09:13 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 17:09:13 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-01-18 17:09:13 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:09:15 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:09:16 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 17:09:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 17:09:18 INFO  - Locking credential with barcode 01230000000304
+2023-01-18 17:09:18 INFO  - There are books on the account: 
+2023-01-18 17:09:19 INFO  - There is not books on the account.
+2023-01-18 17:09:19 INFO  - Count of books on the account after opening account: 0
+2023-01-18 17:09:19 INFO  - Text Field 'Card' :: Clearing
+2023-01-18 17:09:19 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-18 17:09:22 INFO  - Text Field 'Pin' :: Clearing
+2023-01-18 17:09:22 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-18 17:09:24 INFO  - Button 'Log in' :: Clicking
+2023-01-18 17:09:32 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 17:09:32 INFO  - Step 2 - Login is performed successfully
+2023-01-18 17:09:55 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 17:09:55 INFO  - Step 3 - I open Catalog
+2023-01-18 17:09:55 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-18 17:10:16 INFO  - Step 4 - I open search modal
+2023-01-18 17:10:36 INFO  - Button 'Search' :: Clicking
+2023-01-18 17:10:38 INFO  - Step 5 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-18 17:10:38 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-18 17:10:38 INFO  - randomBookName: The Dressmakers of Auschwitz
+2023-01-18 17:10:38 INFO  - Error details button is not present
+2023-01-18 17:10:38 INFO  - Text Field 'Search value input' :: Sending keys 'The Dressmakers of Auschwitz'
+2023-01-18 17:10:40 INFO  - Button 'Apply search' :: Clicking
+2023-01-18 17:10:42 INFO  - Error details button is not present
+2023-01-18 17:10:46 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-01-18 17:10:46 INFO  - Button 'eBooks' :: Clicking
+2023-01-18 17:11:07 INFO  - Step 7 - Click RESERVE action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-18 17:11:27 INFO  - Button 'actionButton' :: Clicking
+2023-01-18 17:11:47 INFO  - Taking screenshot
+2023-01-18 17:11:49 INFO  - Test finished - logging out
+2023-01-18 17:11:50 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:11:53 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:11:53 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 17:11:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 17:11:57 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 17:11:57 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 17:11:57 INFO  - Button 'Log out' :: Clicking
+2023-01-18 17:11:58 INFO  - Button 'Log in' :: Getting text from element
+2023-01-18 17:12:05 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 17:12:05 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 17:12:06 INFO  - Unlocking credential for current thread
+2023-01-18 17:12:06 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6248852a

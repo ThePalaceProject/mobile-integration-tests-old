@@ -1,0 +1,80 @@
+2023-01-18 17:39:01 INFO  - Scenario 'Check time tracking line' start
+2023-01-18 17:39:01 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-18 17:39:37 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-18 17:39:37 INFO  - Session id - dfc477e738bfea0be33ad4c83a2afc9a861a7df6
+2023-01-18 17:39:37 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-18 17:39:37 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-18 17:39:40 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-18 17:39:40 INFO  - Button 'Search' :: Clicking
+2023-01-18 17:39:42 INFO  - Text Field 'Search' :: Clearing
+2023-01-18 17:39:42 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-18 17:39:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 17:39:45 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-18 17:39:45 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:39:47 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:39:48 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 17:39:51 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-18 17:39:51 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:39:51 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:39:52 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 17:39:53 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 17:39:54 INFO  - Locking credential with barcode 01230000000304
+2023-01-18 17:39:54 INFO  - There are books on the account: 
+2023-01-18 17:39:56 INFO  - There is not books on the account.
+2023-01-18 17:39:56 INFO  - Count of books on the account after opening account: 0
+2023-01-18 17:39:56 INFO  - Text Field 'Card' :: Clearing
+2023-01-18 17:39:56 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-18 17:39:58 INFO  - Text Field 'Pin' :: Clearing
+2023-01-18 17:39:58 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-18 17:40:01 INFO  - Button 'Log in' :: Clicking
+2023-01-18 17:40:08 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 17:40:09 INFO  - Step 3 - Login is performed successfully
+2023-01-18 17:40:30 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 17:40:31 INFO  - Step 4 - I open Catalog
+2023-01-18 17:40:31 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-18 17:40:52 INFO  - Step 5 - I open search modal
+2023-01-18 17:41:12 INFO  - Button 'Search' :: Clicking
+2023-01-18 17:41:14 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-18 17:41:14 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-01-18 17:41:14 INFO  - randomBookName: Down the Hatch
+2023-01-18 17:41:14 INFO  - Error details button is not present
+2023-01-18 17:41:15 INFO  - Text Field 'Search value input' :: Sending keys 'Down the Hatch'
+2023-01-18 17:41:16 INFO  - Button 'Apply search' :: Clicking
+2023-01-18 17:41:18 INFO  - Error details button is not present
+2023-01-18 17:41:22 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-01-18 17:41:22 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-18 17:41:43 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-18 17:41:44 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-18 17:41:45 INFO  - Label 'lblBookName' :: Clicking
+2023-01-18 17:41:46 INFO  - Step 9 - Click GET action button on book details screen
+2023-01-18 17:41:47 INFO  - Button 'Get' :: Clicking
+2023-01-18 17:41:55 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-01-18 17:41:56 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-01-18 17:41:56 INFO  - Button 'Listen' :: Clicking
+2023-01-18 17:41:56 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-01-18 17:42:01 INFO  - Step 13 - Tap play button on audio player screen
+2023-01-18 17:42:01 INFO  - Button 'btnPlay' :: Clicking
+2023-01-18 17:42:03 INFO  - Step 14 - Pause button is present on audio player screen
+2023-01-18 17:42:05 INFO  - Step 15 - Tap pause button on audio player screen
+2023-01-18 17:42:05 INFO  - Button 'btnPause' :: Clicking
+2023-01-18 17:42:06 INFO  - Step 16 - Play button is present on audio player screen
+2023-01-18 17:42:07 INFO  - Step 17 - Save book play time as 'timeInfo' on audio player screen
+2023-01-18 17:42:07 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-01-18 17:42:07 INFO  - Step 18 - I stretch slider on the time tracking line forward on audio player screen
+2023-01-18 17:42:10 INFO  - Step 19 - Wait for 5 seconds
+2023-01-18 17:42:16 INFO  - Step 20 - Playing time is not equal to 'timeInfo' on audio playing screen
+2023-01-18 17:42:16 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-01-18 17:42:17 INFO  - Taking screenshot
+2023-01-18 17:42:18 INFO  - Test finished - logging out
+2023-01-18 17:42:20 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:42:22 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 17:42:24 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 17:42:25 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 17:42:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 17:42:27 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 17:42:28 INFO  - Button 'Log out' :: Clicking
+2023-01-18 17:42:28 INFO  - Button 'Log in' :: Getting text from element
+2023-01-18 17:42:33 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 17:42:33 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 17:42:33 INFO  - Unlocking credential for current thread
+2023-01-18 17:42:33 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@63faaa2d

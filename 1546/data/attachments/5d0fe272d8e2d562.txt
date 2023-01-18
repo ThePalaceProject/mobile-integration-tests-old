@@ -1,0 +1,71 @@
+2023-01-18 16:52:04 INFO  - Scenario 'LYRASIS: Getting and returning books from Book Detail View' start
+2023-01-18 16:52:04 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-18 16:52:41 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-18 16:52:41 INFO  - Session id - 9691d87aeefd5badaff8a3a82f3686fd82f77d0d
+2023-01-18 16:52:41 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-18 16:52:41 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-18 16:52:44 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-18 16:52:44 INFO  - Button 'Search' :: Clicking
+2023-01-18 16:52:47 INFO  - Text Field 'Search' :: Clearing
+2023-01-18 16:52:47 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-18 16:52:50 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 16:52:51 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-01-18 16:52:51 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 16:52:53 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 16:52:54 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 16:52:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 16:52:56 INFO  - Locking credential with barcode 01230000000306
+2023-01-18 16:52:56 INFO  - There are books on the account: 
+2023-01-18 16:52:57 INFO  - There is not books on the account.
+2023-01-18 16:52:57 INFO  - Count of books on the account after opening account: 0
+2023-01-18 16:52:57 INFO  - Text Field 'Card' :: Clearing
+2023-01-18 16:52:57 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-01-18 16:52:59 INFO  - Text Field 'Pin' :: Clearing
+2023-01-18 16:52:59 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-18 16:53:02 INFO  - Button 'Log in' :: Clicking
+2023-01-18 16:53:08 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 16:53:09 INFO  - Step 2 - Login is performed successfully
+2023-01-18 16:54:13 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 16:54:14 INFO  - Step 3 - I open Catalog
+2023-01-18 16:54:14 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-18 16:54:34 INFO  - Step 4 - I open search modal
+2023-01-18 16:54:54 INFO  - Button 'Search' :: Clicking
+2023-01-18 16:54:56 INFO  - Step 5 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-18 16:54:56 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-18 16:54:56 INFO  - randomBookName: The Debt Trap
+2023-01-18 16:54:56 INFO  - Error details button is not present
+2023-01-18 16:54:57 INFO  - Text Field 'Search value input' :: Sending keys 'The Debt Trap'
+2023-01-18 16:54:57 INFO  - Button 'Apply search' :: Clicking
+2023-01-18 16:54:59 INFO  - Error details button is not present
+2023-01-18 16:55:02 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2023-01-18 16:55:02 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-18 16:55:22 INFO  - Step 7 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-18 16:55:23 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-18 16:55:24 INFO  - Label 'lblBookName' :: Clicking
+2023-01-18 16:55:24 INFO  - Step 8 - Click GET action button on book details screen
+2023-01-18 16:55:25 INFO  - Button 'Get' :: Clicking
+2023-01-18 16:55:31 INFO  - Step 9 - I check that book contains LISTEN action button on book details screen
+2023-01-18 16:55:31 INFO  - Step 10 - Click RETURN action button on book details screen
+2023-01-18 16:55:32 INFO  - Button 'Return' :: Clicking
+2023-01-18 16:55:35 INFO  - Step 11 - I check that book contains GET action button on book details screen
+2023-01-18 16:55:35 INFO  - Step 12 - Click GET action button on book details screen
+2023-01-18 16:55:36 INFO  - Button 'Get' :: Clicking
+2023-01-18 16:55:40 INFO  - Step 13 - I check that book contains LISTEN action button on book details screen
+2023-01-18 16:55:40 INFO  - Step 14 - Click LISTEN action button on book details screen
+2023-01-18 16:55:40 INFO  - Button 'Listen' :: Clicking
+2023-01-18 16:55:41 INFO  - Step 15 - Wait for 3 seconds
+2023-01-18 16:55:44 INFO  - Step 16 - Book 'bookInfo' with AUDIOBOOK type is present on epub or pdf or audiobook screen
+2023-01-18 16:55:46 INFO  - Taking screenshot
+2023-01-18 16:55:47 INFO  - Test finished - logging out
+2023-01-18 16:55:49 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 16:55:51 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 16:55:52 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 16:55:53 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 16:55:55 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 16:55:56 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 16:55:56 INFO  - Button 'Log out' :: Clicking
+2023-01-18 16:55:56 INFO  - Button 'Log in' :: Getting text from element
+2023-01-18 16:56:00 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 16:56:01 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 16:56:01 INFO  - Unlocking credential for current thread
+2023-01-18 16:56:01 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5d1dfbb6

@@ -1,0 +1,74 @@
+2023-01-18 16:55:15 INFO  - Scenario 'TOC: Contents with text: Check of list of chapters and navigation in Lyrasis' start
+2023-01-18 16:55:15 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-18 16:55:47 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-18 16:55:47 INFO  - Session id - 3a300163e2eb99d4ec7b7d9e9ce903468fd91252
+2023-01-18 16:55:47 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-18 16:55:47 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-18 16:55:50 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-18 16:55:51 INFO  - Button 'Search' :: Clicking
+2023-01-18 16:55:53 INFO  - Text Field 'Search' :: Clearing
+2023-01-18 16:55:53 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-18 16:55:57 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 16:55:57 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-18 16:55:57 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 16:55:59 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 16:56:00 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 16:56:03 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-18 16:56:03 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 16:56:03 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 16:56:04 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 16:56:05 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 16:56:07 INFO  - Locking credential with barcode 01230000000306
+2023-01-18 16:56:07 INFO  - There are books on the account: 
+2023-01-18 16:56:08 INFO  - There is not books on the account.
+2023-01-18 16:56:08 INFO  - Count of books on the account after opening account: 0
+2023-01-18 16:56:08 INFO  - Text Field 'Card' :: Clearing
+2023-01-18 16:56:08 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-01-18 16:56:09 INFO  - Text Field 'Pin' :: Clearing
+2023-01-18 16:56:09 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-18 16:56:11 INFO  - Button 'Log in' :: Clicking
+2023-01-18 16:56:18 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 16:56:18 INFO  - Step 3 - Login is performed successfully
+2023-01-18 16:56:39 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-18 16:56:39 INFO  - Step 4 - I open Catalog
+2023-01-18 16:56:39 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-18 16:57:00 INFO  - Step 5 - I open search modal
+2023-01-18 16:57:20 INFO  - Button 'Search' :: Clicking
+2023-01-18 16:57:22 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-18 16:57:22 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-18 16:57:22 INFO  - randomBookName: Everything is a Poem :
+2023-01-18 16:57:22 INFO  - Error details button is not present
+2023-01-18 16:57:22 INFO  - Text Field 'Search value input' :: Sending keys 'Everything is a Poem :'
+2023-01-18 16:57:22 INFO  - Button 'Apply search' :: Clicking
+2023-01-18 16:57:24 INFO  - Error details button is not present
+2023-01-18 16:57:27 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-18 16:57:28 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-18 16:57:29 INFO  - Button 'actionButton' :: Clicking
+2023-01-18 16:57:36 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-01-18 16:57:36 INFO  - Step 9 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-18 16:57:37 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-18 16:57:37 INFO  - Label 'lblBookName' :: Clicking
+2023-01-18 16:57:37 INFO  - Step 10 - Click READ action button on book details screen
+2023-01-18 16:57:39 INFO  - Button 'Read' :: Clicking
+2023-01-18 16:57:39 INFO  - Step 11 - Reader pdf screen is opened
+2023-01-18 16:57:44 INFO  - Step 12 - I open table of contents on pdf reader screen
+2023-01-18 16:57:44 INFO  - Button 'Table of content' :: Clicking
+2023-01-18 16:57:45 INFO  - Step 13 - I open text chapter content on pdf toc screen
+2023-01-18 16:57:45 INFO  - Button 'Chapter content' :: Clicking
+2023-01-18 16:57:48 INFO  - Step 14 - Text chapter content is opened on pdf toc screen
+2023-01-18 16:57:49 INFO  - Step 15 - I open random chapter and save the number as 'pageInfo' on pdf toc screen
+2023-01-18 16:57:50 INFO  - Label 'Chapter' :: Clicking
+2023-01-18 16:58:11 INFO  - Taking screenshot
+2023-01-18 16:58:12 INFO  - Test finished - logging out
+2023-01-18 16:58:13 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 16:58:16 INFO  - Button 'tabSettings' :: Clicking
+2023-01-18 16:58:17 INFO  - Button 'Accounts' :: Clicking
+2023-01-18 16:58:18 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-18 16:58:20 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 16:58:21 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 16:58:21 INFO  - Button 'Log out' :: Clicking
+2023-01-18 16:58:21 INFO  - Button 'Log in' :: Getting text from element
+2023-01-18 16:58:26 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-18 16:58:26 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-18 16:58:26 INFO  - Unlocking credential for current thread
+2023-01-18 16:58:26 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6248852a
