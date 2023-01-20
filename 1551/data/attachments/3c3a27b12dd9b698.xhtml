@@ -1,0 +1,396 @@
+2023-01-20 00:01:13 INFO  - Scenario 'Font settings: Check of font style' start
+2023-01-20 00:01:13 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-20 00:01:38 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-20 00:01:38 INFO  - Session id - caa07704ec14d093361c3723d2c57ddb660d6df9
+2023-01-20 00:01:38 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-20 00:01:39 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-20 00:01:41 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-20 00:01:41 INFO  - Button 'Search' :: Clicking
+2023-01-20 00:01:43 INFO  - Text Field 'Search' :: Clearing
+2023-01-20 00:01:43 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-20 00:01:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-20 00:01:45 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-20 00:01:45 INFO  - Button 'tabSettings' :: Clicking
+2023-01-20 00:01:47 INFO  - Button 'tabSettings' :: Clicking
+2023-01-20 00:01:48 INFO  - Button 'Accounts' :: Clicking
+2023-01-20 00:01:49 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-20 00:01:50 INFO  - Button 'tabSettings' :: Clicking
+2023-01-20 00:01:50 INFO  - Button 'tabSettings' :: Clicking
+2023-01-20 00:01:51 INFO  - Button 'Accounts' :: Clicking
+2023-01-20 00:01:52 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-20 00:01:52 INFO  - Locking credential with barcode 01230000000304
+2023-01-20 00:01:52 INFO  - There are books on the account: 
+2023-01-20 00:01:53 INFO  - There is not books on the account.
+2023-01-20 00:01:53 INFO  - Count of books on the account after opening account: 0
+2023-01-20 00:01:53 INFO  - Text Field 'Card' :: Clearing
+2023-01-20 00:01:53 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-20 00:01:55 INFO  - Text Field 'Pin' :: Clearing
+2023-01-20 00:01:55 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-20 00:01:57 INFO  - Button 'Log in' :: Clicking
+2023-01-20 00:02:02 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-20 00:02:03 INFO  - Step 3 - Login is performed successfully
+2023-01-20 00:02:24 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-20 00:02:24 INFO  - Step 4 - I open Catalog
+2023-01-20 00:02:24 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-20 00:02:46 INFO  - Step 5 - I open search modal
+2023-01-20 00:03:06 INFO  - Button 'Search' :: Clicking
+2023-01-20 00:03:07 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-20 00:03:07 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-01-20 00:03:07 INFO  - randomBookName: Above World
+2023-01-20 00:03:07 INFO  - Error details button is not present
+2023-01-20 00:03:08 INFO  - Text Field 'Search value input' :: Sending keys 'Above World'
+2023-01-20 00:03:08 INFO  - Button 'Apply search' :: Clicking
+2023-01-20 00:03:10 INFO  - Error details button is not present
+2023-01-20 00:03:12 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-20 00:03:13 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-20 00:03:14 INFO  - Button 'actionButton' :: Clicking
+2023-01-20 00:03:22 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-20 00:03:22 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-20 00:03:23 INFO  - Label 'lblBookName' :: Clicking
+2023-01-20 00:03:23 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-20 00:03:24 INFO  - Button 'Read' :: Clicking
+2023-01-20 00:03:25 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-20 00:03:25 INFO  - Scrolling 8 times on reader epub screen
+2023-01-20 00:03:38 INFO  - Step 11 - I open font settings
+2023-01-20 00:03:38 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-20 00:03:39 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-01-20 00:03:39 INFO  - Button 'setFontSerif' :: Clicking
+2023-01-20 00:03:40 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-01-20 00:03:40 INFO  - context - NATIVE_APP
+2023-01-20 00:03:40 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-20 00:03:41 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-20 00:03:42 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Above World</title>
+<link href="9780763659585_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:c7eb08ad-14f3-4b73-ab00-76b45f5958de" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="chapter" id="c01"><img alt="" src="images/c01.png" /></h1>
+<p class="nonindent"><span class="sans"><span class="big">A</span><span class="small">LUNA SWAM TOWARD</span></span> the abandoned outpost, her heart pounding, her breathing necklace pulsing at her throat. She kicked her legs harder, wishing it were tomorrow. Wishing she already had her tail. With a tail, she could speed through the water, fast as a dolphin.</p>
+<p class="indent">Goldenfins and shiny-blues darted out of her way. Most of the sun’s light was gobbled up by the ocean above her, but she could still see every frond of kelp, every sprout of rainbow coral, every pair of eyes hidden deep in a hidey-hole. The ancients had blessed the Kampii with everything they needed to survive underwater: powerful tails, thick bones and tough skin, adaptable vision, breathing necklaces . . . everything except the ability to fix their own tech when it started to fail.</p>
+<p class="indent">“Hurry up,” she called to Hoku. The thick ocean swallowed the sound, but the tiny artifact in her throat sent her words directly to the artifacts in Hoku’s ears . . . despite the fact that he was trailing ten meters behind her.</p>
+<p class="indent">“I’m swimming as fast as I can,” Hoku said. “You know, there might be a reason the outpost is forbidden. Maybe it’s overrun with Deepfell.”</p>
+<p class="indent">“Deepfell don’t hunt this far into the shallows,” Aluna said, hoping she was right. She and Hoku would both be fish food if she wasn’t.</p>
+<p class="indent">“I think we should turn back. My grandma will worry if I’m not in the nest for dinner.”</p>
+<p class="indent">Aluna swung her body upright and treaded in the current. She could see Hoku in the distance, swimming slowly with his pale, scrawny legs and terrible technique. “Four Kampii have died in the last three moons, and the Elders want us to believe their deaths were all accidents? They’re hiding something, something important. The ancients lived at this outpost for years before the City of Shifting Tides was even built. I know it holds the answers.”</p>
+<p class="indent">Silence.</p>
+<p class="indent">“And who knows?” she said. “Maybe we’ll find a few artifacts for your workshop. . . .”</p>
+<p class="indent">“Oh, tides’ teeth,” Hoku said. “I’ll be there in a flash.”</p>
+<p class="indent">He caught up, his freckled face red from the effort. And from thinking about artifacts, no doubt. Hoku could stay hunched over his workbench for days when he got a new piece of tech.</p>
+<p class="indent">“We’d better find something good,” he said with a grin.</p>
+<p class="indent">She laughed and kicked off. “Let’s swim. We only have a few hours before full dark.”</p>
+<p class="indent">But instead of fading into blackness, the ocean grew brighter as they swam. Aluna drifted to a stop before a shimmering dome of white light. It looked as if the moon had fallen into the sea and lay buried halfway in the sand.</p>
+<p class="indent">“A glowfield!” Hoku said. “It takes forever to breed the right jellyfish and to get them to knit together in the correct pattern. You were right — whatever the Elders are hiding, it must be important.”</p>
+<p class="indent">“How do we get through the barrier?” Aluna unfastened the knife strapped to her thigh and swam closer. Thousands of jellyfish floated in a vast web, their tentacles intertwined so closely that not even a hermit crab could slip through their embrace. She looked for a spot with fewer tendrils and readied her blade. “Maybe we can cut a hole.”</p>
+<p class="indent">“Oh, it’s not difficult to cut through the jellyfish,” Hoku said absently. “The hard part is resisting the paralysis they cause.”</p>
+<p class="indent">“Paralysis?” Aluna yanked her weapon away from the jellyfish and bolted backward. “Next time, make that the <em>first</em> thing you mention, okay?”</p>
+<p class="indent">She looked closer and spotted fish stuck to the glowfield like shells woven into her sister’s hair. Some of the fish struggled weakly, but most were dead and partially eaten. She had no intention of sharing their fate.</p>
+<p class="indent">“I can see buildings!” Hoku said, peering between jellyfish. “The ancients conducted experiments here, back when they were figuring out how to work with the ocean spirits, before the first Kampii colony was founded. I wonder if any of their equipment still works.”</p>
+<p class="indent">Aluna squinted through the tendrils, careful to keep her distance. A cluster of barnacle-covered domes sat in the middle of the glowfield, silent and serene. In the white jellyfish light, they looked like pearls.</p>
+<p class="indent">“Sarah Jennings must have come here,” Aluna said wistfully. “This was her home before she founded the City of Shifting Tides and saved us all from the Above World.”</p>
+<p class="indent">“Aluna,” Hoku whispered.</p>
+<p class="indent">“We’ve got to get inside,” she said. “The Elders want to keep us out, and I want to know why.”</p>
+<p class="indent">“Aluna,” he whispered again, his eyes wide and focused on something behind and above her. “I don’t think it’s <em>us</em> the Elders are trying to keep out.”</p>
+<p class="indent">Aluna clamped her mouth shut and looked up.</p>
+<p class="indent">She felt the water grow cold as the deadliest predator in the ocean glided a few meters above their heads. Pointed snout, black pebble eyes pressed into pale flesh, rows of sharp teeth still trailing scraps of meat from its last meal.</p>
+<p class="indent"><em>Great White.</em></p>
+<p class="indent">The shark lazed its way through the water, looking. Listening. Smelling.</p>
+<p class="indent">Aluna was sure it would hear their hearts pounding or see the necklaces pulsing at their throats. <em>Be still as a starfish,</em> she told herself. <em>Be calm as Big Blue.</em></p>
+<p class="indent">The shark glided over them and zigzagged around the curve of the glowfield, as if it were searching for an entrance.</p>
+<p class="indent">When the creature was almost out of view, Hoku kicked his feet against the current to maintain his position. It was a small, unconscious move. He probably didn’t realize he’d even done it. But Aluna noticed, and Great White did, too.</p>
+<p class="indent">The shark twisted sharply, attracted to the sudden motion. In one moment it was swimming away, and in the next it was streaking through the water right at Hoku.</p>
+<p class="indent">“Swim!” Aluna yelled, but he didn’t move. His arms drifted at his sides, his legs hung useless below him. He just stared at the shark.</p>
+<p class="indent">Aluna vaulted up from the ocean floor, waving both legs and both arms, and screamed, “Over here, you big guppy! Fight me instead!”</p>
+<p class="indent">Great White ignored her.</p>
+<p class="indent">Only one thing left to try. She flicked the point of her knife across her palm, fast and deep. A tiny red cloud puffed up from the wound. Her skin would knit itself back together quickly, thanks to the ancients who designed it, but even one drop was enough. Sharks could smell blood from kilometers away. There was nothing they loved more.</p>
+<p class="indent">Great White twitched. Aluna gasped, her vision suddenly eclipsed by the shark’s pale, monstrous body speeding toward her, fast as a harpoon. Deep battle scars marred its muzzle. Its great maw hung open, big enough to swallow her whole.</p>
+<p class="indent">She switched the grip on her knife so that the back of the blade rested against her forearm. <em>The knife is not a tool that you “use,”</em> her brother Anadar always said. <em>The knife is an extension of your arm. As soon as you pick it up, it becomes a part of you.</em></p>
+<p class="indent">She knew she couldn’t hurt the shark, not without a thick spear and the skill to drive it deep into the monster’s gills, but it wasn’t expecting her to fight back at all. Sharks never expected that. If she could slash it on the nose a few times before it bit her, it might decide she wasn’t worth the effort.</p>
+<p class="indent">The shark closed in. Aluna yelled and punched her knife at its nose. Great White dodged at the last moment and <em>flash!</em> A bright-green beam of light erupted from a spot above one of its pitiless black eyes.</p>
+<p class="indent">Glowing lines crisscrossed Aluna’s body. The shark had cast a net over her — a net of light! She watched the net move across the dark skin of her arms and legs and over the tight seal leather that covered the rest of her. The green light shimmered in the current, dancing and flickering like moonlight on the waves. It didn’t hurt. In fact, she couldn’t feel it at all.</p>
+<p class="indent">“Move!” Hoku yelled. His voice reverberated in her ear and woke her from her stupor.</p>
+<p class="indent">She straightened her legs, lifted her arms, and dropped like a stone through the water. She hit the ocean floor and flattened herself against it. Lots of sea creatures hid themselves in the sand. She tried to be one more. The shark’s flickering green gaze refracted through the water where she had been, as if it were looking for her.</p>
+<p class="indent">Aluna saw Hoku not far off, dug into the sand, just like her. “What’s going on?” she whispered.</p>
+<p class="indent">“I don’t know,” Hoku said. “I’ve never seen tech like that. And I’ve definitely never seen it coming from a shark!”</p>
+<p class="indent">The creature darted left and right, searching.</p>
+<p class="indent">Great White had legendary patience, while Aluna was renowned among the Coral Kampii for exactly the opposite. She couldn’t stay here forever. She had to take a chance.</p>
+<p class="indent">“Wait till it chases me, then circle back to the city,” she whispered. “Don’t follow me, no matter what.”</p>
+<p class="indent">She secured her knife in its sheath and waited. When Great White’s mysterious green light was farthest away, she pulled herself into a crouch, pressed her palms together over her head, and kicked off.</p>
+<p class="indent">“Aluna, what are you doing?” Hoku yelled.</p>
+<p class="indent">“Saving us,” she said simply, and swam for her life. For both of their lives.</p>
+</body>
+</html>
+2023-01-20 00:03:42 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-20 00:03:42 INFO  - Step 14 - I restart app
+2023-01-20 00:04:06 INFO  - Step 15 - I open Books
+2023-01-20 00:04:06 INFO  - Button 'tabBooks' :: Clicking
+2023-01-20 00:04:06 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-20 00:04:08 INFO  - Label 'lblBookName' :: Clicking
+2023-01-20 00:04:11 INFO  - Step 17 - Click READ action button on book details screen
+2023-01-20 00:04:12 INFO  - Button 'Read' :: Clicking
+2023-01-20 00:04:13 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-01-20 00:04:13 INFO  - context - NATIVE_APP
+2023-01-20 00:04:15 INFO  - context - NATIVE_APP
+2023-01-20 00:04:15 INFO  - context - NATIVE_APP
+2023-01-20 00:04:15 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-20 00:04:17 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-20 00:04:17 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Above World</title>
+<link href="9780763659585_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:c7eb08ad-14f3-4b73-ab00-76b45f5958de" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="chapter" id="c01"><img alt="" src="images/c01.png" /></h1>
+<p class="nonindent"><span class="sans"><span class="big">A</span><span class="small">LUNA SWAM TOWARD</span></span> the abandoned outpost, her heart pounding, her breathing necklace pulsing at her throat. She kicked her legs harder, wishing it were tomorrow. Wishing she already had her tail. With a tail, she could speed through the water, fast as a dolphin.</p>
+<p class="indent">Goldenfins and shiny-blues darted out of her way. Most of the sun’s light was gobbled up by the ocean above her, but she could still see every frond of kelp, every sprout of rainbow coral, every pair of eyes hidden deep in a hidey-hole. The ancients had blessed the Kampii with everything they needed to survive underwater: powerful tails, thick bones and tough skin, adaptable vision, breathing necklaces . . . everything except the ability to fix their own tech when it started to fail.</p>
+<p class="indent">“Hurry up,” she called to Hoku. The thick ocean swallowed the sound, but the tiny artifact in her throat sent her words directly to the artifacts in Hoku’s ears . . . despite the fact that he was trailing ten meters behind her.</p>
+<p class="indent">“I’m swimming as fast as I can,” Hoku said. “You know, there might be a reason the outpost is forbidden. Maybe it’s overrun with Deepfell.”</p>
+<p class="indent">“Deepfell don’t hunt this far into the shallows,” Aluna said, hoping she was right. She and Hoku would both be fish food if she wasn’t.</p>
+<p class="indent">“I think we should turn back. My grandma will worry if I’m not in the nest for dinner.”</p>
+<p class="indent">Aluna swung her body upright and treaded in the current. She could see Hoku in the distance, swimming slowly with his pale, scrawny legs and terrible technique. “Four Kampii have died in the last three moons, and the Elders want us to believe their deaths were all accidents? They’re hiding something, something important. The ancients lived at this outpost for years before the City of Shifting Tides was even built. I know it holds the answers.”</p>
+<p class="indent">Silence.</p>
+<p class="indent">“And who knows?” she said. “Maybe we’ll find a few artifacts for your workshop. . . .”</p>
+<p class="indent">“Oh, tides’ teeth,” Hoku said. “I’ll be there in a flash.”</p>
+<p class="indent">He caught up, his freckled face red from the effort. And from thinking about artifacts, no doubt. Hoku could stay hunched over his workbench for days when he got a new piece of tech.</p>
+<p class="indent">“We’d better find something good,” he said with a grin.</p>
+<p class="indent">She laughed and kicked off. “Let’s swim. We only have a few hours before full dark.”</p>
+<p class="indent">But instead of fading into blackness, the ocean grew brighter as they swam. Aluna drifted to a stop before a shimmering dome of white light. It looked as if the moon had fallen into the sea and lay buried halfway in the sand.</p>
+<p class="indent">“A glowfield!” Hoku said. “It takes forever to breed the right jellyfish and to get them to knit together in the correct pattern. You were right — whatever the Elders are hiding, it must be important.”</p>
+<p class="indent">“How do we get through the barrier?” Aluna unfastened the knife strapped to her thigh and swam closer. Thousands of jellyfish floated in a vast web, their tentacles intertwined so closely that not even a hermit crab could slip through their embrace. She looked for a spot with fewer tendrils and readied her blade. “Maybe we can cut a hole.”</p>
+<p class="indent">“Oh, it’s not difficult to cut through the jellyfish,” Hoku said absently. “The hard part is resisting the paralysis they cause.”</p>
+<p class="indent">“Paralysis?” Aluna yanked her weapon away from the jellyfish and bolted backward. “Next time, make that the <em>first</em> thing you mention, okay?”</p>
+<p class="indent">She looked closer and spotted fish stuck to the glowfield like shells woven into her sister’s hair. Some of the fish struggled weakly, but most were dead and partially eaten. She had no intention of sharing their fate.</p>
+<p class="indent">“I can see buildings!” Hoku said, peering between jellyfish. “The ancients conducted experiments here, back when they were figuring out how to work with the ocean spirits, before the first Kampii colony was founded. I wonder if any of their equipment still works.”</p>
+<p class="indent">Aluna squinted through the tendrils, careful to keep her distance. A cluster of barnacle-covered domes sat in the middle of the glowfield, silent and serene. In the white jellyfish light, they looked like pearls.</p>
+<p class="indent">“Sarah Jennings must have come here,” Aluna said wistfully. “This was her home before she founded the City of Shifting Tides and saved us all from the Above World.”</p>
+<p class="indent">“Aluna,” Hoku whispered.</p>
+<p class="indent">“We’ve got to get inside,” she said. “The Elders want to keep us out, and I want to know why.”</p>
+<p class="indent">“Aluna,” he whispered again, his eyes wide and focused on something behind and above her. “I don’t think it’s <em>us</em> the Elders are trying to keep out.”</p>
+<p class="indent">Aluna clamped her mouth shut and looked up.</p>
+<p class="indent">She felt the water grow cold as the deadliest predator in the ocean glided a few meters above their heads. Pointed snout, black pebble eyes pressed into pale flesh, rows of sharp teeth still trailing scraps of meat from its last meal.</p>
+<p class="indent"><em>Great White.</em></p>
+<p class="indent">The shark lazed its way through the water, looking. Listening. Smelling.</p>
+<p class="indent">Aluna was sure it would hear their hearts pounding or see the necklaces pulsing at their throats. <em>Be still as a starfish,</em> she told herself. <em>Be calm as Big Blue.</em></p>
+<p class="indent">The shark glided over them and zigzagged around the curve of the glowfield, as if it were searching for an entrance.</p>
+<p class="indent">When the creature was almost out of view, Hoku kicked his feet against the current to maintain his position. It was a small, unconscious move. He probably didn’t realize he’d even done it. But Aluna noticed, and Great White did, too.</p>
+<p class="indent">The shark twisted sharply, attracted to the sudden motion. In one moment it was swimming away, and in the next it was streaking through the water right at Hoku.</p>
+<p class="indent">“Swim!” Aluna yelled, but he didn’t move. His arms drifted at his sides, his legs hung useless below him. He just stared at the shark.</p>
+<p class="indent">Aluna vaulted up from the ocean floor, waving both legs and both arms, and screamed, “Over here, you big guppy! Fight me instead!”</p>
+<p class="indent">Great White ignored her.</p>
+<p class="indent">Only one thing left to try. She flicked the point of her knife across her palm, fast and deep. A tiny red cloud puffed up from the wound. Her skin would knit itself back together quickly, thanks to the ancients who designed it, but even one drop was enough. Sharks could smell blood from kilometers away. There was nothing they loved more.</p>
+<p class="indent">Great White twitched. Aluna gasped, her vision suddenly eclipsed by the shark’s pale, monstrous body speeding toward her, fast as a harpoon. Deep battle scars marred its muzzle. Its great maw hung open, big enough to swallow her whole.</p>
+<p class="indent">She switched the grip on her knife so that the back of the blade rested against her forearm. <em>The knife is not a tool that you “use,”</em> her brother Anadar always said. <em>The knife is an extension of your arm. As soon as you pick it up, it becomes a part of you.</em></p>
+<p class="indent">She knew she couldn’t hurt the shark, not without a thick spear and the skill to drive it deep into the monster’s gills, but it wasn’t expecting her to fight back at all. Sharks never expected that. If she could slash it on the nose a few times before it bit her, it might decide she wasn’t worth the effort.</p>
+<p class="indent">The shark closed in. Aluna yelled and punched her knife at its nose. Great White dodged at the last moment and <em>flash!</em> A bright-green beam of light erupted from a spot above one of its pitiless black eyes.</p>
+<p class="indent">Glowing lines crisscrossed Aluna’s body. The shark had cast a net over her — a net of light! She watched the net move across the dark skin of her arms and legs and over the tight seal leather that covered the rest of her. The green light shimmered in the current, dancing and flickering like moonlight on the waves. It didn’t hurt. In fact, she couldn’t feel it at all.</p>
+<p class="indent">“Move!” Hoku yelled. His voice reverberated in her ear and woke her from her stupor.</p>
+<p class="indent">She straightened her legs, lifted her arms, and dropped like a stone through the water. She hit the ocean floor and flattened herself against it. Lots of sea creatures hid themselves in the sand. She tried to be one more. The shark’s flickering green gaze refracted through the water where she had been, as if it were looking for her.</p>
+<p class="indent">Aluna saw Hoku not far off, dug into the sand, just like her. “What’s going on?” she whispered.</p>
+<p class="indent">“I don’t know,” Hoku said. “I’ve never seen tech like that. And I’ve definitely never seen it coming from a shark!”</p>
+<p class="indent">The creature darted left and right, searching.</p>
+<p class="indent">Great White had legendary patience, while Aluna was renowned among the Coral Kampii for exactly the opposite. She couldn’t stay here forever. She had to take a chance.</p>
+<p class="indent">“Wait till it chases me, then circle back to the city,” she whispered. “Don’t follow me, no matter what.”</p>
+<p class="indent">She secured her knife in its sheath and waited. When Great White’s mysterious green light was farthest away, she pulled herself into a crouch, pressed her palms together over her head, and kicked off.</p>
+<p class="indent">“Aluna, what are you doing?” Hoku yelled.</p>
+<p class="indent">“Saving us,” she said simply, and swam for her life. For both of their lives.</p>
+</body>
+</html>
+2023-01-20 00:04:17 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-20 00:04:17 INFO  - Step 19 - I return to previous screen from epub
+2023-01-20 00:04:18 INFO  - Button 'btnBack' :: Clicking
+2023-01-20 00:04:18 INFO  - Step 20 - Click READ action button on book details screen
+2023-01-20 00:04:20 INFO  - Button 'Read' :: Clicking
+2023-01-20 00:04:20 INFO  - Step 21 - Book text displays in FONT_SERIF font
+2023-01-20 00:04:21 INFO  - context - NATIVE_APP
+2023-01-20 00:04:21 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-20 00:04:22 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-20 00:04:22 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Above World</title>
+<link href="9780763659585_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:c7eb08ad-14f3-4b73-ab00-76b45f5958de" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="chapter" id="c01"><img alt="" src="images/c01.png" /></h1>
+<p class="nonindent"><span class="sans"><span class="big">A</span><span class="small">LUNA SWAM TOWARD</span></span> the abandoned outpost, her heart pounding, her breathing necklace pulsing at her throat. She kicked her legs harder, wishing it were tomorrow. Wishing she already had her tail. With a tail, she could speed through the water, fast as a dolphin.</p>
+<p class="indent">Goldenfins and shiny-blues darted out of her way. Most of the sun’s light was gobbled up by the ocean above her, but she could still see every frond of kelp, every sprout of rainbow coral, every pair of eyes hidden deep in a hidey-hole. The ancients had blessed the Kampii with everything they needed to survive underwater: powerful tails, thick bones and tough skin, adaptable vision, breathing necklaces . . . everything except the ability to fix their own tech when it started to fail.</p>
+<p class="indent">“Hurry up,” she called to Hoku. The thick ocean swallowed the sound, but the tiny artifact in her throat sent her words directly to the artifacts in Hoku’s ears . . . despite the fact that he was trailing ten meters behind her.</p>
+<p class="indent">“I’m swimming as fast as I can,” Hoku said. “You know, there might be a reason the outpost is forbidden. Maybe it’s overrun with Deepfell.”</p>
+<p class="indent">“Deepfell don’t hunt this far into the shallows,” Aluna said, hoping she was right. She and Hoku would both be fish food if she wasn’t.</p>
+<p class="indent">“I think we should turn back. My grandma will worry if I’m not in the nest for dinner.”</p>
+<p class="indent">Aluna swung her body upright and treaded in the current. She could see Hoku in the distance, swimming slowly with his pale, scrawny legs and terrible technique. “Four Kampii have died in the last three moons, and the Elders want us to believe their deaths were all accidents? They’re hiding something, something important. The ancients lived at this outpost for years before the City of Shifting Tides was even built. I know it holds the answers.”</p>
+<p class="indent">Silence.</p>
+<p class="indent">“And who knows?” she said. “Maybe we’ll find a few artifacts for your workshop. . . .”</p>
+<p class="indent">“Oh, tides’ teeth,” Hoku said. “I’ll be there in a flash.”</p>
+<p class="indent">He caught up, his freckled face red from the effort. And from thinking about artifacts, no doubt. Hoku could stay hunched over his workbench for days when he got a new piece of tech.</p>
+<p class="indent">“We’d better find something good,” he said with a grin.</p>
+<p class="indent">She laughed and kicked off. “Let’s swim. We only have a few hours before full dark.”</p>
+<p class="indent">But instead of fading into blackness, the ocean grew brighter as they swam. Aluna drifted to a stop before a shimmering dome of white light. It looked as if the moon had fallen into the sea and lay buried halfway in the sand.</p>
+<p class="indent">“A glowfield!” Hoku said. “It takes forever to breed the right jellyfish and to get them to knit together in the correct pattern. You were right — whatever the Elders are hiding, it must be important.”</p>
+<p class="indent">“How do we get through the barrier?” Aluna unfastened the knife strapped to her thigh and swam closer. Thousands of jellyfish floated in a vast web, their tentacles intertwined so closely that not even a hermit crab could slip through their embrace. She looked for a spot with fewer tendrils and readied her blade. “Maybe we can cut a hole.”</p>
+<p class="indent">“Oh, it’s not difficult to cut through the jellyfish,” Hoku said absently. “The hard part is resisting the paralysis they cause.”</p>
+<p class="indent">“Paralysis?” Aluna yanked her weapon away from the jellyfish and bolted backward. “Next time, make that the <em>first</em> thing you mention, okay?”</p>
+<p class="indent">She looked closer and spotted fish stuck to the glowfield like shells woven into her sister’s hair. Some of the fish struggled weakly, but most were dead and partially eaten. She had no intention of sharing their fate.</p>
+<p class="indent">“I can see buildings!” Hoku said, peering between jellyfish. “The ancients conducted experiments here, back when they were figuring out how to work with the ocean spirits, before the first Kampii colony was founded. I wonder if any of their equipment still works.”</p>
+<p class="indent">Aluna squinted through the tendrils, careful to keep her distance. A cluster of barnacle-covered domes sat in the middle of the glowfield, silent and serene. In the white jellyfish light, they looked like pearls.</p>
+<p class="indent">“Sarah Jennings must have come here,” Aluna said wistfully. “This was her home before she founded the City of Shifting Tides and saved us all from the Above World.”</p>
+<p class="indent">“Aluna,” Hoku whispered.</p>
+<p class="indent">“We’ve got to get inside,” she said. “The Elders want to keep us out, and I want to know why.”</p>
+<p class="indent">“Aluna,” he whispered again, his eyes wide and focused on something behind and above her. “I don’t think it’s <em>us</em> the Elders are trying to keep out.”</p>
+<p class="indent">Aluna clamped her mouth shut and looked up.</p>
+<p class="indent">She felt the water grow cold as the deadliest predator in the ocean glided a few meters above their heads. Pointed snout, black pebble eyes pressed into pale flesh, rows of sharp teeth still trailing scraps of meat from its last meal.</p>
+<p class="indent"><em>Great White.</em></p>
+<p class="indent">The shark lazed its way through the water, looking. Listening. Smelling.</p>
+<p class="indent">Aluna was sure it would hear their hearts pounding or see the necklaces pulsing at their throats. <em>Be still as a starfish,</em> she told herself. <em>Be calm as Big Blue.</em></p>
+<p class="indent">The shark glided over them and zigzagged around the curve of the glowfield, as if it were searching for an entrance.</p>
+<p class="indent">When the creature was almost out of view, Hoku kicked his feet against the current to maintain his position. It was a small, unconscious move. He probably didn’t realize he’d even done it. But Aluna noticed, and Great White did, too.</p>
+<p class="indent">The shark twisted sharply, attracted to the sudden motion. In one moment it was swimming away, and in the next it was streaking through the water right at Hoku.</p>
+<p class="indent">“Swim!” Aluna yelled, but he didn’t move. His arms drifted at his sides, his legs hung useless below him. He just stared at the shark.</p>
+<p class="indent">Aluna vaulted up from the ocean floor, waving both legs and both arms, and screamed, “Over here, you big guppy! Fight me instead!”</p>
+<p class="indent">Great White ignored her.</p>
+<p class="indent">Only one thing left to try. She flicked the point of her knife across her palm, fast and deep. A tiny red cloud puffed up from the wound. Her skin would knit itself back together quickly, thanks to the ancients who designed it, but even one drop was enough. Sharks could smell blood from kilometers away. There was nothing they loved more.</p>
+<p class="indent">Great White twitched. Aluna gasped, her vision suddenly eclipsed by the shark’s pale, monstrous body speeding toward her, fast as a harpoon. Deep battle scars marred its muzzle. Its great maw hung open, big enough to swallow her whole.</p>
+<p class="indent">She switched the grip on her knife so that the back of the blade rested against her forearm. <em>The knife is not a tool that you “use,”</em> her brother Anadar always said. <em>The knife is an extension of your arm. As soon as you pick it up, it becomes a part of you.</em></p>
+<p class="indent">She knew she couldn’t hurt the shark, not without a thick spear and the skill to drive it deep into the monster’s gills, but it wasn’t expecting her to fight back at all. Sharks never expected that. If she could slash it on the nose a few times before it bit her, it might decide she wasn’t worth the effort.</p>
+<p class="indent">The shark closed in. Aluna yelled and punched her knife at its nose. Great White dodged at the last moment and <em>flash!</em> A bright-green beam of light erupted from a spot above one of its pitiless black eyes.</p>
+<p class="indent">Glowing lines crisscrossed Aluna’s body. The shark had cast a net over her — a net of light! She watched the net move across the dark skin of her arms and legs and over the tight seal leather that covered the rest of her. The green light shimmered in the current, dancing and flickering like moonlight on the waves. It didn’t hurt. In fact, she couldn’t feel it at all.</p>
+<p class="indent">“Move!” Hoku yelled. His voice reverberated in her ear and woke her from her stupor.</p>
+<p class="indent">She straightened her legs, lifted her arms, and dropped like a stone through the water. She hit the ocean floor and flattened herself against it. Lots of sea creatures hid themselves in the sand. She tried to be one more. The shark’s flickering green gaze refracted through the water where she had been, as if it were looking for her.</p>
+<p class="indent">Aluna saw Hoku not far off, dug into the sand, just like her. “What’s going on?” she whispered.</p>
+<p class="indent">“I don’t know,” Hoku said. “I’ve never seen tech like that. And I’ve definitely never seen it coming from a shark!”</p>
+<p class="indent">The creature darted left and right, searching.</p>
+<p class="indent">Great White had legendary patience, while Aluna was renowned among the Coral Kampii for exactly the opposite. She couldn’t stay here forever. She had to take a chance.</p>
+<p class="indent">“Wait till it chases me, then circle back to the city,” she whispered. “Don’t follow me, no matter what.”</p>
+<p class="indent">She secured her knife in its sheath and waited. When Great White’s mysterious green light was farthest away, she pulled herself into a crouch, pressed her palms together over her head, and kicked off.</p>
+<p class="indent">“Aluna, what are you doing?” Hoku yelled.</p>
+<p class="indent">“Saving us,” she said simply, and swam for her life. For both of their lives.</p>
+</body>
+</html>
+2023-01-20 00:04:22 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-20 00:04:23 INFO  - Step 22 - I open font settings
+2023-01-20 00:04:23 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-20 00:04:24 INFO  - Step 23 - I change font style to FONT_SANS
+2023-01-20 00:04:24 INFO  - Button 'setFontSans' :: Clicking
+2023-01-20 00:04:25 INFO  - Step 24 - Book text displays in FONT_SANS font
+2023-01-20 00:04:25 INFO  - context - NATIVE_APP
+2023-01-20 00:04:25 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-20 00:04:26 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-20 00:04:26 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Above World</title>
+<link href="9780763659585_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:c7eb08ad-14f3-4b73-ab00-76b45f5958de" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="chapter" id="c01"><img alt="" src="images/c01.png" /></h1>
+<p class="nonindent"><span class="sans"><span class="big">A</span><span class="small">LUNA SWAM TOWARD</span></span> the abandoned outpost, her heart pounding, her breathing necklace pulsing at her throat. She kicked her legs harder, wishing it were tomorrow. Wishing she already had her tail. With a tail, she could speed through the water, fast as a dolphin.</p>
+<p class="indent">Goldenfins and shiny-blues darted out of her way. Most of the sun’s light was gobbled up by the ocean above her, but she could still see every frond of kelp, every sprout of rainbow coral, every pair of eyes hidden deep in a hidey-hole. The ancients had blessed the Kampii with everything they needed to survive underwater: powerful tails, thick bones and tough skin, adaptable vision, breathing necklaces . . . everything except the ability to fix their own tech when it started to fail.</p>
+<p class="indent">“Hurry up,” she called to Hoku. The thick ocean swallowed the sound, but the tiny artifact in her throat sent her words directly to the artifacts in Hoku’s ears . . . despite the fact that he was trailing ten meters behind her.</p>
+<p class="indent">“I’m swimming as fast as I can,” Hoku said. “You know, there might be a reason the outpost is forbidden. Maybe it’s overrun with Deepfell.”</p>
+<p class="indent">“Deepfell don’t hunt this far into the shallows,” Aluna said, hoping she was right. She and Hoku would both be fish food if she wasn’t.</p>
+<p class="indent">“I think we should turn back. My grandma will worry if I’m not in the nest for dinner.”</p>
+<p class="indent">Aluna swung her body upright and treaded in the current. She could see Hoku in the distance, swimming slowly with his pale, scrawny legs and terrible technique. “Four Kampii have died in the last three moons, and the Elders want us to believe their deaths were all accidents? They’re hiding something, something important. The ancients lived at this outpost for years before the City of Shifting Tides was even built. I know it holds the answers.”</p>
+<p class="indent">Silence.</p>
+<p class="indent">“And who knows?” she said. “Maybe we’ll find a few artifacts for your workshop. . . .”</p>
+<p class="indent">“Oh, tides’ teeth,” Hoku said. “I’ll be there in a flash.”</p>
+<p class="indent">He caught up, his freckled face red from the effort. And from thinking about artifacts, no doubt. Hoku could stay hunched over his workbench for days when he got a new piece of tech.</p>
+<p class="indent">“We’d better find something good,” he said with a grin.</p>
+<p class="indent">She laughed and kicked off. “Let’s swim. We only have a few hours before full dark.”</p>
+<p class="indent">But instead of fading into blackness, the ocean grew brighter as they swam. Aluna drifted to a stop before a shimmering dome of white light. It looked as if the moon had fallen into the sea and lay buried halfway in the sand.</p>
+<p class="indent">“A glowfield!” Hoku said. “It takes forever to breed the right jellyfish and to get them to knit together in the correct pattern. You were right — whatever the Elders are hiding, it must be important.”</p>
+<p class="indent">“How do we get through the barrier?” Aluna unfastened the knife strapped to her thigh and swam closer. Thousands of jellyfish floated in a vast web, their tentacles intertwined so closely that not even a hermit crab could slip through their embrace. She looked for a spot with fewer tendrils and readied her blade. “Maybe we can cut a hole.”</p>
+<p class="indent">“Oh, it’s not difficult to cut through the jellyfish,” Hoku said absently. “The hard part is resisting the paralysis they cause.”</p>
+<p class="indent">“Paralysis?” Aluna yanked her weapon away from the jellyfish and bolted backward. “Next time, make that the <em>first</em> thing you mention, okay?”</p>
+<p class="indent">She looked closer and spotted fish stuck to the glowfield like shells woven into her sister’s hair. Some of the fish struggled weakly, but most were dead and partially eaten. She had no intention of sharing their fate.</p>
+<p class="indent">“I can see buildings!” Hoku said, peering between jellyfish. “The ancients conducted experiments here, back when they were figuring out how to work with the ocean spirits, before the first Kampii colony was founded. I wonder if any of their equipment still works.”</p>
+<p class="indent">Aluna squinted through the tendrils, careful to keep her distance. A cluster of barnacle-covered domes sat in the middle of the glowfield, silent and serene. In the white jellyfish light, they looked like pearls.</p>
+<p class="indent">“Sarah Jennings must have come here,” Aluna said wistfully. “This was her home before she founded the City of Shifting Tides and saved us all from the Above World.”</p>
+<p class="indent">“Aluna,” Hoku whispered.</p>
+<p class="indent">“We’ve got to get inside,” she said. “The Elders want to keep us out, and I want to know why.”</p>
+<p class="indent">“Aluna,” he whispered again, his eyes wide and focused on something behind and above her. “I don’t think it’s <em>us</em> the Elders are trying to keep out.”</p>
+<p class="indent">Aluna clamped her mouth shut and looked up.</p>
+<p class="indent">She felt the water grow cold as the deadliest predator in the ocean glided a few meters above their heads. Pointed snout, black pebble eyes pressed into pale flesh, rows of sharp teeth still trailing scraps of meat from its last meal.</p>
+<p class="indent"><em>Great White.</em></p>
+<p class="indent">The shark lazed its way through the water, looking. Listening. Smelling.</p>
+<p class="indent">Aluna was sure it would hear their hearts pounding or see the necklaces pulsing at their throats. <em>Be still as a starfish,</em> she told herself. <em>Be calm as Big Blue.</em></p>
+<p class="indent">The shark glided over them and zigzagged around the curve of the glowfield, as if it were searching for an entrance.</p>
+<p class="indent">When the creature was almost out of view, Hoku kicked his feet against the current to maintain his position. It was a small, unconscious move. He probably didn’t realize he’d even done it. But Aluna noticed, and Great White did, too.</p>
+<p class="indent">The shark twisted sharply, attracted to the sudden motion. In one moment it was swimming away, and in the next it was streaking through the water right at Hoku.</p>
+<p class="indent">“Swim!” Aluna yelled, but he didn’t move. His arms drifted at his sides, his legs hung useless below him. He just stared at the shark.</p>
+<p class="indent">Aluna vaulted up from the ocean floor, waving both legs and both arms, and screamed, “Over here, you big guppy! Fight me instead!”</p>
+<p class="indent">Great White ignored her.</p>
+<p class="indent">Only one thing left to try. She flicked the point of her knife across her palm, fast and deep. A tiny red cloud puffed up from the wound. Her skin would knit itself back together quickly, thanks to the ancients who designed it, but even one drop was enough. Sharks could smell blood from kilometers away. There was nothing they loved more.</p>
+<p class="indent">Great White twitched. Aluna gasped, her vision suddenly eclipsed by the shark’s pale, monstrous body speeding toward her, fast as a harpoon. Deep battle scars marred its muzzle. Its great maw hung open, big enough to swallow her whole.</p>
+<p class="indent">She switched the grip on her knife so that the back of the blade rested against her forearm. <em>The knife is not a tool that you “use,”</em> her brother Anadar always said. <em>The knife is an extension of your arm. As soon as you pick it up, it becomes a part of you.</em></p>
+<p class="indent">She knew she couldn’t hurt the shark, not without a thick spear and the skill to drive it deep into the monster’s gills, but it wasn’t expecting her to fight back at all. Sharks never expected that. If she could slash it on the nose a few times before it bit her, it might decide she wasn’t worth the effort.</p>
+<p class="indent">The shark closed in. Aluna yelled and punched her knife at its nose. Great White dodged at the last moment and <em>flash!</em> A bright-green beam of light erupted from a spot above one of its pitiless black eyes.</p>
+<p class="indent">Glowing lines crisscrossed Aluna’s body. The shark had cast a net over her — a net of light! She watched the net move across the dark skin of her arms and legs and over the tight seal leather that covered the rest of her. The green light shimmered in the current, dancing and flickering like moonlight on the waves. It didn’t hurt. In fact, she couldn’t feel it at all.</p>
+<p class="indent">“Move!” Hoku yelled. His voice reverberated in her ear and woke her from her stupor.</p>
+<p class="indent">She straightened her legs, lifted her arms, and dropped like a stone through the water. She hit the ocean floor and flattened herself against it. Lots of sea creatures hid themselves in the sand. She tried to be one more. The shark’s flickering green gaze refracted through the water where she had been, as if it were looking for her.</p>
+<p class="indent">Aluna saw Hoku not far off, dug into the sand, just like her. “What’s going on?” she whispered.</p>
+<p class="indent">“I don’t know,” Hoku said. “I’ve never seen tech like that. And I’ve definitely never seen it coming from a shark!”</p>
+<p class="indent">The creature darted left and right, searching.</p>
+<p class="indent">Great White had legendary patience, while Aluna was renowned among the Coral Kampii for exactly the opposite. She couldn’t stay here forever. She had to take a chance.</p>
+<p class="indent">“Wait till it chases me, then circle back to the city,” she whispered. “Don’t follow me, no matter what.”</p>
+<p class="indent">She secured her knife in its sheath and waited. When Great White’s mysterious green light was farthest away, she pulled herself into a crouch, pressed her palms together over her head, and kicked off.</p>
+<p class="indent">“Aluna, what are you doing?” Hoku yelled.</p>
+<p class="indent">“Saving us,” she said simply, and swam for her life. For both of their lives.</p>
+</body>
+</html>
+2023-01-20 00:04:26 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-20 00:04:27 INFO  - Taking screenshot
+2023-01-20 00:04:28 INFO  - Test finished - logging out
+2023-01-20 00:04:29 INFO  - Button 'tabSettings' :: Clicking
+2023-01-20 00:04:31 INFO  - Button 'tabSettings' :: Clicking
+2023-01-20 00:04:32 INFO  - Button 'Accounts' :: Clicking
+2023-01-20 00:04:33 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-20 00:04:35 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-20 00:04:36 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-20 00:04:36 INFO  - Button 'Log out' :: Clicking
+2023-01-20 00:04:36 INFO  - Button 'Log in' :: Getting text from element
+2023-01-20 00:04:39 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-20 00:04:40 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-20 00:04:40 INFO  - Unlocking credential for current thread
+2023-01-20 00:04:40 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1f6778a

@@ -1,0 +1,448 @@
+2023-01-19 23:45:59 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-01-19 23:45:59 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-19 23:46:26 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-19 23:46:26 INFO  - Session id - 0496c9d497d6b1b97f38d6babffcbaa5a78248b9
+2023-01-19 23:46:26 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-19 23:46:26 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-19 23:46:29 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-19 23:46:29 INFO  - Button 'Search' :: Clicking
+2023-01-19 23:46:30 INFO  - Text Field 'Search' :: Clearing
+2023-01-19 23:46:30 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-19 23:46:33 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-19 23:46:33 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-19 23:46:33 INFO  - Button 'tabSettings' :: Clicking
+2023-01-19 23:46:34 INFO  - Button 'tabSettings' :: Clicking
+2023-01-19 23:46:35 INFO  - Button 'Accounts' :: Clicking
+2023-01-19 23:46:37 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-19 23:46:37 INFO  - Button 'tabSettings' :: Clicking
+2023-01-19 23:46:38 INFO  - Button 'tabSettings' :: Clicking
+2023-01-19 23:46:39 INFO  - Button 'Accounts' :: Clicking
+2023-01-19 23:46:40 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-19 23:46:41 INFO  - Locking credential with barcode 01230000000303
+2023-01-19 23:46:41 INFO  - There are books on the account: 
+2023-01-19 23:46:42 INFO  - There is not books on the account.
+2023-01-19 23:46:42 INFO  - Count of books on the account after opening account: 0
+2023-01-19 23:46:42 INFO  - Text Field 'Card' :: Clearing
+2023-01-19 23:46:42 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-01-19 23:46:44 INFO  - Text Field 'Pin' :: Clearing
+2023-01-19 23:46:44 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-19 23:46:45 INFO  - Button 'Log in' :: Clicking
+2023-01-19 23:46:51 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-19 23:46:51 INFO  - Step 3 - Login is performed successfully
+2023-01-19 23:47:12 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-19 23:47:12 INFO  - Step 4 - I open Catalog
+2023-01-19 23:47:12 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-19 23:47:33 INFO  - Step 5 - I open search modal
+2023-01-19 23:47:53 INFO  - Button 'Search' :: Clicking
+2023-01-19 23:47:55 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-19 23:47:55 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-19 23:47:55 INFO  - randomBookName: The Adventures of a Victorian Con Woman
+2023-01-19 23:47:55 INFO  - Error details button is not present
+2023-01-19 23:47:55 INFO  - Text Field 'Search value input' :: Sending keys 'The Adventures of a Victorian Con Woman'
+2023-01-19 23:47:56 INFO  - Button 'Apply search' :: Clicking
+2023-01-19 23:47:57 INFO  - Error details button is not present
+2023-01-19 23:48:01 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-19 23:48:02 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-19 23:48:02 INFO  - Button 'actionButton' :: Clicking
+2023-01-19 23:48:12 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-19 23:48:12 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-19 23:48:12 INFO  - Label 'lblBookName' :: Clicking
+2023-01-19 23:48:13 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-19 23:48:13 INFO  - Button 'Read' :: Clicking
+2023-01-19 23:48:14 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-19 23:48:14 INFO  - Scrolling 7 times on reader epub screen
+2023-01-19 23:48:29 INFO  - Step 11 - I save font size as 'fontSize'
+2023-01-19 23:48:29 INFO  - context - NATIVE_APP
+2023-01-19 23:48:29 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-19 23:48:30 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-19 23:48:31 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Adventures of a Victorian Con Woman</title>
+<link href="../style/9781526764874.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<a id="page_v"></a>
+<h1 class="toc-title"><span class="bold">Contents</span></h1>
+<h2 class="toc-chap1a"><a href="05_Introduction.xhtml"><span class="italic">Introduction</span></a></h2>
+<h2 class="toc-chapar"><a href="06_Part01.xhtml"><span class="bold">Part I: 1848–1872</span></a></h2>
+<h3 class="toc-chap1"><a href="07_Chapter01.xhtml"><span class="space1"><span class="bold">Chapter 1</span></span> Origins (1848–68)</a></h3>
+<h3 class="toc-chap1"><a href="08_Chapter02.xhtml"><span class="space1"><span class="bold">Chapter 2</span></span> A Growing Reputation (1868–70)</a></h3>
+<h3 class="toc-chap1"><a href="09_Chapter03.xhtml"><span class="space1"><span class="bold">Chapter 3</span></span> A Tale of Two Capitals (1871)</a></h3>
+<h3 class="toc-chap1"><a href="10_Chapter04.xhtml"><span class="space1"><span class="bold">Chapter 4</span></span> A European Sojourn (Dec 1871–Sept 1872)</a></h3>
+<h3 class="toc-chap1"><a href="11_Chapter05.xhtml"><span class="space1"><span class="bold">Chapter 5</span></span> The Prodigal Daughter (Sept–Oct 1872)</a></h3>
+<h3 class="toc-chap1"><a href="12_Chapter06.xhtml"><span class="space1"><span class="bold">Chapter 6</span></span> A Bad Press (Oct–Nov 1872)</a></h3>
+<h3 class="toc-chap1"><a href="13_Chapter07.xhtml"><span class="space1"><span class="bold">Chapter 7</span></span> The Trial (Dec 1872)</a></h3>
+<h2 class="toc-chapar"><a href="14_Part02.xhtml"><span class="bold">Part II: 1873–1884</span></a></h2>
+<h2 class="toc-chap1"><a href="15_Chapter08.xhtml"><span class="space1"><span class="bold">Chapter 8</span></span> The Willing Victim (1873–75)</a></h2>
+<h3 class="toc-chap1"><a href="16_Chapter09.xhtml"><span class="space1"><span class="bold">Chapter 9</span></span> A Scottish Retreat (1876)</a></h3>
+<h3 class="toc-chap1"><a href="17_Chapter10.xhtml"><span class="space1"><span class="bold">Chapter 10</span></span> The Road to Matrimony (1876)</a></h3>
+<h3 class="toc-chap1"><a href="18_Chapter11.xhtml"><span class="space1"><span class="bold">Chapter 11</span></span> America! (1877)</a></h3>
+<h3 class="toc-chap1"><a href="19_Chapter12.xhtml"><span class="space1"><span class="bold">Chapter 12</span></span> Mrs Ogilvie-Whyte (1878–83)</a></h3>
+<h3 class="toc-chap1"><a href="20_Chapter13.xhtml"><span class="space1"><span class="bold">Chapter 13</span></span> Theatrical Aspirations (1884)</a></h3>
+<h2 class="toc-chapar"><a href="21_Part03.xhtml"><span class="bold">Part III: 1884–1888</span></a></h2>
+<h3 class="toc-chap1"><a href="22_Chapter14.xhtml"><span class="space1"><span class="bold">Chapter 14</span></span> The Skye Crofters &amp; the Revolt of 1884</a></h3>
+<h3 class="toc-chap1"><a href="23_Chapter15.xhtml"><span class="space1"><span class="bold">Chapter 15</span></span> A Worthy Cause (Nov–Dec 1884)</a></h3>
+<h3 class="toc-chap1"><a href="24_Chapter16.xhtml"><span class="space1"><span class="bold">Chapter 16</span></span> Recollections (Nov–Dec 1884)</a></h3>
+<a id="page_vi"></a>
+<h3 class="toc-chap1"><a href="25_Chapter17.xhtml"><span class="space1"><span class="bold">Chapter 17</span></span> The Crofters’ Friend ( Jan 1885–Apr 1886)</a></h3>
+<h3 class="toc-chap1"><a href="26_Chapter18.xhtml"><span class="space1"><span class="bold">Chapter 18</span></span> Percy Frost &amp; the Bebros (May 1886)</a></h3>
+<h3 class="toc-chap1"><a href="27_Chapter19.xhtml"><span class="space1"><span class="bold">Chapter 19</span></span> New Zealand (Nov 1886–Apr 1887)</a></h3>
+<h3 class="toc-chap1"><a href="28_Chapter20.xhtml"><span class="space1"><span class="bold">Chapter 20</span></span> Australia (May–Jul 1887)</a></h3>
+<h3 class="toc-chap1"><a href="29_Chapter21.xhtml"><span class="space1"><span class="bold">Chapter 21</span></span> Tasmania and After ( July–Nov 1887)</a></h3>
+<h3 class="toc-chap1"><a href="30_Chapter22.xhtml"><span class="space1"><span class="bold">Chapter 22</span></span> Familiar Territory (1888)</a></h3>
+<h2 class="toc-chapar"><a href="31_Part04.xhtml"><span class="bold">Part IV: Jan–Dec 1888</span></a></h2>
+<h3 class="toc-chap1"><a href="32_Chapter23.xhtml"><span class="space1"><span class="bold">Chapter 23</span></span> The Net Closes (Feb–May 1888)</a></h3>
+<h3 class="toc-chap1"><a href="33_Chapter24.xhtml"><span class="space1"><span class="bold">Chapter 24</span></span> An Inspector Calls ( Jun 1888)</a></h3>
+<h3 class="toc-chap1"><a href="34_Chapter25.xhtml"><span class="space1"><span class="bold">Chapter 25</span></span> The Police Court ( Jul–Sept 1888)</a></h3>
+<h3 class="toc-chap1"><a href="35_Chapter26.xhtml"><span class="space1"><span class="bold">Chapter 26</span></span> The Reckoning (Oct 1888)</a></h3>
+<h2 class="toc-chapar"><a href="36_Part05.xhtml"><span class="bold">Part V: 1889–1903</span></a></h2>
+<h3 class="toc-chap1"><a href="37_Chapter27.xhtml"><span class="space1"><span class="bold">Chapter 27</span></span> A Glimpse of Freedom! (1891)</a></h3>
+<h3 class="toc-chap1"><a href="38_Chapter28.xhtml"><span class="space1"><span class="bold">Chapter 28</span></span> Oh Dear! Oh Dear! (May 1894)</a></h3>
+<h3 class="toc-chap1"><a href="39_Chapter29.xhtml"><span class="space1"><span class="bold">Chapter 29</span></span> A Sad Ending (1894–1903)</a></h3>
+<h2 class="toc-chap1"><a href="40_Chapter30.xhtml"><span class="space1"><span class="bold">Chapter 30</span></span> Afterword</a></h2>
+</body>
+</html>
+2023-01-19 23:48:31 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-19 23:48:31 INFO  - Step 12 - I open font settings
+2023-01-19 23:48:31 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-19 23:48:32 INFO  - Step 13 - I INCREASE_FONT of text
+2023-01-19 23:48:32 INFO  - Button 'setTextLarger' :: Clicking
+2023-01-19 23:48:32 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-01-19 23:48:33 INFO  - context - NATIVE_APP
+2023-01-19 23:48:33 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-19 23:48:34 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-19 23:48:34 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Adventures of a Victorian Con Woman</title>
+<link href="../style/9781526764874.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<a id="page_v"></a>
+<h1 class="toc-title"><span class="bold">Contents</span></h1>
+<h2 class="toc-chap1a"><a href="05_Introduction.xhtml"><span class="italic">Introduction</span></a></h2>
+<h2 class="toc-chapar"><a href="06_Part01.xhtml"><span class="bold">Part I: 1848–1872</span></a></h2>
+<h3 class="toc-chap1"><a href="07_Chapter01.xhtml"><span class="space1"><span class="bold">Chapter 1</span></span> Origins (1848–68)</a></h3>
+<h3 class="toc-chap1"><a href="08_Chapter02.xhtml"><span class="space1"><span class="bold">Chapter 2</span></span> A Growing Reputation (1868–70)</a></h3>
+<h3 class="toc-chap1"><a href="09_Chapter03.xhtml"><span class="space1"><span class="bold">Chapter 3</span></span> A Tale of Two Capitals (1871)</a></h3>
+<h3 class="toc-chap1"><a href="10_Chapter04.xhtml"><span class="space1"><span class="bold">Chapter 4</span></span> A European Sojourn (Dec 1871–Sept 1872)</a></h3>
+<h3 class="toc-chap1"><a href="11_Chapter05.xhtml"><span class="space1"><span class="bold">Chapter 5</span></span> The Prodigal Daughter (Sept–Oct 1872)</a></h3>
+<h3 class="toc-chap1"><a href="12_Chapter06.xhtml"><span class="space1"><span class="bold">Chapter 6</span></span> A Bad Press (Oct–Nov 1872)</a></h3>
+<h3 class="toc-chap1"><a href="13_Chapter07.xhtml"><span class="space1"><span class="bold">Chapter 7</span></span> The Trial (Dec 1872)</a></h3>
+<h2 class="toc-chapar"><a href="14_Part02.xhtml"><span class="bold">Part II: 1873–1884</span></a></h2>
+<h2 class="toc-chap1"><a href="15_Chapter08.xhtml"><span class="space1"><span class="bold">Chapter 8</span></span> The Willing Victim (1873–75)</a></h2>
+<h3 class="toc-chap1"><a href="16_Chapter09.xhtml"><span class="space1"><span class="bold">Chapter 9</span></span> A Scottish Retreat (1876)</a></h3>
+<h3 class="toc-chap1"><a href="17_Chapter10.xhtml"><span class="space1"><span class="bold">Chapter 10</span></span> The Road to Matrimony (1876)</a></h3>
+<h3 class="toc-chap1"><a href="18_Chapter11.xhtml"><span class="space1"><span class="bold">Chapter 11</span></span> America! (1877)</a></h3>
+<h3 class="toc-chap1"><a href="19_Chapter12.xhtml"><span class="space1"><span class="bold">Chapter 12</span></span> Mrs Ogilvie-Whyte (1878–83)</a></h3>
+<h3 class="toc-chap1"><a href="20_Chapter13.xhtml"><span class="space1"><span class="bold">Chapter 13</span></span> Theatrical Aspirations (1884)</a></h3>
+<h2 class="toc-chapar"><a href="21_Part03.xhtml"><span class="bold">Part III: 1884–1888</span></a></h2>
+<h3 class="toc-chap1"><a href="22_Chapter14.xhtml"><span class="space1"><span class="bold">Chapter 14</span></span> The Skye Crofters &amp; the Revolt of 1884</a></h3>
+<h3 class="toc-chap1"><a href="23_Chapter15.xhtml"><span class="space1"><span class="bold">Chapter 15</span></span> A Worthy Cause (Nov–Dec 1884)</a></h3>
+<h3 class="toc-chap1"><a href="24_Chapter16.xhtml"><span class="space1"><span class="bold">Chapter 16</span></span> Recollections (Nov–Dec 1884)</a></h3>
+<a id="page_vi"></a>
+<h3 class="toc-chap1"><a href="25_Chapter17.xhtml"><span class="space1"><span class="bold">Chapter 17</span></span> The Crofters’ Friend ( Jan 1885–Apr 1886)</a></h3>
+<h3 class="toc-chap1"><a href="26_Chapter18.xhtml"><span class="space1"><span class="bold">Chapter 18</span></span> Percy Frost &amp; the Bebros (May 1886)</a></h3>
+<h3 class="toc-chap1"><a href="27_Chapter19.xhtml"><span class="space1"><span class="bold">Chapter 19</span></span> New Zealand (Nov 1886–Apr 1887)</a></h3>
+<h3 class="toc-chap1"><a href="28_Chapter20.xhtml"><span class="space1"><span class="bold">Chapter 20</span></span> Australia (May–Jul 1887)</a></h3>
+<h3 class="toc-chap1"><a href="29_Chapter21.xhtml"><span class="space1"><span class="bold">Chapter 21</span></span> Tasmania and After ( July–Nov 1887)</a></h3>
+<h3 class="toc-chap1"><a href="30_Chapter22.xhtml"><span class="space1"><span class="bold">Chapter 22</span></span> Familiar Territory (1888)</a></h3>
+<h2 class="toc-chapar"><a href="31_Part04.xhtml"><span class="bold">Part IV: Jan–Dec 1888</span></a></h2>
+<h3 class="toc-chap1"><a href="32_Chapter23.xhtml"><span class="space1"><span class="bold">Chapter 23</span></span> The Net Closes (Feb–May 1888)</a></h3>
+<h3 class="toc-chap1"><a href="33_Chapter24.xhtml"><span class="space1"><span class="bold">Chapter 24</span></span> An Inspector Calls ( Jun 1888)</a></h3>
+<h3 class="toc-chap1"><a href="34_Chapter25.xhtml"><span class="space1"><span class="bold">Chapter 25</span></span> The Police Court ( Jul–Sept 1888)</a></h3>
+<h3 class="toc-chap1"><a href="35_Chapter26.xhtml"><span class="space1"><span class="bold">Chapter 26</span></span> The Reckoning (Oct 1888)</a></h3>
+<h2 class="toc-chapar"><a href="36_Part05.xhtml"><span class="bold">Part V: 1889–1903</span></a></h2>
+<h3 class="toc-chap1"><a href="37_Chapter27.xhtml"><span class="space1"><span class="bold">Chapter 27</span></span> A Glimpse of Freedom! (1891)</a></h3>
+<h3 class="toc-chap1"><a href="38_Chapter28.xhtml"><span class="space1"><span class="bold">Chapter 28</span></span> Oh Dear! Oh Dear! (May 1894)</a></h3>
+<h3 class="toc-chap1"><a href="39_Chapter29.xhtml"><span class="space1"><span class="bold">Chapter 29</span></span> A Sad Ending (1894–1903)</a></h3>
+<h2 class="toc-chap1"><a href="40_Chapter30.xhtml"><span class="space1"><span class="bold">Chapter 30</span></span> Afterword</a></h2>
+</body>
+</html>
+2023-01-19 23:48:34 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-19 23:48:34 INFO  - Step 15 - I restart app
+2023-01-19 23:48:58 INFO  - Step 16 - I open Books
+2023-01-19 23:48:58 INFO  - Button 'tabBooks' :: Clicking
+2023-01-19 23:48:59 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-19 23:49:00 INFO  - Label 'lblBookName' :: Clicking
+2023-01-19 23:49:00 INFO  - Step 18 - Click READ action button on book details screen
+2023-01-19 23:49:02 INFO  - Button 'Read' :: Clicking
+2023-01-19 23:49:03 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-01-19 23:49:03 INFO  - context - NATIVE_APP
+2023-01-19 23:49:05 INFO  - context - NATIVE_APP
+2023-01-19 23:49:06 INFO  - context - NATIVE_APP
+2023-01-19 23:49:06 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-19 23:49:07 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-19 23:49:07 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Adventures of a Victorian Con Woman</title>
+<link href="../style/9781526764874.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<a id="page_v"></a>
+<h1 class="toc-title"><span class="bold">Contents</span></h1>
+<h2 class="toc-chap1a"><a href="05_Introduction.xhtml"><span class="italic">Introduction</span></a></h2>
+<h2 class="toc-chapar"><a href="06_Part01.xhtml"><span class="bold">Part I: 1848–1872</span></a></h2>
+<h3 class="toc-chap1"><a href="07_Chapter01.xhtml"><span class="space1"><span class="bold">Chapter 1</span></span> Origins (1848–68)</a></h3>
+<h3 class="toc-chap1"><a href="08_Chapter02.xhtml"><span class="space1"><span class="bold">Chapter 2</span></span> A Growing Reputation (1868–70)</a></h3>
+<h3 class="toc-chap1"><a href="09_Chapter03.xhtml"><span class="space1"><span class="bold">Chapter 3</span></span> A Tale of Two Capitals (1871)</a></h3>
+<h3 class="toc-chap1"><a href="10_Chapter04.xhtml"><span class="space1"><span class="bold">Chapter 4</span></span> A European Sojourn (Dec 1871–Sept 1872)</a></h3>
+<h3 class="toc-chap1"><a href="11_Chapter05.xhtml"><span class="space1"><span class="bold">Chapter 5</span></span> The Prodigal Daughter (Sept–Oct 1872)</a></h3>
+<h3 class="toc-chap1"><a href="12_Chapter06.xhtml"><span class="space1"><span class="bold">Chapter 6</span></span> A Bad Press (Oct–Nov 1872)</a></h3>
+<h3 class="toc-chap1"><a href="13_Chapter07.xhtml"><span class="space1"><span class="bold">Chapter 7</span></span> The Trial (Dec 1872)</a></h3>
+<h2 class="toc-chapar"><a href="14_Part02.xhtml"><span class="bold">Part II: 1873–1884</span></a></h2>
+<h2 class="toc-chap1"><a href="15_Chapter08.xhtml"><span class="space1"><span class="bold">Chapter 8</span></span> The Willing Victim (1873–75)</a></h2>
+<h3 class="toc-chap1"><a href="16_Chapter09.xhtml"><span class="space1"><span class="bold">Chapter 9</span></span> A Scottish Retreat (1876)</a></h3>
+<h3 class="toc-chap1"><a href="17_Chapter10.xhtml"><span class="space1"><span class="bold">Chapter 10</span></span> The Road to Matrimony (1876)</a></h3>
+<h3 class="toc-chap1"><a href="18_Chapter11.xhtml"><span class="space1"><span class="bold">Chapter 11</span></span> America! (1877)</a></h3>
+<h3 class="toc-chap1"><a href="19_Chapter12.xhtml"><span class="space1"><span class="bold">Chapter 12</span></span> Mrs Ogilvie-Whyte (1878–83)</a></h3>
+<h3 class="toc-chap1"><a href="20_Chapter13.xhtml"><span class="space1"><span class="bold">Chapter 13</span></span> Theatrical Aspirations (1884)</a></h3>
+<h2 class="toc-chapar"><a href="21_Part03.xhtml"><span class="bold">Part III: 1884–1888</span></a></h2>
+<h3 class="toc-chap1"><a href="22_Chapter14.xhtml"><span class="space1"><span class="bold">Chapter 14</span></span> The Skye Crofters &amp; the Revolt of 1884</a></h3>
+<h3 class="toc-chap1"><a href="23_Chapter15.xhtml"><span class="space1"><span class="bold">Chapter 15</span></span> A Worthy Cause (Nov–Dec 1884)</a></h3>
+<h3 class="toc-chap1"><a href="24_Chapter16.xhtml"><span class="space1"><span class="bold">Chapter 16</span></span> Recollections (Nov–Dec 1884)</a></h3>
+<a id="page_vi"></a>
+<h3 class="toc-chap1"><a href="25_Chapter17.xhtml"><span class="space1"><span class="bold">Chapter 17</span></span> The Crofters’ Friend ( Jan 1885–Apr 1886)</a></h3>
+<h3 class="toc-chap1"><a href="26_Chapter18.xhtml"><span class="space1"><span class="bold">Chapter 18</span></span> Percy Frost &amp; the Bebros (May 1886)</a></h3>
+<h3 class="toc-chap1"><a href="27_Chapter19.xhtml"><span class="space1"><span class="bold">Chapter 19</span></span> New Zealand (Nov 1886–Apr 1887)</a></h3>
+<h3 class="toc-chap1"><a href="28_Chapter20.xhtml"><span class="space1"><span class="bold">Chapter 20</span></span> Australia (May–Jul 1887)</a></h3>
+<h3 class="toc-chap1"><a href="29_Chapter21.xhtml"><span class="space1"><span class="bold">Chapter 21</span></span> Tasmania and After ( July–Nov 1887)</a></h3>
+<h3 class="toc-chap1"><a href="30_Chapter22.xhtml"><span class="space1"><span class="bold">Chapter 22</span></span> Familiar Territory (1888)</a></h3>
+<h2 class="toc-chapar"><a href="31_Part04.xhtml"><span class="bold">Part IV: Jan–Dec 1888</span></a></h2>
+<h3 class="toc-chap1"><a href="32_Chapter23.xhtml"><span class="space1"><span class="bold">Chapter 23</span></span> The Net Closes (Feb–May 1888)</a></h3>
+<h3 class="toc-chap1"><a href="33_Chapter24.xhtml"><span class="space1"><span class="bold">Chapter 24</span></span> An Inspector Calls ( Jun 1888)</a></h3>
+<h3 class="toc-chap1"><a href="34_Chapter25.xhtml"><span class="space1"><span class="bold">Chapter 25</span></span> The Police Court ( Jul–Sept 1888)</a></h3>
+<h3 class="toc-chap1"><a href="35_Chapter26.xhtml"><span class="space1"><span class="bold">Chapter 26</span></span> The Reckoning (Oct 1888)</a></h3>
+<h2 class="toc-chapar"><a href="36_Part05.xhtml"><span class="bold">Part V: 1889–1903</span></a></h2>
+<h3 class="toc-chap1"><a href="37_Chapter27.xhtml"><span class="space1"><span class="bold">Chapter 27</span></span> A Glimpse of Freedom! (1891)</a></h3>
+<h3 class="toc-chap1"><a href="38_Chapter28.xhtml"><span class="space1"><span class="bold">Chapter 28</span></span> Oh Dear! Oh Dear! (May 1894)</a></h3>
+<h3 class="toc-chap1"><a href="39_Chapter29.xhtml"><span class="space1"><span class="bold">Chapter 29</span></span> A Sad Ending (1894–1903)</a></h3>
+<h2 class="toc-chap1"><a href="40_Chapter30.xhtml"><span class="space1"><span class="bold">Chapter 30</span></span> Afterword</a></h2>
+</body>
+</html>
+2023-01-19 23:49:07 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-19 23:49:08 INFO  - Step 20 - I return to previous screen from epub
+2023-01-19 23:49:09 INFO  - Button 'btnBack' :: Clicking
+2023-01-19 23:49:09 INFO  - Step 21 - Click READ action button on book details screen
+2023-01-19 23:49:10 INFO  - Button 'Read' :: Clicking
+2023-01-19 23:49:11 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-01-19 23:49:11 INFO  - context - NATIVE_APP
+2023-01-19 23:49:11 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-19 23:49:13 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-19 23:49:13 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Adventures of a Victorian Con Woman</title>
+<link href="../style/9781526764874.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<a id="page_v"></a>
+<h1 class="toc-title"><span class="bold">Contents</span></h1>
+<h2 class="toc-chap1a"><a href="05_Introduction.xhtml"><span class="italic">Introduction</span></a></h2>
+<h2 class="toc-chapar"><a href="06_Part01.xhtml"><span class="bold">Part I: 1848–1872</span></a></h2>
+<h3 class="toc-chap1"><a href="07_Chapter01.xhtml"><span class="space1"><span class="bold">Chapter 1</span></span> Origins (1848–68)</a></h3>
+<h3 class="toc-chap1"><a href="08_Chapter02.xhtml"><span class="space1"><span class="bold">Chapter 2</span></span> A Growing Reputation (1868–70)</a></h3>
+<h3 class="toc-chap1"><a href="09_Chapter03.xhtml"><span class="space1"><span class="bold">Chapter 3</span></span> A Tale of Two Capitals (1871)</a></h3>
+<h3 class="toc-chap1"><a href="10_Chapter04.xhtml"><span class="space1"><span class="bold">Chapter 4</span></span> A European Sojourn (Dec 1871–Sept 1872)</a></h3>
+<h3 class="toc-chap1"><a href="11_Chapter05.xhtml"><span class="space1"><span class="bold">Chapter 5</span></span> The Prodigal Daughter (Sept–Oct 1872)</a></h3>
+<h3 class="toc-chap1"><a href="12_Chapter06.xhtml"><span class="space1"><span class="bold">Chapter 6</span></span> A Bad Press (Oct–Nov 1872)</a></h3>
+<h3 class="toc-chap1"><a href="13_Chapter07.xhtml"><span class="space1"><span class="bold">Chapter 7</span></span> The Trial (Dec 1872)</a></h3>
+<h2 class="toc-chapar"><a href="14_Part02.xhtml"><span class="bold">Part II: 1873–1884</span></a></h2>
+<h2 class="toc-chap1"><a href="15_Chapter08.xhtml"><span class="space1"><span class="bold">Chapter 8</span></span> The Willing Victim (1873–75)</a></h2>
+<h3 class="toc-chap1"><a href="16_Chapter09.xhtml"><span class="space1"><span class="bold">Chapter 9</span></span> A Scottish Retreat (1876)</a></h3>
+<h3 class="toc-chap1"><a href="17_Chapter10.xhtml"><span class="space1"><span class="bold">Chapter 10</span></span> The Road to Matrimony (1876)</a></h3>
+<h3 class="toc-chap1"><a href="18_Chapter11.xhtml"><span class="space1"><span class="bold">Chapter 11</span></span> America! (1877)</a></h3>
+<h3 class="toc-chap1"><a href="19_Chapter12.xhtml"><span class="space1"><span class="bold">Chapter 12</span></span> Mrs Ogilvie-Whyte (1878–83)</a></h3>
+<h3 class="toc-chap1"><a href="20_Chapter13.xhtml"><span class="space1"><span class="bold">Chapter 13</span></span> Theatrical Aspirations (1884)</a></h3>
+<h2 class="toc-chapar"><a href="21_Part03.xhtml"><span class="bold">Part III: 1884–1888</span></a></h2>
+<h3 class="toc-chap1"><a href="22_Chapter14.xhtml"><span class="space1"><span class="bold">Chapter 14</span></span> The Skye Crofters &amp; the Revolt of 1884</a></h3>
+<h3 class="toc-chap1"><a href="23_Chapter15.xhtml"><span class="space1"><span class="bold">Chapter 15</span></span> A Worthy Cause (Nov–Dec 1884)</a></h3>
+<h3 class="toc-chap1"><a href="24_Chapter16.xhtml"><span class="space1"><span class="bold">Chapter 16</span></span> Recollections (Nov–Dec 1884)</a></h3>
+<a id="page_vi"></a>
+<h3 class="toc-chap1"><a href="25_Chapter17.xhtml"><span class="space1"><span class="bold">Chapter 17</span></span> The Crofters’ Friend ( Jan 1885–Apr 1886)</a></h3>
+<h3 class="toc-chap1"><a href="26_Chapter18.xhtml"><span class="space1"><span class="bold">Chapter 18</span></span> Percy Frost &amp; the Bebros (May 1886)</a></h3>
+<h3 class="toc-chap1"><a href="27_Chapter19.xhtml"><span class="space1"><span class="bold">Chapter 19</span></span> New Zealand (Nov 1886–Apr 1887)</a></h3>
+<h3 class="toc-chap1"><a href="28_Chapter20.xhtml"><span class="space1"><span class="bold">Chapter 20</span></span> Australia (May–Jul 1887)</a></h3>
+<h3 class="toc-chap1"><a href="29_Chapter21.xhtml"><span class="space1"><span class="bold">Chapter 21</span></span> Tasmania and After ( July–Nov 1887)</a></h3>
+<h3 class="toc-chap1"><a href="30_Chapter22.xhtml"><span class="space1"><span class="bold">Chapter 22</span></span> Familiar Territory (1888)</a></h3>
+<h2 class="toc-chapar"><a href="31_Part04.xhtml"><span class="bold">Part IV: Jan–Dec 1888</span></a></h2>
+<h3 class="toc-chap1"><a href="32_Chapter23.xhtml"><span class="space1"><span class="bold">Chapter 23</span></span> The Net Closes (Feb–May 1888)</a></h3>
+<h3 class="toc-chap1"><a href="33_Chapter24.xhtml"><span class="space1"><span class="bold">Chapter 24</span></span> An Inspector Calls ( Jun 1888)</a></h3>
+<h3 class="toc-chap1"><a href="34_Chapter25.xhtml"><span class="space1"><span class="bold">Chapter 25</span></span> The Police Court ( Jul–Sept 1888)</a></h3>
+<h3 class="toc-chap1"><a href="35_Chapter26.xhtml"><span class="space1"><span class="bold">Chapter 26</span></span> The Reckoning (Oct 1888)</a></h3>
+<h2 class="toc-chapar"><a href="36_Part05.xhtml"><span class="bold">Part V: 1889–1903</span></a></h2>
+<h3 class="toc-chap1"><a href="37_Chapter27.xhtml"><span class="space1"><span class="bold">Chapter 27</span></span> A Glimpse of Freedom! (1891)</a></h3>
+<h3 class="toc-chap1"><a href="38_Chapter28.xhtml"><span class="space1"><span class="bold">Chapter 28</span></span> Oh Dear! Oh Dear! (May 1894)</a></h3>
+<h3 class="toc-chap1"><a href="39_Chapter29.xhtml"><span class="space1"><span class="bold">Chapter 29</span></span> A Sad Ending (1894–1903)</a></h3>
+<h2 class="toc-chap1"><a href="40_Chapter30.xhtml"><span class="space1"><span class="bold">Chapter 30</span></span> Afterword</a></h2>
+</body>
+</html>
+2023-01-19 23:49:13 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-19 23:49:14 INFO  - Step 23 - I save font size as 'fontSize'
+2023-01-19 23:49:14 INFO  - context - NATIVE_APP
+2023-01-19 23:49:14 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-19 23:49:15 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-19 23:49:15 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Adventures of a Victorian Con Woman</title>
+<link href="../style/9781526764874.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<a id="page_v"></a>
+<h1 class="toc-title"><span class="bold">Contents</span></h1>
+<h2 class="toc-chap1a"><a href="05_Introduction.xhtml"><span class="italic">Introduction</span></a></h2>
+<h2 class="toc-chapar"><a href="06_Part01.xhtml"><span class="bold">Part I: 1848–1872</span></a></h2>
+<h3 class="toc-chap1"><a href="07_Chapter01.xhtml"><span class="space1"><span class="bold">Chapter 1</span></span> Origins (1848–68)</a></h3>
+<h3 class="toc-chap1"><a href="08_Chapter02.xhtml"><span class="space1"><span class="bold">Chapter 2</span></span> A Growing Reputation (1868–70)</a></h3>
+<h3 class="toc-chap1"><a href="09_Chapter03.xhtml"><span class="space1"><span class="bold">Chapter 3</span></span> A Tale of Two Capitals (1871)</a></h3>
+<h3 class="toc-chap1"><a href="10_Chapter04.xhtml"><span class="space1"><span class="bold">Chapter 4</span></span> A European Sojourn (Dec 1871–Sept 1872)</a></h3>
+<h3 class="toc-chap1"><a href="11_Chapter05.xhtml"><span class="space1"><span class="bold">Chapter 5</span></span> The Prodigal Daughter (Sept–Oct 1872)</a></h3>
+<h3 class="toc-chap1"><a href="12_Chapter06.xhtml"><span class="space1"><span class="bold">Chapter 6</span></span> A Bad Press (Oct–Nov 1872)</a></h3>
+<h3 class="toc-chap1"><a href="13_Chapter07.xhtml"><span class="space1"><span class="bold">Chapter 7</span></span> The Trial (Dec 1872)</a></h3>
+<h2 class="toc-chapar"><a href="14_Part02.xhtml"><span class="bold">Part II: 1873–1884</span></a></h2>
+<h2 class="toc-chap1"><a href="15_Chapter08.xhtml"><span class="space1"><span class="bold">Chapter 8</span></span> The Willing Victim (1873–75)</a></h2>
+<h3 class="toc-chap1"><a href="16_Chapter09.xhtml"><span class="space1"><span class="bold">Chapter 9</span></span> A Scottish Retreat (1876)</a></h3>
+<h3 class="toc-chap1"><a href="17_Chapter10.xhtml"><span class="space1"><span class="bold">Chapter 10</span></span> The Road to Matrimony (1876)</a></h3>
+<h3 class="toc-chap1"><a href="18_Chapter11.xhtml"><span class="space1"><span class="bold">Chapter 11</span></span> America! (1877)</a></h3>
+<h3 class="toc-chap1"><a href="19_Chapter12.xhtml"><span class="space1"><span class="bold">Chapter 12</span></span> Mrs Ogilvie-Whyte (1878–83)</a></h3>
+<h3 class="toc-chap1"><a href="20_Chapter13.xhtml"><span class="space1"><span class="bold">Chapter 13</span></span> Theatrical Aspirations (1884)</a></h3>
+<h2 class="toc-chapar"><a href="21_Part03.xhtml"><span class="bold">Part III: 1884–1888</span></a></h2>
+<h3 class="toc-chap1"><a href="22_Chapter14.xhtml"><span class="space1"><span class="bold">Chapter 14</span></span> The Skye Crofters &amp; the Revolt of 1884</a></h3>
+<h3 class="toc-chap1"><a href="23_Chapter15.xhtml"><span class="space1"><span class="bold">Chapter 15</span></span> A Worthy Cause (Nov–Dec 1884)</a></h3>
+<h3 class="toc-chap1"><a href="24_Chapter16.xhtml"><span class="space1"><span class="bold">Chapter 16</span></span> Recollections (Nov–Dec 1884)</a></h3>
+<a id="page_vi"></a>
+<h3 class="toc-chap1"><a href="25_Chapter17.xhtml"><span class="space1"><span class="bold">Chapter 17</span></span> The Crofters’ Friend ( Jan 1885–Apr 1886)</a></h3>
+<h3 class="toc-chap1"><a href="26_Chapter18.xhtml"><span class="space1"><span class="bold">Chapter 18</span></span> Percy Frost &amp; the Bebros (May 1886)</a></h3>
+<h3 class="toc-chap1"><a href="27_Chapter19.xhtml"><span class="space1"><span class="bold">Chapter 19</span></span> New Zealand (Nov 1886–Apr 1887)</a></h3>
+<h3 class="toc-chap1"><a href="28_Chapter20.xhtml"><span class="space1"><span class="bold">Chapter 20</span></span> Australia (May–Jul 1887)</a></h3>
+<h3 class="toc-chap1"><a href="29_Chapter21.xhtml"><span class="space1"><span class="bold">Chapter 21</span></span> Tasmania and After ( July–Nov 1887)</a></h3>
+<h3 class="toc-chap1"><a href="30_Chapter22.xhtml"><span class="space1"><span class="bold">Chapter 22</span></span> Familiar Territory (1888)</a></h3>
+<h2 class="toc-chapar"><a href="31_Part04.xhtml"><span class="bold">Part IV: Jan–Dec 1888</span></a></h2>
+<h3 class="toc-chap1"><a href="32_Chapter23.xhtml"><span class="space1"><span class="bold">Chapter 23</span></span> The Net Closes (Feb–May 1888)</a></h3>
+<h3 class="toc-chap1"><a href="33_Chapter24.xhtml"><span class="space1"><span class="bold">Chapter 24</span></span> An Inspector Calls ( Jun 1888)</a></h3>
+<h3 class="toc-chap1"><a href="34_Chapter25.xhtml"><span class="space1"><span class="bold">Chapter 25</span></span> The Police Court ( Jul–Sept 1888)</a></h3>
+<h3 class="toc-chap1"><a href="35_Chapter26.xhtml"><span class="space1"><span class="bold">Chapter 26</span></span> The Reckoning (Oct 1888)</a></h3>
+<h2 class="toc-chapar"><a href="36_Part05.xhtml"><span class="bold">Part V: 1889–1903</span></a></h2>
+<h3 class="toc-chap1"><a href="37_Chapter27.xhtml"><span class="space1"><span class="bold">Chapter 27</span></span> A Glimpse of Freedom! (1891)</a></h3>
+<h3 class="toc-chap1"><a href="38_Chapter28.xhtml"><span class="space1"><span class="bold">Chapter 28</span></span> Oh Dear! Oh Dear! (May 1894)</a></h3>
+<h3 class="toc-chap1"><a href="39_Chapter29.xhtml"><span class="space1"><span class="bold">Chapter 29</span></span> A Sad Ending (1894–1903)</a></h3>
+<h2 class="toc-chap1"><a href="40_Chapter30.xhtml"><span class="space1"><span class="bold">Chapter 30</span></span> Afterword</a></h2>
+</body>
+</html>
+2023-01-19 23:49:15 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-19 23:49:15 INFO  - Step 24 - I open font settings
+2023-01-19 23:49:16 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-19 23:49:16 INFO  - Step 25 - I DECREASE_FONT of text
+2023-01-19 23:49:16 INFO  - Button 'setTextSmaller' :: Clicking
+2023-01-19 23:49:17 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-01-19 23:49:17 INFO  - context - NATIVE_APP
+2023-01-19 23:49:17 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-19 23:49:19 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-19 23:49:19 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Adventures of a Victorian Con Woman</title>
+<link href="../style/9781526764874.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<a id="page_v"></a>
+<h1 class="toc-title"><span class="bold">Contents</span></h1>
+<h2 class="toc-chap1a"><a href="05_Introduction.xhtml"><span class="italic">Introduction</span></a></h2>
+<h2 class="toc-chapar"><a href="06_Part01.xhtml"><span class="bold">Part I: 1848–1872</span></a></h2>
+<h3 class="toc-chap1"><a href="07_Chapter01.xhtml"><span class="space1"><span class="bold">Chapter 1</span></span> Origins (1848–68)</a></h3>
+<h3 class="toc-chap1"><a href="08_Chapter02.xhtml"><span class="space1"><span class="bold">Chapter 2</span></span> A Growing Reputation (1868–70)</a></h3>
+<h3 class="toc-chap1"><a href="09_Chapter03.xhtml"><span class="space1"><span class="bold">Chapter 3</span></span> A Tale of Two Capitals (1871)</a></h3>
+<h3 class="toc-chap1"><a href="10_Chapter04.xhtml"><span class="space1"><span class="bold">Chapter 4</span></span> A European Sojourn (Dec 1871–Sept 1872)</a></h3>
+<h3 class="toc-chap1"><a href="11_Chapter05.xhtml"><span class="space1"><span class="bold">Chapter 5</span></span> The Prodigal Daughter (Sept–Oct 1872)</a></h3>
+<h3 class="toc-chap1"><a href="12_Chapter06.xhtml"><span class="space1"><span class="bold">Chapter 6</span></span> A Bad Press (Oct–Nov 1872)</a></h3>
+<h3 class="toc-chap1"><a href="13_Chapter07.xhtml"><span class="space1"><span class="bold">Chapter 7</span></span> The Trial (Dec 1872)</a></h3>
+<h2 class="toc-chapar"><a href="14_Part02.xhtml"><span class="bold">Part II: 1873–1884</span></a></h2>
+<h2 class="toc-chap1"><a href="15_Chapter08.xhtml"><span class="space1"><span class="bold">Chapter 8</span></span> The Willing Victim (1873–75)</a></h2>
+<h3 class="toc-chap1"><a href="16_Chapter09.xhtml"><span class="space1"><span class="bold">Chapter 9</span></span> A Scottish Retreat (1876)</a></h3>
+<h3 class="toc-chap1"><a href="17_Chapter10.xhtml"><span class="space1"><span class="bold">Chapter 10</span></span> The Road to Matrimony (1876)</a></h3>
+<h3 class="toc-chap1"><a href="18_Chapter11.xhtml"><span class="space1"><span class="bold">Chapter 11</span></span> America! (1877)</a></h3>
+<h3 class="toc-chap1"><a href="19_Chapter12.xhtml"><span class="space1"><span class="bold">Chapter 12</span></span> Mrs Ogilvie-Whyte (1878–83)</a></h3>
+<h3 class="toc-chap1"><a href="20_Chapter13.xhtml"><span class="space1"><span class="bold">Chapter 13</span></span> Theatrical Aspirations (1884)</a></h3>
+<h2 class="toc-chapar"><a href="21_Part03.xhtml"><span class="bold">Part III: 1884–1888</span></a></h2>
+<h3 class="toc-chap1"><a href="22_Chapter14.xhtml"><span class="space1"><span class="bold">Chapter 14</span></span> The Skye Crofters &amp; the Revolt of 1884</a></h3>
+<h3 class="toc-chap1"><a href="23_Chapter15.xhtml"><span class="space1"><span class="bold">Chapter 15</span></span> A Worthy Cause (Nov–Dec 1884)</a></h3>
+<h3 class="toc-chap1"><a href="24_Chapter16.xhtml"><span class="space1"><span class="bold">Chapter 16</span></span> Recollections (Nov–Dec 1884)</a></h3>
+<a id="page_vi"></a>
+<h3 class="toc-chap1"><a href="25_Chapter17.xhtml"><span class="space1"><span class="bold">Chapter 17</span></span> The Crofters’ Friend ( Jan 1885–Apr 1886)</a></h3>
+<h3 class="toc-chap1"><a href="26_Chapter18.xhtml"><span class="space1"><span class="bold">Chapter 18</span></span> Percy Frost &amp; the Bebros (May 1886)</a></h3>
+<h3 class="toc-chap1"><a href="27_Chapter19.xhtml"><span class="space1"><span class="bold">Chapter 19</span></span> New Zealand (Nov 1886–Apr 1887)</a></h3>
+<h3 class="toc-chap1"><a href="28_Chapter20.xhtml"><span class="space1"><span class="bold">Chapter 20</span></span> Australia (May–Jul 1887)</a></h3>
+<h3 class="toc-chap1"><a href="29_Chapter21.xhtml"><span class="space1"><span class="bold">Chapter 21</span></span> Tasmania and After ( July–Nov 1887)</a></h3>
+<h3 class="toc-chap1"><a href="30_Chapter22.xhtml"><span class="space1"><span class="bold">Chapter 22</span></span> Familiar Territory (1888)</a></h3>
+<h2 class="toc-chapar"><a href="31_Part04.xhtml"><span class="bold">Part IV: Jan–Dec 1888</span></a></h2>
+<h3 class="toc-chap1"><a href="32_Chapter23.xhtml"><span class="space1"><span class="bold">Chapter 23</span></span> The Net Closes (Feb–May 1888)</a></h3>
+<h3 class="toc-chap1"><a href="33_Chapter24.xhtml"><span class="space1"><span class="bold">Chapter 24</span></span> An Inspector Calls ( Jun 1888)</a></h3>
+<h3 class="toc-chap1"><a href="34_Chapter25.xhtml"><span class="space1"><span class="bold">Chapter 25</span></span> The Police Court ( Jul–Sept 1888)</a></h3>
+<h3 class="toc-chap1"><a href="35_Chapter26.xhtml"><span class="space1"><span class="bold">Chapter 26</span></span> The Reckoning (Oct 1888)</a></h3>
+<h2 class="toc-chapar"><a href="36_Part05.xhtml"><span class="bold">Part V: 1889–1903</span></a></h2>
+<h3 class="toc-chap1"><a href="37_Chapter27.xhtml"><span class="space1"><span class="bold">Chapter 27</span></span> A Glimpse of Freedom! (1891)</a></h3>
+<h3 class="toc-chap1"><a href="38_Chapter28.xhtml"><span class="space1"><span class="bold">Chapter 28</span></span> Oh Dear! Oh Dear! (May 1894)</a></h3>
+<h3 class="toc-chap1"><a href="39_Chapter29.xhtml"><span class="space1"><span class="bold">Chapter 29</span></span> A Sad Ending (1894–1903)</a></h3>
+<h2 class="toc-chap1"><a href="40_Chapter30.xhtml"><span class="space1"><span class="bold">Chapter 30</span></span> Afterword</a></h2>
+</body>
+</html>
+2023-01-19 23:49:19 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-19 23:49:19 INFO  - Taking screenshot
+2023-01-19 23:49:20 INFO  - Test finished - logging out
+2023-01-19 23:49:21 INFO  - Button 'tabSettings' :: Clicking
+2023-01-19 23:49:24 INFO  - Button 'tabSettings' :: Clicking
+2023-01-19 23:49:25 INFO  - Button 'Accounts' :: Clicking
+2023-01-19 23:49:26 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-19 23:49:28 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-19 23:49:29 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-19 23:49:29 INFO  - Button 'Log out' :: Clicking
+2023-01-19 23:49:29 INFO  - Button 'Log in' :: Getting text from element
+2023-01-19 23:49:32 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-19 23:49:33 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-19 23:49:33 INFO  - Unlocking credential for current thread
+2023-01-19 23:49:33 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1f6778a
