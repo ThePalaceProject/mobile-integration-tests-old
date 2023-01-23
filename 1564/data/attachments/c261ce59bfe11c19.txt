@@ -1,0 +1,28 @@
+2023-01-22 21:11:52 INFO  - Scenario 'Palace: Check of canceling the downloading from book details view' start
+2023-01-22 21:11:52 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-22 21:12:16 INFO  - Application on platform 'IOS' is ready...
+2023-01-22 21:12:16 INFO  - Session id - ddf4bf5d1a0f97083261ab363de055e4daa8e578
+2023-01-22 21:12:16 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2023-01-22 21:12:37 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-22 21:12:38 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-22 21:12:38 INFO  - Text Field 'Search field' :: Clicking
+2023-01-22 21:12:45 INFO  - Text Field 'Search field' :: Clearing
+2023-01-22 21:12:45 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-01-22 21:12:55 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-01-22 21:12:56 INFO  - Step 1 - I open Catalog
+2023-01-22 21:12:56 INFO  - Button 'Catalog' :: Clicking
+2023-01-22 21:12:58 INFO  - Step 2 - I open search modal
+2023-01-22 21:12:58 INFO  - Button 'Search' :: Clicking
+2023-01-22 21:13:00 INFO  - Step 3 - I search for "The Ragged Edge" and save bookName as 'bookNameInfo'
+2023-01-22 21:13:00 INFO  - Text Field 'Search value input' :: Sending keys 'The Ragged Edge'
+2023-01-22 21:13:02 INFO  - Button 'Search' :: Clicking
+2023-01-22 21:13:03 INFO  - Step 4 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-22 21:13:05 INFO  - Label 'lblBookName' :: Clicking
+2023-01-22 21:13:05 INFO  - Step 5 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-01-22 21:13:05 INFO  - Button 'Get' :: Clicking
+2023-01-22 21:13:07 INFO  - Button 'Cancel' :: Clicking
+2023-01-22 21:13:08 INFO  - Step 6 - I check that book contains DOWNLOAD action button on book details screen
+2023-01-22 21:13:09 INFO  - Step 7 - I check that book contains DELETE action button on book details screen
+2023-01-22 21:13:10 INFO  - Taking screenshot
+2023-01-22 21:13:12 INFO  - Unlocking credential for current thread
+2023-01-22 21:13:12 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@38bead47
