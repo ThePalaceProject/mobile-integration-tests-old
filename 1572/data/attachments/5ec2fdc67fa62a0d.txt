@@ -1,0 +1,35 @@
+2023-01-24 20:52:37 INFO  - Scenario 'Check of a book title and author in LYRASIS' start
+2023-01-24 20:52:37 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-24 20:52:59 INFO  - Application on platform 'IOS' is ready...
+2023-01-24 20:52:59 INFO  - Session id - e44e03182db61b11890b16477428d3e520209617
+2023-01-24 20:52:59 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-24 20:53:20 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-24 20:53:21 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-24 20:53:22 INFO  - Text Field 'Search field' :: Clicking
+2023-01-24 20:53:30 INFO  - Text Field 'Search field' :: Clearing
+2023-01-24 20:53:30 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-24 20:53:40 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-24 20:53:42 INFO  - Step 1 - I open Catalog
+2023-01-24 20:53:42 INFO  - Button 'Catalog' :: Clicking
+2023-01-24 20:53:44 INFO  - Step 2 - I open search modal
+2023-01-24 20:53:45 INFO  - Button 'Search' :: Clicking
+2023-01-24 20:53:47 INFO  - Step 3 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-24 20:53:47 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-24 20:53:47 INFO  - randomBookName: Ginny Goblin Cannot Have a Monster for a Pet
+2023-01-24 20:53:48 INFO  - Text Field 'Search value input' :: Sending keys 'Ginny Goblin Cannot Have a Monster for a Pet'
+2023-01-24 20:53:49 INFO  - Button 'Search' :: Clicking
+2023-01-24 20:53:51 INFO  - Step 4 - I switch to 'eBooks' catalog tab
+2023-01-24 20:53:51 INFO  - Button 'eBooks' :: Clicking
+2023-01-24 20:54:33 INFO  - Step 5 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-24 20:54:34 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-24 20:54:35 INFO  - Label 'lblBookName' :: Clicking
+2023-01-24 20:54:37 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-01-24 20:54:38 INFO  - Label 'Book title' :: Getting text from element
+2023-01-24 20:54:41 INFO  - Label 'Author' :: Getting text from element
+2023-01-24 20:54:44 INFO  - Label 'Book title' :: Getting text from element
+2023-01-24 20:54:50 INFO  - Label 'Author' :: Getting text from element
+2023-01-24 20:54:50 INFO  - Step 7 - Book 'bookInfo' has correct title and author name on book details screen
+2023-01-24 20:54:51 INFO  - Step 8 - The book cover is displayed on book details screen
+2023-01-24 20:54:51 INFO  - Taking screenshot
+2023-01-24 20:54:53 INFO  - Unlocking credential for current thread
+2023-01-24 20:54:53 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@55b0e66e
