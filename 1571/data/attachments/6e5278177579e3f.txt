@@ -1,0 +1,69 @@
+2023-01-24 17:52:48 INFO  - Scenario 'Navigate by bookmarks' start
+2023-01-24 17:52:48 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-24 17:53:09 INFO  - Application on platform 'IOS' is ready...
+2023-01-24 17:53:09 INFO  - Session id - 8f83bcc23219e7f6ffd1e96c19580a5bd33c37fe
+2023-01-24 17:53:09 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-24 17:53:30 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-24 17:53:32 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-24 17:53:33 INFO  - Text Field 'Search field' :: Clicking
+2023-01-24 17:53:40 INFO  - Text Field 'Search field' :: Clearing
+2023-01-24 17:53:40 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-24 17:53:51 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-24 17:53:54 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-24 17:53:54 INFO  - Button 'Settings' :: Clicking
+2023-01-24 17:53:55 INFO  - Button 'Settings' :: Clicking
+2023-01-24 17:53:57 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-24 17:53:59 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-24 17:53:59 INFO  - Button 'Settings' :: Clicking
+2023-01-24 17:54:01 INFO  - Button 'Settings' :: Clicking
+2023-01-24 17:54:02 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-24 17:54:06 INFO  - Locking credential with barcode 01230000000303
+2023-01-24 17:54:06 INFO  - There are books on the account: 
+2023-01-24 17:54:07 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-01-24 17:54:07 INFO  - bookName: Sapiens Distributor: Palace Marketplace
+2023-01-24 17:54:07 INFO  - Count of books on the account after opening account: 2
+2023-01-24 17:54:29 INFO  - Text Field 'Card' :: Clicking
+2023-01-24 17:54:30 INFO  - Text Field 'Card' :: Clearing
+2023-01-24 17:54:30 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-01-24 17:54:34 INFO  - Text Field 'Pin' :: Clearing
+2023-01-24 17:54:34 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-24 17:54:39 INFO  - Button 'Log in' :: Clicking
+2023-01-24 17:55:02 INFO  - Step 3 - Login is performed successfully
+2023-01-24 17:55:03 INFO  - Step 4 - I open Catalog
+2023-01-24 17:55:03 INFO  - Button 'Catalog' :: Clicking
+2023-01-24 17:55:06 INFO  - Step 5 - I open search modal
+2023-01-24 17:55:07 INFO  - Button 'Search' :: Clicking
+2023-01-24 17:55:10 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-24 17:55:10 INFO  - Count of attempts to get random book name without bad symbols-3
+2023-01-24 17:55:10 INFO  - randomBookName: Winds Through Time
+2023-01-24 17:55:11 INFO  - Text Field 'Search value input' :: Sending keys 'Winds Through Time'
+2023-01-24 17:55:13 INFO  - Button 'Search' :: Clicking
+2023-01-24 17:55:17 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-24 17:55:34 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-24 17:55:35 INFO  - Button 'actionButton' :: Clicking
+2023-01-24 17:55:58 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-24 17:56:00 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-24 17:56:01 INFO  - Label 'lblBookName' :: Clicking
+2023-01-24 17:56:03 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-24 17:56:04 INFO  - Button 'Read' :: Clicking
+2023-01-24 17:56:26 INFO  - Step 10 - I click on right book corner on epub reader screen
+2023-01-24 17:56:30 INFO  - Step 11 - Add bookmark on reader epub screen
+2023-01-24 17:56:31 INFO  - Button 'Add Bookmark' :: Clicking
+2023-01-24 17:56:33 INFO  - Step 12 - Bookmark is displayed on reader epub screen
+2023-01-24 17:56:35 INFO  - Step 13 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-01-24 17:56:35 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-24 17:56:36 INFO  - Taking screenshot
+2023-01-24 17:56:38 INFO  - Test finished - logging out
+2023-01-24 17:56:41 INFO  - Button 'Settings' :: Clicking
+2023-01-24 17:56:43 INFO  - Button 'Settings' :: Clicking
+2023-01-24 17:56:44 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-24 17:56:49 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-24 17:56:50 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-24 17:56:52 INFO  - Button 'Log out' :: Clicking
+2023-01-24 17:56:53 INFO  - Button 'Log out approve' :: Clicking
+2023-01-24 17:56:57 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-01-24 17:56:59 INFO  - Button 'Log in' :: Getting text from element
+2023-01-24 17:57:03 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-24 17:57:04 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-24 17:57:06 INFO  - Unlocking credential for current thread
+2023-01-24 17:57:06 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6766fc1f

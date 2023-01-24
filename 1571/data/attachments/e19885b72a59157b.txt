@@ -1,0 +1,62 @@
+2023-01-24 16:34:48 INFO  - Scenario 'Biblioboard: Open the audiobook at the last open chapter and check time code' start
+2023-01-24 16:34:48 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-24 16:35:14 INFO  - Application on platform 'IOS' is ready...
+2023-01-24 16:35:14 INFO  - Session id - 3fa5e0b8230c29d34e4f822dc4e948e1a29a6a6e
+2023-01-24 16:35:14 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-24 16:35:36 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-24 16:35:37 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-24 16:35:38 INFO  - Text Field 'Search field' :: Clicking
+2023-01-24 16:35:44 INFO  - Text Field 'Search field' :: Clearing
+2023-01-24 16:35:44 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-24 16:35:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-24 16:35:58 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-24 16:35:58 INFO  - Button 'Settings' :: Clicking
+2023-01-24 16:35:59 INFO  - Button 'Settings' :: Clicking
+2023-01-24 16:36:00 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-24 16:36:02 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-24 16:36:02 INFO  - Button 'Settings' :: Clicking
+2023-01-24 16:36:03 INFO  - Button 'Settings' :: Clicking
+2023-01-24 16:36:04 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-24 16:36:08 INFO  - Locking credential with barcode 01230000000305
+2023-01-24 16:36:08 INFO  - There are books on the account: 
+2023-01-24 16:36:09 INFO  - bookName: Stolen Focus Distributor: Palace Marketplace
+2023-01-24 16:36:09 INFO  - bookName: Glimpses of the Moon Distributor: Palace Marketplace
+2023-01-24 16:36:09 INFO  - Count of books on the account after opening account: 2
+2023-01-24 16:36:31 INFO  - Text Field 'Card' :: Clicking
+2023-01-24 16:36:32 INFO  - Text Field 'Card' :: Clearing
+2023-01-24 16:36:32 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-01-24 16:36:36 INFO  - Text Field 'Pin' :: Clearing
+2023-01-24 16:36:36 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-24 16:36:40 INFO  - Button 'Log in' :: Clicking
+2023-01-24 16:36:49 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-24 16:36:52 INFO  - Step 3 - Login is performed successfully
+2023-01-24 16:36:52 INFO  - Step 4 - I open Catalog
+2023-01-24 16:36:53 INFO  - Button 'Catalog' :: Clicking
+2023-01-24 16:36:55 INFO  - Step 5 - I switch to 'Audiobooks' catalog tab
+2023-01-24 16:36:55 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-24 16:37:17 INFO  - Step 6 - I open 'New BiblioBoard Test' category
+2023-01-24 16:37:20 INFO  - Button 'New BiblioBoard Test' :: Clicking
+2023-01-24 16:37:22 INFO  - Step 7 - Change books visibility to show AVAILABLE_NOW
+2023-01-24 16:37:22 INFO  - Button 'Availability' :: Clicking
+2023-01-24 16:37:24 INFO  - Button 'Facet search value Available now' :: Clicking
+2023-01-24 16:37:25 INFO  - Step 8 - Click GET action button on random book from the catalog book screen and save book as 'bookInfo'
+2023-01-24 16:37:26 INFO  - Label 'Book name' :: Getting attribute 'name'
+2023-01-24 16:37:27 INFO  - Button 'Action button' :: Clicking
+2023-01-24 16:37:29 INFO  - Label 'Book name' :: Getting attribute 'name'
+2023-01-24 16:37:52 INFO  - Step 9 - Save book name of the book 'bookInfo' as 'bookNameInfo' on catalog book screen
+2023-01-24 16:37:52 INFO  - Step 10 - I check that book 'bookNameInfo' contains LISTEN action button on catalog book screen
+2023-01-24 16:37:52 INFO  - Taking screenshot
+2023-01-24 16:37:55 INFO  - Test finished - logging out
+2023-01-24 16:37:58 INFO  - Button 'Settings' :: Clicking
+2023-01-24 16:37:59 INFO  - Button 'Settings' :: Clicking
+2023-01-24 16:37:59 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-24 16:38:03 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-24 16:38:04 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-24 16:38:05 INFO  - Button 'Log out' :: Clicking
+2023-01-24 16:38:06 INFO  - Button 'Log out approve' :: Clicking
+2023-01-24 16:38:10 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-01-24 16:38:11 INFO  - Button 'Log in' :: Getting text from element
+2023-01-24 16:38:14 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-24 16:38:15 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-24 16:38:16 INFO  - Unlocking credential for current thread
+2023-01-24 16:38:16 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3537eb

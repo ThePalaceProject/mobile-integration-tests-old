@@ -1,0 +1,82 @@
+2023-01-24 18:10:51 INFO  - Scenario 'Search Pdf Functionality Lyrasis' start
+2023-01-24 18:10:51 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-24 18:11:12 INFO  - Application on platform 'IOS' is ready...
+2023-01-24 18:11:12 INFO  - Session id - d4abfc9abc75bbe0cf5b9a33142b15fd6a064ba2
+2023-01-24 18:11:12 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-24 18:11:32 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-24 18:11:33 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-24 18:11:34 INFO  - Text Field 'Search field' :: Clicking
+2023-01-24 18:11:41 INFO  - Text Field 'Search field' :: Clearing
+2023-01-24 18:11:41 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-24 18:11:51 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-24 18:11:53 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-24 18:11:53 INFO  - Button 'Settings' :: Clicking
+2023-01-24 18:11:54 INFO  - Button 'Settings' :: Clicking
+2023-01-24 18:11:56 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-24 18:11:57 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-24 18:11:57 INFO  - Button 'Settings' :: Clicking
+2023-01-24 18:11:58 INFO  - Button 'Settings' :: Clicking
+2023-01-24 18:12:00 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-24 18:12:02 INFO  - Locking credential with barcode 01230000000304
+2023-01-24 18:12:02 INFO  - There are books on the account: 
+2023-01-24 18:12:04 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-01-24 18:12:04 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-01-24 18:12:04 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-01-24 18:12:04 INFO  - Count of books on the account after opening account: 3
+2023-01-24 18:12:25 INFO  - Text Field 'Card' :: Clicking
+2023-01-24 18:12:26 INFO  - Text Field 'Card' :: Clearing
+2023-01-24 18:12:26 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-24 18:12:30 INFO  - Text Field 'Pin' :: Clearing
+2023-01-24 18:12:30 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-24 18:12:34 INFO  - Button 'Log in' :: Clicking
+2023-01-24 18:12:42 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-24 18:12:44 INFO  - Step 3 - Login is performed successfully
+2023-01-24 18:12:44 INFO  - Step 4 - I open Catalog
+2023-01-24 18:12:45 INFO  - Button 'Catalog' :: Clicking
+2023-01-24 18:12:47 INFO  - Step 5 - I open search modal
+2023-01-24 18:12:47 INFO  - Button 'Search' :: Clicking
+2023-01-24 18:12:50 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-24 18:12:50 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-24 18:12:50 INFO  - randomBookName: Octopuses :
+2023-01-24 18:12:50 INFO  - Text Field 'Search value input' :: Sending keys 'Octopuses :'
+2023-01-24 18:12:51 INFO  - Button 'Search' :: Clicking
+2023-01-24 18:12:53 INFO  - Step 7 - I switch to 'eBooks' catalog tab
+2023-01-24 18:12:53 INFO  - Button 'eBooks' :: Clicking
+2023-01-24 18:13:35 INFO  - Step 8 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-24 18:13:53 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-24 18:13:55 INFO  - Button 'actionButton' :: Clicking
+2023-01-24 18:14:20 INFO  - Step 9 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-01-24 18:14:22 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-24 18:14:23 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-24 18:14:24 INFO  - Label 'lblBookName' :: Clicking
+2023-01-24 18:14:25 INFO  - Step 11 - Click READ action button on book details screen
+2023-01-24 18:14:26 INFO  - Button 'Read' :: Clicking
+2023-01-24 18:14:47 INFO  - Step 12 - Reader pdf screen is opened
+2023-01-24 18:14:48 INFO  - Step 13 - I open search pdf screen
+2023-01-24 18:14:48 INFO  - Button 'Search button' :: Clicking
+2023-01-24 18:14:49 INFO  - Step 14 - Search pdf screen is opened
+2023-01-24 18:14:50 INFO  - Step 15 - I close pdf search screen
+2023-01-24 18:14:50 INFO  - Button 'Apply search' :: Clicking
+2023-01-24 18:14:52 INFO  - Step 16 - Reader pdf screen is opened
+2023-01-24 18:14:53 INFO  - Step 17 - I open search pdf screen
+2023-01-24 18:14:53 INFO  - Button 'Search button' :: Clicking
+2023-01-24 18:14:54 INFO  - Step 18 - Search pdf screen is opened
+2023-01-24 18:14:55 INFO  - Step 19 - I enter 'try' text on search pdf screen
+2023-01-24 18:14:56 INFO  - Text Field 'Search line' :: Sending keys 'try'
+2023-01-24 18:14:57 INFO  - Step 20 - I delete text in search line on search pdf screen
+2023-01-24 18:14:57 INFO  - Text Field 'Search line' :: Clearing
+2023-01-24 18:15:19 INFO  - Taking screenshot
+2023-01-24 18:15:21 INFO  - Test finished - logging out
+2023-01-24 18:15:24 INFO  - Button 'Settings' :: Clicking
+2023-01-24 18:15:25 INFO  - Button 'Settings' :: Clicking
+2023-01-24 18:15:26 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-24 18:15:30 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-24 18:15:31 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-24 18:15:32 INFO  - Button 'Log out' :: Clicking
+2023-01-24 18:15:33 INFO  - Button 'Log out approve' :: Clicking
+2023-01-24 18:15:36 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-01-24 18:15:39 INFO  - Button 'Log in' :: Getting text from element
+2023-01-24 18:15:46 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-24 18:15:47 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-24 18:15:48 INFO  - Unlocking credential for current thread
+2023-01-24 18:15:48 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@457ac05b
