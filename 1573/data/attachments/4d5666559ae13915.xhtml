@@ -1,0 +1,407 @@
+2023-01-25 00:48:40 INFO  - Scenario 'Font settings: Check of font style' start
+2023-01-25 00:48:40 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-25 00:49:05 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-25 00:49:05 INFO  - Session id - 2ad23f31e97c638b3a8e69c0c26595fb488d33ae
+2023-01-25 00:49:05 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-25 00:49:06 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-25 00:49:08 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-25 00:49:09 INFO  - Button 'Search' :: Clicking
+2023-01-25 00:49:12 INFO  - Text Field 'Search' :: Clearing
+2023-01-25 00:49:12 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-25 00:49:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-25 00:49:15 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-25 00:49:15 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:49:16 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:49:17 INFO  - Button 'Accounts' :: Clicking
+2023-01-25 00:49:19 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-25 00:49:19 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:49:20 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:49:21 INFO  - Button 'Accounts' :: Clicking
+2023-01-25 00:49:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-25 00:49:23 INFO  - Locking credential with barcode 01230000000304
+2023-01-25 00:49:23 INFO  - There are books on the account: 
+2023-01-25 00:49:24 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-01-25 00:49:24 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-01-25 00:49:24 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-01-25 00:49:24 INFO  - Count of books on the account after opening account: 3
+2023-01-25 00:49:24 INFO  - Text Field 'Card' :: Clearing
+2023-01-25 00:49:24 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-25 00:49:25 INFO  - Text Field 'Pin' :: Clearing
+2023-01-25 00:49:25 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-25 00:49:27 INFO  - Button 'Log in' :: Clicking
+2023-01-25 00:49:33 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-25 00:49:33 INFO  - Step 3 - Login is performed successfully
+2023-01-25 00:49:54 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-25 00:49:54 INFO  - Step 4 - I open Catalog
+2023-01-25 00:49:55 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-25 00:50:18 INFO  - Step 5 - I open search modal
+2023-01-25 00:50:38 INFO  - Button 'Search' :: Clicking
+2023-01-25 00:50:39 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-25 00:50:39 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-25 00:50:39 INFO  - randomBookName: Stand by Me
+2023-01-25 00:50:40 INFO  - Error details button is not present
+2023-01-25 00:50:40 INFO  - Text Field 'Search value input' :: Sending keys 'Stand by Me'
+2023-01-25 00:50:44 INFO  - Error details button is not present
+2023-01-25 00:50:46 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-25 00:50:47 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-25 00:50:48 INFO  - Button 'actionButton' :: Clicking
+2023-01-25 00:50:58 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-25 00:50:58 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-25 00:50:59 INFO  - Label 'lblBookName' :: Clicking
+2023-01-25 00:51:00 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-25 00:51:01 INFO  - Button 'Read' :: Clicking
+2023-01-25 00:51:02 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-25 00:51:02 INFO  - Scrolling 7 times on reader epub screen
+2023-01-25 00:51:17 INFO  - Step 11 - I open font settings
+2023-01-25 00:51:17 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-25 00:51:18 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-01-25 00:51:18 INFO  - Button 'setFontSerif' :: Clicking
+2023-01-25 00:51:19 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-01-25 00:51:19 INFO  - context - NATIVE_APP
+2023-01-25 00:51:19 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:51:20 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:51:21 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>StandByMe-3</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:df8e27af-0ebf-46dc-8ce0-966edfc9ec4b" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="StandByMe-3" lang="en-US" xml:lang="en-US">
+		<div class="Basic-Text-Frame">
+			<h1 class="cn" id="_idParaDest-4"><a id="_idTextAnchor003"></a>Contents</h1>
+			<p class="toc"><a href="StandByMe.xhtml#_idTextAnchor000">Front Cover</a></p>
+			<p class="toc"><a href="StandByMe-1.xhtml#_idTextAnchor001">Title Page</a></p>
+			<p class="toc"><a href="StandByMe-2.xhtml#_idTextAnchor002">Copyright</a></p>
+			<p class="toc"><a href="StandByMe-6.xhtml#_idTextAnchor004">Chapter 1</a></p>
+			<p class="toc"><a href="StandByMe-7.xhtml#_idTextAnchor005">Chapter 2</a></p>
+			<p class="toc"><a href="StandByMe-8.xhtml#_idTextAnchor006">Chapter 3</a></p>
+			<p class="toc"><a href="StandByMe-9.xhtml#_idTextAnchor007">Chapter 4</a></p>
+			<p class="toc"><a href="StandByMe-10.xhtml#_idTextAnchor008">Chapter 5</a></p>
+			<p class="toc"><a href="StandByMe-11.xhtml#_idTextAnchor009">Chapter 6</a></p>
+			<p class="toc"><a href="StandByMe-12.xhtml#_idTextAnchor010">Chapter 7</a></p>
+			<p class="toc"><a href="StandByMe-13.xhtml#_idTextAnchor011">Chapter 8</a></p>
+			<p class="toc"><a href="StandByMe-14.xhtml#_idTextAnchor012">Chapter 9</a></p>
+			<p class="toc"><a href="StandByMe-15.xhtml#_idTextAnchor013">Chapter 10</a></p>
+			<p class="toc"><a href="StandByMe-16.xhtml#_idTextAnchor014">Chapter 11</a></p>
+			<p class="toc"><a href="StandByMe-17.xhtml#_idTextAnchor015">Chapter 12</a></p>
+			<p class="toc"><a href="StandByMe-18.xhtml#_idTextAnchor016">Chapter 13</a></p>
+			<p class="toc"><a href="StandByMe-19.xhtml#_idTextAnchor017">Chapter 14</a></p>
+			<p class="toc"><a href="StandByMe-20.xhtml#_idTextAnchor018">Chapter 15</a></p>
+			<p class="toc"><a href="StandByMe-21.xhtml#_idTextAnchor019">Chapter 16</a></p>
+			<p class="toc"><a href="StandByMe-22.xhtml#_idTextAnchor020">Chapter 17</a></p>
+			<p class="toc"><a href="StandByMe-23.xhtml#_idTextAnchor021">Chapter 18</a></p>
+			<p class="toc"><a href="StandByMe-24.xhtml#_idTextAnchor022">Chapter 19</a></p>
+			<p class="toc"><a href="StandByMe-25.xhtml#_idTextAnchor023">Chapter 20</a></p>
+			<p class="toc"><a href="StandByMe-26.xhtml#_idTextAnchor024">Chapter 21</a></p>
+			<p class="toc"><a href="StandByMe-27.xhtml#_idTextAnchor025">Chapter 22</a></p>
+			<p class="toc"><a href="StandByMe-28.xhtml#_idTextAnchor026">Chapter 23</a></p>
+			<p class="toc"><a href="StandByMe-29.xhtml#_idTextAnchor027">Chapter 24</a></p>
+			<p class="toc"><a href="StandByMe-30.xhtml#_idTextAnchor028">Chapter 25</a></p>
+			<p class="toc"><a href="StandByMe-31.xhtml#_idTextAnchor029">Chapter 26</a></p>
+			<p class="toc"><a href="StandByMe-32.xhtml#_idTextAnchor030">Chapter 27</a></p>
+			<p class="toc"><a href="StandByMe-33.xhtml#_idTextAnchor031">Chapter 28</a></p>
+			<p class="toc"><a href="StandByMe-34.xhtml#_idTextAnchor032">Chapter 29</a></p>
+			<p class="toc"><a href="StandByMe-35.xhtml#_idTextAnchor033">Chapter 30</a></p>
+			<p class="toc"><a href="StandByMe-36.xhtml#_idTextAnchor034">Chapter 31</a></p>
+			<p class="toc"><a href="StandByMe-37.xhtml#_idTextAnchor035">Chapter 32</a></p>
+			<p class="toc"><a href="StandByMe-38.xhtml#_idTextAnchor036">Chapter 33</a></p>
+			<p class="toc"><a href="StandByMe-39.xhtml#_idTextAnchor037">Chapter 34</a></p>
+			<p class="toc"><a href="StandByMe-40.xhtml#_idTextAnchor038">Chapter 35</a></p>
+			<p class="toc"><a href="StandByMe-41.xhtml#_idTextAnchor039">Chapter 36</a></p>
+			<p class="toc"><a href="StandByMe-42.xhtml#_idTextAnchor040">Chapter 37</a></p>
+			<p class="toc"><a href="StandByMe-43.xhtml#_idTextAnchor041">Chapter 38</a></p>
+			<p class="toc"><a href="StandByMe-44.xhtml#_idTextAnchor042">Chapter 39</a></p>
+			<p class="toc"><a href="StandByMe-45.xhtml#_idTextAnchor043">Chapter 40</a></p>
+			<p class="toc"><a href="StandByMe-46.xhtml#_idTextAnchor044">Chapter 41</a></p>
+			<p class="toc"><a href="StandByMe-47.xhtml#_idTextAnchor045">Chapter 42</a></p>
+			<p class="toc"><a href="StandByMe-48.xhtml#_idTextAnchor046">Epilogue</a></p>
+			<p class="toc"><a href="StandByMe-49.xhtml#_idTextAnchor047">Excerpt from <span class="i">Here for You</span></a></p>
+			<p class="toc1"><a href="StandByMe-50.xhtml#_idTextAnchor048">Chapter 1</a></p>
+			<p class="toc1"><a href="StandByMe-51.xhtml#_idTextAnchor049">Chapter 2</a></p>
+			<p class="toc1"><a href="StandByMe-52.xhtml#_idTextAnchor050">Chapter 3</a></p>
+			<p class="toc1"><a href="StandByMe-53.xhtml#_idTextAnchor051">Chapter 4</a></p>
+			<p class="toc"><a href="StandByMe-54.xhtml#_idTextAnchor052">Reading Group Guide</a></p>
+			<p class="toc"><a href="StandByMe-55.xhtml#_idTextAnchor053">Acknowledgments</a></p>
+			<p class="toc"><a href="StandByMe-56.xhtml#_idTextAnchor054">About the Author</a></p>
+			<p class="toc"><a href="StandByMe-59.xhtml#_idTextAnchor055">Back Cover</a></p>
+		</div>
+	</body>
+</html>
+2023-01-25 00:51:21 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:51:21 INFO  - Step 14 - I restart app
+2023-01-25 00:51:45 INFO  - Step 15 - I open Books
+2023-01-25 00:51:45 INFO  - Button 'tabBooks' :: Clicking
+2023-01-25 00:51:46 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-25 00:52:01 INFO  - Label 'lblBookName' :: Clicking
+2023-01-25 00:52:01 INFO  - Step 17 - Click READ action button on book details screen
+2023-01-25 00:52:02 INFO  - Button 'Read' :: Clicking
+2023-01-25 00:52:03 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-01-25 00:52:04 INFO  - context - NATIVE_APP
+2023-01-25 00:52:05 INFO  - context - NATIVE_APP
+2023-01-25 00:52:05 INFO  - context - NATIVE_APP
+2023-01-25 00:52:05 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:52:07 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:52:07 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>StandByMe-3</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:df8e27af-0ebf-46dc-8ce0-966edfc9ec4b" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="StandByMe-3" lang="en-US" xml:lang="en-US">
+		<div class="Basic-Text-Frame">
+			<h1 class="cn" id="_idParaDest-4"><a id="_idTextAnchor003"></a>Contents</h1>
+			<p class="toc"><a href="StandByMe.xhtml#_idTextAnchor000">Front Cover</a></p>
+			<p class="toc"><a href="StandByMe-1.xhtml#_idTextAnchor001">Title Page</a></p>
+			<p class="toc"><a href="StandByMe-2.xhtml#_idTextAnchor002">Copyright</a></p>
+			<p class="toc"><a href="StandByMe-6.xhtml#_idTextAnchor004">Chapter 1</a></p>
+			<p class="toc"><a href="StandByMe-7.xhtml#_idTextAnchor005">Chapter 2</a></p>
+			<p class="toc"><a href="StandByMe-8.xhtml#_idTextAnchor006">Chapter 3</a></p>
+			<p class="toc"><a href="StandByMe-9.xhtml#_idTextAnchor007">Chapter 4</a></p>
+			<p class="toc"><a href="StandByMe-10.xhtml#_idTextAnchor008">Chapter 5</a></p>
+			<p class="toc"><a href="StandByMe-11.xhtml#_idTextAnchor009">Chapter 6</a></p>
+			<p class="toc"><a href="StandByMe-12.xhtml#_idTextAnchor010">Chapter 7</a></p>
+			<p class="toc"><a href="StandByMe-13.xhtml#_idTextAnchor011">Chapter 8</a></p>
+			<p class="toc"><a href="StandByMe-14.xhtml#_idTextAnchor012">Chapter 9</a></p>
+			<p class="toc"><a href="StandByMe-15.xhtml#_idTextAnchor013">Chapter 10</a></p>
+			<p class="toc"><a href="StandByMe-16.xhtml#_idTextAnchor014">Chapter 11</a></p>
+			<p class="toc"><a href="StandByMe-17.xhtml#_idTextAnchor015">Chapter 12</a></p>
+			<p class="toc"><a href="StandByMe-18.xhtml#_idTextAnchor016">Chapter 13</a></p>
+			<p class="toc"><a href="StandByMe-19.xhtml#_idTextAnchor017">Chapter 14</a></p>
+			<p class="toc"><a href="StandByMe-20.xhtml#_idTextAnchor018">Chapter 15</a></p>
+			<p class="toc"><a href="StandByMe-21.xhtml#_idTextAnchor019">Chapter 16</a></p>
+			<p class="toc"><a href="StandByMe-22.xhtml#_idTextAnchor020">Chapter 17</a></p>
+			<p class="toc"><a href="StandByMe-23.xhtml#_idTextAnchor021">Chapter 18</a></p>
+			<p class="toc"><a href="StandByMe-24.xhtml#_idTextAnchor022">Chapter 19</a></p>
+			<p class="toc"><a href="StandByMe-25.xhtml#_idTextAnchor023">Chapter 20</a></p>
+			<p class="toc"><a href="StandByMe-26.xhtml#_idTextAnchor024">Chapter 21</a></p>
+			<p class="toc"><a href="StandByMe-27.xhtml#_idTextAnchor025">Chapter 22</a></p>
+			<p class="toc"><a href="StandByMe-28.xhtml#_idTextAnchor026">Chapter 23</a></p>
+			<p class="toc"><a href="StandByMe-29.xhtml#_idTextAnchor027">Chapter 24</a></p>
+			<p class="toc"><a href="StandByMe-30.xhtml#_idTextAnchor028">Chapter 25</a></p>
+			<p class="toc"><a href="StandByMe-31.xhtml#_idTextAnchor029">Chapter 26</a></p>
+			<p class="toc"><a href="StandByMe-32.xhtml#_idTextAnchor030">Chapter 27</a></p>
+			<p class="toc"><a href="StandByMe-33.xhtml#_idTextAnchor031">Chapter 28</a></p>
+			<p class="toc"><a href="StandByMe-34.xhtml#_idTextAnchor032">Chapter 29</a></p>
+			<p class="toc"><a href="StandByMe-35.xhtml#_idTextAnchor033">Chapter 30</a></p>
+			<p class="toc"><a href="StandByMe-36.xhtml#_idTextAnchor034">Chapter 31</a></p>
+			<p class="toc"><a href="StandByMe-37.xhtml#_idTextAnchor035">Chapter 32</a></p>
+			<p class="toc"><a href="StandByMe-38.xhtml#_idTextAnchor036">Chapter 33</a></p>
+			<p class="toc"><a href="StandByMe-39.xhtml#_idTextAnchor037">Chapter 34</a></p>
+			<p class="toc"><a href="StandByMe-40.xhtml#_idTextAnchor038">Chapter 35</a></p>
+			<p class="toc"><a href="StandByMe-41.xhtml#_idTextAnchor039">Chapter 36</a></p>
+			<p class="toc"><a href="StandByMe-42.xhtml#_idTextAnchor040">Chapter 37</a></p>
+			<p class="toc"><a href="StandByMe-43.xhtml#_idTextAnchor041">Chapter 38</a></p>
+			<p class="toc"><a href="StandByMe-44.xhtml#_idTextAnchor042">Chapter 39</a></p>
+			<p class="toc"><a href="StandByMe-45.xhtml#_idTextAnchor043">Chapter 40</a></p>
+			<p class="toc"><a href="StandByMe-46.xhtml#_idTextAnchor044">Chapter 41</a></p>
+			<p class="toc"><a href="StandByMe-47.xhtml#_idTextAnchor045">Chapter 42</a></p>
+			<p class="toc"><a href="StandByMe-48.xhtml#_idTextAnchor046">Epilogue</a></p>
+			<p class="toc"><a href="StandByMe-49.xhtml#_idTextAnchor047">Excerpt from <span class="i">Here for You</span></a></p>
+			<p class="toc1"><a href="StandByMe-50.xhtml#_idTextAnchor048">Chapter 1</a></p>
+			<p class="toc1"><a href="StandByMe-51.xhtml#_idTextAnchor049">Chapter 2</a></p>
+			<p class="toc1"><a href="StandByMe-52.xhtml#_idTextAnchor050">Chapter 3</a></p>
+			<p class="toc1"><a href="StandByMe-53.xhtml#_idTextAnchor051">Chapter 4</a></p>
+			<p class="toc"><a href="StandByMe-54.xhtml#_idTextAnchor052">Reading Group Guide</a></p>
+			<p class="toc"><a href="StandByMe-55.xhtml#_idTextAnchor053">Acknowledgments</a></p>
+			<p class="toc"><a href="StandByMe-56.xhtml#_idTextAnchor054">About the Author</a></p>
+			<p class="toc"><a href="StandByMe-59.xhtml#_idTextAnchor055">Back Cover</a></p>
+		</div>
+	</body>
+</html>
+2023-01-25 00:52:07 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:52:07 INFO  - Step 19 - I return to previous screen from epub
+2023-01-25 00:52:08 INFO  - Button 'btnBack' :: Clicking
+2023-01-25 00:52:08 INFO  - Step 20 - Click READ action button on book details screen
+2023-01-25 00:52:09 INFO  - Button 'Read' :: Clicking
+2023-01-25 00:52:10 INFO  - Step 21 - Book text displays in FONT_SERIF font
+2023-01-25 00:52:10 INFO  - context - NATIVE_APP
+2023-01-25 00:52:10 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:52:12 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:52:12 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>StandByMe-3</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:df8e27af-0ebf-46dc-8ce0-966edfc9ec4b" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="StandByMe-3" lang="en-US" xml:lang="en-US">
+		<div class="Basic-Text-Frame">
+			<h1 class="cn" id="_idParaDest-4"><a id="_idTextAnchor003"></a>Contents</h1>
+			<p class="toc"><a href="StandByMe.xhtml#_idTextAnchor000">Front Cover</a></p>
+			<p class="toc"><a href="StandByMe-1.xhtml#_idTextAnchor001">Title Page</a></p>
+			<p class="toc"><a href="StandByMe-2.xhtml#_idTextAnchor002">Copyright</a></p>
+			<p class="toc"><a href="StandByMe-6.xhtml#_idTextAnchor004">Chapter 1</a></p>
+			<p class="toc"><a href="StandByMe-7.xhtml#_idTextAnchor005">Chapter 2</a></p>
+			<p class="toc"><a href="StandByMe-8.xhtml#_idTextAnchor006">Chapter 3</a></p>
+			<p class="toc"><a href="StandByMe-9.xhtml#_idTextAnchor007">Chapter 4</a></p>
+			<p class="toc"><a href="StandByMe-10.xhtml#_idTextAnchor008">Chapter 5</a></p>
+			<p class="toc"><a href="StandByMe-11.xhtml#_idTextAnchor009">Chapter 6</a></p>
+			<p class="toc"><a href="StandByMe-12.xhtml#_idTextAnchor010">Chapter 7</a></p>
+			<p class="toc"><a href="StandByMe-13.xhtml#_idTextAnchor011">Chapter 8</a></p>
+			<p class="toc"><a href="StandByMe-14.xhtml#_idTextAnchor012">Chapter 9</a></p>
+			<p class="toc"><a href="StandByMe-15.xhtml#_idTextAnchor013">Chapter 10</a></p>
+			<p class="toc"><a href="StandByMe-16.xhtml#_idTextAnchor014">Chapter 11</a></p>
+			<p class="toc"><a href="StandByMe-17.xhtml#_idTextAnchor015">Chapter 12</a></p>
+			<p class="toc"><a href="StandByMe-18.xhtml#_idTextAnchor016">Chapter 13</a></p>
+			<p class="toc"><a href="StandByMe-19.xhtml#_idTextAnchor017">Chapter 14</a></p>
+			<p class="toc"><a href="StandByMe-20.xhtml#_idTextAnchor018">Chapter 15</a></p>
+			<p class="toc"><a href="StandByMe-21.xhtml#_idTextAnchor019">Chapter 16</a></p>
+			<p class="toc"><a href="StandByMe-22.xhtml#_idTextAnchor020">Chapter 17</a></p>
+			<p class="toc"><a href="StandByMe-23.xhtml#_idTextAnchor021">Chapter 18</a></p>
+			<p class="toc"><a href="StandByMe-24.xhtml#_idTextAnchor022">Chapter 19</a></p>
+			<p class="toc"><a href="StandByMe-25.xhtml#_idTextAnchor023">Chapter 20</a></p>
+			<p class="toc"><a href="StandByMe-26.xhtml#_idTextAnchor024">Chapter 21</a></p>
+			<p class="toc"><a href="StandByMe-27.xhtml#_idTextAnchor025">Chapter 22</a></p>
+			<p class="toc"><a href="StandByMe-28.xhtml#_idTextAnchor026">Chapter 23</a></p>
+			<p class="toc"><a href="StandByMe-29.xhtml#_idTextAnchor027">Chapter 24</a></p>
+			<p class="toc"><a href="StandByMe-30.xhtml#_idTextAnchor028">Chapter 25</a></p>
+			<p class="toc"><a href="StandByMe-31.xhtml#_idTextAnchor029">Chapter 26</a></p>
+			<p class="toc"><a href="StandByMe-32.xhtml#_idTextAnchor030">Chapter 27</a></p>
+			<p class="toc"><a href="StandByMe-33.xhtml#_idTextAnchor031">Chapter 28</a></p>
+			<p class="toc"><a href="StandByMe-34.xhtml#_idTextAnchor032">Chapter 29</a></p>
+			<p class="toc"><a href="StandByMe-35.xhtml#_idTextAnchor033">Chapter 30</a></p>
+			<p class="toc"><a href="StandByMe-36.xhtml#_idTextAnchor034">Chapter 31</a></p>
+			<p class="toc"><a href="StandByMe-37.xhtml#_idTextAnchor035">Chapter 32</a></p>
+			<p class="toc"><a href="StandByMe-38.xhtml#_idTextAnchor036">Chapter 33</a></p>
+			<p class="toc"><a href="StandByMe-39.xhtml#_idTextAnchor037">Chapter 34</a></p>
+			<p class="toc"><a href="StandByMe-40.xhtml#_idTextAnchor038">Chapter 35</a></p>
+			<p class="toc"><a href="StandByMe-41.xhtml#_idTextAnchor039">Chapter 36</a></p>
+			<p class="toc"><a href="StandByMe-42.xhtml#_idTextAnchor040">Chapter 37</a></p>
+			<p class="toc"><a href="StandByMe-43.xhtml#_idTextAnchor041">Chapter 38</a></p>
+			<p class="toc"><a href="StandByMe-44.xhtml#_idTextAnchor042">Chapter 39</a></p>
+			<p class="toc"><a href="StandByMe-45.xhtml#_idTextAnchor043">Chapter 40</a></p>
+			<p class="toc"><a href="StandByMe-46.xhtml#_idTextAnchor044">Chapter 41</a></p>
+			<p class="toc"><a href="StandByMe-47.xhtml#_idTextAnchor045">Chapter 42</a></p>
+			<p class="toc"><a href="StandByMe-48.xhtml#_idTextAnchor046">Epilogue</a></p>
+			<p class="toc"><a href="StandByMe-49.xhtml#_idTextAnchor047">Excerpt from <span class="i">Here for You</span></a></p>
+			<p class="toc1"><a href="StandByMe-50.xhtml#_idTextAnchor048">Chapter 1</a></p>
+			<p class="toc1"><a href="StandByMe-51.xhtml#_idTextAnchor049">Chapter 2</a></p>
+			<p class="toc1"><a href="StandByMe-52.xhtml#_idTextAnchor050">Chapter 3</a></p>
+			<p class="toc1"><a href="StandByMe-53.xhtml#_idTextAnchor051">Chapter 4</a></p>
+			<p class="toc"><a href="StandByMe-54.xhtml#_idTextAnchor052">Reading Group Guide</a></p>
+			<p class="toc"><a href="StandByMe-55.xhtml#_idTextAnchor053">Acknowledgments</a></p>
+			<p class="toc"><a href="StandByMe-56.xhtml#_idTextAnchor054">About the Author</a></p>
+			<p class="toc"><a href="StandByMe-59.xhtml#_idTextAnchor055">Back Cover</a></p>
+		</div>
+	</body>
+</html>
+2023-01-25 00:52:12 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:52:12 INFO  - Step 22 - I open font settings
+2023-01-25 00:52:12 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-25 00:52:13 INFO  - Step 23 - I change font style to FONT_SANS
+2023-01-25 00:52:13 INFO  - Button 'setFontSans' :: Clicking
+2023-01-25 00:52:14 INFO  - Step 24 - Book text displays in FONT_SANS font
+2023-01-25 00:52:14 INFO  - context - NATIVE_APP
+2023-01-25 00:52:14 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:52:15 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:52:15 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>StandByMe-3</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:df8e27af-0ebf-46dc-8ce0-966edfc9ec4b" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="StandByMe-3" lang="en-US" xml:lang="en-US">
+		<div class="Basic-Text-Frame">
+			<h1 class="cn" id="_idParaDest-4"><a id="_idTextAnchor003"></a>Contents</h1>
+			<p class="toc"><a href="StandByMe.xhtml#_idTextAnchor000">Front Cover</a></p>
+			<p class="toc"><a href="StandByMe-1.xhtml#_idTextAnchor001">Title Page</a></p>
+			<p class="toc"><a href="StandByMe-2.xhtml#_idTextAnchor002">Copyright</a></p>
+			<p class="toc"><a href="StandByMe-6.xhtml#_idTextAnchor004">Chapter 1</a></p>
+			<p class="toc"><a href="StandByMe-7.xhtml#_idTextAnchor005">Chapter 2</a></p>
+			<p class="toc"><a href="StandByMe-8.xhtml#_idTextAnchor006">Chapter 3</a></p>
+			<p class="toc"><a href="StandByMe-9.xhtml#_idTextAnchor007">Chapter 4</a></p>
+			<p class="toc"><a href="StandByMe-10.xhtml#_idTextAnchor008">Chapter 5</a></p>
+			<p class="toc"><a href="StandByMe-11.xhtml#_idTextAnchor009">Chapter 6</a></p>
+			<p class="toc"><a href="StandByMe-12.xhtml#_idTextAnchor010">Chapter 7</a></p>
+			<p class="toc"><a href="StandByMe-13.xhtml#_idTextAnchor011">Chapter 8</a></p>
+			<p class="toc"><a href="StandByMe-14.xhtml#_idTextAnchor012">Chapter 9</a></p>
+			<p class="toc"><a href="StandByMe-15.xhtml#_idTextAnchor013">Chapter 10</a></p>
+			<p class="toc"><a href="StandByMe-16.xhtml#_idTextAnchor014">Chapter 11</a></p>
+			<p class="toc"><a href="StandByMe-17.xhtml#_idTextAnchor015">Chapter 12</a></p>
+			<p class="toc"><a href="StandByMe-18.xhtml#_idTextAnchor016">Chapter 13</a></p>
+			<p class="toc"><a href="StandByMe-19.xhtml#_idTextAnchor017">Chapter 14</a></p>
+			<p class="toc"><a href="StandByMe-20.xhtml#_idTextAnchor018">Chapter 15</a></p>
+			<p class="toc"><a href="StandByMe-21.xhtml#_idTextAnchor019">Chapter 16</a></p>
+			<p class="toc"><a href="StandByMe-22.xhtml#_idTextAnchor020">Chapter 17</a></p>
+			<p class="toc"><a href="StandByMe-23.xhtml#_idTextAnchor021">Chapter 18</a></p>
+			<p class="toc"><a href="StandByMe-24.xhtml#_idTextAnchor022">Chapter 19</a></p>
+			<p class="toc"><a href="StandByMe-25.xhtml#_idTextAnchor023">Chapter 20</a></p>
+			<p class="toc"><a href="StandByMe-26.xhtml#_idTextAnchor024">Chapter 21</a></p>
+			<p class="toc"><a href="StandByMe-27.xhtml#_idTextAnchor025">Chapter 22</a></p>
+			<p class="toc"><a href="StandByMe-28.xhtml#_idTextAnchor026">Chapter 23</a></p>
+			<p class="toc"><a href="StandByMe-29.xhtml#_idTextAnchor027">Chapter 24</a></p>
+			<p class="toc"><a href="StandByMe-30.xhtml#_idTextAnchor028">Chapter 25</a></p>
+			<p class="toc"><a href="StandByMe-31.xhtml#_idTextAnchor029">Chapter 26</a></p>
+			<p class="toc"><a href="StandByMe-32.xhtml#_idTextAnchor030">Chapter 27</a></p>
+			<p class="toc"><a href="StandByMe-33.xhtml#_idTextAnchor031">Chapter 28</a></p>
+			<p class="toc"><a href="StandByMe-34.xhtml#_idTextAnchor032">Chapter 29</a></p>
+			<p class="toc"><a href="StandByMe-35.xhtml#_idTextAnchor033">Chapter 30</a></p>
+			<p class="toc"><a href="StandByMe-36.xhtml#_idTextAnchor034">Chapter 31</a></p>
+			<p class="toc"><a href="StandByMe-37.xhtml#_idTextAnchor035">Chapter 32</a></p>
+			<p class="toc"><a href="StandByMe-38.xhtml#_idTextAnchor036">Chapter 33</a></p>
+			<p class="toc"><a href="StandByMe-39.xhtml#_idTextAnchor037">Chapter 34</a></p>
+			<p class="toc"><a href="StandByMe-40.xhtml#_idTextAnchor038">Chapter 35</a></p>
+			<p class="toc"><a href="StandByMe-41.xhtml#_idTextAnchor039">Chapter 36</a></p>
+			<p class="toc"><a href="StandByMe-42.xhtml#_idTextAnchor040">Chapter 37</a></p>
+			<p class="toc"><a href="StandByMe-43.xhtml#_idTextAnchor041">Chapter 38</a></p>
+			<p class="toc"><a href="StandByMe-44.xhtml#_idTextAnchor042">Chapter 39</a></p>
+			<p class="toc"><a href="StandByMe-45.xhtml#_idTextAnchor043">Chapter 40</a></p>
+			<p class="toc"><a href="StandByMe-46.xhtml#_idTextAnchor044">Chapter 41</a></p>
+			<p class="toc"><a href="StandByMe-47.xhtml#_idTextAnchor045">Chapter 42</a></p>
+			<p class="toc"><a href="StandByMe-48.xhtml#_idTextAnchor046">Epilogue</a></p>
+			<p class="toc"><a href="StandByMe-49.xhtml#_idTextAnchor047">Excerpt from <span class="i">Here for You</span></a></p>
+			<p class="toc1"><a href="StandByMe-50.xhtml#_idTextAnchor048">Chapter 1</a></p>
+			<p class="toc1"><a href="StandByMe-51.xhtml#_idTextAnchor049">Chapter 2</a></p>
+			<p class="toc1"><a href="StandByMe-52.xhtml#_idTextAnchor050">Chapter 3</a></p>
+			<p class="toc1"><a href="StandByMe-53.xhtml#_idTextAnchor051">Chapter 4</a></p>
+			<p class="toc"><a href="StandByMe-54.xhtml#_idTextAnchor052">Reading Group Guide</a></p>
+			<p class="toc"><a href="StandByMe-55.xhtml#_idTextAnchor053">Acknowledgments</a></p>
+			<p class="toc"><a href="StandByMe-56.xhtml#_idTextAnchor054">About the Author</a></p>
+			<p class="toc"><a href="StandByMe-59.xhtml#_idTextAnchor055">Back Cover</a></p>
+		</div>
+	</body>
+</html>
+2023-01-25 00:52:15 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:52:16 INFO  - Taking screenshot
+2023-01-25 00:52:17 INFO  - Test finished - logging out
+2023-01-25 00:52:18 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:52:20 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:52:21 INFO  - Button 'Accounts' :: Clicking
+2023-01-25 00:52:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-25 00:52:24 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-25 00:52:24 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-25 00:52:25 INFO  - Button 'Log out' :: Clicking
+2023-01-25 00:52:25 INFO  - Button 'Log in' :: Getting text from element
+2023-01-25 00:52:46 INFO  - Unlocking credential for current thread
+2023-01-25 00:52:46 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@64509726

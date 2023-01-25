@@ -1,0 +1,447 @@
+2023-01-25 00:34:12 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-01-25 00:34:12 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-25 00:34:39 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-25 00:34:39 INFO  - Session id - 9847cedde9d5b069c5c986179320e9ba400cd42a
+2023-01-25 00:34:39 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-25 00:34:40 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-25 00:34:42 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-25 00:34:43 INFO  - Button 'Search' :: Clicking
+2023-01-25 00:34:45 INFO  - Text Field 'Search' :: Clearing
+2023-01-25 00:34:45 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-25 00:34:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-25 00:34:48 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-25 00:34:48 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:34:49 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:34:50 INFO  - Button 'Accounts' :: Clicking
+2023-01-25 00:34:52 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-25 00:34:52 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:34:53 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:34:54 INFO  - Button 'Accounts' :: Clicking
+2023-01-25 00:34:56 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-25 00:34:56 INFO  - Locking credential with barcode 01230000000304
+2023-01-25 00:34:56 INFO  - There are books on the account: 
+2023-01-25 00:34:58 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-01-25 00:34:58 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-01-25 00:34:58 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-01-25 00:34:58 INFO  - Count of books on the account after opening account: 3
+2023-01-25 00:34:58 INFO  - Text Field 'Card' :: Clearing
+2023-01-25 00:34:58 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-25 00:35:00 INFO  - Text Field 'Pin' :: Clearing
+2023-01-25 00:35:00 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-25 00:35:02 INFO  - Button 'Log in' :: Clicking
+2023-01-25 00:35:07 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-25 00:35:08 INFO  - Step 3 - Login is performed successfully
+2023-01-25 00:35:29 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-25 00:35:29 INFO  - Step 4 - I open Catalog
+2023-01-25 00:35:30 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-25 00:35:51 INFO  - Step 5 - I open search modal
+2023-01-25 00:36:12 INFO  - Button 'Search' :: Clicking
+2023-01-25 00:36:14 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-25 00:36:14 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-25 00:36:14 INFO  - randomBookName: The Woman They Could Not Silence
+2023-01-25 00:36:14 INFO  - Error details button is not present
+2023-01-25 00:36:15 INFO  - Text Field 'Search value input' :: Sending keys 'The Woman They Could Not Silence'
+2023-01-25 00:36:18 INFO  - Error details button is not present
+2023-01-25 00:36:19 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-25 00:36:21 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-25 00:36:22 INFO  - Button 'actionButton' :: Clicking
+2023-01-25 00:36:27 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-25 00:36:28 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-25 00:36:28 INFO  - Label 'lblBookName' :: Clicking
+2023-01-25 00:36:29 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-25 00:36:30 INFO  - Button 'Read' :: Clicking
+2023-01-25 00:36:31 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-25 00:36:31 INFO  - Scrolling 8 times on reader epub screen
+2023-01-25 00:36:48 INFO  - Step 11 - I save font size as 'fontSize'
+2023-01-25 00:36:49 INFO  - context - NATIVE_APP
+2023-01-25 00:36:49 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:36:50 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:36:51 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Contents</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:3904dac5-29b9-4d82-b8e8-c72f0e7026f3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section>
+<h1 class="ct">CONTENTS</h1>
+<p class="toc1"><a href="fm01.xhtml"><b><i>Author’s Note</i></b></a></p>
+<p class="tocpt1"><a href="fm03.xhtml"><b>Prologue</b></a></p>
+<p class="tocpt"><a href="part01.xhtml"><b>Part One: Brave New World</b></a></p>
+<p class="tocpt"><a href="part02.xhtml"><b>Part Two: Dark before the Dawn</b></a></p>
+<p class="tocpt"><a href="part03.xhtml"><b>Part Three: My Pen Shall Rage</b></a></p>
+<p class="tocpt"><a href="part04.xhtml"><b>Part Four: Deal with the Devil?</b></a></p>
+<p class="tocpt"><a href="part05.xhtml"><b>Part Five: Turning Points</b></a></p>
+<p class="tocpt"><a href="part06.xhtml"><b>Part Six: She Will Rise</b></a></p>
+<p class="tocpt"><a href="epilog.xhtml"><b>Epilogue</b></a></p>
+<p class="tocpt"><a href="back01.xhtml"><b>Postscript</b></a></p>
+<p class="toc1a"><a href="back02.xhtml"><b><i>Reading Group Guide</i></b></a></p>
+<p class="toc1"><a href="back03.xhtml"><b><i>A Conversation with the Author</i></b></a></p>
+<p class="toc1"><a href="back04.xhtml"><b><i>Selected Bibliography</i></b></a></p>
+<p class="toc1"><a href="acknowledgment.xhtml"><b><i>Picture Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="abb.xhtml"><b><i>Abbreviations</i></b></a></p>
+<p class="toc1"><a href="notes.xhtml"><b><i>Notes</i></b></a></p>
+<p class="toc1"><a href="acknowledgment1.xhtml"><b><i>Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="author.xhtml"><b><i>About the Author</i></b></a></p>
+</section>
+</body>
+</html>
+2023-01-25 00:36:51 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:36:51 INFO  - Step 12 - I open font settings
+2023-01-25 00:36:51 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-25 00:36:52 INFO  - Step 13 - I INCREASE_FONT of text
+2023-01-25 00:36:52 INFO  - Button 'setTextLarger' :: Clicking
+2023-01-25 00:36:53 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-01-25 00:36:53 INFO  - context - NATIVE_APP
+2023-01-25 00:36:53 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:36:54 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:36:54 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Contents</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:3904dac5-29b9-4d82-b8e8-c72f0e7026f3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section>
+<h1 class="ct">CONTENTS</h1>
+<p class="toc1"><a href="fm01.xhtml"><b><i>Author’s Note</i></b></a></p>
+<p class="tocpt1"><a href="fm03.xhtml"><b>Prologue</b></a></p>
+<p class="tocpt"><a href="part01.xhtml"><b>Part One: Brave New World</b></a></p>
+<p class="tocpt"><a href="part02.xhtml"><b>Part Two: Dark before the Dawn</b></a></p>
+<p class="tocpt"><a href="part03.xhtml"><b>Part Three: My Pen Shall Rage</b></a></p>
+<p class="tocpt"><a href="part04.xhtml"><b>Part Four: Deal with the Devil?</b></a></p>
+<p class="tocpt"><a href="part05.xhtml"><b>Part Five: Turning Points</b></a></p>
+<p class="tocpt"><a href="part06.xhtml"><b>Part Six: She Will Rise</b></a></p>
+<p class="tocpt"><a href="epilog.xhtml"><b>Epilogue</b></a></p>
+<p class="tocpt"><a href="back01.xhtml"><b>Postscript</b></a></p>
+<p class="toc1a"><a href="back02.xhtml"><b><i>Reading Group Guide</i></b></a></p>
+<p class="toc1"><a href="back03.xhtml"><b><i>A Conversation with the Author</i></b></a></p>
+<p class="toc1"><a href="back04.xhtml"><b><i>Selected Bibliography</i></b></a></p>
+<p class="toc1"><a href="acknowledgment.xhtml"><b><i>Picture Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="abb.xhtml"><b><i>Abbreviations</i></b></a></p>
+<p class="toc1"><a href="notes.xhtml"><b><i>Notes</i></b></a></p>
+<p class="toc1"><a href="acknowledgment1.xhtml"><b><i>Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="author.xhtml"><b><i>About the Author</i></b></a></p>
+</section>
+</body>
+</html>
+2023-01-25 00:36:54 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:36:55 INFO  - Step 15 - I restart app
+2023-01-25 00:37:20 INFO  - Step 16 - I open Books
+2023-01-25 00:37:20 INFO  - Button 'tabBooks' :: Clicking
+2023-01-25 00:37:20 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-25 00:37:21 INFO  - Label 'lblBookName' :: Clicking
+2023-01-25 00:37:22 INFO  - Step 18 - Click READ action button on book details screen
+2023-01-25 00:37:23 INFO  - Button 'Read' :: Clicking
+2023-01-25 00:37:24 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-01-25 00:37:24 INFO  - context - NATIVE_APP
+2023-01-25 00:37:25 INFO  - context - NATIVE_APP
+2023-01-25 00:37:26 INFO  - context - NATIVE_APP
+2023-01-25 00:37:26 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:37:27 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:37:27 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Contents</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:3904dac5-29b9-4d82-b8e8-c72f0e7026f3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section>
+<h1 class="ct">CONTENTS</h1>
+<p class="toc1"><a href="fm01.xhtml"><b><i>Author’s Note</i></b></a></p>
+<p class="tocpt1"><a href="fm03.xhtml"><b>Prologue</b></a></p>
+<p class="tocpt"><a href="part01.xhtml"><b>Part One: Brave New World</b></a></p>
+<p class="tocpt"><a href="part02.xhtml"><b>Part Two: Dark before the Dawn</b></a></p>
+<p class="tocpt"><a href="part03.xhtml"><b>Part Three: My Pen Shall Rage</b></a></p>
+<p class="tocpt"><a href="part04.xhtml"><b>Part Four: Deal with the Devil?</b></a></p>
+<p class="tocpt"><a href="part05.xhtml"><b>Part Five: Turning Points</b></a></p>
+<p class="tocpt"><a href="part06.xhtml"><b>Part Six: She Will Rise</b></a></p>
+<p class="tocpt"><a href="epilog.xhtml"><b>Epilogue</b></a></p>
+<p class="tocpt"><a href="back01.xhtml"><b>Postscript</b></a></p>
+<p class="toc1a"><a href="back02.xhtml"><b><i>Reading Group Guide</i></b></a></p>
+<p class="toc1"><a href="back03.xhtml"><b><i>A Conversation with the Author</i></b></a></p>
+<p class="toc1"><a href="back04.xhtml"><b><i>Selected Bibliography</i></b></a></p>
+<p class="toc1"><a href="acknowledgment.xhtml"><b><i>Picture Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="abb.xhtml"><b><i>Abbreviations</i></b></a></p>
+<p class="toc1"><a href="notes.xhtml"><b><i>Notes</i></b></a></p>
+<p class="toc1"><a href="acknowledgment1.xhtml"><b><i>Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="author.xhtml"><b><i>About the Author</i></b></a></p>
+</section>
+</body>
+</html>
+2023-01-25 00:37:27 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:37:28 INFO  - Step 20 - I return to previous screen from epub
+2023-01-25 00:37:28 INFO  - Button 'btnBack' :: Clicking
+2023-01-25 00:37:29 INFO  - Step 21 - Click READ action button on book details screen
+2023-01-25 00:37:30 INFO  - Button 'Read' :: Clicking
+2023-01-25 00:37:31 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-01-25 00:37:31 INFO  - context - NATIVE_APP
+2023-01-25 00:37:31 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:37:33 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:37:33 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Contents</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:3904dac5-29b9-4d82-b8e8-c72f0e7026f3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section>
+<h1 class="ct">CONTENTS</h1>
+<p class="toc1"><a href="fm01.xhtml"><b><i>Author’s Note</i></b></a></p>
+<p class="tocpt1"><a href="fm03.xhtml"><b>Prologue</b></a></p>
+<p class="tocpt"><a href="part01.xhtml"><b>Part One: Brave New World</b></a></p>
+<p class="tocpt"><a href="part02.xhtml"><b>Part Two: Dark before the Dawn</b></a></p>
+<p class="tocpt"><a href="part03.xhtml"><b>Part Three: My Pen Shall Rage</b></a></p>
+<p class="tocpt"><a href="part04.xhtml"><b>Part Four: Deal with the Devil?</b></a></p>
+<p class="tocpt"><a href="part05.xhtml"><b>Part Five: Turning Points</b></a></p>
+<p class="tocpt"><a href="part06.xhtml"><b>Part Six: She Will Rise</b></a></p>
+<p class="tocpt"><a href="epilog.xhtml"><b>Epilogue</b></a></p>
+<p class="tocpt"><a href="back01.xhtml"><b>Postscript</b></a></p>
+<p class="toc1a"><a href="back02.xhtml"><b><i>Reading Group Guide</i></b></a></p>
+<p class="toc1"><a href="back03.xhtml"><b><i>A Conversation with the Author</i></b></a></p>
+<p class="toc1"><a href="back04.xhtml"><b><i>Selected Bibliography</i></b></a></p>
+<p class="toc1"><a href="acknowledgment.xhtml"><b><i>Picture Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="abb.xhtml"><b><i>Abbreviations</i></b></a></p>
+<p class="toc1"><a href="notes.xhtml"><b><i>Notes</i></b></a></p>
+<p class="toc1"><a href="acknowledgment1.xhtml"><b><i>Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="author.xhtml"><b><i>About the Author</i></b></a></p>
+</section>
+</body>
+</html>
+2023-01-25 00:37:33 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:37:33 INFO  - Step 23 - I save font size as 'fontSize'
+2023-01-25 00:37:34 INFO  - context - NATIVE_APP
+2023-01-25 00:37:34 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:37:35 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:37:35 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Contents</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:3904dac5-29b9-4d82-b8e8-c72f0e7026f3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section>
+<h1 class="ct">CONTENTS</h1>
+<p class="toc1"><a href="fm01.xhtml"><b><i>Author’s Note</i></b></a></p>
+<p class="tocpt1"><a href="fm03.xhtml"><b>Prologue</b></a></p>
+<p class="tocpt"><a href="part01.xhtml"><b>Part One: Brave New World</b></a></p>
+<p class="tocpt"><a href="part02.xhtml"><b>Part Two: Dark before the Dawn</b></a></p>
+<p class="tocpt"><a href="part03.xhtml"><b>Part Three: My Pen Shall Rage</b></a></p>
+<p class="tocpt"><a href="part04.xhtml"><b>Part Four: Deal with the Devil?</b></a></p>
+<p class="tocpt"><a href="part05.xhtml"><b>Part Five: Turning Points</b></a></p>
+<p class="tocpt"><a href="part06.xhtml"><b>Part Six: She Will Rise</b></a></p>
+<p class="tocpt"><a href="epilog.xhtml"><b>Epilogue</b></a></p>
+<p class="tocpt"><a href="back01.xhtml"><b>Postscript</b></a></p>
+<p class="toc1a"><a href="back02.xhtml"><b><i>Reading Group Guide</i></b></a></p>
+<p class="toc1"><a href="back03.xhtml"><b><i>A Conversation with the Author</i></b></a></p>
+<p class="toc1"><a href="back04.xhtml"><b><i>Selected Bibliography</i></b></a></p>
+<p class="toc1"><a href="acknowledgment.xhtml"><b><i>Picture Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="abb.xhtml"><b><i>Abbreviations</i></b></a></p>
+<p class="toc1"><a href="notes.xhtml"><b><i>Notes</i></b></a></p>
+<p class="toc1"><a href="acknowledgment1.xhtml"><b><i>Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="author.xhtml"><b><i>About the Author</i></b></a></p>
+</section>
+</body>
+</html>
+2023-01-25 00:37:35 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:37:36 INFO  - Step 24 - I open font settings
+2023-01-25 00:37:36 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-25 00:37:37 INFO  - Step 25 - I DECREASE_FONT of text
+2023-01-25 00:37:37 INFO  - Button 'setTextSmaller' :: Clicking
+2023-01-25 00:37:38 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-01-25 00:37:38 INFO  - context - NATIVE_APP
+2023-01-25 00:37:38 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:37:40 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:37:40 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Contents</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:3904dac5-29b9-4d82-b8e8-c72f0e7026f3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section>
+<h1 class="ct">CONTENTS</h1>
+<p class="toc1"><a href="fm01.xhtml"><b><i>Author’s Note</i></b></a></p>
+<p class="tocpt1"><a href="fm03.xhtml"><b>Prologue</b></a></p>
+<p class="tocpt"><a href="part01.xhtml"><b>Part One: Brave New World</b></a></p>
+<p class="tocpt"><a href="part02.xhtml"><b>Part Two: Dark before the Dawn</b></a></p>
+<p class="tocpt"><a href="part03.xhtml"><b>Part Three: My Pen Shall Rage</b></a></p>
+<p class="tocpt"><a href="part04.xhtml"><b>Part Four: Deal with the Devil?</b></a></p>
+<p class="tocpt"><a href="part05.xhtml"><b>Part Five: Turning Points</b></a></p>
+<p class="tocpt"><a href="part06.xhtml"><b>Part Six: She Will Rise</b></a></p>
+<p class="tocpt"><a href="epilog.xhtml"><b>Epilogue</b></a></p>
+<p class="tocpt"><a href="back01.xhtml"><b>Postscript</b></a></p>
+<p class="toc1a"><a href="back02.xhtml"><b><i>Reading Group Guide</i></b></a></p>
+<p class="toc1"><a href="back03.xhtml"><b><i>A Conversation with the Author</i></b></a></p>
+<p class="toc1"><a href="back04.xhtml"><b><i>Selected Bibliography</i></b></a></p>
+<p class="toc1"><a href="acknowledgment.xhtml"><b><i>Picture Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="abb.xhtml"><b><i>Abbreviations</i></b></a></p>
+<p class="toc1"><a href="notes.xhtml"><b><i>Notes</i></b></a></p>
+<p class="toc1"><a href="acknowledgment1.xhtml"><b><i>Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="author.xhtml"><b><i>About the Author</i></b></a></p>
+</section>
+</body>
+</html>
+2023-01-25 00:37:40 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:37:40 INFO  - Step 27 - I restart app
+2023-01-25 00:38:04 INFO  - Step 28 - I open Books
+2023-01-25 00:38:04 INFO  - Button 'tabBooks' :: Clicking
+2023-01-25 00:38:06 INFO  - Step 29 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-25 00:38:06 INFO  - Label 'lblBookName' :: Clicking
+2023-01-25 00:38:07 INFO  - Step 30 - Click READ action button on book details screen
+2023-01-25 00:38:08 INFO  - Button 'Read' :: Clicking
+2023-01-25 00:38:08 INFO  - Step 31 - Font size 'fontSize' is decreased
+2023-01-25 00:38:09 INFO  - context - NATIVE_APP
+2023-01-25 00:38:11 INFO  - context - NATIVE_APP
+2023-01-25 00:38:11 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:38:13 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:38:13 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Contents</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:3904dac5-29b9-4d82-b8e8-c72f0e7026f3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section>
+<h1 class="ct">CONTENTS</h1>
+<p class="toc1"><a href="fm01.xhtml"><b><i>Author’s Note</i></b></a></p>
+<p class="tocpt1"><a href="fm03.xhtml"><b>Prologue</b></a></p>
+<p class="tocpt"><a href="part01.xhtml"><b>Part One: Brave New World</b></a></p>
+<p class="tocpt"><a href="part02.xhtml"><b>Part Two: Dark before the Dawn</b></a></p>
+<p class="tocpt"><a href="part03.xhtml"><b>Part Three: My Pen Shall Rage</b></a></p>
+<p class="tocpt"><a href="part04.xhtml"><b>Part Four: Deal with the Devil?</b></a></p>
+<p class="tocpt"><a href="part05.xhtml"><b>Part Five: Turning Points</b></a></p>
+<p class="tocpt"><a href="part06.xhtml"><b>Part Six: She Will Rise</b></a></p>
+<p class="tocpt"><a href="epilog.xhtml"><b>Epilogue</b></a></p>
+<p class="tocpt"><a href="back01.xhtml"><b>Postscript</b></a></p>
+<p class="toc1a"><a href="back02.xhtml"><b><i>Reading Group Guide</i></b></a></p>
+<p class="toc1"><a href="back03.xhtml"><b><i>A Conversation with the Author</i></b></a></p>
+<p class="toc1"><a href="back04.xhtml"><b><i>Selected Bibliography</i></b></a></p>
+<p class="toc1"><a href="acknowledgment.xhtml"><b><i>Picture Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="abb.xhtml"><b><i>Abbreviations</i></b></a></p>
+<p class="toc1"><a href="notes.xhtml"><b><i>Notes</i></b></a></p>
+<p class="toc1"><a href="acknowledgment1.xhtml"><b><i>Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="author.xhtml"><b><i>About the Author</i></b></a></p>
+</section>
+</body>
+</html>
+2023-01-25 00:38:13 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:38:14 INFO  - Step 32 - I return to previous screen from epub
+2023-01-25 00:38:14 INFO  - Button 'btnBack' :: Clicking
+2023-01-25 00:38:15 INFO  - Step 33 - Click READ action button on book details screen
+2023-01-25 00:38:16 INFO  - Button 'Read' :: Clicking
+2023-01-25 00:38:17 INFO  - Step 34 - Font size 'fontSize' is decreased
+2023-01-25 00:38:17 INFO  - context - NATIVE_APP
+2023-01-25 00:38:19 INFO  - context - NATIVE_APP
+2023-01-25 00:38:19 INFO  - context - NATIVE_APP
+2023-01-25 00:38:19 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-25 00:38:21 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-25 00:38:21 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Contents</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:3904dac5-29b9-4d82-b8e8-c72f0e7026f3" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section>
+<h1 class="ct">CONTENTS</h1>
+<p class="toc1"><a href="fm01.xhtml"><b><i>Author’s Note</i></b></a></p>
+<p class="tocpt1"><a href="fm03.xhtml"><b>Prologue</b></a></p>
+<p class="tocpt"><a href="part01.xhtml"><b>Part One: Brave New World</b></a></p>
+<p class="tocpt"><a href="part02.xhtml"><b>Part Two: Dark before the Dawn</b></a></p>
+<p class="tocpt"><a href="part03.xhtml"><b>Part Three: My Pen Shall Rage</b></a></p>
+<p class="tocpt"><a href="part04.xhtml"><b>Part Four: Deal with the Devil?</b></a></p>
+<p class="tocpt"><a href="part05.xhtml"><b>Part Five: Turning Points</b></a></p>
+<p class="tocpt"><a href="part06.xhtml"><b>Part Six: She Will Rise</b></a></p>
+<p class="tocpt"><a href="epilog.xhtml"><b>Epilogue</b></a></p>
+<p class="tocpt"><a href="back01.xhtml"><b>Postscript</b></a></p>
+<p class="toc1a"><a href="back02.xhtml"><b><i>Reading Group Guide</i></b></a></p>
+<p class="toc1"><a href="back03.xhtml"><b><i>A Conversation with the Author</i></b></a></p>
+<p class="toc1"><a href="back04.xhtml"><b><i>Selected Bibliography</i></b></a></p>
+<p class="toc1"><a href="acknowledgment.xhtml"><b><i>Picture Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="abb.xhtml"><b><i>Abbreviations</i></b></a></p>
+<p class="toc1"><a href="notes.xhtml"><b><i>Notes</i></b></a></p>
+<p class="toc1"><a href="acknowledgment1.xhtml"><b><i>Acknowledgments</i></b></a></p>
+<p class="toc1"><a href="author.xhtml"><b><i>About the Author</i></b></a></p>
+</section>
+</body>
+</html>
+2023-01-25 00:38:21 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-25 00:38:21 INFO  - Taking screenshot
+2023-01-25 00:38:23 INFO  - Test finished - logging out
+2023-01-25 00:38:24 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:38:26 INFO  - Button 'tabSettings' :: Clicking
+2023-01-25 00:38:27 INFO  - Button 'Accounts' :: Clicking
+2023-01-25 00:38:28 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-25 00:38:30 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-25 00:38:30 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-25 00:38:31 INFO  - Button 'Log out' :: Clicking
+2023-01-25 00:38:31 INFO  - Button 'Log in' :: Getting text from element
+2023-01-25 00:38:35 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-25 00:38:35 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-25 00:38:36 INFO  - Unlocking credential for current thread
+2023-01-25 00:38:36 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@64509726
