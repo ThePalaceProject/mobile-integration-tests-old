@@ -1,0 +1,64 @@
+2023-01-27 21:15:28 INFO  - Scenario 'Delete bookmarks' start
+2023-01-27 21:15:28 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-27 21:15:48 INFO  - Application on platform 'IOS' is ready...
+2023-01-27 21:15:48 INFO  - Session id - e17fbd251536072586b77d6045c92a33f5584307
+2023-01-27 21:15:48 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2023-01-27 21:16:09 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-27 21:16:09 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-27 21:16:10 INFO  - Text Field 'Search field' :: Clicking
+2023-01-27 21:16:16 INFO  - Text Field 'Search field' :: Clearing
+2023-01-27 21:16:16 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-01-27 21:16:26 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-01-27 21:16:27 INFO  - Step 1 - I open Catalog
+2023-01-27 21:16:28 INFO  - Button 'Catalog' :: Clicking
+2023-01-27 21:16:29 INFO  - Step 2 - I open search modal
+2023-01-27 21:16:30 INFO  - Button 'Search' :: Clicking
+2023-01-27 21:16:31 INFO  - Step 3 - I search for 'Flower Fables' and save bookName as 'bookNameInfo'
+2023-01-27 21:16:32 INFO  - Text Field 'Search value input' :: Sending keys 'Flower Fables'
+2023-01-27 21:16:33 INFO  - Button 'Search' :: Clicking
+2023-01-27 21:16:35 INFO  - Step 4 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-27 21:16:51 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-27 21:16:52 INFO  - Button 'actionButton' :: Clicking
+2023-01-27 21:17:15 INFO  - Step 5 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-27 21:17:16 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-27 21:17:17 INFO  - Label 'lblBookName' :: Clicking
+2023-01-27 21:17:18 INFO  - Step 6 - Click READ action button on book details screen
+2023-01-27 21:17:19 INFO  - Button 'Read' :: Clicking
+2023-01-27 21:17:40 INFO  - Step 7 - I click on right book corner on epub reader screen
+2023-01-27 21:17:42 INFO  - Step 8 - Add bookmark on reader epub screen
+2023-01-27 21:17:43 INFO  - Button 'Add Bookmark' :: Clicking
+2023-01-27 21:17:44 INFO  - Step 9 - Delete bookmark on reader epub screen
+2023-01-27 21:17:45 INFO  - Button 'Delete Bookmark' :: Clicking
+2023-01-27 21:17:46 INFO  - Step 10 - Bookmark is not displayed on reader epub screen
+2023-01-27 21:17:46 INFO  - Step 11 - I scroll page forward from 7 to 9 times
+2023-01-27 21:17:47 INFO  - Scrolling 7 times on reader epub screen
+2023-01-27 21:18:08 INFO  - Step 12 - Add bookmark on reader epub screen
+2023-01-27 21:18:08 INFO  - Button 'Add Bookmark' :: Clicking
+2023-01-27 21:18:09 INFO  - Step 13 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-01-27 21:18:10 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-27 21:18:11 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-27 21:18:12 INFO  - Step 14 - Save device time and date as 'deviceTimeDateKey'
+2023-01-27 21:18:12 INFO  - Step 15 - I click on right book corner on epub reader screen
+2023-01-27 21:18:16 INFO  - Step 16 - Open bookmarks epub screen
+2023-01-27 21:18:17 INFO  - Button 'Table of contents' :: Clicking
+2023-01-27 21:18:19 INFO  - Label 'tab' :: Clicking
+2023-01-27 21:18:20 INFO  - Step 17 - Delete bookmark on bookmarks epub screen
+2023-01-27 21:18:24 INFO  - Swiping from coordinates (x:214; y:174) to (x:30; y:174)
+2023-01-27 21:18:26 INFO  - Button 'btnDelete' :: Clicking
+2023-01-27 21:18:27 INFO  - Step 18 - Bookmark with 'chapterNameKey' and 'deviceTimeDateKey' is not displayed on bookmarks epub screen
+2023-01-27 21:18:27 INFO  - expected bookmark info: 
+2023-01-27 21:18:27 INFO  - expected bookmark title-THE FROST-KING: OR, THE POWER OF LOVE.
+2023-01-27 21:18:27 INFO  - actual year-2023
+2023-01-27 21:18:27 INFO  - actual month-1
+2023-01-27 21:18:27 INFO  - actual dayNumber-27
+2023-01-27 21:18:27 INFO  - actual min-18
+2023-01-27 21:18:27 INFO  - actual hour-21
+2023-01-27 21:18:28 INFO  - Step 19 - Return to reader epub screen from toc bookmarks epub screen
+2023-01-27 21:18:28 INFO  - Button 'btnBack' :: Clicking
+2023-01-27 21:18:28 INFO  - Step 20 - I click on left book corner on epub reader screen
+2023-01-27 21:18:30 INFO  - Step 21 - 'chapterNameKey' chapter name is displayed on reader epub screen
+2023-01-27 21:18:31 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-27 21:18:32 INFO  - Step 22 - Bookmark is not displayed on reader epub screen
+2023-01-27 21:18:33 INFO  - Taking screenshot
+2023-01-27 21:18:38 INFO  - Unlocking credential for current thread
+2023-01-27 21:18:38 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3dfd93c
