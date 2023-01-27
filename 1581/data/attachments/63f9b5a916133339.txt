@@ -1,0 +1,85 @@
+2023-01-27 02:17:53 INFO  - Scenario 'Check of not rewinding forward and back by tapping on time bar' start
+2023-01-27 02:17:53 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-27 02:18:18 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-27 02:18:19 INFO  - Session id - 316aace558f1084faa21bfefc04f07c519d62df8
+2023-01-27 02:18:19 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-27 02:18:19 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-27 02:18:21 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-27 02:18:21 INFO  - Button 'Search' :: Clicking
+2023-01-27 02:18:23 INFO  - Text Field 'Search' :: Clearing
+2023-01-27 02:18:23 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-27 02:18:25 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-27 02:18:25 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-27 02:18:25 INFO  - Button 'tabSettings' :: Clicking
+2023-01-27 02:18:27 INFO  - Button 'tabSettings' :: Clicking
+2023-01-27 02:18:28 INFO  - Button 'Accounts' :: Clicking
+2023-01-27 02:18:29 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-27 02:18:30 INFO  - Button 'tabSettings' :: Clicking
+2023-01-27 02:18:30 INFO  - Button 'tabSettings' :: Clicking
+2023-01-27 02:18:31 INFO  - Button 'Accounts' :: Clicking
+2023-01-27 02:18:32 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-27 02:18:33 INFO  - Locking credential with barcode 01230000000305
+2023-01-27 02:18:33 INFO  - There are books on the account: 
+2023-01-27 02:18:35 INFO  - bookName: My Book of Animal Opposites Distributor: Palace Marketplace
+2023-01-27 02:18:35 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-01-27 02:18:35 INFO  - bookName: Glimpses of the Moon Distributor: Palace Marketplace
+2023-01-27 02:18:35 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-01-27 02:18:35 INFO  - bookName: Stolen Focus Distributor: Palace Marketplace
+2023-01-27 02:18:35 INFO  - Count of books on the account after opening account: 5
+2023-01-27 02:18:35 INFO  - Text Field 'Card' :: Clearing
+2023-01-27 02:18:35 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-01-27 02:18:37 INFO  - Text Field 'Pin' :: Clearing
+2023-01-27 02:18:37 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-27 02:18:38 INFO  - Button 'Log in' :: Clicking
+2023-01-27 02:18:44 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-27 02:18:44 INFO  - Step 3 - Login is performed successfully
+2023-01-27 02:19:05 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-27 02:19:05 INFO  - Step 4 - I open Catalog
+2023-01-27 02:19:05 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-27 02:19:28 INFO  - Step 5 - I open search modal
+2023-01-27 02:19:48 INFO  - Button 'Search' :: Clicking
+2023-01-27 02:19:49 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-27 02:19:49 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-01-27 02:19:49 INFO  - randomBookName: Pygmalion
+2023-01-27 02:19:50 INFO  - Error details button is not present
+2023-01-27 02:19:50 INFO  - Text Field 'Search value input' :: Sending keys 'Pygmalion'
+2023-01-27 02:19:53 INFO  - Error details button is not present
+2023-01-27 02:19:55 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-01-27 02:19:56 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-27 02:20:16 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-27 02:20:17 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-27 02:20:17 INFO  - Label 'lblBookName' :: Clicking
+2023-01-27 02:20:18 INFO  - Step 9 - Click GET action button on book details screen
+2023-01-27 02:20:19 INFO  - Button 'Get' :: Clicking
+2023-01-27 02:20:26 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-01-27 02:20:27 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-01-27 02:20:27 INFO  - Button 'Listen' :: Clicking
+2023-01-27 02:20:27 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-01-27 02:20:32 INFO  - Step 13 - Tap play button on audio player screen
+2023-01-27 02:20:32 INFO  - Button 'btnPlay' :: Clicking
+2023-01-27 02:20:33 INFO  - Step 14 - Pause button is present on audio player screen
+2023-01-27 02:20:34 INFO  - Step 15 - Tap pause button on audio player screen
+2023-01-27 02:20:34 INFO  - Button 'btnPause' :: Clicking
+2023-01-27 02:20:34 INFO  - Step 16 - Play button is present on audio player screen
+2023-01-27 02:20:35 INFO  - Step 17 - I stretch slider on the time tracking line forward on audio player screen
+2023-01-27 02:20:37 INFO  - Step 18 - Wait for 5 seconds
+2023-01-27 02:20:43 INFO  - Step 19 - Save book play time as 'timeBehind' on audio player screen
+2023-01-27 02:20:43 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-01-27 02:20:43 INFO  - Step 20 - I tap on the time bar forward on audio player screen
+2023-01-27 02:20:45 INFO  - Step 21 - Save book play time as 'timeForward' on audio player screen
+2023-01-27 02:20:45 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-01-27 02:20:45 INFO  - Step 22 - Play times 'timeBehind' and 'timeForward' are equals
+2023-01-27 02:20:45 INFO  - Taking screenshot
+2023-01-27 02:20:47 INFO  - Test finished - logging out
+2023-01-27 02:20:48 INFO  - Button 'tabSettings' :: Clicking
+2023-01-27 02:20:51 INFO  - Button 'tabSettings' :: Clicking
+2023-01-27 02:20:52 INFO  - Button 'Accounts' :: Clicking
+2023-01-27 02:20:53 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-27 02:20:54 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-27 02:20:55 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-27 02:20:55 INFO  - Button 'Log out' :: Clicking
+2023-01-27 02:20:55 INFO  - Button 'Log in' :: Getting text from element
+2023-01-27 02:21:01 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-27 02:21:02 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-27 02:21:02 INFO  - Unlocking credential for current thread
+2023-01-27 02:21:02 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@275ee9ef
