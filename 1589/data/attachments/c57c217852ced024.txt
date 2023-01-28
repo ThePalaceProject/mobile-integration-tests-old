@@ -1,0 +1,84 @@
+2023-01-28 18:24:12 INFO  - Scenario 'Check playback speed and sleep timer' start
+2023-01-28 18:24:12 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-28 18:24:45 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-28 18:24:45 INFO  - Session id - 94a7fbed6310b2fc96ebd928b2c519d4aa0cbfa4
+2023-01-28 18:24:45 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-28 18:24:45 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-28 18:24:48 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-28 18:24:48 INFO  - Button 'Search' :: Clicking
+2023-01-28 18:24:50 INFO  - Text Field 'Search' :: Clearing
+2023-01-28 18:24:50 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-28 18:24:52 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-28 18:24:52 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-28 18:24:52 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 18:24:54 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 18:24:55 INFO  - Button 'Accounts' :: Clicking
+2023-01-28 18:24:57 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-28 18:24:57 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 18:24:57 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 18:24:58 INFO  - Button 'Accounts' :: Clicking
+2023-01-28 18:24:59 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-28 18:25:00 INFO  - Locking credential with barcode 01230000000303
+2023-01-28 18:25:00 INFO  - There are books on the account: 
+2023-01-28 18:25:01 INFO  - bookName: Sapiens Distributor: Palace Marketplace
+2023-01-28 18:25:01 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-01-28 18:25:01 INFO  - Count of books on the account after opening account: 2
+2023-01-28 18:25:01 INFO  - Text Field 'Card' :: Clearing
+2023-01-28 18:25:01 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-01-28 18:25:03 INFO  - Text Field 'Pin' :: Clearing
+2023-01-28 18:25:03 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-28 18:25:04 INFO  - Button 'Log in' :: Clicking
+2023-01-28 18:25:10 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-28 18:25:10 INFO  - Step 3 - Login is performed successfully
+2023-01-28 18:25:31 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-28 18:25:32 INFO  - Step 4 - I open Catalog
+2023-01-28 18:25:32 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-28 18:25:54 INFO  - Step 5 - I open search modal
+2023-01-28 18:26:14 INFO  - Button 'Search' :: Clicking
+2023-01-28 18:26:15 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-28 18:26:16 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-28 18:26:16 INFO  - randomBookName: Daughter of the Morning Star
+2023-01-28 18:26:16 INFO  - Error details button is not present
+2023-01-28 18:26:16 INFO  - Text Field 'Search value input' :: Sending keys 'Daughter of the Morning Star'
+2023-01-28 18:26:19 INFO  - Error details button is not present
+2023-01-28 18:26:21 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-01-28 18:26:21 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-28 18:26:43 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-28 18:26:43 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-28 18:26:44 INFO  - Label 'lblBookName' :: Clicking
+2023-01-28 18:26:44 INFO  - Step 9 - Click GET action button on book details screen
+2023-01-28 18:26:46 INFO  - Button 'Get' :: Clicking
+2023-01-28 18:26:51 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-01-28 18:26:52 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-01-28 18:26:52 INFO  - Button 'Listen' :: Clicking
+2023-01-28 18:26:52 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-01-28 18:26:58 INFO  - Step 13 - The speed by default is 1.0
+2023-01-28 18:26:58 INFO  - Button 'Button play speed' :: Getting text from element
+2023-01-28 18:26:58 INFO  - Step 14 - Open playback speed on audio player screen
+2023-01-28 18:26:58 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-01-28 18:27:00 INFO  - Step 15 - Close playback speed screen
+2023-01-28 18:27:00 INFO  - Button 'Cancel button' :: Clicking
+2023-01-28 18:27:00 INFO  - Step 16 - Play button is present on audio player screen
+2023-01-28 18:27:01 INFO  - Step 17 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-01-28 18:27:01 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-01-28 18:27:02 INFO  - Button 'End of file' :: Clicking
+2023-01-28 18:27:02 INFO  - Step 18 - Sleep timer is set to endOfChapter on audio player screen
+2023-01-28 18:27:03 INFO  - Step 19 - Open sleep timer on audio player screen
+2023-01-28 18:27:03 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-01-28 18:27:03 INFO  - Step 20 - Close sleep timer screen
+2023-01-28 18:27:03 INFO  - Button 'Cancel button' :: Clicking
+2023-01-28 18:27:04 INFO  - Step 21 - Play button is present on audio player screen
+2023-01-28 18:27:05 INFO  - Taking screenshot
+2023-01-28 18:27:06 INFO  - Test finished - logging out
+2023-01-28 18:27:07 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 18:27:09 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 18:27:10 INFO  - Button 'Accounts' :: Clicking
+2023-01-28 18:27:11 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-28 18:27:13 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-28 18:27:13 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-28 18:27:13 INFO  - Button 'Log out' :: Clicking
+2023-01-28 18:27:14 INFO  - Button 'Log in' :: Getting text from element
+2023-01-28 18:27:18 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-28 18:27:18 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-28 18:27:18 INFO  - Unlocking credential for current thread
+2023-01-28 18:27:18 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@36ef5f7

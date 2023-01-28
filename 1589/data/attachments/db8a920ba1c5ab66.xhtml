@@ -1,0 +1,464 @@
+2023-01-28 17:35:32 INFO  - Scenario 'Font settings: Check of text theme' start
+2023-01-28 17:35:32 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-28 17:36:04 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-28 17:36:05 INFO  - Session id - 8d2415b5fdfa1dc51ea735a9b227017ffee72ca7
+2023-01-28 17:36:05 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-28 17:36:05 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-28 17:36:08 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-28 17:36:08 INFO  - Button 'Search' :: Clicking
+2023-01-28 17:36:10 INFO  - Text Field 'Search' :: Clearing
+2023-01-28 17:36:10 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-28 17:36:12 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-28 17:36:13 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-28 17:36:13 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 17:36:14 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 17:36:15 INFO  - Button 'Accounts' :: Clicking
+2023-01-28 17:36:17 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-28 17:36:17 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 17:36:17 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 17:36:18 INFO  - Button 'Accounts' :: Clicking
+2023-01-28 17:36:19 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-28 17:36:20 INFO  - Locking credential with barcode 01230000000303
+2023-01-28 17:36:20 INFO  - There are books on the account: 
+2023-01-28 17:36:21 INFO  - bookName: Sapiens Distributor: Palace Marketplace
+2023-01-28 17:36:21 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-01-28 17:36:21 INFO  - Count of books on the account after opening account: 2
+2023-01-28 17:36:21 INFO  - Text Field 'Card' :: Clearing
+2023-01-28 17:36:21 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-01-28 17:36:22 INFO  - Text Field 'Pin' :: Clearing
+2023-01-28 17:36:22 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-28 17:36:23 INFO  - Button 'Log in' :: Clicking
+2023-01-28 17:36:29 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-28 17:36:29 INFO  - Step 3 - Login is performed successfully
+2023-01-28 17:36:50 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-28 17:36:51 INFO  - Step 4 - I open Catalog
+2023-01-28 17:36:51 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-28 17:37:12 INFO  - Step 5 - I open search modal
+2023-01-28 17:37:32 INFO  - Button 'Search' :: Clicking
+2023-01-28 17:37:33 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-28 17:37:33 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-28 17:37:33 INFO  - randomBookName: Like Carrot Juice on a Cupcake
+2023-01-28 17:37:34 INFO  - Error details button is not present
+2023-01-28 17:37:34 INFO  - Text Field 'Search value input' :: Sending keys 'Like Carrot Juice on a Cupcake'
+2023-01-28 17:37:38 INFO  - Error details button is not present
+2023-01-28 17:37:38 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-28 17:37:40 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-28 17:37:41 INFO  - Button 'actionButton' :: Clicking
+2023-01-28 17:37:52 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-28 17:37:53 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-28 17:37:53 INFO  - Label 'lblBookName' :: Clicking
+2023-01-28 17:37:54 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-28 17:37:55 INFO  - Button 'Read' :: Clicking
+2023-01-28 17:37:55 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-28 17:37:55 INFO  - Scrolling 8 times on reader epub screen
+2023-01-28 17:38:18 INFO  - Step 11 - I open font settings
+2023-01-28 17:38:20 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-28 17:38:20 INFO  - Step 12 - I change contrast to BLACK_TEXT_ON_WHITE
+2023-01-28 17:38:20 INFO  - Button 'setThemeLight' :: Clicking
+2023-01-28 17:38:21 INFO  - Step 13 - The BLACK_TEXT_ON_WHITE background is correct
+2023-01-28 17:38:21 INFO  - context - NATIVE_APP
+2023-01-28 17:38:21 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-28 17:38:22 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-28 17:38:22 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Like Carrot Juice on a Cupcake</title>
+<link href="../styles/9781613126615.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:ccbad206-5456-4310-816a-55a95a1857a0" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<p class="chaptitle" id="ch01"><a id="page_1"></a><img alt="Image" height="50" src="../images/ch01.jpg" width="335" /></p>
+<p class="noindent">It all started one Monday morning in April</p>
+<p class="image"><img alt="Image" height="300" src="../images/f0001-01.jpg" style="float:right; margin:1%;" width="191" /></p>
+<p class="noindent">when our fourth-grade teacher,</p>
+<p class="noindent">Mrs. Ramji,</p>
+<p class="noindent">made a special announcement.</p>
+<p class="noindent">She was standing near her desk,</p>
+<p class="noindent">beside a girl I’d never seen before.</p>
+<p class="noindent">That girl wore sparkly clothes</p>
+<p class="noindent">and a headband with a big bow.</p>
+<p class="noindent">“We have a new student!” Mrs. Ramji said.</p>
+<p class="noindent">“This is Ainsley Biggs.</p>
+<p class="noindent">She just moved here, from Orlando!”</p>
+<p class="noindent"><em>“Orlando!”</em> my best friend, Pearl, whispered to me,</p>
+<p class="noindent">from the desk beside mine.</p>
+<p class="noindent">“How <em>magical</em>.”</p>
+<p class="noindent">I heard other kids whisper, “Disney!”</p>
+<p class="noindent"><a id="page_2"></a>And then the boy who sits behind me,</p>
+<p class="noindent">Nicholas Rigby,</p>
+<p class="noindent">started humming the Disney song</p>
+<p class="noindent">“It’s a Small World.”</p>
+<p class="noindent">He hummed and hummed,</p>
+<p class="noindent">just loud enough for me to hear.</p>
+<p class="noindent">“Shh!” I told him.</p>
+<p class="noindent">I turned and glared at him, too.</p>
+<p class="noindent">Because Nicholas Rigby is always</p>
+<p class="noindent">getting us in trouble.</p>
+<p class="noindent">Plus, I knew I’d never get that song out of my head.</p>
+<p class="noindentt">“Doesn’t Ainsley look like a present?”</p>
+<p class="noindent">Pearl whispered to me.</p>
+<p class="noindent">“A shiny present, too pretty to unwrap?”</p>
+<p class="noindent">(Pearl talks like a poet sometimes.)</p>
+<p class="noindent">“She <em>does</em> look like a present!” I whispered back.</p>
+<p class="noindent">I started wondering</p>
+<p class="noindent">whether <em>I</em> ever wanted to look like a present.</p>
+<p class="noindent"><a id="page_3"></a>Before I could decide,</p>
+<p class="noindent">Mrs. Ramji turned the lights off</p>
+<p class="noindent">and on again</p>
+<p class="noindent">to get our attention.</p>
+<p class="noindent">“Class 4A!” she said.</p>
+<p class="noindent">“Please settle down!</p>
+<p class="noindent">You’re not behaving your best for Ainsley.</p>
+<p class="noindent">We need to make her feel welcome!</p>
+<p class="noindent">It’s not easy,</p>
+<p class="noindent">starting a new school so late in the year.”</p>
+<p class="noindent">Then Mrs. Ramji said,</p>
+<p class="noindent">“Pearl!”</p>
+<p class="noindent">Pearl sat up straighter,</p>
+<p class="noindent">and I did, too.</p>
+<p class="noindent">Because maybe she was in trouble.</p>
+<p class="noindent">But Mrs. Ramji told Pearl,</p>
+<p class="noindent">“I would like you to move your desk</p>
+<p class="noindent">closer to Eleanor’s, please.”</p>
+<p class="noindent">“<em>Closer</em> to Eleanor’s?” Pearl asked.</p>
+<p class="imageba"><a id="page_4"></a><img alt="Image" height="477" src="../images/f0004-01.jpg" width="500" /></p>
+<p class="noindent"><a id="page_5"></a>“Yes,” Mrs. Ramji said.</p>
+<p class="noindent">“Actually, everyone in that row,</p>
+<p class="noindent">move a little</p>
+<p class="noindent">to make space for Ainsley’s desk,</p>
+<p class="noindent">on the other side of Pearl.”</p>
+<p class="noindent">“Yay! Closer to you!”</p>
+<p class="noindent">Pearl whispered to me,</p>
+<p class="noindent">and we grinned at each other</p>
+<p class="noindent">as everyone in our row</p>
+<p class="noindent">started making space for Ainsley.</p>
+<p class="noindent">After we’d finished</p>
+<p class="noindent">and I’d sat back down,</p>
+<p class="noindent">a wadded-up ball of paper flew</p>
+<p class="noindent">through the air</p>
+<p class="noindent">and landed on my desk.</p>
+<p class="noindent">I knew exactly</p>
+<p class="noindent">what that flying paper was.</p>
+<p class="noindent">I opened it up</p>
+<p class="noindent">and smoothed it out.</p>
+<p class="noindent"><a id="page_6"></a>Sure enough, Nicholas Rigby had drawn me a picture.</p>
+<p class="noindent">This one showed me on a roller coaster</p>
+<p class="noindent">in Orlando,</p>
+<p class="noindent">with my arms in the air</p>
+<p class="noindent">and my hair blowing in crazy directions.</p>
+<p class="image"><img alt="Image" height="200" src="../images/f0006-01.jpg" style="float:right; margin:1%;" width="162" /></p>
+<p class="noindent">I folded the picture neatly</p>
+<p class="noindent">and put it on top of the pile</p>
+<p class="noindent">of Nicholas’s pictures</p>
+<p class="noindent">that I kept in my desk.</p>
+<p class="noindent">Because even though that boy’s impossible,</p>
+<p class="noindent">he’s still a ridiculously good drawer.</p>
+<p class="noindent">Then I turned and whispered to him,</p>
+<p class="noindent">“Thanks.”</p>
+<p class="noindent">Like I always did.</p>
+<p class="noindent">And he kicked the back of my chair,</p>
+<p class="noindent">not too hard,</p>
+<p class="noindent">like <em>he</em> always did.</p>
+<p class="noindent">Then Mrs. Ramji asked us</p>
+<p class="noindent"><a id="page_7"></a>to take out our Creative Writing notebooks</p>
+<p class="noindent">and work on our Brooklyn Bridge poems</p>
+<p class="noindent">while she and Pearl helped Ainsley get set up.</p>
+<p class="noindent">I loved my Brooklyn Bridge poem.</p>
+<p class="noindent">So I worked on it very hard.</p>
+<p class="noindent">And realized only later</p>
+<p class="noindent">that I should’ve been</p>
+<p class="noindent">paying attention to Ainsley instead.</p>
+<p class="noindent">Because during that time,</p>
+<p class="noindent">she started casting a glittery spell over Pearl.</p>
+<p class="noindent">She really did.</p>
+<p class="imagec"><img alt="Image" height="291" src="../images/f0007-01.jpg" width="500" /></p>
+</body>
+</html>
+2023-01-28 17:38:22 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-28 17:38:22 INFO  - Step 14 - I restart app
+2023-01-28 17:38:47 INFO  - Step 15 - I open Books
+2023-01-28 17:38:47 INFO  - Button 'tabBooks' :: Clicking
+2023-01-28 17:38:47 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-28 17:38:49 INFO  - Label 'lblBookName' :: Clicking
+2023-01-28 17:38:50 INFO  - Step 17 - Click READ action button on book details screen
+2023-01-28 17:38:51 INFO  - Button 'Read' :: Clicking
+2023-01-28 17:38:51 INFO  - Step 18 - The BLACK_TEXT_ON_WHITE background is correct
+2023-01-28 17:38:51 INFO  - context - NATIVE_APP
+2023-01-28 17:38:54 INFO  - context - NATIVE_APP
+2023-01-28 17:38:54 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-28 17:38:54 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-28 17:38:54 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Like Carrot Juice on a Cupcake</title>
+<link href="../styles/9781613126615.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:ccbad206-5456-4310-816a-55a95a1857a0" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<p class="chaptitle" id="ch01"><a id="page_1"></a><img alt="Image" height="50" src="../images/ch01.jpg" width="335" /></p>
+<p class="noindent">It all started one Monday morning in April</p>
+<p class="image"><img alt="Image" height="300" src="../images/f0001-01.jpg" style="float:right; margin:1%;" width="191" /></p>
+<p class="noindent">when our fourth-grade teacher,</p>
+<p class="noindent">Mrs. Ramji,</p>
+<p class="noindent">made a special announcement.</p>
+<p class="noindent">She was standing near her desk,</p>
+<p class="noindent">beside a girl I’d never seen before.</p>
+<p class="noindent">That girl wore sparkly clothes</p>
+<p class="noindent">and a headband with a big bow.</p>
+<p class="noindent">“We have a new student!” Mrs. Ramji said.</p>
+<p class="noindent">“This is Ainsley Biggs.</p>
+<p class="noindent">She just moved here, from Orlando!”</p>
+<p class="noindent"><em>“Orlando!”</em> my best friend, Pearl, whispered to me,</p>
+<p class="noindent">from the desk beside mine.</p>
+<p class="noindent">“How <em>magical</em>.”</p>
+<p class="noindent">I heard other kids whisper, “Disney!”</p>
+<p class="noindent"><a id="page_2"></a>And then the boy who sits behind me,</p>
+<p class="noindent">Nicholas Rigby,</p>
+<p class="noindent">started humming the Disney song</p>
+<p class="noindent">“It’s a Small World.”</p>
+<p class="noindent">He hummed and hummed,</p>
+<p class="noindent">just loud enough for me to hear.</p>
+<p class="noindent">“Shh!” I told him.</p>
+<p class="noindent">I turned and glared at him, too.</p>
+<p class="noindent">Because Nicholas Rigby is always</p>
+<p class="noindent">getting us in trouble.</p>
+<p class="noindent">Plus, I knew I’d never get that song out of my head.</p>
+<p class="noindentt">“Doesn’t Ainsley look like a present?”</p>
+<p class="noindent">Pearl whispered to me.</p>
+<p class="noindent">“A shiny present, too pretty to unwrap?”</p>
+<p class="noindent">(Pearl talks like a poet sometimes.)</p>
+<p class="noindent">“She <em>does</em> look like a present!” I whispered back.</p>
+<p class="noindent">I started wondering</p>
+<p class="noindent">whether <em>I</em> ever wanted to look like a present.</p>
+<p class="noindent"><a id="page_3"></a>Before I could decide,</p>
+<p class="noindent">Mrs. Ramji turned the lights off</p>
+<p class="noindent">and on again</p>
+<p class="noindent">to get our attention.</p>
+<p class="noindent">“Class 4A!” she said.</p>
+<p class="noindent">“Please settle down!</p>
+<p class="noindent">You’re not behaving your best for Ainsley.</p>
+<p class="noindent">We need to make her feel welcome!</p>
+<p class="noindent">It’s not easy,</p>
+<p class="noindent">starting a new school so late in the year.”</p>
+<p class="noindent">Then Mrs. Ramji said,</p>
+<p class="noindent">“Pearl!”</p>
+<p class="noindent">Pearl sat up straighter,</p>
+<p class="noindent">and I did, too.</p>
+<p class="noindent">Because maybe she was in trouble.</p>
+<p class="noindent">But Mrs. Ramji told Pearl,</p>
+<p class="noindent">“I would like you to move your desk</p>
+<p class="noindent">closer to Eleanor’s, please.”</p>
+<p class="noindent">“<em>Closer</em> to Eleanor’s?” Pearl asked.</p>
+<p class="imageba"><a id="page_4"></a><img alt="Image" height="477" src="../images/f0004-01.jpg" width="500" /></p>
+<p class="noindent"><a id="page_5"></a>“Yes,” Mrs. Ramji said.</p>
+<p class="noindent">“Actually, everyone in that row,</p>
+<p class="noindent">move a little</p>
+<p class="noindent">to make space for Ainsley’s desk,</p>
+<p class="noindent">on the other side of Pearl.”</p>
+<p class="noindent">“Yay! Closer to you!”</p>
+<p class="noindent">Pearl whispered to me,</p>
+<p class="noindent">and we grinned at each other</p>
+<p class="noindent">as everyone in our row</p>
+<p class="noindent">started making space for Ainsley.</p>
+<p class="noindent">After we’d finished</p>
+<p class="noindent">and I’d sat back down,</p>
+<p class="noindent">a wadded-up ball of paper flew</p>
+<p class="noindent">through the air</p>
+<p class="noindent">and landed on my desk.</p>
+<p class="noindent">I knew exactly</p>
+<p class="noindent">what that flying paper was.</p>
+<p class="noindent">I opened it up</p>
+<p class="noindent">and smoothed it out.</p>
+<p class="noindent"><a id="page_6"></a>Sure enough, Nicholas Rigby had drawn me a picture.</p>
+<p class="noindent">This one showed me on a roller coaster</p>
+<p class="noindent">in Orlando,</p>
+<p class="noindent">with my arms in the air</p>
+<p class="noindent">and my hair blowing in crazy directions.</p>
+<p class="image"><img alt="Image" height="200" src="../images/f0006-01.jpg" style="float:right; margin:1%;" width="162" /></p>
+<p class="noindent">I folded the picture neatly</p>
+<p class="noindent">and put it on top of the pile</p>
+<p class="noindent">of Nicholas’s pictures</p>
+<p class="noindent">that I kept in my desk.</p>
+<p class="noindent">Because even though that boy’s impossible,</p>
+<p class="noindent">he’s still a ridiculously good drawer.</p>
+<p class="noindent">Then I turned and whispered to him,</p>
+<p class="noindent">“Thanks.”</p>
+<p class="noindent">Like I always did.</p>
+<p class="noindent">And he kicked the back of my chair,</p>
+<p class="noindent">not too hard,</p>
+<p class="noindent">like <em>he</em> always did.</p>
+<p class="noindent">Then Mrs. Ramji asked us</p>
+<p class="noindent"><a id="page_7"></a>to take out our Creative Writing notebooks</p>
+<p class="noindent">and work on our Brooklyn Bridge poems</p>
+<p class="noindent">while she and Pearl helped Ainsley get set up.</p>
+<p class="noindent">I loved my Brooklyn Bridge poem.</p>
+<p class="noindent">So I worked on it very hard.</p>
+<p class="noindent">And realized only later</p>
+<p class="noindent">that I should’ve been</p>
+<p class="noindent">paying attention to Ainsley instead.</p>
+<p class="noindent">Because during that time,</p>
+<p class="noindent">she started casting a glittery spell over Pearl.</p>
+<p class="noindent">She really did.</p>
+<p class="imagec"><img alt="Image" height="291" src="../images/f0007-01.jpg" width="500" /></p>
+</body>
+</html>
+2023-01-28 17:38:54 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-28 17:38:55 INFO  - Step 19 - I return to previous screen from epub
+2023-01-28 17:38:56 INFO  - Button 'btnBack' :: Clicking
+2023-01-28 17:38:56 INFO  - Step 20 - Click READ action button on book details screen
+2023-01-28 17:38:57 INFO  - Button 'Read' :: Clicking
+2023-01-28 17:38:58 INFO  - Step 21 - The BLACK_TEXT_ON_WHITE background is correct
+2023-01-28 17:38:58 INFO  - context - NATIVE_APP
+2023-01-28 17:38:58 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-28 17:39:01 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-28 17:39:01 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Like Carrot Juice on a Cupcake</title>
+<link href="../styles/9781613126615.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:ccbad206-5456-4310-816a-55a95a1857a0" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<p class="chaptitle" id="ch01"><a id="page_1"></a><img alt="Image" height="50" src="../images/ch01.jpg" width="335" /></p>
+<p class="noindent">It all started one Monday morning in April</p>
+<p class="image"><img alt="Image" height="300" src="../images/f0001-01.jpg" style="float:right; margin:1%;" width="191" /></p>
+<p class="noindent">when our fourth-grade teacher,</p>
+<p class="noindent">Mrs. Ramji,</p>
+<p class="noindent">made a special announcement.</p>
+<p class="noindent">She was standing near her desk,</p>
+<p class="noindent">beside a girl I’d never seen before.</p>
+<p class="noindent">That girl wore sparkly clothes</p>
+<p class="noindent">and a headband with a big bow.</p>
+<p class="noindent">“We have a new student!” Mrs. Ramji said.</p>
+<p class="noindent">“This is Ainsley Biggs.</p>
+<p class="noindent">She just moved here, from Orlando!”</p>
+<p class="noindent"><em>“Orlando!”</em> my best friend, Pearl, whispered to me,</p>
+<p class="noindent">from the desk beside mine.</p>
+<p class="noindent">“How <em>magical</em>.”</p>
+<p class="noindent">I heard other kids whisper, “Disney!”</p>
+<p class="noindent"><a id="page_2"></a>And then the boy who sits behind me,</p>
+<p class="noindent">Nicholas Rigby,</p>
+<p class="noindent">started humming the Disney song</p>
+<p class="noindent">“It’s a Small World.”</p>
+<p class="noindent">He hummed and hummed,</p>
+<p class="noindent">just loud enough for me to hear.</p>
+<p class="noindent">“Shh!” I told him.</p>
+<p class="noindent">I turned and glared at him, too.</p>
+<p class="noindent">Because Nicholas Rigby is always</p>
+<p class="noindent">getting us in trouble.</p>
+<p class="noindent">Plus, I knew I’d never get that song out of my head.</p>
+<p class="noindentt">“Doesn’t Ainsley look like a present?”</p>
+<p class="noindent">Pearl whispered to me.</p>
+<p class="noindent">“A shiny present, too pretty to unwrap?”</p>
+<p class="noindent">(Pearl talks like a poet sometimes.)</p>
+<p class="noindent">“She <em>does</em> look like a present!” I whispered back.</p>
+<p class="noindent">I started wondering</p>
+<p class="noindent">whether <em>I</em> ever wanted to look like a present.</p>
+<p class="noindent"><a id="page_3"></a>Before I could decide,</p>
+<p class="noindent">Mrs. Ramji turned the lights off</p>
+<p class="noindent">and on again</p>
+<p class="noindent">to get our attention.</p>
+<p class="noindent">“Class 4A!” she said.</p>
+<p class="noindent">“Please settle down!</p>
+<p class="noindent">You’re not behaving your best for Ainsley.</p>
+<p class="noindent">We need to make her feel welcome!</p>
+<p class="noindent">It’s not easy,</p>
+<p class="noindent">starting a new school so late in the year.”</p>
+<p class="noindent">Then Mrs. Ramji said,</p>
+<p class="noindent">“Pearl!”</p>
+<p class="noindent">Pearl sat up straighter,</p>
+<p class="noindent">and I did, too.</p>
+<p class="noindent">Because maybe she was in trouble.</p>
+<p class="noindent">But Mrs. Ramji told Pearl,</p>
+<p class="noindent">“I would like you to move your desk</p>
+<p class="noindent">closer to Eleanor’s, please.”</p>
+<p class="noindent">“<em>Closer</em> to Eleanor’s?” Pearl asked.</p>
+<p class="imageba"><a id="page_4"></a><img alt="Image" height="477" src="../images/f0004-01.jpg" width="500" /></p>
+<p class="noindent"><a id="page_5"></a>“Yes,” Mrs. Ramji said.</p>
+<p class="noindent">“Actually, everyone in that row,</p>
+<p class="noindent">move a little</p>
+<p class="noindent">to make space for Ainsley’s desk,</p>
+<p class="noindent">on the other side of Pearl.”</p>
+<p class="noindent">“Yay! Closer to you!”</p>
+<p class="noindent">Pearl whispered to me,</p>
+<p class="noindent">and we grinned at each other</p>
+<p class="noindent">as everyone in our row</p>
+<p class="noindent">started making space for Ainsley.</p>
+<p class="noindent">After we’d finished</p>
+<p class="noindent">and I’d sat back down,</p>
+<p class="noindent">a wadded-up ball of paper flew</p>
+<p class="noindent">through the air</p>
+<p class="noindent">and landed on my desk.</p>
+<p class="noindent">I knew exactly</p>
+<p class="noindent">what that flying paper was.</p>
+<p class="noindent">I opened it up</p>
+<p class="noindent">and smoothed it out.</p>
+<p class="noindent"><a id="page_6"></a>Sure enough, Nicholas Rigby had drawn me a picture.</p>
+<p class="noindent">This one showed me on a roller coaster</p>
+<p class="noindent">in Orlando,</p>
+<p class="noindent">with my arms in the air</p>
+<p class="noindent">and my hair blowing in crazy directions.</p>
+<p class="image"><img alt="Image" height="200" src="../images/f0006-01.jpg" style="float:right; margin:1%;" width="162" /></p>
+<p class="noindent">I folded the picture neatly</p>
+<p class="noindent">and put it on top of the pile</p>
+<p class="noindent">of Nicholas’s pictures</p>
+<p class="noindent">that I kept in my desk.</p>
+<p class="noindent">Because even though that boy’s impossible,</p>
+<p class="noindent">he’s still a ridiculously good drawer.</p>
+<p class="noindent">Then I turned and whispered to him,</p>
+<p class="noindent">“Thanks.”</p>
+<p class="noindent">Like I always did.</p>
+<p class="noindent">And he kicked the back of my chair,</p>
+<p class="noindent">not too hard,</p>
+<p class="noindent">like <em>he</em> always did.</p>
+<p class="noindent">Then Mrs. Ramji asked us</p>
+<p class="noindent"><a id="page_7"></a>to take out our Creative Writing notebooks</p>
+<p class="noindent">and work on our Brooklyn Bridge poems</p>
+<p class="noindent">while she and Pearl helped Ainsley get set up.</p>
+<p class="noindent">I loved my Brooklyn Bridge poem.</p>
+<p class="noindent">So I worked on it very hard.</p>
+<p class="noindent">And realized only later</p>
+<p class="noindent">that I should’ve been</p>
+<p class="noindent">paying attention to Ainsley instead.</p>
+<p class="noindent">Because during that time,</p>
+<p class="noindent">she started casting a glittery spell over Pearl.</p>
+<p class="noindent">She really did.</p>
+<p class="imagec"><img alt="Image" height="291" src="../images/f0007-01.jpg" width="500" /></p>
+</body>
+</html>
+2023-01-28 17:39:01 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-28 17:39:01 INFO  - Taking screenshot
+2023-01-28 17:39:01 INFO  - Test finished - logging out
+2023-01-28 17:39:02 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 17:39:05 INFO  - Button 'tabSettings' :: Clicking
+2023-01-28 17:39:06 INFO  - Button 'Accounts' :: Clicking
+2023-01-28 17:39:07 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-28 17:39:09 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-28 17:39:09 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-28 17:39:09 INFO  - Button 'Log out' :: Clicking
+2023-01-28 17:39:10 INFO  - Button 'Log in' :: Getting text from element
+2023-01-28 17:39:14 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-28 17:39:14 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-28 17:39:14 INFO  - Unlocking credential for current thread
+2023-01-28 17:39:14 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@46d84605
