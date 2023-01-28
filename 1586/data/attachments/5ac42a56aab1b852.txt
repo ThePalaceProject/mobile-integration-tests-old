@@ -1,0 +1,81 @@
+2023-01-28 06:06:07 INFO  - Scenario 'Epub: Navigate by Page' start
+2023-01-28 06:06:07 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-28 06:06:50 INFO  - Application on platform 'IOS' is ready...
+2023-01-28 06:06:51 INFO  - Session id - 0e08140bcf587a5e1f2f0af927feec91f010c89c
+2023-01-28 06:06:51 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2023-01-28 06:06:51 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-28 06:06:52 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-28 06:06:53 INFO  - Text Field 'Search field' :: Clicking
+2023-01-28 06:06:59 INFO  - Text Field 'Search field' :: Clearing
+2023-01-28 06:06:59 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-01-28 06:07:11 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-01-28 06:07:13 INFO  - Button 'Settings' :: Clicking
+2023-01-28 06:07:17 INFO  - Button 'Testing button' :: Clicking
+2023-01-28 06:07:17 INFO  - Step 1 - Enable hidden libraries
+2023-01-28 06:07:17 INFO  - Button 'Hidden libraries button' :: Clicking
+2023-01-28 06:07:19 INFO  - Step 2 - I open Catalog
+2023-01-28 06:07:19 INFO  - Button 'Catalog' :: Clicking
+2023-01-28 06:07:21 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2023-01-28 06:07:21 INFO  - Button 'Logo' :: Clicking
+2023-01-28 06:07:22 INFO  - Button 'Add library btn' :: Clicking
+2023-01-28 06:07:24 INFO  - Text Field 'Search field' :: Clicking
+2023-01-28 06:07:32 INFO  - Text Field 'Search field' :: Clearing
+2023-01-28 06:07:32 INFO  - Text Field 'Search field' :: Typing 'A1QA Test Library'
+2023-01-28 06:07:45 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-01-28 06:07:48 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2023-01-28 06:07:48 INFO  - Button 'Settings' :: Clicking
+2023-01-28 06:07:49 INFO  - Button 'Settings' :: Clicking
+2023-01-28 06:07:51 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-28 06:07:52 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2023-01-28 06:07:52 INFO  - Button 'Settings' :: Clicking
+2023-01-28 06:07:54 INFO  - Button 'Settings' :: Clicking
+2023-01-28 06:07:55 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-28 06:07:58 INFO  - Locking credential with barcode 01230000000304
+2023-01-28 06:07:58 INFO  - There are books on the account: 
+2023-01-28 06:07:59 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-01-28 06:07:59 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-01-28 06:07:59 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-01-28 06:07:59 INFO  - Count of books on the account after opening account: 3
+2023-01-28 06:08:22 INFO  - Text Field 'Card' :: Clicking
+2023-01-28 06:08:23 INFO  - Text Field 'Card' :: Clearing
+2023-01-28 06:08:23 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-28 06:08:27 INFO  - Text Field 'Pin' :: Clearing
+2023-01-28 06:08:27 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-28 06:08:31 INFO  - Button 'Log in' :: Clicking
+2023-01-28 06:08:39 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-28 06:08:42 INFO  - Step 6 - Login is performed successfully
+2023-01-28 06:08:44 INFO  - Step 7 - I open Catalog
+2023-01-28 06:08:44 INFO  - Button 'Catalog' :: Clicking
+2023-01-28 06:08:46 INFO  - Step 8 - I open search modal
+2023-01-28 06:08:48 INFO  - Button 'Search' :: Clicking
+2023-01-28 06:08:51 INFO  - Step 9 - I search for "The Book Thief" and save bookName as 'bookNameInfo'
+2023-01-28 06:08:52 INFO  - Text Field 'Search value input' :: Sending keys 'The Book Thief'
+2023-01-28 06:08:54 INFO  - Button 'Search' :: Clicking
+2023-01-28 06:08:57 INFO  - Step 10 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-28 06:09:15 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-28 06:09:16 INFO  - Button 'actionButton' :: Clicking
+2023-01-28 06:09:39 INFO  - Step 11 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-28 06:09:42 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-28 06:09:44 INFO  - Label 'lblBookName' :: Clicking
+2023-01-28 06:09:46 INFO  - Step 12 - Click READ action button on book details screen
+2023-01-28 06:09:48 INFO  - Button 'Read' :: Clicking
+2023-01-28 06:10:10 INFO  - Step 13 - 'bookInfo' book is present on epub reader screen
+2023-01-28 06:10:10 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-01-28 06:10:11 INFO  - Book name on epub reader screen - The Book Thief
+2023-01-28 06:10:11 INFO  - Step 14 - I click on right book corner on epub reader screen
+2023-01-28 06:10:14 INFO  - Step 15 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-01-28 06:10:14 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-28 06:10:15 INFO  - Taking screenshot
+2023-01-28 06:10:18 INFO  - Test finished - logging out
+2023-01-28 06:10:21 INFO  - Button 'Settings' :: Clicking
+2023-01-28 06:10:22 INFO  - Button 'Settings' :: Clicking
+2023-01-28 06:10:23 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-28 06:10:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-28 06:10:28 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-28 06:10:29 INFO  - Button 'Log out' :: Clicking
+2023-01-28 06:10:30 INFO  - Button 'Log out approve' :: Clicking
+2023-01-28 06:10:52 INFO  - Button 'Log in' :: Getting text from element
+2023-01-28 06:10:53 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-28 06:10:55 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-28 06:10:56 INFO  - Unlocking credential for current thread
+2023-01-28 06:10:56 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@bd21570
