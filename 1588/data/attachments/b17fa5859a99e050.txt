@@ -1,0 +1,89 @@
+2023-01-28 14:17:08 INFO  - Scenario 'Audiobooks: Check of not rewinding forward and back by tapping on time bar' start
+2023-01-28 14:17:08 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-28 14:17:58 INFO  - Application on platform 'IOS' is ready...
+2023-01-28 14:17:58 INFO  - Session id - 9a5c4f9674b446b4cd9f98589ecfe9191fa67833
+2023-01-28 14:17:58 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2023-01-28 14:17:58 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-28 14:17:58 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-28 14:17:59 INFO  - Text Field 'Search field' :: Clicking
+2023-01-28 14:18:05 INFO  - Text Field 'Search field' :: Clearing
+2023-01-28 14:18:05 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-01-28 14:18:15 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-01-28 14:18:16 INFO  - Button 'Settings' :: Clicking
+2023-01-28 14:18:19 INFO  - Button 'Testing button' :: Clicking
+2023-01-28 14:18:20 INFO  - Step 1 - Enable hidden libraries
+2023-01-28 14:18:20 INFO  - Button 'Hidden libraries button' :: Clicking
+2023-01-28 14:18:21 INFO  - Step 2 - I open Catalog
+2023-01-28 14:18:21 INFO  - Button 'Catalog' :: Clicking
+2023-01-28 14:18:22 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2023-01-28 14:18:23 INFO  - Button 'Logo' :: Clicking
+2023-01-28 14:18:24 INFO  - Button 'Add library btn' :: Clicking
+2023-01-28 14:18:25 INFO  - Text Field 'Search field' :: Clicking
+2023-01-28 14:18:32 INFO  - Text Field 'Search field' :: Clearing
+2023-01-28 14:18:32 INFO  - Text Field 'Search field' :: Typing 'A1QA Test Library'
+2023-01-28 14:18:43 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-01-28 14:18:45 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2023-01-28 14:18:45 INFO  - Button 'Settings' :: Clicking
+2023-01-28 14:18:46 INFO  - Button 'Settings' :: Clicking
+2023-01-28 14:18:48 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-28 14:18:49 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2023-01-28 14:18:49 INFO  - Button 'Settings' :: Clicking
+2023-01-28 14:18:50 INFO  - Button 'Settings' :: Clicking
+2023-01-28 14:18:51 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-28 14:18:54 INFO  - Locking credential with barcode 01230000000304
+2023-01-28 14:18:54 INFO  - There are books on the account: 
+2023-01-28 14:18:55 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-01-28 14:18:55 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-01-28 14:18:55 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-01-28 14:18:55 INFO  - Count of books on the account after opening account: 3
+2023-01-28 14:19:17 INFO  - Text Field 'Card' :: Clicking
+2023-01-28 14:19:18 INFO  - Text Field 'Card' :: Clearing
+2023-01-28 14:19:18 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-28 14:19:22 INFO  - Text Field 'Pin' :: Clearing
+2023-01-28 14:19:22 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-28 14:19:25 INFO  - Button 'Log in' :: Clicking
+2023-01-28 14:19:33 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-28 14:19:36 INFO  - Step 6 - Login is performed successfully
+2023-01-28 14:19:36 INFO  - Step 7 - I open Catalog
+2023-01-28 14:19:37 INFO  - Button 'Catalog' :: Clicking
+2023-01-28 14:19:39 INFO  - Step 8 - I open search modal
+2023-01-28 14:19:40 INFO  - Button 'Search' :: Clicking
+2023-01-28 14:19:44 INFO  - Step 9 - I search for "Master and Commander" and save bookName as 'bookNameInfo'
+2023-01-28 14:19:45 INFO  - Text Field 'Search value input' :: Sending keys 'Master and Commander'
+2023-01-28 14:19:47 INFO  - Button 'Search' :: Clicking
+2023-01-28 14:19:50 INFO  - Step 10 - I switch to 'Audiobooks' catalog tab
+2023-01-28 14:19:50 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-28 14:20:32 INFO  - Step 11 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-28 14:20:37 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-28 14:20:39 INFO  - Label 'lblBookName' :: Clicking
+2023-01-28 14:20:40 INFO  - Step 12 - Click GET action button on book details screen
+2023-01-28 14:20:47 INFO  - Button 'Get' :: Clicking
+2023-01-28 14:21:16 INFO  - Step 13 - I check that book contains LISTEN action button on book details screen
+2023-01-28 14:21:18 INFO  - Step 14 - Click LISTEN action button on book details screen
+2023-01-28 14:21:20 INFO  - Button 'Listen' :: Clicking
+2023-01-28 14:21:42 INFO  - Step 15 - Audio player screen of book 'bookInfo' is opened
+2023-01-28 14:21:43 INFO  - Step 16 - Tap play button on audio player screen
+2023-01-28 14:21:43 INFO  - Button 'btnPlay' :: Clicking
+2023-01-28 14:21:43 INFO  - Step 17 - Pause button is present on audio player screen
+2023-01-28 14:21:44 INFO  - Step 18 - Tap pause button on audio player screen
+2023-01-28 14:21:44 INFO  - Button 'btnPause' :: Clicking
+2023-01-28 14:21:45 INFO  - Step 19 - Play button is present on audio player screen
+2023-01-28 14:21:45 INFO  - Step 20 - I stretch slider on the time tracking line forward on audio player screen
+2023-01-28 14:21:48 INFO  - Step 21 - Wait for 5 seconds
+2023-01-28 14:21:53 INFO  - Step 22 - Save book play time as 'timeBehind' on audio player screen
+2023-01-28 14:21:53 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2023-01-28 14:22:13 INFO  - Taking screenshot
+2023-01-28 14:22:15 INFO  - Test finished - logging out
+2023-01-28 14:22:19 INFO  - Button 'Settings' :: Clicking
+2023-01-28 14:22:19 INFO  - Button 'Settings' :: Clicking
+2023-01-28 14:22:20 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-28 14:22:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-28 14:22:24 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-28 14:22:25 INFO  - Button 'Log out' :: Clicking
+2023-01-28 14:22:25 INFO  - Button 'Log out approve' :: Clicking
+2023-01-28 14:22:28 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-01-28 14:22:29 INFO  - Button 'Log in' :: Getting text from element
+2023-01-28 14:22:32 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-28 14:22:33 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-28 14:22:34 INFO  - Unlocking credential for current thread
+2023-01-28 14:22:34 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3046fecb
