@@ -1,0 +1,74 @@
+2023-01-28 09:20:52 INFO  - Scenario 'Open the audiobook at the last open chapter and check time code' start
+2023-01-28 09:20:52 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-28 09:21:20 INFO  - Application on platform 'IOS' is ready...
+2023-01-28 09:21:20 INFO  - Session id - 10965026729f476029ec013c5874a0bfaffb3e8a
+2023-01-28 09:21:20 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-28 09:21:41 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-28 09:21:41 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-28 09:21:42 INFO  - Text Field 'Search field' :: Clicking
+2023-01-28 09:21:48 INFO  - Text Field 'Search field' :: Clearing
+2023-01-28 09:21:48 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-28 09:21:58 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-28 09:22:00 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-28 09:22:00 INFO  - Button 'Settings' :: Clicking
+2023-01-28 09:22:01 INFO  - Button 'Settings' :: Clicking
+2023-01-28 09:22:02 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-28 09:22:03 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-28 09:22:03 INFO  - Button 'Settings' :: Clicking
+2023-01-28 09:22:04 INFO  - Button 'Settings' :: Clicking
+2023-01-28 09:22:05 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-28 09:22:07 INFO  - Locking credential with barcode 01230000000306
+2023-01-28 09:22:07 INFO  - There are books on the account: 
+2023-01-28 09:22:09 INFO  - bookName: When the Tempest Gathers Distributor: Palace Marketplace
+2023-01-28 09:22:09 INFO  - Count of books on the account after opening account: 1
+2023-01-28 09:22:30 INFO  - Text Field 'Card' :: Clicking
+2023-01-28 09:22:31 INFO  - Text Field 'Card' :: Clearing
+2023-01-28 09:22:31 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-01-28 09:22:34 INFO  - Text Field 'Pin' :: Clearing
+2023-01-28 09:22:34 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-28 09:22:38 INFO  - Button 'Log in' :: Clicking
+2023-01-28 09:22:46 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-28 09:22:48 INFO  - Step 3 - Login is performed successfully
+2023-01-28 09:22:49 INFO  - Step 4 - I open Catalog
+2023-01-28 09:22:49 INFO  - Button 'Catalog' :: Clicking
+2023-01-28 09:22:51 INFO  - Step 5 - I open search modal
+2023-01-28 09:22:52 INFO  - Button 'Search' :: Clicking
+2023-01-28 09:22:56 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-28 09:22:56 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-28 09:22:56 INFO  - randomBookName: Vanderbilt
+2023-01-28 09:22:57 INFO  - Text Field 'Search value input' :: Sending keys 'Vanderbilt'
+2023-01-28 09:22:58 INFO  - Button 'Search' :: Clicking
+2023-01-28 09:23:01 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-01-28 09:23:01 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-28 09:23:43 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-28 09:23:44 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-28 09:23:45 INFO  - Label 'lblBookName' :: Clicking
+2023-01-28 09:23:46 INFO  - Step 9 - Click GET action button on book details screen
+2023-01-28 09:23:47 INFO  - Button 'Get' :: Clicking
+2023-01-28 09:24:10 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-01-28 09:24:12 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-01-28 09:24:14 INFO  - Button 'Listen' :: Clicking
+2023-01-28 09:24:35 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-01-28 09:24:36 INFO  - Step 13 - Open toc audiobook screen
+2023-01-28 09:24:36 INFO  - Button 'btnToc' :: Clicking
+2023-01-28 09:24:37 INFO  - Step 14 - The first chapter is loaded
+2023-01-28 09:24:42 INFO  - Step 15 - Open random chapter on toc audiobook screen and save chapter name as 'chapterNameKey'
+2023-01-28 09:25:06 INFO  - Label 'element 13' :: Getting attribute 'name'
+2023-01-28 09:25:07 INFO  - Label 'element 13' :: Clicking
+2023-01-28 09:25:08 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-01-28 09:25:09 INFO  - Step 17 - Chapter name on audio player screen is equal to 'chapterNameKey' saved chapter name
+2023-01-28 09:25:09 INFO  - Label 'lblChapterName' :: Getting attribute 'value'
+2023-01-28 09:25:09 INFO  - Taking screenshot
+2023-01-28 09:25:11 INFO  - Test finished - logging out
+2023-01-28 09:25:15 INFO  - Button 'Settings' :: Clicking
+2023-01-28 09:25:16 INFO  - Button 'Settings' :: Clicking
+2023-01-28 09:25:16 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-28 09:25:19 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-28 09:25:20 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-28 09:25:21 INFO  - Button 'Log out' :: Clicking
+2023-01-28 09:25:21 INFO  - Button 'Log out approve' :: Clicking
+2023-01-28 09:25:43 INFO  - Button 'Log in' :: Getting text from element
+2023-01-28 09:25:44 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-28 09:25:45 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-28 09:25:46 INFO  - Unlocking credential for current thread
+2023-01-28 09:25:46 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@52744b3e
