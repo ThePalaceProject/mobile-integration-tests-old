@@ -1,0 +1,86 @@
+2023-01-29 09:01:25 INFO  - Scenario 'Check of settings screen and page navigation in Lyrasis' start
+2023-01-29 09:01:25 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-29 09:02:00 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-29 09:02:00 INFO  - Session id - 13870b2484e9f47bc90b87133c097ffa00884709
+2023-01-29 09:02:00 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-29 09:02:00 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-29 09:02:03 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-29 09:02:04 INFO  - Button 'Search' :: Clicking
+2023-01-29 09:02:06 INFO  - Text Field 'Search' :: Clearing
+2023-01-29 09:02:06 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-29 09:02:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 09:02:10 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-29 09:02:10 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:02:12 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:02:13 INFO  - Button 'Accounts' :: Clicking
+2023-01-29 09:02:15 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-29 09:02:15 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:02:16 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:02:17 INFO  - Button 'Accounts' :: Clicking
+2023-01-29 09:02:18 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 09:02:19 INFO  - Locking credential with barcode 01230000000304
+2023-01-29 09:02:19 INFO  - There are books on the account: 
+2023-01-29 09:02:20 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-01-29 09:02:20 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-01-29 09:02:20 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-01-29 09:02:20 INFO  - Count of books on the account after opening account: 3
+2023-01-29 09:02:20 INFO  - Text Field 'Card' :: Clearing
+2023-01-29 09:02:20 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-29 09:02:23 INFO  - Text Field 'Pin' :: Clearing
+2023-01-29 09:02:23 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-29 09:02:25 INFO  - Button 'Log in' :: Clicking
+2023-01-29 09:02:31 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-29 09:02:32 INFO  - Step 3 - Login is performed successfully
+2023-01-29 09:02:53 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-29 09:02:54 INFO  - Step 4 - I open Catalog
+2023-01-29 09:02:54 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-29 09:03:15 INFO  - Step 5 - I open search modal
+2023-01-29 09:03:35 INFO  - Button 'Search' :: Clicking
+2023-01-29 09:03:37 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-29 09:03:37 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-29 09:03:37 INFO  - randomBookName: World War II :
+2023-01-29 09:03:37 INFO  - Error details button is not present
+2023-01-29 09:03:38 INFO  - Text Field 'Search value input' :: Sending keys 'World War II :'
+2023-01-29 09:03:42 INFO  - Error details button is not present
+2023-01-29 09:03:42 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-29 09:03:45 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-29 09:03:47 INFO  - Button 'actionButton' :: Clicking
+2023-01-29 09:03:55 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-01-29 09:03:56 INFO  - Step 9 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-29 09:03:57 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-29 09:03:58 INFO  - Label 'lblBookName' :: Clicking
+2023-01-29 09:03:58 INFO  - Step 10 - Click READ action button on book details screen
+2023-01-29 09:03:59 INFO  - Button 'Read' :: Clicking
+2023-01-29 09:04:02 INFO  - Step 11 - Reader pdf screen is opened
+2023-01-29 09:04:06 INFO  - Step 12 - I save the number of the last page as 'lastPageInfo' on pdf reader screen
+2023-01-29 09:04:06 INFO  - Label 'Last page number' :: Getting text from element
+2023-01-29 09:04:08 INFO  - Step 13 - I open pdf settings screen on pdf reader screen
+2023-01-29 09:04:09 INFO  - Button 'Settings' :: Clicking
+2023-01-29 09:04:09 INFO  - Step 14 - PDF settings screen is opened
+2023-01-29 09:04:10 INFO  - Step 15 - Vertical scrolling is chosen by default on settings screen
+2023-01-29 09:04:10 INFO  - Button 'Vertical scrolling' :: Getting attribute 'checked'
+2023-01-29 09:04:11 INFO  - Step 16 - I tap Go to last page button on pdf settings screen
+2023-01-29 09:04:11 INFO  - Button 'Last page button' :: Clicking
+2023-01-29 09:04:12 INFO  - Step 17 - Page number is equal to 'lastPageInfo' on pdf reader screen
+2023-01-29 09:04:12 INFO  - Label 'Page number' :: Getting text from element
+2023-01-29 09:04:14 INFO  - Step 18 - I open pdf settings screen on pdf reader screen
+2023-01-29 09:04:14 INFO  - Button 'Settings' :: Clicking
+2023-01-29 09:04:15 INFO  - Step 19 - PDF settings screen is opened
+2023-01-29 09:04:16 INFO  - Step 20 - I tap Go to first page button on pdf settings screen
+2023-01-29 09:04:16 INFO  - Button 'First page button' :: Clicking
+2023-01-29 09:04:17 INFO  - Step 21 - The first page is opened on pdf reader screen
+2023-01-29 09:04:17 INFO  - Label 'Page number' :: Getting text from element
+2023-01-29 09:04:18 INFO  - Taking screenshot
+2023-01-29 09:04:21 INFO  - Test finished - logging out
+2023-01-29 09:04:22 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:04:25 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:04:26 INFO  - Button 'Accounts' :: Clicking
+2023-01-29 09:04:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 09:04:30 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-29 09:04:31 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-29 09:04:32 INFO  - Button 'Log out' :: Clicking
+2023-01-29 09:04:32 INFO  - Button 'Log in' :: Getting text from element
+2023-01-29 09:04:37 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-29 09:04:38 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-29 09:04:38 INFO  - Unlocking credential for current thread
+2023-01-29 09:04:38 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@761d7486

@@ -1,0 +1,1676 @@
+2023-01-29 08:23:32 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-01-29 08:23:32 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-29 08:24:07 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-29 08:24:07 INFO  - Session id - 3b0f88e1e470fb31f902b61469537c1c3cdfb8a1
+2023-01-29 08:24:07 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-29 08:24:07 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-29 08:24:10 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-29 08:24:11 INFO  - Button 'Search' :: Clicking
+2023-01-29 08:24:13 INFO  - Text Field 'Search' :: Clearing
+2023-01-29 08:24:13 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-29 08:24:15 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 08:24:16 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-29 08:24:16 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 08:24:17 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 08:24:18 INFO  - Button 'Accounts' :: Clicking
+2023-01-29 08:24:20 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-29 08:24:20 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 08:24:21 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 08:24:21 INFO  - Button 'Accounts' :: Clicking
+2023-01-29 08:24:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 08:24:23 INFO  - Locking credential with barcode 01230000000304
+2023-01-29 08:24:23 INFO  - There are books on the account: 
+2023-01-29 08:24:24 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-01-29 08:24:24 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-01-29 08:24:24 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-01-29 08:24:24 INFO  - Count of books on the account after opening account: 3
+2023-01-29 08:24:24 INFO  - Text Field 'Card' :: Clearing
+2023-01-29 08:24:24 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-29 08:24:26 INFO  - Text Field 'Pin' :: Clearing
+2023-01-29 08:24:26 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-29 08:24:28 INFO  - Button 'Log in' :: Clicking
+2023-01-29 08:24:34 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-29 08:24:34 INFO  - Step 3 - Login is performed successfully
+2023-01-29 08:24:55 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-29 08:24:56 INFO  - Step 4 - I open Catalog
+2023-01-29 08:24:56 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-29 08:25:16 INFO  - Step 5 - I open search modal
+2023-01-29 08:25:36 INFO  - Button 'Search' :: Clicking
+2023-01-29 08:25:38 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-29 08:25:38 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-29 08:25:38 INFO  - randomBookName: The Barefoot Investor
+2023-01-29 08:25:38 INFO  - Error details button is not present
+2023-01-29 08:25:38 INFO  - Text Field 'Search value input' :: Sending keys 'The Barefoot Investor'
+2023-01-29 08:25:41 INFO  - Error details button is not present
+2023-01-29 08:25:45 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-29 08:25:46 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-29 08:25:46 INFO  - Button 'actionButton' :: Clicking
+2023-01-29 08:25:56 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-29 08:25:57 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-29 08:25:57 INFO  - Label 'lblBookName' :: Clicking
+2023-01-29 08:25:57 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-29 08:25:59 INFO  - Button 'Read' :: Clicking
+2023-01-29 08:25:59 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-01-29 08:25:59 INFO  - Scrolling 8 times on reader epub screen
+2023-01-29 08:26:20 INFO  - Step 11 - I save font size as 'fontSize'
+2023-01-29 08:26:20 INFO  - context - NATIVE_APP
+2023-01-29 08:26:20 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-29 08:26:21 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-29 08:26:21 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" epub:prefix="index: http://www.index.com/" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Barefoot Investor</title>
+<link href="WileyTemplate_v5.3.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:755f9850-07ed-4572-9dca-a915f2c249ff" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body epub:type="frontmatter">
+<nav class="tocList" epub:type="toc" id="toc">
+<h1><b>CONTENTS</b></h1>
+<ol>
+<li class="contentsH1"><a href="ata.xhtml">About the author</a></li>
+<li class="contentsH1"><a href="pleude.xhtml">Prelude: Living Barefoot</a></li>
+<li class="contentsH1"><a href="f03.xhtml">The alpaca attitude</a></li>
+<li class="contentsH1"><a href="p01.xhtml">Part 1: Plant</a>
+<ol>
+<li class="contentsH1"><a href="step01.xhtml">Step 1: Schedule a Monthly Barefoot Date Night</a>
+<ol>
+<li class="contentsH2"><a href="s-1-c01.xhtml">Money talk is better with garlic bread and wine</a></li>
+<li class="contentsH2"><a href="s-1-c02.xhtml">Barefoot banking</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-1">How did you get your current bank account?</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-2">Banishing bank fees from your life forever</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-3">Get some interest, brah!</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-4">Get some Mojo, baby</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-5">And if you have a mortgage...</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-1-c03.xhtml">The world's cheapest super fund</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-1">‘I've got this'</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-2">The greatest tax dodge in Australia</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-3">Middle-aged men ruin everything</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-4">Your super fund can gobble up a third of your savings in fees</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-5">The $226 484 difference</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-6">What about fancy investment options?</a></li>
+<li class="contentsH3"><a href="s-1-c03d.xhtml#c03-7">The super fund I use</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-1-c04.xhtml">Your insurance sorted in one beer</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c04.xhtml#c04-1">The golden rules of insurance</a></li>
+<li class="contentsH3"><a href="s-1-c04.xhtml#c04-2">Private health insurance — do you even need it?</a></li>
+<li class="contentsH3"><a href="s-1-c04.xhtml#c04-3">Protecting your family</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-1-c05.xhtml">How to live like a multimillionaire right now</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-1">Back to the future</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-2">Jerry Seinfeld talks garbage</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-3">How much is enough?</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-4">#BarefootRich</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-5">Socks and jocks</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-6">Your car</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step02.xhtml">Step 2: Set Up Your Buckets</a>
+<ol>
+<li class="contentsH2"><a href="s-2-c01.xhtml">The Serviette Strategy</a>
+<ol>
+<li class="contentsH3"><a href="s-2-c01.xhtml#c06-1">Introducing the Serviette Strategy</a></li>
+<li class="contentsH3"><a href="s-2-c01.xhtml#c06-2">Manage your money in 10 minutes a week</a></li>
+<li class="contentsH3"><a href="s-2-c01.xhtml#c06-3">Putting it all together: Serviette Strategy + your new accounts = happiness</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step03.xhtml">Step 3: Domino Your Debts</a>
+<ol>
+<li class="contentsH2"><a href="s-3-c01.xhtml">Removing the brainwashing</a>
+<ol>
+<li class="contentsH3"><a href="s-3-c01.xhtml#c07-1">Who taught you about money?</a></li>
+<li class="contentsH3"><a href="s-3-c01.xhtml#c07-2">Your first credit card</a></li>
+<li class="contentsH3"><a href="s-3-c01.xhtml#c07-3">Stand for something</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-3-c02.xhtml">Domino your debts (except your HECS-HELP and your home)</a>
+<ol>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-1">Domino 1: Calculate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-2">Domino 2: Negotiate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-3">Domino 3: Eliminate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-4">Domino 4: Detonate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-5">Domino 5: Celebrate!</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-6">The move to monthly Barefoot Date Nights</a></li>
+</ol>
+</li>
+<li class="contentsH3"><a href="s-3-c03.xhtml">Recap of Part 1: Plant</a></li>
+</ol></li>
+</ol></li>
+<li class="contentsH1"><a href="p02.xhtml">Part 2: Grow</a>
+<ol>
+<li class="contentsH2"><a href="p02-1.xhtml">How to double your income</a>
+<ol>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-1">You're joking … right?</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-2">It was the best of times; it was the worst of times</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-3">Welcome back to high school</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-4">How to earn $5000 in an hour</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-5">The ultimate payoff</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-6">Please, give me your excuses</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-7">Get a bit on the side — fast</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-8">Swing on the trapeze</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-9">How you can double your income</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-10">Prove them wrong</a></li>
+</ol>
+</li>
+<li class="contentsH1"><a href="step04.xhtml">Step 4: Buy Your Home</a>
+<ol>
+<li class="contentsH2"><a href="s-4-c01.xhtml">How to buy your home in 20 months</a>
+<ol>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-1">Yes, housing is ridiculously expensive</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-2">Is rent money dead money?</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-3">Mistake #1: They're waiting for a crash</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-4">Mistake #2: They buy a home they can't afford</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-5">Mistake #3: They buy an investment property first</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-6">Mistake #4: They rent but forget to save</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-7">Mistake #5: They don't consider other options</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-8">How to save for a deposit</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-9">Home is where your heart is</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-10">How we bought our family home</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step05.xhtml">Step 5: Supercharge Your Wealth</a>
+<ol>
+<li class="contentsH2"><a href="s-5-c02.xhtml">Your Golden Ticket — becoming an investor</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-1">Leave your emotions at the door</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-2">The Boxing Day sales</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-3">Becoming a business owner</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-4">But I don't have any money to invest!</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-5">Introducing the thinking person's SMSF</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-6">So should I buy shares inside (or outside) of super?</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-5-c03.xhtml">The automatic millionaire — how to put your investing on autopilot</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-1">Little blue biros</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-2">Faceplanting on a treadmill</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-3">The final quarter of your grand final</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-4">Never worry about money again — boosting your super to 15 per cent</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-5">No willpower needed</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-6">Automatic millionaire super scripts</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-5-c01.xhtml">Should I buy an investment property?</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-1">Don't put down this book!</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-2">Why borrowing to invest kills compound interest</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-3">Debt is a four-letter word</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-4">A tale of two investors</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-5">How to really make money in property</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-6">Property vs shares</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-5-c04.xhtml">How to be a hero — investing for your kids (or grandkids)</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-1">The number one secret to raising financially fit kids is …</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-2">Lower income earners</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-3">Higher income earners</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-4">How not to raise a spoilt brat</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-5">Paris Hilton, Donald Trump and your kids</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-6">A letter to my boys</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step06.xhtml">Step 6: Boost Your Mojo to Three Months</a>
+<ol>
+<li class="contentsH2"><a href="s-6-c01.xhtml">The power of Mojo — never worry about money again</a>
+<ol>
+<li class="contentsH2"><a href="s-6-c02.xhtml">Recap of Part 2: Grow</a></li>
+</ol></li>
+</ol></li>
+</ol></li>
+<li class="contentsH1"><a href="p03.xhtml">Part 3: Harvest</a>
+<ol>
+<li class="contentsH1"><a href="step07.xhtml">Step 7: Get the Banker off Your Back</a>
+<ol>
+<li class="contentsH2"><a href="s-7-c01.xhtml">The curious case of the postcode povvos</a>
+<ol>
+<li class="contentsH3"><a href="s-7-c01.xhtml#c15-1">Postcode povvos</a></li>
+<li class="contentsH3"><a href="s-7-c01.xhtml#c15-2">The millionaire next door</a></li>
+<li class="contentsH3"><a href="s-7-c01.xhtml#c15-3">Don't do it for the kids</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-7-c02.xhtml">How to save $77 641 and wipe almost seven years off your mortgage</a>
+<ol>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-1">Rule 1: Don't get the bells and whistles</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-2">Rule 2: Don't fix your rate</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-3">Rule 3: Get the cheapest rate possible</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-4">The $22 064 phone call</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-5">Revealed: the mortgage industry's dirty little secret</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-6">Point the Fire Extinguisher at your home loan</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-7">The proudest day of my financial life</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step08.xhtml">Step 8: Nail Your Retirement Number</a>
+<ol>
+<li class="contentsH2"><a href="s-8-c01.xhtml">The Donald Bradman Retirement Strategy — why you don't need $1 million to retire</a>
+<ol>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-1">Give us a hand, cobber</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-2">Fear and loathing</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-3">You do not need a million dollars in super to retire</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-4">What your retirement will look like</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-5">Introducing the Donald Bradman Retirement Strategy</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-6">You'll never, ever, run out of money</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-7">The three-bucket retirement solution</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-8">Where will you get three years of pension payments for Mojo?</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-8-c02.xhtml">Finding your financial advisor on Tinder</a>
+<ol>
+<li class="contentsH3"><a href="s-8-c02.xhtml#c18-1">Find your financial advisor the Tinder way</a></li>
+<li class="contentsH3"><a href="s-8-c02.xhtml#c18-2">What to do if you've already got an advisor</a></li>
+<li class="contentsH3"><a href="s-8-c02.xhtml#c18-3">Be dumb smart</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-8-c03.xhtml">It's not about you — a gift for your family</a></li>
+</ol></li>
+<li class="contentsH1"><a href="step09.xhtml">Step 9: Leave a Legacy</a>
+<ol>
+<li class="contentsH2"><a href="s-9-c01.xhtml">Building your legacy — a very special Barefoot Date Night</a>
+<ol>
+<li class="contentsH3"><a href="s-9-c01.xhtml#c19-1">How will you be remembered?</a></li>
+<li class="contentsH3"><a href="s-9-c01.xhtml#c19-2">Give your money</a></li>
+<li class="contentsH3"><a href="s-9-c01.xhtml#c19-3">Give your time and your money</a></li>
+<li class="contentsH2"><a href="s-9-c02.xhtml">Recap of Part 3: Harvest</a></li>
+</ol>
+</li>
+</ol></li>
+</ol></li>
+<li class="contentsH1"><a href="b01.xhtml">Freedom starts today — you don't have to wait ...</a>
+<ol>
+<li class="contentsH2"><a href="b01.xhtml#b01-1">A sense of purpose</a></li>
+<li class="contentsH2"><a href="b01.xhtml#b01-2">Strong personal relationship/s</a></li>
+<li class="contentsH2"><a href="b01.xhtml#b01-3">Financial security</a></li>
+</ol>
+</li>
+<li class="contentsH1"><a href="b02.xhtml">We'll meet again</a></li>
+<li class="contentsH1"><a href="bindex.xhtml">Index</a></li>
+<li class="contentsH1"><a href="b04.xhtml">Are You Ready to Take the Next Step?</a></li>
+<li class="contentsH1"><a href="eula.xhtml">EULA</a></li>
+</ol>
+</nav>
+<nav class="guideList" epub:type="landmarks" id="guide">
+<h2>Guide</h2>
+<ol>
+<li><a epub:type="cover" href="fcover.xhtml">Cover</a></li>
+<li><a epub:type="toc" href="#toc">Table of Contents</a></li>
+<li><a epub:type="part" href="p01.xhtml">Part 1</a></li>
+</ol>
+</nav>
+<nav class="pageList" epub:type="page-list" hidden="hidden" id="pages">
+<h2>Pages</h2>
+<ol>
+<li><a href="f01.xhtml#Page_viii">viii</a></li>
+<li><a href="f02.xhtml#Page_xi">xi</a></li>
+<li><a href="pleude.xhtml#Page_xv">xv</a></li>
+<li><a href="pleude.xhtml#Page_xvi">xvi</a></li>
+<li><a href="pleude.xhtml#Page_xvii">xvii</a></li>
+<li><a href="pleude.xhtml#Page_xviii">xviii</a></li>
+<li><a href="f03.xhtml#Page_xix">xix</a></li>
+<li><a href="f03.xhtml#Page_xx">xx</a></li>
+<li><a href="f03.xhtml#Page_xxi">xxi</a></li>
+<li><a href="f03.xhtml#Page_xxii">xxii</a></li>
+<li><a href="f03.xhtml#Page_xxiii">xxiii</a></li>
+<li><a href="f03.xhtml#Page_xxiv">xxiv</a></li>
+<li><a href="f03.xhtml#Page_xxv">xxv</a></li>
+<li><a href="f03.xhtml#Page_xxvi">xxvi</a></li>
+<li><a href="f03.xhtml#Page_xxvii">xxvii</a></li>
+<li><a href="f03.xhtml#Page_xxviii">xxviii</a></li>
+<li><a href="p01.xhtml#Page_2">2</a></li>
+<li><a href="p01.xhtml#Page_3">3</a></li>
+<li><a href="step01.xhtml#Page_4">4</a></li>
+<li><a href="step01.xhtml#Page_5">5</a></li>
+<li><a href="s-1-c01.xhtml#Page_7">7</a></li>
+<li><a href="s-1-c01.xhtml#Page_8">8</a></li>
+<li><a href="s-1-c01.xhtml#Page_9">9</a></li>
+<li><a href="s-1-c01.xhtml#Page_10">10</a></li>
+<li><a href="s-1-c01a.xhtml#Page_11">11</a></li>
+<li><a href="s-1-c02.xhtml#Page_13">13</a></li>
+<li><a href="s-1-c02.xhtml#Page_14">14</a></li>
+<li><a href="s-1-c02.xhtml#Page_15">15</a></li>
+<li><a href="s-1-c02.xhtml#Page_16">16</a></li>
+<li><a href="s-1-c02.xhtml#Page_17">17</a></li>
+<li><a href="s-1-c02.xhtml#Page_18">18</a></li>
+<li><a href="s-1-c02.xhtml#Page_19">19</a></li>
+<li><a href="s-1-c02.xhtml#Page_20">20</a></li>
+<li><a href="s-1-c02a.xhtml#Page_21">21</a></li>
+<li><a href="s-1-c02a.xhtml#Page_22">22</a></li>
+<li><a href="s-1-c03.xhtml#Page_23">23</a></li>
+<li><a href="s-1-c03.xhtml#Page_24">24</a></li>
+<li><a href="s-1-c03.xhtml#Page_25">25</a></li>
+<li><a href="s-1-c03.xhtml#Page_26">26</a></li>
+<li><a href="s-1-c03.xhtml#Page_27">27</a></li>
+<li><a href="s-1-c03.xhtml#Page_28">28</a></li>
+<li><a href="s-1-c03.xhtml#Page_29">29</a></li>
+<li><a href="s-1-c03d.xhtml#Page_30">30</a></li>
+<li><a href="s-1-c03a.xhtml#Page_31">31</a></li>
+<li><a href="s-1-c03a.xhtml#Page_32">32</a></li>
+<li><a href="s-1-c03b.xhtml#Page_33">33</a></li>
+<li><a href="s-1-c03b.xhtml#Page_34">34</a></li>
+<li><a href="s-1-c03c.xhtml#Page_35">35</a></li>
+<li><a href="s-1-c04.xhtml#Page_37">37</a></li>
+<li><a href="s-1-c04.xhtml#Page_38">38</a></li>
+<li><a href="s-1-c04.xhtml#Page_39">39</a></li>
+<li><a href="s-1-c04.xhtml#Page_40">40</a></li>
+<li><a href="s-1-c04.xhtml#Page_41">41</a></li>
+<li><a href="s-1-c04.xhtml#Page_42">42</a></li>
+<li><a href="s-1-c04.xhtml#Page_43">43</a></li>
+<li><a href="s-1-c04a.xhtml#Page_44">44</a></li>
+<li><a href="s-1-c04a.xhtml#Page_45">45</a></li>
+<li><a href="s-1-c05.xhtml#Page_47">47</a></li>
+<li><a href="s-1-c05.xhtml#Page_48">48</a></li>
+<li><a href="s-1-c05.xhtml#Page_49">49</a></li>
+<li><a href="s-1-c05.xhtml#Page_50">50</a></li>
+<li><a href="s-1-c05.xhtml#Page_51">51</a></li>
+<li><a href="s-1-c05.xhtml#Page_52">52</a></li>
+<li><a href="s-1-c05.xhtml#Page_53">53</a></li>
+<li><a href="s-1-c05.xhtml#Page_54">54</a></li>
+<li><a href="s-1-c05.xhtml#Page_55">55</a></li>
+<li><a href="s-1-c05.xhtml#Page_56">56</a></li>
+<li><a href="s-1-c05.xhtml#Page_57">57</a></li>
+<li><a href="step02.xhtml#Page_58">58</a></li>
+<li><a href="step02.xhtml#Page_59">59</a></li>
+<li><a href="s-2-c01.xhtml#Page_61">61</a></li>
+<li><a href="s-2-c01.xhtml#Page_62">62</a></li>
+<li><a href="s-2-c01.xhtml#Page_63">63</a></li>
+<li><a href="s-2-c01.xhtml#Page_64">64</a></li>
+<li><a href="s-2-c01.xhtml#Page_65">65</a></li>
+<li><a href="s-2-c01.xhtml#Page_66">66</a></li>
+<li><a href="s-2-c01.xhtml#Page_67">67</a></li>
+<li><a href="s-2-c01.xhtml#Page_68">68</a></li>
+<li><a href="s-2-c01.xhtml#Page_69">69</a></li>
+<li><a href="s-2-c01.xhtml#Page_70">70</a></li>
+<li><a href="s-2-c01.xhtml#Page_71">71</a></li>
+<li><a href="s-2-c01.xhtml#Page_72">72</a></li>
+<li><a href="s-2-c01.xhtml#Page_73">73</a></li>
+<li><a href="s-2-c01a.xhtml#Page_74">74</a></li>
+<li><a href="s-2-c01a.xhtml#Page_75">75</a></li>
+<li><a href="step03.xhtml#Page_76">76</a></li>
+<li><a href="step03.xhtml#Page_77">77</a></li>
+<li><a href="s-3-c01.xhtml#Page_79">79</a></li>
+<li><a href="s-3-c01.xhtml#Page_80">80</a></li>
+<li><a href="s-3-c01.xhtml#Page_81">81</a></li>
+<li><a href="s-3-c01.xhtml#Page_82">82</a></li>
+<li><a href="s-3-c01.xhtml#Page_83">83</a></li>
+<li><a href="s-3-c01.xhtml#Page_84">84</a></li>
+<li><a href="s-3-c01.xhtml#Page_85">85</a></li>
+<li><a href="s-3-c01.xhtml#Page_86">86</a></li>
+<li><a href="s-3-c01.xhtml#Page_87">87</a></li>
+<li><a href="s-3-c01a.xhtml#Page_88">88</a></li>
+<li><a href="s-3-c01a.xhtml#Page_89">89</a></li>
+<li><a href="s-3-c02.xhtml#Page_91">91</a></li>
+<li><a href="s-3-c02.xhtml#Page_92">92</a></li>
+<li><a href="s-3-c02.xhtml#Page_93">93</a></li>
+<li><a href="s-3-c02.xhtml#Page_94">94</a></li>
+<li><a href="s-3-c02.xhtml#Page_95">95</a></li>
+<li><a href="s-3-c02.xhtml#Page_96">96</a></li>
+<li><a href="s-3-c02.xhtml#Page_97">97</a></li>
+<li><a href="s-3-c02a.xhtml#Page_98">98</a></li>
+<li><a href="s-3-c02b.xhtml#Page_99">99</a></li>
+<li><a href="s-3-c03.xhtml#Page_101">101</a></li>
+<li><a href="p02.xhtml#Page_102">102</a></li>
+<li><a href="p02.xhtml#Page_103">103</a></li>
+<li><a href="p02-1.xhtml#Page_105">105</a></li>
+<li><a href="p02-1.xhtml#Page_106">106</a></li>
+<li><a href="p02-1.xhtml#Page_107">107</a></li>
+<li><a href="p02-1.xhtml#Page_108">108</a></li>
+<li><a href="p02-1.xhtml#Page_109">109</a></li>
+<li><a href="p02-1.xhtml#Page_110">110</a></li>
+<li><a href="p02-1.xhtml#Page_111">111</a></li>
+<li><a href="p02-1.xhtml#Page_112">112</a></li>
+<li><a href="p02-1.xhtml#Page_113">113</a></li>
+<li><a href="p02-1.xhtml#Page_114">114</a></li>
+<li><a href="p02-1.xhtml#Page_115">115</a></li>
+<li><a href="step04.xhtml#Page_116">116</a></li>
+<li><a href="step04.xhtml#Page_117">117</a></li>
+<li><a href="s-4-c01.xhtml#Page_119">119</a></li>
+<li><a href="s-4-c01.xhtml#Page_120">120</a></li>
+<li><a href="s-4-c01.xhtml#Page_121">121</a></li>
+<li><a href="s-4-c01.xhtml#Page_122">122</a></li>
+<li><a href="s-4-c01.xhtml#Page_123">123</a></li>
+<li><a href="s-4-c01.xhtml#Page_124">124</a></li>
+<li><a href="s-4-c01.xhtml#Page_125">125</a></li>
+<li><a href="s-4-c01.xhtml#Page_126">126</a></li>
+<li><a href="s-4-c01.xhtml#Page_127">127</a></li>
+<li><a href="s-4-c01.xhtml#Page_128">128</a></li>
+<li><a href="s-4-c01.xhtml#Page_129">129</a></li>
+<li><a href="s-4-c01c.xhtml#Page_130">130</a></li>
+<li><a href="s-4-c01a.xhtml#Page_131">131</a></li>
+<li><a href="s-4-c01a.xhtml#Page_132">132</a></li>
+<li><a href="s-4-c01b.xhtml#Page_133">133</a></li>
+<li><a href="step05.xhtml#Page_134">134</a></li>
+<li><a href="step05.xhtml#Page_135">135</a></li>
+<li><a href="s-5-c01.xhtml#Page_137">137</a></li>
+<li><a href="s-5-c01.xhtml#Page_138">138</a></li>
+<li><a href="s-5-c01.xhtml#Page_139">139</a></li>
+<li><a href="s-5-c01.xhtml#Page_140">140</a></li>
+<li><a href="s-5-c01.xhtml#Page_141">141</a></li>
+<li><a href="s-5-c01.xhtml#Page_142">142</a></li>
+<li><a href="s-5-c01.xhtml#Page_143">143</a></li>
+<li><a href="s-5-c01.xhtml#Page_144">144</a></li>
+<li><a href="s-5-c02.xhtml#Page_145">145</a></li>
+<li><a href="s-5-c02.xhtml#Page_146">146</a></li>
+<li><a href="s-5-c02.xhtml#Page_147">147</a></li>
+<li><a href="s-5-c02.xhtml#Page_148">148</a></li>
+<li><a href="s-5-c02.xhtml#Page_149">149</a></li>
+<li><a href="s-5-c02.xhtml#Page_150">150</a></li>
+<li><a href="s-5-c02.xhtml#Page_151">151</a></li>
+<li><a href="s-5-c02.xhtml#Page_152">152</a></li>
+<li><a href="s-5-c02.xhtml#Page_153">153</a></li>
+<li><a href="s-5-c02.xhtml#Page_154">154</a></li>
+<li><a href="s-5-c02.xhtml#Page_155">155</a></li>
+<li><a href="s-5-c02a.xhtml#Page_156">156</a></li>
+<li><a href="s-5-c02a.xhtml#Page_157">157</a></li>
+<li><a href="s-5-c03.xhtml#Page_159">159</a></li>
+<li><a href="s-5-c03.xhtml#Page_160">160</a></li>
+<li><a href="s-5-c03.xhtml#Page_161">161</a></li>
+<li><a href="s-5-c03.xhtml#Page_162">162</a></li>
+<li><a href="s-5-c03.xhtml#Page_163">163</a></li>
+<li><a href="s-5-c03.xhtml#Page_164">164</a></li>
+<li><a href="s-5-c03.xhtml#Page_165">165</a></li>
+<li><a href="s-5-c03.xhtml#Page_166">166</a></li>
+<li><a href="s-5-c03.xhtml#Page_167">167</a></li>
+<li><a href="s-5-c03.xhtml#Page_168">168</a></li>
+<li><a href="s-5-c03a.xhtml#Page_169">169</a></li>
+<li><a href="s-5-c03a.xhtml#Page_170">170</a></li>
+<li><a href="s-5-c04.xhtml#Page_171">171</a></li>
+<li><a href="s-5-c04.xhtml#Page_172">172</a></li>
+<li><a href="s-5-c04.xhtml#Page_173">173</a></li>
+<li><a href="s-5-c04.xhtml#Page_174">174</a></li>
+<li><a href="s-5-c04.xhtml#Page_175">175</a></li>
+<li><a href="s-5-c04.xhtml#Page_176">176</a></li>
+<li><a href="s-5-c04.xhtml#Page_177">177</a></li>
+<li><a href="s-5-c04.xhtml#Page_178">178</a></li>
+<li><a href="s-5-c04.xhtml#Page_179">179</a></li>
+<li><a href="s-5-c04.xhtml#Page_180">180</a></li>
+<li><a href="s-5-c04a.xhtml#Page_181">181</a></li>
+<li><a href="step06.xhtml#Page_182">182</a></li>
+<li><a href="step06.xhtml#Page_183">183</a></li>
+<li><a href="s-6-c01.xhtml#Page_185">185</a></li>
+<li><a href="s-6-c01.xhtml#Page_186">186</a></li>
+<li><a href="s-6-c01a.xhtml#Page_187">187</a></li>
+<li><a href="s-6-c01a.xhtml#Page_188">188</a></li>
+<li><a href="s-6-c01b.xhtml#Page_189">189</a></li>
+<li><a href="s-6-c02.xhtml#Page_191">191</a></li>
+<li><a href="p03.xhtml#Page_192">192</a></li>
+<li><a href="p03.xhtml#Page_193">193</a></li>
+<li><a href="step07.xhtml#Page_194">194</a></li>
+<li><a href="step07.xhtml#Page_195">195</a></li>
+<li><a href="s-7-c01.xhtml#Page_197">197</a></li>
+<li><a href="s-7-c01.xhtml#Page_198">198</a></li>
+<li><a href="s-7-c01.xhtml#Page_199">199</a></li>
+<li><a href="s-7-c01.xhtml#Page_200">200</a></li>
+<li><a href="s-7-c02.xhtml#Page_201">201</a></li>
+<li><a href="s-7-c02.xhtml#Page_202">202</a></li>
+<li><a href="s-7-c02.xhtml#Page_203">203</a></li>
+<li><a href="s-7-c02.xhtml#Page_204">204</a></li>
+<li><a href="s-7-c02.xhtml#Page_205">205</a></li>
+<li><a href="s-7-c02.xhtml#Page_206">206</a></li>
+<li><a href="s-7-c02a.xhtml#Page_207">207</a></li>
+<li><a href="s-7-c02a.xhtml#Page_208">208</a></li>
+<li><a href="s-7-c02b.xhtml#Page_209">209</a></li>
+<li><a href="step08.xhtml#Page_210">210</a></li>
+<li><a href="step08.xhtml#Page_211">211</a></li>
+<li><a href="s-8-c01.xhtml#Page_213">213</a></li>
+<li><a href="s-8-c01.xhtml#Page_214">214</a></li>
+<li><a href="s-8-c01.xhtml#Page_215">215</a></li>
+<li><a href="s-8-c01.xhtml#Page_216">216</a></li>
+<li><a href="s-8-c01.xhtml#Page_217">217</a></li>
+<li><a href="s-8-c01.xhtml#Page_218">218</a></li>
+<li><a href="s-8-c01.xhtml#Page_219">219</a></li>
+<li><a href="s-8-c01.xhtml#Page_220">220</a></li>
+<li><a href="s-8-c01.xhtml#Page_221">221</a></li>
+<li><a href="s-8-c01.xhtml#Page_222">222</a></li>
+<li><a href="s-8-c01b.xhtml#Page_223">223</a></li>
+<li><a href="s-8-c01b.xhtml#Page_224">224</a></li>
+<li><a href="s-8-c01a.xhtml#Page_225">225</a></li>
+<li><a href="s-8-c02.xhtml#Page_227">227</a></li>
+<li><a href="s-8-c02.xhtml#Page_228">228</a></li>
+<li><a href="s-8-c02.xhtml#Page_229">229</a></li>
+<li><a href="s-8-c02.xhtml#Page_230">230</a></li>
+<li><a href="s-8-c02.xhtml#Page_231">231</a></li>
+<li><a href="s-8-c02.xhtml#Page_232">232</a></li>
+<li><a href="s-8-c02.xhtml#Page_233">233</a></li>
+<li><a href="s-8-c02.xhtml#Page_234">234</a></li>
+<li><a href="s-8-c03.xhtml#Page_235">235</a></li>
+<li><a href="s-8-c03.xhtml#Page_236">236</a></li>
+<li><a href="s-8-c03a.xhtml#Page_237">237</a></li>
+<li><a href="step09.xhtml#Page_238">238</a></li>
+<li><a href="step09.xhtml#Page_239">239</a></li>
+<li><a href="s-9-c01.xhtml#Page_241">241</a></li>
+<li><a href="s-9-c01.xhtml#Page_242">242</a></li>
+<li><a href="s-9-c01.xhtml#Page_243">243</a></li>
+<li><a href="s-9-c01.xhtml#Page_244">244</a></li>
+<li><a href="s-9-c01a.xhtml#Page_245">245</a></li>
+<li><a href="s-9-c02.xhtml#Page_246">246</a></li>
+<li><a href="s-9-c03.xhtml#Page_247">247</a></li>
+<li><a href="b01.xhtml#Page_249">249</a></li>
+<li><a href="b01.xhtml#Page_250">250</a></li>
+<li><a href="b01.xhtml#Page_251">251</a></li>
+<li><a href="b02.xhtml#Page_253">253</a></li>
+<li><a href="b02.xhtml#Page_254">254</a></li>
+<li><a href="b03.xhtml#Page_255">255</a></li>
+<li><a href="b03.xhtml#Page_257">257</a></li>
+<li><a href="b04.xhtml#Page_265">265</a></li>
+<li><a href="bindex.xhtml#Page_259">259</a></li>
+<li><a href="bindex.xhtml#Page_260">260</a></li>
+<li><a href="bindex.xhtml#Page_261">261</a></li>
+<li><a href="bindex.xhtml#Page_262">262</a></li>
+<li><a href="bindex.xhtml#Page_263">263</a></li>
+<li><a href="bindex.xhtml#Page_264">264</a></li>
+</ol>
+</nav>
+</body>
+</html>
+2023-01-29 08:26:21 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-29 08:26:22 INFO  - Step 12 - I open font settings
+2023-01-29 08:26:22 INFO  - Button 'btnFontSettings' :: Clicking
+2023-01-29 08:26:22 INFO  - Step 13 - I INCREASE_FONT of text
+2023-01-29 08:26:22 INFO  - Button 'setTextLarger' :: Clicking
+2023-01-29 08:26:23 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-01-29 08:26:23 INFO  - context - NATIVE_APP
+2023-01-29 08:26:23 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-29 08:26:24 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-29 08:26:24 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" epub:prefix="index: http://www.index.com/" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Barefoot Investor</title>
+<link href="WileyTemplate_v5.3.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:755f9850-07ed-4572-9dca-a915f2c249ff" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body epub:type="frontmatter">
+<nav class="tocList" epub:type="toc" id="toc">
+<h1><b>CONTENTS</b></h1>
+<ol>
+<li class="contentsH1"><a href="ata.xhtml">About the author</a></li>
+<li class="contentsH1"><a href="pleude.xhtml">Prelude: Living Barefoot</a></li>
+<li class="contentsH1"><a href="f03.xhtml">The alpaca attitude</a></li>
+<li class="contentsH1"><a href="p01.xhtml">Part 1: Plant</a>
+<ol>
+<li class="contentsH1"><a href="step01.xhtml">Step 1: Schedule a Monthly Barefoot Date Night</a>
+<ol>
+<li class="contentsH2"><a href="s-1-c01.xhtml">Money talk is better with garlic bread and wine</a></li>
+<li class="contentsH2"><a href="s-1-c02.xhtml">Barefoot banking</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-1">How did you get your current bank account?</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-2">Banishing bank fees from your life forever</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-3">Get some interest, brah!</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-4">Get some Mojo, baby</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-5">And if you have a mortgage...</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-1-c03.xhtml">The world's cheapest super fund</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-1">‘I've got this'</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-2">The greatest tax dodge in Australia</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-3">Middle-aged men ruin everything</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-4">Your super fund can gobble up a third of your savings in fees</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-5">The $226 484 difference</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-6">What about fancy investment options?</a></li>
+<li class="contentsH3"><a href="s-1-c03d.xhtml#c03-7">The super fund I use</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-1-c04.xhtml">Your insurance sorted in one beer</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c04.xhtml#c04-1">The golden rules of insurance</a></li>
+<li class="contentsH3"><a href="s-1-c04.xhtml#c04-2">Private health insurance — do you even need it?</a></li>
+<li class="contentsH3"><a href="s-1-c04.xhtml#c04-3">Protecting your family</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-1-c05.xhtml">How to live like a multimillionaire right now</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-1">Back to the future</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-2">Jerry Seinfeld talks garbage</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-3">How much is enough?</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-4">#BarefootRich</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-5">Socks and jocks</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-6">Your car</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step02.xhtml">Step 2: Set Up Your Buckets</a>
+<ol>
+<li class="contentsH2"><a href="s-2-c01.xhtml">The Serviette Strategy</a>
+<ol>
+<li class="contentsH3"><a href="s-2-c01.xhtml#c06-1">Introducing the Serviette Strategy</a></li>
+<li class="contentsH3"><a href="s-2-c01.xhtml#c06-2">Manage your money in 10 minutes a week</a></li>
+<li class="contentsH3"><a href="s-2-c01.xhtml#c06-3">Putting it all together: Serviette Strategy + your new accounts = happiness</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step03.xhtml">Step 3: Domino Your Debts</a>
+<ol>
+<li class="contentsH2"><a href="s-3-c01.xhtml">Removing the brainwashing</a>
+<ol>
+<li class="contentsH3"><a href="s-3-c01.xhtml#c07-1">Who taught you about money?</a></li>
+<li class="contentsH3"><a href="s-3-c01.xhtml#c07-2">Your first credit card</a></li>
+<li class="contentsH3"><a href="s-3-c01.xhtml#c07-3">Stand for something</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-3-c02.xhtml">Domino your debts (except your HECS-HELP and your home)</a>
+<ol>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-1">Domino 1: Calculate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-2">Domino 2: Negotiate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-3">Domino 3: Eliminate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-4">Domino 4: Detonate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-5">Domino 5: Celebrate!</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-6">The move to monthly Barefoot Date Nights</a></li>
+</ol>
+</li>
+<li class="contentsH3"><a href="s-3-c03.xhtml">Recap of Part 1: Plant</a></li>
+</ol></li>
+</ol></li>
+<li class="contentsH1"><a href="p02.xhtml">Part 2: Grow</a>
+<ol>
+<li class="contentsH2"><a href="p02-1.xhtml">How to double your income</a>
+<ol>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-1">You're joking … right?</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-2">It was the best of times; it was the worst of times</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-3">Welcome back to high school</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-4">How to earn $5000 in an hour</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-5">The ultimate payoff</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-6">Please, give me your excuses</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-7">Get a bit on the side — fast</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-8">Swing on the trapeze</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-9">How you can double your income</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-10">Prove them wrong</a></li>
+</ol>
+</li>
+<li class="contentsH1"><a href="step04.xhtml">Step 4: Buy Your Home</a>
+<ol>
+<li class="contentsH2"><a href="s-4-c01.xhtml">How to buy your home in 20 months</a>
+<ol>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-1">Yes, housing is ridiculously expensive</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-2">Is rent money dead money?</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-3">Mistake #1: They're waiting for a crash</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-4">Mistake #2: They buy a home they can't afford</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-5">Mistake #3: They buy an investment property first</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-6">Mistake #4: They rent but forget to save</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-7">Mistake #5: They don't consider other options</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-8">How to save for a deposit</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-9">Home is where your heart is</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-10">How we bought our family home</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step05.xhtml">Step 5: Supercharge Your Wealth</a>
+<ol>
+<li class="contentsH2"><a href="s-5-c02.xhtml">Your Golden Ticket — becoming an investor</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-1">Leave your emotions at the door</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-2">The Boxing Day sales</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-3">Becoming a business owner</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-4">But I don't have any money to invest!</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-5">Introducing the thinking person's SMSF</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-6">So should I buy shares inside (or outside) of super?</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-5-c03.xhtml">The automatic millionaire — how to put your investing on autopilot</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-1">Little blue biros</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-2">Faceplanting on a treadmill</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-3">The final quarter of your grand final</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-4">Never worry about money again — boosting your super to 15 per cent</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-5">No willpower needed</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-6">Automatic millionaire super scripts</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-5-c01.xhtml">Should I buy an investment property?</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-1">Don't put down this book!</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-2">Why borrowing to invest kills compound interest</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-3">Debt is a four-letter word</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-4">A tale of two investors</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-5">How to really make money in property</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-6">Property vs shares</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-5-c04.xhtml">How to be a hero — investing for your kids (or grandkids)</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-1">The number one secret to raising financially fit kids is …</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-2">Lower income earners</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-3">Higher income earners</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-4">How not to raise a spoilt brat</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-5">Paris Hilton, Donald Trump and your kids</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-6">A letter to my boys</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step06.xhtml">Step 6: Boost Your Mojo to Three Months</a>
+<ol>
+<li class="contentsH2"><a href="s-6-c01.xhtml">The power of Mojo — never worry about money again</a>
+<ol>
+<li class="contentsH2"><a href="s-6-c02.xhtml">Recap of Part 2: Grow</a></li>
+</ol></li>
+</ol></li>
+</ol></li>
+<li class="contentsH1"><a href="p03.xhtml">Part 3: Harvest</a>
+<ol>
+<li class="contentsH1"><a href="step07.xhtml">Step 7: Get the Banker off Your Back</a>
+<ol>
+<li class="contentsH2"><a href="s-7-c01.xhtml">The curious case of the postcode povvos</a>
+<ol>
+<li class="contentsH3"><a href="s-7-c01.xhtml#c15-1">Postcode povvos</a></li>
+<li class="contentsH3"><a href="s-7-c01.xhtml#c15-2">The millionaire next door</a></li>
+<li class="contentsH3"><a href="s-7-c01.xhtml#c15-3">Don't do it for the kids</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-7-c02.xhtml">How to save $77 641 and wipe almost seven years off your mortgage</a>
+<ol>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-1">Rule 1: Don't get the bells and whistles</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-2">Rule 2: Don't fix your rate</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-3">Rule 3: Get the cheapest rate possible</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-4">The $22 064 phone call</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-5">Revealed: the mortgage industry's dirty little secret</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-6">Point the Fire Extinguisher at your home loan</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-7">The proudest day of my financial life</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step08.xhtml">Step 8: Nail Your Retirement Number</a>
+<ol>
+<li class="contentsH2"><a href="s-8-c01.xhtml">The Donald Bradman Retirement Strategy — why you don't need $1 million to retire</a>
+<ol>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-1">Give us a hand, cobber</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-2">Fear and loathing</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-3">You do not need a million dollars in super to retire</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-4">What your retirement will look like</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-5">Introducing the Donald Bradman Retirement Strategy</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-6">You'll never, ever, run out of money</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-7">The three-bucket retirement solution</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-8">Where will you get three years of pension payments for Mojo?</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-8-c02.xhtml">Finding your financial advisor on Tinder</a>
+<ol>
+<li class="contentsH3"><a href="s-8-c02.xhtml#c18-1">Find your financial advisor the Tinder way</a></li>
+<li class="contentsH3"><a href="s-8-c02.xhtml#c18-2">What to do if you've already got an advisor</a></li>
+<li class="contentsH3"><a href="s-8-c02.xhtml#c18-3">Be dumb smart</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-8-c03.xhtml">It's not about you — a gift for your family</a></li>
+</ol></li>
+<li class="contentsH1"><a href="step09.xhtml">Step 9: Leave a Legacy</a>
+<ol>
+<li class="contentsH2"><a href="s-9-c01.xhtml">Building your legacy — a very special Barefoot Date Night</a>
+<ol>
+<li class="contentsH3"><a href="s-9-c01.xhtml#c19-1">How will you be remembered?</a></li>
+<li class="contentsH3"><a href="s-9-c01.xhtml#c19-2">Give your money</a></li>
+<li class="contentsH3"><a href="s-9-c01.xhtml#c19-3">Give your time and your money</a></li>
+<li class="contentsH2"><a href="s-9-c02.xhtml">Recap of Part 3: Harvest</a></li>
+</ol>
+</li>
+</ol></li>
+</ol></li>
+<li class="contentsH1"><a href="b01.xhtml">Freedom starts today — you don't have to wait ...</a>
+<ol>
+<li class="contentsH2"><a href="b01.xhtml#b01-1">A sense of purpose</a></li>
+<li class="contentsH2"><a href="b01.xhtml#b01-2">Strong personal relationship/s</a></li>
+<li class="contentsH2"><a href="b01.xhtml#b01-3">Financial security</a></li>
+</ol>
+</li>
+<li class="contentsH1"><a href="b02.xhtml">We'll meet again</a></li>
+<li class="contentsH1"><a href="bindex.xhtml">Index</a></li>
+<li class="contentsH1"><a href="b04.xhtml">Are You Ready to Take the Next Step?</a></li>
+<li class="contentsH1"><a href="eula.xhtml">EULA</a></li>
+</ol>
+</nav>
+<nav class="guideList" epub:type="landmarks" id="guide">
+<h2>Guide</h2>
+<ol>
+<li><a epub:type="cover" href="fcover.xhtml">Cover</a></li>
+<li><a epub:type="toc" href="#toc">Table of Contents</a></li>
+<li><a epub:type="part" href="p01.xhtml">Part 1</a></li>
+</ol>
+</nav>
+<nav class="pageList" epub:type="page-list" hidden="hidden" id="pages">
+<h2>Pages</h2>
+<ol>
+<li><a href="f01.xhtml#Page_viii">viii</a></li>
+<li><a href="f02.xhtml#Page_xi">xi</a></li>
+<li><a href="pleude.xhtml#Page_xv">xv</a></li>
+<li><a href="pleude.xhtml#Page_xvi">xvi</a></li>
+<li><a href="pleude.xhtml#Page_xvii">xvii</a></li>
+<li><a href="pleude.xhtml#Page_xviii">xviii</a></li>
+<li><a href="f03.xhtml#Page_xix">xix</a></li>
+<li><a href="f03.xhtml#Page_xx">xx</a></li>
+<li><a href="f03.xhtml#Page_xxi">xxi</a></li>
+<li><a href="f03.xhtml#Page_xxii">xxii</a></li>
+<li><a href="f03.xhtml#Page_xxiii">xxiii</a></li>
+<li><a href="f03.xhtml#Page_xxiv">xxiv</a></li>
+<li><a href="f03.xhtml#Page_xxv">xxv</a></li>
+<li><a href="f03.xhtml#Page_xxvi">xxvi</a></li>
+<li><a href="f03.xhtml#Page_xxvii">xxvii</a></li>
+<li><a href="f03.xhtml#Page_xxviii">xxviii</a></li>
+<li><a href="p01.xhtml#Page_2">2</a></li>
+<li><a href="p01.xhtml#Page_3">3</a></li>
+<li><a href="step01.xhtml#Page_4">4</a></li>
+<li><a href="step01.xhtml#Page_5">5</a></li>
+<li><a href="s-1-c01.xhtml#Page_7">7</a></li>
+<li><a href="s-1-c01.xhtml#Page_8">8</a></li>
+<li><a href="s-1-c01.xhtml#Page_9">9</a></li>
+<li><a href="s-1-c01.xhtml#Page_10">10</a></li>
+<li><a href="s-1-c01a.xhtml#Page_11">11</a></li>
+<li><a href="s-1-c02.xhtml#Page_13">13</a></li>
+<li><a href="s-1-c02.xhtml#Page_14">14</a></li>
+<li><a href="s-1-c02.xhtml#Page_15">15</a></li>
+<li><a href="s-1-c02.xhtml#Page_16">16</a></li>
+<li><a href="s-1-c02.xhtml#Page_17">17</a></li>
+<li><a href="s-1-c02.xhtml#Page_18">18</a></li>
+<li><a href="s-1-c02.xhtml#Page_19">19</a></li>
+<li><a href="s-1-c02.xhtml#Page_20">20</a></li>
+<li><a href="s-1-c02a.xhtml#Page_21">21</a></li>
+<li><a href="s-1-c02a.xhtml#Page_22">22</a></li>
+<li><a href="s-1-c03.xhtml#Page_23">23</a></li>
+<li><a href="s-1-c03.xhtml#Page_24">24</a></li>
+<li><a href="s-1-c03.xhtml#Page_25">25</a></li>
+<li><a href="s-1-c03.xhtml#Page_26">26</a></li>
+<li><a href="s-1-c03.xhtml#Page_27">27</a></li>
+<li><a href="s-1-c03.xhtml#Page_28">28</a></li>
+<li><a href="s-1-c03.xhtml#Page_29">29</a></li>
+<li><a href="s-1-c03d.xhtml#Page_30">30</a></li>
+<li><a href="s-1-c03a.xhtml#Page_31">31</a></li>
+<li><a href="s-1-c03a.xhtml#Page_32">32</a></li>
+<li><a href="s-1-c03b.xhtml#Page_33">33</a></li>
+<li><a href="s-1-c03b.xhtml#Page_34">34</a></li>
+<li><a href="s-1-c03c.xhtml#Page_35">35</a></li>
+<li><a href="s-1-c04.xhtml#Page_37">37</a></li>
+<li><a href="s-1-c04.xhtml#Page_38">38</a></li>
+<li><a href="s-1-c04.xhtml#Page_39">39</a></li>
+<li><a href="s-1-c04.xhtml#Page_40">40</a></li>
+<li><a href="s-1-c04.xhtml#Page_41">41</a></li>
+<li><a href="s-1-c04.xhtml#Page_42">42</a></li>
+<li><a href="s-1-c04.xhtml#Page_43">43</a></li>
+<li><a href="s-1-c04a.xhtml#Page_44">44</a></li>
+<li><a href="s-1-c04a.xhtml#Page_45">45</a></li>
+<li><a href="s-1-c05.xhtml#Page_47">47</a></li>
+<li><a href="s-1-c05.xhtml#Page_48">48</a></li>
+<li><a href="s-1-c05.xhtml#Page_49">49</a></li>
+<li><a href="s-1-c05.xhtml#Page_50">50</a></li>
+<li><a href="s-1-c05.xhtml#Page_51">51</a></li>
+<li><a href="s-1-c05.xhtml#Page_52">52</a></li>
+<li><a href="s-1-c05.xhtml#Page_53">53</a></li>
+<li><a href="s-1-c05.xhtml#Page_54">54</a></li>
+<li><a href="s-1-c05.xhtml#Page_55">55</a></li>
+<li><a href="s-1-c05.xhtml#Page_56">56</a></li>
+<li><a href="s-1-c05.xhtml#Page_57">57</a></li>
+<li><a href="step02.xhtml#Page_58">58</a></li>
+<li><a href="step02.xhtml#Page_59">59</a></li>
+<li><a href="s-2-c01.xhtml#Page_61">61</a></li>
+<li><a href="s-2-c01.xhtml#Page_62">62</a></li>
+<li><a href="s-2-c01.xhtml#Page_63">63</a></li>
+<li><a href="s-2-c01.xhtml#Page_64">64</a></li>
+<li><a href="s-2-c01.xhtml#Page_65">65</a></li>
+<li><a href="s-2-c01.xhtml#Page_66">66</a></li>
+<li><a href="s-2-c01.xhtml#Page_67">67</a></li>
+<li><a href="s-2-c01.xhtml#Page_68">68</a></li>
+<li><a href="s-2-c01.xhtml#Page_69">69</a></li>
+<li><a href="s-2-c01.xhtml#Page_70">70</a></li>
+<li><a href="s-2-c01.xhtml#Page_71">71</a></li>
+<li><a href="s-2-c01.xhtml#Page_72">72</a></li>
+<li><a href="s-2-c01.xhtml#Page_73">73</a></li>
+<li><a href="s-2-c01a.xhtml#Page_74">74</a></li>
+<li><a href="s-2-c01a.xhtml#Page_75">75</a></li>
+<li><a href="step03.xhtml#Page_76">76</a></li>
+<li><a href="step03.xhtml#Page_77">77</a></li>
+<li><a href="s-3-c01.xhtml#Page_79">79</a></li>
+<li><a href="s-3-c01.xhtml#Page_80">80</a></li>
+<li><a href="s-3-c01.xhtml#Page_81">81</a></li>
+<li><a href="s-3-c01.xhtml#Page_82">82</a></li>
+<li><a href="s-3-c01.xhtml#Page_83">83</a></li>
+<li><a href="s-3-c01.xhtml#Page_84">84</a></li>
+<li><a href="s-3-c01.xhtml#Page_85">85</a></li>
+<li><a href="s-3-c01.xhtml#Page_86">86</a></li>
+<li><a href="s-3-c01.xhtml#Page_87">87</a></li>
+<li><a href="s-3-c01a.xhtml#Page_88">88</a></li>
+<li><a href="s-3-c01a.xhtml#Page_89">89</a></li>
+<li><a href="s-3-c02.xhtml#Page_91">91</a></li>
+<li><a href="s-3-c02.xhtml#Page_92">92</a></li>
+<li><a href="s-3-c02.xhtml#Page_93">93</a></li>
+<li><a href="s-3-c02.xhtml#Page_94">94</a></li>
+<li><a href="s-3-c02.xhtml#Page_95">95</a></li>
+<li><a href="s-3-c02.xhtml#Page_96">96</a></li>
+<li><a href="s-3-c02.xhtml#Page_97">97</a></li>
+<li><a href="s-3-c02a.xhtml#Page_98">98</a></li>
+<li><a href="s-3-c02b.xhtml#Page_99">99</a></li>
+<li><a href="s-3-c03.xhtml#Page_101">101</a></li>
+<li><a href="p02.xhtml#Page_102">102</a></li>
+<li><a href="p02.xhtml#Page_103">103</a></li>
+<li><a href="p02-1.xhtml#Page_105">105</a></li>
+<li><a href="p02-1.xhtml#Page_106">106</a></li>
+<li><a href="p02-1.xhtml#Page_107">107</a></li>
+<li><a href="p02-1.xhtml#Page_108">108</a></li>
+<li><a href="p02-1.xhtml#Page_109">109</a></li>
+<li><a href="p02-1.xhtml#Page_110">110</a></li>
+<li><a href="p02-1.xhtml#Page_111">111</a></li>
+<li><a href="p02-1.xhtml#Page_112">112</a></li>
+<li><a href="p02-1.xhtml#Page_113">113</a></li>
+<li><a href="p02-1.xhtml#Page_114">114</a></li>
+<li><a href="p02-1.xhtml#Page_115">115</a></li>
+<li><a href="step04.xhtml#Page_116">116</a></li>
+<li><a href="step04.xhtml#Page_117">117</a></li>
+<li><a href="s-4-c01.xhtml#Page_119">119</a></li>
+<li><a href="s-4-c01.xhtml#Page_120">120</a></li>
+<li><a href="s-4-c01.xhtml#Page_121">121</a></li>
+<li><a href="s-4-c01.xhtml#Page_122">122</a></li>
+<li><a href="s-4-c01.xhtml#Page_123">123</a></li>
+<li><a href="s-4-c01.xhtml#Page_124">124</a></li>
+<li><a href="s-4-c01.xhtml#Page_125">125</a></li>
+<li><a href="s-4-c01.xhtml#Page_126">126</a></li>
+<li><a href="s-4-c01.xhtml#Page_127">127</a></li>
+<li><a href="s-4-c01.xhtml#Page_128">128</a></li>
+<li><a href="s-4-c01.xhtml#Page_129">129</a></li>
+<li><a href="s-4-c01c.xhtml#Page_130">130</a></li>
+<li><a href="s-4-c01a.xhtml#Page_131">131</a></li>
+<li><a href="s-4-c01a.xhtml#Page_132">132</a></li>
+<li><a href="s-4-c01b.xhtml#Page_133">133</a></li>
+<li><a href="step05.xhtml#Page_134">134</a></li>
+<li><a href="step05.xhtml#Page_135">135</a></li>
+<li><a href="s-5-c01.xhtml#Page_137">137</a></li>
+<li><a href="s-5-c01.xhtml#Page_138">138</a></li>
+<li><a href="s-5-c01.xhtml#Page_139">139</a></li>
+<li><a href="s-5-c01.xhtml#Page_140">140</a></li>
+<li><a href="s-5-c01.xhtml#Page_141">141</a></li>
+<li><a href="s-5-c01.xhtml#Page_142">142</a></li>
+<li><a href="s-5-c01.xhtml#Page_143">143</a></li>
+<li><a href="s-5-c01.xhtml#Page_144">144</a></li>
+<li><a href="s-5-c02.xhtml#Page_145">145</a></li>
+<li><a href="s-5-c02.xhtml#Page_146">146</a></li>
+<li><a href="s-5-c02.xhtml#Page_147">147</a></li>
+<li><a href="s-5-c02.xhtml#Page_148">148</a></li>
+<li><a href="s-5-c02.xhtml#Page_149">149</a></li>
+<li><a href="s-5-c02.xhtml#Page_150">150</a></li>
+<li><a href="s-5-c02.xhtml#Page_151">151</a></li>
+<li><a href="s-5-c02.xhtml#Page_152">152</a></li>
+<li><a href="s-5-c02.xhtml#Page_153">153</a></li>
+<li><a href="s-5-c02.xhtml#Page_154">154</a></li>
+<li><a href="s-5-c02.xhtml#Page_155">155</a></li>
+<li><a href="s-5-c02a.xhtml#Page_156">156</a></li>
+<li><a href="s-5-c02a.xhtml#Page_157">157</a></li>
+<li><a href="s-5-c03.xhtml#Page_159">159</a></li>
+<li><a href="s-5-c03.xhtml#Page_160">160</a></li>
+<li><a href="s-5-c03.xhtml#Page_161">161</a></li>
+<li><a href="s-5-c03.xhtml#Page_162">162</a></li>
+<li><a href="s-5-c03.xhtml#Page_163">163</a></li>
+<li><a href="s-5-c03.xhtml#Page_164">164</a></li>
+<li><a href="s-5-c03.xhtml#Page_165">165</a></li>
+<li><a href="s-5-c03.xhtml#Page_166">166</a></li>
+<li><a href="s-5-c03.xhtml#Page_167">167</a></li>
+<li><a href="s-5-c03.xhtml#Page_168">168</a></li>
+<li><a href="s-5-c03a.xhtml#Page_169">169</a></li>
+<li><a href="s-5-c03a.xhtml#Page_170">170</a></li>
+<li><a href="s-5-c04.xhtml#Page_171">171</a></li>
+<li><a href="s-5-c04.xhtml#Page_172">172</a></li>
+<li><a href="s-5-c04.xhtml#Page_173">173</a></li>
+<li><a href="s-5-c04.xhtml#Page_174">174</a></li>
+<li><a href="s-5-c04.xhtml#Page_175">175</a></li>
+<li><a href="s-5-c04.xhtml#Page_176">176</a></li>
+<li><a href="s-5-c04.xhtml#Page_177">177</a></li>
+<li><a href="s-5-c04.xhtml#Page_178">178</a></li>
+<li><a href="s-5-c04.xhtml#Page_179">179</a></li>
+<li><a href="s-5-c04.xhtml#Page_180">180</a></li>
+<li><a href="s-5-c04a.xhtml#Page_181">181</a></li>
+<li><a href="step06.xhtml#Page_182">182</a></li>
+<li><a href="step06.xhtml#Page_183">183</a></li>
+<li><a href="s-6-c01.xhtml#Page_185">185</a></li>
+<li><a href="s-6-c01.xhtml#Page_186">186</a></li>
+<li><a href="s-6-c01a.xhtml#Page_187">187</a></li>
+<li><a href="s-6-c01a.xhtml#Page_188">188</a></li>
+<li><a href="s-6-c01b.xhtml#Page_189">189</a></li>
+<li><a href="s-6-c02.xhtml#Page_191">191</a></li>
+<li><a href="p03.xhtml#Page_192">192</a></li>
+<li><a href="p03.xhtml#Page_193">193</a></li>
+<li><a href="step07.xhtml#Page_194">194</a></li>
+<li><a href="step07.xhtml#Page_195">195</a></li>
+<li><a href="s-7-c01.xhtml#Page_197">197</a></li>
+<li><a href="s-7-c01.xhtml#Page_198">198</a></li>
+<li><a href="s-7-c01.xhtml#Page_199">199</a></li>
+<li><a href="s-7-c01.xhtml#Page_200">200</a></li>
+<li><a href="s-7-c02.xhtml#Page_201">201</a></li>
+<li><a href="s-7-c02.xhtml#Page_202">202</a></li>
+<li><a href="s-7-c02.xhtml#Page_203">203</a></li>
+<li><a href="s-7-c02.xhtml#Page_204">204</a></li>
+<li><a href="s-7-c02.xhtml#Page_205">205</a></li>
+<li><a href="s-7-c02.xhtml#Page_206">206</a></li>
+<li><a href="s-7-c02a.xhtml#Page_207">207</a></li>
+<li><a href="s-7-c02a.xhtml#Page_208">208</a></li>
+<li><a href="s-7-c02b.xhtml#Page_209">209</a></li>
+<li><a href="step08.xhtml#Page_210">210</a></li>
+<li><a href="step08.xhtml#Page_211">211</a></li>
+<li><a href="s-8-c01.xhtml#Page_213">213</a></li>
+<li><a href="s-8-c01.xhtml#Page_214">214</a></li>
+<li><a href="s-8-c01.xhtml#Page_215">215</a></li>
+<li><a href="s-8-c01.xhtml#Page_216">216</a></li>
+<li><a href="s-8-c01.xhtml#Page_217">217</a></li>
+<li><a href="s-8-c01.xhtml#Page_218">218</a></li>
+<li><a href="s-8-c01.xhtml#Page_219">219</a></li>
+<li><a href="s-8-c01.xhtml#Page_220">220</a></li>
+<li><a href="s-8-c01.xhtml#Page_221">221</a></li>
+<li><a href="s-8-c01.xhtml#Page_222">222</a></li>
+<li><a href="s-8-c01b.xhtml#Page_223">223</a></li>
+<li><a href="s-8-c01b.xhtml#Page_224">224</a></li>
+<li><a href="s-8-c01a.xhtml#Page_225">225</a></li>
+<li><a href="s-8-c02.xhtml#Page_227">227</a></li>
+<li><a href="s-8-c02.xhtml#Page_228">228</a></li>
+<li><a href="s-8-c02.xhtml#Page_229">229</a></li>
+<li><a href="s-8-c02.xhtml#Page_230">230</a></li>
+<li><a href="s-8-c02.xhtml#Page_231">231</a></li>
+<li><a href="s-8-c02.xhtml#Page_232">232</a></li>
+<li><a href="s-8-c02.xhtml#Page_233">233</a></li>
+<li><a href="s-8-c02.xhtml#Page_234">234</a></li>
+<li><a href="s-8-c03.xhtml#Page_235">235</a></li>
+<li><a href="s-8-c03.xhtml#Page_236">236</a></li>
+<li><a href="s-8-c03a.xhtml#Page_237">237</a></li>
+<li><a href="step09.xhtml#Page_238">238</a></li>
+<li><a href="step09.xhtml#Page_239">239</a></li>
+<li><a href="s-9-c01.xhtml#Page_241">241</a></li>
+<li><a href="s-9-c01.xhtml#Page_242">242</a></li>
+<li><a href="s-9-c01.xhtml#Page_243">243</a></li>
+<li><a href="s-9-c01.xhtml#Page_244">244</a></li>
+<li><a href="s-9-c01a.xhtml#Page_245">245</a></li>
+<li><a href="s-9-c02.xhtml#Page_246">246</a></li>
+<li><a href="s-9-c03.xhtml#Page_247">247</a></li>
+<li><a href="b01.xhtml#Page_249">249</a></li>
+<li><a href="b01.xhtml#Page_250">250</a></li>
+<li><a href="b01.xhtml#Page_251">251</a></li>
+<li><a href="b02.xhtml#Page_253">253</a></li>
+<li><a href="b02.xhtml#Page_254">254</a></li>
+<li><a href="b03.xhtml#Page_255">255</a></li>
+<li><a href="b03.xhtml#Page_257">257</a></li>
+<li><a href="b04.xhtml#Page_265">265</a></li>
+<li><a href="bindex.xhtml#Page_259">259</a></li>
+<li><a href="bindex.xhtml#Page_260">260</a></li>
+<li><a href="bindex.xhtml#Page_261">261</a></li>
+<li><a href="bindex.xhtml#Page_262">262</a></li>
+<li><a href="bindex.xhtml#Page_263">263</a></li>
+<li><a href="bindex.xhtml#Page_264">264</a></li>
+</ol>
+</nav>
+</body>
+</html>
+2023-01-29 08:26:24 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-29 08:26:24 INFO  - Step 15 - I restart app
+2023-01-29 08:26:49 INFO  - Step 16 - I open Books
+2023-01-29 08:26:49 INFO  - Button 'tabBooks' :: Clicking
+2023-01-29 08:26:50 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-29 08:26:52 INFO  - Label 'lblBookName' :: Clicking
+2023-01-29 08:26:52 INFO  - Step 18 - Click READ action button on book details screen
+2023-01-29 08:26:53 INFO  - Button 'Read' :: Clicking
+2023-01-29 08:26:53 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-01-29 08:26:53 INFO  - context - NATIVE_APP
+2023-01-29 08:26:54 INFO  - context - NATIVE_APP
+2023-01-29 08:26:55 INFO  - context - NATIVE_APP
+2023-01-29 08:26:56 INFO  - context - NATIVE_APP
+2023-01-29 08:26:56 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-29 08:26:57 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-01-29 08:26:57 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" epub:prefix="index: http://www.index.com/" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Barefoot Investor</title>
+<link href="WileyTemplate_v5.3.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:755f9850-07ed-4572-9dca-a915f2c249ff" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body epub:type="frontmatter">
+<nav class="tocList" epub:type="toc" id="toc">
+<h1><b>CONTENTS</b></h1>
+<ol>
+<li class="contentsH1"><a href="ata.xhtml">About the author</a></li>
+<li class="contentsH1"><a href="pleude.xhtml">Prelude: Living Barefoot</a></li>
+<li class="contentsH1"><a href="f03.xhtml">The alpaca attitude</a></li>
+<li class="contentsH1"><a href="p01.xhtml">Part 1: Plant</a>
+<ol>
+<li class="contentsH1"><a href="step01.xhtml">Step 1: Schedule a Monthly Barefoot Date Night</a>
+<ol>
+<li class="contentsH2"><a href="s-1-c01.xhtml">Money talk is better with garlic bread and wine</a></li>
+<li class="contentsH2"><a href="s-1-c02.xhtml">Barefoot banking</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-1">How did you get your current bank account?</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-2">Banishing bank fees from your life forever</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-3">Get some interest, brah!</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-4">Get some Mojo, baby</a></li>
+<li class="contentsH3"><a href="s-1-c02.xhtml#c02-5">And if you have a mortgage...</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-1-c03.xhtml">The world's cheapest super fund</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-1">‘I've got this'</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-2">The greatest tax dodge in Australia</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-3">Middle-aged men ruin everything</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-4">Your super fund can gobble up a third of your savings in fees</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-5">The $226 484 difference</a></li>
+<li class="contentsH3"><a href="s-1-c03.xhtml#c03-6">What about fancy investment options?</a></li>
+<li class="contentsH3"><a href="s-1-c03d.xhtml#c03-7">The super fund I use</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-1-c04.xhtml">Your insurance sorted in one beer</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c04.xhtml#c04-1">The golden rules of insurance</a></li>
+<li class="contentsH3"><a href="s-1-c04.xhtml#c04-2">Private health insurance — do you even need it?</a></li>
+<li class="contentsH3"><a href="s-1-c04.xhtml#c04-3">Protecting your family</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-1-c05.xhtml">How to live like a multimillionaire right now</a>
+<ol>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-1">Back to the future</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-2">Jerry Seinfeld talks garbage</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-3">How much is enough?</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-4">#BarefootRich</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-5">Socks and jocks</a></li>
+<li class="contentsH3"><a href="s-1-c05.xhtml#c05-6">Your car</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step02.xhtml">Step 2: Set Up Your Buckets</a>
+<ol>
+<li class="contentsH2"><a href="s-2-c01.xhtml">The Serviette Strategy</a>
+<ol>
+<li class="contentsH3"><a href="s-2-c01.xhtml#c06-1">Introducing the Serviette Strategy</a></li>
+<li class="contentsH3"><a href="s-2-c01.xhtml#c06-2">Manage your money in 10 minutes a week</a></li>
+<li class="contentsH3"><a href="s-2-c01.xhtml#c06-3">Putting it all together: Serviette Strategy + your new accounts = happiness</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step03.xhtml">Step 3: Domino Your Debts</a>
+<ol>
+<li class="contentsH2"><a href="s-3-c01.xhtml">Removing the brainwashing</a>
+<ol>
+<li class="contentsH3"><a href="s-3-c01.xhtml#c07-1">Who taught you about money?</a></li>
+<li class="contentsH3"><a href="s-3-c01.xhtml#c07-2">Your first credit card</a></li>
+<li class="contentsH3"><a href="s-3-c01.xhtml#c07-3">Stand for something</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-3-c02.xhtml">Domino your debts (except your HECS-HELP and your home)</a>
+<ol>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-1">Domino 1: Calculate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-2">Domino 2: Negotiate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-3">Domino 3: Eliminate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-4">Domino 4: Detonate</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-5">Domino 5: Celebrate!</a></li>
+<li class="contentsH3"><a href="s-3-c02.xhtml#c08-6">The move to monthly Barefoot Date Nights</a></li>
+</ol>
+</li>
+<li class="contentsH3"><a href="s-3-c03.xhtml">Recap of Part 1: Plant</a></li>
+</ol></li>
+</ol></li>
+<li class="contentsH1"><a href="p02.xhtml">Part 2: Grow</a>
+<ol>
+<li class="contentsH2"><a href="p02-1.xhtml">How to double your income</a>
+<ol>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-1">You're joking … right?</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-2">It was the best of times; it was the worst of times</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-3">Welcome back to high school</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-4">How to earn $5000 in an hour</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-5">The ultimate payoff</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-6">Please, give me your excuses</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-7">Get a bit on the side — fast</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-8">Swing on the trapeze</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-9">How you can double your income</a></li>
+<li class="contentsH3"><a href="p02-1.xhtml#c09-10">Prove them wrong</a></li>
+</ol>
+</li>
+<li class="contentsH1"><a href="step04.xhtml">Step 4: Buy Your Home</a>
+<ol>
+<li class="contentsH2"><a href="s-4-c01.xhtml">How to buy your home in 20 months</a>
+<ol>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-1">Yes, housing is ridiculously expensive</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-2">Is rent money dead money?</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-3">Mistake #1: They're waiting for a crash</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-4">Mistake #2: They buy a home they can't afford</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-5">Mistake #3: They buy an investment property first</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-6">Mistake #4: They rent but forget to save</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-7">Mistake #5: They don't consider other options</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-8">How to save for a deposit</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-9">Home is where your heart is</a></li>
+<li class="contentsH3"><a href="s-4-c01.xhtml#c10-10">How we bought our family home</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step05.xhtml">Step 5: Supercharge Your Wealth</a>
+<ol>
+<li class="contentsH2"><a href="s-5-c02.xhtml">Your Golden Ticket — becoming an investor</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-1">Leave your emotions at the door</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-2">The Boxing Day sales</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-3">Becoming a business owner</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-4">But I don't have any money to invest!</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-5">Introducing the thinking person's SMSF</a></li>
+<li class="contentsH3"><a href="s-5-c02.xhtml#c12-6">So should I buy shares inside (or outside) of super?</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-5-c03.xhtml">The automatic millionaire — how to put your investing on autopilot</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-1">Little blue biros</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-2">Faceplanting on a treadmill</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-3">The final quarter of your grand final</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-4">Never worry about money again — boosting your super to 15 per cent</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-5">No willpower needed</a></li>
+<li class="contentsH3"><a href="s-5-c03.xhtml#c13-6">Automatic millionaire super scripts</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-5-c01.xhtml">Should I buy an investment property?</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-1">Don't put down this book!</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-2">Why borrowing to invest kills compound interest</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-3">Debt is a four-letter word</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-4">A tale of two investors</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-5">How to really make money in property</a></li>
+<li class="contentsH3"><a href="s-5-c01.xhtml#c11-6">Property vs shares</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-5-c04.xhtml">How to be a hero — investing for your kids (or grandkids)</a>
+<ol>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-1">The number one secret to raising financially fit kids is …</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-2">Lower income earners</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-3">Higher income earners</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-4">How not to raise a spoilt brat</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-5">Paris Hilton, Donald Trump and your kids</a></li>
+<li class="contentsH3"><a href="s-5-c04.xhtml#c14-6">A letter to my boys</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step06.xhtml">Step 6: Boost Your Mojo to Three Months</a>
+<ol>
+<li class="contentsH2"><a href="s-6-c01.xhtml">The power of Mojo — never worry about money again</a>
+<ol>
+<li class="contentsH2"><a href="s-6-c02.xhtml">Recap of Part 2: Grow</a></li>
+</ol></li>
+</ol></li>
+</ol></li>
+<li class="contentsH1"><a href="p03.xhtml">Part 3: Harvest</a>
+<ol>
+<li class="contentsH1"><a href="step07.xhtml">Step 7: Get the Banker off Your Back</a>
+<ol>
+<li class="contentsH2"><a href="s-7-c01.xhtml">The curious case of the postcode povvos</a>
+<ol>
+<li class="contentsH3"><a href="s-7-c01.xhtml#c15-1">Postcode povvos</a></li>
+<li class="contentsH3"><a href="s-7-c01.xhtml#c15-2">The millionaire next door</a></li>
+<li class="contentsH3"><a href="s-7-c01.xhtml#c15-3">Don't do it for the kids</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-7-c02.xhtml">How to save $77 641 and wipe almost seven years off your mortgage</a>
+<ol>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-1">Rule 1: Don't get the bells and whistles</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-2">Rule 2: Don't fix your rate</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-3">Rule 3: Get the cheapest rate possible</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-4">The $22 064 phone call</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-5">Revealed: the mortgage industry's dirty little secret</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-6">Point the Fire Extinguisher at your home loan</a></li>
+<li class="contentsH3"><a href="s-7-c02.xhtml#c16-7">The proudest day of my financial life</a></li>
+</ol>
+</li>
+</ol></li>
+<li class="contentsH1"><a href="step08.xhtml">Step 8: Nail Your Retirement Number</a>
+<ol>
+<li class="contentsH2"><a href="s-8-c01.xhtml">The Donald Bradman Retirement Strategy — why you don't need $1 million to retire</a>
+<ol>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-1">Give us a hand, cobber</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-2">Fear and loathing</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-3">You do not need a million dollars in super to retire</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-4">What your retirement will look like</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-5">Introducing the Donald Bradman Retirement Strategy</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-6">You'll never, ever, run out of money</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-7">The three-bucket retirement solution</a></li>
+<li class="contentsH3"><a href="s-8-c01.xhtml#c17-8">Where will you get three years of pension payments for Mojo?</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-8-c02.xhtml">Finding your financial advisor on Tinder</a>
+<ol>
+<li class="contentsH3"><a href="s-8-c02.xhtml#c18-1">Find your financial advisor the Tinder way</a></li>
+<li class="contentsH3"><a href="s-8-c02.xhtml#c18-2">What to do if you've already got an advisor</a></li>
+<li class="contentsH3"><a href="s-8-c02.xhtml#c18-3">Be dumb smart</a></li>
+</ol>
+</li>
+<li class="contentsH2"><a href="s-8-c03.xhtml">It's not about you — a gift for your family</a></li>
+</ol></li>
+<li class="contentsH1"><a href="step09.xhtml">Step 9: Leave a Legacy</a>
+<ol>
+<li class="contentsH2"><a href="s-9-c01.xhtml">Building your legacy — a very special Barefoot Date Night</a>
+<ol>
+<li class="contentsH3"><a href="s-9-c01.xhtml#c19-1">How will you be remembered?</a></li>
+<li class="contentsH3"><a href="s-9-c01.xhtml#c19-2">Give your money</a></li>
+<li class="contentsH3"><a href="s-9-c01.xhtml#c19-3">Give your time and your money</a></li>
+<li class="contentsH2"><a href="s-9-c02.xhtml">Recap of Part 3: Harvest</a></li>
+</ol>
+</li>
+</ol></li>
+</ol></li>
+<li class="contentsH1"><a href="b01.xhtml">Freedom starts today — you don't have to wait ...</a>
+<ol>
+<li class="contentsH2"><a href="b01.xhtml#b01-1">A sense of purpose</a></li>
+<li class="contentsH2"><a href="b01.xhtml#b01-2">Strong personal relationship/s</a></li>
+<li class="contentsH2"><a href="b01.xhtml#b01-3">Financial security</a></li>
+</ol>
+</li>
+<li class="contentsH1"><a href="b02.xhtml">We'll meet again</a></li>
+<li class="contentsH1"><a href="bindex.xhtml">Index</a></li>
+<li class="contentsH1"><a href="b04.xhtml">Are You Ready to Take the Next Step?</a></li>
+<li class="contentsH1"><a href="eula.xhtml">EULA</a></li>
+</ol>
+</nav>
+<nav class="guideList" epub:type="landmarks" id="guide">
+<h2>Guide</h2>
+<ol>
+<li><a epub:type="cover" href="fcover.xhtml">Cover</a></li>
+<li><a epub:type="toc" href="#toc">Table of Contents</a></li>
+<li><a epub:type="part" href="p01.xhtml">Part 1</a></li>
+</ol>
+</nav>
+<nav class="pageList" epub:type="page-list" hidden="hidden" id="pages">
+<h2>Pages</h2>
+<ol>
+<li><a href="f01.xhtml#Page_viii">viii</a></li>
+<li><a href="f02.xhtml#Page_xi">xi</a></li>
+<li><a href="pleude.xhtml#Page_xv">xv</a></li>
+<li><a href="pleude.xhtml#Page_xvi">xvi</a></li>
+<li><a href="pleude.xhtml#Page_xvii">xvii</a></li>
+<li><a href="pleude.xhtml#Page_xviii">xviii</a></li>
+<li><a href="f03.xhtml#Page_xix">xix</a></li>
+<li><a href="f03.xhtml#Page_xx">xx</a></li>
+<li><a href="f03.xhtml#Page_xxi">xxi</a></li>
+<li><a href="f03.xhtml#Page_xxii">xxii</a></li>
+<li><a href="f03.xhtml#Page_xxiii">xxiii</a></li>
+<li><a href="f03.xhtml#Page_xxiv">xxiv</a></li>
+<li><a href="f03.xhtml#Page_xxv">xxv</a></li>
+<li><a href="f03.xhtml#Page_xxvi">xxvi</a></li>
+<li><a href="f03.xhtml#Page_xxvii">xxvii</a></li>
+<li><a href="f03.xhtml#Page_xxviii">xxviii</a></li>
+<li><a href="p01.xhtml#Page_2">2</a></li>
+<li><a href="p01.xhtml#Page_3">3</a></li>
+<li><a href="step01.xhtml#Page_4">4</a></li>
+<li><a href="step01.xhtml#Page_5">5</a></li>
+<li><a href="s-1-c01.xhtml#Page_7">7</a></li>
+<li><a href="s-1-c01.xhtml#Page_8">8</a></li>
+<li><a href="s-1-c01.xhtml#Page_9">9</a></li>
+<li><a href="s-1-c01.xhtml#Page_10">10</a></li>
+<li><a href="s-1-c01a.xhtml#Page_11">11</a></li>
+<li><a href="s-1-c02.xhtml#Page_13">13</a></li>
+<li><a href="s-1-c02.xhtml#Page_14">14</a></li>
+<li><a href="s-1-c02.xhtml#Page_15">15</a></li>
+<li><a href="s-1-c02.xhtml#Page_16">16</a></li>
+<li><a href="s-1-c02.xhtml#Page_17">17</a></li>
+<li><a href="s-1-c02.xhtml#Page_18">18</a></li>
+<li><a href="s-1-c02.xhtml#Page_19">19</a></li>
+<li><a href="s-1-c02.xhtml#Page_20">20</a></li>
+<li><a href="s-1-c02a.xhtml#Page_21">21</a></li>
+<li><a href="s-1-c02a.xhtml#Page_22">22</a></li>
+<li><a href="s-1-c03.xhtml#Page_23">23</a></li>
+<li><a href="s-1-c03.xhtml#Page_24">24</a></li>
+<li><a href="s-1-c03.xhtml#Page_25">25</a></li>
+<li><a href="s-1-c03.xhtml#Page_26">26</a></li>
+<li><a href="s-1-c03.xhtml#Page_27">27</a></li>
+<li><a href="s-1-c03.xhtml#Page_28">28</a></li>
+<li><a href="s-1-c03.xhtml#Page_29">29</a></li>
+<li><a href="s-1-c03d.xhtml#Page_30">30</a></li>
+<li><a href="s-1-c03a.xhtml#Page_31">31</a></li>
+<li><a href="s-1-c03a.xhtml#Page_32">32</a></li>
+<li><a href="s-1-c03b.xhtml#Page_33">33</a></li>
+<li><a href="s-1-c03b.xhtml#Page_34">34</a></li>
+<li><a href="s-1-c03c.xhtml#Page_35">35</a></li>
+<li><a href="s-1-c04.xhtml#Page_37">37</a></li>
+<li><a href="s-1-c04.xhtml#Page_38">38</a></li>
+<li><a href="s-1-c04.xhtml#Page_39">39</a></li>
+<li><a href="s-1-c04.xhtml#Page_40">40</a></li>
+<li><a href="s-1-c04.xhtml#Page_41">41</a></li>
+<li><a href="s-1-c04.xhtml#Page_42">42</a></li>
+<li><a href="s-1-c04.xhtml#Page_43">43</a></li>
+<li><a href="s-1-c04a.xhtml#Page_44">44</a></li>
+<li><a href="s-1-c04a.xhtml#Page_45">45</a></li>
+<li><a href="s-1-c05.xhtml#Page_47">47</a></li>
+<li><a href="s-1-c05.xhtml#Page_48">48</a></li>
+<li><a href="s-1-c05.xhtml#Page_49">49</a></li>
+<li><a href="s-1-c05.xhtml#Page_50">50</a></li>
+<li><a href="s-1-c05.xhtml#Page_51">51</a></li>
+<li><a href="s-1-c05.xhtml#Page_52">52</a></li>
+<li><a href="s-1-c05.xhtml#Page_53">53</a></li>
+<li><a href="s-1-c05.xhtml#Page_54">54</a></li>
+<li><a href="s-1-c05.xhtml#Page_55">55</a></li>
+<li><a href="s-1-c05.xhtml#Page_56">56</a></li>
+<li><a href="s-1-c05.xhtml#Page_57">57</a></li>
+<li><a href="step02.xhtml#Page_58">58</a></li>
+<li><a href="step02.xhtml#Page_59">59</a></li>
+<li><a href="s-2-c01.xhtml#Page_61">61</a></li>
+<li><a href="s-2-c01.xhtml#Page_62">62</a></li>
+<li><a href="s-2-c01.xhtml#Page_63">63</a></li>
+<li><a href="s-2-c01.xhtml#Page_64">64</a></li>
+<li><a href="s-2-c01.xhtml#Page_65">65</a></li>
+<li><a href="s-2-c01.xhtml#Page_66">66</a></li>
+<li><a href="s-2-c01.xhtml#Page_67">67</a></li>
+<li><a href="s-2-c01.xhtml#Page_68">68</a></li>
+<li><a href="s-2-c01.xhtml#Page_69">69</a></li>
+<li><a href="s-2-c01.xhtml#Page_70">70</a></li>
+<li><a href="s-2-c01.xhtml#Page_71">71</a></li>
+<li><a href="s-2-c01.xhtml#Page_72">72</a></li>
+<li><a href="s-2-c01.xhtml#Page_73">73</a></li>
+<li><a href="s-2-c01a.xhtml#Page_74">74</a></li>
+<li><a href="s-2-c01a.xhtml#Page_75">75</a></li>
+<li><a href="step03.xhtml#Page_76">76</a></li>
+<li><a href="step03.xhtml#Page_77">77</a></li>
+<li><a href="s-3-c01.xhtml#Page_79">79</a></li>
+<li><a href="s-3-c01.xhtml#Page_80">80</a></li>
+<li><a href="s-3-c01.xhtml#Page_81">81</a></li>
+<li><a href="s-3-c01.xhtml#Page_82">82</a></li>
+<li><a href="s-3-c01.xhtml#Page_83">83</a></li>
+<li><a href="s-3-c01.xhtml#Page_84">84</a></li>
+<li><a href="s-3-c01.xhtml#Page_85">85</a></li>
+<li><a href="s-3-c01.xhtml#Page_86">86</a></li>
+<li><a href="s-3-c01.xhtml#Page_87">87</a></li>
+<li><a href="s-3-c01a.xhtml#Page_88">88</a></li>
+<li><a href="s-3-c01a.xhtml#Page_89">89</a></li>
+<li><a href="s-3-c02.xhtml#Page_91">91</a></li>
+<li><a href="s-3-c02.xhtml#Page_92">92</a></li>
+<li><a href="s-3-c02.xhtml#Page_93">93</a></li>
+<li><a href="s-3-c02.xhtml#Page_94">94</a></li>
+<li><a href="s-3-c02.xhtml#Page_95">95</a></li>
+<li><a href="s-3-c02.xhtml#Page_96">96</a></li>
+<li><a href="s-3-c02.xhtml#Page_97">97</a></li>
+<li><a href="s-3-c02a.xhtml#Page_98">98</a></li>
+<li><a href="s-3-c02b.xhtml#Page_99">99</a></li>
+<li><a href="s-3-c03.xhtml#Page_101">101</a></li>
+<li><a href="p02.xhtml#Page_102">102</a></li>
+<li><a href="p02.xhtml#Page_103">103</a></li>
+<li><a href="p02-1.xhtml#Page_105">105</a></li>
+<li><a href="p02-1.xhtml#Page_106">106</a></li>
+<li><a href="p02-1.xhtml#Page_107">107</a></li>
+<li><a href="p02-1.xhtml#Page_108">108</a></li>
+<li><a href="p02-1.xhtml#Page_109">109</a></li>
+<li><a href="p02-1.xhtml#Page_110">110</a></li>
+<li><a href="p02-1.xhtml#Page_111">111</a></li>
+<li><a href="p02-1.xhtml#Page_112">112</a></li>
+<li><a href="p02-1.xhtml#Page_113">113</a></li>
+<li><a href="p02-1.xhtml#Page_114">114</a></li>
+<li><a href="p02-1.xhtml#Page_115">115</a></li>
+<li><a href="step04.xhtml#Page_116">116</a></li>
+<li><a href="step04.xhtml#Page_117">117</a></li>
+<li><a href="s-4-c01.xhtml#Page_119">119</a></li>
+<li><a href="s-4-c01.xhtml#Page_120">120</a></li>
+<li><a href="s-4-c01.xhtml#Page_121">121</a></li>
+<li><a href="s-4-c01.xhtml#Page_122">122</a></li>
+<li><a href="s-4-c01.xhtml#Page_123">123</a></li>
+<li><a href="s-4-c01.xhtml#Page_124">124</a></li>
+<li><a href="s-4-c01.xhtml#Page_125">125</a></li>
+<li><a href="s-4-c01.xhtml#Page_126">126</a></li>
+<li><a href="s-4-c01.xhtml#Page_127">127</a></li>
+<li><a href="s-4-c01.xhtml#Page_128">128</a></li>
+<li><a href="s-4-c01.xhtml#Page_129">129</a></li>
+<li><a href="s-4-c01c.xhtml#Page_130">130</a></li>
+<li><a href="s-4-c01a.xhtml#Page_131">131</a></li>
+<li><a href="s-4-c01a.xhtml#Page_132">132</a></li>
+<li><a href="s-4-c01b.xhtml#Page_133">133</a></li>
+<li><a href="step05.xhtml#Page_134">134</a></li>
+<li><a href="step05.xhtml#Page_135">135</a></li>
+<li><a href="s-5-c01.xhtml#Page_137">137</a></li>
+<li><a href="s-5-c01.xhtml#Page_138">138</a></li>
+<li><a href="s-5-c01.xhtml#Page_139">139</a></li>
+<li><a href="s-5-c01.xhtml#Page_140">140</a></li>
+<li><a href="s-5-c01.xhtml#Page_141">141</a></li>
+<li><a href="s-5-c01.xhtml#Page_142">142</a></li>
+<li><a href="s-5-c01.xhtml#Page_143">143</a></li>
+<li><a href="s-5-c01.xhtml#Page_144">144</a></li>
+<li><a href="s-5-c02.xhtml#Page_145">145</a></li>
+<li><a href="s-5-c02.xhtml#Page_146">146</a></li>
+<li><a href="s-5-c02.xhtml#Page_147">147</a></li>
+<li><a href="s-5-c02.xhtml#Page_148">148</a></li>
+<li><a href="s-5-c02.xhtml#Page_149">149</a></li>
+<li><a href="s-5-c02.xhtml#Page_150">150</a></li>
+<li><a href="s-5-c02.xhtml#Page_151">151</a></li>
+<li><a href="s-5-c02.xhtml#Page_152">152</a></li>
+<li><a href="s-5-c02.xhtml#Page_153">153</a></li>
+<li><a href="s-5-c02.xhtml#Page_154">154</a></li>
+<li><a href="s-5-c02.xhtml#Page_155">155</a></li>
+<li><a href="s-5-c02a.xhtml#Page_156">156</a></li>
+<li><a href="s-5-c02a.xhtml#Page_157">157</a></li>
+<li><a href="s-5-c03.xhtml#Page_159">159</a></li>
+<li><a href="s-5-c03.xhtml#Page_160">160</a></li>
+<li><a href="s-5-c03.xhtml#Page_161">161</a></li>
+<li><a href="s-5-c03.xhtml#Page_162">162</a></li>
+<li><a href="s-5-c03.xhtml#Page_163">163</a></li>
+<li><a href="s-5-c03.xhtml#Page_164">164</a></li>
+<li><a href="s-5-c03.xhtml#Page_165">165</a></li>
+<li><a href="s-5-c03.xhtml#Page_166">166</a></li>
+<li><a href="s-5-c03.xhtml#Page_167">167</a></li>
+<li><a href="s-5-c03.xhtml#Page_168">168</a></li>
+<li><a href="s-5-c03a.xhtml#Page_169">169</a></li>
+<li><a href="s-5-c03a.xhtml#Page_170">170</a></li>
+<li><a href="s-5-c04.xhtml#Page_171">171</a></li>
+<li><a href="s-5-c04.xhtml#Page_172">172</a></li>
+<li><a href="s-5-c04.xhtml#Page_173">173</a></li>
+<li><a href="s-5-c04.xhtml#Page_174">174</a></li>
+<li><a href="s-5-c04.xhtml#Page_175">175</a></li>
+<li><a href="s-5-c04.xhtml#Page_176">176</a></li>
+<li><a href="s-5-c04.xhtml#Page_177">177</a></li>
+<li><a href="s-5-c04.xhtml#Page_178">178</a></li>
+<li><a href="s-5-c04.xhtml#Page_179">179</a></li>
+<li><a href="s-5-c04.xhtml#Page_180">180</a></li>
+<li><a href="s-5-c04a.xhtml#Page_181">181</a></li>
+<li><a href="step06.xhtml#Page_182">182</a></li>
+<li><a href="step06.xhtml#Page_183">183</a></li>
+<li><a href="s-6-c01.xhtml#Page_185">185</a></li>
+<li><a href="s-6-c01.xhtml#Page_186">186</a></li>
+<li><a href="s-6-c01a.xhtml#Page_187">187</a></li>
+<li><a href="s-6-c01a.xhtml#Page_188">188</a></li>
+<li><a href="s-6-c01b.xhtml#Page_189">189</a></li>
+<li><a href="s-6-c02.xhtml#Page_191">191</a></li>
+<li><a href="p03.xhtml#Page_192">192</a></li>
+<li><a href="p03.xhtml#Page_193">193</a></li>
+<li><a href="step07.xhtml#Page_194">194</a></li>
+<li><a href="step07.xhtml#Page_195">195</a></li>
+<li><a href="s-7-c01.xhtml#Page_197">197</a></li>
+<li><a href="s-7-c01.xhtml#Page_198">198</a></li>
+<li><a href="s-7-c01.xhtml#Page_199">199</a></li>
+<li><a href="s-7-c01.xhtml#Page_200">200</a></li>
+<li><a href="s-7-c02.xhtml#Page_201">201</a></li>
+<li><a href="s-7-c02.xhtml#Page_202">202</a></li>
+<li><a href="s-7-c02.xhtml#Page_203">203</a></li>
+<li><a href="s-7-c02.xhtml#Page_204">204</a></li>
+<li><a href="s-7-c02.xhtml#Page_205">205</a></li>
+<li><a href="s-7-c02.xhtml#Page_206">206</a></li>
+<li><a href="s-7-c02a.xhtml#Page_207">207</a></li>
+<li><a href="s-7-c02a.xhtml#Page_208">208</a></li>
+<li><a href="s-7-c02b.xhtml#Page_209">209</a></li>
+<li><a href="step08.xhtml#Page_210">210</a></li>
+<li><a href="step08.xhtml#Page_211">211</a></li>
+<li><a href="s-8-c01.xhtml#Page_213">213</a></li>
+<li><a href="s-8-c01.xhtml#Page_214">214</a></li>
+<li><a href="s-8-c01.xhtml#Page_215">215</a></li>
+<li><a href="s-8-c01.xhtml#Page_216">216</a></li>
+<li><a href="s-8-c01.xhtml#Page_217">217</a></li>
+<li><a href="s-8-c01.xhtml#Page_218">218</a></li>
+<li><a href="s-8-c01.xhtml#Page_219">219</a></li>
+<li><a href="s-8-c01.xhtml#Page_220">220</a></li>
+<li><a href="s-8-c01.xhtml#Page_221">221</a></li>
+<li><a href="s-8-c01.xhtml#Page_222">222</a></li>
+<li><a href="s-8-c01b.xhtml#Page_223">223</a></li>
+<li><a href="s-8-c01b.xhtml#Page_224">224</a></li>
+<li><a href="s-8-c01a.xhtml#Page_225">225</a></li>
+<li><a href="s-8-c02.xhtml#Page_227">227</a></li>
+<li><a href="s-8-c02.xhtml#Page_228">228</a></li>
+<li><a href="s-8-c02.xhtml#Page_229">229</a></li>
+<li><a href="s-8-c02.xhtml#Page_230">230</a></li>
+<li><a href="s-8-c02.xhtml#Page_231">231</a></li>
+<li><a href="s-8-c02.xhtml#Page_232">232</a></li>
+<li><a href="s-8-c02.xhtml#Page_233">233</a></li>
+<li><a href="s-8-c02.xhtml#Page_234">234</a></li>
+<li><a href="s-8-c03.xhtml#Page_235">235</a></li>
+<li><a href="s-8-c03.xhtml#Page_236">236</a></li>
+<li><a href="s-8-c03a.xhtml#Page_237">237</a></li>
+<li><a href="step09.xhtml#Page_238">238</a></li>
+<li><a href="step09.xhtml#Page_239">239</a></li>
+<li><a href="s-9-c01.xhtml#Page_241">241</a></li>
+<li><a href="s-9-c01.xhtml#Page_242">242</a></li>
+<li><a href="s-9-c01.xhtml#Page_243">243</a></li>
+<li><a href="s-9-c01.xhtml#Page_244">244</a></li>
+<li><a href="s-9-c01a.xhtml#Page_245">245</a></li>
+<li><a href="s-9-c02.xhtml#Page_246">246</a></li>
+<li><a href="s-9-c03.xhtml#Page_247">247</a></li>
+<li><a href="b01.xhtml#Page_249">249</a></li>
+<li><a href="b01.xhtml#Page_250">250</a></li>
+<li><a href="b01.xhtml#Page_251">251</a></li>
+<li><a href="b02.xhtml#Page_253">253</a></li>
+<li><a href="b02.xhtml#Page_254">254</a></li>
+<li><a href="b03.xhtml#Page_255">255</a></li>
+<li><a href="b03.xhtml#Page_257">257</a></li>
+<li><a href="b04.xhtml#Page_265">265</a></li>
+<li><a href="bindex.xhtml#Page_259">259</a></li>
+<li><a href="bindex.xhtml#Page_260">260</a></li>
+<li><a href="bindex.xhtml#Page_261">261</a></li>
+<li><a href="bindex.xhtml#Page_262">262</a></li>
+<li><a href="bindex.xhtml#Page_263">263</a></li>
+<li><a href="bindex.xhtml#Page_264">264</a></li>
+</ol>
+</nav>
+</body>
+</html>
+2023-01-29 08:26:57 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-01-29 08:26:57 INFO  - Step 20 - I return to previous screen from epub
+2023-01-29 08:26:58 INFO  - Button 'btnBack' :: Clicking
+2023-01-29 08:27:00 INFO  - Step 21 - Click READ action button on book details screen
+2023-01-29 08:27:00 INFO  - Button 'Read' :: Clicking
+2023-01-29 08:27:01 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-01-29 08:27:01 INFO  - context - NATIVE_APP
+2023-01-29 08:27:01 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-01-29 08:27:01 INFO  - Taking screenshot
+2023-01-29 08:27:03 INFO  - Test finished - logging out
+2023-01-29 08:27:04 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 08:27:07 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 08:27:08 INFO  - Button 'Accounts' :: Clicking
+2023-01-29 08:27:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 08:27:10 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-29 08:27:11 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-29 08:27:11 INFO  - Button 'Log out' :: Clicking
+2023-01-29 08:27:11 INFO  - Button 'Log in' :: Getting text from element
+2023-01-29 08:27:18 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-29 08:27:18 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-29 08:27:18 INFO  - Unlocking credential for current thread
+2023-01-29 08:27:18 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6ace9075

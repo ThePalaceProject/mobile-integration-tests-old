@@ -1,0 +1,70 @@
+2023-01-29 08:30:23 INFO  - Scenario 'Get a book from Subcategory List View and Read from Books in LYRASIS' start
+2023-01-29 08:30:23 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-29 08:30:58 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-29 08:30:58 INFO  - Session id - 7f9203d82a4ae92dcd8a3ef8522c6ff804b33aea
+2023-01-29 08:30:58 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-29 08:30:58 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-29 08:31:02 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-29 08:31:02 INFO  - Button 'Search' :: Clicking
+2023-01-29 08:31:05 INFO  - Text Field 'Search' :: Clearing
+2023-01-29 08:31:05 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-29 08:31:07 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 08:31:07 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-01-29 08:31:07 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 08:31:08 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 08:31:10 INFO  - Button 'Accounts' :: Clicking
+2023-01-29 08:31:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 08:31:11 INFO  - Locking credential with barcode 01230000000303
+2023-01-29 08:31:11 INFO  - There are books on the account: 
+2023-01-29 08:31:12 INFO  - bookName: Sapiens Distributor: Palace Marketplace
+2023-01-29 08:31:12 INFO  - bookName: Whiteout Distributor: Bibliotheca
+2023-01-29 08:31:12 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-01-29 08:31:12 INFO  - Count of books on the account after opening account: 3
+2023-01-29 08:31:12 INFO  - Text Field 'Card' :: Clearing
+2023-01-29 08:31:12 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-01-29 08:31:14 INFO  - Text Field 'Pin' :: Clearing
+2023-01-29 08:31:14 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-29 08:31:16 INFO  - Button 'Log in' :: Clicking
+2023-01-29 08:31:22 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-29 08:31:22 INFO  - Step 2 - Login is performed successfully
+2023-01-29 08:31:43 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-29 08:31:44 INFO  - Step 3 - I open Catalog
+2023-01-29 08:31:44 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-29 08:32:04 INFO  - Step 4 - I open search modal
+2023-01-29 08:32:25 INFO  - Button 'Search' :: Clicking
+2023-01-29 08:32:26 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-29 08:32:26 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-29 08:32:26 INFO  - randomBookName: The 500 Years of Indigenous Resistance Comic Book: Revised and Expanded
+2023-01-29 08:32:26 INFO  - Error details button is not present
+2023-01-29 08:32:27 INFO  - Text Field 'Search value input' :: Sending keys 'The 500 Years of Indigenous Resistance Comic Book: Revised and Expanded'
+2023-01-29 08:32:29 INFO  - Error details button is not present
+2023-01-29 08:32:32 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-01-29 08:32:32 INFO  - Button 'eBooks' :: Clicking
+2023-01-29 08:32:54 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-29 08:32:55 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-29 08:32:55 INFO  - Button 'actionButton' :: Clicking
+2023-01-29 08:33:05 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-01-29 08:33:05 INFO  - Step 9 - I open Books
+2023-01-29 08:33:05 INFO  - Button 'tabBooks' :: Clicking
+2023-01-29 08:33:06 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-01-29 08:33:06 INFO  - Label 'lblBookName' :: Clicking
+2023-01-29 08:33:07 INFO  - Step 11 - Click READ action button on book details screen
+2023-01-29 08:33:08 INFO  - Button 'Read' :: Clicking
+2023-01-29 08:33:09 INFO  - Step 12 - Wait for 3 seconds
+2023-01-29 08:33:12 INFO  - Step 13 - 'bookInfo' book is present on epub reader screen
+2023-01-29 08:33:14 INFO  - Label 'lblBookName' :: Getting text from element
+2023-01-29 08:33:14 INFO  - Book name on epub reader screen - The 500 Years of Indigenous Resistance Comic Book: Revised and Expanded
+2023-01-29 08:33:14 INFO  - Taking screenshot
+2023-01-29 08:33:17 INFO  - Test finished - logging out
+2023-01-29 08:33:18 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 08:33:21 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 08:33:22 INFO  - Button 'Accounts' :: Clicking
+2023-01-29 08:33:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 08:33:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-29 08:33:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-29 08:33:26 INFO  - Button 'Log out' :: Clicking
+2023-01-29 08:33:26 INFO  - Button 'Log in' :: Getting text from element
+2023-01-29 08:33:31 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-29 08:33:31 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-29 08:33:31 INFO  - Unlocking credential for current thread
+2023-01-29 08:33:31 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@761d7486

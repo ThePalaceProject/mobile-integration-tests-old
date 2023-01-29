@@ -1,0 +1,94 @@
+2023-01-29 09:02:56 INFO  - Scenario 'Navigate by Page' start
+2023-01-29 09:02:56 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-29 09:03:30 INFO  - Application on platform 'ANDROID' is ready...
+2023-01-29 09:03:30 INFO  - Session id - 5c7697c80e84b737202384636b8beb62a60a8680
+2023-01-29 09:03:30 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-29 09:03:30 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-29 09:03:34 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-01-29 09:03:34 INFO  - Button 'Search' :: Clicking
+2023-01-29 09:03:37 INFO  - Text Field 'Search' :: Clearing
+2023-01-29 09:03:37 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-01-29 09:03:39 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 09:03:39 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-29 09:03:39 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:03:41 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:03:42 INFO  - Button 'Accounts' :: Clicking
+2023-01-29 09:03:44 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-29 09:03:44 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:03:44 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:03:45 INFO  - Button 'Accounts' :: Clicking
+2023-01-29 09:03:46 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 09:03:47 INFO  - Locking credential with barcode 01230000000305
+2023-01-29 09:03:47 INFO  - There are books on the account: 
+2023-01-29 09:03:48 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-01-29 09:03:48 INFO  - bookName: My Book of Animal Opposites Distributor: Palace Marketplace
+2023-01-29 09:03:48 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-01-29 09:03:48 INFO  - bookName: Stolen Focus Distributor: Palace Marketplace
+2023-01-29 09:03:48 INFO  - bookName: Glimpses of the Moon Distributor: Palace Marketplace
+2023-01-29 09:03:48 INFO  - Count of books on the account after opening account: 5
+2023-01-29 09:03:48 INFO  - Text Field 'Card' :: Clearing
+2023-01-29 09:03:48 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-01-29 09:03:50 INFO  - Text Field 'Pin' :: Clearing
+2023-01-29 09:03:50 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-29 09:03:52 INFO  - Button 'Log in' :: Clicking
+2023-01-29 09:03:58 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-29 09:03:58 INFO  - Step 3 - Login is performed successfully
+2023-01-29 09:04:19 INFO  - Button 'Log ... action' :: Getting text from element
+2023-01-29 09:04:19 INFO  - Step 4 - I open Catalog
+2023-01-29 09:04:19 INFO  - Button 'tabCatalog' :: Clicking
+2023-01-29 09:04:41 INFO  - Step 5 - I open search modal
+2023-01-29 09:05:01 INFO  - Button 'Search' :: Clicking
+2023-01-29 09:05:03 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-29 09:05:03 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-29 09:05:03 INFO  - randomBookName: Shadows of Swanford Abbey
+2023-01-29 09:05:03 INFO  - Error details button is not present
+2023-01-29 09:05:03 INFO  - Text Field 'Search value input' :: Sending keys 'Shadows of Swanford Abbey'
+2023-01-29 09:05:06 INFO  - Error details button is not present
+2023-01-29 09:05:10 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-29 09:05:11 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-29 09:05:11 INFO  - Button 'actionButton' :: Clicking
+2023-01-29 09:05:17 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-29 09:05:18 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-29 09:05:18 INFO  - Label 'lblBookName' :: Clicking
+2023-01-29 09:05:19 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-29 09:05:20 INFO  - Button 'Read' :: Clicking
+2023-01-29 09:05:20 INFO  - Step 10 - 'bookInfo' book is present on epub reader screen
+2023-01-29 09:05:23 INFO  - Label 'lblBookName' :: Getting text from element
+2023-01-29 09:05:24 INFO  - Book name on epub reader screen - Shadows of Swanford Abbey
+2023-01-29 09:05:24 INFO  - Step 11 - I click on right book corner on epub reader screen
+2023-01-29 09:05:25 INFO  - Step 12 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-01-29 09:05:25 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-01-29 09:05:27 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-01-29 09:05:27 INFO  - Step 13 - I click on right book corner on epub reader screen
+2023-01-29 09:05:28 INFO  - Step 14 - Next page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-01-29 09:05:28 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-01-29 09:05:30 INFO  - actualPageNumberOfNextPage3
+2023-01-29 09:05:30 INFO  - expectedPageNumberOfNextPage3
+2023-01-29 09:05:30 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-01-29 09:05:30 INFO  - actualChapterNameOfNextPageTitle Page
+2023-01-29 09:05:30 INFO  - expectedChapterNameOfNextPageBooks by Julie Klassen
+2023-01-29 09:05:30 INFO  - Step 15 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-01-29 09:05:30 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-01-29 09:05:30 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-01-29 09:05:30 INFO  - Step 16 - I click on left book corner on epub reader screen
+2023-01-29 09:05:31 INFO  - Step 17 - Previous page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-01-29 09:05:31 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-01-29 09:05:33 INFO  - actualPageNumberOfPreviousPage2
+2023-01-29 09:05:33 INFO  - expectedPageNumberOfPreviousPage2
+2023-01-29 09:05:33 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-01-29 09:05:33 INFO  - actualChapterNameOfPreviousPageBooks by Julie Klassen
+2023-01-29 09:05:33 INFO  - expectedChapterNameOfPreviousPageTitle Page
+2023-01-29 09:05:33 INFO  - Taking screenshot
+2023-01-29 09:05:34 INFO  - Test finished - logging out
+2023-01-29 09:05:35 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:05:38 INFO  - Button 'tabSettings' :: Clicking
+2023-01-29 09:05:39 INFO  - Button 'Accounts' :: Clicking
+2023-01-29 09:05:40 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 09:05:42 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-29 09:05:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-29 09:05:42 INFO  - Button 'Log out' :: Clicking
+2023-01-29 09:05:42 INFO  - Button 'Log in' :: Getting text from element
+2023-01-29 09:05:49 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-29 09:05:50 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-29 09:05:50 INFO  - Unlocking credential for current thread
+2023-01-29 09:05:50 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6ace9075
