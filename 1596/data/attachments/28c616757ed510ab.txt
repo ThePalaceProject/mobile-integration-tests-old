@@ -1,0 +1,36 @@
+2023-01-29 21:17:25 INFO  - Scenario 'Check of a "More..." button in Description section in LYRASIS' start
+2023-01-29 21:17:25 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-29 21:17:47 INFO  - Application on platform 'IOS' is ready...
+2023-01-29 21:17:47 INFO  - Session id - d85c09b87b2c5fa91f747f22867231839421984d
+2023-01-29 21:17:47 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-29 21:18:08 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-29 21:18:08 INFO  - Button 'Find your library button' :: Clicking
+2023-01-29 21:18:09 INFO  - Text Field 'Search field' :: Clicking
+2023-01-29 21:18:16 INFO  - Text Field 'Search field' :: Clearing
+2023-01-29 21:18:16 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-29 21:18:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-29 21:18:28 INFO  - Step 1 - I open Catalog
+2023-01-29 21:18:28 INFO  - Button 'Catalog' :: Clicking
+2023-01-29 21:18:30 INFO  - Step 2 - I open search modal
+2023-01-29 21:18:31 INFO  - Button 'Search button' :: Clicking
+2023-01-29 21:18:32 INFO  - Step 3 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-29 21:18:32 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-29 21:18:32 INFO  - randomBookName: A Conflict of Visions
+2023-01-29 21:18:33 INFO  - Text Field 'Search value input' :: Sending keys 'A Conflict of Visions'
+2023-01-29 21:18:34 INFO  - Button 'Search' :: Clicking
+2023-01-29 21:18:36 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2023-01-29 21:18:36 INFO  - Button 'Audiobooks' :: Clicking
+2023-01-29 21:19:17 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-29 21:19:19 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-29 21:19:20 INFO  - Label 'lblBookName' :: Clicking
+2023-01-29 21:19:21 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-01-29 21:19:24 INFO  - Label 'Book title' :: Getting text from element
+2023-01-29 21:19:27 INFO  - Label 'Author' :: Getting text from element
+2023-01-29 21:19:31 INFO  - Label 'Book title' :: Getting text from element
+2023-01-29 21:19:34 INFO  - Label 'Author' :: Getting text from element
+2023-01-29 21:19:35 INFO  - Step 7 - Description is not empty in book details screen
+2023-01-29 21:19:35 INFO  - Label 'Info in description section' :: Getting text from element
+2023-01-29 21:19:36 INFO  - Step 8 - Button More in Description is available on book details screen
+2023-01-29 21:19:37 INFO  - Taking screenshot
+2023-01-29 21:19:38 INFO  - Unlocking credential for current thread
+2023-01-29 21:19:38 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1b810985
