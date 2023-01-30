@@ -1,0 +1,91 @@
+2023-01-30 17:18:34 INFO  - Scenario 'Navigate by Page' start
+2023-01-30 17:18:34 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-30 17:18:52 INFO  - Application on platform 'IOS' is ready...
+2023-01-30 17:18:52 INFO  - Session id - 319e9646d3337f43d8f9ea7331d3b4e48306d319
+2023-01-30 17:18:52 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-30 17:19:12 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-30 17:19:13 INFO  - Button 'Find your library button' :: Clicking
+2023-01-30 17:19:14 INFO  - Text Field 'Search field' :: Clicking
+2023-01-30 17:19:20 INFO  - Text Field 'Search field' :: Clearing
+2023-01-30 17:19:20 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-30 17:19:29 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-30 17:19:31 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-30 17:19:31 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:19:32 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:19:33 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-30 17:19:35 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-30 17:19:35 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:19:36 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:19:37 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-30 17:19:41 INFO  - Locking credential with barcode 01230000000304
+2023-01-30 17:19:41 INFO  - There are books on the account: 
+2023-01-30 17:19:42 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-01-30 17:19:42 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-01-30 17:19:42 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-01-30 17:19:42 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-01-30 17:19:42 INFO  - Count of books on the account after opening account: 4
+2023-01-30 17:20:04 INFO  - Text Field 'Card' :: Clicking
+2023-01-30 17:20:05 INFO  - Text Field 'Card' :: Clearing
+2023-01-30 17:20:05 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-30 17:20:09 INFO  - Text Field 'Pin' :: Clearing
+2023-01-30 17:20:09 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-30 17:20:13 INFO  - Button 'Log in' :: Clicking
+2023-01-30 17:20:22 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-30 17:20:23 INFO  - Step 3 - Login is performed successfully
+2023-01-30 17:20:24 INFO  - Step 4 - I open Catalog
+2023-01-30 17:20:24 INFO  - Button 'Catalog' :: Clicking
+2023-01-30 17:20:25 INFO  - Step 5 - I open search modal
+2023-01-30 17:20:27 INFO  - Button 'Search button' :: Clicking
+2023-01-30 17:20:29 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-30 17:20:29 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-30 17:20:29 INFO  - randomBookName: Ride Out the Storm
+2023-01-30 17:20:29 INFO  - Text Field 'Search value input' :: Sending keys 'Ride Out the Storm'
+2023-01-30 17:20:30 INFO  - Button 'Search' :: Clicking
+2023-01-30 17:20:33 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-30 17:20:34 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-30 17:20:36 INFO  - Button 'actionButton' :: Clicking
+2023-01-30 17:20:58 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-30 17:20:59 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-30 17:21:00 INFO  - Label 'lblBookName' :: Clicking
+2023-01-30 17:21:01 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-30 17:21:02 INFO  - Button 'Read' :: Clicking
+2023-01-30 17:21:23 INFO  - Step 10 - 'bookInfo' book is present on epub reader screen
+2023-01-30 17:21:23 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-01-30 17:21:24 INFO  - Book name on epub reader screen - Ride Out the Storm
+2023-01-30 17:21:24 INFO  - Step 11 - I click on right book corner on epub reader screen
+2023-01-30 17:21:26 INFO  - Step 12 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-01-30 17:21:26 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-30 17:21:26 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-30 17:21:27 INFO  - Step 13 - I click on right book corner on epub reader screen
+2023-01-30 17:21:29 INFO  - Step 14 - Next page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-01-30 17:21:29 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-30 17:21:30 INFO  - actualPageNumberOfNextPage3
+2023-01-30 17:21:30 INFO  - expectedPageNumberOfNextPage3
+2023-01-30 17:21:30 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-30 17:21:30 INFO  - actualChapterNameOfNextPageUntitled
+2023-01-30 17:21:30 INFO  - expectedChapterNameOfNextPageRide Out the Storm
+2023-01-30 17:21:30 INFO  - Step 15 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-01-30 17:21:30 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-30 17:21:31 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-30 17:21:32 INFO  - Step 16 - I click on left book corner on epub reader screen
+2023-01-30 17:21:33 INFO  - Step 17 - Previous page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-01-30 17:21:33 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-30 17:21:34 INFO  - actualPageNumberOfPreviousPage2
+2023-01-30 17:21:34 INFO  - expectedPageNumberOfPreviousPage2
+2023-01-30 17:21:34 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-30 17:21:34 INFO  - actualChapterNameOfPreviousPageRide Out the Storm
+2023-01-30 17:21:34 INFO  - expectedChapterNameOfPreviousPageUntitled
+2023-01-30 17:21:34 INFO  - Taking screenshot
+2023-01-30 17:21:35 INFO  - Test finished - logging out
+2023-01-30 17:21:38 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:21:39 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:21:41 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-30 17:21:44 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-30 17:21:45 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-30 17:21:46 INFO  - Button 'Log out' :: Clicking
+2023-01-30 17:21:47 INFO  - Button 'Log out approve' :: Clicking
+2023-01-30 17:22:08 INFO  - Button 'Log in' :: Getting text from element
+2023-01-30 17:22:08 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-30 17:22:09 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-30 17:22:10 INFO  - Unlocking credential for current thread
+2023-01-30 17:22:10 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@537b2633

@@ -1,0 +1,66 @@
+2023-01-30 17:37:30 INFO  - Scenario 'Delete bookmarks' start
+2023-01-30 17:37:30 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-30 17:37:50 INFO  - Application on platform 'IOS' is ready...
+2023-01-30 17:37:50 INFO  - Session id - fe20e3ad9080602029a7227e4414256ee0d91ba7
+2023-01-30 17:37:50 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-30 17:38:10 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-30 17:38:11 INFO  - Button 'Find your library button' :: Clicking
+2023-01-30 17:38:12 INFO  - Text Field 'Search field' :: Clicking
+2023-01-30 17:38:17 INFO  - Text Field 'Search field' :: Clearing
+2023-01-30 17:38:17 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-30 17:38:26 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-30 17:38:28 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-30 17:38:28 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:38:28 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:38:29 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-30 17:38:31 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-30 17:38:31 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:38:32 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:38:33 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-30 17:38:35 INFO  - Locking credential with barcode 01230000000304
+2023-01-30 17:38:35 INFO  - There are books on the account: 
+2023-01-30 17:39:07 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-01-30 17:39:07 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-01-30 17:39:07 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-01-30 17:39:07 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-01-30 17:39:07 INFO  - Count of books on the account after opening account: 4
+2023-01-30 17:39:28 INFO  - Text Field 'Card' :: Clicking
+2023-01-30 17:39:28 INFO  - Text Field 'Card' :: Clearing
+2023-01-30 17:39:28 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-30 17:39:31 INFO  - Text Field 'Pin' :: Clearing
+2023-01-30 17:39:31 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-30 17:39:34 INFO  - Button 'Log in' :: Clicking
+2023-01-30 17:39:41 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-30 17:39:42 INFO  - Step 3 - Login is performed successfully
+2023-01-30 17:39:42 INFO  - Step 4 - I open Catalog
+2023-01-30 17:39:42 INFO  - Button 'Catalog' :: Clicking
+2023-01-30 17:39:44 INFO  - Step 5 - I open search modal
+2023-01-30 17:39:44 INFO  - Button 'Search button' :: Clicking
+2023-01-30 17:39:46 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-30 17:39:46 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-01-30 17:39:46 INFO  - randomBookName: The Fritz Strafers A Story of the Great War
+2023-01-30 17:39:47 INFO  - Text Field 'Search value input' :: Sending keys 'The Fritz Strafers A Story of the Great War'
+2023-01-30 17:39:49 INFO  - Button 'Search' :: Clicking
+2023-01-30 17:39:51 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-30 17:39:52 INFO  - Button 'actionButton' :: Clicking
+2023-01-30 17:40:14 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-30 17:40:16 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-30 17:40:16 INFO  - Label 'lblBookName' :: Clicking
+2023-01-30 17:40:17 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-30 17:40:18 INFO  - Button 'Read' :: Clicking
+2023-01-30 17:40:40 INFO  - Step 10 - I click on right book corner on epub reader screen
+2023-01-30 17:41:01 INFO  - Taking screenshot
+2023-01-30 17:41:02 INFO  - Test finished - logging out
+2023-01-30 17:41:06 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:41:07 INFO  - Button 'Settings' :: Clicking
+2023-01-30 17:41:07 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-30 17:41:12 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-30 17:41:13 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-30 17:41:14 INFO  - Button 'Log out' :: Clicking
+2023-01-30 17:41:14 INFO  - Button 'Log out approve' :: Clicking
+2023-01-30 17:41:18 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-01-30 17:41:19 INFO  - Button 'Log in' :: Getting text from element
+2023-01-30 17:41:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-30 17:41:23 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-30 17:41:24 INFO  - Unlocking credential for current thread
+2023-01-30 17:41:24 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@537b2633
