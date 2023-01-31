@@ -1,0 +1,84 @@
+2023-01-31 17:13:52 INFO  - Scenario 'Navigate by Page' start
+2023-01-31 17:13:52 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-01-31 17:14:14 INFO  - Application on platform 'IOS' is ready...
+2023-01-31 17:14:14 INFO  - Session id - aa0c46f770ad0d818441ba25b0409d4d4ea72de7
+2023-01-31 17:14:14 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-01-31 17:14:35 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-01-31 17:14:36 INFO  - Button 'Find your library button' :: Clicking
+2023-01-31 17:14:38 INFO  - Text Field 'Search field' :: Clicking
+2023-01-31 17:14:46 INFO  - Text Field 'Search field' :: Clearing
+2023-01-31 17:14:46 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-01-31 17:14:57 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-01-31 17:15:00 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-01-31 17:15:00 INFO  - Button 'Settings' :: Clicking
+2023-01-31 17:15:01 INFO  - Button 'Settings' :: Clicking
+2023-01-31 17:15:03 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-31 17:15:05 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-01-31 17:15:05 INFO  - Button 'Settings' :: Clicking
+2023-01-31 17:15:07 INFO  - Button 'Settings' :: Clicking
+2023-01-31 17:15:09 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-31 17:15:13 INFO  - Locking credential with barcode 01230000000304
+2023-01-31 17:15:13 INFO  - There are books on the account: 
+2023-01-31 17:15:45 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-01-31 17:15:45 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-01-31 17:15:45 INFO  - bookName: Slugs : Distributor: BiblioBoard
+2023-01-31 17:15:45 INFO  - bookName: The Fritz Strafers A Story of the Great War Distributor: Palace Marketplace
+2023-01-31 17:15:45 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-01-31 17:15:45 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-01-31 17:15:45 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-01-31 17:15:45 INFO  - Count of books on the account after opening account: 7
+2023-01-31 17:16:06 INFO  - Text Field 'Card' :: Clicking
+2023-01-31 17:16:08 INFO  - Text Field 'Card' :: Clearing
+2023-01-31 17:16:08 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-01-31 17:16:12 INFO  - Text Field 'Pin' :: Clearing
+2023-01-31 17:16:12 INFO  - Text Field 'Pin' :: Typing '********'
+2023-01-31 17:16:16 INFO  - Button 'Log in' :: Clicking
+2023-01-31 17:16:24 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-01-31 17:16:26 INFO  - Step 3 - Login is performed successfully
+2023-01-31 17:16:27 INFO  - Step 4 - I open Catalog
+2023-01-31 17:16:27 INFO  - Button 'Catalog' :: Clicking
+2023-01-31 17:16:30 INFO  - Step 5 - I open search modal
+2023-01-31 17:16:31 INFO  - Button 'Search button' :: Clicking
+2023-01-31 17:16:34 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-01-31 17:16:34 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-01-31 17:16:34 INFO  - randomBookName: Above World
+2023-01-31 17:16:35 INFO  - Text Field 'Search value input' :: Sending keys 'Above World'
+2023-01-31 17:16:37 INFO  - Button 'Search' :: Clicking
+2023-01-31 17:16:40 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-31 17:16:42 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-31 17:16:50 INFO  - Button 'actionButton' :: Clicking
+2023-01-31 17:17:12 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-01-31 17:17:14 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-01-31 17:17:16 INFO  - Label 'lblBookName' :: Clicking
+2023-01-31 17:17:17 INFO  - Step 9 - Click READ action button on book details screen
+2023-01-31 17:17:18 INFO  - Button 'Read' :: Clicking
+2023-01-31 17:17:40 INFO  - Step 10 - 'bookInfo' book is present on epub reader screen
+2023-01-31 17:17:40 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-01-31 17:17:41 INFO  - Book name on epub reader screen - Above World (9780763659585)
+2023-01-31 17:17:41 INFO  - Step 11 - I click on right book corner on epub reader screen
+2023-01-31 17:17:45 INFO  - Step 12 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-01-31 17:17:45 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-31 17:17:47 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-31 17:17:48 INFO  - Step 13 - I click on right book corner on epub reader screen
+2023-01-31 17:17:52 INFO  - Step 14 - Next page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-01-31 17:17:52 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-31 17:17:53 INFO  - actualPageNumberOfNextPage5
+2023-01-31 17:17:53 INFO  - expectedPageNumberOfNextPage4
+2023-01-31 17:17:53 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-01-31 17:17:54 INFO  - actualChapterNameOfNextPageDedication
+2023-01-31 17:17:54 INFO  - expectedChapterNameOfNextPageTitle Page
+2023-01-31 17:17:54 INFO  - Taking screenshot
+2023-01-31 17:17:56 INFO  - Test finished - logging out
+2023-01-31 17:17:59 INFO  - Button 'Settings' :: Clicking
+2023-01-31 17:18:01 INFO  - Button 'Settings' :: Clicking
+2023-01-31 17:18:03 INFO  - Button 'btnLibraries' :: Clicking
+2023-01-31 17:18:07 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-31 17:18:09 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-31 17:18:10 INFO  - Button 'Log out' :: Clicking
+2023-01-31 17:18:11 INFO  - Button 'Log out approve' :: Clicking
+2023-01-31 17:18:16 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-01-31 17:18:17 INFO  - Button 'Log in' :: Getting text from element
+2023-01-31 17:18:21 INFO  - Text Field 'Card' :: Getting text from element
+2023-01-31 17:18:22 INFO  - Text Field 'Pin' :: Getting text from element
+2023-01-31 17:18:23 INFO  - Unlocking credential for current thread
+2023-01-31 17:18:23 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6af084c2
