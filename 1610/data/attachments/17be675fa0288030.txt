@@ -1,0 +1,36 @@
+2023-02-02 05:16:26 INFO  - Scenario 'Check fields in Information section in LYRASIS' start
+2023-02-02 05:16:26 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-02 05:17:01 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-02 05:17:01 INFO  - Session id - d6b9331f0a58021f3683cfcbe1c1a8bb7e0276f7
+2023-02-02 05:17:01 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-02 05:17:01 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-02 05:17:04 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-02 05:17:05 INFO  - Button 'Search' :: Clicking
+2023-02-02 05:17:07 INFO  - Text Field 'Search' :: Clearing
+2023-02-02 05:17:07 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-02 05:17:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-02 05:17:10 INFO  - Step 1 - I open Catalog
+2023-02-02 05:17:10 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-02 05:17:32 INFO  - Step 2 - I open search modal
+2023-02-02 05:17:53 INFO  - Button 'Search' :: Clicking
+2023-02-02 05:17:54 INFO  - Step 3 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-02 05:17:54 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-02 05:17:54 INFO  - randomBookName: Juliet Takes a Breath: The Graphic Novel
+2023-02-02 05:17:55 INFO  - Error details button is not present
+2023-02-02 05:17:55 INFO  - Text Field 'Search value input' :: Sending keys 'Juliet Takes a Breath: The Graphic Novel'
+2023-02-02 05:18:00 INFO  - Error details button is not present
+2023-02-02 05:18:02 INFO  - Step 4 - I switch to 'eBooks' catalog tab
+2023-02-02 05:18:02 INFO  - Button 'eBooks' :: Clicking
+2023-02-02 05:18:24 INFO  - Step 5 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-02 05:18:25 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-02 05:18:25 INFO  - Label 'lblBookName' :: Clicking
+2023-02-02 05:18:26 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-02-02 05:18:26 INFO  - Label 'Book title' :: Getting text from element
+2023-02-02 05:18:27 INFO  - Label 'Book Authors' :: Getting text from element
+2023-02-02 05:18:28 INFO  - Label 'Book title' :: Getting text from element
+2023-02-02 05:18:29 INFO  - Label 'Book Authors' :: Getting text from element
+2023-02-02 05:18:30 INFO  - Step 7 - Publisher and Categories in Information section are displayed on book details screen
+2023-02-02 05:18:30 INFO  - Swiping from coordinates (x:540; y:1684) to (x:540; y:315)
+2023-02-02 05:18:54 INFO  - Taking screenshot
+2023-02-02 05:18:56 INFO  - Unlocking credential for current thread
+2023-02-02 05:18:56 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5297bf78
