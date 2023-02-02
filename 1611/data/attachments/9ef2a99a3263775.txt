@@ -1,0 +1,82 @@
+2023-02-02 16:35:18 INFO  - Scenario 'Get a book from Subcategory List View and Return from Books in LYRASIS' start
+2023-02-02 16:35:18 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-02 16:35:39 INFO  - Application on platform 'IOS' is ready...
+2023-02-02 16:35:39 INFO  - Session id - bcd26d951a100d77ec218ba18df6f92b21eb1856
+2023-02-02 16:35:39 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-02 16:36:00 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-02 16:36:01 INFO  - Button 'Find your library button' :: Clicking
+2023-02-02 16:36:02 INFO  - Text Field 'Search field' :: Clicking
+2023-02-02 16:36:09 INFO  - Text Field 'Search field' :: Clearing
+2023-02-02 16:36:09 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-02 16:36:19 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-02 16:36:21 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-02 16:36:21 INFO  - Button 'Settings' :: Clicking
+2023-02-02 16:36:22 INFO  - Button 'Settings' :: Clicking
+2023-02-02 16:36:23 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-02 16:36:26 INFO  - Locking credential with barcode 01230000000303
+2023-02-02 16:36:26 INFO  - There are books on the account: 
+2023-02-02 16:36:27 INFO  - bookName: American Axe Distributor: Palace Marketplace
+2023-02-02 16:36:27 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-02 16:36:27 INFO  - bookName: Wild Problems Distributor: Palace Marketplace
+2023-02-02 16:36:27 INFO  - bookName: Sapiens Distributor: Palace Marketplace
+2023-02-02 16:36:27 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-02-02 16:36:27 INFO  - bookName: The Three Little Men in the Forest Distributor: Palace Marketplace
+2023-02-02 16:36:27 INFO  - Count of books on the account after opening account: 6
+2023-02-02 16:36:48 INFO  - Text Field 'Card' :: Clicking
+2023-02-02 16:36:50 INFO  - Text Field 'Card' :: Clearing
+2023-02-02 16:36:50 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-02 16:36:53 INFO  - Text Field 'Pin' :: Clearing
+2023-02-02 16:36:53 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-02 16:36:56 INFO  - Button 'Log in' :: Clicking
+2023-02-02 16:37:19 INFO  - Step 2 - Login is performed successfully
+2023-02-02 16:37:20 INFO  - Step 3 - I open Catalog
+2023-02-02 16:37:20 INFO  - Button 'Catalog' :: Clicking
+2023-02-02 16:37:23 INFO  - Step 4 - I open search modal
+2023-02-02 16:37:24 INFO  - Button 'Search button' :: Clicking
+2023-02-02 16:37:26 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-02 16:37:26 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-02 16:37:26 INFO  - randomBookName: The Woman They Could Not Silence
+2023-02-02 16:37:27 INFO  - Text Field 'Search value input' :: Sending keys 'The Woman They Could Not Silence'
+2023-02-02 16:37:29 INFO  - Button 'Search' :: Clicking
+2023-02-02 16:37:33 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-02-02 16:37:33 INFO  - Button 'eBooks' :: Clicking
+2023-02-02 16:38:15 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-02 16:38:17 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-02 16:38:19 INFO  - Button 'actionButton' :: Clicking
+2023-02-02 16:38:41 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-02-02 16:38:55 INFO  - Step 9 - Click READ action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-02 16:38:56 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-02 16:38:57 INFO  - Button 'actionButton' :: Clicking
+2023-02-02 16:39:19 INFO  - Step 10 - Wait for 3 seconds
+2023-02-02 16:39:22 INFO  - Step 11 - 'bookInfo' book is present on epub reader screen
+2023-02-02 16:39:22 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-02-02 16:39:23 INFO  - Book name on epub reader screen - The Woman They Could Not Silence
+2023-02-02 16:39:23 INFO  - Step 12 - I return to previous screen for epub and pdf
+2023-02-02 16:39:24 INFO  - Button 'btnBack' :: Clicking
+2023-02-02 16:39:25 INFO  - Step 13 - I open Books
+2023-02-02 16:39:25 INFO  - Button 'My Books' :: Clicking
+2023-02-02 16:39:27 INFO  - Step 14 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-02-02 16:39:28 INFO  - Step 15 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-02 16:39:29 INFO  - Label 'lblBookName' :: Clicking
+2023-02-02 16:39:30 INFO  - Step 16 - Click RETURN action button on book details screen
+2023-02-02 16:39:31 INFO  - Button 'Return' :: Clicking
+2023-02-02 16:39:36 INFO  - Button 'Return ActionButtonAlert' :: Clicking
+2023-02-02 16:39:37 INFO  - Step 17 - I open Books
+2023-02-02 16:39:37 INFO  - Button 'My Books' :: Clicking
+2023-02-02 16:39:38 INFO  - Step 18 - Wait for 7 seconds
+2023-02-02 16:39:46 INFO  - Step 19 - EBOOK book with READ action button and 'bookInfo' bookInfo is not present on books screen
+2023-02-02 16:40:27 INFO  - Taking screenshot
+2023-02-02 16:40:31 INFO  - Test finished - logging out
+2023-02-02 16:40:34 INFO  - Button 'Settings' :: Clicking
+2023-02-02 16:40:35 INFO  - Button 'Settings' :: Clicking
+2023-02-02 16:40:36 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-02 16:40:41 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-02 16:40:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-02 16:40:43 INFO  - Button 'Log out' :: Clicking
+2023-02-02 16:40:45 INFO  - Button 'Log out approve' :: Clicking
+2023-02-02 16:40:48 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-02-02 16:40:50 INFO  - Button 'Log in' :: Getting text from element
+2023-02-02 16:40:54 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-02 16:40:55 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-02 16:40:56 INFO  - Unlocking credential for current thread
+2023-02-02 16:40:56 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1de8606

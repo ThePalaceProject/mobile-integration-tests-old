@@ -1,0 +1,67 @@
+2023-02-02 17:46:47 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-02-02 17:46:47 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-02 17:47:16 INFO  - Application on platform 'IOS' is ready...
+2023-02-02 17:47:16 INFO  - Session id - 03eedd9b277aecf8740358ee8a2a12b72e96ddc2
+2023-02-02 17:47:16 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-02 17:47:36 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-02 17:47:37 INFO  - Button 'Find your library button' :: Clicking
+2023-02-02 17:47:38 INFO  - Text Field 'Search field' :: Clicking
+2023-02-02 17:47:45 INFO  - Text Field 'Search field' :: Clearing
+2023-02-02 17:47:45 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-02 17:47:56 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-02 17:47:58 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-02 17:47:58 INFO  - Button 'Settings' :: Clicking
+2023-02-02 17:47:59 INFO  - Button 'Settings' :: Clicking
+2023-02-02 17:48:00 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-02 17:48:03 INFO  - Locking credential with barcode 01230000000304
+2023-02-02 17:48:03 INFO  - There are books on the account: 
+2023-02-02 17:48:04 INFO  - bookName: Eldritch Tales Distributor: Palace Marketplace
+2023-02-02 17:48:04 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-02 17:48:04 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-02 17:48:04 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-02 17:48:04 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-02-02 17:48:04 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-02-02 17:48:04 INFO  - bookName: The Fritz Strafers A Story of the Great War Distributor: Palace Marketplace
+2023-02-02 17:48:04 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-02-02 17:48:04 INFO  - bookName: The Great Influenza Distributor: Palace Marketplace
+2023-02-02 17:48:04 INFO  - Count of books on the account after opening account: 9
+2023-02-02 17:48:25 INFO  - Text Field 'Card' :: Clicking
+2023-02-02 17:48:26 INFO  - Text Field 'Card' :: Clearing
+2023-02-02 17:48:26 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-02 17:48:30 INFO  - Text Field 'Pin' :: Clearing
+2023-02-02 17:48:30 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-02 17:48:33 INFO  - Button 'Log in' :: Clicking
+2023-02-02 17:48:43 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-02 17:48:45 INFO  - Step 2 - Login is performed successfully
+2023-02-02 17:48:46 INFO  - Step 3 - I open Catalog
+2023-02-02 17:48:46 INFO  - Button 'Catalog' :: Clicking
+2023-02-02 17:48:48 INFO  - Step 4 - I open search modal
+2023-02-02 17:48:49 INFO  - Button 'Search button' :: Clicking
+2023-02-02 17:48:51 INFO  - Step 5 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-02 17:48:51 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-02 17:48:51 INFO  - randomBookName: Noise
+2023-02-02 17:48:51 INFO  - Text Field 'Search value input' :: Sending keys 'Noise'
+2023-02-02 17:48:52 INFO  - Button 'Search' :: Clicking
+2023-02-02 17:48:55 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2023-02-02 17:48:55 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-02 17:49:36 INFO  - Step 7 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-02 17:49:38 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-02 17:49:38 INFO  - Label 'lblBookName' :: Clicking
+2023-02-02 17:49:40 INFO  - Step 8 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-02-02 17:49:40 INFO  - Button 'Get' :: Clicking
+2023-02-02 17:49:41 INFO  - Button 'Cancel' :: Clicking
+2023-02-02 17:49:43 INFO  - Step 9 - I check that book contains DOWNLOAD action button on book details screen
+2023-02-02 17:49:44 INFO  - Step 10 - I check that book contains RETURN action button on book details screen
+2023-02-02 17:49:45 INFO  - Taking screenshot
+2023-02-02 17:49:48 INFO  - Test finished - logging out
+2023-02-02 17:49:51 INFO  - Button 'Settings' :: Clicking
+2023-02-02 17:49:53 INFO  - Button 'Settings' :: Clicking
+2023-02-02 17:49:54 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-02 17:49:57 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-02 17:49:58 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-02 17:49:59 INFO  - Button 'Log out' :: Clicking
+2023-02-02 17:50:00 INFO  - Button 'Log out approve' :: Clicking
+2023-02-02 17:50:03 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-02-02 17:50:04 INFO  - Button 'Log in' :: Getting text from element
+2023-02-02 17:50:25 INFO  - Unlocking credential for current thread
+2023-02-02 17:50:25 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1dd42e26

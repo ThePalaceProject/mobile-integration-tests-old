@@ -1,0 +1,69 @@
+2023-02-02 17:57:37 INFO  - Scenario 'Biblioboard: Check of switching to the next time' start
+2023-02-02 17:57:37 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-02 17:57:58 INFO  - Application on platform 'IOS' is ready...
+2023-02-02 17:57:58 INFO  - Session id - 8601ae40cb994918baca8ac9dc873325719ecf20
+2023-02-02 17:57:58 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-02 17:58:18 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-02 17:58:19 INFO  - Button 'Find your library button' :: Clicking
+2023-02-02 17:58:23 INFO  - Text Field 'Search field' :: Clicking
+2023-02-02 17:58:30 INFO  - Text Field 'Search field' :: Clearing
+2023-02-02 17:58:30 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-02 17:58:42 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-02 17:58:44 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-02 17:58:44 INFO  - Button 'Settings' :: Clicking
+2023-02-02 17:58:46 INFO  - Button 'Settings' :: Clicking
+2023-02-02 17:58:47 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-02 17:58:49 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-02 17:58:49 INFO  - Button 'Settings' :: Clicking
+2023-02-02 17:58:51 INFO  - Button 'Settings' :: Clicking
+2023-02-02 17:58:52 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-02 17:58:56 INFO  - Locking credential with barcode 01230000000306
+2023-02-02 17:58:56 INFO  - There are books on the account: 
+2023-02-02 17:58:57 INFO  - bookName: Seekers of Truth and Tranquility Distributor: Palace Marketplace
+2023-02-02 17:58:57 INFO  - bookName: When the Tempest Gathers Distributor: Palace Marketplace
+2023-02-02 17:58:57 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-02 17:58:57 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-02 17:58:57 INFO  - Count of books on the account after opening account: 4
+2023-02-02 17:59:19 INFO  - Text Field 'Card' :: Clicking
+2023-02-02 17:59:20 INFO  - Text Field 'Card' :: Clearing
+2023-02-02 17:59:20 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-02 17:59:24 INFO  - Text Field 'Pin' :: Clearing
+2023-02-02 17:59:24 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-02 17:59:28 INFO  - Button 'Log in' :: Clicking
+2023-02-02 17:59:36 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-02 17:59:39 INFO  - Step 3 - Login is performed successfully
+2023-02-02 17:59:40 INFO  - Step 4 - I open Catalog
+2023-02-02 17:59:40 INFO  - Button 'Catalog' :: Clicking
+2023-02-02 17:59:43 INFO  - Step 5 - I switch to 'Audiobooks' catalog tab
+2023-02-02 17:59:43 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-02 18:00:06 INFO  - Step 6 - I open 'New BiblioBoard Test' category
+2023-02-02 18:00:09 INFO  - Button 'New BiblioBoard Test' :: Clicking
+2023-02-02 18:00:11 INFO  - Step 7 - Change books visibility to show AVAILABLE_NOW
+2023-02-02 18:00:11 INFO  - Button 'Availability button' :: Clicking
+2023-02-02 18:00:14 INFO  - Button 'Facet search value Available now' :: Clicking
+2023-02-02 18:00:16 INFO  - Step 8 - Click GET action button on random book from the catalog book screen and save book as 'bookInfo'
+2023-02-02 18:00:17 INFO  - Label 'Book author' :: Getting text from element
+2023-02-02 18:00:19 INFO  - Label 'Book name' :: Getting attribute 'name'
+2023-02-02 18:00:21 INFO  - Button 'Action button' :: Clicking
+2023-02-02 18:00:23 INFO  - Label 'Book name' :: Getting attribute 'name'
+2023-02-02 18:00:50 INFO  - Step 9 - Save book name of the book 'bookInfo' as 'bookNameInfo' on catalog book screen
+2023-02-02 18:00:50 INFO  - Step 10 - I check that book 'bookNameInfo' contains LISTEN action button on catalog book screen
+2023-02-02 18:00:51 INFO  - Step 11 - Open book with LISTEN action button and 'bookNameInfo' bookName on catalog books screen
+2023-02-02 18:00:51 INFO  - Label 'action button' :: Clicking
+2023-02-02 18:00:53 INFO  - Step 12 - Click LISTEN action button on book details screen
+2023-02-02 18:00:54 INFO  - Button 'Listen' :: Clicking
+2023-02-02 18:01:15 INFO  - Step 13 - Audio player screen of book 'bookInfo' is opened
+2023-02-02 18:01:35 INFO  - Taking screenshot
+2023-02-02 18:01:38 INFO  - Test finished - logging out
+2023-02-02 18:01:42 INFO  - Button 'Settings' :: Clicking
+2023-02-02 18:01:44 INFO  - Button 'Settings' :: Clicking
+2023-02-02 18:01:45 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-02 18:01:50 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-02 18:01:51 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-02 18:01:52 INFO  - Button 'Log out' :: Clicking
+2023-02-02 18:01:54 INFO  - Button 'Log out approve' :: Clicking
+2023-02-02 18:02:16 INFO  - Button 'Log in' :: Getting text from element
+2023-02-02 18:02:18 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-02 18:02:19 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-02 18:02:20 INFO  - Unlocking credential for current thread
+2023-02-02 18:02:20 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@67248bc2
