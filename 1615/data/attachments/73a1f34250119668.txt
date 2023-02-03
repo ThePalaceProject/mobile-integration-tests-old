@@ -1,0 +1,80 @@
+2023-02-03 17:45:19 INFO  - Scenario 'Delete bookmarks' start
+2023-02-03 17:45:19 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-03 17:45:38 INFO  - Application on platform 'IOS' is ready...
+2023-02-03 17:45:38 INFO  - Session id - c37ef54358fbefaa80d319344d258c71d2e169ad
+2023-02-03 17:45:38 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-03 17:45:59 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-03 17:46:00 INFO  - Button 'Find your library button' :: Clicking
+2023-02-03 17:46:01 INFO  - Text Field 'Search field' :: Clicking
+2023-02-03 17:46:07 INFO  - Text Field 'Search field' :: Clearing
+2023-02-03 17:46:07 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-03 17:46:16 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-03 17:46:18 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-03 17:46:18 INFO  - Button 'Settings' :: Clicking
+2023-02-03 17:46:19 INFO  - Button 'Settings' :: Clicking
+2023-02-03 17:46:19 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-03 17:46:21 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-03 17:46:21 INFO  - Button 'Settings' :: Clicking
+2023-02-03 17:46:22 INFO  - Button 'Settings' :: Clicking
+2023-02-03 17:46:23 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-03 17:46:25 INFO  - Locking credential with barcode 01230000000305
+2023-02-03 17:46:25 INFO  - There are books on the account: 
+2023-02-03 17:46:57 INFO  - bookName: Stolen Focus Distributor: Palace Marketplace
+2023-02-03 17:46:57 INFO  - bookName: Glimpses of the Moon Distributor: Palace Marketplace
+2023-02-03 17:46:57 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-03 17:46:57 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-03 17:46:57 INFO  - bookName: My Book of Animal Opposites Distributor: Palace Marketplace
+2023-02-03 17:46:57 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-03 17:46:57 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-03 17:46:57 INFO  - Count of books on the account after opening account: 7
+2023-02-03 17:47:18 INFO  - Text Field 'Card' :: Clicking
+2023-02-03 17:47:19 INFO  - Text Field 'Card' :: Clearing
+2023-02-03 17:47:19 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-03 17:47:23 INFO  - Text Field 'Pin' :: Clearing
+2023-02-03 17:47:23 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-03 17:47:26 INFO  - Button 'Log in' :: Clicking
+2023-02-03 17:47:34 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-03 17:47:36 INFO  - Step 3 - Login is performed successfully
+2023-02-03 17:47:36 INFO  - Step 4 - I open Catalog
+2023-02-03 17:47:37 INFO  - Button 'Catalog' :: Clicking
+2023-02-03 17:47:38 INFO  - Step 5 - I open search modal
+2023-02-03 17:47:40 INFO  - Button 'Search button' :: Clicking
+2023-02-03 17:47:42 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-03 17:47:42 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-03 17:47:42 INFO  - randomBookName: Dolphin Junction: Stories
+2023-02-03 17:47:43 INFO  - Text Field 'Search value input' :: Sending keys 'Dolphin Junction: Stories'
+2023-02-03 17:47:44 INFO  - Button 'Search' :: Clicking
+2023-02-03 17:48:04 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-03 17:48:06 INFO  - Button 'actionButton' :: Clicking
+2023-02-03 17:48:31 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-03 17:48:33 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-03 17:48:34 INFO  - Label 'lblBookName' :: Clicking
+2023-02-03 17:48:35 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-03 17:48:37 INFO  - Button 'Read' :: Clicking
+2023-02-03 17:48:59 INFO  - Step 10 - I click on right book corner on epub reader screen
+2023-02-03 17:49:02 INFO  - Step 11 - Add bookmark on reader epub screen
+2023-02-03 17:49:03 INFO  - Button 'Add Bookmark' :: Clicking
+2023-02-03 17:49:04 INFO  - Step 12 - Delete bookmark on reader epub screen
+2023-02-03 17:49:05 INFO  - Button 'Delete Bookmark' :: Clicking
+2023-02-03 17:49:06 INFO  - Step 13 - Bookmark is not displayed on reader epub screen
+2023-02-03 17:49:07 INFO  - Step 14 - I scroll page forward from 7 to 9 times
+2023-02-03 17:49:07 INFO  - Scrolling 7 times on reader epub screen
+2023-02-03 17:49:37 INFO  - Step 15 - Add bookmark on reader epub screen
+2023-02-03 17:49:38 INFO  - Button 'Add Bookmark' :: Clicking
+2023-02-03 17:49:40 INFO  - Step 16 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-02-03 17:49:40 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-03 17:49:42 INFO  - Taking screenshot
+2023-02-03 17:49:49 INFO  - Test finished - logging out
+2023-02-03 17:49:52 INFO  - Button 'Settings' :: Clicking
+2023-02-03 17:49:53 INFO  - Button 'Settings' :: Clicking
+2023-02-03 17:49:54 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-03 17:49:57 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-03 17:49:58 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-03 17:49:59 INFO  - Button 'Log out' :: Clicking
+2023-02-03 17:50:00 INFO  - Button 'Log out approve' :: Clicking
+2023-02-03 17:50:04 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-02-03 17:50:06 INFO  - Button 'Log in' :: Getting text from element
+2023-02-03 17:50:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-03 17:50:26 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-03 17:50:27 INFO  - Unlocking credential for current thread
+2023-02-03 17:50:27 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@67199683

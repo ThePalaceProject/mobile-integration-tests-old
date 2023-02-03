@@ -1,0 +1,98 @@
+2023-02-03 20:09:53 INFO  - Scenario 'Playback speed: Check of playback speed' start
+2023-02-03 20:09:53 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-03 20:10:13 INFO  - Application on platform 'IOS' is ready...
+2023-02-03 20:10:13 INFO  - Session id - ce9a62e2801c5eab90e02c9f0c065ddee46f036e
+2023-02-03 20:10:13 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-03 20:10:34 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-03 20:10:34 INFO  - Button 'Find your library button' :: Clicking
+2023-02-03 20:10:35 INFO  - Text Field 'Search field' :: Clicking
+2023-02-03 20:10:42 INFO  - Text Field 'Search field' :: Clearing
+2023-02-03 20:10:42 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-03 20:10:52 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-03 20:10:53 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-03 20:10:53 INFO  - Button 'Settings' :: Clicking
+2023-02-03 20:10:54 INFO  - Button 'Settings' :: Clicking
+2023-02-03 20:10:55 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-03 20:10:56 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-03 20:10:56 INFO  - Button 'Settings' :: Clicking
+2023-02-03 20:10:58 INFO  - Button 'Settings' :: Clicking
+2023-02-03 20:10:59 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-03 20:11:02 INFO  - Locking credential with barcode 01230000000306
+2023-02-03 20:11:02 INFO  - There are books on the account: 
+2023-02-03 20:11:33 INFO  - bookName: Seekers of Truth and Tranquility Distributor: Palace Marketplace
+2023-02-03 20:11:33 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-03 20:11:33 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2023-02-03 20:11:33 INFO  - bookName: The Rule of Many Distributor: Palace Marketplace
+2023-02-03 20:11:33 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-03 20:11:33 INFO  - bookName: When the Tempest Gathers Distributor: Palace Marketplace
+2023-02-03 20:11:33 INFO  - Count of books on the account after opening account: 6
+2023-02-03 20:11:55 INFO  - Text Field 'Card' :: Clicking
+2023-02-03 20:11:56 INFO  - Text Field 'Card' :: Clearing
+2023-02-03 20:11:56 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-03 20:11:59 INFO  - Text Field 'Pin' :: Clearing
+2023-02-03 20:11:59 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-03 20:12:02 INFO  - Button 'Log in' :: Clicking
+2023-02-03 20:12:17 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-03 20:12:19 INFO  - Step 3 - Login is performed successfully
+2023-02-03 20:12:20 INFO  - Step 4 - I open Catalog
+2023-02-03 20:12:20 INFO  - Button 'Catalog' :: Clicking
+2023-02-03 20:12:21 INFO  - Step 5 - I open search modal
+2023-02-03 20:12:22 INFO  - Button 'Search button' :: Clicking
+2023-02-03 20:12:25 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-03 20:12:25 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-03 20:12:25 INFO  - randomBookName: Ill Fares the Land
+2023-02-03 20:12:25 INFO  - Text Field 'Search value input' :: Sending keys 'Ill Fares the Land'
+2023-02-03 20:12:27 INFO  - Button 'Search' :: Clicking
+2023-02-03 20:12:29 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-02-03 20:12:29 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-03 20:13:12 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-03 20:13:13 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-03 20:13:15 INFO  - Label 'lblBookName' :: Clicking
+2023-02-03 20:13:16 INFO  - Step 9 - Click GET action button on book details screen
+2023-02-03 20:13:18 INFO  - Button 'Get' :: Clicking
+2023-02-03 20:13:40 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-02-03 20:13:41 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-02-03 20:13:41 INFO  - Button 'Listen' :: Clicking
+2023-02-03 20:14:03 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-02-03 20:14:03 INFO  - Step 13 - Select 1.25X playback speed on playback speed audiobook screen
+2023-02-03 20:14:03 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-02-03 20:14:05 INFO  - Button 'One and one quarter faster than normal speed.' :: Clicking
+2023-02-03 20:14:06 INFO  - Step 14 - Current playback speed value is 1.25X on audio player screen
+2023-02-03 20:14:07 INFO  - Step 15 - Return to previous screen from audio player screen
+2023-02-03 20:14:07 INFO  - Button 'btnBack' :: Clicking
+2023-02-03 20:14:08 INFO  - Step 16 - Click LISTEN action button on book details screen
+2023-02-03 20:14:09 INFO  - Button 'Listen' :: Clicking
+2023-02-03 20:14:30 INFO  - Step 17 - Audio player screen of book 'bookInfo' is opened
+2023-02-03 20:14:30 INFO  - Step 18 - Current playback speed value is 1.25X on audio player screen
+2023-02-03 20:14:31 INFO  - Step 19 - I restart app
+2023-02-03 20:14:43 INFO  - Step 20 - I open Books
+2023-02-03 20:14:43 INFO  - Button 'My Books' :: Clicking
+2023-02-03 20:14:43 INFO  - Step 21 - Open AUDIOBOOK book with LISTEN action button and 'bookInfo' bookInfo on books screen
+2023-02-03 20:14:44 INFO  - Label 'lblBookName' :: Clicking
+2023-02-03 20:14:45 INFO  - Step 22 - Click LISTEN action button on book details screen
+2023-02-03 20:14:46 INFO  - Button 'Listen' :: Clicking
+2023-02-03 20:15:07 INFO  - Step 23 - Audio player screen of book 'bookInfo' is opened
+2023-02-03 20:15:08 INFO  - Step 24 - Current playback speed value is 1.25X on audio player screen
+2023-02-03 20:15:08 INFO  - Step 25 - Tap play button on audio player screen
+2023-02-03 20:15:08 INFO  - Button 'btnPlay' :: Clicking
+2023-02-03 20:15:09 INFO  - Step 26 - Save book play time as 'timeAhead' on audio player screen
+2023-02-03 20:15:09 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2023-02-03 20:15:10 INFO  - Step 27 - Wait for 8 seconds
+2023-02-03 20:15:19 INFO  - Step 28 - Playback has been moved forward by 10 seconds from 'timeAhead' seconds on audio player screen
+2023-02-03 20:15:19 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2023-02-03 20:15:19 INFO  - diff between times for move forward - 11
+2023-02-03 20:15:19 INFO  - Taking screenshot
+2023-02-03 20:15:21 INFO  - Test finished - logging out
+2023-02-03 20:15:25 INFO  - Button 'Settings' :: Clicking
+2023-02-03 20:15:25 INFO  - Button 'Settings' :: Clicking
+2023-02-03 20:15:26 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-03 20:15:29 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-03 20:15:30 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-03 20:15:31 INFO  - Button 'Log out' :: Clicking
+2023-02-03 20:15:32 INFO  - Button 'Log out approve' :: Clicking
+2023-02-03 20:15:35 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-02-03 20:15:36 INFO  - Button 'Log in' :: Getting text from element
+2023-02-03 20:15:39 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-03 20:15:40 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-03 20:15:40 INFO  - Unlocking credential for current thread
+2023-02-03 20:15:40 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7f58fc6b
