@@ -1,0 +1,59 @@
+2023-02-04 11:13:17 INFO  - Scenario 'Hold from Subcategory List View and Remove a Reserved Book from Holds' start
+2023-02-04 11:13:17 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-04 11:14:00 INFO  - Application on platform 'IOS' is ready...
+2023-02-04 11:14:00 INFO  - Session id - 799b911359b3d9a81957e34551314e8a0e279b72
+2023-02-04 11:14:00 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-04 11:14:20 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-04 11:14:21 INFO  - Button 'Find your library button' :: Clicking
+2023-02-04 11:14:21 INFO  - Text Field 'Search field' :: Clicking
+2023-02-04 11:14:27 INFO  - Text Field 'Search field' :: Clearing
+2023-02-04 11:14:27 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-04 11:14:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-04 11:14:40 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-04 11:14:40 INFO  - Button 'Settings' :: Clicking
+2023-02-04 11:14:41 INFO  - Button 'Settings' :: Clicking
+2023-02-04 11:14:42 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-04 11:14:44 INFO  - Locking credential with barcode 01230000000303
+2023-02-04 11:14:44 INFO  - There are books on the account: 
+2023-02-04 11:15:16 INFO  - bookName: Wild Problems Distributor: Palace Marketplace
+2023-02-04 11:15:16 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-04 11:15:16 INFO  - bookName: American Axe Distributor: Palace Marketplace
+2023-02-04 11:15:16 INFO  - bookName: Sapiens Distributor: Palace Marketplace
+2023-02-04 11:15:16 INFO  - bookName: The Three Little Men in the Forest Distributor: Palace Marketplace
+2023-02-04 11:15:16 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-02-04 11:15:16 INFO  - Count of books on the account after opening account: 6
+2023-02-04 11:15:38 INFO  - Text Field 'Card' :: Clicking
+2023-02-04 11:15:39 INFO  - Text Field 'Card' :: Clearing
+2023-02-04 11:15:39 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-04 11:15:42 INFO  - Text Field 'Pin' :: Clearing
+2023-02-04 11:15:42 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-04 11:15:46 INFO  - Button 'Log in' :: Clicking
+2023-02-04 11:16:10 INFO  - Step 2 - Login is performed successfully
+2023-02-04 11:16:11 INFO  - Step 3 - I open Catalog
+2023-02-04 11:16:11 INFO  - Button 'Catalog' :: Clicking
+2023-02-04 11:16:14 INFO  - Step 4 - I open search modal
+2023-02-04 11:16:15 INFO  - Button 'Search button' :: Clicking
+2023-02-04 11:16:17 INFO  - Step 5 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-04 11:16:17 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-04 11:16:17 INFO  - randomBookName: Fault Lines
+2023-02-04 11:16:19 INFO  - Text Field 'Search value input' :: Sending keys 'Fault Lines'
+2023-02-04 11:16:20 INFO  - Button 'Search' :: Clicking
+2023-02-04 11:16:23 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-02-04 11:16:23 INFO  - Button 'eBooks' :: Clicking
+2023-02-04 11:17:06 INFO  - Step 7 - Click RESERVE action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-04 11:17:27 INFO  - Button 'actionButton' :: Clicking
+2023-02-04 11:17:51 INFO  - Taking screenshot
+2023-02-04 11:17:58 INFO  - Test finished - logging out
+2023-02-04 11:18:02 INFO  - Button 'Settings' :: Clicking
+2023-02-04 11:18:03 INFO  - Button 'Settings' :: Clicking
+2023-02-04 11:18:04 INFO  - Button 'btnLibraries' :: Clicking
+2023-02-04 11:18:06 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-04 11:18:07 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-04 11:18:08 INFO  - Button 'Log out' :: Clicking
+2023-02-04 11:18:10 INFO  - Button 'Log out approve' :: Clicking
+2023-02-04 11:18:13 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-02-04 11:18:15 INFO  - Button 'Log in' :: Getting text from element
+2023-02-04 11:18:18 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-04 11:18:19 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-04 11:18:20 INFO  - Unlocking credential for current thread
+2023-02-04 11:18:20 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6e3b28ee
