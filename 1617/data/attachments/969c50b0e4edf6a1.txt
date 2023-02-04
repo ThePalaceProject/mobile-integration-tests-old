@@ -1,0 +1,38 @@
+2023-02-04 06:28:59 INFO  - Scenario 'Check related books section in LYRASIS' start
+2023-02-04 06:28:59 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-04 06:29:28 INFO  - Application on platform 'IOS' is ready...
+2023-02-04 06:29:28 INFO  - Session id - ee573263b82e3f83b763e82eeea2147dad786192
+2023-02-04 06:29:28 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-04 06:29:48 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-04 06:29:49 INFO  - Button 'Find your library button' :: Clicking
+2023-02-04 06:29:50 INFO  - Text Field 'Search field' :: Clicking
+2023-02-04 06:29:56 INFO  - Text Field 'Search field' :: Clearing
+2023-02-04 06:29:56 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-04 06:30:08 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-04 06:30:10 INFO  - Step 1 - I open Catalog
+2023-02-04 06:30:10 INFO  - Button 'Catalog' :: Clicking
+2023-02-04 06:30:12 INFO  - Step 2 - I open search modal
+2023-02-04 06:30:13 INFO  - Button 'Search button' :: Clicking
+2023-02-04 06:30:14 INFO  - Step 3 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-04 06:30:14 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-04 06:30:14 INFO  - randomBookName: Treacherous Times
+2023-02-04 06:30:15 INFO  - Text Field 'Search value input' :: Sending keys 'Treacherous Times'
+2023-02-04 06:30:16 INFO  - Button 'Search' :: Clicking
+2023-02-04 06:30:19 INFO  - Step 4 - I switch to 'eBooks' catalog tab
+2023-02-04 06:30:19 INFO  - Button 'eBooks' :: Clicking
+2023-02-04 06:31:00 INFO  - Step 5 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-04 06:31:03 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-04 06:31:04 INFO  - Label 'lblBookName' :: Clicking
+2023-02-04 06:31:06 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-02-04 06:31:08 INFO  - Label 'Book title' :: Getting text from element
+2023-02-04 06:31:12 INFO  - Label 'Author' :: Getting text from element
+2023-02-04 06:31:16 INFO  - Label 'Book title' :: Getting text from element
+2023-02-04 06:31:21 INFO  - Label 'Author' :: Getting text from element
+2023-02-04 06:31:22 INFO  - Step 7 - Related books section is displayed on book details screen
+2023-02-04 06:31:25 INFO  - Label 'Book title' :: Getting text from element
+2023-02-04 06:31:30 INFO  - Label 'Author' :: Getting text from element
+2023-02-04 06:31:33 INFO  - Step 8 - There is a list of related books on book details screen
+2023-02-04 06:31:35 INFO  - Step 9 - More button in related books section is available on book details screen
+2023-02-04 06:31:37 INFO  - Taking screenshot
+2023-02-04 06:31:39 INFO  - Unlocking credential for current thread
+2023-02-04 06:31:39 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@12f028a9
