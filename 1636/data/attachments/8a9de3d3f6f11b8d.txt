@@ -1,0 +1,78 @@
+2023-02-08 20:58:49 INFO  - Scenario 'Alert: Check of Cancel button after Remove button tapping' start
+2023-02-08 20:58:49 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-08 20:59:07 INFO  - Application on platform 'IOS' is ready...
+2023-02-08 20:59:07 INFO  - Session id - 75ca32039c726c771dca6f03adff46e5f056b384
+2023-02-08 20:59:07 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-08 20:59:27 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-08 20:59:28 INFO  - Button 'Find your library button' :: Clicking
+2023-02-08 20:59:29 INFO  - Text Field 'Search field' :: Clicking
+2023-02-08 20:59:35 INFO  - Text Field 'Search field' :: Clearing
+2023-02-08 20:59:35 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-08 20:59:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-08 20:59:46 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-08 20:59:46 INFO  - Button 'Settings' :: Clicking
+2023-02-08 20:59:47 INFO  - Button 'Settings' :: Clicking
+2023-02-08 20:59:48 INFO  - Button 'Libraries button' :: Clicking
+2023-02-08 20:59:50 INFO  - Locking credential with barcode 01230000000304
+2023-02-08 20:59:50 INFO  - There are books on the account: 
+2023-02-08 20:59:51 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-02-08 20:59:51 INFO  - bookName: The Great Influenza Distributor: Palace Marketplace
+2023-02-08 20:59:51 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-08 20:59:51 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-02-08 20:59:51 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-02-08 20:59:51 INFO  - bookName: Eldritch Tales Distributor: Palace Marketplace
+2023-02-08 20:59:51 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-08 20:59:51 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-08 20:59:51 INFO  - bookName: The Fritz Strafers A Story of the Great War Distributor: Palace Marketplace
+2023-02-08 20:59:51 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-08 20:59:51 INFO  - Count of books on the account after opening account: 10
+2023-02-08 21:00:13 INFO  - Text Field 'Card' :: Clicking
+2023-02-08 21:00:14 INFO  - Text Field 'Card' :: Clearing
+2023-02-08 21:00:14 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-08 21:00:16 INFO  - Text Field 'Pin' :: Clearing
+2023-02-08 21:00:16 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-08 21:00:19 INFO  - Button 'Log in' :: Clicking
+2023-02-08 21:00:25 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-08 21:00:26 INFO  - Step 2 - Login is performed successfully
+2023-02-08 21:00:27 INFO  - Step 3 - I open Catalog
+2023-02-08 21:00:27 INFO  - Button 'Catalog' :: Clicking
+2023-02-08 21:00:29 INFO  - Step 4 - I open search modal
+2023-02-08 21:00:30 INFO  - Button 'Search button' :: Clicking
+2023-02-08 21:00:32 INFO  - Step 5 - I search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-08 21:00:32 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-08 21:00:32 INFO  - randomBookName: The Critique of Practical Reason
+2023-02-08 21:00:32 INFO  - Text Field 'Search value input' :: Sending keys 'The Critique of Practical Reason'
+2023-02-08 21:00:33 INFO  - Button 'Search' :: Clicking
+2023-02-08 21:00:36 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2023-02-08 21:00:36 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-08 21:01:17 INFO  - Step 7 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-08 21:01:19 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-08 21:01:19 INFO  - Label 'lblBookName' :: Clicking
+2023-02-08 21:01:20 INFO  - Step 8 - Click RESERVE action button on book details screen
+2023-02-08 21:01:21 INFO  - Button 'Reserve' :: Clicking
+2023-02-08 21:01:28 INFO  - Alert appears and dismiss alert
+2023-02-08 21:01:28 INFO  - Step 9 - I open Holds
+2023-02-08 21:01:28 INFO  - Button 'Reservations' :: Clicking
+2023-02-08 21:01:29 INFO  - Step 10 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-02-08 21:01:31 INFO  - Step 11 - Open AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2023-02-08 21:01:31 INFO  - Label 'lblBookName' :: Clicking
+2023-02-08 21:01:32 INFO  - Step 12 - Click REMOVE button but cancel the action by clicking CANCEL button on the alert
+2023-02-08 21:01:33 INFO  - Button 'Remove' :: Clicking
+2023-02-08 21:01:37 INFO  - Button 'Cancel ActionButtonAlert' :: Clicking
+2023-02-08 21:01:38 INFO  - Step 13 - I open Holds
+2023-02-08 21:01:38 INFO  - Button 'Reservations' :: Clicking
+2023-02-08 21:01:39 INFO  - Step 14 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-02-08 21:01:41 INFO  - Taking screenshot
+2023-02-08 21:01:42 INFO  - Test finished - logging out
+2023-02-08 21:01:45 INFO  - Button 'Settings' :: Clicking
+2023-02-08 21:01:46 INFO  - Button 'Settings' :: Clicking
+2023-02-08 21:01:47 INFO  - Button 'Libraries button' :: Clicking
+2023-02-08 21:01:49 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-08 21:01:50 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-08 21:01:51 INFO  - Button 'Log out' :: Clicking
+2023-02-08 21:01:52 INFO  - Button 'Log out approve' :: Clicking
+2023-02-08 21:02:13 INFO  - Button 'Log in' :: Getting text from element
+2023-02-08 21:02:14 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-08 21:02:15 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-08 21:02:15 INFO  - Unlocking credential for current thread
+2023-02-08 21:02:15 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6d08a981

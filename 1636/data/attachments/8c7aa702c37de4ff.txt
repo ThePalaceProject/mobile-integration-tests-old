@@ -1,0 +1,80 @@
+2023-02-08 19:54:53 INFO  - Scenario 'Navigate by Page slider Lyrasis' start
+2023-02-08 19:54:53 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-08 19:55:10 INFO  - Application on platform 'IOS' is ready...
+2023-02-08 19:55:10 INFO  - Session id - 652ccbaec948ce322748102901d50aa8607cde36
+2023-02-08 19:55:10 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-08 19:55:31 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-08 19:55:31 INFO  - Button 'Find your library button' :: Clicking
+2023-02-08 19:55:32 INFO  - Text Field 'Search field' :: Clicking
+2023-02-08 19:55:38 INFO  - Text Field 'Search field' :: Clearing
+2023-02-08 19:55:38 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-08 19:55:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-08 19:55:49 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-08 19:55:49 INFO  - Button 'Settings' :: Clicking
+2023-02-08 19:55:50 INFO  - Button 'Settings' :: Clicking
+2023-02-08 19:55:50 INFO  - Button 'Libraries button' :: Clicking
+2023-02-08 19:55:51 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-08 19:55:51 INFO  - Button 'Settings' :: Clicking
+2023-02-08 19:55:52 INFO  - Button 'Settings' :: Clicking
+2023-02-08 19:55:53 INFO  - Button 'Libraries button' :: Clicking
+2023-02-08 19:55:55 INFO  - Locking credential with barcode 01230000000306
+2023-02-08 19:55:55 INFO  - There are books on the account: 
+2023-02-08 19:55:59 INFO  - bookName: Bison : Distributor: BiblioBoard
+2023-02-08 19:55:59 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2023-02-08 19:55:59 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-08 19:55:59 INFO  - bookName: Seekers of Truth and Tranquility Distributor: Palace Marketplace
+2023-02-08 19:55:59 INFO  - bookName: Adjectives and Prepositions : Distributor: BiblioBoard
+2023-02-08 19:55:59 INFO  - bookName: The Rule of Many Distributor: Palace Marketplace
+2023-02-08 19:55:59 INFO  - bookName: When the Tempest Gathers Distributor: Palace Marketplace
+2023-02-08 19:55:59 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-02-08 19:55:59 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-08 19:55:59 INFO  - Count of books on the account after opening account: 9
+2023-02-08 19:56:20 INFO  - Text Field 'Card' :: Clicking
+2023-02-08 19:56:21 INFO  - Text Field 'Card' :: Clearing
+2023-02-08 19:56:21 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-08 19:56:24 INFO  - Text Field 'Pin' :: Clearing
+2023-02-08 19:56:24 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-08 19:56:26 INFO  - Button 'Log in' :: Clicking
+2023-02-08 19:56:33 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-08 19:56:35 INFO  - Step 3 - Login is performed successfully
+2023-02-08 19:56:36 INFO  - Step 4 - I open Catalog
+2023-02-08 19:56:36 INFO  - Button 'Catalog' :: Clicking
+2023-02-08 19:56:38 INFO  - Step 5 - I open search modal
+2023-02-08 19:56:39 INFO  - Button 'Search button' :: Clicking
+2023-02-08 19:56:41 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-08 19:56:41 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-08 19:56:41 INFO  - randomBookName: Rocky Mountains National Park :
+2023-02-08 19:56:41 INFO  - Text Field 'Search value input' :: Sending keys 'Rocky Mountains National Park :'
+2023-02-08 19:56:43 INFO  - Button 'Search' :: Clicking
+2023-02-08 19:56:45 INFO  - Step 7 - I switch to 'eBooks' catalog tab
+2023-02-08 19:56:45 INFO  - Button 'eBooks' :: Clicking
+2023-02-08 19:57:27 INFO  - Step 8 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-08 19:57:29 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-08 19:57:30 INFO  - Button 'actionButton' :: Clicking
+2023-02-08 19:57:52 INFO  - Step 9 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-02-08 19:57:54 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-08 19:57:56 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-08 19:57:56 INFO  - Label 'lblBookName' :: Clicking
+2023-02-08 19:57:57 INFO  - Step 11 - Click READ action button on book details screen
+2023-02-08 19:57:58 INFO  - Button 'Read' :: Clicking
+2023-02-08 19:58:19 INFO  - Step 12 - Reader pdf screen is opened
+2023-02-08 19:58:20 INFO  - Step 13 - I save page number as 'pageNumber' on pdf reader screen
+2023-02-08 19:58:21 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-02-08 19:58:22 INFO  - Step 14 - Slide page slider RIGHT on reader pdf screen
+2023-02-08 19:58:25 INFO  - Swiping from coordinates (x:321; y:862) to (x:0; y:862)
+2023-02-08 19:58:26 INFO  - Step 15 - The 'pageNumber' saved page number is less than the current page number on the reader pdf screen
+2023-02-08 19:58:27 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-02-08 19:58:27 INFO  - Taking screenshot
+2023-02-08 19:58:35 INFO  - Test finished - logging out
+2023-02-08 19:58:38 INFO  - Button 'Settings' :: Clicking
+2023-02-08 19:58:39 INFO  - Button 'Settings' :: Clicking
+2023-02-08 19:58:40 INFO  - Button 'Libraries button' :: Clicking
+2023-02-08 19:58:45 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-08 19:58:47 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-08 19:58:47 INFO  - Button 'Log out' :: Clicking
+2023-02-08 19:58:48 INFO  - Button 'Log out approve' :: Clicking
+2023-02-08 19:59:09 INFO  - Button 'Log in' :: Getting text from element
+2023-02-08 19:59:10 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-08 19:59:11 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-08 19:59:11 INFO  - Unlocking credential for current thread
+2023-02-08 19:59:11 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3af1ce1c
