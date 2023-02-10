@@ -1,0 +1,66 @@
+2023-02-10 02:00:14 INFO  - Scenario 'Check buttons under the book title in LYRASIS' start
+2023-02-10 02:00:14 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-10 02:00:38 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-10 02:00:38 INFO  - Session id - 6461bec56c9ab7ea8827ba6eeba36e6ce7bf858b
+2023-02-10 02:00:38 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-10 02:00:38 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-10 02:00:41 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-10 02:00:41 INFO  - Button 'Search' :: Clicking
+2023-02-10 02:00:43 INFO  - Text Field 'Search' :: Clearing
+2023-02-10 02:00:43 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-10 02:00:46 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-10 02:00:46 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-10 02:00:46 INFO  - Button 'tabSettings' :: Clicking
+2023-02-10 02:00:48 INFO  - Button 'tabSettings' :: Clicking
+2023-02-10 02:00:49 INFO  - Button 'Accounts' :: Clicking
+2023-02-10 02:00:50 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-10 02:00:51 INFO  - Locking credential with barcode 01230000000303
+2023-02-10 02:00:51 INFO  - There are books on the account: 
+2023-02-10 02:00:52 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-02-10 02:00:52 INFO  - bookName: Wild Problems Distributor: Palace Marketplace
+2023-02-10 02:00:52 INFO  - bookName: The Three Little Men in the Forest Distributor: Palace Marketplace
+2023-02-10 02:00:52 INFO  - bookName: American Axe Distributor: Palace Marketplace
+2023-02-10 02:00:52 INFO  - bookName: Sapiens Distributor: Palace Marketplace
+2023-02-10 02:00:52 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-10 02:00:52 INFO  - Count of books on the account after opening account: 6
+2023-02-10 02:00:52 INFO  - Text Field 'Card' :: Clearing
+2023-02-10 02:00:52 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-10 02:00:54 INFO  - Text Field 'Pin' :: Clearing
+2023-02-10 02:00:54 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-10 02:00:56 INFO  - Button 'Log in' :: Clicking
+2023-02-10 02:01:02 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-10 02:01:03 INFO  - Step 2 - Login is performed successfully
+2023-02-10 02:01:24 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-10 02:01:24 INFO  - Step 3 - I open Catalog
+2023-02-10 02:01:24 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-10 02:01:45 INFO  - Step 4 - I open search modal
+2023-02-10 02:02:06 INFO  - Button 'Search' :: Clicking
+2023-02-10 02:02:07 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-10 02:02:07 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-10 02:02:07 INFO  - randomBookName: The Power of Now
+2023-02-10 02:02:07 INFO  - Error details button is not present
+2023-02-10 02:02:08 INFO  - Text Field 'Search value input' :: Sending keys 'The Power of Now'
+2023-02-10 02:02:10 INFO  - Error details button is not present
+2023-02-10 02:02:13 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-02-10 02:02:13 INFO  - Button 'eBooks' :: Clicking
+2023-02-10 02:02:34 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-10 02:02:34 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-10 02:02:35 INFO  - Button 'actionButton' :: Clicking
+2023-02-10 02:02:40 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-02-10 02:02:41 INFO  - Step 9 - I open Books
+2023-02-10 02:02:41 INFO  - Button 'tabBooks' :: Clicking
+2023-02-10 02:02:41 INFO  - Step 10 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-02-10 02:03:22 INFO  - Taking screenshot
+2023-02-10 02:03:23 INFO  - Test finished - logging out
+2023-02-10 02:03:24 INFO  - Button 'tabSettings' :: Clicking
+2023-02-10 02:03:26 INFO  - Button 'tabSettings' :: Clicking
+2023-02-10 02:03:27 INFO  - Button 'Accounts' :: Clicking
+2023-02-10 02:03:28 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-10 02:03:30 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-10 02:03:30 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-10 02:03:30 INFO  - Button 'Log out' :: Clicking
+2023-02-10 02:03:31 INFO  - Button 'Log in' :: Getting text from element
+2023-02-10 02:03:38 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-10 02:03:38 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-10 02:03:38 INFO  - Unlocking credential for current thread
+2023-02-10 02:03:38 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@62a91e69

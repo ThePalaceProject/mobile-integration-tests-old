@@ -1,0 +1,169 @@
+2023-02-10 00:49:53 INFO  - Scenario 'Font settings: Check of font style' start
+2023-02-10 00:49:53 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-10 00:50:25 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-10 00:50:25 INFO  - Session id - db1e75e5191377c282b6b3bc39d16f5a8a1a8a22
+2023-02-10 00:50:25 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-10 00:50:25 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-10 00:50:28 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-10 00:50:29 INFO  - Button 'Search' :: Clicking
+2023-02-10 00:50:32 INFO  - Text Field 'Search' :: Clearing
+2023-02-10 00:50:32 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-10 00:50:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-10 00:50:37 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-10 00:50:37 INFO  - Button 'tabSettings' :: Clicking
+2023-02-10 00:50:39 INFO  - Button 'tabSettings' :: Clicking
+2023-02-10 00:50:40 INFO  - Button 'Accounts' :: Clicking
+2023-02-10 00:50:43 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-10 00:50:43 INFO  - Button 'tabSettings' :: Clicking
+2023-02-10 00:50:44 INFO  - Button 'tabSettings' :: Clicking
+2023-02-10 00:50:46 INFO  - Button 'Accounts' :: Clicking
+2023-02-10 00:50:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-10 00:50:48 INFO  - Locking credential with barcode 01230000000306
+2023-02-10 00:50:48 INFO  - There are books on the account: 
+2023-02-10 00:50:49 INFO  - bookName: When the Tempest Gathers Distributor: Palace Marketplace
+2023-02-10 00:50:49 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-02-10 00:50:49 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-10 00:50:49 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2023-02-10 00:50:49 INFO  - bookName: Seekers of Truth and Tranquility Distributor: Palace Marketplace
+2023-02-10 00:50:49 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-10 00:50:49 INFO  - bookName: The Rule of Many Distributor: Palace Marketplace
+2023-02-10 00:50:49 INFO  - Count of books on the account after opening account: 7
+2023-02-10 00:50:49 INFO  - Text Field 'Card' :: Clearing
+2023-02-10 00:50:49 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-10 00:50:51 INFO  - Text Field 'Pin' :: Clearing
+2023-02-10 00:50:51 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-10 00:50:54 INFO  - Button 'Log in' :: Clicking
+2023-02-10 00:51:02 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-10 00:51:03 INFO  - Step 3 - Login is performed successfully
+2023-02-10 00:51:25 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-10 00:51:26 INFO  - Step 4 - I open Catalog
+2023-02-10 00:51:26 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-10 00:51:48 INFO  - Step 5 - I open search modal
+2023-02-10 00:52:08 INFO  - Button 'Search' :: Clicking
+2023-02-10 00:52:11 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-10 00:52:11 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-02-10 00:52:11 INFO  - randomBookName: Tomoko Takes the Lead
+2023-02-10 00:52:12 INFO  - Error details button is not present
+2023-02-10 00:52:12 INFO  - Text Field 'Search value input' :: Sending keys 'Tomoko Takes the Lead'
+2023-02-10 00:52:16 INFO  - Error details button is not present
+2023-02-10 00:52:18 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-10 00:52:20 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-10 00:52:21 INFO  - Button 'actionButton' :: Clicking
+2023-02-10 00:52:35 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-10 00:52:36 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-10 00:52:37 INFO  - Label 'lblBookName' :: Clicking
+2023-02-10 00:52:38 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-10 00:52:40 INFO  - Button 'Read' :: Clicking
+2023-02-10 00:52:41 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-02-10 00:52:41 INFO  - Scrolling 7 times on reader epub screen
+2023-02-10 00:53:06 INFO  - Step 11 - I open font settings
+2023-02-10 00:53:07 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-10 00:53:08 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-02-10 00:53:08 INFO  - Button 'setFontSerif' :: Clicking
+2023-02-10 00:53:09 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-02-10 00:53:10 INFO  - context - NATIVE_APP
+2023-02-10 00:53:10 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-10 00:53:12 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-10 00:53:12 INFO  - <html xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Chapter One</title>
+<link rel="stylesheet" type="text/css" href="../styles/9781647003494.css" />
+<link rel="stylesheet" type="text/css" href="../styles/synth.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<span id="page_1" epub:type="pagebreak" role="doc-pagebreak" aria-label=" page 1. "></span>
+<section epub:type="chapter" role="doc-chapter" aria-labelledby="ch01">
+<h1 epub:type="title" class="h1" id="ch01">CHAPTER ONE <img class="inline" src="../images/common1.jpg" alt="Roller skates." /></h1>
+<p class="noindent">The warm Austin air sizzled over the concrete as beats pulsed from someone’s cell phone.</p>
+<p class="indent"><em>Boom-che, boom-che, boom-che, boom-che.</em></p>
+<p class="indent">Tomoko bounced her basketball in rhythm, lifting and pressing the ball down and down and down like a baker kneading dough.</p>
+<p class="indent">“Are you sure this is going to work?” Shelly called from the other end of the court.</p>
+<p class="indent">Tomoko looked up and smiled. She tightened the helmet strap under her chin.</p>
+<p class="indent">“No,” she said. “That’s why we’re trying it!”</p>
+<p class="indent">Tomoko’s teammates were spread out over the basketball court at the park. Shelly stood near the hoop in the small <span id="page_2" epub:type="pagebreak" role="doc-pagebreak" aria-label=" page 2. "></span>forward position, Kenzie and Bree took center positions halfway down the court, and Jules stood as point guard, just across from Tomoko.</p>
+<p class="indent">If the five girls were wearing sneakers and long shorts, they might have looked exactly like a basketball team. And they did make up a team—they had been the Daredevils ever since the spring. Instead of basketball gear, the Daredevils were decked out in skates, elbow and knee pads, wrist guards, and helmets. They were one of the toughest roller derby teams in the Austin league, but today derby practice was taking place somewhere new.</p>
+<p class="indent">“What if basketball and derby don’t go together as well as you think?” Kenzie asked.</p>
+<p class="indent">Tomoko stopped dribbling. She tucked the ball under her arm. “Oh come on. It’s fun to try things together! We can help each other learn how to play basketball on wheels.”</p>
+<p class="indent">That was easy for Tomoko to say, of course. She knew she wouldn’t need any help out on the court. She could trade in her sneakers for skates and still weave the ball between her legs. That was one of the reasons Tomoko loved basketball. She had been shooting hoops for so long, now she could sink baskets with her eyes closed.</p>
+<p class="indent">But Tomoko also loved being around her team. In that way, basketball and derby went together perfectly.</p>
+<p class="indent"><span id="page_3" epub:type="pagebreak" role="doc-pagebreak" aria-label=" page 3. "></span>“And, go!” Tomoko said. She slid one skate forward, dribbling the ball next to her. Jules lunged for the ball. She nearly wiped out on her skates, the way she used to when they first started the Daredevils team months ago. But this time, Jules caught her balance. She clawed at the air and swiped for Tomoko again.</p>
+<p class="indent">“Hi-yah!” Jules cried. “Shoot! I keep missing it!”</p>
+<p class="indent">Tomoko turned on her skates and dribbled down the center of the court. Bree dove for Tomoko, ready to deliver a firm hip check. But Tomoko twisted again, the ball thumping against her palm.</p>
+<p class="indent">“Shelly!” Kenzie cried. “Go for it!”</p>
+<p class="indent">Shelly waved her hands in the air like a chicken trying to take flight. Tomoko cocked the ball back.</p>
+<p class="indent">“She’s too tall!” Shelly said.</p>
+<p class="indent"><em>Swoosh!</em></p>
+<p class="indent">The basketball sank cleanly into the net.</p>
+<p class="indent">Shelly whistled as she watched the ball bounce back onto the pavement. “Nice one, Tomonater!”</p>
+<p class="indent">“I want to be on Tomoko’s team this time,” Jules said. “Two against three!”</p>
+<p class="indent">“She already beats us one against four,” Kenzie said. She put her hand on her hip. “The point of the game is to make it interesting.”</p>
+<p class="indent"><span id="page_4" epub:type="pagebreak" role="doc-pagebreak" aria-label=" page 4. "></span>Bree skated over to Tomoko and knocked her elbow playfully. “We’ll get better over the summer,” she said. “And by the time school starts again, I’ll bet we could make Tomoko work a little harder for all those shots!”</p>
+<figure class="image"><img src="../images/f0004-01.jpg" alt="Bree, Shelly, Tomoko, Kenzie, and Jules are skating outdoors. They are carrying bags and wearing safety gear. Tomoko holds the basketball. The Slice Pizza outlet is in the background." />
+<figcaption></figcaption>
+</figure>
+<p class="indent">Tomoko grinned and nudged Bree back. She imagined the orange juice–colored skies of Austin’s summertime, when the evenings stretched on forever and she stayed at the park for hours. Last summer, Tomoko had spent all those park hours by herself. She could shoot hoops on her <span id="page_5" epub:type="pagebreak" role="doc-pagebreak" aria-label=" page 5. "></span>own all day, but it was so much nicer to have a team around her. The boys who played pickup games at the park could be mean, and no one used to stand up for Tomoko when they kicked her off the court. But everything was different now that the Daredevils had banded together. Now Tomoko always had a team to play on—even when she wanted to make up silly games like roller derby basketball!</p>
+<p class="indent">“I think I’m beat for the day,” Kenzie said. She unclipped her helmet and shook out her hair. “Come on. If we return the gear now, we’ll have time for ice pops before I have to go home!”</p>
+<p class="indent">Jules stuck out her tongue. “I don’t feel like ice pops,” she said. “How about some pizza?”</p>
+<p class="indent"><span id="page_6" epub:type="pagebreak" role="doc-pagebreak" aria-label=" page 6. "></span>“I want fried avocado tacos!” Shelly said. She licked her lips.</p>
+<p class="indent">Tomoko shrugged. She would be happy anywhere hanging out with her friends.</p>
+<p class="indent">“Let’s hit up the Juicy World stand,” Bree said. “They have like every type of juice, and fries and stuff too. We can all get something different.”</p>
+<p class="indent">The team nodded and gathered their backpacks on the edge of the court. They skated single file down the sidewalk, bumping over the uneven panels of pavement.</p>
+<p class="indent">Tomoko’s knees vibrated as her wheels slid over textured drain covers. She tucked her basketball by her side and looked out at all her favorite shops and murals along South Congress Avenue. She passed by a pale green wall with a love letter swirled over it in red paint. She waved to the man who ran the pizza place and always gave Tomoko extra pineapple when she ordered her ham and pineapple slice.</p>
+<p class="indent"><em>Next time, I hope we get pizza,</em> Tomoko thought as the girls rounded the corner.</p>
+<p class="indent">Tomoko dipped under the awning of a tea shop that had the best hot chocolate in the winter. She passed by a wall that said <em>Greetings from Austin</em> with pictures of all her favorite buildings from downtown. The colors and smells whirled together in Tomoko’s head as the team made the usual trip from the park to the derby warehouse.</p>
+<p class="indent"><span id="page_7" epub:type="pagebreak" role="doc-pagebreak" aria-label=" page 7. "></span>The first time they had turned some of the corners onto new streets, Tomoko felt like she was lost in a giant maze of buildings. But now every doorway and front porch seemed familiar. Tomoko loved feeling like the city belonged to her.</p>
+<figure class="image"><img src="../images/common.jpg" alt="" role="presentation" />
+<figcaption></figcaption>
+</figure>
+<p class="noindent">“Only one more week of having to wear this dumb thing,” Jules said as she pulled her backpack straps tighter.</p>
+<p class="indent">All the elbow pads, knee pads, wrist guards, and helmets were back in the derby box at the warehouse. All the rental skates were lined up on the counter. The Daredevils slid out the front doors in normal tennis shoes, like superheroes pretending to be their alter egos.</p>
+<p class="indent">Shelly adjusted her backpack. “I can’t wait until school’s done,” she said.</p>
+<p class="indent">“Yeah,” Jules said. “Then we can dump all the vocabulary lists and math tests from our brains and let everything drain right out!”</p>
+<p class="indent">“Learning is a lifelong endeavor,” Bree said.</p>
+<p class="indent">Tomoko looked over her shoulder. “What does that mean?”</p>
+<p class="indent">Bree shrugged. “My dad says it a lot. I think he just means you never stop learning, even when you’re not in school.”</p>
+<p class="indent">“That makes sense.” Kenzie shoved her own skates <span id="page_8" epub:type="pagebreak" role="doc-pagebreak" aria-label=" page 8. "></span>into her backpack. “We’ll be learning new derby moves all summer with the league.”</p>
+<p class="indent">Jules grinned. “Derby is way more my type of learning,” she said. “We’ll be filling up our feet and hips with derby know-how, not our brains!”</p>
+<p class="indent">Shelly laughed and nodded. “Derby’s my type of learning too. Well, that and art class.”</p>
+<p class="indent">“I know I’m sure ready for summer,” Kenzie said.</p>
+<p class="indent">“Me too,” Bree said.</p>
+<p class="indent">Bree and Kenzie smiled at each other. Tomoko knew that the two of them were happy about the summer for two reasons. The first great thing about summer was the regular stuff Jules was talking about, like throwing old homework away and getting to practice derby whenever they wanted.</p>
+<figure class="image"><img src="../images/f0008-01.jpg" alt="Bree, Tomoko, Kenzie, and Jules are walking with their bags." />
+<figcaption></figcaption>
+</figure>
+<p class="indent"><span id="page_9" epub:type="pagebreak" role="doc-pagebreak" aria-label=" page 9. "></span>But Tomoko could tell that they were happy for a second, secret reason. Since Bree went to a different school than the rest of the Daredevils, they only got to see her after class and on weekends. Soon they’d have whole days to themselves for skating around and playing at the park. Everyone missed Bree during the school day, but especially Kenzie. Bree and Kenzie liked each other. Tomoko found out about their crush right when the team was getting started.</p>
+<p class="indent">Kenzie and Bree had their own secrets, but what neither of them knew—what none of the other Daredevils knew— was that Tomoko also had a second, secret reason for being excited for the summer.</p>
+<p class="indent">Math quizzes and history papers were no fun, but for Tomoko, school was a lot harder than just doing work. Before Shelly and Kenzie invited Tomoko onto the team, school mostly meant Tomoko avoiding everybody. Sometimes kids teased Tomoko about her size or about the food she brought for lunch whenever her mom packed delicious leftover yakisoba.</p>
+<p class="indent">Kenzie and Shelly never had to worry about not having friends. They always had each other. But, for Tomoko, being on the Daredevils was like having a super amazing circle of protection wherever she went.</p>
+<p class="indent"><span id="page_10" epub:type="pagebreak" role="doc-pagebreak" aria-label=" page 10. "></span>And now that they were about to have three whole months away from school and all the cold looks and mean comments, Tomoko was ready for the best Austin summer ever. She couldn’t wait to see what adventures the Daredevils would go on next.</p>
+</section>
+</body>
+</html>
+2023-02-10 00:53:12 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-10 00:53:13 INFO  - Step 14 - I restart app
+2023-02-10 00:53:38 INFO  - Step 15 - I open Books
+2023-02-10 00:53:38 INFO  - Button 'tabBooks' :: Clicking
+2023-02-10 00:53:40 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-10 00:54:01 INFO  - Label 'lblBookName' :: Clicking
+2023-02-10 00:54:22 INFO  - Taking screenshot
+2023-02-10 00:54:24 INFO  - Test finished - logging out
+2023-02-10 00:54:26 INFO  - Button 'tabSettings' :: Clicking
+2023-02-10 00:54:29 INFO  - Button 'tabSettings' :: Clicking
+2023-02-10 00:54:30 INFO  - Button 'Accounts' :: Clicking
+2023-02-10 00:54:32 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-10 00:54:34 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-10 00:54:35 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-10 00:54:36 INFO  - Button 'Log out' :: Clicking
+2023-02-10 00:54:37 INFO  - Button 'Log in' :: Getting text from element
+2023-02-10 00:54:48 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-10 00:54:48 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-10 00:54:49 INFO  - Unlocking credential for current thread
+2023-02-10 00:54:49 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@62a91e69
