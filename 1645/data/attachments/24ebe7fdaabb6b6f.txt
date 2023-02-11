@@ -1,0 +1,94 @@
+2023-02-11 10:41:17 INFO  - Scenario 'Delete bookmarks' start
+2023-02-11 10:41:17 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-11 10:42:09 INFO  - Application on platform 'IOS' is ready...
+2023-02-11 10:42:09 INFO  - Session id - 329bf2fa37e6cd8018ef8d505c86e7018c383565
+2023-02-11 10:42:09 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-11 10:42:29 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-11 10:42:30 INFO  - Button 'Find your library button' :: Clicking
+2023-02-11 10:42:31 INFO  - Text Field 'Search field' :: Clicking
+2023-02-11 10:42:37 INFO  - Text Field 'Search field' :: Clearing
+2023-02-11 10:42:37 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-11 10:42:48 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-11 10:42:50 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-11 10:42:50 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:42:50 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:42:51 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 10:42:52 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-11 10:42:52 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:42:52 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:42:53 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 10:42:55 INFO  - Locking credential with barcode 01230000000305
+2023-02-11 10:42:55 INFO  - There are books on the account: 
+2023-02-11 10:42:56 INFO  - bookName: My Book of Animal Opposites Distributor: Palace Marketplace
+2023-02-11 10:42:56 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-11 10:42:56 INFO  - bookName: Legacy of the Lions Distributor: Palace Marketplace
+2023-02-11 10:42:56 INFO  - bookName: Stolen Focus Distributor: Palace Marketplace
+2023-02-11 10:42:56 INFO  - bookName: Glimpses of the Moon Distributor: Palace Marketplace
+2023-02-11 10:42:56 INFO  - bookName: The Apache Diaspora Distributor: Palace Marketplace
+2023-02-11 10:42:56 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-11 10:42:56 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-11 10:42:56 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-11 10:42:56 INFO  - Count of books on the account after opening account: 9
+2023-02-11 10:43:18 INFO  - Text Field 'Card' :: Clicking
+2023-02-11 10:43:19 INFO  - Text Field 'Card' :: Clearing
+2023-02-11 10:43:19 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-11 10:43:21 INFO  - Text Field 'Pin' :: Clearing
+2023-02-11 10:43:21 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-11 10:43:24 INFO  - Button 'Log in' :: Clicking
+2023-02-11 10:43:31 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-11 10:43:33 INFO  - Step 3 - Login is performed successfully
+2023-02-11 10:43:34 INFO  - Step 4 - I open Catalog
+2023-02-11 10:43:34 INFO  - Button 'Catalog' :: Clicking
+2023-02-11 10:43:36 INFO  - Step 5 - I open search modal
+2023-02-11 10:43:38 INFO  - Button 'Search button' :: Clicking
+2023-02-11 10:43:40 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-11 10:43:40 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-11 10:43:40 INFO  - randomBookName: The Summer of Impossibilities
+2023-02-11 10:43:42 INFO  - Text Field 'Search value input' :: Sending keys 'The Summer of Impossibilities'
+2023-02-11 10:43:43 INFO  - Button 'Search' :: Clicking
+2023-02-11 10:43:46 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-11 10:43:50 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-11 10:43:59 INFO  - Button 'actionButton' :: Clicking
+2023-02-11 10:44:23 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-11 10:44:27 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-11 10:44:28 INFO  - Label 'lblBookName' :: Clicking
+2023-02-11 10:44:30 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-11 10:44:34 INFO  - Button 'Read' :: Clicking
+2023-02-11 10:44:56 INFO  - Step 10 - I click on right book corner on epub reader screen
+2023-02-11 10:44:58 INFO  - Step 11 - Add bookmark on reader epub screen
+2023-02-11 10:44:59 INFO  - Button 'Add Bookmark' :: Clicking
+2023-02-11 10:45:00 INFO  - Step 12 - Delete bookmark on reader epub screen
+2023-02-11 10:45:00 INFO  - Button 'Delete Bookmark' :: Clicking
+2023-02-11 10:45:01 INFO  - Step 13 - Bookmark is not displayed on reader epub screen
+2023-02-11 10:45:02 INFO  - Step 14 - I scroll page forward from 7 to 9 times
+2023-02-11 10:45:02 INFO  - Scrolling 8 times on reader epub screen
+2023-02-11 10:45:18 INFO  - Step 15 - Add bookmark on reader epub screen
+2023-02-11 10:45:19 INFO  - Button 'Add Bookmark' :: Clicking
+2023-02-11 10:45:20 INFO  - Step 16 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-02-11 10:45:20 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-11 10:45:21 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-11 10:45:22 INFO  - Step 17 - Save device time and date as 'deviceTimeDateKey'
+2023-02-11 10:45:22 INFO  - Step 18 - I click on right book corner on epub reader screen
+2023-02-11 10:45:25 INFO  - Step 19 - Open bookmarks epub screen
+2023-02-11 10:45:26 INFO  - Button 'Table of contents' :: Clicking
+2023-02-11 10:45:28 INFO  - Label 'tab' :: Clicking
+2023-02-11 10:45:30 INFO  - Step 20 - Delete bookmark on bookmarks epub screen
+2023-02-11 10:45:33 INFO  - Swiping from coordinates (x:817; y:157) to (x:656; y:157)
+2023-02-11 10:45:35 INFO  - Button 'btnDelete' :: Clicking
+2023-02-11 10:45:37 INFO  - Step 21 - Bookmark with 'chapterNameKey' and 'deviceTimeDateKey' is not displayed on bookmarks epub screen
+2023-02-11 10:45:37 INFO  - expected bookmark info: 
+2023-02-11 10:45:37 INFO  - expected bookmark title-Chapter 3
+2023-02-11 10:45:37 INFO  - actual year-2023
+2023-02-11 10:45:37 INFO  - actual month-2
+2023-02-11 10:45:37 INFO  - actual dayNumber-11
+2023-02-11 10:45:37 INFO  - actual min-45
+2023-02-11 10:45:37 INFO  - actual hour-10
+2023-02-11 10:45:38 INFO  - Step 22 - Return to reader epub screen from toc bookmarks epub screen
+2023-02-11 10:45:38 INFO  - Button 'Back button' :: Clicking
+2023-02-11 10:45:59 INFO  - Taking screenshot
+2023-02-11 10:46:01 INFO  - Test finished - logging out
+2023-02-11 10:46:04 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:46:04 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:46:05 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 10:46:07 INFO  - Unlocking credential for current thread
+2023-02-11 10:46:07 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@594076d4

@@ -1,0 +1,87 @@
+2023-02-11 10:50:52 INFO  - Scenario 'Switch Library Reservations' start
+2023-02-11 10:50:52 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-11 10:51:44 INFO  - Application on platform 'IOS' is ready...
+2023-02-11 10:51:45 INFO  - Session id - eb072d57e8dc064623a57827484098d428a07385
+2023-02-11 10:51:45 INFO  - Step 0 - I add "Plumas County Library" account from welcomeScreen
+2023-02-11 10:52:05 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-11 10:52:05 INFO  - Button 'Find your library button' :: Clicking
+2023-02-11 10:52:06 INFO  - Text Field 'Search field' :: Clicking
+2023-02-11 10:52:12 INFO  - Text Field 'Search field' :: Clearing
+2023-02-11 10:52:12 INFO  - Text Field 'Search field' :: Typing 'Plumas County Library'
+2023-02-11 10:52:23 INFO  - Button 'Plumas County Library' :: Clicking
+2023-02-11 10:52:25 INFO  - Step 1 - I add 'LYRASIS Reads' account
+2023-02-11 10:52:25 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:52:25 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:52:26 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 10:52:27 INFO  - Button 'btnAddLibrary' :: Clicking
+2023-02-11 10:52:27 INFO  - Text Field 'Search field' :: Clicking
+2023-02-11 10:52:33 INFO  - Text Field 'Search field' :: Clearing
+2023-02-11 10:52:33 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-11 10:52:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-11 10:52:46 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-11 10:52:46 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:52:47 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:52:47 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 10:52:49 INFO  - Locking credential with barcode 01230000000305
+2023-02-11 10:52:49 INFO  - There are books on the account: 
+2023-02-11 10:52:51 INFO  - bookName: Legacy of the Lions Distributor: Palace Marketplace
+2023-02-11 10:52:51 INFO  - bookName: Glimpses of the Moon Distributor: Palace Marketplace
+2023-02-11 10:52:51 INFO  - bookName: My Book of Animal Opposites Distributor: Palace Marketplace
+2023-02-11 10:52:51 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-11 10:52:51 INFO  - bookName: The Apache Diaspora Distributor: Palace Marketplace
+2023-02-11 10:52:51 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-11 10:52:51 INFO  - bookName: Stolen Focus Distributor: Palace Marketplace
+2023-02-11 10:52:51 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-11 10:52:51 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-11 10:52:51 INFO  - Count of books on the account after opening account: 9
+2023-02-11 10:53:12 INFO  - Text Field 'Card' :: Clicking
+2023-02-11 10:53:13 INFO  - Text Field 'Card' :: Clearing
+2023-02-11 10:53:13 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-11 10:53:15 INFO  - Text Field 'Pin' :: Clearing
+2023-02-11 10:53:15 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-11 10:53:18 INFO  - Button 'Log in' :: Clicking
+2023-02-11 10:53:26 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-11 10:53:28 INFO  - Step 3 - Login is performed successfully
+2023-02-11 10:53:29 INFO  - Step 4 - I open Catalog
+2023-02-11 10:53:29 INFO  - Button 'Catalog' :: Clicking
+2023-02-11 10:53:31 INFO  - Step 5 - I open search modal
+2023-02-11 10:53:33 INFO  - Button 'Search button' :: Clicking
+2023-02-11 10:53:35 INFO  - Step 6 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-11 10:53:35 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-11 10:53:35 INFO  - randomBookName: The Perishing
+2023-02-11 10:53:36 INFO  - Text Field 'Search value input' :: Sending keys 'The Perishing'
+2023-02-11 10:53:37 INFO  - Button 'Search' :: Clicking
+2023-02-11 10:53:40 INFO  - Step 7 - I switch to 'eBooks' catalog tab
+2023-02-11 10:53:40 INFO  - Button 'eBooks' :: Clicking
+2023-02-11 10:54:22 INFO  - Step 8 - Subcategory screen is present
+2023-02-11 10:54:23 INFO  - Step 9 - Open EBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-11 10:54:25 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-11 10:54:26 INFO  - Label 'lblBookName' :: Clicking
+2023-02-11 10:54:27 INFO  - Step 10 - Book 'bookInfo' is opened on book details screen
+2023-02-11 10:54:31 INFO  - Label 'Book title' :: Getting text from element
+2023-02-11 10:54:53 INFO  - Label 'Author' :: Getting text from element
+2023-02-11 10:54:59 INFO  - Label 'Book title' :: Getting text from element
+2023-02-11 10:55:22 INFO  - Label 'Author' :: Getting text from element
+2023-02-11 10:55:23 INFO  - Step 11 - Click RESERVE action button on book details screen
+2023-02-11 10:55:25 INFO  - Button 'Reserve' :: Clicking
+2023-02-11 10:55:30 INFO  - Alert appears and dismiss alert
+2023-02-11 10:55:30 INFO  - Step 12 - I check that book contains REMOVE action button on book details screen
+2023-02-11 10:55:32 INFO  - Step 13 - I open Holds
+2023-02-11 10:55:33 INFO  - Button 'Reservations' :: Clicking
+2023-02-11 10:55:53 INFO  - Taking screenshot
+2023-02-11 10:55:55 INFO  - Test finished - logging out
+2023-02-11 10:55:59 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:56:00 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:56:00 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 10:56:03 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-11 10:56:03 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-11 10:56:04 INFO  - Button 'Log out' :: Clicking
+2023-02-11 10:56:05 INFO  - Button 'Log out approve' :: Clicking
+2023-02-11 10:56:26 INFO  - Button 'Log in' :: Getting text from element
+2023-02-11 10:56:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-11 10:56:28 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-11 10:56:29 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:56:30 INFO  - Button 'Settings' :: Clicking
+2023-02-11 10:56:30 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 10:56:33 INFO  - Unlocking credential for current thread
+2023-02-11 10:56:33 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@594076d4

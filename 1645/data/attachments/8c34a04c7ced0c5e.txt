@@ -1,0 +1,71 @@
+2023-02-11 11:15:50 INFO  - Scenario 'Get a book from Subcategory List View and Read from Books in LYRASIS' start
+2023-02-11 11:15:50 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-11 11:16:42 INFO  - Application on platform 'IOS' is ready...
+2023-02-11 11:16:42 INFO  - Session id - e4844e42a5fef8af40112d6d43bd17007e6acbc3
+2023-02-11 11:16:42 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-11 11:17:02 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-11 11:17:03 INFO  - Button 'Find your library button' :: Clicking
+2023-02-11 11:17:04 INFO  - Text Field 'Search field' :: Clicking
+2023-02-11 11:17:09 INFO  - Text Field 'Search field' :: Clearing
+2023-02-11 11:17:09 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-11 11:17:19 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-11 11:17:21 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-11 11:17:21 INFO  - Button 'Settings' :: Clicking
+2023-02-11 11:17:22 INFO  - Button 'Settings' :: Clicking
+2023-02-11 11:17:23 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 11:17:24 INFO  - Locking credential with barcode 01230000000303
+2023-02-11 11:17:24 INFO  - There are books on the account: 
+2023-02-11 11:17:25 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-11 11:17:25 INFO  - bookName: Sapiens Distributor: Palace Marketplace
+2023-02-11 11:17:25 INFO  - bookName: American Axe Distributor: Palace Marketplace
+2023-02-11 11:17:25 INFO  - bookName: The Three Little Men in the Forest Distributor: Palace Marketplace
+2023-02-11 11:17:25 INFO  - bookName: Wild Problems Distributor: Palace Marketplace
+2023-02-11 11:17:25 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-02-11 11:17:25 INFO  - Count of books on the account after opening account: 6
+2023-02-11 11:17:47 INFO  - Text Field 'Card' :: Clicking
+2023-02-11 11:17:47 INFO  - Text Field 'Card' :: Clearing
+2023-02-11 11:17:47 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-11 11:17:50 INFO  - Text Field 'Pin' :: Clearing
+2023-02-11 11:17:50 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-11 11:17:53 INFO  - Button 'Log in' :: Clicking
+2023-02-11 11:18:16 INFO  - Step 2 - Login is performed successfully
+2023-02-11 11:18:17 INFO  - Step 3 - I open Catalog
+2023-02-11 11:18:17 INFO  - Button 'Catalog' :: Clicking
+2023-02-11 11:18:19 INFO  - Step 4 - I open search modal
+2023-02-11 11:18:20 INFO  - Button 'Search button' :: Clicking
+2023-02-11 11:18:22 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-11 11:18:22 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-11 11:18:22 INFO  - randomBookName: Libertie
+2023-02-11 11:18:23 INFO  - Text Field 'Search value input' :: Sending keys 'Libertie'
+2023-02-11 11:18:24 INFO  - Button 'Search' :: Clicking
+2023-02-11 11:18:28 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-02-11 11:18:28 INFO  - Button 'eBooks' :: Clicking
+2023-02-11 11:19:10 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-11 11:19:13 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-11 11:19:14 INFO  - Button 'actionButton' :: Clicking
+2023-02-11 11:19:37 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-02-11 11:19:41 INFO  - Step 9 - I open Books
+2023-02-11 11:19:41 INFO  - Button 'My Books' :: Clicking
+2023-02-11 11:19:43 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-11 11:19:43 INFO  - Label 'lblBookName' :: Clicking
+2023-02-11 11:19:45 INFO  - Step 11 - Click READ action button on book details screen
+2023-02-11 11:19:46 INFO  - Button 'Read' :: Clicking
+2023-02-11 11:20:07 INFO  - Step 12 - Wait for 3 seconds
+2023-02-11 11:20:11 INFO  - Step 13 - 'bookInfo' book is present on epub reader screen
+2023-02-11 11:20:11 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-02-11 11:20:11 INFO  - Book name on epub reader screen - Libertie
+2023-02-11 11:20:11 INFO  - Taking screenshot
+2023-02-11 11:20:13 INFO  - Test finished - logging out
+2023-02-11 11:20:16 INFO  - Button 'Settings' :: Clicking
+2023-02-11 11:20:18 INFO  - Button 'Settings' :: Clicking
+2023-02-11 11:20:18 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 11:20:21 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-11 11:20:22 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-11 11:20:22 INFO  - Button 'Log out' :: Clicking
+2023-02-11 11:20:23 INFO  - Button 'Log out approve' :: Clicking
+2023-02-11 11:20:25 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-02-11 11:20:26 INFO  - Button 'Log in' :: Getting text from element
+2023-02-11 11:20:32 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-11 11:20:33 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-11 11:20:33 INFO  - Unlocking credential for current thread
+2023-02-11 11:20:33 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@594076d4
