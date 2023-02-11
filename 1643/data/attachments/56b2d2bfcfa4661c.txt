@@ -1,0 +1,67 @@
+2023-02-11 03:20:50 INFO  - Scenario 'Biblioboard: Check time tracking line' start
+2023-02-11 03:20:50 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-11 03:21:23 INFO  - Application on platform 'IOS' is ready...
+2023-02-11 03:21:23 INFO  - Session id - d7c9d62e79f59b62285f0856f44bd1404a4eb1ca
+2023-02-11 03:21:23 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-11 03:21:44 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-11 03:21:45 INFO  - Button 'Find your library button' :: Clicking
+2023-02-11 03:21:46 INFO  - Text Field 'Search field' :: Clicking
+2023-02-11 03:21:53 INFO  - Text Field 'Search field' :: Clearing
+2023-02-11 03:21:53 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-11 03:22:05 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-11 03:22:08 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-11 03:22:08 INFO  - Button 'Settings' :: Clicking
+2023-02-11 03:22:10 INFO  - Button 'Settings' :: Clicking
+2023-02-11 03:22:11 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 03:22:13 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-11 03:22:13 INFO  - Button 'Settings' :: Clicking
+2023-02-11 03:22:14 INFO  - Button 'Settings' :: Clicking
+2023-02-11 03:22:15 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 03:22:18 INFO  - Locking credential with barcode 01230000000303
+2023-02-11 03:22:18 INFO  - There are books on the account: 
+2023-02-11 03:22:19 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-11 03:22:19 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-02-11 03:22:19 INFO  - bookName: American Axe Distributor: Palace Marketplace
+2023-02-11 03:22:19 INFO  - bookName: Sapiens Distributor: Palace Marketplace
+2023-02-11 03:22:19 INFO  - bookName: The Three Little Men in the Forest Distributor: Palace Marketplace
+2023-02-11 03:22:19 INFO  - bookName: Wild Problems Distributor: Palace Marketplace
+2023-02-11 03:22:19 INFO  - Count of books on the account after opening account: 6
+2023-02-11 03:22:41 INFO  - Text Field 'Card' :: Clicking
+2023-02-11 03:22:43 INFO  - Text Field 'Card' :: Clearing
+2023-02-11 03:22:43 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-11 03:22:46 INFO  - Text Field 'Pin' :: Clearing
+2023-02-11 03:22:46 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-11 03:22:50 INFO  - Button 'Log in' :: Clicking
+2023-02-11 03:23:13 INFO  - Step 3 - Login is performed successfully
+2023-02-11 03:23:15 INFO  - Step 4 - I open Catalog
+2023-02-11 03:23:15 INFO  - Button 'Catalog' :: Clicking
+2023-02-11 03:23:17 INFO  - Step 5 - I open search modal
+2023-02-11 03:23:19 INFO  - Button 'Search button' :: Clicking
+2023-02-11 03:23:22 INFO  - Step 6 - I search for "Baby Carter" and save bookName as 'bookNameInfo'
+2023-02-11 03:23:23 INFO  - Text Field 'Search value input' :: Sending keys 'Baby Carter'
+2023-02-11 03:23:24 INFO  - Button 'Search' :: Clicking
+2023-02-11 03:23:28 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-02-11 03:23:28 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-11 03:24:10 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-11 03:24:12 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-11 03:24:14 INFO  - Label 'lblBookName' :: Clicking
+2023-02-11 03:24:17 INFO  - Step 9 - Click GET action button on book details screen
+2023-02-11 03:24:19 INFO  - Button 'Get' :: Clicking
+2023-02-11 03:24:41 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-02-11 03:24:43 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-02-11 03:24:44 INFO  - Button 'Listen' :: Clicking
+2023-02-11 03:25:06 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-02-11 03:25:26 INFO  - Taking screenshot
+2023-02-11 03:25:26 INFO  - Test finished - logging out
+2023-02-11 03:25:29 INFO  - Button 'Settings' :: Clicking
+2023-02-11 03:25:30 INFO  - Button 'Settings' :: Clicking
+2023-02-11 03:25:31 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 03:25:34 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-11 03:25:35 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-11 03:25:36 INFO  - Button 'Log out' :: Clicking
+2023-02-11 03:25:37 INFO  - Button 'Log out approve' :: Clicking
+2023-02-11 03:25:59 INFO  - Button 'Log in' :: Getting text from element
+2023-02-11 03:26:00 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-11 03:26:01 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-11 03:26:02 INFO  - Unlocking credential for current thread
+2023-02-11 03:26:02 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@233ec607

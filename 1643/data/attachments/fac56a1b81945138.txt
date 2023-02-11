@@ -1,0 +1,66 @@
+2023-02-11 02:17:22 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-02-11 02:17:22 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-11 02:17:57 INFO  - Application on platform 'IOS' is ready...
+2023-02-11 02:17:57 INFO  - Session id - e437a685c37fafc49da408077bf248a0a69b35fc
+2023-02-11 02:17:57 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-11 02:18:18 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-11 02:18:19 INFO  - Button 'Find your library button' :: Clicking
+2023-02-11 02:18:22 INFO  - Text Field 'Search field' :: Clicking
+2023-02-11 02:18:29 INFO  - Text Field 'Search field' :: Clearing
+2023-02-11 02:18:29 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-11 02:18:42 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-11 02:18:45 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-11 02:18:45 INFO  - Button 'Settings' :: Clicking
+2023-02-11 02:18:47 INFO  - Button 'Settings' :: Clicking
+2023-02-11 02:18:49 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 02:18:53 INFO  - Locking credential with barcode 01230000000306
+2023-02-11 02:18:53 INFO  - There are books on the account: 
+2023-02-11 02:18:54 INFO  - bookName: When the Tempest Gathers Distributor: Palace Marketplace
+2023-02-11 02:18:54 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2023-02-11 02:18:54 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-11 02:18:54 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-11 02:18:54 INFO  - bookName: Seekers of Truth and Tranquility Distributor: Palace Marketplace
+2023-02-11 02:18:54 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-02-11 02:18:54 INFO  - bookName: The Rule of Many Distributor: Palace Marketplace
+2023-02-11 02:18:54 INFO  - Count of books on the account after opening account: 7
+2023-02-11 02:19:17 INFO  - Text Field 'Card' :: Clicking
+2023-02-11 02:19:19 INFO  - Text Field 'Card' :: Clearing
+2023-02-11 02:19:19 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-11 02:19:23 INFO  - Text Field 'Pin' :: Clearing
+2023-02-11 02:19:23 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-11 02:19:26 INFO  - Button 'Log in' :: Clicking
+2023-02-11 02:19:34 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-11 02:19:37 INFO  - Step 2 - Login is performed successfully
+2023-02-11 02:19:38 INFO  - Step 3 - I open Catalog
+2023-02-11 02:19:38 INFO  - Button 'Catalog' :: Clicking
+2023-02-11 02:19:41 INFO  - Step 4 - I open search modal
+2023-02-11 02:19:42 INFO  - Button 'Search button' :: Clicking
+2023-02-11 02:19:45 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-11 02:19:45 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-11 02:19:45 INFO  - randomBookName: The Sentence
+2023-02-11 02:19:46 INFO  - Text Field 'Search value input' :: Sending keys 'The Sentence'
+2023-02-11 02:19:48 INFO  - Button 'Search' :: Clicking
+2023-02-11 02:19:51 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2023-02-11 02:19:51 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-11 02:20:34 INFO  - Step 7 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-11 02:20:36 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-11 02:20:37 INFO  - Label 'lblBookName' :: Clicking
+2023-02-11 02:20:39 INFO  - Step 8 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-02-11 02:20:39 INFO  - Button 'Get' :: Clicking
+2023-02-11 02:20:41 INFO  - Button 'Cancel' :: Clicking
+2023-02-11 02:20:46 INFO  - Step 9 - I check that book contains DOWNLOAD action button on book details screen
+2023-02-11 02:20:48 INFO  - Step 10 - I check that book contains RETURN action button on book details screen
+2023-02-11 02:20:49 INFO  - Taking screenshot
+2023-02-11 02:20:53 INFO  - Test finished - logging out
+2023-02-11 02:20:57 INFO  - Button 'Settings' :: Clicking
+2023-02-11 02:20:58 INFO  - Button 'Settings' :: Clicking
+2023-02-11 02:20:59 INFO  - Button 'Libraries button' :: Clicking
+2023-02-11 02:21:03 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-11 02:21:04 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-11 02:21:05 INFO  - Button 'Log out' :: Clicking
+2023-02-11 02:21:06 INFO  - Button 'Log out approve' :: Clicking
+2023-02-11 02:21:29 INFO  - Button 'Log in' :: Getting text from element
+2023-02-11 02:21:30 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-11 02:21:31 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-11 02:21:33 INFO  - Unlocking credential for current thread
+2023-02-11 02:21:33 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4344f71e
