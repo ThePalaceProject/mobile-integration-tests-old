@@ -1,0 +1,39 @@
+2023-02-11 05:29:31 INFO  - Scenario 'Get a book from Book Detail View and Return from Books (IOS)' start
+2023-02-11 05:29:31 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-11 05:30:13 INFO  - Application on platform 'IOS' is ready...
+2023-02-11 05:30:13 INFO  - Session id - f5942ad18a491abc1357eb41e55a405ad269eeb6
+2023-02-11 05:30:13 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2023-02-11 05:30:33 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-11 05:30:34 INFO  - Button 'Find your library button' :: Clicking
+2023-02-11 05:30:36 INFO  - Text Field 'Search field' :: Clicking
+2023-02-11 05:30:43 INFO  - Text Field 'Search field' :: Clearing
+2023-02-11 05:30:43 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-02-11 05:30:55 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-02-11 05:30:57 INFO  - Step 1 - I open Catalog
+2023-02-11 05:30:57 INFO  - Button 'Catalog' :: Clicking
+2023-02-11 05:31:00 INFO  - Step 2 - I open search modal
+2023-02-11 05:31:01 INFO  - Button 'Search button' :: Clicking
+2023-02-11 05:31:03 INFO  - Step 3 - I search for 'Flower Fables' and save bookName as 'bookNameInfo'
+2023-02-11 05:31:04 INFO  - Text Field 'Search value input' :: Sending keys 'Flower Fables'
+2023-02-11 05:31:05 INFO  - Button 'Search' :: Clicking
+2023-02-11 05:31:08 INFO  - Step 4 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-11 05:31:16 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-11 05:31:18 INFO  - Label 'lblBookName' :: Clicking
+2023-02-11 05:31:20 INFO  - Step 5 - Click GET action button on book details screen
+2023-02-11 05:31:21 INFO  - Button 'Get' :: Clicking
+2023-02-11 05:31:44 INFO  - Step 6 - I close Book Details for IOSTab
+2023-02-11 05:31:44 INFO  - Step 7 - I open Books
+2023-02-11 05:31:44 INFO  - Button 'My Books' :: Clicking
+2023-02-11 05:31:46 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-02-11 05:31:48 INFO  - Step 9 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-11 05:31:49 INFO  - Label 'lblBookName' :: Clicking
+2023-02-11 05:31:50 INFO  - Step 10 - Click DELETE action button on book details screen
+2023-02-11 05:31:52 INFO  - Button 'Delete' :: Clicking
+2023-02-11 05:31:59 INFO  - Button 'Delete ActionButtonAlert' :: Clicking
+2023-02-11 05:32:01 INFO  - Step 11 - I close Book Details for IOSTab
+2023-02-11 05:32:02 INFO  - Step 12 - I open Books
+2023-02-11 05:32:02 INFO  - Button 'My Books' :: Clicking
+2023-02-11 05:32:03 INFO  - Step 13 - EBOOK book with GET action button and 'bookInfo' bookInfo is not present on books screen
+2023-02-11 05:32:43 INFO  - Taking screenshot
+2023-02-11 05:32:46 INFO  - Unlocking credential for current thread
+2023-02-11 05:32:46 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@59504c51
