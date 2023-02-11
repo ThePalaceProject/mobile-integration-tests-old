@@ -1,0 +1,65 @@
+2023-02-11 17:21:11 INFO  - Scenario 'LYRASIS: Reserving from Book Detail View' start
+2023-02-11 17:21:11 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-11 17:21:44 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-11 17:21:44 INFO  - Session id - eff4417eb805a0889026cbdc4d4eadfb96150818
+2023-02-11 17:21:44 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-11 17:21:44 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-11 17:21:47 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-11 17:21:48 INFO  - Button 'Search' :: Clicking
+2023-02-11 17:21:50 INFO  - Text Field 'Search' :: Clearing
+2023-02-11 17:21:50 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-11 17:21:53 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-11 17:21:54 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-11 17:21:54 INFO  - Button 'tabSettings' :: Clicking
+2023-02-11 17:21:55 INFO  - Button 'tabSettings' :: Clicking
+2023-02-11 17:21:56 INFO  - Button 'Accounts' :: Clicking
+2023-02-11 17:21:58 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-11 17:21:59 INFO  - Locking credential with barcode 01230000000303
+2023-02-11 17:21:59 INFO  - There are books on the account: 
+2023-02-11 17:22:00 INFO  - bookName: American Axe Distributor: Palace Marketplace
+2023-02-11 17:22:00 INFO  - bookName: Sapiens Distributor: Palace Marketplace
+2023-02-11 17:22:00 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-11 17:22:00 INFO  - bookName: Wild Problems Distributor: Palace Marketplace
+2023-02-11 17:22:00 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-02-11 17:22:00 INFO  - bookName: The Three Little Men in the Forest Distributor: Palace Marketplace
+2023-02-11 17:22:00 INFO  - Count of books on the account after opening account: 6
+2023-02-11 17:22:00 INFO  - Text Field 'Card' :: Clearing
+2023-02-11 17:22:00 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-11 17:22:03 INFO  - Text Field 'Pin' :: Clearing
+2023-02-11 17:22:03 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-11 17:22:05 INFO  - Button 'Log in' :: Clicking
+2023-02-11 17:22:11 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-11 17:22:12 INFO  - Step 2 - Login is performed successfully
+2023-02-11 17:22:33 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-11 17:22:34 INFO  - Step 3 - I open Catalog
+2023-02-11 17:22:34 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-11 17:22:55 INFO  - Step 4 - I open search modal
+2023-02-11 17:23:16 INFO  - Button 'Search' :: Clicking
+2023-02-11 17:23:18 INFO  - Step 5 - I search 'unavailable' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-11 17:23:18 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-02-11 17:23:18 INFO  - randomBookName: The Silence of Murder
+2023-02-11 17:23:18 INFO  - Error details button is not present
+2023-02-11 17:23:19 INFO  - Text Field 'Search value input' :: Sending keys 'The Silence of Murder'
+2023-02-11 17:23:25 INFO  - Error details button is not present
+2023-02-11 17:23:26 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2023-02-11 17:23:26 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-11 17:23:47 INFO  - Step 7 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-11 17:23:48 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-11 17:23:49 INFO  - Label 'lblBookName' :: Clicking
+2023-02-11 17:23:49 INFO  - Step 8 - Click RESERVE action button on book details screen
+2023-02-11 17:23:51 INFO  - Button 'Reserve' :: Clicking
+2023-02-11 17:24:12 INFO  - Step 9 - I check that book contains REMOVE action button on book details screen
+2023-02-11 17:24:13 INFO  - Taking screenshot
+2023-02-11 17:24:15 INFO  - Test finished - logging out
+2023-02-11 17:24:16 INFO  - Button 'tabSettings' :: Clicking
+2023-02-11 17:24:18 INFO  - Button 'tabSettings' :: Clicking
+2023-02-11 17:24:20 INFO  - Button 'Accounts' :: Clicking
+2023-02-11 17:24:21 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-11 17:24:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-11 17:24:24 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-11 17:24:24 INFO  - Button 'Log out' :: Clicking
+2023-02-11 17:24:25 INFO  - Button 'Log in' :: Getting text from element
+2023-02-11 17:24:31 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-11 17:24:31 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-11 17:24:32 INFO  - Unlocking credential for current thread
+2023-02-11 17:24:32 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@47930c0f
