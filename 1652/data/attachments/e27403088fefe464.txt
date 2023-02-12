@@ -1,0 +1,81 @@
+2023-02-12 17:27:54 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-02-12 17:27:54 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-12 17:28:14 INFO  - Application on platform 'IOS' is ready...
+2023-02-12 17:28:14 INFO  - Session id - 77e4c728fc82f1be49281d54f78c17bbbc118156
+2023-02-12 17:28:14 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-12 17:28:34 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-12 17:28:35 INFO  - Button 'Find your library button' :: Clicking
+2023-02-12 17:28:37 INFO  - Text Field 'Search field' :: Clicking
+2023-02-12 17:28:43 INFO  - Text Field 'Search field' :: Clearing
+2023-02-12 17:28:43 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-12 17:28:53 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-12 17:28:55 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-12 17:28:55 INFO  - Button 'Settings' :: Clicking
+2023-02-12 17:28:56 INFO  - Button 'Settings' :: Clicking
+2023-02-12 17:28:57 INFO  - Button 'Libraries button' :: Clicking
+2023-02-12 17:29:00 INFO  - Locking credential with barcode 01230000000305
+2023-02-12 17:29:00 INFO  - There are books on the account: 
+2023-02-12 17:29:00 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-12 17:29:00 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-12 17:29:00 INFO  - bookName: Legacy of the Lions Distributor: Palace Marketplace
+2023-02-12 17:29:00 INFO  - bookName: The Apache Diaspora Distributor: Palace Marketplace
+2023-02-12 17:29:00 INFO  - bookName: My Book of Animal Opposites Distributor: Palace Marketplace
+2023-02-12 17:29:00 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-12 17:29:00 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-12 17:29:00 INFO  - Count of books on the account after opening account: 7
+2023-02-12 17:29:22 INFO  - Text Field 'Card' :: Clicking
+2023-02-12 17:29:23 INFO  - Text Field 'Card' :: Clearing
+2023-02-12 17:29:23 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-12 17:29:26 INFO  - Text Field 'Pin' :: Clearing
+2023-02-12 17:29:26 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-12 17:29:29 INFO  - Button 'Log in' :: Clicking
+2023-02-12 17:29:35 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-12 17:29:36 INFO  - Step 2 - Login is performed successfully
+2023-02-12 17:29:37 INFO  - Step 3 - I open Catalog
+2023-02-12 17:29:37 INFO  - Button 'Catalog' :: Clicking
+2023-02-12 17:29:39 INFO  - Step 4 - I open search modal
+2023-02-12 17:29:40 INFO  - Button 'Search button' :: Clicking
+2023-02-12 17:29:42 INFO  - Step 5 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-12 17:29:42 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-12 17:29:42 INFO  - randomBookName: My First Book of Houseplants
+2023-02-12 17:29:43 INFO  - Text Field 'Search value input' :: Sending keys 'My First Book of Houseplants'
+2023-02-12 17:29:44 INFO  - Button 'Search' :: Clicking
+2023-02-12 17:29:46 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-02-12 17:29:46 INFO  - Button 'eBooks' :: Clicking
+2023-02-12 17:30:28 INFO  - Step 7 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-12 17:30:29 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-12 17:30:30 INFO  - Label 'lblBookName' :: Clicking
+2023-02-12 17:30:31 INFO  - Step 8 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-02-12 17:30:31 INFO  - Button 'Get' :: Clicking
+2023-02-12 17:30:32 INFO  - Button 'Cancel' :: Clicking
+2023-02-12 17:30:53 ERROR - No elements with locator 'By.xpath: //XCUIElementTypeButton/XCUIElementTypeStaticText[@name="Cancel"]' were found in DISPLAYED state: Expected condition failed:  (tried for 20 second(s) with 300 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az447-551', ip: '10.1.0.5', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1031-azure', java.version: '11.0.18'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 13.0, bundleID: org.thepalaceproject.palace, bundleId: org.thepalaceproject.palace, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 13.0, bundleID: org.thepalaceproject.palace, bundleId: org.thepalaceproject.palace, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java unix), device: iphone, deviceName: iPhone 14, deviceOrientation: PORTRAIT, javascriptEnabled: true, locale: ru_RU, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 14-16.1}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 16, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 77e4c728fc82f1be49281d54f78..., takesScreenshot: true, udid: 00008110-001479C03E81401E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8405, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java unix), device: iphone, deviceName: iPhone 14, deviceOrientation: PORTRAIT, javascriptEnabled: true, locale: ru_RU, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 14-16.1}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 16, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 77e4c728fc82f1be49281d54f78..., takesScreenshot: true, udid: 00008110-001479C03E81401E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8405, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 77e4c728fc82f1be49281d54f78c17bbbc118156
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az447-551', ip: '10.1.0.5', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1031-azure', java.version: '11.0.18'
+Driver info: driver.version: unknown
+2023-02-12 17:30:53 FATAL - An exception occurred while tried to save the page source: org.openqa.selenium.InvalidElementStateException: The application under test with bundle id 'org.thepalaceproject.palace' is not running, possibly crashed (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az447-551', ip: '10.1.0.5', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1031-azure', java.version: '11.0.18'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 13.0, bundleID: org.thepalaceproject.palace, bundleId: org.thepalaceproject.palace, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 13.0, bundleID: org.thepalaceproject.palace, bundleId: org.thepalaceproject.palace, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java unix), device: iphone, deviceName: iPhone 14, deviceOrientation: PORTRAIT, javascriptEnabled: true, locale: ru_RU, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 14-16.1}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 16, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 77e4c728fc82f1be49281d54f78..., takesScreenshot: true, udid: 00008110-001479C03E81401E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8405, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java unix), device: iphone, deviceName: iPhone 14, deviceOrientation: PORTRAIT, javascriptEnabled: true, locale: ru_RU, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 14-16.1}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 16, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 77e4c728fc82f1be49281d54f78..., takesScreenshot: true, udid: 00008110-001479C03E81401E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8405, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 77e4c728fc82f1be49281d54f78c17bbbc118156
+2023-02-12 17:30:53 INFO  - Taking screenshot
+2023-02-12 17:30:53 INFO  - Test finished - logging out
+2023-02-12 17:30:56 INFO  - Button 'Settings' :: Clicking
+2023-02-12 17:30:57 INFO  - Button 'Settings' :: Clicking
+2023-02-12 17:30:58 INFO  - Button 'Libraries button' :: Clicking
+2023-02-12 17:31:01 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 17:31:02 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 17:31:02 INFO  - Button 'Log out' :: Clicking
+2023-02-12 17:31:03 INFO  - Button 'Log out approve' :: Clicking
+2023-02-12 17:31:25 INFO  - Button 'Log in' :: Getting text from element
+2023-02-12 17:31:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 17:31:26 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 17:31:27 INFO  - Unlocking credential for current thread
+2023-02-12 17:31:27 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4cdcc67f

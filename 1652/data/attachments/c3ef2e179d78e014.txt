@@ -1,0 +1,74 @@
+2023-02-12 18:39:09 INFO  - Scenario 'Alert: Biblioboard audiobooks: Check of Cancel button after Return button tapping' start
+2023-02-12 18:39:09 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-12 18:39:37 INFO  - Application on platform 'IOS' is ready...
+2023-02-12 18:39:38 INFO  - Session id - 819e867afd7974c5f249aa4d8c4c5d1f30be1974
+2023-02-12 18:39:38 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-12 18:39:58 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-12 18:39:59 INFO  - Button 'Find your library button' :: Clicking
+2023-02-12 18:40:00 INFO  - Text Field 'Search field' :: Clicking
+2023-02-12 18:40:07 INFO  - Text Field 'Search field' :: Clearing
+2023-02-12 18:40:07 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-12 18:40:18 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-12 18:40:20 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-12 18:40:20 INFO  - Button 'Settings' :: Clicking
+2023-02-12 18:40:21 INFO  - Button 'Settings' :: Clicking
+2023-02-12 18:40:22 INFO  - Button 'Libraries button' :: Clicking
+2023-02-12 18:40:25 INFO  - Locking credential with barcode 01230000000304
+2023-02-12 18:40:25 INFO  - There are books on the account: 
+2023-02-12 18:40:26 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-12 18:40:26 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-02-12 18:40:26 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-12 18:40:26 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-02-12 18:40:26 INFO  - bookName: The Fritz Strafers A Story of the Great War Distributor: Palace Marketplace
+2023-02-12 18:40:26 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-12 18:40:26 INFO  - bookName: Eldritch Tales Distributor: Palace Marketplace
+2023-02-12 18:40:26 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-02-12 18:40:26 INFO  - bookName: The Great Influenza Distributor: Palace Marketplace
+2023-02-12 18:40:26 INFO  - Count of books on the account after opening account: 9
+2023-02-12 18:40:47 INFO  - Text Field 'Card' :: Clicking
+2023-02-12 18:40:48 INFO  - Text Field 'Card' :: Clearing
+2023-02-12 18:40:48 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-12 18:40:51 INFO  - Text Field 'Pin' :: Clearing
+2023-02-12 18:40:51 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-12 18:40:55 INFO  - Button 'Log in' :: Clicking
+2023-02-12 18:41:02 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-12 18:41:04 INFO  - Step 2 - Login is performed successfully
+2023-02-12 18:41:05 INFO  - Step 3 - I open Catalog
+2023-02-12 18:41:05 INFO  - Button 'Catalog' :: Clicking
+2023-02-12 18:41:07 INFO  - Step 4 - I open search modal
+2023-02-12 18:41:08 INFO  - Button 'Search button' :: Clicking
+2023-02-12 18:41:10 INFO  - Step 5 - I search for "Magic's Daughter" and save bookName as 'bookNameInfo'
+2023-02-12 18:41:11 INFO  - Text Field 'Search value input' :: Sending keys 'Magic's Daughter'
+2023-02-12 18:41:12 INFO  - Button 'Search' :: Clicking
+2023-02-12 18:41:14 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2023-02-12 18:41:14 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-12 18:41:56 INFO  - Step 7 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-12 18:41:58 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-12 18:41:59 INFO  - Label 'lblBookName' :: Clicking
+2023-02-12 18:42:00 INFO  - Step 8 - Click GET action button on book details screen
+2023-02-12 18:42:00 INFO  - Button 'Get' :: Clicking
+2023-02-12 18:42:22 INFO  - Step 9 - I open Books
+2023-02-12 18:42:22 INFO  - Button 'My Books' :: Clicking
+2023-02-12 18:42:24 INFO  - Step 10 - AUDIOBOOK book with LISTEN action button and 'bookInfo' bookInfo is present on books screen
+2023-02-12 18:42:25 INFO  - Step 11 - Open AUDIOBOOK book with LISTEN action button and 'bookInfo' bookInfo on books screen
+2023-02-12 18:42:26 INFO  - Label 'lblBookName' :: Clicking
+2023-02-12 18:42:28 INFO  - Step 12 - Click RETURN button but cancel the action by clicking CANCEL button on the alert
+2023-02-12 18:42:28 INFO  - Button 'Return' :: Clicking
+2023-02-12 18:42:33 INFO  - Button 'Cancel ActionButtonAlert' :: Clicking
+2023-02-12 18:42:34 INFO  - Step 13 - I open Books
+2023-02-12 18:42:34 INFO  - Button 'My Books' :: Clicking
+2023-02-12 18:42:35 INFO  - Step 14 - AUDIOBOOK book with LISTEN action button and 'bookInfo' bookInfo is present on books screen
+2023-02-12 18:42:37 INFO  - Taking screenshot
+2023-02-12 18:42:40 INFO  - Test finished - logging out
+2023-02-12 18:42:43 INFO  - Button 'Settings' :: Clicking
+2023-02-12 18:42:45 INFO  - Button 'Settings' :: Clicking
+2023-02-12 18:42:46 INFO  - Button 'Libraries button' :: Clicking
+2023-02-12 18:42:49 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 18:42:50 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 18:42:51 INFO  - Button 'Log out' :: Clicking
+2023-02-12 18:42:52 INFO  - Button 'Log out approve' :: Clicking
+2023-02-12 18:43:13 INFO  - Button 'Log in' :: Getting text from element
+2023-02-12 18:43:14 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 18:43:15 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 18:43:16 INFO  - Unlocking credential for current thread
+2023-02-12 18:43:16 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@17ca57ce
