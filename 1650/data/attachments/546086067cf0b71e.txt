@@ -1,0 +1,89 @@
+2023-02-12 08:49:47 INFO  - Scenario 'Check end of chapter sleep timer' start
+2023-02-12 08:49:47 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-12 08:50:22 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-12 08:50:22 INFO  - Session id - 865d22a1a8ad094145ad03c307db332fc265b852
+2023-02-12 08:50:22 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-12 08:50:22 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-12 08:50:26 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-12 08:50:26 INFO  - Button 'Search' :: Clicking
+2023-02-12 08:50:28 INFO  - Text Field 'Search' :: Clearing
+2023-02-12 08:50:28 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-12 08:50:30 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-12 08:50:30 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-12 08:50:30 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:50:31 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:50:33 INFO  - Button 'Accounts' :: Clicking
+2023-02-12 08:50:35 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-12 08:50:35 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:50:35 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:50:36 INFO  - Button 'Accounts' :: Clicking
+2023-02-12 08:50:37 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-12 08:50:38 INFO  - Locking credential with barcode 01230000000306
+2023-02-12 08:50:38 INFO  - There are books on the account: 
+2023-02-12 08:50:39 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-12 08:50:39 INFO  - bookName: Seekers of Truth and Tranquility Distributor: Palace Marketplace
+2023-02-12 08:50:39 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2023-02-12 08:50:39 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-02-12 08:50:39 INFO  - bookName: The Rule of Many Distributor: Palace Marketplace
+2023-02-12 08:50:39 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-12 08:50:39 INFO  - bookName: When the Tempest Gathers Distributor: Palace Marketplace
+2023-02-12 08:50:39 INFO  - Count of books on the account after opening account: 7
+2023-02-12 08:50:39 INFO  - Text Field 'Card' :: Clearing
+2023-02-12 08:50:39 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-12 08:50:41 INFO  - Text Field 'Pin' :: Clearing
+2023-02-12 08:50:41 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-12 08:50:42 INFO  - Button 'Log in' :: Clicking
+2023-02-12 08:50:49 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-12 08:50:49 INFO  - Step 3 - Login is performed successfully
+2023-02-12 08:51:10 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-12 08:51:10 INFO  - Step 4 - I open Catalog
+2023-02-12 08:51:10 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-12 08:51:35 INFO  - Step 5 - I open search modal
+2023-02-12 08:51:55 INFO  - Button 'Search' :: Clicking
+2023-02-12 08:51:57 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-12 08:51:57 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-12 08:51:57 INFO  - randomBookName: The Sleep Fix
+2023-02-12 08:51:57 INFO  - Error details button is not present
+2023-02-12 08:51:57 INFO  - Text Field 'Search value input' :: Sending keys 'The Sleep Fix'
+2023-02-12 08:51:59 INFO  - Error details button is not present
+2023-02-12 08:52:03 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-02-12 08:52:03 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-12 08:52:24 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-12 08:52:25 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-12 08:52:25 INFO  - Label 'lblBookName' :: Clicking
+2023-02-12 08:52:25 INFO  - Step 9 - Click GET action button on book details screen
+2023-02-12 08:52:26 INFO  - Button 'Get' :: Clicking
+2023-02-12 08:52:32 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-02-12 08:52:32 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-02-12 08:52:32 INFO  - Button 'Listen' :: Clicking
+2023-02-12 08:52:33 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-02-12 08:52:37 INFO  - Step 13 - Open toc audiobook screen
+2023-02-12 08:52:37 INFO  - Button 'btnToc' :: Clicking
+2023-02-12 08:52:38 INFO  - Step 14 - The first chapter is loaded
+2023-02-12 08:52:39 INFO  - Step 15 - Open the 2 chapter on toc audiobook screen and save the chapter name as 'chapterName' and chapter number as 'chapterNumber'
+2023-02-12 08:52:41 INFO  - Label 'element 2' :: Getting attribute 'text'
+2023-02-12 08:52:42 INFO  - Label 'element 2' :: Clicking
+2023-02-12 08:52:42 INFO  - Step 16 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-02-12 08:52:42 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-02-12 08:52:43 INFO  - Button 'End of file' :: Clicking
+2023-02-12 08:52:44 INFO  - Step 17 - Select 2X playback speed on playback speed audiobook screen
+2023-02-12 08:52:44 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-02-12 08:52:45 INFO  - Button 'Playback speed' :: Clicking
+2023-02-12 08:52:46 INFO  - Step 18 - I stretch slider on the time tracking line forward on audio player screen
+2023-02-12 08:52:49 INFO  - Step 19 - Listen a chapter on audio player screen
+2023-02-12 08:52:54 INFO  - Label 'lblRightTime' :: Getting text from element
+2023-02-12 08:53:02 INFO  - Step 20 - Play button is present on audio player screen
+2023-02-12 08:53:22 INFO  - Taking screenshot
+2023-02-12 08:53:24 INFO  - Test finished - logging out
+2023-02-12 08:53:25 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:53:27 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:53:29 INFO  - Button 'Accounts' :: Clicking
+2023-02-12 08:53:29 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-12 08:53:32 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 08:53:32 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 08:53:32 INFO  - Button 'Log out' :: Clicking
+2023-02-12 08:53:32 INFO  - Button 'Log in' :: Getting text from element
+2023-02-12 08:53:42 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 08:53:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 08:53:42 INFO  - Unlocking credential for current thread
+2023-02-12 08:53:42 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6bdc8f34

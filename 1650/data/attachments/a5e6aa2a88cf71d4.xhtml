@@ -1,0 +1,200 @@
+2023-02-12 08:44:06 INFO  - Scenario 'Font settings: Check of text theme' start
+2023-02-12 08:44:06 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-12 08:44:40 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-12 08:44:40 INFO  - Session id - a40a759c30b0f8a78309ecfec629d71e707ed7ce
+2023-02-12 08:44:40 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-12 08:44:40 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-12 08:44:43 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-12 08:44:44 INFO  - Button 'Search' :: Clicking
+2023-02-12 08:44:46 INFO  - Text Field 'Search' :: Clearing
+2023-02-12 08:44:46 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-12 08:44:48 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-12 08:44:49 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-12 08:44:49 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:44:52 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:44:53 INFO  - Button 'Accounts' :: Clicking
+2023-02-12 08:44:55 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-12 08:44:55 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:44:55 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:44:56 INFO  - Button 'Accounts' :: Clicking
+2023-02-12 08:44:58 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-12 08:44:59 INFO  - Locking credential with barcode 01230000000305
+2023-02-12 08:44:59 INFO  - There are books on the account: 
+2023-02-12 08:45:00 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-12 08:45:00 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-12 08:45:00 INFO  - bookName: My Book of Animal Opposites Distributor: Palace Marketplace
+2023-02-12 08:45:00 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-12 08:45:00 INFO  - bookName: Stolen Focus Distributor: Palace Marketplace
+2023-02-12 08:45:00 INFO  - bookName: Glimpses of the Moon Distributor: Palace Marketplace
+2023-02-12 08:45:00 INFO  - bookName: The Apache Diaspora Distributor: Palace Marketplace
+2023-02-12 08:45:00 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-12 08:45:00 INFO  - bookName: Legacy of the Lions Distributor: Palace Marketplace
+2023-02-12 08:45:00 INFO  - Count of books on the account after opening account: 9
+2023-02-12 08:45:00 INFO  - Text Field 'Card' :: Clearing
+2023-02-12 08:45:00 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-12 08:45:02 INFO  - Text Field 'Pin' :: Clearing
+2023-02-12 08:45:02 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-12 08:45:05 INFO  - Button 'Log in' :: Clicking
+2023-02-12 08:45:17 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-12 08:45:17 INFO  - Step 3 - Login is performed successfully
+2023-02-12 08:45:37 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-12 08:45:38 INFO  - Step 4 - I open Catalog
+2023-02-12 08:45:38 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-12 08:45:58 INFO  - Step 5 - I open search modal
+2023-02-12 08:46:18 INFO  - Button 'Search' :: Clicking
+2023-02-12 08:46:19 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-12 08:46:19 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-12 08:46:19 INFO  - randomBookName: Slessor: Bomber Champion
+2023-02-12 08:46:20 INFO  - Error details button is not present
+2023-02-12 08:46:20 INFO  - Text Field 'Search value input' :: Sending keys 'Slessor: Bomber Champion'
+2023-02-12 08:46:22 INFO  - Error details button is not present
+2023-02-12 08:46:25 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-12 08:46:27 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-12 08:46:27 INFO  - Button 'actionButton' :: Clicking
+2023-02-12 08:47:20 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-12 08:47:21 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-12 08:47:22 INFO  - Label 'lblBookName' :: Clicking
+2023-02-12 08:47:23 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-12 08:47:23 INFO  - Button 'Read' :: Clicking
+2023-02-12 08:47:25 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-02-12 08:47:25 INFO  - Scrolling 8 times on reader epub screen
+2023-02-12 08:47:43 INFO  - Step 11 - I open font settings
+2023-02-12 08:47:44 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-12 08:47:45 INFO  - Step 12 - I change contrast to BLACK_TEXT_ON_WHITE
+2023-02-12 08:47:45 INFO  - Button 'setThemeLight' :: Clicking
+2023-02-12 08:47:46 INFO  - Step 13 - The BLACK_TEXT_ON_WHITE background is correct
+2023-02-12 08:47:46 INFO  - context - NATIVE_APP
+2023-02-12 08:47:46 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-12 08:47:48 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-12 08:47:48 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Slessor: Bomber Champion: The Life of Marshal of the RAF Sir John Slessor, GCB, DSO, MC</title>
+<link href="BomberChampion.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="application/vnd.adobe.page-template+xml" href="page-template.xpgt" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="plates" id="plate4">
+<p class="centerImage"><img id="plates4" src="images/plates4.jpg" alt="images" /></p>
+<p class="caption">The formroom block at Haileybury School as Jack would have known it. The inscription over the archway reads <span class="italic">ostium mihi apertum est magnum </span>(a great opportunity is open to me). <span class="italic">(Imogen Thomas)</span></p>
+</div>
+</body>
+</html>
+2023-02-12 08:47:48 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-12 08:47:48 INFO  - Step 14 - I restart app
+2023-02-12 08:48:13 INFO  - Step 15 - I open Books
+2023-02-12 08:48:13 INFO  - Button 'tabBooks' :: Clicking
+2023-02-12 08:48:13 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-12 08:48:15 INFO  - Label 'lblBookName' :: Clicking
+2023-02-12 08:48:15 INFO  - Step 17 - Click READ action button on book details screen
+2023-02-12 08:48:16 INFO  - Button 'Read' :: Clicking
+2023-02-12 08:48:17 INFO  - Step 18 - The BLACK_TEXT_ON_WHITE background is correct
+2023-02-12 08:48:17 INFO  - context - NATIVE_APP
+2023-02-12 08:48:17 INFO  - context - NATIVE_APP
+2023-02-12 08:48:19 INFO  - context - NATIVE_APP
+2023-02-12 08:48:19 INFO  - context - NATIVE_APP
+2023-02-12 08:48:19 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-12 08:48:20 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-12 08:48:20 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Slessor: Bomber Champion: The Life of Marshal of the RAF Sir John Slessor, GCB, DSO, MC</title>
+<link href="BomberChampion.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="application/vnd.adobe.page-template+xml" href="page-template.xpgt" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="plates" id="plate4">
+<p class="centerImage"><img id="plates4" src="images/plates4.jpg" alt="images" /></p>
+<p class="caption">The formroom block at Haileybury School as Jack would have known it. The inscription over the archway reads <span class="italic">ostium mihi apertum est magnum </span>(a great opportunity is open to me). <span class="italic">(Imogen Thomas)</span></p>
+</div>
+</body>
+</html>
+2023-02-12 08:48:20 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-12 08:48:21 INFO  - Step 19 - I return to previous screen from epub
+2023-02-12 08:48:21 INFO  - Button 'btnBack' :: Clicking
+2023-02-12 08:48:22 INFO  - Step 20 - Click READ action button on book details screen
+2023-02-12 08:48:23 INFO  - Button 'Read' :: Clicking
+2023-02-12 08:48:23 INFO  - Step 21 - The BLACK_TEXT_ON_WHITE background is correct
+2023-02-12 08:48:23 INFO  - context - NATIVE_APP
+2023-02-12 08:48:23 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-12 08:48:24 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-12 08:48:24 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Slessor: Bomber Champion: The Life of Marshal of the RAF Sir John Slessor, GCB, DSO, MC</title>
+<link href="BomberChampion.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="application/vnd.adobe.page-template+xml" href="page-template.xpgt" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="plates" id="plate4">
+<p class="centerImage"><img id="plates4" src="images/plates4.jpg" alt="images" /></p>
+<p class="caption">The formroom block at Haileybury School as Jack would have known it. The inscription over the archway reads <span class="italic">ostium mihi apertum est magnum </span>(a great opportunity is open to me). <span class="italic">(Imogen Thomas)</span></p>
+</div>
+</body>
+</html>
+2023-02-12 08:48:24 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-12 08:48:25 INFO  - Step 22 - I open font settings
+2023-02-12 08:48:26 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-12 08:48:27 INFO  - Step 23 - I change contrast to BLACK_TEXT_ON_SEPIA
+2023-02-12 08:48:27 INFO  - Button 'setThemeSepia' :: Clicking
+2023-02-12 08:48:27 INFO  - Step 24 - The BLACK_TEXT_ON_SEPIA background is correct
+2023-02-12 08:48:28 INFO  - context - NATIVE_APP
+2023-02-12 08:48:28 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-12 08:48:28 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-12 08:48:28 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Slessor: Bomber Champion: The Life of Marshal of the RAF Sir John Slessor, GCB, DSO, MC</title>
+<link href="BomberChampion.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="application/vnd.adobe.page-template+xml" href="page-template.xpgt" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="plates" id="plate4">
+<p class="centerImage"><img id="plates4" src="images/plates4.jpg" alt="images" /></p>
+<p class="caption">The formroom block at Haileybury School as Jack would have known it. The inscription over the archway reads <span class="italic">ostium mihi apertum est magnum </span>(a great opportunity is open to me). <span class="italic">(Imogen Thomas)</span></p>
+</div>
+</body>
+</html>
+2023-02-12 08:48:28 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-12 08:48:28 INFO  - Taking screenshot
+2023-02-12 08:48:29 INFO  - Test finished - logging out
+2023-02-12 08:48:31 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:48:34 INFO  - Button 'tabSettings' :: Clicking
+2023-02-12 08:48:34 INFO  - Button 'Accounts' :: Clicking
+2023-02-12 08:48:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-12 08:48:37 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 08:48:37 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 08:48:38 INFO  - Button 'Log out' :: Clicking
+2023-02-12 08:48:38 INFO  - Button 'Log in' :: Getting text from element
+2023-02-12 08:48:49 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 08:48:49 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 08:48:49 INFO  - Unlocking credential for current thread
+2023-02-12 08:48:49 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@72b564c4
