@@ -1,0 +1,85 @@
+2023-02-12 22:48:02 INFO  - Scenario 'Audiobooks: Open the audiobook at the last open chapter and check time code' start
+2023-02-12 22:48:02 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-12 22:48:23 INFO  - Application on platform 'IOS' is ready...
+2023-02-12 22:48:24 INFO  - Session id - da5d690054c9a348eec410af16cf6bee4dd653a2
+2023-02-12 22:48:24 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2023-02-12 22:48:24 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-12 22:48:24 INFO  - Button 'Find your library button' :: Clicking
+2023-02-12 22:48:25 INFO  - Text Field 'Search field' :: Clicking
+2023-02-12 22:48:33 INFO  - Text Field 'Search field' :: Clearing
+2023-02-12 22:48:33 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-02-12 22:48:44 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-02-12 22:48:45 INFO  - Button 'Settings' :: Clicking
+2023-02-12 22:48:48 INFO  - Button 'Testing button' :: Clicking
+2023-02-12 22:48:49 INFO  - Step 1 - Enable hidden libraries
+2023-02-12 22:48:49 INFO  - Button 'Hidden libraries button' :: Clicking
+2023-02-12 22:48:50 INFO  - Step 2 - I open Catalog
+2023-02-12 22:48:50 INFO  - Button 'Catalog' :: Clicking
+2023-02-12 22:48:52 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2023-02-12 22:48:52 INFO  - Button 'Logo' :: Clicking
+2023-02-12 22:48:53 INFO  - Button 'Add library btn' :: Clicking
+2023-02-12 22:48:54 INFO  - Text Field 'Search field' :: Clicking
+2023-02-12 22:49:03 INFO  - Text Field 'Search field' :: Clearing
+2023-02-12 22:49:03 INFO  - Text Field 'Search field' :: Typing 'A1QA Test Library'
+2023-02-12 22:49:16 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-02-12 22:49:17 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2023-02-12 22:49:18 INFO  - Button 'Settings' :: Clicking
+2023-02-12 22:49:18 INFO  - Button 'Settings' :: Clicking
+2023-02-12 22:49:20 INFO  - Button 'Libraries button' :: Clicking
+2023-02-12 22:49:21 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2023-02-12 22:49:21 INFO  - Button 'Settings' :: Clicking
+2023-02-12 22:49:23 INFO  - Button 'Settings' :: Clicking
+2023-02-12 22:49:24 INFO  - Button 'Libraries button' :: Clicking
+2023-02-12 22:49:27 INFO  - Locking credential with barcode 01230000000304
+2023-02-12 22:49:27 INFO  - There are books on the account: 
+2023-02-12 22:49:31 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-02-12 22:49:31 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-12 22:49:31 INFO  - bookName: Tennessee Williams 101 Distributor: Palace Marketplace
+2023-02-12 22:49:31 INFO  - bookName: Eldritch Tales Distributor: Palace Marketplace
+2023-02-12 22:49:31 INFO  - bookName: The Great Influenza Distributor: Palace Marketplace
+2023-02-12 22:49:31 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-12 22:49:31 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-12 22:49:31 INFO  - bookName: The Fritz Strafers A Story of the Great War Distributor: Palace Marketplace
+2023-02-12 22:49:31 INFO  - bookName: The War on the West Distributor: Palace Marketplace
+2023-02-12 22:49:31 INFO  - Count of books on the account after opening account: 9
+2023-02-12 22:49:52 INFO  - Text Field 'Card' :: Clicking
+2023-02-12 22:49:53 INFO  - Text Field 'Card' :: Clearing
+2023-02-12 22:49:53 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-12 22:49:56 INFO  - Text Field 'Pin' :: Clearing
+2023-02-12 22:49:56 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-12 22:49:59 INFO  - Button 'Log in' :: Clicking
+2023-02-12 22:50:06 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-12 22:50:08 INFO  - Step 6 - Login is performed successfully
+2023-02-12 22:50:08 INFO  - Step 7 - I open Catalog
+2023-02-12 22:50:09 INFO  - Button 'Catalog' :: Clicking
+2023-02-12 22:50:11 INFO  - Step 8 - I open search modal
+2023-02-12 22:50:12 INFO  - Button 'Search button' :: Clicking
+2023-02-12 22:50:14 INFO  - Step 9 - I search for "Catching Fire" and save bookName as 'bookNameInfo'
+2023-02-12 22:50:15 INFO  - Text Field 'Search value input' :: Sending keys 'Catching Fire'
+2023-02-12 22:50:16 INFO  - Button 'Search' :: Clicking
+2023-02-12 22:50:18 INFO  - Step 10 - I switch to 'Audiobooks' catalog tab
+2023-02-12 22:50:18 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-12 22:51:00 INFO  - Step 11 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-12 22:51:02 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-12 22:51:02 INFO  - Label 'lblBookName' :: Clicking
+2023-02-12 22:51:03 INFO  - Step 12 - Click GET action button on book details screen
+2023-02-12 22:51:04 INFO  - Button 'Get' :: Clicking
+2023-02-12 22:51:26 INFO  - Step 13 - I check that book contains LISTEN action button on book details screen
+2023-02-12 22:51:26 INFO  - Step 14 - Click LISTEN action button on book details screen
+2023-02-12 22:51:27 INFO  - Button 'Listen' :: Clicking
+2023-02-12 22:51:48 INFO  - Step 15 - Audio player screen of book 'bookInfo' is opened
+2023-02-12 22:52:08 INFO  - Taking screenshot
+2023-02-12 22:52:09 INFO  - Test finished - logging out
+2023-02-12 22:52:11 INFO  - Button 'Settings' :: Clicking
+2023-02-12 22:52:12 INFO  - Button 'Settings' :: Clicking
+2023-02-12 22:52:13 INFO  - Button 'Libraries button' :: Clicking
+2023-02-12 22:52:17 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 22:52:17 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 22:52:18 INFO  - Button 'Log out' :: Clicking
+2023-02-12 22:52:19 INFO  - Button 'Log out approve' :: Clicking
+2023-02-12 22:52:22 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-02-12 22:52:23 INFO  - Button 'Log in' :: Getting text from element
+2023-02-12 22:52:26 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 22:52:26 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 22:52:27 INFO  - Unlocking credential for current thread
+2023-02-12 22:52:27 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@315fbc53

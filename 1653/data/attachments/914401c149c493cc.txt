@@ -1,0 +1,83 @@
+2023-02-12 23:10:57 INFO  - Scenario 'Audiobooks: Check closing playback speed and sleep timer' start
+2023-02-12 23:10:57 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-12 23:11:40 INFO  - Application on platform 'IOS' is ready...
+2023-02-12 23:11:40 INFO  - Session id - 8fbcda1e10bb61cbedb8c99c7e1b91023a4d1cff
+2023-02-12 23:11:40 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2023-02-12 23:11:40 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-12 23:11:41 INFO  - Button 'Find your library button' :: Clicking
+2023-02-12 23:11:42 INFO  - Text Field 'Search field' :: Clicking
+2023-02-12 23:11:49 INFO  - Text Field 'Search field' :: Clearing
+2023-02-12 23:11:49 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-02-12 23:12:00 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-02-12 23:12:02 INFO  - Button 'Settings' :: Clicking
+2023-02-12 23:12:04 INFO  - Button 'Testing button' :: Clicking
+2023-02-12 23:12:06 INFO  - Step 1 - Enable hidden libraries
+2023-02-12 23:12:06 INFO  - Button 'Hidden libraries button' :: Clicking
+2023-02-12 23:12:07 INFO  - Step 2 - I open Catalog
+2023-02-12 23:12:07 INFO  - Button 'Catalog' :: Clicking
+2023-02-12 23:12:16 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2023-02-12 23:12:16 INFO  - Button 'Logo' :: Clicking
+2023-02-12 23:12:17 INFO  - Button 'Add library btn' :: Clicking
+2023-02-12 23:12:19 INFO  - Text Field 'Search field' :: Clicking
+2023-02-12 23:12:27 INFO  - Text Field 'Search field' :: Clearing
+2023-02-12 23:12:27 INFO  - Text Field 'Search field' :: Typing 'A1QA Test Library'
+2023-02-12 23:12:40 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-02-12 23:12:42 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2023-02-12 23:12:42 INFO  - Button 'Settings' :: Clicking
+2023-02-12 23:12:43 INFO  - Button 'Settings' :: Clicking
+2023-02-12 23:12:45 INFO  - Button 'Libraries button' :: Clicking
+2023-02-12 23:12:53 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2023-02-12 23:12:53 INFO  - Button 'Settings' :: Clicking
+2023-02-12 23:12:54 INFO  - Button 'Settings' :: Clicking
+2023-02-12 23:12:55 INFO  - Button 'Libraries button' :: Clicking
+2023-02-12 23:12:58 INFO  - Locking credential with barcode 01230000000306
+2023-02-12 23:12:58 INFO  - There are books on the account: 
+2023-02-12 23:13:03 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-12 23:13:03 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-02-12 23:13:03 INFO  - bookName: The Rule of Many Distributor: Palace Marketplace
+2023-02-12 23:13:03 INFO  - bookName: Seekers of Truth and Tranquility Distributor: Palace Marketplace
+2023-02-12 23:13:03 INFO  - bookName: When the Tempest Gathers Distributor: Palace Marketplace
+2023-02-12 23:13:03 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-12 23:13:03 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2023-02-12 23:13:03 INFO  - Count of books on the account after opening account: 7
+2023-02-12 23:13:25 INFO  - Text Field 'Card' :: Clicking
+2023-02-12 23:13:29 INFO  - Text Field 'Card' :: Clearing
+2023-02-12 23:13:29 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-12 23:13:32 INFO  - Text Field 'Pin' :: Clearing
+2023-02-12 23:13:32 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-12 23:13:35 INFO  - Button 'Log in' :: Clicking
+2023-02-12 23:13:45 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-12 23:13:47 INFO  - Step 6 - Login is performed successfully
+2023-02-12 23:13:48 INFO  - Step 7 - I open Catalog
+2023-02-12 23:13:48 INFO  - Button 'Catalog' :: Clicking
+2023-02-12 23:13:57 INFO  - Step 8 - I open search modal
+2023-02-12 23:13:58 INFO  - Button 'Search button' :: Clicking
+2023-02-12 23:14:01 INFO  - Step 9 - I search for "The Lost Symbol" and save bookName as 'bookNameInfo'
+2023-02-12 23:14:02 INFO  - Text Field 'Search value input' :: Sending keys 'The Lost Symbol'
+2023-02-12 23:14:10 INFO  - Button 'Search' :: Clicking
+2023-02-12 23:14:12 INFO  - Step 10 - I switch to 'Audiobooks' catalog tab
+2023-02-12 23:14:12 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-12 23:14:55 INFO  - Step 11 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-12 23:14:56 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-12 23:14:57 INFO  - Label 'lblBookName' :: Clicking
+2023-02-12 23:14:58 INFO  - Step 12 - Click GET action button on book details screen
+2023-02-12 23:15:00 INFO  - Button 'Get' :: Clicking
+2023-02-12 23:15:21 INFO  - Step 13 - I check that book contains LISTEN action button on book details screen
+2023-02-12 23:15:22 INFO  - Step 14 - Click LISTEN action button on book details screen
+2023-02-12 23:15:23 INFO  - Button 'Listen' :: Clicking
+2023-02-12 23:15:44 INFO  - Step 15 - Audio player screen of book 'bookInfo' is opened
+2023-02-12 23:16:05 INFO  - Taking screenshot
+2023-02-12 23:16:05 INFO  - Test finished - logging out
+2023-02-12 23:16:07 INFO  - Button 'Settings' :: Clicking
+2023-02-12 23:16:08 INFO  - Button 'Settings' :: Clicking
+2023-02-12 23:16:09 INFO  - Button 'Libraries button' :: Clicking
+2023-02-12 23:16:12 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 23:16:13 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 23:16:13 INFO  - Button 'Log out' :: Clicking
+2023-02-12 23:16:14 INFO  - Button 'Log out approve' :: Clicking
+2023-02-12 23:16:17 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-02-12 23:16:18 INFO  - Button 'Log in' :: Getting text from element
+2023-02-12 23:16:22 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-12 23:16:22 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-12 23:16:23 INFO  - Unlocking credential for current thread
+2023-02-12 23:16:23 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@315fbc53
