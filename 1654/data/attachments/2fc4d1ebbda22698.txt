@@ -1,0 +1,74 @@
+2023-02-13 20:02:39 INFO  - Scenario 'Alert: Check of Cancel button after Return button tapping' start
+2023-02-13 20:02:39 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-13 20:02:57 INFO  - Application on platform 'IOS' is ready...
+2023-02-13 20:02:57 INFO  - Session id - 1e05ff2be78432d27b0e8adcc5bd20e5e1699cf4
+2023-02-13 20:02:57 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-13 20:03:18 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-13 20:03:19 INFO  - Button 'Find your library button' :: Clicking
+2023-02-13 20:03:20 INFO  - Text Field 'Search field' :: Clicking
+2023-02-13 20:03:25 INFO  - Text Field 'Search field' :: Clearing
+2023-02-13 20:03:25 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-13 20:03:35 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-13 20:03:37 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-13 20:03:37 INFO  - Button 'Settings' :: Clicking
+2023-02-13 20:03:38 INFO  - Button 'Settings' :: Clicking
+2023-02-13 20:03:39 INFO  - Button 'Libraries button' :: Clicking
+2023-02-13 20:03:41 INFO  - Locking credential with barcode 01230000000306
+2023-02-13 20:03:41 INFO  - There are books on the account: 
+2023-02-13 20:03:42 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-02-13 20:03:42 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2023-02-13 20:03:42 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-13 20:03:42 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-13 20:03:42 INFO  - bookName: When the Tempest Gathers Distributor: Palace Marketplace
+2023-02-13 20:03:42 INFO  - bookName: The Rule of Many Distributor: Palace Marketplace
+2023-02-13 20:03:42 INFO  - bookName: Seekers of Truth and Tranquility Distributor: Palace Marketplace
+2023-02-13 20:03:42 INFO  - Count of books on the account after opening account: 7
+2023-02-13 20:04:03 INFO  - Text Field 'Card' :: Clicking
+2023-02-13 20:04:04 INFO  - Text Field 'Card' :: Clearing
+2023-02-13 20:04:04 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-13 20:04:08 INFO  - Text Field 'Pin' :: Clearing
+2023-02-13 20:04:08 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-13 20:04:11 INFO  - Button 'Log in' :: Clicking
+2023-02-13 20:04:18 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-13 20:04:19 INFO  - Step 2 - Login is performed successfully
+2023-02-13 20:04:20 INFO  - Step 3 - I open Catalog
+2023-02-13 20:04:20 INFO  - Button 'Catalog' :: Clicking
+2023-02-13 20:04:21 INFO  - Step 4 - I open search modal
+2023-02-13 20:04:22 INFO  - Button 'Search button' :: Clicking
+2023-02-13 20:04:24 INFO  - Step 5 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-13 20:04:24 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-13 20:04:24 INFO  - randomBookName: Verbs and Adverbs :
+2023-02-13 20:04:25 INFO  - Text Field 'Search value input' :: Sending keys 'Verbs and Adverbs :'
+2023-02-13 20:04:26 INFO  - Button 'Search' :: Clicking
+2023-02-13 20:04:28 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-02-13 20:04:28 INFO  - Button 'eBooks' :: Clicking
+2023-02-13 20:05:09 INFO  - Step 7 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-13 20:05:11 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-13 20:05:11 INFO  - Label 'lblBookName' :: Clicking
+2023-02-13 20:05:13 INFO  - Step 8 - Click GET action button on book details screen
+2023-02-13 20:05:14 INFO  - Button 'Get' :: Clicking
+2023-02-13 20:05:36 INFO  - Step 9 - I open Books
+2023-02-13 20:05:36 INFO  - Button 'My Books' :: Clicking
+2023-02-13 20:05:37 INFO  - Step 10 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-02-13 20:05:38 INFO  - Step 11 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-13 20:05:39 INFO  - Label 'lblBookName' :: Clicking
+2023-02-13 20:05:40 INFO  - Step 12 - Click RETURN button but cancel the action by clicking CANCEL button on the alert
+2023-02-13 20:05:42 INFO  - Button 'Return' :: Clicking
+2023-02-13 20:05:46 INFO  - Button 'Cancel ActionButtonAlert' :: Clicking
+2023-02-13 20:05:47 INFO  - Step 13 - I open Books
+2023-02-13 20:05:47 INFO  - Button 'My Books' :: Clicking
+2023-02-13 20:05:48 INFO  - Step 14 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-02-13 20:05:50 INFO  - Taking screenshot
+2023-02-13 20:05:52 INFO  - Test finished - logging out
+2023-02-13 20:05:55 INFO  - Button 'Settings' :: Clicking
+2023-02-13 20:05:56 INFO  - Button 'Settings' :: Clicking
+2023-02-13 20:05:57 INFO  - Button 'Libraries button' :: Clicking
+2023-02-13 20:06:00 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-13 20:06:01 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-13 20:06:02 INFO  - Button 'Log out' :: Clicking
+2023-02-13 20:06:03 INFO  - Button 'Log out approve' :: Clicking
+2023-02-13 20:06:24 INFO  - Button 'Log in' :: Getting text from element
+2023-02-13 20:06:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-13 20:06:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-13 20:06:26 INFO  - Unlocking credential for current thread
+2023-02-13 20:06:26 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@38c1d081
