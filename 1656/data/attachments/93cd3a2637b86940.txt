@@ -1,0 +1,67 @@
+2023-02-14 19:05:49 INFO  - Scenario 'Check buttons under the book title in LYRASIS' start
+2023-02-14 19:05:49 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-14 19:06:06 INFO  - Application on platform 'IOS' is ready...
+2023-02-14 19:06:06 INFO  - Session id - 34fe329a1941221d9e10f7dc8987feeb7ee80690
+2023-02-14 19:06:06 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-14 19:06:27 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-14 19:06:27 INFO  - Button 'Find your library button' :: Clicking
+2023-02-14 19:06:29 INFO  - Text Field 'Search field' :: Clicking
+2023-02-14 19:06:35 INFO  - Text Field 'Search field' :: Clearing
+2023-02-14 19:06:35 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-14 19:06:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-14 19:06:47 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-14 19:06:47 INFO  - Button 'Settings' :: Clicking
+2023-02-14 19:06:48 INFO  - Button 'Settings' :: Clicking
+2023-02-14 19:06:49 INFO  - Button 'Libraries button' :: Clicking
+2023-02-14 19:06:51 INFO  - Locking credential with barcode 01230000000305
+2023-02-14 19:06:51 INFO  - There are books on the account: 
+2023-02-14 19:06:53 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-14 19:06:53 INFO  - bookName: Legacy of the Lions Distributor: Palace Marketplace
+2023-02-14 19:06:53 INFO  - bookName: Moon at the Full Distributor: Palace Marketplace
+2023-02-14 19:06:53 INFO  - bookName: My Book of Animal Opposites Distributor: Palace Marketplace
+2023-02-14 19:06:53 INFO  - bookName: The Apache Diaspora Distributor: Palace Marketplace
+2023-02-14 19:06:53 INFO  - bookName: European Resistance in the Second World War Distributor: Palace Marketplace
+2023-02-14 19:06:53 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-14 19:06:53 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-14 19:06:53 INFO  - Count of books on the account after opening account: 8
+2023-02-14 19:07:14 INFO  - Text Field 'Card' :: Clicking
+2023-02-14 19:07:15 INFO  - Text Field 'Card' :: Clearing
+2023-02-14 19:07:15 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-14 19:07:18 INFO  - Text Field 'Pin' :: Clearing
+2023-02-14 19:07:18 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-14 19:07:21 INFO  - Button 'Log in' :: Clicking
+2023-02-14 19:07:29 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-14 19:07:31 INFO  - Step 2 - Login is performed successfully
+2023-02-14 19:07:32 INFO  - Step 3 - I open Catalog
+2023-02-14 19:07:32 INFO  - Button 'Catalog' :: Clicking
+2023-02-14 19:07:34 INFO  - Step 4 - I open search modal
+2023-02-14 19:07:35 INFO  - Button 'Search button' :: Clicking
+2023-02-14 19:07:37 INFO  - Step 5 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-14 19:07:37 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-14 19:07:37 INFO  - randomBookName: Amazing Stories Volume 80
+2023-02-14 19:07:37 INFO  - Text Field 'Search value input' :: Sending keys 'Amazing Stories Volume 80'
+2023-02-14 19:07:38 INFO  - Button 'Search' :: Clicking
+2023-02-14 19:07:41 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-02-14 19:07:41 INFO  - Button 'eBooks' :: Clicking
+2023-02-14 19:08:23 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-14 19:08:24 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-14 19:08:25 INFO  - Button 'actionButton' :: Clicking
+2023-02-14 19:08:47 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-02-14 19:08:49 INFO  - Step 9 - I open Books
+2023-02-14 19:08:49 INFO  - Button 'My Books' :: Clicking
+2023-02-14 19:08:51 INFO  - Step 10 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-02-14 19:09:32 INFO  - Taking screenshot
+2023-02-14 19:09:35 INFO  - Test finished - logging out
+2023-02-14 19:09:38 INFO  - Button 'Settings' :: Clicking
+2023-02-14 19:09:39 INFO  - Button 'Settings' :: Clicking
+2023-02-14 19:09:40 INFO  - Button 'Libraries button' :: Clicking
+2023-02-14 19:09:43 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-14 19:09:44 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-14 19:09:45 INFO  - Button 'Log out' :: Clicking
+2023-02-14 19:09:46 INFO  - Button 'Log out approve' :: Clicking
+2023-02-14 19:09:48 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-02-14 19:09:49 INFO  - Button 'Log in' :: Getting text from element
+2023-02-14 19:09:52 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-14 19:09:53 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-14 19:09:54 INFO  - Unlocking credential for current thread
+2023-02-14 19:09:54 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@580a225d
