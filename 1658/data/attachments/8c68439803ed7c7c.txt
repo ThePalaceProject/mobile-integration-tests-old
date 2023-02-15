@@ -1,0 +1,80 @@
+2023-02-15 01:46:22 INFO  - Scenario 'TOC: Contents with thumbnails: Check of Contents list and navigation in Lyrasis' start
+2023-02-15 01:46:22 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-15 01:46:48 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-15 01:46:48 INFO  - Session id - a31f627b8847931fd73101b9e946361e32e8ab34
+2023-02-15 01:46:48 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-15 01:46:48 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-15 01:46:51 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-15 01:46:51 INFO  - Button 'Search' :: Clicking
+2023-02-15 01:46:53 INFO  - Text Field 'Search' :: Clearing
+2023-02-15 01:46:53 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-15 01:46:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-15 01:46:55 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-15 01:46:55 INFO  - Button 'tabSettings' :: Clicking
+2023-02-15 01:46:57 INFO  - Button 'tabSettings' :: Clicking
+2023-02-15 01:46:58 INFO  - Button 'Accounts' :: Clicking
+2023-02-15 01:47:00 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-15 01:47:00 INFO  - Button 'tabSettings' :: Clicking
+2023-02-15 01:47:00 INFO  - Button 'tabSettings' :: Clicking
+2023-02-15 01:47:01 INFO  - Button 'Accounts' :: Clicking
+2023-02-15 01:47:04 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-15 01:47:04 INFO  - Locking credential with barcode 01230000000303
+2023-02-15 01:47:04 INFO  - There are books on the account: 
+2023-02-15 01:47:05 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-02-15 01:47:05 INFO  - bookName: Wild Problems Distributor: Palace Marketplace
+2023-02-15 01:47:05 INFO  - bookName: The Debt Trap Distributor: Palace Marketplace
+2023-02-15 01:47:05 INFO  - bookName: The Three Little Men in the Forest Distributor: Palace Marketplace
+2023-02-15 01:47:05 INFO  - bookName: American Axe Distributor: Palace Marketplace
+2023-02-15 01:47:05 INFO  - Count of books on the account after opening account: 5
+2023-02-15 01:47:05 INFO  - Text Field 'Card' :: Clearing
+2023-02-15 01:47:05 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-15 01:47:07 INFO  - Text Field 'Pin' :: Clearing
+2023-02-15 01:47:07 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-15 01:47:09 INFO  - Button 'Log in' :: Clicking
+2023-02-15 01:47:15 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-15 01:47:15 INFO  - Step 3 - Login is performed successfully
+2023-02-15 01:47:36 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-15 01:47:36 INFO  - Step 4 - I open Catalog
+2023-02-15 01:47:36 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-15 01:47:59 INFO  - Step 5 - I open search modal
+2023-02-15 01:48:20 INFO  - Button 'Search' :: Clicking
+2023-02-15 01:48:21 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-15 01:48:21 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-15 01:48:21 INFO  - randomBookName: Cherokee :
+2023-02-15 01:48:21 INFO  - Error details button is not present
+2023-02-15 01:48:22 INFO  - Text Field 'Search value input' :: Sending keys 'Cherokee :'
+2023-02-15 01:48:24 INFO  - Error details button is not present
+2023-02-15 01:48:27 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-15 01:48:27 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-15 01:48:28 INFO  - Button 'actionButton' :: Clicking
+2023-02-15 01:48:32 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-02-15 01:48:33 INFO  - Step 9 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-15 01:48:33 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-15 01:48:34 INFO  - Label 'lblBookName' :: Clicking
+2023-02-15 01:48:34 INFO  - Step 10 - Click READ action button on book details screen
+2023-02-15 01:48:35 INFO  - Button 'Read' :: Clicking
+2023-02-15 01:48:36 INFO  - Step 11 - Reader pdf screen is opened
+2023-02-15 01:48:42 INFO  - Step 12 - I open table of contents on pdf reader screen
+2023-02-15 01:48:42 INFO  - Button 'Table of content' :: Clicking
+2023-02-15 01:48:42 INFO  - Step 13 - I open content with thumbnails on pdf toc screen
+2023-02-15 01:48:43 INFO  - Button 'TOC with thumbnails' :: Clicking
+2023-02-15 01:48:45 INFO  - Step 14 - Thumbnails of the book pages are displayed
+2023-02-15 01:48:46 INFO  - Step 15 - I open random thumbnail and save the number as 'pageInfo' on pdf toc screen
+2023-02-15 01:48:46 INFO  - Label 'Thumbnail' :: Clicking
+2023-02-15 01:48:46 INFO  - Step 16 - I return to pdf reader screen from pdf toc screen
+2023-02-15 01:48:48 INFO  - Step 17 - Page number is equal to 'pageInfo' on pdf reader screen
+2023-02-15 01:48:48 INFO  - Label 'Page number' :: Getting text from element
+2023-02-15 01:48:49 INFO  - Taking screenshot
+2023-02-15 01:48:51 INFO  - Test finished - logging out
+2023-02-15 01:48:52 INFO  - Button 'tabSettings' :: Clicking
+2023-02-15 01:48:55 INFO  - Button 'tabSettings' :: Clicking
+2023-02-15 01:48:56 INFO  - Button 'Accounts' :: Clicking
+2023-02-15 01:48:57 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-15 01:48:58 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-15 01:48:59 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-15 01:48:59 INFO  - Button 'Log out' :: Clicking
+2023-02-15 01:48:59 INFO  - Button 'Log in' :: Getting text from element
+2023-02-15 01:49:14 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-15 01:49:15 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-15 01:49:15 INFO  - Unlocking credential for current thread
+2023-02-15 01:49:15 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@684c0f9e
