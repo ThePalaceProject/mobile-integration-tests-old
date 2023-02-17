@@ -1,0 +1,110 @@
+2023-02-17 04:47:31 INFO  - Scenario 'Audiobooks: Navigate by Audiobook' start
+2023-02-17 04:47:31 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-17 04:47:59 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-17 04:48:00 INFO  - Session id - c285d87bd396a6a0303301a5d1334311ad052b4b
+2023-02-17 04:48:00 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2023-02-17 04:48:00 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-17 04:48:02 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-17 04:48:02 INFO  - Button 'Search' :: Clicking
+2023-02-17 04:48:04 INFO  - Text Field 'Search' :: Clearing
+2023-02-17 04:48:04 INFO  - Text Field 'Search' :: Typing 'Palace Bookshelf'
+2023-02-17 04:48:07 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-02-17 04:48:07 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 04:48:13 INFO  - Button 'Debug options button' :: Clicking
+2023-02-17 04:48:15 INFO  - Step 1 - Enable hidden libraries
+2023-02-17 04:48:15 INFO  - Swiping from coordinates (x:720; y:2324) to (x:720; y:435)
+2023-02-17 04:48:17 INFO  - Button 'Hidden libraries button' :: Clicking
+2023-02-17 04:48:17 INFO  - Step 2 - I open Catalog
+2023-02-17 04:48:17 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-17 04:48:39 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2023-02-17 04:48:39 INFO  - Button 'Logo' :: Clicking
+2023-02-17 04:48:39 INFO  - Button 'Add library btn' :: Clicking
+2023-02-17 04:48:40 INFO  - Button 'Search' :: Clicking
+2023-02-17 04:48:42 INFO  - Text Field 'Search' :: Clearing
+2023-02-17 04:48:42 INFO  - Text Field 'Search' :: Typing 'A1QA Test Library'
+2023-02-17 04:48:45 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-02-17 04:49:06 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2023-02-17 04:49:06 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 04:49:07 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 04:49:07 INFO  - Button 'Accounts' :: Clicking
+2023-02-17 04:49:09 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2023-02-17 04:49:09 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 04:49:10 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 04:49:11 INFO  - Button 'Accounts' :: Clicking
+2023-02-17 04:49:12 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-02-17 04:49:13 INFO  - Locking credential with barcode 01230000000305
+2023-02-17 04:49:13 INFO  - There are books on the account: 
+2023-02-17 04:49:14 INFO  - bookName: Amazing Stories Volume 80 Distributor: Palace Marketplace
+2023-02-17 04:49:14 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-17 04:49:14 INFO  - bookName: Moon at the Full Distributor: Palace Marketplace
+2023-02-17 04:49:14 INFO  - bookName: European Resistance in the Second World War Distributor: Palace Marketplace
+2023-02-17 04:49:14 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-17 04:49:14 INFO  - bookName: The Apache Diaspora Distributor: Palace Marketplace
+2023-02-17 04:49:14 INFO  - bookName: Legacy of the Lions Distributor: Palace Marketplace
+2023-02-17 04:49:14 INFO  - Count of books on the account after opening account: 7
+2023-02-17 04:49:14 INFO  - Text Field 'Card' :: Clearing
+2023-02-17 04:49:14 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-17 04:49:15 INFO  - Text Field 'Pin' :: Clearing
+2023-02-17 04:49:15 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-17 04:49:18 INFO  - Button 'Log in' :: Clicking
+2023-02-17 04:49:23 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-17 04:49:23 INFO  - Step 6 - Login is performed successfully
+2023-02-17 04:49:44 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-17 04:49:45 INFO  - Step 7 - I open Catalog
+2023-02-17 04:49:45 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-17 04:50:06 INFO  - Step 8 - I open search modal
+2023-02-17 04:50:27 INFO  - Button 'Search' :: Clicking
+2023-02-17 04:50:29 INFO  - Step 9 - I search for "The Hunger Games" and save bookName as 'bookNameInfo'
+2023-02-17 04:50:29 INFO  - Error details button is not present
+2023-02-17 04:50:29 INFO  - Text Field 'Search value input' :: Sending keys 'The Hunger Games'
+2023-02-17 04:50:32 INFO  - Error details button is not present
+2023-02-17 04:50:34 INFO  - Step 10 - I switch to 'Audiobooks' catalog tab
+2023-02-17 04:50:34 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-17 04:50:55 INFO  - Step 11 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-17 04:50:55 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-17 04:50:56 INFO  - Label 'lblBookName' :: Clicking
+2023-02-17 04:50:56 INFO  - Step 12 - Click GET action button on book details screen
+2023-02-17 04:50:57 INFO  - Button 'Get' :: Clicking
+2023-02-17 04:51:03 INFO  - Step 13 - I check that book contains LISTEN action button on book details screen
+2023-02-17 04:51:04 INFO  - Step 14 - Click LISTEN action button on book details screen
+2023-02-17 04:51:05 INFO  - Button 'Listen' :: Clicking
+2023-02-17 04:51:05 INFO  - Step 15 - Audio player screen of book 'bookInfo' is opened
+2023-02-17 04:51:08 INFO  - Step 16 - Tap play button on audio player screen
+2023-02-17 04:51:08 INFO  - Button 'btnPlay' :: Clicking
+2023-02-17 04:51:13 INFO  - Step 17 - Pause button is present on audio player screen
+2023-02-17 04:51:13 INFO  - Step 18 - Tap pause button on audio player screen
+2023-02-17 04:51:14 INFO  - Button 'btnPause' :: Clicking
+2023-02-17 04:51:14 INFO  - Step 19 - Play button is present on audio player screen
+2023-02-17 04:51:15 INFO  - Step 20 - Book is not playing on audio player screen
+2023-02-17 04:51:15 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-17 04:51:18 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-17 04:51:18 INFO  - Step 21 - Tap play button on audio player screen
+2023-02-17 04:51:18 INFO  - Button 'btnPlay' :: Clicking
+2023-02-17 04:51:18 INFO  - Step 22 - Save book play time as 'timeAhead' on audio player screen
+2023-02-17 04:51:18 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-17 04:51:19 INFO  - Step 23 - Skip ahead 15 seconds on audio player screen
+2023-02-17 04:51:19 INFO  - Button 'btnSkipAhead' :: Clicking
+2023-02-17 04:51:21 INFO  - Step 24 - Playback has been moved forward by 15 seconds from 'timeAhead' seconds on audio player screen
+2023-02-17 04:51:21 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-17 04:51:22 INFO  - diff between times for move forward - 19
+2023-02-17 04:51:22 INFO  - Step 25 - Save book play time as 'timeBehind' on audio player screen
+2023-02-17 04:51:22 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-17 04:51:23 INFO  - Step 26 - Skip behind 15 seconds on audio player screen
+2023-02-17 04:51:23 INFO  - Button 'btnSkipBehind' :: Clicking
+2023-02-17 04:51:25 INFO  - Step 27 - Playback has been moved behind by 15 seconds from 'timeBehind' seconds on audio player screen
+2023-02-17 04:51:25 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-17 04:51:25 INFO  - diff between times for move behind - 13
+2023-02-17 04:51:25 INFO  - Taking screenshot
+2023-02-17 04:51:28 INFO  - Test finished - logging out
+2023-02-17 04:51:29 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 04:51:32 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 04:51:32 INFO  - Button 'Accounts' :: Clicking
+2023-02-17 04:51:33 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-02-17 04:51:36 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-17 04:51:36 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-17 04:51:37 INFO  - Button 'Log out' :: Clicking
+2023-02-17 04:51:37 INFO  - Button 'Log in' :: Getting text from element
+2023-02-17 04:51:41 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-17 04:51:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-17 04:51:42 INFO  - Unlocking credential for current thread
+2023-02-17 04:51:42 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@c43659a
