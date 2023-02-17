@@ -1,0 +1,2677 @@
+2023-02-17 00:40:15 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-02-17 00:40:15 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-17 00:40:57 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-17 00:40:57 INFO  - Session id - b58346f4af3924aac718e9389e4c485107eeedac
+2023-02-17 00:40:57 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-17 00:40:57 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-17 00:41:00 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-17 00:41:01 INFO  - Button 'Search' :: Clicking
+2023-02-17 00:41:02 INFO  - Text Field 'Search' :: Clearing
+2023-02-17 00:41:02 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-17 00:41:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-17 00:41:06 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-17 00:41:06 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:41:07 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:41:08 INFO  - Button 'Accounts' :: Clicking
+2023-02-17 00:41:10 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-17 00:41:10 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:41:11 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:41:11 INFO  - Button 'Accounts' :: Clicking
+2023-02-17 00:41:13 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-17 00:41:14 INFO  - Locking credential with barcode 01230000000305
+2023-02-17 00:41:14 INFO  - There are books on the account: 
+2023-02-17 00:41:15 INFO  - bookName: European Resistance in the Second World War Distributor: Palace Marketplace
+2023-02-17 00:41:15 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-17 00:41:15 INFO  - bookName: Amazing Stories Volume 80 Distributor: Palace Marketplace
+2023-02-17 00:41:15 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-17 00:41:15 INFO  - bookName: The Apache Diaspora Distributor: Palace Marketplace
+2023-02-17 00:41:15 INFO  - bookName: Legacy of the Lions Distributor: Palace Marketplace
+2023-02-17 00:41:15 INFO  - bookName: Moon at the Full Distributor: Palace Marketplace
+2023-02-17 00:41:15 INFO  - Count of books on the account after opening account: 7
+2023-02-17 00:41:15 INFO  - Text Field 'Card' :: Clearing
+2023-02-17 00:41:15 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-17 00:41:17 INFO  - Text Field 'Pin' :: Clearing
+2023-02-17 00:41:17 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-17 00:41:18 INFO  - Button 'Log in' :: Clicking
+2023-02-17 00:41:24 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-17 00:41:24 INFO  - Step 3 - Login is performed successfully
+2023-02-17 00:41:45 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-17 00:41:45 INFO  - Step 4 - I open Catalog
+2023-02-17 00:41:45 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-17 00:42:08 INFO  - Step 5 - I open search modal
+2023-02-17 00:42:28 INFO  - Button 'Search' :: Clicking
+2023-02-17 00:42:30 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-17 00:42:30 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-17 00:42:30 INFO  - randomBookName: True Stories of History and Biography
+2023-02-17 00:42:30 INFO  - Error details button is not present
+2023-02-17 00:42:30 INFO  - Text Field 'Search value input' :: Sending keys 'True Stories of History and Biography'
+2023-02-17 00:42:32 INFO  - Error details button is not present
+2023-02-17 00:42:36 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-17 00:42:37 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-17 00:42:39 INFO  - Button 'actionButton' :: Clicking
+2023-02-17 00:42:43 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-17 00:42:43 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-17 00:42:44 INFO  - Label 'lblBookName' :: Clicking
+2023-02-17 00:42:45 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-17 00:42:46 INFO  - Button 'Read' :: Clicking
+2023-02-17 00:42:46 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-02-17 00:42:46 INFO  - Scrolling 7 times on reader epub screen
+2023-02-17 00:43:02 INFO  - Step 11 - I save font size as 'fontSize'
+2023-02-17 00:43:02 INFO  - context - NATIVE_APP
+2023-02-17 00:43:02 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-17 00:43:04 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-17 00:43:04 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+  <head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+<title> </title><meta content="text/css" http-equiv="Content-Style-Type" /><link href="pgepub.css" type="text/css" rel="stylesheet" />
+<meta content="EpubMaker 0.3.26 &lt;https://github.com/gitenberg-dev/pg-epubmaker&gt;" name="generator" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  <body><p id="id00000">The Project Gutenberg EBook of True Stories from History and Biography by
+Nathaniel Hawthorne</p>
+
+<p id="id00001" style="margin-top: 3em">This eBook is for the use of anyone anywhere at no cost and with almost no
+restrictions whatsoever. You may copy it, give it away or re-use it under
+the terms of the Project Gutenberg License included with this eBook or
+online at http://www.gutenberg.org/license</p>
+
+<p id="id00002" style="margin-top: 3em">Title: True Stories from History and Biography</p>
+
+<p id="id00003">Author: Nathaniel Hawthorne</p>
+
+<p id="id00004">Release Date: April 2005 [Ebook #15697]</p>
+
+<p id="id00005">Language: English</p>
+
+<p id="id00006" style="margin-top: 2em">***START OF THE PROJECT GUTENBERG EBOOK TRUE STORIES FROM HISTORY AND BIOGRAPHY***</p>
+
+<p id="id00007" style="margin-top: 5em">True Stories from History and Biography<br />
+
+by Nathaniel Hawthorne<br />
+
+BOSTON:<br />
+
+TICKNOR, REED, AND FIELDS.<br />
+
+MDCCCLI.<br />
+</p>
+
+<p id="id00008">Entered according to Act of Congress, in the year 1850, by NATHANIEL<br />
+
+HAWTHORNE, in the Clerk’s Office of the District Court of the District of<br />
+
+Massachusetts.<br />
+</p>
+
+<h5 id="id00009">CAMBRIDGE:
+PRINTED BY BOLLES AND HOUGHTON.</h5>
+
+<p id="id00010" style="margin-top: 5em">                              [Frontispiece]</p>
+
+<p id="id00011" style="margin-top: 5em">Preface<br />
+
+THE WHOLE HISTORY OF GRANDFATHER’S CHAIR<br />
+
+Part I<br />
+
+   Chapter I<br />
+
+   Chapter II<br />
+
+      THE LADY ARBELLA<br />
+
+   Chapter III<br />
+
+   Chapter IV<br />
+
+   Chapter V<br />
+
+   Chapter VI<br />
+
+      THE PINE-TREE SHILLINGS<br />
+
+   Chapter VII<br />
+
+   Chapter VIII<br />
+
+      THE INDIAN BIBLE<br />
+
+   Chapter IX<br />
+
+   Chapter X<br />
+
+      THE SUNKEN TREASURE<br />
+
+   Chapter XI<br />
+
+Part II<br />
+
+   Chapter I<br />
+
+   Chapter II<br />
+
+   Chapter III<br />
+
+      THE OLD-FASHIONED SCHOOL<br />
+
+   Chapter IV<br />
+
+   Chapter VI<br />
+
+      THE REJECTED BLESSING<br />
+
+   Chapter VII<br />
+
+   Chapter VIII<br />
+
+      THE PROVINCIAL MUSTER<br />
+
+   Chapter IX<br />
+
+      THE ACADIAN EXILES<br />
+
+   Chapter X<br />
+
+   Chapter XI<br />
+
+Part III<br />
+
+   Chapter I<br />
+
+   Chapter II<br />
+
+   Chapter III<br />
+
+      THE HUTCHINSON MOB<br />
+
+   Chapter IV<br />
+
+   Chapter V<br />
+
+      THE BOSTON MASSACRE<br />
+
+   Chapter VI<br />
+
+   Chapter VII<br />
+
+   Chapter VIII<br />
+
+   Chapter IX<br />
+
+      THE TORY’S FAREWELL<br />
+
+   Chapter X<br />
+
+   Chapter XI<br />
+
+      GRANDFATHER’S DREAM<br />
+
+Biographical Stories<br />
+
+   Chapter I<br />
+
+   Chapter II<br />
+
+      BENJAMIN WEST<br />
+
+   Chapter III<br />
+
+      SIR ISAAC NEWTON<br />
+
+   Chapter IV<br />
+
+      SAMUEL JOHNSON<br />
+
+   Chapter V<br />
+
+      SAMUEL JOHNSON—CONTINUED.<br />
+
+   Chapter VI<br />
+
+      OLIVER CROMWELL<br />
+
+   Chapter VII<br />
+
+      BENJAMIN FRANKLIN<br />
+
+   Chapter VIII<br />
+
+      BENJAMIN FRANKLIN—CONTINUED<br />
+
+   Chapter IX<br />
+
+      QUEEN CHRISTINA<br />
+</p>
+
+<h1 id="id00012" style="margin-top: 5em">PREFACE</h1>
+
+<p id="id00013" style="margin-top: 2em">In writing this ponderous tome, the author’s desire has been to describe
+the eminent characters and remarkable events of our annals, in such a form
+and style, that the YOUNG might make acquaintance with them of their own
+accord. For this purpose, while ostensibly relating the adventures of a
+Chair, he has endeavored to keep a distinct and unbroken thread of
+authentic history. The Chair is made to pass from one to another of those
+personages, of whom he thought it most desirable for the young reader to
+have vivid and familiar ideas, and whose lives and actions would best
+enable him to give picturesque sketches of the times. On its sturdy oaken
+legs, it trudges diligently from one scene to another, and seems always to
+thrust itself in the way, with most benign complacency, whenever a
+historical personage happens to be looking round for a seat.</p>
+
+<p id="id00014">There is certainly no method, by which the shadowy outlines of departed
+men and women can he made to assume the hues of life more effectually,
+than by connecting their images with the substantial and homely reality of
+a fireside chair. It causes us to feel at once, that these characters of
+history had a private and familiar existence, and were not wholly
+contained within that cold array of outward action, which we are compelled
+to receive as the adequate representation of their lives. If this
+impression can be given, much is accomplished.</p>
+
+<p id="id00015">Setting aside Grandfather and his auditors, and excepting the adventures
+of the Chair, which form the machinery of the work, nothing in the ensuing
+pages can be termed fictitious. The author, it is true, has sometimes
+assumed the license of filling up the outline of history with details, for
+which he has none but imaginative authority, but which, he hopes, do not
+violate nor give a false coloring to the truth. He believes that, in this
+respect, his narrative will not be found to convey ideas and impressions,
+of which the reader may hereafter find it necessary to purge his mind.</p>
+
+<p id="id00016">The author’s great doubt is, whether he has succeeded in writing a book
+which will be readable by the class for whom he intends it. To make a
+lively and entertaining narrative for children, with such unmalleable
+material as is presented by the sombre, stern, and rigid characteristics
+of the Puritans and their descendants, is quite as difficult an attempt,
+as to manufacture delicate playthings out of the granite rocks on which
+New England is founded.</p>
+
+<h1 id="id00017" style="margin-top: 6em">                 THE WHOLE HISTORY OF GRANDFATHER’S CHAIR</h1>
+
+<h4 id="id00018" style="margin-top: 2em">                         COMPLETE IN THREE PARTS.</h4>
+
+<h1 id="id00019" style="margin-top: 5em">PART I</h1>
+
+<h2 id="id00020" style="margin-top: 4em">Chapter I</h2>
+
+<p id="id00021" style="margin-top: 2em">Grandfather had been sitting in his old arm-chair, all that pleasant
+afternoon, while the children were pursuing their various sports, far off
+or near at hand. Sometimes you would have said, "Grandfather is asleep;"
+but still, even when his eyes were closed, his thoughts were with the
+young people, playing among the flowers and shrubbery of the garden.</p>
+
+<p id="id00022">He heard the voice of Laurence, who had taken possession of a heap of
+decayed branches which the gardener had lopped from the fruit trees, and
+was building a little hut for his cousin Clara and himself. He heard
+Clara’s gladsome voice, too, as she weeded and watered the flower-bed
+which had been given her for her own. He could have counted every footstep
+that Charley took, as he trundled his wheelbarrow along the gravel walk.
+And though Grandfather was old and gray-haired, yet his heart leaped with
+joy whenever little Alice came fluttering, like a butterfly, into the
+room. She had made each of the children her playmate in turn, and now made
+Grandfather her playmate too, and thought him the merriest of them all.</p>
+
+<p id="id00023">At last the children grew weary of their sports; because a summer
+afternoon is like a long lifetime to the young. So they came into the room
+together, and clustered round Grandfather’s great chair. Little Alice, who
+was hardly five years old, took the privilege of the youngest, and climbed
+his knee. It was a pleasant thing to behold that fair and golden-haired
+child in the lap of the old man, and to think that, different as they
+were, the hearts of both could be gladdened with the same joys.</p>
+
+<p id="id00024">"Grandfather," said little Alice, laying her head back upon his arm, "I am
+very tired now. You must tell me a story to make me go to sleep."</p>
+
+<p id="id00025">"That is not what story-tellers like," answered Grandfather, smiling.<br />
+
+"They are better satisfied when they can keep their auditors awake."<br />
+</p>
+
+<p id="id00026">"But here are Laurence, and Charley, and I," cried cousin Clara, who was
+twice as old as little Alice. "We will all three keep wide awake. And
+pray, Grandfather, tell us a story about this strange-looking old chair."</p>
+
+<p id="id00027">Now, the chair in which Grandfather sat was made of oak, which had grown
+dark with age, but had been rubbed and polished till it shone as bright as
+mahogany. It was very large and heavy, and had a back that rose high above
+Grandfather’s white head. This back was curiously carved in open work, so
+as to represent flowers and foliage and other devices; which the children
+had often gazed at, but could never understand what they meant. On the
+very tiptop of the chair, over the head of Grandfather himself, was a
+likeness of a lion’s head, which had such a savage grin that you would
+almost expect to hear it growl and snarl.</p>
+
+<p id="id00028">The children had seen Grandfather sitting in this chair ever since they
+could remember any thing. Perhaps the younger of them supposed that he and
+the chair had come into the world together, and that both had always been
+as old as they were now. At this time, however, it happened to be the
+fashion for ladies to adorn their drawing-rooms with the oldest and oddest
+chairs that could be found. It seemed to cousin Clara that if these ladies
+could have seen Grandfather’s old chair, they would have thought it worth
+all the rest together. She wondered if it were not even older than
+Grandfather himself, and longed to know all about its history.</p>
+
+<p id="id00029">"Do, Grandfather, talk to us about this chair," she repeated.</p>
+
+<p id="id00030">"Well, child," said Grandfather, patting Clara’s cheek, "I can tell you a
+great many stories of my chair. Perhaps your cousin Laurence would like to
+hear them too. They would teach him something about the history and
+distinguished people of his country, which he has never read in any of his
+school-books."</p>
+
+<p id="id00031">Cousin Laurence was a boy of twelve, a bright scholar, in whom an early
+thoughtfulness and sensibility began to show themselves. His young fancy
+kindled at the idea of knowing all the adventures of this venerable chair.
+He looked eagerly in Grandfather’s face; and even Charley, a bold, brisk,
+restless little fellow of nine, sat himself down on the carpet, and
+resolved to be quiet for at least ten minutes, should the story last so
+long.</p>
+
+<p id="id00032">Meantime, little Alice was already asleep; so Grandfather, being much
+pleased with such an attentive audience, began to talk about matters that
+had happened long ago.</p>
+
+<h2 id="id00033" style="margin-top: 4em">Chapter II</h2>
+
+<p id="id00034" style="margin-top: 2em">But, before relating the adventures of the chair, Grandfather found it
+necessary to speak of the circumstances that caused the first settlement
+of New England. For it will soon be perceived that the story of this
+remarkable chair cannot be told without telling a great deal of the
+history of the country.</p>
+
+<p id="id00035">So, Grandfather talked about the Puritans, as those persons were called
+who thought it sinful to practise the religious forms and ceremonies which
+the Church of England had borrowed from the Roman Catholics. These
+Puritans suffered so much persecution in England that, in 1607, many of
+them went over to Holland, and lived ten or twelve years at Amsterdam and
+Leyden. But they feared that, if they continued there much longer, they
+should cease to be English, and should adopt all the manners and ideas and
+feelings of the Dutch. For this and other reasons, in the year 1620, they
+embarked on board of the ship Mayflower, and crossed the ocean to the
+shores of Cape Cod. There they made a settlement, and called it Plymouth;
+which, though now a part of Massachusetts, was for a long time a colony by
+itself. And thus was formed the earliest settlement of the Puritans in
+America.</p>
+
+<p id="id00036">Meantime, those of the Puritans who remained in England continued to
+suffer grievous persecution on account of their religious opinions. They
+began to look around them for some spot where they might worship God, not
+as the king and bishops thought fit, but according to the dictates of
+their own consciences. When their brethren had gone from Holland to
+America, they bethought themselves that they likewise might find refuge
+from persecution there. Several gentlemen among them purchased a tract of
+country on the coast of Massachusetts Bay, and obtained a charter from
+King Charles, which authorized them to make laws for the settlers. In the
+year 1628, they sent over a few people, with John Endicott at their head,
+to commence a plantation at Salem. Peter Palfrey, Roger Conant, and one or
+two more, had built houses there in 1626, and may be considered as the
+first settlers of that ancient town. Many other Puritans prepared to
+follow Endicott.</p>
+
+<p id="id00037">"And now we come to the chair, my dear children," said Grandfather. "This
+chair is supposed to have been made of an oak tree which grew in the park
+of the English earl of Lincoln, between two and three centuries ago. In
+its younger days it used, probably, to stand in the hall of the earl’s
+castle. Do not you see the coat of arms of the family of Lincoln, carved
+in the open work of the back? But when his daughter, the Lady Arbella, was
+married to a certain Mr. Johnson, the earl gave her this valuable chair."</p>
+
+<p id="id00038">"Who was Mr. Johnson?" inquired Clara.</p>
+
+<p id="id00039">"He was a gentleman of great wealth, who agreed with the Puritans in their
+religious opinions," answered Grandfather. "And as his belief was the same
+as theirs, he resolved that he would live and die with them. Accordingly,
+in the month of April, 1630, he left his pleasant abode and all his
+comforts in England, and embarked with the Lady Arbella, on board of a
+ship bound for America."</p>
+
+<p id="id00040">As Grandfather was frequently impeded by the questions and observations of
+his young auditors, we deem it advisable to omit all such prattle as is
+not essential to the story. We have taken some pains to find out exactly
+what Grandfather said, and here offer to our readers, as nearly as
+possible in his own words, the story of</p>
+
+<h3 id="id00041" style="margin-top: 3em">THE LADY ARBELLA</h3>
+
+<p id="id00042" style="margin-top: 2em">The ship in which Mr. Johnson and his lady embarked, taking Grandfather’s
+chair along with them, was called the Arbella, in honor of the lady
+herself. A fleet of ten or twelve vessels, with many hundred passengers,
+left England about the same time; for a multitude of people, who were
+discontented with the king’s government and oppressed by the bishops, were
+flocking over to the new world. One of the vessels in the fleet was that
+same Mayflower which had carried the Puritan pilgrims to Plymouth. And
+now, my children, I would have you fancy yourselves in the cabin of the
+good ship Arbella; because if you could behold the passengers aboard that
+vessel, you would feel what a blessing and honor it was for New England to
+have such settlers. They were the best men and women of their day.</p>
+
+<p id="id00043">Among the passengers was John Winthrop, who had sold the estate of his
+forefathers, and was going to prepare a new home for his wife and children
+in the wilderness. He had the king’s charter in his keeping, and was
+appointed the first Governor of Massachusetts. Imagine him a person of
+grave and benevolent aspect, dressed in a black velvet suit, with a broad
+ruff around his neck and a peaked beard upon his chin. There was likewise
+a minister of the Gospel, whom the English bishops had forbidden to
+preach, but who knew that he should have liberty both to preach and pray
+in the forests of America. He wore a black cloak, called a Geneva cloak,
+and had a black velvet cap, fitting close to his head, as was the fashion
+of almost all the Puritan clergymen. In their company came Sir Richard
+Saltonstall, who had been one of the five first projectors of the new
+colony. He soon returned to his native country. But his descendants still
+remain in New England; and the good old family name is as much respected
+in our days as it was in those of Sir Richard.</p>
+
+<p id="id00044">Not only these, but several other men of wealth and pious ministers, were
+in the cabin of the Arbella. One had banished himself for ever from the
+old hall where his ancestors had lived for hundreds of years. Another had
+left his quiet parsonage, in a country town of England. Others had come
+from the universities of Oxford or Cambridge, where they had gained great
+fame for their learning. And here they all were, tossing upon the
+uncertain and dangerous sea, and bound for a home that was more dangerous
+than even the sea itself. In the cabin, likewise, sat the Lady Arbella in
+her chair, with a gentle and sweet expression on her face, but looking too
+pale and feeble to endure the hardships of the wilderness.</p>
+
+<p id="id00045">Every morning and evening the Lady Arbella gave up her great chair to one
+of the ministers, who took his place in it and read passages from the
+Bible to his companions. And thus, with prayers and pious conversation,
+and frequent singing of hymns, which the breezes caught from their lips
+and scattered far over the desolate waves, they prosecuted their voyage,
+and sailed into the harbor of Salem in the month of June.</p>
+
+<p id="id00046">At that period there were but six or eight dwellings in the town; and
+these were miserable hovels, with roofs of straw and wooden chimneys. The
+passengers in the fleet either built huts with bark and branches of trees,
+or erected tents of cloth till they could provide themselves with better
+shelter. Many of them went to form a settlement at Charlestown. It was
+thought fit that the Lady Arbella should tarry in Salem for a time; she
+was probably received as a guest into the family of John Endicott. He was
+the chief person in the plantation, and had the only comfortable house
+which the new comers had beheld since they left England. So now, children,
+you must imagine Grandfather’s chair in the midst of a new scene.</p>
+
+<p id="id00047">Suppose it a hot summer’s day, and the lattice-windows of a chamber in Mr.
+Endicott’s house thrown wide open. The Lady Arbella, looking paler than
+she did on shipboard, is sitting in her chair, and thinking mournfully of
+far-off England. She rises and goes to the window. There, amid patches of
+garden ground and cornfield, she sees the few wretched hovels of the
+settlers, with the still ruder wigwams and cloth tents of the passengers
+who had arrived in the same fleet with herself. Far and near stretches the
+dismal forest of pine trees, which throw their black shadows over the
+whole land, and likewise over the heart of this poor lady.</p>
+
+<p id="id00048">All the inhabitants of the little village are busy. One is clearing a spot
+on the verge of the forest for his homestead; another is hewing the trunk
+of a fallen pine tree, in order to build himself a dwelling; a third is
+hoeing in his field of Indian corn. Here comes a huntsman out of the
+woods, dragging a bear which he has shot, and shouting to the neighbors to
+lend him a hand. There goes a man to the sea-shore, with a spade and a
+bucket, to dig a mess of clams, which were a principal article of food
+with the first settlers. Scattered here and there are two or three dusky
+figures, clad in mantles of fur, with ornaments of bone hanging from their
+ears, and the feathers of wild birds in their coal black hair. They have
+belts of shell-work slung across their shoulders, and are armed with bows
+and arrows and flint-headed spears. These are an Indian Sagamore and his
+attendants, who have come to gaze at the labors of the white men. And now
+rises a cry, that a pack of wolves have seized a young calf in the
+pasture; and every man snatches up his gun or pike, and runs in chase of
+the marauding beasts.</p>
+
+<p id="id00049">Poor Lady Arbella watches all these sights, and feels that this new world
+is fit only for rough and hardy people. None should be here but those who
+can struggle with wild beasts and wild men, and can toil in the heat or
+cold, and can keep their hearts firm against all difficulties and dangers.
+But she is not one of these. Her gentle and timid spirit sinks within her;
+and turning away from the window she sits down in the great chair, and
+wonders thereabouts in the wilderness her friends will dig her grave.</p>
+
+<p id="id00050">Mr. Johnson had gone, with Governor Winthrop and most of the other
+passengers, to Boston, where he intended to build a house for Lady Arbella
+and himself. Boston was then covered with wild woods, and had fewer
+inhabitants even than Salem. During her husband’s absence, poor Lady
+Arbella felt herself growing ill, and was hardly able to stir from the
+great chair. Whenever John Endicott noticed her despondency, he doubtless
+addressed her with words of comfort. "Cheer up, my good lady!" he would
+say. "In a little time, you will love this rude life of the wilderness as
+I do." But Endicott’s heart was as bold and resolute as iron, and he could
+not understand why a woman’s heart should not be of iron too.</p>
+
+<p id="id00051">Still, however, he spoke kindly to the lady, and then hastened forth to
+till his corn-field and set out fruit trees, or to bargain with the
+Indians for furs, or perchance to oversee the building of a fort. Also
+being a magistrate, he had often to punish some idler or evil-doer, by
+ordering him to be set in the stocks or scourged at the whipping-post.
+Often, too, as was the custom of the times, he and Mr. Higginson, the
+minister of Salem, held long religious talks together. Thus John Endicott
+was a man of multifarious business, and had no time to look back
+regretfully to his native land. He felt himself fit for the new world, and
+for the work that he had to do, and set himself resolutely to accomplish
+it.</p>
+
+<p id="id00052">What a contrast, my dear children, between this bold, rough, active man,
+and the gentle Lady Arbella, who was fading away, like a pale English
+flower, in the shadow of the forest! And now the great chair was often
+empty, because Lady Arbella grew too weak to arise from bed.</p>
+
+<p id="id00053">Meantime, her husband had pitched upon a spot for their new home. He
+returned from Boston to Salem, travelling through the woods on foot, and
+leaning on his pilgrim’s staff. His heart yearned within him; for he was
+eager to tell his wife of the new home which he had chosen. But when he
+beheld her pale and hollow cheek, and found how her strength was wasted,
+he must have known that her appointed home was in a better land. Happy for
+him then,—happy both for him and her,—if they remembered that there was a
+path to heaven, as well from this heathen wilderness as from the Christian
+land whence they had come. And so, in one short month from her arrival,
+the gentle Lady Arbella faded away and died. They dug a grave for her in
+the new soil, where the roots of the pine trees impeded their spades; and
+when her bones had rested there nearly two hundred years, and a city had
+sprung up around them, a church of stone was built upon the spot.</p>
+
+<p id="id00054" style="margin-top: 3em">Charley, almost at the commencement of the foregoing narrative, had
+galloped away with a prodigious clatter, upon Grandfather’s stick, and was
+not yet returned. So large a boy should have been ashamed to ride upon a
+stick. But Laurence and Clara had listened attentively, and were affected
+by this true story of the gentle lady, who had come so far to die so soon.
+Grandfather had supposed that little Alice was asleep, but, towards the
+close of the story, happening to look down upon her, he saw that her blue
+eyes were wide open, and fixed earnestly upon his face. The tears had
+gathered in them, like dew upon a delicate flower; but when Grandfather
+ceased to speak, the sunshine of her smile broke forth again.</p>
+
+<p id="id00055">"O, the lady must have been so glad to get to heaven!" exclaimed little<br />
+
+Alice.<br />
+</p>
+
+<p id="id00056">"Grandfather, what became of Mr. Johnson?" asked Clara.</p>
+
+<p id="id00057">"His heart appears to have been quite broken," answered Grandfather; "for
+he died at Boston within a month after the death of his wife. He was
+buried in the very same tract of ground, where he had intended to build a
+dwelling for Lady Arbella and himself. Where their house would have stood
+there was his grave.</p>
+
+<p id="id00058">"I never heard any thing so melancholy!" said Clara.</p>
+
+<p id="id00059">"The people loved and respected Mr. Johnson so much," continued
+Grandfather, "that it was the last request of many of them, when they
+died, that they might be buried as near as possible to this good man’s
+grave. And so the field became the first burial-ground in Boston. When you
+pass through Tremont street, along by King’s Chapel, you see a
+burial-ground, containing many old grave-stones and monuments. That was
+Mr. Johnson’s field."</p>
+
+<p id="id00060">"How sad is the thought," observed Clara, "that one of the first things
+which the settlers had to do, when they came to the new world, was to set
+apart a burial-ground!"</p>
+
+<p id="id00061">"Perhaps," said Laurence, "if they had found no need of burial-grounds
+here, they would have been glad, after a few years, to go back to
+England."</p>
+
+<p id="id00062">Grandfather looked at Laurence, to discover whether he knew how profound
+and true a thing he had said.</p>
+
+<h2 id="id00063" style="margin-top: 4em">Chapter III</h2>
+
+<p id="id00064" style="margin-top: 2em">Not long after Grandfather had told the story of his great chair, there
+chanced to be a rainy day. Our friend Charley, after disturbing the
+household with beat of drum and riotous shouts, races up and down the
+staircase, overturning of chairs, and much other uproar, began to feel the
+quiet and confinement within doors intolerable. But as the rain came down
+in a flood, the little fellow was hopelessly a prisoner, and now stood
+with sullen aspect at a window, wondering whether the sun itself were not
+extinguished by so much moisture in the sky.</p>
+
+<p id="id00065">Charley had already exhausted the less eager activity of the other
+children; and they had betaken themselves to occupations that did not
+admit of his companionship. Laurence sat in a recess near the book-case,
+reading, not for the first time, the Midsummer Night’s Dream. Clara was
+making a rosary of beads for a little figure of a Sister of Charity, who
+was to attend the Bunker Hill Fair, and lend her aid in erecting the
+Monument. Little Alice sat on Grandfather’s foot-stool, with a
+picture-book in her hand; and, for every picture, the child was telling
+Grandfather a story. She did not read from the book, (for little Alice had
+not much skill in reading,) but told the story out of her own heart and
+mind.</p>
+
+<p id="id00066">Charley was too big a boy, of course, to care any thing about little
+Alice’s stories, although Grandfather appeared to listen with a good deal
+of interest. Often, in a young child’s ideas and fancies, there is
+something which it requires the thought of a lifetime to comprehend. But
+Charley was of opinion, that if a story must be told, it had better be
+told by Grandfather, than little Alice.</p>
+
+<p id="id00067">"Grandfather, I want to hear more about your chair," said he.</p>
+
+<p id="id00068">Now Grandfather remembered that Charley had galloped away upon a stick, in
+the midst of the narrative of poor Lady Arbella, and I know not whether he
+would have thought it worth while to tell another story, merely to gratify
+such an inattentive auditor as Charley. But Laurence laid down his book
+and seconded the request. Clara drew her chair nearer to Grandfather, and
+little Alice immediately closed her picture-book, and looked up into his
+face. Grandfather had not the heart to disappoint them.</p>
+
+<p id="id00069">He mentioned several persons who had a share in the settlement of our
+country, and who would be well worthy of remembrance, if we could find
+room to tell about them all. Among the rest, Grandfather spoke of the
+famous Hugh Peters, a minister of the gospel, who did much good to the
+inhabitants of Salem. Mr. Peters afterwards went back to England, and was
+chaplain to Oliver Cromwell; but Grandfather did not tell the children
+what became of this upright and zealous man, at last. In fact, his
+auditors were growing impatient to hear more about the history of the
+chair.</p>
+
+<p id="id00070">"After the death of Mr. Johnson," said he, "Grandfather’s chair came into
+the possession of Roger Williams. He was a clergyman, who arrived at
+Salem, and settled there in 1631. Doubtless the good man has spent many a
+studious hour in this old chair, either penning a sermon, or reading some
+abstruse book of theology, till midnight came upon him unawares. At that
+period, as there were few lamps or candles to be had, people used to read
+or work by the light of pitchpine torches. These supplied the place of the
+"midnight oil," to the learned men of New England."</p>
+
+<p id="id00071">Grandfather went on to talk about Roger Williams, and told the children
+several particulars, which we have not room to repeat. One incident,
+however, which was connected with his life, must be related, because it
+will give the reader an idea of the opinions and feelings of the first
+settlers of New England. It was as follows:</p>
+
+<h3 id="id00072" style="margin-top: 3em">THE RED CROSS</h3>
+
+<p id="id00073" style="margin-top: 2em">While Roger Williams sat in Grandfather’s chair, at his humble residence
+in Salem, John Endicott would often come to visit him. As the clergy had
+great influence in temporal concerns, the minister and magistrate would
+talk over the occurrences of the day, and consult how the people might be
+governed according to scriptural laws.</p>
+
+<p id="id00074">One thing especially troubled them both. In the old national banner of
+England, under which her soldiers have fought for hundreds of years, there
+is a Red Cross, which has been there ever since the days when England was
+in subjection to the Pope. The Cross, though a holy symbol, was abhorred
+by the Puritans, because they considered it a relic of Popish idolatry.
+Now, whenever the train-band of Salem was mustered, the soldiers, with
+Endicott at their head, had no other flag to march under than this same
+old papistical banner of England, with the Red Cross in the midst of it.
+The banner of the Red Cross, likewise, was flying on the walls of the fort
+of Salem; and a similar one was displayed in Boston harbor, from the
+fortress on Castle Island.</p>
+
+<p id="id00075">"I profess, brother Williams," Captain Endicott would say, after they had
+been talking of this matter, "it distresses a Christian man’s heart, to
+see this idolatrous Cross flying over our heads. A stranger beholding it,
+would think that we had undergone all our hardships and dangers, by sea
+and in the wilderness, only to get new dominions for the Pope of Rome."</p>
+
+<p id="id00076">"Truly, good Mr. Endicott," Roger Williams would answer, "you speak as an
+honest man and Protestant Christian should. For mine own part, were it my
+business to draw a sword, I should reckon it sinful to fight under such a
+banner. Neither can I, in my pulpit, ask the blessing of Heaven upon it."</p>
+
+<p id="id00077">Such, probably, was the way in which Roger Williams and John Endicott used
+to talk about the banner of the Red Cross. Endicott, who was a prompt and
+resolute man, soon determined that Massachusetts, if she could not have a
+banner of her own, should at least be delivered from that of the Pope of
+Rome.</p>
+
+<p id="id00078">Not long afterwards there was a military muster at Salem. Every
+able-bodied man, in the town and neighborhood, was there. All were well
+armed, with steel caps upon their heads, plates of iron upon their breasts
+and at their backs, and gorgets of steel around their necks. When the sun
+shone upon these ranks of iron-clad men, they flashed and blazed with a
+splendor that bedazzled the wild Indians, who had come out of the woods to
+gaze at them. The soldiers had long pikes, swords, and muskets, which were
+fired with matches, and were almost as heavy as a small cannon.</p>
+
+<p id="id00079">These men had mostly a stern and rigid aspect. To judge by their looks,
+you might have supposed that there was as much iron in their hearts, as
+there was upon their heads and breasts. They were all devoted Puritans,
+and of the same temper as those with whom Oliver Cromwell afterwards
+overthrew the throne of England. They hated all the relics of Popish
+superstition as much as Endicott himself; and yet, over their heads, was
+displayed the banner of the Red Cross.</p>
+
+<p id="id00080">Endicott was the captain of the company. While the soldiers were expecting
+his orders to begin their exercise, they saw him take the banner in one
+hand, holding his drawn sword in the other. Probably he addressed them in
+a speech, and explained how horrible a thing it was, that men, who had
+fled from Popish idolatry into the wilderness, should be compelled to
+fight under its symbols here. Perhaps he concluded his address somewhat in
+the following style.</p>
+
+<p id="id00081">"And now, fellow soldiers, you see this old banner of England. Some of
+you, I doubt not, may think it treason for a man to lay violent hands upon
+it. But whether or no it be treason to man, I have good assurance in my
+conscience that it is no treason to God. Wherefore I have resolved that we
+will rather be God’s soldiers, than soldiers of the Pope of Rome; and in
+that mind I now cut the Papal Cross out of this banner."</p>
+
+<p id="id00082">And so he did. And thus, in a province belonging to the crown of England,
+a captain was found bold enough to deface the King’s banner with his
+sword.</p>
+
+<p id="id00083">When Winthrop, and the other wise men of Massachusetts, heard of it, they
+were disquieted, being afraid that Endicott’s act would bring great
+trouble upon himself and them. An account of the matter was carried to
+King Charles; but he was then so much engrossed by dissensions with his
+people, that he had no leisure to punish the offender. In other times, it
+might have cost Endicott his life, and Massachusetts her charter.</p>
+
+<p id="id00084" style="margin-top: 3em">"I should like to know, Grandfather," said Laurence, when the story was
+ended, "whether, when Endicott cut the Red Cross out of the banner, he
+meant to imply that Massachusetts was independent of England?"</p>
+
+<p id="id00085">"A sense of the independence of his adopted country, must have been in
+that bold man’s heart," answered Grandfather; "but I doubt whether he had
+given the matter much consideration, except in its religious bearing.
+However, it was a very remarkable affair, and a very strong expression of
+Puritan character."</p>
+
+<p id="id00086">Grandfather proceeded to speak further of Roger Williams, and of other
+persons who sat in the great chair, as will be seen in the following
+chapter.</p>
+
+<h2 id="id00087" style="margin-top: 4em">Chapter IV</h2>
+
+<p id="id00088" style="margin-top: 2em">"Roger Williams," said Grandfather, "did not keep possession of the chair
+a great while. His opinions of civil and religious matters differed, in
+many respects, from those of the rulers and clergymen of Massachusetts.
+Now the wise men of those days believed, that the country could not be
+safe, unless all the inhabitants thought and felt alike."</p>
+
+<p id="id00089">"Does any body believe so in our days Grandfather?" asked Laurence.</p>
+
+<p id="id00090">"Possibly there are some who believe it," said Grandfather; "but they have
+not so much power to act upon their belief, as the magistrates and
+ministers had, in the days of Roger Williams. They had the power to
+deprive this good man of his home, and to send him out from the midst of
+them, in search of a new place of rest. He was banished in 1634, and went
+first to Plymouth colony; but as the people there held the same opinions
+as those of Massachusetts, he was not suffered to remain among them.
+However, the wilderness was wide enough; so Roger Williams took his staff
+and travelled into the forest, and made treaties with the Indians, and
+began a plantation which he called Providence."</p>
+
+<p id="id00091">"I have been to Providence on the railroad," said Charley. "It is but a
+two hours’ ride."</p>
+
+<p id="id00092">"Yes, Charley," replied Grandfather; "but when Roger Williams travelled
+thither, over hills and valleys, and through the tangled woods, and across
+swamps and streams, it was a journey of several days. Well; his little
+plantation is now grown to be a populous city; and the inhabitants have a
+great veneration for Roger Williams. His name is familiar in the mouths of
+all because they see it on their bank bills. How it would have perplexed
+this good clergyman, if he had been told that he should give his name to
+the ROGER WILLIAMS BANK!"</p>
+
+<p id="id00093">"When he was driven from Massachusetts," said Laurence, "and began his
+journey into the woods, he must have felt as if he were burying himself
+forever from the sight and knowledge of men. Yet the whole country has now
+heard of him, and will remember him forever."</p>
+
+<p id="id00094">"Yes," answered Grandfather, "it often happens, that the outcasts of one
+generation are those, who are reverenced as the wisest and best of men by
+the next. The securest fame is that which comes after a man’s death. But
+let us return to our story. When Roger Williams was banished, he appears
+to have given the chair to Mrs. Anne Hutchinson. At all events it was in
+her possession in 1637. She was a very sharp-witted and well-instructed
+lady, and was so conscious of her own wisdom and abilities, that she
+thought it a pity that the world should not have the benefit of them. She
+therefore used to hold lectures in Boston, once or twice a week, at which
+most of the women attended. Mrs. Hutchinson presided at these meetings,
+sitting, with great state and dignity, in Grandfather’s chair."</p>
+
+<p id="id00095">"Grandfather, was it positively this very chair?" demanded Clara, laying
+her hand upon its carved elbow.</p>
+
+<p id="id00096">"Why not, my dear Clara?" said Grandfather. "Well; Mrs. Hutchinson’s
+lectures soon caused a great disturbance; for the ministers of Boston did
+not think it safe and proper, that a woman should publicly instruct the
+people in religious doctrines. Moreover, she made the matter worse, by
+declaring that the Rev. Mr. Cotton was the only sincerely pious and holy
+clergyman in New England. Now the clergy of those days had quite as much
+share in the government of the country, though indirectly, as the
+magistrates themselves; so you may imagine what a host of powerful enemies
+were raised up against Mrs. Hutchinson. A synod was convened; that is to
+say, an assemblage of all the ministers in Massachusetts. They declared
+that there were eighty-two erroneous opinions on religious subjects,
+diffused among the people, and that Mrs. Hutchinson’s opinions were of the
+number."</p>
+
+<p id="id00097">"If they had eighty-two wrong opinions," observed Charley, "I don’t see
+how they could have any right ones."</p>
+
+<p id="id00098">"Mrs. Hutchinson had many zealous friends and converts," continued
+Grandfather. "She was favored by young Henry Vane, who had come over from
+England a year or two before, and had since been chosen governor of the
+colony, at the age of twenty-four. But Winthrop, and most of the other
+leading men, as well as the ministers, felt an abhorrence of her
+doctrines. Thus two opposite parties were formed; and so fierce were the
+dissensions, that it was feared the consequence would be civil war and
+bloodshed. But Winthrop and the ministers being the most powerful, they
+disarmed and imprisoned Mrs. Hutchinson’s adherents. She, like Roger
+Williams, was banished."</p>
+
+<p id="id00099">"Dear Grandfather, did they drive the poor woman into the woods?"
+exclaimed little Alice, who contrived to feel a human interest even in
+these discords of polemic divinity.</p>
+
+<p id="id00100">"They did, my darling," replied Grandfather; "and the end of her life was
+so sad, you must not hear it. At her departure, it appears from the best
+authorities, that she gave the great chair to her friend, Henry Vane. He
+was a young man of wonderful talents and great learning, who had imbibed
+the religious opinions of the Puritans, and left England with the
+intention of spending his life in Massachusetts. The people chose him
+governor; but the controversy about Mrs. Hutchinson, and other troubles,
+caused him to leave the country in 1637. You may read the subsequent
+events of his life in the History of England."</p>
+
+<p id="id00101">"Yes, Grandfather," cried Laurence; "and we may read them better in Mr.
+Upham’s biography of Vane. And what a beautiful death he died, long
+afterwards! beautiful, though it was on a scaffold."</p>
+
+<p id="id00102">"Many of the most beautiful deaths have been there," said Grandfather.
+"The enemies of a great and good man can in no other way make him so
+glorious, as by giving him the crown of martyrdom."</p>
+
+<p id="id00103">In order that the children might fully understand the all-important
+history of the chair, Grandfather now thought fit to speak of the progress
+that was made in settling several colonies. The settlement of Plymouth, in
+1620, has already been mentioned. In 1635, Mr. Hooker and Mr. Stone, two
+ministers, went on foot from Massachusetts to Connecticut, through the
+pathless woods, taking their whole congregation along with them. They
+founded the town of Hartford. In 1638, Mr. Davenport, a very celebrated
+minister, went, with other people, and began a plantation at New Haven. In
+the same year, some persons who had been persecuted in Massachusetts, went
+to the Isle of Rhodes, since called Rhode Island, and settled there. About
+this time, also, many settlers had gone to Maine, and were living without
+any regular government. There were likewise settlers near Piscataqua
+River, in the region which is now called New Hampshire.</p>
+
+<p id="id00104">Thus, at various points along the coast of New England, there were
+communities of Englishmen. Though these communities were independent of
+one another, yet they had a common dependence upon England; and, at so
+vast a distance from their native home, the inhabitants must all have felt
+like brethren. They were fitted to become one united people, at a future
+period. Perhaps their feelings of brotherhood were the stronger, because
+different nations had formed settlements to the north and to the south. In
+Canada and Nova Scotia were colonies of French. On the banks of the Hudson
+River was a colony of Dutch, who had taken possession of that region many
+years before, and called it New Netherlands.</p>
+
+<p id="id00105">Grandfather, for aught I know, might have gone on to speak of Maryland and
+Virginia; for the good old gentleman really seemed to suppose, that the
+whole surface of the United States was not too broad a foundation to place
+the four legs of his chair upon. But, happening to glance at Charley, he
+perceived that this naughty boy was growing impatient, and meditating
+another ride upon a stick. So here, for the present, Grandfather suspended
+the history of his chair.</p>
+
+<h2 id="id00106" style="margin-top: 4em">Chapter V</h2>
+
+<p id="id00107" style="margin-top: 2em">The Children had now learned to look upon the chair with an interest,
+which was almost the same as if it were a conscious being, and could
+remember the many famous people whom it had held within its arms.</p>
+
+<p id="id00108">Even Charley, lawless as he was, seemed to feel that this venerable chair
+must not be clambered upon nor overturned, although he had no scruple in
+taking such liberties with every other chair in the house. Clara treated
+it with still greater reverence, often taking occasion to smooth its
+cushion, and to brush the dust from the carved flowers and grotesque
+figures of its oaken back and arms. Laurence would sometimes sit a whole
+hour, especially at twilight, gazing at the chair, and, by the spell of
+his imaginations, summoning up its ancient occupants to appear in it
+again.</p>
+
+<p id="id00109">Little Alice evidently employed herself in a similar way; for once, when
+Grandfather had gone abroad, the child was heard talking with the gentle
+Lady Arbella, as if she were still sitting in the chair. So sweet a child
+as little Alice may fitly talk with angels, such as the Lady Arbella had
+long since become.</p>
+
+<p id="id00110">Grandfather was soon importuned for more stories about the chair. He had
+no difficulty in relating them; for it really seemed as if every person,
+noted in our early history, had, on some occasion or other, found repose
+within its comfortable arms. If Grandfather took pride in any thing, it
+was in being the possessor of such an honorable and historic elbow chair.</p>
+
+<p id="id00111">"I know not precisely who next got possession of the chair, after Governor
+Vane went back to England," said Grandfather. "But there is reason to
+believe that President Dunster sat in it, when he held the first
+commencement at Harvard College. You have often heard, children, how
+careful our forefathers were, to give their young people a good education.
+They had scarcely cut down trees enough to make room for their own
+dwellings, before they began to think of establishing a college. Their
+principal object was, to rear up pious and learned ministers; and hence
+old writers call Harvard College a school of the prophets."</p>
+
+<p id="id00112">"Is the college a school of the prophets now?" asked Charley.</p>
+
+<p id="id00113">"It is a long while since I took my degree, Charley. You must ask some of
+the recent graduates," answered Grandfather. "As I was telling you,
+President Dunster sat in Grandfather’s chair in 1642, when he conferred
+the degree of bachelor of arts on nine young men. They were the first in
+America, who had received that honor. And now, my dear auditors, I must
+confess that there are contradictory statements and some uncertainty about
+the adventures of the chair, for a period of almost ten years. Some say
+that it was occupied by your own ancestor, William Hawthorne, first
+Speaker of the House of Representatives. I have nearly satisfied myself,
+however, that, during most of this questionable period, it was literally
+the Chair of State. It gives me much pleasure to imagine, that several
+successive governors of Massachusetts sat in it at the council board."</p>
+
+<p id="id00114">"But, Grandfather," interposed Charley, who was a matter-of-fact little
+person, "what reason have you to imagine so?"</p>
+
+<p id="id00115">"Pray do imagine it, Grandfather," said Laurence.</p>
+
+<p id="id00116">"With Charley’s permission, I will," replied Grandfather, smiling. "Let us
+consider it settled, therefore, that Winthrop, Bellingham, Dudley, and
+Endicott, each of them, when chosen governor, took his seat in our great
+chair on election day. In this chair, likewise, did those excellent
+governors preside, while holding consultations with the chief counsellors
+of the province, who were styled Assistants. The governor sat in this
+chair, too, whenever messages were brought to him from the chamber of
+Representatives."</p>
+
+<p id="id00117">And here Grandfather took occasion to talk, rather tediously, about the
+nature and forms of government that established themselves, almost
+spontaneously, in Massachusetts and the other New England colonies.
+Democracies were the natural growth of the new world. As to Massachusetts,
+it was at first intended that the colony should be governed by a council
+in London. But, in a little while, the people had the whole power in their
+own hands, and chose annually the governor, the counsellors, and the
+representatives. The people of old England had never enjoyed any thing
+like the liberties and privileges, which the settlers of New England now
+possessed. And they did not adopt these modes of government after long
+study, but in simplicity, as if there were no other way for people to be
+ruled.</p>
+
+<p id="id00118">"But, Laurence," continued Grandfather, "when you want instruction on
+these points, you must seek it in Mr. Bancroft’s History. I am merely
+telling the history of a chair. To proceed. The period during which the
+governors sat in our chair, was not very full of striking incidents. The
+province was now established on a secure foundation; but it did not
+increase so rapidly as at first, because the Puritans were no longer
+driven from England by persecution. However, there was still a quiet and
+natural growth. The legislature incorporated towns, and made new purchases
+of lands from the Indians. A very memorable event took place in 1643. The
+colonies of Massachusetts, Plymouth, Connecticut, and New Haven, formed a
+union, for the purpose of assisting each other in difficulties, and for
+mutual defence against their enemies. They called themselves the United
+Colonies of New England."</p>
+
+<p id="id00119">"Were they under a government like that of the United States?" inquired<br />
+
+Laurence.<br />
+</p>
+
+<p id="id00120">"No," replied Grandfather, "the different colonies did not compose one
+nation together; it was merely a confederacy among the governments. It
+somewhat resembled the league of the Amphictyons, which you remember in
+Grecian history. But to return to our chair. In 1644 it was highly
+honored; for Governor Endicott sat in it, when he gave audience to an
+ambassador from the French governor of Acadie, or Nova Scotia. A treaty of
+peace, between Massachusetts and the French colony, was then signed."</p>
+
+<p id="id00121">"Did England allow Massachusetts to make war and peace with foreign
+countries?" asked Laurence.</p>
+
+<p id="id00122">"Massachusetts, and the whole of New England, was then almost independent
+of the mother country," said Grandfather. "There was now a civil war in
+England; and the king, as you may well suppose, had his hands full at
+home, and could pay but little attention to these remote colonies. When
+the Parliament got the power into their hands, they likewise had enough to
+do in keeping down the Cavaliers. Thus New England, like a young and hardy
+lad, whose father and mother neglect it, was left to take care of itself.
+In 1649, King Charles was beheaded. Oliver Cromwell then became Protector
+of England; and as he was a Puritan himself, and had risen by the valor of
+the English Puritans, he showed himself a loving and indulgent father to
+the Puritan colonies in America."</p>
+
+<p id="id00123">Grandfather might have continued to talk in this dull manner, nobody knows
+how long; but, suspecting that Charley would find the subject rather dry,
+he looked sideways at that vivacious little fellow, and saw him give an
+involuntary yawn. Whereupon, Grandfather proceeded with the history of the
+chair, and related a very entertaining incident, which will be found in
+the next chapter.</p>
+
+<h2 id="id00124" style="margin-top: 4em">Chapter VI</h2>
+
+<p id="id00125" style="margin-top: 2em">"According to the most authentic records, my dear children," said
+Grandfather, "the chair, about this time, had the misfortune to break its
+leg. It was probably on account of this accident, that it ceased to be the
+seat of the governors of Massachusetts; for, assuredly, it would have been
+ominous of evil to the commonwealth, if the Chair of State had tottered
+upon three legs. Being therefore sold at auction,—alas! what a vicissitude
+for a chair that had figured in such high company, our venerable friend
+was knocked down to a certain Captain John Hull. This old gentleman, on
+carefully examining the maimed chair, discovered that its broken leg might
+be clamped with iron and made as serviceable as ever."</p>
+
+<p id="id00126">"Here is the very leg that was broken!" exclaimed Charley, throwing
+himself down on the floor to look at it. "And here are the iron clamps.
+How well it was mended!"</p>
+
+<p id="id00127">When they had all sufficiently examined the broken leg, Grandfather told
+them a story about Captain John Hull and</p>
+
+<h3 id="id00128" style="margin-top: 3em">THE PINE-TREE SHILLINGS</h3>
+
+<p id="id00129" style="margin-top: 2em">The Captain John Hull, aforesaid, was the mint-master of Massachusetts,
+and coined all the money that was made there. This was a new line of
+business: for, in the earlier days of the colony, the current coinage
+consisted of gold and silver money of England, Portugal, and Spain. These
+coins being scarce, the people were often forced to barter their
+commodities, instead of selling them.</p>
+
+<p id="id00130">For instance, if a man wanted to buy a coat, he perhaps exchanged a
+bear-skin for it. If he wished for a barrel of molasses, he might purchase
+it with a pile of pine boards. Musket-bullets were used instead of
+farthings. The Indians had a sort of money, called wampum, which was made
+of clam-shells; and this strange sort of specie was likewise taken in
+payment of debts, by the English settlers. Bank-bills had never been heard
+of. There was not money enough of any kind, in many parts of the country,
+to pay the salaries of the ministers; so that they sometimes had to take
+quintals of fish, bushels of corn, or cords of wood, instead of silver or
+gold.</p>
+
+<p id="id00131">As the people grew more numerous, and their trade one with another
+increased, the want of current money was still more sensibly felt. To
+supply the demand, the general court passed a law for establishing a
+coinage of shillings, sixpences, and threepences. Captain John Hull was
+appointed to manufacture this money, and was to have about one shilling
+out of every twenty to pay him for the trouble of making them.</p>
+
+<p id="id00132">Hereupon, all the old silver in the colony was handed over to Captain John
+Hull. The battered silver cans and tankards, I suppose, and silver
+buckles, and broken spoons, and silver buttons of worn-out coats, and
+silver hilts of swords that had figured at court, all such curious old
+articles were doubtless thrown into the melting-pot together. But by far
+the greater part of the silver consisted of bullion from the mines of
+South America, which the English buccaniers—(who were little better than
+pirates)—had taken from the Spaniards, and brought to Massachusetts.</p>
+
+<p id="id00133">All this old and new silver being melted down and coined, the result was
+an immense amount of splendid shillings, sixpences, and threepences. Each
+had the date, 1652, on the one side, and the figure of a pine-tree on the
+other. Hence they were called pine-tree shillings. And for every twenty
+shillings that he coined, you will remember, Captain John Hull was
+entitled to put one shilling into his own pocket.</p>
+
+<p id="id00134">The magistrates soon began to suspect that the mint-master would have the
+best of the bargain. They offered him a large sum of money, if he would
+but give up that twentieth shilling, which he was continually dropping
+into his own pocket. But Captain Hull declared himself perfectly satisfied
+with the shilling. And well he might be; for so diligently did he labor,
+that, in a few years, his pockets, his money bags, and his strong box,
+were overflowing with pine-tree shillings. This was probably the case when
+he came into possession of Grandfather’s chair; and, as he had worked so
+hard at the mint, it was certainly proper that he should have a
+comfortable chair to rest himself in.</p>
+
+<p id="id00135">When the mint-master had grown very rich, a young man, Samuel Sewell by
+name, came a courting to his only daughter. His daughter,—whose name I do
+not know, but we will call her Betsey,—was a fine hearty damsel, by no
+means so slender as some young ladies of our own days. On the contrary,
+having always fed heartily on pumpkin pies, doughnuts, Indian puddings,
+and other Puritan dainties, she was as round and plump as a pudding
+herself. With this round, rosy Miss Betsey, did Samuel Sewell fall in
+love. As he was a young man of good character, industrious in his
+business, and a member of the church, the mint-master very readily gave
+his consent.</p>
+
+<p id="id00136">"Yes—you may take her," said he, in his rough way; "and you’ll find her a
+heavy burden enough!"</p>
+
+<p id="id00137">On the wedding day, we may suppose that honest John Hull dressed himself
+in a plum-colored coat, all the buttons of which were made of pine-tree
+shillings. The buttons of his waistcoat were sixpences; and the knees of
+his smallclothes were buttoned with silver threepences. Thus attired, he
+sat with great dignity in Grandfather’s chair; and, being a portly old
+gentleman, he completely filled it from elbow to elbow. On the opposite
+side of the room, between her bride-maids, sat Miss Betsey. She was
+blushing with all her might, and looked like a full blown pæony, or a
+great red apple.</p>
+
+<p id="id00138">There, too, was the bridegroom, dressed in a fine purple coat, and gold
+lace waistcoat, with as much other finery as the Puritan laws and customs
+would allow him to put on. His hair was cropped close to his head, because
+Governor Endicott had forbidden any man to wear it below the ears. But he
+was a very personable young man; and so thought the bride-maids and Miss
+Betsey herself.</p>
+
+<p id="id00139">The mint-master also was pleased with his new son-in-law; especially as he
+had courted Miss Betsey out of pure love, and had said nothing at all
+about her portion. So when the marriage ceremony was over, Captain Hull
+whispered a word to two of his men-servants, who immediately went out, and
+soon returned, lugging in a large pair of scales. They were such a pair as
+wholesale merchants use, for weighing bulky commodities; and quite a bulky
+commodity was now to be weighed in them.</p>
+
+<p id="id00140">"Daughter Betsey," said the mint-master, "get into one side of these
+scales."</p>
+
+<p id="id00141">Miss Betsey,—or Mrs. Sewell, as we must now call her,—did as she was bid,
+like a dutiful child, without any question of the why and wherefore. But
+what her father could mean, unless to make her husband pay for her by the
+pound, (in which case she would have been a dear bargain,) she had not the
+least idea.</p>
+
+<p id="id00142">"And now," said honest John Hull to the servants, "bring that box hither."</p>
+
+<p id="id00143">The box, to which the mint-master pointed, was a huge, square, iron bound,
+oaken chest; it was big enough, my children, for all four of you to play
+at hide-and-seek in. The servants tugged with might and main, but could
+not lift this enormous receptacle, and were finally obliged to drag it
+across the floor. Captain Hull then took a key from his girdle, unlocked
+the chest, and lifted its ponderous lid. Behold! it was full to the brim
+of bright pine-tree shillings, fresh from the mint; and Samuel Sewell
+began to think that his father-in-law had got possession of all the money
+in the Massachusetts treasury. But it was only the mint-master’s honest
+share of the coinage.</p>
+
+<p id="id00144">Then the servants, at Captain Hull’s command, heaped double handfulls of
+shillings into one side of the scales, while Betsey remained in the other.
+Jingle, jingle, went the shillings, as handful after handful was thrown
+in, till, plump and ponderous as she was, they fairly weighed the young
+lady from the floor.</p>
+
+<p id="id00145">"There, son Sewell!" cried the honest mint-master, resuming his seat in
+Grandfather’s chair. "Take these shillings for my daughter’s portion. Use
+her kindly, and thank Heaven for her. It is not every wife that’s worth
+her weight in silver!"</p>
+
+<p id="id00146" style="margin-top: 3em">The children laughed heartily at this legend, and would hardly be
+convinced but that Grandfather had made it out of his own head. He assured
+them faithfully, however, that he had found it in the pages of a grave
+historian, and had merely tried to tell it in a somewhat funnier style. As
+for Samuel Sewell, he afterwards became Chief Justice of Massachusetts.</p>
+
+<p id="id00147">"Well, Grandfather," remarked Clara, "if wedding portions now-a-days were
+paid as Miss Betsey’s was, young ladies would not pride themselves upon an
+airy figure as many of them do."</p>
+
+<h2 id="id00148" style="margin-top: 4em">Chapter VII</h2>
+
+<p id="id00149" style="margin-top: 2em">When his little audience next assembled round the chair, Grandfather gave
+them a doleful history of the Quaker persecution, which began in 1656, and
+raged for about three years in Massachusetts.</p>
+
+<p id="id00150">He told them how, in the first place, twelve of the converts of George
+Fox, the first Quaker in the world, had come over from England. They
+seemed to be impelled by an earnest love for the souls of men, and a pure
+desire to make known what they considered a revelation from Heaven. But
+the rulers looked upon them as plotting the downfall of all government and
+religion. They were banished from the colony. In a little while, however,
+not only the first twelve had returned, but a multitude of other Quakers
+had come to rebuke the rulers, and to preach against the priests and
+steeple-houses.</p>
+
+<p id="id00151">Grandfather described the hatred and scorn with which these enthusiasts
+were received. They were thrown into dungeons; they were beaten with many
+stripes, women as well as men; they were driven forth into the wilderness,
+and left to the tender mercies of wild beasts and Indians. The children
+were amazed to hear, that, the more the Quakers were scourged, and
+imprisoned, and banished, the more did the sect increase, both by the
+influx of strangers, and by converts from among the Puritans. But
+Grandfather told them, that God had put something into the soul of man,
+which always turned the cruelties of the persecutor to nought.</p>
+
+<p id="id00152">He went on to relate, that, in 1659, two Quakers, named William Robinson
+and Marmaduke Stephenson, were hanged at Boston. A woman had been
+sentenced to die with them, but was reprieved, on condition of her leaving
+the colony. Her name was Mary Dyer. In the year 1660 she returned to
+Boston, although she knew death awaited her there; and, if Grandfather had
+been correctly informed, an incident had then taken place, which connects
+her with our story. This Mary Dyer had entered the mint-master’s dwelling,
+clothed in sackcloth and ashes, and seated herself in our great chair,
+with a sort of dignity and state. Then she proceeded to deliver what she
+called a message from Heaven; but in the midst of it, they dragged her to
+prison.</p>
+
+<p id="id00153">"And was she executed?" asked Laurence.</p>
+
+<p id="id00154">"She was," said Grandfather.</p>
+
+<p id="id00155">"Grandfather," cried Charley, clenching his fist, "I would have fought for
+that poor Quaker woman!"</p>
+
+<p id="id00156">"Ah! but if a sword had been drawn for her," said Laurence, "it would have
+taken away all the beauty of her death."</p>
+
+<p id="id00157">It seemed as if hardly any of the preceding stories had thrown such an
+interest around Grandfather’s chair, as did the fact, that the poor,
+persecuted, wandering Quaker woman had rested in it for a moment. The
+children were so much excited, that Grandfather found it necessary to
+bring his account of the persecution to a close.</p>
+
+<p id="id00158">"In 1660, the same year in which Mary Dyer was executed," said he,
+"Charles the Second was restored to the throne of his fathers. This king
+had many vices; but he would not permit blood to be shed, under pretence
+of religion, in any part of his dominions. The Quakers in England told him
+what had been done to their brethren in Massachusetts; and he sent orders
+to Governor Endicott to forbear all such proceedings in future. And so
+ended the Quaker persecution,—one of the most mournful passages in the
+history of our forefathers."</p>
+
+<p id="id00159">Grandfather then told his auditors, that, shortly after the above
+incident, the great chair had been given by the mint-master to the Rev.
+Mr. John Eliot. He was the first minister of Roxbury. But besides
+attending to his pastoral duties there, he learned the language of the red
+men, and often went into the woods to preach to them. So earnestly did he
+labor for their conversion, that he has always been called the apostle to
+the Indians. The mention of this holy man suggested to Grandfather the
+propriety of giving a brief sketch of the history of the Indians, so far
+as they were connected with the English colonists.</p>
+
+<p id="id00160">A short period before the arrival of the first Pilgrims at Plymouth, there
+had been a very grievous plague among the red men; and the sages and
+ministers of that day were inclined to the opinion, that Providence had
+sent this mortality, in order to make room for the settlement of the
+English. But I know not why we should suppose that an Indian’s life is
+less precious, in the eye of Heaven, than that of a white man. Be that as
+it may, death had certainly been very busy with the savage tribes.</p>
+
+<p id="id00161">In many places the English found the wigwams deserted, and the corn-fields
+growing to waste, with none to harvest the grain. There were heaps of
+earth also, which, being dug open, proved to be Indian graves, containing
+bows and flint-headed spears and arrows; for the Indians buried the dead
+warrior’s weapons along with him. In some spots, there were skulls and
+other human bones, lying unburied. In 1633, and the year afterwards, the
+smallpox broke out among the Massachusetts Indians, multitudes of whom
+died by this terrible disease of the old world. These misfortunes made
+them far less powerful than they had formerly been.</p>
+
+<p id="id00162">For nearly half a century after the arrival of the English, the red men
+showed themselves generally inclined to peace and amity. They often made
+submission, when they might have made successful war. The Plymouth
+settlers, led by the famous Captain Miles Standish, slew some of them in
+1623, without any very evident necessity for so doing. In 1636, and the
+following year, there was the most dreadful war that had yet occurred
+between the Indians and the English. The Connecticut settlers, assisted by
+a celebrated Indian chief, named Uncas, bore the brunt of this war, with
+but little aid from Massachusetts. Many hundreds of the hostile Indians
+were slain, or burnt in their wigwams. Sassacus, their sachem, fled to
+another tribe, after his own people were defeated; but he was murdered by
+them, and his head was sent to his English enemies.</p>
+
+<p id="id00163">From that period, down to the time of King Philip’s war, which will be
+mentioned hereafter, there was not much trouble with the Indians. But the
+colonists were always on their guard, and kept their weapons ready for the
+conflict.</p>
+
+<p id="id00164">"I have sometimes doubted," said Grandfather, when he had told these
+things to the children, "I have sometimes doubted whether there was more
+than a single man, among our forefathers, who realized that an Indian
+possesses a mind and a heart, and an immortal soul. That single man was
+John Eliot. All the rest of the early settlers seemed to think that the
+Indians were an inferior race of beings, whom the Creator had merely
+allowed to keep possession of this beautiful country, till the white men
+should be in want of it.</p>
+
+<p id="id00165">"Did the pious men of those days never try to make Christians of them?"
+asked Laurence.</p>
+
+<p id="id00166">"Sometimes, it is true," answered Grandfather, "the magistrates and
+ministers would talk about civilizing and converting the red people. But,
+at the bottom of their hearts, they would have had almost as much
+expectation of civilizing a wild bear of the woods, and making him fit for
+paradise. They felt no faith in the success of any such attempts, because
+they had no love for the poor Indians. Now Eliot was full of love for
+them, and therefore so full of faith and hope, that he spent the labor of
+a lifetime in their behalf."</p>
+
+<p id="id00167">"I would have conquered them first, and then converted them," said<br />
+
+Charley.<br />
+</p>
+
+<p id="id00168">"Ah, Charley, there spoke the very spirit of our forefathers!" replied
+Grandfather. "But Mr. Eliot had a better spirit. He looked upon them as
+his brethren. He persuaded as many of them as he could, to leave off their
+idle and wandering habits, and to build houses, and cultivate the earth,
+as the English did. He established schools among them, and taught many of
+the Indians how to read. He taught them, likewise, how to pray. Hence they
+were called ’praying Indians.’ Finally, having spent the best years of his
+life for their good, Mr. Eliot resolved to spend the remainder in doing
+them a yet greater benefit."</p>
+
+<p id="id00169">"I know what that was!" cried Laurence.</p>
+
+<p id="id00170">"He sat down in his study," continued Grandfather, "and began a
+translation of the Bible into the Indian tongue. It was while he was
+engaged in this pious work, that the mint-master gave him our great chair.
+His toil needed it, and deserved it."</p>
+
+<p id="id00171">"O, Grandfather, tell us all about that Indian Bible!" exclaimed Laurence.
+"I have seen it in the library of the Athenæum; and the tears came into my
+eyes, to think that there were no Indians left to read it."</p>
+
+</body>
+</html>
+2023-02-17 00:43:04 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-17 00:43:05 INFO  - Step 12 - I open font settings
+2023-02-17 00:43:05 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-17 00:43:06 INFO  - Step 13 - I INCREASE_FONT of text
+2023-02-17 00:43:06 INFO  - Button 'setTextLarger' :: Clicking
+2023-02-17 00:43:07 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-02-17 00:43:07 INFO  - context - NATIVE_APP
+2023-02-17 00:43:07 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-17 00:43:08 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-17 00:43:08 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+  <head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+<title> </title><meta content="text/css" http-equiv="Content-Style-Type" /><link href="pgepub.css" type="text/css" rel="stylesheet" />
+<meta content="EpubMaker 0.3.26 &lt;https://github.com/gitenberg-dev/pg-epubmaker&gt;" name="generator" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  <body><p id="id00000">The Project Gutenberg EBook of True Stories from History and Biography by
+Nathaniel Hawthorne</p>
+
+<p id="id00001" style="margin-top: 3em">This eBook is for the use of anyone anywhere at no cost and with almost no
+restrictions whatsoever. You may copy it, give it away or re-use it under
+the terms of the Project Gutenberg License included with this eBook or
+online at http://www.gutenberg.org/license</p>
+
+<p id="id00002" style="margin-top: 3em">Title: True Stories from History and Biography</p>
+
+<p id="id00003">Author: Nathaniel Hawthorne</p>
+
+<p id="id00004">Release Date: April 2005 [Ebook #15697]</p>
+
+<p id="id00005">Language: English</p>
+
+<p id="id00006" style="margin-top: 2em">***START OF THE PROJECT GUTENBERG EBOOK TRUE STORIES FROM HISTORY AND BIOGRAPHY***</p>
+
+<p id="id00007" style="margin-top: 5em">True Stories from History and Biography<br />
+
+by Nathaniel Hawthorne<br />
+
+BOSTON:<br />
+
+TICKNOR, REED, AND FIELDS.<br />
+
+MDCCCLI.<br />
+</p>
+
+<p id="id00008">Entered according to Act of Congress, in the year 1850, by NATHANIEL<br />
+
+HAWTHORNE, in the Clerk’s Office of the District Court of the District of<br />
+
+Massachusetts.<br />
+</p>
+
+<h5 id="id00009">CAMBRIDGE:
+PRINTED BY BOLLES AND HOUGHTON.</h5>
+
+<p id="id00010" style="margin-top: 5em">                              [Frontispiece]</p>
+
+<p id="id00011" style="margin-top: 5em">Preface<br />
+
+THE WHOLE HISTORY OF GRANDFATHER’S CHAIR<br />
+
+Part I<br />
+
+   Chapter I<br />
+
+   Chapter II<br />
+
+      THE LADY ARBELLA<br />
+
+   Chapter III<br />
+
+   Chapter IV<br />
+
+   Chapter V<br />
+
+   Chapter VI<br />
+
+      THE PINE-TREE SHILLINGS<br />
+
+   Chapter VII<br />
+
+   Chapter VIII<br />
+
+      THE INDIAN BIBLE<br />
+
+   Chapter IX<br />
+
+   Chapter X<br />
+
+      THE SUNKEN TREASURE<br />
+
+   Chapter XI<br />
+
+Part II<br />
+
+   Chapter I<br />
+
+   Chapter II<br />
+
+   Chapter III<br />
+
+      THE OLD-FASHIONED SCHOOL<br />
+
+   Chapter IV<br />
+
+   Chapter VI<br />
+
+      THE REJECTED BLESSING<br />
+
+   Chapter VII<br />
+
+   Chapter VIII<br />
+
+      THE PROVINCIAL MUSTER<br />
+
+   Chapter IX<br />
+
+      THE ACADIAN EXILES<br />
+
+   Chapter X<br />
+
+   Chapter XI<br />
+
+Part III<br />
+
+   Chapter I<br />
+
+   Chapter II<br />
+
+   Chapter III<br />
+
+      THE HUTCHINSON MOB<br />
+
+   Chapter IV<br />
+
+   Chapter V<br />
+
+      THE BOSTON MASSACRE<br />
+
+   Chapter VI<br />
+
+   Chapter VII<br />
+
+   Chapter VIII<br />
+
+   Chapter IX<br />
+
+      THE TORY’S FAREWELL<br />
+
+   Chapter X<br />
+
+   Chapter XI<br />
+
+      GRANDFATHER’S DREAM<br />
+
+Biographical Stories<br />
+
+   Chapter I<br />
+
+   Chapter II<br />
+
+      BENJAMIN WEST<br />
+
+   Chapter III<br />
+
+      SIR ISAAC NEWTON<br />
+
+   Chapter IV<br />
+
+      SAMUEL JOHNSON<br />
+
+   Chapter V<br />
+
+      SAMUEL JOHNSON—CONTINUED.<br />
+
+   Chapter VI<br />
+
+      OLIVER CROMWELL<br />
+
+   Chapter VII<br />
+
+      BENJAMIN FRANKLIN<br />
+
+   Chapter VIII<br />
+
+      BENJAMIN FRANKLIN—CONTINUED<br />
+
+   Chapter IX<br />
+
+      QUEEN CHRISTINA<br />
+</p>
+
+<h1 id="id00012" style="margin-top: 5em">PREFACE</h1>
+
+<p id="id00013" style="margin-top: 2em">In writing this ponderous tome, the author’s desire has been to describe
+the eminent characters and remarkable events of our annals, in such a form
+and style, that the YOUNG might make acquaintance with them of their own
+accord. For this purpose, while ostensibly relating the adventures of a
+Chair, he has endeavored to keep a distinct and unbroken thread of
+authentic history. The Chair is made to pass from one to another of those
+personages, of whom he thought it most desirable for the young reader to
+have vivid and familiar ideas, and whose lives and actions would best
+enable him to give picturesque sketches of the times. On its sturdy oaken
+legs, it trudges diligently from one scene to another, and seems always to
+thrust itself in the way, with most benign complacency, whenever a
+historical personage happens to be looking round for a seat.</p>
+
+<p id="id00014">There is certainly no method, by which the shadowy outlines of departed
+men and women can he made to assume the hues of life more effectually,
+than by connecting their images with the substantial and homely reality of
+a fireside chair. It causes us to feel at once, that these characters of
+history had a private and familiar existence, and were not wholly
+contained within that cold array of outward action, which we are compelled
+to receive as the adequate representation of their lives. If this
+impression can be given, much is accomplished.</p>
+
+<p id="id00015">Setting aside Grandfather and his auditors, and excepting the adventures
+of the Chair, which form the machinery of the work, nothing in the ensuing
+pages can be termed fictitious. The author, it is true, has sometimes
+assumed the license of filling up the outline of history with details, for
+which he has none but imaginative authority, but which, he hopes, do not
+violate nor give a false coloring to the truth. He believes that, in this
+respect, his narrative will not be found to convey ideas and impressions,
+of which the reader may hereafter find it necessary to purge his mind.</p>
+
+<p id="id00016">The author’s great doubt is, whether he has succeeded in writing a book
+which will be readable by the class for whom he intends it. To make a
+lively and entertaining narrative for children, with such unmalleable
+material as is presented by the sombre, stern, and rigid characteristics
+of the Puritans and their descendants, is quite as difficult an attempt,
+as to manufacture delicate playthings out of the granite rocks on which
+New England is founded.</p>
+
+<h1 id="id00017" style="margin-top: 6em">                 THE WHOLE HISTORY OF GRANDFATHER’S CHAIR</h1>
+
+<h4 id="id00018" style="margin-top: 2em">                         COMPLETE IN THREE PARTS.</h4>
+
+<h1 id="id00019" style="margin-top: 5em">PART I</h1>
+
+<h2 id="id00020" style="margin-top: 4em">Chapter I</h2>
+
+<p id="id00021" style="margin-top: 2em">Grandfather had been sitting in his old arm-chair, all that pleasant
+afternoon, while the children were pursuing their various sports, far off
+or near at hand. Sometimes you would have said, "Grandfather is asleep;"
+but still, even when his eyes were closed, his thoughts were with the
+young people, playing among the flowers and shrubbery of the garden.</p>
+
+<p id="id00022">He heard the voice of Laurence, who had taken possession of a heap of
+decayed branches which the gardener had lopped from the fruit trees, and
+was building a little hut for his cousin Clara and himself. He heard
+Clara’s gladsome voice, too, as she weeded and watered the flower-bed
+which had been given her for her own. He could have counted every footstep
+that Charley took, as he trundled his wheelbarrow along the gravel walk.
+And though Grandfather was old and gray-haired, yet his heart leaped with
+joy whenever little Alice came fluttering, like a butterfly, into the
+room. She had made each of the children her playmate in turn, and now made
+Grandfather her playmate too, and thought him the merriest of them all.</p>
+
+<p id="id00023">At last the children grew weary of their sports; because a summer
+afternoon is like a long lifetime to the young. So they came into the room
+together, and clustered round Grandfather’s great chair. Little Alice, who
+was hardly five years old, took the privilege of the youngest, and climbed
+his knee. It was a pleasant thing to behold that fair and golden-haired
+child in the lap of the old man, and to think that, different as they
+were, the hearts of both could be gladdened with the same joys.</p>
+
+<p id="id00024">"Grandfather," said little Alice, laying her head back upon his arm, "I am
+very tired now. You must tell me a story to make me go to sleep."</p>
+
+<p id="id00025">"That is not what story-tellers like," answered Grandfather, smiling.<br />
+
+"They are better satisfied when they can keep their auditors awake."<br />
+</p>
+
+<p id="id00026">"But here are Laurence, and Charley, and I," cried cousin Clara, who was
+twice as old as little Alice. "We will all three keep wide awake. And
+pray, Grandfather, tell us a story about this strange-looking old chair."</p>
+
+<p id="id00027">Now, the chair in which Grandfather sat was made of oak, which had grown
+dark with age, but had been rubbed and polished till it shone as bright as
+mahogany. It was very large and heavy, and had a back that rose high above
+Grandfather’s white head. This back was curiously carved in open work, so
+as to represent flowers and foliage and other devices; which the children
+had often gazed at, but could never understand what they meant. On the
+very tiptop of the chair, over the head of Grandfather himself, was a
+likeness of a lion’s head, which had such a savage grin that you would
+almost expect to hear it growl and snarl.</p>
+
+<p id="id00028">The children had seen Grandfather sitting in this chair ever since they
+could remember any thing. Perhaps the younger of them supposed that he and
+the chair had come into the world together, and that both had always been
+as old as they were now. At this time, however, it happened to be the
+fashion for ladies to adorn their drawing-rooms with the oldest and oddest
+chairs that could be found. It seemed to cousin Clara that if these ladies
+could have seen Grandfather’s old chair, they would have thought it worth
+all the rest together. She wondered if it were not even older than
+Grandfather himself, and longed to know all about its history.</p>
+
+<p id="id00029">"Do, Grandfather, talk to us about this chair," she repeated.</p>
+
+<p id="id00030">"Well, child," said Grandfather, patting Clara’s cheek, "I can tell you a
+great many stories of my chair. Perhaps your cousin Laurence would like to
+hear them too. They would teach him something about the history and
+distinguished people of his country, which he has never read in any of his
+school-books."</p>
+
+<p id="id00031">Cousin Laurence was a boy of twelve, a bright scholar, in whom an early
+thoughtfulness and sensibility began to show themselves. His young fancy
+kindled at the idea of knowing all the adventures of this venerable chair.
+He looked eagerly in Grandfather’s face; and even Charley, a bold, brisk,
+restless little fellow of nine, sat himself down on the carpet, and
+resolved to be quiet for at least ten minutes, should the story last so
+long.</p>
+
+<p id="id00032">Meantime, little Alice was already asleep; so Grandfather, being much
+pleased with such an attentive audience, began to talk about matters that
+had happened long ago.</p>
+
+<h2 id="id00033" style="margin-top: 4em">Chapter II</h2>
+
+<p id="id00034" style="margin-top: 2em">But, before relating the adventures of the chair, Grandfather found it
+necessary to speak of the circumstances that caused the first settlement
+of New England. For it will soon be perceived that the story of this
+remarkable chair cannot be told without telling a great deal of the
+history of the country.</p>
+
+<p id="id00035">So, Grandfather talked about the Puritans, as those persons were called
+who thought it sinful to practise the religious forms and ceremonies which
+the Church of England had borrowed from the Roman Catholics. These
+Puritans suffered so much persecution in England that, in 1607, many of
+them went over to Holland, and lived ten or twelve years at Amsterdam and
+Leyden. But they feared that, if they continued there much longer, they
+should cease to be English, and should adopt all the manners and ideas and
+feelings of the Dutch. For this and other reasons, in the year 1620, they
+embarked on board of the ship Mayflower, and crossed the ocean to the
+shores of Cape Cod. There they made a settlement, and called it Plymouth;
+which, though now a part of Massachusetts, was for a long time a colony by
+itself. And thus was formed the earliest settlement of the Puritans in
+America.</p>
+
+<p id="id00036">Meantime, those of the Puritans who remained in England continued to
+suffer grievous persecution on account of their religious opinions. They
+began to look around them for some spot where they might worship God, not
+as the king and bishops thought fit, but according to the dictates of
+their own consciences. When their brethren had gone from Holland to
+America, they bethought themselves that they likewise might find refuge
+from persecution there. Several gentlemen among them purchased a tract of
+country on the coast of Massachusetts Bay, and obtained a charter from
+King Charles, which authorized them to make laws for the settlers. In the
+year 1628, they sent over a few people, with John Endicott at their head,
+to commence a plantation at Salem. Peter Palfrey, Roger Conant, and one or
+two more, had built houses there in 1626, and may be considered as the
+first settlers of that ancient town. Many other Puritans prepared to
+follow Endicott.</p>
+
+<p id="id00037">"And now we come to the chair, my dear children," said Grandfather. "This
+chair is supposed to have been made of an oak tree which grew in the park
+of the English earl of Lincoln, between two and three centuries ago. In
+its younger days it used, probably, to stand in the hall of the earl’s
+castle. Do not you see the coat of arms of the family of Lincoln, carved
+in the open work of the back? But when his daughter, the Lady Arbella, was
+married to a certain Mr. Johnson, the earl gave her this valuable chair."</p>
+
+<p id="id00038">"Who was Mr. Johnson?" inquired Clara.</p>
+
+<p id="id00039">"He was a gentleman of great wealth, who agreed with the Puritans in their
+religious opinions," answered Grandfather. "And as his belief was the same
+as theirs, he resolved that he would live and die with them. Accordingly,
+in the month of April, 1630, he left his pleasant abode and all his
+comforts in England, and embarked with the Lady Arbella, on board of a
+ship bound for America."</p>
+
+<p id="id00040">As Grandfather was frequently impeded by the questions and observations of
+his young auditors, we deem it advisable to omit all such prattle as is
+not essential to the story. We have taken some pains to find out exactly
+what Grandfather said, and here offer to our readers, as nearly as
+possible in his own words, the story of</p>
+
+<h3 id="id00041" style="margin-top: 3em">THE LADY ARBELLA</h3>
+
+<p id="id00042" style="margin-top: 2em">The ship in which Mr. Johnson and his lady embarked, taking Grandfather’s
+chair along with them, was called the Arbella, in honor of the lady
+herself. A fleet of ten or twelve vessels, with many hundred passengers,
+left England about the same time; for a multitude of people, who were
+discontented with the king’s government and oppressed by the bishops, were
+flocking over to the new world. One of the vessels in the fleet was that
+same Mayflower which had carried the Puritan pilgrims to Plymouth. And
+now, my children, I would have you fancy yourselves in the cabin of the
+good ship Arbella; because if you could behold the passengers aboard that
+vessel, you would feel what a blessing and honor it was for New England to
+have such settlers. They were the best men and women of their day.</p>
+
+<p id="id00043">Among the passengers was John Winthrop, who had sold the estate of his
+forefathers, and was going to prepare a new home for his wife and children
+in the wilderness. He had the king’s charter in his keeping, and was
+appointed the first Governor of Massachusetts. Imagine him a person of
+grave and benevolent aspect, dressed in a black velvet suit, with a broad
+ruff around his neck and a peaked beard upon his chin. There was likewise
+a minister of the Gospel, whom the English bishops had forbidden to
+preach, but who knew that he should have liberty both to preach and pray
+in the forests of America. He wore a black cloak, called a Geneva cloak,
+and had a black velvet cap, fitting close to his head, as was the fashion
+of almost all the Puritan clergymen. In their company came Sir Richard
+Saltonstall, who had been one of the five first projectors of the new
+colony. He soon returned to his native country. But his descendants still
+remain in New England; and the good old family name is as much respected
+in our days as it was in those of Sir Richard.</p>
+
+<p id="id00044">Not only these, but several other men of wealth and pious ministers, were
+in the cabin of the Arbella. One had banished himself for ever from the
+old hall where his ancestors had lived for hundreds of years. Another had
+left his quiet parsonage, in a country town of England. Others had come
+from the universities of Oxford or Cambridge, where they had gained great
+fame for their learning. And here they all were, tossing upon the
+uncertain and dangerous sea, and bound for a home that was more dangerous
+than even the sea itself. In the cabin, likewise, sat the Lady Arbella in
+her chair, with a gentle and sweet expression on her face, but looking too
+pale and feeble to endure the hardships of the wilderness.</p>
+
+<p id="id00045">Every morning and evening the Lady Arbella gave up her great chair to one
+of the ministers, who took his place in it and read passages from the
+Bible to his companions. And thus, with prayers and pious conversation,
+and frequent singing of hymns, which the breezes caught from their lips
+and scattered far over the desolate waves, they prosecuted their voyage,
+and sailed into the harbor of Salem in the month of June.</p>
+
+<p id="id00046">At that period there were but six or eight dwellings in the town; and
+these were miserable hovels, with roofs of straw and wooden chimneys. The
+passengers in the fleet either built huts with bark and branches of trees,
+or erected tents of cloth till they could provide themselves with better
+shelter. Many of them went to form a settlement at Charlestown. It was
+thought fit that the Lady Arbella should tarry in Salem for a time; she
+was probably received as a guest into the family of John Endicott. He was
+the chief person in the plantation, and had the only comfortable house
+which the new comers had beheld since they left England. So now, children,
+you must imagine Grandfather’s chair in the midst of a new scene.</p>
+
+<p id="id00047">Suppose it a hot summer’s day, and the lattice-windows of a chamber in Mr.
+Endicott’s house thrown wide open. The Lady Arbella, looking paler than
+she did on shipboard, is sitting in her chair, and thinking mournfully of
+far-off England. She rises and goes to the window. There, amid patches of
+garden ground and cornfield, she sees the few wretched hovels of the
+settlers, with the still ruder wigwams and cloth tents of the passengers
+who had arrived in the same fleet with herself. Far and near stretches the
+dismal forest of pine trees, which throw their black shadows over the
+whole land, and likewise over the heart of this poor lady.</p>
+
+<p id="id00048">All the inhabitants of the little village are busy. One is clearing a spot
+on the verge of the forest for his homestead; another is hewing the trunk
+of a fallen pine tree, in order to build himself a dwelling; a third is
+hoeing in his field of Indian corn. Here comes a huntsman out of the
+woods, dragging a bear which he has shot, and shouting to the neighbors to
+lend him a hand. There goes a man to the sea-shore, with a spade and a
+bucket, to dig a mess of clams, which were a principal article of food
+with the first settlers. Scattered here and there are two or three dusky
+figures, clad in mantles of fur, with ornaments of bone hanging from their
+ears, and the feathers of wild birds in their coal black hair. They have
+belts of shell-work slung across their shoulders, and are armed with bows
+and arrows and flint-headed spears. These are an Indian Sagamore and his
+attendants, who have come to gaze at the labors of the white men. And now
+rises a cry, that a pack of wolves have seized a young calf in the
+pasture; and every man snatches up his gun or pike, and runs in chase of
+the marauding beasts.</p>
+
+<p id="id00049">Poor Lady Arbella watches all these sights, and feels that this new world
+is fit only for rough and hardy people. None should be here but those who
+can struggle with wild beasts and wild men, and can toil in the heat or
+cold, and can keep their hearts firm against all difficulties and dangers.
+But she is not one of these. Her gentle and timid spirit sinks within her;
+and turning away from the window she sits down in the great chair, and
+wonders thereabouts in the wilderness her friends will dig her grave.</p>
+
+<p id="id00050">Mr. Johnson had gone, with Governor Winthrop and most of the other
+passengers, to Boston, where he intended to build a house for Lady Arbella
+and himself. Boston was then covered with wild woods, and had fewer
+inhabitants even than Salem. During her husband’s absence, poor Lady
+Arbella felt herself growing ill, and was hardly able to stir from the
+great chair. Whenever John Endicott noticed her despondency, he doubtless
+addressed her with words of comfort. "Cheer up, my good lady!" he would
+say. "In a little time, you will love this rude life of the wilderness as
+I do." But Endicott’s heart was as bold and resolute as iron, and he could
+not understand why a woman’s heart should not be of iron too.</p>
+
+<p id="id00051">Still, however, he spoke kindly to the lady, and then hastened forth to
+till his corn-field and set out fruit trees, or to bargain with the
+Indians for furs, or perchance to oversee the building of a fort. Also
+being a magistrate, he had often to punish some idler or evil-doer, by
+ordering him to be set in the stocks or scourged at the whipping-post.
+Often, too, as was the custom of the times, he and Mr. Higginson, the
+minister of Salem, held long religious talks together. Thus John Endicott
+was a man of multifarious business, and had no time to look back
+regretfully to his native land. He felt himself fit for the new world, and
+for the work that he had to do, and set himself resolutely to accomplish
+it.</p>
+
+<p id="id00052">What a contrast, my dear children, between this bold, rough, active man,
+and the gentle Lady Arbella, who was fading away, like a pale English
+flower, in the shadow of the forest! And now the great chair was often
+empty, because Lady Arbella grew too weak to arise from bed.</p>
+
+<p id="id00053">Meantime, her husband had pitched upon a spot for their new home. He
+returned from Boston to Salem, travelling through the woods on foot, and
+leaning on his pilgrim’s staff. His heart yearned within him; for he was
+eager to tell his wife of the new home which he had chosen. But when he
+beheld her pale and hollow cheek, and found how her strength was wasted,
+he must have known that her appointed home was in a better land. Happy for
+him then,—happy both for him and her,—if they remembered that there was a
+path to heaven, as well from this heathen wilderness as from the Christian
+land whence they had come. And so, in one short month from her arrival,
+the gentle Lady Arbella faded away and died. They dug a grave for her in
+the new soil, where the roots of the pine trees impeded their spades; and
+when her bones had rested there nearly two hundred years, and a city had
+sprung up around them, a church of stone was built upon the spot.</p>
+
+<p id="id00054" style="margin-top: 3em">Charley, almost at the commencement of the foregoing narrative, had
+galloped away with a prodigious clatter, upon Grandfather’s stick, and was
+not yet returned. So large a boy should have been ashamed to ride upon a
+stick. But Laurence and Clara had listened attentively, and were affected
+by this true story of the gentle lady, who had come so far to die so soon.
+Grandfather had supposed that little Alice was asleep, but, towards the
+close of the story, happening to look down upon her, he saw that her blue
+eyes were wide open, and fixed earnestly upon his face. The tears had
+gathered in them, like dew upon a delicate flower; but when Grandfather
+ceased to speak, the sunshine of her smile broke forth again.</p>
+
+<p id="id00055">"O, the lady must have been so glad to get to heaven!" exclaimed little<br />
+
+Alice.<br />
+</p>
+
+<p id="id00056">"Grandfather, what became of Mr. Johnson?" asked Clara.</p>
+
+<p id="id00057">"His heart appears to have been quite broken," answered Grandfather; "for
+he died at Boston within a month after the death of his wife. He was
+buried in the very same tract of ground, where he had intended to build a
+dwelling for Lady Arbella and himself. Where their house would have stood
+there was his grave.</p>
+
+<p id="id00058">"I never heard any thing so melancholy!" said Clara.</p>
+
+<p id="id00059">"The people loved and respected Mr. Johnson so much," continued
+Grandfather, "that it was the last request of many of them, when they
+died, that they might be buried as near as possible to this good man’s
+grave. And so the field became the first burial-ground in Boston. When you
+pass through Tremont street, along by King’s Chapel, you see a
+burial-ground, containing many old grave-stones and monuments. That was
+Mr. Johnson’s field."</p>
+
+<p id="id00060">"How sad is the thought," observed Clara, "that one of the first things
+which the settlers had to do, when they came to the new world, was to set
+apart a burial-ground!"</p>
+
+<p id="id00061">"Perhaps," said Laurence, "if they had found no need of burial-grounds
+here, they would have been glad, after a few years, to go back to
+England."</p>
+
+<p id="id00062">Grandfather looked at Laurence, to discover whether he knew how profound
+and true a thing he had said.</p>
+
+<h2 id="id00063" style="margin-top: 4em">Chapter III</h2>
+
+<p id="id00064" style="margin-top: 2em">Not long after Grandfather had told the story of his great chair, there
+chanced to be a rainy day. Our friend Charley, after disturbing the
+household with beat of drum and riotous shouts, races up and down the
+staircase, overturning of chairs, and much other uproar, began to feel the
+quiet and confinement within doors intolerable. But as the rain came down
+in a flood, the little fellow was hopelessly a prisoner, and now stood
+with sullen aspect at a window, wondering whether the sun itself were not
+extinguished by so much moisture in the sky.</p>
+
+<p id="id00065">Charley had already exhausted the less eager activity of the other
+children; and they had betaken themselves to occupations that did not
+admit of his companionship. Laurence sat in a recess near the book-case,
+reading, not for the first time, the Midsummer Night’s Dream. Clara was
+making a rosary of beads for a little figure of a Sister of Charity, who
+was to attend the Bunker Hill Fair, and lend her aid in erecting the
+Monument. Little Alice sat on Grandfather’s foot-stool, with a
+picture-book in her hand; and, for every picture, the child was telling
+Grandfather a story. She did not read from the book, (for little Alice had
+not much skill in reading,) but told the story out of her own heart and
+mind.</p>
+
+<p id="id00066">Charley was too big a boy, of course, to care any thing about little
+Alice’s stories, although Grandfather appeared to listen with a good deal
+of interest. Often, in a young child’s ideas and fancies, there is
+something which it requires the thought of a lifetime to comprehend. But
+Charley was of opinion, that if a story must be told, it had better be
+told by Grandfather, than little Alice.</p>
+
+<p id="id00067">"Grandfather, I want to hear more about your chair," said he.</p>
+
+<p id="id00068">Now Grandfather remembered that Charley had galloped away upon a stick, in
+the midst of the narrative of poor Lady Arbella, and I know not whether he
+would have thought it worth while to tell another story, merely to gratify
+such an inattentive auditor as Charley. But Laurence laid down his book
+and seconded the request. Clara drew her chair nearer to Grandfather, and
+little Alice immediately closed her picture-book, and looked up into his
+face. Grandfather had not the heart to disappoint them.</p>
+
+<p id="id00069">He mentioned several persons who had a share in the settlement of our
+country, and who would be well worthy of remembrance, if we could find
+room to tell about them all. Among the rest, Grandfather spoke of the
+famous Hugh Peters, a minister of the gospel, who did much good to the
+inhabitants of Salem. Mr. Peters afterwards went back to England, and was
+chaplain to Oliver Cromwell; but Grandfather did not tell the children
+what became of this upright and zealous man, at last. In fact, his
+auditors were growing impatient to hear more about the history of the
+chair.</p>
+
+<p id="id00070">"After the death of Mr. Johnson," said he, "Grandfather’s chair came into
+the possession of Roger Williams. He was a clergyman, who arrived at
+Salem, and settled there in 1631. Doubtless the good man has spent many a
+studious hour in this old chair, either penning a sermon, or reading some
+abstruse book of theology, till midnight came upon him unawares. At that
+period, as there were few lamps or candles to be had, people used to read
+or work by the light of pitchpine torches. These supplied the place of the
+"midnight oil," to the learned men of New England."</p>
+
+<p id="id00071">Grandfather went on to talk about Roger Williams, and told the children
+several particulars, which we have not room to repeat. One incident,
+however, which was connected with his life, must be related, because it
+will give the reader an idea of the opinions and feelings of the first
+settlers of New England. It was as follows:</p>
+
+<h3 id="id00072" style="margin-top: 3em">THE RED CROSS</h3>
+
+<p id="id00073" style="margin-top: 2em">While Roger Williams sat in Grandfather’s chair, at his humble residence
+in Salem, John Endicott would often come to visit him. As the clergy had
+great influence in temporal concerns, the minister and magistrate would
+talk over the occurrences of the day, and consult how the people might be
+governed according to scriptural laws.</p>
+
+<p id="id00074">One thing especially troubled them both. In the old national banner of
+England, under which her soldiers have fought for hundreds of years, there
+is a Red Cross, which has been there ever since the days when England was
+in subjection to the Pope. The Cross, though a holy symbol, was abhorred
+by the Puritans, because they considered it a relic of Popish idolatry.
+Now, whenever the train-band of Salem was mustered, the soldiers, with
+Endicott at their head, had no other flag to march under than this same
+old papistical banner of England, with the Red Cross in the midst of it.
+The banner of the Red Cross, likewise, was flying on the walls of the fort
+of Salem; and a similar one was displayed in Boston harbor, from the
+fortress on Castle Island.</p>
+
+<p id="id00075">"I profess, brother Williams," Captain Endicott would say, after they had
+been talking of this matter, "it distresses a Christian man’s heart, to
+see this idolatrous Cross flying over our heads. A stranger beholding it,
+would think that we had undergone all our hardships and dangers, by sea
+and in the wilderness, only to get new dominions for the Pope of Rome."</p>
+
+<p id="id00076">"Truly, good Mr. Endicott," Roger Williams would answer, "you speak as an
+honest man and Protestant Christian should. For mine own part, were it my
+business to draw a sword, I should reckon it sinful to fight under such a
+banner. Neither can I, in my pulpit, ask the blessing of Heaven upon it."</p>
+
+<p id="id00077">Such, probably, was the way in which Roger Williams and John Endicott used
+to talk about the banner of the Red Cross. Endicott, who was a prompt and
+resolute man, soon determined that Massachusetts, if she could not have a
+banner of her own, should at least be delivered from that of the Pope of
+Rome.</p>
+
+<p id="id00078">Not long afterwards there was a military muster at Salem. Every
+able-bodied man, in the town and neighborhood, was there. All were well
+armed, with steel caps upon their heads, plates of iron upon their breasts
+and at their backs, and gorgets of steel around their necks. When the sun
+shone upon these ranks of iron-clad men, they flashed and blazed with a
+splendor that bedazzled the wild Indians, who had come out of the woods to
+gaze at them. The soldiers had long pikes, swords, and muskets, which were
+fired with matches, and were almost as heavy as a small cannon.</p>
+
+<p id="id00079">These men had mostly a stern and rigid aspect. To judge by their looks,
+you might have supposed that there was as much iron in their hearts, as
+there was upon their heads and breasts. They were all devoted Puritans,
+and of the same temper as those with whom Oliver Cromwell afterwards
+overthrew the throne of England. They hated all the relics of Popish
+superstition as much as Endicott himself; and yet, over their heads, was
+displayed the banner of the Red Cross.</p>
+
+<p id="id00080">Endicott was the captain of the company. While the soldiers were expecting
+his orders to begin their exercise, they saw him take the banner in one
+hand, holding his drawn sword in the other. Probably he addressed them in
+a speech, and explained how horrible a thing it was, that men, who had
+fled from Popish idolatry into the wilderness, should be compelled to
+fight under its symbols here. Perhaps he concluded his address somewhat in
+the following style.</p>
+
+<p id="id00081">"And now, fellow soldiers, you see this old banner of England. Some of
+you, I doubt not, may think it treason for a man to lay violent hands upon
+it. But whether or no it be treason to man, I have good assurance in my
+conscience that it is no treason to God. Wherefore I have resolved that we
+will rather be God’s soldiers, than soldiers of the Pope of Rome; and in
+that mind I now cut the Papal Cross out of this banner."</p>
+
+<p id="id00082">And so he did. And thus, in a province belonging to the crown of England,
+a captain was found bold enough to deface the King’s banner with his
+sword.</p>
+
+<p id="id00083">When Winthrop, and the other wise men of Massachusetts, heard of it, they
+were disquieted, being afraid that Endicott’s act would bring great
+trouble upon himself and them. An account of the matter was carried to
+King Charles; but he was then so much engrossed by dissensions with his
+people, that he had no leisure to punish the offender. In other times, it
+might have cost Endicott his life, and Massachusetts her charter.</p>
+
+<p id="id00084" style="margin-top: 3em">"I should like to know, Grandfather," said Laurence, when the story was
+ended, "whether, when Endicott cut the Red Cross out of the banner, he
+meant to imply that Massachusetts was independent of England?"</p>
+
+<p id="id00085">"A sense of the independence of his adopted country, must have been in
+that bold man’s heart," answered Grandfather; "but I doubt whether he had
+given the matter much consideration, except in its religious bearing.
+However, it was a very remarkable affair, and a very strong expression of
+Puritan character."</p>
+
+<p id="id00086">Grandfather proceeded to speak further of Roger Williams, and of other
+persons who sat in the great chair, as will be seen in the following
+chapter.</p>
+
+<h2 id="id00087" style="margin-top: 4em">Chapter IV</h2>
+
+<p id="id00088" style="margin-top: 2em">"Roger Williams," said Grandfather, "did not keep possession of the chair
+a great while. His opinions of civil and religious matters differed, in
+many respects, from those of the rulers and clergymen of Massachusetts.
+Now the wise men of those days believed, that the country could not be
+safe, unless all the inhabitants thought and felt alike."</p>
+
+<p id="id00089">"Does any body believe so in our days Grandfather?" asked Laurence.</p>
+
+<p id="id00090">"Possibly there are some who believe it," said Grandfather; "but they have
+not so much power to act upon their belief, as the magistrates and
+ministers had, in the days of Roger Williams. They had the power to
+deprive this good man of his home, and to send him out from the midst of
+them, in search of a new place of rest. He was banished in 1634, and went
+first to Plymouth colony; but as the people there held the same opinions
+as those of Massachusetts, he was not suffered to remain among them.
+However, the wilderness was wide enough; so Roger Williams took his staff
+and travelled into the forest, and made treaties with the Indians, and
+began a plantation which he called Providence."</p>
+
+<p id="id00091">"I have been to Providence on the railroad," said Charley. "It is but a
+two hours’ ride."</p>
+
+<p id="id00092">"Yes, Charley," replied Grandfather; "but when Roger Williams travelled
+thither, over hills and valleys, and through the tangled woods, and across
+swamps and streams, it was a journey of several days. Well; his little
+plantation is now grown to be a populous city; and the inhabitants have a
+great veneration for Roger Williams. His name is familiar in the mouths of
+all because they see it on their bank bills. How it would have perplexed
+this good clergyman, if he had been told that he should give his name to
+the ROGER WILLIAMS BANK!"</p>
+
+<p id="id00093">"When he was driven from Massachusetts," said Laurence, "and began his
+journey into the woods, he must have felt as if he were burying himself
+forever from the sight and knowledge of men. Yet the whole country has now
+heard of him, and will remember him forever."</p>
+
+<p id="id00094">"Yes," answered Grandfather, "it often happens, that the outcasts of one
+generation are those, who are reverenced as the wisest and best of men by
+the next. The securest fame is that which comes after a man’s death. But
+let us return to our story. When Roger Williams was banished, he appears
+to have given the chair to Mrs. Anne Hutchinson. At all events it was in
+her possession in 1637. She was a very sharp-witted and well-instructed
+lady, and was so conscious of her own wisdom and abilities, that she
+thought it a pity that the world should not have the benefit of them. She
+therefore used to hold lectures in Boston, once or twice a week, at which
+most of the women attended. Mrs. Hutchinson presided at these meetings,
+sitting, with great state and dignity, in Grandfather’s chair."</p>
+
+<p id="id00095">"Grandfather, was it positively this very chair?" demanded Clara, laying
+her hand upon its carved elbow.</p>
+
+<p id="id00096">"Why not, my dear Clara?" said Grandfather. "Well; Mrs. Hutchinson’s
+lectures soon caused a great disturbance; for the ministers of Boston did
+not think it safe and proper, that a woman should publicly instruct the
+people in religious doctrines. Moreover, she made the matter worse, by
+declaring that the Rev. Mr. Cotton was the only sincerely pious and holy
+clergyman in New England. Now the clergy of those days had quite as much
+share in the government of the country, though indirectly, as the
+magistrates themselves; so you may imagine what a host of powerful enemies
+were raised up against Mrs. Hutchinson. A synod was convened; that is to
+say, an assemblage of all the ministers in Massachusetts. They declared
+that there were eighty-two erroneous opinions on religious subjects,
+diffused among the people, and that Mrs. Hutchinson’s opinions were of the
+number."</p>
+
+<p id="id00097">"If they had eighty-two wrong opinions," observed Charley, "I don’t see
+how they could have any right ones."</p>
+
+<p id="id00098">"Mrs. Hutchinson had many zealous friends and converts," continued
+Grandfather. "She was favored by young Henry Vane, who had come over from
+England a year or two before, and had since been chosen governor of the
+colony, at the age of twenty-four. But Winthrop, and most of the other
+leading men, as well as the ministers, felt an abhorrence of her
+doctrines. Thus two opposite parties were formed; and so fierce were the
+dissensions, that it was feared the consequence would be civil war and
+bloodshed. But Winthrop and the ministers being the most powerful, they
+disarmed and imprisoned Mrs. Hutchinson’s adherents. She, like Roger
+Williams, was banished."</p>
+
+<p id="id00099">"Dear Grandfather, did they drive the poor woman into the woods?"
+exclaimed little Alice, who contrived to feel a human interest even in
+these discords of polemic divinity.</p>
+
+<p id="id00100">"They did, my darling," replied Grandfather; "and the end of her life was
+so sad, you must not hear it. At her departure, it appears from the best
+authorities, that she gave the great chair to her friend, Henry Vane. He
+was a young man of wonderful talents and great learning, who had imbibed
+the religious opinions of the Puritans, and left England with the
+intention of spending his life in Massachusetts. The people chose him
+governor; but the controversy about Mrs. Hutchinson, and other troubles,
+caused him to leave the country in 1637. You may read the subsequent
+events of his life in the History of England."</p>
+
+<p id="id00101">"Yes, Grandfather," cried Laurence; "and we may read them better in Mr.
+Upham’s biography of Vane. And what a beautiful death he died, long
+afterwards! beautiful, though it was on a scaffold."</p>
+
+<p id="id00102">"Many of the most beautiful deaths have been there," said Grandfather.
+"The enemies of a great and good man can in no other way make him so
+glorious, as by giving him the crown of martyrdom."</p>
+
+<p id="id00103">In order that the children might fully understand the all-important
+history of the chair, Grandfather now thought fit to speak of the progress
+that was made in settling several colonies. The settlement of Plymouth, in
+1620, has already been mentioned. In 1635, Mr. Hooker and Mr. Stone, two
+ministers, went on foot from Massachusetts to Connecticut, through the
+pathless woods, taking their whole congregation along with them. They
+founded the town of Hartford. In 1638, Mr. Davenport, a very celebrated
+minister, went, with other people, and began a plantation at New Haven. In
+the same year, some persons who had been persecuted in Massachusetts, went
+to the Isle of Rhodes, since called Rhode Island, and settled there. About
+this time, also, many settlers had gone to Maine, and were living without
+any regular government. There were likewise settlers near Piscataqua
+River, in the region which is now called New Hampshire.</p>
+
+<p id="id00104">Thus, at various points along the coast of New England, there were
+communities of Englishmen. Though these communities were independent of
+one another, yet they had a common dependence upon England; and, at so
+vast a distance from their native home, the inhabitants must all have felt
+like brethren. They were fitted to become one united people, at a future
+period. Perhaps their feelings of brotherhood were the stronger, because
+different nations had formed settlements to the north and to the south. In
+Canada and Nova Scotia were colonies of French. On the banks of the Hudson
+River was a colony of Dutch, who had taken possession of that region many
+years before, and called it New Netherlands.</p>
+
+<p id="id00105">Grandfather, for aught I know, might have gone on to speak of Maryland and
+Virginia; for the good old gentleman really seemed to suppose, that the
+whole surface of the United States was not too broad a foundation to place
+the four legs of his chair upon. But, happening to glance at Charley, he
+perceived that this naughty boy was growing impatient, and meditating
+another ride upon a stick. So here, for the present, Grandfather suspended
+the history of his chair.</p>
+
+<h2 id="id00106" style="margin-top: 4em">Chapter V</h2>
+
+<p id="id00107" style="margin-top: 2em">The Children had now learned to look upon the chair with an interest,
+which was almost the same as if it were a conscious being, and could
+remember the many famous people whom it had held within its arms.</p>
+
+<p id="id00108">Even Charley, lawless as he was, seemed to feel that this venerable chair
+must not be clambered upon nor overturned, although he had no scruple in
+taking such liberties with every other chair in the house. Clara treated
+it with still greater reverence, often taking occasion to smooth its
+cushion, and to brush the dust from the carved flowers and grotesque
+figures of its oaken back and arms. Laurence would sometimes sit a whole
+hour, especially at twilight, gazing at the chair, and, by the spell of
+his imaginations, summoning up its ancient occupants to appear in it
+again.</p>
+
+<p id="id00109">Little Alice evidently employed herself in a similar way; for once, when
+Grandfather had gone abroad, the child was heard talking with the gentle
+Lady Arbella, as if she were still sitting in the chair. So sweet a child
+as little Alice may fitly talk with angels, such as the Lady Arbella had
+long since become.</p>
+
+<p id="id00110">Grandfather was soon importuned for more stories about the chair. He had
+no difficulty in relating them; for it really seemed as if every person,
+noted in our early history, had, on some occasion or other, found repose
+within its comfortable arms. If Grandfather took pride in any thing, it
+was in being the possessor of such an honorable and historic elbow chair.</p>
+
+<p id="id00111">"I know not precisely who next got possession of the chair, after Governor
+Vane went back to England," said Grandfather. "But there is reason to
+believe that President Dunster sat in it, when he held the first
+commencement at Harvard College. You have often heard, children, how
+careful our forefathers were, to give their young people a good education.
+They had scarcely cut down trees enough to make room for their own
+dwellings, before they began to think of establishing a college. Their
+principal object was, to rear up pious and learned ministers; and hence
+old writers call Harvard College a school of the prophets."</p>
+
+<p id="id00112">"Is the college a school of the prophets now?" asked Charley.</p>
+
+<p id="id00113">"It is a long while since I took my degree, Charley. You must ask some of
+the recent graduates," answered Grandfather. "As I was telling you,
+President Dunster sat in Grandfather’s chair in 1642, when he conferred
+the degree of bachelor of arts on nine young men. They were the first in
+America, who had received that honor. And now, my dear auditors, I must
+confess that there are contradictory statements and some uncertainty about
+the adventures of the chair, for a period of almost ten years. Some say
+that it was occupied by your own ancestor, William Hawthorne, first
+Speaker of the House of Representatives. I have nearly satisfied myself,
+however, that, during most of this questionable period, it was literally
+the Chair of State. It gives me much pleasure to imagine, that several
+successive governors of Massachusetts sat in it at the council board."</p>
+
+<p id="id00114">"But, Grandfather," interposed Charley, who was a matter-of-fact little
+person, "what reason have you to imagine so?"</p>
+
+<p id="id00115">"Pray do imagine it, Grandfather," said Laurence.</p>
+
+<p id="id00116">"With Charley’s permission, I will," replied Grandfather, smiling. "Let us
+consider it settled, therefore, that Winthrop, Bellingham, Dudley, and
+Endicott, each of them, when chosen governor, took his seat in our great
+chair on election day. In this chair, likewise, did those excellent
+governors preside, while holding consultations with the chief counsellors
+of the province, who were styled Assistants. The governor sat in this
+chair, too, whenever messages were brought to him from the chamber of
+Representatives."</p>
+
+<p id="id00117">And here Grandfather took occasion to talk, rather tediously, about the
+nature and forms of government that established themselves, almost
+spontaneously, in Massachusetts and the other New England colonies.
+Democracies were the natural growth of the new world. As to Massachusetts,
+it was at first intended that the colony should be governed by a council
+in London. But, in a little while, the people had the whole power in their
+own hands, and chose annually the governor, the counsellors, and the
+representatives. The people of old England had never enjoyed any thing
+like the liberties and privileges, which the settlers of New England now
+possessed. And they did not adopt these modes of government after long
+study, but in simplicity, as if there were no other way for people to be
+ruled.</p>
+
+<p id="id00118">"But, Laurence," continued Grandfather, "when you want instruction on
+these points, you must seek it in Mr. Bancroft’s History. I am merely
+telling the history of a chair. To proceed. The period during which the
+governors sat in our chair, was not very full of striking incidents. The
+province was now established on a secure foundation; but it did not
+increase so rapidly as at first, because the Puritans were no longer
+driven from England by persecution. However, there was still a quiet and
+natural growth. The legislature incorporated towns, and made new purchases
+of lands from the Indians. A very memorable event took place in 1643. The
+colonies of Massachusetts, Plymouth, Connecticut, and New Haven, formed a
+union, for the purpose of assisting each other in difficulties, and for
+mutual defence against their enemies. They called themselves the United
+Colonies of New England."</p>
+
+<p id="id00119">"Were they under a government like that of the United States?" inquired<br />
+
+Laurence.<br />
+</p>
+
+<p id="id00120">"No," replied Grandfather, "the different colonies did not compose one
+nation together; it was merely a confederacy among the governments. It
+somewhat resembled the league of the Amphictyons, which you remember in
+Grecian history. But to return to our chair. In 1644 it was highly
+honored; for Governor Endicott sat in it, when he gave audience to an
+ambassador from the French governor of Acadie, or Nova Scotia. A treaty of
+peace, between Massachusetts and the French colony, was then signed."</p>
+
+<p id="id00121">"Did England allow Massachusetts to make war and peace with foreign
+countries?" asked Laurence.</p>
+
+<p id="id00122">"Massachusetts, and the whole of New England, was then almost independent
+of the mother country," said Grandfather. "There was now a civil war in
+England; and the king, as you may well suppose, had his hands full at
+home, and could pay but little attention to these remote colonies. When
+the Parliament got the power into their hands, they likewise had enough to
+do in keeping down the Cavaliers. Thus New England, like a young and hardy
+lad, whose father and mother neglect it, was left to take care of itself.
+In 1649, King Charles was beheaded. Oliver Cromwell then became Protector
+of England; and as he was a Puritan himself, and had risen by the valor of
+the English Puritans, he showed himself a loving and indulgent father to
+the Puritan colonies in America."</p>
+
+<p id="id00123">Grandfather might have continued to talk in this dull manner, nobody knows
+how long; but, suspecting that Charley would find the subject rather dry,
+he looked sideways at that vivacious little fellow, and saw him give an
+involuntary yawn. Whereupon, Grandfather proceeded with the history of the
+chair, and related a very entertaining incident, which will be found in
+the next chapter.</p>
+
+<h2 id="id00124" style="margin-top: 4em">Chapter VI</h2>
+
+<p id="id00125" style="margin-top: 2em">"According to the most authentic records, my dear children," said
+Grandfather, "the chair, about this time, had the misfortune to break its
+leg. It was probably on account of this accident, that it ceased to be the
+seat of the governors of Massachusetts; for, assuredly, it would have been
+ominous of evil to the commonwealth, if the Chair of State had tottered
+upon three legs. Being therefore sold at auction,—alas! what a vicissitude
+for a chair that had figured in such high company, our venerable friend
+was knocked down to a certain Captain John Hull. This old gentleman, on
+carefully examining the maimed chair, discovered that its broken leg might
+be clamped with iron and made as serviceable as ever."</p>
+
+<p id="id00126">"Here is the very leg that was broken!" exclaimed Charley, throwing
+himself down on the floor to look at it. "And here are the iron clamps.
+How well it was mended!"</p>
+
+<p id="id00127">When they had all sufficiently examined the broken leg, Grandfather told
+them a story about Captain John Hull and</p>
+
+<h3 id="id00128" style="margin-top: 3em">THE PINE-TREE SHILLINGS</h3>
+
+<p id="id00129" style="margin-top: 2em">The Captain John Hull, aforesaid, was the mint-master of Massachusetts,
+and coined all the money that was made there. This was a new line of
+business: for, in the earlier days of the colony, the current coinage
+consisted of gold and silver money of England, Portugal, and Spain. These
+coins being scarce, the people were often forced to barter their
+commodities, instead of selling them.</p>
+
+<p id="id00130">For instance, if a man wanted to buy a coat, he perhaps exchanged a
+bear-skin for it. If he wished for a barrel of molasses, he might purchase
+it with a pile of pine boards. Musket-bullets were used instead of
+farthings. The Indians had a sort of money, called wampum, which was made
+of clam-shells; and this strange sort of specie was likewise taken in
+payment of debts, by the English settlers. Bank-bills had never been heard
+of. There was not money enough of any kind, in many parts of the country,
+to pay the salaries of the ministers; so that they sometimes had to take
+quintals of fish, bushels of corn, or cords of wood, instead of silver or
+gold.</p>
+
+<p id="id00131">As the people grew more numerous, and their trade one with another
+increased, the want of current money was still more sensibly felt. To
+supply the demand, the general court passed a law for establishing a
+coinage of shillings, sixpences, and threepences. Captain John Hull was
+appointed to manufacture this money, and was to have about one shilling
+out of every twenty to pay him for the trouble of making them.</p>
+
+<p id="id00132">Hereupon, all the old silver in the colony was handed over to Captain John
+Hull. The battered silver cans and tankards, I suppose, and silver
+buckles, and broken spoons, and silver buttons of worn-out coats, and
+silver hilts of swords that had figured at court, all such curious old
+articles were doubtless thrown into the melting-pot together. But by far
+the greater part of the silver consisted of bullion from the mines of
+South America, which the English buccaniers—(who were little better than
+pirates)—had taken from the Spaniards, and brought to Massachusetts.</p>
+
+<p id="id00133">All this old and new silver being melted down and coined, the result was
+an immense amount of splendid shillings, sixpences, and threepences. Each
+had the date, 1652, on the one side, and the figure of a pine-tree on the
+other. Hence they were called pine-tree shillings. And for every twenty
+shillings that he coined, you will remember, Captain John Hull was
+entitled to put one shilling into his own pocket.</p>
+
+<p id="id00134">The magistrates soon began to suspect that the mint-master would have the
+best of the bargain. They offered him a large sum of money, if he would
+but give up that twentieth shilling, which he was continually dropping
+into his own pocket. But Captain Hull declared himself perfectly satisfied
+with the shilling. And well he might be; for so diligently did he labor,
+that, in a few years, his pockets, his money bags, and his strong box,
+were overflowing with pine-tree shillings. This was probably the case when
+he came into possession of Grandfather’s chair; and, as he had worked so
+hard at the mint, it was certainly proper that he should have a
+comfortable chair to rest himself in.</p>
+
+<p id="id00135">When the mint-master had grown very rich, a young man, Samuel Sewell by
+name, came a courting to his only daughter. His daughter,—whose name I do
+not know, but we will call her Betsey,—was a fine hearty damsel, by no
+means so slender as some young ladies of our own days. On the contrary,
+having always fed heartily on pumpkin pies, doughnuts, Indian puddings,
+and other Puritan dainties, she was as round and plump as a pudding
+herself. With this round, rosy Miss Betsey, did Samuel Sewell fall in
+love. As he was a young man of good character, industrious in his
+business, and a member of the church, the mint-master very readily gave
+his consent.</p>
+
+<p id="id00136">"Yes—you may take her," said he, in his rough way; "and you’ll find her a
+heavy burden enough!"</p>
+
+<p id="id00137">On the wedding day, we may suppose that honest John Hull dressed himself
+in a plum-colored coat, all the buttons of which were made of pine-tree
+shillings. The buttons of his waistcoat were sixpences; and the knees of
+his smallclothes were buttoned with silver threepences. Thus attired, he
+sat with great dignity in Grandfather’s chair; and, being a portly old
+gentleman, he completely filled it from elbow to elbow. On the opposite
+side of the room, between her bride-maids, sat Miss Betsey. She was
+blushing with all her might, and looked like a full blown pæony, or a
+great red apple.</p>
+
+<p id="id00138">There, too, was the bridegroom, dressed in a fine purple coat, and gold
+lace waistcoat, with as much other finery as the Puritan laws and customs
+would allow him to put on. His hair was cropped close to his head, because
+Governor Endicott had forbidden any man to wear it below the ears. But he
+was a very personable young man; and so thought the bride-maids and Miss
+Betsey herself.</p>
+
+<p id="id00139">The mint-master also was pleased with his new son-in-law; especially as he
+had courted Miss Betsey out of pure love, and had said nothing at all
+about her portion. So when the marriage ceremony was over, Captain Hull
+whispered a word to two of his men-servants, who immediately went out, and
+soon returned, lugging in a large pair of scales. They were such a pair as
+wholesale merchants use, for weighing bulky commodities; and quite a bulky
+commodity was now to be weighed in them.</p>
+
+<p id="id00140">"Daughter Betsey," said the mint-master, "get into one side of these
+scales."</p>
+
+<p id="id00141">Miss Betsey,—or Mrs. Sewell, as we must now call her,—did as she was bid,
+like a dutiful child, without any question of the why and wherefore. But
+what her father could mean, unless to make her husband pay for her by the
+pound, (in which case she would have been a dear bargain,) she had not the
+least idea.</p>
+
+<p id="id00142">"And now," said honest John Hull to the servants, "bring that box hither."</p>
+
+<p id="id00143">The box, to which the mint-master pointed, was a huge, square, iron bound,
+oaken chest; it was big enough, my children, for all four of you to play
+at hide-and-seek in. The servants tugged with might and main, but could
+not lift this enormous receptacle, and were finally obliged to drag it
+across the floor. Captain Hull then took a key from his girdle, unlocked
+the chest, and lifted its ponderous lid. Behold! it was full to the brim
+of bright pine-tree shillings, fresh from the mint; and Samuel Sewell
+began to think that his father-in-law had got possession of all the money
+in the Massachusetts treasury. But it was only the mint-master’s honest
+share of the coinage.</p>
+
+<p id="id00144">Then the servants, at Captain Hull’s command, heaped double handfulls of
+shillings into one side of the scales, while Betsey remained in the other.
+Jingle, jingle, went the shillings, as handful after handful was thrown
+in, till, plump and ponderous as she was, they fairly weighed the young
+lady from the floor.</p>
+
+<p id="id00145">"There, son Sewell!" cried the honest mint-master, resuming his seat in
+Grandfather’s chair. "Take these shillings for my daughter’s portion. Use
+her kindly, and thank Heaven for her. It is not every wife that’s worth
+her weight in silver!"</p>
+
+<p id="id00146" style="margin-top: 3em">The children laughed heartily at this legend, and would hardly be
+convinced but that Grandfather had made it out of his own head. He assured
+them faithfully, however, that he had found it in the pages of a grave
+historian, and had merely tried to tell it in a somewhat funnier style. As
+for Samuel Sewell, he afterwards became Chief Justice of Massachusetts.</p>
+
+<p id="id00147">"Well, Grandfather," remarked Clara, "if wedding portions now-a-days were
+paid as Miss Betsey’s was, young ladies would not pride themselves upon an
+airy figure as many of them do."</p>
+
+<h2 id="id00148" style="margin-top: 4em">Chapter VII</h2>
+
+<p id="id00149" style="margin-top: 2em">When his little audience next assembled round the chair, Grandfather gave
+them a doleful history of the Quaker persecution, which began in 1656, and
+raged for about three years in Massachusetts.</p>
+
+<p id="id00150">He told them how, in the first place, twelve of the converts of George
+Fox, the first Quaker in the world, had come over from England. They
+seemed to be impelled by an earnest love for the souls of men, and a pure
+desire to make known what they considered a revelation from Heaven. But
+the rulers looked upon them as plotting the downfall of all government and
+religion. They were banished from the colony. In a little while, however,
+not only the first twelve had returned, but a multitude of other Quakers
+had come to rebuke the rulers, and to preach against the priests and
+steeple-houses.</p>
+
+<p id="id00151">Grandfather described the hatred and scorn with which these enthusiasts
+were received. They were thrown into dungeons; they were beaten with many
+stripes, women as well as men; they were driven forth into the wilderness,
+and left to the tender mercies of wild beasts and Indians. The children
+were amazed to hear, that, the more the Quakers were scourged, and
+imprisoned, and banished, the more did the sect increase, both by the
+influx of strangers, and by converts from among the Puritans. But
+Grandfather told them, that God had put something into the soul of man,
+which always turned the cruelties of the persecutor to nought.</p>
+
+<p id="id00152">He went on to relate, that, in 1659, two Quakers, named William Robinson
+and Marmaduke Stephenson, were hanged at Boston. A woman had been
+sentenced to die with them, but was reprieved, on condition of her leaving
+the colony. Her name was Mary Dyer. In the year 1660 she returned to
+Boston, although she knew death awaited her there; and, if Grandfather had
+been correctly informed, an incident had then taken place, which connects
+her with our story. This Mary Dyer had entered the mint-master’s dwelling,
+clothed in sackcloth and ashes, and seated herself in our great chair,
+with a sort of dignity and state. Then she proceeded to deliver what she
+called a message from Heaven; but in the midst of it, they dragged her to
+prison.</p>
+
+<p id="id00153">"And was she executed?" asked Laurence.</p>
+
+<p id="id00154">"She was," said Grandfather.</p>
+
+<p id="id00155">"Grandfather," cried Charley, clenching his fist, "I would have fought for
+that poor Quaker woman!"</p>
+
+<p id="id00156">"Ah! but if a sword had been drawn for her," said Laurence, "it would have
+taken away all the beauty of her death."</p>
+
+<p id="id00157">It seemed as if hardly any of the preceding stories had thrown such an
+interest around Grandfather’s chair, as did the fact, that the poor,
+persecuted, wandering Quaker woman had rested in it for a moment. The
+children were so much excited, that Grandfather found it necessary to
+bring his account of the persecution to a close.</p>
+
+<p id="id00158">"In 1660, the same year in which Mary Dyer was executed," said he,
+"Charles the Second was restored to the throne of his fathers. This king
+had many vices; but he would not permit blood to be shed, under pretence
+of religion, in any part of his dominions. The Quakers in England told him
+what had been done to their brethren in Massachusetts; and he sent orders
+to Governor Endicott to forbear all such proceedings in future. And so
+ended the Quaker persecution,—one of the most mournful passages in the
+history of our forefathers."</p>
+
+<p id="id00159">Grandfather then told his auditors, that, shortly after the above
+incident, the great chair had been given by the mint-master to the Rev.
+Mr. John Eliot. He was the first minister of Roxbury. But besides
+attending to his pastoral duties there, he learned the language of the red
+men, and often went into the woods to preach to them. So earnestly did he
+labor for their conversion, that he has always been called the apostle to
+the Indians. The mention of this holy man suggested to Grandfather the
+propriety of giving a brief sketch of the history of the Indians, so far
+as they were connected with the English colonists.</p>
+
+<p id="id00160">A short period before the arrival of the first Pilgrims at Plymouth, there
+had been a very grievous plague among the red men; and the sages and
+ministers of that day were inclined to the opinion, that Providence had
+sent this mortality, in order to make room for the settlement of the
+English. But I know not why we should suppose that an Indian’s life is
+less precious, in the eye of Heaven, than that of a white man. Be that as
+it may, death had certainly been very busy with the savage tribes.</p>
+
+<p id="id00161">In many places the English found the wigwams deserted, and the corn-fields
+growing to waste, with none to harvest the grain. There were heaps of
+earth also, which, being dug open, proved to be Indian graves, containing
+bows and flint-headed spears and arrows; for the Indians buried the dead
+warrior’s weapons along with him. In some spots, there were skulls and
+other human bones, lying unburied. In 1633, and the year afterwards, the
+smallpox broke out among the Massachusetts Indians, multitudes of whom
+died by this terrible disease of the old world. These misfortunes made
+them far less powerful than they had formerly been.</p>
+
+<p id="id00162">For nearly half a century after the arrival of the English, the red men
+showed themselves generally inclined to peace and amity. They often made
+submission, when they might have made successful war. The Plymouth
+settlers, led by the famous Captain Miles Standish, slew some of them in
+1623, without any very evident necessity for so doing. In 1636, and the
+following year, there was the most dreadful war that had yet occurred
+between the Indians and the English. The Connecticut settlers, assisted by
+a celebrated Indian chief, named Uncas, bore the brunt of this war, with
+but little aid from Massachusetts. Many hundreds of the hostile Indians
+were slain, or burnt in their wigwams. Sassacus, their sachem, fled to
+another tribe, after his own people were defeated; but he was murdered by
+them, and his head was sent to his English enemies.</p>
+
+<p id="id00163">From that period, down to the time of King Philip’s war, which will be
+mentioned hereafter, there was not much trouble with the Indians. But the
+colonists were always on their guard, and kept their weapons ready for the
+conflict.</p>
+
+<p id="id00164">"I have sometimes doubted," said Grandfather, when he had told these
+things to the children, "I have sometimes doubted whether there was more
+than a single man, among our forefathers, who realized that an Indian
+possesses a mind and a heart, and an immortal soul. That single man was
+John Eliot. All the rest of the early settlers seemed to think that the
+Indians were an inferior race of beings, whom the Creator had merely
+allowed to keep possession of this beautiful country, till the white men
+should be in want of it.</p>
+
+<p id="id00165">"Did the pious men of those days never try to make Christians of them?"
+asked Laurence.</p>
+
+<p id="id00166">"Sometimes, it is true," answered Grandfather, "the magistrates and
+ministers would talk about civilizing and converting the red people. But,
+at the bottom of their hearts, they would have had almost as much
+expectation of civilizing a wild bear of the woods, and making him fit for
+paradise. They felt no faith in the success of any such attempts, because
+they had no love for the poor Indians. Now Eliot was full of love for
+them, and therefore so full of faith and hope, that he spent the labor of
+a lifetime in their behalf."</p>
+
+<p id="id00167">"I would have conquered them first, and then converted them," said<br />
+
+Charley.<br />
+</p>
+
+<p id="id00168">"Ah, Charley, there spoke the very spirit of our forefathers!" replied
+Grandfather. "But Mr. Eliot had a better spirit. He looked upon them as
+his brethren. He persuaded as many of them as he could, to leave off their
+idle and wandering habits, and to build houses, and cultivate the earth,
+as the English did. He established schools among them, and taught many of
+the Indians how to read. He taught them, likewise, how to pray. Hence they
+were called ’praying Indians.’ Finally, having spent the best years of his
+life for their good, Mr. Eliot resolved to spend the remainder in doing
+them a yet greater benefit."</p>
+
+<p id="id00169">"I know what that was!" cried Laurence.</p>
+
+<p id="id00170">"He sat down in his study," continued Grandfather, "and began a
+translation of the Bible into the Indian tongue. It was while he was
+engaged in this pious work, that the mint-master gave him our great chair.
+His toil needed it, and deserved it."</p>
+
+<p id="id00171">"O, Grandfather, tell us all about that Indian Bible!" exclaimed Laurence.
+"I have seen it in the library of the Athenæum; and the tears came into my
+eyes, to think that there were no Indians left to read it."</p>
+
+</body>
+</html>
+2023-02-17 00:43:08 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-17 00:43:09 INFO  - Step 15 - I restart app
+2023-02-17 00:43:33 INFO  - Step 16 - I open Books
+2023-02-17 00:43:33 INFO  - Button 'tabBooks' :: Clicking
+2023-02-17 00:43:34 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-17 00:43:55 INFO  - Label 'lblBookName' :: Clicking
+2023-02-17 00:44:15 INFO  - Taking screenshot
+2023-02-17 00:44:17 INFO  - Test finished - logging out
+2023-02-17 00:44:18 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:44:21 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:44:22 INFO  - Button 'Accounts' :: Clicking
+2023-02-17 00:44:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-17 00:44:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-17 00:44:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-17 00:44:26 INFO  - Button 'Log out' :: Clicking
+2023-02-17 00:44:26 INFO  - Button 'Log in' :: Getting text from element
+2023-02-17 00:44:33 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-17 00:44:34 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-17 00:44:34 INFO  - Unlocking credential for current thread
+2023-02-17 00:44:34 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1cd63735

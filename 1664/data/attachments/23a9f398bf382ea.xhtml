@@ -1,0 +1,303 @@
+2023-02-17 00:33:52 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-02-17 00:33:52 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-17 00:35:53 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-17 00:35:53 INFO  - Session id - 95155f05fbde313084999eadf57fb3f5165d404d
+2023-02-17 00:35:53 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-17 00:35:53 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-17 00:36:02 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-17 00:36:04 INFO  - Button 'Search' :: Clicking
+2023-02-17 00:36:08 INFO  - Text Field 'Search' :: Clearing
+2023-02-17 00:36:08 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-17 00:36:11 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-17 00:36:11 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-17 00:36:11 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:36:13 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:36:14 INFO  - Button 'Accounts' :: Clicking
+2023-02-17 00:36:18 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-17 00:36:18 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:36:19 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:36:21 INFO  - Button 'Accounts' :: Clicking
+2023-02-17 00:36:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-17 00:36:22 INFO  - Locking credential with barcode 01230000000305
+2023-02-17 00:36:22 INFO  - There are books on the account: 
+2023-02-17 00:36:24 INFO  - bookName: Legacy of the Lions Distributor: Palace Marketplace
+2023-02-17 00:36:24 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-17 00:36:24 INFO  - bookName: European Resistance in the Second World War Distributor: Palace Marketplace
+2023-02-17 00:36:24 INFO  - bookName: Amazing Stories Volume 80 Distributor: Palace Marketplace
+2023-02-17 00:36:24 INFO  - bookName: Moon at the Full Distributor: Palace Marketplace
+2023-02-17 00:36:24 INFO  - bookName: The Apache Diaspora Distributor: Palace Marketplace
+2023-02-17 00:36:24 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-17 00:36:24 INFO  - Count of books on the account after opening account: 7
+2023-02-17 00:36:24 INFO  - Text Field 'Card' :: Clearing
+2023-02-17 00:36:24 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-17 00:36:26 INFO  - Text Field 'Pin' :: Clearing
+2023-02-17 00:36:26 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-17 00:36:28 INFO  - Button 'Log in' :: Clicking
+2023-02-17 00:36:44 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-17 00:36:45 INFO  - Step 3 - Login is performed successfully
+2023-02-17 00:37:06 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-17 00:37:07 INFO  - Step 4 - I open Catalog
+2023-02-17 00:37:07 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-17 00:37:32 INFO  - Step 5 - I open search modal
+2023-02-17 00:37:52 INFO  - Button 'Search' :: Clicking
+2023-02-17 00:37:54 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-17 00:37:54 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-17 00:37:54 INFO  - randomBookName: The Sympathizer
+2023-02-17 00:37:54 INFO  - Error details button is not present
+2023-02-17 00:37:55 INFO  - Text Field 'Search value input' :: Sending keys 'The Sympathizer'
+2023-02-17 00:37:59 INFO  - Error details button is not present
+2023-02-17 00:38:02 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-17 00:38:02 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-17 00:38:05 INFO  - Button 'actionButton' :: Clicking
+2023-02-17 00:38:12 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-17 00:38:13 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-17 00:38:14 INFO  - Label 'lblBookName' :: Clicking
+2023-02-17 00:38:15 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-17 00:38:16 INFO  - Button 'Read' :: Clicking
+2023-02-17 00:38:17 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-02-17 00:38:17 INFO  - Scrolling 7 times on reader epub screen
+2023-02-17 00:38:33 INFO  - Step 11 - I save font size as 'fontSize'
+2023-02-17 00:38:33 INFO  - context - NATIVE_APP
+2023-02-17 00:38:33 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-17 00:38:35 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-17 00:38:35 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>eBook_PBK4314</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:d877f348-0268-4379-b8f4-f83c4dd0ef78" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="eBook_PBK4314" xml:lang="en-US">
+		<div class="Basic-Text-Frame" id="_idContainer002">
+			<p class="CN ParaOverride-1" id="_idParaDest-1"><span class="CharOverride-1">Praise for </span><span class="CharOverride-2">The Sympathizer</span></p>
+			<p class="Praise">“A dark, funny—and Vietnamese—look at the Vietnam War.”</p>
+			<p class="PraiseS ParaOverride-2">—NPR “All Things Considered”</p>
+			<p class="Praise">“A very special, important, brilliant novel . . . Amazing . . . I don’t say brilliant about a lot of books, but this is a brilliant book . . . A fabulous book . . . that everyone should read.”</p>
+			<p class="Praise ParaOverride-3">—Nancy Pearl, <a href="http://WWW.KUOW.org">KUOW.org</a> </p>
+			<p class="Praise">“Powerful and evocative . . . [The story] opens in gripping detail.”</p>
+			<p class="PraiseS ParaOverride-2">—<span class="CharOverride-3">San Francisco Chronicle</span></p>
+			<p class="Praise">“The novel’s best parts are painful, hilarious exposures of white tone-deafness . . . [the] satire is delicious.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">New Yorker</span></p>
+			<p class="Praise">“This debut is a page-turner (read: everybody will finish) that makes you reconsider the Vietnam War (read: everyone will have an opinion) . . . Nguyen’s darkly comic novel offers a point of view about American culture that we’ve rarely seen.”</p>
+			<p class="PraiseS ParaOverride-2">—<a href="http://WWW.Oprah.com">Oprah.com</a> (Oprah’s Book Club Suggestions) </p>
+			<p class="Praise">“[A] sweeping new novel . . . The burden borne by the novel’s title character . . . is that he recognized the appeal of each conflicting worldview he encounters. He’s a modern Hamlet, torn by his ability to see all sides.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Week</span></p>
+			<p class="Praise">“A welcome and necessary book . . . [Nguyen] offers fresh insight in an inventive tale that is equal parts historical spy thriller and darkly comic novel of ideas.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Winnipeg Free Press</span></p>
+			<p class="Praise">“For those who have been waiting for the great Vietnamese American Vietnam War novel, this is it. More to the point: This is a great American Vietnam War novel . . . It is the last word (I hope) on the horrors of the Vietnamese re-education camps that our allies were sentenced to when we left them swinging in the wind.”</p>
+			<p class="Praise ParaOverride-3">—Vietnam Veterans of America Blog </p>
+			<p class="Praise">“Strikingly moving on every page, this masterful, detailed work of historical fiction is recommended reading for those who truly want to understand the aftermath of the turbulent Vietnam War.”</p>
+			<p class="PraiseS ParaOverride-2">—Historical Novel Society</p>
+			<p class="Praise ParaOverride-4">“It is a strong, strange and liberating joy to read this book, feeling with each page that a broken world is being knitted back together, once again whole and complete. As far as I am concerned, Viet Thanh Nguyen’s <span class="CharOverride-3">The Sympathizer</span>—both a great American novel and a great Vietnamese novel—will close the shelf on the literature of the Vietnam War.”</p>
+			<p class="PraiseS ParaOverride-2">—Bob Shacochis, author of <span class="Emphasis _idGenCharOverride-1">The Woman Who Lost Her Soul</span> </p>
+			<p class="Praise">“Read this novel with care; it is easy to read, wry, ironic, wise, and captivating, but it could change not only your outlook on the Vietnam War, but your outlook on what you believe about politics and ideology in general. It does what the best of literature does: expands your consciousness beyond the limitations of your body and individual circumstances<span class="CharOverride-3">.</span>”</p>
+			<p class="Praise ParaOverride-3"><span class="CharOverride-3">—</span>Karl Marlantes, author of <span class="CharOverride-3">Matterhorn <br /></span>and <span class="CharOverride-3">What It Is Like to Go to War</span></p>
+			<p class="Praise">“Not only does Viet Thanh Nguyen bring a rare and authentic voice to the body of American literature generated by the Vietnam War, he has created a book that transcends history and politics and nationality and speaks to the enduring theme of literature: the universal quest for self, for identity. <span class="CharOverride-3">The Sympathizer</span> is a stellar debut by a writer of depth and skill.”</p>
+			<p class="Praise ParaOverride-3">—Robert Olen Butler, Pulitzer Prize–winning author <br />of <span class="CharOverride-3">A Good Scent from a Strange Mountain</span></p>
+			<p class="Praise">“Simultaneously cynical and ardent . . . hypnotic.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Globe and Mail</span></p>
+			<p class="Praise">“<span class="CharOverride-3">The Sympathizer</span> is a remarkable and brilliant book. By turns harrowing, and cut through by shards of unexpected and telling humor, this novel gives us the conflict in Vietnam, and its aftermath, in a way that is deeply truthful, and vitally important.”</p>
+			<p class="PraiseS ParaOverride-2">—Vincent Lam, author of <span class="CharOverride-3">Bloodletting and Miraculous Cures</span> </p>
+			<p class="Praise">“I think I’d have to go all the way back to Nabokov’s Humbert Humbert to find the last narrative voice that so completely conked me over the head and took me prisoner. Nguyen and his unnamed protagonist certainly have made a name for themselves with one of the smartest, darkest, funniest books you’ll read this year.”</p>
+			<p class="Praise ParaOverride-3">—David Abrams, author of <span class="Emphasis _idGenCharOverride-1">Fobbit</span> </p>
+			<p class="Praise">“Audaciously and vividly imagined. A compelling read.”</p>
+			<p class="Praise ParaOverride-3">—Andrew X. Pham, author of <span class="CharOverride-3">Catfish and Mandala </span></p>
+			<p class="Praise">“A necessary, haunting, and astonishing first novel . . . The intensity and weight of each sentence is so astonishingly artful that each deserves to be read twice (or three times) . . . A brilliant achievement.”</p>
+			<p class="PraiseS ParaOverride-2">—<span class="CharOverride-3">Consequence Magazine</span></p>
+			<p class="Praise">“A chronicle of war wrapped in a spy thriller and tucked inside a confession . . . Nguyen juggles genres like so many flying AK-47s, and to dazzling, often hilarious effect . . . <span class="CharOverride-3">The Sympathizer </span>has rightly been welcomed for the different perspective it brings to the war and its devastating effects on the Vietnamese.”</p>
+			<p class="Praise ParaOverride-3">—Public Books</p>
+			<p class="Praise">“Complex and compelling . . . rhythmic and lithe . . . Nguyen is an expert ironist . . . [He] has given us not an apologia for the actions of a communist mole, but a corrective to reactionary art and ideas that define the rest of the world in oppositional terms. Far from being reactionary, Nguyen’s novel is, in its small way, revolutionary.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">ZYZZYVA </span></p>
+			<p class="Praise">“Riveting . . . not only a masterly espionage novel, but also a seminal work of 21st century American fiction . . . offers profound insights into the legacy of war and the politically and racially charged atmosphere of the 1970s.”</p>
+			<p class="Praise ParaOverride-3">—Bookreporter</p>
+			<p class="Praise">“Arresting . . . One of the best pieces of fiction about the Vietnam war—and by a Vietnamese . . . Stunning . . . Could it be that Nguyen has captured the shape of the devolution of war itself, from grand ambition to human ruin? . . . One of the finest novels of the Vietnam War published in recent years.”</p>
+			<p class="Praise ParaOverride-3">—Daily Beast</p>
+			<p class="Praise">“A brilliant tragicomedy on the Vietnam War and its aftermath. The unnamed protagonist . . . possesses a Graham Greene–like moral ambiguity, the ability to see every side of a problem as he weaves an intricate web of divided treachery . . . Nguyen’s masterly book is too vast in scope, its tonal shifts too genre-bending and sinuous (it encompasses espionage thriller and dark farce, cross-cultural satire and disturbing absurdist fiction, among other things) to do it justice in a short review, but he’s a writer of huge talent.”</p>
+			<p class="PraiseS ParaOverride-2">—<span class="CharOverride-3">Sydney Morning Herald </span>(Pick of the Week)</p>
+			<p class="Praise">“Brilliantly crafted . . . Extraordinary and illuminating . . . Stunningly well written, in a voice that rings utterly true from first page to last . . . Perfect-pitch authenticity of detail . . . An astonishing feat of imagining historical truth.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Cicero Magazine </span></p>
+			<p class="Praise">“[<span class="CharOverride-3">The Sympathizer</span>] tackles post-war trauma with a dark tone that resonates with global tensions . . . Nguyen’s nihilistic vision, crafted in black humor and delivered in an original voice, is a worthwhile journey.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Hyphen Magazine</span></p>
+			<p class="Praise">“Mesmerizing . . . nuanced prose, richly loaded with atmospheric detail . . . Destined to be a contemporary classic and a valuable addition to literature about one of America’s most defining wars.”</p>
+			<p class="PraiseS ParaOverride-2">—BookBrowse </p>
+			<p class="Praise"><span class="Emphasis CharOverride-4">“</span><span class="Emphasis CharOverride-5">The Sympathizer</span> reads like an act of irregular warfare. An insurgency in prose, this strange, lovely spy story opens a new front in what revisionist historian Max Boot calls ‘The War over the Vietnam War.’ . . . A very good book, it can’t help but lift up the whole body of espionage literature. . . . [<span class="CharOverride-3">The Sympathizer</span>] is one of the finest American spy ­novels—an unavoidably national credit.”</p>
+			<p class="Praise ParaOverride-3">—New Inquiry </p>
+			<p class="Praise">“Dazzling prose . . . The narrator’s voice alone is the novel’s universe, its whole self, always displaying a leaping, dangerous intelligence that makes the book nearly impossible to close . . . <span class="CharOverride-3">The Sympathizer</span> exceeds its two nearest relations in concept and form, Chang-Rae Lee’s <span class="CharOverride-3">Native Speaker</span> and Hari Kunzru’s <span class="CharOverride-3">The Impressionist</span>.”</p>
+			<p class="Praise ParaOverride-3">—<a href="http://www.Bookforum.com">Bookforum.com</a></p>
+			<p class="Praise">“An important new perspective on the Vietnam War . . . <span class="CharOverride-3">The Sympathizer </span>will both startle and grip you.”</p>
+			<p class="Praise ParaOverride-3">—Buzzfeed </p>
+			<p class="Praise">“With twists and betrayals worthy of Denis Johnson’s <span class="CharOverride-3">Tree of Smoke</span>, Viet Thanh Nguyen has written THE novel about the fall of Saigon and its aftermath, a novel that puts Vietnam at the center of the Vietnam War. Part espionage, part existential crisis, and part Hollywood farce, <span class="CharOverride-3">The Sympathizer</span> humanizes and complicates our understanding of one of the most vivid conflicts in history.”</p>
+			<p class="Praise ParaOverride-3">—Fiction Advocate </p>
+			<p class="Praise">“Nguyen shakes up stereotypical notions of the War in Vietnam . . . cunning, often funny, sometimes chilling prose . . . puts him in a tradition of great novels, mostly nineteenth century, about stark and explosive doublings. These include Dostoyevsky’s <span class="CharOverride-3">The Double</span>, Zola’s <span class="CharOverride-3">The Human Beast</span>, and Robert Louis Stevenson’s <span class="CharOverride-3">Strange Case of Dr. Jekyll and Mr. Hyde</span>.”</p>
+			<p class="Praise ParaOverride-3">—Arts Fuse</p>
+			<p class="Praise">“Viet Thanh Nguyen’s debut has critics everywhere buzzing. In my own reading, I kept think[ing] of Adam Johnson’s <span class="CharOverride-3">The Orphan Master’s Son</span>. It’s equally as impressive, too.”</p>
+			<p class="Praise ParaOverride-3">—Novel Enthusiasts </p>
+			<p class="Praise">“Nguyen’s novel works to disorient, or reorient, audiences who have identified with a master narrative that has long gone unquestioned or disputed.”</p>
+			<p class="Praise ParaOverride-3">—Rumpus</p>
+			<p class="Praise">“[A] shimmering debut novel . . . Leaping with lyrical verve, each page turns to a unique and hauntingly familiar voice that refuses to let us forget what people are capable of doing to each other.”</p>
+			<p class="PraiseS ParaOverride-2">—Asian American Writers’ Workshop</p>
+			<p class="Praise">“Superb . . . Artfully and entertainingly dissects Vietnamese history while keeping in mind present debacles, sympathizing with and critiquing both political revolutionaries and the revolutionary innocence at the heart of American history.”	</p>
+			<p class="Praise ParaOverride-3">Wrath-Bearing Tree</p>
+			<p class="Praise">“[Nguyen] proves a gifted and bold satirist . . . By making us like his narrator so much, Nguyen reminds us of our own complicity in American war crimes. When he struggles to forget or talk around what he has done, it would be dishonest for us not to sympathize.”</p>
+			<p class="PraiseS ParaOverride-2">—Barnes &amp; Noble Review </p>
+			<p class="Praise">“An early frontrunner for debut novel of the year, <span class="CharOverride-3">The Sympathizer</span> considers the fall of Saigon in 1975 through the eyes of The Captain. It’s as much a spy novel of political intrigue as it is an examination of Communism, the CIA, and torture.”</p>
+			<p class="PraiseS ParaOverride-2">—Flavorwire (10 Must-Read Books for April)</p>
+			<p class="Praise">“Part bildungsroman, part spy thriller, part cultural and political reclamation, <span class="CharOverride-3">The Sympathizer</span> is a magnetic debut about identity, morality, and the impossible price of loyalty.”</p>
+			<p class="Praise ParaOverride-3">—Bloom</p>
+			<p class="Praise">“Breathtakingly cynical, [<span class="CharOverride-3">The Sympathizer</span>] has its hilarious moments . . . a powerful, thought-provoking work. It’s hard to believe this effort, one of the best recent novels to cover the Vietnamese conflict from an Asian perspective, is a debut. This is right up there with Denis Johnson’s <span class="CharOverride-3">Tree of Smoke</span>.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Library Journal</span> (starred review)</p>
+			<p class="Praise">“Nguyen’s probing literary art illuminates how Americans failed in their political and military attempt to remake Vietnam—but then succeeded spectacularly in shrouding their failure in Hollywood distortions. Compelling—and profoundly unsettling.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Booklist</span> (starred review)</p>
+			<p class="Praise">“A timely reminder of the brutality and deceptions of war . . . written with rich descriptions and, at times, heart-stopping intensity . . . This gripping debut captures a period of the Vietnam war that has been largely overlooked.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">South China Morning Post </span></p>
+			<p class="Praise">“As Graham Greene and Robert Stone have taught us, on the streets of Saigon, nothing is as it seems . . . Think Alan Furst meets Elmore Leonard, and you’ll capture Nguyen at his most surreal . . . a worthy addition to the library of first-rate novels about the Vietnam War.”</p>
+			<p class="Praise ParaOverride-3">—<span class="Emphasis _idGenCharOverride-1">Kirkus Reviews</span> (starred review)</p>
+			<p class="Praise">“[An] astonishing first novel . . . enlivens debate about history and human nature, and his narrator has a poignant often mindful voice.”</p>
+			<p class="PraiseS ParaOverride-2">—<span class="Emphasis _idGenCharOverride-1">Publishers Weekly </span>(starred, boxed review)</p>
+			<p class="Praise">“Remarkable . . . An extraordinary book with great insight into Vietnam, its history and people, laden with literary echoes of Graham Greene, ­Joseph Conrad and Franz Kafka.”</p>
+			<p class="Praise ParaOverride-3">—Chatham House </p>
+		</div>
+	</body>
+</html>
+2023-02-17 00:38:35 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-17 00:38:36 INFO  - Step 12 - I open font settings
+2023-02-17 00:38:36 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-17 00:38:37 INFO  - Step 13 - I INCREASE_FONT of text
+2023-02-17 00:38:37 INFO  - Button 'setTextLarger' :: Clicking
+2023-02-17 00:38:38 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-02-17 00:38:38 INFO  - context - NATIVE_APP
+2023-02-17 00:38:38 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-17 00:38:39 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-17 00:38:39 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>eBook_PBK4314</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:d877f348-0268-4379-b8f4-f83c4dd0ef78" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="eBook_PBK4314" xml:lang="en-US">
+		<div class="Basic-Text-Frame" id="_idContainer002">
+			<p class="CN ParaOverride-1" id="_idParaDest-1"><span class="CharOverride-1">Praise for </span><span class="CharOverride-2">The Sympathizer</span></p>
+			<p class="Praise">“A dark, funny—and Vietnamese—look at the Vietnam War.”</p>
+			<p class="PraiseS ParaOverride-2">—NPR “All Things Considered”</p>
+			<p class="Praise">“A very special, important, brilliant novel . . . Amazing . . . I don’t say brilliant about a lot of books, but this is a brilliant book . . . A fabulous book . . . that everyone should read.”</p>
+			<p class="Praise ParaOverride-3">—Nancy Pearl, <a href="http://WWW.KUOW.org">KUOW.org</a> </p>
+			<p class="Praise">“Powerful and evocative . . . [The story] opens in gripping detail.”</p>
+			<p class="PraiseS ParaOverride-2">—<span class="CharOverride-3">San Francisco Chronicle</span></p>
+			<p class="Praise">“The novel’s best parts are painful, hilarious exposures of white tone-deafness . . . [the] satire is delicious.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">New Yorker</span></p>
+			<p class="Praise">“This debut is a page-turner (read: everybody will finish) that makes you reconsider the Vietnam War (read: everyone will have an opinion) . . . Nguyen’s darkly comic novel offers a point of view about American culture that we’ve rarely seen.”</p>
+			<p class="PraiseS ParaOverride-2">—<a href="http://WWW.Oprah.com">Oprah.com</a> (Oprah’s Book Club Suggestions) </p>
+			<p class="Praise">“[A] sweeping new novel . . . The burden borne by the novel’s title character . . . is that he recognized the appeal of each conflicting worldview he encounters. He’s a modern Hamlet, torn by his ability to see all sides.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Week</span></p>
+			<p class="Praise">“A welcome and necessary book . . . [Nguyen] offers fresh insight in an inventive tale that is equal parts historical spy thriller and darkly comic novel of ideas.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Winnipeg Free Press</span></p>
+			<p class="Praise">“For those who have been waiting for the great Vietnamese American Vietnam War novel, this is it. More to the point: This is a great American Vietnam War novel . . . It is the last word (I hope) on the horrors of the Vietnamese re-education camps that our allies were sentenced to when we left them swinging in the wind.”</p>
+			<p class="Praise ParaOverride-3">—Vietnam Veterans of America Blog </p>
+			<p class="Praise">“Strikingly moving on every page, this masterful, detailed work of historical fiction is recommended reading for those who truly want to understand the aftermath of the turbulent Vietnam War.”</p>
+			<p class="PraiseS ParaOverride-2">—Historical Novel Society</p>
+			<p class="Praise ParaOverride-4">“It is a strong, strange and liberating joy to read this book, feeling with each page that a broken world is being knitted back together, once again whole and complete. As far as I am concerned, Viet Thanh Nguyen’s <span class="CharOverride-3">The Sympathizer</span>—both a great American novel and a great Vietnamese novel—will close the shelf on the literature of the Vietnam War.”</p>
+			<p class="PraiseS ParaOverride-2">—Bob Shacochis, author of <span class="Emphasis _idGenCharOverride-1">The Woman Who Lost Her Soul</span> </p>
+			<p class="Praise">“Read this novel with care; it is easy to read, wry, ironic, wise, and captivating, but it could change not only your outlook on the Vietnam War, but your outlook on what you believe about politics and ideology in general. It does what the best of literature does: expands your consciousness beyond the limitations of your body and individual circumstances<span class="CharOverride-3">.</span>”</p>
+			<p class="Praise ParaOverride-3"><span class="CharOverride-3">—</span>Karl Marlantes, author of <span class="CharOverride-3">Matterhorn <br /></span>and <span class="CharOverride-3">What It Is Like to Go to War</span></p>
+			<p class="Praise">“Not only does Viet Thanh Nguyen bring a rare and authentic voice to the body of American literature generated by the Vietnam War, he has created a book that transcends history and politics and nationality and speaks to the enduring theme of literature: the universal quest for self, for identity. <span class="CharOverride-3">The Sympathizer</span> is a stellar debut by a writer of depth and skill.”</p>
+			<p class="Praise ParaOverride-3">—Robert Olen Butler, Pulitzer Prize–winning author <br />of <span class="CharOverride-3">A Good Scent from a Strange Mountain</span></p>
+			<p class="Praise">“Simultaneously cynical and ardent . . . hypnotic.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Globe and Mail</span></p>
+			<p class="Praise">“<span class="CharOverride-3">The Sympathizer</span> is a remarkable and brilliant book. By turns harrowing, and cut through by shards of unexpected and telling humor, this novel gives us the conflict in Vietnam, and its aftermath, in a way that is deeply truthful, and vitally important.”</p>
+			<p class="PraiseS ParaOverride-2">—Vincent Lam, author of <span class="CharOverride-3">Bloodletting and Miraculous Cures</span> </p>
+			<p class="Praise">“I think I’d have to go all the way back to Nabokov’s Humbert Humbert to find the last narrative voice that so completely conked me over the head and took me prisoner. Nguyen and his unnamed protagonist certainly have made a name for themselves with one of the smartest, darkest, funniest books you’ll read this year.”</p>
+			<p class="Praise ParaOverride-3">—David Abrams, author of <span class="Emphasis _idGenCharOverride-1">Fobbit</span> </p>
+			<p class="Praise">“Audaciously and vividly imagined. A compelling read.”</p>
+			<p class="Praise ParaOverride-3">—Andrew X. Pham, author of <span class="CharOverride-3">Catfish and Mandala </span></p>
+			<p class="Praise">“A necessary, haunting, and astonishing first novel . . . The intensity and weight of each sentence is so astonishingly artful that each deserves to be read twice (or three times) . . . A brilliant achievement.”</p>
+			<p class="PraiseS ParaOverride-2">—<span class="CharOverride-3">Consequence Magazine</span></p>
+			<p class="Praise">“A chronicle of war wrapped in a spy thriller and tucked inside a confession . . . Nguyen juggles genres like so many flying AK-47s, and to dazzling, often hilarious effect . . . <span class="CharOverride-3">The Sympathizer </span>has rightly been welcomed for the different perspective it brings to the war and its devastating effects on the Vietnamese.”</p>
+			<p class="Praise ParaOverride-3">—Public Books</p>
+			<p class="Praise">“Complex and compelling . . . rhythmic and lithe . . . Nguyen is an expert ironist . . . [He] has given us not an apologia for the actions of a communist mole, but a corrective to reactionary art and ideas that define the rest of the world in oppositional terms. Far from being reactionary, Nguyen’s novel is, in its small way, revolutionary.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">ZYZZYVA </span></p>
+			<p class="Praise">“Riveting . . . not only a masterly espionage novel, but also a seminal work of 21st century American fiction . . . offers profound insights into the legacy of war and the politically and racially charged atmosphere of the 1970s.”</p>
+			<p class="Praise ParaOverride-3">—Bookreporter</p>
+			<p class="Praise">“Arresting . . . One of the best pieces of fiction about the Vietnam war—and by a Vietnamese . . . Stunning . . . Could it be that Nguyen has captured the shape of the devolution of war itself, from grand ambition to human ruin? . . . One of the finest novels of the Vietnam War published in recent years.”</p>
+			<p class="Praise ParaOverride-3">—Daily Beast</p>
+			<p class="Praise">“A brilliant tragicomedy on the Vietnam War and its aftermath. The unnamed protagonist . . . possesses a Graham Greene–like moral ambiguity, the ability to see every side of a problem as he weaves an intricate web of divided treachery . . . Nguyen’s masterly book is too vast in scope, its tonal shifts too genre-bending and sinuous (it encompasses espionage thriller and dark farce, cross-cultural satire and disturbing absurdist fiction, among other things) to do it justice in a short review, but he’s a writer of huge talent.”</p>
+			<p class="PraiseS ParaOverride-2">—<span class="CharOverride-3">Sydney Morning Herald </span>(Pick of the Week)</p>
+			<p class="Praise">“Brilliantly crafted . . . Extraordinary and illuminating . . . Stunningly well written, in a voice that rings utterly true from first page to last . . . Perfect-pitch authenticity of detail . . . An astonishing feat of imagining historical truth.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Cicero Magazine </span></p>
+			<p class="Praise">“[<span class="CharOverride-3">The Sympathizer</span>] tackles post-war trauma with a dark tone that resonates with global tensions . . . Nguyen’s nihilistic vision, crafted in black humor and delivered in an original voice, is a worthwhile journey.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Hyphen Magazine</span></p>
+			<p class="Praise">“Mesmerizing . . . nuanced prose, richly loaded with atmospheric detail . . . Destined to be a contemporary classic and a valuable addition to literature about one of America’s most defining wars.”</p>
+			<p class="PraiseS ParaOverride-2">—BookBrowse </p>
+			<p class="Praise"><span class="Emphasis CharOverride-4">“</span><span class="Emphasis CharOverride-5">The Sympathizer</span> reads like an act of irregular warfare. An insurgency in prose, this strange, lovely spy story opens a new front in what revisionist historian Max Boot calls ‘The War over the Vietnam War.’ . . . A very good book, it can’t help but lift up the whole body of espionage literature. . . . [<span class="CharOverride-3">The Sympathizer</span>] is one of the finest American spy ­novels—an unavoidably national credit.”</p>
+			<p class="Praise ParaOverride-3">—New Inquiry </p>
+			<p class="Praise">“Dazzling prose . . . The narrator’s voice alone is the novel’s universe, its whole self, always displaying a leaping, dangerous intelligence that makes the book nearly impossible to close . . . <span class="CharOverride-3">The Sympathizer</span> exceeds its two nearest relations in concept and form, Chang-Rae Lee’s <span class="CharOverride-3">Native Speaker</span> and Hari Kunzru’s <span class="CharOverride-3">The Impressionist</span>.”</p>
+			<p class="Praise ParaOverride-3">—<a href="http://www.Bookforum.com">Bookforum.com</a></p>
+			<p class="Praise">“An important new perspective on the Vietnam War . . . <span class="CharOverride-3">The Sympathizer </span>will both startle and grip you.”</p>
+			<p class="Praise ParaOverride-3">—Buzzfeed </p>
+			<p class="Praise">“With twists and betrayals worthy of Denis Johnson’s <span class="CharOverride-3">Tree of Smoke</span>, Viet Thanh Nguyen has written THE novel about the fall of Saigon and its aftermath, a novel that puts Vietnam at the center of the Vietnam War. Part espionage, part existential crisis, and part Hollywood farce, <span class="CharOverride-3">The Sympathizer</span> humanizes and complicates our understanding of one of the most vivid conflicts in history.”</p>
+			<p class="Praise ParaOverride-3">—Fiction Advocate </p>
+			<p class="Praise">“Nguyen shakes up stereotypical notions of the War in Vietnam . . . cunning, often funny, sometimes chilling prose . . . puts him in a tradition of great novels, mostly nineteenth century, about stark and explosive doublings. These include Dostoyevsky’s <span class="CharOverride-3">The Double</span>, Zola’s <span class="CharOverride-3">The Human Beast</span>, and Robert Louis Stevenson’s <span class="CharOverride-3">Strange Case of Dr. Jekyll and Mr. Hyde</span>.”</p>
+			<p class="Praise ParaOverride-3">—Arts Fuse</p>
+			<p class="Praise">“Viet Thanh Nguyen’s debut has critics everywhere buzzing. In my own reading, I kept think[ing] of Adam Johnson’s <span class="CharOverride-3">The Orphan Master’s Son</span>. It’s equally as impressive, too.”</p>
+			<p class="Praise ParaOverride-3">—Novel Enthusiasts </p>
+			<p class="Praise">“Nguyen’s novel works to disorient, or reorient, audiences who have identified with a master narrative that has long gone unquestioned or disputed.”</p>
+			<p class="Praise ParaOverride-3">—Rumpus</p>
+			<p class="Praise">“[A] shimmering debut novel . . . Leaping with lyrical verve, each page turns to a unique and hauntingly familiar voice that refuses to let us forget what people are capable of doing to each other.”</p>
+			<p class="PraiseS ParaOverride-2">—Asian American Writers’ Workshop</p>
+			<p class="Praise">“Superb . . . Artfully and entertainingly dissects Vietnamese history while keeping in mind present debacles, sympathizing with and critiquing both political revolutionaries and the revolutionary innocence at the heart of American history.”	</p>
+			<p class="Praise ParaOverride-3">Wrath-Bearing Tree</p>
+			<p class="Praise">“[Nguyen] proves a gifted and bold satirist . . . By making us like his narrator so much, Nguyen reminds us of our own complicity in American war crimes. When he struggles to forget or talk around what he has done, it would be dishonest for us not to sympathize.”</p>
+			<p class="PraiseS ParaOverride-2">—Barnes &amp; Noble Review </p>
+			<p class="Praise">“An early frontrunner for debut novel of the year, <span class="CharOverride-3">The Sympathizer</span> considers the fall of Saigon in 1975 through the eyes of The Captain. It’s as much a spy novel of political intrigue as it is an examination of Communism, the CIA, and torture.”</p>
+			<p class="PraiseS ParaOverride-2">—Flavorwire (10 Must-Read Books for April)</p>
+			<p class="Praise">“Part bildungsroman, part spy thriller, part cultural and political reclamation, <span class="CharOverride-3">The Sympathizer</span> is a magnetic debut about identity, morality, and the impossible price of loyalty.”</p>
+			<p class="Praise ParaOverride-3">—Bloom</p>
+			<p class="Praise">“Breathtakingly cynical, [<span class="CharOverride-3">The Sympathizer</span>] has its hilarious moments . . . a powerful, thought-provoking work. It’s hard to believe this effort, one of the best recent novels to cover the Vietnamese conflict from an Asian perspective, is a debut. This is right up there with Denis Johnson’s <span class="CharOverride-3">Tree of Smoke</span>.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Library Journal</span> (starred review)</p>
+			<p class="Praise">“Nguyen’s probing literary art illuminates how Americans failed in their political and military attempt to remake Vietnam—but then succeeded spectacularly in shrouding their failure in Hollywood distortions. Compelling—and profoundly unsettling.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">Booklist</span> (starred review)</p>
+			<p class="Praise">“A timely reminder of the brutality and deceptions of war . . . written with rich descriptions and, at times, heart-stopping intensity . . . This gripping debut captures a period of the Vietnam war that has been largely overlooked.”</p>
+			<p class="Praise ParaOverride-3">—<span class="CharOverride-3">South China Morning Post </span></p>
+			<p class="Praise">“As Graham Greene and Robert Stone have taught us, on the streets of Saigon, nothing is as it seems . . . Think Alan Furst meets Elmore Leonard, and you’ll capture Nguyen at his most surreal . . . a worthy addition to the library of first-rate novels about the Vietnam War.”</p>
+			<p class="Praise ParaOverride-3">—<span class="Emphasis _idGenCharOverride-1">Kirkus Reviews</span> (starred review)</p>
+			<p class="Praise">“[An] astonishing first novel . . . enlivens debate about history and human nature, and his narrator has a poignant often mindful voice.”</p>
+			<p class="PraiseS ParaOverride-2">—<span class="Emphasis _idGenCharOverride-1">Publishers Weekly </span>(starred, boxed review)</p>
+			<p class="Praise">“Remarkable . . . An extraordinary book with great insight into Vietnam, its history and people, laden with literary echoes of Graham Greene, ­Joseph Conrad and Franz Kafka.”</p>
+			<p class="Praise ParaOverride-3">—Chatham House </p>
+		</div>
+	</body>
+</html>
+2023-02-17 00:38:39 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-17 00:38:39 INFO  - Step 15 - I restart app
+2023-02-17 00:39:04 INFO  - Step 16 - I open Books
+2023-02-17 00:39:04 INFO  - Button 'tabBooks' :: Clicking
+2023-02-17 00:39:05 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-17 00:39:25 INFO  - Label 'lblBookName' :: Clicking
+2023-02-17 00:39:45 INFO  - Taking screenshot
+2023-02-17 00:39:47 INFO  - Test finished - logging out
+2023-02-17 00:39:48 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:39:51 INFO  - Button 'tabSettings' :: Clicking
+2023-02-17 00:39:52 INFO  - Button 'Accounts' :: Clicking
+2023-02-17 00:39:53 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-17 00:39:55 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-17 00:39:55 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-17 00:39:55 INFO  - Button 'Log out' :: Clicking
+2023-02-17 00:39:56 INFO  - Button 'Log in' :: Getting text from element
+2023-02-17 00:40:06 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-17 00:40:06 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-17 00:40:07 INFO  - Unlocking credential for current thread
+2023-02-17 00:40:07 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1cd63735
