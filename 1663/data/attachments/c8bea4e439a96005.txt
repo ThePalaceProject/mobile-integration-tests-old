@@ -1,0 +1,36 @@
+2023-02-17 00:03:07 INFO  - Scenario 'BiblioBoard audiobook: Check related books section in LYRASIS' start
+2023-02-17 00:03:07 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-17 00:03:27 INFO  - Application on platform 'IOS' is ready...
+2023-02-17 00:03:28 INFO  - Session id - a222355ac19f4ba2bd152b0bb276a91ebae5e2b9
+2023-02-17 00:03:28 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-17 00:03:48 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-17 00:03:49 INFO  - Button 'Find your library button' :: Clicking
+2023-02-17 00:03:51 INFO  - Text Field 'Search field' :: Clicking
+2023-02-17 00:03:58 INFO  - Text Field 'Search field' :: Clearing
+2023-02-17 00:03:58 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-17 00:04:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-17 00:04:12 INFO  - Step 1 - I open Catalog
+2023-02-17 00:04:12 INFO  - Button 'Catalog' :: Clicking
+2023-02-17 00:04:15 INFO  - Step 2 - I open search modal
+2023-02-17 00:04:16 INFO  - Button 'Search button' :: Clicking
+2023-02-17 00:04:19 INFO  - Step 3 - I search for "Kate & Ruby" and save bookName as 'bookNameInfo'
+2023-02-17 00:04:20 INFO  - Text Field 'Search value input' :: Sending keys 'Kate & Ruby'
+2023-02-17 00:04:21 INFO  - Button 'Search' :: Clicking
+2023-02-17 00:04:24 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2023-02-17 00:04:24 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-17 00:05:07 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-17 00:05:08 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-17 00:05:10 INFO  - Label 'lblBookName' :: Clicking
+2023-02-17 00:05:12 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-02-17 00:05:15 INFO  - Label 'Book title' :: Getting text from element
+2023-02-17 00:05:20 INFO  - Label 'Author' :: Getting text from element
+2023-02-17 00:05:24 INFO  - Label 'Book title' :: Getting text from element
+2023-02-17 00:05:30 INFO  - Label 'Author' :: Getting text from element
+2023-02-17 00:05:31 INFO  - Step 7 - Related books section is displayed on book details screen
+2023-02-17 00:05:34 INFO  - Label 'Book title' :: Getting text from element
+2023-02-17 00:05:39 INFO  - Label 'Author' :: Getting text from element
+2023-02-17 00:05:41 INFO  - Step 8 - There is a list of related books on book details screen
+2023-02-17 00:05:45 INFO  - Step 9 - More button in related books section is available on book details screen
+2023-02-17 00:05:47 INFO  - Taking screenshot
+2023-02-17 00:05:49 INFO  - Unlocking credential for current thread
+2023-02-17 00:05:49 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@b0561f7
