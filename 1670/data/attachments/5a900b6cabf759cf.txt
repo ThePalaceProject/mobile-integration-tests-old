@@ -1,0 +1,73 @@
+2023-02-18 11:09:25 INFO  - Scenario 'Get a book from Subcategory List View and Read from Books in LYRASIS' start
+2023-02-18 11:09:25 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-18 11:10:21 INFO  - Application on platform 'IOS' is ready...
+2023-02-18 11:10:21 INFO  - Session id - 382b8e668ef577ea03d8d67d7bb6be91732e3942
+2023-02-18 11:10:21 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-18 11:10:42 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-18 11:10:42 INFO  - Button 'Find your library button' :: Clicking
+2023-02-18 11:10:43 INFO  - Text Field 'Search field' :: Clicking
+2023-02-18 11:10:49 INFO  - Text Field 'Search field' :: Clearing
+2023-02-18 11:10:49 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-18 11:10:59 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-18 11:11:01 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-18 11:11:01 INFO  - Button 'Settings' :: Clicking
+2023-02-18 11:11:02 INFO  - Button 'Settings' :: Clicking
+2023-02-18 11:11:03 INFO  - Button 'Libraries button' :: Clicking
+2023-02-18 11:11:05 INFO  - Locking credential with barcode 01230000000305
+2023-02-18 11:11:05 INFO  - There are books on the account: 
+2023-02-18 11:11:06 INFO  - bookName: Amazing Stories Volume 80 Distributor: Palace Marketplace
+2023-02-18 11:11:06 INFO  - bookName: Keeping At It Distributor: Palace Marketplace
+2023-02-18 11:11:06 INFO  - bookName: Legacy of the Lions Distributor: Palace Marketplace
+2023-02-18 11:11:06 INFO  - bookName: European Resistance in the Second World War Distributor: Palace Marketplace
+2023-02-18 11:11:06 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-18 11:11:06 INFO  - bookName: The Apache Diaspora Distributor: Palace Marketplace
+2023-02-18 11:11:06 INFO  - bookName: Moon at the Full Distributor: Palace Marketplace
+2023-02-18 11:11:06 INFO  - Count of books on the account after opening account: 7
+2023-02-18 11:11:27 INFO  - Text Field 'Card' :: Clicking
+2023-02-18 11:11:28 INFO  - Text Field 'Card' :: Clearing
+2023-02-18 11:11:28 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-18 11:11:31 INFO  - Text Field 'Pin' :: Clearing
+2023-02-18 11:11:31 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-18 11:11:34 INFO  - Button 'Log in' :: Clicking
+2023-02-18 11:11:42 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-18 11:11:44 INFO  - Step 2 - Login is performed successfully
+2023-02-18 11:11:45 INFO  - Step 3 - I open Catalog
+2023-02-18 11:11:45 INFO  - Button 'Catalog' :: Clicking
+2023-02-18 11:11:47 INFO  - Step 4 - I open search modal
+2023-02-18 11:11:48 INFO  - Button 'Search button' :: Clicking
+2023-02-18 11:11:50 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-18 11:11:50 INFO  - Count of attempts to get random book name without bad symbols-4
+2023-02-18 11:11:50 INFO  - randomBookName: Shadows of Swanford Abbey
+2023-02-18 11:11:51 INFO  - Text Field 'Search value input' :: Sending keys 'Shadows of Swanford Abbey'
+2023-02-18 11:11:53 INFO  - Button 'Search' :: Clicking
+2023-02-18 11:11:56 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-02-18 11:11:56 INFO  - Button 'eBooks' :: Clicking
+2023-02-18 11:12:38 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-18 11:12:40 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-18 11:12:42 INFO  - Button 'actionButton' :: Clicking
+2023-02-18 11:13:05 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-02-18 11:13:09 INFO  - Step 9 - I open Books
+2023-02-18 11:13:09 INFO  - Button 'My Books' :: Clicking
+2023-02-18 11:13:11 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-18 11:13:12 INFO  - Label 'lblBookName' :: Clicking
+2023-02-18 11:13:14 INFO  - Step 11 - Click READ action button on book details screen
+2023-02-18 11:13:15 INFO  - Button 'Read' :: Clicking
+2023-02-18 11:13:38 INFO  - Step 12 - Wait for 3 seconds
+2023-02-18 11:13:41 INFO  - Step 13 - 'bookInfo' book is present on epub reader screen
+2023-02-18 11:13:41 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-02-18 11:13:42 INFO  - Book name on epub reader screen - Shadows of Swanford Abbey
+2023-02-18 11:13:42 INFO  - Taking screenshot
+2023-02-18 11:13:42 INFO  - Test finished - logging out
+2023-02-18 11:13:46 INFO  - Button 'Settings' :: Clicking
+2023-02-18 11:13:46 INFO  - Button 'Settings' :: Clicking
+2023-02-18 11:13:46 INFO  - Button 'Libraries button' :: Clicking
+2023-02-18 11:13:49 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-18 11:13:49 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-18 11:13:50 INFO  - Button 'Log out' :: Clicking
+2023-02-18 11:13:50 INFO  - Button 'Log out approve' :: Clicking
+2023-02-18 11:13:52 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-02-18 11:13:53 INFO  - Button 'Log in' :: Getting text from element
+2023-02-18 11:13:56 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-18 11:13:56 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-18 11:13:57 INFO  - Unlocking credential for current thread
+2023-02-18 11:13:57 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@b9a878e
