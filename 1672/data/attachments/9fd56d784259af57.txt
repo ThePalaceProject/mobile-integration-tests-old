@@ -1,0 +1,95 @@
+2023-02-18 17:38:28 INFO  - Scenario 'Biblioboard: Navigate by Audiobook' start
+2023-02-18 17:38:28 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-18 17:39:02 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-18 17:39:02 INFO  - Session id - 69e2a9e21b060f9f55888133e76cd4f33ab20f91
+2023-02-18 17:39:02 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-18 17:39:02 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-18 17:39:05 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-18 17:39:05 INFO  - Button 'Search' :: Clicking
+2023-02-18 17:39:08 INFO  - Text Field 'Search' :: Clearing
+2023-02-18 17:39:08 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-18 17:39:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-18 17:39:10 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-18 17:39:10 INFO  - Button 'tabSettings' :: Clicking
+2023-02-18 17:39:12 INFO  - Button 'tabSettings' :: Clicking
+2023-02-18 17:39:13 INFO  - Button 'Accounts' :: Clicking
+2023-02-18 17:39:15 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-18 17:39:15 INFO  - Button 'tabSettings' :: Clicking
+2023-02-18 17:39:15 INFO  - Button 'tabSettings' :: Clicking
+2023-02-18 17:39:16 INFO  - Button 'Accounts' :: Clicking
+2023-02-18 17:39:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-18 17:39:18 INFO  - Locking credential with barcode 01230000000304
+2023-02-18 17:39:18 INFO  - There are books on the account: 
+2023-02-18 17:39:19 INFO  - bookName: This Is Your Brain on Food Distributor: Palace Marketplace
+2023-02-18 17:39:19 INFO  - bookName: Eldritch Tales Distributor: Palace Marketplace
+2023-02-18 17:39:19 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-18 17:39:19 INFO  - bookName: The Fritz Strafers A Story of the Great War Distributor: Palace Marketplace
+2023-02-18 17:39:19 INFO  - bookName: The Great Influenza Distributor: Palace Marketplace
+2023-02-18 17:39:19 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-02-18 17:39:19 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-02-18 17:39:19 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-18 17:39:19 INFO  - Count of books on the account after opening account: 8
+2023-02-18 17:39:19 INFO  - Text Field 'Card' :: Clearing
+2023-02-18 17:39:19 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-18 17:39:20 INFO  - Text Field 'Pin' :: Clearing
+2023-02-18 17:39:20 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-18 17:39:22 INFO  - Button 'Log in' :: Clicking
+2023-02-18 17:39:28 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-18 17:39:29 INFO  - Step 3 - Login is performed successfully
+2023-02-18 17:39:50 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-18 17:39:50 INFO  - Step 4 - I open Catalog
+2023-02-18 17:39:50 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-18 17:40:10 INFO  - Step 5 - I open search modal
+2023-02-18 17:40:31 INFO  - Button 'Search' :: Clicking
+2023-02-18 17:40:32 INFO  - Step 6 - I search for "Kate & Ruby" and save bookName as 'bookNameInfo'
+2023-02-18 17:40:32 INFO  - Error details button is not present
+2023-02-18 17:40:32 INFO  - Text Field 'Search value input' :: Sending keys 'Kate & Ruby'
+2023-02-18 17:40:34 INFO  - Error details button is not present
+2023-02-18 17:40:37 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-02-18 17:40:37 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-18 17:40:59 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-18 17:40:59 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-18 17:40:59 INFO  - Label 'lblBookName' :: Clicking
+2023-02-18 17:41:00 INFO  - Step 9 - Click GET action button on book details screen
+2023-02-18 17:41:01 INFO  - Button 'Get' :: Clicking
+2023-02-18 17:41:07 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-02-18 17:41:07 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-02-18 17:41:07 INFO  - Button 'Listen' :: Clicking
+2023-02-18 17:41:07 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-02-18 17:41:12 INFO  - Step 13 - Tap play button on audio player screen
+2023-02-18 17:41:12 INFO  - Button 'btnPlay' :: Clicking
+2023-02-18 17:41:12 INFO  - Step 14 - Pause button is present on audio player screen
+2023-02-18 17:41:13 INFO  - Step 15 - Tap pause button on audio player screen
+2023-02-18 17:41:13 INFO  - Button 'btnPause' :: Clicking
+2023-02-18 17:41:13 INFO  - Step 16 - Play button is present on audio player screen
+2023-02-18 17:41:14 INFO  - Step 17 - Book is not playing on audio player screen
+2023-02-18 17:41:14 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-18 17:41:16 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-18 17:41:16 INFO  - Step 18 - Tap play button on audio player screen
+2023-02-18 17:41:16 INFO  - Button 'btnPlay' :: Clicking
+2023-02-18 17:41:16 INFO  - Step 19 - Save book play time as 'timeAhead' on audio player screen
+2023-02-18 17:41:16 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-18 17:41:17 INFO  - Step 20 - Skip ahead 15 seconds on audio player screen
+2023-02-18 17:41:17 INFO  - Button 'btnSkipAhead' :: Clicking
+2023-02-18 17:41:18 INFO  - Step 21 - Playback has been moved forward by 15 seconds from 'timeAhead' seconds on audio player screen
+2023-02-18 17:41:18 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-18 17:41:18 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-18 17:41:19 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-18 17:41:20 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-18 17:41:21 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-18 17:41:22 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-18 17:41:23 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-18 17:41:24 INFO  - diff between times for move forward - 4
+2023-02-18 17:41:24 INFO  - Taking screenshot
+2023-02-18 17:41:25 INFO  - Test finished - logging out
+2023-02-18 17:41:26 INFO  - Button 'tabSettings' :: Clicking
+2023-02-18 17:41:29 INFO  - Button 'tabSettings' :: Clicking
+2023-02-18 17:41:30 INFO  - Button 'Accounts' :: Clicking
+2023-02-18 17:41:31 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-18 17:41:33 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-18 17:41:33 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-18 17:41:33 INFO  - Button 'Log out' :: Clicking
+2023-02-18 17:41:33 INFO  - Button 'Log in' :: Getting text from element
+2023-02-18 17:41:43 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-18 17:41:43 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-18 17:41:44 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@51b1cd09
