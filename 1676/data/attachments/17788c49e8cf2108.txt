@@ -1,0 +1,94 @@
+2023-02-19 08:39:38 INFO  - Scenario 'Biblioboard: Navigate by Audiobook' start
+2023-02-19 08:39:38 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-19 08:40:13 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-19 08:40:13 INFO  - Session id - bce884463b49efb00fb51b3e6f674a968d343241
+2023-02-19 08:40:13 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-19 08:40:13 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-19 08:40:16 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-19 08:40:16 INFO  - Button 'Search' :: Clicking
+2023-02-19 08:40:18 INFO  - Text Field 'Search' :: Clearing
+2023-02-19 08:40:18 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-19 08:40:20 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-19 08:40:21 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-19 08:40:21 INFO  - Button 'tabSettings' :: Clicking
+2023-02-19 08:40:22 INFO  - Button 'tabSettings' :: Clicking
+2023-02-19 08:40:23 INFO  - Button 'Accounts' :: Clicking
+2023-02-19 08:40:25 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-19 08:40:25 INFO  - Button 'tabSettings' :: Clicking
+2023-02-19 08:40:26 INFO  - Button 'tabSettings' :: Clicking
+2023-02-19 08:40:27 INFO  - Button 'Accounts' :: Clicking
+2023-02-19 08:40:28 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-19 08:40:29 INFO  - Locking credential with barcode 01230000000306
+2023-02-19 08:40:29 INFO  - There are books on the account: 
+2023-02-19 08:40:29 INFO  - bookName: Seekers of Truth and Tranquility Distributor: Palace Marketplace
+2023-02-19 08:40:29 INFO  - bookName: The Happiness Project Distributor: Palace Marketplace
+2023-02-19 08:40:29 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2023-02-19 08:40:29 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-02-19 08:40:29 INFO  - bookName: The Rule of Many Distributor: Palace Marketplace
+2023-02-19 08:40:29 INFO  - bookName: Take the Lead Distributor: Bibliotheca
+2023-02-19 08:40:29 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-02-19 08:40:29 INFO  - Count of books on the account after opening account: 7
+2023-02-19 08:40:29 INFO  - Text Field 'Card' :: Clearing
+2023-02-19 08:40:29 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-19 08:40:31 INFO  - Text Field 'Pin' :: Clearing
+2023-02-19 08:40:31 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-19 08:40:33 INFO  - Button 'Log in' :: Clicking
+2023-02-19 08:40:39 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-19 08:40:39 INFO  - Step 3 - Login is performed successfully
+2023-02-19 08:41:00 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-19 08:41:00 INFO  - Step 4 - I open Catalog
+2023-02-19 08:41:00 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-19 08:41:21 INFO  - Step 5 - I open search modal
+2023-02-19 08:41:41 INFO  - Button 'Search' :: Clicking
+2023-02-19 08:41:43 INFO  - Step 6 - I search for "Kate & Ruby" and save bookName as 'bookNameInfo'
+2023-02-19 08:41:43 INFO  - Error details button is not present
+2023-02-19 08:41:43 INFO  - Text Field 'Search value input' :: Sending keys 'Kate & Ruby'
+2023-02-19 08:41:45 INFO  - Error details button is not present
+2023-02-19 08:41:47 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-02-19 08:41:47 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-19 08:42:11 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-19 08:42:11 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-19 08:42:12 INFO  - Label 'lblBookName' :: Clicking
+2023-02-19 08:42:12 INFO  - Step 9 - Click GET action button on book details screen
+2023-02-19 08:42:13 INFO  - Button 'Get' :: Clicking
+2023-02-19 08:42:17 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-02-19 08:42:17 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-02-19 08:42:18 INFO  - Button 'Listen' :: Clicking
+2023-02-19 08:42:18 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-02-19 08:42:21 INFO  - Step 13 - Tap play button on audio player screen
+2023-02-19 08:42:21 INFO  - Button 'btnPlay' :: Clicking
+2023-02-19 08:42:23 INFO  - Step 14 - Pause button is present on audio player screen
+2023-02-19 08:42:23 INFO  - Step 15 - Tap pause button on audio player screen
+2023-02-19 08:42:23 INFO  - Button 'btnPause' :: Clicking
+2023-02-19 08:42:24 INFO  - Step 16 - Play button is present on audio player screen
+2023-02-19 08:42:25 INFO  - Step 17 - Book is not playing on audio player screen
+2023-02-19 08:42:25 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-19 08:42:27 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-19 08:42:28 INFO  - Step 18 - Tap play button on audio player screen
+2023-02-19 08:42:28 INFO  - Button 'btnPlay' :: Clicking
+2023-02-19 08:42:28 INFO  - Step 19 - Save book play time as 'timeAhead' on audio player screen
+2023-02-19 08:42:28 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-19 08:42:29 INFO  - Step 20 - Skip ahead 15 seconds on audio player screen
+2023-02-19 08:42:29 INFO  - Button 'btnSkipAhead' :: Clicking
+2023-02-19 08:42:31 INFO  - Step 21 - Playback has been moved forward by 15 seconds from 'timeAhead' seconds on audio player screen
+2023-02-19 08:42:31 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-19 08:42:31 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-19 08:42:32 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-19 08:42:33 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-19 08:42:34 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-19 08:42:35 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-19 08:42:36 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-19 08:42:37 INFO  - diff between times for move forward - 4
+2023-02-19 08:42:37 INFO  - Taking screenshot
+2023-02-19 08:42:38 INFO  - Test finished - logging out
+2023-02-19 08:42:39 INFO  - Button 'tabSettings' :: Clicking
+2023-02-19 08:42:42 INFO  - Button 'tabSettings' :: Clicking
+2023-02-19 08:42:43 INFO  - Button 'Accounts' :: Clicking
+2023-02-19 08:42:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-19 08:42:45 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-19 08:42:46 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-19 08:42:46 INFO  - Button 'Log out' :: Clicking
+2023-02-19 08:42:46 INFO  - Button 'Log in' :: Getting text from element
+2023-02-19 08:42:53 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-19 08:42:53 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-19 08:42:54 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@10ed5c0c
