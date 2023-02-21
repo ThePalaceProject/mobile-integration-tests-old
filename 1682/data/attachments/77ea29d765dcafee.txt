@@ -1,0 +1,83 @@
+2023-02-21 17:56:02 INFO  - Scenario 'Check playback speed and sleep timer' start
+2023-02-21 17:56:02 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-21 17:56:30 INFO  - Application on platform 'IOS' is ready...
+2023-02-21 17:56:30 INFO  - Session id - 6368c976d1cff8fc8ba8077215b2a9d5e72d7121
+2023-02-21 17:56:30 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-21 17:56:51 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-21 17:56:52 INFO  - Button 'Find your library button' :: Clicking
+2023-02-21 17:56:54 INFO  - Text Field 'Search field' :: Clicking
+2023-02-21 17:57:01 INFO  - Text Field 'Search field' :: Clearing
+2023-02-21 17:57:01 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-21 17:57:12 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-21 17:57:15 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-21 17:57:16 INFO  - Button 'Settings' :: Clicking
+2023-02-21 17:57:17 INFO  - Button 'Settings' :: Clicking
+2023-02-21 17:57:19 INFO  - Button 'Libraries button' :: Clicking
+2023-02-21 17:57:21 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-21 17:57:21 INFO  - Button 'Settings' :: Clicking
+2023-02-21 17:57:22 INFO  - Button 'Settings' :: Clicking
+2023-02-21 17:57:24 INFO  - Button 'Libraries button' :: Clicking
+2023-02-21 17:57:27 INFO  - Locking credential with barcode 01230000000303
+2023-02-21 17:57:27 INFO  - There are books on the account: 
+2023-02-21 17:57:28 INFO  - bookName: The Debt Trap Distributor: Palace Marketplace
+2023-02-21 17:57:28 INFO  - bookName: American Axe Distributor: Palace Marketplace
+2023-02-21 17:57:28 INFO  - bookName: Wild Problems Distributor: Palace Marketplace
+2023-02-21 17:57:28 INFO  - Count of books on the account after opening account: 3
+2023-02-21 17:57:50 INFO  - Text Field 'Card' :: Clicking
+2023-02-21 17:57:51 INFO  - Text Field 'Card' :: Clearing
+2023-02-21 17:57:51 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-21 17:57:54 INFO  - Text Field 'Pin' :: Clearing
+2023-02-21 17:57:54 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-21 17:57:58 INFO  - Button 'Log in' :: Clicking
+2023-02-21 17:58:21 INFO  - Step 3 - Login is performed successfully
+2023-02-21 17:58:22 INFO  - Step 4 - I open Catalog
+2023-02-21 17:58:22 INFO  - Button 'Catalog' :: Clicking
+2023-02-21 17:58:24 INFO  - Step 5 - I open search modal
+2023-02-21 17:58:26 INFO  - Button 'Search button' :: Clicking
+2023-02-21 17:58:28 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-21 17:58:28 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-21 17:58:28 INFO  - randomBookName: The Black Swan of Paris
+2023-02-21 17:58:29 INFO  - Text Field 'Search value input' :: Sending keys 'The Black Swan of Paris'
+2023-02-21 17:58:31 INFO  - Button 'Search' :: Clicking
+2023-02-21 17:58:34 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-02-21 17:58:34 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-21 17:59:16 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-21 17:59:18 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-21 17:59:19 INFO  - Label 'lblBookName' :: Clicking
+2023-02-21 17:59:21 INFO  - Step 9 - Click GET action button on book details screen
+2023-02-21 17:59:22 INFO  - Button 'Get' :: Clicking
+2023-02-21 17:59:44 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-02-21 17:59:45 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-02-21 17:59:46 INFO  - Button 'Listen' :: Clicking
+2023-02-21 17:59:53 INFO  - Alert appears and dismiss alert
+2023-02-21 17:59:53 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-02-21 17:59:54 INFO  - Step 13 - The speed by default is 1.0
+2023-02-21 17:59:54 INFO  - Button 'Button play speed' :: Getting text from element
+2023-02-21 17:59:55 INFO  - Step 14 - Open playback speed on audio player screen
+2023-02-21 17:59:55 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-02-21 17:59:57 INFO  - Step 15 - Close playback speed screen
+2023-02-21 17:59:57 INFO  - Button 'Cancel button' :: Clicking
+2023-02-21 17:59:59 INFO  - Step 16 - Play button is present on audio player screen
+2023-02-21 17:59:59 INFO  - Step 17 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-02-21 17:59:59 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-02-21 18:00:01 INFO  - Button 'End of Chapter' :: Clicking
+2023-02-21 18:00:02 INFO  - Step 18 - Sleep timer is set to endOfChapter on audio player screen
+2023-02-21 18:00:02 INFO  - Label 'lblRightTime' :: Getting attribute 'value'
+2023-02-21 18:00:04 INFO  - Step 19 - Open sleep timer on audio player screen
+2023-02-21 18:00:04 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-02-21 18:00:06 INFO  - Step 20 - Close sleep timer screen
+2023-02-21 18:00:06 INFO  - Button 'Cancel button' :: Clicking
+2023-02-21 18:00:07 INFO  - Step 21 - Play button is present on audio player screen
+2023-02-21 18:00:08 INFO  - Taking screenshot
+2023-02-21 18:00:11 INFO  - Test finished - logging out
+2023-02-21 18:00:14 INFO  - Button 'Settings' :: Clicking
+2023-02-21 18:00:16 INFO  - Button 'Settings' :: Clicking
+2023-02-21 18:00:18 INFO  - Button 'Libraries button' :: Clicking
+2023-02-21 18:00:22 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-21 18:00:23 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-21 18:00:24 INFO  - Button 'Log out' :: Clicking
+2023-02-21 18:00:26 INFO  - Button 'Log out approve' :: Clicking
+2023-02-21 18:00:48 INFO  - Button 'Log in' :: Getting text from element
+2023-02-21 18:00:49 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-21 18:00:50 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-21 18:00:51 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@373f46ce
