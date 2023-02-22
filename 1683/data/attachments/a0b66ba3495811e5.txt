@@ -1,0 +1,30 @@
+2023-02-21 22:59:27 INFO  - Scenario 'Get a book from Book Detail View and Read from Book Detail View (IOS)' start
+2023-02-21 22:59:27 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-21 22:59:47 INFO  - Application on platform 'IOS' is ready...
+2023-02-21 22:59:47 INFO  - Session id - 4bd008ba16731bb11e11396297db86594b53b6be
+2023-02-21 22:59:47 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2023-02-21 23:00:08 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-21 23:00:09 INFO  - Button 'Find your library button' :: Clicking
+2023-02-21 23:00:10 INFO  - Text Field 'Search field' :: Clicking
+2023-02-21 23:00:17 INFO  - Text Field 'Search field' :: Clearing
+2023-02-21 23:00:17 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-02-21 23:00:27 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-02-21 23:00:29 INFO  - Step 1 - I open Catalog
+2023-02-21 23:00:29 INFO  - Button 'Catalog' :: Clicking
+2023-02-21 23:00:31 INFO  - Step 2 - I open search modal
+2023-02-21 23:00:31 INFO  - Button 'Search button' :: Clicking
+2023-02-21 23:00:34 INFO  - Step 3 - I search for 'Flower Fables' and save bookName as 'bookNameInfo'
+2023-02-21 23:00:34 INFO  - Text Field 'Search value input' :: Sending keys 'Flower Fables'
+2023-02-21 23:00:35 INFO  - Button 'Search' :: Clicking
+2023-02-21 23:00:37 INFO  - Step 4 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-21 23:00:38 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-21 23:00:39 INFO  - Label 'lblBookName' :: Clicking
+2023-02-21 23:00:40 INFO  - Step 5 - Click GET action button on book details screen
+2023-02-21 23:00:42 INFO  - Button 'Get' :: Clicking
+2023-02-21 23:01:06 INFO  - Step 6 - Click READ action button on book details screen
+2023-02-21 23:01:07 INFO  - Button 'Read' :: Clicking
+2023-02-21 23:01:31 INFO  - Step 7 - 'bookInfo' book is present on epub reader screen
+2023-02-21 23:01:31 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-02-21 23:01:31 INFO  - Book name on epub reader screen - Flower Fables
+2023-02-21 23:01:31 INFO  - Taking screenshot
+2023-02-21 23:01:35 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@23663b56

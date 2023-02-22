@@ -1,0 +1,27 @@
+2023-02-21 23:34:00 INFO  - Scenario 'Palace: Check of canceling the downloading from book details view' start
+2023-02-21 23:34:00 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-21 23:34:27 INFO  - Application on platform 'IOS' is ready...
+2023-02-21 23:34:27 INFO  - Session id - 11c7dac390565aa43b9c7569e62ccac5c0518d98
+2023-02-21 23:34:27 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2023-02-21 23:34:48 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-21 23:34:48 INFO  - Button 'Find your library button' :: Clicking
+2023-02-21 23:34:50 INFO  - Text Field 'Search field' :: Clicking
+2023-02-21 23:34:57 INFO  - Text Field 'Search field' :: Clearing
+2023-02-21 23:34:57 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-02-21 23:35:07 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-02-21 23:35:09 INFO  - Step 1 - I open Catalog
+2023-02-21 23:35:09 INFO  - Button 'Catalog' :: Clicking
+2023-02-21 23:35:10 INFO  - Step 2 - I open search modal
+2023-02-21 23:35:11 INFO  - Button 'Search button' :: Clicking
+2023-02-21 23:35:13 INFO  - Step 3 - I search for "The Ragged Edge" and save bookName as 'bookNameInfo'
+2023-02-21 23:35:13 INFO  - Text Field 'Search value input' :: Sending keys 'The Ragged Edge'
+2023-02-21 23:35:14 INFO  - Button 'Search' :: Clicking
+2023-02-21 23:35:16 INFO  - Step 4 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-21 23:35:17 INFO  - Label 'lblBookName' :: Clicking
+2023-02-21 23:35:18 INFO  - Step 5 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-02-21 23:35:18 INFO  - Button 'Get' :: Clicking
+2023-02-21 23:35:19 INFO  - Button 'Cancel' :: Clicking
+2023-02-21 23:35:20 INFO  - Step 6 - I check that book contains DOWNLOAD action button on book details screen
+2023-02-21 23:35:21 INFO  - Step 7 - I check that book contains DELETE action button on book details screen
+2023-02-21 23:35:21 INFO  - Taking screenshot
+2023-02-21 23:35:23 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@23663b56
