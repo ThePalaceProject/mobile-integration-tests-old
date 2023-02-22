@@ -1,0 +1,677 @@
+2023-02-22 00:31:17 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-02-22 00:31:18 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-22 00:31:51 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-22 00:31:51 INFO  - Session id - 68a8b6c787190f1830f987cec97229686d78d852
+2023-02-22 00:31:51 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-22 00:31:51 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-22 00:31:53 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-22 00:31:54 INFO  - Button 'Search' :: Clicking
+2023-02-22 00:31:55 INFO  - Text Field 'Search' :: Clearing
+2023-02-22 00:31:55 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-22 00:31:58 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-22 00:31:58 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-22 00:31:58 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:32:00 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:32:01 INFO  - Button 'Accounts' :: Clicking
+2023-02-22 00:32:03 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-22 00:32:03 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:32:03 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:32:04 INFO  - Button 'Accounts' :: Clicking
+2023-02-22 00:32:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-22 00:32:07 INFO  - Locking credential with barcode 01230000000304
+2023-02-22 00:32:07 INFO  - There are books on the account: 
+2023-02-22 00:32:08 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-02-22 00:32:08 INFO  - bookName: The Tipping Point Distributor: Palace Marketplace
+2023-02-22 00:32:08 INFO  - bookName: Eldritch Tales Distributor: Palace Marketplace
+2023-02-22 00:32:08 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-22 00:32:08 INFO  - Count of books on the account after opening account: 4
+2023-02-22 00:32:08 INFO  - Text Field 'Card' :: Clearing
+2023-02-22 00:32:08 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-22 00:32:10 INFO  - Text Field 'Pin' :: Clearing
+2023-02-22 00:32:10 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-22 00:32:12 INFO  - Button 'Log in' :: Clicking
+2023-02-22 00:32:22 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-22 00:32:22 INFO  - Step 3 - Login is performed successfully
+2023-02-22 00:32:44 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-22 00:32:44 INFO  - Step 4 - I open Catalog
+2023-02-22 00:32:44 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-22 00:33:06 INFO  - Step 5 - I open search modal
+2023-02-22 00:33:27 INFO  - Button 'Search' :: Clicking
+2023-02-22 00:33:28 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-22 00:33:28 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-22 00:33:28 INFO  - randomBookName: Shadows of Swanford Abbey
+2023-02-22 00:33:29 INFO  - Error details button is not present
+2023-02-22 00:33:29 INFO  - Text Field 'Search value input' :: Sending keys 'Shadows of Swanford Abbey'
+2023-02-22 00:33:32 INFO  - Error details button is not present
+2023-02-22 00:33:35 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-22 00:33:37 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-22 00:33:37 INFO  - Button 'actionButton' :: Clicking
+2023-02-22 00:33:44 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-22 00:33:45 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-22 00:33:45 INFO  - Label 'lblBookName' :: Clicking
+2023-02-22 00:33:45 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-22 00:33:47 INFO  - Button 'Read' :: Clicking
+2023-02-22 00:33:48 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-02-22 00:33:48 INFO  - Scrolling 8 times on reader epub screen
+2023-02-22 00:34:05 INFO  - Step 11 - I save font size as 'fontSize'
+2023-02-22 00:34:05 INFO  - context - NATIVE_APP
+2023-02-22 00:34:05 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-22 00:34:07 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-22 00:34:07 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Table of Contents</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:cb591d34-1c5f-43b4-9eb3-9e7d119c4dea" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body>
+  <h1 class="chapter-title-fm">Contents</h1>
+
+  <p class="contents"><a href="01-Cover.xhtml">Cover</a></p>
+
+  <p class="contents"><a href="02-Half.xhtml">Half Title Page</a></p>
+
+  <p class="contents"><a href="03-Books.xhtml">Books by Julie Klassen</a></p>
+
+  <p class="contents"><a href="04-Title.xhtml">Title Page</a></p>
+
+  <p class="contents"><a href="05-Copy.xhtml">Copyright Page</a></p>
+
+  <p class="contents"><a href="06-Dedicate.xhtml">Dedication</a></p>
+
+  <p class="contents"><a href="08-Epigraph.xhtml">Epigraph</a></p>
+
+  <p class="contents-space"><a href="09-Chapter01.xhtml">1</a></p>
+
+  <p class="contents"><a href="09-Chapter02.xhtml">2</a></p>
+
+  <p class="contents"><a href="09-Chapter03.xhtml">3</a></p>
+
+  <p class="contents"><a href="09-Chapter04.xhtml">4</a></p>
+
+  <p class="contents"><a href="09-Chapter05.xhtml">5</a></p>
+
+  <p class="contents"><a href="09-Chapter06.xhtml">6</a></p>
+
+  <p class="contents"><a href="09-Chapter07.xhtml">7</a></p>
+
+  <p class="contents"><a href="09-Chapter08.xhtml">8</a></p>
+
+  <p class="contents"><a href="09-Chapter09.xhtml">9</a></p>
+
+  <p class="contents"><a href="09-Chapter10.xhtml">10</a></p>
+
+  <p class="contents"><a href="09-Chapter11.xhtml">11</a></p>
+
+  <p class="contents"><a href="09-Chapter12.xhtml">12</a></p>
+
+  <p class="contents"><a href="09-Chapter13.xhtml">13</a></p>
+
+  <p class="contents"><a href="09-Chapter14.xhtml">14</a></p>
+
+  <p class="contents"><a href="09-Chapter15.xhtml">15</a></p>
+
+  <p class="contents"><a href="09-Chapter16.xhtml">16</a></p>
+
+  <p class="contents"><a href="09-Chapter17.xhtml">17</a></p>
+
+  <p class="contents"><a href="09-Chapter18.xhtml">18</a></p>
+
+  <p class="contents"><a href="09-Chapter19.xhtml">19</a></p>
+
+  <p class="contents"><a href="09-Chapter20.xhtml">20</a></p>
+
+  <p class="contents"><a href="09-Chapter21.xhtml">21</a></p>
+
+  <p class="contents"><a href="09-Chapter22.xhtml">22</a></p>
+
+  <p class="contents"><a href="09-Chapter23.xhtml">23</a></p>
+
+  <p class="contents"><a href="09-Chapter24.xhtml">24</a></p>
+
+  <p class="contents"><a href="09-Chapter25.xhtml">25</a></p>
+
+  <p class="contents-space"><a href="10-AuthNote.xhtml">Author’s Note</a></p>
+
+  <p class="contents"><a href="11-Questions.xhtml">Discussion Questions</a></p>
+
+  <p class="contents"><a href="12-Author.xhtml">About the Author</a></p>
+
+  <p class="contents"><a href="13-Ads.xhtml">Back Ads</a></p>
+
+  <p class="contents"><a href="14-BakCov.xhtml">Back Cover</a></p>
+</body>
+</html>
+2023-02-22 00:34:07 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-22 00:34:07 INFO  - Step 12 - I open font settings
+2023-02-22 00:34:08 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-22 00:34:08 INFO  - Step 13 - I INCREASE_FONT of text
+2023-02-22 00:34:08 INFO  - Button 'setTextLarger' :: Clicking
+2023-02-22 00:34:09 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-02-22 00:34:09 INFO  - context - NATIVE_APP
+2023-02-22 00:34:09 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-22 00:34:10 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-22 00:34:10 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Table of Contents</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:cb591d34-1c5f-43b4-9eb3-9e7d119c4dea" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body>
+  <h1 class="chapter-title-fm">Contents</h1>
+
+  <p class="contents"><a href="01-Cover.xhtml">Cover</a></p>
+
+  <p class="contents"><a href="02-Half.xhtml">Half Title Page</a></p>
+
+  <p class="contents"><a href="03-Books.xhtml">Books by Julie Klassen</a></p>
+
+  <p class="contents"><a href="04-Title.xhtml">Title Page</a></p>
+
+  <p class="contents"><a href="05-Copy.xhtml">Copyright Page</a></p>
+
+  <p class="contents"><a href="06-Dedicate.xhtml">Dedication</a></p>
+
+  <p class="contents"><a href="08-Epigraph.xhtml">Epigraph</a></p>
+
+  <p class="contents-space"><a href="09-Chapter01.xhtml">1</a></p>
+
+  <p class="contents"><a href="09-Chapter02.xhtml">2</a></p>
+
+  <p class="contents"><a href="09-Chapter03.xhtml">3</a></p>
+
+  <p class="contents"><a href="09-Chapter04.xhtml">4</a></p>
+
+  <p class="contents"><a href="09-Chapter05.xhtml">5</a></p>
+
+  <p class="contents"><a href="09-Chapter06.xhtml">6</a></p>
+
+  <p class="contents"><a href="09-Chapter07.xhtml">7</a></p>
+
+  <p class="contents"><a href="09-Chapter08.xhtml">8</a></p>
+
+  <p class="contents"><a href="09-Chapter09.xhtml">9</a></p>
+
+  <p class="contents"><a href="09-Chapter10.xhtml">10</a></p>
+
+  <p class="contents"><a href="09-Chapter11.xhtml">11</a></p>
+
+  <p class="contents"><a href="09-Chapter12.xhtml">12</a></p>
+
+  <p class="contents"><a href="09-Chapter13.xhtml">13</a></p>
+
+  <p class="contents"><a href="09-Chapter14.xhtml">14</a></p>
+
+  <p class="contents"><a href="09-Chapter15.xhtml">15</a></p>
+
+  <p class="contents"><a href="09-Chapter16.xhtml">16</a></p>
+
+  <p class="contents"><a href="09-Chapter17.xhtml">17</a></p>
+
+  <p class="contents"><a href="09-Chapter18.xhtml">18</a></p>
+
+  <p class="contents"><a href="09-Chapter19.xhtml">19</a></p>
+
+  <p class="contents"><a href="09-Chapter20.xhtml">20</a></p>
+
+  <p class="contents"><a href="09-Chapter21.xhtml">21</a></p>
+
+  <p class="contents"><a href="09-Chapter22.xhtml">22</a></p>
+
+  <p class="contents"><a href="09-Chapter23.xhtml">23</a></p>
+
+  <p class="contents"><a href="09-Chapter24.xhtml">24</a></p>
+
+  <p class="contents"><a href="09-Chapter25.xhtml">25</a></p>
+
+  <p class="contents-space"><a href="10-AuthNote.xhtml">Author’s Note</a></p>
+
+  <p class="contents"><a href="11-Questions.xhtml">Discussion Questions</a></p>
+
+  <p class="contents"><a href="12-Author.xhtml">About the Author</a></p>
+
+  <p class="contents"><a href="13-Ads.xhtml">Back Ads</a></p>
+
+  <p class="contents"><a href="14-BakCov.xhtml">Back Cover</a></p>
+</body>
+</html>
+2023-02-22 00:34:10 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-22 00:34:11 INFO  - Step 15 - I restart app
+2023-02-22 00:34:35 INFO  - Step 16 - I open Books
+2023-02-22 00:34:35 INFO  - Button 'tabBooks' :: Clicking
+2023-02-22 00:34:35 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-22 00:34:37 INFO  - Label 'lblBookName' :: Clicking
+2023-02-22 00:34:37 INFO  - Step 18 - Click READ action button on book details screen
+2023-02-22 00:34:38 INFO  - Button 'Read' :: Clicking
+2023-02-22 00:34:39 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-02-22 00:34:39 INFO  - context - NATIVE_APP
+2023-02-22 00:34:40 INFO  - context - NATIVE_APP
+2023-02-22 00:34:41 INFO  - context - NATIVE_APP
+2023-02-22 00:34:41 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-22 00:34:42 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-22 00:34:42 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Table of Contents</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:cb591d34-1c5f-43b4-9eb3-9e7d119c4dea" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body>
+  <h1 class="chapter-title-fm">Contents</h1>
+
+  <p class="contents"><a href="01-Cover.xhtml">Cover</a></p>
+
+  <p class="contents"><a href="02-Half.xhtml">Half Title Page</a></p>
+
+  <p class="contents"><a href="03-Books.xhtml">Books by Julie Klassen</a></p>
+
+  <p class="contents"><a href="04-Title.xhtml">Title Page</a></p>
+
+  <p class="contents"><a href="05-Copy.xhtml">Copyright Page</a></p>
+
+  <p class="contents"><a href="06-Dedicate.xhtml">Dedication</a></p>
+
+  <p class="contents"><a href="08-Epigraph.xhtml">Epigraph</a></p>
+
+  <p class="contents-space"><a href="09-Chapter01.xhtml">1</a></p>
+
+  <p class="contents"><a href="09-Chapter02.xhtml">2</a></p>
+
+  <p class="contents"><a href="09-Chapter03.xhtml">3</a></p>
+
+  <p class="contents"><a href="09-Chapter04.xhtml">4</a></p>
+
+  <p class="contents"><a href="09-Chapter05.xhtml">5</a></p>
+
+  <p class="contents"><a href="09-Chapter06.xhtml">6</a></p>
+
+  <p class="contents"><a href="09-Chapter07.xhtml">7</a></p>
+
+  <p class="contents"><a href="09-Chapter08.xhtml">8</a></p>
+
+  <p class="contents"><a href="09-Chapter09.xhtml">9</a></p>
+
+  <p class="contents"><a href="09-Chapter10.xhtml">10</a></p>
+
+  <p class="contents"><a href="09-Chapter11.xhtml">11</a></p>
+
+  <p class="contents"><a href="09-Chapter12.xhtml">12</a></p>
+
+  <p class="contents"><a href="09-Chapter13.xhtml">13</a></p>
+
+  <p class="contents"><a href="09-Chapter14.xhtml">14</a></p>
+
+  <p class="contents"><a href="09-Chapter15.xhtml">15</a></p>
+
+  <p class="contents"><a href="09-Chapter16.xhtml">16</a></p>
+
+  <p class="contents"><a href="09-Chapter17.xhtml">17</a></p>
+
+  <p class="contents"><a href="09-Chapter18.xhtml">18</a></p>
+
+  <p class="contents"><a href="09-Chapter19.xhtml">19</a></p>
+
+  <p class="contents"><a href="09-Chapter20.xhtml">20</a></p>
+
+  <p class="contents"><a href="09-Chapter21.xhtml">21</a></p>
+
+  <p class="contents"><a href="09-Chapter22.xhtml">22</a></p>
+
+  <p class="contents"><a href="09-Chapter23.xhtml">23</a></p>
+
+  <p class="contents"><a href="09-Chapter24.xhtml">24</a></p>
+
+  <p class="contents"><a href="09-Chapter25.xhtml">25</a></p>
+
+  <p class="contents-space"><a href="10-AuthNote.xhtml">Author’s Note</a></p>
+
+  <p class="contents"><a href="11-Questions.xhtml">Discussion Questions</a></p>
+
+  <p class="contents"><a href="12-Author.xhtml">About the Author</a></p>
+
+  <p class="contents"><a href="13-Ads.xhtml">Back Ads</a></p>
+
+  <p class="contents"><a href="14-BakCov.xhtml">Back Cover</a></p>
+</body>
+</html>
+2023-02-22 00:34:42 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-22 00:34:43 INFO  - Step 20 - I return to previous screen from epub
+2023-02-22 00:34:44 INFO  - Button 'btnBack' :: Clicking
+2023-02-22 00:34:44 INFO  - Step 21 - Click READ action button on book details screen
+2023-02-22 00:34:45 INFO  - Button 'Read' :: Clicking
+2023-02-22 00:34:46 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-02-22 00:34:46 INFO  - context - NATIVE_APP
+2023-02-22 00:34:46 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-22 00:34:48 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-22 00:34:48 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Table of Contents</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:cb591d34-1c5f-43b4-9eb3-9e7d119c4dea" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body>
+  <h1 class="chapter-title-fm">Contents</h1>
+
+  <p class="contents"><a href="01-Cover.xhtml">Cover</a></p>
+
+  <p class="contents"><a href="02-Half.xhtml">Half Title Page</a></p>
+
+  <p class="contents"><a href="03-Books.xhtml">Books by Julie Klassen</a></p>
+
+  <p class="contents"><a href="04-Title.xhtml">Title Page</a></p>
+
+  <p class="contents"><a href="05-Copy.xhtml">Copyright Page</a></p>
+
+  <p class="contents"><a href="06-Dedicate.xhtml">Dedication</a></p>
+
+  <p class="contents"><a href="08-Epigraph.xhtml">Epigraph</a></p>
+
+  <p class="contents-space"><a href="09-Chapter01.xhtml">1</a></p>
+
+  <p class="contents"><a href="09-Chapter02.xhtml">2</a></p>
+
+  <p class="contents"><a href="09-Chapter03.xhtml">3</a></p>
+
+  <p class="contents"><a href="09-Chapter04.xhtml">4</a></p>
+
+  <p class="contents"><a href="09-Chapter05.xhtml">5</a></p>
+
+  <p class="contents"><a href="09-Chapter06.xhtml">6</a></p>
+
+  <p class="contents"><a href="09-Chapter07.xhtml">7</a></p>
+
+  <p class="contents"><a href="09-Chapter08.xhtml">8</a></p>
+
+  <p class="contents"><a href="09-Chapter09.xhtml">9</a></p>
+
+  <p class="contents"><a href="09-Chapter10.xhtml">10</a></p>
+
+  <p class="contents"><a href="09-Chapter11.xhtml">11</a></p>
+
+  <p class="contents"><a href="09-Chapter12.xhtml">12</a></p>
+
+  <p class="contents"><a href="09-Chapter13.xhtml">13</a></p>
+
+  <p class="contents"><a href="09-Chapter14.xhtml">14</a></p>
+
+  <p class="contents"><a href="09-Chapter15.xhtml">15</a></p>
+
+  <p class="contents"><a href="09-Chapter16.xhtml">16</a></p>
+
+  <p class="contents"><a href="09-Chapter17.xhtml">17</a></p>
+
+  <p class="contents"><a href="09-Chapter18.xhtml">18</a></p>
+
+  <p class="contents"><a href="09-Chapter19.xhtml">19</a></p>
+
+  <p class="contents"><a href="09-Chapter20.xhtml">20</a></p>
+
+  <p class="contents"><a href="09-Chapter21.xhtml">21</a></p>
+
+  <p class="contents"><a href="09-Chapter22.xhtml">22</a></p>
+
+  <p class="contents"><a href="09-Chapter23.xhtml">23</a></p>
+
+  <p class="contents"><a href="09-Chapter24.xhtml">24</a></p>
+
+  <p class="contents"><a href="09-Chapter25.xhtml">25</a></p>
+
+  <p class="contents-space"><a href="10-AuthNote.xhtml">Author’s Note</a></p>
+
+  <p class="contents"><a href="11-Questions.xhtml">Discussion Questions</a></p>
+
+  <p class="contents"><a href="12-Author.xhtml">About the Author</a></p>
+
+  <p class="contents"><a href="13-Ads.xhtml">Back Ads</a></p>
+
+  <p class="contents"><a href="14-BakCov.xhtml">Back Cover</a></p>
+</body>
+</html>
+2023-02-22 00:34:48 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-22 00:34:48 INFO  - Step 23 - I save font size as 'fontSize'
+2023-02-22 00:34:49 INFO  - context - NATIVE_APP
+2023-02-22 00:34:49 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-22 00:34:50 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-22 00:34:50 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Table of Contents</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:cb591d34-1c5f-43b4-9eb3-9e7d119c4dea" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body>
+  <h1 class="chapter-title-fm">Contents</h1>
+
+  <p class="contents"><a href="01-Cover.xhtml">Cover</a></p>
+
+  <p class="contents"><a href="02-Half.xhtml">Half Title Page</a></p>
+
+  <p class="contents"><a href="03-Books.xhtml">Books by Julie Klassen</a></p>
+
+  <p class="contents"><a href="04-Title.xhtml">Title Page</a></p>
+
+  <p class="contents"><a href="05-Copy.xhtml">Copyright Page</a></p>
+
+  <p class="contents"><a href="06-Dedicate.xhtml">Dedication</a></p>
+
+  <p class="contents"><a href="08-Epigraph.xhtml">Epigraph</a></p>
+
+  <p class="contents-space"><a href="09-Chapter01.xhtml">1</a></p>
+
+  <p class="contents"><a href="09-Chapter02.xhtml">2</a></p>
+
+  <p class="contents"><a href="09-Chapter03.xhtml">3</a></p>
+
+  <p class="contents"><a href="09-Chapter04.xhtml">4</a></p>
+
+  <p class="contents"><a href="09-Chapter05.xhtml">5</a></p>
+
+  <p class="contents"><a href="09-Chapter06.xhtml">6</a></p>
+
+  <p class="contents"><a href="09-Chapter07.xhtml">7</a></p>
+
+  <p class="contents"><a href="09-Chapter08.xhtml">8</a></p>
+
+  <p class="contents"><a href="09-Chapter09.xhtml">9</a></p>
+
+  <p class="contents"><a href="09-Chapter10.xhtml">10</a></p>
+
+  <p class="contents"><a href="09-Chapter11.xhtml">11</a></p>
+
+  <p class="contents"><a href="09-Chapter12.xhtml">12</a></p>
+
+  <p class="contents"><a href="09-Chapter13.xhtml">13</a></p>
+
+  <p class="contents"><a href="09-Chapter14.xhtml">14</a></p>
+
+  <p class="contents"><a href="09-Chapter15.xhtml">15</a></p>
+
+  <p class="contents"><a href="09-Chapter16.xhtml">16</a></p>
+
+  <p class="contents"><a href="09-Chapter17.xhtml">17</a></p>
+
+  <p class="contents"><a href="09-Chapter18.xhtml">18</a></p>
+
+  <p class="contents"><a href="09-Chapter19.xhtml">19</a></p>
+
+  <p class="contents"><a href="09-Chapter20.xhtml">20</a></p>
+
+  <p class="contents"><a href="09-Chapter21.xhtml">21</a></p>
+
+  <p class="contents"><a href="09-Chapter22.xhtml">22</a></p>
+
+  <p class="contents"><a href="09-Chapter23.xhtml">23</a></p>
+
+  <p class="contents"><a href="09-Chapter24.xhtml">24</a></p>
+
+  <p class="contents"><a href="09-Chapter25.xhtml">25</a></p>
+
+  <p class="contents-space"><a href="10-AuthNote.xhtml">Author’s Note</a></p>
+
+  <p class="contents"><a href="11-Questions.xhtml">Discussion Questions</a></p>
+
+  <p class="contents"><a href="12-Author.xhtml">About the Author</a></p>
+
+  <p class="contents"><a href="13-Ads.xhtml">Back Ads</a></p>
+
+  <p class="contents"><a href="14-BakCov.xhtml">Back Cover</a></p>
+</body>
+</html>
+2023-02-22 00:34:50 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-22 00:34:50 INFO  - Step 24 - I open font settings
+2023-02-22 00:34:51 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-22 00:34:51 INFO  - Step 25 - I DECREASE_FONT of text
+2023-02-22 00:34:52 INFO  - Button 'setTextSmaller' :: Clicking
+2023-02-22 00:34:53 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-02-22 00:34:54 INFO  - context - NATIVE_APP
+2023-02-22 00:34:54 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-22 00:34:54 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-22 00:34:55 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Table of Contents</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:cb591d34-1c5f-43b4-9eb3-9e7d119c4dea" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body>
+  <h1 class="chapter-title-fm">Contents</h1>
+
+  <p class="contents"><a href="01-Cover.xhtml">Cover</a></p>
+
+  <p class="contents"><a href="02-Half.xhtml">Half Title Page</a></p>
+
+  <p class="contents"><a href="03-Books.xhtml">Books by Julie Klassen</a></p>
+
+  <p class="contents"><a href="04-Title.xhtml">Title Page</a></p>
+
+  <p class="contents"><a href="05-Copy.xhtml">Copyright Page</a></p>
+
+  <p class="contents"><a href="06-Dedicate.xhtml">Dedication</a></p>
+
+  <p class="contents"><a href="08-Epigraph.xhtml">Epigraph</a></p>
+
+  <p class="contents-space"><a href="09-Chapter01.xhtml">1</a></p>
+
+  <p class="contents"><a href="09-Chapter02.xhtml">2</a></p>
+
+  <p class="contents"><a href="09-Chapter03.xhtml">3</a></p>
+
+  <p class="contents"><a href="09-Chapter04.xhtml">4</a></p>
+
+  <p class="contents"><a href="09-Chapter05.xhtml">5</a></p>
+
+  <p class="contents"><a href="09-Chapter06.xhtml">6</a></p>
+
+  <p class="contents"><a href="09-Chapter07.xhtml">7</a></p>
+
+  <p class="contents"><a href="09-Chapter08.xhtml">8</a></p>
+
+  <p class="contents"><a href="09-Chapter09.xhtml">9</a></p>
+
+  <p class="contents"><a href="09-Chapter10.xhtml">10</a></p>
+
+  <p class="contents"><a href="09-Chapter11.xhtml">11</a></p>
+
+  <p class="contents"><a href="09-Chapter12.xhtml">12</a></p>
+
+  <p class="contents"><a href="09-Chapter13.xhtml">13</a></p>
+
+  <p class="contents"><a href="09-Chapter14.xhtml">14</a></p>
+
+  <p class="contents"><a href="09-Chapter15.xhtml">15</a></p>
+
+  <p class="contents"><a href="09-Chapter16.xhtml">16</a></p>
+
+  <p class="contents"><a href="09-Chapter17.xhtml">17</a></p>
+
+  <p class="contents"><a href="09-Chapter18.xhtml">18</a></p>
+
+  <p class="contents"><a href="09-Chapter19.xhtml">19</a></p>
+
+  <p class="contents"><a href="09-Chapter20.xhtml">20</a></p>
+
+  <p class="contents"><a href="09-Chapter21.xhtml">21</a></p>
+
+  <p class="contents"><a href="09-Chapter22.xhtml">22</a></p>
+
+  <p class="contents"><a href="09-Chapter23.xhtml">23</a></p>
+
+  <p class="contents"><a href="09-Chapter24.xhtml">24</a></p>
+
+  <p class="contents"><a href="09-Chapter25.xhtml">25</a></p>
+
+  <p class="contents-space"><a href="10-AuthNote.xhtml">Author’s Note</a></p>
+
+  <p class="contents"><a href="11-Questions.xhtml">Discussion Questions</a></p>
+
+  <p class="contents"><a href="12-Author.xhtml">About the Author</a></p>
+
+  <p class="contents"><a href="13-Ads.xhtml">Back Ads</a></p>
+
+  <p class="contents"><a href="14-BakCov.xhtml">Back Cover</a></p>
+</body>
+</html>
+2023-02-22 00:34:55 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-22 00:34:55 INFO  - Taking screenshot
+2023-02-22 00:34:56 INFO  - Test finished - logging out
+2023-02-22 00:34:57 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:34:59 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:35:01 INFO  - Button 'Accounts' :: Clicking
+2023-02-22 00:35:02 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-22 00:35:04 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-22 00:35:04 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-22 00:35:05 INFO  - Button 'Log out' :: Clicking
+2023-02-22 00:35:05 INFO  - Button 'Log in' :: Getting text from element
+2023-02-22 00:35:11 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-22 00:35:11 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-22 00:35:11 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@66a891ba

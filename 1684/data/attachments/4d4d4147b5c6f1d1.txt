@@ -1,0 +1,68 @@
+2023-02-22 00:39:30 INFO  - Scenario 'Open the audiobook at the last open chapter and check time code' start
+2023-02-22 00:39:30 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-22 00:40:01 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-22 00:40:01 INFO  - Session id - 30b8d88feca0c75f61e0278428b940d868b49c23
+2023-02-22 00:40:01 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-22 00:40:01 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-22 00:40:04 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-22 00:40:05 INFO  - Button 'Search' :: Clicking
+2023-02-22 00:40:06 INFO  - Text Field 'Search' :: Clearing
+2023-02-22 00:40:06 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-22 00:40:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-22 00:40:11 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-22 00:40:11 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:40:11 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:40:12 INFO  - Button 'Accounts' :: Clicking
+2023-02-22 00:40:14 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-22 00:40:14 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:40:14 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:40:15 INFO  - Button 'Accounts' :: Clicking
+2023-02-22 00:40:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-22 00:40:18 INFO  - Locking credential with barcode 01230000000303
+2023-02-22 00:40:18 INFO  - There are books on the account: 
+2023-02-22 00:40:19 INFO  - bookName: American Axe Distributor: Palace Marketplace
+2023-02-22 00:40:19 INFO  - bookName: The Debt Trap Distributor: Palace Marketplace
+2023-02-22 00:40:19 INFO  - bookName: Wild Problems Distributor: Palace Marketplace
+2023-02-22 00:40:19 INFO  - Count of books on the account after opening account: 3
+2023-02-22 00:40:19 INFO  - Text Field 'Card' :: Clearing
+2023-02-22 00:40:19 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-22 00:40:21 INFO  - Text Field 'Pin' :: Clearing
+2023-02-22 00:40:21 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-22 00:40:23 INFO  - Button 'Log in' :: Clicking
+2023-02-22 00:40:29 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-22 00:40:29 INFO  - Step 3 - Login is performed successfully
+2023-02-22 00:40:50 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-22 00:40:50 INFO  - Step 4 - I open Catalog
+2023-02-22 00:40:51 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-22 00:41:13 INFO  - Step 5 - I open search modal
+2023-02-22 00:41:33 INFO  - Button 'Search' :: Clicking
+2023-02-22 00:41:34 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-22 00:41:34 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-22 00:41:34 INFO  - randomBookName: The Twelve
+2023-02-22 00:41:35 INFO  - Error details button is not present
+2023-02-22 00:41:35 INFO  - Text Field 'Search value input' :: Sending keys 'The Twelve'
+2023-02-22 00:41:37 INFO  - Error details button is not present
+2023-02-22 00:41:41 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-02-22 00:41:41 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-22 00:42:02 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-22 00:42:02 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-22 00:42:03 INFO  - Label 'lblBookName' :: Clicking
+2023-02-22 00:42:03 INFO  - Step 9 - Click GET action button on book details screen
+2023-02-22 00:42:04 INFO  - Button 'Get' :: Clicking
+2023-02-22 00:42:06 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-02-22 00:42:28 INFO  - Button 'Error' :: Clicking
+2023-02-22 00:42:30 INFO  - Label 'Error message' :: Getting text from element
+2023-02-22 00:42:32 INFO  - Swiping from coordinates (x:720; y:2581) to (x:720; y:325)
+2023-02-22 00:42:34 INFO  - Taking screenshot
+2023-02-22 00:42:35 INFO  - Test finished - logging out
+2023-02-22 00:42:36 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:42:38 INFO  - Button 'tabSettings' :: Clicking
+2023-02-22 00:42:39 INFO  - Button 'Accounts' :: Clicking
+2023-02-22 00:42:40 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-22 00:42:42 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-22 00:42:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-22 00:42:43 INFO  - Button 'Log out' :: Clicking
+2023-02-22 00:42:43 INFO  - Button 'Log in' :: Getting text from element
+2023-02-22 00:42:48 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-22 00:42:48 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-22 00:42:49 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5423b33d
