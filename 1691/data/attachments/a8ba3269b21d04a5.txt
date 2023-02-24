@@ -1,0 +1,70 @@
+2023-02-24 18:28:34 INFO  - Scenario 'LYRASIS: Getting and returning books from Book Detail View' start
+2023-02-24 18:28:34 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-24 18:28:53 INFO  - Application on platform 'IOS' is ready...
+2023-02-24 18:28:53 INFO  - Session id - e2396f27f01b3cdb7c4fc6cf6a5a60df851916a2
+2023-02-24 18:28:53 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-24 18:29:14 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-24 18:29:14 INFO  - Button 'Find your library button' :: Clicking
+2023-02-24 18:29:15 INFO  - Text Field 'Search field' :: Clicking
+2023-02-24 18:29:21 INFO  - Text Field 'Search field' :: Clearing
+2023-02-24 18:29:21 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-24 18:29:32 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 18:29:33 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-24 18:29:33 INFO  - Button 'Settings' :: Clicking
+2023-02-24 18:29:34 INFO  - Button 'Settings' :: Clicking
+2023-02-24 18:29:35 INFO  - Button 'Libraries button' :: Clicking
+2023-02-24 18:29:38 INFO  - Locking credential with barcode 01230000000306
+2023-02-24 18:29:38 INFO  - There are books on the account: 
+2023-02-24 18:29:38 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-02-24 18:29:38 INFO  - Count of books on the account after opening account: 1
+2023-02-24 18:29:59 INFO  - Text Field 'Card' :: Clicking
+2023-02-24 18:30:00 INFO  - Text Field 'Card' :: Clearing
+2023-02-24 18:30:00 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-24 18:30:03 INFO  - Text Field 'Pin' :: Clearing
+2023-02-24 18:30:03 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-24 18:30:07 INFO  - Button 'Log in' :: Clicking
+2023-02-24 18:30:18 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-24 18:30:19 INFO  - Step 2 - Login is performed successfully
+2023-02-24 18:30:20 INFO  - Step 3 - I open Catalog
+2023-02-24 18:30:20 INFO  - Button 'Catalog' :: Clicking
+2023-02-24 18:30:22 INFO  - Step 4 - I open search modal
+2023-02-24 18:30:23 INFO  - Button 'Search button' :: Clicking
+2023-02-24 18:30:25 INFO  - Step 5 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-24 18:30:25 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-24 18:30:25 INFO  - randomBookName: Cooking with Scraps
+2023-02-24 18:30:26 INFO  - Text Field 'Search value input' :: Sending keys 'Cooking with Scraps'
+2023-02-24 18:30:27 INFO  - Button 'Search' :: Clicking
+2023-02-24 18:30:29 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-02-24 18:30:29 INFO  - Button 'eBooks' :: Clicking
+2023-02-24 18:31:10 INFO  - Step 7 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-24 18:31:12 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-24 18:31:13 INFO  - Label 'lblBookName' :: Clicking
+2023-02-24 18:31:14 INFO  - Step 8 - Click GET action button on book details screen
+2023-02-24 18:31:15 INFO  - Button 'Get' :: Clicking
+2023-02-24 18:31:36 INFO  - Step 9 - I check that book contains READ action button on book details screen
+2023-02-24 18:31:37 INFO  - Step 10 - Click RETURN action button on book details screen
+2023-02-24 18:31:38 INFO  - Button 'Return' :: Clicking
+2023-02-24 18:31:42 INFO  - Button 'Return ActionButtonAlert' :: Clicking
+2023-02-24 18:31:43 INFO  - Step 11 - I check that book contains GET action button on book details screen
+2023-02-24 18:31:47 INFO  - Step 12 - Click GET action button on book details screen
+2023-02-24 18:31:47 INFO  - Button 'Get' :: Clicking
+2023-02-24 18:32:09 INFO  - Step 13 - I check that book contains READ action button on book details screen
+2023-02-24 18:32:09 INFO  - Step 14 - Click READ action button on book details screen
+2023-02-24 18:32:10 INFO  - Button 'Read' :: Clicking
+2023-02-24 18:32:31 INFO  - Step 15 - Wait for 3 seconds
+2023-02-24 18:32:34 INFO  - Step 16 - Book 'bookInfo' with EBOOK type is present on epub or pdf or audiobook screen
+2023-02-24 18:32:35 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-02-24 18:32:35 INFO  - Book name on epub reader screen - Cooking With Scraps
+2023-02-24 18:32:35 INFO  - Taking screenshot
+2023-02-24 18:32:38 INFO  - Test finished - logging out
+2023-02-24 18:32:41 INFO  - Button 'Settings' :: Clicking
+2023-02-24 18:32:42 INFO  - Button 'Settings' :: Clicking
+2023-02-24 18:32:43 INFO  - Button 'Libraries button' :: Clicking
+2023-02-24 18:32:46 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-24 18:32:47 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-24 18:32:48 INFO  - Button 'Log out' :: Clicking
+2023-02-24 18:32:49 INFO  - Button 'Log out approve' :: Clicking
+2023-02-24 18:33:10 INFO  - Button 'Log in' :: Getting text from element
+2023-02-24 18:33:11 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-24 18:33:12 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-24 18:33:13 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@ebeb554

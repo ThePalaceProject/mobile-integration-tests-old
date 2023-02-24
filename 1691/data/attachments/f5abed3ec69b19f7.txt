@@ -1,0 +1,68 @@
+2023-02-24 18:54:28 INFO  - Scenario 'Navigate by bookmarks' start
+2023-02-24 18:54:28 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-24 18:54:47 INFO  - Application on platform 'IOS' is ready...
+2023-02-24 18:54:47 INFO  - Session id - b1c0b728d91f2b3a62edb8d6e7aa304065739cc8
+2023-02-24 18:54:47 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-24 18:55:08 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-24 18:55:09 INFO  - Button 'Find your library button' :: Clicking
+2023-02-24 18:55:10 INFO  - Text Field 'Search field' :: Clicking
+2023-02-24 18:55:16 INFO  - Text Field 'Search field' :: Clearing
+2023-02-24 18:55:16 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-24 18:55:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 18:55:29 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-24 18:55:29 INFO  - Button 'Settings' :: Clicking
+2023-02-24 18:55:30 INFO  - Button 'Settings' :: Clicking
+2023-02-24 18:55:31 INFO  - Button 'Libraries button' :: Clicking
+2023-02-24 18:55:32 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-24 18:55:32 INFO  - Button 'Settings' :: Clicking
+2023-02-24 18:55:33 INFO  - Button 'Settings' :: Clicking
+2023-02-24 18:55:34 INFO  - Button 'Libraries button' :: Clicking
+2023-02-24 18:55:36 INFO  - Locking credential with barcode 01230000000304
+2023-02-24 18:55:36 INFO  - There are books on the account: 
+2023-02-24 18:55:37 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-24 18:55:37 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-02-24 18:55:37 INFO  - Count of books on the account after opening account: 2
+2023-02-24 18:55:58 INFO  - Text Field 'Card' :: Clicking
+2023-02-24 18:55:59 INFO  - Text Field 'Card' :: Clearing
+2023-02-24 18:55:59 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-24 18:56:02 INFO  - Text Field 'Pin' :: Clearing
+2023-02-24 18:56:02 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-24 18:56:04 INFO  - Button 'Log in' :: Clicking
+2023-02-24 18:56:11 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-24 18:56:12 INFO  - Step 3 - Login is performed successfully
+2023-02-24 18:56:13 INFO  - Step 4 - I open Catalog
+2023-02-24 18:56:13 INFO  - Button 'Catalog' :: Clicking
+2023-02-24 18:56:15 INFO  - Step 5 - I open search modal
+2023-02-24 18:56:16 INFO  - Button 'Search button' :: Clicking
+2023-02-24 18:56:18 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-24 18:56:19 INFO  - Count of attempts to get random book name without bad symbols-3
+2023-02-24 18:56:19 INFO  - randomBookName: Braiding Sweetgrass
+2023-02-24 18:56:19 INFO  - Text Field 'Search value input' :: Sending keys 'Braiding Sweetgrass'
+2023-02-24 18:56:20 INFO  - Button 'Search' :: Clicking
+2023-02-24 18:56:23 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-24 18:56:24 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-24 18:56:25 INFO  - Button 'actionButton' :: Clicking
+2023-02-24 18:56:47 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-24 18:56:49 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-24 18:56:50 INFO  - Label 'lblBookName' :: Clicking
+2023-02-24 18:56:52 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-24 18:56:53 INFO  - Button 'Read' :: Clicking
+2023-02-24 18:57:15 INFO  - Step 10 - I click on right book corner on epub reader screen
+2023-02-24 18:57:18 INFO  - Step 11 - Add bookmark on reader epub screen
+2023-02-24 18:57:19 INFO  - Button 'Add Bookmark' :: Clicking
+2023-02-24 18:57:19 INFO  - Step 12 - Bookmark is displayed on reader epub screen
+2023-02-24 18:57:21 INFO  - Step 13 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-02-24 18:57:21 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-24 18:57:21 INFO  - Taking screenshot
+2023-02-24 18:57:22 INFO  - Test finished - logging out
+2023-02-24 18:57:26 INFO  - Button 'Settings' :: Clicking
+2023-02-24 18:57:27 INFO  - Button 'Settings' :: Clicking
+2023-02-24 18:57:27 INFO  - Button 'Libraries button' :: Clicking
+2023-02-24 18:57:31 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-24 18:57:31 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-24 18:57:32 INFO  - Button 'Log out' :: Clicking
+2023-02-24 18:57:33 INFO  - Button 'Log out approve' :: Clicking
+2023-02-24 18:57:54 INFO  - Button 'Log in' :: Getting text from element
+2023-02-24 18:57:55 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-24 18:57:56 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-24 18:57:57 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@18a5dfca
