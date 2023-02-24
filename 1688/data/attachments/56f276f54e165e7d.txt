@@ -1,0 +1,30 @@
+2023-02-23 22:49:05 INFO  - Scenario 'Get a book from Subcategory List View and Read from Subcategory List View (IOS)' start
+2023-02-23 22:49:05 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-23 22:49:27 INFO  - Application on platform 'IOS' is ready...
+2023-02-23 22:49:27 INFO  - Session id - b8e6ba9a36f62afd8e5804b71ad3e80f15e9b9cf
+2023-02-23 22:49:27 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2023-02-23 22:49:48 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-23 22:49:48 INFO  - Button 'Find your library button' :: Clicking
+2023-02-23 22:49:49 INFO  - Text Field 'Search field' :: Clicking
+2023-02-23 22:49:56 INFO  - Text Field 'Search field' :: Clearing
+2023-02-23 22:49:56 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-02-23 22:50:07 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-02-23 22:50:09 INFO  - Step 1 - I open Catalog
+2023-02-23 22:50:09 INFO  - Button 'Catalog' :: Clicking
+2023-02-23 22:50:11 INFO  - Step 2 - I open search modal
+2023-02-23 22:50:11 INFO  - Button 'Search button' :: Clicking
+2023-02-23 22:50:13 INFO  - Step 3 - I search for 'Flower Fables' and save bookName as 'bookNameInfo'
+2023-02-23 22:50:14 INFO  - Text Field 'Search value input' :: Sending keys 'Flower Fables'
+2023-02-23 22:50:15 INFO  - Button 'Search' :: Clicking
+2023-02-23 22:50:17 INFO  - Step 4 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-23 22:50:19 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-23 22:50:23 INFO  - Button 'actionButton' :: Clicking
+2023-02-23 22:50:47 INFO  - Step 5 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-02-23 22:50:53 INFO  - Step 6 - Click READ action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-23 22:50:55 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-23 22:50:56 INFO  - Button 'actionButton' :: Clicking
+2023-02-23 22:51:17 INFO  - Step 7 - 'bookInfo' book is present on epub reader screen
+2023-02-23 22:51:17 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-02-23 22:51:18 INFO  - Book name on epub reader screen - Flower Fables
+2023-02-23 22:51:18 INFO  - Taking screenshot
+2023-02-23 22:51:20 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1556d800
