@@ -1,0 +1,97 @@
+2023-02-24 01:39:21 INFO  - Scenario 'Switch Library Reservations' start
+2023-02-24 01:39:21 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-24 01:39:47 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-24 01:39:47 INFO  - Session id - dccc116122a529c3560862e5a0b0268c5f28a1b3
+2023-02-24 01:39:47 INFO  - Step 0 - I add "Plumas County Library" account from welcomeScreen
+2023-02-24 01:39:47 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-24 01:39:50 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-24 01:39:50 INFO  - Button 'Search' :: Clicking
+2023-02-24 01:39:53 INFO  - Text Field 'Search' :: Clearing
+2023-02-24 01:39:53 INFO  - Text Field 'Search' :: Typing 'Plumas County Library'
+2023-02-24 01:39:55 INFO  - Button 'Plumas County Library' :: Clicking
+2023-02-24 01:39:55 INFO  - Step 1 - I add 'LYRASIS Reads' account
+2023-02-24 01:39:55 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 01:39:57 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 01:39:59 INFO  - Button 'Accounts' :: Clicking
+2023-02-24 01:39:59 INFO  - Button 'btnAddLibrary' :: Clicking
+2023-02-24 01:40:00 INFO  - Button 'Search' :: Clicking
+2023-02-24 01:40:03 INFO  - Text Field 'Search' :: Clearing
+2023-02-24 01:40:03 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-24 01:40:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 01:40:27 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-24 01:40:27 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 01:40:28 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 01:40:29 INFO  - Button 'Accounts' :: Clicking
+2023-02-24 01:40:30 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 01:40:30 INFO  - Locking credential with barcode 01230000000305
+2023-02-24 01:40:30 INFO  - There are books on the account: 
+2023-02-24 01:40:31 INFO  - bookName: European Resistance in the Second World War Distributor: Palace Marketplace
+2023-02-24 01:40:31 INFO  - bookName: Legacy of the Lions Distributor: Palace Marketplace
+2023-02-24 01:40:31 INFO  - bookName: Moon at the Full Distributor: Palace Marketplace
+2023-02-24 01:40:31 INFO  - bookName: The Apache Diaspora Distributor: Palace Marketplace
+2023-02-24 01:40:31 INFO  - bookName: Amazing Stories Volume 80 Distributor: Palace Marketplace
+2023-02-24 01:40:31 INFO  - Count of books on the account after opening account: 5
+2023-02-24 01:40:31 INFO  - Text Field 'Card' :: Clearing
+2023-02-24 01:40:31 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-24 01:40:33 INFO  - Text Field 'Pin' :: Clearing
+2023-02-24 01:40:33 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-24 01:40:35 INFO  - Button 'Log in' :: Clicking
+2023-02-24 01:40:39 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-24 01:40:40 INFO  - Step 3 - Login is performed successfully
+2023-02-24 01:41:01 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-24 01:41:01 INFO  - Step 4 - I open Catalog
+2023-02-24 01:41:01 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-24 01:41:22 INFO  - Step 5 - I open search modal
+2023-02-24 01:41:42 INFO  - Button 'Search' :: Clicking
+2023-02-24 01:41:44 INFO  - Step 6 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-24 01:41:44 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-24 01:41:44 INFO  - randomBookName: The Power of Now
+2023-02-24 01:41:44 INFO  - Error details button is not present
+2023-02-24 01:41:44 INFO  - Text Field 'Search value input' :: Sending keys 'The Power of Now'
+2023-02-24 01:41:47 INFO  - Error details button is not present
+2023-02-24 01:41:50 INFO  - Step 7 - I switch to 'eBooks' catalog tab
+2023-02-24 01:41:50 INFO  - Button 'eBooks' :: Clicking
+2023-02-24 01:42:11 INFO  - Step 8 - Subcategory screen is present
+2023-02-24 01:42:12 INFO  - Error details button is not present
+2023-02-24 01:42:12 INFO  - Step 9 - Open EBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-24 01:42:13 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-24 01:42:13 INFO  - Label 'lblBookName' :: Clicking
+2023-02-24 01:42:14 INFO  - Step 10 - Book 'bookInfo' is opened on book details screen
+2023-02-24 01:42:14 INFO  - Label 'Book title' :: Getting text from element
+2023-02-24 01:42:14 INFO  - Label 'Book Authors' :: Getting text from element
+2023-02-24 01:42:15 INFO  - Label 'Book title' :: Getting text from element
+2023-02-24 01:42:16 INFO  - Label 'Book Authors' :: Getting text from element
+2023-02-24 01:42:16 INFO  - Step 11 - Click RESERVE action button on book details screen
+2023-02-24 01:42:17 INFO  - Button 'Reserve' :: Clicking
+2023-02-24 01:42:22 INFO  - Step 12 - I check that book contains REMOVE action button on book details screen
+2023-02-24 01:42:22 INFO  - Step 13 - I open Holds
+2023-02-24 01:42:22 INFO  - Button 'tabHolds' :: Clicking
+2023-02-24 01:42:23 INFO  - Step 14 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-02-24 01:42:24 INFO  - Step 15 - I open Catalog
+2023-02-24 01:42:24 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-24 01:42:45 INFO  - Step 16 - I open Catalog
+2023-02-24 01:42:45 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-24 01:43:06 INFO  - Step 17 - I switch to 'Plumas County Library' from side menu
+2023-02-24 01:43:06 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-24 01:43:06 INFO  - Button 'Menu' :: Clicking
+2023-02-24 01:43:08 INFO  - Button 'Menu' :: Clicking
+2023-02-24 01:43:08 INFO  - Step 18 - I open Holds
+2023-02-24 01:43:08 INFO  - Button 'tabHolds' :: Clicking
+2023-02-24 01:43:09 INFO  - Step 19 - There are not books on holds screen
+2023-02-24 01:43:29 INFO  - Taking screenshot
+2023-02-24 01:43:30 INFO  - Test finished - logging out
+2023-02-24 01:43:32 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 01:43:35 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 01:43:35 INFO  - Button 'Accounts' :: Clicking
+2023-02-24 01:43:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 01:43:38 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-24 01:43:38 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-24 01:43:39 INFO  - Button 'Log out' :: Clicking
+2023-02-24 01:43:39 INFO  - Button 'Log in' :: Getting text from element
+2023-02-24 01:43:44 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-24 01:43:45 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-24 01:43:45 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 01:43:45 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 01:43:46 INFO  - Button 'Accounts' :: Clicking
+2023-02-24 01:43:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 01:43:49 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@466403d4

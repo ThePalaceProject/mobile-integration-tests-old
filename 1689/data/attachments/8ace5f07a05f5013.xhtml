@@ -1,0 +1,1449 @@
+2023-02-24 00:29:46 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-02-24 00:29:46 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-24 00:30:16 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-24 00:30:16 INFO  - Session id - 306f6532ed02e3ed9fbb9b46dcd594bcb89dedc6
+2023-02-24 00:30:16 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-24 00:30:17 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-24 00:30:19 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-24 00:30:19 INFO  - Button 'Search' :: Clicking
+2023-02-24 00:30:21 INFO  - Text Field 'Search' :: Clearing
+2023-02-24 00:30:21 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-24 00:30:24 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 00:30:24 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-24 00:30:24 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:30:26 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:30:27 INFO  - Button 'Accounts' :: Clicking
+2023-02-24 00:30:28 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-24 00:30:29 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:30:29 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:30:30 INFO  - Button 'Accounts' :: Clicking
+2023-02-24 00:30:32 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 00:30:32 INFO  - Locking credential with barcode 01230000000304
+2023-02-24 00:30:32 INFO  - There are books on the account: 
+2023-02-24 00:30:33 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-24 00:30:33 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-02-24 00:30:33 INFO  - Count of books on the account after opening account: 2
+2023-02-24 00:30:33 INFO  - Text Field 'Card' :: Clearing
+2023-02-24 00:30:33 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-24 00:30:35 INFO  - Text Field 'Pin' :: Clearing
+2023-02-24 00:30:35 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-24 00:30:37 INFO  - Button 'Log in' :: Clicking
+2023-02-24 00:30:42 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-24 00:30:43 INFO  - Step 3 - Login is performed successfully
+2023-02-24 00:31:04 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-24 00:31:04 INFO  - Step 4 - I open Catalog
+2023-02-24 00:31:04 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-24 00:31:28 INFO  - Step 5 - I open search modal
+2023-02-24 00:31:48 INFO  - Button 'Search' :: Clicking
+2023-02-24 00:31:49 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-24 00:31:49 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-24 00:31:49 INFO  - randomBookName: Lemon
+2023-02-24 00:31:50 INFO  - Error details button is not present
+2023-02-24 00:31:50 INFO  - Text Field 'Search value input' :: Sending keys 'Lemon'
+2023-02-24 00:31:53 INFO  - Error details button is not present
+2023-02-24 00:31:54 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-24 00:31:56 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-24 00:31:57 INFO  - Button 'actionButton' :: Clicking
+2023-02-24 00:32:03 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-24 00:32:04 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-24 00:32:04 INFO  - Label 'lblBookName' :: Clicking
+2023-02-24 00:32:04 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-24 00:32:06 INFO  - Button 'Read' :: Clicking
+2023-02-24 00:32:08 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-02-24 00:32:08 INFO  - Scrolling 8 times on reader epub screen
+2023-02-24 00:32:23 INFO  - Step 11 - I save font size as 'fontSize'
+2023-02-24 00:32:24 INFO  - context - NATIVE_APP
+2023-02-24 00:32:24 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-24 00:32:26 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-24 00:32:26 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en-US" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Shorts, 2002, Lemon</title>
+		<link href="../css/prh_resets.css" rel="stylesheet" type="text/css" />
+		<link href="../css/rh_static.css" rel="stylesheet" type="text/css" />
+		<link href="../css/9781635420890_style.css" rel="stylesheet" type="text/css" />
+		<meta charset="utf-8" />
+<meta content="urn:uuid:4d46eb09-cd72-49c6-be46-f3165d1309a9" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body>
+		<div class="page_top_padding" id="c01">
+			<h1 class="chap_head sans"><span epub:type="pagebreak" id="page_xi" role="doc-pagebreak" title="xi"></span><span epub:type="pagebreak" id="page_1" role="doc-pagebreak" title="1"></span>SHORTS, 2002</h1>
+			<div class="figure figure_dingbat">
+				<div class="squeeze squeeze5">
+					<img alt="" class="image" id="Page_001_img01" src="../images/9781635420890_DistX_Page_001_Image_0001.jpg" />
+				</div>
+			</div>
+			<p class="top">I <span class="fv-allsmallcaps">IMAGINE</span> what happened inside one police interrogation room so many years ago. By <i>imagine</i>, I don’t mean <i>invent</i>. But it’s not like I was actually there, so I don’t know what else to call it. I picture the scene from that day, based on what he told me and some other clues, my own experience and conclusions. It’s not just this scene I imagine. For over sixteen years, I’ve pondered, prodded, and worked every detail embroiled in the case known as “The High School Beauty Murder”—to the point I often fool myself into thinking I’d personally witnessed the circumstances now stamped on my mind’s eye. The imagination is <span epub:type="pagebreak" id="page_2" role="doc-pagebreak" title="2"></span>just as painful as reality. No, it’s more painful. After all, what you imagine has no limit or end.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The boy</span> sat alone in the interrogation room for over ten minutes. The room was bare apart from a table and four chairs. No pictures decorated the wall, no flower vase or ashtray sat on the table. Some people appear uneasy no matter what they do, and this boy was one of them. He sat awkwardly in his chair, with eyes dull and sleepy-looking. Maybe because there was nothing to look at, but his eyes were like camera lenses constantly shifting to find focus on a white background.</p>
+			<p class="indent">A detective entered the room and sat across from the boy. The boy’s gaze grew a bit more focused.</p>
+			<p class="indent">“Han Manu!” the detective snapped, in a tone used by a teacher or head disciplinarian to summon a troublemaker before dealing out punishment.</p>
+			<p class="indent">It was enough for resentment to take root in the boy’s heart. I believe this was also the moment his cruel fate was sealed.</p>
+			<p class="indent">At the time, no one at school called him by his actual name. The other students called him <i>Halmanggu</i> or <i>Manujeol</i>, but his most shining nickname came <span epub:type="pagebreak" id="page_3" role="doc-pagebreak" title="3"></span>from the song “Han-o-baeg-nyeon.”<a class="footnote_ref" epub:type="noteref" href="#ftn1" id="ftn1a" role="doc-noteref" title="footnote">*</a> To their ears, the opening words “ha-an-man-eu-eu-eun” sounded just like his name. If you slurred the <i>n</i> sound so that you said “ha-an-man-<i>u</i>-<i>u</i>-<i>u</i>” instead, it was perfect. This particular nickname proved so popular that both <i>Halmanggu</i> and <i>Manujeol</i> died out eventually, and his friends would belt out “Ha-an man-u-u-u!” like a master pansori singer, warming up her voice before a performance.</p>
+			<p class="indent">But until the incident, I wasn’t even aware of his existence. He was in his last year of senior high and I’d just entered the school. When I grope through my memory, though, I seem to recall boys warbling his name in a ridiculous, plaintive way in the halls. They meant no harm or disrespect. After the incident, the nickname stopped altogether. No one called him anything. There was no need.</p>
+			<p class="indent">I sometimes try calling him the old way. <i>Ha-an man-u-u-u</i>. This life full of misery, as the lyrics say. Then I start wondering if this miserable life has any meaning. I don’t mean life in an abstract or general <span epub:type="pagebreak" id="page_4" role="doc-pagebreak" title="4"></span>sense, but the life of an actual person. Did the pages of his life hold any meaning? Probably not. At least that’s what I believe. Life has no special meaning. Not his, not my sister’s, not even mine. Even if you try desperately to find it, to contrive some kind of meaning, what’s not there isn’t there. Life begins without reason and ends without reason.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> told the boy to listen carefully: this was different from last time, he needed to think carefully before answering; if not, things wouldn’t go well for him. The detective’s face was curiously blank. Though the boy wasn’t the brightest kid on the block, he could sense the older man had become more frightening than he’d been at the initial questioning. He seethed with something, and anyone seething like that was to be feared.</p>
+			<p class="indent">“Let’s start by reviewing your statement from last time. On June 30, 2002, around 18:00,” the detective said, punctuating his words by pressing the tip of his ballpoint pen carefully on the table. “That is, around six o’clock in the afternoon, you were on your scooter on your way to a chicken delivery when you passed a car being driven by Shin Jeongjun. Correct?”</p>
+			<p class="indent">“No.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_5" role="doc-pagebreak" title="5"></span>“No?” The detective’s gaze skimmed the document and shot back up. “Well, that’s what your statement says.”</p>
+			<p class="indent">“I wasn’t on my way to a delivery. I was on my way back.”</p>
+			<p class="indent">An inconsequential detail. The detective looked down once more.</p>
+			<p class="indent">“Then why does it say here you were going to a delivery? Fine, whatever. So you were on your way back when you passed a car that Shin Jeongjun was driving? Correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“What kind of car did you say it was?”</p>
+			<p class="indent">“Pardon me?”</p>
+			<p class="indent">“The car model!” He was sure the boy was just pretending not to understand. “What kind of car was he driving?”</p>
+			<p class="indent">“Uh, I’m not sure, but I think it was dark gray. And shiny. Didn’t I mention all this last time?”</p>
+			<p class="indent">“I told you, we’re going over your statement. So a shiny dark gray car?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Like this?”</p>
+			<p class="indent">The detective pulled out a photo from the file. The boy leaned forward, peered at the photo, and looked up.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_6" role="doc-pagebreak" title="6"></span>“I don’t know. Maybe.”</p>
+			<p class="indent">“Even if it wasn’t this exact one, would you say it was the same kind—an SUV?”</p>
+			<p class="indent">The boy studied the photo once more and looked up at the detective. “I think so.”</p>
+			<p class="indent">“For the last time, was it an SUV or not?</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Okay. You’re doing good.”</p>
+			<p class="indent">The detective pulled out another photo. The boy looked at it and then at the detective’s face.</p>
+			<p class="indent">“Is this your scooter?” the detective asked.</p>
+			<p class="indent">The boy responded immediately that it was.</p>
+			<p class="indent">“Good.”</p>
+			<p class="indent">The detective riffled through the pages of the file, delaying the moment of the decisive blow.</p>
+			<p class="indent">“Now for the important part. You said you saw Kim Hae-on sitting in the passenger seat of Shin Jeongjun’s car, correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And what did you say again about her hair and her clothes?”</p>
+			<p class="indent">“Her hair was down.”</p>
+			<p class="indent">“You mean it was loose, not tied up.”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And? What was she wearing?”</p>
+			<p class="indent">“Um…she was in a tank top and shorts.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_7" role="doc-pagebreak" title="7"></span>“A tank top and shorts?”</p>
+			<p class="indent">“Well, that’s what I—”</p>
+			<p class="indent">“What you remember? So what color?”</p>
+			<p class="indent">“Color?”</p>
+			<p class="indent">“Her clothes!” the detective barked, thinking idiots like this never gave a straight answer. “What color were they?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“You don’t remember?”</p>
+			<p class="indent">“Well, I’m not too sure.”</p>
+			<p class="indent">“You know she was in a tank top and shorts, but you don’t know what color? You think that makes sense?”</p>
+			<p class="indent">“But I swear I don’t know!”</p>
+			<p class="indent">The boy was hiding something. The detective wondered if the time had finally come to nab him. Right then, the boy glanced around the room.</p>
+			<p class="indent">“What’s the matter?” the detective asked.</p>
+			<p class="indent">“Um, I have to go.”</p>
+			<p class="indent">“What?”</p>
+			<p class="indent">“Do you know what time it is? I have to go to work.”</p>
+			<p class="indent">The boy placed his hands on the table, as if he meant to get up. The detective glared at him in silence. What did he think then? Did he think: Got you, asshole! Was it then that he became convinced of the <span epub:type="pagebreak" id="page_8" role="doc-pagebreak" title="8"></span>boy’s guilt? Or did he glance at the boy’s hands on the table, and try to determine if they were capable of clutching something like a brick or rock and bringing it down on someone’s head? He might have thought with a shake of his head, Hmm, those hands do look tougher than Shin Jeongjun’s. Not that you need a whole lot of power to bash in the small head of a girl with smooth, glossy hair. If anything, Shin Jeongjun was taller, with a body hardened by sports, while Han Manu was rather small and of average height.</p>
+			<p class="indent">The detective cleared his throat and told the boy to pay attention. “Your statement doesn’t add up. Look here.”</p>
+			<p class="indent">He turned the photos around to face the boy, and proceeded to explain: Shin Jeongjun wasn’t driving just any car, but a Lexus RX300. The seat height of an SUV is higher than that of the average sedan, which means its window height is also higher. But if you’re sitting on a scooter, you would be at eye level with the window of the SUV, or even slightly lower.</p>
+			<p class="indent">The detective asked if he knew what all this meant. The boy didn’t respond. The detective was kind enough to spell it out for him.</p>
+			<p class="indent">“What I’m saying is, from your stumpy little scooter, it would have been physically impossible to see if Kim Hae-on was wearing shorts or jeans.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_9" role="doc-pagebreak" title="9"></span>So he said, but he wasn’t completely sure. It was just a hunch. But when he saw the shock on the boy’s face, the detective knew it was time to go in for the kill.</p>
+			<p class="indent">“Therefore, you didn’t actually see Kim Hae-on in Shin Jeongjun’s car. You saw her out of it. That’s how you knew she was wearing shorts. You saw Shin dropping her off, or you saw her walking by herself, after he’d dropped her off. Either way, you never saw her sitting in the passenger seat. If we follow that logic…”</p>
+			<p class="indent">The boy blinked several times. Though he heard what the detective was saying, he didn’t seem to comprehend the situation he was in. On the detective’s lips hovered the nervous smile of one who was about to land a fatal blow.</p>
+			<p class="indent">“The last person to see Kim Hae-on wasn’t Shin Jeongjun, but you. Do you understand what I’m saying?”</p>
+			<p class="indent">The boy could only stare. Once again, the detective got the sense that the boy was feigning ignorance. He needed to come out a lot stronger.</p>
+			<p class="indent">“What I’m saying is, you’re the prime suspect. You killed Kim Hae-on. You struck her with a blunt object and killed her.”</p>
+			<p class="indent">“Me?” the boy cried with a shudder. “But why?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_10" role="doc-pagebreak" title="10"></span>The boy, who appeared awkward no matter what he did, seemed as if he were acting. The detective became convinced the imbecile couldn’t do anything right.</p>
+			<p class="indent">“Weren’t you listening? You killed Kim Hae-on and then tried to pin it on Shin Jeongjun, passing yourself off as a witness. Isn’t that right?”</p>
+			<p class="indent">“No, of course not! Why would I do that? Why would I kill her?”</p>
+			<p class="indent">“How would I know? You tell me.”</p>
+			<p class="indent">“But I’ve never even spoken to Hae-on! She hardly said a word!”</p>
+			<p class="indent">“Says who?”</p>
+			<p class="indent">“Everyone! She never answered you even when you talked to her. Not that I ever tried or anything.”</p>
+			<p class="indent">What the boy said was true, but the detective had zero interest in these seemingly irrelevant details.</p>
+			<p class="indent">“What hogwash is this? Didn’t you say she was in shorts? Didn’t you see her in them? Tell me how that’s possible.”</p>
+			<p class="indent">The detective leaned across the table. He wondered how the fool was going to get himself out of this one.</p>
+			<p class="indent">“I don’t know…,” the boy mumbled, but the detective, intoxicated by his sense of victory, was unable to hear the rest of what he said.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_11" role="doc-pagebreak" title="11"></span>“Oh, you don’t know now? You’re changing your tune?”</p>
+			<p class="indent">“I’m not saying that…”</p>
+			<p class="indent">“No?”</p>
+			<p class="indent">“I think maybe…uh…maybe somebody else saw it, too.”</p>
+			<p class="indent">“Somebody else?”</p>
+			<p class="indent">The boy closed his mouth. He no longer felt like talking. In fact, he was wishing he could take back what he’d just said.</p>
+			<p class="indent">“I don’t think you grasp the seriousness of your situation. You’re not going to weasel your way out of this. Until now, you said you were the only one who saw Kim Hae-on, so what the hell do you mean by somebody else?”</p>
+			<p class="indent">“I never said I was the only one who saw her.”</p>
+			<p class="indent">“You never said that? Fine then. Who else?”</p>
+			<p class="indent">“Do I have to say? I really don’t want to.”</p>
+			<p class="indent">Manu wouldn’t have wanted to tell. He would have hated to bring her up. He would have recalled the warmth of her body from that day, as she’d sat lightly pressed up against his back. Recalling that sensation, he might have grinned like an idiot before the detective, just as he had done with me.</p>
+			<p class="indent">“Have you lost your frigging mind?” The detective wanted to smack the boy’s ugly long face that <span epub:type="pagebreak" id="page_12" role="doc-pagebreak" title="12"></span>resembled a pickle. “You think this is a joke? You realize you’re contradicting yourself, don’t you? You’d better fess up—who else saw Kim Hae-on?”</p>
+			<p class="indent">The boy’s upper lip twitched. “Um…”</p>
+			<p class="indent">The detective leaned closer. Someone with the last name of Um?</p>
+			<p class="indent">“Um…I’ve gotta go. Really.”</p>
+			<p class="indent">The detective felt his energy drain from him. The boy was absolutely maddening, with an uncanny knack for getting under his skin. Was something really the matter with him? Or was he only pretending to be stupid?</p>
+			<p class="indent">“You’re not leaving until you tell me the truth. I don’t care if it takes all night. I don’t care if it takes forever.”</p>
+			<p class="indent">“But my boss needs me. I really have to go—”</p>
+			<p class="indent">“Who else saw?”</p>
+			<p class="indent">The boy mumbled something under his breath.</p>
+			<p class="indent">“Speak up!” the detective roared.</p>
+			<p class="indent">“It was…uh…Taerim,” he said, a fleck of spittle flying out of his mouth.</p>
+			<p class="indent">“Taerim?”</p>
+			<p class="indent">“Yun…Yun Taerim.”</p>
+			<p class="indent">“Who the hell’s Yun Taerim?”</p>
+			<p class="indent">“From Division 3. The same class as Hae-on.”</p>
+			<p class="indent">“And this Taerim is female?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_13" role="doc-pagebreak" title="13"></span>Confusion passed over the boy’s face. “Of course. Division 3 is a girls’ class.”</p>
+			<p class="indent">How in the world was he supposed to know that? He then realized the boy had just mentioned she was in the same class as Kim Hae-on. A wave of anger surged through him.</p>
+			<p class="indent">“Why would you leave out something so important until now? You know what you’ve done? You’ve committed perjury. I could put you away for this! I swear to God, if you don’t tell me everything from now on, you’re in deep shit. Were you with Yun Taerim that day?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">The detective felt as though he’d been clobbered over the head.</p>
+			<p class="indent">“Why were you together?”</p>
+			<p class="indent">“Because Taerim asked for a ride.”</p>
+			<p class="indent">“On what? Your scooter?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“You’re killing me, Manu! Are you saying she was on your scooter with you? I thought you were going to—I mean, coming back from a delivery!”</p>
+			<p class="indent">“I was on my way back when I saw her on the street. She waved me over, so I pulled up, and then she asked for a ride. She said it was urgent.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_14" role="doc-pagebreak" title="14"></span>“So you two were on the scooter together and that’s when you saw Shin Jeongjun’s car?”</p>
+			<p class="indent">“I didn’t even know it was his car—uh, his sister’s car, I mean. Taerim said his sister had just gotten it, but Jeongjun was driving it around. She told me to get in front.”</p>
+			<p class="indent">“In front?”</p>
+			<p class="indent">“Yeah, when we stopped at a red light. She told me to get in front of it.”</p>
+			<p class="indent">“In front of what?”</p>
+			<p class="indent">“Jeongjun’s car.”</p>
+			<p class="indent">“Why’d she say that?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“So did you?”</p>
+			<p class="indent">“Yup.”</p>
+			<p class="indent">The detective’s frustration built. The strange way the boy had of contradicting himself was getting on his nerves, and he found himself tripping over his own tongue.</p>
+			<p class="indent">“And then?”</p>
+			<p class="indent">“So that’s why.”</p>
+			<p class="indent">“That’s why what?”</p>
+			<p class="indent">“That’s why Taerim might have seen.”</p>
+			<p class="indent"><i>Taerim might have seen</i>. To the detective, these words would have sounded like a lie, but they confirmed the truth for me. Yun Taerim would have <span epub:type="pagebreak" id="page_15" role="doc-pagebreak" title="15"></span>wanted to know who was in the passenger seat of Shin Jeongjun’s car. She would have gotten on Han Manu’s scooter, telling him to get in front of it. This detail contained a subtle truth the boy would never have been able to invent on his own.</p>
+			<p class="indent">“Why the hell didn’t you mention this last time?”</p>
+			<p class="indent">“Because…I didn’t think she liked it.”</p>
+			<p class="indent">“Didn’t like what?”</p>
+			<p class="indent">“The scooter.”</p>
+			<p class="indent">“What are you talking about?”</p>
+			<p class="indent">“Taerim didn’t like it.”</p>
+			<p class="indent">“Come again?”</p>
+			<p class="indent">“Riding the scooter.”</p>
+			<p class="indent">“You’re saying she didn’t like riding your scooter?”</p>
+			<p class="indent">“That’s right.”</p>
+			<p class="indent">“Why’d you give her a ride then?”</p>
+			<p class="indent">“Because she asked me. She was the one who waved me over. I never asked if she wanted a ride!”</p>
+			<p class="indent">“You didn’t ask her, fine. But why would you give her a ride if she didn’t want to get on your scooter? And why didn’t you say anything until now?”</p>
+			<p class="indent">“You don’t understand, Mister. She’d never get on something like that.”</p>
+			<p class="indent">The detective felt as if he were about to lose his mind.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_16" role="doc-pagebreak" title="16"></span>“Okay, let me get this straight. It’s not that you didn’t want to give Taerim a ride, but she doesn’t like scooters and would never get on something like that. Is that what you’re saying?”</p>
+			<p class="indent">“She wouldn’t be caught dead on a delivery scooter. So imagine how shocked I was when she asked for a ride! Then she said she wanted to get off, so I dropped her off. That means she didn’t like it, doesn’t it?”</p>
+			<p class="indent">“She asked you to drop her off right away? What was so urgent then?”</p>
+			<p class="indent">“Urgent?”</p>
+			<p class="indent">“You said she waved you over and asked for a ride, because it was urgent.”</p>
+			<p class="indent">“Oh, I didn’t ask why.”</p>
+			<p class="indent">Was there ever such an idiot? the detective thought.</p>
+			<p class="indent">A stupid detective wouldn’t have figured it out, but if a girl, who’s ashamed of being seen on a scooter, asks an idiot boy for a ride on his delivery scooter and then tells him to pass Shin Jeongjun’s car, only to get off immediately, isn’t the reason obvious? She was simply trying to see who Shin Jeongjun was with. After confirming my sister’s presence in the car, Taerim had promptly gotten off the scooter. What <span epub:type="pagebreak" id="page_17" role="doc-pagebreak" title="17"></span>exactly had she seen at that moment? How beautiful my sister looked? How indifferent? How cruel?</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> shook his head. His belief that this moron was guilty remained unshaken; he knew the boy was trying to take the negative attention off himself by dragging in a girl named Yun Taerim, but he was just digging himself into a bigger hole.</p>
+			<p class="indent">“Han Manu, I know you’re lying.”</p>
+			<p class="indent">“I swear it’s the truth! But I really have to go.”</p>
+			<p class="indent">“You’re lying, one hundred percent. You realize I’m going to bring Yun Taerim in for questioning, don’t you? Before deciding to lie, you should have gotten your story straight. How in the world would Yun Taerim manage to see something you couldn’t see? Let’s say she saw Kim Hae-on in a tank top with her hair down, but how could she have seen anything else? Is she taller than you? Even if she’s taller, she still wouldn’t have been able to see what Kim Hae-on was wearing on the bottom. It’s physically impossible.”</p>
+			<p class="indent">“I really gotta go,” the boy said sullenly.</p>
+			<p class="indent">“You listening with your ass? For the hundredth time, from your crappy midget scooter, there’s no <span epub:type="pagebreak" id="page_18" role="doc-pagebreak" title="18"></span>way you could have seen Kim Hae-on in shorts. Got that?”</p>
+			<p class="indent">“All right.”</p>
+			<p class="indent">“All right? That’s all you have to say? Are you admitting you’re wrong?”</p>
+			<p class="indent">“No, but…”</p>
+			<p class="indent">The detective leaned across the table, sensing that victory was at hand.</p>
+			<p class="indent">“Mister, could you not call it a midget scooter?”</p>
+			<p class="indent">The detective gave a humorless laugh. “I’m going to ask you one last time. You’re saying, since you saw Kim Hae-on in shorts, Yun Taerim must have seen, too?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“I’ll be looking into this. If it turns out you’re lying, you’re dead.”</p>
+			<p class="indent">“Can I go now?”</p>
+			<p class="indent">“You can go.”</p>
+			<p class="indent">Frowning, the detective watched the boy get up from his seat, bow, and make his way out of the interrogation room, his sneakers dragging along the floor. He would have fallen into thought then, tapping the documents on the table, lining up the corners and edges. I’m aware of this habit. Just as I’m aware of his other habits, of placing a stack of paper on the table and pressing it hard with the tip <span epub:type="pagebreak" id="page_19" role="doc-pagebreak" title="19"></span>of his retracted pen, scattering the pages he had just straightened. Even now, I can recall his facial expressions and manner of speaking, his squat neck atop a stocky frame, which made him resemble a gorilla. Many times he had come to our apartment, and many times I’d gone to the station with my mother.</p>
+			<p class="indent">That day, the detective would have weighed Han Manu’s narrow, pinched face against Shin Jeongjun’s clean features, the former’s cheap World Cup T-shirt against the latter’s IVYclub button-down shirt, a single mother against an accountant father, and the twentieth rank in class against the top ten of the entire grade, as well as the credibility of the witnesses providing the alibis. Rather than try to find the real culprit, the detective would have considered whom he could—or should—crush and turn into the culprit. And that’s exactly what he tried to do.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">I’ve been</span> constructing this second interrogation in my mind for a long time, the way you might put LEGO pieces together. Han Manu was questioned a total of seven times, but it was this interview that hinted at the truth, and the way the case would eventually unfold. Yet, the strange thing was, each time I re-created the second interview, an excess of details <span epub:type="pagebreak" id="page_20" role="doc-pagebreak" title="20"></span>would emerge. As if small, warped pieces of LEGO were finding their way in, somehow. This had nothing to do with Han Manu or the detective. It was my problem.</p>
+			<p class="indent">It happened again this time. I’d written that the detective, as he gazed at Han Manu’s hands, thought a person doesn’t need a whole lot of power to bash in the small head of a girl with smooth glossy hair. Why had such an unnecessary detail intruded into the scene? A small head, fine, but hair that’s smooth and glossy has no bearing on the way someone is struck. The detective would have never added such a useless detail while questioning a suspect. Of course my sister’s dazzling beauty, clearly displayed even by her lifeless body, may have crossed his mind all of a sudden. It doesn’t matter if he imagined these things or not. The problem is that this kind of excess keeps slipping into that imagined scene. What I’ve done is project my own thoughts and desires onto the detective. Does this mean I’m still not free? That I’m not free, not one iota, from those smooth, fair, irrelevant details from sixteen years ago, those endless memories of my sister’s loveliness, which had made me undergo plastic surgery, turning my own face into a crude patchwork of her features?</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_21" role="doc-pagebreak" title="21"></span>It’s true. My sister was beautiful. Unforgettably so. She was perfection, bliss personified. But more than anything, she was at that mythical age: eighteen. Who dared destroy her lovely form? Was it Han Manu, Shin Jeongjun, or a third figure? Now I know—not who killed my sister, but who didn’t. No, that’s not true. I know who the murderer is. That’s why I did what I did, and I know I’ll never be free from this crime until the day I die.</p>
+			<p class="indent">I hear my mother’s voice and a child laughing. The child’s laugh rings like a bell, announcing my guilt. Soon this child will enter elementary school, and I’ll become a school parent. Before June of my sixteenth year, I never imagined I’d be living this way. Not once have I desired this kind of life, yet here I am. What meaning, then, could life possibly hold? I didn’t desire such a life for myself, but at the same time, I can’t say I didn’t choose it.</p>
+			<div class="footnotes" epub:type="footnotes">
+				<p class="footnote_skip"><a href="Kwon_9781635420890_epub3_c02_r1.xhtml">Skip Notes</a></p>
+				<div class="footnote" epub:type="footnote" id="ftn1" role="doc-footnote">
+					<p class="footnote"><a class="footnote" href="#ftn1a" role="doc-backlink" title="footnote reference">*</a> The translation of <i>halmanggu</i> is hag, and <i>manujeol</i> is <i>April Fool’s Day</i>. “Han-o-baeg-nyeon” is a famous Korean folk song. Translated as “Five-hundred-year Sorrow,” the song became a big hit when singer Cho Yong-pil released it in his 1979 debut album.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+2023-02-24 00:32:26 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-24 00:32:26 INFO  - Step 12 - I open font settings
+2023-02-24 00:32:27 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-24 00:32:28 INFO  - Step 13 - I INCREASE_FONT of text
+2023-02-24 00:32:28 INFO  - Button 'setTextLarger' :: Clicking
+2023-02-24 00:32:29 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-02-24 00:32:29 INFO  - context - NATIVE_APP
+2023-02-24 00:32:29 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-24 00:32:30 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-24 00:32:30 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en-US" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Shorts, 2002, Lemon</title>
+		<link href="../css/prh_resets.css" rel="stylesheet" type="text/css" />
+		<link href="../css/rh_static.css" rel="stylesheet" type="text/css" />
+		<link href="../css/9781635420890_style.css" rel="stylesheet" type="text/css" />
+		<meta charset="utf-8" />
+<meta content="urn:uuid:4d46eb09-cd72-49c6-be46-f3165d1309a9" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body>
+		<div class="page_top_padding" id="c01">
+			<h1 class="chap_head sans"><span epub:type="pagebreak" id="page_xi" role="doc-pagebreak" title="xi"></span><span epub:type="pagebreak" id="page_1" role="doc-pagebreak" title="1"></span>SHORTS, 2002</h1>
+			<div class="figure figure_dingbat">
+				<div class="squeeze squeeze5">
+					<img alt="" class="image" id="Page_001_img01" src="../images/9781635420890_DistX_Page_001_Image_0001.jpg" />
+				</div>
+			</div>
+			<p class="top">I <span class="fv-allsmallcaps">IMAGINE</span> what happened inside one police interrogation room so many years ago. By <i>imagine</i>, I don’t mean <i>invent</i>. But it’s not like I was actually there, so I don’t know what else to call it. I picture the scene from that day, based on what he told me and some other clues, my own experience and conclusions. It’s not just this scene I imagine. For over sixteen years, I’ve pondered, prodded, and worked every detail embroiled in the case known as “The High School Beauty Murder”—to the point I often fool myself into thinking I’d personally witnessed the circumstances now stamped on my mind’s eye. The imagination is <span epub:type="pagebreak" id="page_2" role="doc-pagebreak" title="2"></span>just as painful as reality. No, it’s more painful. After all, what you imagine has no limit or end.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The boy</span> sat alone in the interrogation room for over ten minutes. The room was bare apart from a table and four chairs. No pictures decorated the wall, no flower vase or ashtray sat on the table. Some people appear uneasy no matter what they do, and this boy was one of them. He sat awkwardly in his chair, with eyes dull and sleepy-looking. Maybe because there was nothing to look at, but his eyes were like camera lenses constantly shifting to find focus on a white background.</p>
+			<p class="indent">A detective entered the room and sat across from the boy. The boy’s gaze grew a bit more focused.</p>
+			<p class="indent">“Han Manu!” the detective snapped, in a tone used by a teacher or head disciplinarian to summon a troublemaker before dealing out punishment.</p>
+			<p class="indent">It was enough for resentment to take root in the boy’s heart. I believe this was also the moment his cruel fate was sealed.</p>
+			<p class="indent">At the time, no one at school called him by his actual name. The other students called him <i>Halmanggu</i> or <i>Manujeol</i>, but his most shining nickname came <span epub:type="pagebreak" id="page_3" role="doc-pagebreak" title="3"></span>from the song “Han-o-baeg-nyeon.”<a class="footnote_ref" epub:type="noteref" href="#ftn1" id="ftn1a" role="doc-noteref" title="footnote">*</a> To their ears, the opening words “ha-an-man-eu-eu-eun” sounded just like his name. If you slurred the <i>n</i> sound so that you said “ha-an-man-<i>u</i>-<i>u</i>-<i>u</i>” instead, it was perfect. This particular nickname proved so popular that both <i>Halmanggu</i> and <i>Manujeol</i> died out eventually, and his friends would belt out “Ha-an man-u-u-u!” like a master pansori singer, warming up her voice before a performance.</p>
+			<p class="indent">But until the incident, I wasn’t even aware of his existence. He was in his last year of senior high and I’d just entered the school. When I grope through my memory, though, I seem to recall boys warbling his name in a ridiculous, plaintive way in the halls. They meant no harm or disrespect. After the incident, the nickname stopped altogether. No one called him anything. There was no need.</p>
+			<p class="indent">I sometimes try calling him the old way. <i>Ha-an man-u-u-u</i>. This life full of misery, as the lyrics say. Then I start wondering if this miserable life has any meaning. I don’t mean life in an abstract or general <span epub:type="pagebreak" id="page_4" role="doc-pagebreak" title="4"></span>sense, but the life of an actual person. Did the pages of his life hold any meaning? Probably not. At least that’s what I believe. Life has no special meaning. Not his, not my sister’s, not even mine. Even if you try desperately to find it, to contrive some kind of meaning, what’s not there isn’t there. Life begins without reason and ends without reason.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> told the boy to listen carefully: this was different from last time, he needed to think carefully before answering; if not, things wouldn’t go well for him. The detective’s face was curiously blank. Though the boy wasn’t the brightest kid on the block, he could sense the older man had become more frightening than he’d been at the initial questioning. He seethed with something, and anyone seething like that was to be feared.</p>
+			<p class="indent">“Let’s start by reviewing your statement from last time. On June 30, 2002, around 18:00,” the detective said, punctuating his words by pressing the tip of his ballpoint pen carefully on the table. “That is, around six o’clock in the afternoon, you were on your scooter on your way to a chicken delivery when you passed a car being driven by Shin Jeongjun. Correct?”</p>
+			<p class="indent">“No.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_5" role="doc-pagebreak" title="5"></span>“No?” The detective’s gaze skimmed the document and shot back up. “Well, that’s what your statement says.”</p>
+			<p class="indent">“I wasn’t on my way to a delivery. I was on my way back.”</p>
+			<p class="indent">An inconsequential detail. The detective looked down once more.</p>
+			<p class="indent">“Then why does it say here you were going to a delivery? Fine, whatever. So you were on your way back when you passed a car that Shin Jeongjun was driving? Correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“What kind of car did you say it was?”</p>
+			<p class="indent">“Pardon me?”</p>
+			<p class="indent">“The car model!” He was sure the boy was just pretending not to understand. “What kind of car was he driving?”</p>
+			<p class="indent">“Uh, I’m not sure, but I think it was dark gray. And shiny. Didn’t I mention all this last time?”</p>
+			<p class="indent">“I told you, we’re going over your statement. So a shiny dark gray car?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Like this?”</p>
+			<p class="indent">The detective pulled out a photo from the file. The boy leaned forward, peered at the photo, and looked up.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_6" role="doc-pagebreak" title="6"></span>“I don’t know. Maybe.”</p>
+			<p class="indent">“Even if it wasn’t this exact one, would you say it was the same kind—an SUV?”</p>
+			<p class="indent">The boy studied the photo once more and looked up at the detective. “I think so.”</p>
+			<p class="indent">“For the last time, was it an SUV or not?</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Okay. You’re doing good.”</p>
+			<p class="indent">The detective pulled out another photo. The boy looked at it and then at the detective’s face.</p>
+			<p class="indent">“Is this your scooter?” the detective asked.</p>
+			<p class="indent">The boy responded immediately that it was.</p>
+			<p class="indent">“Good.”</p>
+			<p class="indent">The detective riffled through the pages of the file, delaying the moment of the decisive blow.</p>
+			<p class="indent">“Now for the important part. You said you saw Kim Hae-on sitting in the passenger seat of Shin Jeongjun’s car, correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And what did you say again about her hair and her clothes?”</p>
+			<p class="indent">“Her hair was down.”</p>
+			<p class="indent">“You mean it was loose, not tied up.”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And? What was she wearing?”</p>
+			<p class="indent">“Um…she was in a tank top and shorts.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_7" role="doc-pagebreak" title="7"></span>“A tank top and shorts?”</p>
+			<p class="indent">“Well, that’s what I—”</p>
+			<p class="indent">“What you remember? So what color?”</p>
+			<p class="indent">“Color?”</p>
+			<p class="indent">“Her clothes!” the detective barked, thinking idiots like this never gave a straight answer. “What color were they?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“You don’t remember?”</p>
+			<p class="indent">“Well, I’m not too sure.”</p>
+			<p class="indent">“You know she was in a tank top and shorts, but you don’t know what color? You think that makes sense?”</p>
+			<p class="indent">“But I swear I don’t know!”</p>
+			<p class="indent">The boy was hiding something. The detective wondered if the time had finally come to nab him. Right then, the boy glanced around the room.</p>
+			<p class="indent">“What’s the matter?” the detective asked.</p>
+			<p class="indent">“Um, I have to go.”</p>
+			<p class="indent">“What?”</p>
+			<p class="indent">“Do you know what time it is? I have to go to work.”</p>
+			<p class="indent">The boy placed his hands on the table, as if he meant to get up. The detective glared at him in silence. What did he think then? Did he think: Got you, asshole! Was it then that he became convinced of the <span epub:type="pagebreak" id="page_8" role="doc-pagebreak" title="8"></span>boy’s guilt? Or did he glance at the boy’s hands on the table, and try to determine if they were capable of clutching something like a brick or rock and bringing it down on someone’s head? He might have thought with a shake of his head, Hmm, those hands do look tougher than Shin Jeongjun’s. Not that you need a whole lot of power to bash in the small head of a girl with smooth, glossy hair. If anything, Shin Jeongjun was taller, with a body hardened by sports, while Han Manu was rather small and of average height.</p>
+			<p class="indent">The detective cleared his throat and told the boy to pay attention. “Your statement doesn’t add up. Look here.”</p>
+			<p class="indent">He turned the photos around to face the boy, and proceeded to explain: Shin Jeongjun wasn’t driving just any car, but a Lexus RX300. The seat height of an SUV is higher than that of the average sedan, which means its window height is also higher. But if you’re sitting on a scooter, you would be at eye level with the window of the SUV, or even slightly lower.</p>
+			<p class="indent">The detective asked if he knew what all this meant. The boy didn’t respond. The detective was kind enough to spell it out for him.</p>
+			<p class="indent">“What I’m saying is, from your stumpy little scooter, it would have been physically impossible to see if Kim Hae-on was wearing shorts or jeans.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_9" role="doc-pagebreak" title="9"></span>So he said, but he wasn’t completely sure. It was just a hunch. But when he saw the shock on the boy’s face, the detective knew it was time to go in for the kill.</p>
+			<p class="indent">“Therefore, you didn’t actually see Kim Hae-on in Shin Jeongjun’s car. You saw her out of it. That’s how you knew she was wearing shorts. You saw Shin dropping her off, or you saw her walking by herself, after he’d dropped her off. Either way, you never saw her sitting in the passenger seat. If we follow that logic…”</p>
+			<p class="indent">The boy blinked several times. Though he heard what the detective was saying, he didn’t seem to comprehend the situation he was in. On the detective’s lips hovered the nervous smile of one who was about to land a fatal blow.</p>
+			<p class="indent">“The last person to see Kim Hae-on wasn’t Shin Jeongjun, but you. Do you understand what I’m saying?”</p>
+			<p class="indent">The boy could only stare. Once again, the detective got the sense that the boy was feigning ignorance. He needed to come out a lot stronger.</p>
+			<p class="indent">“What I’m saying is, you’re the prime suspect. You killed Kim Hae-on. You struck her with a blunt object and killed her.”</p>
+			<p class="indent">“Me?” the boy cried with a shudder. “But why?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_10" role="doc-pagebreak" title="10"></span>The boy, who appeared awkward no matter what he did, seemed as if he were acting. The detective became convinced the imbecile couldn’t do anything right.</p>
+			<p class="indent">“Weren’t you listening? You killed Kim Hae-on and then tried to pin it on Shin Jeongjun, passing yourself off as a witness. Isn’t that right?”</p>
+			<p class="indent">“No, of course not! Why would I do that? Why would I kill her?”</p>
+			<p class="indent">“How would I know? You tell me.”</p>
+			<p class="indent">“But I’ve never even spoken to Hae-on! She hardly said a word!”</p>
+			<p class="indent">“Says who?”</p>
+			<p class="indent">“Everyone! She never answered you even when you talked to her. Not that I ever tried or anything.”</p>
+			<p class="indent">What the boy said was true, but the detective had zero interest in these seemingly irrelevant details.</p>
+			<p class="indent">“What hogwash is this? Didn’t you say she was in shorts? Didn’t you see her in them? Tell me how that’s possible.”</p>
+			<p class="indent">The detective leaned across the table. He wondered how the fool was going to get himself out of this one.</p>
+			<p class="indent">“I don’t know…,” the boy mumbled, but the detective, intoxicated by his sense of victory, was unable to hear the rest of what he said.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_11" role="doc-pagebreak" title="11"></span>“Oh, you don’t know now? You’re changing your tune?”</p>
+			<p class="indent">“I’m not saying that…”</p>
+			<p class="indent">“No?”</p>
+			<p class="indent">“I think maybe…uh…maybe somebody else saw it, too.”</p>
+			<p class="indent">“Somebody else?”</p>
+			<p class="indent">The boy closed his mouth. He no longer felt like talking. In fact, he was wishing he could take back what he’d just said.</p>
+			<p class="indent">“I don’t think you grasp the seriousness of your situation. You’re not going to weasel your way out of this. Until now, you said you were the only one who saw Kim Hae-on, so what the hell do you mean by somebody else?”</p>
+			<p class="indent">“I never said I was the only one who saw her.”</p>
+			<p class="indent">“You never said that? Fine then. Who else?”</p>
+			<p class="indent">“Do I have to say? I really don’t want to.”</p>
+			<p class="indent">Manu wouldn’t have wanted to tell. He would have hated to bring her up. He would have recalled the warmth of her body from that day, as she’d sat lightly pressed up against his back. Recalling that sensation, he might have grinned like an idiot before the detective, just as he had done with me.</p>
+			<p class="indent">“Have you lost your frigging mind?” The detective wanted to smack the boy’s ugly long face that <span epub:type="pagebreak" id="page_12" role="doc-pagebreak" title="12"></span>resembled a pickle. “You think this is a joke? You realize you’re contradicting yourself, don’t you? You’d better fess up—who else saw Kim Hae-on?”</p>
+			<p class="indent">The boy’s upper lip twitched. “Um…”</p>
+			<p class="indent">The detective leaned closer. Someone with the last name of Um?</p>
+			<p class="indent">“Um…I’ve gotta go. Really.”</p>
+			<p class="indent">The detective felt his energy drain from him. The boy was absolutely maddening, with an uncanny knack for getting under his skin. Was something really the matter with him? Or was he only pretending to be stupid?</p>
+			<p class="indent">“You’re not leaving until you tell me the truth. I don’t care if it takes all night. I don’t care if it takes forever.”</p>
+			<p class="indent">“But my boss needs me. I really have to go—”</p>
+			<p class="indent">“Who else saw?”</p>
+			<p class="indent">The boy mumbled something under his breath.</p>
+			<p class="indent">“Speak up!” the detective roared.</p>
+			<p class="indent">“It was…uh…Taerim,” he said, a fleck of spittle flying out of his mouth.</p>
+			<p class="indent">“Taerim?”</p>
+			<p class="indent">“Yun…Yun Taerim.”</p>
+			<p class="indent">“Who the hell’s Yun Taerim?”</p>
+			<p class="indent">“From Division 3. The same class as Hae-on.”</p>
+			<p class="indent">“And this Taerim is female?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_13" role="doc-pagebreak" title="13"></span>Confusion passed over the boy’s face. “Of course. Division 3 is a girls’ class.”</p>
+			<p class="indent">How in the world was he supposed to know that? He then realized the boy had just mentioned she was in the same class as Kim Hae-on. A wave of anger surged through him.</p>
+			<p class="indent">“Why would you leave out something so important until now? You know what you’ve done? You’ve committed perjury. I could put you away for this! I swear to God, if you don’t tell me everything from now on, you’re in deep shit. Were you with Yun Taerim that day?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">The detective felt as though he’d been clobbered over the head.</p>
+			<p class="indent">“Why were you together?”</p>
+			<p class="indent">“Because Taerim asked for a ride.”</p>
+			<p class="indent">“On what? Your scooter?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“You’re killing me, Manu! Are you saying she was on your scooter with you? I thought you were going to—I mean, coming back from a delivery!”</p>
+			<p class="indent">“I was on my way back when I saw her on the street. She waved me over, so I pulled up, and then she asked for a ride. She said it was urgent.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_14" role="doc-pagebreak" title="14"></span>“So you two were on the scooter together and that’s when you saw Shin Jeongjun’s car?”</p>
+			<p class="indent">“I didn’t even know it was his car—uh, his sister’s car, I mean. Taerim said his sister had just gotten it, but Jeongjun was driving it around. She told me to get in front.”</p>
+			<p class="indent">“In front?”</p>
+			<p class="indent">“Yeah, when we stopped at a red light. She told me to get in front of it.”</p>
+			<p class="indent">“In front of what?”</p>
+			<p class="indent">“Jeongjun’s car.”</p>
+			<p class="indent">“Why’d she say that?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“So did you?”</p>
+			<p class="indent">“Yup.”</p>
+			<p class="indent">The detective’s frustration built. The strange way the boy had of contradicting himself was getting on his nerves, and he found himself tripping over his own tongue.</p>
+			<p class="indent">“And then?”</p>
+			<p class="indent">“So that’s why.”</p>
+			<p class="indent">“That’s why what?”</p>
+			<p class="indent">“That’s why Taerim might have seen.”</p>
+			<p class="indent"><i>Taerim might have seen</i>. To the detective, these words would have sounded like a lie, but they confirmed the truth for me. Yun Taerim would have <span epub:type="pagebreak" id="page_15" role="doc-pagebreak" title="15"></span>wanted to know who was in the passenger seat of Shin Jeongjun’s car. She would have gotten on Han Manu’s scooter, telling him to get in front of it. This detail contained a subtle truth the boy would never have been able to invent on his own.</p>
+			<p class="indent">“Why the hell didn’t you mention this last time?”</p>
+			<p class="indent">“Because…I didn’t think she liked it.”</p>
+			<p class="indent">“Didn’t like what?”</p>
+			<p class="indent">“The scooter.”</p>
+			<p class="indent">“What are you talking about?”</p>
+			<p class="indent">“Taerim didn’t like it.”</p>
+			<p class="indent">“Come again?”</p>
+			<p class="indent">“Riding the scooter.”</p>
+			<p class="indent">“You’re saying she didn’t like riding your scooter?”</p>
+			<p class="indent">“That’s right.”</p>
+			<p class="indent">“Why’d you give her a ride then?”</p>
+			<p class="indent">“Because she asked me. She was the one who waved me over. I never asked if she wanted a ride!”</p>
+			<p class="indent">“You didn’t ask her, fine. But why would you give her a ride if she didn’t want to get on your scooter? And why didn’t you say anything until now?”</p>
+			<p class="indent">“You don’t understand, Mister. She’d never get on something like that.”</p>
+			<p class="indent">The detective felt as if he were about to lose his mind.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_16" role="doc-pagebreak" title="16"></span>“Okay, let me get this straight. It’s not that you didn’t want to give Taerim a ride, but she doesn’t like scooters and would never get on something like that. Is that what you’re saying?”</p>
+			<p class="indent">“She wouldn’t be caught dead on a delivery scooter. So imagine how shocked I was when she asked for a ride! Then she said she wanted to get off, so I dropped her off. That means she didn’t like it, doesn’t it?”</p>
+			<p class="indent">“She asked you to drop her off right away? What was so urgent then?”</p>
+			<p class="indent">“Urgent?”</p>
+			<p class="indent">“You said she waved you over and asked for a ride, because it was urgent.”</p>
+			<p class="indent">“Oh, I didn’t ask why.”</p>
+			<p class="indent">Was there ever such an idiot? the detective thought.</p>
+			<p class="indent">A stupid detective wouldn’t have figured it out, but if a girl, who’s ashamed of being seen on a scooter, asks an idiot boy for a ride on his delivery scooter and then tells him to pass Shin Jeongjun’s car, only to get off immediately, isn’t the reason obvious? She was simply trying to see who Shin Jeongjun was with. After confirming my sister’s presence in the car, Taerim had promptly gotten off the scooter. What <span epub:type="pagebreak" id="page_17" role="doc-pagebreak" title="17"></span>exactly had she seen at that moment? How beautiful my sister looked? How indifferent? How cruel?</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> shook his head. His belief that this moron was guilty remained unshaken; he knew the boy was trying to take the negative attention off himself by dragging in a girl named Yun Taerim, but he was just digging himself into a bigger hole.</p>
+			<p class="indent">“Han Manu, I know you’re lying.”</p>
+			<p class="indent">“I swear it’s the truth! But I really have to go.”</p>
+			<p class="indent">“You’re lying, one hundred percent. You realize I’m going to bring Yun Taerim in for questioning, don’t you? Before deciding to lie, you should have gotten your story straight. How in the world would Yun Taerim manage to see something you couldn’t see? Let’s say she saw Kim Hae-on in a tank top with her hair down, but how could she have seen anything else? Is she taller than you? Even if she’s taller, she still wouldn’t have been able to see what Kim Hae-on was wearing on the bottom. It’s physically impossible.”</p>
+			<p class="indent">“I really gotta go,” the boy said sullenly.</p>
+			<p class="indent">“You listening with your ass? For the hundredth time, from your crappy midget scooter, there’s no <span epub:type="pagebreak" id="page_18" role="doc-pagebreak" title="18"></span>way you could have seen Kim Hae-on in shorts. Got that?”</p>
+			<p class="indent">“All right.”</p>
+			<p class="indent">“All right? That’s all you have to say? Are you admitting you’re wrong?”</p>
+			<p class="indent">“No, but…”</p>
+			<p class="indent">The detective leaned across the table, sensing that victory was at hand.</p>
+			<p class="indent">“Mister, could you not call it a midget scooter?”</p>
+			<p class="indent">The detective gave a humorless laugh. “I’m going to ask you one last time. You’re saying, since you saw Kim Hae-on in shorts, Yun Taerim must have seen, too?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“I’ll be looking into this. If it turns out you’re lying, you’re dead.”</p>
+			<p class="indent">“Can I go now?”</p>
+			<p class="indent">“You can go.”</p>
+			<p class="indent">Frowning, the detective watched the boy get up from his seat, bow, and make his way out of the interrogation room, his sneakers dragging along the floor. He would have fallen into thought then, tapping the documents on the table, lining up the corners and edges. I’m aware of this habit. Just as I’m aware of his other habits, of placing a stack of paper on the table and pressing it hard with the tip <span epub:type="pagebreak" id="page_19" role="doc-pagebreak" title="19"></span>of his retracted pen, scattering the pages he had just straightened. Even now, I can recall his facial expressions and manner of speaking, his squat neck atop a stocky frame, which made him resemble a gorilla. Many times he had come to our apartment, and many times I’d gone to the station with my mother.</p>
+			<p class="indent">That day, the detective would have weighed Han Manu’s narrow, pinched face against Shin Jeongjun’s clean features, the former’s cheap World Cup T-shirt against the latter’s IVYclub button-down shirt, a single mother against an accountant father, and the twentieth rank in class against the top ten of the entire grade, as well as the credibility of the witnesses providing the alibis. Rather than try to find the real culprit, the detective would have considered whom he could—or should—crush and turn into the culprit. And that’s exactly what he tried to do.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">I’ve been</span> constructing this second interrogation in my mind for a long time, the way you might put LEGO pieces together. Han Manu was questioned a total of seven times, but it was this interview that hinted at the truth, and the way the case would eventually unfold. Yet, the strange thing was, each time I re-created the second interview, an excess of details <span epub:type="pagebreak" id="page_20" role="doc-pagebreak" title="20"></span>would emerge. As if small, warped pieces of LEGO were finding their way in, somehow. This had nothing to do with Han Manu or the detective. It was my problem.</p>
+			<p class="indent">It happened again this time. I’d written that the detective, as he gazed at Han Manu’s hands, thought a person doesn’t need a whole lot of power to bash in the small head of a girl with smooth glossy hair. Why had such an unnecessary detail intruded into the scene? A small head, fine, but hair that’s smooth and glossy has no bearing on the way someone is struck. The detective would have never added such a useless detail while questioning a suspect. Of course my sister’s dazzling beauty, clearly displayed even by her lifeless body, may have crossed his mind all of a sudden. It doesn’t matter if he imagined these things or not. The problem is that this kind of excess keeps slipping into that imagined scene. What I’ve done is project my own thoughts and desires onto the detective. Does this mean I’m still not free? That I’m not free, not one iota, from those smooth, fair, irrelevant details from sixteen years ago, those endless memories of my sister’s loveliness, which had made me undergo plastic surgery, turning my own face into a crude patchwork of her features?</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_21" role="doc-pagebreak" title="21"></span>It’s true. My sister was beautiful. Unforgettably so. She was perfection, bliss personified. But more than anything, she was at that mythical age: eighteen. Who dared destroy her lovely form? Was it Han Manu, Shin Jeongjun, or a third figure? Now I know—not who killed my sister, but who didn’t. No, that’s not true. I know who the murderer is. That’s why I did what I did, and I know I’ll never be free from this crime until the day I die.</p>
+			<p class="indent">I hear my mother’s voice and a child laughing. The child’s laugh rings like a bell, announcing my guilt. Soon this child will enter elementary school, and I’ll become a school parent. Before June of my sixteenth year, I never imagined I’d be living this way. Not once have I desired this kind of life, yet here I am. What meaning, then, could life possibly hold? I didn’t desire such a life for myself, but at the same time, I can’t say I didn’t choose it.</p>
+			<div class="footnotes" epub:type="footnotes">
+				<p class="footnote_skip"><a href="Kwon_9781635420890_epub3_c02_r1.xhtml">Skip Notes</a></p>
+				<div class="footnote" epub:type="footnote" id="ftn1" role="doc-footnote">
+					<p class="footnote"><a class="footnote" href="#ftn1a" role="doc-backlink" title="footnote reference">*</a> The translation of <i>halmanggu</i> is hag, and <i>manujeol</i> is <i>April Fool’s Day</i>. “Han-o-baeg-nyeon” is a famous Korean folk song. Translated as “Five-hundred-year Sorrow,” the song became a big hit when singer Cho Yong-pil released it in his 1979 debut album.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+2023-02-24 00:32:30 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-24 00:32:30 INFO  - Step 15 - I restart app
+2023-02-24 00:32:55 INFO  - Step 16 - I open Books
+2023-02-24 00:32:55 INFO  - Button 'tabBooks' :: Clicking
+2023-02-24 00:32:56 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-24 00:32:56 INFO  - Label 'lblBookName' :: Clicking
+2023-02-24 00:32:57 INFO  - Step 18 - Click READ action button on book details screen
+2023-02-24 00:32:59 INFO  - Button 'Read' :: Clicking
+2023-02-24 00:32:59 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-02-24 00:33:00 INFO  - context - NATIVE_APP
+2023-02-24 00:33:01 INFO  - context - NATIVE_APP
+2023-02-24 00:33:02 INFO  - context - NATIVE_APP
+2023-02-24 00:33:02 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-24 00:33:03 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-24 00:33:03 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en-US" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Shorts, 2002, Lemon</title>
+		<link href="../css/prh_resets.css" rel="stylesheet" type="text/css" />
+		<link href="../css/rh_static.css" rel="stylesheet" type="text/css" />
+		<link href="../css/9781635420890_style.css" rel="stylesheet" type="text/css" />
+		<meta charset="utf-8" />
+<meta content="urn:uuid:4d46eb09-cd72-49c6-be46-f3165d1309a9" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body>
+		<div class="page_top_padding" id="c01">
+			<h1 class="chap_head sans"><span epub:type="pagebreak" id="page_xi" role="doc-pagebreak" title="xi"></span><span epub:type="pagebreak" id="page_1" role="doc-pagebreak" title="1"></span>SHORTS, 2002</h1>
+			<div class="figure figure_dingbat">
+				<div class="squeeze squeeze5">
+					<img alt="" class="image" id="Page_001_img01" src="../images/9781635420890_DistX_Page_001_Image_0001.jpg" />
+				</div>
+			</div>
+			<p class="top">I <span class="fv-allsmallcaps">IMAGINE</span> what happened inside one police interrogation room so many years ago. By <i>imagine</i>, I don’t mean <i>invent</i>. But it’s not like I was actually there, so I don’t know what else to call it. I picture the scene from that day, based on what he told me and some other clues, my own experience and conclusions. It’s not just this scene I imagine. For over sixteen years, I’ve pondered, prodded, and worked every detail embroiled in the case known as “The High School Beauty Murder”—to the point I often fool myself into thinking I’d personally witnessed the circumstances now stamped on my mind’s eye. The imagination is <span epub:type="pagebreak" id="page_2" role="doc-pagebreak" title="2"></span>just as painful as reality. No, it’s more painful. After all, what you imagine has no limit or end.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The boy</span> sat alone in the interrogation room for over ten minutes. The room was bare apart from a table and four chairs. No pictures decorated the wall, no flower vase or ashtray sat on the table. Some people appear uneasy no matter what they do, and this boy was one of them. He sat awkwardly in his chair, with eyes dull and sleepy-looking. Maybe because there was nothing to look at, but his eyes were like camera lenses constantly shifting to find focus on a white background.</p>
+			<p class="indent">A detective entered the room and sat across from the boy. The boy’s gaze grew a bit more focused.</p>
+			<p class="indent">“Han Manu!” the detective snapped, in a tone used by a teacher or head disciplinarian to summon a troublemaker before dealing out punishment.</p>
+			<p class="indent">It was enough for resentment to take root in the boy’s heart. I believe this was also the moment his cruel fate was sealed.</p>
+			<p class="indent">At the time, no one at school called him by his actual name. The other students called him <i>Halmanggu</i> or <i>Manujeol</i>, but his most shining nickname came <span epub:type="pagebreak" id="page_3" role="doc-pagebreak" title="3"></span>from the song “Han-o-baeg-nyeon.”<a class="footnote_ref" epub:type="noteref" href="#ftn1" id="ftn1a" role="doc-noteref" title="footnote">*</a> To their ears, the opening words “ha-an-man-eu-eu-eun” sounded just like his name. If you slurred the <i>n</i> sound so that you said “ha-an-man-<i>u</i>-<i>u</i>-<i>u</i>” instead, it was perfect. This particular nickname proved so popular that both <i>Halmanggu</i> and <i>Manujeol</i> died out eventually, and his friends would belt out “Ha-an man-u-u-u!” like a master pansori singer, warming up her voice before a performance.</p>
+			<p class="indent">But until the incident, I wasn’t even aware of his existence. He was in his last year of senior high and I’d just entered the school. When I grope through my memory, though, I seem to recall boys warbling his name in a ridiculous, plaintive way in the halls. They meant no harm or disrespect. After the incident, the nickname stopped altogether. No one called him anything. There was no need.</p>
+			<p class="indent">I sometimes try calling him the old way. <i>Ha-an man-u-u-u</i>. This life full of misery, as the lyrics say. Then I start wondering if this miserable life has any meaning. I don’t mean life in an abstract or general <span epub:type="pagebreak" id="page_4" role="doc-pagebreak" title="4"></span>sense, but the life of an actual person. Did the pages of his life hold any meaning? Probably not. At least that’s what I believe. Life has no special meaning. Not his, not my sister’s, not even mine. Even if you try desperately to find it, to contrive some kind of meaning, what’s not there isn’t there. Life begins without reason and ends without reason.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> told the boy to listen carefully: this was different from last time, he needed to think carefully before answering; if not, things wouldn’t go well for him. The detective’s face was curiously blank. Though the boy wasn’t the brightest kid on the block, he could sense the older man had become more frightening than he’d been at the initial questioning. He seethed with something, and anyone seething like that was to be feared.</p>
+			<p class="indent">“Let’s start by reviewing your statement from last time. On June 30, 2002, around 18:00,” the detective said, punctuating his words by pressing the tip of his ballpoint pen carefully on the table. “That is, around six o’clock in the afternoon, you were on your scooter on your way to a chicken delivery when you passed a car being driven by Shin Jeongjun. Correct?”</p>
+			<p class="indent">“No.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_5" role="doc-pagebreak" title="5"></span>“No?” The detective’s gaze skimmed the document and shot back up. “Well, that’s what your statement says.”</p>
+			<p class="indent">“I wasn’t on my way to a delivery. I was on my way back.”</p>
+			<p class="indent">An inconsequential detail. The detective looked down once more.</p>
+			<p class="indent">“Then why does it say here you were going to a delivery? Fine, whatever. So you were on your way back when you passed a car that Shin Jeongjun was driving? Correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“What kind of car did you say it was?”</p>
+			<p class="indent">“Pardon me?”</p>
+			<p class="indent">“The car model!” He was sure the boy was just pretending not to understand. “What kind of car was he driving?”</p>
+			<p class="indent">“Uh, I’m not sure, but I think it was dark gray. And shiny. Didn’t I mention all this last time?”</p>
+			<p class="indent">“I told you, we’re going over your statement. So a shiny dark gray car?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Like this?”</p>
+			<p class="indent">The detective pulled out a photo from the file. The boy leaned forward, peered at the photo, and looked up.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_6" role="doc-pagebreak" title="6"></span>“I don’t know. Maybe.”</p>
+			<p class="indent">“Even if it wasn’t this exact one, would you say it was the same kind—an SUV?”</p>
+			<p class="indent">The boy studied the photo once more and looked up at the detective. “I think so.”</p>
+			<p class="indent">“For the last time, was it an SUV or not?</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Okay. You’re doing good.”</p>
+			<p class="indent">The detective pulled out another photo. The boy looked at it and then at the detective’s face.</p>
+			<p class="indent">“Is this your scooter?” the detective asked.</p>
+			<p class="indent">The boy responded immediately that it was.</p>
+			<p class="indent">“Good.”</p>
+			<p class="indent">The detective riffled through the pages of the file, delaying the moment of the decisive blow.</p>
+			<p class="indent">“Now for the important part. You said you saw Kim Hae-on sitting in the passenger seat of Shin Jeongjun’s car, correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And what did you say again about her hair and her clothes?”</p>
+			<p class="indent">“Her hair was down.”</p>
+			<p class="indent">“You mean it was loose, not tied up.”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And? What was she wearing?”</p>
+			<p class="indent">“Um…she was in a tank top and shorts.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_7" role="doc-pagebreak" title="7"></span>“A tank top and shorts?”</p>
+			<p class="indent">“Well, that’s what I—”</p>
+			<p class="indent">“What you remember? So what color?”</p>
+			<p class="indent">“Color?”</p>
+			<p class="indent">“Her clothes!” the detective barked, thinking idiots like this never gave a straight answer. “What color were they?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“You don’t remember?”</p>
+			<p class="indent">“Well, I’m not too sure.”</p>
+			<p class="indent">“You know she was in a tank top and shorts, but you don’t know what color? You think that makes sense?”</p>
+			<p class="indent">“But I swear I don’t know!”</p>
+			<p class="indent">The boy was hiding something. The detective wondered if the time had finally come to nab him. Right then, the boy glanced around the room.</p>
+			<p class="indent">“What’s the matter?” the detective asked.</p>
+			<p class="indent">“Um, I have to go.”</p>
+			<p class="indent">“What?”</p>
+			<p class="indent">“Do you know what time it is? I have to go to work.”</p>
+			<p class="indent">The boy placed his hands on the table, as if he meant to get up. The detective glared at him in silence. What did he think then? Did he think: Got you, asshole! Was it then that he became convinced of the <span epub:type="pagebreak" id="page_8" role="doc-pagebreak" title="8"></span>boy’s guilt? Or did he glance at the boy’s hands on the table, and try to determine if they were capable of clutching something like a brick or rock and bringing it down on someone’s head? He might have thought with a shake of his head, Hmm, those hands do look tougher than Shin Jeongjun’s. Not that you need a whole lot of power to bash in the small head of a girl with smooth, glossy hair. If anything, Shin Jeongjun was taller, with a body hardened by sports, while Han Manu was rather small and of average height.</p>
+			<p class="indent">The detective cleared his throat and told the boy to pay attention. “Your statement doesn’t add up. Look here.”</p>
+			<p class="indent">He turned the photos around to face the boy, and proceeded to explain: Shin Jeongjun wasn’t driving just any car, but a Lexus RX300. The seat height of an SUV is higher than that of the average sedan, which means its window height is also higher. But if you’re sitting on a scooter, you would be at eye level with the window of the SUV, or even slightly lower.</p>
+			<p class="indent">The detective asked if he knew what all this meant. The boy didn’t respond. The detective was kind enough to spell it out for him.</p>
+			<p class="indent">“What I’m saying is, from your stumpy little scooter, it would have been physically impossible to see if Kim Hae-on was wearing shorts or jeans.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_9" role="doc-pagebreak" title="9"></span>So he said, but he wasn’t completely sure. It was just a hunch. But when he saw the shock on the boy’s face, the detective knew it was time to go in for the kill.</p>
+			<p class="indent">“Therefore, you didn’t actually see Kim Hae-on in Shin Jeongjun’s car. You saw her out of it. That’s how you knew she was wearing shorts. You saw Shin dropping her off, or you saw her walking by herself, after he’d dropped her off. Either way, you never saw her sitting in the passenger seat. If we follow that logic…”</p>
+			<p class="indent">The boy blinked several times. Though he heard what the detective was saying, he didn’t seem to comprehend the situation he was in. On the detective’s lips hovered the nervous smile of one who was about to land a fatal blow.</p>
+			<p class="indent">“The last person to see Kim Hae-on wasn’t Shin Jeongjun, but you. Do you understand what I’m saying?”</p>
+			<p class="indent">The boy could only stare. Once again, the detective got the sense that the boy was feigning ignorance. He needed to come out a lot stronger.</p>
+			<p class="indent">“What I’m saying is, you’re the prime suspect. You killed Kim Hae-on. You struck her with a blunt object and killed her.”</p>
+			<p class="indent">“Me?” the boy cried with a shudder. “But why?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_10" role="doc-pagebreak" title="10"></span>The boy, who appeared awkward no matter what he did, seemed as if he were acting. The detective became convinced the imbecile couldn’t do anything right.</p>
+			<p class="indent">“Weren’t you listening? You killed Kim Hae-on and then tried to pin it on Shin Jeongjun, passing yourself off as a witness. Isn’t that right?”</p>
+			<p class="indent">“No, of course not! Why would I do that? Why would I kill her?”</p>
+			<p class="indent">“How would I know? You tell me.”</p>
+			<p class="indent">“But I’ve never even spoken to Hae-on! She hardly said a word!”</p>
+			<p class="indent">“Says who?”</p>
+			<p class="indent">“Everyone! She never answered you even when you talked to her. Not that I ever tried or anything.”</p>
+			<p class="indent">What the boy said was true, but the detective had zero interest in these seemingly irrelevant details.</p>
+			<p class="indent">“What hogwash is this? Didn’t you say she was in shorts? Didn’t you see her in them? Tell me how that’s possible.”</p>
+			<p class="indent">The detective leaned across the table. He wondered how the fool was going to get himself out of this one.</p>
+			<p class="indent">“I don’t know…,” the boy mumbled, but the detective, intoxicated by his sense of victory, was unable to hear the rest of what he said.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_11" role="doc-pagebreak" title="11"></span>“Oh, you don’t know now? You’re changing your tune?”</p>
+			<p class="indent">“I’m not saying that…”</p>
+			<p class="indent">“No?”</p>
+			<p class="indent">“I think maybe…uh…maybe somebody else saw it, too.”</p>
+			<p class="indent">“Somebody else?”</p>
+			<p class="indent">The boy closed his mouth. He no longer felt like talking. In fact, he was wishing he could take back what he’d just said.</p>
+			<p class="indent">“I don’t think you grasp the seriousness of your situation. You’re not going to weasel your way out of this. Until now, you said you were the only one who saw Kim Hae-on, so what the hell do you mean by somebody else?”</p>
+			<p class="indent">“I never said I was the only one who saw her.”</p>
+			<p class="indent">“You never said that? Fine then. Who else?”</p>
+			<p class="indent">“Do I have to say? I really don’t want to.”</p>
+			<p class="indent">Manu wouldn’t have wanted to tell. He would have hated to bring her up. He would have recalled the warmth of her body from that day, as she’d sat lightly pressed up against his back. Recalling that sensation, he might have grinned like an idiot before the detective, just as he had done with me.</p>
+			<p class="indent">“Have you lost your frigging mind?” The detective wanted to smack the boy’s ugly long face that <span epub:type="pagebreak" id="page_12" role="doc-pagebreak" title="12"></span>resembled a pickle. “You think this is a joke? You realize you’re contradicting yourself, don’t you? You’d better fess up—who else saw Kim Hae-on?”</p>
+			<p class="indent">The boy’s upper lip twitched. “Um…”</p>
+			<p class="indent">The detective leaned closer. Someone with the last name of Um?</p>
+			<p class="indent">“Um…I’ve gotta go. Really.”</p>
+			<p class="indent">The detective felt his energy drain from him. The boy was absolutely maddening, with an uncanny knack for getting under his skin. Was something really the matter with him? Or was he only pretending to be stupid?</p>
+			<p class="indent">“You’re not leaving until you tell me the truth. I don’t care if it takes all night. I don’t care if it takes forever.”</p>
+			<p class="indent">“But my boss needs me. I really have to go—”</p>
+			<p class="indent">“Who else saw?”</p>
+			<p class="indent">The boy mumbled something under his breath.</p>
+			<p class="indent">“Speak up!” the detective roared.</p>
+			<p class="indent">“It was…uh…Taerim,” he said, a fleck of spittle flying out of his mouth.</p>
+			<p class="indent">“Taerim?”</p>
+			<p class="indent">“Yun…Yun Taerim.”</p>
+			<p class="indent">“Who the hell’s Yun Taerim?”</p>
+			<p class="indent">“From Division 3. The same class as Hae-on.”</p>
+			<p class="indent">“And this Taerim is female?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_13" role="doc-pagebreak" title="13"></span>Confusion passed over the boy’s face. “Of course. Division 3 is a girls’ class.”</p>
+			<p class="indent">How in the world was he supposed to know that? He then realized the boy had just mentioned she was in the same class as Kim Hae-on. A wave of anger surged through him.</p>
+			<p class="indent">“Why would you leave out something so important until now? You know what you’ve done? You’ve committed perjury. I could put you away for this! I swear to God, if you don’t tell me everything from now on, you’re in deep shit. Were you with Yun Taerim that day?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">The detective felt as though he’d been clobbered over the head.</p>
+			<p class="indent">“Why were you together?”</p>
+			<p class="indent">“Because Taerim asked for a ride.”</p>
+			<p class="indent">“On what? Your scooter?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“You’re killing me, Manu! Are you saying she was on your scooter with you? I thought you were going to—I mean, coming back from a delivery!”</p>
+			<p class="indent">“I was on my way back when I saw her on the street. She waved me over, so I pulled up, and then she asked for a ride. She said it was urgent.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_14" role="doc-pagebreak" title="14"></span>“So you two were on the scooter together and that’s when you saw Shin Jeongjun’s car?”</p>
+			<p class="indent">“I didn’t even know it was his car—uh, his sister’s car, I mean. Taerim said his sister had just gotten it, but Jeongjun was driving it around. She told me to get in front.”</p>
+			<p class="indent">“In front?”</p>
+			<p class="indent">“Yeah, when we stopped at a red light. She told me to get in front of it.”</p>
+			<p class="indent">“In front of what?”</p>
+			<p class="indent">“Jeongjun’s car.”</p>
+			<p class="indent">“Why’d she say that?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“So did you?”</p>
+			<p class="indent">“Yup.”</p>
+			<p class="indent">The detective’s frustration built. The strange way the boy had of contradicting himself was getting on his nerves, and he found himself tripping over his own tongue.</p>
+			<p class="indent">“And then?”</p>
+			<p class="indent">“So that’s why.”</p>
+			<p class="indent">“That’s why what?”</p>
+			<p class="indent">“That’s why Taerim might have seen.”</p>
+			<p class="indent"><i>Taerim might have seen</i>. To the detective, these words would have sounded like a lie, but they confirmed the truth for me. Yun Taerim would have <span epub:type="pagebreak" id="page_15" role="doc-pagebreak" title="15"></span>wanted to know who was in the passenger seat of Shin Jeongjun’s car. She would have gotten on Han Manu’s scooter, telling him to get in front of it. This detail contained a subtle truth the boy would never have been able to invent on his own.</p>
+			<p class="indent">“Why the hell didn’t you mention this last time?”</p>
+			<p class="indent">“Because…I didn’t think she liked it.”</p>
+			<p class="indent">“Didn’t like what?”</p>
+			<p class="indent">“The scooter.”</p>
+			<p class="indent">“What are you talking about?”</p>
+			<p class="indent">“Taerim didn’t like it.”</p>
+			<p class="indent">“Come again?”</p>
+			<p class="indent">“Riding the scooter.”</p>
+			<p class="indent">“You’re saying she didn’t like riding your scooter?”</p>
+			<p class="indent">“That’s right.”</p>
+			<p class="indent">“Why’d you give her a ride then?”</p>
+			<p class="indent">“Because she asked me. She was the one who waved me over. I never asked if she wanted a ride!”</p>
+			<p class="indent">“You didn’t ask her, fine. But why would you give her a ride if she didn’t want to get on your scooter? And why didn’t you say anything until now?”</p>
+			<p class="indent">“You don’t understand, Mister. She’d never get on something like that.”</p>
+			<p class="indent">The detective felt as if he were about to lose his mind.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_16" role="doc-pagebreak" title="16"></span>“Okay, let me get this straight. It’s not that you didn’t want to give Taerim a ride, but she doesn’t like scooters and would never get on something like that. Is that what you’re saying?”</p>
+			<p class="indent">“She wouldn’t be caught dead on a delivery scooter. So imagine how shocked I was when she asked for a ride! Then she said she wanted to get off, so I dropped her off. That means she didn’t like it, doesn’t it?”</p>
+			<p class="indent">“She asked you to drop her off right away? What was so urgent then?”</p>
+			<p class="indent">“Urgent?”</p>
+			<p class="indent">“You said she waved you over and asked for a ride, because it was urgent.”</p>
+			<p class="indent">“Oh, I didn’t ask why.”</p>
+			<p class="indent">Was there ever such an idiot? the detective thought.</p>
+			<p class="indent">A stupid detective wouldn’t have figured it out, but if a girl, who’s ashamed of being seen on a scooter, asks an idiot boy for a ride on his delivery scooter and then tells him to pass Shin Jeongjun’s car, only to get off immediately, isn’t the reason obvious? She was simply trying to see who Shin Jeongjun was with. After confirming my sister’s presence in the car, Taerim had promptly gotten off the scooter. What <span epub:type="pagebreak" id="page_17" role="doc-pagebreak" title="17"></span>exactly had she seen at that moment? How beautiful my sister looked? How indifferent? How cruel?</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> shook his head. His belief that this moron was guilty remained unshaken; he knew the boy was trying to take the negative attention off himself by dragging in a girl named Yun Taerim, but he was just digging himself into a bigger hole.</p>
+			<p class="indent">“Han Manu, I know you’re lying.”</p>
+			<p class="indent">“I swear it’s the truth! But I really have to go.”</p>
+			<p class="indent">“You’re lying, one hundred percent. You realize I’m going to bring Yun Taerim in for questioning, don’t you? Before deciding to lie, you should have gotten your story straight. How in the world would Yun Taerim manage to see something you couldn’t see? Let’s say she saw Kim Hae-on in a tank top with her hair down, but how could she have seen anything else? Is she taller than you? Even if she’s taller, she still wouldn’t have been able to see what Kim Hae-on was wearing on the bottom. It’s physically impossible.”</p>
+			<p class="indent">“I really gotta go,” the boy said sullenly.</p>
+			<p class="indent">“You listening with your ass? For the hundredth time, from your crappy midget scooter, there’s no <span epub:type="pagebreak" id="page_18" role="doc-pagebreak" title="18"></span>way you could have seen Kim Hae-on in shorts. Got that?”</p>
+			<p class="indent">“All right.”</p>
+			<p class="indent">“All right? That’s all you have to say? Are you admitting you’re wrong?”</p>
+			<p class="indent">“No, but…”</p>
+			<p class="indent">The detective leaned across the table, sensing that victory was at hand.</p>
+			<p class="indent">“Mister, could you not call it a midget scooter?”</p>
+			<p class="indent">The detective gave a humorless laugh. “I’m going to ask you one last time. You’re saying, since you saw Kim Hae-on in shorts, Yun Taerim must have seen, too?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“I’ll be looking into this. If it turns out you’re lying, you’re dead.”</p>
+			<p class="indent">“Can I go now?”</p>
+			<p class="indent">“You can go.”</p>
+			<p class="indent">Frowning, the detective watched the boy get up from his seat, bow, and make his way out of the interrogation room, his sneakers dragging along the floor. He would have fallen into thought then, tapping the documents on the table, lining up the corners and edges. I’m aware of this habit. Just as I’m aware of his other habits, of placing a stack of paper on the table and pressing it hard with the tip <span epub:type="pagebreak" id="page_19" role="doc-pagebreak" title="19"></span>of his retracted pen, scattering the pages he had just straightened. Even now, I can recall his facial expressions and manner of speaking, his squat neck atop a stocky frame, which made him resemble a gorilla. Many times he had come to our apartment, and many times I’d gone to the station with my mother.</p>
+			<p class="indent">That day, the detective would have weighed Han Manu’s narrow, pinched face against Shin Jeongjun’s clean features, the former’s cheap World Cup T-shirt against the latter’s IVYclub button-down shirt, a single mother against an accountant father, and the twentieth rank in class against the top ten of the entire grade, as well as the credibility of the witnesses providing the alibis. Rather than try to find the real culprit, the detective would have considered whom he could—or should—crush and turn into the culprit. And that’s exactly what he tried to do.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">I’ve been</span> constructing this second interrogation in my mind for a long time, the way you might put LEGO pieces together. Han Manu was questioned a total of seven times, but it was this interview that hinted at the truth, and the way the case would eventually unfold. Yet, the strange thing was, each time I re-created the second interview, an excess of details <span epub:type="pagebreak" id="page_20" role="doc-pagebreak" title="20"></span>would emerge. As if small, warped pieces of LEGO were finding their way in, somehow. This had nothing to do with Han Manu or the detective. It was my problem.</p>
+			<p class="indent">It happened again this time. I’d written that the detective, as he gazed at Han Manu’s hands, thought a person doesn’t need a whole lot of power to bash in the small head of a girl with smooth glossy hair. Why had such an unnecessary detail intruded into the scene? A small head, fine, but hair that’s smooth and glossy has no bearing on the way someone is struck. The detective would have never added such a useless detail while questioning a suspect. Of course my sister’s dazzling beauty, clearly displayed even by her lifeless body, may have crossed his mind all of a sudden. It doesn’t matter if he imagined these things or not. The problem is that this kind of excess keeps slipping into that imagined scene. What I’ve done is project my own thoughts and desires onto the detective. Does this mean I’m still not free? That I’m not free, not one iota, from those smooth, fair, irrelevant details from sixteen years ago, those endless memories of my sister’s loveliness, which had made me undergo plastic surgery, turning my own face into a crude patchwork of her features?</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_21" role="doc-pagebreak" title="21"></span>It’s true. My sister was beautiful. Unforgettably so. She was perfection, bliss personified. But more than anything, she was at that mythical age: eighteen. Who dared destroy her lovely form? Was it Han Manu, Shin Jeongjun, or a third figure? Now I know—not who killed my sister, but who didn’t. No, that’s not true. I know who the murderer is. That’s why I did what I did, and I know I’ll never be free from this crime until the day I die.</p>
+			<p class="indent">I hear my mother’s voice and a child laughing. The child’s laugh rings like a bell, announcing my guilt. Soon this child will enter elementary school, and I’ll become a school parent. Before June of my sixteenth year, I never imagined I’d be living this way. Not once have I desired this kind of life, yet here I am. What meaning, then, could life possibly hold? I didn’t desire such a life for myself, but at the same time, I can’t say I didn’t choose it.</p>
+			<div class="footnotes" epub:type="footnotes">
+				<p class="footnote_skip"><a href="Kwon_9781635420890_epub3_c02_r1.xhtml">Skip Notes</a></p>
+				<div class="footnote" epub:type="footnote" id="ftn1" role="doc-footnote">
+					<p class="footnote"><a class="footnote" href="#ftn1a" role="doc-backlink" title="footnote reference">*</a> The translation of <i>halmanggu</i> is hag, and <i>manujeol</i> is <i>April Fool’s Day</i>. “Han-o-baeg-nyeon” is a famous Korean folk song. Translated as “Five-hundred-year Sorrow,” the song became a big hit when singer Cho Yong-pil released it in his 1979 debut album.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+2023-02-24 00:33:03 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-24 00:33:04 INFO  - Step 20 - I return to previous screen from epub
+2023-02-24 00:33:05 INFO  - Button 'btnBack' :: Clicking
+2023-02-24 00:33:05 INFO  - Step 21 - Click READ action button on book details screen
+2023-02-24 00:33:07 INFO  - Button 'Read' :: Clicking
+2023-02-24 00:33:07 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-02-24 00:33:08 INFO  - context - NATIVE_APP
+2023-02-24 00:33:08 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-24 00:33:09 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-24 00:33:09 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en-US" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Shorts, 2002, Lemon</title>
+		<link href="../css/prh_resets.css" rel="stylesheet" type="text/css" />
+		<link href="../css/rh_static.css" rel="stylesheet" type="text/css" />
+		<link href="../css/9781635420890_style.css" rel="stylesheet" type="text/css" />
+		<meta charset="utf-8" />
+<meta content="urn:uuid:4d46eb09-cd72-49c6-be46-f3165d1309a9" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body>
+		<div class="page_top_padding" id="c01">
+			<h1 class="chap_head sans"><span epub:type="pagebreak" id="page_xi" role="doc-pagebreak" title="xi"></span><span epub:type="pagebreak" id="page_1" role="doc-pagebreak" title="1"></span>SHORTS, 2002</h1>
+			<div class="figure figure_dingbat">
+				<div class="squeeze squeeze5">
+					<img alt="" class="image" id="Page_001_img01" src="../images/9781635420890_DistX_Page_001_Image_0001.jpg" />
+				</div>
+			</div>
+			<p class="top">I <span class="fv-allsmallcaps">IMAGINE</span> what happened inside one police interrogation room so many years ago. By <i>imagine</i>, I don’t mean <i>invent</i>. But it’s not like I was actually there, so I don’t know what else to call it. I picture the scene from that day, based on what he told me and some other clues, my own experience and conclusions. It’s not just this scene I imagine. For over sixteen years, I’ve pondered, prodded, and worked every detail embroiled in the case known as “The High School Beauty Murder”—to the point I often fool myself into thinking I’d personally witnessed the circumstances now stamped on my mind’s eye. The imagination is <span epub:type="pagebreak" id="page_2" role="doc-pagebreak" title="2"></span>just as painful as reality. No, it’s more painful. After all, what you imagine has no limit or end.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The boy</span> sat alone in the interrogation room for over ten minutes. The room was bare apart from a table and four chairs. No pictures decorated the wall, no flower vase or ashtray sat on the table. Some people appear uneasy no matter what they do, and this boy was one of them. He sat awkwardly in his chair, with eyes dull and sleepy-looking. Maybe because there was nothing to look at, but his eyes were like camera lenses constantly shifting to find focus on a white background.</p>
+			<p class="indent">A detective entered the room and sat across from the boy. The boy’s gaze grew a bit more focused.</p>
+			<p class="indent">“Han Manu!” the detective snapped, in a tone used by a teacher or head disciplinarian to summon a troublemaker before dealing out punishment.</p>
+			<p class="indent">It was enough for resentment to take root in the boy’s heart. I believe this was also the moment his cruel fate was sealed.</p>
+			<p class="indent">At the time, no one at school called him by his actual name. The other students called him <i>Halmanggu</i> or <i>Manujeol</i>, but his most shining nickname came <span epub:type="pagebreak" id="page_3" role="doc-pagebreak" title="3"></span>from the song “Han-o-baeg-nyeon.”<a class="footnote_ref" epub:type="noteref" href="#ftn1" id="ftn1a" role="doc-noteref" title="footnote">*</a> To their ears, the opening words “ha-an-man-eu-eu-eun” sounded just like his name. If you slurred the <i>n</i> sound so that you said “ha-an-man-<i>u</i>-<i>u</i>-<i>u</i>” instead, it was perfect. This particular nickname proved so popular that both <i>Halmanggu</i> and <i>Manujeol</i> died out eventually, and his friends would belt out “Ha-an man-u-u-u!” like a master pansori singer, warming up her voice before a performance.</p>
+			<p class="indent">But until the incident, I wasn’t even aware of his existence. He was in his last year of senior high and I’d just entered the school. When I grope through my memory, though, I seem to recall boys warbling his name in a ridiculous, plaintive way in the halls. They meant no harm or disrespect. After the incident, the nickname stopped altogether. No one called him anything. There was no need.</p>
+			<p class="indent">I sometimes try calling him the old way. <i>Ha-an man-u-u-u</i>. This life full of misery, as the lyrics say. Then I start wondering if this miserable life has any meaning. I don’t mean life in an abstract or general <span epub:type="pagebreak" id="page_4" role="doc-pagebreak" title="4"></span>sense, but the life of an actual person. Did the pages of his life hold any meaning? Probably not. At least that’s what I believe. Life has no special meaning. Not his, not my sister’s, not even mine. Even if you try desperately to find it, to contrive some kind of meaning, what’s not there isn’t there. Life begins without reason and ends without reason.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> told the boy to listen carefully: this was different from last time, he needed to think carefully before answering; if not, things wouldn’t go well for him. The detective’s face was curiously blank. Though the boy wasn’t the brightest kid on the block, he could sense the older man had become more frightening than he’d been at the initial questioning. He seethed with something, and anyone seething like that was to be feared.</p>
+			<p class="indent">“Let’s start by reviewing your statement from last time. On June 30, 2002, around 18:00,” the detective said, punctuating his words by pressing the tip of his ballpoint pen carefully on the table. “That is, around six o’clock in the afternoon, you were on your scooter on your way to a chicken delivery when you passed a car being driven by Shin Jeongjun. Correct?”</p>
+			<p class="indent">“No.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_5" role="doc-pagebreak" title="5"></span>“No?” The detective’s gaze skimmed the document and shot back up. “Well, that’s what your statement says.”</p>
+			<p class="indent">“I wasn’t on my way to a delivery. I was on my way back.”</p>
+			<p class="indent">An inconsequential detail. The detective looked down once more.</p>
+			<p class="indent">“Then why does it say here you were going to a delivery? Fine, whatever. So you were on your way back when you passed a car that Shin Jeongjun was driving? Correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“What kind of car did you say it was?”</p>
+			<p class="indent">“Pardon me?”</p>
+			<p class="indent">“The car model!” He was sure the boy was just pretending not to understand. “What kind of car was he driving?”</p>
+			<p class="indent">“Uh, I’m not sure, but I think it was dark gray. And shiny. Didn’t I mention all this last time?”</p>
+			<p class="indent">“I told you, we’re going over your statement. So a shiny dark gray car?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Like this?”</p>
+			<p class="indent">The detective pulled out a photo from the file. The boy leaned forward, peered at the photo, and looked up.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_6" role="doc-pagebreak" title="6"></span>“I don’t know. Maybe.”</p>
+			<p class="indent">“Even if it wasn’t this exact one, would you say it was the same kind—an SUV?”</p>
+			<p class="indent">The boy studied the photo once more and looked up at the detective. “I think so.”</p>
+			<p class="indent">“For the last time, was it an SUV or not?</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Okay. You’re doing good.”</p>
+			<p class="indent">The detective pulled out another photo. The boy looked at it and then at the detective’s face.</p>
+			<p class="indent">“Is this your scooter?” the detective asked.</p>
+			<p class="indent">The boy responded immediately that it was.</p>
+			<p class="indent">“Good.”</p>
+			<p class="indent">The detective riffled through the pages of the file, delaying the moment of the decisive blow.</p>
+			<p class="indent">“Now for the important part. You said you saw Kim Hae-on sitting in the passenger seat of Shin Jeongjun’s car, correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And what did you say again about her hair and her clothes?”</p>
+			<p class="indent">“Her hair was down.”</p>
+			<p class="indent">“You mean it was loose, not tied up.”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And? What was she wearing?”</p>
+			<p class="indent">“Um…she was in a tank top and shorts.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_7" role="doc-pagebreak" title="7"></span>“A tank top and shorts?”</p>
+			<p class="indent">“Well, that’s what I—”</p>
+			<p class="indent">“What you remember? So what color?”</p>
+			<p class="indent">“Color?”</p>
+			<p class="indent">“Her clothes!” the detective barked, thinking idiots like this never gave a straight answer. “What color were they?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“You don’t remember?”</p>
+			<p class="indent">“Well, I’m not too sure.”</p>
+			<p class="indent">“You know she was in a tank top and shorts, but you don’t know what color? You think that makes sense?”</p>
+			<p class="indent">“But I swear I don’t know!”</p>
+			<p class="indent">The boy was hiding something. The detective wondered if the time had finally come to nab him. Right then, the boy glanced around the room.</p>
+			<p class="indent">“What’s the matter?” the detective asked.</p>
+			<p class="indent">“Um, I have to go.”</p>
+			<p class="indent">“What?”</p>
+			<p class="indent">“Do you know what time it is? I have to go to work.”</p>
+			<p class="indent">The boy placed his hands on the table, as if he meant to get up. The detective glared at him in silence. What did he think then? Did he think: Got you, asshole! Was it then that he became convinced of the <span epub:type="pagebreak" id="page_8" role="doc-pagebreak" title="8"></span>boy’s guilt? Or did he glance at the boy’s hands on the table, and try to determine if they were capable of clutching something like a brick or rock and bringing it down on someone’s head? He might have thought with a shake of his head, Hmm, those hands do look tougher than Shin Jeongjun’s. Not that you need a whole lot of power to bash in the small head of a girl with smooth, glossy hair. If anything, Shin Jeongjun was taller, with a body hardened by sports, while Han Manu was rather small and of average height.</p>
+			<p class="indent">The detective cleared his throat and told the boy to pay attention. “Your statement doesn’t add up. Look here.”</p>
+			<p class="indent">He turned the photos around to face the boy, and proceeded to explain: Shin Jeongjun wasn’t driving just any car, but a Lexus RX300. The seat height of an SUV is higher than that of the average sedan, which means its window height is also higher. But if you’re sitting on a scooter, you would be at eye level with the window of the SUV, or even slightly lower.</p>
+			<p class="indent">The detective asked if he knew what all this meant. The boy didn’t respond. The detective was kind enough to spell it out for him.</p>
+			<p class="indent">“What I’m saying is, from your stumpy little scooter, it would have been physically impossible to see if Kim Hae-on was wearing shorts or jeans.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_9" role="doc-pagebreak" title="9"></span>So he said, but he wasn’t completely sure. It was just a hunch. But when he saw the shock on the boy’s face, the detective knew it was time to go in for the kill.</p>
+			<p class="indent">“Therefore, you didn’t actually see Kim Hae-on in Shin Jeongjun’s car. You saw her out of it. That’s how you knew she was wearing shorts. You saw Shin dropping her off, or you saw her walking by herself, after he’d dropped her off. Either way, you never saw her sitting in the passenger seat. If we follow that logic…”</p>
+			<p class="indent">The boy blinked several times. Though he heard what the detective was saying, he didn’t seem to comprehend the situation he was in. On the detective’s lips hovered the nervous smile of one who was about to land a fatal blow.</p>
+			<p class="indent">“The last person to see Kim Hae-on wasn’t Shin Jeongjun, but you. Do you understand what I’m saying?”</p>
+			<p class="indent">The boy could only stare. Once again, the detective got the sense that the boy was feigning ignorance. He needed to come out a lot stronger.</p>
+			<p class="indent">“What I’m saying is, you’re the prime suspect. You killed Kim Hae-on. You struck her with a blunt object and killed her.”</p>
+			<p class="indent">“Me?” the boy cried with a shudder. “But why?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_10" role="doc-pagebreak" title="10"></span>The boy, who appeared awkward no matter what he did, seemed as if he were acting. The detective became convinced the imbecile couldn’t do anything right.</p>
+			<p class="indent">“Weren’t you listening? You killed Kim Hae-on and then tried to pin it on Shin Jeongjun, passing yourself off as a witness. Isn’t that right?”</p>
+			<p class="indent">“No, of course not! Why would I do that? Why would I kill her?”</p>
+			<p class="indent">“How would I know? You tell me.”</p>
+			<p class="indent">“But I’ve never even spoken to Hae-on! She hardly said a word!”</p>
+			<p class="indent">“Says who?”</p>
+			<p class="indent">“Everyone! She never answered you even when you talked to her. Not that I ever tried or anything.”</p>
+			<p class="indent">What the boy said was true, but the detective had zero interest in these seemingly irrelevant details.</p>
+			<p class="indent">“What hogwash is this? Didn’t you say she was in shorts? Didn’t you see her in them? Tell me how that’s possible.”</p>
+			<p class="indent">The detective leaned across the table. He wondered how the fool was going to get himself out of this one.</p>
+			<p class="indent">“I don’t know…,” the boy mumbled, but the detective, intoxicated by his sense of victory, was unable to hear the rest of what he said.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_11" role="doc-pagebreak" title="11"></span>“Oh, you don’t know now? You’re changing your tune?”</p>
+			<p class="indent">“I’m not saying that…”</p>
+			<p class="indent">“No?”</p>
+			<p class="indent">“I think maybe…uh…maybe somebody else saw it, too.”</p>
+			<p class="indent">“Somebody else?”</p>
+			<p class="indent">The boy closed his mouth. He no longer felt like talking. In fact, he was wishing he could take back what he’d just said.</p>
+			<p class="indent">“I don’t think you grasp the seriousness of your situation. You’re not going to weasel your way out of this. Until now, you said you were the only one who saw Kim Hae-on, so what the hell do you mean by somebody else?”</p>
+			<p class="indent">“I never said I was the only one who saw her.”</p>
+			<p class="indent">“You never said that? Fine then. Who else?”</p>
+			<p class="indent">“Do I have to say? I really don’t want to.”</p>
+			<p class="indent">Manu wouldn’t have wanted to tell. He would have hated to bring her up. He would have recalled the warmth of her body from that day, as she’d sat lightly pressed up against his back. Recalling that sensation, he might have grinned like an idiot before the detective, just as he had done with me.</p>
+			<p class="indent">“Have you lost your frigging mind?” The detective wanted to smack the boy’s ugly long face that <span epub:type="pagebreak" id="page_12" role="doc-pagebreak" title="12"></span>resembled a pickle. “You think this is a joke? You realize you’re contradicting yourself, don’t you? You’d better fess up—who else saw Kim Hae-on?”</p>
+			<p class="indent">The boy’s upper lip twitched. “Um…”</p>
+			<p class="indent">The detective leaned closer. Someone with the last name of Um?</p>
+			<p class="indent">“Um…I’ve gotta go. Really.”</p>
+			<p class="indent">The detective felt his energy drain from him. The boy was absolutely maddening, with an uncanny knack for getting under his skin. Was something really the matter with him? Or was he only pretending to be stupid?</p>
+			<p class="indent">“You’re not leaving until you tell me the truth. I don’t care if it takes all night. I don’t care if it takes forever.”</p>
+			<p class="indent">“But my boss needs me. I really have to go—”</p>
+			<p class="indent">“Who else saw?”</p>
+			<p class="indent">The boy mumbled something under his breath.</p>
+			<p class="indent">“Speak up!” the detective roared.</p>
+			<p class="indent">“It was…uh…Taerim,” he said, a fleck of spittle flying out of his mouth.</p>
+			<p class="indent">“Taerim?”</p>
+			<p class="indent">“Yun…Yun Taerim.”</p>
+			<p class="indent">“Who the hell’s Yun Taerim?”</p>
+			<p class="indent">“From Division 3. The same class as Hae-on.”</p>
+			<p class="indent">“And this Taerim is female?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_13" role="doc-pagebreak" title="13"></span>Confusion passed over the boy’s face. “Of course. Division 3 is a girls’ class.”</p>
+			<p class="indent">How in the world was he supposed to know that? He then realized the boy had just mentioned she was in the same class as Kim Hae-on. A wave of anger surged through him.</p>
+			<p class="indent">“Why would you leave out something so important until now? You know what you’ve done? You’ve committed perjury. I could put you away for this! I swear to God, if you don’t tell me everything from now on, you’re in deep shit. Were you with Yun Taerim that day?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">The detective felt as though he’d been clobbered over the head.</p>
+			<p class="indent">“Why were you together?”</p>
+			<p class="indent">“Because Taerim asked for a ride.”</p>
+			<p class="indent">“On what? Your scooter?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“You’re killing me, Manu! Are you saying she was on your scooter with you? I thought you were going to—I mean, coming back from a delivery!”</p>
+			<p class="indent">“I was on my way back when I saw her on the street. She waved me over, so I pulled up, and then she asked for a ride. She said it was urgent.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_14" role="doc-pagebreak" title="14"></span>“So you two were on the scooter together and that’s when you saw Shin Jeongjun’s car?”</p>
+			<p class="indent">“I didn’t even know it was his car—uh, his sister’s car, I mean. Taerim said his sister had just gotten it, but Jeongjun was driving it around. She told me to get in front.”</p>
+			<p class="indent">“In front?”</p>
+			<p class="indent">“Yeah, when we stopped at a red light. She told me to get in front of it.”</p>
+			<p class="indent">“In front of what?”</p>
+			<p class="indent">“Jeongjun’s car.”</p>
+			<p class="indent">“Why’d she say that?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“So did you?”</p>
+			<p class="indent">“Yup.”</p>
+			<p class="indent">The detective’s frustration built. The strange way the boy had of contradicting himself was getting on his nerves, and he found himself tripping over his own tongue.</p>
+			<p class="indent">“And then?”</p>
+			<p class="indent">“So that’s why.”</p>
+			<p class="indent">“That’s why what?”</p>
+			<p class="indent">“That’s why Taerim might have seen.”</p>
+			<p class="indent"><i>Taerim might have seen</i>. To the detective, these words would have sounded like a lie, but they confirmed the truth for me. Yun Taerim would have <span epub:type="pagebreak" id="page_15" role="doc-pagebreak" title="15"></span>wanted to know who was in the passenger seat of Shin Jeongjun’s car. She would have gotten on Han Manu’s scooter, telling him to get in front of it. This detail contained a subtle truth the boy would never have been able to invent on his own.</p>
+			<p class="indent">“Why the hell didn’t you mention this last time?”</p>
+			<p class="indent">“Because…I didn’t think she liked it.”</p>
+			<p class="indent">“Didn’t like what?”</p>
+			<p class="indent">“The scooter.”</p>
+			<p class="indent">“What are you talking about?”</p>
+			<p class="indent">“Taerim didn’t like it.”</p>
+			<p class="indent">“Come again?”</p>
+			<p class="indent">“Riding the scooter.”</p>
+			<p class="indent">“You’re saying she didn’t like riding your scooter?”</p>
+			<p class="indent">“That’s right.”</p>
+			<p class="indent">“Why’d you give her a ride then?”</p>
+			<p class="indent">“Because she asked me. She was the one who waved me over. I never asked if she wanted a ride!”</p>
+			<p class="indent">“You didn’t ask her, fine. But why would you give her a ride if she didn’t want to get on your scooter? And why didn’t you say anything until now?”</p>
+			<p class="indent">“You don’t understand, Mister. She’d never get on something like that.”</p>
+			<p class="indent">The detective felt as if he were about to lose his mind.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_16" role="doc-pagebreak" title="16"></span>“Okay, let me get this straight. It’s not that you didn’t want to give Taerim a ride, but she doesn’t like scooters and would never get on something like that. Is that what you’re saying?”</p>
+			<p class="indent">“She wouldn’t be caught dead on a delivery scooter. So imagine how shocked I was when she asked for a ride! Then she said she wanted to get off, so I dropped her off. That means she didn’t like it, doesn’t it?”</p>
+			<p class="indent">“She asked you to drop her off right away? What was so urgent then?”</p>
+			<p class="indent">“Urgent?”</p>
+			<p class="indent">“You said she waved you over and asked for a ride, because it was urgent.”</p>
+			<p class="indent">“Oh, I didn’t ask why.”</p>
+			<p class="indent">Was there ever such an idiot? the detective thought.</p>
+			<p class="indent">A stupid detective wouldn’t have figured it out, but if a girl, who’s ashamed of being seen on a scooter, asks an idiot boy for a ride on his delivery scooter and then tells him to pass Shin Jeongjun’s car, only to get off immediately, isn’t the reason obvious? She was simply trying to see who Shin Jeongjun was with. After confirming my sister’s presence in the car, Taerim had promptly gotten off the scooter. What <span epub:type="pagebreak" id="page_17" role="doc-pagebreak" title="17"></span>exactly had she seen at that moment? How beautiful my sister looked? How indifferent? How cruel?</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> shook his head. His belief that this moron was guilty remained unshaken; he knew the boy was trying to take the negative attention off himself by dragging in a girl named Yun Taerim, but he was just digging himself into a bigger hole.</p>
+			<p class="indent">“Han Manu, I know you’re lying.”</p>
+			<p class="indent">“I swear it’s the truth! But I really have to go.”</p>
+			<p class="indent">“You’re lying, one hundred percent. You realize I’m going to bring Yun Taerim in for questioning, don’t you? Before deciding to lie, you should have gotten your story straight. How in the world would Yun Taerim manage to see something you couldn’t see? Let’s say she saw Kim Hae-on in a tank top with her hair down, but how could she have seen anything else? Is she taller than you? Even if she’s taller, she still wouldn’t have been able to see what Kim Hae-on was wearing on the bottom. It’s physically impossible.”</p>
+			<p class="indent">“I really gotta go,” the boy said sullenly.</p>
+			<p class="indent">“You listening with your ass? For the hundredth time, from your crappy midget scooter, there’s no <span epub:type="pagebreak" id="page_18" role="doc-pagebreak" title="18"></span>way you could have seen Kim Hae-on in shorts. Got that?”</p>
+			<p class="indent">“All right.”</p>
+			<p class="indent">“All right? That’s all you have to say? Are you admitting you’re wrong?”</p>
+			<p class="indent">“No, but…”</p>
+			<p class="indent">The detective leaned across the table, sensing that victory was at hand.</p>
+			<p class="indent">“Mister, could you not call it a midget scooter?”</p>
+			<p class="indent">The detective gave a humorless laugh. “I’m going to ask you one last time. You’re saying, since you saw Kim Hae-on in shorts, Yun Taerim must have seen, too?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“I’ll be looking into this. If it turns out you’re lying, you’re dead.”</p>
+			<p class="indent">“Can I go now?”</p>
+			<p class="indent">“You can go.”</p>
+			<p class="indent">Frowning, the detective watched the boy get up from his seat, bow, and make his way out of the interrogation room, his sneakers dragging along the floor. He would have fallen into thought then, tapping the documents on the table, lining up the corners and edges. I’m aware of this habit. Just as I’m aware of his other habits, of placing a stack of paper on the table and pressing it hard with the tip <span epub:type="pagebreak" id="page_19" role="doc-pagebreak" title="19"></span>of his retracted pen, scattering the pages he had just straightened. Even now, I can recall his facial expressions and manner of speaking, his squat neck atop a stocky frame, which made him resemble a gorilla. Many times he had come to our apartment, and many times I’d gone to the station with my mother.</p>
+			<p class="indent">That day, the detective would have weighed Han Manu’s narrow, pinched face against Shin Jeongjun’s clean features, the former’s cheap World Cup T-shirt against the latter’s IVYclub button-down shirt, a single mother against an accountant father, and the twentieth rank in class against the top ten of the entire grade, as well as the credibility of the witnesses providing the alibis. Rather than try to find the real culprit, the detective would have considered whom he could—or should—crush and turn into the culprit. And that’s exactly what he tried to do.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">I’ve been</span> constructing this second interrogation in my mind for a long time, the way you might put LEGO pieces together. Han Manu was questioned a total of seven times, but it was this interview that hinted at the truth, and the way the case would eventually unfold. Yet, the strange thing was, each time I re-created the second interview, an excess of details <span epub:type="pagebreak" id="page_20" role="doc-pagebreak" title="20"></span>would emerge. As if small, warped pieces of LEGO were finding their way in, somehow. This had nothing to do with Han Manu or the detective. It was my problem.</p>
+			<p class="indent">It happened again this time. I’d written that the detective, as he gazed at Han Manu’s hands, thought a person doesn’t need a whole lot of power to bash in the small head of a girl with smooth glossy hair. Why had such an unnecessary detail intruded into the scene? A small head, fine, but hair that’s smooth and glossy has no bearing on the way someone is struck. The detective would have never added such a useless detail while questioning a suspect. Of course my sister’s dazzling beauty, clearly displayed even by her lifeless body, may have crossed his mind all of a sudden. It doesn’t matter if he imagined these things or not. The problem is that this kind of excess keeps slipping into that imagined scene. What I’ve done is project my own thoughts and desires onto the detective. Does this mean I’m still not free? That I’m not free, not one iota, from those smooth, fair, irrelevant details from sixteen years ago, those endless memories of my sister’s loveliness, which had made me undergo plastic surgery, turning my own face into a crude patchwork of her features?</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_21" role="doc-pagebreak" title="21"></span>It’s true. My sister was beautiful. Unforgettably so. She was perfection, bliss personified. But more than anything, she was at that mythical age: eighteen. Who dared destroy her lovely form? Was it Han Manu, Shin Jeongjun, or a third figure? Now I know—not who killed my sister, but who didn’t. No, that’s not true. I know who the murderer is. That’s why I did what I did, and I know I’ll never be free from this crime until the day I die.</p>
+			<p class="indent">I hear my mother’s voice and a child laughing. The child’s laugh rings like a bell, announcing my guilt. Soon this child will enter elementary school, and I’ll become a school parent. Before June of my sixteenth year, I never imagined I’d be living this way. Not once have I desired this kind of life, yet here I am. What meaning, then, could life possibly hold? I didn’t desire such a life for myself, but at the same time, I can’t say I didn’t choose it.</p>
+			<div class="footnotes" epub:type="footnotes">
+				<p class="footnote_skip"><a href="Kwon_9781635420890_epub3_c02_r1.xhtml">Skip Notes</a></p>
+				<div class="footnote" epub:type="footnote" id="ftn1" role="doc-footnote">
+					<p class="footnote"><a class="footnote" href="#ftn1a" role="doc-backlink" title="footnote reference">*</a> The translation of <i>halmanggu</i> is hag, and <i>manujeol</i> is <i>April Fool’s Day</i>. “Han-o-baeg-nyeon” is a famous Korean folk song. Translated as “Five-hundred-year Sorrow,” the song became a big hit when singer Cho Yong-pil released it in his 1979 debut album.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+2023-02-24 00:33:09 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-24 00:33:10 INFO  - Step 23 - I save font size as 'fontSize'
+2023-02-24 00:33:10 INFO  - context - NATIVE_APP
+2023-02-24 00:33:10 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-24 00:33:11 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-24 00:33:11 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en-US" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Shorts, 2002, Lemon</title>
+		<link href="../css/prh_resets.css" rel="stylesheet" type="text/css" />
+		<link href="../css/rh_static.css" rel="stylesheet" type="text/css" />
+		<link href="../css/9781635420890_style.css" rel="stylesheet" type="text/css" />
+		<meta charset="utf-8" />
+<meta content="urn:uuid:4d46eb09-cd72-49c6-be46-f3165d1309a9" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body>
+		<div class="page_top_padding" id="c01">
+			<h1 class="chap_head sans"><span epub:type="pagebreak" id="page_xi" role="doc-pagebreak" title="xi"></span><span epub:type="pagebreak" id="page_1" role="doc-pagebreak" title="1"></span>SHORTS, 2002</h1>
+			<div class="figure figure_dingbat">
+				<div class="squeeze squeeze5">
+					<img alt="" class="image" id="Page_001_img01" src="../images/9781635420890_DistX_Page_001_Image_0001.jpg" />
+				</div>
+			</div>
+			<p class="top">I <span class="fv-allsmallcaps">IMAGINE</span> what happened inside one police interrogation room so many years ago. By <i>imagine</i>, I don’t mean <i>invent</i>. But it’s not like I was actually there, so I don’t know what else to call it. I picture the scene from that day, based on what he told me and some other clues, my own experience and conclusions. It’s not just this scene I imagine. For over sixteen years, I’ve pondered, prodded, and worked every detail embroiled in the case known as “The High School Beauty Murder”—to the point I often fool myself into thinking I’d personally witnessed the circumstances now stamped on my mind’s eye. The imagination is <span epub:type="pagebreak" id="page_2" role="doc-pagebreak" title="2"></span>just as painful as reality. No, it’s more painful. After all, what you imagine has no limit or end.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The boy</span> sat alone in the interrogation room for over ten minutes. The room was bare apart from a table and four chairs. No pictures decorated the wall, no flower vase or ashtray sat on the table. Some people appear uneasy no matter what they do, and this boy was one of them. He sat awkwardly in his chair, with eyes dull and sleepy-looking. Maybe because there was nothing to look at, but his eyes were like camera lenses constantly shifting to find focus on a white background.</p>
+			<p class="indent">A detective entered the room and sat across from the boy. The boy’s gaze grew a bit more focused.</p>
+			<p class="indent">“Han Manu!” the detective snapped, in a tone used by a teacher or head disciplinarian to summon a troublemaker before dealing out punishment.</p>
+			<p class="indent">It was enough for resentment to take root in the boy’s heart. I believe this was also the moment his cruel fate was sealed.</p>
+			<p class="indent">At the time, no one at school called him by his actual name. The other students called him <i>Halmanggu</i> or <i>Manujeol</i>, but his most shining nickname came <span epub:type="pagebreak" id="page_3" role="doc-pagebreak" title="3"></span>from the song “Han-o-baeg-nyeon.”<a class="footnote_ref" epub:type="noteref" href="#ftn1" id="ftn1a" role="doc-noteref" title="footnote">*</a> To their ears, the opening words “ha-an-man-eu-eu-eun” sounded just like his name. If you slurred the <i>n</i> sound so that you said “ha-an-man-<i>u</i>-<i>u</i>-<i>u</i>” instead, it was perfect. This particular nickname proved so popular that both <i>Halmanggu</i> and <i>Manujeol</i> died out eventually, and his friends would belt out “Ha-an man-u-u-u!” like a master pansori singer, warming up her voice before a performance.</p>
+			<p class="indent">But until the incident, I wasn’t even aware of his existence. He was in his last year of senior high and I’d just entered the school. When I grope through my memory, though, I seem to recall boys warbling his name in a ridiculous, plaintive way in the halls. They meant no harm or disrespect. After the incident, the nickname stopped altogether. No one called him anything. There was no need.</p>
+			<p class="indent">I sometimes try calling him the old way. <i>Ha-an man-u-u-u</i>. This life full of misery, as the lyrics say. Then I start wondering if this miserable life has any meaning. I don’t mean life in an abstract or general <span epub:type="pagebreak" id="page_4" role="doc-pagebreak" title="4"></span>sense, but the life of an actual person. Did the pages of his life hold any meaning? Probably not. At least that’s what I believe. Life has no special meaning. Not his, not my sister’s, not even mine. Even if you try desperately to find it, to contrive some kind of meaning, what’s not there isn’t there. Life begins without reason and ends without reason.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> told the boy to listen carefully: this was different from last time, he needed to think carefully before answering; if not, things wouldn’t go well for him. The detective’s face was curiously blank. Though the boy wasn’t the brightest kid on the block, he could sense the older man had become more frightening than he’d been at the initial questioning. He seethed with something, and anyone seething like that was to be feared.</p>
+			<p class="indent">“Let’s start by reviewing your statement from last time. On June 30, 2002, around 18:00,” the detective said, punctuating his words by pressing the tip of his ballpoint pen carefully on the table. “That is, around six o’clock in the afternoon, you were on your scooter on your way to a chicken delivery when you passed a car being driven by Shin Jeongjun. Correct?”</p>
+			<p class="indent">“No.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_5" role="doc-pagebreak" title="5"></span>“No?” The detective’s gaze skimmed the document and shot back up. “Well, that’s what your statement says.”</p>
+			<p class="indent">“I wasn’t on my way to a delivery. I was on my way back.”</p>
+			<p class="indent">An inconsequential detail. The detective looked down once more.</p>
+			<p class="indent">“Then why does it say here you were going to a delivery? Fine, whatever. So you were on your way back when you passed a car that Shin Jeongjun was driving? Correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“What kind of car did you say it was?”</p>
+			<p class="indent">“Pardon me?”</p>
+			<p class="indent">“The car model!” He was sure the boy was just pretending not to understand. “What kind of car was he driving?”</p>
+			<p class="indent">“Uh, I’m not sure, but I think it was dark gray. And shiny. Didn’t I mention all this last time?”</p>
+			<p class="indent">“I told you, we’re going over your statement. So a shiny dark gray car?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Like this?”</p>
+			<p class="indent">The detective pulled out a photo from the file. The boy leaned forward, peered at the photo, and looked up.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_6" role="doc-pagebreak" title="6"></span>“I don’t know. Maybe.”</p>
+			<p class="indent">“Even if it wasn’t this exact one, would you say it was the same kind—an SUV?”</p>
+			<p class="indent">The boy studied the photo once more and looked up at the detective. “I think so.”</p>
+			<p class="indent">“For the last time, was it an SUV or not?</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Okay. You’re doing good.”</p>
+			<p class="indent">The detective pulled out another photo. The boy looked at it and then at the detective’s face.</p>
+			<p class="indent">“Is this your scooter?” the detective asked.</p>
+			<p class="indent">The boy responded immediately that it was.</p>
+			<p class="indent">“Good.”</p>
+			<p class="indent">The detective riffled through the pages of the file, delaying the moment of the decisive blow.</p>
+			<p class="indent">“Now for the important part. You said you saw Kim Hae-on sitting in the passenger seat of Shin Jeongjun’s car, correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And what did you say again about her hair and her clothes?”</p>
+			<p class="indent">“Her hair was down.”</p>
+			<p class="indent">“You mean it was loose, not tied up.”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And? What was she wearing?”</p>
+			<p class="indent">“Um…she was in a tank top and shorts.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_7" role="doc-pagebreak" title="7"></span>“A tank top and shorts?”</p>
+			<p class="indent">“Well, that’s what I—”</p>
+			<p class="indent">“What you remember? So what color?”</p>
+			<p class="indent">“Color?”</p>
+			<p class="indent">“Her clothes!” the detective barked, thinking idiots like this never gave a straight answer. “What color were they?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“You don’t remember?”</p>
+			<p class="indent">“Well, I’m not too sure.”</p>
+			<p class="indent">“You know she was in a tank top and shorts, but you don’t know what color? You think that makes sense?”</p>
+			<p class="indent">“But I swear I don’t know!”</p>
+			<p class="indent">The boy was hiding something. The detective wondered if the time had finally come to nab him. Right then, the boy glanced around the room.</p>
+			<p class="indent">“What’s the matter?” the detective asked.</p>
+			<p class="indent">“Um, I have to go.”</p>
+			<p class="indent">“What?”</p>
+			<p class="indent">“Do you know what time it is? I have to go to work.”</p>
+			<p class="indent">The boy placed his hands on the table, as if he meant to get up. The detective glared at him in silence. What did he think then? Did he think: Got you, asshole! Was it then that he became convinced of the <span epub:type="pagebreak" id="page_8" role="doc-pagebreak" title="8"></span>boy’s guilt? Or did he glance at the boy’s hands on the table, and try to determine if they were capable of clutching something like a brick or rock and bringing it down on someone’s head? He might have thought with a shake of his head, Hmm, those hands do look tougher than Shin Jeongjun’s. Not that you need a whole lot of power to bash in the small head of a girl with smooth, glossy hair. If anything, Shin Jeongjun was taller, with a body hardened by sports, while Han Manu was rather small and of average height.</p>
+			<p class="indent">The detective cleared his throat and told the boy to pay attention. “Your statement doesn’t add up. Look here.”</p>
+			<p class="indent">He turned the photos around to face the boy, and proceeded to explain: Shin Jeongjun wasn’t driving just any car, but a Lexus RX300. The seat height of an SUV is higher than that of the average sedan, which means its window height is also higher. But if you’re sitting on a scooter, you would be at eye level with the window of the SUV, or even slightly lower.</p>
+			<p class="indent">The detective asked if he knew what all this meant. The boy didn’t respond. The detective was kind enough to spell it out for him.</p>
+			<p class="indent">“What I’m saying is, from your stumpy little scooter, it would have been physically impossible to see if Kim Hae-on was wearing shorts or jeans.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_9" role="doc-pagebreak" title="9"></span>So he said, but he wasn’t completely sure. It was just a hunch. But when he saw the shock on the boy’s face, the detective knew it was time to go in for the kill.</p>
+			<p class="indent">“Therefore, you didn’t actually see Kim Hae-on in Shin Jeongjun’s car. You saw her out of it. That’s how you knew she was wearing shorts. You saw Shin dropping her off, or you saw her walking by herself, after he’d dropped her off. Either way, you never saw her sitting in the passenger seat. If we follow that logic…”</p>
+			<p class="indent">The boy blinked several times. Though he heard what the detective was saying, he didn’t seem to comprehend the situation he was in. On the detective’s lips hovered the nervous smile of one who was about to land a fatal blow.</p>
+			<p class="indent">“The last person to see Kim Hae-on wasn’t Shin Jeongjun, but you. Do you understand what I’m saying?”</p>
+			<p class="indent">The boy could only stare. Once again, the detective got the sense that the boy was feigning ignorance. He needed to come out a lot stronger.</p>
+			<p class="indent">“What I’m saying is, you’re the prime suspect. You killed Kim Hae-on. You struck her with a blunt object and killed her.”</p>
+			<p class="indent">“Me?” the boy cried with a shudder. “But why?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_10" role="doc-pagebreak" title="10"></span>The boy, who appeared awkward no matter what he did, seemed as if he were acting. The detective became convinced the imbecile couldn’t do anything right.</p>
+			<p class="indent">“Weren’t you listening? You killed Kim Hae-on and then tried to pin it on Shin Jeongjun, passing yourself off as a witness. Isn’t that right?”</p>
+			<p class="indent">“No, of course not! Why would I do that? Why would I kill her?”</p>
+			<p class="indent">“How would I know? You tell me.”</p>
+			<p class="indent">“But I’ve never even spoken to Hae-on! She hardly said a word!”</p>
+			<p class="indent">“Says who?”</p>
+			<p class="indent">“Everyone! She never answered you even when you talked to her. Not that I ever tried or anything.”</p>
+			<p class="indent">What the boy said was true, but the detective had zero interest in these seemingly irrelevant details.</p>
+			<p class="indent">“What hogwash is this? Didn’t you say she was in shorts? Didn’t you see her in them? Tell me how that’s possible.”</p>
+			<p class="indent">The detective leaned across the table. He wondered how the fool was going to get himself out of this one.</p>
+			<p class="indent">“I don’t know…,” the boy mumbled, but the detective, intoxicated by his sense of victory, was unable to hear the rest of what he said.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_11" role="doc-pagebreak" title="11"></span>“Oh, you don’t know now? You’re changing your tune?”</p>
+			<p class="indent">“I’m not saying that…”</p>
+			<p class="indent">“No?”</p>
+			<p class="indent">“I think maybe…uh…maybe somebody else saw it, too.”</p>
+			<p class="indent">“Somebody else?”</p>
+			<p class="indent">The boy closed his mouth. He no longer felt like talking. In fact, he was wishing he could take back what he’d just said.</p>
+			<p class="indent">“I don’t think you grasp the seriousness of your situation. You’re not going to weasel your way out of this. Until now, you said you were the only one who saw Kim Hae-on, so what the hell do you mean by somebody else?”</p>
+			<p class="indent">“I never said I was the only one who saw her.”</p>
+			<p class="indent">“You never said that? Fine then. Who else?”</p>
+			<p class="indent">“Do I have to say? I really don’t want to.”</p>
+			<p class="indent">Manu wouldn’t have wanted to tell. He would have hated to bring her up. He would have recalled the warmth of her body from that day, as she’d sat lightly pressed up against his back. Recalling that sensation, he might have grinned like an idiot before the detective, just as he had done with me.</p>
+			<p class="indent">“Have you lost your frigging mind?” The detective wanted to smack the boy’s ugly long face that <span epub:type="pagebreak" id="page_12" role="doc-pagebreak" title="12"></span>resembled a pickle. “You think this is a joke? You realize you’re contradicting yourself, don’t you? You’d better fess up—who else saw Kim Hae-on?”</p>
+			<p class="indent">The boy’s upper lip twitched. “Um…”</p>
+			<p class="indent">The detective leaned closer. Someone with the last name of Um?</p>
+			<p class="indent">“Um…I’ve gotta go. Really.”</p>
+			<p class="indent">The detective felt his energy drain from him. The boy was absolutely maddening, with an uncanny knack for getting under his skin. Was something really the matter with him? Or was he only pretending to be stupid?</p>
+			<p class="indent">“You’re not leaving until you tell me the truth. I don’t care if it takes all night. I don’t care if it takes forever.”</p>
+			<p class="indent">“But my boss needs me. I really have to go—”</p>
+			<p class="indent">“Who else saw?”</p>
+			<p class="indent">The boy mumbled something under his breath.</p>
+			<p class="indent">“Speak up!” the detective roared.</p>
+			<p class="indent">“It was…uh…Taerim,” he said, a fleck of spittle flying out of his mouth.</p>
+			<p class="indent">“Taerim?”</p>
+			<p class="indent">“Yun…Yun Taerim.”</p>
+			<p class="indent">“Who the hell’s Yun Taerim?”</p>
+			<p class="indent">“From Division 3. The same class as Hae-on.”</p>
+			<p class="indent">“And this Taerim is female?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_13" role="doc-pagebreak" title="13"></span>Confusion passed over the boy’s face. “Of course. Division 3 is a girls’ class.”</p>
+			<p class="indent">How in the world was he supposed to know that? He then realized the boy had just mentioned she was in the same class as Kim Hae-on. A wave of anger surged through him.</p>
+			<p class="indent">“Why would you leave out something so important until now? You know what you’ve done? You’ve committed perjury. I could put you away for this! I swear to God, if you don’t tell me everything from now on, you’re in deep shit. Were you with Yun Taerim that day?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">The detective felt as though he’d been clobbered over the head.</p>
+			<p class="indent">“Why were you together?”</p>
+			<p class="indent">“Because Taerim asked for a ride.”</p>
+			<p class="indent">“On what? Your scooter?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“You’re killing me, Manu! Are you saying she was on your scooter with you? I thought you were going to—I mean, coming back from a delivery!”</p>
+			<p class="indent">“I was on my way back when I saw her on the street. She waved me over, so I pulled up, and then she asked for a ride. She said it was urgent.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_14" role="doc-pagebreak" title="14"></span>“So you two were on the scooter together and that’s when you saw Shin Jeongjun’s car?”</p>
+			<p class="indent">“I didn’t even know it was his car—uh, his sister’s car, I mean. Taerim said his sister had just gotten it, but Jeongjun was driving it around. She told me to get in front.”</p>
+			<p class="indent">“In front?”</p>
+			<p class="indent">“Yeah, when we stopped at a red light. She told me to get in front of it.”</p>
+			<p class="indent">“In front of what?”</p>
+			<p class="indent">“Jeongjun’s car.”</p>
+			<p class="indent">“Why’d she say that?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“So did you?”</p>
+			<p class="indent">“Yup.”</p>
+			<p class="indent">The detective’s frustration built. The strange way the boy had of contradicting himself was getting on his nerves, and he found himself tripping over his own tongue.</p>
+			<p class="indent">“And then?”</p>
+			<p class="indent">“So that’s why.”</p>
+			<p class="indent">“That’s why what?”</p>
+			<p class="indent">“That’s why Taerim might have seen.”</p>
+			<p class="indent"><i>Taerim might have seen</i>. To the detective, these words would have sounded like a lie, but they confirmed the truth for me. Yun Taerim would have <span epub:type="pagebreak" id="page_15" role="doc-pagebreak" title="15"></span>wanted to know who was in the passenger seat of Shin Jeongjun’s car. She would have gotten on Han Manu’s scooter, telling him to get in front of it. This detail contained a subtle truth the boy would never have been able to invent on his own.</p>
+			<p class="indent">“Why the hell didn’t you mention this last time?”</p>
+			<p class="indent">“Because…I didn’t think she liked it.”</p>
+			<p class="indent">“Didn’t like what?”</p>
+			<p class="indent">“The scooter.”</p>
+			<p class="indent">“What are you talking about?”</p>
+			<p class="indent">“Taerim didn’t like it.”</p>
+			<p class="indent">“Come again?”</p>
+			<p class="indent">“Riding the scooter.”</p>
+			<p class="indent">“You’re saying she didn’t like riding your scooter?”</p>
+			<p class="indent">“That’s right.”</p>
+			<p class="indent">“Why’d you give her a ride then?”</p>
+			<p class="indent">“Because she asked me. She was the one who waved me over. I never asked if she wanted a ride!”</p>
+			<p class="indent">“You didn’t ask her, fine. But why would you give her a ride if she didn’t want to get on your scooter? And why didn’t you say anything until now?”</p>
+			<p class="indent">“You don’t understand, Mister. She’d never get on something like that.”</p>
+			<p class="indent">The detective felt as if he were about to lose his mind.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_16" role="doc-pagebreak" title="16"></span>“Okay, let me get this straight. It’s not that you didn’t want to give Taerim a ride, but she doesn’t like scooters and would never get on something like that. Is that what you’re saying?”</p>
+			<p class="indent">“She wouldn’t be caught dead on a delivery scooter. So imagine how shocked I was when she asked for a ride! Then she said she wanted to get off, so I dropped her off. That means she didn’t like it, doesn’t it?”</p>
+			<p class="indent">“She asked you to drop her off right away? What was so urgent then?”</p>
+			<p class="indent">“Urgent?”</p>
+			<p class="indent">“You said she waved you over and asked for a ride, because it was urgent.”</p>
+			<p class="indent">“Oh, I didn’t ask why.”</p>
+			<p class="indent">Was there ever such an idiot? the detective thought.</p>
+			<p class="indent">A stupid detective wouldn’t have figured it out, but if a girl, who’s ashamed of being seen on a scooter, asks an idiot boy for a ride on his delivery scooter and then tells him to pass Shin Jeongjun’s car, only to get off immediately, isn’t the reason obvious? She was simply trying to see who Shin Jeongjun was with. After confirming my sister’s presence in the car, Taerim had promptly gotten off the scooter. What <span epub:type="pagebreak" id="page_17" role="doc-pagebreak" title="17"></span>exactly had she seen at that moment? How beautiful my sister looked? How indifferent? How cruel?</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> shook his head. His belief that this moron was guilty remained unshaken; he knew the boy was trying to take the negative attention off himself by dragging in a girl named Yun Taerim, but he was just digging himself into a bigger hole.</p>
+			<p class="indent">“Han Manu, I know you’re lying.”</p>
+			<p class="indent">“I swear it’s the truth! But I really have to go.”</p>
+			<p class="indent">“You’re lying, one hundred percent. You realize I’m going to bring Yun Taerim in for questioning, don’t you? Before deciding to lie, you should have gotten your story straight. How in the world would Yun Taerim manage to see something you couldn’t see? Let’s say she saw Kim Hae-on in a tank top with her hair down, but how could she have seen anything else? Is she taller than you? Even if she’s taller, she still wouldn’t have been able to see what Kim Hae-on was wearing on the bottom. It’s physically impossible.”</p>
+			<p class="indent">“I really gotta go,” the boy said sullenly.</p>
+			<p class="indent">“You listening with your ass? For the hundredth time, from your crappy midget scooter, there’s no <span epub:type="pagebreak" id="page_18" role="doc-pagebreak" title="18"></span>way you could have seen Kim Hae-on in shorts. Got that?”</p>
+			<p class="indent">“All right.”</p>
+			<p class="indent">“All right? That’s all you have to say? Are you admitting you’re wrong?”</p>
+			<p class="indent">“No, but…”</p>
+			<p class="indent">The detective leaned across the table, sensing that victory was at hand.</p>
+			<p class="indent">“Mister, could you not call it a midget scooter?”</p>
+			<p class="indent">The detective gave a humorless laugh. “I’m going to ask you one last time. You’re saying, since you saw Kim Hae-on in shorts, Yun Taerim must have seen, too?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“I’ll be looking into this. If it turns out you’re lying, you’re dead.”</p>
+			<p class="indent">“Can I go now?”</p>
+			<p class="indent">“You can go.”</p>
+			<p class="indent">Frowning, the detective watched the boy get up from his seat, bow, and make his way out of the interrogation room, his sneakers dragging along the floor. He would have fallen into thought then, tapping the documents on the table, lining up the corners and edges. I’m aware of this habit. Just as I’m aware of his other habits, of placing a stack of paper on the table and pressing it hard with the tip <span epub:type="pagebreak" id="page_19" role="doc-pagebreak" title="19"></span>of his retracted pen, scattering the pages he had just straightened. Even now, I can recall his facial expressions and manner of speaking, his squat neck atop a stocky frame, which made him resemble a gorilla. Many times he had come to our apartment, and many times I’d gone to the station with my mother.</p>
+			<p class="indent">That day, the detective would have weighed Han Manu’s narrow, pinched face against Shin Jeongjun’s clean features, the former’s cheap World Cup T-shirt against the latter’s IVYclub button-down shirt, a single mother against an accountant father, and the twentieth rank in class against the top ten of the entire grade, as well as the credibility of the witnesses providing the alibis. Rather than try to find the real culprit, the detective would have considered whom he could—or should—crush and turn into the culprit. And that’s exactly what he tried to do.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">I’ve been</span> constructing this second interrogation in my mind for a long time, the way you might put LEGO pieces together. Han Manu was questioned a total of seven times, but it was this interview that hinted at the truth, and the way the case would eventually unfold. Yet, the strange thing was, each time I re-created the second interview, an excess of details <span epub:type="pagebreak" id="page_20" role="doc-pagebreak" title="20"></span>would emerge. As if small, warped pieces of LEGO were finding their way in, somehow. This had nothing to do with Han Manu or the detective. It was my problem.</p>
+			<p class="indent">It happened again this time. I’d written that the detective, as he gazed at Han Manu’s hands, thought a person doesn’t need a whole lot of power to bash in the small head of a girl with smooth glossy hair. Why had such an unnecessary detail intruded into the scene? A small head, fine, but hair that’s smooth and glossy has no bearing on the way someone is struck. The detective would have never added such a useless detail while questioning a suspect. Of course my sister’s dazzling beauty, clearly displayed even by her lifeless body, may have crossed his mind all of a sudden. It doesn’t matter if he imagined these things or not. The problem is that this kind of excess keeps slipping into that imagined scene. What I’ve done is project my own thoughts and desires onto the detective. Does this mean I’m still not free? That I’m not free, not one iota, from those smooth, fair, irrelevant details from sixteen years ago, those endless memories of my sister’s loveliness, which had made me undergo plastic surgery, turning my own face into a crude patchwork of her features?</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_21" role="doc-pagebreak" title="21"></span>It’s true. My sister was beautiful. Unforgettably so. She was perfection, bliss personified. But more than anything, she was at that mythical age: eighteen. Who dared destroy her lovely form? Was it Han Manu, Shin Jeongjun, or a third figure? Now I know—not who killed my sister, but who didn’t. No, that’s not true. I know who the murderer is. That’s why I did what I did, and I know I’ll never be free from this crime until the day I die.</p>
+			<p class="indent">I hear my mother’s voice and a child laughing. The child’s laugh rings like a bell, announcing my guilt. Soon this child will enter elementary school, and I’ll become a school parent. Before June of my sixteenth year, I never imagined I’d be living this way. Not once have I desired this kind of life, yet here I am. What meaning, then, could life possibly hold? I didn’t desire such a life for myself, but at the same time, I can’t say I didn’t choose it.</p>
+			<div class="footnotes" epub:type="footnotes">
+				<p class="footnote_skip"><a href="Kwon_9781635420890_epub3_c02_r1.xhtml">Skip Notes</a></p>
+				<div class="footnote" epub:type="footnote" id="ftn1" role="doc-footnote">
+					<p class="footnote"><a class="footnote" href="#ftn1a" role="doc-backlink" title="footnote reference">*</a> The translation of <i>halmanggu</i> is hag, and <i>manujeol</i> is <i>April Fool’s Day</i>. “Han-o-baeg-nyeon” is a famous Korean folk song. Translated as “Five-hundred-year Sorrow,” the song became a big hit when singer Cho Yong-pil released it in his 1979 debut album.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+2023-02-24 00:33:11 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-24 00:33:12 INFO  - Step 24 - I open font settings
+2023-02-24 00:33:12 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-24 00:33:13 INFO  - Step 25 - I DECREASE_FONT of text
+2023-02-24 00:33:13 INFO  - Button 'setTextSmaller' :: Clicking
+2023-02-24 00:33:14 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-02-24 00:33:14 INFO  - context - NATIVE_APP
+2023-02-24 00:33:14 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-24 00:33:15 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-24 00:33:15 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en-US" xml:lang="en-US" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Shorts, 2002, Lemon</title>
+		<link href="../css/prh_resets.css" rel="stylesheet" type="text/css" />
+		<link href="../css/rh_static.css" rel="stylesheet" type="text/css" />
+		<link href="../css/9781635420890_style.css" rel="stylesheet" type="text/css" />
+		<meta charset="utf-8" />
+<meta content="urn:uuid:4d46eb09-cd72-49c6-be46-f3165d1309a9" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body>
+		<div class="page_top_padding" id="c01">
+			<h1 class="chap_head sans"><span epub:type="pagebreak" id="page_xi" role="doc-pagebreak" title="xi"></span><span epub:type="pagebreak" id="page_1" role="doc-pagebreak" title="1"></span>SHORTS, 2002</h1>
+			<div class="figure figure_dingbat">
+				<div class="squeeze squeeze5">
+					<img alt="" class="image" id="Page_001_img01" src="../images/9781635420890_DistX_Page_001_Image_0001.jpg" />
+				</div>
+			</div>
+			<p class="top">I <span class="fv-allsmallcaps">IMAGINE</span> what happened inside one police interrogation room so many years ago. By <i>imagine</i>, I don’t mean <i>invent</i>. But it’s not like I was actually there, so I don’t know what else to call it. I picture the scene from that day, based on what he told me and some other clues, my own experience and conclusions. It’s not just this scene I imagine. For over sixteen years, I’ve pondered, prodded, and worked every detail embroiled in the case known as “The High School Beauty Murder”—to the point I often fool myself into thinking I’d personally witnessed the circumstances now stamped on my mind’s eye. The imagination is <span epub:type="pagebreak" id="page_2" role="doc-pagebreak" title="2"></span>just as painful as reality. No, it’s more painful. After all, what you imagine has no limit or end.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The boy</span> sat alone in the interrogation room for over ten minutes. The room was bare apart from a table and four chairs. No pictures decorated the wall, no flower vase or ashtray sat on the table. Some people appear uneasy no matter what they do, and this boy was one of them. He sat awkwardly in his chair, with eyes dull and sleepy-looking. Maybe because there was nothing to look at, but his eyes were like camera lenses constantly shifting to find focus on a white background.</p>
+			<p class="indent">A detective entered the room and sat across from the boy. The boy’s gaze grew a bit more focused.</p>
+			<p class="indent">“Han Manu!” the detective snapped, in a tone used by a teacher or head disciplinarian to summon a troublemaker before dealing out punishment.</p>
+			<p class="indent">It was enough for resentment to take root in the boy’s heart. I believe this was also the moment his cruel fate was sealed.</p>
+			<p class="indent">At the time, no one at school called him by his actual name. The other students called him <i>Halmanggu</i> or <i>Manujeol</i>, but his most shining nickname came <span epub:type="pagebreak" id="page_3" role="doc-pagebreak" title="3"></span>from the song “Han-o-baeg-nyeon.”<a class="footnote_ref" epub:type="noteref" href="#ftn1" id="ftn1a" role="doc-noteref" title="footnote">*</a> To their ears, the opening words “ha-an-man-eu-eu-eun” sounded just like his name. If you slurred the <i>n</i> sound so that you said “ha-an-man-<i>u</i>-<i>u</i>-<i>u</i>” instead, it was perfect. This particular nickname proved so popular that both <i>Halmanggu</i> and <i>Manujeol</i> died out eventually, and his friends would belt out “Ha-an man-u-u-u!” like a master pansori singer, warming up her voice before a performance.</p>
+			<p class="indent">But until the incident, I wasn’t even aware of his existence. He was in his last year of senior high and I’d just entered the school. When I grope through my memory, though, I seem to recall boys warbling his name in a ridiculous, plaintive way in the halls. They meant no harm or disrespect. After the incident, the nickname stopped altogether. No one called him anything. There was no need.</p>
+			<p class="indent">I sometimes try calling him the old way. <i>Ha-an man-u-u-u</i>. This life full of misery, as the lyrics say. Then I start wondering if this miserable life has any meaning. I don’t mean life in an abstract or general <span epub:type="pagebreak" id="page_4" role="doc-pagebreak" title="4"></span>sense, but the life of an actual person. Did the pages of his life hold any meaning? Probably not. At least that’s what I believe. Life has no special meaning. Not his, not my sister’s, not even mine. Even if you try desperately to find it, to contrive some kind of meaning, what’s not there isn’t there. Life begins without reason and ends without reason.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> told the boy to listen carefully: this was different from last time, he needed to think carefully before answering; if not, things wouldn’t go well for him. The detective’s face was curiously blank. Though the boy wasn’t the brightest kid on the block, he could sense the older man had become more frightening than he’d been at the initial questioning. He seethed with something, and anyone seething like that was to be feared.</p>
+			<p class="indent">“Let’s start by reviewing your statement from last time. On June 30, 2002, around 18:00,” the detective said, punctuating his words by pressing the tip of his ballpoint pen carefully on the table. “That is, around six o’clock in the afternoon, you were on your scooter on your way to a chicken delivery when you passed a car being driven by Shin Jeongjun. Correct?”</p>
+			<p class="indent">“No.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_5" role="doc-pagebreak" title="5"></span>“No?” The detective’s gaze skimmed the document and shot back up. “Well, that’s what your statement says.”</p>
+			<p class="indent">“I wasn’t on my way to a delivery. I was on my way back.”</p>
+			<p class="indent">An inconsequential detail. The detective looked down once more.</p>
+			<p class="indent">“Then why does it say here you were going to a delivery? Fine, whatever. So you were on your way back when you passed a car that Shin Jeongjun was driving? Correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“What kind of car did you say it was?”</p>
+			<p class="indent">“Pardon me?”</p>
+			<p class="indent">“The car model!” He was sure the boy was just pretending not to understand. “What kind of car was he driving?”</p>
+			<p class="indent">“Uh, I’m not sure, but I think it was dark gray. And shiny. Didn’t I mention all this last time?”</p>
+			<p class="indent">“I told you, we’re going over your statement. So a shiny dark gray car?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Like this?”</p>
+			<p class="indent">The detective pulled out a photo from the file. The boy leaned forward, peered at the photo, and looked up.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_6" role="doc-pagebreak" title="6"></span>“I don’t know. Maybe.”</p>
+			<p class="indent">“Even if it wasn’t this exact one, would you say it was the same kind—an SUV?”</p>
+			<p class="indent">The boy studied the photo once more and looked up at the detective. “I think so.”</p>
+			<p class="indent">“For the last time, was it an SUV or not?</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“Okay. You’re doing good.”</p>
+			<p class="indent">The detective pulled out another photo. The boy looked at it and then at the detective’s face.</p>
+			<p class="indent">“Is this your scooter?” the detective asked.</p>
+			<p class="indent">The boy responded immediately that it was.</p>
+			<p class="indent">“Good.”</p>
+			<p class="indent">The detective riffled through the pages of the file, delaying the moment of the decisive blow.</p>
+			<p class="indent">“Now for the important part. You said you saw Kim Hae-on sitting in the passenger seat of Shin Jeongjun’s car, correct?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And what did you say again about her hair and her clothes?”</p>
+			<p class="indent">“Her hair was down.”</p>
+			<p class="indent">“You mean it was loose, not tied up.”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“And? What was she wearing?”</p>
+			<p class="indent">“Um…she was in a tank top and shorts.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_7" role="doc-pagebreak" title="7"></span>“A tank top and shorts?”</p>
+			<p class="indent">“Well, that’s what I—”</p>
+			<p class="indent">“What you remember? So what color?”</p>
+			<p class="indent">“Color?”</p>
+			<p class="indent">“Her clothes!” the detective barked, thinking idiots like this never gave a straight answer. “What color were they?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“You don’t remember?”</p>
+			<p class="indent">“Well, I’m not too sure.”</p>
+			<p class="indent">“You know she was in a tank top and shorts, but you don’t know what color? You think that makes sense?”</p>
+			<p class="indent">“But I swear I don’t know!”</p>
+			<p class="indent">The boy was hiding something. The detective wondered if the time had finally come to nab him. Right then, the boy glanced around the room.</p>
+			<p class="indent">“What’s the matter?” the detective asked.</p>
+			<p class="indent">“Um, I have to go.”</p>
+			<p class="indent">“What?”</p>
+			<p class="indent">“Do you know what time it is? I have to go to work.”</p>
+			<p class="indent">The boy placed his hands on the table, as if he meant to get up. The detective glared at him in silence. What did he think then? Did he think: Got you, asshole! Was it then that he became convinced of the <span epub:type="pagebreak" id="page_8" role="doc-pagebreak" title="8"></span>boy’s guilt? Or did he glance at the boy’s hands on the table, and try to determine if they were capable of clutching something like a brick or rock and bringing it down on someone’s head? He might have thought with a shake of his head, Hmm, those hands do look tougher than Shin Jeongjun’s. Not that you need a whole lot of power to bash in the small head of a girl with smooth, glossy hair. If anything, Shin Jeongjun was taller, with a body hardened by sports, while Han Manu was rather small and of average height.</p>
+			<p class="indent">The detective cleared his throat and told the boy to pay attention. “Your statement doesn’t add up. Look here.”</p>
+			<p class="indent">He turned the photos around to face the boy, and proceeded to explain: Shin Jeongjun wasn’t driving just any car, but a Lexus RX300. The seat height of an SUV is higher than that of the average sedan, which means its window height is also higher. But if you’re sitting on a scooter, you would be at eye level with the window of the SUV, or even slightly lower.</p>
+			<p class="indent">The detective asked if he knew what all this meant. The boy didn’t respond. The detective was kind enough to spell it out for him.</p>
+			<p class="indent">“What I’m saying is, from your stumpy little scooter, it would have been physically impossible to see if Kim Hae-on was wearing shorts or jeans.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_9" role="doc-pagebreak" title="9"></span>So he said, but he wasn’t completely sure. It was just a hunch. But when he saw the shock on the boy’s face, the detective knew it was time to go in for the kill.</p>
+			<p class="indent">“Therefore, you didn’t actually see Kim Hae-on in Shin Jeongjun’s car. You saw her out of it. That’s how you knew she was wearing shorts. You saw Shin dropping her off, or you saw her walking by herself, after he’d dropped her off. Either way, you never saw her sitting in the passenger seat. If we follow that logic…”</p>
+			<p class="indent">The boy blinked several times. Though he heard what the detective was saying, he didn’t seem to comprehend the situation he was in. On the detective’s lips hovered the nervous smile of one who was about to land a fatal blow.</p>
+			<p class="indent">“The last person to see Kim Hae-on wasn’t Shin Jeongjun, but you. Do you understand what I’m saying?”</p>
+			<p class="indent">The boy could only stare. Once again, the detective got the sense that the boy was feigning ignorance. He needed to come out a lot stronger.</p>
+			<p class="indent">“What I’m saying is, you’re the prime suspect. You killed Kim Hae-on. You struck her with a blunt object and killed her.”</p>
+			<p class="indent">“Me?” the boy cried with a shudder. “But why?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_10" role="doc-pagebreak" title="10"></span>The boy, who appeared awkward no matter what he did, seemed as if he were acting. The detective became convinced the imbecile couldn’t do anything right.</p>
+			<p class="indent">“Weren’t you listening? You killed Kim Hae-on and then tried to pin it on Shin Jeongjun, passing yourself off as a witness. Isn’t that right?”</p>
+			<p class="indent">“No, of course not! Why would I do that? Why would I kill her?”</p>
+			<p class="indent">“How would I know? You tell me.”</p>
+			<p class="indent">“But I’ve never even spoken to Hae-on! She hardly said a word!”</p>
+			<p class="indent">“Says who?”</p>
+			<p class="indent">“Everyone! She never answered you even when you talked to her. Not that I ever tried or anything.”</p>
+			<p class="indent">What the boy said was true, but the detective had zero interest in these seemingly irrelevant details.</p>
+			<p class="indent">“What hogwash is this? Didn’t you say she was in shorts? Didn’t you see her in them? Tell me how that’s possible.”</p>
+			<p class="indent">The detective leaned across the table. He wondered how the fool was going to get himself out of this one.</p>
+			<p class="indent">“I don’t know…,” the boy mumbled, but the detective, intoxicated by his sense of victory, was unable to hear the rest of what he said.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_11" role="doc-pagebreak" title="11"></span>“Oh, you don’t know now? You’re changing your tune?”</p>
+			<p class="indent">“I’m not saying that…”</p>
+			<p class="indent">“No?”</p>
+			<p class="indent">“I think maybe…uh…maybe somebody else saw it, too.”</p>
+			<p class="indent">“Somebody else?”</p>
+			<p class="indent">The boy closed his mouth. He no longer felt like talking. In fact, he was wishing he could take back what he’d just said.</p>
+			<p class="indent">“I don’t think you grasp the seriousness of your situation. You’re not going to weasel your way out of this. Until now, you said you were the only one who saw Kim Hae-on, so what the hell do you mean by somebody else?”</p>
+			<p class="indent">“I never said I was the only one who saw her.”</p>
+			<p class="indent">“You never said that? Fine then. Who else?”</p>
+			<p class="indent">“Do I have to say? I really don’t want to.”</p>
+			<p class="indent">Manu wouldn’t have wanted to tell. He would have hated to bring her up. He would have recalled the warmth of her body from that day, as she’d sat lightly pressed up against his back. Recalling that sensation, he might have grinned like an idiot before the detective, just as he had done with me.</p>
+			<p class="indent">“Have you lost your frigging mind?” The detective wanted to smack the boy’s ugly long face that <span epub:type="pagebreak" id="page_12" role="doc-pagebreak" title="12"></span>resembled a pickle. “You think this is a joke? You realize you’re contradicting yourself, don’t you? You’d better fess up—who else saw Kim Hae-on?”</p>
+			<p class="indent">The boy’s upper lip twitched. “Um…”</p>
+			<p class="indent">The detective leaned closer. Someone with the last name of Um?</p>
+			<p class="indent">“Um…I’ve gotta go. Really.”</p>
+			<p class="indent">The detective felt his energy drain from him. The boy was absolutely maddening, with an uncanny knack for getting under his skin. Was something really the matter with him? Or was he only pretending to be stupid?</p>
+			<p class="indent">“You’re not leaving until you tell me the truth. I don’t care if it takes all night. I don’t care if it takes forever.”</p>
+			<p class="indent">“But my boss needs me. I really have to go—”</p>
+			<p class="indent">“Who else saw?”</p>
+			<p class="indent">The boy mumbled something under his breath.</p>
+			<p class="indent">“Speak up!” the detective roared.</p>
+			<p class="indent">“It was…uh…Taerim,” he said, a fleck of spittle flying out of his mouth.</p>
+			<p class="indent">“Taerim?”</p>
+			<p class="indent">“Yun…Yun Taerim.”</p>
+			<p class="indent">“Who the hell’s Yun Taerim?”</p>
+			<p class="indent">“From Division 3. The same class as Hae-on.”</p>
+			<p class="indent">“And this Taerim is female?”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_13" role="doc-pagebreak" title="13"></span>Confusion passed over the boy’s face. “Of course. Division 3 is a girls’ class.”</p>
+			<p class="indent">How in the world was he supposed to know that? He then realized the boy had just mentioned she was in the same class as Kim Hae-on. A wave of anger surged through him.</p>
+			<p class="indent">“Why would you leave out something so important until now? You know what you’ve done? You’ve committed perjury. I could put you away for this! I swear to God, if you don’t tell me everything from now on, you’re in deep shit. Were you with Yun Taerim that day?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">The detective felt as though he’d been clobbered over the head.</p>
+			<p class="indent">“Why were you together?”</p>
+			<p class="indent">“Because Taerim asked for a ride.”</p>
+			<p class="indent">“On what? Your scooter?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“You’re killing me, Manu! Are you saying she was on your scooter with you? I thought you were going to—I mean, coming back from a delivery!”</p>
+			<p class="indent">“I was on my way back when I saw her on the street. She waved me over, so I pulled up, and then she asked for a ride. She said it was urgent.”</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_14" role="doc-pagebreak" title="14"></span>“So you two were on the scooter together and that’s when you saw Shin Jeongjun’s car?”</p>
+			<p class="indent">“I didn’t even know it was his car—uh, his sister’s car, I mean. Taerim said his sister had just gotten it, but Jeongjun was driving it around. She told me to get in front.”</p>
+			<p class="indent">“In front?”</p>
+			<p class="indent">“Yeah, when we stopped at a red light. She told me to get in front of it.”</p>
+			<p class="indent">“In front of what?”</p>
+			<p class="indent">“Jeongjun’s car.”</p>
+			<p class="indent">“Why’d she say that?”</p>
+			<p class="indent">“I don’t know.”</p>
+			<p class="indent">“So did you?”</p>
+			<p class="indent">“Yup.”</p>
+			<p class="indent">The detective’s frustration built. The strange way the boy had of contradicting himself was getting on his nerves, and he found himself tripping over his own tongue.</p>
+			<p class="indent">“And then?”</p>
+			<p class="indent">“So that’s why.”</p>
+			<p class="indent">“That’s why what?”</p>
+			<p class="indent">“That’s why Taerim might have seen.”</p>
+			<p class="indent"><i>Taerim might have seen</i>. To the detective, these words would have sounded like a lie, but they confirmed the truth for me. Yun Taerim would have <span epub:type="pagebreak" id="page_15" role="doc-pagebreak" title="15"></span>wanted to know who was in the passenger seat of Shin Jeongjun’s car. She would have gotten on Han Manu’s scooter, telling him to get in front of it. This detail contained a subtle truth the boy would never have been able to invent on his own.</p>
+			<p class="indent">“Why the hell didn’t you mention this last time?”</p>
+			<p class="indent">“Because…I didn’t think she liked it.”</p>
+			<p class="indent">“Didn’t like what?”</p>
+			<p class="indent">“The scooter.”</p>
+			<p class="indent">“What are you talking about?”</p>
+			<p class="indent">“Taerim didn’t like it.”</p>
+			<p class="indent">“Come again?”</p>
+			<p class="indent">“Riding the scooter.”</p>
+			<p class="indent">“You’re saying she didn’t like riding your scooter?”</p>
+			<p class="indent">“That’s right.”</p>
+			<p class="indent">“Why’d you give her a ride then?”</p>
+			<p class="indent">“Because she asked me. She was the one who waved me over. I never asked if she wanted a ride!”</p>
+			<p class="indent">“You didn’t ask her, fine. But why would you give her a ride if she didn’t want to get on your scooter? And why didn’t you say anything until now?”</p>
+			<p class="indent">“You don’t understand, Mister. She’d never get on something like that.”</p>
+			<p class="indent">The detective felt as if he were about to lose his mind.</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_16" role="doc-pagebreak" title="16"></span>“Okay, let me get this straight. It’s not that you didn’t want to give Taerim a ride, but she doesn’t like scooters and would never get on something like that. Is that what you’re saying?”</p>
+			<p class="indent">“She wouldn’t be caught dead on a delivery scooter. So imagine how shocked I was when she asked for a ride! Then she said she wanted to get off, so I dropped her off. That means she didn’t like it, doesn’t it?”</p>
+			<p class="indent">“She asked you to drop her off right away? What was so urgent then?”</p>
+			<p class="indent">“Urgent?”</p>
+			<p class="indent">“You said she waved you over and asked for a ride, because it was urgent.”</p>
+			<p class="indent">“Oh, I didn’t ask why.”</p>
+			<p class="indent">Was there ever such an idiot? the detective thought.</p>
+			<p class="indent">A stupid detective wouldn’t have figured it out, but if a girl, who’s ashamed of being seen on a scooter, asks an idiot boy for a ride on his delivery scooter and then tells him to pass Shin Jeongjun’s car, only to get off immediately, isn’t the reason obvious? She was simply trying to see who Shin Jeongjun was with. After confirming my sister’s presence in the car, Taerim had promptly gotten off the scooter. What <span epub:type="pagebreak" id="page_17" role="doc-pagebreak" title="17"></span>exactly had she seen at that moment? How beautiful my sister looked? How indifferent? How cruel?</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">The detective</span> shook his head. His belief that this moron was guilty remained unshaken; he knew the boy was trying to take the negative attention off himself by dragging in a girl named Yun Taerim, but he was just digging himself into a bigger hole.</p>
+			<p class="indent">“Han Manu, I know you’re lying.”</p>
+			<p class="indent">“I swear it’s the truth! But I really have to go.”</p>
+			<p class="indent">“You’re lying, one hundred percent. You realize I’m going to bring Yun Taerim in for questioning, don’t you? Before deciding to lie, you should have gotten your story straight. How in the world would Yun Taerim manage to see something you couldn’t see? Let’s say she saw Kim Hae-on in a tank top with her hair down, but how could she have seen anything else? Is she taller than you? Even if she’s taller, she still wouldn’t have been able to see what Kim Hae-on was wearing on the bottom. It’s physically impossible.”</p>
+			<p class="indent">“I really gotta go,” the boy said sullenly.</p>
+			<p class="indent">“You listening with your ass? For the hundredth time, from your crappy midget scooter, there’s no <span epub:type="pagebreak" id="page_18" role="doc-pagebreak" title="18"></span>way you could have seen Kim Hae-on in shorts. Got that?”</p>
+			<p class="indent">“All right.”</p>
+			<p class="indent">“All right? That’s all you have to say? Are you admitting you’re wrong?”</p>
+			<p class="indent">“No, but…”</p>
+			<p class="indent">The detective leaned across the table, sensing that victory was at hand.</p>
+			<p class="indent">“Mister, could you not call it a midget scooter?”</p>
+			<p class="indent">The detective gave a humorless laugh. “I’m going to ask you one last time. You’re saying, since you saw Kim Hae-on in shorts, Yun Taerim must have seen, too?”</p>
+			<p class="indent">“Yes.”</p>
+			<p class="indent">“I’ll be looking into this. If it turns out you’re lying, you’re dead.”</p>
+			<p class="indent">“Can I go now?”</p>
+			<p class="indent">“You can go.”</p>
+			<p class="indent">Frowning, the detective watched the boy get up from his seat, bow, and make his way out of the interrogation room, his sneakers dragging along the floor. He would have fallen into thought then, tapping the documents on the table, lining up the corners and edges. I’m aware of this habit. Just as I’m aware of his other habits, of placing a stack of paper on the table and pressing it hard with the tip <span epub:type="pagebreak" id="page_19" role="doc-pagebreak" title="19"></span>of his retracted pen, scattering the pages he had just straightened. Even now, I can recall his facial expressions and manner of speaking, his squat neck atop a stocky frame, which made him resemble a gorilla. Many times he had come to our apartment, and many times I’d gone to the station with my mother.</p>
+			<p class="indent">That day, the detective would have weighed Han Manu’s narrow, pinched face against Shin Jeongjun’s clean features, the former’s cheap World Cup T-shirt against the latter’s IVYclub button-down shirt, a single mother against an accountant father, and the twentieth rank in class against the top ten of the entire grade, as well as the credibility of the witnesses providing the alibis. Rather than try to find the real culprit, the detective would have considered whom he could—or should—crush and turn into the culprit. And that’s exactly what he tried to do.</p>
+			<hr class="transition" />
+			<div aria-hidden="true" class="transition">—</div>
+			<p><span class="fv-smallcaps">I’ve been</span> constructing this second interrogation in my mind for a long time, the way you might put LEGO pieces together. Han Manu was questioned a total of seven times, but it was this interview that hinted at the truth, and the way the case would eventually unfold. Yet, the strange thing was, each time I re-created the second interview, an excess of details <span epub:type="pagebreak" id="page_20" role="doc-pagebreak" title="20"></span>would emerge. As if small, warped pieces of LEGO were finding their way in, somehow. This had nothing to do with Han Manu or the detective. It was my problem.</p>
+			<p class="indent">It happened again this time. I’d written that the detective, as he gazed at Han Manu’s hands, thought a person doesn’t need a whole lot of power to bash in the small head of a girl with smooth glossy hair. Why had such an unnecessary detail intruded into the scene? A small head, fine, but hair that’s smooth and glossy has no bearing on the way someone is struck. The detective would have never added such a useless detail while questioning a suspect. Of course my sister’s dazzling beauty, clearly displayed even by her lifeless body, may have crossed his mind all of a sudden. It doesn’t matter if he imagined these things or not. The problem is that this kind of excess keeps slipping into that imagined scene. What I’ve done is project my own thoughts and desires onto the detective. Does this mean I’m still not free? That I’m not free, not one iota, from those smooth, fair, irrelevant details from sixteen years ago, those endless memories of my sister’s loveliness, which had made me undergo plastic surgery, turning my own face into a crude patchwork of her features?</p>
+			<p class="indent"><span epub:type="pagebreak" id="page_21" role="doc-pagebreak" title="21"></span>It’s true. My sister was beautiful. Unforgettably so. She was perfection, bliss personified. But more than anything, she was at that mythical age: eighteen. Who dared destroy her lovely form? Was it Han Manu, Shin Jeongjun, or a third figure? Now I know—not who killed my sister, but who didn’t. No, that’s not true. I know who the murderer is. That’s why I did what I did, and I know I’ll never be free from this crime until the day I die.</p>
+			<p class="indent">I hear my mother’s voice and a child laughing. The child’s laugh rings like a bell, announcing my guilt. Soon this child will enter elementary school, and I’ll become a school parent. Before June of my sixteenth year, I never imagined I’d be living this way. Not once have I desired this kind of life, yet here I am. What meaning, then, could life possibly hold? I didn’t desire such a life for myself, but at the same time, I can’t say I didn’t choose it.</p>
+			<div class="footnotes" epub:type="footnotes">
+				<p class="footnote_skip"><a href="Kwon_9781635420890_epub3_c02_r1.xhtml">Skip Notes</a></p>
+				<div class="footnote" epub:type="footnote" id="ftn1" role="doc-footnote">
+					<p class="footnote"><a class="footnote" href="#ftn1a" role="doc-backlink" title="footnote reference">*</a> The translation of <i>halmanggu</i> is hag, and <i>manujeol</i> is <i>April Fool’s Day</i>. “Han-o-baeg-nyeon” is a famous Korean folk song. Translated as “Five-hundred-year Sorrow,” the song became a big hit when singer Cho Yong-pil released it in his 1979 debut album.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+2023-02-24 00:33:15 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-24 00:33:16 INFO  - Taking screenshot
+2023-02-24 00:33:17 INFO  - Test finished - logging out
+2023-02-24 00:33:18 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:33:21 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:33:22 INFO  - Button 'Accounts' :: Clicking
+2023-02-24 00:33:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 00:33:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-24 00:33:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-24 00:33:26 INFO  - Button 'Log out' :: Clicking
+2023-02-24 00:33:26 INFO  - Button 'Log in' :: Getting text from element
+2023-02-24 00:33:35 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-24 00:33:35 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-24 00:33:36 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@42df78e8

@@ -1,0 +1,200 @@
+2023-02-24 00:33:41 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-02-24 00:33:41 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-24 00:34:42 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-24 00:34:43 INFO  - Session id - 54a10a23880d0cfabccdad0ceed79675d0701e8b
+2023-02-24 00:34:43 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-24 00:34:43 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-24 00:34:45 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-24 00:34:46 INFO  - Button 'Search' :: Clicking
+2023-02-24 00:34:47 INFO  - Text Field 'Search' :: Clearing
+2023-02-24 00:34:47 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-24 00:34:50 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 00:34:50 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-24 00:34:50 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:34:52 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:34:53 INFO  - Button 'Accounts' :: Clicking
+2023-02-24 00:34:54 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-24 00:34:55 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:34:55 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:34:57 INFO  - Button 'Accounts' :: Clicking
+2023-02-24 00:34:57 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 00:34:58 INFO  - Locking credential with barcode 01230000000303
+2023-02-24 00:34:58 INFO  - There are books on the account: 
+2023-02-24 00:35:00 INFO  - bookName: The Debt Trap Distributor: Palace Marketplace
+2023-02-24 00:35:00 INFO  - Count of books on the account after opening account: 1
+2023-02-24 00:35:00 INFO  - Text Field 'Card' :: Clearing
+2023-02-24 00:35:00 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-24 00:35:02 INFO  - Text Field 'Pin' :: Clearing
+2023-02-24 00:35:02 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-24 00:35:04 INFO  - Button 'Log in' :: Clicking
+2023-02-24 00:35:09 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-24 00:35:09 INFO  - Step 3 - Login is performed successfully
+2023-02-24 00:35:30 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-24 00:35:31 INFO  - Step 4 - I open Catalog
+2023-02-24 00:35:31 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-24 00:35:54 INFO  - Step 5 - I open search modal
+2023-02-24 00:36:14 INFO  - Button 'Search' :: Clicking
+2023-02-24 00:36:16 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-24 00:36:16 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-02-24 00:36:16 INFO  - randomBookName: Becoming a Soulful Parent
+2023-02-24 00:36:16 INFO  - Error details button is not present
+2023-02-24 00:36:17 INFO  - Text Field 'Search value input' :: Sending keys 'Becoming a Soulful Parent'
+2023-02-24 00:36:19 INFO  - Error details button is not present
+2023-02-24 00:36:20 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-24 00:36:23 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-24 00:36:23 INFO  - Button 'actionButton' :: Clicking
+2023-02-24 00:36:29 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-24 00:36:30 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-24 00:36:30 INFO  - Label 'lblBookName' :: Clicking
+2023-02-24 00:36:31 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-24 00:36:31 INFO  - Button 'Read' :: Clicking
+2023-02-24 00:36:33 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-02-24 00:36:33 INFO  - Scrolling 7 times on reader epub screen
+2023-02-24 00:36:51 INFO  - Step 11 - I save font size as 'fontSize'
+2023-02-24 00:36:52 INFO  - context - NATIVE_APP
+2023-02-24 00:36:52 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-24 00:36:53 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-24 00:36:53 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Soulful_Parent_-_body</title>
+		
+		
+	<link href="css/stylesheet.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="Soulful_Parent_-_body" lang="en-US" xml:lang="en-US">
+		
+		<div class="Chapter-number">  </div>
+<h1 class="Chapter-Heading">Introduction</h1>
+			<h2 class="Chapter-Subhead sigil_not_in_toc">A Letter to the Reader</h2>
+			<p class="Noindent" style="clear:both;"><span class="Dropcap">D</span>ear Parent,</p>
+			<p>I bet we have a lot in common. If you are anything like me, you probably go to sleep exhausted every night, sometimes with a touch of anxiety, wondering if everyone will be okay the next day. You might have one child who is goofing off too much at school or one who is struggling to fit in. I sometimes feel like we all should get a standing ovation for how much we are balancing — family, work, self-care, and cultivating other relationships in our lives.</p>
+			<p>While we have a lot in common, we each have our own life story too. As for me, I live in Jerusalem with my husband and three kids and have been married for over a decade. Though I am writing from my heteronormative experience, there are so many ways to be a family — single parents by choice, same-sex couples, blended families. Whatever your family model, I think all of us parents have stories to tell, wisdom to give, and much to gain from sharing our parenting journeys with one another.</p>
+			<p><em class="Italic">Becoming a Soulful Parent: A path to the wisdom within </em>is a compilation of the wisdom I have absorbed over the past several years while directing Ayeka’s Becoming a Soulful Parent program, an experience that enabled me to meet and learn from scores of talented people who have facilitated our parenting groups in synagogues, JCCs, and communities throughout North America. The book is guided by my learning first and foremost with these parents and educators. The inspiration for the book came from my mentor and colleague Rabbi Aryeh Ben David, founder of Ayeka, when we sat down several years ago to imagine what parents really need in a market saturated with parenting books, workshops, and podcasts.</p>
+			<p>This book is not only about my life but all of our lives.</p>
+			<p>You see, many other parenting approaches offer tips and tricks for how to be a better parent for your children. Some offer whole systems of behavior modification, with scripts and ideas for follow-through. I remember one participant in our Chicago group lamenting, “I have a stack of parenting books on my bedside table, but I find them so hard to use! Unless I follow the whole system, I feel like I can’t do any of it.” The books written by child development experts are well researched, but sometimes they leave us regular parents feeling deficient. When their approach doesn’t work, you wonder what is wrong with your child… or what is wrong with you.</p>
+			<p>This book has a different agenda. There are no how-tos or systems of behavior modification to adopt. Each chapter contains a mix of personal anecdotes, insights from Jewish tradition and general culture, and an Ayeka Workbook section with reflective questions.</p>
+			<p>And while the book is replete with examples from Jewish wisdom, it is open to parents of all backgrounds.</p>
+			<p>The workbooks are the inner life of the book, and I hope they will help you discover insights about your life that you may not have given yourself the time or space to reflect upon. Consider writing down your responses to these questions or speak them aloud and discuss them with other parents. They are keys to opening windows into your inner life.</p>
+			<p>The questions we will be asking here are not the “Did you think of trying…?” or “Why don’t you consider…?” variety. Those kinds of questions presume right and wrong ways of doing things. The kinds of questions I will pose will hopefully help you listen to your own voice, connect you with your intuitive wisdom, and lead you to your own answers. They start with “Consider…” and “Explore…” and “Imagine…” Open questions can reveal new possibilities. Open questions can help evoke the voice of your soul.</p>
+			<p>An anecdote about listening to your own voice: I love to sing and harmonize, and in 2018, I participated in a singing workshop.<span class="Footnote-number"><span id="footnote-002-backlink"><a class="_idFootnoteLink" href="#footnote-002">1</a></span></span> As we were all standing in a circle and singing together, I realized I couldn’t hear my voice. I needed to press my fingers into my ears so that I could block out the other participants’ sound and hear my own. I understood that while I love to harmonize, it’s easy to get lost in the chorus of voices and forget how to hear my unique contribution to the sound we are creating together.</p>
+			<p>As a parent, I sometimes experience that same sensation — getting lost in other people’s music and forgetting my own. I get so swept up by other people’s harmonies — what those parents are doing so well! — and overlook my own song.</p>
+			<p>There’s a teaching by the Sefat Emet,<span class="Footnote-number"><span id="footnote-001-backlink"><a class="_idFootnoteLink" href="#footnote-001">2</a></span></span> a Hasidic master from the nineteenth century, on the difference between speech (<em class="Italic">dibur</em>) and voice (<em class="Italic">kol</em>). With speech we can express ideas, feelings, and practical communication. We say “Well done!” to a colleague and “I love you” to our children. We also say firm words such as “No, not now!” when we want to set a boundary. Speech is important. It allows us to communicate; it’s efficient. But it can also be insufficient. Words alone cannot convey the fullness of what we want to express.</p>
+			<p>This is where <em class="Italic">kol</em>,<em class="Italic"> </em>the voice, comes in. Speech is generic, but each person’s voice is unique. If I close my eyes, I can hear my grandmother’s voice, its tone and singsongy lilt. I can hear the voice of my younger daughter when she calls “<em class="Italic">Imma!”</em> (Mommy) amid throngs of other children. Her voice is immediately recognizable; it’s just <em class="Italic">her</em>.</p>
+			<p>Our voice, says the Sefat Emet,<span class="Footnote-number"><span id="footnote-000-backlink"><a class="_idFootnoteLink" href="#footnote-000">3</a></span></span> and the voice of those we love, is more than a thing to be cherished; it is redemptive. Only one voice sounds just like yours. Only one voice can sing your unique song.</p>
+			<p>This is true of your life on the whole — and certainly true of your life as a parent.</p>
+			<p>Your particular relationship with your family comes from a deep inner place and is expressed in a completely irreplaceable way.</p>
+			<p><em class="Italic">Becoming a Soulful Parent</em>:<em class="Italic"> A</em> <em class="Italic">path to the wisdom within </em>will help you become attuned to your inner voice. Once you have mastered listening to that voice, this book will also guide you to better listen to your child’s voice. How can you help each child listen to their own voice? How can you honor their unique contribution to your family? I hope that this book will help you answer these questions.</p>
+			<p>This book<em class="Italic"> </em>is not only about you and your children; it’s about the whole package. In the chapters that follow, you’ll find a wealth of spiritual practices — including prayer, Shabbat celebration, and the practice of connecting to our own inner spiritual resources — to help you connect with the totality of your experience as a parent.</p>
+			<p>If you are in a relationship, two chapters on partnership will guide you to appreciate your partner’s inner voice. The chapter on grandparents is about connecting to time-honored wisdom and stories as an important element of raising your family.</p>
+			<p>In the chapter “Parenting through Difficult Times,” you’ll find spiritual practices that can help ground you, especially when concern, anxiety, and worry begin to surface.</p>
+			<p>Throughout this book I will repeatedly ask <em class="Italic">Ayeka? </em>(Where are you?) with regard to the topic we are exploring. The question, I hope, will help you learn to listen to your own voice. Your answers will lead you to the next step.</p>
+			<p>You’re a parent — you’re busy. You don’t need to read this book cover to cover. Pick it up and work with whichever chapter seems relevant to you now. Skip around. Let the questions percolate. Ask a friend, your partner, or a group of friends to help you reflect on the questions I ask in the workbook sections. When you are done, gather your family and reflect on the questions together. You will be amazed at what you discover.</p>
+			<p>Let’s get started.</p>
+			<hr class="HorizontalRule-1" />
+			<div class="_idFootnotes">
+				<div id="footnote-002" class="_idFootnote" epub:type="footnote">
+					<p class="Footnote-text"><a class="_idFootnoteAnchor" href="#footnote-002-backlink">1</a>.	The insights are gleaned from Dr. Elie Holtzer’s singing workshop “Mizmor Shir L’Yom Hashabbat” on November 7, 2018.</p>
+				</div>
+				<div id="footnote-001" class="_idFootnote" epub:type="footnote">
+					<p class="Footnote-text"><a class="_idFootnoteAnchor" href="#footnote-001-backlink">2</a>.	Yehudah Aryeh Leib Alter (1847–1905), also known by the title of his main work, the <em class="Italic">Sefat Emet</em> (Language of Truth), was a Hasidic rabbi who succeeded his grandfather, Rabbi Yitzchak Meir Alter, as the head of the rabbinical court and rav of Góra Kalwaria, Poland (known in Yiddish as the town of Ger).</p>
+				</div>
+				<div id="footnote-000" class="_idFootnote" epub:type="footnote">
+					<p class="Footnote-text"><a class="_idFootnoteAnchor" href="#footnote-000-backlink">3</a>.	Sefat Emet, Pesach 5633 on Exodus 14.</p>
+				</div>
+			</div>
+</body>
+</html>
+2023-02-24 00:36:53 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-24 00:36:54 INFO  - Step 12 - I open font settings
+2023-02-24 00:36:54 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-24 00:36:55 INFO  - Step 13 - I INCREASE_FONT of text
+2023-02-24 00:36:55 INFO  - Button 'setTextLarger' :: Clicking
+2023-02-24 00:36:56 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-02-24 00:36:56 INFO  - context - NATIVE_APP
+2023-02-24 00:36:56 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-24 00:36:57 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-24 00:36:57 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>Soulful_Parent_-_body</title>
+		
+		
+	<link href="css/stylesheet.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="Soulful_Parent_-_body" lang="en-US" xml:lang="en-US">
+		
+		<div class="Chapter-number">  </div>
+<h1 class="Chapter-Heading">Introduction</h1>
+			<h2 class="Chapter-Subhead sigil_not_in_toc">A Letter to the Reader</h2>
+			<p class="Noindent" style="clear:both;"><span class="Dropcap">D</span>ear Parent,</p>
+			<p>I bet we have a lot in common. If you are anything like me, you probably go to sleep exhausted every night, sometimes with a touch of anxiety, wondering if everyone will be okay the next day. You might have one child who is goofing off too much at school or one who is struggling to fit in. I sometimes feel like we all should get a standing ovation for how much we are balancing — family, work, self-care, and cultivating other relationships in our lives.</p>
+			<p>While we have a lot in common, we each have our own life story too. As for me, I live in Jerusalem with my husband and three kids and have been married for over a decade. Though I am writing from my heteronormative experience, there are so many ways to be a family — single parents by choice, same-sex couples, blended families. Whatever your family model, I think all of us parents have stories to tell, wisdom to give, and much to gain from sharing our parenting journeys with one another.</p>
+			<p><em class="Italic">Becoming a Soulful Parent: A path to the wisdom within </em>is a compilation of the wisdom I have absorbed over the past several years while directing Ayeka’s Becoming a Soulful Parent program, an experience that enabled me to meet and learn from scores of talented people who have facilitated our parenting groups in synagogues, JCCs, and communities throughout North America. The book is guided by my learning first and foremost with these parents and educators. The inspiration for the book came from my mentor and colleague Rabbi Aryeh Ben David, founder of Ayeka, when we sat down several years ago to imagine what parents really need in a market saturated with parenting books, workshops, and podcasts.</p>
+			<p>This book is not only about my life but all of our lives.</p>
+			<p>You see, many other parenting approaches offer tips and tricks for how to be a better parent for your children. Some offer whole systems of behavior modification, with scripts and ideas for follow-through. I remember one participant in our Chicago group lamenting, “I have a stack of parenting books on my bedside table, but I find them so hard to use! Unless I follow the whole system, I feel like I can’t do any of it.” The books written by child development experts are well researched, but sometimes they leave us regular parents feeling deficient. When their approach doesn’t work, you wonder what is wrong with your child… or what is wrong with you.</p>
+			<p>This book has a different agenda. There are no how-tos or systems of behavior modification to adopt. Each chapter contains a mix of personal anecdotes, insights from Jewish tradition and general culture, and an Ayeka Workbook section with reflective questions.</p>
+			<p>And while the book is replete with examples from Jewish wisdom, it is open to parents of all backgrounds.</p>
+			<p>The workbooks are the inner life of the book, and I hope they will help you discover insights about your life that you may not have given yourself the time or space to reflect upon. Consider writing down your responses to these questions or speak them aloud and discuss them with other parents. They are keys to opening windows into your inner life.</p>
+			<p>The questions we will be asking here are not the “Did you think of trying…?” or “Why don’t you consider…?” variety. Those kinds of questions presume right and wrong ways of doing things. The kinds of questions I will pose will hopefully help you listen to your own voice, connect you with your intuitive wisdom, and lead you to your own answers. They start with “Consider…” and “Explore…” and “Imagine…” Open questions can reveal new possibilities. Open questions can help evoke the voice of your soul.</p>
+			<p>An anecdote about listening to your own voice: I love to sing and harmonize, and in 2018, I participated in a singing workshop.<span class="Footnote-number"><span id="footnote-002-backlink"><a class="_idFootnoteLink" href="#footnote-002">1</a></span></span> As we were all standing in a circle and singing together, I realized I couldn’t hear my voice. I needed to press my fingers into my ears so that I could block out the other participants’ sound and hear my own. I understood that while I love to harmonize, it’s easy to get lost in the chorus of voices and forget how to hear my unique contribution to the sound we are creating together.</p>
+			<p>As a parent, I sometimes experience that same sensation — getting lost in other people’s music and forgetting my own. I get so swept up by other people’s harmonies — what those parents are doing so well! — and overlook my own song.</p>
+			<p>There’s a teaching by the Sefat Emet,<span class="Footnote-number"><span id="footnote-001-backlink"><a class="_idFootnoteLink" href="#footnote-001">2</a></span></span> a Hasidic master from the nineteenth century, on the difference between speech (<em class="Italic">dibur</em>) and voice (<em class="Italic">kol</em>). With speech we can express ideas, feelings, and practical communication. We say “Well done!” to a colleague and “I love you” to our children. We also say firm words such as “No, not now!” when we want to set a boundary. Speech is important. It allows us to communicate; it’s efficient. But it can also be insufficient. Words alone cannot convey the fullness of what we want to express.</p>
+			<p>This is where <em class="Italic">kol</em>,<em class="Italic"> </em>the voice, comes in. Speech is generic, but each person’s voice is unique. If I close my eyes, I can hear my grandmother’s voice, its tone and singsongy lilt. I can hear the voice of my younger daughter when she calls “<em class="Italic">Imma!”</em> (Mommy) amid throngs of other children. Her voice is immediately recognizable; it’s just <em class="Italic">her</em>.</p>
+			<p>Our voice, says the Sefat Emet,<span class="Footnote-number"><span id="footnote-000-backlink"><a class="_idFootnoteLink" href="#footnote-000">3</a></span></span> and the voice of those we love, is more than a thing to be cherished; it is redemptive. Only one voice sounds just like yours. Only one voice can sing your unique song.</p>
+			<p>This is true of your life on the whole — and certainly true of your life as a parent.</p>
+			<p>Your particular relationship with your family comes from a deep inner place and is expressed in a completely irreplaceable way.</p>
+			<p><em class="Italic">Becoming a Soulful Parent</em>:<em class="Italic"> A</em> <em class="Italic">path to the wisdom within </em>will help you become attuned to your inner voice. Once you have mastered listening to that voice, this book will also guide you to better listen to your child’s voice. How can you help each child listen to their own voice? How can you honor their unique contribution to your family? I hope that this book will help you answer these questions.</p>
+			<p>This book<em class="Italic"> </em>is not only about you and your children; it’s about the whole package. In the chapters that follow, you’ll find a wealth of spiritual practices — including prayer, Shabbat celebration, and the practice of connecting to our own inner spiritual resources — to help you connect with the totality of your experience as a parent.</p>
+			<p>If you are in a relationship, two chapters on partnership will guide you to appreciate your partner’s inner voice. The chapter on grandparents is about connecting to time-honored wisdom and stories as an important element of raising your family.</p>
+			<p>In the chapter “Parenting through Difficult Times,” you’ll find spiritual practices that can help ground you, especially when concern, anxiety, and worry begin to surface.</p>
+			<p>Throughout this book I will repeatedly ask <em class="Italic">Ayeka? </em>(Where are you?) with regard to the topic we are exploring. The question, I hope, will help you learn to listen to your own voice. Your answers will lead you to the next step.</p>
+			<p>You’re a parent — you’re busy. You don’t need to read this book cover to cover. Pick it up and work with whichever chapter seems relevant to you now. Skip around. Let the questions percolate. Ask a friend, your partner, or a group of friends to help you reflect on the questions I ask in the workbook sections. When you are done, gather your family and reflect on the questions together. You will be amazed at what you discover.</p>
+			<p>Let’s get started.</p>
+			<hr class="HorizontalRule-1" />
+			<div class="_idFootnotes">
+				<div id="footnote-002" class="_idFootnote" epub:type="footnote">
+					<p class="Footnote-text"><a class="_idFootnoteAnchor" href="#footnote-002-backlink">1</a>.	The insights are gleaned from Dr. Elie Holtzer’s singing workshop “Mizmor Shir L’Yom Hashabbat” on November 7, 2018.</p>
+				</div>
+				<div id="footnote-001" class="_idFootnote" epub:type="footnote">
+					<p class="Footnote-text"><a class="_idFootnoteAnchor" href="#footnote-001-backlink">2</a>.	Yehudah Aryeh Leib Alter (1847–1905), also known by the title of his main work, the <em class="Italic">Sefat Emet</em> (Language of Truth), was a Hasidic rabbi who succeeded his grandfather, Rabbi Yitzchak Meir Alter, as the head of the rabbinical court and rav of Góra Kalwaria, Poland (known in Yiddish as the town of Ger).</p>
+				</div>
+				<div id="footnote-000" class="_idFootnote" epub:type="footnote">
+					<p class="Footnote-text"><a class="_idFootnoteAnchor" href="#footnote-000-backlink">3</a>.	Sefat Emet, Pesach 5633 on Exodus 14.</p>
+				</div>
+			</div>
+</body>
+</html>
+2023-02-24 00:36:57 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-24 00:36:58 INFO  - Step 15 - I restart app
+2023-02-24 00:37:22 INFO  - Step 16 - I open Books
+2023-02-24 00:37:22 INFO  - Button 'tabBooks' :: Clicking
+2023-02-24 00:37:23 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-24 00:37:43 INFO  - Label 'lblBookName' :: Clicking
+2023-02-24 00:38:04 INFO  - Taking screenshot
+2023-02-24 00:38:05 INFO  - Test finished - logging out
+2023-02-24 00:38:07 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:38:09 INFO  - Button 'tabSettings' :: Clicking
+2023-02-24 00:38:10 INFO  - Button 'Accounts' :: Clicking
+2023-02-24 00:38:11 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-24 00:38:13 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-24 00:38:13 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-24 00:38:14 INFO  - Button 'Log out' :: Clicking
+2023-02-24 00:38:14 INFO  - Button 'Log in' :: Getting text from element
+2023-02-24 00:38:18 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-24 00:38:18 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-24 00:38:18 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@42df78e8
