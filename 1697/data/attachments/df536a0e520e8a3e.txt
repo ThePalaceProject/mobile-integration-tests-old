@@ -1,0 +1,56 @@
+2023-02-25 18:52:05 INFO  - Scenario 'Hold from Subcategory List View and Remove a Reserved Book from Holds' start
+2023-02-25 18:52:05 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-25 18:52:36 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-25 18:52:36 INFO  - Session id - af0e751f7f28c96f2942a24288e95091a035cbea
+2023-02-25 18:52:36 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-25 18:52:36 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-25 18:52:39 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-25 18:52:39 INFO  - Button 'Search' :: Clicking
+2023-02-25 18:52:41 INFO  - Text Field 'Search' :: Clearing
+2023-02-25 18:52:41 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-25 18:52:43 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 18:52:43 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-25 18:52:43 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 18:52:45 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 18:52:45 INFO  - Button 'Accounts' :: Clicking
+2023-02-25 18:52:46 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 18:52:47 INFO  - Locking credential with barcode 01230000000304
+2023-02-25 18:52:47 INFO  - There are books on the account: 
+2023-02-25 18:52:48 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-25 18:52:48 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-02-25 18:52:48 INFO  - Count of books on the account after opening account: 2
+2023-02-25 18:52:48 INFO  - Text Field 'Card' :: Clearing
+2023-02-25 18:52:48 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-25 18:52:50 INFO  - Text Field 'Pin' :: Clearing
+2023-02-25 18:52:50 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-25 18:52:52 INFO  - Button 'Log in' :: Clicking
+2023-02-25 18:52:58 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-25 18:52:59 INFO  - Step 2 - Login is performed successfully
+2023-02-25 18:53:19 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-25 18:53:20 INFO  - Step 3 - I open Catalog
+2023-02-25 18:53:20 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-25 18:53:43 INFO  - Step 4 - I open search modal
+2023-02-25 18:54:03 INFO  - Button 'Search' :: Clicking
+2023-02-25 18:54:05 INFO  - Step 5 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-25 18:54:05 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-25 18:54:05 INFO  - randomBookName: Daughter of the Morning Star
+2023-02-25 18:54:05 INFO  - Error details button is not present
+2023-02-25 18:54:05 INFO  - Text Field 'Search value input' :: Sending keys 'Daughter of the Morning Star'
+2023-02-25 18:54:08 INFO  - Error details button is not present
+2023-02-25 18:54:11 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-02-25 18:54:11 INFO  - Button 'eBooks' :: Clicking
+2023-02-25 18:54:32 INFO  - Step 7 - Click RESERVE action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 18:54:53 INFO  - Button 'actionButton' :: Clicking
+2023-02-25 18:55:13 INFO  - Taking screenshot
+2023-02-25 18:55:15 INFO  - Test finished - logging out
+2023-02-25 18:55:16 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 18:55:18 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 18:55:19 INFO  - Button 'Accounts' :: Clicking
+2023-02-25 18:55:20 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 18:55:22 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 18:55:22 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 18:55:22 INFO  - Button 'Log out' :: Clicking
+2023-02-25 18:55:22 INFO  - Button 'Log in' :: Getting text from element
+2023-02-25 18:55:26 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 18:55:27 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 18:55:27 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1a5e536e

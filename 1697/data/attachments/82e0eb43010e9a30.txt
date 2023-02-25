@@ -1,0 +1,81 @@
+2023-02-25 18:33:37 INFO  - Scenario 'Check table of contents in Lyrasis' start
+2023-02-25 18:33:37 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-25 18:34:07 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-25 18:34:07 INFO  - Session id - 964eefb9bf973fcc062f01f21b2e82b1e5628e04
+2023-02-25 18:34:07 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-25 18:34:07 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-25 18:34:10 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-25 18:34:10 INFO  - Button 'Search' :: Clicking
+2023-02-25 18:34:12 INFO  - Text Field 'Search' :: Clearing
+2023-02-25 18:34:12 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-25 18:34:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 18:34:14 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-25 18:34:14 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 18:34:19 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 18:34:20 INFO  - Button 'Accounts' :: Clicking
+2023-02-25 18:34:22 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-25 18:34:22 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 18:34:23 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 18:34:23 INFO  - Button 'Accounts' :: Clicking
+2023-02-25 18:34:24 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 18:34:24 INFO  - Locking credential with barcode 01230000000304
+2023-02-25 18:34:24 INFO  - There are books on the account: 
+2023-02-25 18:34:25 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-02-25 18:34:25 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-25 18:34:25 INFO  - Count of books on the account after opening account: 2
+2023-02-25 18:34:25 INFO  - Text Field 'Card' :: Clearing
+2023-02-25 18:34:25 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-25 18:34:26 INFO  - Text Field 'Pin' :: Clearing
+2023-02-25 18:34:26 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-25 18:34:28 INFO  - Button 'Log in' :: Clicking
+2023-02-25 18:34:34 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-25 18:34:34 INFO  - Step 3 - Login is performed successfully
+2023-02-25 18:34:55 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-25 18:34:55 INFO  - Step 4 - I open Catalog
+2023-02-25 18:34:55 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-25 18:35:18 INFO  - Step 5 - I open search modal
+2023-02-25 18:35:39 INFO  - Button 'Search' :: Clicking
+2023-02-25 18:35:40 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-25 18:35:40 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-02-25 18:35:40 INFO  - randomBookName: The Girl in the Graveyard :
+2023-02-25 18:35:40 INFO  - Error details button is not present
+2023-02-25 18:35:40 INFO  - Text Field 'Search value input' :: Sending keys 'The Girl in the Graveyard :'
+2023-02-25 18:35:43 INFO  - Error details button is not present
+2023-02-25 18:35:45 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 18:35:46 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 18:35:46 INFO  - Button 'actionButton' :: Clicking
+2023-02-25 18:35:51 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-02-25 18:35:52 INFO  - Step 9 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 18:35:53 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 18:35:53 INFO  - Label 'lblBookName' :: Clicking
+2023-02-25 18:35:53 INFO  - Step 10 - Click READ action button on book details screen
+2023-02-25 18:35:54 INFO  - Button 'Read' :: Clicking
+2023-02-25 18:35:55 INFO  - Step 11 - Reader pdf screen is opened
+2023-02-25 18:35:59 INFO  - Step 12 - I open table of contents on pdf reader screen
+2023-02-25 18:35:59 INFO  - Button 'Table of content' :: Clicking
+2023-02-25 18:35:59 INFO  - Step 13 - There are content list with thumbnails and chapter content on pdf toc screen
+2023-02-25 18:36:01 INFO  - Step 14 - I return to pdf reader screen from pdf toc screen
+2023-02-25 18:36:01 INFO  - Step 15 - PDF toc screen is closed
+2023-02-25 18:36:02 INFO  - Step 16 - I open table of contents on pdf reader screen
+2023-02-25 18:36:02 INFO  - Button 'Table of content' :: Clicking
+2023-02-25 18:36:02 INFO  - Step 17 - I open table of contents on pdf reader screen
+2023-02-25 18:36:02 INFO  - Button 'Table of content' :: Clicking
+2023-02-25 18:36:04 INFO  - Step 18 - PDF toc screen is closed
+2023-02-25 18:36:05 INFO  - Step 19 - I open table of contents on pdf reader screen
+2023-02-25 18:36:05 INFO  - Button 'Table of content' :: Clicking
+2023-02-25 18:36:05 INFO  - Step 20 - I close pdf toc screen by back button
+2023-02-25 18:36:05 INFO  - Button 'Back button' :: Clicking
+2023-02-25 18:36:07 INFO  - Step 21 - PDF toc screen is closed
+2023-02-25 18:36:08 INFO  - Taking screenshot
+2023-02-25 18:36:10 INFO  - Test finished - logging out
+2023-02-25 18:36:11 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 18:36:13 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 18:36:15 INFO  - Button 'Accounts' :: Clicking
+2023-02-25 18:36:15 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 18:36:17 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 18:36:17 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 18:36:17 INFO  - Button 'Log out' :: Clicking
+2023-02-25 18:36:17 INFO  - Button 'Log in' :: Getting text from element
+2023-02-25 18:36:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 18:36:23 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 18:36:23 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@78032f56

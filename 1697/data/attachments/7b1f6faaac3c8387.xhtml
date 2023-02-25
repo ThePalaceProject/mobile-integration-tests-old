@@ -1,0 +1,256 @@
+2023-02-25 17:16:54 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-02-25 17:16:54 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-25 17:17:30 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-25 17:17:30 INFO  - Session id - 799b190af4cbed06edfe60fcde4e60cc296d6440
+2023-02-25 17:17:30 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-25 17:17:30 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-25 17:17:33 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-25 17:17:33 INFO  - Button 'Search' :: Clicking
+2023-02-25 17:17:35 INFO  - Text Field 'Search' :: Clearing
+2023-02-25 17:17:35 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-25 17:17:37 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 17:17:37 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-25 17:17:37 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 17:17:39 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 17:17:40 INFO  - Button 'Accounts' :: Clicking
+2023-02-25 17:17:42 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-25 17:17:42 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 17:17:42 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 17:17:43 INFO  - Button 'Accounts' :: Clicking
+2023-02-25 17:17:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 17:17:45 INFO  - Locking credential with barcode 01230000000304
+2023-02-25 17:17:45 INFO  - There are books on the account: 
+2023-02-25 17:17:46 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-25 17:17:46 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-02-25 17:17:46 INFO  - Count of books on the account after opening account: 2
+2023-02-25 17:17:46 INFO  - Text Field 'Card' :: Clearing
+2023-02-25 17:17:46 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-25 17:17:47 INFO  - Text Field 'Pin' :: Clearing
+2023-02-25 17:17:47 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-25 17:17:50 INFO  - Button 'Log in' :: Clicking
+2023-02-25 17:17:56 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-25 17:17:56 INFO  - Step 3 - Login is performed successfully
+2023-02-25 17:18:17 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-25 17:18:17 INFO  - Step 4 - I open Catalog
+2023-02-25 17:18:17 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-25 17:18:38 INFO  - Step 5 - I open search modal
+2023-02-25 17:18:58 INFO  - Button 'Search' :: Clicking
+2023-02-25 17:19:00 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-25 17:19:00 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-25 17:19:00 INFO  - randomBookName: Miscarriages of Justice
+2023-02-25 17:19:00 INFO  - Error details button is not present
+2023-02-25 17:19:00 INFO  - Text Field 'Search value input' :: Sending keys 'Miscarriages of Justice'
+2023-02-25 17:19:03 INFO  - Error details button is not present
+2023-02-25 17:19:05 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 17:19:07 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 17:19:07 INFO  - Button 'actionButton' :: Clicking
+2023-02-25 17:19:14 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 17:19:15 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 17:19:15 INFO  - Label 'lblBookName' :: Clicking
+2023-02-25 17:19:16 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-25 17:19:16 INFO  - Button 'Read' :: Clicking
+2023-02-25 17:19:17 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-02-25 17:19:17 INFO  - Scrolling 8 times on reader epub screen
+2023-02-25 17:19:37 INFO  - Step 11 - I save font size as 'fontSize'
+2023-02-25 17:19:38 INFO  - context - NATIVE_APP
+2023-02-25 17:19:38 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-25 17:19:39 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-25 17:19:39 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Miscarriages of Justice</title>
+<link rel="stylesheet" type="text/css" href="9781845630966.css" />
+
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h2 class="h2c"><a id="intro"></a><a id="page_7"></a>Introduction</h2>
+<p class="noindent">In the twentieth century a total of 865 people were executed in the United Kingdom. In the years since the abolition of capital punishment just four of those people have received posthumous pardons: Timothy John Evans, Derek William Bentley, Mahmood Hussein Mattan and George Kelly.</p>
+<p class="indent">It may be that the reader believes that it is acceptable that four innocent men were hanged, out of a total of 865, but when one has researched every single one of those cases, as I have, then the number who may well have been innocent appears to rise. It is my personal opinion that there was either a reasonable doubt, or obvious signs of mental instability – or some other factor that indicates that there should not have been an execution, in over 100 of those cases.</p>
+<p class="indent">Yet this only covers the cases where someone was actually put to death. If one adds other cases where the death sentence was commuted, or where a life sentence was given after capital punishment had been abolished, then the number rises even further.</p>
+<p class="indent">This book looks at just nine cases, involving twelve people who were tried for murder. Of those twelve, nine were sentenced to death and eight actually executed. More importantly, five of those twelve have since been pardoned. And these are only cases from London; what of those from the rest of the country?</p>
+<p class="indent">Read the stories for yourself and decide whether you would really sanction either the execution, or the imprisonment for years, of those whose stories are told in these pages.</p>
+</body>
+</html>
+2023-02-25 17:19:39 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-25 17:19:39 INFO  - Step 12 - I open font settings
+2023-02-25 17:19:40 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-25 17:19:40 INFO  - Step 13 - I INCREASE_FONT of text
+2023-02-25 17:19:40 INFO  - Button 'setTextLarger' :: Clicking
+2023-02-25 17:19:41 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-02-25 17:19:41 INFO  - context - NATIVE_APP
+2023-02-25 17:19:41 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-25 17:19:41 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-25 17:19:41 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Miscarriages of Justice</title>
+<link rel="stylesheet" type="text/css" href="9781845630966.css" />
+
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h2 class="h2c"><a id="intro"></a><a id="page_7"></a>Introduction</h2>
+<p class="noindent">In the twentieth century a total of 865 people were executed in the United Kingdom. In the years since the abolition of capital punishment just four of those people have received posthumous pardons: Timothy John Evans, Derek William Bentley, Mahmood Hussein Mattan and George Kelly.</p>
+<p class="indent">It may be that the reader believes that it is acceptable that four innocent men were hanged, out of a total of 865, but when one has researched every single one of those cases, as I have, then the number who may well have been innocent appears to rise. It is my personal opinion that there was either a reasonable doubt, or obvious signs of mental instability – or some other factor that indicates that there should not have been an execution, in over 100 of those cases.</p>
+<p class="indent">Yet this only covers the cases where someone was actually put to death. If one adds other cases where the death sentence was commuted, or where a life sentence was given after capital punishment had been abolished, then the number rises even further.</p>
+<p class="indent">This book looks at just nine cases, involving twelve people who were tried for murder. Of those twelve, nine were sentenced to death and eight actually executed. More importantly, five of those twelve have since been pardoned. And these are only cases from London; what of those from the rest of the country?</p>
+<p class="indent">Read the stories for yourself and decide whether you would really sanction either the execution, or the imprisonment for years, of those whose stories are told in these pages.</p>
+</body>
+</html>
+2023-02-25 17:19:41 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-25 17:19:42 INFO  - Step 15 - I restart app
+2023-02-25 17:20:07 INFO  - Step 16 - I open Books
+2023-02-25 17:20:07 INFO  - Button 'tabBooks' :: Clicking
+2023-02-25 17:20:07 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-25 17:20:08 INFO  - Label 'lblBookName' :: Clicking
+2023-02-25 17:20:09 INFO  - Step 18 - Click READ action button on book details screen
+2023-02-25 17:20:10 INFO  - Button 'Read' :: Clicking
+2023-02-25 17:20:10 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-02-25 17:20:10 INFO  - context - NATIVE_APP
+2023-02-25 17:20:11 INFO  - context - NATIVE_APP
+2023-02-25 17:20:12 INFO  - context - NATIVE_APP
+2023-02-25 17:20:13 INFO  - context - NATIVE_APP
+2023-02-25 17:20:13 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-25 17:20:14 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-25 17:20:14 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Miscarriages of Justice</title>
+<link rel="stylesheet" type="text/css" href="9781845630966.css" />
+
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h2 class="h2c"><a id="intro"></a><a id="page_7"></a>Introduction</h2>
+<p class="noindent">In the twentieth century a total of 865 people were executed in the United Kingdom. In the years since the abolition of capital punishment just four of those people have received posthumous pardons: Timothy John Evans, Derek William Bentley, Mahmood Hussein Mattan and George Kelly.</p>
+<p class="indent">It may be that the reader believes that it is acceptable that four innocent men were hanged, out of a total of 865, but when one has researched every single one of those cases, as I have, then the number who may well have been innocent appears to rise. It is my personal opinion that there was either a reasonable doubt, or obvious signs of mental instability – or some other factor that indicates that there should not have been an execution, in over 100 of those cases.</p>
+<p class="indent">Yet this only covers the cases where someone was actually put to death. If one adds other cases where the death sentence was commuted, or where a life sentence was given after capital punishment had been abolished, then the number rises even further.</p>
+<p class="indent">This book looks at just nine cases, involving twelve people who were tried for murder. Of those twelve, nine were sentenced to death and eight actually executed. More importantly, five of those twelve have since been pardoned. And these are only cases from London; what of those from the rest of the country?</p>
+<p class="indent">Read the stories for yourself and decide whether you would really sanction either the execution, or the imprisonment for years, of those whose stories are told in these pages.</p>
+</body>
+</html>
+2023-02-25 17:20:14 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-25 17:20:14 INFO  - Step 20 - I return to previous screen from epub
+2023-02-25 17:20:15 INFO  - Button 'btnBack' :: Clicking
+2023-02-25 17:20:15 INFO  - Step 21 - Click READ action button on book details screen
+2023-02-25 17:20:17 INFO  - Button 'Read' :: Clicking
+2023-02-25 17:20:17 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-02-25 17:20:17 INFO  - context - NATIVE_APP
+2023-02-25 17:20:17 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-25 17:20:19 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-25 17:20:19 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Miscarriages of Justice</title>
+<link rel="stylesheet" type="text/css" href="9781845630966.css" />
+
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h2 class="h2c"><a id="intro"></a><a id="page_7"></a>Introduction</h2>
+<p class="noindent">In the twentieth century a total of 865 people were executed in the United Kingdom. In the years since the abolition of capital punishment just four of those people have received posthumous pardons: Timothy John Evans, Derek William Bentley, Mahmood Hussein Mattan and George Kelly.</p>
+<p class="indent">It may be that the reader believes that it is acceptable that four innocent men were hanged, out of a total of 865, but when one has researched every single one of those cases, as I have, then the number who may well have been innocent appears to rise. It is my personal opinion that there was either a reasonable doubt, or obvious signs of mental instability – or some other factor that indicates that there should not have been an execution, in over 100 of those cases.</p>
+<p class="indent">Yet this only covers the cases where someone was actually put to death. If one adds other cases where the death sentence was commuted, or where a life sentence was given after capital punishment had been abolished, then the number rises even further.</p>
+<p class="indent">This book looks at just nine cases, involving twelve people who were tried for murder. Of those twelve, nine were sentenced to death and eight actually executed. More importantly, five of those twelve have since been pardoned. And these are only cases from London; what of those from the rest of the country?</p>
+<p class="indent">Read the stories for yourself and decide whether you would really sanction either the execution, or the imprisonment for years, of those whose stories are told in these pages.</p>
+</body>
+</html>
+2023-02-25 17:20:19 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-25 17:20:19 INFO  - Step 23 - I save font size as 'fontSize'
+2023-02-25 17:20:19 INFO  - context - NATIVE_APP
+2023-02-25 17:20:19 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-25 17:20:20 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-25 17:20:20 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Miscarriages of Justice</title>
+<link rel="stylesheet" type="text/css" href="9781845630966.css" />
+
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h2 class="h2c"><a id="intro"></a><a id="page_7"></a>Introduction</h2>
+<p class="noindent">In the twentieth century a total of 865 people were executed in the United Kingdom. In the years since the abolition of capital punishment just four of those people have received posthumous pardons: Timothy John Evans, Derek William Bentley, Mahmood Hussein Mattan and George Kelly.</p>
+<p class="indent">It may be that the reader believes that it is acceptable that four innocent men were hanged, out of a total of 865, but when one has researched every single one of those cases, as I have, then the number who may well have been innocent appears to rise. It is my personal opinion that there was either a reasonable doubt, or obvious signs of mental instability – or some other factor that indicates that there should not have been an execution, in over 100 of those cases.</p>
+<p class="indent">Yet this only covers the cases where someone was actually put to death. If one adds other cases where the death sentence was commuted, or where a life sentence was given after capital punishment had been abolished, then the number rises even further.</p>
+<p class="indent">This book looks at just nine cases, involving twelve people who were tried for murder. Of those twelve, nine were sentenced to death and eight actually executed. More importantly, five of those twelve have since been pardoned. And these are only cases from London; what of those from the rest of the country?</p>
+<p class="indent">Read the stories for yourself and decide whether you would really sanction either the execution, or the imprisonment for years, of those whose stories are told in these pages.</p>
+</body>
+</html>
+2023-02-25 17:20:20 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-25 17:20:20 INFO  - Step 24 - I open font settings
+2023-02-25 17:20:21 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-25 17:20:21 INFO  - Step 25 - I DECREASE_FONT of text
+2023-02-25 17:20:21 INFO  - Button 'setTextSmaller' :: Clicking
+2023-02-25 17:20:22 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-02-25 17:20:22 INFO  - context - NATIVE_APP
+2023-02-25 17:20:22 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-25 17:20:23 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-25 17:20:23 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Miscarriages of Justice</title>
+<link rel="stylesheet" type="text/css" href="9781845630966.css" />
+
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h2 class="h2c"><a id="intro"></a><a id="page_7"></a>Introduction</h2>
+<p class="noindent">In the twentieth century a total of 865 people were executed in the United Kingdom. In the years since the abolition of capital punishment just four of those people have received posthumous pardons: Timothy John Evans, Derek William Bentley, Mahmood Hussein Mattan and George Kelly.</p>
+<p class="indent">It may be that the reader believes that it is acceptable that four innocent men were hanged, out of a total of 865, but when one has researched every single one of those cases, as I have, then the number who may well have been innocent appears to rise. It is my personal opinion that there was either a reasonable doubt, or obvious signs of mental instability – or some other factor that indicates that there should not have been an execution, in over 100 of those cases.</p>
+<p class="indent">Yet this only covers the cases where someone was actually put to death. If one adds other cases where the death sentence was commuted, or where a life sentence was given after capital punishment had been abolished, then the number rises even further.</p>
+<p class="indent">This book looks at just nine cases, involving twelve people who were tried for murder. Of those twelve, nine were sentenced to death and eight actually executed. More importantly, five of those twelve have since been pardoned. And these are only cases from London; what of those from the rest of the country?</p>
+<p class="indent">Read the stories for yourself and decide whether you would really sanction either the execution, or the imprisonment for years, of those whose stories are told in these pages.</p>
+</body>
+</html>
+2023-02-25 17:20:23 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-25 17:20:23 INFO  - Taking screenshot
+2023-02-25 17:20:24 INFO  - Test finished - logging out
+2023-02-25 17:20:26 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 17:20:28 INFO  - Button 'tabSettings' :: Clicking
+2023-02-25 17:20:29 INFO  - Button 'Accounts' :: Clicking
+2023-02-25 17:20:30 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 17:20:32 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 17:20:32 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 17:20:33 INFO  - Button 'Log out' :: Clicking
+2023-02-25 17:20:33 INFO  - Button 'Log in' :: Getting text from element
+2023-02-25 17:20:38 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 17:20:39 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 17:20:39 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1a5e536e
