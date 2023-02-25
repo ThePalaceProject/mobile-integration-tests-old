@@ -1,0 +1,28 @@
+2023-02-25 06:04:18 INFO  - Scenario 'Palace: Check of canceling the downloading from book details view' start
+2023-02-25 06:04:18 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-25 06:04:53 INFO  - Application on platform 'IOS' is ready...
+2023-02-25 06:04:53 INFO  - Session id - bd89ef6a69be84a1f508653965efa4a17b56f27a
+2023-02-25 06:04:53 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2023-02-25 06:04:53 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-25 06:04:54 INFO  - Button 'Find your library button' :: Clicking
+2023-02-25 06:04:55 INFO  - Text Field 'Search field' :: Clicking
+2023-02-25 06:05:02 INFO  - Text Field 'Search field' :: Clearing
+2023-02-25 06:05:02 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-02-25 06:05:13 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-02-25 06:05:15 INFO  - Step 1 - I open Catalog
+2023-02-25 06:05:15 INFO  - Button 'Catalog' :: Clicking
+2023-02-25 06:05:17 INFO  - Step 2 - I open search modal
+2023-02-25 06:05:17 INFO  - Button 'Search button' :: Clicking
+2023-02-25 06:05:19 INFO  - Step 3 - I search for "The Ragged Edge" and save bookName as 'bookNameInfo'
+2023-02-25 06:05:20 INFO  - Text Field 'Search value input' :: Sending keys 'The Ragged Edge'
+2023-02-25 06:05:21 INFO  - Button 'Search' :: Clicking
+2023-02-25 06:05:23 INFO  - Step 4 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 06:05:25 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 06:05:26 INFO  - Label 'lblBookName' :: Clicking
+2023-02-25 06:05:30 INFO  - Step 5 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-02-25 06:05:30 INFO  - Button 'Get' :: Clicking
+2023-02-25 06:05:31 INFO  - Button 'Cancel' :: Clicking
+2023-02-25 06:05:33 INFO  - Step 6 - I check that book contains DOWNLOAD action button on book details screen
+2023-02-25 06:05:34 INFO  - Step 7 - I check that book contains DELETE action button on book details screen
+2023-02-25 06:05:35 INFO  - Taking screenshot
+2023-02-25 06:05:37 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@343a0ddd
