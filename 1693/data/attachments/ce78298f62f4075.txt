@@ -1,0 +1,57 @@
+2023-02-25 02:28:26 INFO  - Scenario 'LYRASIS: Biblioboard audiobooks: Check of canceling the downloading from book details view' start
+2023-02-25 02:28:26 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-25 02:29:26 INFO  - Application on platform 'IOS' is ready...
+2023-02-25 02:29:26 INFO  - Session id - 3b631182524678c29f5fcec48d81f8fb13d18ef5
+2023-02-25 02:29:26 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-25 02:29:27 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-25 02:29:27 INFO  - Button 'Find your library button' :: Clicking
+2023-02-25 02:29:28 INFO  - Text Field 'Search field' :: Clicking
+2023-02-25 02:29:34 INFO  - Text Field 'Search field' :: Clearing
+2023-02-25 02:29:34 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-25 02:29:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 02:29:47 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-25 02:29:47 INFO  - Button 'Settings' :: Clicking
+2023-02-25 02:29:47 INFO  - Button 'Settings' :: Clicking
+2023-02-25 02:29:48 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 02:29:50 INFO  - Locking credential with barcode 01230000000306
+2023-02-25 02:29:50 INFO  - There are books on the account: 
+2023-02-25 02:29:52 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-02-25 02:29:52 INFO  - Count of books on the account after opening account: 1
+2023-02-25 02:30:13 INFO  - Text Field 'Card' :: Clicking
+2023-02-25 02:30:14 INFO  - Text Field 'Card' :: Clearing
+2023-02-25 02:30:14 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-25 02:30:16 INFO  - Text Field 'Pin' :: Clearing
+2023-02-25 02:30:16 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-25 02:30:19 INFO  - Button 'Log in' :: Clicking
+2023-02-25 02:30:28 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-25 02:30:30 INFO  - Step 2 - Login is performed successfully
+2023-02-25 02:30:31 INFO  - Step 3 - I open Catalog
+2023-02-25 02:30:31 INFO  - Button 'Catalog' :: Clicking
+2023-02-25 02:30:33 INFO  - Step 4 - I open search modal
+2023-02-25 02:30:34 INFO  - Button 'Search button' :: Clicking
+2023-02-25 02:30:36 INFO  - Step 5 - I search for "Let's Hear It For Beagles" and save bookName as 'bookNameInfo'
+2023-02-25 02:30:36 INFO  - Text Field 'Search value input' :: Sending keys 'Let's Hear It For Beagles'
+2023-02-25 02:30:37 INFO  - Button 'Search' :: Clicking
+2023-02-25 02:30:40 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2023-02-25 02:30:40 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-25 02:31:22 INFO  - Step 7 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 02:31:24 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 02:31:26 INFO  - Label 'lblBookName' :: Clicking
+2023-02-25 02:31:27 INFO  - Step 8 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-02-25 02:31:27 INFO  - Button 'Get' :: Clicking
+2023-02-25 02:31:29 INFO  - Button 'Cancel' :: Clicking
+2023-02-25 02:31:32 INFO  - Step 9 - I check that book contains DOWNLOAD action button on book details screen
+2023-02-25 02:31:34 INFO  - Step 10 - I check that book contains RETURN action button on book details screen
+2023-02-25 02:31:35 INFO  - Taking screenshot
+2023-02-25 02:31:37 INFO  - Test finished - logging out
+2023-02-25 02:31:41 INFO  - Button 'Settings' :: Clicking
+2023-02-25 02:31:42 INFO  - Button 'Settings' :: Clicking
+2023-02-25 02:31:42 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 02:31:45 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 02:31:45 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 02:31:46 INFO  - Button 'Log out' :: Clicking
+2023-02-25 02:31:47 INFO  - Button 'Log out approve' :: Clicking
+2023-02-25 02:32:09 INFO  - Button 'Log in' :: Getting text from element
+2023-02-25 02:32:10 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 02:32:10 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 02:32:11 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@473478a0

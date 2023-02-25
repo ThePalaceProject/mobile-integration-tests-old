@@ -1,0 +1,72 @@
+2023-02-25 03:33:34 INFO  - Scenario 'BiblioBoard: Check of not rewinding forward and back by tapping on time bar' start
+2023-02-25 03:33:34 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-25 03:34:04 INFO  - Application on platform 'IOS' is ready...
+2023-02-25 03:34:05 INFO  - Session id - 614fe3ff5abcdbdfd79f0b8a40fcf9030bb94f32
+2023-02-25 03:34:05 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-25 03:34:05 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-25 03:34:06 INFO  - Button 'Find your library button' :: Clicking
+2023-02-25 03:34:07 INFO  - Text Field 'Search field' :: Clicking
+2023-02-25 03:34:15 INFO  - Text Field 'Search field' :: Clearing
+2023-02-25 03:34:15 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-25 03:34:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 03:34:29 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-25 03:34:29 INFO  - Button 'Settings' :: Clicking
+2023-02-25 03:34:31 INFO  - Button 'Settings' :: Clicking
+2023-02-25 03:34:32 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 03:34:34 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-25 03:34:34 INFO  - Button 'Settings' :: Clicking
+2023-02-25 03:34:35 INFO  - Button 'Settings' :: Clicking
+2023-02-25 03:34:36 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 03:34:40 INFO  - Locking credential with barcode 01230000000306
+2023-02-25 03:34:40 INFO  - There are books on the account: 
+2023-02-25 03:34:41 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-02-25 03:34:41 INFO  - Count of books on the account after opening account: 1
+2023-02-25 03:35:03 INFO  - Text Field 'Card' :: Clicking
+2023-02-25 03:35:04 INFO  - Text Field 'Card' :: Clearing
+2023-02-25 03:35:04 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-02-25 03:35:08 INFO  - Text Field 'Pin' :: Clearing
+2023-02-25 03:35:08 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-25 03:35:11 INFO  - Button 'Log in' :: Clicking
+2023-02-25 03:35:20 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-25 03:35:23 INFO  - Step 3 - Login is performed successfully
+2023-02-25 03:35:24 INFO  - Step 4 - I open Catalog
+2023-02-25 03:35:24 INFO  - Button 'Catalog' :: Clicking
+2023-02-25 03:35:27 INFO  - Step 5 - I open search modal
+2023-02-25 03:35:28 INFO  - Button 'Search button' :: Clicking
+2023-02-25 03:35:31 INFO  - Step 6 - I search for "Daykeeper" and save bookName as 'bookNameInfo'
+2023-02-25 03:35:33 INFO  - Text Field 'Search value input' :: Sending keys 'Daykeeper'
+2023-02-25 03:35:34 INFO  - Button 'Search' :: Clicking
+2023-02-25 03:35:37 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-02-25 03:35:37 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-25 03:36:19 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 03:36:21 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 03:36:23 INFO  - Label 'lblBookName' :: Clicking
+2023-02-25 03:36:24 INFO  - Step 9 - Click GET action button on book details screen
+2023-02-25 03:36:26 INFO  - Button 'Get' :: Clicking
+2023-02-25 03:36:48 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-02-25 03:36:49 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-02-25 03:36:50 INFO  - Button 'Listen' :: Clicking
+2023-02-25 03:37:12 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-02-25 03:37:13 INFO  - Step 13 - Tap play button on audio player screen
+2023-02-25 03:37:13 INFO  - Button 'btnPlay' :: Clicking
+2023-02-25 03:37:14 INFO  - Step 14 - Pause button is present on audio player screen
+2023-02-25 03:37:15 INFO  - Step 15 - Tap pause button on audio player screen
+2023-02-25 03:37:15 INFO  - Button 'btnPause' :: Clicking
+2023-02-25 03:37:16 INFO  - Step 16 - Play button is present on audio player screen
+2023-02-25 03:37:16 INFO  - Step 17 - I stretch slider on the time tracking line forward on audio player screen
+2023-02-25 03:37:19 INFO  - Step 18 - Wait for 5 seconds
+2023-02-25 03:37:25 INFO  - Step 19 - Save book play time as 'timeBehind' on audio player screen
+2023-02-25 03:37:25 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2023-02-25 03:37:45 INFO  - Taking screenshot
+2023-02-25 03:37:49 INFO  - Test finished - logging out
+2023-02-25 03:37:52 INFO  - Button 'Settings' :: Clicking
+2023-02-25 03:37:53 INFO  - Button 'Settings' :: Clicking
+2023-02-25 03:37:54 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 03:37:58 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 03:37:59 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 03:38:01 INFO  - Button 'Log out' :: Clicking
+2023-02-25 03:38:02 INFO  - Button 'Log out approve' :: Clicking
+2023-02-25 03:38:24 INFO  - Button 'Log in' :: Getting text from element
+2023-02-25 03:38:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 03:38:26 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 03:38:27 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@455de3a9
