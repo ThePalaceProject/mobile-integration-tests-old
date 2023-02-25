@@ -1,0 +1,60 @@
+2023-02-25 10:43:31 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-02-25 10:43:31 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-25 10:44:04 INFO  - Application on platform 'IOS' is ready...
+2023-02-25 10:44:04 INFO  - Session id - 15c9c11bdb1c0107f05e4b52c38bfc0e05b23fef
+2023-02-25 10:44:04 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-25 10:44:04 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-25 10:44:05 INFO  - Button 'Find your library button' :: Clicking
+2023-02-25 10:44:05 INFO  - Text Field 'Search field' :: Clicking
+2023-02-25 10:44:11 INFO  - Text Field 'Search field' :: Clearing
+2023-02-25 10:44:11 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-25 10:44:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 10:44:25 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-02-25 10:44:25 INFO  - Button 'Settings' :: Clicking
+2023-02-25 10:44:26 INFO  - Button 'Settings' :: Clicking
+2023-02-25 10:44:26 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 10:44:29 INFO  - Locking credential with barcode 01230000000304
+2023-02-25 10:44:29 INFO  - There are books on the account: 
+2023-02-25 10:44:29 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-25 10:44:29 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-02-25 10:44:29 INFO  - Count of books on the account after opening account: 2
+2023-02-25 10:44:51 INFO  - Text Field 'Card' :: Clicking
+2023-02-25 10:44:52 INFO  - Text Field 'Card' :: Clearing
+2023-02-25 10:44:52 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-25 10:44:55 INFO  - Text Field 'Pin' :: Clearing
+2023-02-25 10:44:55 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-25 10:44:58 INFO  - Button 'Log in' :: Clicking
+2023-02-25 10:45:10 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-25 10:45:12 INFO  - Step 2 - Login is performed successfully
+2023-02-25 10:45:13 INFO  - Step 3 - I open Catalog
+2023-02-25 10:45:13 INFO  - Button 'Catalog' :: Clicking
+2023-02-25 10:45:15 INFO  - Step 4 - I open search modal
+2023-02-25 10:45:16 INFO  - Button 'Search button' :: Clicking
+2023-02-25 10:45:18 INFO  - Step 5 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-25 10:45:18 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-25 10:45:18 INFO  - randomBookName: Quicksand
+2023-02-25 10:45:20 INFO  - Text Field 'Search value input' :: Sending keys 'Quicksand'
+2023-02-25 10:45:21 INFO  - Button 'Search' :: Clicking
+2023-02-25 10:45:24 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-02-25 10:45:24 INFO  - Button 'eBooks' :: Clicking
+2023-02-25 10:46:06 INFO  - Step 7 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 10:46:07 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 10:46:08 INFO  - Label 'lblBookName' :: Clicking
+2023-02-25 10:46:09 INFO  - Step 8 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-02-25 10:46:09 INFO  - Button 'Get' :: Clicking
+2023-02-25 10:46:11 INFO  - Button 'Cancel' :: Clicking
+2023-02-25 10:46:14 INFO  - Step 9 - I check that book contains DOWNLOAD action button on book details screen
+2023-02-25 10:46:16 INFO  - Step 10 - I check that book contains RETURN action button on book details screen
+2023-02-25 10:46:18 INFO  - Taking screenshot
+2023-02-25 10:46:21 INFO  - Test finished - logging out
+2023-02-25 10:46:24 INFO  - Button 'Settings' :: Clicking
+2023-02-25 10:46:25 INFO  - Button 'Settings' :: Clicking
+2023-02-25 10:46:26 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 10:46:29 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 10:46:30 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 10:46:31 INFO  - Button 'Log out' :: Clicking
+2023-02-25 10:46:32 INFO  - Button 'Log out approve' :: Clicking
+2023-02-25 10:46:53 INFO  - Button 'Log in' :: Getting text from element
+2023-02-25 10:46:54 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-25 10:46:55 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-25 10:46:56 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5b1cb59c

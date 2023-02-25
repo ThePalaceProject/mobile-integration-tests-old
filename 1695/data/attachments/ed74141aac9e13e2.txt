@@ -1,0 +1,67 @@
+2023-02-25 12:10:12 INFO  - Scenario 'Check valid data in searching Lyrasis' start
+2023-02-25 12:10:12 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-25 12:10:49 INFO  - Application on platform 'IOS' is ready...
+2023-02-25 12:10:49 INFO  - Session id - 010d57aaf2e7110d6df2c486369a1cf4c9bac4a9
+2023-02-25 12:10:49 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-25 12:10:50 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-25 12:10:50 INFO  - Button 'Find your library button' :: Clicking
+2023-02-25 12:10:51 INFO  - Text Field 'Search field' :: Clicking
+2023-02-25 12:10:57 INFO  - Text Field 'Search field' :: Clearing
+2023-02-25 12:10:57 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-25 12:11:08 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 12:11:10 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-25 12:11:10 INFO  - Button 'Settings' :: Clicking
+2023-02-25 12:11:11 INFO  - Button 'Settings' :: Clicking
+2023-02-25 12:11:12 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 12:11:13 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-25 12:11:13 INFO  - Button 'Settings' :: Clicking
+2023-02-25 12:11:14 INFO  - Button 'Settings' :: Clicking
+2023-02-25 12:11:15 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 12:11:17 INFO  - Locking credential with barcode 01230000000305
+2023-02-25 12:11:17 INFO  - There are books on the account: 
+2023-02-25 12:11:18 INFO  - bookName: European Resistance in the Second World War Distributor: Palace Marketplace
+2023-02-25 12:11:18 INFO  - bookName: Amazing Stories Volume 80 Distributor: Palace Marketplace
+2023-02-25 12:11:18 INFO  - bookName: Moon at the Full Distributor: Palace Marketplace
+2023-02-25 12:11:18 INFO  - Count of books on the account after opening account: 3
+2023-02-25 12:11:40 INFO  - Text Field 'Card' :: Clicking
+2023-02-25 12:11:41 INFO  - Text Field 'Card' :: Clearing
+2023-02-25 12:11:41 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-25 12:11:44 INFO  - Text Field 'Pin' :: Clearing
+2023-02-25 12:11:44 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-25 12:11:47 INFO  - Button 'Log in' :: Clicking
+2023-02-25 12:11:55 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-25 12:11:57 INFO  - Step 3 - Login is performed successfully
+2023-02-25 12:11:58 INFO  - Step 4 - I open Catalog
+2023-02-25 12:11:58 INFO  - Button 'Catalog' :: Clicking
+2023-02-25 12:12:01 INFO  - Step 5 - I open search modal
+2023-02-25 12:12:02 INFO  - Button 'Search button' :: Clicking
+2023-02-25 12:12:04 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-25 12:12:04 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-25 12:12:04 INFO  - randomBookName: Monster Cookbook :
+2023-02-25 12:12:05 INFO  - Text Field 'Search value input' :: Sending keys 'Monster Cookbook :'
+2023-02-25 12:12:07 INFO  - Button 'Search' :: Clicking
+2023-02-25 12:12:10 INFO  - Step 7 - I switch to 'eBooks' catalog tab
+2023-02-25 12:12:10 INFO  - Button 'eBooks' :: Clicking
+2023-02-25 12:12:53 INFO  - Step 8 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 12:12:55 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 12:12:57 INFO  - Button 'actionButton' :: Clicking
+2023-02-25 12:13:20 INFO  - Step 9 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-02-25 12:13:23 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 12:13:26 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 12:13:27 INFO  - Label 'lblBookName' :: Clicking
+2023-02-25 12:13:29 INFO  - Step 11 - Click READ action button on book details screen
+2023-02-25 12:13:31 INFO  - Button 'Read' :: Clicking
+2023-02-25 12:13:54 INFO  - Step 12 - Reader pdf screen is opened
+2023-02-25 12:13:55 INFO  - Step 13 - I open search pdf screen
+2023-02-25 12:13:55 INFO  - Button 'Search button' :: Clicking
+2023-02-25 12:13:56 INFO  - Step 14 - Search pdf screen is opened
+2023-02-25 12:13:57 INFO  - Step 15 - I enter word CAT and save as 'data' on search pdf screen
+2023-02-25 12:13:57 INFO  - Text Field 'Search line' :: Sending keys 'CAT'
+2023-02-25 12:13:59 INFO  - Step 16 - Search result is shown on search pdf screen
+2023-02-25 12:13:59 INFO  - Text Field 'Search line' :: Getting text from element
+2023-02-25 12:14:00 INFO  - Taking screenshot
+2023-02-25 12:14:03 INFO  - Test finished - logging out
+2023-02-25 12:14:06 INFO  - Button 'Settings' :: Clicking
+2023-02-25 12:14:07 INFO  - Button 'Settings' :: Clicking
+2023-02-25 12:14:07 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 12:14:10 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5b1cb59c

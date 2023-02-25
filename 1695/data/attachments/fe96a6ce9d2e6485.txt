@@ -1,0 +1,64 @@
+2023-02-25 09:33:54 INFO  - Scenario 'Font settings: Check of font style' start
+2023-02-25 09:33:54 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-25 09:34:26 INFO  - Application on platform 'IOS' is ready...
+2023-02-25 09:34:26 INFO  - Session id - 3533ca944c89be989e89838e58e714119e2c6395
+2023-02-25 09:34:26 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-25 09:34:26 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-25 09:34:27 INFO  - Button 'Find your library button' :: Clicking
+2023-02-25 09:34:28 INFO  - Text Field 'Search field' :: Clicking
+2023-02-25 09:34:34 INFO  - Text Field 'Search field' :: Clearing
+2023-02-25 09:34:34 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-25 09:34:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-25 09:34:46 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-25 09:34:47 INFO  - Button 'Settings' :: Clicking
+2023-02-25 09:34:48 INFO  - Button 'Settings' :: Clicking
+2023-02-25 09:34:48 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 09:34:50 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-25 09:34:50 INFO  - Button 'Settings' :: Clicking
+2023-02-25 09:34:51 INFO  - Button 'Settings' :: Clicking
+2023-02-25 09:34:51 INFO  - Button 'Libraries button' :: Clicking
+2023-02-25 09:34:54 INFO  - Locking credential with barcode 01230000000305
+2023-02-25 09:34:54 INFO  - There are books on the account: 
+2023-02-25 09:34:55 INFO  - bookName: Amazing Stories Volume 80 Distributor: Palace Marketplace
+2023-02-25 09:34:55 INFO  - bookName: European Resistance in the Second World War Distributor: Palace Marketplace
+2023-02-25 09:34:55 INFO  - bookName: Legacy of the Lions Distributor: Palace Marketplace
+2023-02-25 09:34:55 INFO  - bookName: Shadows of Swanford Abbey Distributor: Bibliotheca
+2023-02-25 09:34:55 INFO  - bookName: Moon at the Full Distributor: Palace Marketplace
+2023-02-25 09:34:55 INFO  - Count of books on the account after opening account: 5
+2023-02-25 09:35:17 INFO  - Text Field 'Card' :: Clicking
+2023-02-25 09:35:17 INFO  - Text Field 'Card' :: Clearing
+2023-02-25 09:35:17 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-02-25 09:35:20 INFO  - Text Field 'Pin' :: Clearing
+2023-02-25 09:35:20 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-25 09:35:23 INFO  - Button 'Log in' :: Clicking
+2023-02-25 09:35:31 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-02-25 09:35:33 INFO  - Step 3 - Login is performed successfully
+2023-02-25 09:35:34 INFO  - Step 4 - I open Catalog
+2023-02-25 09:35:34 INFO  - Button 'Catalog' :: Clicking
+2023-02-25 09:35:37 INFO  - Step 5 - I open search modal
+2023-02-25 09:35:39 INFO  - Button 'Search button' :: Clicking
+2023-02-25 09:35:41 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-25 09:35:41 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-25 09:35:41 INFO  - randomBookName: The Bucket List
+2023-02-25 09:35:42 INFO  - Text Field 'Search value input' :: Sending keys 'The Bucket List'
+2023-02-25 09:35:43 INFO  - Button 'Search' :: Clicking
+2023-02-25 09:35:47 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 09:36:00 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 09:36:03 INFO  - Button 'actionButton' :: Clicking
+2023-02-25 09:36:29 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-25 09:36:35 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-25 09:36:36 INFO  - Label 'lblBookName' :: Clicking
+2023-02-25 09:36:38 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-25 09:36:40 INFO  - Button 'Read' :: Clicking
+2023-02-25 09:37:03 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-02-25 09:37:03 INFO  - Scrolling 8 times on reader epub screen
+2023-02-25 09:37:24 INFO  - Step 11 - I open font settings
+2023-02-25 09:37:25 INFO  - Button 'Font Settings' :: Clicking
+2023-02-25 09:37:27 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-02-25 09:37:27 INFO  - Button 'Serif font' :: Clicking
+2023-02-25 09:37:28 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-02-25 09:37:29 INFO  - count of contextHandles-8
+2023-02-25 09:37:35 INFO  - Taking screenshot
+2023-02-25 09:37:35 INFO  - Test finished - logging out
+2023-02-25 09:37:37 INFO  - Button 'Settings' :: Clicking
+2023-02-25 09:37:37 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@69e61cc4
