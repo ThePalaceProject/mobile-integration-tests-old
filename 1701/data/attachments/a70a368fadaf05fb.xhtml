@@ -1,0 +1,139 @@
+2023-02-26 08:26:45 INFO  - Scenario 'Font settings: Check of font style' start
+2023-02-26 08:26:45 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-26 08:27:18 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-26 08:27:18 INFO  - Session id - 63729f720fb568403d5f0b74e46aecbfa60cc804
+2023-02-26 08:27:18 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-26 08:27:18 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-26 08:27:21 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-26 08:27:22 INFO  - Button 'Search' :: Clicking
+2023-02-26 08:27:24 INFO  - Text Field 'Search' :: Clearing
+2023-02-26 08:27:24 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-26 08:27:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-26 08:27:27 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-26 08:27:27 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 08:27:28 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 08:27:29 INFO  - Button 'Accounts' :: Clicking
+2023-02-26 08:27:31 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-26 08:27:31 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 08:27:31 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 08:27:32 INFO  - Button 'Accounts' :: Clicking
+2023-02-26 08:27:33 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-26 08:27:34 INFO  - Locking credential with barcode 01230000000303
+2023-02-26 08:27:34 INFO  - There are books on the account: 
+2023-02-26 08:27:35 INFO  - bookName: The Debt Trap Distributor: Palace Marketplace
+2023-02-26 08:27:35 INFO  - Count of books on the account after opening account: 1
+2023-02-26 08:27:35 INFO  - Text Field 'Card' :: Clearing
+2023-02-26 08:27:35 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-26 08:27:36 INFO  - Text Field 'Pin' :: Clearing
+2023-02-26 08:27:36 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-26 08:27:37 INFO  - Button 'Log in' :: Clicking
+2023-02-26 08:27:43 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-26 08:27:43 INFO  - Step 3 - Login is performed successfully
+2023-02-26 08:28:04 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-26 08:28:04 INFO  - Step 4 - I open Catalog
+2023-02-26 08:28:04 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-26 08:28:29 INFO  - Step 5 - I open search modal
+2023-02-26 08:28:49 INFO  - Button 'Search' :: Clicking
+2023-02-26 08:28:50 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-26 08:28:50 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-02-26 08:28:50 INFO  - randomBookName: Transient Desires
+2023-02-26 08:28:50 INFO  - Error details button is not present
+2023-02-26 08:28:51 INFO  - Text Field 'Search value input' :: Sending keys 'Transient Desires'
+2023-02-26 08:28:52 INFO  - Error details button is not present
+2023-02-26 08:28:56 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-26 08:28:57 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-26 08:28:57 INFO  - Button 'actionButton' :: Clicking
+2023-02-26 08:29:02 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-26 08:29:03 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-26 08:29:03 INFO  - Label 'lblBookName' :: Clicking
+2023-02-26 08:29:04 INFO  - Step 9 - Click READ action button on book details screen
+2023-02-26 08:29:05 INFO  - Button 'Read' :: Clicking
+2023-02-26 08:29:05 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-02-26 08:29:05 INFO  - Scrolling 7 times on reader epub screen
+2023-02-26 08:29:26 INFO  - Step 11 - I open font settings
+2023-02-26 08:29:28 INFO  - Button 'btnFontSettings' :: Clicking
+2023-02-26 08:29:28 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-02-26 08:29:28 INFO  - Button 'setFontSerif' :: Clicking
+2023-02-26 08:29:29 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-02-26 08:29:29 INFO  - context - NATIVE_APP
+2023-02-26 08:29:29 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-26 08:29:30 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-02-26 08:29:30 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>9780802158192-7</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:863b6a05-3b1f-41cf-ba37-8c868b16018b" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="x9780802158192-7" xml:lang="en-GB">
+		<div class="Basic-Text-Frame">
+			<p class="chapter-number" id="_idParaDest-8">2</p>
+			<p class="TX1">Brunetti continued up to his office, his story to the Vice-Questore about telephone problems still on his mind. What might be called the infrastructure of the Questura was, not to put too fine a point on it, a mess, and thus Brunetti’s invention was completely credible. The heating system was quixotic and throughout the winter shifted its faint results from side to side of the building as it willed; there was no air conditioning save in a few select offices. The electricity functioned, more or less, although occasional surges of current had killed a few computers and one printer. By now, the staff was so inured that the occasional exploding light bulb was treated as no more than a presage of the fireworks of Redentore; the plumbing was rarely a problem; the roof leaked only in two places, and most of the windows could be closed, though some didn’t open.</p>
+			<p class="TX">As he climbed the steps, Brunetti thought of the ways he resembled the building, with a bit of stiffness here, something that occasionally malfunctioned there, but he soon ran out of comparisons. The original thought, however, prompted him to drop his hand from the railing and stand a bit straighter as he climbed the stairs.</p>
+			<p class="TX">Inside his office, Brunetti tossed the newspaper he’d bought in Campo Santa Marina on to his desk. He found the room uncomfortably warm and went to open a window. The view from here had been improved, he was forced to admit, by the general sprucing-up of the church and the removal of the condominium. But still he missed the cats.</p>
+			<p class="TX">He took his phone from his pocket and punched in Paola’s number. It rang a few times before she answered. ‘<em class="I _idGenCharOverride-1">Sì?</em>’ she asked. Only that.</p>
+			<p class="TX">‘Ah,’ Brunetti exclaimed, forcing his voice into a deeper register, ‘The voice of love responds, and my heart opens, brimming with the joy of . . . ?’</p>
+			<p class="TX">‘What is it, Guido?’ Then, before he could respond to the definite chill in her voice, she added, ‘I’m here with one of my students.’</p>
+			<p class="TX">Brunetti, who had been about to ask her what she planned to cook for dinner, instead said, ‘I wanted only to declare the enormity of my love, my dear.’</p>
+			<p class="TX">‘Thank you so much,’ she said and broke the connection without even bothering to wait for him to indulge in some romantic invention.</p>
+			<p class="TX">He glanced at the newspaper and decided it would be preferable to the reports that sat unread on his desk. It might provide information about what was happening in the world that began at the end of the Ponte della Libertà. He often chastised the children for their lack of curiosity, not only about their own country, but about the wider world, as well. How would they be able to take their place as citizens if they knew nothing about their leaders, the laws, the alliances that bound them to Europe and to places beyond?</p>
+			<p class="TX">Even before he opened the <em class="I _idGenCharOverride-1">Gazzettino</em>, Brunetti had outlined a speech in praise of patriotism that would have done Cicero proud. He’d had no trouble with the <em class="I _idGenCharOverride-1">Narratio</em>: the children were ignorant of the current state of politics in their own country. The <em class="I _idGenCharOverride-1">Refutatio</em> was child’s play: he’d easily punched away any claim that Italy was a pawn in a geopolitical game being played by Germany and France. He was halfway through the <em class="I _idGenCharOverride-1">Peroratio</em>, enjoining them to assume the full responsibility of their citizenship, and approaching the end of his discourse when his eye fell on that day’s headline ‘<em class="I _idGenCharOverride-1">Morta la moglie strangolata: Una settimana di agonia</em>.’ So she had died, the young woman strangled by her heroin-addicted husband, but not before a week of agony, poor thing. She left one child. As was often the case, they were in the midst of getting a separation. Indeed.</p>
+			<p class="TX">He noticed a small article about two young women, identified as American, who had been found on the dock outside the Emergency Room of the Ospedale Civile in the early hours of Sunday morning. The article gave their names and reported that one had a broken arm.</p>
+			<p class="TX">Inexorably, his eye was drawn to the article below: this one dealt with the ongoing search at an abandoned pig farm near Bassano, where the remains of the two wives of the former owner – he now dead of natural causes – had been discovered. And now there were traces of a third woman, whom neighbours said had lived there for some time, and then didn’t.</p>
+			<p class="TX">It was the word ‘traces’ that drove Brunetti to his feet and down the stairs. Outside, on the <em class="I _idGenCharOverride-1">riva</em>, he turned right, his body in sole command, and went down to the bar, heedless of anything save the urgent need to distract himself from the effect of that word.</p>
+			<p class="TX">When Brunetti entered, he saw that Bamba Diome, the Senegalese barman, had come on shift and replaced his employer behind the bar. Brunetti nodded in greeting but couldn’t bring himself to speak. He looked to his left and saw that the three booths were occupied. Better this way, he told himself, he was here to refuel and only that. He looked into the glass case filled with <em class="I _idGenCharOverride-1">tramezzini</em>: they’d been made by Sergio, who still cut them into triangles, while Bamba preferred rectangles. Maybe an egg and tomato? Bamba returned and gave a brisk swipe at the counter in front of Brunetti.</p>
+			<p class="TX">‘Water, Dottore?’</p>
+			<p class="TX">Brunetti nodded, ‘And a tomato and egg.’ He saw the <em class="I _idGenCharOverride-1">Gazzettino</em> on the counter and pushed it away. Seeing him reject the newspaper, Bamba said, ‘Terrible, isn’t it, Dottore?’ and set down the glass of water and the single <em class="I _idGenCharOverride-1">tramezzino</em>.</p>
+			<p class="TX">‘Yes. Terrible,’ Brunetti said, not knowing which article the barman had read. Bamba cast his eyes towards the row of booths, saw a raised hand, and slipped out from behind the bar to answer the summons.</p>
+			<p class="TX">Brunetti picked up the egg and tomato, took a bite, and replaced it on the plate. He drank the water. He realized that, if this were to be his lunch every day, he’d give thought to killing himself. This was indeed fuel, not food: they were good <em class="I _idGenCharOverride-1">tramezzini</em>, but that did not alter the fact that they were <em class="I _idGenCharOverride-1">tramezzini</em>, not lunch. And what would follow if we slowly came to accept having a sandwich for lunch?</p>
+			<p class="TX">Brunetti, although his degree was in law, had always read history, and his reading of modern history had shown him how dictatorships often began with the small things: limiting who could do what jobs, who could marry whom, live here or there. Gradually, those small things had always expanded, and soon some people could not work at all, nor marry, nor – in the end – live. He gave himself a shake and told himself he was exaggerating: the road to hell was not paved with <em class="I _idGenCharOverride-1">tramezzini</em>.</p>
+			<p class="TX">He went and stood in front of the cash register. Bamba came back, rang up the bill, and gave the receipt to Brunetti. The bill was three Euros fifty. Brunetti gave Bamba a five Euro note and turned away before the barman could offer him the change.</p>
+			<p class="TX">On the way back to the Questura, Brunetti waited for the first faint stirring of returning life from somewhere inside of him.</p>
+			<p class="TX">Outside, the sun had weakened and dropped behind the buildings on his left. The weather had come to its senses, Brunetti thought, and it would soon be time for <em class="I _idGenCharOverride-1">risotto di zucca</em>. Leaves would begin to turn: he and Paola could wait a few weeks and then have a walk down to I Giardini and see the show the trees put on every year. They used to go and sit under the trees in the Parco Savorgnan, but three of his favourites had been blown down in recent storms, and Brunetti, at the loss of his old friends, had stopped going, even though that decision meant renouncing the pastries at Dal Mas. Until then, they had the colour show at the Giardini Reali: recently they’d been restored; besides, they had the additional attraction of a wonderful café, where the staff didn’t bother people who wanted to sit and read.</p>
+			<p class="TX">Whatever nourishment had been hidden in that <em class="I _idGenCharOverride-1">tramezzino</em> failed to make itself felt, nor did it nudge Brunetti with a return of energy sufficient to diffuse his general unease.</p>
+			<p class="TX">He stopped at the bottom of the stairs in front of the cork board on the wall to his left. The Minister of the Interior was concerned that too many people were using their official cars for purposes that were not work-related, he read.</p>
+			<p class="TX">‘Shocking,’ Brunetti muttered to himself, doing his best to sound scandalized. ‘Especially here.’</p>
+			<p class="TX">The memory of the peculiar lack of joy of last night’s dinner brought Brunetti to a stop. He recalled speaking to two of his old friends who had taken early retirement and now found themselves, it seemed, able to talk only of the sweet antics of their grandchildren.</p>
+			<p class="TX">No one passed in the corridor, the stairs remained empty, he heard a phone ring in the distance, then it stopped. He moved away from the wall and turned, berating himself for laziness and disregard for his obligations and responsibilities. He took out his phone and, standing just metres from her office, called Signorina Elettra and told her he’d just had a call from one of his informers, who needed to see him immediately.</p>
+			<p class="TX">Luckily, when Brunetti called him, and then another informer, who had also been of use to him in the past, both men were free and said they could meet him. Although both men lived in Venice, they never met Brunetti there for fear of the possible consequences of being seen with someone known to be a policeman, and so he was to meet the first in Marghera and the second in Mogliano.</p>
+			<p class="TX">The meetings did not go particularly well. He differed over payment with both of them: the first one had no new information but wanted to be put on a monthly salary. Brunetti refused flatly and wondered if the man would next ask for an extra month’s salary at Christmas.</p>
+			<p class="TX">The second was a burglar who had abandoned his calling – although not his contacts – with the birth of his first child and had taken a job delivering milk and dairy products to supermarkets. He met Brunetti between deliveries and gave him the name of the distributor who served as the redistribution point for the eyeglass frames continually stolen by employees from the fac­tories producing them in the Veneto. Brunetti explained that, because the information was of no practical use to him and would be passed on to a friend at the Questura in Belluno, fifty Euros was more than fair. The man shrugged, smiled, and agreed, so Brunetti handed him an extra ten, which widened his smile. He thanked Brunetti and climbed back into his white delivery truck, and that was the end of it.</p>
+			<p class="TX">Brunetti spent the evening with his family, had dinner with them, attentive to what they said and what they ate. After dinner, he took a small glass of grappa out on to the terrace and sipped at it while he looked off to the bell tower of San Marco. At ten o’clock, a ringing church bell told him it was time to take his glass inside and begin to think about going to bed.</p>
+			<p class="TX">Although he had done next to nothing all day, he was tired and, to his surprise, realized that he still had not shaken off the sadness left by the evening spent with his former classmates. He went down the corridor and stopped at the door to Paola’s study. Intent on her reading, she had not heard him coming, but the radar of long love made her look up and, after a moment’s thought, smile. He felt his spirit warm and said, ‘I’m going to bed now.’</p>
+			<p class="TX">She closed her book and got to her feet. ‘What a very good idea,’ she said and smiled again.</p>
+		</div>
+	</body>
+</html>
+2023-02-26 08:29:30 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-02-26 08:29:31 INFO  - Step 14 - I restart app
+2023-02-26 08:29:55 INFO  - Step 15 - I open Books
+2023-02-26 08:29:55 INFO  - Button 'tabBooks' :: Clicking
+2023-02-26 08:29:56 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-02-26 08:29:57 INFO  - Label 'lblBookName' :: Clicking
+2023-02-26 08:29:57 INFO  - Step 17 - Click READ action button on book details screen
+2023-02-26 08:29:58 INFO  - Button 'Read' :: Clicking
+2023-02-26 08:29:59 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-02-26 08:29:59 INFO  - context - NATIVE_APP
+2023-02-26 08:29:59 INFO  - context - NATIVE_APP
+2023-02-26 08:30:02 INFO  - context - NATIVE_APP
+2023-02-26 08:30:02 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-02-26 08:30:04 INFO  - Taking screenshot
+2023-02-26 08:30:05 INFO  - Test finished - logging out
+2023-02-26 08:30:06 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 08:30:08 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 08:30:09 INFO  - Button 'Accounts' :: Clicking
+2023-02-26 08:30:11 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-26 08:30:12 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-26 08:30:12 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-26 08:30:12 INFO  - Button 'Log out' :: Clicking
+2023-02-26 08:30:12 INFO  - Button 'Log in' :: Getting text from element
+2023-02-26 08:30:17 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-26 08:30:17 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-26 08:30:17 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7dc742a0
