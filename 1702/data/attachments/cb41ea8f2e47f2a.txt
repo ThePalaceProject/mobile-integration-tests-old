@@ -1,0 +1,85 @@
+2023-02-26 13:18:48 INFO  - Scenario 'Audiobooks: Check closing playback speed and sleep timer' start
+2023-02-26 13:18:48 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-26 13:19:29 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-26 13:19:29 INFO  - Session id - 7734b5c9a8e59f11dd38672a55de2bcbbc289d44
+2023-02-26 13:19:29 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2023-02-26 13:19:29 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-26 13:19:32 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-26 13:19:33 INFO  - Button 'Search' :: Clicking
+2023-02-26 13:19:35 INFO  - Text Field 'Search' :: Clearing
+2023-02-26 13:19:35 INFO  - Text Field 'Search' :: Typing 'Palace Bookshelf'
+2023-02-26 13:19:37 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-02-26 13:19:37 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 13:19:43 INFO  - Button 'Debug options button' :: Clicking
+2023-02-26 13:19:44 INFO  - Step 1 - Enable hidden libraries
+2023-02-26 13:19:44 INFO  - Swiping from coordinates (x:800; y:1966) to (x:800; y:368)
+2023-02-26 13:19:46 INFO  - Button 'Hidden libraries button' :: Clicking
+2023-02-26 13:19:46 INFO  - Step 2 - I open Catalog
+2023-02-26 13:19:46 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-26 13:20:07 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2023-02-26 13:20:07 INFO  - Button 'Logo' :: Clicking
+2023-02-26 13:20:07 INFO  - Button 'Add library btn' :: Clicking
+2023-02-26 13:20:08 INFO  - Button 'Search' :: Clicking
+2023-02-26 13:20:10 INFO  - Text Field 'Search' :: Clearing
+2023-02-26 13:20:10 INFO  - Text Field 'Search' :: Typing 'A1QA Test Library'
+2023-02-26 13:20:12 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-02-26 13:20:32 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2023-02-26 13:20:33 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 13:20:33 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 13:20:34 INFO  - Button 'Accounts' :: Clicking
+2023-02-26 13:20:35 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2023-02-26 13:20:35 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 13:20:36 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 13:20:36 INFO  - Button 'Accounts' :: Clicking
+2023-02-26 13:20:37 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-02-26 13:20:38 INFO  - Locking credential with barcode 01230000000303
+2023-02-26 13:20:38 INFO  - There are books on the account: 
+2023-02-26 13:21:32 INFO  - bookName: The Debt Trap Distributor: Palace Marketplace
+2023-02-26 13:21:32 INFO  - Count of books on the account after opening account: 1
+2023-02-26 13:21:32 INFO  - Text Field 'Card' :: Clearing
+2023-02-26 13:21:32 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-02-26 13:21:33 INFO  - Text Field 'Pin' :: Clearing
+2023-02-26 13:21:33 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-26 13:21:36 INFO  - Button 'Log in' :: Clicking
+2023-02-26 13:21:42 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-26 13:21:42 INFO  - Step 6 - Login is performed successfully
+2023-02-26 13:22:03 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-26 13:22:03 INFO  - Step 7 - I open Catalog
+2023-02-26 13:22:03 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-26 13:22:24 INFO  - Step 8 - I open search modal
+2023-02-26 13:22:45 INFO  - Button 'Search' :: Clicking
+2023-02-26 13:22:46 INFO  - Step 9 - I search for "The Lost Symbol" and save bookName as 'bookNameInfo'
+2023-02-26 13:22:46 INFO  - Error details button is not present
+2023-02-26 13:22:46 INFO  - Text Field 'Search value input' :: Sending keys 'The Lost Symbol'
+2023-02-26 13:22:49 INFO  - Error details button is not present
+2023-02-26 13:22:53 INFO  - Step 10 - I switch to 'Audiobooks' catalog tab
+2023-02-26 13:22:53 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-26 13:23:13 INFO  - Step 11 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-26 13:23:14 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-26 13:23:14 INFO  - Label 'lblBookName' :: Clicking
+2023-02-26 13:23:14 INFO  - Step 12 - Click GET action button on book details screen
+2023-02-26 13:23:15 INFO  - Button 'Get' :: Clicking
+2023-02-26 13:23:19 INFO  - Step 13 - I check that book contains LISTEN action button on book details screen
+2023-02-26 13:23:19 INFO  - Step 14 - Click LISTEN action button on book details screen
+2023-02-26 13:23:19 INFO  - Button 'Listen' :: Clicking
+2023-02-26 13:23:20 INFO  - Step 15 - Audio player screen of book 'bookInfo' is opened
+2023-02-26 13:23:23 INFO  - Step 16 - The speed by default is 1.0
+2023-02-26 13:23:23 INFO  - Button 'Button play speed' :: Getting text from element
+2023-02-26 13:23:23 INFO  - Step 17 - Open playback speed on audio player screen
+2023-02-26 13:23:23 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-02-26 13:23:24 INFO  - Step 18 - Close playback speed screen
+2023-02-26 13:23:24 INFO  - Button 'Cancel button' :: Clicking
+2023-02-26 13:23:24 INFO  - Step 19 - Play button is present on audio player screen
+2023-02-26 13:23:44 INFO  - Taking screenshot
+2023-02-26 13:23:47 INFO  - Test finished - logging out
+2023-02-26 13:23:47 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 13:23:50 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 13:23:52 INFO  - Button 'Accounts' :: Clicking
+2023-02-26 13:23:52 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-02-26 13:23:54 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-26 13:23:54 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-26 13:23:54 INFO  - Button 'Log out' :: Clicking
+2023-02-26 13:23:55 INFO  - Button 'Log in' :: Getting text from element
+2023-02-26 13:24:08 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-26 13:24:08 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-26 13:24:08 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@39d30f33
