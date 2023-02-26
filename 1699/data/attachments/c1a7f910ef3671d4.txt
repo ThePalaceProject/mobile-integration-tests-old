@@ -1,0 +1,97 @@
+2023-02-26 03:12:21 INFO  - Scenario 'Playback speed: Check of playback speed' start
+2023-02-26 03:12:21 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-26 03:12:56 INFO  - Application on platform 'ANDROID' is ready...
+2023-02-26 03:12:56 INFO  - Session id - bc44de56fb541f188faa8ea8168ee61a681d8884
+2023-02-26 03:12:56 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-26 03:12:56 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-26 03:13:00 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-02-26 03:13:00 INFO  - Button 'Search' :: Clicking
+2023-02-26 03:13:03 INFO  - Text Field 'Search' :: Clearing
+2023-02-26 03:13:03 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-02-26 03:13:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-26 03:13:06 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-02-26 03:13:06 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 03:13:08 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 03:13:09 INFO  - Button 'Accounts' :: Clicking
+2023-02-26 03:13:10 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-02-26 03:13:11 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 03:13:11 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 03:13:12 INFO  - Button 'Accounts' :: Clicking
+2023-02-26 03:13:13 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-26 03:13:14 INFO  - Locking credential with barcode 01230000000304
+2023-02-26 03:13:14 INFO  - There are books on the account: 
+2023-02-26 03:13:15 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-02-26 03:13:15 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-02-26 03:13:15 INFO  - Count of books on the account after opening account: 2
+2023-02-26 03:13:15 INFO  - Text Field 'Card' :: Clearing
+2023-02-26 03:13:15 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-02-26 03:13:17 INFO  - Text Field 'Pin' :: Clearing
+2023-02-26 03:13:17 INFO  - Text Field 'Pin' :: Typing '********'
+2023-02-26 03:13:18 INFO  - Button 'Log in' :: Clicking
+2023-02-26 03:13:24 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-26 03:13:25 INFO  - Step 3 - Login is performed successfully
+2023-02-26 03:13:46 INFO  - Button 'Log ... action' :: Getting text from element
+2023-02-26 03:13:46 INFO  - Step 4 - I open Catalog
+2023-02-26 03:13:46 INFO  - Button 'tabCatalog' :: Clicking
+2023-02-26 03:14:09 INFO  - Step 5 - I open search modal
+2023-02-26 03:14:29 INFO  - Button 'Search' :: Clicking
+2023-02-26 03:14:31 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-26 03:14:31 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-26 03:14:31 INFO  - randomBookName: Treasure Island
+2023-02-26 03:14:31 INFO  - Error details button is not present
+2023-02-26 03:14:31 INFO  - Text Field 'Search value input' :: Sending keys 'Treasure Island'
+2023-02-26 03:14:34 INFO  - Error details button is not present
+2023-02-26 03:14:37 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-02-26 03:14:37 INFO  - Button 'Audiobooks' :: Clicking
+2023-02-26 03:14:58 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-26 03:14:58 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-26 03:14:59 INFO  - Label 'lblBookName' :: Clicking
+2023-02-26 03:14:59 INFO  - Step 9 - Click GET action button on book details screen
+2023-02-26 03:15:01 INFO  - Button 'Get' :: Clicking
+2023-02-26 03:15:07 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-02-26 03:15:07 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-02-26 03:15:08 INFO  - Button 'Listen' :: Clicking
+2023-02-26 03:15:08 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-02-26 03:15:14 INFO  - Step 13 - Select 1.50X playback speed on playback speed audiobook screen
+2023-02-26 03:15:14 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-02-26 03:15:14 INFO  - Button 'Playback speed' :: Clicking
+2023-02-26 03:15:15 INFO  - Step 14 - Current playback speed value is 1.50X on audio player screen
+2023-02-26 03:15:16 INFO  - Step 15 - Return to previous screen from audio player screen
+2023-02-26 03:15:18 INFO  - Step 16 - Click LISTEN action button on book details screen
+2023-02-26 03:15:18 INFO  - Button 'Listen' :: Clicking
+2023-02-26 03:15:19 INFO  - Step 17 - Audio player screen of book 'bookInfo' is opened
+2023-02-26 03:15:23 INFO  - Step 18 - Current playback speed value is 1.50X on audio player screen
+2023-02-26 03:15:24 INFO  - Step 19 - I restart app
+2023-02-26 03:15:48 INFO  - Step 20 - I open Books
+2023-02-26 03:15:48 INFO  - Button 'tabBooks' :: Clicking
+2023-02-26 03:15:49 INFO  - Step 21 - Open AUDIOBOOK book with LISTEN action button and 'bookInfo' bookInfo on books screen
+2023-02-26 03:15:50 INFO  - Label 'lblBookName' :: Clicking
+2023-02-26 03:15:50 INFO  - Step 22 - Click LISTEN action button on book details screen
+2023-02-26 03:15:51 INFO  - Button 'Listen' :: Clicking
+2023-02-26 03:15:53 INFO  - Step 23 - Audio player screen of book 'bookInfo' is opened
+2023-02-26 03:15:57 INFO  - Step 24 - Current playback speed value is 1.50X on audio player screen
+2023-02-26 03:15:58 INFO  - Step 25 - Tap play button on audio player screen
+2023-02-26 03:15:58 INFO  - Button 'btnPlay' :: Clicking
+2023-02-26 03:15:58 INFO  - Step 26 - Save book play time as 'timeAhead' on audio player screen
+2023-02-26 03:15:58 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-26 03:16:00 INFO  - Step 27 - Wait for 6 seconds
+2023-02-26 03:16:06 INFO  - Step 28 - Playback has been moved forward by 9 seconds from 'timeAhead' seconds on audio player screen
+2023-02-26 03:16:06 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-26 03:16:07 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-26 03:16:09 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-26 03:16:10 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-26 03:16:12 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-02-26 03:16:13 INFO  - diff between times for move forward - 11
+2023-02-26 03:16:13 INFO  - Taking screenshot
+2023-02-26 03:16:14 INFO  - Test finished - logging out
+2023-02-26 03:16:15 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 03:16:18 INFO  - Button 'tabSettings' :: Clicking
+2023-02-26 03:16:19 INFO  - Button 'Accounts' :: Clicking
+2023-02-26 03:16:20 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-26 03:16:22 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-26 03:16:22 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-26 03:16:22 INFO  - Button 'Log out' :: Clicking
+2023-02-26 03:16:23 INFO  - Button 'Log in' :: Getting text from element
+2023-02-26 03:16:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-02-26 03:16:28 INFO  - Text Field 'Pin' :: Getting text from element
+2023-02-26 03:16:28 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@ff6e06
