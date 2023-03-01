@@ -1,0 +1,54 @@
+2023-02-28 23:37:41 INFO  - Scenario 'Navigate by Page' start
+2023-02-28 23:37:41 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-28 23:38:12 INFO  - Application on platform 'IOS' is ready...
+2023-02-28 23:38:13 INFO  - Session id - 0c1d8d731dc220c2644e7df95f7bcde57d1db2db
+2023-02-28 23:38:13 INFO  - Step 0 - I add "Palace Bookshelf" account from welcomeScreen
+2023-02-28 23:38:13 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-28 23:38:14 INFO  - Button 'Find your library button' :: Clicking
+2023-02-28 23:38:15 INFO  - Text Field 'Search field' :: Clicking
+2023-02-28 23:38:21 INFO  - Text Field 'Search field' :: Clearing
+2023-02-28 23:38:21 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-02-28 23:38:33 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-02-28 23:38:35 INFO  - Step 1 - I open Catalog
+2023-02-28 23:38:35 INFO  - Button 'Catalog' :: Clicking
+2023-02-28 23:38:36 INFO  - Step 2 - I open search modal
+2023-02-28 23:38:37 INFO  - Button 'Search button' :: Clicking
+2023-02-28 23:38:55 INFO  - Step 3 - I search for 'Flower Fables' and save bookName as 'bookNameInfo'
+2023-02-28 23:38:56 INFO  - Text Field 'Search value input' :: Sending keys 'Flower Fables'
+2023-02-28 23:38:57 INFO  - Button 'Search' :: Clicking
+2023-02-28 23:38:59 INFO  - Step 4 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-28 23:39:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-28 23:39:03 INFO  - Button 'actionButton' :: Clicking
+2023-02-28 23:39:30 INFO  - Step 5 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-28 23:39:32 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-28 23:39:32 INFO  - Label 'lblBookName' :: Clicking
+2023-02-28 23:39:34 INFO  - Step 6 - Click READ action button on book details screen
+2023-02-28 23:39:35 INFO  - Button 'Read' :: Clicking
+2023-02-28 23:39:58 INFO  - Step 7 - 'bookInfo' book is present on epub reader screen
+2023-02-28 23:39:58 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-02-28 23:39:58 INFO  - Book name on epub reader screen - Flower Fables
+2023-02-28 23:39:58 INFO  - Step 8 - I click on right book corner on epub reader screen
+2023-02-28 23:40:02 INFO  - Step 9 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-02-28 23:40:02 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-28 23:40:04 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-28 23:40:05 INFO  - Step 10 - I click on right book corner on epub reader screen
+2023-02-28 23:40:08 INFO  - Step 11 - Next page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-02-28 23:40:08 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-28 23:40:11 INFO  - actualPageNumberOfNextPage3
+2023-02-28 23:40:11 INFO  - expectedPageNumberOfNextPage3
+2023-02-28 23:40:11 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-28 23:40:12 INFO  - actualChapterNameOfNextPageAbout
+2023-02-28 23:40:12 INFO  - expectedChapterNameOfNextPageTitle
+2023-02-28 23:40:12 INFO  - Step 12 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-02-28 23:40:12 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-28 23:40:13 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-28 23:40:14 INFO  - Step 13 - I click on left book corner on epub reader screen
+2023-02-28 23:40:16 INFO  - Step 14 - Previous page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-02-28 23:40:16 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-28 23:40:16 INFO  - actualPageNumberOfPreviousPage2
+2023-02-28 23:40:16 INFO  - expectedPageNumberOfPreviousPage2
+2023-02-28 23:40:16 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-02-28 23:40:17 INFO  - actualChapterNameOfPreviousPageTitle
+2023-02-28 23:40:17 INFO  - expectedChapterNameOfPreviousPageAbout
+2023-02-28 23:40:17 INFO  - Taking screenshot
+2023-02-28 23:40:18 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@67238be

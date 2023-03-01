@@ -1,0 +1,35 @@
+2023-02-28 23:38:38 INFO  - Scenario 'Check related books section in LYRASIS' start
+2023-02-28 23:38:38 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-02-28 23:39:08 INFO  - Application on platform 'IOS' is ready...
+2023-02-28 23:39:09 INFO  - Session id - 7cb71d6cc2af30732f9e2b06c474f9b31cd0312d
+2023-02-28 23:39:09 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-02-28 23:39:09 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-02-28 23:39:11 INFO  - Button 'Find your library button' :: Clicking
+2023-02-28 23:39:12 INFO  - Text Field 'Search field' :: Clicking
+2023-02-28 23:39:18 INFO  - Text Field 'Search field' :: Clearing
+2023-02-28 23:39:18 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-02-28 23:39:28 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-02-28 23:39:30 INFO  - Step 1 - I open Catalog
+2023-02-28 23:39:30 INFO  - Button 'Catalog' :: Clicking
+2023-02-28 23:39:32 INFO  - Step 2 - I open search modal
+2023-02-28 23:39:32 INFO  - Button 'Search button' :: Clicking
+2023-02-28 23:39:35 INFO  - Step 3 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-02-28 23:39:35 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-02-28 23:39:35 INFO  - randomBookName: Stand by Me
+2023-02-28 23:39:35 INFO  - Text Field 'Search value input' :: Sending keys 'Stand by Me'
+2023-02-28 23:39:36 INFO  - Button 'Search' :: Clicking
+2023-02-28 23:39:39 INFO  - Step 4 - I switch to 'eBooks' catalog tab
+2023-02-28 23:39:39 INFO  - Button 'eBooks' :: Clicking
+2023-02-28 23:40:20 INFO  - Step 5 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-02-28 23:40:22 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-02-28 23:40:23 INFO  - Label 'lblBookName' :: Clicking
+2023-02-28 23:40:24 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-02-28 23:40:26 INFO  - Label 'Book title' :: Getting text from element
+2023-02-28 23:40:29 INFO  - Label 'Author' :: Getting text from element
+2023-02-28 23:40:31 INFO  - Label 'Book title' :: Getting text from element
+2023-02-28 23:40:34 INFO  - Label 'Author' :: Getting text from element
+2023-02-28 23:40:35 INFO  - Step 7 - Related books section is displayed on book details screen
+2023-02-28 23:40:36 INFO  - Label 'Book title' :: Getting text from element
+2023-02-28 23:40:39 INFO  - Label 'Author' :: Getting text from element
+2023-02-28 23:40:40 INFO  - Taking screenshot
+2023-02-28 23:40:42 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2cd4c1f5
