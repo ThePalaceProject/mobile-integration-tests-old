@@ -1,0 +1,108 @@
+2023-03-02 16:32:45 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-03-02 16:32:45 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-02 16:33:05 INFO  - Application on platform 'IOS' is ready...
+2023-03-02 16:33:05 INFO  - Session id - 5db3260f2cfff12b8bbe6c01a8a0c8d7aa39ec1d
+2023-03-02 16:33:05 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-02 16:33:05 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-02 16:33:06 INFO  - Button 'Find your library button' :: Clicking
+2023-03-02 16:33:07 INFO  - Text Field 'Search field' :: Clicking
+2023-03-02 16:33:14 INFO  - Text Field 'Search field' :: Clearing
+2023-03-02 16:33:14 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-02 16:33:25 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-02 16:33:27 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-02 16:33:27 INFO  - Button 'Settings' :: Clicking
+2023-03-02 16:33:28 INFO  - Button 'Settings' :: Clicking
+2023-03-02 16:33:29 INFO  - Button 'Libraries button' :: Clicking
+2023-03-02 16:33:31 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-02 16:33:31 INFO  - Button 'Settings' :: Clicking
+2023-03-02 16:33:32 INFO  - Button 'Settings' :: Clicking
+2023-03-02 16:33:33 INFO  - Button 'Libraries button' :: Clicking
+2023-03-02 16:33:35 INFO  - Locking credential with barcode 01230000000303
+2023-03-02 16:33:35 INFO  - There are books on the account: 
+2023-03-02 16:33:36 INFO  - bookName: The Debt Trap Distributor: Palace Marketplace
+2023-03-02 16:33:36 INFO  - Count of books on the account after opening account: 1
+2023-03-02 16:33:58 INFO  - Text Field 'Card' :: Clicking
+2023-03-02 16:33:59 INFO  - Text Field 'Card' :: Clearing
+2023-03-02 16:33:59 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-02 16:34:02 INFO  - Text Field 'Pin' :: Clearing
+2023-03-02 16:34:02 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-02 16:34:05 INFO  - Button 'Log in' :: Clicking
+2023-03-02 16:34:27 INFO  - Step 3 - Login is performed successfully
+2023-03-02 16:34:28 INFO  - Step 4 - I open Catalog
+2023-03-02 16:34:28 INFO  - Button 'Catalog' :: Clicking
+2023-03-02 16:34:32 INFO  - Step 5 - I open search modal
+2023-03-02 16:34:33 INFO  - Button 'Search button' :: Clicking
+2023-03-02 16:34:35 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-02 16:34:35 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-02 16:34:35 INFO  - randomBookName: Look into My Eyes
+2023-03-02 16:34:35 INFO  - Text Field 'Search value input' :: Sending keys 'Look into My Eyes'
+2023-03-02 16:34:36 INFO  - Button 'Search' :: Clicking
+2023-03-02 16:34:39 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-02 16:34:41 INFO  - Button 'actionButton' :: Clicking
+2023-03-02 16:35:02 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-02 16:35:04 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-02 16:35:05 INFO  - Label 'lblBookName' :: Clicking
+2023-03-02 16:35:07 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-02 16:35:07 INFO  - Button 'Read' :: Clicking
+2023-03-02 16:35:16 INFO  - Alert appears and dismiss alert
+2023-03-02 16:35:16 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-02 16:35:16 INFO  - Scrolling 8 times on reader epub screen
+2023-03-02 16:35:42 INFO  - Step 11 - I save font size as 'fontSize'
+2023-03-02 16:35:42 INFO  - count of contextHandles-8
+2023-03-02 16:35:43 INFO  - Step 12 - I open font settings
+2023-03-02 16:35:44 INFO  - Button 'Font Settings' :: Clicking
+2023-03-02 16:35:45 INFO  - Step 13 - I INCREASE_FONT of text
+2023-03-02 16:35:45 INFO  - Button 'IncreaseFontSize' :: Clicking
+2023-03-02 16:35:46 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-03-02 16:35:46 INFO  - count of contextHandles-8
+2023-03-02 16:35:46 INFO  - Step 15 - I restart app
+2023-03-02 16:35:54 INFO  - Step 16 - I open Books
+2023-03-02 16:35:54 INFO  - Button 'My Books' :: Clicking
+2023-03-02 16:35:55 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-02 16:35:56 INFO  - Label 'lblBookName' :: Clicking
+2023-03-02 16:35:57 INFO  - Step 18 - Click READ action button on book details screen
+2023-03-02 16:35:58 INFO  - Button 'Read' :: Clicking
+2023-03-02 16:36:19 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-03-02 16:36:19 INFO  - count of contextHandles-4
+2023-03-02 16:36:20 INFO  - Step 20 - I return to previous screen from epub
+2023-03-02 16:36:21 INFO  - Button 'btnBack' :: Clicking
+2023-03-02 16:36:22 INFO  - Step 21 - Click READ action button on book details screen
+2023-03-02 16:36:22 INFO  - Button 'Read' :: Clicking
+2023-03-02 16:36:44 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-03-02 16:36:44 INFO  - count of contextHandles-4
+2023-03-02 16:36:45 INFO  - Step 23 - I save font size as 'fontSize'
+2023-03-02 16:36:45 INFO  - count of contextHandles-4
+2023-03-02 16:36:45 INFO  - Step 24 - I open font settings
+2023-03-02 16:36:47 INFO  - Button 'Font Settings' :: Clicking
+2023-03-02 16:36:49 INFO  - Step 25 - I DECREASE_FONT of text
+2023-03-02 16:36:49 INFO  - Button 'DecreaseFontSize' :: Clicking
+2023-03-02 16:36:50 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-03-02 16:36:51 INFO  - count of contextHandles-4
+2023-03-02 16:36:51 INFO  - Step 27 - I restart app
+2023-03-02 16:36:59 INFO  - Step 28 - I open Books
+2023-03-02 16:36:59 INFO  - Button 'My Books' :: Clicking
+2023-03-02 16:37:00 INFO  - Step 29 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-02 16:37:01 INFO  - Label 'lblBookName' :: Clicking
+2023-03-02 16:37:03 INFO  - Step 30 - Click READ action button on book details screen
+2023-03-02 16:37:03 INFO  - Button 'Read' :: Clicking
+2023-03-02 16:37:25 INFO  - Step 31 - Font size 'fontSize' is decreased
+2023-03-02 16:37:26 INFO  - count of contextHandles-4
+2023-03-02 16:37:26 INFO  - Step 32 - I return to previous screen from epub
+2023-03-02 16:37:27 INFO  - Button 'btnBack' :: Clicking
+2023-03-02 16:37:28 INFO  - Step 33 - Click READ action button on book details screen
+2023-03-02 16:37:29 INFO  - Button 'Read' :: Clicking
+2023-03-02 16:37:51 INFO  - Step 34 - Font size 'fontSize' is decreased
+2023-03-02 16:37:52 INFO  - count of contextHandles-4
+2023-03-02 16:37:52 INFO  - Taking screenshot
+2023-03-02 16:37:53 INFO  - Test finished - logging out
+2023-03-02 16:37:56 INFO  - Button 'Settings' :: Clicking
+2023-03-02 16:37:57 INFO  - Button 'Settings' :: Clicking
+2023-03-02 16:37:58 INFO  - Button 'Libraries button' :: Clicking
+2023-03-02 16:38:01 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-02 16:38:02 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-02 16:38:03 INFO  - Button 'Log out' :: Clicking
+2023-03-02 16:38:04 INFO  - Button 'Log out approve' :: Clicking
+2023-03-02 16:38:26 INFO  - Button 'Log in' :: Getting text from element
+2023-03-02 16:38:26 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-02 16:38:27 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-02 16:38:28 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1761a65d

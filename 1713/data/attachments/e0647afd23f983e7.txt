@@ -1,0 +1,95 @@
+2023-03-02 17:49:09 INFO  - Scenario 'Delete bookmarks' start
+2023-03-02 17:49:09 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-02 17:49:26 INFO  - Application on platform 'IOS' is ready...
+2023-03-02 17:49:26 INFO  - Session id - 02435435f449ab578019485c4bf2532acc87d2b6
+2023-03-02 17:49:26 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-02 17:49:26 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-02 17:49:27 INFO  - Button 'Find your library button' :: Clicking
+2023-03-02 17:49:28 INFO  - Text Field 'Search field' :: Clicking
+2023-03-02 17:49:35 INFO  - Text Field 'Search field' :: Clearing
+2023-03-02 17:49:35 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-02 17:49:46 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-02 17:49:47 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-02 17:49:47 INFO  - Button 'Settings' :: Clicking
+2023-03-02 17:49:49 INFO  - Button 'Settings' :: Clicking
+2023-03-02 17:49:50 INFO  - Button 'Libraries button' :: Clicking
+2023-03-02 17:49:51 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-02 17:49:51 INFO  - Button 'Settings' :: Clicking
+2023-03-02 17:49:52 INFO  - Button 'Settings' :: Clicking
+2023-03-02 17:49:53 INFO  - Button 'Libraries button' :: Clicking
+2023-03-02 17:49:56 INFO  - Locking credential with barcode 01230000000304
+2023-03-02 17:49:56 INFO  - There are books on the account: 
+2023-03-02 17:49:57 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-03-02 17:49:57 INFO  - Count of books on the account after opening account: 1
+2023-03-02 17:50:18 INFO  - Text Field 'Card' :: Clicking
+2023-03-02 17:50:19 INFO  - Text Field 'Card' :: Clearing
+2023-03-02 17:50:19 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-03-02 17:50:21 INFO  - Text Field 'Pin' :: Clearing
+2023-03-02 17:50:21 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-02 17:50:25 INFO  - Button 'Log in' :: Clicking
+2023-03-02 17:50:34 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-03-02 17:50:36 INFO  - Step 3 - Login is performed successfully
+2023-03-02 17:50:37 INFO  - Step 4 - I open Catalog
+2023-03-02 17:50:37 INFO  - Button 'Catalog' :: Clicking
+2023-03-02 17:50:39 INFO  - Step 5 - I open search modal
+2023-03-02 17:50:40 INFO  - Button 'Search button' :: Clicking
+2023-03-02 17:50:42 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-02 17:50:42 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-02 17:50:42 INFO  - randomBookName: Ginny Goblin Cannot Have a Monster for a Pet
+2023-03-02 17:50:42 INFO  - Text Field 'Search value input' :: Sending keys 'Ginny Goblin Cannot Have a Monster for a Pet'
+2023-03-02 17:50:44 INFO  - Button 'Search' :: Clicking
+2023-03-02 17:50:47 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-02 17:50:48 INFO  - Button 'actionButton' :: Clicking
+2023-03-02 17:51:09 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-02 17:51:11 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-02 17:51:11 INFO  - Label 'lblBookName' :: Clicking
+2023-03-02 17:51:13 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-02 17:51:14 INFO  - Button 'Read' :: Clicking
+2023-03-02 17:51:35 INFO  - Step 10 - I click on right book corner on epub reader screen
+2023-03-02 17:51:38 INFO  - Step 11 - Add bookmark on reader epub screen
+2023-03-02 17:51:38 INFO  - Button 'Add Bookmark' :: Clicking
+2023-03-02 17:51:39 INFO  - Step 12 - Delete bookmark on reader epub screen
+2023-03-02 17:51:40 INFO  - Button 'Delete Bookmark' :: Clicking
+2023-03-02 17:51:41 INFO  - Step 13 - Bookmark is not displayed on reader epub screen
+2023-03-02 17:51:41 INFO  - Step 14 - I scroll page forward from 7 to 9 times
+2023-03-02 17:51:41 INFO  - Scrolling 8 times on reader epub screen
+2023-03-02 17:52:04 INFO  - Step 15 - Add bookmark on reader epub screen
+2023-03-02 17:52:04 INFO  - Button 'Add Bookmark' :: Clicking
+2023-03-02 17:52:05 INFO  - Step 16 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-03-02 17:52:05 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-03-02 17:52:05 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-03-02 17:52:06 INFO  - Step 17 - Save device time and date as 'deviceTimeDateKey'
+2023-03-02 17:52:07 INFO  - Step 18 - I click on right book corner on epub reader screen
+2023-03-02 17:52:10 INFO  - Step 19 - Open bookmarks epub screen
+2023-03-02 17:52:11 INFO  - Button 'Table of contents' :: Clicking
+2023-03-02 17:52:12 INFO  - Label 'tab' :: Clicking
+2023-03-02 17:52:13 INFO  - Step 20 - Delete bookmark on bookmarks epub screen
+2023-03-02 17:52:15 INFO  - Swiping from coordinates (x:195; y:174) to (x:26; y:174)
+2023-03-02 17:52:17 INFO  - Button 'btnDelete' :: Clicking
+2023-03-02 17:52:19 INFO  - Step 21 - Bookmark with 'chapterNameKey' and 'deviceTimeDateKey' is not displayed on bookmarks epub screen
+2023-03-02 17:52:19 INFO  - expected bookmark info: 
+2023-03-02 17:52:19 INFO  - expected bookmark title-Cover
+2023-03-02 17:52:19 INFO  - actual year-2023
+2023-03-02 17:52:19 INFO  - actual month-3
+2023-03-02 17:52:19 INFO  - actual dayNumber-2
+2023-03-02 17:52:19 INFO  - actual min-52
+2023-03-02 17:52:19 INFO  - actual hour-17
+2023-03-02 17:52:19 INFO  - Step 22 - Return to reader epub screen from toc bookmarks epub screen
+2023-03-02 17:52:19 INFO  - Button 'Back button' :: Clicking
+2023-03-02 17:52:20 INFO  - Step 23 - I click on left book corner on epub reader screen
+2023-03-02 17:52:22 INFO  - Step 24 - 'chapterNameKey' chapter name is displayed on reader epub screen
+2023-03-02 17:52:22 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-03-02 17:52:22 INFO  - Step 25 - Bookmark is not displayed on reader epub screen
+2023-03-02 17:52:23 INFO  - Taking screenshot
+2023-03-02 17:52:26 INFO  - Test finished - logging out
+2023-03-02 17:52:30 INFO  - Button 'Settings' :: Clicking
+2023-03-02 17:52:31 INFO  - Button 'Settings' :: Clicking
+2023-03-02 17:52:32 INFO  - Button 'Libraries button' :: Clicking
+2023-03-02 17:52:35 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-02 17:52:35 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-02 17:52:36 INFO  - Button 'Log out' :: Clicking
+2023-03-02 17:52:37 INFO  - Button 'Log out approve' :: Clicking
+2023-03-02 17:52:59 INFO  - Button 'Log in' :: Getting text from element
+2023-03-02 17:52:59 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-02 17:53:00 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-02 17:53:01 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1761a65d
