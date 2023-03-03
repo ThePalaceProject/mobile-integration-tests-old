@@ -1,0 +1,37 @@
+2023-03-02 23:41:52 INFO  - Scenario 'Check related books section in LYRASIS' start
+2023-03-02 23:41:52 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-02 23:43:25 INFO  - Application on platform 'IOS' is ready...
+2023-03-02 23:43:25 INFO  - Session id - d015eac3c1193ec54dd95c887f7ade0f35a0e2a8
+2023-03-02 23:43:25 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-02 23:43:25 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-02 23:43:26 INFO  - Button 'Find your library button' :: Clicking
+2023-03-02 23:43:27 INFO  - Text Field 'Search field' :: Clicking
+2023-03-02 23:43:34 INFO  - Text Field 'Search field' :: Clearing
+2023-03-02 23:43:34 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-02 23:43:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-02 23:43:46 INFO  - Step 1 - I open Catalog
+2023-03-02 23:43:46 INFO  - Button 'Catalog' :: Clicking
+2023-03-02 23:43:48 INFO  - Step 2 - I open search modal
+2023-03-02 23:43:48 INFO  - Button 'Search button' :: Clicking
+2023-03-02 23:43:50 INFO  - Step 3 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-02 23:43:50 INFO  - Count of attempts to get random book name without bad symbols-3
+2023-03-02 23:43:50 INFO  - randomBookName: The Santa Suit
+2023-03-02 23:43:50 INFO  - Text Field 'Search value input' :: Sending keys 'The Santa Suit'
+2023-03-02 23:43:51 INFO  - Button 'Search' :: Clicking
+2023-03-02 23:43:53 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2023-03-02 23:43:53 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-02 23:44:35 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-02 23:44:37 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-02 23:44:38 INFO  - Label 'lblBookName' :: Clicking
+2023-03-02 23:44:39 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-03-02 23:44:43 INFO  - Label 'Book title' :: Getting text from element
+2023-03-02 23:44:52 INFO  - Label 'Author' :: Getting text from element
+2023-03-02 23:44:57 INFO  - Label 'Book title' :: Getting text from element
+2023-03-02 23:45:07 INFO  - Label 'Author' :: Getting text from element
+2023-03-02 23:45:08 INFO  - Step 7 - Related books section is displayed on book details screen
+2023-03-02 23:45:13 INFO  - Label 'Book title' :: Getting text from element
+2023-03-02 23:45:20 INFO  - Label 'Author' :: Getting text from element
+2023-03-02 23:45:22 INFO  - Step 8 - There is a list of related books on book details screen
+2023-03-02 23:45:25 INFO  - Step 9 - More button in related books section is available on book details screen
+2023-03-02 23:45:27 INFO  - Taking screenshot
+2023-03-02 23:45:29 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@a18b562
