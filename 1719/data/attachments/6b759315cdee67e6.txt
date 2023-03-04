@@ -1,0 +1,67 @@
+2023-03-04 04:19:20 INFO  - Scenario 'Alert: Check of Cancel button after Remove button tapping' start
+2023-03-04 04:19:20 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-04 04:20:19 INFO  - Application on platform 'IOS' is ready...
+2023-03-04 04:20:19 INFO  - Session id - 8b8c376a0a45d482600279f9c66c45601f5a6970
+2023-03-04 04:20:19 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-04 04:20:19 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-04 04:20:20 INFO  - Button 'Find your library button' :: Clicking
+2023-03-04 04:20:20 INFO  - Text Field 'Search field' :: Clicking
+2023-03-04 04:20:27 INFO  - Text Field 'Search field' :: Clearing
+2023-03-04 04:20:27 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-04 04:20:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-04 04:20:40 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-03-04 04:20:40 INFO  - Button 'Settings' :: Clicking
+2023-03-04 04:20:40 INFO  - Button 'Settings' :: Clicking
+2023-03-04 04:20:41 INFO  - Button 'Libraries button' :: Clicking
+2023-03-04 04:20:43 INFO  - Locking credential with barcode 01230000000303
+2023-03-04 04:20:43 INFO  - There are books on the account: 
+2023-03-04 04:20:44 INFO  - bookName: The Debt Trap Distributor: Palace Marketplace
+2023-03-04 04:20:44 INFO  - Count of books on the account after opening account: 1
+2023-03-04 04:21:06 INFO  - Text Field 'Card' :: Clicking
+2023-03-04 04:21:07 INFO  - Text Field 'Card' :: Clearing
+2023-03-04 04:21:07 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-04 04:21:09 INFO  - Text Field 'Pin' :: Clearing
+2023-03-04 04:21:09 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-04 04:21:12 INFO  - Button 'Log in' :: Clicking
+2023-03-04 04:21:34 INFO  - Step 2 - Login is performed successfully
+2023-03-04 04:21:35 INFO  - Step 3 - I open Catalog
+2023-03-04 04:21:35 INFO  - Button 'Catalog' :: Clicking
+2023-03-04 04:21:37 INFO  - Step 4 - I open search modal
+2023-03-04 04:21:40 INFO  - Button 'Search button' :: Clicking
+2023-03-04 04:21:42 INFO  - Step 5 - I search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-04 04:21:42 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-04 04:21:42 INFO  - randomBookName: Son of Elsewhere
+2023-03-04 04:21:42 INFO  - Text Field 'Search value input' :: Sending keys 'Son of Elsewhere'
+2023-03-04 04:21:43 INFO  - Button 'Search' :: Clicking
+2023-03-04 04:21:46 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-03-04 04:21:46 INFO  - Button 'eBooks' :: Clicking
+2023-03-04 04:22:29 INFO  - Step 7 - Open EBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-04 04:22:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-04 04:22:32 INFO  - Label 'lblBookName' :: Clicking
+2023-03-04 04:22:33 INFO  - Step 8 - Click RESERVE action button on book details screen
+2023-03-04 04:22:35 INFO  - Button 'Reserve' :: Clicking
+2023-03-04 04:22:39 INFO  - Alert appears and dismiss alert
+2023-03-04 04:22:39 INFO  - Step 9 - I open Holds
+2023-03-04 04:22:39 INFO  - Button 'Reservations' :: Clicking
+2023-03-04 04:22:40 INFO  - Step 10 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-03-04 04:22:42 INFO  - Step 11 - Open EBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2023-03-04 04:22:42 INFO  - Label 'lblBookName' :: Clicking
+2023-03-04 04:22:43 INFO  - Step 12 - Click REMOVE button but cancel the action by clicking CANCEL button on the alert
+2023-03-04 04:22:44 INFO  - Button 'Remove' :: Clicking
+2023-03-04 04:22:48 INFO  - Button 'Cancel ActionButtonAlert' :: Clicking
+2023-03-04 04:22:49 INFO  - Step 13 - I open Holds
+2023-03-04 04:22:49 INFO  - Button 'Reservations' :: Clicking
+2023-03-04 04:22:50 INFO  - Step 14 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-03-04 04:22:52 INFO  - Taking screenshot
+2023-03-04 04:22:55 INFO  - Test finished - logging out
+2023-03-04 04:22:58 INFO  - Button 'Settings' :: Clicking
+2023-03-04 04:22:59 INFO  - Button 'Settings' :: Clicking
+2023-03-04 04:22:59 INFO  - Button 'Libraries button' :: Clicking
+2023-03-04 04:23:02 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-04 04:23:02 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-04 04:23:03 INFO  - Button 'Log out' :: Clicking
+2023-03-04 04:23:04 INFO  - Button 'Log out approve' :: Clicking
+2023-03-04 04:23:26 INFO  - Button 'Log in' :: Getting text from element
+2023-03-04 04:23:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-04 04:23:27 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-04 04:23:28 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@cff1875
