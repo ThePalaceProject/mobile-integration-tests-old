@@ -1,0 +1,395 @@
+2023-03-04 17:37:51 INFO  - Scenario 'Font settings: Check of text theme' start
+2023-03-04 17:37:51 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-04 17:38:27 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-04 17:38:27 INFO  - Session id - ee84828d377a9581634766fc35ed0aedaeceb59a
+2023-03-04 17:38:27 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-04 17:38:27 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-04 17:38:30 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-04 17:38:31 INFO  - Button 'Search' :: Clicking
+2023-03-04 17:38:32 INFO  - Text Field 'Search' :: Clearing
+2023-03-04 17:38:32 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-04 17:38:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-04 17:38:34 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-04 17:38:34 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:38:36 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:38:37 INFO  - Button 'Accounts' :: Clicking
+2023-03-04 17:38:38 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-04 17:38:39 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:38:39 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:38:40 INFO  - Button 'Accounts' :: Clicking
+2023-03-04 17:38:41 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-04 17:38:41 INFO  - Locking credential with barcode 01230000000304
+2023-03-04 17:38:41 INFO  - There are books on the account: 
+2023-03-04 17:38:43 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-03-04 17:38:43 INFO  - Count of books on the account after opening account: 1
+2023-03-04 17:38:43 INFO  - Text Field 'Card' :: Clearing
+2023-03-04 17:38:43 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-03-04 17:38:44 INFO  - Text Field 'Pin' :: Clearing
+2023-03-04 17:38:44 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-04 17:38:46 INFO  - Button 'Log in' :: Clicking
+2023-03-04 17:38:53 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-04 17:38:54 INFO  - Step 3 - Login is performed successfully
+2023-03-04 17:39:15 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-04 17:39:16 INFO  - Step 4 - I open Catalog
+2023-03-04 17:39:16 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-04 17:39:36 INFO  - Step 5 - I open search modal
+2023-03-04 17:39:56 INFO  - Button 'Search' :: Clicking
+2023-03-04 17:39:58 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-04 17:39:58 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-04 17:39:58 INFO  - randomBookName: Four Roads to Windrush
+2023-03-04 17:39:58 INFO  - Error details button is not present
+2023-03-04 17:39:59 INFO  - Text Field 'Search value input' :: Sending keys 'Four Roads to Windrush'
+2023-03-04 17:40:01 INFO  - Error details button is not present
+2023-03-04 17:40:03 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-04 17:40:04 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-04 17:40:05 INFO  - Button 'actionButton' :: Clicking
+2023-03-04 17:40:12 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-04 17:40:13 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-04 17:40:13 INFO  - Label 'lblBookName' :: Clicking
+2023-03-04 17:40:14 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-04 17:40:14 INFO  - Button 'Read' :: Clicking
+2023-03-04 17:40:15 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-04 17:40:15 INFO  - Scrolling 8 times on reader epub screen
+2023-03-04 17:40:34 INFO  - Step 11 - I open font settings
+2023-03-04 17:40:35 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-04 17:40:36 INFO  - Step 12 - I change contrast to BLACK_TEXT_ON_WHITE
+2023-03-04 17:40:36 INFO  - Button 'setThemeLight' :: Clicking
+2023-03-04 17:40:37 INFO  - Step 13 - The BLACK_TEXT_ON_WHITE background is correct
+2023-03-04 17:40:37 INFO  - context - NATIVE_APP
+2023-03-04 17:40:37 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-04 17:40:38 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-04 17:40:38 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+  <head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+    <title>Four Roads to Windrush-Chapter I</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="9788726564587.css" />
+    
+  <link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  
+
+<body>
+   <div class="galley">
+      <div class="body Chapter" id="Chapter1">
+         <div class="title-block" id="title-block2">
+            <h1 id="h13">Chapter I
+   </h1>
+         </div>
+         <p class="firstpara" id="p10"><span class="smallcaps">Far
+      </span> out on the moor the larks were singing, and the dead brown of the bracken was already turning to young and tender green. It was a morning when spring was whispering with a beguiling voice, and it found its way through the open windows of the Windrush Hotel and into the panelled office where Lindsay Carteret was struggling with a long column of figures that refused to make sense, and doing her best to ignore it.</p>
+         <p id="p11">But it was no good. The office was overheated because the central heating was working overtime and the temperature had soared suddenly into the fifties, and in addition someone had thoughtfully turned on her electric fire for her. She got up and switched off the fire, and then went across to the window and leaned her elbows on the sill, looking out at a deep-green lawn over which one of the under-gardeners was already running a roller.</p>
+         <p id="p12">Lindsay pushed the thick fair hair back from her brow, and tugged at the little round collar of her grey dress. She always seemed to wear little round collars with her office dresses, and they were always virginally white and contrasted effectively with the dress itself. This one, of heavy corded silk, made the most of her slender shape, and had a definite “line” to it. Her Aunt Grace always insisted that a “line” was everything, and that a woman who wished to appear well dressed could look well in a sack if it was skilfully made up for her. By the same token, many a woman who imagined herself well dressed, and spent a fortune on her appearance in a year, failed in her object if she neglected that all-important “line”.</p>
+         <p id="p13">Much of her aunt’s teaching had undoubtedly had its effect on Lindsay, for amongst other things Aunt Grace insisted on utter impeccability, and Lindsay always looked faintly flowerlike with her well-ordered hair and lightly polished nails, judicious use of the right type of lipstick, and very little other make-up.</p>
+         <p id="p14">She heard a sudden commotion going on outside her door and recognised the high, imperious tones of the Baroness von Blickerstein. The baroness had arrived at the hotel only the day before, accompanied by mountains of baggage and no fewer than three satin-coated miniature dachshunds. She had already had the whole of the hotel staff running round her in circles, and because she was undoubtedly extremely rich and had driven up in an enormous cream-coloured Bentley which had just crossed the Atlantic with her, Philip Summers, the new owner of the hotel, had himself welcomed her on arrival, and the allocation of her suite had been the all-important problem of the twenty-four hours preceding her arrival.</p>
+         <p id="p15">“But I’m not at all sure we can get it ready in time,” Lindsay had objected, as the covers were about to be ripped from the sitting-room in the one suite they hardly ever used. In the days when the house had belonged to her Aunt Grace it had been the small drawing-room opening out of the main drawing-room, which was now a luxurious bedroom, and as workmen had been working there recently there had been very little time to add all the finishing touches that were essential. “No. 5 is quite ready, and once we get the flowers in there——”</p>
+         <p id="p16">“Miss Carteret,” Philip Summers had interrupted her in that quiet and coldly reproving voice with which she was gradually becoming familiar, “when I say I want a certain suite got ready and you suggest that it can’t be done in time, <i>I</i> suggest to you that you examine the various potentialities of the female staff you employ. They come beneath your jurisdiction—or they do at the moment!—and if they can’t rise to an emergency, then it’s high time they were replaced. I’m not interested in Suite No. 5 being got ready for the baroness.”</p>
+         <p id="p17">“But—but——” Lindsay found herself stammering. “If it’s impossible——?”</p>
+         <p id="p18">“Nothing is impossible,” he informed her dryly.</p>
+         <p id="p19">She looked into his strange, cold, hazel eyes under their long, thick eyelashes, and felt as if she had come up against an unyielding stone wall.</p>
+         <p id="p20">“The suite would have been ready ages ago,” she explained, clasping her hands rather nervously together, “only the pelmet had to be fitted above the big window in the sitting-room, and then it was found that the same curtains wouldn’t do. We had to have others made, and they’ve only just been delivered, and the chair-covers fitted badly. The woman who makes the chair-covers has been very busy——”</p>
+         <p id="p21">“At this time of year and in a spot like this?” with one of his dark eyebrows ascending.</p>
+         <p id="p22">Lindsay felt trapped.</p>
+         <p id="p23">“We have always looked upon this time of year as unlikely to involve us in any kind of a rush,” she pointed out as levelly as she could. “It is the quiet season, but that doesn’t mean that Mrs Banks isn’t always busy behind the scenes, and there are other hotels besides ours for which she works. Old Mr Martingale was always very considerate and never rushed anybody—he always gave them plenty of warning.”</p>
+         <p id="p24">“Old Mr Martingale is no longer here. I’m here.”</p>
+         <p id="p25">“Yes.”</p>
+         <p id="p26">Her eyelashes fluttered upwards and her blue eyes told him that it was unnecessary for him to remind her of that.</p>
+         <p id="p27">“Old Mr Martingale, as you call him, was no more fit to run an hotel than I’m fit to run an infants’ school. I wouldn’t know how to deal with infants, and he certainly knew less about providing a reasonable standard of comfort for the only type of guests it’s worth while bothering your head about—that is, if you wish the place to pay and not be a liability! Your Mr Martingale’s faded old ladies who knitted endless jumpers in the lounge, and were always glad of extended credit, were just a cause of embarrassment. That was one reason why he crashed. But now that the Windrush Hotel belongs to me, I intend it to be run on entirely different lines. Is that quite clear to you, Miss Carteret?”</p>
+         <p id="p28">“Yes,” she managed.</p>
+         <p id="p29">“Good!” he exclaimed. He ran an eye over her and thought that perhaps she was a little young for the job and that in any case it was a bad thing to have a girl working in a place that had once been her own home—the home of the Carteret family. He thought her Aunt Grace a particularly bad survival of the days when a certain class of people enjoyed the right to live securely in a house like this, employing local labour to look after them and make their days pleasant for a recompense that made his blood boil when he thought of it. This girl, for all the deceptive demureness of her expression, had a gently bred look which she would never shake off, and when she was not trying to agree with him and suppress every instinct of her own, her eyes, with their larkspur blueness, were clear and cool and a little contemptuous in their regard. They were very like the eyes of her Aunt Grace, only they would never possess Miss Carteret’s supreme indifference to almost every human being around her. And with Miss Carteret brought suddenly and rather forcibly to his mind, he came to the abrupt decision that the little flat she occupied on the top floor, which had been converted for her and furnished by the late owner for an almost laughable rental, would shortly have to be vacated by her, and that she might as well hear the bad news without delay.</p>
+         <p id="p30">“I’ll do what I can to get Suite No. 1 ready in time,” Lindsay said rather stiffly, and moved off along the corridor to summon her helpers.</p>
+         <p id="p31">He nodded almost indifferently.</p>
+         <p id="p32">“You’ve got plenty of time.”</p>
+         <p class="leading-line" id="leading-line8"> 
+   </p>
+         <p id="p33">But it was a frantic rush, even with everyone working at high pressure, and while the carpenter was still hammering away at the pelmet in the sitting-room, Mrs Banks was machining away like mad at the chair-covers in the sewingroom, and Ellen and Ruth, the two chambermaids, were polishing every article of furniture, Lindsay draped festoons of fine net curtaining at the other windows—one of them opening outwards on to a balcony overlooking all the finer expanses of the moor, as well as the nicest corner of the hotel grounds—and as soon as it was at all possible got down to the task of arranging the flowers. There seemed to be an absurdly large quantity of them, all provided by Jervis, the head gardener, who begrudged cutting a single bloom, and she couldn’t help feeling a certain sympathy with him as she filled bowls and vases.</p>
+         <p id="p34">But once the suite was ready it could hardly have looked more attractive. It was understood that the baroness, who had booked for a month, was bringing her own maid with her, and the suite included an extra bedroom, until recently occupied by one of the jumper-knitting elderly ladies.</p>
+         <p id="p35">It had upset Lindsay greatly when she had had to make it clear to those faded and slightly fragile females, whom she had known for three years, that their rooms would be required unless they could agree to pay the extortionate extra charge demanded of them. At least, to Lindsay it was extortionate.</p>
+         <p id="p36">Miss Bevington, who was the most faded of the lot, had looked as if she had received a shock.</p>
+         <p id="p37">“Oh, but, my dear!” she had exclaimed. “I really couldn’t pay anything like that! I—I just haven’t the money!”</p>
+         <p id="p38">So she had had to go, because there was to be no compromise about smaller and cheaper rooms. Even the cheapest was beyond Miss Bevington. And now there was only Miss Farley left, and Miss Farley had agreed to the extra charge because she had recently had a small windfall. But that windfall wouldn’t last very long, Lindsay felt sure, while she made the Windrush Hotel her headquarters. And although Miss Farley appeared satisfied, and even relieved, because she had been allowed to keep her inseparable companion, her spaniel Jess, with her—on condition that it was always kept well under control and never annoyed any of the other guests—Lindsay was not entirely happy about her. It was of Miss Farley that she was actually thinking at the moment that the commotion arose outside her office door, and as she went to open the door she had a curious sensation like apprehension. She was almost certain that, as well as the dominant tones of the baroness—quite unmistakable on account of a slight South American accent—the thin, rather frightened, tones of Miss Farley seemed to be making a valiant attempt to be heard.</p>
+         <p id="p39">As soon as Lindsay got the door open she knew that she had every reason to feel apprehensive. The baroness, a large woman in a speckled tweed suit and an emerald-green jumper, with enormous pearl studs in her ears and flaming red hair, was holding one of her dachshunds under her arm and fondling it with a beringed hand, while Miss Farley, in a mauve jumper and a neat grey flannel suit that had survived many trips to the cleaners, was holding Jess in on a very short lead and trying to make the outraged latest arrival understand that it was <i>not</i> her dog who had set upon the baroness’s. On the contrary, it was the baroness’s dog——</p>
+         <p id="p40">“Nonsense!” the baroness exclaimed, looking supremely outraged. “My Mitzie is exceedingly well trained, and quite apart from that it is a very <i>valuable</i> dog and I would not allow it to come into contact with any other animal I knew nothing about.” She glared distastefully at the inoffensivelooking black spaniel; Jess was sitting looking up in an interested fashion at the small golden-eyed creature that was growling disapprovingly from under the safe refuge of its mistress’s arm. The baroness’s purple colour mounted still higher. “<i>I</i> keep my dogs under control——”</p>
+         <p id="p41">“And I can assure you that I do endeavour to do the same!” Miss Farley sounded quite pitiful.</p>
+         <p id="p42">“Then your endeavours are not good enough!”</p>
+         <p id="p43">“In that case I’m terribly sorry, but it really wasn’t Jess’s fault.…”</p>
+         <p id="p44">Lindsay made a slight coughing noise, and the baroness whirled on her.</p>
+         <p id="p45">“Are you the manager’s secretary?” she demanded haughtily. “That young woman at the reception desk said I had better see a Miss Carteret, the manager’s secretary, when I told her I had a complaint to make. And, as a matter of fact, I have more than one complaint to make!”</p>
+         <p id="p46">“Oh!” Lindsay exclaimed. And then she stood aside for their most important visitor to enter. “Will you come inside, please?” she invited softly.</p>
+         <p id="p47">The baroness threw a contemptuous glance at Miss Farley, who looked all at once like a pathetically deflated balloon, and behind the baroness’s back as she swept into the office Lindsay saw her look at her appealingly. Her faded lips framed the words:</p>
+         <p id="p48">“I’m so sorry! … So terribly sorry!”</p>
+         <p id="p49">But Lindsay had the feeling that her sorrow would be even greater yet.</p>
+      </div>
+   </div>
+</body>
+
+</html>
+2023-03-04 17:40:38 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-04 17:40:38 INFO  - Step 14 - I restart app
+2023-03-04 17:41:02 INFO  - Step 15 - I open Books
+2023-03-04 17:41:02 INFO  - Button 'tabBooks' :: Clicking
+2023-03-04 17:41:02 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-04 17:41:04 INFO  - Label 'lblBookName' :: Clicking
+2023-03-04 17:41:04 INFO  - Step 17 - Click READ action button on book details screen
+2023-03-04 17:41:05 INFO  - Button 'Read' :: Clicking
+2023-03-04 17:41:05 INFO  - Step 18 - The BLACK_TEXT_ON_WHITE background is correct
+2023-03-04 17:41:05 INFO  - context - NATIVE_APP
+2023-03-04 17:41:06 INFO  - context - NATIVE_APP
+2023-03-04 17:41:07 INFO  - context - NATIVE_APP
+2023-03-04 17:41:07 INFO  - context - NATIVE_APP
+2023-03-04 17:41:07 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-04 17:41:08 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-04 17:41:08 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+  <head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+    <title>Four Roads to Windrush-Chapter I</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="9788726564587.css" />
+    
+  <link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  
+
+<body>
+   <div class="galley">
+      <div class="body Chapter" id="Chapter1">
+         <div class="title-block" id="title-block2">
+            <h1 id="h13">Chapter I
+   </h1>
+         </div>
+         <p class="firstpara" id="p10"><span class="smallcaps">Far
+      </span> out on the moor the larks were singing, and the dead brown of the bracken was already turning to young and tender green. It was a morning when spring was whispering with a beguiling voice, and it found its way through the open windows of the Windrush Hotel and into the panelled office where Lindsay Carteret was struggling with a long column of figures that refused to make sense, and doing her best to ignore it.</p>
+         <p id="p11">But it was no good. The office was overheated because the central heating was working overtime and the temperature had soared suddenly into the fifties, and in addition someone had thoughtfully turned on her electric fire for her. She got up and switched off the fire, and then went across to the window and leaned her elbows on the sill, looking out at a deep-green lawn over which one of the under-gardeners was already running a roller.</p>
+         <p id="p12">Lindsay pushed the thick fair hair back from her brow, and tugged at the little round collar of her grey dress. She always seemed to wear little round collars with her office dresses, and they were always virginally white and contrasted effectively with the dress itself. This one, of heavy corded silk, made the most of her slender shape, and had a definite “line” to it. Her Aunt Grace always insisted that a “line” was everything, and that a woman who wished to appear well dressed could look well in a sack if it was skilfully made up for her. By the same token, many a woman who imagined herself well dressed, and spent a fortune on her appearance in a year, failed in her object if she neglected that all-important “line”.</p>
+         <p id="p13">Much of her aunt’s teaching had undoubtedly had its effect on Lindsay, for amongst other things Aunt Grace insisted on utter impeccability, and Lindsay always looked faintly flowerlike with her well-ordered hair and lightly polished nails, judicious use of the right type of lipstick, and very little other make-up.</p>
+         <p id="p14">She heard a sudden commotion going on outside her door and recognised the high, imperious tones of the Baroness von Blickerstein. The baroness had arrived at the hotel only the day before, accompanied by mountains of baggage and no fewer than three satin-coated miniature dachshunds. She had already had the whole of the hotel staff running round her in circles, and because she was undoubtedly extremely rich and had driven up in an enormous cream-coloured Bentley which had just crossed the Atlantic with her, Philip Summers, the new owner of the hotel, had himself welcomed her on arrival, and the allocation of her suite had been the all-important problem of the twenty-four hours preceding her arrival.</p>
+         <p id="p15">“But I’m not at all sure we can get it ready in time,” Lindsay had objected, as the covers were about to be ripped from the sitting-room in the one suite they hardly ever used. In the days when the house had belonged to her Aunt Grace it had been the small drawing-room opening out of the main drawing-room, which was now a luxurious bedroom, and as workmen had been working there recently there had been very little time to add all the finishing touches that were essential. “No. 5 is quite ready, and once we get the flowers in there——”</p>
+         <p id="p16">“Miss Carteret,” Philip Summers had interrupted her in that quiet and coldly reproving voice with which she was gradually becoming familiar, “when I say I want a certain suite got ready and you suggest that it can’t be done in time, <i>I</i> suggest to you that you examine the various potentialities of the female staff you employ. They come beneath your jurisdiction—or they do at the moment!—and if they can’t rise to an emergency, then it’s high time they were replaced. I’m not interested in Suite No. 5 being got ready for the baroness.”</p>
+         <p id="p17">“But—but——” Lindsay found herself stammering. “If it’s impossible——?”</p>
+         <p id="p18">“Nothing is impossible,” he informed her dryly.</p>
+         <p id="p19">She looked into his strange, cold, hazel eyes under their long, thick eyelashes, and felt as if she had come up against an unyielding stone wall.</p>
+         <p id="p20">“The suite would have been ready ages ago,” she explained, clasping her hands rather nervously together, “only the pelmet had to be fitted above the big window in the sitting-room, and then it was found that the same curtains wouldn’t do. We had to have others made, and they’ve only just been delivered, and the chair-covers fitted badly. The woman who makes the chair-covers has been very busy——”</p>
+         <p id="p21">“At this time of year and in a spot like this?” with one of his dark eyebrows ascending.</p>
+         <p id="p22">Lindsay felt trapped.</p>
+         <p id="p23">“We have always looked upon this time of year as unlikely to involve us in any kind of a rush,” she pointed out as levelly as she could. “It is the quiet season, but that doesn’t mean that Mrs Banks isn’t always busy behind the scenes, and there are other hotels besides ours for which she works. Old Mr Martingale was always very considerate and never rushed anybody—he always gave them plenty of warning.”</p>
+         <p id="p24">“Old Mr Martingale is no longer here. I’m here.”</p>
+         <p id="p25">“Yes.”</p>
+         <p id="p26">Her eyelashes fluttered upwards and her blue eyes told him that it was unnecessary for him to remind her of that.</p>
+         <p id="p27">“Old Mr Martingale, as you call him, was no more fit to run an hotel than I’m fit to run an infants’ school. I wouldn’t know how to deal with infants, and he certainly knew less about providing a reasonable standard of comfort for the only type of guests it’s worth while bothering your head about—that is, if you wish the place to pay and not be a liability! Your Mr Martingale’s faded old ladies who knitted endless jumpers in the lounge, and were always glad of extended credit, were just a cause of embarrassment. That was one reason why he crashed. But now that the Windrush Hotel belongs to me, I intend it to be run on entirely different lines. Is that quite clear to you, Miss Carteret?”</p>
+         <p id="p28">“Yes,” she managed.</p>
+         <p id="p29">“Good!” he exclaimed. He ran an eye over her and thought that perhaps she was a little young for the job and that in any case it was a bad thing to have a girl working in a place that had once been her own home—the home of the Carteret family. He thought her Aunt Grace a particularly bad survival of the days when a certain class of people enjoyed the right to live securely in a house like this, employing local labour to look after them and make their days pleasant for a recompense that made his blood boil when he thought of it. This girl, for all the deceptive demureness of her expression, had a gently bred look which she would never shake off, and when she was not trying to agree with him and suppress every instinct of her own, her eyes, with their larkspur blueness, were clear and cool and a little contemptuous in their regard. They were very like the eyes of her Aunt Grace, only they would never possess Miss Carteret’s supreme indifference to almost every human being around her. And with Miss Carteret brought suddenly and rather forcibly to his mind, he came to the abrupt decision that the little flat she occupied on the top floor, which had been converted for her and furnished by the late owner for an almost laughable rental, would shortly have to be vacated by her, and that she might as well hear the bad news without delay.</p>
+         <p id="p30">“I’ll do what I can to get Suite No. 1 ready in time,” Lindsay said rather stiffly, and moved off along the corridor to summon her helpers.</p>
+         <p id="p31">He nodded almost indifferently.</p>
+         <p id="p32">“You’ve got plenty of time.”</p>
+         <p class="leading-line" id="leading-line8"> 
+   </p>
+         <p id="p33">But it was a frantic rush, even with everyone working at high pressure, and while the carpenter was still hammering away at the pelmet in the sitting-room, Mrs Banks was machining away like mad at the chair-covers in the sewingroom, and Ellen and Ruth, the two chambermaids, were polishing every article of furniture, Lindsay draped festoons of fine net curtaining at the other windows—one of them opening outwards on to a balcony overlooking all the finer expanses of the moor, as well as the nicest corner of the hotel grounds—and as soon as it was at all possible got down to the task of arranging the flowers. There seemed to be an absurdly large quantity of them, all provided by Jervis, the head gardener, who begrudged cutting a single bloom, and she couldn’t help feeling a certain sympathy with him as she filled bowls and vases.</p>
+         <p id="p34">But once the suite was ready it could hardly have looked more attractive. It was understood that the baroness, who had booked for a month, was bringing her own maid with her, and the suite included an extra bedroom, until recently occupied by one of the jumper-knitting elderly ladies.</p>
+         <p id="p35">It had upset Lindsay greatly when she had had to make it clear to those faded and slightly fragile females, whom she had known for three years, that their rooms would be required unless they could agree to pay the extortionate extra charge demanded of them. At least, to Lindsay it was extortionate.</p>
+         <p id="p36">Miss Bevington, who was the most faded of the lot, had looked as if she had received a shock.</p>
+         <p id="p37">“Oh, but, my dear!” she had exclaimed. “I really couldn’t pay anything like that! I—I just haven’t the money!”</p>
+         <p id="p38">So she had had to go, because there was to be no compromise about smaller and cheaper rooms. Even the cheapest was beyond Miss Bevington. And now there was only Miss Farley left, and Miss Farley had agreed to the extra charge because she had recently had a small windfall. But that windfall wouldn’t last very long, Lindsay felt sure, while she made the Windrush Hotel her headquarters. And although Miss Farley appeared satisfied, and even relieved, because she had been allowed to keep her inseparable companion, her spaniel Jess, with her—on condition that it was always kept well under control and never annoyed any of the other guests—Lindsay was not entirely happy about her. It was of Miss Farley that she was actually thinking at the moment that the commotion arose outside her office door, and as she went to open the door she had a curious sensation like apprehension. She was almost certain that, as well as the dominant tones of the baroness—quite unmistakable on account of a slight South American accent—the thin, rather frightened, tones of Miss Farley seemed to be making a valiant attempt to be heard.</p>
+         <p id="p39">As soon as Lindsay got the door open she knew that she had every reason to feel apprehensive. The baroness, a large woman in a speckled tweed suit and an emerald-green jumper, with enormous pearl studs in her ears and flaming red hair, was holding one of her dachshunds under her arm and fondling it with a beringed hand, while Miss Farley, in a mauve jumper and a neat grey flannel suit that had survived many trips to the cleaners, was holding Jess in on a very short lead and trying to make the outraged latest arrival understand that it was <i>not</i> her dog who had set upon the baroness’s. On the contrary, it was the baroness’s dog——</p>
+         <p id="p40">“Nonsense!” the baroness exclaimed, looking supremely outraged. “My Mitzie is exceedingly well trained, and quite apart from that it is a very <i>valuable</i> dog and I would not allow it to come into contact with any other animal I knew nothing about.” She glared distastefully at the inoffensivelooking black spaniel; Jess was sitting looking up in an interested fashion at the small golden-eyed creature that was growling disapprovingly from under the safe refuge of its mistress’s arm. The baroness’s purple colour mounted still higher. “<i>I</i> keep my dogs under control——”</p>
+         <p id="p41">“And I can assure you that I do endeavour to do the same!” Miss Farley sounded quite pitiful.</p>
+         <p id="p42">“Then your endeavours are not good enough!”</p>
+         <p id="p43">“In that case I’m terribly sorry, but it really wasn’t Jess’s fault.…”</p>
+         <p id="p44">Lindsay made a slight coughing noise, and the baroness whirled on her.</p>
+         <p id="p45">“Are you the manager’s secretary?” she demanded haughtily. “That young woman at the reception desk said I had better see a Miss Carteret, the manager’s secretary, when I told her I had a complaint to make. And, as a matter of fact, I have more than one complaint to make!”</p>
+         <p id="p46">“Oh!” Lindsay exclaimed. And then she stood aside for their most important visitor to enter. “Will you come inside, please?” she invited softly.</p>
+         <p id="p47">The baroness threw a contemptuous glance at Miss Farley, who looked all at once like a pathetically deflated balloon, and behind the baroness’s back as she swept into the office Lindsay saw her look at her appealingly. Her faded lips framed the words:</p>
+         <p id="p48">“I’m so sorry! … So terribly sorry!”</p>
+         <p id="p49">But Lindsay had the feeling that her sorrow would be even greater yet.</p>
+      </div>
+   </div>
+</body>
+
+</html>
+2023-03-04 17:41:08 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-04 17:41:09 INFO  - Step 19 - I return to previous screen from epub
+2023-03-04 17:41:09 INFO  - Button 'btnBack' :: Clicking
+2023-03-04 17:41:10 INFO  - Step 20 - Click READ action button on book details screen
+2023-03-04 17:41:11 INFO  - Button 'Read' :: Clicking
+2023-03-04 17:41:11 INFO  - Step 21 - The BLACK_TEXT_ON_WHITE background is correct
+2023-03-04 17:41:11 INFO  - context - NATIVE_APP
+2023-03-04 17:41:11 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-04 17:41:13 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-04 17:41:13 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+  <head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+    <title>Four Roads to Windrush-Chapter I</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="9788726564587.css" />
+    
+  <link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  
+
+<body>
+   <div class="galley">
+      <div class="body Chapter" id="Chapter1">
+         <div class="title-block" id="title-block2">
+            <h1 id="h13">Chapter I
+   </h1>
+         </div>
+         <p class="firstpara" id="p10"><span class="smallcaps">Far
+      </span> out on the moor the larks were singing, and the dead brown of the bracken was already turning to young and tender green. It was a morning when spring was whispering with a beguiling voice, and it found its way through the open windows of the Windrush Hotel and into the panelled office where Lindsay Carteret was struggling with a long column of figures that refused to make sense, and doing her best to ignore it.</p>
+         <p id="p11">But it was no good. The office was overheated because the central heating was working overtime and the temperature had soared suddenly into the fifties, and in addition someone had thoughtfully turned on her electric fire for her. She got up and switched off the fire, and then went across to the window and leaned her elbows on the sill, looking out at a deep-green lawn over which one of the under-gardeners was already running a roller.</p>
+         <p id="p12">Lindsay pushed the thick fair hair back from her brow, and tugged at the little round collar of her grey dress. She always seemed to wear little round collars with her office dresses, and they were always virginally white and contrasted effectively with the dress itself. This one, of heavy corded silk, made the most of her slender shape, and had a definite “line” to it. Her Aunt Grace always insisted that a “line” was everything, and that a woman who wished to appear well dressed could look well in a sack if it was skilfully made up for her. By the same token, many a woman who imagined herself well dressed, and spent a fortune on her appearance in a year, failed in her object if she neglected that all-important “line”.</p>
+         <p id="p13">Much of her aunt’s teaching had undoubtedly had its effect on Lindsay, for amongst other things Aunt Grace insisted on utter impeccability, and Lindsay always looked faintly flowerlike with her well-ordered hair and lightly polished nails, judicious use of the right type of lipstick, and very little other make-up.</p>
+         <p id="p14">She heard a sudden commotion going on outside her door and recognised the high, imperious tones of the Baroness von Blickerstein. The baroness had arrived at the hotel only the day before, accompanied by mountains of baggage and no fewer than three satin-coated miniature dachshunds. She had already had the whole of the hotel staff running round her in circles, and because she was undoubtedly extremely rich and had driven up in an enormous cream-coloured Bentley which had just crossed the Atlantic with her, Philip Summers, the new owner of the hotel, had himself welcomed her on arrival, and the allocation of her suite had been the all-important problem of the twenty-four hours preceding her arrival.</p>
+         <p id="p15">“But I’m not at all sure we can get it ready in time,” Lindsay had objected, as the covers were about to be ripped from the sitting-room in the one suite they hardly ever used. In the days when the house had belonged to her Aunt Grace it had been the small drawing-room opening out of the main drawing-room, which was now a luxurious bedroom, and as workmen had been working there recently there had been very little time to add all the finishing touches that were essential. “No. 5 is quite ready, and once we get the flowers in there——”</p>
+         <p id="p16">“Miss Carteret,” Philip Summers had interrupted her in that quiet and coldly reproving voice with which she was gradually becoming familiar, “when I say I want a certain suite got ready and you suggest that it can’t be done in time, <i>I</i> suggest to you that you examine the various potentialities of the female staff you employ. They come beneath your jurisdiction—or they do at the moment!—and if they can’t rise to an emergency, then it’s high time they were replaced. I’m not interested in Suite No. 5 being got ready for the baroness.”</p>
+         <p id="p17">“But—but——” Lindsay found herself stammering. “If it’s impossible——?”</p>
+         <p id="p18">“Nothing is impossible,” he informed her dryly.</p>
+         <p id="p19">She looked into his strange, cold, hazel eyes under their long, thick eyelashes, and felt as if she had come up against an unyielding stone wall.</p>
+         <p id="p20">“The suite would have been ready ages ago,” she explained, clasping her hands rather nervously together, “only the pelmet had to be fitted above the big window in the sitting-room, and then it was found that the same curtains wouldn’t do. We had to have others made, and they’ve only just been delivered, and the chair-covers fitted badly. The woman who makes the chair-covers has been very busy——”</p>
+         <p id="p21">“At this time of year and in a spot like this?” with one of his dark eyebrows ascending.</p>
+         <p id="p22">Lindsay felt trapped.</p>
+         <p id="p23">“We have always looked upon this time of year as unlikely to involve us in any kind of a rush,” she pointed out as levelly as she could. “It is the quiet season, but that doesn’t mean that Mrs Banks isn’t always busy behind the scenes, and there are other hotels besides ours for which she works. Old Mr Martingale was always very considerate and never rushed anybody—he always gave them plenty of warning.”</p>
+         <p id="p24">“Old Mr Martingale is no longer here. I’m here.”</p>
+         <p id="p25">“Yes.”</p>
+         <p id="p26">Her eyelashes fluttered upwards and her blue eyes told him that it was unnecessary for him to remind her of that.</p>
+         <p id="p27">“Old Mr Martingale, as you call him, was no more fit to run an hotel than I’m fit to run an infants’ school. I wouldn’t know how to deal with infants, and he certainly knew less about providing a reasonable standard of comfort for the only type of guests it’s worth while bothering your head about—that is, if you wish the place to pay and not be a liability! Your Mr Martingale’s faded old ladies who knitted endless jumpers in the lounge, and were always glad of extended credit, were just a cause of embarrassment. That was one reason why he crashed. But now that the Windrush Hotel belongs to me, I intend it to be run on entirely different lines. Is that quite clear to you, Miss Carteret?”</p>
+         <p id="p28">“Yes,” she managed.</p>
+         <p id="p29">“Good!” he exclaimed. He ran an eye over her and thought that perhaps she was a little young for the job and that in any case it was a bad thing to have a girl working in a place that had once been her own home—the home of the Carteret family. He thought her Aunt Grace a particularly bad survival of the days when a certain class of people enjoyed the right to live securely in a house like this, employing local labour to look after them and make their days pleasant for a recompense that made his blood boil when he thought of it. This girl, for all the deceptive demureness of her expression, had a gently bred look which she would never shake off, and when she was not trying to agree with him and suppress every instinct of her own, her eyes, with their larkspur blueness, were clear and cool and a little contemptuous in their regard. They were very like the eyes of her Aunt Grace, only they would never possess Miss Carteret’s supreme indifference to almost every human being around her. And with Miss Carteret brought suddenly and rather forcibly to his mind, he came to the abrupt decision that the little flat she occupied on the top floor, which had been converted for her and furnished by the late owner for an almost laughable rental, would shortly have to be vacated by her, and that she might as well hear the bad news without delay.</p>
+         <p id="p30">“I’ll do what I can to get Suite No. 1 ready in time,” Lindsay said rather stiffly, and moved off along the corridor to summon her helpers.</p>
+         <p id="p31">He nodded almost indifferently.</p>
+         <p id="p32">“You’ve got plenty of time.”</p>
+         <p class="leading-line" id="leading-line8"> 
+   </p>
+         <p id="p33">But it was a frantic rush, even with everyone working at high pressure, and while the carpenter was still hammering away at the pelmet in the sitting-room, Mrs Banks was machining away like mad at the chair-covers in the sewingroom, and Ellen and Ruth, the two chambermaids, were polishing every article of furniture, Lindsay draped festoons of fine net curtaining at the other windows—one of them opening outwards on to a balcony overlooking all the finer expanses of the moor, as well as the nicest corner of the hotel grounds—and as soon as it was at all possible got down to the task of arranging the flowers. There seemed to be an absurdly large quantity of them, all provided by Jervis, the head gardener, who begrudged cutting a single bloom, and she couldn’t help feeling a certain sympathy with him as she filled bowls and vases.</p>
+         <p id="p34">But once the suite was ready it could hardly have looked more attractive. It was understood that the baroness, who had booked for a month, was bringing her own maid with her, and the suite included an extra bedroom, until recently occupied by one of the jumper-knitting elderly ladies.</p>
+         <p id="p35">It had upset Lindsay greatly when she had had to make it clear to those faded and slightly fragile females, whom she had known for three years, that their rooms would be required unless they could agree to pay the extortionate extra charge demanded of them. At least, to Lindsay it was extortionate.</p>
+         <p id="p36">Miss Bevington, who was the most faded of the lot, had looked as if she had received a shock.</p>
+         <p id="p37">“Oh, but, my dear!” she had exclaimed. “I really couldn’t pay anything like that! I—I just haven’t the money!”</p>
+         <p id="p38">So she had had to go, because there was to be no compromise about smaller and cheaper rooms. Even the cheapest was beyond Miss Bevington. And now there was only Miss Farley left, and Miss Farley had agreed to the extra charge because she had recently had a small windfall. But that windfall wouldn’t last very long, Lindsay felt sure, while she made the Windrush Hotel her headquarters. And although Miss Farley appeared satisfied, and even relieved, because she had been allowed to keep her inseparable companion, her spaniel Jess, with her—on condition that it was always kept well under control and never annoyed any of the other guests—Lindsay was not entirely happy about her. It was of Miss Farley that she was actually thinking at the moment that the commotion arose outside her office door, and as she went to open the door she had a curious sensation like apprehension. She was almost certain that, as well as the dominant tones of the baroness—quite unmistakable on account of a slight South American accent—the thin, rather frightened, tones of Miss Farley seemed to be making a valiant attempt to be heard.</p>
+         <p id="p39">As soon as Lindsay got the door open she knew that she had every reason to feel apprehensive. The baroness, a large woman in a speckled tweed suit and an emerald-green jumper, with enormous pearl studs in her ears and flaming red hair, was holding one of her dachshunds under her arm and fondling it with a beringed hand, while Miss Farley, in a mauve jumper and a neat grey flannel suit that had survived many trips to the cleaners, was holding Jess in on a very short lead and trying to make the outraged latest arrival understand that it was <i>not</i> her dog who had set upon the baroness’s. On the contrary, it was the baroness’s dog——</p>
+         <p id="p40">“Nonsense!” the baroness exclaimed, looking supremely outraged. “My Mitzie is exceedingly well trained, and quite apart from that it is a very <i>valuable</i> dog and I would not allow it to come into contact with any other animal I knew nothing about.” She glared distastefully at the inoffensivelooking black spaniel; Jess was sitting looking up in an interested fashion at the small golden-eyed creature that was growling disapprovingly from under the safe refuge of its mistress’s arm. The baroness’s purple colour mounted still higher. “<i>I</i> keep my dogs under control——”</p>
+         <p id="p41">“And I can assure you that I do endeavour to do the same!” Miss Farley sounded quite pitiful.</p>
+         <p id="p42">“Then your endeavours are not good enough!”</p>
+         <p id="p43">“In that case I’m terribly sorry, but it really wasn’t Jess’s fault.…”</p>
+         <p id="p44">Lindsay made a slight coughing noise, and the baroness whirled on her.</p>
+         <p id="p45">“Are you the manager’s secretary?” she demanded haughtily. “That young woman at the reception desk said I had better see a Miss Carteret, the manager’s secretary, when I told her I had a complaint to make. And, as a matter of fact, I have more than one complaint to make!”</p>
+         <p id="p46">“Oh!” Lindsay exclaimed. And then she stood aside for their most important visitor to enter. “Will you come inside, please?” she invited softly.</p>
+         <p id="p47">The baroness threw a contemptuous glance at Miss Farley, who looked all at once like a pathetically deflated balloon, and behind the baroness’s back as she swept into the office Lindsay saw her look at her appealingly. Her faded lips framed the words:</p>
+         <p id="p48">“I’m so sorry! … So terribly sorry!”</p>
+         <p id="p49">But Lindsay had the feeling that her sorrow would be even greater yet.</p>
+      </div>
+   </div>
+</body>
+
+</html>
+2023-03-04 17:41:13 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-04 17:41:13 INFO  - Step 22 - I open font settings
+2023-03-04 17:41:15 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-04 17:41:15 INFO  - Step 23 - I change contrast to BLACK_TEXT_ON_SEPIA
+2023-03-04 17:41:15 INFO  - Button 'setThemeSepia' :: Clicking
+2023-03-04 17:41:16 INFO  - Step 24 - The BLACK_TEXT_ON_SEPIA background is correct
+2023-03-04 17:41:16 INFO  - context - NATIVE_APP
+2023-03-04 17:41:16 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-04 17:41:16 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-04 17:41:16 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+  <head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+    <title>Four Roads to Windrush-Chapter I</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="9788726564587.css" />
+    
+  <link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  
+
+<body>
+   <div class="galley">
+      <div class="body Chapter" id="Chapter1">
+         <div class="title-block" id="title-block2">
+            <h1 id="h13">Chapter I
+   </h1>
+         </div>
+         <p class="firstpara" id="p10"><span class="smallcaps">Far
+      </span> out on the moor the larks were singing, and the dead brown of the bracken was already turning to young and tender green. It was a morning when spring was whispering with a beguiling voice, and it found its way through the open windows of the Windrush Hotel and into the panelled office where Lindsay Carteret was struggling with a long column of figures that refused to make sense, and doing her best to ignore it.</p>
+         <p id="p11">But it was no good. The office was overheated because the central heating was working overtime and the temperature had soared suddenly into the fifties, and in addition someone had thoughtfully turned on her electric fire for her. She got up and switched off the fire, and then went across to the window and leaned her elbows on the sill, looking out at a deep-green lawn over which one of the under-gardeners was already running a roller.</p>
+         <p id="p12">Lindsay pushed the thick fair hair back from her brow, and tugged at the little round collar of her grey dress. She always seemed to wear little round collars with her office dresses, and they were always virginally white and contrasted effectively with the dress itself. This one, of heavy corded silk, made the most of her slender shape, and had a definite “line” to it. Her Aunt Grace always insisted that a “line” was everything, and that a woman who wished to appear well dressed could look well in a sack if it was skilfully made up for her. By the same token, many a woman who imagined herself well dressed, and spent a fortune on her appearance in a year, failed in her object if she neglected that all-important “line”.</p>
+         <p id="p13">Much of her aunt’s teaching had undoubtedly had its effect on Lindsay, for amongst other things Aunt Grace insisted on utter impeccability, and Lindsay always looked faintly flowerlike with her well-ordered hair and lightly polished nails, judicious use of the right type of lipstick, and very little other make-up.</p>
+         <p id="p14">She heard a sudden commotion going on outside her door and recognised the high, imperious tones of the Baroness von Blickerstein. The baroness had arrived at the hotel only the day before, accompanied by mountains of baggage and no fewer than three satin-coated miniature dachshunds. She had already had the whole of the hotel staff running round her in circles, and because she was undoubtedly extremely rich and had driven up in an enormous cream-coloured Bentley which had just crossed the Atlantic with her, Philip Summers, the new owner of the hotel, had himself welcomed her on arrival, and the allocation of her suite had been the all-important problem of the twenty-four hours preceding her arrival.</p>
+         <p id="p15">“But I’m not at all sure we can get it ready in time,” Lindsay had objected, as the covers were about to be ripped from the sitting-room in the one suite they hardly ever used. In the days when the house had belonged to her Aunt Grace it had been the small drawing-room opening out of the main drawing-room, which was now a luxurious bedroom, and as workmen had been working there recently there had been very little time to add all the finishing touches that were essential. “No. 5 is quite ready, and once we get the flowers in there——”</p>
+         <p id="p16">“Miss Carteret,” Philip Summers had interrupted her in that quiet and coldly reproving voice with which she was gradually becoming familiar, “when I say I want a certain suite got ready and you suggest that it can’t be done in time, <i>I</i> suggest to you that you examine the various potentialities of the female staff you employ. They come beneath your jurisdiction—or they do at the moment!—and if they can’t rise to an emergency, then it’s high time they were replaced. I’m not interested in Suite No. 5 being got ready for the baroness.”</p>
+         <p id="p17">“But—but——” Lindsay found herself stammering. “If it’s impossible——?”</p>
+         <p id="p18">“Nothing is impossible,” he informed her dryly.</p>
+         <p id="p19">She looked into his strange, cold, hazel eyes under their long, thick eyelashes, and felt as if she had come up against an unyielding stone wall.</p>
+         <p id="p20">“The suite would have been ready ages ago,” she explained, clasping her hands rather nervously together, “only the pelmet had to be fitted above the big window in the sitting-room, and then it was found that the same curtains wouldn’t do. We had to have others made, and they’ve only just been delivered, and the chair-covers fitted badly. The woman who makes the chair-covers has been very busy——”</p>
+         <p id="p21">“At this time of year and in a spot like this?” with one of his dark eyebrows ascending.</p>
+         <p id="p22">Lindsay felt trapped.</p>
+         <p id="p23">“We have always looked upon this time of year as unlikely to involve us in any kind of a rush,” she pointed out as levelly as she could. “It is the quiet season, but that doesn’t mean that Mrs Banks isn’t always busy behind the scenes, and there are other hotels besides ours for which she works. Old Mr Martingale was always very considerate and never rushed anybody—he always gave them plenty of warning.”</p>
+         <p id="p24">“Old Mr Martingale is no longer here. I’m here.”</p>
+         <p id="p25">“Yes.”</p>
+         <p id="p26">Her eyelashes fluttered upwards and her blue eyes told him that it was unnecessary for him to remind her of that.</p>
+         <p id="p27">“Old Mr Martingale, as you call him, was no more fit to run an hotel than I’m fit to run an infants’ school. I wouldn’t know how to deal with infants, and he certainly knew less about providing a reasonable standard of comfort for the only type of guests it’s worth while bothering your head about—that is, if you wish the place to pay and not be a liability! Your Mr Martingale’s faded old ladies who knitted endless jumpers in the lounge, and were always glad of extended credit, were just a cause of embarrassment. That was one reason why he crashed. But now that the Windrush Hotel belongs to me, I intend it to be run on entirely different lines. Is that quite clear to you, Miss Carteret?”</p>
+         <p id="p28">“Yes,” she managed.</p>
+         <p id="p29">“Good!” he exclaimed. He ran an eye over her and thought that perhaps she was a little young for the job and that in any case it was a bad thing to have a girl working in a place that had once been her own home—the home of the Carteret family. He thought her Aunt Grace a particularly bad survival of the days when a certain class of people enjoyed the right to live securely in a house like this, employing local labour to look after them and make their days pleasant for a recompense that made his blood boil when he thought of it. This girl, for all the deceptive demureness of her expression, had a gently bred look which she would never shake off, and when she was not trying to agree with him and suppress every instinct of her own, her eyes, with their larkspur blueness, were clear and cool and a little contemptuous in their regard. They were very like the eyes of her Aunt Grace, only they would never possess Miss Carteret’s supreme indifference to almost every human being around her. And with Miss Carteret brought suddenly and rather forcibly to his mind, he came to the abrupt decision that the little flat she occupied on the top floor, which had been converted for her and furnished by the late owner for an almost laughable rental, would shortly have to be vacated by her, and that she might as well hear the bad news without delay.</p>
+         <p id="p30">“I’ll do what I can to get Suite No. 1 ready in time,” Lindsay said rather stiffly, and moved off along the corridor to summon her helpers.</p>
+         <p id="p31">He nodded almost indifferently.</p>
+         <p id="p32">“You’ve got plenty of time.”</p>
+         <p class="leading-line" id="leading-line8"> 
+   </p>
+         <p id="p33">But it was a frantic rush, even with everyone working at high pressure, and while the carpenter was still hammering away at the pelmet in the sitting-room, Mrs Banks was machining away like mad at the chair-covers in the sewingroom, and Ellen and Ruth, the two chambermaids, were polishing every article of furniture, Lindsay draped festoons of fine net curtaining at the other windows—one of them opening outwards on to a balcony overlooking all the finer expanses of the moor, as well as the nicest corner of the hotel grounds—and as soon as it was at all possible got down to the task of arranging the flowers. There seemed to be an absurdly large quantity of them, all provided by Jervis, the head gardener, who begrudged cutting a single bloom, and she couldn’t help feeling a certain sympathy with him as she filled bowls and vases.</p>
+         <p id="p34">But once the suite was ready it could hardly have looked more attractive. It was understood that the baroness, who had booked for a month, was bringing her own maid with her, and the suite included an extra bedroom, until recently occupied by one of the jumper-knitting elderly ladies.</p>
+         <p id="p35">It had upset Lindsay greatly when she had had to make it clear to those faded and slightly fragile females, whom she had known for three years, that their rooms would be required unless they could agree to pay the extortionate extra charge demanded of them. At least, to Lindsay it was extortionate.</p>
+         <p id="p36">Miss Bevington, who was the most faded of the lot, had looked as if she had received a shock.</p>
+         <p id="p37">“Oh, but, my dear!” she had exclaimed. “I really couldn’t pay anything like that! I—I just haven’t the money!”</p>
+         <p id="p38">So she had had to go, because there was to be no compromise about smaller and cheaper rooms. Even the cheapest was beyond Miss Bevington. And now there was only Miss Farley left, and Miss Farley had agreed to the extra charge because she had recently had a small windfall. But that windfall wouldn’t last very long, Lindsay felt sure, while she made the Windrush Hotel her headquarters. And although Miss Farley appeared satisfied, and even relieved, because she had been allowed to keep her inseparable companion, her spaniel Jess, with her—on condition that it was always kept well under control and never annoyed any of the other guests—Lindsay was not entirely happy about her. It was of Miss Farley that she was actually thinking at the moment that the commotion arose outside her office door, and as she went to open the door she had a curious sensation like apprehension. She was almost certain that, as well as the dominant tones of the baroness—quite unmistakable on account of a slight South American accent—the thin, rather frightened, tones of Miss Farley seemed to be making a valiant attempt to be heard.</p>
+         <p id="p39">As soon as Lindsay got the door open she knew that she had every reason to feel apprehensive. The baroness, a large woman in a speckled tweed suit and an emerald-green jumper, with enormous pearl studs in her ears and flaming red hair, was holding one of her dachshunds under her arm and fondling it with a beringed hand, while Miss Farley, in a mauve jumper and a neat grey flannel suit that had survived many trips to the cleaners, was holding Jess in on a very short lead and trying to make the outraged latest arrival understand that it was <i>not</i> her dog who had set upon the baroness’s. On the contrary, it was the baroness’s dog——</p>
+         <p id="p40">“Nonsense!” the baroness exclaimed, looking supremely outraged. “My Mitzie is exceedingly well trained, and quite apart from that it is a very <i>valuable</i> dog and I would not allow it to come into contact with any other animal I knew nothing about.” She glared distastefully at the inoffensivelooking black spaniel; Jess was sitting looking up in an interested fashion at the small golden-eyed creature that was growling disapprovingly from under the safe refuge of its mistress’s arm. The baroness’s purple colour mounted still higher. “<i>I</i> keep my dogs under control——”</p>
+         <p id="p41">“And I can assure you that I do endeavour to do the same!” Miss Farley sounded quite pitiful.</p>
+         <p id="p42">“Then your endeavours are not good enough!”</p>
+         <p id="p43">“In that case I’m terribly sorry, but it really wasn’t Jess’s fault.…”</p>
+         <p id="p44">Lindsay made a slight coughing noise, and the baroness whirled on her.</p>
+         <p id="p45">“Are you the manager’s secretary?” she demanded haughtily. “That young woman at the reception desk said I had better see a Miss Carteret, the manager’s secretary, when I told her I had a complaint to make. And, as a matter of fact, I have more than one complaint to make!”</p>
+         <p id="p46">“Oh!” Lindsay exclaimed. And then she stood aside for their most important visitor to enter. “Will you come inside, please?” she invited softly.</p>
+         <p id="p47">The baroness threw a contemptuous glance at Miss Farley, who looked all at once like a pathetically deflated balloon, and behind the baroness’s back as she swept into the office Lindsay saw her look at her appealingly. Her faded lips framed the words:</p>
+         <p id="p48">“I’m so sorry! … So terribly sorry!”</p>
+         <p id="p49">But Lindsay had the feeling that her sorrow would be even greater yet.</p>
+      </div>
+   </div>
+</body>
+
+</html>
+2023-03-04 17:41:16 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-04 17:41:17 INFO  - Taking screenshot
+2023-03-04 17:41:18 INFO  - Test finished - logging out
+2023-03-04 17:41:18 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:41:21 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:41:22 INFO  - Button 'Accounts' :: Clicking
+2023-03-04 17:41:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-04 17:41:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-04 17:41:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-04 17:41:26 INFO  - Button 'Log out' :: Clicking
+2023-03-04 17:41:26 INFO  - Button 'Log in' :: Getting text from element
+2023-03-04 17:41:31 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-04 17:41:31 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-04 17:41:31 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@319936b4

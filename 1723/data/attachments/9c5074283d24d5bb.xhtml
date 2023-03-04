@@ -1,0 +1,129 @@
+2023-03-04 17:26:14 INFO  - Scenario 'Font settings: Check of font style' start
+2023-03-04 17:26:14 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-04 17:26:51 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-04 17:26:51 INFO  - Session id - 3ab4e0e1ea96b082ca2472eb4865b4cc9eb265af
+2023-03-04 17:26:51 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-04 17:26:51 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-04 17:26:54 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-04 17:26:54 INFO  - Button 'Search' :: Clicking
+2023-03-04 17:26:56 INFO  - Text Field 'Search' :: Clearing
+2023-03-04 17:26:56 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-04 17:26:59 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-04 17:26:59 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-04 17:26:59 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:27:01 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:27:02 INFO  - Button 'Accounts' :: Clicking
+2023-03-04 17:27:03 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-04 17:27:03 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:27:04 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:27:05 INFO  - Button 'Accounts' :: Clicking
+2023-03-04 17:27:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-04 17:27:06 INFO  - Locking credential with barcode 01230000000303
+2023-03-04 17:27:06 INFO  - There are books on the account: 
+2023-03-04 17:27:07 INFO  - bookName: The Debt Trap Distributor: Palace Marketplace
+2023-03-04 17:27:07 INFO  - Count of books on the account after opening account: 1
+2023-03-04 17:27:07 INFO  - Text Field 'Card' :: Clearing
+2023-03-04 17:27:07 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-04 17:27:09 INFO  - Text Field 'Pin' :: Clearing
+2023-03-04 17:27:09 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-04 17:27:10 INFO  - Button 'Log in' :: Clicking
+2023-03-04 17:27:16 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-04 17:27:17 INFO  - Step 3 - Login is performed successfully
+2023-03-04 17:27:38 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-04 17:27:38 INFO  - Step 4 - I open Catalog
+2023-03-04 17:27:38 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-04 17:27:59 INFO  - Step 5 - I open search modal
+2023-03-04 17:28:19 INFO  - Button 'Search' :: Clicking
+2023-03-04 17:28:20 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-04 17:28:20 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-04 17:28:20 INFO  - randomBookName: Mystical Stitches
+2023-03-04 17:28:21 INFO  - Error details button is not present
+2023-03-04 17:28:21 INFO  - Text Field 'Search value input' :: Sending keys 'Mystical Stitches'
+2023-03-04 17:28:23 INFO  - Error details button is not present
+2023-03-04 17:28:26 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-04 17:28:27 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-04 17:28:28 INFO  - Button 'actionButton' :: Clicking
+2023-03-04 17:28:48 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-04 17:28:48 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-04 17:28:48 INFO  - Label 'lblBookName' :: Clicking
+2023-03-04 17:28:49 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-04 17:28:49 INFO  - Button 'Read' :: Clicking
+2023-03-04 17:28:50 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-04 17:28:50 INFO  - Scrolling 7 times on reader epub screen
+2023-03-04 17:29:10 INFO  - Step 11 - I open font settings
+2023-03-04 17:29:11 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-04 17:29:12 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-03-04 17:29:12 INFO  - Button 'setFontSerif' :: Clicking
+2023-03-04 17:29:13 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-03-04 17:29:13 INFO  - context - NATIVE_APP
+2023-03-04 17:29:13 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-04 17:29:14 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-04 17:29:14 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>626334-MysticalStitches-ebook-2</title>
+<link href="css/9781635863352.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body id="x626334-MysticalStitches-ebook-2">
+<p class="ded"><span epub:type="pagebreak" role="doc-pagebreak" id="pageiv" title="iv"></span><a class="marker" id="_idParaDest-3"></a><a class="marker" id="_idTextAnchor002"></a>This book is dedicated to anyone who’s ever been told they aren’t creative, or that their art isn’t good enough.</p>
+<p class="copyright-mission">The mission of Storey Publishing is to serve our customers by publishing practical information that encourages personal independence in harmony with the environment.</p>
+<p class="copyright">Edited by Liz Bevilacqua</p>
+<p class="copyright">Art direction and book design by Alethea Morrison</p>
+<p class="copyright">Indexed by Samantha Miller</p>
+<p class="copyright">Cover and interior photography by © Brad Ogbonna</p>
+<p class="copyright">Additional photos courtesy of Christi Johnson, <a href="626334-MysticalStitches-ebook-6.xhtml#_idTextAnchor019"><span>7</span></a>, <a href="626334-MysticalStitches-ebook-8.xhtml#_idTextAnchor123"><span>29</span></a>, <a href="626334-MysticalStitches-ebook-9.xhtml#_idTextAnchor198"><span>55</span></a>, <a href="626334-MysticalStitches-ebook-9.xhtml#_idTextAnchor342"><span>82</span></a>, <a href="626334-MysticalStitches-ebook-9.xhtml#_idTextAnchor557"><span>103</span></a>, <a href="626334-MysticalStitches-ebook-10.xhtml#_idTextAnchor398"><span>107</span></a>, <a href="626334-MysticalStitches-ebook-10.xhtml#_idTextAnchor414"><span>110–114</span></a>, <a href="626334-MysticalStitches-ebook-11.xhtml#_idTextAnchor464"><span>144</span></a>, <a href="626334-MysticalStitches-ebook-11.xhtml#_idTextAnchor476"><span>149</span></a>; Mars Vilaubi © Storey Publishing, LLC, vi, vii, <a href="626334-MysticalStitches-ebook-6.xhtml#_idTextAnchor007"><span>5</span></a>, <a href="626334-MysticalStitches-ebook-7.xhtml#_idTextAnchor059"><span>17</span></a>, <a href="626334-MysticalStitches-ebook-7.xhtml#_idTextAnchor082"><span>20</span></a>, <a href="626334-MysticalStitches-ebook-8.xhtml#_idTextAnchor125"><span>28</span></a>, <a href="626334-MysticalStitches-ebook-8.xhtml#_idTextAnchor122"><span>29</span></a>, <a href="626334-MysticalStitches-ebook-8.xhtml#_idTextAnchor138"><span>32</span></a>, <a href="626334-MysticalStitches-ebook-8.xhtml#_idTextAnchor157"><span>39</span></a>, <a href="626334-MysticalStitches-ebook-8.xhtml#_idTextAnchor181"><span>47</span></a>, <a href="626334-MysticalStitches-ebook-9.xhtml#_idTextAnchor197"><span>55</span></a> (background), <a href="626334-MysticalStitches-ebook-9.xhtml#_idTextAnchor201"><span>56–80</span></a>, <a href="626334-MysticalStitches-ebook-9.xhtml#_idTextAnchor343"><span>83–102</span></a>, <a href="626334-MysticalStitches-ebook-9.xhtml#_idTextAnchor560"><span>104</span></a>, <a href="626334-MysticalStitches-ebook-9.xhtml#_idTextAnchor568"><span>105</span></a>, <a href="626334-MysticalStitches-ebook-10.xhtml#_idTextAnchor397"><span>107</span></a>, <a href="626334-MysticalStitches-ebook-10.xhtml#_idTextAnchor454"><span>132</span></a>, <a href="626334-MysticalStitches-ebook-10.xhtml#_idTextAnchor455"><span>133</span></a>, <a href="626334-MysticalStitches-ebook-11.xhtml#_idTextAnchor461"><span>143</span></a>, <a href="626334-MysticalStitches-ebook-12.xhtml#_idTextAnchor584"><span>155</span></a></p>
+<p class="copyright">Illustrations by © Nina Chakrabarti, except for Chapter 7 by Ilona Sherratt © Storey Publishing, LLC</p>
+<p class="copyright">Text © 2021 by Christi Johnson</p>
+<p class="copyright">Ebook production by Slavica A. Walzl</p>
+<p class="copyright-version">Ebook version 1.0</p>
+<p class="copyright-version">June 22, 2021</p>
+<p class="copyright">All rights reserved. No part of this book may be reproduced without written permission from the publisher, except by a reviewer who may quote brief passages or reproduce illustrations in a review with appropriate credits; nor may any part of this book be reproduced, stored in a retrieval system, or transmitted in any form or by any means—electronic, mechanical, photocopying, recording, or other—without written permission from the publisher.</p>
+<p class="copyright">The information in this book is true and complete to the best of our knowledge. All recommendations are made without guarantee on the part of the author or Storey Publishing. The author and publisher disclaim any liability in connection with the use of this information.</p>
+<p class="copyright">Storey books are available at special discounts when purchased in bulk for premiums and sales promotions as well as for fund-raising or educational use. Special editions or book excerpts can also be created to specification. For details, please call 800-827-8673, or send an email to <a href="mailto:sales@storey.com">sales@storey.com</a>.</p>
+<p class="copyright">Storey Publishing</p>
+<p class="copyright">210 MASS MoCA Way</p>
+<p class="copyright">North Adams, MA 01247</p>
+<p class="copyright"><a href="http://www.storey.com"><span>storey.com</span></a></p>
+<p class="copyright"><span class="sc">Library of Congress Cataloging-in-Publication Data on file</span></p>
+
+<div class="figure">
+<div class="thumb-large">
+<img class="figure" src="image/BOgbonna_Digital_4918.jpg" alt="A custom embroidered pattern on a table cloth" />
+</div>
+</div>
+
+</body>
+</html>
+2023-03-04 17:29:14 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-04 17:29:14 INFO  - Step 14 - I restart app
+2023-03-04 17:29:39 INFO  - Step 15 - I open Books
+2023-03-04 17:29:39 INFO  - Button 'tabBooks' :: Clicking
+2023-03-04 17:29:39 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-04 17:29:40 INFO  - Label 'lblBookName' :: Clicking
+2023-03-04 17:29:40 INFO  - Step 17 - Click READ action button on book details screen
+2023-03-04 17:29:41 INFO  - Button 'Read' :: Clicking
+2023-03-04 17:29:42 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-03-04 17:29:42 INFO  - context - NATIVE_APP
+2023-03-04 17:29:42 INFO  - context - NATIVE_APP
+2023-03-04 17:29:45 INFO  - context - NATIVE_APP
+2023-03-04 17:29:45 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-04 17:29:47 INFO  - Taking screenshot
+2023-03-04 17:29:49 INFO  - Test finished - logging out
+2023-03-04 17:29:50 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:29:53 INFO  - Button 'tabSettings' :: Clicking
+2023-03-04 17:29:54 INFO  - Button 'Accounts' :: Clicking
+2023-03-04 17:29:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-04 17:29:57 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-04 17:29:57 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-04 17:29:57 INFO  - Button 'Log out' :: Clicking
+2023-03-04 17:29:57 INFO  - Button 'Log in' :: Getting text from element
+2023-03-04 17:30:02 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-04 17:30:02 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-04 17:30:03 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@319936b4
