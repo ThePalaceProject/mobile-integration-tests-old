@@ -1,0 +1,82 @@
+2023-03-04 12:28:06 INFO  - Scenario 'Playback speed: Check of playback speed' start
+2023-03-04 12:28:06 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-04 12:28:52 INFO  - Application on platform 'IOS' is ready...
+2023-03-04 12:28:52 INFO  - Session id - 607592bc3c47b2d3ca7c88ae66d82a4ec74c465a
+2023-03-04 12:28:52 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-04 12:28:52 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-04 12:28:53 INFO  - Button 'Find your library button' :: Clicking
+2023-03-04 12:28:53 INFO  - Text Field 'Search field' :: Clicking
+2023-03-04 12:28:59 INFO  - Text Field 'Search field' :: Clearing
+2023-03-04 12:28:59 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-04 12:29:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-04 12:29:12 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-04 12:29:12 INFO  - Button 'Settings' :: Clicking
+2023-03-04 12:29:12 INFO  - Button 'Settings' :: Clicking
+2023-03-04 12:29:13 INFO  - Button 'Libraries button' :: Clicking
+2023-03-04 12:29:14 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-04 12:29:14 INFO  - Button 'Settings' :: Clicking
+2023-03-04 12:29:15 INFO  - Button 'Settings' :: Clicking
+2023-03-04 12:29:15 INFO  - Button 'Libraries button' :: Clicking
+2023-03-04 12:29:17 INFO  - Locking credential with barcode 01230000000305
+2023-03-04 12:29:17 INFO  - There are books on the account: 
+2023-03-04 12:29:18 INFO  - bookName: European Resistance in the Second World War Distributor: Palace Marketplace
+2023-03-04 12:29:18 INFO  - bookName: Amazing Stories Volume 80 Distributor: Palace Marketplace
+2023-03-04 12:29:18 INFO  - bookName: Moon at the Full Distributor: Palace Marketplace
+2023-03-04 12:29:18 INFO  - Count of books on the account after opening account: 3
+2023-03-04 12:29:40 INFO  - Text Field 'Card' :: Clicking
+2023-03-04 12:29:41 INFO  - Text Field 'Card' :: Clearing
+2023-03-04 12:29:41 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-03-04 12:29:43 INFO  - Text Field 'Pin' :: Clearing
+2023-03-04 12:29:43 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-04 12:29:47 INFO  - Button 'Log in' :: Clicking
+2023-03-04 12:29:55 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-03-04 12:29:57 INFO  - Step 3 - Login is performed successfully
+2023-03-04 12:29:58 INFO  - Step 4 - I open Catalog
+2023-03-04 12:29:58 INFO  - Button 'Catalog' :: Clicking
+2023-03-04 12:30:00 INFO  - Step 5 - I open search modal
+2023-03-04 12:30:01 INFO  - Button 'Search button' :: Clicking
+2023-03-04 12:30:03 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-04 12:30:03 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-04 12:30:03 INFO  - randomBookName: Dear Life
+2023-03-04 12:30:04 INFO  - Text Field 'Search value input' :: Sending keys 'Dear Life'
+2023-03-04 12:30:05 INFO  - Button 'Search' :: Clicking
+2023-03-04 12:30:08 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-03-04 12:30:08 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-04 12:30:51 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-04 12:30:54 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-04 12:30:55 INFO  - Label 'lblBookName' :: Clicking
+2023-03-04 12:30:57 INFO  - Step 9 - Click GET action button on book details screen
+2023-03-04 12:31:11 INFO  - Button 'Get' :: Clicking
+2023-03-04 12:31:46 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-03-04 12:31:48 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-03-04 12:31:50 INFO  - Button 'Listen' :: Clicking
+2023-03-04 12:32:13 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-03-04 12:32:14 INFO  - Step 13 - Select 1.50X playback speed on playback speed audiobook screen
+2023-03-04 12:32:14 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-03-04 12:32:15 INFO  - Button 'One and a half times faster than normal speed.' :: Clicking
+2023-03-04 12:32:15 INFO  - Step 14 - Current playback speed value is 1.50X on audio player screen
+2023-03-04 12:32:16 INFO  - Step 15 - Return to previous screen from audio player screen
+2023-03-04 12:32:17 INFO  - Button 'btnBack' :: Clicking
+2023-03-04 12:32:17 INFO  - Step 16 - Click LISTEN action button on book details screen
+2023-03-04 12:32:19 INFO  - Button 'Listen' :: Clicking
+2023-03-04 12:32:41 INFO  - Step 17 - Audio player screen of book 'bookInfo' is opened
+2023-03-04 12:32:41 INFO  - Step 18 - Current playback speed value is 1.50X on audio player screen
+2023-03-04 12:32:42 INFO  - Step 19 - I restart app
+2023-03-04 12:32:51 INFO  - Step 20 - I open Books
+2023-03-04 12:32:51 INFO  - Button 'My Books' :: Clicking
+2023-03-04 12:32:52 INFO  - Step 21 - Open AUDIOBOOK book with LISTEN action button and 'bookInfo' bookInfo on books screen
+2023-03-04 12:32:53 INFO  - Label 'lblBookName' :: Clicking
+2023-03-04 12:32:54 INFO  - Step 22 - Click LISTEN action button on book details screen
+2023-03-04 12:32:54 INFO  - Button 'Listen' :: Clicking
+2023-03-04 12:33:16 INFO  - Step 23 - Audio player screen of book 'bookInfo' is opened
+2023-03-04 12:33:17 INFO  - Step 24 - Current playback speed value is 1.50X on audio player screen
+2023-03-04 12:33:18 INFO  - Step 25 - Tap play button on audio player screen
+2023-03-04 12:33:18 INFO  - Button 'btnPlay' :: Clicking
+2023-03-04 12:33:18 INFO  - Step 26 - Save book play time as 'timeAhead' on audio player screen
+2023-03-04 12:33:18 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2023-03-04 12:33:39 INFO  - Taking screenshot
+2023-03-04 12:33:41 INFO  - Test finished - logging out
+2023-03-04 12:33:44 INFO  - Button 'Settings' :: Clicking
+2023-03-04 12:33:44 INFO  - Button 'Settings' :: Clicking
+2023-03-04 12:33:45 INFO  - Button 'Libraries button' :: Clicking
+2023-03-04 12:33:46 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7297254c
