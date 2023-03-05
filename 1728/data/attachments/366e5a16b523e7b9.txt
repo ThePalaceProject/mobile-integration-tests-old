@@ -1,0 +1,106 @@
+2023-03-05 13:33:32 INFO  - Scenario 'Audiobooks: Playback speed: Check of playback speed' start
+2023-03-05 13:33:32 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-05 13:34:11 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-05 13:34:12 INFO  - Session id - 4bf1d285df5503012c25b5f2d148467bf42b58ed
+2023-03-05 13:34:12 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2023-03-05 13:34:12 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-05 13:34:14 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-05 13:34:15 INFO  - Button 'Search' :: Clicking
+2023-03-05 13:34:18 INFO  - Text Field 'Search' :: Clearing
+2023-03-05 13:34:18 INFO  - Text Field 'Search' :: Typing 'Palace Bookshelf'
+2023-03-05 13:34:21 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-03-05 13:34:22 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 13:34:29 INFO  - Button 'Debug options button' :: Clicking
+2023-03-05 13:34:29 INFO  - Step 1 - Enable hidden libraries
+2023-03-05 13:34:30 INFO  - Swiping from coordinates (x:800; y:1966) to (x:800; y:368)
+2023-03-05 13:34:31 INFO  - Button 'Hidden libraries button' :: Clicking
+2023-03-05 13:34:32 INFO  - Step 2 - I open Catalog
+2023-03-05 13:34:32 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-05 13:34:53 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2023-03-05 13:34:53 INFO  - Button 'Logo' :: Clicking
+2023-03-05 13:34:54 INFO  - Button 'Add library btn' :: Clicking
+2023-03-05 13:34:55 INFO  - Button 'Search' :: Clicking
+2023-03-05 13:34:57 INFO  - Text Field 'Search' :: Clearing
+2023-03-05 13:34:57 INFO  - Text Field 'Search' :: Typing 'A1QA Test Library'
+2023-03-05 13:35:00 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-03-05 13:35:21 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2023-03-05 13:35:21 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 13:35:23 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 13:35:23 INFO  - Button 'Accounts' :: Clicking
+2023-03-05 13:35:25 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2023-03-05 13:35:25 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 13:35:26 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 13:35:27 INFO  - Button 'Accounts' :: Clicking
+2023-03-05 13:35:28 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-03-05 13:35:29 INFO  - Locking credential with barcode 01230000000305
+2023-03-05 13:35:29 INFO  - There are books on the account: 
+2023-03-05 13:35:31 INFO  - bookName: Moon at the Full Distributor: Palace Marketplace
+2023-03-05 13:35:31 INFO  - bookName: European Resistance in the Second World War Distributor: Palace Marketplace
+2023-03-05 13:35:31 INFO  - bookName: Amazing Stories Volume 80 Distributor: Palace Marketplace
+2023-03-05 13:35:31 INFO  - Count of books on the account after opening account: 3
+2023-03-05 13:35:31 INFO  - Text Field 'Card' :: Clearing
+2023-03-05 13:35:31 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-03-05 13:35:34 INFO  - Text Field 'Pin' :: Clearing
+2023-03-05 13:35:34 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-05 13:35:37 INFO  - Button 'Log in' :: Clicking
+2023-03-05 13:35:44 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-05 13:35:45 INFO  - Step 6 - Login is performed successfully
+2023-03-05 13:36:06 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-05 13:36:07 INFO  - Step 7 - I open Catalog
+2023-03-05 13:36:07 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-05 13:36:28 INFO  - Step 8 - I open search modal
+2023-03-05 13:36:49 INFO  - Button 'Search' :: Clicking
+2023-03-05 13:36:51 INFO  - Step 9 - I search for "The Lightning Thief" and save bookName as 'bookNameInfo'
+2023-03-05 13:36:51 INFO  - Error details button is not present
+2023-03-05 13:36:52 INFO  - Text Field 'Search value input' :: Sending keys 'The Lightning Thief'
+2023-03-05 13:36:54 INFO  - Error details button is not present
+2023-03-05 13:36:58 INFO  - Step 10 - I switch to 'Audiobooks' catalog tab
+2023-03-05 13:36:58 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-05 13:37:21 INFO  - Step 11 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-05 13:37:21 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-05 13:37:22 INFO  - Label 'lblBookName' :: Clicking
+2023-03-05 13:37:22 INFO  - Step 12 - Click GET action button on book details screen
+2023-03-05 13:37:23 INFO  - Button 'Get' :: Clicking
+2023-03-05 13:37:27 INFO  - Step 13 - I check that book contains LISTEN action button on book details screen
+2023-03-05 13:37:28 INFO  - Step 14 - Click LISTEN action button on book details screen
+2023-03-05 13:37:29 INFO  - Button 'Listen' :: Clicking
+2023-03-05 13:37:30 INFO  - Step 15 - Audio player screen of book 'bookInfo' is opened
+2023-03-05 13:37:33 INFO  - Step 16 - Select 2X playback speed on playback speed audiobook screen
+2023-03-05 13:37:33 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-03-05 13:37:34 INFO  - Button 'Playback speed' :: Clicking
+2023-03-05 13:37:35 INFO  - Step 17 - Current playback speed value is 2X on audio player screen
+2023-03-05 13:37:35 INFO  - Step 18 - Return to previous screen from audio player screen
+2023-03-05 13:37:37 INFO  - Step 19 - Click LISTEN action button on book details screen
+2023-03-05 13:37:37 INFO  - Button 'Listen' :: Clicking
+2023-03-05 13:37:38 INFO  - Step 20 - Audio player screen of book 'bookInfo' is opened
+2023-03-05 13:37:42 INFO  - Step 21 - Current playback speed value is 2X on audio player screen
+2023-03-05 13:37:42 INFO  - Step 22 - I restart app
+2023-03-05 13:38:07 INFO  - Step 23 - I open Books
+2023-03-05 13:38:07 INFO  - Button 'tabBooks' :: Clicking
+2023-03-05 13:38:08 INFO  - Step 24 - Open AUDIOBOOK book with LISTEN action button and 'bookInfo' bookInfo on books screen
+2023-03-05 13:38:28 INFO  - Label 'lblBookName' :: Clicking
+2023-03-05 13:38:31 INFO  - Step 25 - Click LISTEN action button on book details screen
+2023-03-05 13:38:32 INFO  - Button 'Listen' :: Clicking
+2023-03-05 13:38:33 INFO  - Step 26 - Audio player screen of book 'bookInfo' is opened
+2023-03-05 13:38:38 INFO  - Step 27 - Current playback speed value is 2X on audio player screen
+2023-03-05 13:38:38 INFO  - Step 28 - Tap play button on audio player screen
+2023-03-05 13:38:38 INFO  - Button 'btnPlay' :: Clicking
+2023-03-05 13:38:52 INFO  - Step 29 - Save book play time as 'timeAhead' on audio player screen
+2023-03-05 13:38:52 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-03-05 13:38:53 INFO  - Step 30 - Wait for 5 seconds
+2023-03-05 13:38:58 INFO  - Step 31 - Playback has been moved forward by 10 seconds from 'timeAhead' seconds on audio player screen
+2023-03-05 13:38:58 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-03-05 13:38:59 INFO  - diff between times for move forward - 11
+2023-03-05 13:38:59 INFO  - Taking screenshot
+2023-03-05 13:39:03 INFO  - Test finished - logging out
+2023-03-05 13:39:04 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 13:39:07 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 13:39:08 INFO  - Button 'Accounts' :: Clicking
+2023-03-05 13:39:10 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-03-05 13:39:12 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-05 13:39:12 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-05 13:39:13 INFO  - Button 'Log out' :: Clicking
+2023-03-05 13:39:13 INFO  - Button 'Log in' :: Getting text from element
+2023-03-05 13:39:21 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-05 13:39:22 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-05 13:39:23 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3f8c3782
