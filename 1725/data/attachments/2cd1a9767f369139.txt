@@ -1,0 +1,67 @@
+2023-03-05 01:54:50 INFO  - Scenario 'Get a book from Subcategory List View and Read from Books in LYRASIS' start
+2023-03-05 01:54:50 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-05 01:55:21 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-05 01:55:21 INFO  - Session id - 4adb7edf272faaf5f9ea5404416f4bcabef3dc89
+2023-03-05 01:55:21 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-05 01:55:21 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-05 01:55:23 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-05 01:55:24 INFO  - Button 'Search' :: Clicking
+2023-03-05 01:55:27 INFO  - Text Field 'Search' :: Clearing
+2023-03-05 01:55:27 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-05 01:55:29 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-05 01:55:30 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-03-05 01:55:30 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 01:55:31 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 01:55:32 INFO  - Button 'Accounts' :: Clicking
+2023-03-05 01:55:33 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-05 01:55:34 INFO  - Locking credential with barcode 01230000000306
+2023-03-05 01:55:34 INFO  - There are books on the account: 
+2023-03-05 01:55:35 INFO  - There is not books on the account.
+2023-03-05 01:55:35 INFO  - Count of books on the account after opening account: 0
+2023-03-05 01:55:35 INFO  - Text Field 'Card' :: Clearing
+2023-03-05 01:55:35 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-03-05 01:55:37 INFO  - Text Field 'Pin' :: Clearing
+2023-03-05 01:55:37 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-05 01:55:39 INFO  - Button 'Log in' :: Clicking
+2023-03-05 01:55:45 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-05 01:55:45 INFO  - Step 2 - Login is performed successfully
+2023-03-05 01:56:07 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-05 01:56:07 INFO  - Step 3 - I open Catalog
+2023-03-05 01:56:07 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-05 01:56:28 INFO  - Step 4 - I open search modal
+2023-03-05 01:56:48 INFO  - Button 'Search' :: Clicking
+2023-03-05 01:56:51 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-05 01:56:51 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-05 01:56:51 INFO  - randomBookName: Chocolate Cream Pie Murder
+2023-03-05 01:56:51 INFO  - Error details button is not present
+2023-03-05 01:56:52 INFO  - Text Field 'Search value input' :: Sending keys 'Chocolate Cream Pie Murder'
+2023-03-05 01:56:55 INFO  - Error details button is not present
+2023-03-05 01:56:57 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-03-05 01:56:57 INFO  - Button 'eBooks' :: Clicking
+2023-03-05 01:57:20 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-05 01:57:21 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-05 01:57:21 INFO  - Button 'actionButton' :: Clicking
+2023-03-05 01:57:27 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-03-05 01:57:29 INFO  - Step 9 - I open Books
+2023-03-05 01:57:29 INFO  - Button 'tabBooks' :: Clicking
+2023-03-05 01:57:29 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-05 01:57:30 INFO  - Label 'lblBookName' :: Clicking
+2023-03-05 01:57:31 INFO  - Step 11 - Click READ action button on book details screen
+2023-03-05 01:57:33 INFO  - Button 'Read' :: Clicking
+2023-03-05 01:57:34 INFO  - Step 12 - Wait for 3 seconds
+2023-03-05 01:57:37 INFO  - Step 13 - 'bookInfo' book is present on epub reader screen
+2023-03-05 01:57:39 INFO  - Label 'lblBookName' :: Getting text from element
+2023-03-05 01:57:40 INFO  - Book name on epub reader screen - Chocolate Cream Pie Murder
+2023-03-05 01:57:40 INFO  - Taking screenshot
+2023-03-05 01:57:41 INFO  - Test finished - logging out
+2023-03-05 01:57:43 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 01:57:46 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 01:57:47 INFO  - Button 'Accounts' :: Clicking
+2023-03-05 01:57:48 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-05 01:57:50 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-05 01:57:51 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-05 01:57:52 INFO  - Button 'Log out' :: Clicking
+2023-03-05 01:57:52 INFO  - Button 'Log in' :: Getting text from element
+2023-03-05 01:57:56 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-05 01:57:57 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-05 01:57:58 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@31f756f5

@@ -1,0 +1,341 @@
+2023-03-05 00:47:32 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-03-05 00:47:32 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-05 00:48:05 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-05 00:48:05 INFO  - Session id - 611b2d87dc9082492efe1a8fa25d1b74639e2496
+2023-03-05 00:48:05 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-05 00:48:05 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-05 00:48:08 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-05 00:48:09 INFO  - Button 'Search' :: Clicking
+2023-03-05 00:48:10 INFO  - Text Field 'Search' :: Clearing
+2023-03-05 00:48:10 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-05 00:48:13 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-05 00:48:14 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-05 00:48:14 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 00:48:15 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 00:48:16 INFO  - Button 'Accounts' :: Clicking
+2023-03-05 00:48:18 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-05 00:48:18 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 00:48:19 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 00:48:20 INFO  - Button 'Accounts' :: Clicking
+2023-03-05 00:48:21 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-05 00:48:22 INFO  - Locking credential with barcode 01230000000303
+2023-03-05 00:48:22 INFO  - There are books on the account: 
+2023-03-05 00:48:23 INFO  - bookName: The Debt Trap Distributor: Palace Marketplace
+2023-03-05 00:48:23 INFO  - Count of books on the account after opening account: 1
+2023-03-05 00:48:23 INFO  - Text Field 'Card' :: Clearing
+2023-03-05 00:48:23 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-05 00:48:25 INFO  - Text Field 'Pin' :: Clearing
+2023-03-05 00:48:25 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-05 00:48:27 INFO  - Button 'Log in' :: Clicking
+2023-03-05 00:48:38 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-05 00:48:39 INFO  - Step 3 - Login is performed successfully
+2023-03-05 00:49:00 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-05 00:49:00 INFO  - Step 4 - I open Catalog
+2023-03-05 00:49:00 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-05 00:49:21 INFO  - Step 5 - I open search modal
+2023-03-05 00:49:41 INFO  - Button 'Search' :: Clicking
+2023-03-05 00:49:43 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-05 00:49:43 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-05 00:49:43 INFO  - randomBookName: Like Carrot Juice on a Cupcake
+2023-03-05 00:49:43 INFO  - Error details button is not present
+2023-03-05 00:49:43 INFO  - Text Field 'Search value input' :: Sending keys 'Like Carrot Juice on a Cupcake'
+2023-03-05 00:49:46 INFO  - Error details button is not present
+2023-03-05 00:49:49 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-05 00:49:49 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-05 00:49:50 INFO  - Button 'actionButton' :: Clicking
+2023-03-05 00:49:58 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-05 00:49:59 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-05 00:49:59 INFO  - Label 'lblBookName' :: Clicking
+2023-03-05 00:49:59 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-05 00:50:00 INFO  - Button 'Read' :: Clicking
+2023-03-05 00:50:01 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-05 00:50:01 INFO  - Scrolling 8 times on reader epub screen
+2023-03-05 00:50:27 INFO  - Step 11 - I save font size as 'fontSize'
+2023-03-05 00:50:27 INFO  - context - NATIVE_APP
+2023-03-05 00:50:27 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-05 00:50:27 INFO  - context - WEBVIEW_Terrace
+2023-03-05 00:50:28 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-05 00:50:28 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" style="--RS__viewportWidth:calc(1080px / 2.8125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Like Carrot Juice on a Cupcake</title>
+<link href="../styles/9781613126615.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:4b1d0404-11e3-45b0-a097-5e943c319d0e" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<p class="chaptitle" id="ch03"><a id="page_15"></a><img alt="Image" height="50" src="../images/ch03.jpg" width="408" /></p>
+<p class="noindent">The next morning,</p>
+<p class="noindent">I brought most of the cupcakes to school</p>
+<p class="noindent">on a plastic plate, all covered in foil.</p>
+<p class="noindent">For Pearl.</p>
+<p class="noindent">“They’re pretty salty,” I told her,</p>
+<p class="noindent">handing her the plate.</p>
+<p class="noindent">“But they’re not terrible.”</p>
+<p class="noindent">We were standing at our desks,</p>
+<p class="noindent">waiting for the first bell to ring.</p>
+<p class="noindent">“Thanks,” she said.</p>
+<p class="noindent">Then she asked, “How’s Antoine?</p>
+<p class="noindent">Did he throw up?”</p>
+<p class="noindent">“Yes!” I told her. “Right before I went to bed!</p>
+<p class="noindent">All over my mom’s favorite rug!</p>
+<p class="noindent">She was <em>not</em> happy.”</p>
+<p class="noindent"><a id="page_16"></a>“But vomiting was good for him!” Pearl said.</p>
+<p class="noindent">“He was getting bad things out of his system.”</p>
+<p class="noindent">“I <em>told</em> my mom that,” I said.</p>
+<p class="noindent">“She said, ‘I’m very glad they’re out of his system.</p>
+<p class="noindent">But do they have to be on my rug?’”</p>
+<p class="noindent">Somebody behind us started making</p>
+<p class="noindent">yucky vomiting noises then.</p>
+<p class="noindent">I didn’t even turn around.</p>
+<p class="noindent">I knew who it was.</p>
+<p class="noindent">“Stop listening to our conversations, Nicholas!”</p>
+<p class="noindent">I said.</p>
+<p class="noindent">“And stop being disgusting!”</p>
+<p class="noindent">“I’m getting bad things out of my system,” he said.</p>
+<p class="imagec"><img alt="Image" height="244" src="../images/f0016-01.jpg" width="400" /></p>
+<p class="noindent"><a id="page_17"></a>At that moment, the new girl, Ainsley, walked in.</p>
+<p class="noindent">She looked very sparkly and colorful,</p>
+<p class="noindent">just like the day before.</p>
+<p class="noindent">And she had on another big bow.</p>
+<p class="noindent">“Hey, Ainsley!” Pearl and I both said</p>
+<p class="noindent">as Ainsley walked to her desk.</p>
+<p class="noindent">“Hey,” she said back.</p>
+<p class="noindent">She seemed a little shy.</p>
+<p class="image"><img alt="Image" height="300" src="../images/f0017-01.jpg" style="float:right; margin:1%;" width="183" /></p>
+<p class="noindent">“Want a cupcake?” Pearl asked her,</p>
+<p class="noindent">holding up the foil-covered plate.</p>
+<p class="noindent">“They’re salty!” Nicholas called out from behind us.</p>
+<p class="noindent">“<em>Stop</em> listening to our <em>conversations</em>!”</p>
+<p class="noindent">I told Nicholas again.</p>
+<p class="noindent">“They <em>are</em> a little salty,” Pearl told Ainsley.</p>
+<p class="noindent">“It’s okay,” Ainsley said. “I’m not really hungry.</p>
+<p class="noindent">Thanks, though.”</p>
+<p class="noindent">I don’t know what Pearl said next,</p>
+<p class="noindent">because Nicholas distracted me</p>
+<p class="noindent">by throwing a wadded-up piece of paper at my arm.</p>
+<p class="noindent"><a id="page_18"></a>“Ow!” I said, when it hit me,</p>
+<p class="noindent">even though it didn’t hurt at all.</p>
+<p class="noindent">Then I picked that ball of paper up off the floor</p>
+<p class="noindent">and smoothed it out.</p>
+<p class="noindent">It was a picture of me,</p>
+<p class="noindent">with chocolate all over my face,</p>
+<p class="noindent">eating a giant cupcake.</p>
+<p class="noindent">I folded that picture</p>
+<p class="image"><img alt="Image" height="200" src="../images/f0018-01.jpg" style="float:right; margin:1%;" width="157" /></p>
+<p class="noindent">and put it on top of my Nicholas picture pile</p>
+<p class="noindent">and thanked him,</p>
+<p class="noindent">the way I always did.</p>
+<p class="noindent">Then I heard Ainsley say to Pearl,</p>
+<p class="noindent">“They’re so good, they’re <em>crazy</em>.</p>
+<p class="noindent">You should come bake them at my house with me!”</p>
+<p class="noindent">I frowned a little.</p>
+<p class="noindent">I didn’t love</p>
+<p class="noindent">Ainsley inviting Pearl to her house</p>
+<p class="noindent">to bake crazy-delicious things.</p>
+<p class="noindent">But</p>
+<p class="noindent"><a id="page_19"></a>the very next moment,</p>
+<p class="noindent">Ainsley turned to me and said,</p>
+<p class="noindent">super-nicely,</p>
+<p class="noindent">“You should come, too!</p>
+<p class="noindent">We’ll all make them together.”</p>
+<p class="noindent">“Make what?” I asked.</p>
+<p class="noindent">“Brookie cupcakes!” she said.</p>
+<p class="noindent">“They’re brownies and chocolate chip cookies</p>
+<p class="noindent">mixed together,</p>
+<p class="noindent">inside cupcakes.”</p>
+<p class="noindent">My mouth fell open.</p>
+<p class="noindent">I had to admit,</p>
+<p class="image"><img alt="Image" height="109" src="../images/f0019-01.jpg" style="float:right; margin:1%;" width="400" /></p>
+<p class="noindent">I had never <em>dreamed</em> of anything as good</p>
+<p class="noindent">as brownies <em>and</em> chocolate chip cookies</p>
+<p class="noindent"><em>inside</em> cupcakes.</p>
+<p class="noindent">“Is there frosting?” I asked Ainsley.</p>
+<p class="noindent">“Chocolate frosting,” she said.</p>
+<p class="noindent">“We’ll definitely make them with you,”</p>
+<p class="noindent">Pearl told Ainsley.</p>
+<p class="noindent"><a id="page_20"></a>“Right, Eleanor?”</p>
+<p class="noindent">“Of course!” I said.</p>
+<p class="noindent">I really meant that, too.</p>
+<p class="noindent">And not just because I wanted to taste those things.</p>
+<p class="noindent">I thought Natalie would take me and Pearl</p>
+<p class="noindent">over to Ainsley’s</p>
+<p class="noindent">on a Monday or a Wednesday.</p>
+<p class="noindent">And we’d all have fun together.</p>
+<p class="noindent">Then,</p>
+<p class="noindent">Pearl and I—</p>
+<p class="noindent">best friends for our whole lives—</p>
+<p class="noindent">would go back to our Mondays and Wednesdays</p>
+<p class="noindent">together.</p>
+<p class="noindent">Just the two of us.</p>
+<p class="noindent">I was <em>sure</em> that was how it would happen.</p>
+<p class="noindent">But</p>
+<p class="noindent">it turned out, I had no idea</p>
+<p class="noindent">about anything.</p>
+</body>
+</html>
+2023-03-05 00:50:28 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-05 00:50:29 INFO  - Step 12 - I open font settings
+2023-03-05 00:50:29 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-05 00:50:30 INFO  - Step 13 - I INCREASE_FONT of text
+2023-03-05 00:50:30 INFO  - Button 'setTextLarger' :: Clicking
+2023-03-05 00:50:31 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-03-05 00:50:31 INFO  - context - NATIVE_APP
+2023-03-05 00:50:31 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-05 00:50:31 INFO  - context - WEBVIEW_Terrace
+2023-03-05 00:50:32 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-05 00:50:32 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" style="--RS__viewportWidth:calc(1080px / 2.8125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Like Carrot Juice on a Cupcake</title>
+<link href="../styles/9781613126615.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:4b1d0404-11e3-45b0-a097-5e943c319d0e" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<p class="chaptitle" id="ch03"><a id="page_15"></a><img alt="Image" height="50" src="../images/ch03.jpg" width="408" /></p>
+<p class="noindent">The next morning,</p>
+<p class="noindent">I brought most of the cupcakes to school</p>
+<p class="noindent">on a plastic plate, all covered in foil.</p>
+<p class="noindent">For Pearl.</p>
+<p class="noindent">“They’re pretty salty,” I told her,</p>
+<p class="noindent">handing her the plate.</p>
+<p class="noindent">“But they’re not terrible.”</p>
+<p class="noindent">We were standing at our desks,</p>
+<p class="noindent">waiting for the first bell to ring.</p>
+<p class="noindent">“Thanks,” she said.</p>
+<p class="noindent">Then she asked, “How’s Antoine?</p>
+<p class="noindent">Did he throw up?”</p>
+<p class="noindent">“Yes!” I told her. “Right before I went to bed!</p>
+<p class="noindent">All over my mom’s favorite rug!</p>
+<p class="noindent">She was <em>not</em> happy.”</p>
+<p class="noindent"><a id="page_16"></a>“But vomiting was good for him!” Pearl said.</p>
+<p class="noindent">“He was getting bad things out of his system.”</p>
+<p class="noindent">“I <em>told</em> my mom that,” I said.</p>
+<p class="noindent">“She said, ‘I’m very glad they’re out of his system.</p>
+<p class="noindent">But do they have to be on my rug?’”</p>
+<p class="noindent">Somebody behind us started making</p>
+<p class="noindent">yucky vomiting noises then.</p>
+<p class="noindent">I didn’t even turn around.</p>
+<p class="noindent">I knew who it was.</p>
+<p class="noindent">“Stop listening to our conversations, Nicholas!”</p>
+<p class="noindent">I said.</p>
+<p class="noindent">“And stop being disgusting!”</p>
+<p class="noindent">“I’m getting bad things out of my system,” he said.</p>
+<p class="imagec"><img alt="Image" height="244" src="../images/f0016-01.jpg" width="400" /></p>
+<p class="noindent"><a id="page_17"></a>At that moment, the new girl, Ainsley, walked in.</p>
+<p class="noindent">She looked very sparkly and colorful,</p>
+<p class="noindent">just like the day before.</p>
+<p class="noindent">And she had on another big bow.</p>
+<p class="noindent">“Hey, Ainsley!” Pearl and I both said</p>
+<p class="noindent">as Ainsley walked to her desk.</p>
+<p class="noindent">“Hey,” she said back.</p>
+<p class="noindent">She seemed a little shy.</p>
+<p class="image"><img alt="Image" height="300" src="../images/f0017-01.jpg" style="float:right; margin:1%;" width="183" /></p>
+<p class="noindent">“Want a cupcake?” Pearl asked her,</p>
+<p class="noindent">holding up the foil-covered plate.</p>
+<p class="noindent">“They’re salty!” Nicholas called out from behind us.</p>
+<p class="noindent">“<em>Stop</em> listening to our <em>conversations</em>!”</p>
+<p class="noindent">I told Nicholas again.</p>
+<p class="noindent">“They <em>are</em> a little salty,” Pearl told Ainsley.</p>
+<p class="noindent">“It’s okay,” Ainsley said. “I’m not really hungry.</p>
+<p class="noindent">Thanks, though.”</p>
+<p class="noindent">I don’t know what Pearl said next,</p>
+<p class="noindent">because Nicholas distracted me</p>
+<p class="noindent">by throwing a wadded-up piece of paper at my arm.</p>
+<p class="noindent"><a id="page_18"></a>“Ow!” I said, when it hit me,</p>
+<p class="noindent">even though it didn’t hurt at all.</p>
+<p class="noindent">Then I picked that ball of paper up off the floor</p>
+<p class="noindent">and smoothed it out.</p>
+<p class="noindent">It was a picture of me,</p>
+<p class="noindent">with chocolate all over my face,</p>
+<p class="noindent">eating a giant cupcake.</p>
+<p class="noindent">I folded that picture</p>
+<p class="image"><img alt="Image" height="200" src="../images/f0018-01.jpg" style="float:right; margin:1%;" width="157" /></p>
+<p class="noindent">and put it on top of my Nicholas picture pile</p>
+<p class="noindent">and thanked him,</p>
+<p class="noindent">the way I always did.</p>
+<p class="noindent">Then I heard Ainsley say to Pearl,</p>
+<p class="noindent">“They’re so good, they’re <em>crazy</em>.</p>
+<p class="noindent">You should come bake them at my house with me!”</p>
+<p class="noindent">I frowned a little.</p>
+<p class="noindent">I didn’t love</p>
+<p class="noindent">Ainsley inviting Pearl to her house</p>
+<p class="noindent">to bake crazy-delicious things.</p>
+<p class="noindent">But</p>
+<p class="noindent"><a id="page_19"></a>the very next moment,</p>
+<p class="noindent">Ainsley turned to me and said,</p>
+<p class="noindent">super-nicely,</p>
+<p class="noindent">“You should come, too!</p>
+<p class="noindent">We’ll all make them together.”</p>
+<p class="noindent">“Make what?” I asked.</p>
+<p class="noindent">“Brookie cupcakes!” she said.</p>
+<p class="noindent">“They’re brownies and chocolate chip cookies</p>
+<p class="noindent">mixed together,</p>
+<p class="noindent">inside cupcakes.”</p>
+<p class="noindent">My mouth fell open.</p>
+<p class="noindent">I had to admit,</p>
+<p class="image"><img alt="Image" height="109" src="../images/f0019-01.jpg" style="float:right; margin:1%;" width="400" /></p>
+<p class="noindent">I had never <em>dreamed</em> of anything as good</p>
+<p class="noindent">as brownies <em>and</em> chocolate chip cookies</p>
+<p class="noindent"><em>inside</em> cupcakes.</p>
+<p class="noindent">“Is there frosting?” I asked Ainsley.</p>
+<p class="noindent">“Chocolate frosting,” she said.</p>
+<p class="noindent">“We’ll definitely make them with you,”</p>
+<p class="noindent">Pearl told Ainsley.</p>
+<p class="noindent"><a id="page_20"></a>“Right, Eleanor?”</p>
+<p class="noindent">“Of course!” I said.</p>
+<p class="noindent">I really meant that, too.</p>
+<p class="noindent">And not just because I wanted to taste those things.</p>
+<p class="noindent">I thought Natalie would take me and Pearl</p>
+<p class="noindent">over to Ainsley’s</p>
+<p class="noindent">on a Monday or a Wednesday.</p>
+<p class="noindent">And we’d all have fun together.</p>
+<p class="noindent">Then,</p>
+<p class="noindent">Pearl and I—</p>
+<p class="noindent">best friends for our whole lives—</p>
+<p class="noindent">would go back to our Mondays and Wednesdays</p>
+<p class="noindent">together.</p>
+<p class="noindent">Just the two of us.</p>
+<p class="noindent">I was <em>sure</em> that was how it would happen.</p>
+<p class="noindent">But</p>
+<p class="noindent">it turned out, I had no idea</p>
+<p class="noindent">about anything.</p>
+</body>
+</html>
+2023-03-05 00:50:32 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-05 00:50:32 INFO  - Step 15 - I restart app
+2023-03-05 00:50:57 INFO  - Step 16 - I open Books
+2023-03-05 00:50:57 INFO  - Button 'tabBooks' :: Clicking
+2023-03-05 00:50:57 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-05 00:50:58 INFO  - Label 'lblBookName' :: Clicking
+2023-03-05 00:50:59 INFO  - Step 18 - Click READ action button on book details screen
+2023-03-05 00:51:00 INFO  - Button 'Read' :: Clicking
+2023-03-05 00:51:00 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-03-05 00:51:00 INFO  - context - NATIVE_APP
+2023-03-05 00:51:00 INFO  - context - WEBVIEW_Terrace
+2023-03-05 00:51:01 INFO  - Taking screenshot
+2023-03-05 00:51:06 INFO  - Test finished - logging out
+2023-03-05 00:51:07 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 00:51:10 INFO  - Button 'tabSettings' :: Clicking
+2023-03-05 00:51:11 INFO  - Button 'Accounts' :: Clicking
+2023-03-05 00:51:12 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-05 00:51:13 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-05 00:51:14 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-05 00:51:14 INFO  - Button 'Log out' :: Clicking
+2023-03-05 00:51:14 INFO  - Button 'Log in' :: Getting text from element
+2023-03-05 00:51:18 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-05 00:51:18 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-05 00:51:19 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@621c891
