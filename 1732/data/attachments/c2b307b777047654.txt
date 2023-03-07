@@ -1,0 +1,73 @@
+2023-03-07 18:32:25 INFO  - Scenario 'Check table of contents Lyrasis' start
+2023-03-07 18:32:25 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-07 18:32:46 INFO  - Application on platform 'IOS' is ready...
+2023-03-07 18:32:47 INFO  - Session id - 0a404fa3f731727649fe82333e2e65f17c95705f
+2023-03-07 18:32:47 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-07 18:32:47 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-07 18:32:48 INFO  - Button 'Find your library button' :: Clicking
+2023-03-07 18:32:50 INFO  - Text Field 'Search field' :: Clicking
+2023-03-07 18:32:57 INFO  - Text Field 'Search field' :: Clearing
+2023-03-07 18:32:57 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-07 18:33:08 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-07 18:33:10 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-07 18:33:10 INFO  - Button 'Settings' :: Clicking
+2023-03-07 18:33:12 INFO  - Button 'Settings' :: Clicking
+2023-03-07 18:33:13 INFO  - Button 'Libraries button' :: Clicking
+2023-03-07 18:33:15 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-07 18:33:15 INFO  - Button 'Settings' :: Clicking
+2023-03-07 18:33:17 INFO  - Button 'Settings' :: Clicking
+2023-03-07 18:33:18 INFO  - Button 'Libraries button' :: Clicking
+2023-03-07 18:33:22 INFO  - Locking credential with barcode 01230000000304
+2023-03-07 18:33:22 INFO  - There are books on the account: 
+2023-03-07 18:33:22 INFO  - bookName: Water for Elephants Distributor: Palace Marketplace
+2023-03-07 18:33:22 INFO  - Count of books on the account after opening account: 1
+2023-03-07 18:33:43 INFO  - Text Field 'Card' :: Clicking
+2023-03-07 18:33:45 INFO  - Text Field 'Card' :: Clearing
+2023-03-07 18:33:45 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-03-07 18:33:49 INFO  - Text Field 'Pin' :: Clearing
+2023-03-07 18:33:49 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-07 18:33:53 INFO  - Button 'Log in' :: Clicking
+2023-03-07 18:34:00 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-03-07 18:34:02 INFO  - Step 3 - Login is performed successfully
+2023-03-07 18:34:03 INFO  - Step 4 - I open Catalog
+2023-03-07 18:34:03 INFO  - Button 'Catalog' :: Clicking
+2023-03-07 18:34:05 INFO  - Step 5 - I open search modal
+2023-03-07 18:34:06 INFO  - Button 'Search button' :: Clicking
+2023-03-07 18:34:09 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-07 18:34:09 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-07 18:34:09 INFO  - randomBookName: Librarians
+2023-03-07 18:34:10 INFO  - Text Field 'Search value input' :: Sending keys 'Librarians'
+2023-03-07 18:34:11 INFO  - Button 'Search' :: Clicking
+2023-03-07 18:34:15 INFO  - Step 7 - I switch to 'eBooks' catalog tab
+2023-03-07 18:34:15 INFO  - Button 'eBooks' :: Clicking
+2023-03-07 18:34:57 INFO  - Step 8 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-07 18:34:59 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-07 18:35:01 INFO  - Button 'actionButton' :: Clicking
+2023-03-07 18:35:24 INFO  - Step 9 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-03-07 18:35:25 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-07 18:35:27 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-07 18:35:28 INFO  - Label 'lblBookName' :: Clicking
+2023-03-07 18:35:29 INFO  - Step 11 - Click READ action button on book details screen
+2023-03-07 18:35:30 INFO  - Button 'Read' :: Clicking
+2023-03-07 18:35:51 INFO  - Step 12 - Reader pdf screen is opened
+2023-03-07 18:35:52 INFO  - Step 13 - I open table of contents on pdf reader screen
+2023-03-07 18:35:53 INFO  - Button 'Table of content button' :: Clicking
+2023-03-07 18:35:55 INFO  - Step 14 - I open text chapter content on pdf toc screen
+2023-03-07 18:35:55 INFO  - Button 'Toc button' :: Clicking
+2023-03-07 18:35:56 INFO  - Step 15 - Text chapter content is opened on pdf toc screen
+2023-03-07 18:35:57 INFO  - Step 16 - I open content with thumbnails on pdf toc screen
+2023-03-07 18:35:57 INFO  - Button 'Thumbnails button' :: Clicking
+2023-03-07 18:35:58 INFO  - Step 17 - Thumbnails of the book pages are displayed
+2023-03-07 18:36:01 INFO  - Taking screenshot
+2023-03-07 18:36:05 INFO  - Test finished - logging out
+2023-03-07 18:36:08 INFO  - Button 'Settings' :: Clicking
+2023-03-07 18:36:10 INFO  - Button 'Settings' :: Clicking
+2023-03-07 18:36:11 INFO  - Button 'Libraries button' :: Clicking
+2023-03-07 18:36:15 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-07 18:36:15 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-07 18:36:16 INFO  - Button 'Log out' :: Clicking
+2023-03-07 18:36:17 INFO  - Button 'Log out approve' :: Clicking
+2023-03-07 18:36:39 INFO  - Button 'Log in' :: Getting text from element
+2023-03-07 18:36:40 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-07 18:36:41 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-07 18:36:42 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@25c53e71

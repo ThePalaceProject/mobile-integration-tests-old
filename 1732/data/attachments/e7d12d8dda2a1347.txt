@@ -1,0 +1,55 @@
+2023-03-07 17:18:47 INFO  - Scenario 'LYRASIS: Biblioboard audiobooks: Getting and returning books from Book Detail View' start
+2023-03-07 17:18:47 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-07 17:19:09 INFO  - Application on platform 'IOS' is ready...
+2023-03-07 17:19:09 INFO  - Session id - 8561aae4331d953ae21b1bee1f0d39890ab1b66b
+2023-03-07 17:19:09 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-07 17:19:09 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-07 17:19:10 INFO  - Button 'Find your library button' :: Clicking
+2023-03-07 17:19:12 INFO  - Text Field 'Search field' :: Clicking
+2023-03-07 17:19:19 INFO  - Text Field 'Search field' :: Clearing
+2023-03-07 17:19:19 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-07 17:19:30 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-07 17:19:32 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-03-07 17:19:32 INFO  - Button 'Settings' :: Clicking
+2023-03-07 17:19:34 INFO  - Button 'Settings' :: Clicking
+2023-03-07 17:19:35 INFO  - Button 'Libraries button' :: Clicking
+2023-03-07 17:19:38 INFO  - Locking credential with barcode 01230000000306
+2023-03-07 17:19:38 INFO  - There are books on the account: 
+2023-03-07 17:19:39 INFO  - There is not books on the account.
+2023-03-07 17:19:39 INFO  - Count of books on the account after opening account: 0
+2023-03-07 17:20:01 INFO  - Text Field 'Card' :: Clicking
+2023-03-07 17:20:02 INFO  - Text Field 'Card' :: Clearing
+2023-03-07 17:20:02 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-03-07 17:20:06 INFO  - Text Field 'Pin' :: Clearing
+2023-03-07 17:20:06 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-07 17:20:10 INFO  - Button 'Log in' :: Clicking
+2023-03-07 17:20:17 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-03-07 17:20:19 INFO  - Step 2 - Login is performed successfully
+2023-03-07 17:20:19 INFO  - Step 3 - I open Catalog
+2023-03-07 17:20:20 INFO  - Button 'Catalog' :: Clicking
+2023-03-07 17:20:22 INFO  - Step 4 - I open search modal
+2023-03-07 17:20:23 INFO  - Button 'Search button' :: Clicking
+2023-03-07 17:20:25 INFO  - Step 5 - I search for "Murder at the Columbarium" and save bookName as 'bookNameInfo'
+2023-03-07 17:20:26 INFO  - Text Field 'Search value input' :: Sending keys 'Murder at the Columbarium'
+2023-03-07 17:20:27 INFO  - Button 'Search' :: Clicking
+2023-03-07 17:20:30 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2023-03-07 17:20:30 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-07 17:21:13 INFO  - Step 7 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-07 17:21:14 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-07 17:21:15 INFO  - Label 'lblBookName' :: Clicking
+2023-03-07 17:21:16 INFO  - Step 8 - Click GET action button on book details screen
+2023-03-07 17:21:17 INFO  - Button 'Get' :: Clicking
+2023-03-07 17:21:39 INFO  - Step 9 - I check that book contains LISTEN action button on book details screen
+2023-03-07 17:22:00 INFO  - Taking screenshot
+2023-03-07 17:22:05 INFO  - Test finished - logging out
+2023-03-07 17:22:08 INFO  - Button 'Settings' :: Clicking
+2023-03-07 17:22:10 INFO  - Button 'Settings' :: Clicking
+2023-03-07 17:22:11 INFO  - Button 'Libraries button' :: Clicking
+2023-03-07 17:22:15 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-07 17:22:16 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-07 17:22:17 INFO  - Button 'Log out' :: Clicking
+2023-03-07 17:22:18 INFO  - Button 'Log out approve' :: Clicking
+2023-03-07 17:22:40 INFO  - Button 'Log in' :: Getting text from element
+2023-03-07 17:22:41 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-07 17:22:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-07 17:22:43 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@25c53e71
