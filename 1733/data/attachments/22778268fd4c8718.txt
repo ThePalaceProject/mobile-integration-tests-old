@@ -1,0 +1,36 @@
+2023-03-07 23:33:36 INFO  - Scenario 'Biblioboard audiobook: Check fields in Information section in LYRASIS' start
+2023-03-07 23:33:36 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-07 23:33:58 INFO  - Application on platform 'IOS' is ready...
+2023-03-07 23:33:58 INFO  - Session id - 3ab778c21c95071471199f2bc24d836bded6589c
+2023-03-07 23:33:58 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-07 23:33:59 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-07 23:33:59 INFO  - Button 'Find your library button' :: Clicking
+2023-03-07 23:34:00 INFO  - Text Field 'Search field' :: Clicking
+2023-03-07 23:34:06 INFO  - Text Field 'Search field' :: Clearing
+2023-03-07 23:34:06 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-07 23:34:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-07 23:34:18 INFO  - Step 1 - I open Catalog
+2023-03-07 23:34:19 INFO  - Button 'Catalog' :: Clicking
+2023-03-07 23:34:20 INFO  - Step 2 - I switch to 'Audiobooks' catalog tab
+2023-03-07 23:34:20 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-07 23:34:43 INFO  - Step 3 - I open 'New BiblioBoard Test' category
+2023-03-07 23:34:44 INFO  - Button 'New BiblioBoard Test' :: Clicking
+2023-03-07 23:34:46 INFO  - Step 4 - I swipe catalog of books down on catalog book screen
+2023-03-07 23:34:46 INFO  - Swiping from coordinates (x:195; y:675) to (x:195; y:126)
+2023-03-07 23:34:50 INFO  - Step 5 - Open random book on catalog book screen and save book as 'bookInfo'
+2023-03-07 23:34:57 INFO  - Label 'lblAuthor' :: Getting attribute 'name'
+2023-03-07 23:34:59 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-03-07 23:35:00 INFO  - Label 'lblBookName' :: Clicking
+2023-03-07 23:35:02 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-03-07 23:35:04 INFO  - Label 'Book title' :: Getting text from element
+2023-03-07 23:35:07 INFO  - Label 'Author' :: Getting text from element
+2023-03-07 23:35:10 INFO  - Label 'Book title' :: Getting text from element
+2023-03-07 23:35:14 INFO  - Label 'Author' :: Getting text from element
+2023-03-07 23:35:15 INFO  - Step 7 - Publisher and Categories in Information section are displayed on book details screen
+2023-03-07 23:35:18 INFO  - Step 8 - Publisher and Categories in Information section are correct on book details screen
+2023-03-07 23:35:18 INFO  - Label 'lblPublisher' :: Getting attribute 'name'
+2023-03-07 23:35:20 INFO  - Label 'lblCategories' :: Getting attribute 'name'
+2023-03-07 23:35:22 INFO  - Step 9 - Distributor is equal to 'Biblioboard' on book details screen
+2023-03-07 23:35:22 INFO  - Label 'lblDistributor' :: Getting attribute 'name'
+2023-03-07 23:35:23 INFO  - Taking screenshot
+2023-03-07 23:35:25 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@736d139e
