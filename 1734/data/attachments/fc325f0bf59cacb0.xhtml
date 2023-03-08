@@ -1,0 +1,295 @@
+2023-03-08 00:44:19 INFO  - Scenario 'Font settings: Check of font style' start
+2023-03-08 00:44:19 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-08 00:44:51 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-08 00:44:51 INFO  - Session id - d0f4fe5a587fad13d2e829917aefe4df0aa831a5
+2023-03-08 00:44:51 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-08 00:44:51 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-08 00:44:54 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-08 00:44:54 INFO  - Button 'Search' :: Clicking
+2023-03-08 00:44:56 INFO  - Text Field 'Search' :: Clearing
+2023-03-08 00:44:56 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-08 00:44:59 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-08 00:45:00 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-08 00:45:00 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:45:01 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:45:02 INFO  - Button 'Accounts' :: Clicking
+2023-03-08 00:45:04 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-08 00:45:04 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:45:05 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:45:06 INFO  - Button 'Accounts' :: Clicking
+2023-03-08 00:45:07 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-08 00:45:08 INFO  - Locking credential with barcode 01230000000304
+2023-03-08 00:45:08 INFO  - There are books on the account: 
+2023-03-08 00:45:09 INFO  - There is not books on the account.
+2023-03-08 00:45:09 INFO  - Count of books on the account after opening account: 0
+2023-03-08 00:45:09 INFO  - Text Field 'Card' :: Clearing
+2023-03-08 00:45:09 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-03-08 00:45:11 INFO  - Text Field 'Pin' :: Clearing
+2023-03-08 00:45:11 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-08 00:45:13 INFO  - Button 'Log in' :: Clicking
+2023-03-08 00:45:20 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-08 00:45:21 INFO  - Step 3 - Login is performed successfully
+2023-03-08 00:45:42 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-08 00:45:43 INFO  - Step 4 - I open Catalog
+2023-03-08 00:45:43 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-08 00:46:04 INFO  - Step 5 - I open search modal
+2023-03-08 00:46:25 INFO  - Button 'Search' :: Clicking
+2023-03-08 00:46:26 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-08 00:46:26 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-08 00:46:26 INFO  - randomBookName: Under the Bayou Moon
+2023-03-08 00:46:26 INFO  - Error details button is not present
+2023-03-08 00:46:27 INFO  - Text Field 'Search value input' :: Sending keys 'Under the Bayou Moon'
+2023-03-08 00:46:29 INFO  - Error details button is not present
+2023-03-08 00:46:33 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-08 00:46:33 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-08 00:46:34 INFO  - Button 'actionButton' :: Clicking
+2023-03-08 00:46:41 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-08 00:46:41 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-08 00:46:41 INFO  - Label 'lblBookName' :: Clicking
+2023-03-08 00:46:42 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-08 00:46:43 INFO  - Button 'Read' :: Clicking
+2023-03-08 00:46:43 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-08 00:46:43 INFO  - Scrolling 7 times on reader epub screen
+2023-03-08 00:46:57 INFO  - Step 11 - I open font settings
+2023-03-08 00:46:57 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-08 00:46:58 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-03-08 00:46:58 INFO  - Button 'setFontSerif' :: Clicking
+2023-03-08 00:46:58 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-03-08 00:46:59 INFO  - context - NATIVE_APP
+2023-03-08 00:46:59 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-08 00:47:00 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-08 00:47:00 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Under_the_Bayou_Moon_epubCS21-5</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:0635da90-1d80-49e5-9b86-07a1f97bfb8e" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body id="Under_the_Bayou_Moon_epubCS21-5" xml:lang="en-US">
+  <div>
+    <span epub:type="pagebreak" id="page6" title="6"></span> <a id="_idParaDest-6"></a><a id="_idTextAnchor005"></a> 
+
+    <h1 class="toc-marker">Copyright Page</h1>
+
+    <p class="copyright-first">© 2021 by Valerie F. Luesse</p>
+
+    <p class="copyright-space">Published by Revell</p>
+
+    <p class="copyright">a division of Baker Publishing Group</p>
+
+    <p class="copyright">PO Box 6287, Grand Rapids, MI 49516-6287</p>
+
+    <p class="copyright"><a href="http://www.revellbooks.com">www.revellbooks.com</a></p>
+
+    <p class="copyright-space">Ebook edition created 2021</p>
+
+    <p class="copyright-space">All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means—for example, electronic, photocopy, recording—without the prior written permission of the publisher. The only exception is brief quotations in printed reviews.</p>
+
+    <p class="copyright-space">Library of Congress Cataloging-in-Publication Data is on file at the Library of Congress, Washington, DC.</p>
+
+    <p class="copyright-space">ISBN 978-1-4934-3042-0</p>
+
+    <p class="copyright-space">Scripture used in this book, whether quoted or paraphrased by the characters, is taken from the King James Version of the Bible.</p>
+
+    <p class="copyright-space">This book is a work of fiction. Names, characters, places, and incidents are the product of the author’s imagination or are used fictitiously. Any resemblance to actual events, locales, or persons, living or dead, is coincidental.</p>
+
+    <p class="copyright-space">The author is represented by the literary agency of Stoker Literary.</p>
+  </div>
+</body>
+</html>
+2023-03-08 00:47:00 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-08 00:47:00 INFO  - Step 14 - I restart app
+2023-03-08 00:47:25 INFO  - Step 15 - I open Books
+2023-03-08 00:47:25 INFO  - Button 'tabBooks' :: Clicking
+2023-03-08 00:47:26 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-08 00:47:26 INFO  - Label 'lblBookName' :: Clicking
+2023-03-08 00:47:26 INFO  - Step 17 - Click READ action button on book details screen
+2023-03-08 00:47:27 INFO  - Button 'Read' :: Clicking
+2023-03-08 00:47:28 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-03-08 00:47:28 INFO  - context - NATIVE_APP
+2023-03-08 00:47:29 INFO  - context - NATIVE_APP
+2023-03-08 00:47:30 INFO  - context - NATIVE_APP
+2023-03-08 00:47:30 INFO  - context - NATIVE_APP
+2023-03-08 00:47:30 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-08 00:47:32 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-08 00:47:32 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Under_the_Bayou_Moon_epubCS21-5</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:0635da90-1d80-49e5-9b86-07a1f97bfb8e" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body id="Under_the_Bayou_Moon_epubCS21-5" xml:lang="en-US">
+  <div>
+    <span epub:type="pagebreak" id="page6" title="6"></span> <a id="_idParaDest-6"></a><a id="_idTextAnchor005"></a> 
+
+    <h1 class="toc-marker">Copyright Page</h1>
+
+    <p class="copyright-first">© 2021 by Valerie F. Luesse</p>
+
+    <p class="copyright-space">Published by Revell</p>
+
+    <p class="copyright">a division of Baker Publishing Group</p>
+
+    <p class="copyright">PO Box 6287, Grand Rapids, MI 49516-6287</p>
+
+    <p class="copyright"><a href="http://www.revellbooks.com">www.revellbooks.com</a></p>
+
+    <p class="copyright-space">Ebook edition created 2021</p>
+
+    <p class="copyright-space">All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means—for example, electronic, photocopy, recording—without the prior written permission of the publisher. The only exception is brief quotations in printed reviews.</p>
+
+    <p class="copyright-space">Library of Congress Cataloging-in-Publication Data is on file at the Library of Congress, Washington, DC.</p>
+
+    <p class="copyright-space">ISBN 978-1-4934-3042-0</p>
+
+    <p class="copyright-space">Scripture used in this book, whether quoted or paraphrased by the characters, is taken from the King James Version of the Bible.</p>
+
+    <p class="copyright-space">This book is a work of fiction. Names, characters, places, and incidents are the product of the author’s imagination or are used fictitiously. Any resemblance to actual events, locales, or persons, living or dead, is coincidental.</p>
+
+    <p class="copyright-space">The author is represented by the literary agency of Stoker Literary.</p>
+  </div>
+</body>
+</html>
+2023-03-08 00:47:32 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-08 00:47:32 INFO  - Step 19 - I return to previous screen from epub
+2023-03-08 00:47:33 INFO  - Button 'btnBack' :: Clicking
+2023-03-08 00:47:33 INFO  - Step 20 - Click READ action button on book details screen
+2023-03-08 00:47:35 INFO  - Button 'Read' :: Clicking
+2023-03-08 00:47:35 INFO  - Step 21 - Book text displays in FONT_SERIF font
+2023-03-08 00:47:36 INFO  - context - NATIVE_APP
+2023-03-08 00:47:36 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-08 00:47:37 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-08 00:47:37 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Under_the_Bayou_Moon_epubCS21-5</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:0635da90-1d80-49e5-9b86-07a1f97bfb8e" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body id="Under_the_Bayou_Moon_epubCS21-5" xml:lang="en-US">
+  <div>
+    <span epub:type="pagebreak" id="page6" title="6"></span> <a id="_idParaDest-6"></a><a id="_idTextAnchor005"></a> 
+
+    <h1 class="toc-marker">Copyright Page</h1>
+
+    <p class="copyright-first">© 2021 by Valerie F. Luesse</p>
+
+    <p class="copyright-space">Published by Revell</p>
+
+    <p class="copyright">a division of Baker Publishing Group</p>
+
+    <p class="copyright">PO Box 6287, Grand Rapids, MI 49516-6287</p>
+
+    <p class="copyright"><a href="http://www.revellbooks.com">www.revellbooks.com</a></p>
+
+    <p class="copyright-space">Ebook edition created 2021</p>
+
+    <p class="copyright-space">All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means—for example, electronic, photocopy, recording—without the prior written permission of the publisher. The only exception is brief quotations in printed reviews.</p>
+
+    <p class="copyright-space">Library of Congress Cataloging-in-Publication Data is on file at the Library of Congress, Washington, DC.</p>
+
+    <p class="copyright-space">ISBN 978-1-4934-3042-0</p>
+
+    <p class="copyright-space">Scripture used in this book, whether quoted or paraphrased by the characters, is taken from the King James Version of the Bible.</p>
+
+    <p class="copyright-space">This book is a work of fiction. Names, characters, places, and incidents are the product of the author’s imagination or are used fictitiously. Any resemblance to actual events, locales, or persons, living or dead, is coincidental.</p>
+
+    <p class="copyright-space">The author is represented by the literary agency of Stoker Literary.</p>
+  </div>
+</body>
+</html>
+2023-03-08 00:47:37 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-08 00:47:38 INFO  - Step 22 - I open font settings
+2023-03-08 00:47:38 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-08 00:47:39 INFO  - Step 23 - I change font style to FONT_SANS
+2023-03-08 00:47:39 INFO  - Button 'setFontSans' :: Clicking
+2023-03-08 00:47:39 INFO  - Step 24 - Book text displays in FONT_SANS font
+2023-03-08 00:47:40 INFO  - context - NATIVE_APP
+2023-03-08 00:47:40 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-08 00:47:40 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-08 00:47:41 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Under_the_Bayou_Moon_epubCS21-5</title>
+  <link href="../Styles/template.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:0635da90-1d80-49e5-9b86-07a1f97bfb8e" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body id="Under_the_Bayou_Moon_epubCS21-5" xml:lang="en-US">
+  <div>
+    <span epub:type="pagebreak" id="page6" title="6"></span> <a id="_idParaDest-6"></a><a id="_idTextAnchor005"></a> 
+
+    <h1 class="toc-marker">Copyright Page</h1>
+
+    <p class="copyright-first">© 2021 by Valerie F. Luesse</p>
+
+    <p class="copyright-space">Published by Revell</p>
+
+    <p class="copyright">a division of Baker Publishing Group</p>
+
+    <p class="copyright">PO Box 6287, Grand Rapids, MI 49516-6287</p>
+
+    <p class="copyright"><a href="http://www.revellbooks.com">www.revellbooks.com</a></p>
+
+    <p class="copyright-space">Ebook edition created 2021</p>
+
+    <p class="copyright-space">All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means—for example, electronic, photocopy, recording—without the prior written permission of the publisher. The only exception is brief quotations in printed reviews.</p>
+
+    <p class="copyright-space">Library of Congress Cataloging-in-Publication Data is on file at the Library of Congress, Washington, DC.</p>
+
+    <p class="copyright-space">ISBN 978-1-4934-3042-0</p>
+
+    <p class="copyright-space">Scripture used in this book, whether quoted or paraphrased by the characters, is taken from the King James Version of the Bible.</p>
+
+    <p class="copyright-space">This book is a work of fiction. Names, characters, places, and incidents are the product of the author’s imagination or are used fictitiously. Any resemblance to actual events, locales, or persons, living or dead, is coincidental.</p>
+
+    <p class="copyright-space">The author is represented by the literary agency of Stoker Literary.</p>
+  </div>
+</body>
+</html>
+2023-03-08 00:47:41 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-08 00:47:41 INFO  - Taking screenshot
+2023-03-08 00:47:42 INFO  - Test finished - logging out
+2023-03-08 00:47:43 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:47:45 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:47:47 INFO  - Button 'Accounts' :: Clicking
+2023-03-08 00:47:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-08 00:47:49 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-08 00:47:49 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-08 00:47:49 INFO  - Button 'Log out' :: Clicking
+2023-03-08 00:47:49 INFO  - Button 'Log in' :: Getting text from element
+2023-03-08 00:47:53 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-08 00:47:53 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-08 00:47:53 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@77fa6f19

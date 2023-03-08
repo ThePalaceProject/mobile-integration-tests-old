@@ -1,0 +1,698 @@
+2023-03-08 00:36:22 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-03-08 00:36:22 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-08 00:36:51 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-08 00:36:51 INFO  - Session id - 14df30bbf53f482fd1084b8c342c3b3c98be4cc5
+2023-03-08 00:36:51 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-08 00:36:51 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-08 00:36:54 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-08 00:36:55 INFO  - Button 'Search' :: Clicking
+2023-03-08 00:36:57 INFO  - Text Field 'Search' :: Clearing
+2023-03-08 00:36:57 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-08 00:37:00 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-08 00:37:01 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-08 00:37:01 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:37:05 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:37:06 INFO  - Button 'Accounts' :: Clicking
+2023-03-08 00:37:09 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-08 00:37:09 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:37:10 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:37:11 INFO  - Button 'Accounts' :: Clicking
+2023-03-08 00:37:12 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-08 00:37:13 INFO  - Locking credential with barcode 01230000000305
+2023-03-08 00:37:13 INFO  - There are books on the account: 
+2023-03-08 00:37:14 INFO  - There is not books on the account.
+2023-03-08 00:37:14 INFO  - Count of books on the account after opening account: 0
+2023-03-08 00:37:14 INFO  - Text Field 'Card' :: Clearing
+2023-03-08 00:37:14 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-03-08 00:37:16 INFO  - Text Field 'Pin' :: Clearing
+2023-03-08 00:37:16 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-08 00:37:18 INFO  - Button 'Log in' :: Clicking
+2023-03-08 00:37:23 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-08 00:37:24 INFO  - Step 3 - Login is performed successfully
+2023-03-08 00:37:46 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-08 00:37:46 INFO  - Step 4 - I open Catalog
+2023-03-08 00:37:46 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-08 00:38:09 INFO  - Step 5 - I open search modal
+2023-03-08 00:38:29 INFO  - Button 'Search' :: Clicking
+2023-03-08 00:38:31 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-08 00:38:31 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-08 00:38:31 INFO  - randomBookName: Seed World
+2023-03-08 00:38:32 INFO  - Error details button is not present
+2023-03-08 00:38:32 INFO  - Text Field 'Search value input' :: Sending keys 'Seed World'
+2023-03-08 00:38:35 INFO  - Error details button is not present
+2023-03-08 00:38:38 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-08 00:38:39 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-08 00:38:41 INFO  - Button 'actionButton' :: Clicking
+2023-03-08 00:38:48 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-08 00:38:49 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-08 00:38:50 INFO  - Label 'lblBookName' :: Clicking
+2023-03-08 00:38:51 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-08 00:38:51 INFO  - Button 'Read' :: Clicking
+2023-03-08 00:38:52 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-08 00:38:53 INFO  - Scrolling 8 times on reader epub screen
+2023-03-08 00:39:17 INFO  - Step 11 - I save font size as 'fontSize'
+2023-03-08 00:39:18 INFO  - context - NATIVE_APP
+2023-03-08 00:39:18 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-08 00:39:19 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-08 00:39:20 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.3.3.1" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>CHAPTER 1</title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="h10"><a id="a8"></a>CHAPTER 1</h1>
+<p class="p1">Crackling flame and the smell of smoke; for a moment Leicho thought she was at her mother’s hearth on a winter morning. Time to milk the sheep.</p>
+<p class="p1">No, the smoke smelled wrong. And her head hurt. <span class="t4">Everything </span>hurt. Leicho felt gritty rubble under her hands, and remembered. The transport had crashed.</p>
+<p class="p1">Terror dragged her up through the fog of unconsciousness, and she sat up as quickly as she dared, everything spinning around her. They had crashed. On a seed world. This was surely the HWA’s ultimate nightmare, for a <span class="t4">prison transport </span>to crash on a seed world.</p>
+<p class="p1">Her surroundings settled into a landscape of twisted metal, scattered fires against a night sky. It had been midday aboard the ship, which wasn’t helping her disorientation. The wrecked transport seemed somehow both larger and smaller than it ought to be, stretched out around her. Beyond it lay only dense blackness, no clues about the nature of this world. A few emergency lights glowed through gaping tears in the hull—one flickered out as she watched. The wrong-smelling fires were spreading.</p>
+<p class="p1"><span class="t4">Lord and Lady, is anyone else alive?</span></p>
+<p class="p1">Leicho felt her face, her head and arms, with trembling hands. Blood from the head injury soaked her short thatch of white hair, streamed down her face and neck. Everything hurt. A jagged piece of bulkhead had her pinned in place by the torso and right leg, but she didn’t think anything was broken. She had to get free before the fires got to her. She had to help the other survivors. If there were any…</p>
+<p class="p1">She shoved at the bulkhead pinning her down, and tried to twist out from under it. A mistake, she realized as the wreckage shifted beneath her; for a horrible moment she was falling, unable to keep from crying out, but then metal clanged hard against metal, and she stabilized again—suspended now over a vast chasm. She looked down into a ragged cross-section of the transport, corridors and crew quarters and cells, torn open like bread.</p>
+<p class="p1">A shower of sparks caught her eye on the other side of the chasm, briefly illuminating golden hair and a guard’s uniform. Reill! They’d been walking together to their duty station when this happened, hadn’t they? Her mind was still foggy…</p>
+<p class="p1">“Reill! Are you all right? Can you hear me? Reill, wake up! Can you help me?”</p>
+<p class="p1">More sparks, and Leicho’s breath caught. No, Reill couldn’t help her, and he wouldn’t be waking up. Not with his body folded and twisted around like that.</p>
+<p class="p1">“Reill,” she called again, helplessly, because he couldn’t just be gone that quickly, her first and best friend on the transport, he couldn’t just be <span class="t4">gone</span>.</p>
+<p class="p1">But of course he could. She closed her eyes, arms aching with the strain of holding herself up over the chasm, and whispered a prayer for the dead.</p>
+<p class="p1">She was interrupted by a sound of movement. A slithering, dragging sound, slow and unsteady. Another survivor!</p>
+<p class="p1">“Help me!” she cried, straining upward. “I’m pinned here, I don’t—”</p>
+<p class="p1">The words died in her throat as the survivor hauled himself into view—just a dark shape against the dark sky, but she knew him. Everyone on the ship knew this one.</p>
+<p class="p1">“Hello, Summer Blossom,” she said, keeping her voice calm. “I’m glad to see you’re okay. Can you help me get free?”</p>
+<p class="p1">The only reply was the rattle of leaves and seed-pods that passed as Summer Blossom’s laughter.</p>
+<p class="p1"><span class="t4">Lord and Lady, help your child, help me help me</span>—She struggled wildly against the weight that trapped her, heedless of further damage to her body, or the chance of falling to her death. Above her, the wide leaves and tri-part maw of Transport 989’s most dangerous inmate loomed black against foreign constellations. </p>
+<p class="p1">When vines snaked down the broken bulkhead and wrapped around Leicho’s body, she breathed deep and forced herself not to struggle. Summer Blossom was surely weakened, injured, or he would already have deployed his chemical ammunition. If she waited for an opportune moment, she might have a chance to get away.</p>
+<p class="p1">Vines wrapped around the wreckage, pulling it away enough to lift her free. Leicho held her breath. If there was any chance at all that Summer Blossom meant well, this would be the moment—</p>
+<p class="p1">He did not set her down. Instead, he opened the three flame-orange petals of his maw, and dangled her above it. The rattling seed pods formed something like a tune—the five-note song that denoted “lights out” for the prisoners.</p>
+<p class="p1">Leicho wrenched her arm free of the vine and drew her stinger, jabbing it into a mouth-petal at full power.</p>
+<p class="p1">Summer Blossom screamed, or the Green Ones’ equivalent of a scream—the hiss of air-pods clenching, a sudden flood of fear-pain-rage pheromone. Another stinger-jab numbed the vines clutching her, and Leicho dropped ten feet onto twisted metal. Something went wrong in her leg. She got up and ran anyway.</p>
+<p class="p1">The surface of the downed transport was a nightmare, broken and burning and shifting underfoot. She passed the bodies of two more prisoners, clearly dead. One of the cooks, but only part of her. There was no time to stop, not with Summer Blossom pursuing her. She could hear metal shrieking as the Green One tore wreckage out of his path, not far behind.</p>
+<p class="p1">She limped and stumbled, choking on smoke and pheromone, and kept the stinger clutched tight in her hand. It was a herding tool, really, not a weapon. It wouldn’t come near putting Summer Blossom down. She veered, trying to put flames between them—and felt the deck give way under her feet.</p>
+<p class="p1">She tumbled through darkness, rough edges and broken bits, debris falling in after her. She landed hard, stunned and breathless, wondering if she was dead.</p>
+<p class="p1">Apparently not, she thought when her lungs began to work again. Being dead wouldn’t hurt this much.</p>
+<p class="p1">She didn’t try to move at first, listening for sounds of pursuit, but all she heard was the drip and hiss of burst pipes, the crackle of flame—not as far away as she’d like. The debris had mostly caught on a crossbar a few feet above; a wonder she hadn’t broken on that herself. There was soil under her hands, she realized—deep, sucking mud, odd-smelling, the surface of a strange world. Carefully, she began to crawl.</p>
+<p class="p1">It took an age to win free of the wreckage, and after everything else, it was the mud that nearly killed her. She had to fight free of it anew with every movement, even as she clawed at it for purchase. The transport, she realized gradually, was sinking, tilting the surface of the mud, threatening to drag her down with it. Her right leg was no longer working at all.</p>
+<p class="p1">Transport 989 was dead, was a crushed drinking-can around her, burning and sinking into the mud. Her home of the last eight years, and near everyone on it, her fellow guards, her prisoners, the support staff…Once or twice she thought perhaps she heard voices, crying for help, but she couldn’t be sure over the roar of the flames. Perhaps it was better not to be sure.</p>
+<p class="p1">There was a road ahead—surely it was a road, surely on any world a section of narrow, flat land, too clean-edged to be natural, was a road. Would someone stop to help her? Would anyone even pass by, in the middle of the night as it seemed to be?</p>
+<p class="p1">She dragged herself into the road, where at least the mud couldn’t get her. It had just occurred to her to wonder what kind of vehicles were used on this world when a pair of bright lights came around the turn, blinding her. She raised a hand, half a plea and half a shield for her eyes. The vehicle belonging to the lights veered sharply away from her with a screaming noise, and came to a stop a few yards away.</p>
+<p class="p1">Her eyes weren’t focusing, she realized, as she watched a door open in the vehicle, and a humanoid figure step out. She would lose consciousness soon. “Help,” she tried to say, but her translator choked her with an error signal, no idea what language to use. <span class="t4">Lord and Lady, if my translator doesn’t work here</span>…</p>
+<p class="p1">The humanoid figure leaned over her, blurry and half-lit, speaking in a frightened tone. The translator strained and stuttered. Finally something pinged, and it began whispering information into her brain.</p>
+<p class="p1"><span class="t4">Planet: Earth/Di Qiu/La Tierra/Erde/Terre/Chikyu/Prithvi/Ulimwengu</span></p>
+<p class="p1"><span class="t4">Language: English</span></p>
+<p class="p1"><span class="t4">Translator database for Earth English updated: 56 years ago.</span></p>
+<p class="p1">She was in luck, to have such a recent update. Translator companies often didn’t update from seed worlds for centuries at a time; too much risk for too little reward.</p>
+<p class="p1">“Can you even hear me?” the man—she thought it was a man—was saying. He waved a hand in front of her face. “Are you all right?”</p>
+<p class="p1">“No,” she said, and lost consciousness.</p>
+<p class="p2">* * * *</p>
+<p class="p1">“Dad, can I get a henna kit? It would be so cool to have my own henna kit, then I could give myself tattoos all the time, for free, and I could practice on you, and maybe I could sell tattoos at school—”</p>
+<p class="p1">“No, Briana, you cannot start up a temporary tattoo parlor on the playground.”</p>
+<p class="p1">“But I am super responsible for my age! I heard you say so!”</p>
+<p class="p1">“Yes, but that age is still <span class="t4">eleven</span>. No go, Bree.” Nate chuckled at his daughter’s sulky expression, then turned his attention back to the road. This swampy stretch between Hilton Head and Bluffton didn’t support streetlamps—most of it would be underwater, come high tide—and the road twisted through thick clumps of trees, so it paid to turn on the brights and stay focused. At least there was no other traffic at this hour.</p>
+<p class="p1">Not that you’d know, from watching Briana, that it was nearly two in the morning. She was practically vibrating in her seat, still high on the energy of the convention. Her Princess Leia buns were falling and the white robe was scuffed and rumpled; Nate had abandoned his Vader suit in favor of jeans and a T-shirt, much to Briana’s displeasure. “I’m pretty sure you can peel that off now,” Nate said, nodding at the henna mockingjay Bree was still guarding jealously on her forearm.</p>
+<p class="p1">“The lady said to leave it overnight.”</p>
+<p class="p1">“It <span class="t4">is </span>overnight, Miss Bouncey Ball,” Nate muttered. “You didn’t get into the Red Bull again, did you?”</p>
+<p class="p1">“No, I’m just happy!” Briana put her feet up on the dash, wiggling her toes. “That was the best Con ever! We’re doing it again next year, right?”</p>
+<p class="p1">“That depends on funding, but hopefully.” Nate had been going to science fiction conventions for decades, but he’d never helped <span class="t4">run </span>one before. He had to admit it had been a blast. Chaotic and frustrating and way more complicated than advertised, but a blast. And it was nice to drive half an hour home afterward, rather than flying from Atlanta or—</p>
+<p class="p1">“What’s that?” Briana straightened, taking her feet off the dash.</p>
+<p class="p1">They had just rounded a corner, leaving a screen of trees behind, and instead of dark mudflat there was…some sort of wreck? Nate felt his mouth fall open. It was <span class="t4">huge</span>, easily the size of a multi-story building, and it was definitely on fire. What on <span class="t4">Earth—</span></p>
+<p class="p1">“Dad!”</p>
+<p class="p1">Nate saw it just as Briana pointed—a figure crawling into the road, covered in blood and throwing up a hand toward them. He jerked the steering wheel and slammed on the brakes.</p>
+<p class="p1">The car nearly went off the road before he got it to a stop, and for a second they both sat there, breathing hard. Nate’s seatbelt had tightened against his chest; he scrabbled to unlatch it.</p>
+<p class="p1">“You okay, Bree?” he said, and Briana nodded, eyes wide.</p>
+<p class="p1">“Dad, was that—that looked like something from <span class="t4">The Walking Dead</span>, Daddy, what was that?”</p>
+<p class="p1">“Someone hurt in that wreck. Whatever <span class="t4">that </span>is. You stay put.”</p>
+<p class="p1">“But—”</p>
+<p class="p1">“NO.” He gripped her chin to make her meet his eyes. “You stay in the car. Whatever’s going on out there, my little girl is not getting in the middle of it. Understand?”</p>
+<p class="p1">It was a measure of her fright that she nodded, and didn’t reach for her seatbelt as he got out of the car.</p>
+<p class="p1">Nate had not had a panic attack in almost ten years. It occurred to him now, as his gaze wandered across the burning wreckage of something the size of a cruise ship, that that streak could be broken.</p>
+<p class="p1"><span class="t4">Get a hold of yourself.</span></p>
+<p class="p1">He hurried to the bloody figure collapsed in the road. “Hey! Hey, buddy, I’m going to help you, okay? Can you tell me where you’re hurt? Can you tell me what happened?”</p>
+<p class="p1">The person—woman, he realized, tall and muscular with very short hair, but her face was definitely feminine—looked up at him with frantic, glassy eyes. She tried to speak but he couldn’t make out words.</p>
+<p class="p1">“Easy, easy, I’m going to help you.” The roar of fire from the wreck was surprisingly loud, competing for space with the gallop of his heart. “Don’t move, I’m going to call for help.” He reached for his phone, only to find an empty pocket. His phone was in the car, he remembered, with a dead battery; he swore under his breath. “All right. All right. Ma’am, can you even hear me?” He waved a hand in front of her face; she blinked, but her eyes didn’t track the movement. “Are you all right?”</p>
+<p class="p1">“No,” she croaked, and lowered her head to the pavement, eyes drifting shut.</p>
+<p class="p1">Nate raked hands through his hair, swearing steadily. There was no one around here for miles, they hadn’t even seen another car in ages. They had no phone. Moving her was probably not a great idea, but it beat leaving her in the middle of the road.</p>
+<p class="p1">He ran back to the car, where Briana had her nose pressed to the driver’s side window.</p>
+<p class="p1">“We’re taking her to the hospital,” he said. “Move the stuff out of the backseat.”</p>
+<p class="p1">“Is that an airplane?”</p>
+<p class="p1">“Just move the stuff!”</p>
+<p class="p1">While Briana heaved their suitcases into the trunk, Nate carefully gathered the unconscious woman into his arms—but he wasn’t a particularly large or muscular man, and he simply couldn’t lift her. He swore a little more under his breath, and eyed the flames of the wreckage, which were definitely picking up speed. They needed to get out of here. What if that thing exploded?</p>
+<p class="p1">“Bree, come get her feet!”</p>
+<p class="p1">Briana looked about five years old as they eased the injured woman into the backseat—buns fallen into mere pigtails, white robe swallowing her body, eyes swallowing her face. “Is she dead?”</p>
+<p class="p1">“No,” Nate said, though the idea sparked unease in his gut. She had lost consciousness rather suddenly. “Get in, buckle your—No, Briana, get in your seat!” She had crawled into the back with the injured woman.</p>
+<p class="p1">An explosion from the wreckage sent him stumbling against the car; flame mushroomed into the night sky. Without another word, he jumped into the driver’s seat and hit the gas.</p>
+<p class="p1">If he passed something strange in the roadside brush—some kind of enormous plant with long vines trailing out across the pavement—he hardly spared a glance for it as they sped away.</p>
+</body>
+</html>
+2023-03-08 00:39:20 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-08 00:39:20 INFO  - Step 12 - I open font settings
+2023-03-08 00:39:21 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-08 00:39:22 INFO  - Step 13 - I INCREASE_FONT of text
+2023-03-08 00:39:22 INFO  - Button 'setTextLarger' :: Clicking
+2023-03-08 00:39:23 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-03-08 00:39:23 INFO  - context - NATIVE_APP
+2023-03-08 00:39:23 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-08 00:39:25 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-08 00:39:26 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.3.3.1" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>CHAPTER 1</title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="h10"><a id="a8"></a>CHAPTER 1</h1>
+<p class="p1">Crackling flame and the smell of smoke; for a moment Leicho thought she was at her mother’s hearth on a winter morning. Time to milk the sheep.</p>
+<p class="p1">No, the smoke smelled wrong. And her head hurt. <span class="t4">Everything </span>hurt. Leicho felt gritty rubble under her hands, and remembered. The transport had crashed.</p>
+<p class="p1">Terror dragged her up through the fog of unconsciousness, and she sat up as quickly as she dared, everything spinning around her. They had crashed. On a seed world. This was surely the HWA’s ultimate nightmare, for a <span class="t4">prison transport </span>to crash on a seed world.</p>
+<p class="p1">Her surroundings settled into a landscape of twisted metal, scattered fires against a night sky. It had been midday aboard the ship, which wasn’t helping her disorientation. The wrecked transport seemed somehow both larger and smaller than it ought to be, stretched out around her. Beyond it lay only dense blackness, no clues about the nature of this world. A few emergency lights glowed through gaping tears in the hull—one flickered out as she watched. The wrong-smelling fires were spreading.</p>
+<p class="p1"><span class="t4">Lord and Lady, is anyone else alive?</span></p>
+<p class="p1">Leicho felt her face, her head and arms, with trembling hands. Blood from the head injury soaked her short thatch of white hair, streamed down her face and neck. Everything hurt. A jagged piece of bulkhead had her pinned in place by the torso and right leg, but she didn’t think anything was broken. She had to get free before the fires got to her. She had to help the other survivors. If there were any…</p>
+<p class="p1">She shoved at the bulkhead pinning her down, and tried to twist out from under it. A mistake, she realized as the wreckage shifted beneath her; for a horrible moment she was falling, unable to keep from crying out, but then metal clanged hard against metal, and she stabilized again—suspended now over a vast chasm. She looked down into a ragged cross-section of the transport, corridors and crew quarters and cells, torn open like bread.</p>
+<p class="p1">A shower of sparks caught her eye on the other side of the chasm, briefly illuminating golden hair and a guard’s uniform. Reill! They’d been walking together to their duty station when this happened, hadn’t they? Her mind was still foggy…</p>
+<p class="p1">“Reill! Are you all right? Can you hear me? Reill, wake up! Can you help me?”</p>
+<p class="p1">More sparks, and Leicho’s breath caught. No, Reill couldn’t help her, and he wouldn’t be waking up. Not with his body folded and twisted around like that.</p>
+<p class="p1">“Reill,” she called again, helplessly, because he couldn’t just be gone that quickly, her first and best friend on the transport, he couldn’t just be <span class="t4">gone</span>.</p>
+<p class="p1">But of course he could. She closed her eyes, arms aching with the strain of holding herself up over the chasm, and whispered a prayer for the dead.</p>
+<p class="p1">She was interrupted by a sound of movement. A slithering, dragging sound, slow and unsteady. Another survivor!</p>
+<p class="p1">“Help me!” she cried, straining upward. “I’m pinned here, I don’t—”</p>
+<p class="p1">The words died in her throat as the survivor hauled himself into view—just a dark shape against the dark sky, but she knew him. Everyone on the ship knew this one.</p>
+<p class="p1">“Hello, Summer Blossom,” she said, keeping her voice calm. “I’m glad to see you’re okay. Can you help me get free?”</p>
+<p class="p1">The only reply was the rattle of leaves and seed-pods that passed as Summer Blossom’s laughter.</p>
+<p class="p1"><span class="t4">Lord and Lady, help your child, help me help me</span>—She struggled wildly against the weight that trapped her, heedless of further damage to her body, or the chance of falling to her death. Above her, the wide leaves and tri-part maw of Transport 989’s most dangerous inmate loomed black against foreign constellations. </p>
+<p class="p1">When vines snaked down the broken bulkhead and wrapped around Leicho’s body, she breathed deep and forced herself not to struggle. Summer Blossom was surely weakened, injured, or he would already have deployed his chemical ammunition. If she waited for an opportune moment, she might have a chance to get away.</p>
+<p class="p1">Vines wrapped around the wreckage, pulling it away enough to lift her free. Leicho held her breath. If there was any chance at all that Summer Blossom meant well, this would be the moment—</p>
+<p class="p1">He did not set her down. Instead, he opened the three flame-orange petals of his maw, and dangled her above it. The rattling seed pods formed something like a tune—the five-note song that denoted “lights out” for the prisoners.</p>
+<p class="p1">Leicho wrenched her arm free of the vine and drew her stinger, jabbing it into a mouth-petal at full power.</p>
+<p class="p1">Summer Blossom screamed, or the Green Ones’ equivalent of a scream—the hiss of air-pods clenching, a sudden flood of fear-pain-rage pheromone. Another stinger-jab numbed the vines clutching her, and Leicho dropped ten feet onto twisted metal. Something went wrong in her leg. She got up and ran anyway.</p>
+<p class="p1">The surface of the downed transport was a nightmare, broken and burning and shifting underfoot. She passed the bodies of two more prisoners, clearly dead. One of the cooks, but only part of her. There was no time to stop, not with Summer Blossom pursuing her. She could hear metal shrieking as the Green One tore wreckage out of his path, not far behind.</p>
+<p class="p1">She limped and stumbled, choking on smoke and pheromone, and kept the stinger clutched tight in her hand. It was a herding tool, really, not a weapon. It wouldn’t come near putting Summer Blossom down. She veered, trying to put flames between them—and felt the deck give way under her feet.</p>
+<p class="p1">She tumbled through darkness, rough edges and broken bits, debris falling in after her. She landed hard, stunned and breathless, wondering if she was dead.</p>
+<p class="p1">Apparently not, she thought when her lungs began to work again. Being dead wouldn’t hurt this much.</p>
+<p class="p1">She didn’t try to move at first, listening for sounds of pursuit, but all she heard was the drip and hiss of burst pipes, the crackle of flame—not as far away as she’d like. The debris had mostly caught on a crossbar a few feet above; a wonder she hadn’t broken on that herself. There was soil under her hands, she realized—deep, sucking mud, odd-smelling, the surface of a strange world. Carefully, she began to crawl.</p>
+<p class="p1">It took an age to win free of the wreckage, and after everything else, it was the mud that nearly killed her. She had to fight free of it anew with every movement, even as she clawed at it for purchase. The transport, she realized gradually, was sinking, tilting the surface of the mud, threatening to drag her down with it. Her right leg was no longer working at all.</p>
+<p class="p1">Transport 989 was dead, was a crushed drinking-can around her, burning and sinking into the mud. Her home of the last eight years, and near everyone on it, her fellow guards, her prisoners, the support staff…Once or twice she thought perhaps she heard voices, crying for help, but she couldn’t be sure over the roar of the flames. Perhaps it was better not to be sure.</p>
+<p class="p1">There was a road ahead—surely it was a road, surely on any world a section of narrow, flat land, too clean-edged to be natural, was a road. Would someone stop to help her? Would anyone even pass by, in the middle of the night as it seemed to be?</p>
+<p class="p1">She dragged herself into the road, where at least the mud couldn’t get her. It had just occurred to her to wonder what kind of vehicles were used on this world when a pair of bright lights came around the turn, blinding her. She raised a hand, half a plea and half a shield for her eyes. The vehicle belonging to the lights veered sharply away from her with a screaming noise, and came to a stop a few yards away.</p>
+<p class="p1">Her eyes weren’t focusing, she realized, as she watched a door open in the vehicle, and a humanoid figure step out. She would lose consciousness soon. “Help,” she tried to say, but her translator choked her with an error signal, no idea what language to use. <span class="t4">Lord and Lady, if my translator doesn’t work here</span>…</p>
+<p class="p1">The humanoid figure leaned over her, blurry and half-lit, speaking in a frightened tone. The translator strained and stuttered. Finally something pinged, and it began whispering information into her brain.</p>
+<p class="p1"><span class="t4">Planet: Earth/Di Qiu/La Tierra/Erde/Terre/Chikyu/Prithvi/Ulimwengu</span></p>
+<p class="p1"><span class="t4">Language: English</span></p>
+<p class="p1"><span class="t4">Translator database for Earth English updated: 56 years ago.</span></p>
+<p class="p1">She was in luck, to have such a recent update. Translator companies often didn’t update from seed worlds for centuries at a time; too much risk for too little reward.</p>
+<p class="p1">“Can you even hear me?” the man—she thought it was a man—was saying. He waved a hand in front of her face. “Are you all right?”</p>
+<p class="p1">“No,” she said, and lost consciousness.</p>
+<p class="p2">* * * *</p>
+<p class="p1">“Dad, can I get a henna kit? It would be so cool to have my own henna kit, then I could give myself tattoos all the time, for free, and I could practice on you, and maybe I could sell tattoos at school—”</p>
+<p class="p1">“No, Briana, you cannot start up a temporary tattoo parlor on the playground.”</p>
+<p class="p1">“But I am super responsible for my age! I heard you say so!”</p>
+<p class="p1">“Yes, but that age is still <span class="t4">eleven</span>. No go, Bree.” Nate chuckled at his daughter’s sulky expression, then turned his attention back to the road. This swampy stretch between Hilton Head and Bluffton didn’t support streetlamps—most of it would be underwater, come high tide—and the road twisted through thick clumps of trees, so it paid to turn on the brights and stay focused. At least there was no other traffic at this hour.</p>
+<p class="p1">Not that you’d know, from watching Briana, that it was nearly two in the morning. She was practically vibrating in her seat, still high on the energy of the convention. Her Princess Leia buns were falling and the white robe was scuffed and rumpled; Nate had abandoned his Vader suit in favor of jeans and a T-shirt, much to Briana’s displeasure. “I’m pretty sure you can peel that off now,” Nate said, nodding at the henna mockingjay Bree was still guarding jealously on her forearm.</p>
+<p class="p1">“The lady said to leave it overnight.”</p>
+<p class="p1">“It <span class="t4">is </span>overnight, Miss Bouncey Ball,” Nate muttered. “You didn’t get into the Red Bull again, did you?”</p>
+<p class="p1">“No, I’m just happy!” Briana put her feet up on the dash, wiggling her toes. “That was the best Con ever! We’re doing it again next year, right?”</p>
+<p class="p1">“That depends on funding, but hopefully.” Nate had been going to science fiction conventions for decades, but he’d never helped <span class="t4">run </span>one before. He had to admit it had been a blast. Chaotic and frustrating and way more complicated than advertised, but a blast. And it was nice to drive half an hour home afterward, rather than flying from Atlanta or—</p>
+<p class="p1">“What’s that?” Briana straightened, taking her feet off the dash.</p>
+<p class="p1">They had just rounded a corner, leaving a screen of trees behind, and instead of dark mudflat there was…some sort of wreck? Nate felt his mouth fall open. It was <span class="t4">huge</span>, easily the size of a multi-story building, and it was definitely on fire. What on <span class="t4">Earth—</span></p>
+<p class="p1">“Dad!”</p>
+<p class="p1">Nate saw it just as Briana pointed—a figure crawling into the road, covered in blood and throwing up a hand toward them. He jerked the steering wheel and slammed on the brakes.</p>
+<p class="p1">The car nearly went off the road before he got it to a stop, and for a second they both sat there, breathing hard. Nate’s seatbelt had tightened against his chest; he scrabbled to unlatch it.</p>
+<p class="p1">“You okay, Bree?” he said, and Briana nodded, eyes wide.</p>
+<p class="p1">“Dad, was that—that looked like something from <span class="t4">The Walking Dead</span>, Daddy, what was that?”</p>
+<p class="p1">“Someone hurt in that wreck. Whatever <span class="t4">that </span>is. You stay put.”</p>
+<p class="p1">“But—”</p>
+<p class="p1">“NO.” He gripped her chin to make her meet his eyes. “You stay in the car. Whatever’s going on out there, my little girl is not getting in the middle of it. Understand?”</p>
+<p class="p1">It was a measure of her fright that she nodded, and didn’t reach for her seatbelt as he got out of the car.</p>
+<p class="p1">Nate had not had a panic attack in almost ten years. It occurred to him now, as his gaze wandered across the burning wreckage of something the size of a cruise ship, that that streak could be broken.</p>
+<p class="p1"><span class="t4">Get a hold of yourself.</span></p>
+<p class="p1">He hurried to the bloody figure collapsed in the road. “Hey! Hey, buddy, I’m going to help you, okay? Can you tell me where you’re hurt? Can you tell me what happened?”</p>
+<p class="p1">The person—woman, he realized, tall and muscular with very short hair, but her face was definitely feminine—looked up at him with frantic, glassy eyes. She tried to speak but he couldn’t make out words.</p>
+<p class="p1">“Easy, easy, I’m going to help you.” The roar of fire from the wreck was surprisingly loud, competing for space with the gallop of his heart. “Don’t move, I’m going to call for help.” He reached for his phone, only to find an empty pocket. His phone was in the car, he remembered, with a dead battery; he swore under his breath. “All right. All right. Ma’am, can you even hear me?” He waved a hand in front of her face; she blinked, but her eyes didn’t track the movement. “Are you all right?”</p>
+<p class="p1">“No,” she croaked, and lowered her head to the pavement, eyes drifting shut.</p>
+<p class="p1">Nate raked hands through his hair, swearing steadily. There was no one around here for miles, they hadn’t even seen another car in ages. They had no phone. Moving her was probably not a great idea, but it beat leaving her in the middle of the road.</p>
+<p class="p1">He ran back to the car, where Briana had her nose pressed to the driver’s side window.</p>
+<p class="p1">“We’re taking her to the hospital,” he said. “Move the stuff out of the backseat.”</p>
+<p class="p1">“Is that an airplane?”</p>
+<p class="p1">“Just move the stuff!”</p>
+<p class="p1">While Briana heaved their suitcases into the trunk, Nate carefully gathered the unconscious woman into his arms—but he wasn’t a particularly large or muscular man, and he simply couldn’t lift her. He swore a little more under his breath, and eyed the flames of the wreckage, which were definitely picking up speed. They needed to get out of here. What if that thing exploded?</p>
+<p class="p1">“Bree, come get her feet!”</p>
+<p class="p1">Briana looked about five years old as they eased the injured woman into the backseat—buns fallen into mere pigtails, white robe swallowing her body, eyes swallowing her face. “Is she dead?”</p>
+<p class="p1">“No,” Nate said, though the idea sparked unease in his gut. She had lost consciousness rather suddenly. “Get in, buckle your—No, Briana, get in your seat!” She had crawled into the back with the injured woman.</p>
+<p class="p1">An explosion from the wreckage sent him stumbling against the car; flame mushroomed into the night sky. Without another word, he jumped into the driver’s seat and hit the gas.</p>
+<p class="p1">If he passed something strange in the roadside brush—some kind of enormous plant with long vines trailing out across the pavement—he hardly spared a glance for it as they sped away.</p>
+</body>
+</html>
+2023-03-08 00:39:26 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-08 00:39:26 INFO  - Step 15 - I restart app
+2023-03-08 00:39:51 INFO  - Step 16 - I open Books
+2023-03-08 00:39:51 INFO  - Button 'tabBooks' :: Clicking
+2023-03-08 00:39:52 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-08 00:39:53 INFO  - Label 'lblBookName' :: Clicking
+2023-03-08 00:39:55 INFO  - Step 18 - Click READ action button on book details screen
+2023-03-08 00:39:56 INFO  - Button 'Read' :: Clicking
+2023-03-08 00:39:57 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-03-08 00:39:58 INFO  - context - NATIVE_APP
+2023-03-08 00:39:59 INFO  - context - NATIVE_APP
+2023-03-08 00:40:00 INFO  - context - NATIVE_APP
+2023-03-08 00:40:00 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-08 00:40:01 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-08 00:40:02 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.3.3.1" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>CHAPTER 1</title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="h10"><a id="a8"></a>CHAPTER 1</h1>
+<p class="p1">Crackling flame and the smell of smoke; for a moment Leicho thought she was at her mother’s hearth on a winter morning. Time to milk the sheep.</p>
+<p class="p1">No, the smoke smelled wrong. And her head hurt. <span class="t4">Everything </span>hurt. Leicho felt gritty rubble under her hands, and remembered. The transport had crashed.</p>
+<p class="p1">Terror dragged her up through the fog of unconsciousness, and she sat up as quickly as she dared, everything spinning around her. They had crashed. On a seed world. This was surely the HWA’s ultimate nightmare, for a <span class="t4">prison transport </span>to crash on a seed world.</p>
+<p class="p1">Her surroundings settled into a landscape of twisted metal, scattered fires against a night sky. It had been midday aboard the ship, which wasn’t helping her disorientation. The wrecked transport seemed somehow both larger and smaller than it ought to be, stretched out around her. Beyond it lay only dense blackness, no clues about the nature of this world. A few emergency lights glowed through gaping tears in the hull—one flickered out as she watched. The wrong-smelling fires were spreading.</p>
+<p class="p1"><span class="t4">Lord and Lady, is anyone else alive?</span></p>
+<p class="p1">Leicho felt her face, her head and arms, with trembling hands. Blood from the head injury soaked her short thatch of white hair, streamed down her face and neck. Everything hurt. A jagged piece of bulkhead had her pinned in place by the torso and right leg, but she didn’t think anything was broken. She had to get free before the fires got to her. She had to help the other survivors. If there were any…</p>
+<p class="p1">She shoved at the bulkhead pinning her down, and tried to twist out from under it. A mistake, she realized as the wreckage shifted beneath her; for a horrible moment she was falling, unable to keep from crying out, but then metal clanged hard against metal, and she stabilized again—suspended now over a vast chasm. She looked down into a ragged cross-section of the transport, corridors and crew quarters and cells, torn open like bread.</p>
+<p class="p1">A shower of sparks caught her eye on the other side of the chasm, briefly illuminating golden hair and a guard’s uniform. Reill! They’d been walking together to their duty station when this happened, hadn’t they? Her mind was still foggy…</p>
+<p class="p1">“Reill! Are you all right? Can you hear me? Reill, wake up! Can you help me?”</p>
+<p class="p1">More sparks, and Leicho’s breath caught. No, Reill couldn’t help her, and he wouldn’t be waking up. Not with his body folded and twisted around like that.</p>
+<p class="p1">“Reill,” she called again, helplessly, because he couldn’t just be gone that quickly, her first and best friend on the transport, he couldn’t just be <span class="t4">gone</span>.</p>
+<p class="p1">But of course he could. She closed her eyes, arms aching with the strain of holding herself up over the chasm, and whispered a prayer for the dead.</p>
+<p class="p1">She was interrupted by a sound of movement. A slithering, dragging sound, slow and unsteady. Another survivor!</p>
+<p class="p1">“Help me!” she cried, straining upward. “I’m pinned here, I don’t—”</p>
+<p class="p1">The words died in her throat as the survivor hauled himself into view—just a dark shape against the dark sky, but she knew him. Everyone on the ship knew this one.</p>
+<p class="p1">“Hello, Summer Blossom,” she said, keeping her voice calm. “I’m glad to see you’re okay. Can you help me get free?”</p>
+<p class="p1">The only reply was the rattle of leaves and seed-pods that passed as Summer Blossom’s laughter.</p>
+<p class="p1"><span class="t4">Lord and Lady, help your child, help me help me</span>—She struggled wildly against the weight that trapped her, heedless of further damage to her body, or the chance of falling to her death. Above her, the wide leaves and tri-part maw of Transport 989’s most dangerous inmate loomed black against foreign constellations. </p>
+<p class="p1">When vines snaked down the broken bulkhead and wrapped around Leicho’s body, she breathed deep and forced herself not to struggle. Summer Blossom was surely weakened, injured, or he would already have deployed his chemical ammunition. If she waited for an opportune moment, she might have a chance to get away.</p>
+<p class="p1">Vines wrapped around the wreckage, pulling it away enough to lift her free. Leicho held her breath. If there was any chance at all that Summer Blossom meant well, this would be the moment—</p>
+<p class="p1">He did not set her down. Instead, he opened the three flame-orange petals of his maw, and dangled her above it. The rattling seed pods formed something like a tune—the five-note song that denoted “lights out” for the prisoners.</p>
+<p class="p1">Leicho wrenched her arm free of the vine and drew her stinger, jabbing it into a mouth-petal at full power.</p>
+<p class="p1">Summer Blossom screamed, or the Green Ones’ equivalent of a scream—the hiss of air-pods clenching, a sudden flood of fear-pain-rage pheromone. Another stinger-jab numbed the vines clutching her, and Leicho dropped ten feet onto twisted metal. Something went wrong in her leg. She got up and ran anyway.</p>
+<p class="p1">The surface of the downed transport was a nightmare, broken and burning and shifting underfoot. She passed the bodies of two more prisoners, clearly dead. One of the cooks, but only part of her. There was no time to stop, not with Summer Blossom pursuing her. She could hear metal shrieking as the Green One tore wreckage out of his path, not far behind.</p>
+<p class="p1">She limped and stumbled, choking on smoke and pheromone, and kept the stinger clutched tight in her hand. It was a herding tool, really, not a weapon. It wouldn’t come near putting Summer Blossom down. She veered, trying to put flames between them—and felt the deck give way under her feet.</p>
+<p class="p1">She tumbled through darkness, rough edges and broken bits, debris falling in after her. She landed hard, stunned and breathless, wondering if she was dead.</p>
+<p class="p1">Apparently not, she thought when her lungs began to work again. Being dead wouldn’t hurt this much.</p>
+<p class="p1">She didn’t try to move at first, listening for sounds of pursuit, but all she heard was the drip and hiss of burst pipes, the crackle of flame—not as far away as she’d like. The debris had mostly caught on a crossbar a few feet above; a wonder she hadn’t broken on that herself. There was soil under her hands, she realized—deep, sucking mud, odd-smelling, the surface of a strange world. Carefully, she began to crawl.</p>
+<p class="p1">It took an age to win free of the wreckage, and after everything else, it was the mud that nearly killed her. She had to fight free of it anew with every movement, even as she clawed at it for purchase. The transport, she realized gradually, was sinking, tilting the surface of the mud, threatening to drag her down with it. Her right leg was no longer working at all.</p>
+<p class="p1">Transport 989 was dead, was a crushed drinking-can around her, burning and sinking into the mud. Her home of the last eight years, and near everyone on it, her fellow guards, her prisoners, the support staff…Once or twice she thought perhaps she heard voices, crying for help, but she couldn’t be sure over the roar of the flames. Perhaps it was better not to be sure.</p>
+<p class="p1">There was a road ahead—surely it was a road, surely on any world a section of narrow, flat land, too clean-edged to be natural, was a road. Would someone stop to help her? Would anyone even pass by, in the middle of the night as it seemed to be?</p>
+<p class="p1">She dragged herself into the road, where at least the mud couldn’t get her. It had just occurred to her to wonder what kind of vehicles were used on this world when a pair of bright lights came around the turn, blinding her. She raised a hand, half a plea and half a shield for her eyes. The vehicle belonging to the lights veered sharply away from her with a screaming noise, and came to a stop a few yards away.</p>
+<p class="p1">Her eyes weren’t focusing, she realized, as she watched a door open in the vehicle, and a humanoid figure step out. She would lose consciousness soon. “Help,” she tried to say, but her translator choked her with an error signal, no idea what language to use. <span class="t4">Lord and Lady, if my translator doesn’t work here</span>…</p>
+<p class="p1">The humanoid figure leaned over her, blurry and half-lit, speaking in a frightened tone. The translator strained and stuttered. Finally something pinged, and it began whispering information into her brain.</p>
+<p class="p1"><span class="t4">Planet: Earth/Di Qiu/La Tierra/Erde/Terre/Chikyu/Prithvi/Ulimwengu</span></p>
+<p class="p1"><span class="t4">Language: English</span></p>
+<p class="p1"><span class="t4">Translator database for Earth English updated: 56 years ago.</span></p>
+<p class="p1">She was in luck, to have such a recent update. Translator companies often didn’t update from seed worlds for centuries at a time; too much risk for too little reward.</p>
+<p class="p1">“Can you even hear me?” the man—she thought it was a man—was saying. He waved a hand in front of her face. “Are you all right?”</p>
+<p class="p1">“No,” she said, and lost consciousness.</p>
+<p class="p2">* * * *</p>
+<p class="p1">“Dad, can I get a henna kit? It would be so cool to have my own henna kit, then I could give myself tattoos all the time, for free, and I could practice on you, and maybe I could sell tattoos at school—”</p>
+<p class="p1">“No, Briana, you cannot start up a temporary tattoo parlor on the playground.”</p>
+<p class="p1">“But I am super responsible for my age! I heard you say so!”</p>
+<p class="p1">“Yes, but that age is still <span class="t4">eleven</span>. No go, Bree.” Nate chuckled at his daughter’s sulky expression, then turned his attention back to the road. This swampy stretch between Hilton Head and Bluffton didn’t support streetlamps—most of it would be underwater, come high tide—and the road twisted through thick clumps of trees, so it paid to turn on the brights and stay focused. At least there was no other traffic at this hour.</p>
+<p class="p1">Not that you’d know, from watching Briana, that it was nearly two in the morning. She was practically vibrating in her seat, still high on the energy of the convention. Her Princess Leia buns were falling and the white robe was scuffed and rumpled; Nate had abandoned his Vader suit in favor of jeans and a T-shirt, much to Briana’s displeasure. “I’m pretty sure you can peel that off now,” Nate said, nodding at the henna mockingjay Bree was still guarding jealously on her forearm.</p>
+<p class="p1">“The lady said to leave it overnight.”</p>
+<p class="p1">“It <span class="t4">is </span>overnight, Miss Bouncey Ball,” Nate muttered. “You didn’t get into the Red Bull again, did you?”</p>
+<p class="p1">“No, I’m just happy!” Briana put her feet up on the dash, wiggling her toes. “That was the best Con ever! We’re doing it again next year, right?”</p>
+<p class="p1">“That depends on funding, but hopefully.” Nate had been going to science fiction conventions for decades, but he’d never helped <span class="t4">run </span>one before. He had to admit it had been a blast. Chaotic and frustrating and way more complicated than advertised, but a blast. And it was nice to drive half an hour home afterward, rather than flying from Atlanta or—</p>
+<p class="p1">“What’s that?” Briana straightened, taking her feet off the dash.</p>
+<p class="p1">They had just rounded a corner, leaving a screen of trees behind, and instead of dark mudflat there was…some sort of wreck? Nate felt his mouth fall open. It was <span class="t4">huge</span>, easily the size of a multi-story building, and it was definitely on fire. What on <span class="t4">Earth—</span></p>
+<p class="p1">“Dad!”</p>
+<p class="p1">Nate saw it just as Briana pointed—a figure crawling into the road, covered in blood and throwing up a hand toward them. He jerked the steering wheel and slammed on the brakes.</p>
+<p class="p1">The car nearly went off the road before he got it to a stop, and for a second they both sat there, breathing hard. Nate’s seatbelt had tightened against his chest; he scrabbled to unlatch it.</p>
+<p class="p1">“You okay, Bree?” he said, and Briana nodded, eyes wide.</p>
+<p class="p1">“Dad, was that—that looked like something from <span class="t4">The Walking Dead</span>, Daddy, what was that?”</p>
+<p class="p1">“Someone hurt in that wreck. Whatever <span class="t4">that </span>is. You stay put.”</p>
+<p class="p1">“But—”</p>
+<p class="p1">“NO.” He gripped her chin to make her meet his eyes. “You stay in the car. Whatever’s going on out there, my little girl is not getting in the middle of it. Understand?”</p>
+<p class="p1">It was a measure of her fright that she nodded, and didn’t reach for her seatbelt as he got out of the car.</p>
+<p class="p1">Nate had not had a panic attack in almost ten years. It occurred to him now, as his gaze wandered across the burning wreckage of something the size of a cruise ship, that that streak could be broken.</p>
+<p class="p1"><span class="t4">Get a hold of yourself.</span></p>
+<p class="p1">He hurried to the bloody figure collapsed in the road. “Hey! Hey, buddy, I’m going to help you, okay? Can you tell me where you’re hurt? Can you tell me what happened?”</p>
+<p class="p1">The person—woman, he realized, tall and muscular with very short hair, but her face was definitely feminine—looked up at him with frantic, glassy eyes. She tried to speak but he couldn’t make out words.</p>
+<p class="p1">“Easy, easy, I’m going to help you.” The roar of fire from the wreck was surprisingly loud, competing for space with the gallop of his heart. “Don’t move, I’m going to call for help.” He reached for his phone, only to find an empty pocket. His phone was in the car, he remembered, with a dead battery; he swore under his breath. “All right. All right. Ma’am, can you even hear me?” He waved a hand in front of her face; she blinked, but her eyes didn’t track the movement. “Are you all right?”</p>
+<p class="p1">“No,” she croaked, and lowered her head to the pavement, eyes drifting shut.</p>
+<p class="p1">Nate raked hands through his hair, swearing steadily. There was no one around here for miles, they hadn’t even seen another car in ages. They had no phone. Moving her was probably not a great idea, but it beat leaving her in the middle of the road.</p>
+<p class="p1">He ran back to the car, where Briana had her nose pressed to the driver’s side window.</p>
+<p class="p1">“We’re taking her to the hospital,” he said. “Move the stuff out of the backseat.”</p>
+<p class="p1">“Is that an airplane?”</p>
+<p class="p1">“Just move the stuff!”</p>
+<p class="p1">While Briana heaved their suitcases into the trunk, Nate carefully gathered the unconscious woman into his arms—but he wasn’t a particularly large or muscular man, and he simply couldn’t lift her. He swore a little more under his breath, and eyed the flames of the wreckage, which were definitely picking up speed. They needed to get out of here. What if that thing exploded?</p>
+<p class="p1">“Bree, come get her feet!”</p>
+<p class="p1">Briana looked about five years old as they eased the injured woman into the backseat—buns fallen into mere pigtails, white robe swallowing her body, eyes swallowing her face. “Is she dead?”</p>
+<p class="p1">“No,” Nate said, though the idea sparked unease in his gut. She had lost consciousness rather suddenly. “Get in, buckle your—No, Briana, get in your seat!” She had crawled into the back with the injured woman.</p>
+<p class="p1">An explosion from the wreckage sent him stumbling against the car; flame mushroomed into the night sky. Without another word, he jumped into the driver’s seat and hit the gas.</p>
+<p class="p1">If he passed something strange in the roadside brush—some kind of enormous plant with long vines trailing out across the pavement—he hardly spared a glance for it as they sped away.</p>
+</body>
+</html>
+2023-03-08 00:40:02 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-08 00:40:02 INFO  - Step 20 - I return to previous screen from epub
+2023-03-08 00:40:03 INFO  - Button 'btnBack' :: Clicking
+2023-03-08 00:40:04 INFO  - Step 21 - Click READ action button on book details screen
+2023-03-08 00:40:06 INFO  - Button 'Read' :: Clicking
+2023-03-08 00:40:06 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-03-08 00:40:07 INFO  - context - NATIVE_APP
+2023-03-08 00:40:07 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-08 00:40:08 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-08 00:40:09 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.3.3.1" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>CHAPTER 1</title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="h10"><a id="a8"></a>CHAPTER 1</h1>
+<p class="p1">Crackling flame and the smell of smoke; for a moment Leicho thought she was at her mother’s hearth on a winter morning. Time to milk the sheep.</p>
+<p class="p1">No, the smoke smelled wrong. And her head hurt. <span class="t4">Everything </span>hurt. Leicho felt gritty rubble under her hands, and remembered. The transport had crashed.</p>
+<p class="p1">Terror dragged her up through the fog of unconsciousness, and she sat up as quickly as she dared, everything spinning around her. They had crashed. On a seed world. This was surely the HWA’s ultimate nightmare, for a <span class="t4">prison transport </span>to crash on a seed world.</p>
+<p class="p1">Her surroundings settled into a landscape of twisted metal, scattered fires against a night sky. It had been midday aboard the ship, which wasn’t helping her disorientation. The wrecked transport seemed somehow both larger and smaller than it ought to be, stretched out around her. Beyond it lay only dense blackness, no clues about the nature of this world. A few emergency lights glowed through gaping tears in the hull—one flickered out as she watched. The wrong-smelling fires were spreading.</p>
+<p class="p1"><span class="t4">Lord and Lady, is anyone else alive?</span></p>
+<p class="p1">Leicho felt her face, her head and arms, with trembling hands. Blood from the head injury soaked her short thatch of white hair, streamed down her face and neck. Everything hurt. A jagged piece of bulkhead had her pinned in place by the torso and right leg, but she didn’t think anything was broken. She had to get free before the fires got to her. She had to help the other survivors. If there were any…</p>
+<p class="p1">She shoved at the bulkhead pinning her down, and tried to twist out from under it. A mistake, she realized as the wreckage shifted beneath her; for a horrible moment she was falling, unable to keep from crying out, but then metal clanged hard against metal, and she stabilized again—suspended now over a vast chasm. She looked down into a ragged cross-section of the transport, corridors and crew quarters and cells, torn open like bread.</p>
+<p class="p1">A shower of sparks caught her eye on the other side of the chasm, briefly illuminating golden hair and a guard’s uniform. Reill! They’d been walking together to their duty station when this happened, hadn’t they? Her mind was still foggy…</p>
+<p class="p1">“Reill! Are you all right? Can you hear me? Reill, wake up! Can you help me?”</p>
+<p class="p1">More sparks, and Leicho’s breath caught. No, Reill couldn’t help her, and he wouldn’t be waking up. Not with his body folded and twisted around like that.</p>
+<p class="p1">“Reill,” she called again, helplessly, because he couldn’t just be gone that quickly, her first and best friend on the transport, he couldn’t just be <span class="t4">gone</span>.</p>
+<p class="p1">But of course he could. She closed her eyes, arms aching with the strain of holding herself up over the chasm, and whispered a prayer for the dead.</p>
+<p class="p1">She was interrupted by a sound of movement. A slithering, dragging sound, slow and unsteady. Another survivor!</p>
+<p class="p1">“Help me!” she cried, straining upward. “I’m pinned here, I don’t—”</p>
+<p class="p1">The words died in her throat as the survivor hauled himself into view—just a dark shape against the dark sky, but she knew him. Everyone on the ship knew this one.</p>
+<p class="p1">“Hello, Summer Blossom,” she said, keeping her voice calm. “I’m glad to see you’re okay. Can you help me get free?”</p>
+<p class="p1">The only reply was the rattle of leaves and seed-pods that passed as Summer Blossom’s laughter.</p>
+<p class="p1"><span class="t4">Lord and Lady, help your child, help me help me</span>—She struggled wildly against the weight that trapped her, heedless of further damage to her body, or the chance of falling to her death. Above her, the wide leaves and tri-part maw of Transport 989’s most dangerous inmate loomed black against foreign constellations. </p>
+<p class="p1">When vines snaked down the broken bulkhead and wrapped around Leicho’s body, she breathed deep and forced herself not to struggle. Summer Blossom was surely weakened, injured, or he would already have deployed his chemical ammunition. If she waited for an opportune moment, she might have a chance to get away.</p>
+<p class="p1">Vines wrapped around the wreckage, pulling it away enough to lift her free. Leicho held her breath. If there was any chance at all that Summer Blossom meant well, this would be the moment—</p>
+<p class="p1">He did not set her down. Instead, he opened the three flame-orange petals of his maw, and dangled her above it. The rattling seed pods formed something like a tune—the five-note song that denoted “lights out” for the prisoners.</p>
+<p class="p1">Leicho wrenched her arm free of the vine and drew her stinger, jabbing it into a mouth-petal at full power.</p>
+<p class="p1">Summer Blossom screamed, or the Green Ones’ equivalent of a scream—the hiss of air-pods clenching, a sudden flood of fear-pain-rage pheromone. Another stinger-jab numbed the vines clutching her, and Leicho dropped ten feet onto twisted metal. Something went wrong in her leg. She got up and ran anyway.</p>
+<p class="p1">The surface of the downed transport was a nightmare, broken and burning and shifting underfoot. She passed the bodies of two more prisoners, clearly dead. One of the cooks, but only part of her. There was no time to stop, not with Summer Blossom pursuing her. She could hear metal shrieking as the Green One tore wreckage out of his path, not far behind.</p>
+<p class="p1">She limped and stumbled, choking on smoke and pheromone, and kept the stinger clutched tight in her hand. It was a herding tool, really, not a weapon. It wouldn’t come near putting Summer Blossom down. She veered, trying to put flames between them—and felt the deck give way under her feet.</p>
+<p class="p1">She tumbled through darkness, rough edges and broken bits, debris falling in after her. She landed hard, stunned and breathless, wondering if she was dead.</p>
+<p class="p1">Apparently not, she thought when her lungs began to work again. Being dead wouldn’t hurt this much.</p>
+<p class="p1">She didn’t try to move at first, listening for sounds of pursuit, but all she heard was the drip and hiss of burst pipes, the crackle of flame—not as far away as she’d like. The debris had mostly caught on a crossbar a few feet above; a wonder she hadn’t broken on that herself. There was soil under her hands, she realized—deep, sucking mud, odd-smelling, the surface of a strange world. Carefully, she began to crawl.</p>
+<p class="p1">It took an age to win free of the wreckage, and after everything else, it was the mud that nearly killed her. She had to fight free of it anew with every movement, even as she clawed at it for purchase. The transport, she realized gradually, was sinking, tilting the surface of the mud, threatening to drag her down with it. Her right leg was no longer working at all.</p>
+<p class="p1">Transport 989 was dead, was a crushed drinking-can around her, burning and sinking into the mud. Her home of the last eight years, and near everyone on it, her fellow guards, her prisoners, the support staff…Once or twice she thought perhaps she heard voices, crying for help, but she couldn’t be sure over the roar of the flames. Perhaps it was better not to be sure.</p>
+<p class="p1">There was a road ahead—surely it was a road, surely on any world a section of narrow, flat land, too clean-edged to be natural, was a road. Would someone stop to help her? Would anyone even pass by, in the middle of the night as it seemed to be?</p>
+<p class="p1">She dragged herself into the road, where at least the mud couldn’t get her. It had just occurred to her to wonder what kind of vehicles were used on this world when a pair of bright lights came around the turn, blinding her. She raised a hand, half a plea and half a shield for her eyes. The vehicle belonging to the lights veered sharply away from her with a screaming noise, and came to a stop a few yards away.</p>
+<p class="p1">Her eyes weren’t focusing, she realized, as she watched a door open in the vehicle, and a humanoid figure step out. She would lose consciousness soon. “Help,” she tried to say, but her translator choked her with an error signal, no idea what language to use. <span class="t4">Lord and Lady, if my translator doesn’t work here</span>…</p>
+<p class="p1">The humanoid figure leaned over her, blurry and half-lit, speaking in a frightened tone. The translator strained and stuttered. Finally something pinged, and it began whispering information into her brain.</p>
+<p class="p1"><span class="t4">Planet: Earth/Di Qiu/La Tierra/Erde/Terre/Chikyu/Prithvi/Ulimwengu</span></p>
+<p class="p1"><span class="t4">Language: English</span></p>
+<p class="p1"><span class="t4">Translator database for Earth English updated: 56 years ago.</span></p>
+<p class="p1">She was in luck, to have such a recent update. Translator companies often didn’t update from seed worlds for centuries at a time; too much risk for too little reward.</p>
+<p class="p1">“Can you even hear me?” the man—she thought it was a man—was saying. He waved a hand in front of her face. “Are you all right?”</p>
+<p class="p1">“No,” she said, and lost consciousness.</p>
+<p class="p2">* * * *</p>
+<p class="p1">“Dad, can I get a henna kit? It would be so cool to have my own henna kit, then I could give myself tattoos all the time, for free, and I could practice on you, and maybe I could sell tattoos at school—”</p>
+<p class="p1">“No, Briana, you cannot start up a temporary tattoo parlor on the playground.”</p>
+<p class="p1">“But I am super responsible for my age! I heard you say so!”</p>
+<p class="p1">“Yes, but that age is still <span class="t4">eleven</span>. No go, Bree.” Nate chuckled at his daughter’s sulky expression, then turned his attention back to the road. This swampy stretch between Hilton Head and Bluffton didn’t support streetlamps—most of it would be underwater, come high tide—and the road twisted through thick clumps of trees, so it paid to turn on the brights and stay focused. At least there was no other traffic at this hour.</p>
+<p class="p1">Not that you’d know, from watching Briana, that it was nearly two in the morning. She was practically vibrating in her seat, still high on the energy of the convention. Her Princess Leia buns were falling and the white robe was scuffed and rumpled; Nate had abandoned his Vader suit in favor of jeans and a T-shirt, much to Briana’s displeasure. “I’m pretty sure you can peel that off now,” Nate said, nodding at the henna mockingjay Bree was still guarding jealously on her forearm.</p>
+<p class="p1">“The lady said to leave it overnight.”</p>
+<p class="p1">“It <span class="t4">is </span>overnight, Miss Bouncey Ball,” Nate muttered. “You didn’t get into the Red Bull again, did you?”</p>
+<p class="p1">“No, I’m just happy!” Briana put her feet up on the dash, wiggling her toes. “That was the best Con ever! We’re doing it again next year, right?”</p>
+<p class="p1">“That depends on funding, but hopefully.” Nate had been going to science fiction conventions for decades, but he’d never helped <span class="t4">run </span>one before. He had to admit it had been a blast. Chaotic and frustrating and way more complicated than advertised, but a blast. And it was nice to drive half an hour home afterward, rather than flying from Atlanta or—</p>
+<p class="p1">“What’s that?” Briana straightened, taking her feet off the dash.</p>
+<p class="p1">They had just rounded a corner, leaving a screen of trees behind, and instead of dark mudflat there was…some sort of wreck? Nate felt his mouth fall open. It was <span class="t4">huge</span>, easily the size of a multi-story building, and it was definitely on fire. What on <span class="t4">Earth—</span></p>
+<p class="p1">“Dad!”</p>
+<p class="p1">Nate saw it just as Briana pointed—a figure crawling into the road, covered in blood and throwing up a hand toward them. He jerked the steering wheel and slammed on the brakes.</p>
+<p class="p1">The car nearly went off the road before he got it to a stop, and for a second they both sat there, breathing hard. Nate’s seatbelt had tightened against his chest; he scrabbled to unlatch it.</p>
+<p class="p1">“You okay, Bree?” he said, and Briana nodded, eyes wide.</p>
+<p class="p1">“Dad, was that—that looked like something from <span class="t4">The Walking Dead</span>, Daddy, what was that?”</p>
+<p class="p1">“Someone hurt in that wreck. Whatever <span class="t4">that </span>is. You stay put.”</p>
+<p class="p1">“But—”</p>
+<p class="p1">“NO.” He gripped her chin to make her meet his eyes. “You stay in the car. Whatever’s going on out there, my little girl is not getting in the middle of it. Understand?”</p>
+<p class="p1">It was a measure of her fright that she nodded, and didn’t reach for her seatbelt as he got out of the car.</p>
+<p class="p1">Nate had not had a panic attack in almost ten years. It occurred to him now, as his gaze wandered across the burning wreckage of something the size of a cruise ship, that that streak could be broken.</p>
+<p class="p1"><span class="t4">Get a hold of yourself.</span></p>
+<p class="p1">He hurried to the bloody figure collapsed in the road. “Hey! Hey, buddy, I’m going to help you, okay? Can you tell me where you’re hurt? Can you tell me what happened?”</p>
+<p class="p1">The person—woman, he realized, tall and muscular with very short hair, but her face was definitely feminine—looked up at him with frantic, glassy eyes. She tried to speak but he couldn’t make out words.</p>
+<p class="p1">“Easy, easy, I’m going to help you.” The roar of fire from the wreck was surprisingly loud, competing for space with the gallop of his heart. “Don’t move, I’m going to call for help.” He reached for his phone, only to find an empty pocket. His phone was in the car, he remembered, with a dead battery; he swore under his breath. “All right. All right. Ma’am, can you even hear me?” He waved a hand in front of her face; she blinked, but her eyes didn’t track the movement. “Are you all right?”</p>
+<p class="p1">“No,” she croaked, and lowered her head to the pavement, eyes drifting shut.</p>
+<p class="p1">Nate raked hands through his hair, swearing steadily. There was no one around here for miles, they hadn’t even seen another car in ages. They had no phone. Moving her was probably not a great idea, but it beat leaving her in the middle of the road.</p>
+<p class="p1">He ran back to the car, where Briana had her nose pressed to the driver’s side window.</p>
+<p class="p1">“We’re taking her to the hospital,” he said. “Move the stuff out of the backseat.”</p>
+<p class="p1">“Is that an airplane?”</p>
+<p class="p1">“Just move the stuff!”</p>
+<p class="p1">While Briana heaved their suitcases into the trunk, Nate carefully gathered the unconscious woman into his arms—but he wasn’t a particularly large or muscular man, and he simply couldn’t lift her. He swore a little more under his breath, and eyed the flames of the wreckage, which were definitely picking up speed. They needed to get out of here. What if that thing exploded?</p>
+<p class="p1">“Bree, come get her feet!”</p>
+<p class="p1">Briana looked about five years old as they eased the injured woman into the backseat—buns fallen into mere pigtails, white robe swallowing her body, eyes swallowing her face. “Is she dead?”</p>
+<p class="p1">“No,” Nate said, though the idea sparked unease in his gut. She had lost consciousness rather suddenly. “Get in, buckle your—No, Briana, get in your seat!” She had crawled into the back with the injured woman.</p>
+<p class="p1">An explosion from the wreckage sent him stumbling against the car; flame mushroomed into the night sky. Without another word, he jumped into the driver’s seat and hit the gas.</p>
+<p class="p1">If he passed something strange in the roadside brush—some kind of enormous plant with long vines trailing out across the pavement—he hardly spared a glance for it as they sped away.</p>
+</body>
+</html>
+2023-03-08 00:40:09 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-08 00:40:09 INFO  - Step 23 - I save font size as 'fontSize'
+2023-03-08 00:40:10 INFO  - context - NATIVE_APP
+2023-03-08 00:40:10 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-08 00:40:11 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-08 00:40:11 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.3.3.1" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>CHAPTER 1</title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="h10"><a id="a8"></a>CHAPTER 1</h1>
+<p class="p1">Crackling flame and the smell of smoke; for a moment Leicho thought she was at her mother’s hearth on a winter morning. Time to milk the sheep.</p>
+<p class="p1">No, the smoke smelled wrong. And her head hurt. <span class="t4">Everything </span>hurt. Leicho felt gritty rubble under her hands, and remembered. The transport had crashed.</p>
+<p class="p1">Terror dragged her up through the fog of unconsciousness, and she sat up as quickly as she dared, everything spinning around her. They had crashed. On a seed world. This was surely the HWA’s ultimate nightmare, for a <span class="t4">prison transport </span>to crash on a seed world.</p>
+<p class="p1">Her surroundings settled into a landscape of twisted metal, scattered fires against a night sky. It had been midday aboard the ship, which wasn’t helping her disorientation. The wrecked transport seemed somehow both larger and smaller than it ought to be, stretched out around her. Beyond it lay only dense blackness, no clues about the nature of this world. A few emergency lights glowed through gaping tears in the hull—one flickered out as she watched. The wrong-smelling fires were spreading.</p>
+<p class="p1"><span class="t4">Lord and Lady, is anyone else alive?</span></p>
+<p class="p1">Leicho felt her face, her head and arms, with trembling hands. Blood from the head injury soaked her short thatch of white hair, streamed down her face and neck. Everything hurt. A jagged piece of bulkhead had her pinned in place by the torso and right leg, but she didn’t think anything was broken. She had to get free before the fires got to her. She had to help the other survivors. If there were any…</p>
+<p class="p1">She shoved at the bulkhead pinning her down, and tried to twist out from under it. A mistake, she realized as the wreckage shifted beneath her; for a horrible moment she was falling, unable to keep from crying out, but then metal clanged hard against metal, and she stabilized again—suspended now over a vast chasm. She looked down into a ragged cross-section of the transport, corridors and crew quarters and cells, torn open like bread.</p>
+<p class="p1">A shower of sparks caught her eye on the other side of the chasm, briefly illuminating golden hair and a guard’s uniform. Reill! They’d been walking together to their duty station when this happened, hadn’t they? Her mind was still foggy…</p>
+<p class="p1">“Reill! Are you all right? Can you hear me? Reill, wake up! Can you help me?”</p>
+<p class="p1">More sparks, and Leicho’s breath caught. No, Reill couldn’t help her, and he wouldn’t be waking up. Not with his body folded and twisted around like that.</p>
+<p class="p1">“Reill,” she called again, helplessly, because he couldn’t just be gone that quickly, her first and best friend on the transport, he couldn’t just be <span class="t4">gone</span>.</p>
+<p class="p1">But of course he could. She closed her eyes, arms aching with the strain of holding herself up over the chasm, and whispered a prayer for the dead.</p>
+<p class="p1">She was interrupted by a sound of movement. A slithering, dragging sound, slow and unsteady. Another survivor!</p>
+<p class="p1">“Help me!” she cried, straining upward. “I’m pinned here, I don’t—”</p>
+<p class="p1">The words died in her throat as the survivor hauled himself into view—just a dark shape against the dark sky, but she knew him. Everyone on the ship knew this one.</p>
+<p class="p1">“Hello, Summer Blossom,” she said, keeping her voice calm. “I’m glad to see you’re okay. Can you help me get free?”</p>
+<p class="p1">The only reply was the rattle of leaves and seed-pods that passed as Summer Blossom’s laughter.</p>
+<p class="p1"><span class="t4">Lord and Lady, help your child, help me help me</span>—She struggled wildly against the weight that trapped her, heedless of further damage to her body, or the chance of falling to her death. Above her, the wide leaves and tri-part maw of Transport 989’s most dangerous inmate loomed black against foreign constellations. </p>
+<p class="p1">When vines snaked down the broken bulkhead and wrapped around Leicho’s body, she breathed deep and forced herself not to struggle. Summer Blossom was surely weakened, injured, or he would already have deployed his chemical ammunition. If she waited for an opportune moment, she might have a chance to get away.</p>
+<p class="p1">Vines wrapped around the wreckage, pulling it away enough to lift her free. Leicho held her breath. If there was any chance at all that Summer Blossom meant well, this would be the moment—</p>
+<p class="p1">He did not set her down. Instead, he opened the three flame-orange petals of his maw, and dangled her above it. The rattling seed pods formed something like a tune—the five-note song that denoted “lights out” for the prisoners.</p>
+<p class="p1">Leicho wrenched her arm free of the vine and drew her stinger, jabbing it into a mouth-petal at full power.</p>
+<p class="p1">Summer Blossom screamed, or the Green Ones’ equivalent of a scream—the hiss of air-pods clenching, a sudden flood of fear-pain-rage pheromone. Another stinger-jab numbed the vines clutching her, and Leicho dropped ten feet onto twisted metal. Something went wrong in her leg. She got up and ran anyway.</p>
+<p class="p1">The surface of the downed transport was a nightmare, broken and burning and shifting underfoot. She passed the bodies of two more prisoners, clearly dead. One of the cooks, but only part of her. There was no time to stop, not with Summer Blossom pursuing her. She could hear metal shrieking as the Green One tore wreckage out of his path, not far behind.</p>
+<p class="p1">She limped and stumbled, choking on smoke and pheromone, and kept the stinger clutched tight in her hand. It was a herding tool, really, not a weapon. It wouldn’t come near putting Summer Blossom down. She veered, trying to put flames between them—and felt the deck give way under her feet.</p>
+<p class="p1">She tumbled through darkness, rough edges and broken bits, debris falling in after her. She landed hard, stunned and breathless, wondering if she was dead.</p>
+<p class="p1">Apparently not, she thought when her lungs began to work again. Being dead wouldn’t hurt this much.</p>
+<p class="p1">She didn’t try to move at first, listening for sounds of pursuit, but all she heard was the drip and hiss of burst pipes, the crackle of flame—not as far away as she’d like. The debris had mostly caught on a crossbar a few feet above; a wonder she hadn’t broken on that herself. There was soil under her hands, she realized—deep, sucking mud, odd-smelling, the surface of a strange world. Carefully, she began to crawl.</p>
+<p class="p1">It took an age to win free of the wreckage, and after everything else, it was the mud that nearly killed her. She had to fight free of it anew with every movement, even as she clawed at it for purchase. The transport, she realized gradually, was sinking, tilting the surface of the mud, threatening to drag her down with it. Her right leg was no longer working at all.</p>
+<p class="p1">Transport 989 was dead, was a crushed drinking-can around her, burning and sinking into the mud. Her home of the last eight years, and near everyone on it, her fellow guards, her prisoners, the support staff…Once or twice she thought perhaps she heard voices, crying for help, but she couldn’t be sure over the roar of the flames. Perhaps it was better not to be sure.</p>
+<p class="p1">There was a road ahead—surely it was a road, surely on any world a section of narrow, flat land, too clean-edged to be natural, was a road. Would someone stop to help her? Would anyone even pass by, in the middle of the night as it seemed to be?</p>
+<p class="p1">She dragged herself into the road, where at least the mud couldn’t get her. It had just occurred to her to wonder what kind of vehicles were used on this world when a pair of bright lights came around the turn, blinding her. She raised a hand, half a plea and half a shield for her eyes. The vehicle belonging to the lights veered sharply away from her with a screaming noise, and came to a stop a few yards away.</p>
+<p class="p1">Her eyes weren’t focusing, she realized, as she watched a door open in the vehicle, and a humanoid figure step out. She would lose consciousness soon. “Help,” she tried to say, but her translator choked her with an error signal, no idea what language to use. <span class="t4">Lord and Lady, if my translator doesn’t work here</span>…</p>
+<p class="p1">The humanoid figure leaned over her, blurry and half-lit, speaking in a frightened tone. The translator strained and stuttered. Finally something pinged, and it began whispering information into her brain.</p>
+<p class="p1"><span class="t4">Planet: Earth/Di Qiu/La Tierra/Erde/Terre/Chikyu/Prithvi/Ulimwengu</span></p>
+<p class="p1"><span class="t4">Language: English</span></p>
+<p class="p1"><span class="t4">Translator database for Earth English updated: 56 years ago.</span></p>
+<p class="p1">She was in luck, to have such a recent update. Translator companies often didn’t update from seed worlds for centuries at a time; too much risk for too little reward.</p>
+<p class="p1">“Can you even hear me?” the man—she thought it was a man—was saying. He waved a hand in front of her face. “Are you all right?”</p>
+<p class="p1">“No,” she said, and lost consciousness.</p>
+<p class="p2">* * * *</p>
+<p class="p1">“Dad, can I get a henna kit? It would be so cool to have my own henna kit, then I could give myself tattoos all the time, for free, and I could practice on you, and maybe I could sell tattoos at school—”</p>
+<p class="p1">“No, Briana, you cannot start up a temporary tattoo parlor on the playground.”</p>
+<p class="p1">“But I am super responsible for my age! I heard you say so!”</p>
+<p class="p1">“Yes, but that age is still <span class="t4">eleven</span>. No go, Bree.” Nate chuckled at his daughter’s sulky expression, then turned his attention back to the road. This swampy stretch between Hilton Head and Bluffton didn’t support streetlamps—most of it would be underwater, come high tide—and the road twisted through thick clumps of trees, so it paid to turn on the brights and stay focused. At least there was no other traffic at this hour.</p>
+<p class="p1">Not that you’d know, from watching Briana, that it was nearly two in the morning. She was practically vibrating in her seat, still high on the energy of the convention. Her Princess Leia buns were falling and the white robe was scuffed and rumpled; Nate had abandoned his Vader suit in favor of jeans and a T-shirt, much to Briana’s displeasure. “I’m pretty sure you can peel that off now,” Nate said, nodding at the henna mockingjay Bree was still guarding jealously on her forearm.</p>
+<p class="p1">“The lady said to leave it overnight.”</p>
+<p class="p1">“It <span class="t4">is </span>overnight, Miss Bouncey Ball,” Nate muttered. “You didn’t get into the Red Bull again, did you?”</p>
+<p class="p1">“No, I’m just happy!” Briana put her feet up on the dash, wiggling her toes. “That was the best Con ever! We’re doing it again next year, right?”</p>
+<p class="p1">“That depends on funding, but hopefully.” Nate had been going to science fiction conventions for decades, but he’d never helped <span class="t4">run </span>one before. He had to admit it had been a blast. Chaotic and frustrating and way more complicated than advertised, but a blast. And it was nice to drive half an hour home afterward, rather than flying from Atlanta or—</p>
+<p class="p1">“What’s that?” Briana straightened, taking her feet off the dash.</p>
+<p class="p1">They had just rounded a corner, leaving a screen of trees behind, and instead of dark mudflat there was…some sort of wreck? Nate felt his mouth fall open. It was <span class="t4">huge</span>, easily the size of a multi-story building, and it was definitely on fire. What on <span class="t4">Earth—</span></p>
+<p class="p1">“Dad!”</p>
+<p class="p1">Nate saw it just as Briana pointed—a figure crawling into the road, covered in blood and throwing up a hand toward them. He jerked the steering wheel and slammed on the brakes.</p>
+<p class="p1">The car nearly went off the road before he got it to a stop, and for a second they both sat there, breathing hard. Nate’s seatbelt had tightened against his chest; he scrabbled to unlatch it.</p>
+<p class="p1">“You okay, Bree?” he said, and Briana nodded, eyes wide.</p>
+<p class="p1">“Dad, was that—that looked like something from <span class="t4">The Walking Dead</span>, Daddy, what was that?”</p>
+<p class="p1">“Someone hurt in that wreck. Whatever <span class="t4">that </span>is. You stay put.”</p>
+<p class="p1">“But—”</p>
+<p class="p1">“NO.” He gripped her chin to make her meet his eyes. “You stay in the car. Whatever’s going on out there, my little girl is not getting in the middle of it. Understand?”</p>
+<p class="p1">It was a measure of her fright that she nodded, and didn’t reach for her seatbelt as he got out of the car.</p>
+<p class="p1">Nate had not had a panic attack in almost ten years. It occurred to him now, as his gaze wandered across the burning wreckage of something the size of a cruise ship, that that streak could be broken.</p>
+<p class="p1"><span class="t4">Get a hold of yourself.</span></p>
+<p class="p1">He hurried to the bloody figure collapsed in the road. “Hey! Hey, buddy, I’m going to help you, okay? Can you tell me where you’re hurt? Can you tell me what happened?”</p>
+<p class="p1">The person—woman, he realized, tall and muscular with very short hair, but her face was definitely feminine—looked up at him with frantic, glassy eyes. She tried to speak but he couldn’t make out words.</p>
+<p class="p1">“Easy, easy, I’m going to help you.” The roar of fire from the wreck was surprisingly loud, competing for space with the gallop of his heart. “Don’t move, I’m going to call for help.” He reached for his phone, only to find an empty pocket. His phone was in the car, he remembered, with a dead battery; he swore under his breath. “All right. All right. Ma’am, can you even hear me?” He waved a hand in front of her face; she blinked, but her eyes didn’t track the movement. “Are you all right?”</p>
+<p class="p1">“No,” she croaked, and lowered her head to the pavement, eyes drifting shut.</p>
+<p class="p1">Nate raked hands through his hair, swearing steadily. There was no one around here for miles, they hadn’t even seen another car in ages. They had no phone. Moving her was probably not a great idea, but it beat leaving her in the middle of the road.</p>
+<p class="p1">He ran back to the car, where Briana had her nose pressed to the driver’s side window.</p>
+<p class="p1">“We’re taking her to the hospital,” he said. “Move the stuff out of the backseat.”</p>
+<p class="p1">“Is that an airplane?”</p>
+<p class="p1">“Just move the stuff!”</p>
+<p class="p1">While Briana heaved their suitcases into the trunk, Nate carefully gathered the unconscious woman into his arms—but he wasn’t a particularly large or muscular man, and he simply couldn’t lift her. He swore a little more under his breath, and eyed the flames of the wreckage, which were definitely picking up speed. They needed to get out of here. What if that thing exploded?</p>
+<p class="p1">“Bree, come get her feet!”</p>
+<p class="p1">Briana looked about five years old as they eased the injured woman into the backseat—buns fallen into mere pigtails, white robe swallowing her body, eyes swallowing her face. “Is she dead?”</p>
+<p class="p1">“No,” Nate said, though the idea sparked unease in his gut. She had lost consciousness rather suddenly. “Get in, buckle your—No, Briana, get in your seat!” She had crawled into the back with the injured woman.</p>
+<p class="p1">An explosion from the wreckage sent him stumbling against the car; flame mushroomed into the night sky. Without another word, he jumped into the driver’s seat and hit the gas.</p>
+<p class="p1">If he passed something strange in the roadside brush—some kind of enormous plant with long vines trailing out across the pavement—he hardly spared a glance for it as they sped away.</p>
+</body>
+</html>
+2023-03-08 00:40:11 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-08 00:40:12 INFO  - Step 24 - I open font settings
+2023-03-08 00:40:13 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-08 00:40:14 INFO  - Step 25 - I DECREASE_FONT of text
+2023-03-08 00:40:14 INFO  - Button 'setTextSmaller' :: Clicking
+2023-03-08 00:40:15 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-03-08 00:40:15 INFO  - context - NATIVE_APP
+2023-03-08 00:40:15 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-08 00:40:16 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-08 00:40:17 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="Generator" content="Atlantis Word Processor 3.3.3.1" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>CHAPTER 1</title>
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="h10"><a id="a8"></a>CHAPTER 1</h1>
+<p class="p1">Crackling flame and the smell of smoke; for a moment Leicho thought she was at her mother’s hearth on a winter morning. Time to milk the sheep.</p>
+<p class="p1">No, the smoke smelled wrong. And her head hurt. <span class="t4">Everything </span>hurt. Leicho felt gritty rubble under her hands, and remembered. The transport had crashed.</p>
+<p class="p1">Terror dragged her up through the fog of unconsciousness, and she sat up as quickly as she dared, everything spinning around her. They had crashed. On a seed world. This was surely the HWA’s ultimate nightmare, for a <span class="t4">prison transport </span>to crash on a seed world.</p>
+<p class="p1">Her surroundings settled into a landscape of twisted metal, scattered fires against a night sky. It had been midday aboard the ship, which wasn’t helping her disorientation. The wrecked transport seemed somehow both larger and smaller than it ought to be, stretched out around her. Beyond it lay only dense blackness, no clues about the nature of this world. A few emergency lights glowed through gaping tears in the hull—one flickered out as she watched. The wrong-smelling fires were spreading.</p>
+<p class="p1"><span class="t4">Lord and Lady, is anyone else alive?</span></p>
+<p class="p1">Leicho felt her face, her head and arms, with trembling hands. Blood from the head injury soaked her short thatch of white hair, streamed down her face and neck. Everything hurt. A jagged piece of bulkhead had her pinned in place by the torso and right leg, but she didn’t think anything was broken. She had to get free before the fires got to her. She had to help the other survivors. If there were any…</p>
+<p class="p1">She shoved at the bulkhead pinning her down, and tried to twist out from under it. A mistake, she realized as the wreckage shifted beneath her; for a horrible moment she was falling, unable to keep from crying out, but then metal clanged hard against metal, and she stabilized again—suspended now over a vast chasm. She looked down into a ragged cross-section of the transport, corridors and crew quarters and cells, torn open like bread.</p>
+<p class="p1">A shower of sparks caught her eye on the other side of the chasm, briefly illuminating golden hair and a guard’s uniform. Reill! They’d been walking together to their duty station when this happened, hadn’t they? Her mind was still foggy…</p>
+<p class="p1">“Reill! Are you all right? Can you hear me? Reill, wake up! Can you help me?”</p>
+<p class="p1">More sparks, and Leicho’s breath caught. No, Reill couldn’t help her, and he wouldn’t be waking up. Not with his body folded and twisted around like that.</p>
+<p class="p1">“Reill,” she called again, helplessly, because he couldn’t just be gone that quickly, her first and best friend on the transport, he couldn’t just be <span class="t4">gone</span>.</p>
+<p class="p1">But of course he could. She closed her eyes, arms aching with the strain of holding herself up over the chasm, and whispered a prayer for the dead.</p>
+<p class="p1">She was interrupted by a sound of movement. A slithering, dragging sound, slow and unsteady. Another survivor!</p>
+<p class="p1">“Help me!” she cried, straining upward. “I’m pinned here, I don’t—”</p>
+<p class="p1">The words died in her throat as the survivor hauled himself into view—just a dark shape against the dark sky, but she knew him. Everyone on the ship knew this one.</p>
+<p class="p1">“Hello, Summer Blossom,” she said, keeping her voice calm. “I’m glad to see you’re okay. Can you help me get free?”</p>
+<p class="p1">The only reply was the rattle of leaves and seed-pods that passed as Summer Blossom’s laughter.</p>
+<p class="p1"><span class="t4">Lord and Lady, help your child, help me help me</span>—She struggled wildly against the weight that trapped her, heedless of further damage to her body, or the chance of falling to her death. Above her, the wide leaves and tri-part maw of Transport 989’s most dangerous inmate loomed black against foreign constellations. </p>
+<p class="p1">When vines snaked down the broken bulkhead and wrapped around Leicho’s body, she breathed deep and forced herself not to struggle. Summer Blossom was surely weakened, injured, or he would already have deployed his chemical ammunition. If she waited for an opportune moment, she might have a chance to get away.</p>
+<p class="p1">Vines wrapped around the wreckage, pulling it away enough to lift her free. Leicho held her breath. If there was any chance at all that Summer Blossom meant well, this would be the moment—</p>
+<p class="p1">He did not set her down. Instead, he opened the three flame-orange petals of his maw, and dangled her above it. The rattling seed pods formed something like a tune—the five-note song that denoted “lights out” for the prisoners.</p>
+<p class="p1">Leicho wrenched her arm free of the vine and drew her stinger, jabbing it into a mouth-petal at full power.</p>
+<p class="p1">Summer Blossom screamed, or the Green Ones’ equivalent of a scream—the hiss of air-pods clenching, a sudden flood of fear-pain-rage pheromone. Another stinger-jab numbed the vines clutching her, and Leicho dropped ten feet onto twisted metal. Something went wrong in her leg. She got up and ran anyway.</p>
+<p class="p1">The surface of the downed transport was a nightmare, broken and burning and shifting underfoot. She passed the bodies of two more prisoners, clearly dead. One of the cooks, but only part of her. There was no time to stop, not with Summer Blossom pursuing her. She could hear metal shrieking as the Green One tore wreckage out of his path, not far behind.</p>
+<p class="p1">She limped and stumbled, choking on smoke and pheromone, and kept the stinger clutched tight in her hand. It was a herding tool, really, not a weapon. It wouldn’t come near putting Summer Blossom down. She veered, trying to put flames between them—and felt the deck give way under her feet.</p>
+<p class="p1">She tumbled through darkness, rough edges and broken bits, debris falling in after her. She landed hard, stunned and breathless, wondering if she was dead.</p>
+<p class="p1">Apparently not, she thought when her lungs began to work again. Being dead wouldn’t hurt this much.</p>
+<p class="p1">She didn’t try to move at first, listening for sounds of pursuit, but all she heard was the drip and hiss of burst pipes, the crackle of flame—not as far away as she’d like. The debris had mostly caught on a crossbar a few feet above; a wonder she hadn’t broken on that herself. There was soil under her hands, she realized—deep, sucking mud, odd-smelling, the surface of a strange world. Carefully, she began to crawl.</p>
+<p class="p1">It took an age to win free of the wreckage, and after everything else, it was the mud that nearly killed her. She had to fight free of it anew with every movement, even as she clawed at it for purchase. The transport, she realized gradually, was sinking, tilting the surface of the mud, threatening to drag her down with it. Her right leg was no longer working at all.</p>
+<p class="p1">Transport 989 was dead, was a crushed drinking-can around her, burning and sinking into the mud. Her home of the last eight years, and near everyone on it, her fellow guards, her prisoners, the support staff…Once or twice she thought perhaps she heard voices, crying for help, but she couldn’t be sure over the roar of the flames. Perhaps it was better not to be sure.</p>
+<p class="p1">There was a road ahead—surely it was a road, surely on any world a section of narrow, flat land, too clean-edged to be natural, was a road. Would someone stop to help her? Would anyone even pass by, in the middle of the night as it seemed to be?</p>
+<p class="p1">She dragged herself into the road, where at least the mud couldn’t get her. It had just occurred to her to wonder what kind of vehicles were used on this world when a pair of bright lights came around the turn, blinding her. She raised a hand, half a plea and half a shield for her eyes. The vehicle belonging to the lights veered sharply away from her with a screaming noise, and came to a stop a few yards away.</p>
+<p class="p1">Her eyes weren’t focusing, she realized, as she watched a door open in the vehicle, and a humanoid figure step out. She would lose consciousness soon. “Help,” she tried to say, but her translator choked her with an error signal, no idea what language to use. <span class="t4">Lord and Lady, if my translator doesn’t work here</span>…</p>
+<p class="p1">The humanoid figure leaned over her, blurry and half-lit, speaking in a frightened tone. The translator strained and stuttered. Finally something pinged, and it began whispering information into her brain.</p>
+<p class="p1"><span class="t4">Planet: Earth/Di Qiu/La Tierra/Erde/Terre/Chikyu/Prithvi/Ulimwengu</span></p>
+<p class="p1"><span class="t4">Language: English</span></p>
+<p class="p1"><span class="t4">Translator database for Earth English updated: 56 years ago.</span></p>
+<p class="p1">She was in luck, to have such a recent update. Translator companies often didn’t update from seed worlds for centuries at a time; too much risk for too little reward.</p>
+<p class="p1">“Can you even hear me?” the man—she thought it was a man—was saying. He waved a hand in front of her face. “Are you all right?”</p>
+<p class="p1">“No,” she said, and lost consciousness.</p>
+<p class="p2">* * * *</p>
+<p class="p1">“Dad, can I get a henna kit? It would be so cool to have my own henna kit, then I could give myself tattoos all the time, for free, and I could practice on you, and maybe I could sell tattoos at school—”</p>
+<p class="p1">“No, Briana, you cannot start up a temporary tattoo parlor on the playground.”</p>
+<p class="p1">“But I am super responsible for my age! I heard you say so!”</p>
+<p class="p1">“Yes, but that age is still <span class="t4">eleven</span>. No go, Bree.” Nate chuckled at his daughter’s sulky expression, then turned his attention back to the road. This swampy stretch between Hilton Head and Bluffton didn’t support streetlamps—most of it would be underwater, come high tide—and the road twisted through thick clumps of trees, so it paid to turn on the brights and stay focused. At least there was no other traffic at this hour.</p>
+<p class="p1">Not that you’d know, from watching Briana, that it was nearly two in the morning. She was practically vibrating in her seat, still high on the energy of the convention. Her Princess Leia buns were falling and the white robe was scuffed and rumpled; Nate had abandoned his Vader suit in favor of jeans and a T-shirt, much to Briana’s displeasure. “I’m pretty sure you can peel that off now,” Nate said, nodding at the henna mockingjay Bree was still guarding jealously on her forearm.</p>
+<p class="p1">“The lady said to leave it overnight.”</p>
+<p class="p1">“It <span class="t4">is </span>overnight, Miss Bouncey Ball,” Nate muttered. “You didn’t get into the Red Bull again, did you?”</p>
+<p class="p1">“No, I’m just happy!” Briana put her feet up on the dash, wiggling her toes. “That was the best Con ever! We’re doing it again next year, right?”</p>
+<p class="p1">“That depends on funding, but hopefully.” Nate had been going to science fiction conventions for decades, but he’d never helped <span class="t4">run </span>one before. He had to admit it had been a blast. Chaotic and frustrating and way more complicated than advertised, but a blast. And it was nice to drive half an hour home afterward, rather than flying from Atlanta or—</p>
+<p class="p1">“What’s that?” Briana straightened, taking her feet off the dash.</p>
+<p class="p1">They had just rounded a corner, leaving a screen of trees behind, and instead of dark mudflat there was…some sort of wreck? Nate felt his mouth fall open. It was <span class="t4">huge</span>, easily the size of a multi-story building, and it was definitely on fire. What on <span class="t4">Earth—</span></p>
+<p class="p1">“Dad!”</p>
+<p class="p1">Nate saw it just as Briana pointed—a figure crawling into the road, covered in blood and throwing up a hand toward them. He jerked the steering wheel and slammed on the brakes.</p>
+<p class="p1">The car nearly went off the road before he got it to a stop, and for a second they both sat there, breathing hard. Nate’s seatbelt had tightened against his chest; he scrabbled to unlatch it.</p>
+<p class="p1">“You okay, Bree?” he said, and Briana nodded, eyes wide.</p>
+<p class="p1">“Dad, was that—that looked like something from <span class="t4">The Walking Dead</span>, Daddy, what was that?”</p>
+<p class="p1">“Someone hurt in that wreck. Whatever <span class="t4">that </span>is. You stay put.”</p>
+<p class="p1">“But—”</p>
+<p class="p1">“NO.” He gripped her chin to make her meet his eyes. “You stay in the car. Whatever’s going on out there, my little girl is not getting in the middle of it. Understand?”</p>
+<p class="p1">It was a measure of her fright that she nodded, and didn’t reach for her seatbelt as he got out of the car.</p>
+<p class="p1">Nate had not had a panic attack in almost ten years. It occurred to him now, as his gaze wandered across the burning wreckage of something the size of a cruise ship, that that streak could be broken.</p>
+<p class="p1"><span class="t4">Get a hold of yourself.</span></p>
+<p class="p1">He hurried to the bloody figure collapsed in the road. “Hey! Hey, buddy, I’m going to help you, okay? Can you tell me where you’re hurt? Can you tell me what happened?”</p>
+<p class="p1">The person—woman, he realized, tall and muscular with very short hair, but her face was definitely feminine—looked up at him with frantic, glassy eyes. She tried to speak but he couldn’t make out words.</p>
+<p class="p1">“Easy, easy, I’m going to help you.” The roar of fire from the wreck was surprisingly loud, competing for space with the gallop of his heart. “Don’t move, I’m going to call for help.” He reached for his phone, only to find an empty pocket. His phone was in the car, he remembered, with a dead battery; he swore under his breath. “All right. All right. Ma’am, can you even hear me?” He waved a hand in front of her face; she blinked, but her eyes didn’t track the movement. “Are you all right?”</p>
+<p class="p1">“No,” she croaked, and lowered her head to the pavement, eyes drifting shut.</p>
+<p class="p1">Nate raked hands through his hair, swearing steadily. There was no one around here for miles, they hadn’t even seen another car in ages. They had no phone. Moving her was probably not a great idea, but it beat leaving her in the middle of the road.</p>
+<p class="p1">He ran back to the car, where Briana had her nose pressed to the driver’s side window.</p>
+<p class="p1">“We’re taking her to the hospital,” he said. “Move the stuff out of the backseat.”</p>
+<p class="p1">“Is that an airplane?”</p>
+<p class="p1">“Just move the stuff!”</p>
+<p class="p1">While Briana heaved their suitcases into the trunk, Nate carefully gathered the unconscious woman into his arms—but he wasn’t a particularly large or muscular man, and he simply couldn’t lift her. He swore a little more under his breath, and eyed the flames of the wreckage, which were definitely picking up speed. They needed to get out of here. What if that thing exploded?</p>
+<p class="p1">“Bree, come get her feet!”</p>
+<p class="p1">Briana looked about five years old as they eased the injured woman into the backseat—buns fallen into mere pigtails, white robe swallowing her body, eyes swallowing her face. “Is she dead?”</p>
+<p class="p1">“No,” Nate said, though the idea sparked unease in his gut. She had lost consciousness rather suddenly. “Get in, buckle your—No, Briana, get in your seat!” She had crawled into the back with the injured woman.</p>
+<p class="p1">An explosion from the wreckage sent him stumbling against the car; flame mushroomed into the night sky. Without another word, he jumped into the driver’s seat and hit the gas.</p>
+<p class="p1">If he passed something strange in the roadside brush—some kind of enormous plant with long vines trailing out across the pavement—he hardly spared a glance for it as they sped away.</p>
+</body>
+</html>
+2023-03-08 00:40:17 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-08 00:40:17 INFO  - Taking screenshot
+2023-03-08 00:40:19 INFO  - Test finished - logging out
+2023-03-08 00:40:21 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:40:23 INFO  - Button 'tabSettings' :: Clicking
+2023-03-08 00:40:24 INFO  - Button 'Accounts' :: Clicking
+2023-03-08 00:40:25 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-08 00:40:28 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-08 00:40:28 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-08 00:40:29 INFO  - Button 'Log out' :: Clicking
+2023-03-08 00:40:30 INFO  - Button 'Log in' :: Getting text from element
+2023-03-08 00:40:33 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-08 00:40:33 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-08 00:40:34 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@77fa6f19
