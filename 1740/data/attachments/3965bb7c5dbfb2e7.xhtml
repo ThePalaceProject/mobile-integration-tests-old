@@ -1,0 +1,339 @@
+2023-03-10 00:30:54 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-03-10 00:30:54 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-10 00:31:30 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-10 00:31:30 INFO  - Session id - a9dfd2015c9127c4c43d3f95d7c996627a20f927
+2023-03-10 00:31:30 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-10 00:31:31 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-10 00:31:33 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-10 00:31:33 INFO  - Button 'Search' :: Clicking
+2023-03-10 00:31:35 INFO  - Text Field 'Search' :: Clearing
+2023-03-10 00:31:35 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-10 00:31:37 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 00:31:38 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-10 00:31:38 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:31:39 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:31:40 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 00:31:42 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-10 00:31:42 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:31:42 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:31:43 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 00:31:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 00:31:46 INFO  - Locking credential with barcode 01230000000306
+2023-03-10 00:31:46 INFO  - There are books on the account: 
+2023-03-10 00:31:47 INFO  - There is not books on the account.
+2023-03-10 00:31:47 INFO  - Count of books on the account after opening account: 0
+2023-03-10 00:31:47 INFO  - Text Field 'Card' :: Clearing
+2023-03-10 00:31:47 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-03-10 00:31:48 INFO  - Text Field 'Pin' :: Clearing
+2023-03-10 00:31:48 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-10 00:31:50 INFO  - Button 'Log in' :: Clicking
+2023-03-10 00:31:56 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-10 00:31:57 INFO  - Step 3 - Login is performed successfully
+2023-03-10 00:32:18 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-10 00:32:19 INFO  - Step 4 - I open Catalog
+2023-03-10 00:32:19 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-10 00:32:41 INFO  - Step 5 - I open search modal
+2023-03-10 00:33:01 INFO  - Button 'Search' :: Clicking
+2023-03-10 00:33:03 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-10 00:33:03 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-10 00:33:03 INFO  - randomBookName: Chocolate Cream Pie Murder
+2023-03-10 00:33:03 INFO  - Error details button is not present
+2023-03-10 00:33:03 INFO  - Text Field 'Search value input' :: Sending keys 'Chocolate Cream Pie Murder'
+2023-03-10 00:33:06 INFO  - Error details button is not present
+2023-03-10 00:33:07 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-10 00:33:09 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-10 00:33:09 INFO  - Button 'actionButton' :: Clicking
+2023-03-10 00:33:16 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-10 00:33:16 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-10 00:33:17 INFO  - Label 'lblBookName' :: Clicking
+2023-03-10 00:33:17 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-10 00:33:20 INFO  - Button 'Read' :: Clicking
+2023-03-10 00:33:20 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-10 00:33:20 INFO  - Scrolling 7 times on reader epub screen
+2023-03-10 00:33:35 INFO  - Step 11 - I save font size as 'fontSize'
+2023-03-10 00:33:36 INFO  - context - NATIVE_APP
+2023-03-10 00:33:36 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-10 00:33:37 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-10 00:33:37 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+	<title>Chocolate Cream Pie Murder</title>
+	<link href="e9781496718860_css.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:d008f6cf-f8c9-4876-9dfa-952c1c1b2d9f" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="pubInfo">
+<a id="title33"></a> 
+<p class="copyrightText" style="text-indent: 0%;">KENSINGTON BOOKS are published by</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington Publishing Corp.</p>
+<p class="copyrightText" style="text-indent: 0%;">119 West 40th Street</p>
+<p class="copyrightText" style="text-indent: 0%;">New York, NY 10018</p>
+<p class="copyrightText1" style="text-indent: 0%;">Copyright © 2019 by H.L. Swensen, Inc.</p>
+<p class="copyrightText1" style="text-indent: 0%;">All rights reserved. No part of this book may be reproduced in any form or by any means without the prior written consent of the Publisher, excepting brief quotes used in reviews.</p>
+<p class="copyrightText1" style="text-indent: 0%;">If you purchased this book without a cover, you should be aware that this book is stolen property. It was reported as “unsold and destroyed” to the Publisher and neither the Author nor the Publisher has received any payment for this “stripped book.”</p>
+<p class="copyrightText1" style="text-indent: 0%;">All Kensington titles, imprints and distributed lines are available at special quantity discounts for bulk purchases for sales promotion, premiums, fund-raising, educational or institutional use. Special book excerpts or customized printings can also be created to fit specific needs. For details, write or phone the office of the Kensington Special Sales Manager: Kensington Publishing Corp., 119 West 40th Street, New York, NY, 10018. Attn. Special Sales Department. Phone: 1-800-221-2647.</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington and the K logo Reg. U.S. Pat. &amp; TM Off.</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1887-7</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1887-9</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Hardcover Edition: March 2019</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Mass Market Edition: February 2020</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1888-4 (ebook)</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1888-7 (ebook)</p>
+<p class="copyrightText1" style="text-indent: 0%;">10 9 8 7 6 5 4 3 2 1</p>
+<p class="copyrightText1" style="text-indent: 0%;">Printed in the United States of America</p>
+</div>
+</body>
+</html>
+2023-03-10 00:33:37 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-10 00:33:38 INFO  - Step 12 - I open font settings
+2023-03-10 00:33:38 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-10 00:33:38 INFO  - Step 13 - I INCREASE_FONT of text
+2023-03-10 00:33:38 INFO  - Button 'setTextLarger' :: Clicking
+2023-03-10 00:33:39 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-03-10 00:33:40 INFO  - context - NATIVE_APP
+2023-03-10 00:33:40 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-10 00:33:41 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-10 00:33:41 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+	<title>Chocolate Cream Pie Murder</title>
+	<link href="e9781496718860_css.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:d008f6cf-f8c9-4876-9dfa-952c1c1b2d9f" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="pubInfo">
+<a id="title33"></a> 
+<p class="copyrightText" style="text-indent: 0%;">KENSINGTON BOOKS are published by</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington Publishing Corp.</p>
+<p class="copyrightText" style="text-indent: 0%;">119 West 40th Street</p>
+<p class="copyrightText" style="text-indent: 0%;">New York, NY 10018</p>
+<p class="copyrightText1" style="text-indent: 0%;">Copyright © 2019 by H.L. Swensen, Inc.</p>
+<p class="copyrightText1" style="text-indent: 0%;">All rights reserved. No part of this book may be reproduced in any form or by any means without the prior written consent of the Publisher, excepting brief quotes used in reviews.</p>
+<p class="copyrightText1" style="text-indent: 0%;">If you purchased this book without a cover, you should be aware that this book is stolen property. It was reported as “unsold and destroyed” to the Publisher and neither the Author nor the Publisher has received any payment for this “stripped book.”</p>
+<p class="copyrightText1" style="text-indent: 0%;">All Kensington titles, imprints and distributed lines are available at special quantity discounts for bulk purchases for sales promotion, premiums, fund-raising, educational or institutional use. Special book excerpts or customized printings can also be created to fit specific needs. For details, write or phone the office of the Kensington Special Sales Manager: Kensington Publishing Corp., 119 West 40th Street, New York, NY, 10018. Attn. Special Sales Department. Phone: 1-800-221-2647.</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington and the K logo Reg. U.S. Pat. &amp; TM Off.</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1887-7</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1887-9</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Hardcover Edition: March 2019</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Mass Market Edition: February 2020</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1888-4 (ebook)</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1888-7 (ebook)</p>
+<p class="copyrightText1" style="text-indent: 0%;">10 9 8 7 6 5 4 3 2 1</p>
+<p class="copyrightText1" style="text-indent: 0%;">Printed in the United States of America</p>
+</div>
+</body>
+</html>
+2023-03-10 00:33:41 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-10 00:33:41 INFO  - Step 15 - I restart app
+2023-03-10 00:34:05 INFO  - Step 16 - I open Books
+2023-03-10 00:34:05 INFO  - Button 'tabBooks' :: Clicking
+2023-03-10 00:34:07 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-10 00:34:07 INFO  - Label 'lblBookName' :: Clicking
+2023-03-10 00:34:08 INFO  - Step 18 - Click READ action button on book details screen
+2023-03-10 00:34:09 INFO  - Button 'Read' :: Clicking
+2023-03-10 00:34:10 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-03-10 00:34:10 INFO  - context - NATIVE_APP
+2023-03-10 00:34:11 INFO  - context - NATIVE_APP
+2023-03-10 00:34:12 INFO  - context - NATIVE_APP
+2023-03-10 00:34:12 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-10 00:34:13 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-10 00:34:13 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+	<title>Chocolate Cream Pie Murder</title>
+	<link href="e9781496718860_css.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:d008f6cf-f8c9-4876-9dfa-952c1c1b2d9f" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="pubInfo">
+<a id="title33"></a> 
+<p class="copyrightText" style="text-indent: 0%;">KENSINGTON BOOKS are published by</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington Publishing Corp.</p>
+<p class="copyrightText" style="text-indent: 0%;">119 West 40th Street</p>
+<p class="copyrightText" style="text-indent: 0%;">New York, NY 10018</p>
+<p class="copyrightText1" style="text-indent: 0%;">Copyright © 2019 by H.L. Swensen, Inc.</p>
+<p class="copyrightText1" style="text-indent: 0%;">All rights reserved. No part of this book may be reproduced in any form or by any means without the prior written consent of the Publisher, excepting brief quotes used in reviews.</p>
+<p class="copyrightText1" style="text-indent: 0%;">If you purchased this book without a cover, you should be aware that this book is stolen property. It was reported as “unsold and destroyed” to the Publisher and neither the Author nor the Publisher has received any payment for this “stripped book.”</p>
+<p class="copyrightText1" style="text-indent: 0%;">All Kensington titles, imprints and distributed lines are available at special quantity discounts for bulk purchases for sales promotion, premiums, fund-raising, educational or institutional use. Special book excerpts or customized printings can also be created to fit specific needs. For details, write or phone the office of the Kensington Special Sales Manager: Kensington Publishing Corp., 119 West 40th Street, New York, NY, 10018. Attn. Special Sales Department. Phone: 1-800-221-2647.</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington and the K logo Reg. U.S. Pat. &amp; TM Off.</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1887-7</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1887-9</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Hardcover Edition: March 2019</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Mass Market Edition: February 2020</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1888-4 (ebook)</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1888-7 (ebook)</p>
+<p class="copyrightText1" style="text-indent: 0%;">10 9 8 7 6 5 4 3 2 1</p>
+<p class="copyrightText1" style="text-indent: 0%;">Printed in the United States of America</p>
+</div>
+</body>
+</html>
+2023-03-10 00:34:13 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-10 00:34:14 INFO  - Step 20 - I return to previous screen from epub
+2023-03-10 00:34:15 INFO  - Button 'btnBack' :: Clicking
+2023-03-10 00:34:15 INFO  - Step 21 - Click READ action button on book details screen
+2023-03-10 00:34:16 INFO  - Button 'Read' :: Clicking
+2023-03-10 00:34:17 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-03-10 00:34:17 INFO  - context - NATIVE_APP
+2023-03-10 00:34:17 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-10 00:34:19 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-10 00:34:19 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+	<title>Chocolate Cream Pie Murder</title>
+	<link href="e9781496718860_css.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:d008f6cf-f8c9-4876-9dfa-952c1c1b2d9f" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="pubInfo">
+<a id="title33"></a> 
+<p class="copyrightText" style="text-indent: 0%;">KENSINGTON BOOKS are published by</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington Publishing Corp.</p>
+<p class="copyrightText" style="text-indent: 0%;">119 West 40th Street</p>
+<p class="copyrightText" style="text-indent: 0%;">New York, NY 10018</p>
+<p class="copyrightText1" style="text-indent: 0%;">Copyright © 2019 by H.L. Swensen, Inc.</p>
+<p class="copyrightText1" style="text-indent: 0%;">All rights reserved. No part of this book may be reproduced in any form or by any means without the prior written consent of the Publisher, excepting brief quotes used in reviews.</p>
+<p class="copyrightText1" style="text-indent: 0%;">If you purchased this book without a cover, you should be aware that this book is stolen property. It was reported as “unsold and destroyed” to the Publisher and neither the Author nor the Publisher has received any payment for this “stripped book.”</p>
+<p class="copyrightText1" style="text-indent: 0%;">All Kensington titles, imprints and distributed lines are available at special quantity discounts for bulk purchases for sales promotion, premiums, fund-raising, educational or institutional use. Special book excerpts or customized printings can also be created to fit specific needs. For details, write or phone the office of the Kensington Special Sales Manager: Kensington Publishing Corp., 119 West 40th Street, New York, NY, 10018. Attn. Special Sales Department. Phone: 1-800-221-2647.</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington and the K logo Reg. U.S. Pat. &amp; TM Off.</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1887-7</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1887-9</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Hardcover Edition: March 2019</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Mass Market Edition: February 2020</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1888-4 (ebook)</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1888-7 (ebook)</p>
+<p class="copyrightText1" style="text-indent: 0%;">10 9 8 7 6 5 4 3 2 1</p>
+<p class="copyrightText1" style="text-indent: 0%;">Printed in the United States of America</p>
+</div>
+</body>
+</html>
+2023-03-10 00:34:19 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-10 00:34:19 INFO  - Step 23 - I save font size as 'fontSize'
+2023-03-10 00:34:20 INFO  - context - NATIVE_APP
+2023-03-10 00:34:20 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-10 00:34:21 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-10 00:34:21 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+	<title>Chocolate Cream Pie Murder</title>
+	<link href="e9781496718860_css.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:d008f6cf-f8c9-4876-9dfa-952c1c1b2d9f" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="pubInfo">
+<a id="title33"></a> 
+<p class="copyrightText" style="text-indent: 0%;">KENSINGTON BOOKS are published by</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington Publishing Corp.</p>
+<p class="copyrightText" style="text-indent: 0%;">119 West 40th Street</p>
+<p class="copyrightText" style="text-indent: 0%;">New York, NY 10018</p>
+<p class="copyrightText1" style="text-indent: 0%;">Copyright © 2019 by H.L. Swensen, Inc.</p>
+<p class="copyrightText1" style="text-indent: 0%;">All rights reserved. No part of this book may be reproduced in any form or by any means without the prior written consent of the Publisher, excepting brief quotes used in reviews.</p>
+<p class="copyrightText1" style="text-indent: 0%;">If you purchased this book without a cover, you should be aware that this book is stolen property. It was reported as “unsold and destroyed” to the Publisher and neither the Author nor the Publisher has received any payment for this “stripped book.”</p>
+<p class="copyrightText1" style="text-indent: 0%;">All Kensington titles, imprints and distributed lines are available at special quantity discounts for bulk purchases for sales promotion, premiums, fund-raising, educational or institutional use. Special book excerpts or customized printings can also be created to fit specific needs. For details, write or phone the office of the Kensington Special Sales Manager: Kensington Publishing Corp., 119 West 40th Street, New York, NY, 10018. Attn. Special Sales Department. Phone: 1-800-221-2647.</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington and the K logo Reg. U.S. Pat. &amp; TM Off.</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1887-7</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1887-9</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Hardcover Edition: March 2019</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Mass Market Edition: February 2020</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1888-4 (ebook)</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1888-7 (ebook)</p>
+<p class="copyrightText1" style="text-indent: 0%;">10 9 8 7 6 5 4 3 2 1</p>
+<p class="copyrightText1" style="text-indent: 0%;">Printed in the United States of America</p>
+</div>
+</body>
+</html>
+2023-03-10 00:34:21 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-10 00:34:21 INFO  - Step 24 - I open font settings
+2023-03-10 00:34:22 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-10 00:34:22 INFO  - Step 25 - I DECREASE_FONT of text
+2023-03-10 00:34:23 INFO  - Button 'setTextSmaller' :: Clicking
+2023-03-10 00:34:24 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-03-10 00:34:24 INFO  - context - NATIVE_APP
+2023-03-10 00:34:24 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-10 00:34:25 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-10 00:34:26 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+	<title>Chocolate Cream Pie Murder</title>
+	<link href="e9781496718860_css.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:d008f6cf-f8c9-4876-9dfa-952c1c1b2d9f" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div class="pubInfo">
+<a id="title33"></a> 
+<p class="copyrightText" style="text-indent: 0%;">KENSINGTON BOOKS are published by</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington Publishing Corp.</p>
+<p class="copyrightText" style="text-indent: 0%;">119 West 40th Street</p>
+<p class="copyrightText" style="text-indent: 0%;">New York, NY 10018</p>
+<p class="copyrightText1" style="text-indent: 0%;">Copyright © 2019 by H.L. Swensen, Inc.</p>
+<p class="copyrightText1" style="text-indent: 0%;">All rights reserved. No part of this book may be reproduced in any form or by any means without the prior written consent of the Publisher, excepting brief quotes used in reviews.</p>
+<p class="copyrightText1" style="text-indent: 0%;">If you purchased this book without a cover, you should be aware that this book is stolen property. It was reported as “unsold and destroyed” to the Publisher and neither the Author nor the Publisher has received any payment for this “stripped book.”</p>
+<p class="copyrightText1" style="text-indent: 0%;">All Kensington titles, imprints and distributed lines are available at special quantity discounts for bulk purchases for sales promotion, premiums, fund-raising, educational or institutional use. Special book excerpts or customized printings can also be created to fit specific needs. For details, write or phone the office of the Kensington Special Sales Manager: Kensington Publishing Corp., 119 West 40th Street, New York, NY, 10018. Attn. Special Sales Department. Phone: 1-800-221-2647.</p>
+<p class="copyrightText1" style="text-indent: 0%;">Kensington and the K logo Reg. U.S. Pat. &amp; TM Off.</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1887-7</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1887-9</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Hardcover Edition: March 2019</p>
+<p class="copyrightText" style="text-indent: 0%;">First Kensington Mass Market Edition: February 2020</p>
+<p class="copyrightText1" style="text-indent: 0%;">ISBN-13: 978-1-4967-1888-4 (ebook)</p>
+<p class="copyrightText" style="text-indent: 0%;">ISBN-10: 1-4967-1888-7 (ebook)</p>
+<p class="copyrightText1" style="text-indent: 0%;">10 9 8 7 6 5 4 3 2 1</p>
+<p class="copyrightText1" style="text-indent: 0%;">Printed in the United States of America</p>
+</div>
+</body>
+</html>
+2023-03-10 00:34:26 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-10 00:34:26 INFO  - Taking screenshot
+2023-03-10 00:34:27 INFO  - Test finished - logging out
+2023-03-10 00:34:29 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:34:32 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:34:33 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 00:34:35 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 00:34:37 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-10 00:34:38 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-10 00:34:39 INFO  - Button 'Log out' :: Clicking
+2023-03-10 00:34:39 INFO  - Button 'Log in' :: Getting text from element
+2023-03-10 00:34:42 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-10 00:34:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-10 00:34:44 INFO  - Unlocking credential for current thread
+2023-03-10 00:34:44 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5e8fab2e

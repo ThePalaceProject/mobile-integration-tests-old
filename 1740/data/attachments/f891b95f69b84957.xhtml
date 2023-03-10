@@ -1,0 +1,157 @@
+2023-03-10 00:46:10 INFO  - Scenario 'Font settings: Check of font style' start
+2023-03-10 00:46:10 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-10 00:46:37 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-10 00:46:37 INFO  - Session id - 87bf7878e9e19459157d95aa2c7bd74de6b802c6
+2023-03-10 00:46:37 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-10 00:46:37 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-10 00:46:40 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-10 00:46:40 INFO  - Button 'Search' :: Clicking
+2023-03-10 00:46:43 INFO  - Text Field 'Search' :: Clearing
+2023-03-10 00:46:43 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-10 00:46:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 00:46:46 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-10 00:46:46 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:46:47 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:46:49 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 00:46:50 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-10 00:46:50 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:46:50 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:46:52 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 00:46:53 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 00:46:54 INFO  - Locking credential with barcode 01230000000303
+2023-03-10 00:46:54 INFO  - There are books on the account: 
+2023-03-10 00:46:55 INFO  - There is not books on the account.
+2023-03-10 00:46:55 INFO  - Count of books on the account after opening account: 0
+2023-03-10 00:46:55 INFO  - Text Field 'Card' :: Clearing
+2023-03-10 00:46:55 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-10 00:46:56 INFO  - Text Field 'Pin' :: Clearing
+2023-03-10 00:46:56 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-10 00:46:58 INFO  - Button 'Log in' :: Clicking
+2023-03-10 00:47:04 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-10 00:47:04 INFO  - Step 3 - Login is performed successfully
+2023-03-10 00:47:26 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-10 00:47:26 INFO  - Step 4 - I open Catalog
+2023-03-10 00:47:26 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-10 00:47:49 INFO  - Step 5 - I open search modal
+2023-03-10 00:48:10 INFO  - Button 'Search' :: Clicking
+2023-03-10 00:48:11 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-10 00:48:11 INFO  - Count of attempts to get random book name without bad symbols-3
+2023-03-10 00:48:11 INFO  - randomBookName: St Kilda
+2023-03-10 00:48:12 INFO  - Error details button is not present
+2023-03-10 00:48:12 INFO  - Text Field 'Search value input' :: Sending keys 'St Kilda'
+2023-03-10 00:48:15 INFO  - Error details button is not present
+2023-03-10 00:48:16 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-10 00:48:19 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-10 00:48:20 INFO  - Button 'actionButton' :: Clicking
+2023-03-10 00:48:26 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-10 00:48:27 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-10 00:48:28 INFO  - Label 'lblBookName' :: Clicking
+2023-03-10 00:48:28 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-10 00:48:29 INFO  - Button 'Read' :: Clicking
+2023-03-10 00:48:30 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-10 00:48:30 INFO  - Scrolling 7 times on reader epub screen
+2023-03-10 00:48:50 INFO  - Step 11 - I open font settings
+2023-03-10 00:48:51 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-10 00:48:51 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-03-10 00:48:51 INFO  - Button 'setFontSerif' :: Clicking
+2023-03-10 00:48:52 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-03-10 00:48:53 INFO  - context - NATIVE_APP
+2023-03-10 00:48:53 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-10 00:48:54 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-10 00:48:54 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>St Kilda</title>
+<link href="ebook_style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div>
+<a id="page_vii"></a>
+<p class="contents"><i>Contents</i></p>
+<p class="imagef"><img src="images/star.jpg" height="15" width="15" alt="image" /></p>
+<p class="toc"><a href="06_List_of_Illustrations.xhtml"><i>List of Illustrations</i></a></p>
+<p class="toc"><a href="07_Map.xhtml"><i>Map</i></a></p>
+<p class="toc1"><a href="08_Foreword.xhtml"><i>Foreword</i></a></p>
+<table class="tablef" width="100%" cellpadding="3" cellspacing="0">
+<col width="5%" />
+<col width="95%" />
+<tr>
+<td valign="top">  <a href="09_Chapter_01.xhtml">1</a></td>
+<td valign="top"><a href="09_Chapter_01.xhtml">Rachel’s Unhappy Adventure in England</a></td>
+</tr>
+<tr>
+<td valign="top">  <a href="10_Chapter_02.xhtml">2</a></td>
+<td valign="top"><a href="10_Chapter_02.xhtml">Amazon Queens, Norsemen and Gaels</a></td>
+</tr>
+<tr>
+<td valign="top">  <a href="11_Chapter_03.xhtml">3</a></td>
+<td valign="top"><a href="11_Chapter_03.xhtml">The Saint Who Never Was</a></td>
+</tr>
+<tr>
+<td valign="top">  <a href="12_Chapter_04.xhtml">4</a></td>
+<td valign="top"><a href="12_Chapter_04.xhtml">False Prophets and Ministers</a></td>
+</tr>
+<tr>
+<td valign="top">  <a href="13_Chapter_05.xhtml">5</a></td>
+<td valign="top"><a href="13_Chapter_05.xhtml">The Whole Island Dancing</a></td>
+</tr>
+<tr>
+<td valign="top">  <a href="14_Chapter_06.xhtml">6</a></td>
+<td valign="top"><a href="14_Chapter_06.xhtml">From Thatch to Zinc</a></td>
+</tr>
+<tr>
+<td valign="top">  <a href="15_Chapter_07.xhtml">7</a></td>
+<td valign="top"><a href="15_Chapter_07.xhtml">The First Exodus</a></td>
+</tr>
+<tr>
+<td valign="top">  <a href="16_Chapter_08.xhtml">8</a></td>
+<td valign="top"><a href="16_Chapter_08.xhtml">Speaking Truth to Power</a></td>
+</tr>
+<tr>
+<td valign="top">  <a href="17_Chapter_09.xhtml">9</a></td>
+<td valign="top"><a href="17_Chapter_09.xhtml">The Royal Wedding</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="18_Chapter_10.xhtml">10</a></td>
+<td valign="top"><a href="18_Chapter_10.xhtml">An Indian Summer</a></td>
+</tr>
+<tr><td colspan="2"><a href="19_Afterword.xhtml">Afterword</a></td>
+</tr>
+</table>
+<p class="toc"><a href="20_Notes.xhtml"><i>Notes</i></a></p>
+<p class="toc1"><a href="22_Index.xhtml"><i>Index</i></a></p>
+</div>
+</body>
+</html>
+2023-03-10 00:48:54 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-10 00:48:54 INFO  - Step 14 - I restart app
+2023-03-10 00:49:19 INFO  - Step 15 - I open Books
+2023-03-10 00:49:19 INFO  - Button 'tabBooks' :: Clicking
+2023-03-10 00:49:19 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-10 00:49:20 INFO  - Label 'lblBookName' :: Clicking
+2023-03-10 00:49:21 INFO  - Step 17 - Click READ action button on book details screen
+2023-03-10 00:49:22 INFO  - Button 'Read' :: Clicking
+2023-03-10 00:49:25 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-03-10 00:49:27 INFO  - context - NATIVE_APP
+2023-03-10 00:49:27 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-10 00:49:28 INFO  - Taking screenshot
+2023-03-10 00:49:30 INFO  - Test finished - logging out
+2023-03-10 00:49:31 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:49:36 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 00:49:37 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 00:49:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 00:49:40 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-10 00:49:40 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-10 00:49:40 INFO  - Button 'Log out' :: Clicking
+2023-03-10 00:49:41 INFO  - Button 'Log in' :: Getting text from element
+2023-03-10 00:49:43 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-10 00:49:44 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-10 00:49:44 INFO  - Unlocking credential for current thread
+2023-03-10 00:49:44 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5e8fab2e

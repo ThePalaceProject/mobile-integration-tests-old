@@ -1,0 +1,83 @@
+2023-03-10 01:49:16 INFO  - Scenario 'Check playback speed and sleep timer' start
+2023-03-10 01:49:16 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-10 01:50:21 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-10 01:50:21 INFO  - Session id - cc0fd89ee6e107953a72f273871c9f1cc6fc1e34
+2023-03-10 01:50:21 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-10 01:50:21 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-10 01:50:23 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-10 01:50:24 INFO  - Button 'Search' :: Clicking
+2023-03-10 01:50:26 INFO  - Text Field 'Search' :: Clearing
+2023-03-10 01:50:26 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-10 01:50:29 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 01:50:30 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-10 01:50:30 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:50:31 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:50:32 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 01:50:34 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-10 01:50:34 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:50:35 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:50:36 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 01:50:37 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 01:50:38 INFO  - Locking credential with barcode 01230000000305
+2023-03-10 01:50:38 INFO  - There are books on the account: 
+2023-03-10 01:50:38 INFO  - There is not books on the account.
+2023-03-10 01:50:38 INFO  - Count of books on the account after opening account: 0
+2023-03-10 01:50:38 INFO  - Text Field 'Card' :: Clearing
+2023-03-10 01:50:38 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-03-10 01:50:40 INFO  - Text Field 'Pin' :: Clearing
+2023-03-10 01:50:40 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-10 01:50:42 INFO  - Button 'Log in' :: Clicking
+2023-03-10 01:50:46 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-10 01:50:47 INFO  - Step 3 - Login is performed successfully
+2023-03-10 01:51:08 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-10 01:51:08 INFO  - Step 4 - I open Catalog
+2023-03-10 01:51:08 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-10 01:51:30 INFO  - Step 5 - I open search modal
+2023-03-10 01:51:50 INFO  - Button 'Search' :: Clicking
+2023-03-10 01:51:51 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-10 01:51:51 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-10 01:51:51 INFO  - randomBookName: The Will to Change
+2023-03-10 01:51:52 INFO  - Error details button is not present
+2023-03-10 01:51:52 INFO  - Text Field 'Search value input' :: Sending keys 'The Will to Change'
+2023-03-10 01:51:54 INFO  - Error details button is not present
+2023-03-10 01:51:55 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-03-10 01:51:56 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-10 01:52:19 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-10 01:52:20 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-10 01:52:20 INFO  - Label 'lblBookName' :: Clicking
+2023-03-10 01:52:21 INFO  - Step 9 - Click GET action button on book details screen
+2023-03-10 01:52:21 INFO  - Button 'Get' :: Clicking
+2023-03-10 01:52:26 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-03-10 01:52:27 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-03-10 01:52:27 INFO  - Button 'Listen' :: Clicking
+2023-03-10 01:52:28 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-03-10 01:52:32 INFO  - Step 13 - The speed by default is 1.0
+2023-03-10 01:52:32 INFO  - Button 'Button play speed' :: Getting text from element
+2023-03-10 01:52:32 INFO  - Step 14 - Open playback speed on audio player screen
+2023-03-10 01:52:32 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-03-10 01:52:32 INFO  - Step 15 - Close playback speed screen
+2023-03-10 01:52:32 INFO  - Button 'Cancel button' :: Clicking
+2023-03-10 01:52:33 INFO  - Step 16 - Play button is present on audio player screen
+2023-03-10 01:52:34 INFO  - Step 17 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-03-10 01:52:34 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-03-10 01:52:34 INFO  - Button 'End of file' :: Clicking
+2023-03-10 01:52:35 INFO  - Step 18 - Sleep timer is set to endOfChapter on audio player screen
+2023-03-10 01:52:36 INFO  - Step 19 - Open sleep timer on audio player screen
+2023-03-10 01:52:36 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-03-10 01:52:36 INFO  - Step 20 - Close sleep timer screen
+2023-03-10 01:52:36 INFO  - Button 'Cancel button' :: Clicking
+2023-03-10 01:52:37 INFO  - Step 21 - Play button is present on audio player screen
+2023-03-10 01:52:38 INFO  - Taking screenshot
+2023-03-10 01:52:41 INFO  - Test finished - logging out
+2023-03-10 01:52:42 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:52:45 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:52:46 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 01:52:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 01:52:49 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-10 01:52:49 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-10 01:52:50 INFO  - Button 'Log out' :: Clicking
+2023-03-10 01:52:50 INFO  - Button 'Log in' :: Getting text from element
+2023-03-10 01:52:58 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-10 01:52:58 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-10 01:52:59 INFO  - Unlocking credential for current thread
+2023-03-10 01:52:59 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3a060237

@@ -1,0 +1,152 @@
+2023-03-10 01:01:26 INFO  - Scenario 'Font settings: Check of text theme' start
+2023-03-10 01:01:26 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-10 01:01:54 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-10 01:01:54 INFO  - Session id - 4d7b4822f0dff4e44bd71405b87d10be6dec9b48
+2023-03-10 01:01:54 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-10 01:01:54 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-10 01:01:57 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-10 01:01:57 INFO  - Button 'Search' :: Clicking
+2023-03-10 01:01:59 INFO  - Text Field 'Search' :: Clearing
+2023-03-10 01:01:59 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-10 01:02:02 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 01:02:02 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-10 01:02:03 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:02:04 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:02:05 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 01:02:07 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-10 01:02:07 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:02:08 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:02:08 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 01:02:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 01:02:11 INFO  - Locking credential with barcode 01230000000303
+2023-03-10 01:02:11 INFO  - There are books on the account: 
+2023-03-10 01:02:11 INFO  - There is not books on the account.
+2023-03-10 01:02:11 INFO  - Count of books on the account after opening account: 0
+2023-03-10 01:02:11 INFO  - Text Field 'Card' :: Clearing
+2023-03-10 01:02:11 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-10 01:02:13 INFO  - Text Field 'Pin' :: Clearing
+2023-03-10 01:02:13 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-10 01:02:15 INFO  - Button 'Log in' :: Clicking
+2023-03-10 01:02:20 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-10 01:02:21 INFO  - Step 3 - Login is performed successfully
+2023-03-10 01:02:42 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-10 01:02:42 INFO  - Step 4 - I open Catalog
+2023-03-10 01:02:42 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-10 01:03:05 INFO  - Step 5 - I open search modal
+2023-03-10 01:03:26 INFO  - Button 'Search' :: Clicking
+2023-03-10 01:03:27 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-10 01:03:27 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-10 01:03:27 INFO  - randomBookName: Above World
+2023-03-10 01:03:27 INFO  - Error details button is not present
+2023-03-10 01:03:28 INFO  - Text Field 'Search value input' :: Sending keys 'Above World'
+2023-03-10 01:03:30 INFO  - Error details button is not present
+2023-03-10 01:03:32 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-10 01:03:33 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-10 01:03:34 INFO  - Button 'actionButton' :: Clicking
+2023-03-10 01:03:41 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-10 01:03:42 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-10 01:03:42 INFO  - Label 'lblBookName' :: Clicking
+2023-03-10 01:03:43 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-10 01:03:44 INFO  - Button 'Read' :: Clicking
+2023-03-10 01:03:45 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-10 01:03:45 INFO  - Scrolling 7 times on reader epub screen
+2023-03-10 01:04:02 INFO  - Step 11 - I open font settings
+2023-03-10 01:04:03 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-10 01:04:03 INFO  - Step 12 - I change contrast to BLACK_TEXT_ON_WHITE
+2023-03-10 01:04:03 INFO  - Button 'setThemeLight' :: Clicking
+2023-03-10 01:04:04 INFO  - Step 13 - The BLACK_TEXT_ON_WHITE background is correct
+2023-03-10 01:04:05 INFO  - context - NATIVE_APP
+2023-03-10 01:04:05 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-10 01:04:06 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-10 01:04:06 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ops="http://www.idpf.org/2007/ops" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>Above World</title>
+<link href="9780763659585_epub_css_r1.css" rel="stylesheet" type="text/css" />
+<link href="page-template.xpgt" rel="stylesheet" type="application/vnd.adobe-page-template+xml" />
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type" />
+<meta content="urn:uuid:2e408bd6-8cef-4c48-a868-cce854bd0738" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="chapter" id="c03"><img alt="" src="images/c03.png" /></h1>
+<p class="nonindent"><span class="sans"><span class="big">“I</span> <span class="small">WISH</span></span> they hadn’t taken the necklace,” Hoku said. “If I could examine one, maybe I could figure out why they’re breaking. They must need power to operate, but where is it coming from? Elder Peleke won’t tell me. I wonder if he even knows.” He looked at his hands, wishing he had his tools. Wishing he had something to focus on besides Makina’s death and Aluna’s anger.</p>
+<p class="indent">“Of course they took the necklace,” Aluna stormed. “They’re going to act as if none of this ever happened, same as always. One death might be an accident, but Makina was the fifth. How can they ignore five?”</p>
+<p class="indent">She was swimming circles around her nest, her eyes red rimmed and wild. They’d spent the last hour remembering everything they could about Makina. Now he just wanted to eat some fish and go to sleep. Predictably, Aluna’s mood had gone in the other direction.</p>
+<p class="indent">“They had no right to hide her away like that!” she said.</p>
+<p class="indent">“Not everyone wants to see . . .” <em>The body,</em> he thought. When had Makina stopped being a person and become just another object? “She had a lot of friends, and her parents weren’t even in the crossway when you brought her in. Maybe —”</p>
+<p class="indent">“And they wouldn’t even answer my questions about the necklace! Now the Elders are off ‘conferring.’” She snorted. “That’s all they ever do. Talk, talk, talk. They never actually <em>do</em> anything.”</p>
+<p class="indent">“But your father . . .”</p>
+<p class="indent">Aluna waved her hand. “He’s the worst.”</p>
+<p class="indent">Aluna and her father were like a pair of fighting eels — always going for each other’s throats. Elder Kapono intimidated the entire city, and scared the ink out of Hoku, but Aluna was never cowed. She seemed to think it was her duty to defy him.</p>
+<p class="indent">“The Elders are probably talking at the council dome,” she continued. “Eating clams and sucking coralfruit juice and gossiping like younglings. If only we could hear through the sound shield!”</p>
+<p class="indent">“Well, maybe . . .”</p>
+<p class="indent">Aluna stopped her swishing and swam over to him, her eyes intense.</p>
+<p class="indent">“Well, what?”</p>
+<p class="indent"><em>Oh, crabs and krill.</em> Why did he always have to open his mouth? He shrugged, suddenly embarrassed. “I’ve been working on this device, this new artifact. You put it over your ear and it increases the distance you can hear. I thought if I made it strong enough, we could talk at night when we’re both in our nests.” He’d intended to give her the artifact as a gift when she got her tail, as a way for them to stay in touch even when she was off with all her new friends. So much for the surprise.</p>
+<p class="indent">“And you think it will work through the sound shield?”</p>
+<p class="indent">“It might. I couldn’t find a way to make us talk louder, so I found a way to make the artifacts in our ears pick up sound better.”</p>
+<p class="indent">“Brilliant!” Aluna said.</p>
+<p class="indent">“Well, I, uh — it’s not —”</p>
+<p class="indent">“We can try it out right now. Let’s go!”</p>
+<p class="indent">Aluna bolted for the room’s hatch and darted into the passageway. Hoku smiled and followed her back to his family’s nest.</p>
+<p class="indent">Tomorrow was the ceremony of transformation, when he’d watch Aluna trade her legs for a tail. Tonight was all he had left before everything changed, before she became a full Kampii and left him behind. One last night of trouble and danger to get him through the months of loneliness that would surely follow.</p>
+<p class="extract">Hoku’s family lived in the sand-side part of the city, where the nests were small and carved right next to each other at the bottom of the coral reef. Few rays of sun penetrated the water sand-side, and the current was nowhere near as strong and refreshing as it was in the city’s main channels. Overall, the sand-side was dark, dingy, and depressing.</p>
+<p class="indent">His mother always talked about moving to a moon-side nest, but he and his dad knew that would never happen. The old moon-side Kampii families passed their homes to their children, and the Elders had long since forbidden the carving of any new ones in the “good” areas. Something about the structural integrity of the coral, Elder Peleke had said. Hoku had a feeling there was more to it than that, but he never questioned the social injustice of it all out loud. Who would listen to a lowly sand-sider, anyway?</p>
+<p class="indent">Aluna would, if he ever found the courage to talk to her. She never said anything about his family’s nest or status, or her own. Fresh, clean currents flowed through her family nest. Glow-in-the-dark spirals and starfish and seashells decorated every surface. Even their resting sticks bore the hand-carved Shifting Tides seahorse emblem. But despite everything Aluna had and everything he didn’t have, not even the tiniest hint of disgust or pity ever showed on her face. She was just Aluna, same as ever.</p>
+<p class="indent">When they got to his nest, both his parents were out on work assignments and his grandma Nani was napping. <em>Good.</em> He didn’t want to answer any questions about what they were doing.</p>
+<p class="indent">They swam through the cramped tunnel to his room. There was nothing he loved more than his workshop, except getting the chance to show it off. He immediately darted to his desk, hooked his knees around his worn resting stick, and tapped on the lantern to wake up the lightning fish inside. The fish darted back and forth, faster and faster, their bodies glowing brighter and brighter.</p>
+<p class="indent">“You’ve been busy!” Aluna said, nodding to the new jars of artifacts hooked to the ceiling and secured to his desk.</p>
+<p class="indent">He shrugged. “Elder Peleke still won’t take me on as an apprentice, so I have to learn everything myself. Which means lots of failed experiments,” he said. “I haven’t gotten anything to work in weeks, except for the Extra Ears.”</p>
+<p class="indent">“Extra Ears? Is that what you’re calling the hearing artifact you made?”</p>
+<p class="indent">“You like it?” he asked. “I like coming up with names for the artifacts almost as much as I like making them.” “Extra Ears” was a vast improvement over his first two naming attempts, “Hearing Helpers” and “Ears x 10.”</p>
+<p class="indent">He reached for his “in progress” jar, carefully removed the Extra Ears artifacts, and placed them on the sticky plate attached to his desk. He loved his sticky plate; it had been in his family for generations. The flat square of metal grabbed other metal things and clung to them. Magic, his mother called it, but his grandma pronounced it “magnet.”</p>
+<p class="indent">“How do they work?” Aluna reached for one of the Ears, but Hoku batted her hand away.</p>
+<p class="indent">“No touching! They’re very delicate. I think we both remember what happened the last time you tried to help.” He looked up at the jar labeled <span class="small">SHARK DETECTOR</span> and the mangled metal bits inside. Such a waste.</p>
+<p class="indent">“I forgot what a snoot you are with your bits of metal,” she said, but she didn’t reach for the artifacts again.</p>
+<p class="indent">“I have to be careful,” he said. “If I do something wrong, I might break the artifacts already in our ears. And then we won’t be hearing anything besides whales and waves.”</p>
+<p class="indent">The Extra Ears on his sticky plate looked like tiny plugs attached to bent pieces of coated wire. He plucked one gently from the plate and tightened two tiny screws. It didn’t matter what they looked like; it only mattered that they worked. And they did. He’d tested one the night before and overheard the neighbors fighting three nests away. Once he perfected the design and showed it to the Elders, Elder Peleke would have to take him on as an apprentice, even though he was a lowly sand-side kid and not the son of someone important.</p>
+<p class="indent">“Ready!” Hoku said.</p>
+<p class="indent">Aluna drifted over and held her short hair out of the way. Hoku pressed the artifact against the inside of her ear, then wrapped the wire around the outside to secure it in place.</p>
+<p class="indent">“By the tides!” Aluna said.</p>
+<p class="indent">“What? What do you hear?”</p>
+<p class="indent">“A mumble-jumble mostly, but I can hear that little squid Jessia gossiping to someone about the boy she likes — oh!” Aluna looked at him and giggled.</p>
+<p class="indent">“What? Who is she talking about? Tell me!” he begged. Jessia had smiled at him that very morning. She had nice teeth. He grabbed the other hearing artifact and scrambled to affix it to his ear with none of the delicacy he’d used with the first one.</p>
+<p class="indent">“Oh, she’s moved off. I can’t hear her anymore. Too bad!” Aluna said. “Are freckles really that cute? I hadn’t noticed. But now that old fish Moke is going on and on about what he wants for dinner.”</p>
+<p class="indent">“Shhh!” Hoku said, but she was right. All he could hear was Moke talking about fish. He couldn’t hear Jessia at all. Had Aluna made the whole thing up? This wouldn’t be the first time she’d teased him about one of his crushes. He put a hand to his cheek. He had a lot of freckles.</p>
+<p class="indent">“Hoku, these Extra Ears are amazing. You’re a genius,” Aluna said, and he instantly forgave her.</p>
+<p class="indent">“Let’s get to the council dome,” he said. <em>And see how much trouble we can find.</em></p>
+</body>
+</html>
+2023-03-10 01:04:06 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-10 01:04:06 INFO  - Step 14 - I restart app
+2023-03-10 01:04:31 INFO  - Step 15 - I open Books
+2023-03-10 01:04:31 INFO  - Button 'tabBooks' :: Clicking
+2023-03-10 01:04:31 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-10 01:04:32 INFO  - Label 'lblBookName' :: Clicking
+2023-03-10 01:04:33 INFO  - Step 17 - Click READ action button on book details screen
+2023-03-10 01:04:34 INFO  - Button 'Read' :: Clicking
+2023-03-10 01:04:35 INFO  - Step 18 - The BLACK_TEXT_ON_WHITE background is correct
+2023-03-10 01:04:35 INFO  - context - NATIVE_APP
+2023-03-10 01:04:38 INFO  - context - NATIVE_APP
+2023-03-10 01:04:38 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-10 01:04:39 INFO  - Taking screenshot
+2023-03-10 01:04:41 INFO  - Test finished - logging out
+2023-03-10 01:04:42 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:04:44 INFO  - Button 'tabSettings' :: Clicking
+2023-03-10 01:04:45 INFO  - Button 'Accounts' :: Clicking
+2023-03-10 01:04:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-10 01:04:48 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-10 01:04:49 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-10 01:04:49 INFO  - Button 'Log out' :: Clicking
+2023-03-10 01:04:50 INFO  - Button 'Log in' :: Getting text from element
+2023-03-10 01:04:52 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-10 01:04:53 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-10 01:04:53 INFO  - Unlocking credential for current thread
+2023-03-10 01:04:53 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5e8fab2e
