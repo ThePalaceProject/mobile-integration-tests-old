@@ -1,0 +1,768 @@
+2023-03-11 17:31:01 INFO  - Scenario 'Font settings: Check of font style' start
+2023-03-11 17:31:01 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-11 17:31:49 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-11 17:31:49 INFO  - Session id - a9fc202ad60a8b81989f8fc4e4bae4fbca8b4851
+2023-03-11 17:31:49 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-11 17:31:49 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-11 17:31:52 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-11 17:31:52 INFO  - Button 'Search' :: Clicking
+2023-03-11 17:31:54 INFO  - Text Field 'Search' :: Clearing
+2023-03-11 17:31:54 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-11 17:31:56 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 17:31:56 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-11 17:31:56 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:31:57 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:31:58 INFO  - Button 'Accounts' :: Clicking
+2023-03-11 17:32:00 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-11 17:32:00 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:32:01 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:32:01 INFO  - Button 'Accounts' :: Clicking
+2023-03-11 17:32:02 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 17:32:03 INFO  - Locking credential with barcode 01230000000305
+2023-03-11 17:32:03 INFO  - There are books on the account: 
+2023-03-11 17:32:04 INFO  - There is not books on the account.
+2023-03-11 17:32:04 INFO  - Count of books on the account after opening account: 0
+2023-03-11 17:32:04 INFO  - Text Field 'Card' :: Clearing
+2023-03-11 17:32:04 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-03-11 17:32:06 INFO  - Text Field 'Pin' :: Clearing
+2023-03-11 17:32:06 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-11 17:32:08 INFO  - Button 'Log in' :: Clicking
+2023-03-11 17:32:14 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-11 17:32:14 INFO  - Step 3 - Login is performed successfully
+2023-03-11 17:32:35 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-11 17:32:35 INFO  - Step 4 - I open Catalog
+2023-03-11 17:32:35 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-11 17:32:56 INFO  - Step 5 - I open search modal
+2023-03-11 17:33:16 INFO  - Button 'Search' :: Clicking
+2023-03-11 17:33:17 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-11 17:33:17 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-11 17:33:17 INFO  - randomBookName: As Good as Gone
+2023-03-11 17:33:17 INFO  - Error details button is not present
+2023-03-11 17:33:17 INFO  - Text Field 'Search value input' :: Sending keys 'As Good as Gone'
+2023-03-11 17:33:19 INFO  - Error details button is not present
+2023-03-11 17:33:23 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 17:33:24 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 17:33:24 INFO  - Button 'actionButton' :: Clicking
+2023-03-11 17:33:30 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 17:33:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 17:33:31 INFO  - Label 'lblBookName' :: Clicking
+2023-03-11 17:33:31 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-11 17:33:32 INFO  - Button 'Read' :: Clicking
+2023-03-11 17:33:33 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-11 17:33:33 INFO  - Scrolling 8 times on reader epub screen
+2023-03-11 17:33:51 INFO  - Step 11 - I open font settings
+2023-03-11 17:33:51 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-11 17:33:52 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-03-11 17:33:52 INFO  - Button 'setFontSerif' :: Clicking
+2023-03-11 17:33:52 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-03-11 17:33:53 INFO  - context - NATIVE_APP
+2023-03-11 17:33:53 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-11 17:33:53 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-11 17:33:53 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Chapter</title>
+  <link href="../Styles/idGeneratedStyles_0.css" rel="stylesheet" type="text/css" />
+  <link href="../Styles/idGeneratedStyles_2.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body id="Chapter" xml:lang="en-US">
+  <div class="Basic-Text-Frame" id="_idContainer005">
+    <p class="CN---CT" id="_idParaDest-1"><a id="_idTextAnchor000"></a>ONE</p>
+
+    <p class="TEXT_CO-para">He’s watching, Bill Sidey thinks. My father is watching me at this very moment. But Bill can’t take his eyes off the road, a steep, twisting two-­track trail that winds down from the top of the butte to the canyon floor.</p>
+
+    <p class="TEXT_Main">A juniper bush scratches the side of the car and Bill winces. Something that sounds more solid than weeds scrapes along the undercarriage. But there’s nothing Bill can do other than keep the tires in the ruts and feather the brakes to make sure he doesn’t lose control on his descent.</p>
+
+    <p class="TEXT_Main">And sure enough, when the road finally levels off and Bill permits himself a look farther ahead, he sees the figure that he’s sure has been there all along. A tall, lean white-­haired man stands in the open doorway of a twenty-­foot house trailer, his hands jammed in the pockets of his faded Levi’s. Calvin Sidey, Bill’s father. A hawk with prey in sight could not watch more intently.</p>
+
+    <p class="TEXT_Main">Bill parks next to the familiar old Ford truck, yet his father makes no move to come forward. Bill climbs out of the car, and when he slams the door behind him, it sets up an echo that bounces from one canyon wall to the other.</p>
+
+    <p class="TEXT_Main">He lives here, Bill thinks, so he can see the enemy approach. It’s the same thought he’s had on the other occasions when he’s driven out to his father’s home, but this time Bill wonders if even he has that status in his father’s eyes.</p>
+
+    <p class="TEXT_Main">His father calls out warily, “I didn’t know you were coming.”</p>
+
+    <p class="TEXT_Main">To that Bill has no response. His father doesn’t have a telephone. He picks up his mail no more than once or twice a week. How can anyone, son or stranger, notify Calvin Sidey of an impending visit?</p>
+
+    <p class="TEXT_Main">His father tries again. “What brings you out this way?”</p>
+
+    <p class="TEXT_Main">And that’s Calvin Sidey in a sentence: Let’s get to it. Well, that suits Bill too. When he looks toward his father, Bill has to shield his eyes against the sun glinting off the trailer’s aluminum siding.</p>
+
+    <p class="TEXT_Main">“I’ve got a favor to ask.”</p>
+
+    <p class="TEXT_Main">His father steps back inside the trailer, but since he doesn’t shut and lock the door behind him, Bill understands that he’s supposed to follow.</p>
+
+    <p class="TEXT_Main">The trailer’s interior, even with windows open on every side, must be fifteen degrees hotter than the July afternoon that’s already topped ninety degrees. “Can I get you a cup of coffee?” his father asks.</p>
+
+    <p class="TEXT_Main">“Coffee? Jesus. No. A glass of water? Please.”</p>
+
+    <p class="TEXT_Main">The trailer is exactly as Bill remembers it, and why not. It’s likely that nothing more than the calendar page has changed since Bill was last here, though he can’t recall when that might have been. His father has his life stripped down to the essentials, and for everything that’s left he has a hook, shelf, bin, drawer, peg, or rack. Bill guesses that in the cupboard there are no more than one or at most two plates, bowls, glasses, and cups. In the same cupboard will be a can of coffee, a box of oatmeal, a few cans of soup and beans, lard, crackers, flour, sugar, salt, and pepper. Above the two burner stove hang a sauce pan and a frying pan. On a shelf above the neatly made bed is a short row of books, and though Bill can’t see the titles, he doesn’t have to. These are his father’s copies of Virgil, Horace, Juvenal, Ovid, Cicero, Catullus, and Pliny. The homemade gun rack above the door holds his Winchester lever-­action .30-­30, a twelve-­gauge Remington pump shotgun, and a fishing pole. And there’s that calendar, hanging right next to the door. It’s this year’s and the page is turned to the correct month, but Bill wonders if his father knows the date. Even if he does, the day surely doesn’t mean “holiday” to him the way it does for most Americans, though it’s hard to imagine a man who values independence more than Calvin Sidey.</p>
+
+    <p class="TEXT_Main">Bill stands by the small kitchen table, but since his father has not invited him to sit down, Bill doesn’t pull out one of the two chairs. And why two, Bill wonders, since his father lives alone and never has guests.</p>
+
+    <p class="TEXT_Main">From a pitcher on the counter Calvin Sidey pours water into a glass, then sets the glass on the table next to an open book. Bill can’t decipher any of the words on the page because the book is in Latin, a subject Bill never studied in school but which his father has never stopped studying and translating. Also on the table is an ashtray containing a few butts of hand-­rolled cigarettes.</p>
+
+    <p class="TEXT_Main">Bill brings the glass to his lips and drinks. The water isn’t very cold and it has a brassy odor.</p>
+
+    <p class="TEXT_Main">“Why don’t you move this trailer, Dad? That stand of cottonwoods can’t be more than fifty yards away, and if you were parked over there, you’d have some shade.”</p>
+
+    <p class="TEXT_Main">His father crosses his arms. “You said you had a favor to ask.”</p>
+
+    <p class="TEXT_Main">Bill is sweating in these close quarters, and he loosens his tie and collar. “Marjorie needs an operation.”</p>
+
+    <p class="TEXT_Main">“Uh-­huh.”</p>
+
+    <p class="TEXT_Main">“She has to have a hysterectomy. It’s an operation to—”</p>
+
+    <p class="TEXT_Main">“I know what a hysterectomy is. What I don’t know is why you felt you had to come out here and tell me about it in person. How serious is this?”</p>
+
+    <p class="TEXT_Main">“She has . . . not tumors, exactly. But growths, painful growths.”</p>
+
+    <p class="TEXT_Main">“All right,” his father says. “I’m sorry to hear this. But you drove all the way out here . . . What’s the favor you need?”</p>
+
+    <p class="TEXT_Main">“Do you mind if I sit down?” Bill asks, then pulls out a chair before his father can answer.</p>
+
+    <p class="TEXT_Main">There’s an odor in the trailer that Bill can’t quite place, a smell reminiscent of gasoline or fresh paint. He looks around to see if his father has recently painted or varnished something. Then it comes to him. Kerosene. Lacking electricity, his father relies on candles or kerosene lamps. It’s 1963, but in many ways his father is living in the nineteenth century. Of course it’s stifling inside the trailer, Bill thinks. His father doesn’t even have a fan to stir the heat or a refrigerator to keep food cold. And not far from the trailer is an outhouse . . .</p>
+
+    <p class="TEXT_Main">“There’s a doctor in Missoula who’ll perform the operation,” Bill says. “Carole—you remember Marjorie’s sister?—had the same condition as Marjorie. Same symptoms. Same tests. Apparently it’s something that runs in the family. And Carole had the surgery. Before then, she’d tried everything, and she says if it wasn’t for the operation, she’d still be suffering.”</p>
+
+    <p class="TEXT_Main">“Most women would just bite down hard and wait for the misery to pass. Which it will.”</p>
+
+    <p class="TEXT_Main">“<em>Most</em> women?”</p>
+
+    <p class="TEXT_Main">“In my experience.”</p>
+
+    <p class="TEXT_Main">“Something of an expert, are you, Dad?”</p>
+
+    <p class="TEXT_Main">His father ignores this question. “Marjorie has to go to Missoula? I know Gladstone’s got doctors who can perform a hysterectomy.”</p>
+
+    <p class="TEXT_Main">Bill has to smile. His father is still loyal to Gladstone, though he turned his back on the town almost thirty years ago.</p>
+
+    <p class="TEXT_Main">“How about Mitch McCoy?” his father says. “Last I heard he was still practicing.”</p>
+
+    <p class="TEXT_Main">“The last you heard? When was that? Dr. McCoy is in a nursing home in Miles City.”</p>
+
+    <p class="TEXT_Main">“Mitchell McCoy? Are you sure?”</p>
+
+    <p class="TEXT_Main">The heat, the long drive, his father’s questions . . . Bill Sidey suddenly feels tired. He leans on his hand and rubs his eyes. “Yeah, Dad. I’m sure. Look, I can’t pretend to explain it very well. Apparently the Missoula doctor has a special procedure. He doesn’t take out the entire womb or something. The point is, Marjorie wants the operation. She <em>needs</em> the operation.”</p>
+
+    <p class="TEXT_Main">“And I reckon you’re all set for her to have what she needs.”</p>
+
+    <p class="TEXT_Main">“We’re leaving in a few days.”</p>
+
+    <p class="TEXT_Main">“Uh-­huh.”</p>
+
+    <p class="TEXT_Main">Bill inhales deeply and then exhales, but the heat seems to prevent his breath from traveling far. “That’s what I wanted to ask you about, Dad. Would you be willing to stay with the kids while Marjorie and I are in Missoula?”</p>
+
+    <p class="TEXT_Main">His father involuntarily takes a step back. “Have you spoken to your sister about this?”</p>
+
+    <p class="TEXT_Main">“Jeanette and I have sort of lost touch. I assume she’s still in New Hampshire. We send the Christmas and birthday cards there and they don’t come back undeliverable. Of course, we don’t get any acknowledgment from her either. How about you?” Bill asks, though he’s certain of the answer. “Do you hear from her?”</p>
+
+    <p class="TEXT_Main">His father gives a quick shake of his head.</p>
+
+    <p class="TEXT_Main">“What I’m asking you for,” says Bill, “wouldn’t be more than a week. At most.”</p>
+
+    <p class="TEXT_Main">“You’re traveling in a few days, you say?”</p>
+
+    <p class="TEXT_Main">He’s trying to find a way to say no, Bill thinks. He’s out of practice, and he can’t find a reason quick enough. Why doesn’t he come right out and say it—they’re not my kids or my responsibility. He could say it when the children were his own, so what’s stopping him now? Suddenly, Bill, who all his life has felt diminished in this man’s presence, feels an odd surge of power.</p>
+
+    <p class="TEXT_Main">“Ann and Will,” says Bill. “In case you’re trying to recall their names. Ann’s seventeen and Will’s eleven.”</p>
+
+    <p class="TEXT_Main">“I know my grandchildren’s names.”</p>
+
+    <p class="TEXT_Main">“Ann’s working at J. C. Penney this summer,” Bill continues. “That’s why I’m asking you for this favor. Ordinarily Ann could take care of her brother. And take care of the house. But with the hours she’s working, Will would be alone too much of the day.”</p>
+
+    <p class="TEXT_Main">From out of his shirt pocket, his father takes a packet of cigarette papers, and when he looks around for his tin of Sir Walter Raleigh, Bill hurries to offer his father one of his own Camels. The men light their cigarettes, and while this action has given his father an extra minute to think, it’s less time than he would have had rolling his own.</p>
+
+    <p class="TEXT_Main">“Have you been working, Dad?” There, Bill thinks, he has opened a door through which his father can escape. He can simply excuse himself by saying he has the obligations of a job.</p>
+
+    <p class="TEXT_Main">“Not since last fall,” his father says. “I helped George Tell move his herd down from summer pasture. I’m sure he moved them back up last month, but I didn’t hear from him. Before that? I don’t recall.”</p>
+
+    <p class="TEXT_Main">“We <em>could</em> hire a babysitter,” Bill says. “A college girl home for the summer perhaps. Though that might embarrass Ann, someone there so close to her age. Or maybe we could find a farm girl. But you know the house, Dad. And the business. And you’re—”</p>
+
+    <p class="TEXT_Main">Bill isn’t sure why he suddenly stops short of uttering the word, especially since it’s the word that he came here to say to his father.</p>
+
+    <p class="TEXT_Main">“I’m what?”</p>
+
+    <p class="TEXT_Main">“Family,” says Bill, relieved that the word didn’t snag on the way out.</p>
+
+    <p class="TEXT_Main">His father draws deep on the Camel, lets the smoke drift from his nostrils, then examines the cigarette as if he’s never smoked a tailor-­made before. “When did you say you’re leaving?” he says.</p>
+
+    <p class="TEXT_Main">“Sunday. Right after church. And Dad? I’m not asking you to do anything with the kids. Just to be there. Just in case.”</p>
+
+    <p class="TEXT_Main">His father walks to the trailer door, opens it, and flicks his cigarette outside. “I’ll be there Saturday,” he says.</p>
+
+    <p class="TEXT_Main">His father remains in the doorway, his hand on the handle of the screen door. Just as Bill understood earlier that he was supposed to follow his father inside the trailer, now he understands that he’s expected to leave. “I’ll look for you then,” Bill says.</p>
+
+    <p class="TEXT_Main">He steps out into the shadowless sunlight, and though the air’s not moving outside the trailer any more than it was inside—it’s the rare calm day in this part of Montana—Bill feels as though his first breath outdoors goes right to the bottom of his lungs.</p>
+
+    <p class="TEXT_Main">“And Bill,” his father calls after him. “Don’t put anyone out of their room. I’ll fix up a little space in the basement.”</p>
+
+    <p class="TEXT_Main">“The basement? Dad . . .”</p>
+
+    <p class="TEXT_Main">“It’ll be cooler down there.”</p>
+
+    <p class="TEXT_Main">Cooler? Bill thinks but doesn’t say. Yet you live here?</p>
+
+    <p class="TEXT_Main">“And it’ll give me some privacy,” his father adds.</p>
+
+    <p class="TEXT_Main">Privacy for what? Bill thinks. “Whatever you say, Dad. I’ll see you Saturday.”</p>
+
+    <p class="text--space-break"><span class="sc-space-break _idGenCharOverride-1">FROM INSIDE THE TRAILER,</span> Calvin watches his son drive away. He wonders why he said yes to his son’s request, which, he can’t help noting, was offered without a please and accepted without a thank-­you. Hadn’t he banished long ago any feelings of obligation to others? Did he say yes simply because of blood? Could he have said no to anyone but his son? Or is this solitary life less endurable than he believes? Maybe he would have listened to any request that tried to bring him back inside the human circle. Well, no point in speculating. He said yes.</p>
+
+    <p class="TEXT_Main">The car is out of sight now, but he can hear it, the engine laboring hard as it tries to crest the butte. Shift down, God damn it, Calvin thinks. Though Bill has climbed plenty of hills without his father’s help.</p>
+
+    <p class="TEXT_Main">Calvin walks back to the table. He stands over the book he’d been reading earlier. He flips pages until he comes to a poem he knows well. The words are in Latin, but in English he recites softly, “Now he is treading that dark road to the place from which they say no one has ever returned.” Calvin has to smile to himself. Such portentous lines for a bird.</p>
+  </div>
+</body>
+</html>
+2023-03-11 17:33:53 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-11 17:33:54 INFO  - Step 14 - I restart app
+2023-03-11 17:34:18 INFO  - Step 15 - I open Books
+2023-03-11 17:34:18 INFO  - Button 'tabBooks' :: Clicking
+2023-03-11 17:34:18 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-11 17:34:19 INFO  - Label 'lblBookName' :: Clicking
+2023-03-11 17:34:20 INFO  - Step 17 - Click READ action button on book details screen
+2023-03-11 17:34:21 INFO  - Button 'Read' :: Clicking
+2023-03-11 17:34:21 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-03-11 17:34:21 INFO  - context - NATIVE_APP
+2023-03-11 17:34:21 INFO  - context - NATIVE_APP
+2023-03-11 17:34:23 INFO  - context - NATIVE_APP
+2023-03-11 17:34:23 INFO  - context - NATIVE_APP
+2023-03-11 17:34:23 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-11 17:34:24 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-11 17:34:24 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Chapter</title>
+  <link href="../Styles/idGeneratedStyles_0.css" rel="stylesheet" type="text/css" />
+  <link href="../Styles/idGeneratedStyles_2.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body id="Chapter" xml:lang="en-US">
+  <div class="Basic-Text-Frame" id="_idContainer005">
+    <p class="CN---CT" id="_idParaDest-1"><a id="_idTextAnchor000"></a>ONE</p>
+
+    <p class="TEXT_CO-para">He’s watching, Bill Sidey thinks. My father is watching me at this very moment. But Bill can’t take his eyes off the road, a steep, twisting two-­track trail that winds down from the top of the butte to the canyon floor.</p>
+
+    <p class="TEXT_Main">A juniper bush scratches the side of the car and Bill winces. Something that sounds more solid than weeds scrapes along the undercarriage. But there’s nothing Bill can do other than keep the tires in the ruts and feather the brakes to make sure he doesn’t lose control on his descent.</p>
+
+    <p class="TEXT_Main">And sure enough, when the road finally levels off and Bill permits himself a look farther ahead, he sees the figure that he’s sure has been there all along. A tall, lean white-­haired man stands in the open doorway of a twenty-­foot house trailer, his hands jammed in the pockets of his faded Levi’s. Calvin Sidey, Bill’s father. A hawk with prey in sight could not watch more intently.</p>
+
+    <p class="TEXT_Main">Bill parks next to the familiar old Ford truck, yet his father makes no move to come forward. Bill climbs out of the car, and when he slams the door behind him, it sets up an echo that bounces from one canyon wall to the other.</p>
+
+    <p class="TEXT_Main">He lives here, Bill thinks, so he can see the enemy approach. It’s the same thought he’s had on the other occasions when he’s driven out to his father’s home, but this time Bill wonders if even he has that status in his father’s eyes.</p>
+
+    <p class="TEXT_Main">His father calls out warily, “I didn’t know you were coming.”</p>
+
+    <p class="TEXT_Main">To that Bill has no response. His father doesn’t have a telephone. He picks up his mail no more than once or twice a week. How can anyone, son or stranger, notify Calvin Sidey of an impending visit?</p>
+
+    <p class="TEXT_Main">His father tries again. “What brings you out this way?”</p>
+
+    <p class="TEXT_Main">And that’s Calvin Sidey in a sentence: Let’s get to it. Well, that suits Bill too. When he looks toward his father, Bill has to shield his eyes against the sun glinting off the trailer’s aluminum siding.</p>
+
+    <p class="TEXT_Main">“I’ve got a favor to ask.”</p>
+
+    <p class="TEXT_Main">His father steps back inside the trailer, but since he doesn’t shut and lock the door behind him, Bill understands that he’s supposed to follow.</p>
+
+    <p class="TEXT_Main">The trailer’s interior, even with windows open on every side, must be fifteen degrees hotter than the July afternoon that’s already topped ninety degrees. “Can I get you a cup of coffee?” his father asks.</p>
+
+    <p class="TEXT_Main">“Coffee? Jesus. No. A glass of water? Please.”</p>
+
+    <p class="TEXT_Main">The trailer is exactly as Bill remembers it, and why not. It’s likely that nothing more than the calendar page has changed since Bill was last here, though he can’t recall when that might have been. His father has his life stripped down to the essentials, and for everything that’s left he has a hook, shelf, bin, drawer, peg, or rack. Bill guesses that in the cupboard there are no more than one or at most two plates, bowls, glasses, and cups. In the same cupboard will be a can of coffee, a box of oatmeal, a few cans of soup and beans, lard, crackers, flour, sugar, salt, and pepper. Above the two burner stove hang a sauce pan and a frying pan. On a shelf above the neatly made bed is a short row of books, and though Bill can’t see the titles, he doesn’t have to. These are his father’s copies of Virgil, Horace, Juvenal, Ovid, Cicero, Catullus, and Pliny. The homemade gun rack above the door holds his Winchester lever-­action .30-­30, a twelve-­gauge Remington pump shotgun, and a fishing pole. And there’s that calendar, hanging right next to the door. It’s this year’s and the page is turned to the correct month, but Bill wonders if his father knows the date. Even if he does, the day surely doesn’t mean “holiday” to him the way it does for most Americans, though it’s hard to imagine a man who values independence more than Calvin Sidey.</p>
+
+    <p class="TEXT_Main">Bill stands by the small kitchen table, but since his father has not invited him to sit down, Bill doesn’t pull out one of the two chairs. And why two, Bill wonders, since his father lives alone and never has guests.</p>
+
+    <p class="TEXT_Main">From a pitcher on the counter Calvin Sidey pours water into a glass, then sets the glass on the table next to an open book. Bill can’t decipher any of the words on the page because the book is in Latin, a subject Bill never studied in school but which his father has never stopped studying and translating. Also on the table is an ashtray containing a few butts of hand-­rolled cigarettes.</p>
+
+    <p class="TEXT_Main">Bill brings the glass to his lips and drinks. The water isn’t very cold and it has a brassy odor.</p>
+
+    <p class="TEXT_Main">“Why don’t you move this trailer, Dad? That stand of cottonwoods can’t be more than fifty yards away, and if you were parked over there, you’d have some shade.”</p>
+
+    <p class="TEXT_Main">His father crosses his arms. “You said you had a favor to ask.”</p>
+
+    <p class="TEXT_Main">Bill is sweating in these close quarters, and he loosens his tie and collar. “Marjorie needs an operation.”</p>
+
+    <p class="TEXT_Main">“Uh-­huh.”</p>
+
+    <p class="TEXT_Main">“She has to have a hysterectomy. It’s an operation to—”</p>
+
+    <p class="TEXT_Main">“I know what a hysterectomy is. What I don’t know is why you felt you had to come out here and tell me about it in person. How serious is this?”</p>
+
+    <p class="TEXT_Main">“She has . . . not tumors, exactly. But growths, painful growths.”</p>
+
+    <p class="TEXT_Main">“All right,” his father says. “I’m sorry to hear this. But you drove all the way out here . . . What’s the favor you need?”</p>
+
+    <p class="TEXT_Main">“Do you mind if I sit down?” Bill asks, then pulls out a chair before his father can answer.</p>
+
+    <p class="TEXT_Main">There’s an odor in the trailer that Bill can’t quite place, a smell reminiscent of gasoline or fresh paint. He looks around to see if his father has recently painted or varnished something. Then it comes to him. Kerosene. Lacking electricity, his father relies on candles or kerosene lamps. It’s 1963, but in many ways his father is living in the nineteenth century. Of course it’s stifling inside the trailer, Bill thinks. His father doesn’t even have a fan to stir the heat or a refrigerator to keep food cold. And not far from the trailer is an outhouse . . .</p>
+
+    <p class="TEXT_Main">“There’s a doctor in Missoula who’ll perform the operation,” Bill says. “Carole—you remember Marjorie’s sister?—had the same condition as Marjorie. Same symptoms. Same tests. Apparently it’s something that runs in the family. And Carole had the surgery. Before then, she’d tried everything, and she says if it wasn’t for the operation, she’d still be suffering.”</p>
+
+    <p class="TEXT_Main">“Most women would just bite down hard and wait for the misery to pass. Which it will.”</p>
+
+    <p class="TEXT_Main">“<em>Most</em> women?”</p>
+
+    <p class="TEXT_Main">“In my experience.”</p>
+
+    <p class="TEXT_Main">“Something of an expert, are you, Dad?”</p>
+
+    <p class="TEXT_Main">His father ignores this question. “Marjorie has to go to Missoula? I know Gladstone’s got doctors who can perform a hysterectomy.”</p>
+
+    <p class="TEXT_Main">Bill has to smile. His father is still loyal to Gladstone, though he turned his back on the town almost thirty years ago.</p>
+
+    <p class="TEXT_Main">“How about Mitch McCoy?” his father says. “Last I heard he was still practicing.”</p>
+
+    <p class="TEXT_Main">“The last you heard? When was that? Dr. McCoy is in a nursing home in Miles City.”</p>
+
+    <p class="TEXT_Main">“Mitchell McCoy? Are you sure?”</p>
+
+    <p class="TEXT_Main">The heat, the long drive, his father’s questions . . . Bill Sidey suddenly feels tired. He leans on his hand and rubs his eyes. “Yeah, Dad. I’m sure. Look, I can’t pretend to explain it very well. Apparently the Missoula doctor has a special procedure. He doesn’t take out the entire womb or something. The point is, Marjorie wants the operation. She <em>needs</em> the operation.”</p>
+
+    <p class="TEXT_Main">“And I reckon you’re all set for her to have what she needs.”</p>
+
+    <p class="TEXT_Main">“We’re leaving in a few days.”</p>
+
+    <p class="TEXT_Main">“Uh-­huh.”</p>
+
+    <p class="TEXT_Main">Bill inhales deeply and then exhales, but the heat seems to prevent his breath from traveling far. “That’s what I wanted to ask you about, Dad. Would you be willing to stay with the kids while Marjorie and I are in Missoula?”</p>
+
+    <p class="TEXT_Main">His father involuntarily takes a step back. “Have you spoken to your sister about this?”</p>
+
+    <p class="TEXT_Main">“Jeanette and I have sort of lost touch. I assume she’s still in New Hampshire. We send the Christmas and birthday cards there and they don’t come back undeliverable. Of course, we don’t get any acknowledgment from her either. How about you?” Bill asks, though he’s certain of the answer. “Do you hear from her?”</p>
+
+    <p class="TEXT_Main">His father gives a quick shake of his head.</p>
+
+    <p class="TEXT_Main">“What I’m asking you for,” says Bill, “wouldn’t be more than a week. At most.”</p>
+
+    <p class="TEXT_Main">“You’re traveling in a few days, you say?”</p>
+
+    <p class="TEXT_Main">He’s trying to find a way to say no, Bill thinks. He’s out of practice, and he can’t find a reason quick enough. Why doesn’t he come right out and say it—they’re not my kids or my responsibility. He could say it when the children were his own, so what’s stopping him now? Suddenly, Bill, who all his life has felt diminished in this man’s presence, feels an odd surge of power.</p>
+
+    <p class="TEXT_Main">“Ann and Will,” says Bill. “In case you’re trying to recall their names. Ann’s seventeen and Will’s eleven.”</p>
+
+    <p class="TEXT_Main">“I know my grandchildren’s names.”</p>
+
+    <p class="TEXT_Main">“Ann’s working at J. C. Penney this summer,” Bill continues. “That’s why I’m asking you for this favor. Ordinarily Ann could take care of her brother. And take care of the house. But with the hours she’s working, Will would be alone too much of the day.”</p>
+
+    <p class="TEXT_Main">From out of his shirt pocket, his father takes a packet of cigarette papers, and when he looks around for his tin of Sir Walter Raleigh, Bill hurries to offer his father one of his own Camels. The men light their cigarettes, and while this action has given his father an extra minute to think, it’s less time than he would have had rolling his own.</p>
+
+    <p class="TEXT_Main">“Have you been working, Dad?” There, Bill thinks, he has opened a door through which his father can escape. He can simply excuse himself by saying he has the obligations of a job.</p>
+
+    <p class="TEXT_Main">“Not since last fall,” his father says. “I helped George Tell move his herd down from summer pasture. I’m sure he moved them back up last month, but I didn’t hear from him. Before that? I don’t recall.”</p>
+
+    <p class="TEXT_Main">“We <em>could</em> hire a babysitter,” Bill says. “A college girl home for the summer perhaps. Though that might embarrass Ann, someone there so close to her age. Or maybe we could find a farm girl. But you know the house, Dad. And the business. And you’re—”</p>
+
+    <p class="TEXT_Main">Bill isn’t sure why he suddenly stops short of uttering the word, especially since it’s the word that he came here to say to his father.</p>
+
+    <p class="TEXT_Main">“I’m what?”</p>
+
+    <p class="TEXT_Main">“Family,” says Bill, relieved that the word didn’t snag on the way out.</p>
+
+    <p class="TEXT_Main">His father draws deep on the Camel, lets the smoke drift from his nostrils, then examines the cigarette as if he’s never smoked a tailor-­made before. “When did you say you’re leaving?” he says.</p>
+
+    <p class="TEXT_Main">“Sunday. Right after church. And Dad? I’m not asking you to do anything with the kids. Just to be there. Just in case.”</p>
+
+    <p class="TEXT_Main">His father walks to the trailer door, opens it, and flicks his cigarette outside. “I’ll be there Saturday,” he says.</p>
+
+    <p class="TEXT_Main">His father remains in the doorway, his hand on the handle of the screen door. Just as Bill understood earlier that he was supposed to follow his father inside the trailer, now he understands that he’s expected to leave. “I’ll look for you then,” Bill says.</p>
+
+    <p class="TEXT_Main">He steps out into the shadowless sunlight, and though the air’s not moving outside the trailer any more than it was inside—it’s the rare calm day in this part of Montana—Bill feels as though his first breath outdoors goes right to the bottom of his lungs.</p>
+
+    <p class="TEXT_Main">“And Bill,” his father calls after him. “Don’t put anyone out of their room. I’ll fix up a little space in the basement.”</p>
+
+    <p class="TEXT_Main">“The basement? Dad . . .”</p>
+
+    <p class="TEXT_Main">“It’ll be cooler down there.”</p>
+
+    <p class="TEXT_Main">Cooler? Bill thinks but doesn’t say. Yet you live here?</p>
+
+    <p class="TEXT_Main">“And it’ll give me some privacy,” his father adds.</p>
+
+    <p class="TEXT_Main">Privacy for what? Bill thinks. “Whatever you say, Dad. I’ll see you Saturday.”</p>
+
+    <p class="text--space-break"><span class="sc-space-break _idGenCharOverride-1">FROM INSIDE THE TRAILER,</span> Calvin watches his son drive away. He wonders why he said yes to his son’s request, which, he can’t help noting, was offered without a please and accepted without a thank-­you. Hadn’t he banished long ago any feelings of obligation to others? Did he say yes simply because of blood? Could he have said no to anyone but his son? Or is this solitary life less endurable than he believes? Maybe he would have listened to any request that tried to bring him back inside the human circle. Well, no point in speculating. He said yes.</p>
+
+    <p class="TEXT_Main">The car is out of sight now, but he can hear it, the engine laboring hard as it tries to crest the butte. Shift down, God damn it, Calvin thinks. Though Bill has climbed plenty of hills without his father’s help.</p>
+
+    <p class="TEXT_Main">Calvin walks back to the table. He stands over the book he’d been reading earlier. He flips pages until he comes to a poem he knows well. The words are in Latin, but in English he recites softly, “Now he is treading that dark road to the place from which they say no one has ever returned.” Calvin has to smile to himself. Such portentous lines for a bird.</p>
+  </div>
+</body>
+</html>
+2023-03-11 17:34:24 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-11 17:34:24 INFO  - Step 19 - I return to previous screen from epub
+2023-03-11 17:34:25 INFO  - Button 'btnBack' :: Clicking
+2023-03-11 17:34:25 INFO  - Step 20 - Click READ action button on book details screen
+2023-03-11 17:34:26 INFO  - Button 'Read' :: Clicking
+2023-03-11 17:34:26 INFO  - Step 21 - Book text displays in FONT_SERIF font
+2023-03-11 17:34:27 INFO  - context - NATIVE_APP
+2023-03-11 17:34:27 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-11 17:34:28 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-11 17:34:28 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Chapter</title>
+  <link href="../Styles/idGeneratedStyles_0.css" rel="stylesheet" type="text/css" />
+  <link href="../Styles/idGeneratedStyles_2.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body id="Chapter" xml:lang="en-US">
+  <div class="Basic-Text-Frame" id="_idContainer005">
+    <p class="CN---CT" id="_idParaDest-1"><a id="_idTextAnchor000"></a>ONE</p>
+
+    <p class="TEXT_CO-para">He’s watching, Bill Sidey thinks. My father is watching me at this very moment. But Bill can’t take his eyes off the road, a steep, twisting two-­track trail that winds down from the top of the butte to the canyon floor.</p>
+
+    <p class="TEXT_Main">A juniper bush scratches the side of the car and Bill winces. Something that sounds more solid than weeds scrapes along the undercarriage. But there’s nothing Bill can do other than keep the tires in the ruts and feather the brakes to make sure he doesn’t lose control on his descent.</p>
+
+    <p class="TEXT_Main">And sure enough, when the road finally levels off and Bill permits himself a look farther ahead, he sees the figure that he’s sure has been there all along. A tall, lean white-­haired man stands in the open doorway of a twenty-­foot house trailer, his hands jammed in the pockets of his faded Levi’s. Calvin Sidey, Bill’s father. A hawk with prey in sight could not watch more intently.</p>
+
+    <p class="TEXT_Main">Bill parks next to the familiar old Ford truck, yet his father makes no move to come forward. Bill climbs out of the car, and when he slams the door behind him, it sets up an echo that bounces from one canyon wall to the other.</p>
+
+    <p class="TEXT_Main">He lives here, Bill thinks, so he can see the enemy approach. It’s the same thought he’s had on the other occasions when he’s driven out to his father’s home, but this time Bill wonders if even he has that status in his father’s eyes.</p>
+
+    <p class="TEXT_Main">His father calls out warily, “I didn’t know you were coming.”</p>
+
+    <p class="TEXT_Main">To that Bill has no response. His father doesn’t have a telephone. He picks up his mail no more than once or twice a week. How can anyone, son or stranger, notify Calvin Sidey of an impending visit?</p>
+
+    <p class="TEXT_Main">His father tries again. “What brings you out this way?”</p>
+
+    <p class="TEXT_Main">And that’s Calvin Sidey in a sentence: Let’s get to it. Well, that suits Bill too. When he looks toward his father, Bill has to shield his eyes against the sun glinting off the trailer’s aluminum siding.</p>
+
+    <p class="TEXT_Main">“I’ve got a favor to ask.”</p>
+
+    <p class="TEXT_Main">His father steps back inside the trailer, but since he doesn’t shut and lock the door behind him, Bill understands that he’s supposed to follow.</p>
+
+    <p class="TEXT_Main">The trailer’s interior, even with windows open on every side, must be fifteen degrees hotter than the July afternoon that’s already topped ninety degrees. “Can I get you a cup of coffee?” his father asks.</p>
+
+    <p class="TEXT_Main">“Coffee? Jesus. No. A glass of water? Please.”</p>
+
+    <p class="TEXT_Main">The trailer is exactly as Bill remembers it, and why not. It’s likely that nothing more than the calendar page has changed since Bill was last here, though he can’t recall when that might have been. His father has his life stripped down to the essentials, and for everything that’s left he has a hook, shelf, bin, drawer, peg, or rack. Bill guesses that in the cupboard there are no more than one or at most two plates, bowls, glasses, and cups. In the same cupboard will be a can of coffee, a box of oatmeal, a few cans of soup and beans, lard, crackers, flour, sugar, salt, and pepper. Above the two burner stove hang a sauce pan and a frying pan. On a shelf above the neatly made bed is a short row of books, and though Bill can’t see the titles, he doesn’t have to. These are his father’s copies of Virgil, Horace, Juvenal, Ovid, Cicero, Catullus, and Pliny. The homemade gun rack above the door holds his Winchester lever-­action .30-­30, a twelve-­gauge Remington pump shotgun, and a fishing pole. And there’s that calendar, hanging right next to the door. It’s this year’s and the page is turned to the correct month, but Bill wonders if his father knows the date. Even if he does, the day surely doesn’t mean “holiday” to him the way it does for most Americans, though it’s hard to imagine a man who values independence more than Calvin Sidey.</p>
+
+    <p class="TEXT_Main">Bill stands by the small kitchen table, but since his father has not invited him to sit down, Bill doesn’t pull out one of the two chairs. And why two, Bill wonders, since his father lives alone and never has guests.</p>
+
+    <p class="TEXT_Main">From a pitcher on the counter Calvin Sidey pours water into a glass, then sets the glass on the table next to an open book. Bill can’t decipher any of the words on the page because the book is in Latin, a subject Bill never studied in school but which his father has never stopped studying and translating. Also on the table is an ashtray containing a few butts of hand-­rolled cigarettes.</p>
+
+    <p class="TEXT_Main">Bill brings the glass to his lips and drinks. The water isn’t very cold and it has a brassy odor.</p>
+
+    <p class="TEXT_Main">“Why don’t you move this trailer, Dad? That stand of cottonwoods can’t be more than fifty yards away, and if you were parked over there, you’d have some shade.”</p>
+
+    <p class="TEXT_Main">His father crosses his arms. “You said you had a favor to ask.”</p>
+
+    <p class="TEXT_Main">Bill is sweating in these close quarters, and he loosens his tie and collar. “Marjorie needs an operation.”</p>
+
+    <p class="TEXT_Main">“Uh-­huh.”</p>
+
+    <p class="TEXT_Main">“She has to have a hysterectomy. It’s an operation to—”</p>
+
+    <p class="TEXT_Main">“I know what a hysterectomy is. What I don’t know is why you felt you had to come out here and tell me about it in person. How serious is this?”</p>
+
+    <p class="TEXT_Main">“She has . . . not tumors, exactly. But growths, painful growths.”</p>
+
+    <p class="TEXT_Main">“All right,” his father says. “I’m sorry to hear this. But you drove all the way out here . . . What’s the favor you need?”</p>
+
+    <p class="TEXT_Main">“Do you mind if I sit down?” Bill asks, then pulls out a chair before his father can answer.</p>
+
+    <p class="TEXT_Main">There’s an odor in the trailer that Bill can’t quite place, a smell reminiscent of gasoline or fresh paint. He looks around to see if his father has recently painted or varnished something. Then it comes to him. Kerosene. Lacking electricity, his father relies on candles or kerosene lamps. It’s 1963, but in many ways his father is living in the nineteenth century. Of course it’s stifling inside the trailer, Bill thinks. His father doesn’t even have a fan to stir the heat or a refrigerator to keep food cold. And not far from the trailer is an outhouse . . .</p>
+
+    <p class="TEXT_Main">“There’s a doctor in Missoula who’ll perform the operation,” Bill says. “Carole—you remember Marjorie’s sister?—had the same condition as Marjorie. Same symptoms. Same tests. Apparently it’s something that runs in the family. And Carole had the surgery. Before then, she’d tried everything, and she says if it wasn’t for the operation, she’d still be suffering.”</p>
+
+    <p class="TEXT_Main">“Most women would just bite down hard and wait for the misery to pass. Which it will.”</p>
+
+    <p class="TEXT_Main">“<em>Most</em> women?”</p>
+
+    <p class="TEXT_Main">“In my experience.”</p>
+
+    <p class="TEXT_Main">“Something of an expert, are you, Dad?”</p>
+
+    <p class="TEXT_Main">His father ignores this question. “Marjorie has to go to Missoula? I know Gladstone’s got doctors who can perform a hysterectomy.”</p>
+
+    <p class="TEXT_Main">Bill has to smile. His father is still loyal to Gladstone, though he turned his back on the town almost thirty years ago.</p>
+
+    <p class="TEXT_Main">“How about Mitch McCoy?” his father says. “Last I heard he was still practicing.”</p>
+
+    <p class="TEXT_Main">“The last you heard? When was that? Dr. McCoy is in a nursing home in Miles City.”</p>
+
+    <p class="TEXT_Main">“Mitchell McCoy? Are you sure?”</p>
+
+    <p class="TEXT_Main">The heat, the long drive, his father’s questions . . . Bill Sidey suddenly feels tired. He leans on his hand and rubs his eyes. “Yeah, Dad. I’m sure. Look, I can’t pretend to explain it very well. Apparently the Missoula doctor has a special procedure. He doesn’t take out the entire womb or something. The point is, Marjorie wants the operation. She <em>needs</em> the operation.”</p>
+
+    <p class="TEXT_Main">“And I reckon you’re all set for her to have what she needs.”</p>
+
+    <p class="TEXT_Main">“We’re leaving in a few days.”</p>
+
+    <p class="TEXT_Main">“Uh-­huh.”</p>
+
+    <p class="TEXT_Main">Bill inhales deeply and then exhales, but the heat seems to prevent his breath from traveling far. “That’s what I wanted to ask you about, Dad. Would you be willing to stay with the kids while Marjorie and I are in Missoula?”</p>
+
+    <p class="TEXT_Main">His father involuntarily takes a step back. “Have you spoken to your sister about this?”</p>
+
+    <p class="TEXT_Main">“Jeanette and I have sort of lost touch. I assume she’s still in New Hampshire. We send the Christmas and birthday cards there and they don’t come back undeliverable. Of course, we don’t get any acknowledgment from her either. How about you?” Bill asks, though he’s certain of the answer. “Do you hear from her?”</p>
+
+    <p class="TEXT_Main">His father gives a quick shake of his head.</p>
+
+    <p class="TEXT_Main">“What I’m asking you for,” says Bill, “wouldn’t be more than a week. At most.”</p>
+
+    <p class="TEXT_Main">“You’re traveling in a few days, you say?”</p>
+
+    <p class="TEXT_Main">He’s trying to find a way to say no, Bill thinks. He’s out of practice, and he can’t find a reason quick enough. Why doesn’t he come right out and say it—they’re not my kids or my responsibility. He could say it when the children were his own, so what’s stopping him now? Suddenly, Bill, who all his life has felt diminished in this man’s presence, feels an odd surge of power.</p>
+
+    <p class="TEXT_Main">“Ann and Will,” says Bill. “In case you’re trying to recall their names. Ann’s seventeen and Will’s eleven.”</p>
+
+    <p class="TEXT_Main">“I know my grandchildren’s names.”</p>
+
+    <p class="TEXT_Main">“Ann’s working at J. C. Penney this summer,” Bill continues. “That’s why I’m asking you for this favor. Ordinarily Ann could take care of her brother. And take care of the house. But with the hours she’s working, Will would be alone too much of the day.”</p>
+
+    <p class="TEXT_Main">From out of his shirt pocket, his father takes a packet of cigarette papers, and when he looks around for his tin of Sir Walter Raleigh, Bill hurries to offer his father one of his own Camels. The men light their cigarettes, and while this action has given his father an extra minute to think, it’s less time than he would have had rolling his own.</p>
+
+    <p class="TEXT_Main">“Have you been working, Dad?” There, Bill thinks, he has opened a door through which his father can escape. He can simply excuse himself by saying he has the obligations of a job.</p>
+
+    <p class="TEXT_Main">“Not since last fall,” his father says. “I helped George Tell move his herd down from summer pasture. I’m sure he moved them back up last month, but I didn’t hear from him. Before that? I don’t recall.”</p>
+
+    <p class="TEXT_Main">“We <em>could</em> hire a babysitter,” Bill says. “A college girl home for the summer perhaps. Though that might embarrass Ann, someone there so close to her age. Or maybe we could find a farm girl. But you know the house, Dad. And the business. And you’re—”</p>
+
+    <p class="TEXT_Main">Bill isn’t sure why he suddenly stops short of uttering the word, especially since it’s the word that he came here to say to his father.</p>
+
+    <p class="TEXT_Main">“I’m what?”</p>
+
+    <p class="TEXT_Main">“Family,” says Bill, relieved that the word didn’t snag on the way out.</p>
+
+    <p class="TEXT_Main">His father draws deep on the Camel, lets the smoke drift from his nostrils, then examines the cigarette as if he’s never smoked a tailor-­made before. “When did you say you’re leaving?” he says.</p>
+
+    <p class="TEXT_Main">“Sunday. Right after church. And Dad? I’m not asking you to do anything with the kids. Just to be there. Just in case.”</p>
+
+    <p class="TEXT_Main">His father walks to the trailer door, opens it, and flicks his cigarette outside. “I’ll be there Saturday,” he says.</p>
+
+    <p class="TEXT_Main">His father remains in the doorway, his hand on the handle of the screen door. Just as Bill understood earlier that he was supposed to follow his father inside the trailer, now he understands that he’s expected to leave. “I’ll look for you then,” Bill says.</p>
+
+    <p class="TEXT_Main">He steps out into the shadowless sunlight, and though the air’s not moving outside the trailer any more than it was inside—it’s the rare calm day in this part of Montana—Bill feels as though his first breath outdoors goes right to the bottom of his lungs.</p>
+
+    <p class="TEXT_Main">“And Bill,” his father calls after him. “Don’t put anyone out of their room. I’ll fix up a little space in the basement.”</p>
+
+    <p class="TEXT_Main">“The basement? Dad . . .”</p>
+
+    <p class="TEXT_Main">“It’ll be cooler down there.”</p>
+
+    <p class="TEXT_Main">Cooler? Bill thinks but doesn’t say. Yet you live here?</p>
+
+    <p class="TEXT_Main">“And it’ll give me some privacy,” his father adds.</p>
+
+    <p class="TEXT_Main">Privacy for what? Bill thinks. “Whatever you say, Dad. I’ll see you Saturday.”</p>
+
+    <p class="text--space-break"><span class="sc-space-break _idGenCharOverride-1">FROM INSIDE THE TRAILER,</span> Calvin watches his son drive away. He wonders why he said yes to his son’s request, which, he can’t help noting, was offered without a please and accepted without a thank-­you. Hadn’t he banished long ago any feelings of obligation to others? Did he say yes simply because of blood? Could he have said no to anyone but his son? Or is this solitary life less endurable than he believes? Maybe he would have listened to any request that tried to bring him back inside the human circle. Well, no point in speculating. He said yes.</p>
+
+    <p class="TEXT_Main">The car is out of sight now, but he can hear it, the engine laboring hard as it tries to crest the butte. Shift down, God damn it, Calvin thinks. Though Bill has climbed plenty of hills without his father’s help.</p>
+
+    <p class="TEXT_Main">Calvin walks back to the table. He stands over the book he’d been reading earlier. He flips pages until he comes to a poem he knows well. The words are in Latin, but in English he recites softly, “Now he is treading that dark road to the place from which they say no one has ever returned.” Calvin has to smile to himself. Such portentous lines for a bird.</p>
+  </div>
+</body>
+</html>
+2023-03-11 17:34:28 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-11 17:34:28 INFO  - Step 22 - I open font settings
+2023-03-11 17:34:30 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-11 17:34:30 INFO  - Step 23 - I change font style to FONT_SANS
+2023-03-11 17:34:30 INFO  - Button 'setFontSans' :: Clicking
+2023-03-11 17:34:31 INFO  - Step 24 - Book text displays in FONT_SANS font
+2023-03-11 17:34:31 INFO  - context - NATIVE_APP
+2023-03-11 17:34:31 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-11 17:34:31 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-11 17:34:31 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>Chapter</title>
+  <link href="../Styles/idGeneratedStyles_0.css" rel="stylesheet" type="text/css" />
+  <link href="../Styles/idGeneratedStyles_2.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+
+<body id="Chapter" xml:lang="en-US">
+  <div class="Basic-Text-Frame" id="_idContainer005">
+    <p class="CN---CT" id="_idParaDest-1"><a id="_idTextAnchor000"></a>ONE</p>
+
+    <p class="TEXT_CO-para">He’s watching, Bill Sidey thinks. My father is watching me at this very moment. But Bill can’t take his eyes off the road, a steep, twisting two-­track trail that winds down from the top of the butte to the canyon floor.</p>
+
+    <p class="TEXT_Main">A juniper bush scratches the side of the car and Bill winces. Something that sounds more solid than weeds scrapes along the undercarriage. But there’s nothing Bill can do other than keep the tires in the ruts and feather the brakes to make sure he doesn’t lose control on his descent.</p>
+
+    <p class="TEXT_Main">And sure enough, when the road finally levels off and Bill permits himself a look farther ahead, he sees the figure that he’s sure has been there all along. A tall, lean white-­haired man stands in the open doorway of a twenty-­foot house trailer, his hands jammed in the pockets of his faded Levi’s. Calvin Sidey, Bill’s father. A hawk with prey in sight could not watch more intently.</p>
+
+    <p class="TEXT_Main">Bill parks next to the familiar old Ford truck, yet his father makes no move to come forward. Bill climbs out of the car, and when he slams the door behind him, it sets up an echo that bounces from one canyon wall to the other.</p>
+
+    <p class="TEXT_Main">He lives here, Bill thinks, so he can see the enemy approach. It’s the same thought he’s had on the other occasions when he’s driven out to his father’s home, but this time Bill wonders if even he has that status in his father’s eyes.</p>
+
+    <p class="TEXT_Main">His father calls out warily, “I didn’t know you were coming.”</p>
+
+    <p class="TEXT_Main">To that Bill has no response. His father doesn’t have a telephone. He picks up his mail no more than once or twice a week. How can anyone, son or stranger, notify Calvin Sidey of an impending visit?</p>
+
+    <p class="TEXT_Main">His father tries again. “What brings you out this way?”</p>
+
+    <p class="TEXT_Main">And that’s Calvin Sidey in a sentence: Let’s get to it. Well, that suits Bill too. When he looks toward his father, Bill has to shield his eyes against the sun glinting off the trailer’s aluminum siding.</p>
+
+    <p class="TEXT_Main">“I’ve got a favor to ask.”</p>
+
+    <p class="TEXT_Main">His father steps back inside the trailer, but since he doesn’t shut and lock the door behind him, Bill understands that he’s supposed to follow.</p>
+
+    <p class="TEXT_Main">The trailer’s interior, even with windows open on every side, must be fifteen degrees hotter than the July afternoon that’s already topped ninety degrees. “Can I get you a cup of coffee?” his father asks.</p>
+
+    <p class="TEXT_Main">“Coffee? Jesus. No. A glass of water? Please.”</p>
+
+    <p class="TEXT_Main">The trailer is exactly as Bill remembers it, and why not. It’s likely that nothing more than the calendar page has changed since Bill was last here, though he can’t recall when that might have been. His father has his life stripped down to the essentials, and for everything that’s left he has a hook, shelf, bin, drawer, peg, or rack. Bill guesses that in the cupboard there are no more than one or at most two plates, bowls, glasses, and cups. In the same cupboard will be a can of coffee, a box of oatmeal, a few cans of soup and beans, lard, crackers, flour, sugar, salt, and pepper. Above the two burner stove hang a sauce pan and a frying pan. On a shelf above the neatly made bed is a short row of books, and though Bill can’t see the titles, he doesn’t have to. These are his father’s copies of Virgil, Horace, Juvenal, Ovid, Cicero, Catullus, and Pliny. The homemade gun rack above the door holds his Winchester lever-­action .30-­30, a twelve-­gauge Remington pump shotgun, and a fishing pole. And there’s that calendar, hanging right next to the door. It’s this year’s and the page is turned to the correct month, but Bill wonders if his father knows the date. Even if he does, the day surely doesn’t mean “holiday” to him the way it does for most Americans, though it’s hard to imagine a man who values independence more than Calvin Sidey.</p>
+
+    <p class="TEXT_Main">Bill stands by the small kitchen table, but since his father has not invited him to sit down, Bill doesn’t pull out one of the two chairs. And why two, Bill wonders, since his father lives alone and never has guests.</p>
+
+    <p class="TEXT_Main">From a pitcher on the counter Calvin Sidey pours water into a glass, then sets the glass on the table next to an open book. Bill can’t decipher any of the words on the page because the book is in Latin, a subject Bill never studied in school but which his father has never stopped studying and translating. Also on the table is an ashtray containing a few butts of hand-­rolled cigarettes.</p>
+
+    <p class="TEXT_Main">Bill brings the glass to his lips and drinks. The water isn’t very cold and it has a brassy odor.</p>
+
+    <p class="TEXT_Main">“Why don’t you move this trailer, Dad? That stand of cottonwoods can’t be more than fifty yards away, and if you were parked over there, you’d have some shade.”</p>
+
+    <p class="TEXT_Main">His father crosses his arms. “You said you had a favor to ask.”</p>
+
+    <p class="TEXT_Main">Bill is sweating in these close quarters, and he loosens his tie and collar. “Marjorie needs an operation.”</p>
+
+    <p class="TEXT_Main">“Uh-­huh.”</p>
+
+    <p class="TEXT_Main">“She has to have a hysterectomy. It’s an operation to—”</p>
+
+    <p class="TEXT_Main">“I know what a hysterectomy is. What I don’t know is why you felt you had to come out here and tell me about it in person. How serious is this?”</p>
+
+    <p class="TEXT_Main">“She has . . . not tumors, exactly. But growths, painful growths.”</p>
+
+    <p class="TEXT_Main">“All right,” his father says. “I’m sorry to hear this. But you drove all the way out here . . . What’s the favor you need?”</p>
+
+    <p class="TEXT_Main">“Do you mind if I sit down?” Bill asks, then pulls out a chair before his father can answer.</p>
+
+    <p class="TEXT_Main">There’s an odor in the trailer that Bill can’t quite place, a smell reminiscent of gasoline or fresh paint. He looks around to see if his father has recently painted or varnished something. Then it comes to him. Kerosene. Lacking electricity, his father relies on candles or kerosene lamps. It’s 1963, but in many ways his father is living in the nineteenth century. Of course it’s stifling inside the trailer, Bill thinks. His father doesn’t even have a fan to stir the heat or a refrigerator to keep food cold. And not far from the trailer is an outhouse . . .</p>
+
+    <p class="TEXT_Main">“There’s a doctor in Missoula who’ll perform the operation,” Bill says. “Carole—you remember Marjorie’s sister?—had the same condition as Marjorie. Same symptoms. Same tests. Apparently it’s something that runs in the family. And Carole had the surgery. Before then, she’d tried everything, and she says if it wasn’t for the operation, she’d still be suffering.”</p>
+
+    <p class="TEXT_Main">“Most women would just bite down hard and wait for the misery to pass. Which it will.”</p>
+
+    <p class="TEXT_Main">“<em>Most</em> women?”</p>
+
+    <p class="TEXT_Main">“In my experience.”</p>
+
+    <p class="TEXT_Main">“Something of an expert, are you, Dad?”</p>
+
+    <p class="TEXT_Main">His father ignores this question. “Marjorie has to go to Missoula? I know Gladstone’s got doctors who can perform a hysterectomy.”</p>
+
+    <p class="TEXT_Main">Bill has to smile. His father is still loyal to Gladstone, though he turned his back on the town almost thirty years ago.</p>
+
+    <p class="TEXT_Main">“How about Mitch McCoy?” his father says. “Last I heard he was still practicing.”</p>
+
+    <p class="TEXT_Main">“The last you heard? When was that? Dr. McCoy is in a nursing home in Miles City.”</p>
+
+    <p class="TEXT_Main">“Mitchell McCoy? Are you sure?”</p>
+
+    <p class="TEXT_Main">The heat, the long drive, his father’s questions . . . Bill Sidey suddenly feels tired. He leans on his hand and rubs his eyes. “Yeah, Dad. I’m sure. Look, I can’t pretend to explain it very well. Apparently the Missoula doctor has a special procedure. He doesn’t take out the entire womb or something. The point is, Marjorie wants the operation. She <em>needs</em> the operation.”</p>
+
+    <p class="TEXT_Main">“And I reckon you’re all set for her to have what she needs.”</p>
+
+    <p class="TEXT_Main">“We’re leaving in a few days.”</p>
+
+    <p class="TEXT_Main">“Uh-­huh.”</p>
+
+    <p class="TEXT_Main">Bill inhales deeply and then exhales, but the heat seems to prevent his breath from traveling far. “That’s what I wanted to ask you about, Dad. Would you be willing to stay with the kids while Marjorie and I are in Missoula?”</p>
+
+    <p class="TEXT_Main">His father involuntarily takes a step back. “Have you spoken to your sister about this?”</p>
+
+    <p class="TEXT_Main">“Jeanette and I have sort of lost touch. I assume she’s still in New Hampshire. We send the Christmas and birthday cards there and they don’t come back undeliverable. Of course, we don’t get any acknowledgment from her either. How about you?” Bill asks, though he’s certain of the answer. “Do you hear from her?”</p>
+
+    <p class="TEXT_Main">His father gives a quick shake of his head.</p>
+
+    <p class="TEXT_Main">“What I’m asking you for,” says Bill, “wouldn’t be more than a week. At most.”</p>
+
+    <p class="TEXT_Main">“You’re traveling in a few days, you say?”</p>
+
+    <p class="TEXT_Main">He’s trying to find a way to say no, Bill thinks. He’s out of practice, and he can’t find a reason quick enough. Why doesn’t he come right out and say it—they’re not my kids or my responsibility. He could say it when the children were his own, so what’s stopping him now? Suddenly, Bill, who all his life has felt diminished in this man’s presence, feels an odd surge of power.</p>
+
+    <p class="TEXT_Main">“Ann and Will,” says Bill. “In case you’re trying to recall their names. Ann’s seventeen and Will’s eleven.”</p>
+
+    <p class="TEXT_Main">“I know my grandchildren’s names.”</p>
+
+    <p class="TEXT_Main">“Ann’s working at J. C. Penney this summer,” Bill continues. “That’s why I’m asking you for this favor. Ordinarily Ann could take care of her brother. And take care of the house. But with the hours she’s working, Will would be alone too much of the day.”</p>
+
+    <p class="TEXT_Main">From out of his shirt pocket, his father takes a packet of cigarette papers, and when he looks around for his tin of Sir Walter Raleigh, Bill hurries to offer his father one of his own Camels. The men light their cigarettes, and while this action has given his father an extra minute to think, it’s less time than he would have had rolling his own.</p>
+
+    <p class="TEXT_Main">“Have you been working, Dad?” There, Bill thinks, he has opened a door through which his father can escape. He can simply excuse himself by saying he has the obligations of a job.</p>
+
+    <p class="TEXT_Main">“Not since last fall,” his father says. “I helped George Tell move his herd down from summer pasture. I’m sure he moved them back up last month, but I didn’t hear from him. Before that? I don’t recall.”</p>
+
+    <p class="TEXT_Main">“We <em>could</em> hire a babysitter,” Bill says. “A college girl home for the summer perhaps. Though that might embarrass Ann, someone there so close to her age. Or maybe we could find a farm girl. But you know the house, Dad. And the business. And you’re—”</p>
+
+    <p class="TEXT_Main">Bill isn’t sure why he suddenly stops short of uttering the word, especially since it’s the word that he came here to say to his father.</p>
+
+    <p class="TEXT_Main">“I’m what?”</p>
+
+    <p class="TEXT_Main">“Family,” says Bill, relieved that the word didn’t snag on the way out.</p>
+
+    <p class="TEXT_Main">His father draws deep on the Camel, lets the smoke drift from his nostrils, then examines the cigarette as if he’s never smoked a tailor-­made before. “When did you say you’re leaving?” he says.</p>
+
+    <p class="TEXT_Main">“Sunday. Right after church. And Dad? I’m not asking you to do anything with the kids. Just to be there. Just in case.”</p>
+
+    <p class="TEXT_Main">His father walks to the trailer door, opens it, and flicks his cigarette outside. “I’ll be there Saturday,” he says.</p>
+
+    <p class="TEXT_Main">His father remains in the doorway, his hand on the handle of the screen door. Just as Bill understood earlier that he was supposed to follow his father inside the trailer, now he understands that he’s expected to leave. “I’ll look for you then,” Bill says.</p>
+
+    <p class="TEXT_Main">He steps out into the shadowless sunlight, and though the air’s not moving outside the trailer any more than it was inside—it’s the rare calm day in this part of Montana—Bill feels as though his first breath outdoors goes right to the bottom of his lungs.</p>
+
+    <p class="TEXT_Main">“And Bill,” his father calls after him. “Don’t put anyone out of their room. I’ll fix up a little space in the basement.”</p>
+
+    <p class="TEXT_Main">“The basement? Dad . . .”</p>
+
+    <p class="TEXT_Main">“It’ll be cooler down there.”</p>
+
+    <p class="TEXT_Main">Cooler? Bill thinks but doesn’t say. Yet you live here?</p>
+
+    <p class="TEXT_Main">“And it’ll give me some privacy,” his father adds.</p>
+
+    <p class="TEXT_Main">Privacy for what? Bill thinks. “Whatever you say, Dad. I’ll see you Saturday.”</p>
+
+    <p class="text--space-break"><span class="sc-space-break _idGenCharOverride-1">FROM INSIDE THE TRAILER,</span> Calvin watches his son drive away. He wonders why he said yes to his son’s request, which, he can’t help noting, was offered without a please and accepted without a thank-­you. Hadn’t he banished long ago any feelings of obligation to others? Did he say yes simply because of blood? Could he have said no to anyone but his son? Or is this solitary life less endurable than he believes? Maybe he would have listened to any request that tried to bring him back inside the human circle. Well, no point in speculating. He said yes.</p>
+
+    <p class="TEXT_Main">The car is out of sight now, but he can hear it, the engine laboring hard as it tries to crest the butte. Shift down, God damn it, Calvin thinks. Though Bill has climbed plenty of hills without his father’s help.</p>
+
+    <p class="TEXT_Main">Calvin walks back to the table. He stands over the book he’d been reading earlier. He flips pages until he comes to a poem he knows well. The words are in Latin, but in English he recites softly, “Now he is treading that dark road to the place from which they say no one has ever returned.” Calvin has to smile to himself. Such portentous lines for a bird.</p>
+  </div>
+</body>
+</html>
+2023-03-11 17:34:31 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-11 17:34:32 INFO  - Taking screenshot
+2023-03-11 17:34:32 INFO  - Test finished - logging out
+2023-03-11 17:34:33 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:34:36 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:34:37 INFO  - Button 'Accounts' :: Clicking
+2023-03-11 17:34:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 17:34:39 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 17:34:40 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 17:34:40 INFO  - Button 'Log out' :: Clicking
+2023-03-11 17:34:40 INFO  - Button 'Log in' :: Getting text from element
+2023-03-11 17:34:44 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 17:34:44 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 17:34:44 INFO  - Unlocking credential for current thread
+2023-03-11 17:34:44 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1dfe12c0

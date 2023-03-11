@@ -1,0 +1,83 @@
+2023-03-11 18:36:25 INFO  - Scenario 'Check playback speed and sleep timer' start
+2023-03-11 18:36:25 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-11 18:37:03 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-11 18:37:03 INFO  - Session id - 86d2efd7b311900568e9a29b3721c6ad9c6d1d6c
+2023-03-11 18:37:03 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-11 18:37:03 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-11 18:37:06 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-11 18:37:06 INFO  - Button 'Search' :: Clicking
+2023-03-11 18:37:08 INFO  - Text Field 'Search' :: Clearing
+2023-03-11 18:37:08 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-11 18:37:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 18:37:10 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-11 18:37:10 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 18:37:12 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 18:37:12 INFO  - Button 'Accounts' :: Clicking
+2023-03-11 18:37:14 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-11 18:37:14 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 18:37:14 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 18:37:15 INFO  - Button 'Accounts' :: Clicking
+2023-03-11 18:37:16 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 18:37:17 INFO  - Locking credential with barcode 01230000000305
+2023-03-11 18:37:17 INFO  - There are books on the account: 
+2023-03-11 18:37:18 INFO  - There is not books on the account.
+2023-03-11 18:37:18 INFO  - Count of books on the account after opening account: 0
+2023-03-11 18:37:18 INFO  - Text Field 'Card' :: Clearing
+2023-03-11 18:37:18 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-03-11 18:37:19 INFO  - Text Field 'Pin' :: Clearing
+2023-03-11 18:37:19 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-11 18:37:21 INFO  - Button 'Log in' :: Clicking
+2023-03-11 18:37:27 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-11 18:37:27 INFO  - Step 3 - Login is performed successfully
+2023-03-11 18:37:48 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-11 18:37:48 INFO  - Step 4 - I open Catalog
+2023-03-11 18:37:48 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-11 18:38:08 INFO  - Step 5 - I open search modal
+2023-03-11 18:38:29 INFO  - Button 'Search' :: Clicking
+2023-03-11 18:38:30 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-11 18:38:30 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-03-11 18:38:30 INFO  - randomBookName: The Secret Lives of Church Ladies
+2023-03-11 18:38:30 INFO  - Error details button is not present
+2023-03-11 18:38:30 INFO  - Text Field 'Search value input' :: Sending keys 'The Secret Lives of Church Ladies'
+2023-03-11 18:38:32 INFO  - Error details button is not present
+2023-03-11 18:38:35 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-03-11 18:38:35 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-11 18:38:56 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 18:38:57 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 18:38:58 INFO  - Label 'lblBookName' :: Clicking
+2023-03-11 18:38:58 INFO  - Step 9 - Click GET action button on book details screen
+2023-03-11 18:38:59 INFO  - Button 'Get' :: Clicking
+2023-03-11 18:39:04 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-03-11 18:39:05 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-03-11 18:39:05 INFO  - Button 'Listen' :: Clicking
+2023-03-11 18:39:05 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-03-11 18:39:10 INFO  - Step 13 - The speed by default is 1.0
+2023-03-11 18:39:10 INFO  - Button 'Button play speed' :: Getting text from element
+2023-03-11 18:39:10 INFO  - Step 14 - Open playback speed on audio player screen
+2023-03-11 18:39:10 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-03-11 18:39:10 INFO  - Step 15 - Close playback speed screen
+2023-03-11 18:39:10 INFO  - Button 'Cancel button' :: Clicking
+2023-03-11 18:39:11 INFO  - Step 16 - Play button is present on audio player screen
+2023-03-11 18:39:12 INFO  - Step 17 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-03-11 18:39:12 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-03-11 18:39:12 INFO  - Button 'End of file' :: Clicking
+2023-03-11 18:39:13 INFO  - Step 18 - Sleep timer is set to endOfChapter on audio player screen
+2023-03-11 18:39:13 INFO  - Step 19 - Open sleep timer on audio player screen
+2023-03-11 18:39:13 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-03-11 18:39:14 INFO  - Step 20 - Close sleep timer screen
+2023-03-11 18:39:14 INFO  - Button 'Cancel button' :: Clicking
+2023-03-11 18:39:14 INFO  - Step 21 - Play button is present on audio player screen
+2023-03-11 18:39:15 INFO  - Taking screenshot
+2023-03-11 18:39:16 INFO  - Test finished - logging out
+2023-03-11 18:39:17 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 18:39:20 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 18:39:21 INFO  - Button 'Accounts' :: Clicking
+2023-03-11 18:39:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 18:39:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 18:39:23 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 18:39:24 INFO  - Button 'Log out' :: Clicking
+2023-03-11 18:39:24 INFO  - Button 'Log in' :: Getting text from element
+2023-03-11 18:39:28 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 18:39:28 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 18:39:28 INFO  - Unlocking credential for current thread
+2023-03-11 18:39:28 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4c31647a

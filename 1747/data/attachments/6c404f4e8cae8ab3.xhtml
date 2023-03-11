@@ -1,0 +1,291 @@
+2023-03-11 17:18:23 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-03-11 17:18:23 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-11 17:19:27 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-11 17:19:27 INFO  - Session id - ceb13bcce676a53a78bf198fbdc768bc08cd1c30
+2023-03-11 17:19:27 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-11 17:19:27 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-11 17:19:31 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-11 17:19:31 INFO  - Button 'Search' :: Clicking
+2023-03-11 17:19:33 INFO  - Text Field 'Search' :: Clearing
+2023-03-11 17:19:33 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-11 17:19:35 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 17:19:35 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-11 17:19:35 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:19:37 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:19:38 INFO  - Button 'Accounts' :: Clicking
+2023-03-11 17:19:41 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-11 17:19:41 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:19:41 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:19:42 INFO  - Button 'Accounts' :: Clicking
+2023-03-11 17:19:43 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 17:19:44 INFO  - Locking credential with barcode 01230000000303
+2023-03-11 17:19:44 INFO  - There are books on the account: 
+2023-03-11 17:19:45 INFO  - There is not books on the account.
+2023-03-11 17:19:45 INFO  - Count of books on the account after opening account: 0
+2023-03-11 17:19:45 INFO  - Text Field 'Card' :: Clearing
+2023-03-11 17:19:45 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-11 17:19:47 INFO  - Text Field 'Pin' :: Clearing
+2023-03-11 17:19:47 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-11 17:19:49 INFO  - Button 'Log in' :: Clicking
+2023-03-11 17:19:56 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-11 17:19:56 INFO  - Step 3 - Login is performed successfully
+2023-03-11 17:20:17 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-11 17:20:17 INFO  - Step 4 - I open Catalog
+2023-03-11 17:20:17 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-11 17:20:38 INFO  - Step 5 - I open search modal
+2023-03-11 17:20:58 INFO  - Button 'Search' :: Clicking
+2023-03-11 17:20:59 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-11 17:20:59 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-03-11 17:20:59 INFO  - randomBookName: Elevator Phobia
+2023-03-11 17:20:59 INFO  - Error details button is not present
+2023-03-11 17:21:00 INFO  - Text Field 'Search value input' :: Sending keys 'Elevator Phobia'
+2023-03-11 17:21:02 INFO  - Error details button is not present
+2023-03-11 17:21:06 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 17:21:07 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 17:21:08 INFO  - Button 'actionButton' :: Clicking
+2023-03-11 17:21:14 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 17:21:14 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 17:21:15 INFO  - Label 'lblBookName' :: Clicking
+2023-03-11 17:21:15 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-11 17:21:16 INFO  - Button 'Read' :: Clicking
+2023-03-11 17:21:16 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-11 17:21:16 INFO  - Scrolling 7 times on reader epub screen
+2023-03-11 17:21:38 INFO  - Step 11 - I save font size as 'fontSize'
+2023-03-11 17:21:38 INFO  - context - NATIVE_APP
+2023-03-11 17:21:38 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-11 17:21:39 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-11 17:21:39 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Acknowledgments</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" type="text/css" href="../Styles/stylesheet1.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="acknowledgments" class="section level1">
+<h1><span class="hidden">Acknowledgments</span></h1>
+<p>I want to thank Felicia Chapman-Jenkins, Beverly Bragg, Jerome Jordan, and Dr. Marshall Lee, who supported and encouraged me to complete this exciting project.</p>
+</div>
+</body>
+</html>
+2023-03-11 17:21:39 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-11 17:21:39 INFO  - Step 12 - I open font settings
+2023-03-11 17:21:40 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-11 17:21:40 INFO  - Step 13 - I INCREASE_FONT of text
+2023-03-11 17:21:40 INFO  - Button 'setTextLarger' :: Clicking
+2023-03-11 17:21:41 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-03-11 17:21:41 INFO  - context - NATIVE_APP
+2023-03-11 17:21:41 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-11 17:21:42 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-11 17:21:42 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Acknowledgments</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" type="text/css" href="../Styles/stylesheet1.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="acknowledgments" class="section level1">
+<h1><span class="hidden">Acknowledgments</span></h1>
+<p>I want to thank Felicia Chapman-Jenkins, Beverly Bragg, Jerome Jordan, and Dr. Marshall Lee, who supported and encouraged me to complete this exciting project.</p>
+</div>
+</body>
+</html>
+2023-03-11 17:21:42 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-11 17:21:42 INFO  - Step 15 - I restart app
+2023-03-11 17:22:07 INFO  - Step 16 - I open Books
+2023-03-11 17:22:07 INFO  - Button 'tabBooks' :: Clicking
+2023-03-11 17:22:07 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-11 17:22:09 INFO  - Label 'lblBookName' :: Clicking
+2023-03-11 17:22:09 INFO  - Step 18 - Click READ action button on book details screen
+2023-03-11 17:22:10 INFO  - Button 'Read' :: Clicking
+2023-03-11 17:22:10 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-03-11 17:22:11 INFO  - context - NATIVE_APP
+2023-03-11 17:22:11 INFO  - context - NATIVE_APP
+2023-03-11 17:22:14 INFO  - context - NATIVE_APP
+2023-03-11 17:22:14 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-11 17:22:17 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-11 17:22:17 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Acknowledgments</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" type="text/css" href="../Styles/stylesheet1.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="acknowledgments" class="section level1">
+<h1><span class="hidden">Acknowledgments</span></h1>
+<p>I want to thank Felicia Chapman-Jenkins, Beverly Bragg, Jerome Jordan, and Dr. Marshall Lee, who supported and encouraged me to complete this exciting project.</p>
+</div>
+</body>
+</html>
+2023-03-11 17:22:17 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-11 17:22:18 INFO  - Step 20 - I return to previous screen from epub
+2023-03-11 17:22:19 INFO  - Button 'btnBack' :: Clicking
+2023-03-11 17:22:19 INFO  - Step 21 - Click READ action button on book details screen
+2023-03-11 17:22:20 INFO  - Button 'Read' :: Clicking
+2023-03-11 17:22:20 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-03-11 17:22:21 INFO  - context - NATIVE_APP
+2023-03-11 17:22:21 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-11 17:22:26 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-11 17:22:26 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Acknowledgments</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" type="text/css" href="../Styles/stylesheet1.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="acknowledgments" class="section level1">
+<h1><span class="hidden">Acknowledgments</span></h1>
+<p>I want to thank Felicia Chapman-Jenkins, Beverly Bragg, Jerome Jordan, and Dr. Marshall Lee, who supported and encouraged me to complete this exciting project.</p>
+</div>
+</body>
+</html>
+2023-03-11 17:22:26 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-11 17:22:26 INFO  - Step 23 - I save font size as 'fontSize'
+2023-03-11 17:22:26 INFO  - context - NATIVE_APP
+2023-03-11 17:22:26 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-11 17:22:27 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-11 17:22:27 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Acknowledgments</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" type="text/css" href="../Styles/stylesheet1.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="acknowledgments" class="section level1">
+<h1><span class="hidden">Acknowledgments</span></h1>
+<p>I want to thank Felicia Chapman-Jenkins, Beverly Bragg, Jerome Jordan, and Dr. Marshall Lee, who supported and encouraged me to complete this exciting project.</p>
+</div>
+</body>
+</html>
+2023-03-11 17:22:27 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-11 17:22:27 INFO  - Step 24 - I open font settings
+2023-03-11 17:22:28 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-11 17:22:28 INFO  - Step 25 - I DECREASE_FONT of text
+2023-03-11 17:22:28 INFO  - Button 'setTextSmaller' :: Clicking
+2023-03-11 17:22:30 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-03-11 17:22:30 INFO  - context - NATIVE_APP
+2023-03-11 17:22:30 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-11 17:22:30 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-11 17:22:30 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.625); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Acknowledgments</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" type="text/css" href="../Styles/stylesheet1.css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<div id="acknowledgments" class="section level1">
+<h1><span class="hidden">Acknowledgments</span></h1>
+<p>I want to thank Felicia Chapman-Jenkins, Beverly Bragg, Jerome Jordan, and Dr. Marshall Lee, who supported and encouraged me to complete this exciting project.</p>
+</div>
+</body>
+</html>
+2023-03-11 17:22:30 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-11 17:22:31 INFO  - Taking screenshot
+2023-03-11 17:22:31 INFO  - Test finished - logging out
+2023-03-11 17:22:33 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:22:36 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 17:22:37 INFO  - Button 'Accounts' :: Clicking
+2023-03-11 17:22:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 17:22:39 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 17:22:40 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 17:22:40 INFO  - Button 'Log out' :: Clicking
+2023-03-11 17:22:40 INFO  - Button 'Log in' :: Getting text from element
+2023-03-11 17:22:44 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 17:22:44 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 17:22:45 INFO  - Unlocking credential for current thread
+2023-03-11 17:22:45 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1dfe12c0

@@ -1,0 +1,72 @@
+2023-03-11 18:49:28 INFO  - Scenario 'Check buttons under the book title in LYRASIS' start
+2023-03-11 18:49:28 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-11 18:50:16 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-11 18:50:16 INFO  - Session id - 2d5cb992fbc7524f5ec3610a4261f18ea7116a51
+2023-03-11 18:50:16 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-11 18:50:16 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-11 18:50:19 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-11 18:50:20 INFO  - Button 'Search' :: Clicking
+2023-03-11 18:50:22 INFO  - Text Field 'Search' :: Clearing
+2023-03-11 18:50:22 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-11 18:50:24 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 18:50:25 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-03-11 18:50:25 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 18:50:26 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 18:50:27 INFO  - Button 'Accounts' :: Clicking
+2023-03-11 18:50:29 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 18:50:30 INFO  - Locking credential with barcode 01230000000304
+2023-03-11 18:50:30 INFO  - There are books on the account: 
+2023-03-11 18:50:31 INFO  - There is not books on the account.
+2023-03-11 18:50:31 INFO  - Count of books on the account after opening account: 0
+2023-03-11 18:50:31 INFO  - Text Field 'Card' :: Clearing
+2023-03-11 18:50:31 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-03-11 18:50:33 INFO  - Text Field 'Pin' :: Clearing
+2023-03-11 18:50:33 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-11 18:50:35 INFO  - Button 'Log in' :: Clicking
+2023-03-11 18:50:41 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-11 18:50:41 INFO  - Step 2 - Login is performed successfully
+2023-03-11 18:51:03 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-11 18:51:03 INFO  - Step 3 - I open Catalog
+2023-03-11 18:51:03 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-11 18:51:26 INFO  - Step 4 - I open search modal
+2023-03-11 18:51:46 INFO  - Button 'Search' :: Clicking
+2023-03-11 18:51:48 INFO  - Step 5 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-11 18:51:48 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-11 18:51:48 INFO  - randomBookName: Small Business Startup Guide
+2023-03-11 18:51:48 INFO  - Error details button is not present
+2023-03-11 18:51:49 INFO  - Text Field 'Search value input' :: Sending keys 'Small Business Startup Guide'
+2023-03-11 18:51:52 INFO  - Error details button is not present
+2023-03-11 18:51:54 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-03-11 18:51:54 INFO  - Button 'eBooks' :: Clicking
+2023-03-11 18:52:17 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 18:52:18 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 18:52:19 INFO  - Button 'actionButton' :: Clicking
+2023-03-11 18:52:26 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-03-11 18:52:27 INFO  - Step 9 - I open Books
+2023-03-11 18:52:27 INFO  - Button 'tabBooks' :: Clicking
+2023-03-11 18:52:28 INFO  - Step 10 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-03-11 18:52:29 INFO  - Step 11 - EBOOK book with RETURN action button and 'bookInfo' bookInfo is present on books screen
+2023-03-11 18:52:30 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-11 18:52:30 INFO  - Label 'lblBookName' :: Clicking
+2023-03-11 18:52:31 INFO  - Step 13 - Click READ action button on book details screen
+2023-03-11 18:52:32 INFO  - Button 'Read' :: Clicking
+2023-03-11 18:52:33 INFO  - Step 14 - Wait for 5 seconds
+2023-03-11 18:52:38 INFO  - Step 15 - I restart app
+2023-03-11 18:53:03 INFO  - Step 16 - I open Books
+2023-03-11 18:53:03 INFO  - Button 'tabBooks' :: Clicking
+2023-03-11 18:53:04 INFO  - Step 17 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-03-11 18:53:05 INFO  - Step 18 - EBOOK book with RETURN action button and 'bookInfo' bookInfo is present on books screen
+2023-03-11 18:53:06 INFO  - Taking screenshot
+2023-03-11 18:53:07 INFO  - Test finished - logging out
+2023-03-11 18:53:09 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 18:53:11 INFO  - Button 'tabSettings' :: Clicking
+2023-03-11 18:53:12 INFO  - Button 'Accounts' :: Clicking
+2023-03-11 18:53:13 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 18:53:16 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 18:53:16 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 18:53:17 INFO  - Button 'Log out' :: Clicking
+2023-03-11 18:53:17 INFO  - Button 'Log in' :: Getting text from element
+2023-03-11 18:53:20 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 18:53:21 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 18:53:21 INFO  - Unlocking credential for current thread
+2023-03-11 18:53:21 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7e75fad9
