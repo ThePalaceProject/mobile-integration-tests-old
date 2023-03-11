@@ -1,0 +1,69 @@
+2023-03-11 03:45:50 INFO  - Scenario 'Check invalid data in searching Lyrasis' start
+2023-03-11 03:45:50 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-11 03:46:40 INFO  - Application on platform 'IOS' is ready...
+2023-03-11 03:46:40 INFO  - Session id - 6c9e11b16499b03a8ad8ac1a66da9148514a53e3
+2023-03-11 03:46:40 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-11 03:46:40 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-11 03:46:41 INFO  - Button 'Find your library button' :: Clicking
+2023-03-11 03:46:42 INFO  - Text Field 'Search field' :: Clicking
+2023-03-11 03:46:49 INFO  - Text Field 'Search field' :: Clearing
+2023-03-11 03:46:49 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-11 03:47:01 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 03:47:03 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-11 03:47:03 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:47:04 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:47:05 INFO  - Button 'Libraries button' :: Clicking
+2023-03-11 03:47:07 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-11 03:47:07 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:47:08 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:47:09 INFO  - Button 'Libraries button' :: Clicking
+2023-03-11 03:47:12 INFO  - Locking credential with barcode 01230000000306
+2023-03-11 03:47:12 INFO  - There are books on the account: 
+2023-03-11 03:47:13 INFO  - There is not books on the account.
+2023-03-11 03:47:13 INFO  - Count of books on the account after opening account: 0
+2023-03-11 03:47:35 INFO  - Text Field 'Card' :: Clicking
+2023-03-11 03:47:37 INFO  - Text Field 'Card' :: Clearing
+2023-03-11 03:47:37 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-03-11 03:47:40 INFO  - Text Field 'Pin' :: Clearing
+2023-03-11 03:47:40 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-11 03:47:43 INFO  - Button 'Log in' :: Clicking
+2023-03-11 03:47:51 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-03-11 03:47:54 INFO  - Step 3 - Login is performed successfully
+2023-03-11 03:47:56 INFO  - Step 4 - I open Catalog
+2023-03-11 03:47:56 INFO  - Button 'Catalog' :: Clicking
+2023-03-11 03:47:58 INFO  - Step 5 - I open search modal
+2023-03-11 03:48:00 INFO  - Button 'Search button' :: Clicking
+2023-03-11 03:48:03 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-11 03:48:03 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-11 03:48:03 INFO  - randomBookName: Realism :
+2023-03-11 03:48:04 INFO  - Text Field 'Search value input' :: Sending keys 'Realism :'
+2023-03-11 03:48:05 INFO  - Button 'Search' :: Clicking
+2023-03-11 03:48:08 INFO  - Step 7 - I switch to 'eBooks' catalog tab
+2023-03-11 03:48:08 INFO  - Button 'eBooks' :: Clicking
+2023-03-11 03:48:50 INFO  - Step 8 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 03:48:53 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 03:48:55 INFO  - Button 'actionButton' :: Clicking
+2023-03-11 03:49:18 INFO  - Step 9 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-03-11 03:49:21 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 03:49:24 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 03:49:25 INFO  - Label 'lblBookName' :: Clicking
+2023-03-11 03:49:27 INFO  - Step 11 - Click READ action button on book details screen
+2023-03-11 03:49:29 INFO  - Button 'Read' :: Clicking
+2023-03-11 03:49:51 INFO  - Step 12 - Reader pdf screen is opened
+2023-03-11 03:49:52 INFO  - Step 13 - I open search pdf screen
+2023-03-11 03:49:52 INFO  - Button 'Search button' :: Clicking
+2023-03-11 03:49:54 INFO  - Step 14 - Search pdf screen is opened
+2023-03-11 03:50:14 INFO  - Taking screenshot
+2023-03-11 03:50:22 INFO  - Test finished - logging out
+2023-03-11 03:50:25 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:50:27 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:50:28 INFO  - Button 'Libraries button' :: Clicking
+2023-03-11 03:50:32 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 03:50:33 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 03:50:34 INFO  - Button 'Log out' :: Clicking
+2023-03-11 03:50:35 INFO  - Button 'Log out approve' :: Clicking
+2023-03-11 03:50:57 INFO  - Button 'Log in' :: Getting text from element
+2023-03-11 03:50:59 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 03:51:00 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 03:51:01 INFO  - Unlocking credential for current thread
+2023-03-11 03:51:01 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@76be50e1

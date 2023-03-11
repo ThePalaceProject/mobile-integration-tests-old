@@ -1,0 +1,69 @@
+2023-03-11 03:29:53 INFO  - Scenario 'Playback speed: Check of playback speed' start
+2023-03-11 03:29:53 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-11 03:30:30 INFO  - Application on platform 'IOS' is ready...
+2023-03-11 03:30:30 INFO  - Session id - e6b7464314441a6a883b50fc4a77be84b2667195
+2023-03-11 03:30:30 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-11 03:30:31 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-11 03:30:31 INFO  - Button 'Find your library button' :: Clicking
+2023-03-11 03:30:32 INFO  - Text Field 'Search field' :: Clicking
+2023-03-11 03:30:39 INFO  - Text Field 'Search field' :: Clearing
+2023-03-11 03:30:39 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-11 03:30:52 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 03:30:54 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-11 03:30:54 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:30:56 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:30:57 INFO  - Button 'Libraries button' :: Clicking
+2023-03-11 03:30:58 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-11 03:30:58 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:31:00 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:31:01 INFO  - Button 'Libraries button' :: Clicking
+2023-03-11 03:31:04 INFO  - Locking credential with barcode 01230000000305
+2023-03-11 03:31:04 INFO  - There are books on the account: 
+2023-03-11 03:31:05 INFO  - There is not books on the account.
+2023-03-11 03:31:05 INFO  - Count of books on the account after opening account: 0
+2023-03-11 03:31:27 INFO  - Text Field 'Card' :: Clicking
+2023-03-11 03:31:28 INFO  - Text Field 'Card' :: Clearing
+2023-03-11 03:31:28 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-03-11 03:31:32 INFO  - Text Field 'Pin' :: Clearing
+2023-03-11 03:31:32 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-11 03:31:35 INFO  - Button 'Log in' :: Clicking
+2023-03-11 03:31:45 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-03-11 03:31:48 INFO  - Step 3 - Login is performed successfully
+2023-03-11 03:31:49 INFO  - Step 4 - I open Catalog
+2023-03-11 03:31:49 INFO  - Button 'Catalog' :: Clicking
+2023-03-11 03:31:52 INFO  - Step 5 - I open search modal
+2023-03-11 03:31:54 INFO  - Button 'Search button' :: Clicking
+2023-03-11 03:31:57 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-11 03:31:57 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-11 03:31:57 INFO  - randomBookName: The Secret Lives of Church Ladies
+2023-03-11 03:31:58 INFO  - Text Field 'Search value input' :: Sending keys 'The Secret Lives of Church Ladies'
+2023-03-11 03:32:00 INFO  - Button 'Search' :: Clicking
+2023-03-11 03:32:04 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-03-11 03:32:04 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-11 03:32:47 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 03:32:49 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 03:32:51 INFO  - Label 'lblBookName' :: Clicking
+2023-03-11 03:32:52 INFO  - Step 9 - Click GET action button on book details screen
+2023-03-11 03:32:54 INFO  - Button 'Get' :: Clicking
+2023-03-11 03:33:16 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-03-11 03:33:17 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-03-11 03:33:19 INFO  - Button 'Listen' :: Clicking
+2023-03-11 03:33:40 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-03-11 03:33:41 INFO  - Step 13 - Select 1.25X playback speed on playback speed audiobook screen
+2023-03-11 03:33:41 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-03-11 03:33:43 INFO  - Button 'One and one quarter faster than normal speed.' :: Clicking
+2023-03-11 03:33:44 INFO  - Step 14 - Current playback speed value is 1.25X on audio player screen
+2023-03-11 03:34:05 INFO  - Taking screenshot
+2023-03-11 03:34:09 INFO  - Test finished - logging out
+2023-03-11 03:34:12 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:34:14 INFO  - Button 'Settings' :: Clicking
+2023-03-11 03:34:15 INFO  - Button 'Libraries button' :: Clicking
+2023-03-11 03:34:19 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 03:34:20 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 03:34:21 INFO  - Button 'Log out' :: Clicking
+2023-03-11 03:34:22 INFO  - Button 'Log out approve' :: Clicking
+2023-03-11 03:34:44 INFO  - Button 'Log in' :: Getting text from element
+2023-03-11 03:34:45 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 03:34:46 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 03:34:47 INFO  - Unlocking credential for current thread
+2023-03-11 03:34:47 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@205fa5f6
