@@ -1,0 +1,68 @@
+2023-03-11 10:51:41 INFO  - Scenario 'Get a book from Subcategory List View and Return from Books in LYRASIS' start
+2023-03-11 10:51:41 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-11 10:52:17 INFO  - Application on platform 'IOS' is ready...
+2023-03-11 10:52:17 INFO  - Session id - b7e292641d52b37d7c680f34e079c2eefa0d33db
+2023-03-11 10:52:17 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-11 10:52:17 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-11 10:52:18 INFO  - Button 'Find your library button' :: Clicking
+2023-03-11 10:52:19 INFO  - Text Field 'Search field' :: Clicking
+2023-03-11 10:52:25 INFO  - Text Field 'Search field' :: Clearing
+2023-03-11 10:52:25 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-11 10:52:37 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 10:52:40 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-03-11 10:52:40 INFO  - Button 'Settings' :: Clicking
+2023-03-11 10:52:41 INFO  - Button 'Settings' :: Clicking
+2023-03-11 10:52:42 INFO  - Button 'Libraries button' :: Clicking
+2023-03-11 10:52:44 INFO  - Locking credential with barcode 01230000000303
+2023-03-11 10:52:44 INFO  - There are books on the account: 
+2023-03-11 10:52:45 INFO  - There is not books on the account.
+2023-03-11 10:52:45 INFO  - Count of books on the account after opening account: 0
+2023-03-11 10:53:06 INFO  - Text Field 'Card' :: Clicking
+2023-03-11 10:53:07 INFO  - Text Field 'Card' :: Clearing
+2023-03-11 10:53:07 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-11 10:53:10 INFO  - Text Field 'Pin' :: Clearing
+2023-03-11 10:53:10 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-11 10:53:13 INFO  - Button 'Log in' :: Clicking
+2023-03-11 10:53:36 INFO  - Step 2 - Login is performed successfully
+2023-03-11 10:53:37 INFO  - Step 3 - I open Catalog
+2023-03-11 10:53:37 INFO  - Button 'Catalog' :: Clicking
+2023-03-11 10:53:40 INFO  - Step 4 - I open search modal
+2023-03-11 10:53:42 INFO  - Button 'Search button' :: Clicking
+2023-03-11 10:53:45 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-11 10:53:45 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-11 10:53:45 INFO  - randomBookName: Chocolate Cream Pie Murder
+2023-03-11 10:53:46 INFO  - Text Field 'Search value input' :: Sending keys 'Chocolate Cream Pie Murder'
+2023-03-11 10:53:47 INFO  - Button 'Search' :: Clicking
+2023-03-11 10:53:51 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-03-11 10:53:51 INFO  - Button 'eBooks' :: Clicking
+2023-03-11 10:54:34 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 10:54:36 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 10:54:38 INFO  - Button 'actionButton' :: Clicking
+2023-03-11 10:55:01 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-03-11 10:55:05 INFO  - Step 9 - Click READ action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 10:55:08 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 10:55:10 INFO  - Button 'actionButton' :: Clicking
+2023-03-11 10:55:16 INFO  - Alert appears and dismiss alert
+2023-03-11 10:55:16 INFO  - Step 10 - Wait for 3 seconds
+2023-03-11 10:55:19 INFO  - Step 11 - 'bookInfo' book is present on epub reader screen
+2023-03-11 10:55:19 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-03-11 10:55:21 INFO  - Book name on epub reader screen - Chocolate Cream Pie Murder
+2023-03-11 10:55:21 INFO  - Step 12 - I return to previous screen for epub and pdf
+2023-03-11 10:55:23 INFO  - Button 'btnBack' :: Clicking
+2023-03-11 10:55:24 INFO  - Step 13 - I open Books
+2023-03-11 10:55:24 INFO  - Button 'My Books' :: Clicking
+2023-03-11 10:55:25 INFO  - Step 14 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-03-11 10:56:06 INFO  - Taking screenshot
+2023-03-11 10:56:07 INFO  - Test finished - logging out
+2023-03-11 10:56:10 INFO  - Button 'Settings' :: Clicking
+2023-03-11 10:56:11 INFO  - Button 'Settings' :: Clicking
+2023-03-11 10:56:12 INFO  - Button 'Libraries button' :: Clicking
+2023-03-11 10:56:15 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 10:56:16 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 10:56:16 INFO  - Button 'Log out' :: Clicking
+2023-03-11 10:56:18 INFO  - Button 'Log out approve' :: Clicking
+2023-03-11 10:56:39 INFO  - Button 'Log in' :: Getting text from element
+2023-03-11 10:56:40 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 10:56:41 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 10:56:42 INFO  - Unlocking credential for current thread
+2023-03-11 10:56:42 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4633f45
