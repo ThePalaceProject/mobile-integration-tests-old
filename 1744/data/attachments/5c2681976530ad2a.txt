@@ -1,0 +1,86 @@
+2023-03-11 06:16:31 INFO  - Scenario 'Epub: Font settings: Check of font style' start
+2023-03-11 06:16:31 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-11 06:17:09 INFO  - Application on platform 'IOS' is ready...
+2023-03-11 06:17:10 INFO  - Session id - ae6a647b1d98a9e8cfd718c487c9327f574c5896
+2023-03-11 06:17:10 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2023-03-11 06:17:10 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-11 06:17:11 INFO  - Button 'Find your library button' :: Clicking
+2023-03-11 06:17:12 INFO  - Text Field 'Search field' :: Clicking
+2023-03-11 06:17:19 INFO  - Text Field 'Search field' :: Clearing
+2023-03-11 06:17:19 INFO  - Text Field 'Search field' :: Typing 'Palace Bookshelf'
+2023-03-11 06:17:32 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-03-11 06:17:34 INFO  - Button 'Settings' :: Clicking
+2023-03-11 06:17:38 INFO  - Button 'Testing button' :: Clicking
+2023-03-11 06:17:39 INFO  - Step 1 - Enable hidden libraries
+2023-03-11 06:17:39 INFO  - Button 'Hidden libraries button' :: Clicking
+2023-03-11 06:17:40 INFO  - Step 2 - I open Catalog
+2023-03-11 06:17:40 INFO  - Button 'Catalog' :: Clicking
+2023-03-11 06:17:43 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2023-03-11 06:17:43 INFO  - Button 'Logo' :: Clicking
+2023-03-11 06:17:45 INFO  - Button 'Add library btn' :: Clicking
+2023-03-11 06:17:47 INFO  - Text Field 'Search field' :: Clicking
+2023-03-11 06:17:55 INFO  - Text Field 'Search field' :: Clearing
+2023-03-11 06:17:55 INFO  - Text Field 'Search field' :: Typing 'A1QA Test Library'
+2023-03-11 06:18:10 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-03-11 06:18:12 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2023-03-11 06:18:12 INFO  - Button 'Settings' :: Clicking
+2023-03-11 06:18:14 INFO  - Button 'Settings' :: Clicking
+2023-03-11 06:18:16 INFO  - Button 'Libraries button' :: Clicking
+2023-03-11 06:18:19 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2023-03-11 06:18:19 INFO  - Button 'Settings' :: Clicking
+2023-03-11 06:18:20 INFO  - Button 'Settings' :: Clicking
+2023-03-11 06:18:21 INFO  - Button 'Libraries button' :: Clicking
+2023-03-11 06:18:25 INFO  - Locking credential with barcode 01230000000306
+2023-03-11 06:18:25 INFO  - There are books on the account: 
+2023-03-11 06:18:26 INFO  - There is not books on the account.
+2023-03-11 06:18:26 INFO  - Count of books on the account after opening account: 0
+2023-03-11 06:18:49 INFO  - Text Field 'Card' :: Clicking
+2023-03-11 06:18:50 INFO  - Text Field 'Card' :: Clearing
+2023-03-11 06:18:50 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-03-11 06:18:54 INFO  - Text Field 'Pin' :: Clearing
+2023-03-11 06:18:54 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-11 06:18:58 INFO  - Button 'Log in' :: Clicking
+2023-03-11 06:19:10 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-03-11 06:19:14 INFO  - Step 6 - Login is performed successfully
+2023-03-11 06:19:15 INFO  - Step 7 - I open Catalog
+2023-03-11 06:19:15 INFO  - Button 'Catalog' :: Clicking
+2023-03-11 06:19:18 INFO  - Step 8 - I open search modal
+2023-03-11 06:19:20 INFO  - Button 'Search button' :: Clicking
+2023-03-11 06:19:24 INFO  - Step 9 - I search for "A Game of Thrones" and save bookName as 'bookNameInfo'
+2023-03-11 06:19:25 INFO  - Text Field 'Search value input' :: Sending keys 'A Game of Thrones'
+2023-03-11 06:19:27 INFO  - Button 'Search' :: Clicking
+2023-03-11 06:19:30 INFO  - Step 10 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 06:19:39 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 06:19:41 INFO  - Button 'actionButton' :: Clicking
+2023-03-11 06:20:05 INFO  - Step 11 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 06:20:08 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 06:20:10 INFO  - Label 'lblBookName' :: Clicking
+2023-03-11 06:20:12 INFO  - Step 12 - Click READ action button on book details screen
+2023-03-11 06:20:13 INFO  - Button 'Read' :: Clicking
+2023-03-11 06:20:35 INFO  - Step 13 - I scroll page forward from 7 to 9 times
+2023-03-11 06:20:35 INFO  - Scrolling 8 times on reader epub screen
+2023-03-11 06:21:12 INFO  - Step 14 - I open font settings
+2023-03-11 06:21:14 INFO  - Button 'Font Settings' :: Clicking
+2023-03-11 06:21:16 INFO  - Step 15 - I change font style to FONT_SERIF
+2023-03-11 06:21:16 INFO  - Button 'Serif font' :: Clicking
+2023-03-11 06:21:18 INFO  - Step 16 - Book text displays in FONT_SERIF font
+2023-03-11 06:21:19 INFO  - count of contextHandles-8
+2023-03-11 06:21:20 INFO  - Step 17 - I restart app
+2023-03-11 06:21:29 INFO  - Step 18 - I open Books
+2023-03-11 06:21:29 INFO  - Button 'My Books' :: Clicking
+2023-03-11 06:21:30 INFO  - Step 19 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-11 06:21:50 INFO  - Label 'lblBookName' :: Clicking
+2023-03-11 06:22:12 INFO  - Taking screenshot
+2023-03-11 06:22:16 INFO  - Test finished - logging out
+2023-03-11 06:22:20 INFO  - Button 'Settings' :: Clicking
+2023-03-11 06:22:21 INFO  - Button 'Settings' :: Clicking
+2023-03-11 06:22:22 INFO  - Button 'Libraries button' :: Clicking
+2023-03-11 06:22:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 06:22:28 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 06:22:29 INFO  - Button 'Log out' :: Clicking
+2023-03-11 06:22:31 INFO  - Button 'Log out approve' :: Clicking
+2023-03-11 06:22:54 INFO  - Button 'Log in' :: Getting text from element
+2023-03-11 06:22:55 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-11 06:22:56 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-11 06:22:58 INFO  - Unlocking credential for current thread
+2023-03-11 06:22:58 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7ca5f8f4
