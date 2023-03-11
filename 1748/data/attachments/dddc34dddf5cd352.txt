@@ -1,0 +1,37 @@
+2023-03-11 21:14:37 INFO  - Scenario 'Check of a book format in LYRASIS' start
+2023-03-11 21:14:37 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-11 21:15:16 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-11 21:15:16 INFO  - Session id - e47db07e32fe9425e46ae38eb9b21eaeefb3ca59
+2023-03-11 21:15:16 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-11 21:15:17 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-11 21:15:19 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-11 21:15:20 INFO  - Button 'Search' :: Clicking
+2023-03-11 21:15:21 INFO  - Text Field 'Search' :: Clearing
+2023-03-11 21:15:21 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-11 21:15:24 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-11 21:15:24 INFO  - Step 1 - I open Catalog
+2023-03-11 21:15:24 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-11 21:15:46 INFO  - Step 2 - I open search modal
+2023-03-11 21:16:06 INFO  - Button 'Search' :: Clicking
+2023-03-11 21:16:07 INFO  - Step 3 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-11 21:16:07 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-11 21:16:07 INFO  - randomBookName: Fault Lines
+2023-03-11 21:16:08 INFO  - Error details button is not present
+2023-03-11 21:16:08 INFO  - Text Field 'Search value input' :: Sending keys 'Fault Lines'
+2023-03-11 21:16:10 INFO  - Error details button is not present
+2023-03-11 21:16:13 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2023-03-11 21:16:13 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-11 21:16:34 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-11 21:16:35 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-11 21:16:35 INFO  - Label 'lblBookName' :: Clicking
+2023-03-11 21:16:35 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-03-11 21:16:35 INFO  - Label 'Book title' :: Getting text from element
+2023-03-11 21:16:37 INFO  - Label 'Book Authors' :: Getting text from element
+2023-03-11 21:16:37 INFO  - Label 'Book title' :: Getting text from element
+2023-03-11 21:16:38 INFO  - Label 'Book Authors' :: Getting text from element
+2023-03-11 21:16:38 INFO  - Step 7 - Book format in Information section is displayed on book details screen
+2023-03-11 21:16:40 INFO  - Step 8 - Book format in Information section is 'Audiobook' on book details screen
+2023-03-11 21:16:40 INFO  - Label 'Book format label' :: Getting text from element
+2023-03-11 21:16:41 INFO  - Taking screenshot
+2023-03-11 21:16:42 INFO  - Unlocking credential for current thread
+2023-03-11 21:16:42 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@35e003e9
