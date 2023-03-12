@@ -1,0 +1,85 @@
+2023-03-12 02:32:11 INFO  - Scenario 'Check of not rewinding forward and back by tapping on time bar' start
+2023-03-12 02:32:11 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-12 02:32:45 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-12 02:32:45 INFO  - Session id - fb4846c3148e969a158daa9772ec1b4e995fc364
+2023-03-12 02:32:45 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-12 02:32:46 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-12 02:32:48 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-12 02:32:49 INFO  - Button 'Search' :: Clicking
+2023-03-12 02:32:51 INFO  - Text Field 'Search' :: Clearing
+2023-03-12 02:32:51 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-12 02:32:54 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-12 02:32:55 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-12 02:32:55 INFO  - Button 'tabSettings' :: Clicking
+2023-03-12 02:32:57 INFO  - Button 'tabSettings' :: Clicking
+2023-03-12 02:32:58 INFO  - Button 'Accounts' :: Clicking
+2023-03-12 02:33:00 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-12 02:33:00 INFO  - Button 'tabSettings' :: Clicking
+2023-03-12 02:33:01 INFO  - Button 'tabSettings' :: Clicking
+2023-03-12 02:33:02 INFO  - Button 'Accounts' :: Clicking
+2023-03-12 02:33:03 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-12 02:33:04 INFO  - Locking credential with barcode 01230000000305
+2023-03-12 02:33:04 INFO  - There are books on the account: 
+2023-03-12 02:33:05 INFO  - There is not books on the account.
+2023-03-12 02:33:05 INFO  - Count of books on the account after opening account: 0
+2023-03-12 02:33:05 INFO  - Text Field 'Card' :: Clearing
+2023-03-12 02:33:05 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-03-12 02:33:08 INFO  - Text Field 'Pin' :: Clearing
+2023-03-12 02:33:08 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-12 02:33:10 INFO  - Button 'Log in' :: Clicking
+2023-03-12 02:33:16 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-12 02:33:17 INFO  - Step 3 - Login is performed successfully
+2023-03-12 02:33:38 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-12 02:33:39 INFO  - Step 4 - I open Catalog
+2023-03-12 02:33:39 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-12 02:34:00 INFO  - Step 5 - I open search modal
+2023-03-12 02:34:21 INFO  - Button 'Search' :: Clicking
+2023-03-12 02:34:23 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-12 02:34:23 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-12 02:34:23 INFO  - randomBookName: Necronomicon
+2023-03-12 02:34:23 INFO  - Error details button is not present
+2023-03-12 02:34:24 INFO  - Text Field 'Search value input' :: Sending keys 'Necronomicon'
+2023-03-12 02:34:27 INFO  - Error details button is not present
+2023-03-12 02:34:30 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-03-12 02:34:30 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-12 02:34:52 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-12 02:34:53 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-12 02:34:53 INFO  - Label 'lblBookName' :: Clicking
+2023-03-12 02:34:54 INFO  - Step 9 - Click GET action button on book details screen
+2023-03-12 02:34:55 INFO  - Button 'Get' :: Clicking
+2023-03-12 02:35:01 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-03-12 02:35:02 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-03-12 02:35:02 INFO  - Button 'Listen' :: Clicking
+2023-03-12 02:35:03 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-03-12 02:35:07 INFO  - Step 13 - Tap play button on audio player screen
+2023-03-12 02:35:07 INFO  - Button 'btnPlay' :: Clicking
+2023-03-12 02:35:10 INFO  - Step 14 - Pause button is present on audio player screen
+2023-03-12 02:35:11 INFO  - Step 15 - Tap pause button on audio player screen
+2023-03-12 02:35:11 INFO  - Button 'btnPause' :: Clicking
+2023-03-12 02:35:12 INFO  - Step 16 - Play button is present on audio player screen
+2023-03-12 02:35:13 INFO  - Step 17 - I stretch slider on the time tracking line forward on audio player screen
+2023-03-12 02:35:16 INFO  - Step 18 - Wait for 5 seconds
+2023-03-12 02:35:21 INFO  - Step 19 - Save book play time as 'timeBehind' on audio player screen
+2023-03-12 02:35:22 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-03-12 02:35:22 INFO  - Step 20 - I tap on the time bar forward on audio player screen
+2023-03-12 02:35:24 INFO  - Step 21 - Save book play time as 'timeForward' on audio player screen
+2023-03-12 02:35:24 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-03-12 02:35:25 INFO  - Step 22 - Play times 'timeBehind' and 'timeForward' are equals
+2023-03-12 02:35:25 INFO  - Step 23 - I tap on the time bar back on audio player screen
+2023-03-12 02:35:27 INFO  - Step 24 - Save book play time as 'timeBackward' on audio player screen
+2023-03-12 02:35:27 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-03-12 02:35:27 INFO  - Step 25 - Play times 'timeBehind' and 'timeBackward' are equals
+2023-03-12 02:35:27 INFO  - Taking screenshot
+2023-03-12 02:35:30 INFO  - Test finished - logging out
+2023-03-12 02:35:31 INFO  - Button 'tabSettings' :: Clicking
+2023-03-12 02:35:34 INFO  - Button 'tabSettings' :: Clicking
+2023-03-12 02:35:35 INFO  - Button 'Accounts' :: Clicking
+2023-03-12 02:35:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-12 02:35:39 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-12 02:35:39 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-12 02:35:40 INFO  - Button 'Log out' :: Clicking
+2023-03-12 02:35:41 INFO  - Button 'Log in' :: Getting text from element
+2023-03-12 02:35:45 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-12 02:35:45 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-12 02:35:46 INFO  - Unlocking credential for current thread
+2023-03-12 02:35:46 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5598247d
