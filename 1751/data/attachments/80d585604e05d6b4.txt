@@ -1,0 +1,61 @@
+2023-03-12 09:00:17 INFO  - Scenario 'LYRASIS: Biblioboard audiobooks: Getting and returning books from Book Detail View' start
+2023-03-12 09:00:17 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-12 09:00:51 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-12 09:00:51 INFO  - Session id - a31f2d745cfba0e711acb2d53efda2f1fd05daee
+2023-03-12 09:00:51 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-12 09:00:51 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-12 09:00:55 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-12 09:00:56 INFO  - Button 'Search' :: Clicking
+2023-03-12 09:00:59 INFO  - Text Field 'Search' :: Clearing
+2023-03-12 09:00:59 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-12 09:01:02 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-12 09:01:03 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-03-12 09:01:03 INFO  - Button 'tabSettings' :: Clicking
+2023-03-12 09:01:05 INFO  - Button 'tabSettings' :: Clicking
+2023-03-12 09:01:07 INFO  - Button 'Accounts' :: Clicking
+2023-03-12 09:01:08 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-12 09:01:09 INFO  - Locking credential with barcode 01230000000305
+2023-03-12 09:01:09 INFO  - There are books on the account: 
+2023-03-12 09:01:10 INFO  - There is not books on the account.
+2023-03-12 09:01:10 INFO  - Count of books on the account after opening account: 0
+2023-03-12 09:01:10 INFO  - Text Field 'Card' :: Clearing
+2023-03-12 09:01:10 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-03-12 09:01:12 INFO  - Text Field 'Pin' :: Clearing
+2023-03-12 09:01:12 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-12 09:01:15 INFO  - Button 'Log in' :: Clicking
+2023-03-12 09:01:22 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-12 09:01:22 INFO  - Step 2 - Login is performed successfully
+2023-03-12 09:01:44 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-12 09:01:45 INFO  - Step 3 - I open Catalog
+2023-03-12 09:01:45 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-12 09:02:07 INFO  - Step 4 - I open search modal
+2023-03-12 09:02:27 INFO  - Button 'Search' :: Clicking
+2023-03-12 09:02:29 INFO  - Step 5 - I search for "Murder at the Columbarium" and save bookName as 'bookNameInfo'
+2023-03-12 09:02:30 INFO  - Error details button is not present
+2023-03-12 09:02:30 INFO  - Text Field 'Search value input' :: Sending keys 'Murder at the Columbarium'
+2023-03-12 09:02:33 INFO  - Error details button is not present
+2023-03-12 09:02:37 INFO  - Step 6 - I switch to 'Audiobooks' catalog tab
+2023-03-12 09:02:37 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-12 09:02:59 INFO  - Step 7 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-12 09:03:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-12 09:03:01 INFO  - Label 'lblBookName' :: Clicking
+2023-03-12 09:03:02 INFO  - Step 8 - Click GET action button on book details screen
+2023-03-12 09:03:03 INFO  - Button 'Get' :: Clicking
+2023-03-12 09:05:06 INFO  - Step 9 - I check that book contains LISTEN action button on book details screen
+2023-03-12 09:05:29 INFO  - Button 'Error' :: Clicking
+2023-03-12 09:05:30 INFO  - Label 'Error message' :: Getting text from element
+2023-03-12 09:05:34 INFO  - Swiping from coordinates (x:800; y:2181) to (x:800; y:186)
+2023-03-12 09:05:36 INFO  - Taking screenshot
+2023-03-12 09:05:37 INFO  - Test finished - logging out
+2023-03-12 09:05:38 INFO  - Button 'tabSettings' :: Clicking
+2023-03-12 09:05:42 INFO  - Button 'tabSettings' :: Clicking
+2023-03-12 09:05:43 INFO  - Button 'Accounts' :: Clicking
+2023-03-12 09:05:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-12 09:05:46 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-12 09:05:47 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-12 09:05:47 INFO  - Button 'Log out' :: Clicking
+2023-03-12 09:05:48 INFO  - Button 'Log in' :: Getting text from element
+2023-03-12 09:05:52 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-12 09:05:53 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-12 09:05:54 INFO  - Unlocking credential for current thread
+2023-03-12 09:05:54 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1151de91
