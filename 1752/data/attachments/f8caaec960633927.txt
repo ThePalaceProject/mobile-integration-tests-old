@@ -1,0 +1,42 @@
+2023-03-12 13:50:35 INFO  - Scenario 'Check fields in Information section in LYRASIS' start
+2023-03-12 13:50:35 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-12 13:51:10 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-12 13:51:10 INFO  - Session id - 3435287cc527ca2a7193bf41d7c141d7c7010829
+2023-03-12 13:51:10 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-12 13:51:10 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-12 13:51:13 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-12 13:51:13 INFO  - Button 'Search' :: Clicking
+2023-03-12 13:51:16 INFO  - Text Field 'Search' :: Clearing
+2023-03-12 13:51:16 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-12 13:51:18 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-12 13:51:18 INFO  - Step 1 - I open Catalog
+2023-03-12 13:51:18 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-12 13:51:40 INFO  - Step 2 - I open search modal
+2023-03-12 13:52:00 INFO  - Button 'Search' :: Clicking
+2023-03-12 13:52:02 INFO  - Step 3 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-12 13:52:02 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-03-12 13:52:02 INFO  - randomBookName: Quit
+2023-03-12 13:52:02 INFO  - Error details button is not present
+2023-03-12 13:52:02 INFO  - Text Field 'Search value input' :: Sending keys 'Quit'
+2023-03-12 13:52:05 INFO  - Error details button is not present
+2023-03-12 13:52:06 INFO  - Step 4 - I switch to 'Audiobooks' catalog tab
+2023-03-12 13:52:07 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-12 13:52:30 INFO  - Step 5 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-12 13:52:30 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-12 13:52:30 INFO  - Label 'lblBookName' :: Clicking
+2023-03-12 13:52:31 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-03-12 13:52:31 INFO  - Label 'Book title' :: Getting text from element
+2023-03-12 13:52:31 INFO  - Label 'Book Authors' :: Getting text from element
+2023-03-12 13:52:32 INFO  - Label 'Book title' :: Getting text from element
+2023-03-12 13:52:33 INFO  - Label 'Book Authors' :: Getting text from element
+2023-03-12 13:52:33 INFO  - Step 7 - Publisher and Categories in Information section are displayed on book details screen
+2023-03-12 13:52:33 INFO  - Swiping from coordinates (x:800; y:1966) to (x:800; y:368)
+2023-03-12 13:52:36 INFO  - Step 8 - Publisher and Categories in Information section are correct on book details screen
+2023-03-12 13:52:36 INFO  - Swiping from coordinates (x:800; y:1966) to (x:800; y:368)
+2023-03-12 13:52:38 INFO  - Label 'Publisher label' :: Getting text from element
+2023-03-12 13:52:39 INFO  - Label 'Categories label' :: Getting text from element
+2023-03-12 13:52:40 INFO  - Step 9 - Distributor is equal to 'Palace Marketplace' on book details screen
+2023-03-12 13:52:40 INFO  - Label 'Distributor label' :: Getting text from element
+2023-03-12 13:52:41 INFO  - Taking screenshot
+2023-03-12 13:52:42 INFO  - Unlocking credential for current thread
+2023-03-12 13:52:42 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2f55570e
