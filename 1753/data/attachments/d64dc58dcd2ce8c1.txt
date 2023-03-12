@@ -1,0 +1,75 @@
+2023-03-12 16:29:35 INFO  - Scenario 'Font settings: Check of font style' start
+2023-03-12 16:29:35 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-12 16:29:52 INFO  - Application on platform 'IOS' is ready...
+2023-03-12 16:29:52 INFO  - Session id - 3175f3f1b0ea313889c4b4ac73f088a186f328ec
+2023-03-12 16:29:52 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-12 16:29:52 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-12 16:29:53 INFO  - Button 'Find your library button' :: Clicking
+2023-03-12 16:29:53 INFO  - Text Field 'Search field' :: Clicking
+2023-03-12 16:30:00 INFO  - Text Field 'Search field' :: Clearing
+2023-03-12 16:30:00 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-12 16:30:11 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-12 16:30:13 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-12 16:30:13 INFO  - Button 'Settings' :: Clicking
+2023-03-12 16:30:14 INFO  - Button 'Settings' :: Clicking
+2023-03-12 16:30:15 INFO  - Button 'Libraries button' :: Clicking
+2023-03-12 16:30:16 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-12 16:30:16 INFO  - Button 'Settings' :: Clicking
+2023-03-12 16:30:17 INFO  - Button 'Settings' :: Clicking
+2023-03-12 16:30:18 INFO  - Button 'Libraries button' :: Clicking
+2023-03-12 16:30:21 INFO  - Locking credential with barcode 01230000000303
+2023-03-12 16:30:21 INFO  - There are books on the account: 
+2023-03-12 16:30:21 INFO  - There is not books on the account.
+2023-03-12 16:30:21 INFO  - Count of books on the account after opening account: 0
+2023-03-12 16:30:42 INFO  - Text Field 'Card' :: Clicking
+2023-03-12 16:30:43 INFO  - Text Field 'Card' :: Clearing
+2023-03-12 16:30:43 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-12 16:30:46 INFO  - Text Field 'Pin' :: Clearing
+2023-03-12 16:30:46 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-12 16:30:49 INFO  - Button 'Log in' :: Clicking
+2023-03-12 16:31:11 INFO  - Step 3 - Login is performed successfully
+2023-03-12 16:31:12 INFO  - Step 4 - I open Catalog
+2023-03-12 16:31:12 INFO  - Button 'Catalog' :: Clicking
+2023-03-12 16:31:14 INFO  - Step 5 - I open search modal
+2023-03-12 16:31:15 INFO  - Button 'Search button' :: Clicking
+2023-03-12 16:31:17 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-12 16:31:17 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-03-12 16:31:17 INFO  - randomBookName: Above World
+2023-03-12 16:31:17 INFO  - Text Field 'Search value input' :: Sending keys 'Above World'
+2023-03-12 16:31:18 INFO  - Button 'Search' :: Clicking
+2023-03-12 16:31:20 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-12 16:31:21 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-12 16:31:23 INFO  - Button 'actionButton' :: Clicking
+2023-03-12 16:31:45 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-12 16:31:46 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-12 16:31:46 INFO  - Label 'lblBookName' :: Clicking
+2023-03-12 16:31:47 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-12 16:31:48 INFO  - Button 'Read' :: Clicking
+2023-03-12 16:31:54 INFO  - Alert appears and dismiss alert
+2023-03-12 16:31:54 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-12 16:31:54 INFO  - Scrolling 7 times on reader epub screen
+2023-03-12 16:32:13 INFO  - Step 11 - I open font settings
+2023-03-12 16:32:14 INFO  - Button 'Font Settings' :: Clicking
+2023-03-12 16:32:15 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-03-12 16:32:15 INFO  - Button 'Serif font' :: Clicking
+2023-03-12 16:32:16 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-03-12 16:32:17 INFO  - count of contextHandles-8
+2023-03-12 16:32:17 INFO  - Step 14 - I restart app
+2023-03-12 16:32:25 INFO  - Step 15 - I open Books
+2023-03-12 16:32:25 INFO  - Button 'My Books' :: Clicking
+2023-03-12 16:32:27 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-12 16:32:47 INFO  - Label 'lblBookName' :: Clicking
+2023-03-12 16:33:08 INFO  - Taking screenshot
+2023-03-12 16:33:09 INFO  - Test finished - logging out
+2023-03-12 16:33:12 INFO  - Button 'Settings' :: Clicking
+2023-03-12 16:33:13 INFO  - Button 'Settings' :: Clicking
+2023-03-12 16:33:14 INFO  - Button 'Libraries button' :: Clicking
+2023-03-12 16:33:17 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-12 16:33:17 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-12 16:33:18 INFO  - Button 'Log out' :: Clicking
+2023-03-12 16:33:19 INFO  - Button 'Log out approve' :: Clicking
+2023-03-12 16:33:40 INFO  - Button 'Log in' :: Getting text from element
+2023-03-12 16:33:41 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-12 16:33:41 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-12 16:33:42 INFO  - Unlocking credential for current thread
+2023-03-12 16:33:42 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@37b15c77
