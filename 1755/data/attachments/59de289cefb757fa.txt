@@ -1,0 +1,59 @@
+2023-03-13 18:58:06 INFO  - Scenario 'Get a book from Subcategory List View and Read from Books in LYRASIS' start
+2023-03-13 18:58:06 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-13 18:58:22 INFO  - Application on platform 'IOS' is ready...
+2023-03-13 18:58:22 INFO  - Session id - 6553d896a2a1f2c96ca2180a42c27f350456f279
+2023-03-13 18:58:22 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-13 18:58:23 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-13 18:58:23 INFO  - Button 'Find your library button' :: Clicking
+2023-03-13 18:58:24 INFO  - Text Field 'Search field' :: Clicking
+2023-03-13 18:58:31 INFO  - Text Field 'Search field' :: Clearing
+2023-03-13 18:58:31 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-13 18:58:41 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-13 18:58:42 INFO  - Step 1 - I enter credentials for 'LYRASIS Reads' account
+2023-03-13 18:58:43 INFO  - Button 'Settings' :: Clicking
+2023-03-13 18:58:44 INFO  - Button 'Settings' :: Clicking
+2023-03-13 18:58:44 INFO  - Button 'Libraries button' :: Clicking
+2023-03-13 18:58:47 INFO  - Locking credential with barcode 01230000000303
+2023-03-13 18:58:47 INFO  - There are books on the account: 
+2023-03-13 18:58:48 INFO  - There is not books on the account.
+2023-03-13 18:58:48 INFO  - Count of books on the account after opening account: 0
+2023-03-13 18:59:09 INFO  - Text Field 'Card' :: Clicking
+2023-03-13 18:59:10 INFO  - Text Field 'Card' :: Clearing
+2023-03-13 18:59:10 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-13 18:59:13 INFO  - Text Field 'Pin' :: Clearing
+2023-03-13 18:59:13 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-13 18:59:16 INFO  - Button 'Log in' :: Clicking
+2023-03-13 18:59:39 INFO  - Step 2 - Login is performed successfully
+2023-03-13 18:59:39 INFO  - Step 3 - I open Catalog
+2023-03-13 18:59:39 INFO  - Button 'Catalog' :: Clicking
+2023-03-13 18:59:41 INFO  - Step 4 - I open search modal
+2023-03-13 18:59:42 INFO  - Button 'Search button' :: Clicking
+2023-03-13 18:59:44 INFO  - Step 5 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-13 18:59:44 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-03-13 18:59:44 INFO  - randomBookName: Stand by Me
+2023-03-13 18:59:45 INFO  - Text Field 'Search value input' :: Sending keys 'Stand by Me'
+2023-03-13 18:59:46 INFO  - Button 'Search' :: Clicking
+2023-03-13 18:59:49 INFO  - Step 6 - I switch to 'eBooks' catalog tab
+2023-03-13 18:59:49 INFO  - Button 'eBooks' :: Clicking
+2023-03-13 19:00:32 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-13 19:00:35 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-13 19:00:37 INFO  - Button 'actionButton' :: Clicking
+2023-03-13 19:01:00 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-03-13 19:01:01 INFO  - Step 9 - I open Books
+2023-03-13 19:01:01 INFO  - Button 'My Books' :: Clicking
+2023-03-13 19:01:03 INFO  - Step 10 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-13 19:01:23 INFO  - Label 'lblBookName' :: Clicking
+2023-03-13 19:01:44 INFO  - Taking screenshot
+2023-03-13 19:01:46 INFO  - Test finished - logging out
+2023-03-13 19:01:49 INFO  - Button 'Settings' :: Clicking
+2023-03-13 19:01:50 INFO  - Button 'Settings' :: Clicking
+2023-03-13 19:01:51 INFO  - Button 'Libraries button' :: Clicking
+2023-03-13 19:01:56 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-13 19:01:58 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-13 19:02:00 INFO  - Button 'Log out' :: Clicking
+2023-03-13 19:02:01 INFO  - Button 'Log out approve' :: Clicking
+2023-03-13 19:02:23 INFO  - Button 'Log in' :: Getting text from element
+2023-03-13 19:02:24 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-13 19:02:24 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-13 19:02:25 INFO  - Unlocking credential for current thread
+2023-03-13 19:02:25 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@737ec55e
