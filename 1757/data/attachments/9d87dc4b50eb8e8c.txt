@@ -1,0 +1,87 @@
+2023-03-14 17:31:48 INFO  - Scenario 'Switch Library Reservations' start
+2023-03-14 17:31:48 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-14 17:32:12 INFO  - Application on platform 'IOS' is ready...
+2023-03-14 17:32:12 INFO  - Session id - efddbfc3decfe4ba7004e32e1e2fadd4ec81f942
+2023-03-14 17:32:12 INFO  - Step 0 - I add "Plumas County Library" account from welcomeScreen
+2023-03-14 17:32:12 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-14 17:32:14 INFO  - Button 'Find your library button' :: Clicking
+2023-03-14 17:32:15 INFO  - Text Field 'Search field' :: Clicking
+2023-03-14 17:32:21 INFO  - Text Field 'Search field' :: Clearing
+2023-03-14 17:32:21 INFO  - Text Field 'Search field' :: Typing 'Plumas County Library'
+2023-03-14 17:32:33 INFO  - Button 'Plumas County Library' :: Clicking
+2023-03-14 17:32:35 INFO  - Step 1 - I add 'LYRASIS Reads' account
+2023-03-14 17:32:35 INFO  - Button 'Settings' :: Clicking
+2023-03-14 17:32:36 INFO  - Button 'Settings' :: Clicking
+2023-03-14 17:32:37 INFO  - Button 'Libraries button' :: Clicking
+2023-03-14 17:32:38 INFO  - Button 'btnAddLibrary' :: Clicking
+2023-03-14 17:32:39 INFO  - Text Field 'Search field' :: Clicking
+2023-03-14 17:32:46 INFO  - Text Field 'Search field' :: Clearing
+2023-03-14 17:32:46 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-14 17:32:57 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-14 17:32:59 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-14 17:32:59 INFO  - Button 'Settings' :: Clicking
+2023-03-14 17:33:01 INFO  - Button 'Settings' :: Clicking
+2023-03-14 17:33:02 INFO  - Button 'Libraries button' :: Clicking
+2023-03-14 17:33:06 INFO  - Locking credential with barcode 01230000000305
+2023-03-14 17:33:06 INFO  - There are books on the account: 
+2023-03-14 17:33:07 INFO  - There is not books on the account.
+2023-03-14 17:33:07 INFO  - Count of books on the account after opening account: 0
+2023-03-14 17:33:28 INFO  - Text Field 'Card' :: Clicking
+2023-03-14 17:33:30 INFO  - Text Field 'Card' :: Clearing
+2023-03-14 17:33:30 INFO  - Text Field 'Card' :: Typing '01230000000305'
+2023-03-14 17:33:33 INFO  - Text Field 'Pin' :: Clearing
+2023-03-14 17:33:33 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-14 17:33:36 INFO  - Button 'Log in' :: Clicking
+2023-03-14 17:33:43 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-03-14 17:33:45 INFO  - Step 3 - Login is performed successfully
+2023-03-14 17:33:46 INFO  - Step 4 - I open Catalog
+2023-03-14 17:33:46 INFO  - Button 'Catalog' :: Clicking
+2023-03-14 17:33:48 INFO  - Step 5 - I open search modal
+2023-03-14 17:33:50 INFO  - Button 'Search button' :: Clicking
+2023-03-14 17:33:52 INFO  - Step 6 - I search 'unavailable' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-14 17:33:52 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-03-14 17:33:52 INFO  - randomBookName: I Hate You More
+2023-03-14 17:33:53 INFO  - Text Field 'Search value input' :: Sending keys 'I Hate You More'
+2023-03-14 17:33:55 INFO  - Button 'Search' :: Clicking
+2023-03-14 17:33:58 INFO  - Step 7 - I switch to 'eBooks' catalog tab
+2023-03-14 17:33:58 INFO  - Button 'eBooks' :: Clicking
+2023-03-14 17:34:40 INFO  - Step 8 - Subcategory screen is present
+2023-03-14 17:34:41 INFO  - Step 9 - Open EBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-14 17:34:42 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-14 17:34:43 INFO  - Label 'lblBookName' :: Clicking
+2023-03-14 17:34:45 INFO  - Step 10 - Book 'bookInfo' is opened on book details screen
+2023-03-14 17:34:47 INFO  - Label 'Book title' :: Getting text from element
+2023-03-14 17:34:50 INFO  - Label 'Author' :: Getting text from element
+2023-03-14 17:34:53 INFO  - Label 'Book title' :: Getting text from element
+2023-03-14 17:34:57 INFO  - Label 'Author' :: Getting text from element
+2023-03-14 17:34:58 INFO  - Step 11 - Click RESERVE action button on book details screen
+2023-03-14 17:34:59 INFO  - Button 'Reserve' :: Clicking
+2023-03-14 17:35:06 INFO  - Alert appears and dismiss alert
+2023-03-14 17:35:06 INFO  - Step 12 - I check that book contains REMOVE action button on book details screen
+2023-03-14 17:35:18 INFO  - Step 13 - I open Holds
+2023-03-14 17:35:19 INFO  - Button 'Reservations' :: Clicking
+2023-03-14 17:35:20 INFO  - Step 14 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-03-14 17:35:21 INFO  - Step 15 - I open Catalog
+2023-03-14 17:35:21 INFO  - Button 'Catalog' :: Clicking
+2023-03-14 17:35:43 INFO  - Step 16 - I open Catalog
+2023-03-14 17:35:43 INFO  - Button 'Catalog' :: Clicking
+2023-03-14 17:35:46 INFO  - Step 17 - I switch to 'Plumas County Library' from side menu
+2023-03-14 17:35:47 INFO  - Button 'Catalog' :: Clicking
+2023-03-14 17:35:49 INFO  - Button 'Change library account' :: Clicking
+2023-03-14 17:36:15 INFO  - Taking screenshot
+2023-03-14 17:36:21 INFO  - Test finished - logging out
+2023-03-14 17:36:25 INFO  - Button 'Settings' :: Clicking
+2023-03-14 17:36:27 INFO  - Button 'Settings' :: Clicking
+2023-03-14 17:36:28 INFO  - Button 'Libraries button' :: Clicking
+2023-03-14 17:36:32 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-14 17:36:33 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-14 17:36:34 INFO  - Button 'Log out' :: Clicking
+2023-03-14 17:36:36 INFO  - Button 'Log out approve' :: Clicking
+2023-03-14 17:36:57 INFO  - Button 'Log in' :: Getting text from element
+2023-03-14 17:36:58 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-14 17:37:00 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-14 17:37:01 INFO  - Button 'Settings' :: Clicking
+2023-03-14 17:37:02 INFO  - Button 'Settings' :: Clicking
+2023-03-14 17:37:03 INFO  - Button 'Libraries button' :: Clicking
+2023-03-14 17:37:08 INFO  - Unlocking credential for current thread
+2023-03-14 17:37:08 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5cdc4392
