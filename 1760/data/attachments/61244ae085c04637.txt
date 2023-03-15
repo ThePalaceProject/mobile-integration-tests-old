@@ -1,0 +1,102 @@
+2023-03-15 05:44:27 INFO  - Scenario 'Epub: Navigate by Page' start
+2023-03-15 05:44:27 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-15 05:45:00 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-15 05:45:00 INFO  - Session id - c63f0ec860dde4023dd7103308569c0349f8c815
+2023-03-15 05:45:00 INFO  - Step 0 - I turn on test mode in "Palace Bookshelf" library
+2023-03-15 05:45:00 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-15 05:45:03 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-15 05:45:04 INFO  - Button 'Search' :: Clicking
+2023-03-15 05:45:08 INFO  - Text Field 'Search' :: Clearing
+2023-03-15 05:45:08 INFO  - Text Field 'Search' :: Typing 'Palace Bookshelf'
+2023-03-15 05:45:12 INFO  - Button 'Palace Bookshelf' :: Clicking
+2023-03-15 05:45:13 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 05:45:20 INFO  - Button 'Debug options button' :: Clicking
+2023-03-15 05:45:21 INFO  - Step 1 - Enable hidden libraries
+2023-03-15 05:45:22 INFO  - Swiping from coordinates (x:720; y:2324) to (x:720; y:435)
+2023-03-15 05:45:24 INFO  - Button 'Hidden libraries button' :: Clicking
+2023-03-15 05:45:25 INFO  - Step 2 - I open Catalog
+2023-03-15 05:45:25 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-15 05:45:46 INFO  - Step 3 - I add "A1QA Test Library" account by the logo
+2023-03-15 05:45:47 INFO  - Button 'Logo' :: Clicking
+2023-03-15 05:45:47 INFO  - Button 'Add library btn' :: Clicking
+2023-03-15 05:45:49 INFO  - Button 'Search' :: Clicking
+2023-03-15 05:45:52 INFO  - Text Field 'Search' :: Clearing
+2023-03-15 05:45:52 INFO  - Text Field 'Search' :: Typing 'A1QA Test Library'
+2023-03-15 05:45:56 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-03-15 05:46:19 INFO  - Step 4 - Account "A1QA Test Library" is present on Accounts screen
+2023-03-15 05:46:19 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 05:46:20 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 05:46:21 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 05:46:24 INFO  - Step 5 - I enter credentials for "A1QA Test Library" account
+2023-03-15 05:46:24 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 05:46:25 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 05:46:26 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 05:46:28 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-03-15 05:46:29 INFO  - Locking credential with barcode 01230000000304
+2023-03-15 05:46:29 INFO  - There are books on the account: 
+2023-03-15 05:46:30 INFO  - There is not books on the account.
+2023-03-15 05:46:30 INFO  - Count of books on the account after opening account: 0
+2023-03-15 05:46:30 INFO  - Text Field 'Card' :: Clearing
+2023-03-15 05:46:30 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-03-15 05:46:32 INFO  - Text Field 'Pin' :: Clearing
+2023-03-15 05:46:32 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-15 05:46:35 INFO  - Button 'Log in' :: Clicking
+2023-03-15 05:46:44 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-15 05:46:45 INFO  - Step 6 - Login is performed successfully
+2023-03-15 05:47:07 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-15 05:47:08 INFO  - Step 7 - I open Catalog
+2023-03-15 05:47:08 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-15 05:47:31 INFO  - Step 8 - I open search modal
+2023-03-15 05:47:51 INFO  - Button 'Search' :: Clicking
+2023-03-15 05:47:54 INFO  - Step 9 - I search for "The Book Thief" and save bookName as 'bookNameInfo'
+2023-03-15 05:47:54 INFO  - Error details button is not present
+2023-03-15 05:47:55 INFO  - Text Field 'Search value input' :: Sending keys 'The Book Thief'
+2023-03-15 05:48:00 INFO  - Error details button is not present
+2023-03-15 05:48:02 INFO  - Step 10 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-15 05:48:04 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-15 05:48:06 INFO  - Button 'actionButton' :: Clicking
+2023-03-15 05:48:17 INFO  - Step 11 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-15 05:48:18 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-15 05:48:19 INFO  - Label 'lblBookName' :: Clicking
+2023-03-15 05:48:20 INFO  - Step 12 - Click READ action button on book details screen
+2023-03-15 05:48:21 INFO  - Button 'Read' :: Clicking
+2023-03-15 05:48:22 INFO  - Step 13 - 'bookInfo' book is present on epub reader screen
+2023-03-15 05:48:26 INFO  - Label 'lblBookName' :: Getting text from element
+2023-03-15 05:48:27 INFO  - Book name on epub reader screen - The Book Thief
+2023-03-15 05:48:27 INFO  - Step 14 - I click on right book corner on epub reader screen
+2023-03-15 05:48:30 INFO  - Step 15 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-03-15 05:48:30 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-03-15 05:48:31 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-03-15 05:48:32 INFO  - Step 16 - I click on right book corner on epub reader screen
+2023-03-15 05:48:35 INFO  - Step 17 - Next page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-03-15 05:48:35 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-03-15 05:48:37 INFO  - actualPageNumberOfNextPage3
+2023-03-15 05:48:37 INFO  - expectedPageNumberOfNextPage3
+2023-03-15 05:48:37 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-03-15 05:48:38 INFO  - actualChapterNameOfNextPage
+2023-03-15 05:48:38 INFO  - expectedChapterNameOfNextPage
+2023-03-15 05:48:38 INFO  - Step 18 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-03-15 05:48:38 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-03-15 05:48:39 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-03-15 05:48:39 INFO  - Step 19 - I click on left book corner on epub reader screen
+2023-03-15 05:48:41 INFO  - Step 20 - Previous page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-03-15 05:48:41 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-03-15 05:48:43 INFO  - actualPageNumberOfPreviousPage2
+2023-03-15 05:48:43 INFO  - expectedPageNumberOfPreviousPage2
+2023-03-15 05:48:43 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-03-15 05:48:44 INFO  - actualChapterNameOfPreviousPage
+2023-03-15 05:48:44 INFO  - expectedChapterNameOfPreviousPage
+2023-03-15 05:48:44 INFO  - Taking screenshot
+2023-03-15 05:48:46 INFO  - Test finished - logging out
+2023-03-15 05:48:47 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 05:48:51 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 05:48:52 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 05:48:54 INFO  - Button 'A1QA Test Library' :: Clicking
+2023-03-15 05:48:56 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-15 05:48:57 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-15 05:48:58 INFO  - Button 'Log out' :: Clicking
+2023-03-15 05:49:00 INFO  - Button 'Log in' :: Getting text from element
+2023-03-15 05:49:12 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-15 05:49:13 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-15 05:49:14 INFO  - Unlocking credential for current thread
+2023-03-15 05:49:14 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@351fb2f2
