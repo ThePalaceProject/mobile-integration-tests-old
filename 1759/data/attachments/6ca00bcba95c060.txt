@@ -1,0 +1,90 @@
+2023-03-15 01:18:34 INFO  - Scenario 'Navigate by Page' start
+2023-03-15 01:18:34 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-15 01:19:03 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-15 01:19:03 INFO  - Session id - 479869d16ced366dda5eac955847f316deb956f6
+2023-03-15 01:19:03 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-15 01:19:03 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-15 01:19:06 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-15 01:19:06 INFO  - Button 'Search' :: Clicking
+2023-03-15 01:19:08 INFO  - Text Field 'Search' :: Clearing
+2023-03-15 01:19:08 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-15 01:19:11 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-15 01:19:11 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-15 01:19:11 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 01:19:12 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 01:19:13 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 01:19:15 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-15 01:19:15 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 01:19:16 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 01:19:17 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 01:19:19 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-15 01:19:19 INFO  - Locking credential with barcode 01230000000306
+2023-03-15 01:19:19 INFO  - There are books on the account: 
+2023-03-15 01:19:20 INFO  - There is not books on the account.
+2023-03-15 01:19:20 INFO  - Count of books on the account after opening account: 0
+2023-03-15 01:19:20 INFO  - Text Field 'Card' :: Clearing
+2023-03-15 01:19:20 INFO  - Text Field 'Card' :: Typing '01230000000306'
+2023-03-15 01:19:22 INFO  - Text Field 'Pin' :: Clearing
+2023-03-15 01:19:22 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-15 01:19:24 INFO  - Button 'Log in' :: Clicking
+2023-03-15 01:19:30 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-15 01:19:30 INFO  - Step 3 - Login is performed successfully
+2023-03-15 01:19:51 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-15 01:19:51 INFO  - Step 4 - I open Catalog
+2023-03-15 01:19:51 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-15 01:20:12 INFO  - Step 5 - I open search modal
+2023-03-15 01:20:32 INFO  - Button 'Search' :: Clicking
+2023-03-15 01:20:33 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-15 01:20:33 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-15 01:20:33 INFO  - randomBookName: Lemon
+2023-03-15 01:20:33 INFO  - Error details button is not present
+2023-03-15 01:20:34 INFO  - Text Field 'Search value input' :: Sending keys 'Lemon'
+2023-03-15 01:20:36 INFO  - Error details button is not present
+2023-03-15 01:20:40 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-15 01:20:40 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-15 01:20:41 INFO  - Button 'actionButton' :: Clicking
+2023-03-15 01:20:53 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-15 01:20:54 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-15 01:20:54 INFO  - Label 'lblBookName' :: Clicking
+2023-03-15 01:20:55 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-15 01:20:56 INFO  - Button 'Read' :: Clicking
+2023-03-15 01:20:56 INFO  - Step 10 - 'bookInfo' book is present on epub reader screen
+2023-03-15 01:20:59 INFO  - Label 'lblBookName' :: Getting text from element
+2023-03-15 01:21:00 INFO  - Book name on epub reader screen - Lemon
+2023-03-15 01:21:00 INFO  - Step 11 - I click on right book corner on epub reader screen
+2023-03-15 01:21:02 INFO  - Step 12 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-03-15 01:21:02 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-03-15 01:21:03 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-03-15 01:21:03 INFO  - Step 13 - I click on right book corner on epub reader screen
+2023-03-15 01:21:05 INFO  - Step 14 - Next page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-03-15 01:21:05 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-03-15 01:21:05 INFO  - actualPageNumberOfNextPage3
+2023-03-15 01:21:05 INFO  - expectedPageNumberOfNextPage3
+2023-03-15 01:21:05 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-03-15 01:21:05 INFO  - actualChapterNameOfNextPage
+2023-03-15 01:21:05 INFO  - expectedChapterNameOfNextPage
+2023-03-15 01:21:05 INFO  - Step 15 - I save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-03-15 01:21:05 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-03-15 01:21:06 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-03-15 01:21:06 INFO  - Step 16 - I click on left book corner on epub reader screen
+2023-03-15 01:21:07 INFO  - Step 17 - Previous page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-03-15 01:21:07 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-03-15 01:21:07 INFO  - actualPageNumberOfPreviousPage2
+2023-03-15 01:21:07 INFO  - expectedPageNumberOfPreviousPage2
+2023-03-15 01:21:07 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-03-15 01:21:08 INFO  - actualChapterNameOfPreviousPage
+2023-03-15 01:21:08 INFO  - expectedChapterNameOfPreviousPage
+2023-03-15 01:21:08 INFO  - Taking screenshot
+2023-03-15 01:21:08 INFO  - Test finished - logging out
+2023-03-15 01:21:10 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 01:21:12 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 01:21:13 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 01:21:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-15 01:21:16 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-15 01:21:16 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-15 01:21:17 INFO  - Button 'Log out' :: Clicking
+2023-03-15 01:21:17 INFO  - Button 'Log in' :: Getting text from element
+2023-03-15 01:21:20 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-15 01:21:21 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-15 01:21:21 INFO  - Unlocking credential for current thread
+2023-03-15 01:21:21 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@670766bf

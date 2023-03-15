@@ -1,0 +1,145 @@
+2023-03-15 00:48:01 INFO  - Scenario 'Font settings: Check of font style' start
+2023-03-15 00:48:01 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-15 00:48:30 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-15 00:48:30 INFO  - Session id - ee6290e1d4ae2740a17aa2c81776993fd1e699c1
+2023-03-15 00:48:30 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-15 00:48:30 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-15 00:48:32 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-15 00:48:33 INFO  - Button 'Search' :: Clicking
+2023-03-15 00:48:34 INFO  - Text Field 'Search' :: Clearing
+2023-03-15 00:48:34 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-15 00:48:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-15 00:48:37 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-15 00:48:37 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 00:48:38 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 00:48:39 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 00:48:41 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-15 00:48:41 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 00:48:42 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 00:48:43 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 00:48:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-15 00:48:45 INFO  - Locking credential with barcode 01230000000303
+2023-03-15 00:48:45 INFO  - There are books on the account: 
+2023-03-15 00:48:46 INFO  - There is not books on the account.
+2023-03-15 00:48:46 INFO  - Count of books on the account after opening account: 0
+2023-03-15 00:48:46 INFO  - Text Field 'Card' :: Clearing
+2023-03-15 00:48:46 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-15 00:48:48 INFO  - Text Field 'Pin' :: Clearing
+2023-03-15 00:48:48 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-15 00:48:50 INFO  - Button 'Log in' :: Clicking
+2023-03-15 00:48:56 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-15 00:48:57 INFO  - Step 3 - Login is performed successfully
+2023-03-15 00:49:18 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-15 00:49:18 INFO  - Step 4 - I open Catalog
+2023-03-15 00:49:18 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-15 00:49:42 INFO  - Step 5 - I open search modal
+2023-03-15 00:50:02 INFO  - Button 'Search' :: Clicking
+2023-03-15 00:50:04 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-15 00:50:04 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-15 00:50:04 INFO  - randomBookName: My Wife and I
+2023-03-15 00:50:04 INFO  - Error details button is not present
+2023-03-15 00:50:04 INFO  - Text Field 'Search value input' :: Sending keys 'My Wife and I'
+2023-03-15 00:50:06 INFO  - Error details button is not present
+2023-03-15 00:50:10 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-15 00:50:10 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-15 00:50:11 INFO  - Button 'actionButton' :: Clicking
+2023-03-15 00:50:17 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-15 00:50:18 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-15 00:50:18 INFO  - Label 'lblBookName' :: Clicking
+2023-03-15 00:50:18 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-15 00:50:19 INFO  - Button 'Read' :: Clicking
+2023-03-15 00:50:19 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-15 00:50:19 INFO  - Scrolling 8 times on reader epub screen
+2023-03-15 00:50:37 INFO  - Step 11 - I open font settings
+2023-03-15 00:50:38 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-15 00:50:38 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-03-15 00:50:38 INFO  - Button 'setFontSerif' :: Clicking
+2023-03-15 00:50:39 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-03-15 00:50:39 INFO  - context - NATIVE_APP
+2023-03-15 00:50:39 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-15 00:50:41 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-15 00:50:41 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+  <head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+    <title>My Wife and I-Chapter I.: The author defines his position.</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="9788726587227.css" />
+    
+  <link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  
+
+<body>
+   <div class="galley">
+      <div class="body Chapter" id="Chapter1">
+         <div class="title-block" id="title-block2">
+            <p class="title-num" id="title-num1"><span class="title-num-label">Chapter
+      </span> I.
+   </p>
+            <h1 id="h13">The author defines his position.
+   </h1>
+         </div>
+         <p class="firstpara" id="p15"><span class="dropcap">I
+      </span>T appears to me that the world is returning to its second childhood, and running mad for Stories. Stories! Stories! Stories! everywhere; stories in every paper, in every crevice, crack and corner of the house. Stories fall from the pen faster than leaves of autumn, and of as many shades and colorings. Stories blow over here in whirlwinds from England. Stories are translated from the French, from the Danish, from the Swedish, from the German, from the Russian. There are serial stories for adults in the <i>Atlantic</i>, in the <i>Overland</i>, in the <i>Galaxy</i>, in <i>Harper's</i>, in <i>Scribner's</i>. There are serial stories for youthful pilgrims in <i>Our Young Folks</i>, the <i>Little Corporal, "Oliver Optic,"</i> the <i>Youth's Companion</i>, and very soon we anticipate newspapers with serial stories for the nursery. We shall have those charmingly illustrated magazines, the <i>Cradle</i>, the <i>Rocking Chair</i>, the <i>First Rattle</i>, and the <i>First Tooth</i>, with successive chapters of "Goosy Goosy Gander," and "Hickory Dickory Dock," and "Old Mother Hubbard," extending through twelve, or twenty-four, or forty-eight numbers.</p>
+         <p id="p16">I have often questioned what Solomon would have said if he had lived in our day. The poor man, it appears, was somewhat <i>blasé</i> with the abundance of literature in his times, and remarked that much study was weariness to the flesh. Then, printing was not invented, and "books" were all copied by hand, in those very square Hebrew letters where each letter is about as careful a bit of work as a grave-stone. And yet, even with all these restrictions and circumscriptions, Solomon rather testily remarked, "Of making many books there is no end!" What would he have said had he looked over a modern publisher's catalogue?</p>
+         <p id="p17">It is understood now that no paper is complete without its serial story, and the spinning of these stories keeps thousands of wheels and spindles in motion. It is now understood that whoever wishes to gain the public ear, and to propound a new theory, must do it in a serial story. Hath any one in our day, as in St. Paul's, a psalm, a doctrine, a tongue, a revelation, an interpretation — forthwith he wraps it up in a serial story, and presents it to the public. We have prison discipline, free-trade, labor and capital, woman's rights, the temperance question, in serial stories. We have Romanism and Protestantism, High Church, and Low Church and no Church, contending with each other in serial stories, where each side converts the other, according to the faith of the narrator.</p>
+         <p id="p18">We see that this thing is to go on. Soon it will be necessary that every leading clergyman should embody in his theology a serial story, to be delivered from the pulpit Sunday after Sunday. We look forward to announcements in our city papers such as these: The Rev. Dr. Ignatius, of the Church of St. Mary the Virgin, will begin a serial romance, to be entitled "St. Sebastian and the Arrows," in which he will embody the duties, the trials, and the temptations of the young Christians of our day. The Rev. Dr. Boanerges, of Plymouth Rock Church, will begin a serial story, entitled "Calvin's Daughter," in which he will discuss the distinctive features of Protestant theology. The Rev. Dr. Cool Shadow will go on with his interesting romance of "Christianity a Dissolving View," — designed to show how everything is, in many respects, like everything else, and all things lead somewhere, and everything will finally end somehow, and that therefore it is important that everybody should cultivate general sweetness, and have the very best time possible in this world.</p>
+         <p id="p19">By the time all these romances get to going, the system of teaching by parables, and opening one's mouth in dark sayings, will be fully elaborated. <i>Pilgrim's Progress</i> will be no where. The way to the celestial city will be as plain in everybody's mind as the way up Broadway — and so much more interesting! Finally all science and all art will be explained, conducted, and directed by serial stories, till the present life and the life to come shall form only one grand romance. This will be about the time of the Millennium.</p>
+         <p id="p20">Meanwhile, I have been furnishing a story for the <i>Christian Union</i>, and I chose the subject which is in everybody's mind and mouth, discussed on every platform, ringing from everybody's tongue, and coming home to every man's business and bosom, to wit:</p>
+         <p id="p21">I trust that Miss Anthony and Mrs. Stanton, and all the prophetesses of our day, will remark the humility and propriety of my title. It is not I and My Wife — oh no! It is My Wife and I. What am I, and what is my father's house, that I should go before my wife in anything?</p>
+         <p id="p22">"But why specially for the <i>Christian Union?"</i> says Mr. Chadband. Let us in a spirit of Love inquire.</p>
+         <p id="p23">Is it not evident why, O beloved? Is not that firm in human nature which stands under the title of <span class="smallcaps">My Wife and
+      </span> I, the oldest and most venerable form of Christian union on record? Where, I ask, will you find a better one? — a wiser, a stronger, a sweeter, a more universally popular and agreeable one?</p>
+         <p id="p24">To be sure, there have been times and seasons when this ancient and respectable firm has been attacked as a piece of old fogyism, and various substitutes for it proposed. It has been said that "<span class="smallcaps">My Wife and
+      </span> I" denoted a selfish, close corporation inconsistent with a general, all-sided diffusive, universal benevolence; that <span class="smallcaps">My Wife and
+      </span> I, in a millennial community, had no particular rights in each other more than any of the thousands of the brethren and sisters of the human race. They have said, too, that <span class="smallcaps">My Wife and
+      </span> I, instead of an indissoluble unity, were only temporary partners, engaged on time, with the liberty of giving three months' notice, and starting off to a new firm.</p>
+         <p id="p25">It is not thus that we understand the matter.</p>
+         <p id="p26"><span class="smallcaps">My Wife and
+      </span> I, as we understand it, is the sign and symbol of more than any earthly partnership or union — of something sacred as religion, indissoluble as the soul, endless as eternity — the symbol chosen by Almighty Love to represent his redeeming, eternal union with the soul of man.</p>
+         <p id="p27">A fountain of eternal youth gushes near the hearth of every household. Each man and woman that have loved truly, have had their romance in life — their poetry in existence.</p>
+         <p id="p28">So I, in giving my history, disclaim all other sources of interest. Look not for trap-doors, or haunted houses, or deadly conspiracies, or murders, or concealed crimes, in this history, for you will not find one. You shall have simply and only the old story — old as the first chapter of Genesis — of Adam stupid, desolate, and lonely without Eve, and how he sought and how he found her.</p>
+         <p id="p29">This much, on mature consideration I hold to be about the sum and substance of all the romances that have ever been written, and so long as there are new Adams and new Eves in each coming generation, it will not want for sympathetic listeners.</p>
+         <p id="p30">So I, Harry Henderson — a plain Yankee boy from the mountains of New Hampshire, and at present citizen of New York — commence my story.</p>
+         <p id="p31">My experiences have three stages.</p>
+         <p id="p32">First, My child-wife, or the experiences of childhood.</p>
+         <p id="p33">Second, My shadow-wife, or the dreamland of the future.</p>
+         <p id="p34">Third, my real wife, where I saw her, how I sought and found her.</p>
+         <p id="p35">In pursuing a story simply and mainly of love and marriage, I am reminded of the saying of a respectable serving man of European experiences, who speaking of his position in a noble family said it was not so much the wages that made it an object as <i>"the things it enabled a gentleman to pick up."</i> So in our modern days as we have been observing, it is not so much the story, as the things it gives the author a chance to say. The history of a young American man's progress toward matrimony, of course brings him among the most stirring and exciting topics of the day, where all that relates to the joint interests of man and woman has been thrown into the arena as an open question, and in relating our own experiences, we shall take occasion to keep up with the spirit of this discussing age in all these matters.</p>
+      </div>
+   </div>
+</body>
+
+</html>
+2023-03-15 00:50:41 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-15 00:50:41 INFO  - Step 14 - I restart app
+2023-03-15 00:51:06 INFO  - Step 15 - I open Books
+2023-03-15 00:51:06 INFO  - Button 'tabBooks' :: Clicking
+2023-03-15 00:51:06 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-15 00:51:07 INFO  - Label 'lblBookName' :: Clicking
+2023-03-15 00:51:07 INFO  - Step 17 - Click READ action button on book details screen
+2023-03-15 00:51:08 INFO  - Button 'Read' :: Clicking
+2023-03-15 00:51:09 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-03-15 00:51:09 INFO  - context - NATIVE_APP
+2023-03-15 00:51:12 INFO  - context - NATIVE_APP
+2023-03-15 00:51:12 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-15 00:51:13 INFO  - Taking screenshot
+2023-03-15 00:51:15 INFO  - Test finished - logging out
+2023-03-15 00:51:17 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 00:51:19 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 00:51:20 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 00:51:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-15 00:51:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-15 00:51:24 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-15 00:51:25 INFO  - Button 'Log out' :: Clicking
+2023-03-15 00:51:25 INFO  - Button 'Log in' :: Getting text from element
+2023-03-15 00:51:28 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-15 00:51:29 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-15 00:51:29 INFO  - Unlocking credential for current thread
+2023-03-15 00:51:29 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@670766bf

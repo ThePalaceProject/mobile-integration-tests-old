@@ -1,0 +1,192 @@
+2023-03-15 00:58:52 INFO  - Scenario 'Font settings: Check of text theme' start
+2023-03-15 00:58:52 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-15 00:59:20 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-15 00:59:20 INFO  - Session id - 71f2b9c5dd09026aa088b9c586e51c365d7c7faa
+2023-03-15 00:59:20 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-15 00:59:20 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-15 00:59:23 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-15 00:59:23 INFO  - Button 'Search' :: Clicking
+2023-03-15 00:59:25 INFO  - Text Field 'Search' :: Clearing
+2023-03-15 00:59:25 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-15 00:59:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-15 00:59:28 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-15 00:59:28 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 00:59:29 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 00:59:30 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 00:59:33 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-15 00:59:33 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 00:59:33 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 00:59:34 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 00:59:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-15 00:59:36 INFO  - Locking credential with barcode 01230000000304
+2023-03-15 00:59:36 INFO  - There are books on the account: 
+2023-03-15 00:59:38 INFO  - There is not books on the account.
+2023-03-15 00:59:38 INFO  - Count of books on the account after opening account: 0
+2023-03-15 00:59:38 INFO  - Text Field 'Card' :: Clearing
+2023-03-15 00:59:38 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-03-15 00:59:39 INFO  - Text Field 'Pin' :: Clearing
+2023-03-15 00:59:39 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-15 00:59:41 INFO  - Button 'Log in' :: Clicking
+2023-03-15 00:59:47 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-15 00:59:47 INFO  - Step 3 - Login is performed successfully
+2023-03-15 01:00:08 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-15 01:00:08 INFO  - Step 4 - I open Catalog
+2023-03-15 01:00:08 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-15 01:00:30 INFO  - Step 5 - I open search modal
+2023-03-15 01:00:51 INFO  - Button 'Search' :: Clicking
+2023-03-15 01:00:52 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-15 01:00:52 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-03-15 01:00:52 INFO  - randomBookName: The Captain Class Frigates in the Second World War
+2023-03-15 01:00:53 INFO  - Error details button is not present
+2023-03-15 01:00:53 INFO  - Text Field 'Search value input' :: Sending keys 'The Captain Class Frigates in the Second World War'
+2023-03-15 01:00:56 INFO  - Error details button is not present
+2023-03-15 01:00:59 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-15 01:01:00 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-15 01:01:01 INFO  - Button 'actionButton' :: Clicking
+2023-03-15 01:01:08 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-15 01:01:09 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-15 01:01:09 INFO  - Label 'lblBookName' :: Clicking
+2023-03-15 01:01:09 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-15 01:01:10 INFO  - Button 'Read' :: Clicking
+2023-03-15 01:01:11 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-15 01:01:11 INFO  - Scrolling 8 times on reader epub screen
+2023-03-15 01:01:30 INFO  - Step 11 - I open font settings
+2023-03-15 01:01:31 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-15 01:01:31 INFO  - Step 12 - I change contrast to BLACK_TEXT_ON_WHITE
+2023-03-15 01:01:31 INFO  - Button 'setThemeLight' :: Clicking
+2023-03-15 01:01:32 INFO  - Step 13 - The BLACK_TEXT_ON_WHITE background is correct
+2023-03-15 01:01:33 INFO  - context - NATIVE_APP
+2023-03-15 01:01:33 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-15 01:01:34 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-15 01:01:34 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;"><head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>The Captain Class Frigates In The Second World War</title>
+  <link href="template.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="pl-header"><a id="pvii"></a><a id="pre" href="04_-toc.html#toc-pre">PREFACE</a></h1>
+<p class="body-text-opening">The seventy-eight American built Destroyer Escorts which were allocated to the Royal Navy under Lease Lend agreement and were classified as the Captain class Frigates when commissioned in 1943–44 were part of the massive contribution to the Allied maritime war effort made by Kaiser and the United States Navy shipyards.</p>
+<p class="body-text-indent">The story of their design, construction, working up and eventual operational achievements is a unique and little known facet of the Royal Navy’s history. Many thousands of British sailors served in them and those who survive frequently bewail the fact that their achievements are not more widely appreciated.</p>
+<p class="body-text-indent">I have attempted to remedy this in the chapters which follow. I have covered their whole story as far as my researches and permitted space allow. Life in one escort vessel was very similar to that in sister ships and the exploits of one escort group were very similar to those of others. It is therefore inevitable that there is some similarity between chapters. This was unavoidable if the full story of all the Captains was to be covered and their overall contribution to final victory recorded.</p>
+<p class="body-text-indent">The Destroyer Escorts (or DE’s, as those serving in them persisted in calling them) were essentially escort vessels. Much of their existence in groups assigned purely as Close Escorts was boring and extremely uncomfortable, with the ‘Cruel Sea’ as the main enemy. The German historian Cajus Becker complained that only ten per cent of all Allied convoys were ever contacted by U-boats, a situation confirmed by one of our famous convoy Commodores (Rear Admiral Creighton) who wrote that many convoy commodores, merchant seamen and escort ship crews ploughed the Atlantic routes for four or five years without seeing a ship sunk or hearing a shot fired. The convoy system was nevertheless essential for the protection of our vital supply lines and it was due to the seamanship skills, vigilance and fortitude of the escort <a id="pviii"></a>ships’ crews that so many of our merchant ships and major naval vessels survived. U-boat actions did not take place every day but when a U­ boat pack did strike the battle would often be horrifying and bloody.</p>
+<p class="body-text-indent">It is generally accepted that the worst of the battles in the Atlantic were over by 1943, so the Captains were not in commission during the peak period of the U-boat pack actions. Nevertheless, the Captains which served in the roving Support Groups were very successful and sank a commendable number (thirty-six) of U-boats during the last two years of the war. As a matter of fact, a statistical analysis of U-boat sinkings I made some time ago revealed that of the ten major classes of RN escort vessels (comprising some 389 ships), the Captains were the fourth most successful class in locating and destroying U-boats. Their prowess in this respect was only exceeded by the Loch class frigates, the Black Swan class sloops and the converted ‘V and W’ destroyers.</p>
+<p class="body-text-indent">It must be emphasized, however, that battle honours for the North Atlantic were not awarded only to those ships which notched up U­ boat ‘kills’. Submarine hunting was strictly a team pursuit and those which spent much time in the ‘outfield’ were often as deserving of praise as those which actually scored the runs.</p>
+<p class="body-text-indent">I was privileged to serve as the Ordinance Artificer in <i>Cubitt</i> from November, 1943, to March, 1946, and had first hand knowledge ofthe Captains in Nore Command but in order to write the individual histories which follow, I used information from a number of secondary sources as well as the primary sources in the Admiralty files in the Public Record Office. These are, as Captain Roskill once said, the bare bones of naval history. They have to be fleshed out by those who actually lived that history. This present work would not be as complete as it is without the ‘flesh’ enthusiastically provided by so many men who served in these gallant ships. Some were friends and shipmates, some became friends during the research period and some I have never met in person, but I hope that I have done justice to their memories of the ships, for which we share a common nostalgia. Some of their names are mentioned hereunder but I am sincerely grateful to all who rendered me any assistance however small.</p></body></html>
+2023-03-15 01:01:34 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-15 01:01:35 INFO  - Step 14 - I restart app
+2023-03-15 01:01:59 INFO  - Step 15 - I open Books
+2023-03-15 01:01:59 INFO  - Button 'tabBooks' :: Clicking
+2023-03-15 01:02:00 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-15 01:02:01 INFO  - Label 'lblBookName' :: Clicking
+2023-03-15 01:02:02 INFO  - Step 17 - Click READ action button on book details screen
+2023-03-15 01:02:03 INFO  - Button 'Read' :: Clicking
+2023-03-15 01:02:03 INFO  - Step 18 - The BLACK_TEXT_ON_WHITE background is correct
+2023-03-15 01:02:03 INFO  - context - NATIVE_APP
+2023-03-15 01:02:04 INFO  - context - NATIVE_APP
+2023-03-15 01:02:05 INFO  - context - NATIVE_APP
+2023-03-15 01:02:05 INFO  - context - NATIVE_APP
+2023-03-15 01:02:05 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-15 01:02:06 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-15 01:02:06 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;"><head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>The Captain Class Frigates In The Second World War</title>
+  <link href="template.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="pl-header"><a id="pvii"></a><a id="pre" href="04_-toc.html#toc-pre">PREFACE</a></h1>
+<p class="body-text-opening">The seventy-eight American built Destroyer Escorts which were allocated to the Royal Navy under Lease Lend agreement and were classified as the Captain class Frigates when commissioned in 1943–44 were part of the massive contribution to the Allied maritime war effort made by Kaiser and the United States Navy shipyards.</p>
+<p class="body-text-indent">The story of their design, construction, working up and eventual operational achievements is a unique and little known facet of the Royal Navy’s history. Many thousands of British sailors served in them and those who survive frequently bewail the fact that their achievements are not more widely appreciated.</p>
+<p class="body-text-indent">I have attempted to remedy this in the chapters which follow. I have covered their whole story as far as my researches and permitted space allow. Life in one escort vessel was very similar to that in sister ships and the exploits of one escort group were very similar to those of others. It is therefore inevitable that there is some similarity between chapters. This was unavoidable if the full story of all the Captains was to be covered and their overall contribution to final victory recorded.</p>
+<p class="body-text-indent">The Destroyer Escorts (or DE’s, as those serving in them persisted in calling them) were essentially escort vessels. Much of their existence in groups assigned purely as Close Escorts was boring and extremely uncomfortable, with the ‘Cruel Sea’ as the main enemy. The German historian Cajus Becker complained that only ten per cent of all Allied convoys were ever contacted by U-boats, a situation confirmed by one of our famous convoy Commodores (Rear Admiral Creighton) who wrote that many convoy commodores, merchant seamen and escort ship crews ploughed the Atlantic routes for four or five years without seeing a ship sunk or hearing a shot fired. The convoy system was nevertheless essential for the protection of our vital supply lines and it was due to the seamanship skills, vigilance and fortitude of the escort <a id="pviii"></a>ships’ crews that so many of our merchant ships and major naval vessels survived. U-boat actions did not take place every day but when a U­ boat pack did strike the battle would often be horrifying and bloody.</p>
+<p class="body-text-indent">It is generally accepted that the worst of the battles in the Atlantic were over by 1943, so the Captains were not in commission during the peak period of the U-boat pack actions. Nevertheless, the Captains which served in the roving Support Groups were very successful and sank a commendable number (thirty-six) of U-boats during the last two years of the war. As a matter of fact, a statistical analysis of U-boat sinkings I made some time ago revealed that of the ten major classes of RN escort vessels (comprising some 389 ships), the Captains were the fourth most successful class in locating and destroying U-boats. Their prowess in this respect was only exceeded by the Loch class frigates, the Black Swan class sloops and the converted ‘V and W’ destroyers.</p>
+<p class="body-text-indent">It must be emphasized, however, that battle honours for the North Atlantic were not awarded only to those ships which notched up U­ boat ‘kills’. Submarine hunting was strictly a team pursuit and those which spent much time in the ‘outfield’ were often as deserving of praise as those which actually scored the runs.</p>
+<p class="body-text-indent">I was privileged to serve as the Ordinance Artificer in <i>Cubitt</i> from November, 1943, to March, 1946, and had first hand knowledge ofthe Captains in Nore Command but in order to write the individual histories which follow, I used information from a number of secondary sources as well as the primary sources in the Admiralty files in the Public Record Office. These are, as Captain Roskill once said, the bare bones of naval history. They have to be fleshed out by those who actually lived that history. This present work would not be as complete as it is without the ‘flesh’ enthusiastically provided by so many men who served in these gallant ships. Some were friends and shipmates, some became friends during the research period and some I have never met in person, but I hope that I have done justice to their memories of the ships, for which we share a common nostalgia. Some of their names are mentioned hereunder but I am sincerely grateful to all who rendered me any assistance however small.</p></body></html>
+2023-03-15 01:02:06 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-15 01:02:07 INFO  - Step 19 - I return to previous screen from epub
+2023-03-15 01:02:08 INFO  - Button 'btnBack' :: Clicking
+2023-03-15 01:02:08 INFO  - Step 20 - Click READ action button on book details screen
+2023-03-15 01:02:09 INFO  - Button 'Read' :: Clicking
+2023-03-15 01:02:10 INFO  - Step 21 - The BLACK_TEXT_ON_WHITE background is correct
+2023-03-15 01:02:10 INFO  - context - NATIVE_APP
+2023-03-15 01:02:10 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-15 01:02:12 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-15 01:02:12 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;"><head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>The Captain Class Frigates In The Second World War</title>
+  <link href="template.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="pl-header"><a id="pvii"></a><a id="pre" href="04_-toc.html#toc-pre">PREFACE</a></h1>
+<p class="body-text-opening">The seventy-eight American built Destroyer Escorts which were allocated to the Royal Navy under Lease Lend agreement and were classified as the Captain class Frigates when commissioned in 1943–44 were part of the massive contribution to the Allied maritime war effort made by Kaiser and the United States Navy shipyards.</p>
+<p class="body-text-indent">The story of their design, construction, working up and eventual operational achievements is a unique and little known facet of the Royal Navy’s history. Many thousands of British sailors served in them and those who survive frequently bewail the fact that their achievements are not more widely appreciated.</p>
+<p class="body-text-indent">I have attempted to remedy this in the chapters which follow. I have covered their whole story as far as my researches and permitted space allow. Life in one escort vessel was very similar to that in sister ships and the exploits of one escort group were very similar to those of others. It is therefore inevitable that there is some similarity between chapters. This was unavoidable if the full story of all the Captains was to be covered and their overall contribution to final victory recorded.</p>
+<p class="body-text-indent">The Destroyer Escorts (or DE’s, as those serving in them persisted in calling them) were essentially escort vessels. Much of their existence in groups assigned purely as Close Escorts was boring and extremely uncomfortable, with the ‘Cruel Sea’ as the main enemy. The German historian Cajus Becker complained that only ten per cent of all Allied convoys were ever contacted by U-boats, a situation confirmed by one of our famous convoy Commodores (Rear Admiral Creighton) who wrote that many convoy commodores, merchant seamen and escort ship crews ploughed the Atlantic routes for four or five years without seeing a ship sunk or hearing a shot fired. The convoy system was nevertheless essential for the protection of our vital supply lines and it was due to the seamanship skills, vigilance and fortitude of the escort <a id="pviii"></a>ships’ crews that so many of our merchant ships and major naval vessels survived. U-boat actions did not take place every day but when a U­ boat pack did strike the battle would often be horrifying and bloody.</p>
+<p class="body-text-indent">It is generally accepted that the worst of the battles in the Atlantic were over by 1943, so the Captains were not in commission during the peak period of the U-boat pack actions. Nevertheless, the Captains which served in the roving Support Groups were very successful and sank a commendable number (thirty-six) of U-boats during the last two years of the war. As a matter of fact, a statistical analysis of U-boat sinkings I made some time ago revealed that of the ten major classes of RN escort vessels (comprising some 389 ships), the Captains were the fourth most successful class in locating and destroying U-boats. Their prowess in this respect was only exceeded by the Loch class frigates, the Black Swan class sloops and the converted ‘V and W’ destroyers.</p>
+<p class="body-text-indent">It must be emphasized, however, that battle honours for the North Atlantic were not awarded only to those ships which notched up U­ boat ‘kills’. Submarine hunting was strictly a team pursuit and those which spent much time in the ‘outfield’ were often as deserving of praise as those which actually scored the runs.</p>
+<p class="body-text-indent">I was privileged to serve as the Ordinance Artificer in <i>Cubitt</i> from November, 1943, to March, 1946, and had first hand knowledge ofthe Captains in Nore Command but in order to write the individual histories which follow, I used information from a number of secondary sources as well as the primary sources in the Admiralty files in the Public Record Office. These are, as Captain Roskill once said, the bare bones of naval history. They have to be fleshed out by those who actually lived that history. This present work would not be as complete as it is without the ‘flesh’ enthusiastically provided by so many men who served in these gallant ships. Some were friends and shipmates, some became friends during the research period and some I have never met in person, but I hope that I have done justice to their memories of the ships, for which we share a common nostalgia. Some of their names are mentioned hereunder but I am sincerely grateful to all who rendered me any assistance however small.</p></body></html>
+2023-03-15 01:02:12 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-15 01:02:12 INFO  - Step 22 - I open font settings
+2023-03-15 01:02:13 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-15 01:02:13 INFO  - Step 23 - I change contrast to BLACK_TEXT_ON_SEPIA
+2023-03-15 01:02:13 INFO  - Button 'setThemeSepia' :: Clicking
+2023-03-15 01:02:14 INFO  - Step 24 - The BLACK_TEXT_ON_SEPIA background is correct
+2023-03-15 01:02:14 INFO  - context - NATIVE_APP
+2023-03-15 01:02:14 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-15 01:02:15 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-15 01:02:15 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;"><head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+  <title>The Captain Class Frigates In The Second World War</title>
+  <link href="template.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<h1 class="pl-header"><a id="pvii"></a><a id="pre" href="04_-toc.html#toc-pre">PREFACE</a></h1>
+<p class="body-text-opening">The seventy-eight American built Destroyer Escorts which were allocated to the Royal Navy under Lease Lend agreement and were classified as the Captain class Frigates when commissioned in 1943–44 were part of the massive contribution to the Allied maritime war effort made by Kaiser and the United States Navy shipyards.</p>
+<p class="body-text-indent">The story of their design, construction, working up and eventual operational achievements is a unique and little known facet of the Royal Navy’s history. Many thousands of British sailors served in them and those who survive frequently bewail the fact that their achievements are not more widely appreciated.</p>
+<p class="body-text-indent">I have attempted to remedy this in the chapters which follow. I have covered their whole story as far as my researches and permitted space allow. Life in one escort vessel was very similar to that in sister ships and the exploits of one escort group were very similar to those of others. It is therefore inevitable that there is some similarity between chapters. This was unavoidable if the full story of all the Captains was to be covered and their overall contribution to final victory recorded.</p>
+<p class="body-text-indent">The Destroyer Escorts (or DE’s, as those serving in them persisted in calling them) were essentially escort vessels. Much of their existence in groups assigned purely as Close Escorts was boring and extremely uncomfortable, with the ‘Cruel Sea’ as the main enemy. The German historian Cajus Becker complained that only ten per cent of all Allied convoys were ever contacted by U-boats, a situation confirmed by one of our famous convoy Commodores (Rear Admiral Creighton) who wrote that many convoy commodores, merchant seamen and escort ship crews ploughed the Atlantic routes for four or five years without seeing a ship sunk or hearing a shot fired. The convoy system was nevertheless essential for the protection of our vital supply lines and it was due to the seamanship skills, vigilance and fortitude of the escort <a id="pviii"></a>ships’ crews that so many of our merchant ships and major naval vessels survived. U-boat actions did not take place every day but when a U­ boat pack did strike the battle would often be horrifying and bloody.</p>
+<p class="body-text-indent">It is generally accepted that the worst of the battles in the Atlantic were over by 1943, so the Captains were not in commission during the peak period of the U-boat pack actions. Nevertheless, the Captains which served in the roving Support Groups were very successful and sank a commendable number (thirty-six) of U-boats during the last two years of the war. As a matter of fact, a statistical analysis of U-boat sinkings I made some time ago revealed that of the ten major classes of RN escort vessels (comprising some 389 ships), the Captains were the fourth most successful class in locating and destroying U-boats. Their prowess in this respect was only exceeded by the Loch class frigates, the Black Swan class sloops and the converted ‘V and W’ destroyers.</p>
+<p class="body-text-indent">It must be emphasized, however, that battle honours for the North Atlantic were not awarded only to those ships which notched up U­ boat ‘kills’. Submarine hunting was strictly a team pursuit and those which spent much time in the ‘outfield’ were often as deserving of praise as those which actually scored the runs.</p>
+<p class="body-text-indent">I was privileged to serve as the Ordinance Artificer in <i>Cubitt</i> from November, 1943, to March, 1946, and had first hand knowledge ofthe Captains in Nore Command but in order to write the individual histories which follow, I used information from a number of secondary sources as well as the primary sources in the Admiralty files in the Public Record Office. These are, as Captain Roskill once said, the bare bones of naval history. They have to be fleshed out by those who actually lived that history. This present work would not be as complete as it is without the ‘flesh’ enthusiastically provided by so many men who served in these gallant ships. Some were friends and shipmates, some became friends during the research period and some I have never met in person, but I hope that I have done justice to their memories of the ships, for which we share a common nostalgia. Some of their names are mentioned hereunder but I am sincerely grateful to all who rendered me any assistance however small.</p></body></html>
+2023-03-15 01:02:15 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-15 01:02:16 INFO  - Taking screenshot
+2023-03-15 01:02:17 INFO  - Test finished - logging out
+2023-03-15 01:02:18 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 01:02:21 INFO  - Button 'tabSettings' :: Clicking
+2023-03-15 01:02:22 INFO  - Button 'Accounts' :: Clicking
+2023-03-15 01:02:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-15 01:02:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-15 01:02:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-15 01:02:26 INFO  - Button 'Log out' :: Clicking
+2023-03-15 01:02:26 INFO  - Button 'Log in' :: Getting text from element
+2023-03-15 01:02:29 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-15 01:02:30 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-15 01:02:30 INFO  - Unlocking credential for current thread
+2023-03-15 01:02:30 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@670766bf
