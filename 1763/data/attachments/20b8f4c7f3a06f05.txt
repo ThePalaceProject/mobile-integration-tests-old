@@ -1,0 +1,75 @@
+2023-03-16 02:00:45 INFO  - Scenario 'Check of book title and back button in Lyrasis' start
+2023-03-16 02:00:45 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-16 02:01:17 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-16 02:01:17 INFO  - Session id - a0694974bfa21652163add06b59ebfdc8b4ac854
+2023-03-16 02:01:17 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-16 02:01:17 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-16 02:01:21 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-16 02:01:22 INFO  - Button 'Search' :: Clicking
+2023-03-16 02:01:24 INFO  - Text Field 'Search' :: Clearing
+2023-03-16 02:01:24 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-16 02:01:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-16 02:01:28 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-16 02:01:28 INFO  - Button 'tabSettings' :: Clicking
+2023-03-16 02:01:29 INFO  - Button 'tabSettings' :: Clicking
+2023-03-16 02:01:30 INFO  - Button 'Accounts' :: Clicking
+2023-03-16 02:01:32 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-16 02:01:33 INFO  - Button 'tabSettings' :: Clicking
+2023-03-16 02:01:33 INFO  - Button 'tabSettings' :: Clicking
+2023-03-16 02:01:35 INFO  - Button 'Accounts' :: Clicking
+2023-03-16 02:01:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-16 02:01:37 INFO  - Locking credential with barcode 01230000000303
+2023-03-16 02:01:37 INFO  - There are books on the account: 
+2023-03-16 02:01:37 INFO  - There is not books on the account.
+2023-03-16 02:01:37 INFO  - Count of books on the account after opening account: 0
+2023-03-16 02:01:37 INFO  - Text Field 'Card' :: Clearing
+2023-03-16 02:01:37 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-16 02:01:39 INFO  - Text Field 'Pin' :: Clearing
+2023-03-16 02:01:39 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-16 02:01:42 INFO  - Button 'Log in' :: Clicking
+2023-03-16 02:01:47 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-16 02:01:48 INFO  - Step 3 - Login is performed successfully
+2023-03-16 02:02:09 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-16 02:02:10 INFO  - Step 4 - I open Catalog
+2023-03-16 02:02:10 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-16 02:02:30 INFO  - Step 5 - I open search modal
+2023-03-16 02:02:51 INFO  - Button 'Search' :: Clicking
+2023-03-16 02:02:52 INFO  - Step 6 - I search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-16 02:02:52 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-16 02:02:52 INFO  - randomBookName: The Story of the New York Mets :
+2023-03-16 02:02:53 INFO  - Error details button is not present
+2023-03-16 02:02:53 INFO  - Text Field 'Search value input' :: Sending keys 'The Story of the New York Mets :'
+2023-03-16 02:02:56 INFO  - Error details button is not present
+2023-03-16 02:02:59 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-16 02:03:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-16 02:03:03 INFO  - Button 'actionButton' :: Clicking
+2023-03-16 02:03:08 INFO  - Step 8 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-03-16 02:03:09 INFO  - Step 9 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-16 02:03:10 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-16 02:03:10 INFO  - Label 'lblBookName' :: Clicking
+2023-03-16 02:03:11 INFO  - Step 10 - Click READ action button on book details screen
+2023-03-16 02:03:12 INFO  - Button 'Read' :: Clicking
+2023-03-16 02:03:14 INFO  - Step 11 - Reader pdf screen is opened
+2023-03-16 02:03:23 INFO  - Step 12 - The book name is 'bookNameInfo' on pdf reader screen
+2023-03-16 02:03:23 INFO  - Label 'Book name' :: Getting text from element
+2023-03-16 02:03:23 INFO  - Step 13 - I close pdf reader by back button
+2023-03-16 02:03:24 INFO  - Button 'Back button' :: Clicking
+2023-03-16 02:03:24 INFO  - Step 14 - Book "bookInfo" is opened on book details screen
+2023-03-16 02:03:24 INFO  - Label 'Book title' :: Getting text from element
+2023-03-16 02:03:25 INFO  - Label 'Book Authors' :: Getting text from element
+2023-03-16 02:03:26 INFO  - Label 'Book title' :: Getting text from element
+2023-03-16 02:03:26 INFO  - Label 'Book Authors' :: Getting text from element
+2023-03-16 02:03:27 INFO  - Taking screenshot
+2023-03-16 02:03:28 INFO  - Test finished - logging out
+2023-03-16 02:03:30 INFO  - Button 'tabSettings' :: Clicking
+2023-03-16 02:03:32 INFO  - Button 'tabSettings' :: Clicking
+2023-03-16 02:03:33 INFO  - Button 'Accounts' :: Clicking
+2023-03-16 02:03:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-16 02:03:37 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-16 02:03:37 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-16 02:03:38 INFO  - Button 'Log out' :: Clicking
+2023-03-16 02:03:38 INFO  - Button 'Log in' :: Getting text from element
+2023-03-16 02:03:41 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-16 02:03:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-16 02:03:43 INFO  - Unlocking credential for current thread
+2023-03-16 02:03:43 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@248a0630
