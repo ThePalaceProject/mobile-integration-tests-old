@@ -1,0 +1,131 @@
+2023-03-17 00:50:32 INFO  - Scenario 'Font settings: Check of font style' start
+2023-03-17 00:50:32 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-17 00:51:00 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-17 00:51:00 INFO  - Session id - 828dcafccfa5a28a18f98228a618666dcdb2b511
+2023-03-17 00:51:00 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-17 00:51:00 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-17 00:51:03 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-17 00:51:04 INFO  - Button 'Search' :: Clicking
+2023-03-17 00:51:06 INFO  - Text Field 'Search' :: Clearing
+2023-03-17 00:51:06 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-17 00:51:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-17 00:51:10 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-17 00:51:11 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:51:11 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:51:12 INFO  - Button 'Accounts' :: Clicking
+2023-03-17 00:51:14 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-17 00:51:14 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:51:14 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:51:15 INFO  - Button 'Accounts' :: Clicking
+2023-03-17 00:51:16 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-17 00:51:17 INFO  - Locking credential with barcode 01230000000303
+2023-03-17 00:51:17 INFO  - There are books on the account: 
+2023-03-17 00:51:17 INFO  - There is not books on the account.
+2023-03-17 00:51:17 INFO  - Count of books on the account after opening account: 0
+2023-03-17 00:51:17 INFO  - Text Field 'Card' :: Clearing
+2023-03-17 00:51:17 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-17 00:51:19 INFO  - Text Field 'Pin' :: Clearing
+2023-03-17 00:51:19 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-17 00:51:21 INFO  - Button 'Log in' :: Clicking
+2023-03-17 00:51:32 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-17 00:51:33 INFO  - Step 3 - Login is performed successfully
+2023-03-17 00:51:54 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-17 00:51:54 INFO  - Step 4 - I open Catalog
+2023-03-17 00:51:55 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-17 00:52:17 INFO  - Step 5 - I open search modal
+2023-03-17 00:52:37 INFO  - Button 'Search' :: Clicking
+2023-03-17 00:52:39 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-17 00:52:39 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-17 00:52:39 INFO  - randomBookName: The Barefoot Investor
+2023-03-17 00:52:39 INFO  - Error details button is not present
+2023-03-17 00:52:40 INFO  - Text Field 'Search value input' :: Sending keys 'The Barefoot Investor'
+2023-03-17 00:52:43 INFO  - Error details button is not present
+2023-03-17 00:52:46 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-17 00:52:47 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-17 00:52:47 INFO  - Button 'actionButton' :: Clicking
+2023-03-17 00:52:57 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-17 00:52:58 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-17 00:52:59 INFO  - Label 'lblBookName' :: Clicking
+2023-03-17 00:52:59 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-17 00:53:00 INFO  - Button 'Read' :: Clicking
+2023-03-17 00:53:01 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-17 00:53:01 INFO  - Scrolling 7 times on reader epub screen
+2023-03-17 00:53:16 INFO  - Step 11 - I open font settings
+2023-03-17 00:53:17 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-17 00:53:18 INFO  - Step 12 - I change font style to FONT_SERIF
+2023-03-17 00:53:18 INFO  - Button 'setFontSerif' :: Clicking
+2023-03-17 00:53:19 INFO  - Step 13 - Book text displays in FONT_SERIF font
+2023-03-17 00:53:19 INFO  - context - NATIVE_APP
+2023-03-17 00:53:19 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-17 00:53:20 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-17 00:53:20 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" epub:prefix="index: http://www.index.com/" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The barefoot investor</title>
+<meta content="text/html; charset=utf-8" http-equiv="default-style" />
+<link href="WileyTemplate_v5.5.css" rel="stylesheet" type="text/css" />
+<link href="aptara.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:6a6c0dbb-5b1e-4528-84a4-70e89ba4db39" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body epub:type="bodymatter">
+<section epub:type="chapter" role="doc-chapter">
+<header>
+<h1><a id="start"></a><span aria-label="2" epub:type="pagebreak" id="Page_2" role="doc-pagebreak"></span><span class="chapterNumber">Part 1</span><br /><span class="chapterTitle">Plant</span></h1>
+<figure>
+<img alt="p01f002.psd" class="center" src="images/p01f002_fmt.jpeg" />
+</figure>
+</header>
+<section id="p01-sec-0001">
+<p class="bold"><span aria-label="3" epub:type="pagebreak" id="Page_3" role="doc-pagebreak"></span>It’s time to get your hands dirty.</p>
+<p>By the time we’ve finished the ‘Plant’ part of this book, you’ll have built your entire financial infrastructure, and as a result you’ll be tens, or even hundreds, of thousands of dollars better off.</p>
+<p>See, this book isn’t for flicking — it’s for doing (preferably while eating garlic bread and drinking wine, as you’ll see in a moment).</p>
+<p>I’m not going to throw a bunch of generic tips at you.</p>
+<p>Instead, I’m going to be super specific about the first three Barefoot Steps that I want you to follow to <i>plant</i> the seeds of your future wealth.</p>
+<p>And if you’ve just read this and thought to yourself, ‘Dude, my seeds are already planted’, well I’ve got a few surprises in store for you.</p>
+<p>I’m going to:</p>
+<ul>
+<li>show you how I manage my money in around 10 minutes a week, including the exact accounts I use</li>
+<li>detail how you can live — and spend — like a multimillionaire, even on a below-average income</li>
+<li>explain why I shut down my self-managed super fund (SMSF) … and introduce you to one of the cheapest super funds in the world</li>
+<li>give you a specific script that you can follow to get ‘wholesale’ deals on your insurance</li>
+<li>show you how to turn dumping your debts into a game you’ll enjoy playing — and winning.</li>
+</ul>
+<p><i>Plus</i> we’ll sketch out the only financial plan you’ll ever need — a plan so simple that it fits on the back of a serviette.</p>
+<p>Let’s dig in.</p>
+</section>
+</section>
+</body>
+</html>
+2023-03-17 00:53:20 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-17 00:53:21 INFO  - Step 14 - I restart app
+2023-03-17 00:53:45 INFO  - Step 15 - I open Books
+2023-03-17 00:53:45 INFO  - Button 'tabBooks' :: Clicking
+2023-03-17 00:53:46 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-17 00:53:47 INFO  - Label 'lblBookName' :: Clicking
+2023-03-17 00:53:48 INFO  - Step 17 - Click READ action button on book details screen
+2023-03-17 00:53:49 INFO  - Button 'Read' :: Clicking
+2023-03-17 00:53:49 INFO  - Step 18 - Book text displays in FONT_SERIF font
+2023-03-17 00:53:50 INFO  - context - NATIVE_APP
+2023-03-17 00:53:53 INFO  - context - NATIVE_APP
+2023-03-17 00:53:53 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-17 00:53:54 INFO  - Taking screenshot
+2023-03-17 00:53:56 INFO  - Test finished - logging out
+2023-03-17 00:53:57 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:54:00 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:54:01 INFO  - Button 'Accounts' :: Clicking
+2023-03-17 00:54:02 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-17 00:54:03 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-17 00:54:04 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-17 00:54:04 INFO  - Button 'Log out' :: Clicking
+2023-03-17 00:54:05 INFO  - Button 'Log in' :: Getting text from element
+2023-03-17 00:54:08 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-17 00:54:08 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-17 00:54:09 INFO  - Unlocking credential for current thread
+2023-03-17 00:54:09 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4cf78cfd

@@ -1,0 +1,1933 @@
+2023-03-17 00:58:02 INFO  - Scenario 'Font settings: Check of text theme' start
+2023-03-17 00:58:02 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-17 00:58:30 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-17 00:58:30 INFO  - Session id - d3c58ec2faada315eda7d86ac6865f865c4080fb
+2023-03-17 00:58:30 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-17 00:58:30 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-17 00:58:33 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-17 00:58:33 INFO  - Button 'Search' :: Clicking
+2023-03-17 00:58:34 INFO  - Text Field 'Search' :: Clearing
+2023-03-17 00:58:34 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-17 00:58:37 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-17 00:58:37 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-17 00:58:37 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:58:38 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:58:39 INFO  - Button 'Accounts' :: Clicking
+2023-03-17 00:58:41 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-17 00:58:41 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:58:42 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:58:43 INFO  - Button 'Accounts' :: Clicking
+2023-03-17 00:58:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-17 00:58:45 INFO  - Locking credential with barcode 01230000000303
+2023-03-17 00:58:45 INFO  - There are books on the account: 
+2023-03-17 00:58:46 INFO  - There is not books on the account.
+2023-03-17 00:58:46 INFO  - Count of books on the account after opening account: 0
+2023-03-17 00:58:46 INFO  - Text Field 'Card' :: Clearing
+2023-03-17 00:58:46 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-17 00:58:48 INFO  - Text Field 'Pin' :: Clearing
+2023-03-17 00:58:48 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-17 00:58:50 INFO  - Button 'Log in' :: Clicking
+2023-03-17 00:58:55 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-17 00:58:56 INFO  - Step 3 - Login is performed successfully
+2023-03-17 00:59:17 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-17 00:59:18 INFO  - Step 4 - I open Catalog
+2023-03-17 00:59:18 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-17 00:59:40 INFO  - Step 5 - I open search modal
+2023-03-17 01:00:00 INFO  - Button 'Search' :: Clicking
+2023-03-17 01:00:02 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-17 01:00:02 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-17 01:00:02 INFO  - randomBookName: Eugene Onegin
+2023-03-17 01:00:03 INFO  - Error details button is not present
+2023-03-17 01:00:03 INFO  - Text Field 'Search value input' :: Sending keys 'Eugene Onegin'
+2023-03-17 01:00:06 INFO  - Error details button is not present
+2023-03-17 01:00:10 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-17 01:00:11 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-17 01:00:11 INFO  - Button 'actionButton' :: Clicking
+2023-03-17 01:00:17 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-17 01:00:18 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-17 01:00:19 INFO  - Label 'lblBookName' :: Clicking
+2023-03-17 01:00:20 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-17 01:00:20 INFO  - Button 'Read' :: Clicking
+2023-03-17 01:00:21 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-17 01:00:21 INFO  - Scrolling 7 times on reader epub screen
+2023-03-17 01:00:41 INFO  - Step 11 - I open font settings
+2023-03-17 01:00:41 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-17 01:00:42 INFO  - Step 12 - I change contrast to BLACK_TEXT_ON_WHITE
+2023-03-17 01:00:42 INFO  - Button 'setThemeLight' :: Clicking
+2023-03-17 01:00:42 INFO  - Step 13 - The BLACK_TEXT_ON_WHITE background is correct
+2023-03-17 01:00:43 INFO  - context - NATIVE_APP
+2023-03-17 01:00:43 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-17 01:00:44 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-17 01:00:44 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+  <head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+    <title>Eugene Onegin-Canto the first</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="9788726502169.css" />
+    
+  <link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+  
+
+<body>
+   <div class="galley">
+      <div class="body Chapter" id="Chapter1">
+         <div class="title-block" id="title-block2">
+            <h1 id="h13">Canto the first
+   </h1>
+         </div>
+         <div class="poem poem-normal" id="poem-normal1">
+            <h4 id="h41">‘The Spleen’
+   </h4>
+            <div class="poem poem-body" id="poem-body1">
+               <div class="poem stanza" id="stanza1">
+                  <p id="p14">‘He rushes at life and exhausts the passions.’
+   </p>
+                  <p class="attribution" id="attribution1">Prince Viazemski
+   </p>
+               </div>
+            </div>
+         </div>
+         <h2 id="h21">Canto the First
+   </h2>
+         <div class="poem poem-normal" id="poem-normal2">
+            <h4 id="h42">I
+   </h4>
+            <div class="poem poem-body" id="poem-body2">
+               <div class="poem stanza" id="stanza2">
+                  <p id="p15">“My uncle’s goodness is extreme,
+   </p>
+                  <p id="p16">If seriously he hath disease;
+   </p>
+                  <p id="p17">He hath acquired the world’s esteem
+   </p>
+                  <p id="p18">And nothing more important sees;
+   </p>
+                  <p id="p19">A paragon of virtue he!
+   </p>
+                  <p id="p20">But what a nuisance it will be,
+   </p>
+                  <p id="p21">Chained to his bedside night and day
+   </p>
+                  <p id="p22">Without a chance to slip away.
+   </p>
+                  <p id="p23">Ye need dissimulation base
+   </p>
+                  <p id="p24">A dying man with art to soothe,
+   </p>
+                  <p id="p25">Beneath his head the pillow smooth,
+   </p>
+                  <p id="p26">And physic bring with mournful face,
+   </p>
+                  <p id="p27">To sigh and meditate alone:
+   </p>
+                  <p id="p28">When will the devil take his own!”
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza3">
+                  <p id="p29">Thus mused a madcap young, who drove
+   </p>
+                  <p id="p30">Through clouds of dust at postal pace,
+   </p>
+                  <p id="p31">By the decree of Mighty Jove,
+   </p>
+                  <p id="p32">Inheritor of all his race.
+   </p>
+                  <p id="p33">Friends of Liudmila and Ruslan,(1)
+   </p>
+                  <p id="p34">Let me present ye to the man,
+   </p>
+                  <p id="p35">Who without more prevarication
+   </p>
+                  <p id="p36">The hero is of my narration!
+   </p>
+                  <p id="p37">Onéguine, O my gentle readers,
+   </p>
+                  <p id="p38">Was born beside the Neva, where
+   </p>
+                  <p id="p39">It may be ye were born, or there
+   </p>
+                  <p id="p40">Have shone as one of fashion’s leaders.
+   </p>
+                  <p id="p41">I also wandered there of old,
+   </p>
+                  <p id="p42">But cannot stand the northern cold.(2)
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p43"> [Note 1: <i>Ruslan and Liudmila</i>, the title of Pushkin’s first important work, written 1817-20. It is a tale relating the adventures of the knight-errant Ruslan in search of his fair lady Liudmila, who has been carried off by a <i>kaldoon</i>, or magician.]</p>
+         <p id="p44">[Note 2: Written in Bessarabia.]</p>
+         <div class="poem poem-normal" id="poem-normal3">
+            <h4 id="h43">III
+   </h4>
+            <div class="poem poem-body" id="poem-body3">
+               <div class="poem stanza" id="stanza4">
+                  <p id="p45">Having performed his service truly,
+   </p>
+                  <p id="p46">Deep into debt his father ran;
+   </p>
+                  <p id="p47">Three balls a year he gave ye duly,
+   </p>
+                  <p id="p48">At last became a ruined man.
+   </p>
+                  <p id="p49">But Eugene was by fate preserved,
+   </p>
+                  <p id="p50">For first “madame” his wants observed,
+   </p>
+                  <p id="p51">And then “monsieur” supplied her place;(3)
+   </p>
+                  <p id="p52">The boy was wild but full of grace.
+   </p>
+                  <p id="p53">“Monsieur l’Abbé” a starving Gaul,
+   </p>
+                  <p id="p54">Fearing his pupil to annoy,
+   </p>
+                  <p id="p55">Instructed jestingly the boy,
+   </p>
+                  <p id="p56">Morality taught scarce at all;
+   </p>
+                  <p id="p57">Gently for pranks he would reprove
+   </p>
+                  <p id="p58">And in the Summer Garden rove.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p59"> [Note 3: In Russia foreign tutors and governesses are commonly styled “monsieur” or “madame.”]</p>
+         <div class="poem poem-normal" id="poem-normal4">
+            <h4 id="h44">IV
+   </h4>
+            <div class="poem poem-body" id="poem-body4">
+               <div class="poem stanza" id="stanza5">
+                  <p id="p60">When youth’s rebellious hour drew near
+   </p>
+                  <p id="p61">And my Eugene the path must trace—
+   </p>
+                  <p id="p62">The path of hope and tender fear—
+   </p>
+                  <p id="p63">Monsieur clean out of doors they chase.
+   </p>
+                  <p id="p64">Lo! my Onéguine free as air,
+   </p>
+                  <p id="p65">Cropped in the latest style his hair,
+   </p>
+                  <p id="p66">Dressed like a London dandy he
+   </p>
+                  <p id="p67">The giddy world at last shall see.
+   </p>
+                  <p id="p68">He wrote and spoke, so all allowed,
+   </p>
+                  <p id="p69">In the French language perfectly,
+   </p>
+                  <p id="p70">Danced the mazurka gracefully,
+   </p>
+                  <p id="p71">Without the least constraint he bowed.
+   </p>
+                  <p id="p72">What more’s required? The world replies,
+   </p>
+                  <p id="p73">He is a charming youth and wise.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza6">
+                  <p id="p74">We all of us of education
+   </p>
+                  <p id="p75">A something somehow have obtained,
+   </p>
+                  <p id="p76">Thus, praised be God! a reputation
+   </p>
+                  <p id="p77">With us is easily attained.
+   </p>
+                  <p id="p78">Onéguine was—so many deemed
+   </p>
+                  <p id="p79">[Unerring critics self-esteemed],
+   </p>
+                  <p id="p80">Pedantic although scholar like,
+   </p>
+                  <p id="p81">In truth he had the happy trick
+   </p>
+                  <p id="p82">Without constraint in conversation
+   </p>
+                  <p id="p83">Of touching lightly every theme.
+   </p>
+                  <p id="p84">Silent, oracular ye’d see him
+   </p>
+                  <p id="p85">Amid a serious disputation,
+   </p>
+                  <p id="p86">Then suddenly discharge a joke
+   </p>
+                  <p id="p87">The ladies’ laughter to provoke.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza7">
+                  <p id="p88">Latin is just now not in vogue,
+   </p>
+                  <p id="p89">But if the truth I must relate,
+   </p>
+                  <p id="p90">Onéguine knew enough, the rogue
+   </p>
+                  <p id="p91">A mild quotation to translate,
+   </p>
+                  <p id="p92">A little Juvenal to spout,
+   </p>
+                  <p id="p93">With “vale” finish off a note;
+   </p>
+                  <p id="p94">Two verses he could recollect
+   </p>
+                  <p id="p95">Of the Æneid, but incorrect.
+   </p>
+                  <p id="p96">In history he took no pleasure,
+   </p>
+                  <p id="p97">The dusty chronicles of earth
+   </p>
+                  <p id="p98">For him were but of little worth,
+   </p>
+                  <p id="p99">Yet still of anecdotes a treasure
+   </p>
+                  <p id="p100">Within his memory there lay,
+   </p>
+                  <p id="p101">From Romulus unto our day.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza8">
+                  <p id="p102">For empty sound the rascal swore he
+   </p>
+                  <p id="p103">Existence would not make a curse,
+   </p>
+                  <p id="p104">Knew not an iamb from a choree,
+   </p>
+                  <p id="p105">Although we read him heaps of verse.
+   </p>
+                  <p id="p106">Homer, Theocritus, he jeered,
+   </p>
+                  <p id="p107">But Adam Smith to read appeared,
+   </p>
+                  <p id="p108">And at economy was great;
+   </p>
+                  <p id="p109">That is, he could elucidate
+   </p>
+                  <p id="p110">How empires store of wealth unfold,
+   </p>
+                  <p id="p111">How flourish, why and wherefore less
+   </p>
+                  <p id="p112">If the raw product they possess
+   </p>
+                  <p id="p113">The medium is required of gold.
+   </p>
+                  <p id="p114">The father scarcely understands
+   </p>
+                  <p id="p115">His son and mortgages his lands.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza9">
+                  <p id="p116">But upon all that Eugene knew
+   </p>
+                  <p id="p117">I have no leisure here to dwell,
+   </p>
+                  <p id="p118">But say he was a genius who
+   </p>
+                  <p id="p119">In one thing really did excel.
+   </p>
+                  <p id="p120">It occupied him from a boy,
+   </p>
+                  <p id="p121">A labour, torment, yet a joy,
+   </p>
+                  <p id="p122">It whiled his idle hours away
+   </p>
+                  <p id="p123">And wholly occupied his day—
+   </p>
+                  <p id="p124">The amatory science warm,
+   </p>
+                  <p id="p125">Which Ovid once immortalized,
+   </p>
+                  <p id="p126">For which the poet agonized
+   </p>
+                  <p id="p127">Laid down his life of sun and storm
+   </p>
+                  <p id="p128">On the steppes of Moldavia lone,
+   </p>
+                  <p id="p129">Far from his Italy—his own.(4)
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p130"> [Note 4: Referring to Tomi, the reputed place of exile of Ovid.</p>
+         <p id="p131">Pushkin, then residing in Bessarabia, was in the same predicament as his predecessor in song, though he certainly did not plead guilty to the fact, since he remarks in his ode to Ovid:</p>
+         <div class="poem poem-normal" id="poem-normal5">
+            <div class="poem poem-body" id="poem-body5">
+               <div class="poem stanza" id="stanza10">
+                  <p id="p132">To exile self-consigned,
+   </p>
+                  <p id="p133">With self, society, existence, discontent,
+   </p>
+                  <p id="p134">I visit in these days, with melancholy mind,
+   </p>
+                  <p id="p135">The country whereunto a mournful age thee sent.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p136">Ovid thus enumerates the causes which brought about his banishment:</p>
+         <div class="poem poem-normal" id="poem-normal6">
+            <div class="poem poem-body" id="poem-body6">
+               <div class="poem stanza" id="stanza11">
+                  <p id="p137">“Perdiderint quum me <i>duo </i>crimina, carmen et error,
+   </p>
+                  <p id="p138">Alterius facti culpa silenda mihi est.”
+   </p>
+                  <p class="attribution" id="attribution2">Ovidii Nasonis Tristium, lib. ii. 207.]
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza12">
+                  <p id="p139">How soon he learnt deception’s art,
+   </p>
+                  <p id="p140">Hope to conceal and jealousy,
+   </p>
+                  <p id="p141">False confidence or doubt to impart,
+   </p>
+                  <p id="p142">Sombre or glad in turn to be,
+   </p>
+                  <p id="p143">Haughty appear, subservient,
+   </p>
+                  <p id="p144">Obsequious or indifferent!
+   </p>
+                  <p id="p145">What languor would his silence show,
+   </p>
+                  <p id="p146">How full of fire his speech would glow!
+   </p>
+                  <p id="p147">How artless was the note which spoke
+   </p>
+                  <p id="p148">Of love again, and yet again;
+   </p>
+                  <p id="p149">How deftly could he transport feign!
+   </p>
+                  <p id="p150">How bright and tender was his look,
+   </p>
+                  <p id="p151">Modest yet daring! And a tear
+   </p>
+                  <p id="p152">Would at the proper time appear.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza13">
+                  <p id="p153">How well he played the greenhorn’s part
+   </p>
+                  <p id="p154">To cheat the inexperienced fair,
+   </p>
+                  <p id="p155">Sometimes by pleasing flattery’s art,
+   </p>
+                  <p id="p156">Sometimes by ready-made despair;
+   </p>
+                  <p id="p157">The feeble moment would espy
+   </p>
+                  <p id="p158">Of tender years the modesty
+   </p>
+                  <p id="p159">Conquer by passion and address,
+   </p>
+                  <p id="p160">Await the long-delayed caress.
+   </p>
+                  <p id="p161">Avowal then ’twas time to pray,
+   </p>
+                  <p id="p162">Attentive to the heart’s first beating,
+   </p>
+                  <p id="p163">Follow up love—a secret meeting
+   </p>
+                  <p id="p164">Arrange without the least delay—
+   </p>
+                  <p id="p165">Then, then—well, in some solitude
+   </p>
+                  <p id="p166">Lessons to give he understood!
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza14">
+                  <p id="p167">How soon he learnt to titillate
+   </p>
+                  <p id="p168">The heart of the inveterate flirt!
+   </p>
+                  <p id="p169">Desirous to annihilate
+   </p>
+                  <p id="p170">His own antagonists expert,
+   </p>
+                  <p id="p171">How bitterly he would malign,
+   </p>
+                  <p id="p172">With many a snare their pathway line!
+   </p>
+                  <p id="p173">But ye, O happy husbands, ye
+   </p>
+                  <p id="p174">With him were friends eternally:
+   </p>
+                  <p id="p175">The crafty spouse caressed him, who
+   </p>
+                  <p id="p176">By Faublas in his youth was schooled,(5)
+   </p>
+                  <p id="p177">And the suspicious veteran old,
+   </p>
+                  <p id="p178">The pompous, swaggering cuckold too,
+   </p>
+                  <p id="p179">Who floats contentedly through life,
+   </p>
+                  <p id="p180">Proud of his dinners and his wife!
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p181">[Note 5: <i>Les Aventures du Chevalier de Faublas</i>, a romance of a loose character by Jean Baptiste Louvet de Couvray, b. 1760, d. 1797, famous for his bold oration denouncing Robespierre, Marat and Danton.]</p>
+         <div class="poem poem-normal" id="poem-normal7">
+            <h4 id="h45">XII
+   </h4>
+            <div class="poem poem-body" id="poem-body7">
+               <div class="poem stanza" id="stanza15">
+                  <p id="p182">One morn whilst yet in bed he lay,
+   </p>
+                  <p id="p183">His valet brings him letters three.
+   </p>
+                  <p id="p184">What, invitations? The same day
+   </p>
+                  <p id="p185">As many entertainments be!
+   </p>
+                  <p id="p186">A ball here, there a children’s treat,
+   </p>
+                  <p id="p187">Whither shall my rapscallion flit?
+   </p>
+                  <p id="p188">Whither shall he go first? He’ll see,
+   </p>
+                  <p id="p189">Perchance he will to all the three.
+   </p>
+                  <p id="p190">Meantime in matutinal dress
+   </p>
+                  <p id="p191">And hat surnamed a “Bolivar”(6)
+   </p>
+                  <p id="p192">He hies unto the “Boulevard,”
+   </p>
+                  <p id="p193">To loiter there in idleness
+   </p>
+                  <p id="p194">Until the sleepless Bréguet chime(7)
+   </p>
+                  <p id="p195">Announcing to him dinner-time.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p196">[Note 6: A la “Bolivar,” from the founder of Bolivian independence.]</p>
+         <p id="p197">[Note 7: M. Bréguet, a celebrated Parisian watchmaker—hence a slang term for a watch.]</p>
+         <div class="poem poem-normal" id="poem-normal8">
+            <h4 id="h46">XIII
+   </h4>
+            <div class="poem poem-body" id="poem-body8">
+               <div class="poem stanza" id="stanza16">
+                  <p id="p198">’Tis dark. He seats him in a sleigh,
+   </p>
+                  <p id="p199">“Drive on!” the cheerful cry goes forth,
+   </p>
+                  <p id="p200">His furs are powdered on the way
+   </p>
+                  <p id="p201">By the fine silver of the north.
+   </p>
+                  <p id="p202">He bends his course to Talon’s, where(8)
+   </p>
+                  <p id="p203">He knows Kaverine will repair.(9)
+   </p>
+                  <p id="p204">He enters. High the cork arose
+   </p>
+                  <p id="p205">And Comet champagne foaming flows.
+   </p>
+                  <p id="p206">Before him red roast beef is seen
+   </p>
+                  <p id="p207">And truffles, dear to youthful eyes,
+   </p>
+                  <p id="p208">Flanked by immortal Strasbourg pies,
+   </p>
+                  <p id="p209">The choicest flowers of French cuisine,
+   </p>
+                  <p id="p210">And Limburg cheese alive and old
+   </p>
+                  <p id="p211">Is seen next pine-apples of gold.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p212">[Note 8: Talon, a famous St. Petersburg restaurateur.]</p>
+         <p id="p213">[Note 9: Paul Petròvitch Kaverine, a friend for whom Pushkin in his youth appears to have entertained great respect and admiration. He was an officer in the Hussars of the Guard, and a noted “dandy” and man about town. The poet on one occasion addressed the following impromptu to his friend’s portrait:</p>
+         <div class="poem poem-normal" id="poem-normal9">
+            <div class="poem poem-body" id="poem-body9">
+               <div class="poem stanza" id="stanza17">
+                  <p id="p214">“Within him daily see the the fires of punch and war,
+   </p>
+                  <p id="p215">Upon the fields of Mars a gallant warrior,
+   </p>
+                  <p id="p216">A faithful friend to friends, of ladies torturer,
+   </p>
+                  <p id="p217">But ever the Hussar.”]
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza18">
+                  <p id="p218">Still thirst fresh draughts of wine compels
+   </p>
+                  <p id="p219">To cool the cutlets’ seething grease,
+   </p>
+                  <p id="p220">When the sonorous Bréguet tells
+   </p>
+                  <p id="p221">Of the commencement of the piece.
+   </p>
+                  <p id="p222">A critic of the stage malicious,
+   </p>
+                  <p id="p223">A slave of actresses capricious,
+   </p>
+                  <p id="p224">Onéguine was a citizen
+   </p>
+                  <p id="p225">Of the domains of the side-scene.
+   </p>
+                  <p id="p226">To the theatre he repairs
+   </p>
+                  <p id="p227">Where each young critic ready stands,
+   </p>
+                  <p id="p228">Capers applauds with clap of hands,
+   </p>
+                  <p id="p229">With hisses Cleopatra scares,
+   </p>
+                  <p id="p230">Moina recalls for this alone
+   </p>
+                  <p id="p231">That all may hear his voice’s tone.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza19">
+                  <p id="p232">Thou fairy-land! Where formerly
+   </p>
+                  <p id="p233">Shone pungent Satire’s dauntless king,
+   </p>
+                  <p id="p234">Von Wisine, friend of liberty,
+   </p>
+                  <p id="p235">And Kniajnine, apt at copying.
+   </p>
+                  <p id="p236">The young Simeonova too there
+   </p>
+                  <p id="p237">With Ozeroff was wont to share
+   </p>
+                  <p id="p238">Applause, the people’s donative.
+   </p>
+                  <p id="p239">There our Katènine did revive
+   </p>
+                  <p id="p240">Corneille’s majestic genius,
+   </p>
+                  <p id="p241">Sarcastic Shakhovskoi brought out
+   </p>
+                  <p id="p242">His comedies, a noisy rout,
+   </p>
+                  <p id="p243">There Didelot became glorious,
+   </p>
+                  <p id="p244">There, there, beneath the side-scene’s shade
+   </p>
+                  <p id="p245">The drama of my youth was played.(10)
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p246">[Note 10: <i>Denis Von Wisine </i>(1741-92), a favourite Russian dramatist. His first comedy “The Brigadier,” procured him the favour of the second Catherine. His best, however, is the “Minor” (Niedorosl). Prince Potemkin, after witnessing it, summoned the author, and greeted him with the exclamation, “Die now, Denis!” In fact, his subsequent performances were not of equal merit.</p>
+         <p id="p247"><i>Jacob Borissovitch Kniajnine </i>(1742-91), a clever adapter of French tragedy.</p>
+         <p id="p248"><i>Simeonova</i>, a celebrated tragic actress, who retired from the stage in early life and married a Prince Gagarine.</p>
+         <p id="p249"><i>Ozeroff</i>, one of the best-known Russian dramatists of the period; he possessed more originality than Kniajnine. “Œdipus in Athens,” “Fingal,” “Demetrius Donskoi,” and “Polyxena,” are the best known of his tragedies.</p>
+         <p id="p250"><i>Katènine </i>translated Corneille’s tragedies into Russian.</p>
+         <p id="p251"><i>Didelot</i>, sometime Director of the ballet at the Opera at St. Petersburg.]</p>
+         <div class="poem poem-normal" id="poem-normal10">
+            <h4 id="h47">XVI
+   </h4>
+            <div class="poem poem-body" id="poem-body10">
+               <div class="poem stanza" id="stanza20">
+                  <p id="p252">My goddesses, where are your shades?
+   </p>
+                  <p id="p253">Do ye not hear my mournful sighs?
+   </p>
+                  <p id="p254">Are ye replaced by other maids
+   </p>
+                  <p id="p255">Who cannot conjure former joys?
+   </p>
+                  <p id="p256">Shall I your chorus hear anew,
+   </p>
+                  <p id="p257">Russia’s Terpsichore review
+   </p>
+                  <p id="p258">Again in her ethereal dance?
+   </p>
+                  <p id="p259">Or will my melancholy glance
+   </p>
+                  <p id="p260">On the dull stage find all things changed,
+   </p>
+                  <p id="p261">The disenchanted glass direct
+   </p>
+                  <p id="p262">Where I can no more recollect?—
+   </p>
+                  <p id="p263">A careless looker-on estranged
+   </p>
+                  <p id="p264">In silence shall I sit and yawn
+   </p>
+                  <p id="p265">And dream of life’s delightful dawn?
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza21">
+                  <p id="p266">The house is crammed. A thousand lamps
+   </p>
+                  <p id="p267">On pit, stalls, boxes, brightly blaze,
+   </p>
+                  <p id="p268">Impatiently the gallery stamps,
+   </p>
+                  <p id="p269">The curtain now they slowly raise.
+   </p>
+                  <p id="p270">Obedient to the magic strings,
+   </p>
+                  <p id="p271">Brilliant, ethereal, there springs
+   </p>
+                  <p id="p272">Forth from the crowd of nymphs surrounding
+   </p>
+                  <p id="p273">Istomina(*) the nimbly-bounding;
+   </p>
+                  <p id="p274">With one foot resting on its tip
+   </p>
+                  <p id="p275">Slow circling round its fellow swings
+   </p>
+                  <p id="p276">And now she skips and now she springs
+   </p>
+                  <p id="p277">Like down from Aeolus’s lip,
+   </p>
+                  <p id="p278">Now her lithe form she arches o’er
+   </p>
+                  <p id="p279">And beats with rapid foot the floor.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p280">[Note: Istomina—A celebrated Circassian dancer of the day, with whom the poet in his extreme youth imagined himself in love.]</p>
+         <div class="poem poem-normal" id="poem-normal11">
+            <h4 id="h48">XVIII
+   </h4>
+            <div class="poem poem-body" id="poem-body11">
+               <div class="poem stanza" id="stanza22">
+                  <p id="p281">Shouts of applause! Onéguine passes
+   </p>
+                  <p id="p282">Between the stalls, along the toes;
+   </p>
+                  <p id="p283">Seated, a curious look with glasses
+   </p>
+                  <p id="p284">On unknown female forms he throws.
+   </p>
+                  <p id="p285">Free scope he yields unto his glance,
+   </p>
+                  <p id="p286">Reviews both dress and countenance,
+   </p>
+                  <p id="p287">With all dissatisfaction shows.
+   </p>
+                  <p id="p288">To male acquaintances he bows,
+   </p>
+                  <p id="p289">And finally he deigns let fall
+   </p>
+                  <p id="p290">Upon the stage his weary glance.
+   </p>
+                  <p id="p291">He yawns, averts his countenance,
+   </p>
+                  <p id="p292">Exclaiming, “We must change ’em all!
+   </p>
+                  <p id="p293">I long by ballets have been bored,
+   </p>
+                  <p id="p294">Now Didelot scarce can be endured!”
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza23">
+                  <p id="p295">Snakes, satyrs, loves with many a shout
+   </p>
+                  <p id="p296">Across the stage still madly sweep,
+   </p>
+                  <p id="p297">Whilst the tired serving-men without
+   </p>
+                  <p id="p298">Wrapped in their sheepskins soundly sleep.
+   </p>
+                  <p id="p299">Still the loud stamping doth not cease,
+   </p>
+                  <p id="p300">Still they blow noses, cough, and sneeze,
+   </p>
+                  <p id="p301">Still everywhere, without, within,
+   </p>
+                  <p id="p302">The lamps illuminating shine;
+   </p>
+                  <p id="p303">The steed benumbed still pawing stands
+   </p>
+                  <p id="p304">And of the irksome harness tires,
+   </p>
+                  <p id="p305">And still the coachmen round the fires(11)
+   </p>
+                  <p id="p306">Abuse their masters, rub their hands:
+   </p>
+                  <p id="p307">But Eugene long hath left the press
+   </p>
+                  <p id="p308">To array himself in evening dress.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p309">[Note 11: In Russia large fires are lighted in winter time in front of the theatres for the benefit of the menials, who, considering the state of the thermometer, cannot be said to have a jovial time of it. But in this, as in other cases, “habit” alleviates their lot, and they bear the cold with a wonderful equanimity.]</p>
+         <div class="poem poem-normal" id="poem-normal12">
+            <h4 id="h49">XX
+   </h4>
+            <div class="poem poem-body" id="poem-body12">
+               <div class="poem stanza" id="stanza24">
+                  <p id="p310">Faithfully shall I now depict,
+   </p>
+                  <p id="p311">Portray the solitary den
+   </p>
+                  <p id="p312">Wherein the child of fashion strict
+   </p>
+                  <p id="p313">Dressed him, undressed, and dressed again?
+   </p>
+                  <p id="p314">All that industrial London brings
+   </p>
+                  <p id="p315">For tallow, wood and other things
+   </p>
+                  <p id="p316">Across the Baltic’s salt sea waves,
+   </p>
+                  <p id="p317">All which caprice and affluence craves,
+   </p>
+                  <p id="p318">All which in Paris eager taste,
+   </p>
+                  <p id="p319">Choosing a profitable trade,
+   </p>
+                  <p id="p320">For our amusement ever made
+   </p>
+                  <p id="p321">And ease and fashionable waste,—
+   </p>
+                  <p id="p322">Adorned the apartment of Eugene,
+   </p>
+                  <p id="p323">Philosopher just turned eighteen.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza25">
+                  <p id="p324">China and bronze the tables weight,
+   </p>
+                  <p id="p325">Amber on pipes from Stamboul glows,
+   </p>
+                  <p id="p326">And, joy of souls effeminate,
+   </p>
+                  <p id="p327">Phials of crystal scents enclose.
+   </p>
+                  <p id="p328">Combs of all sizes, files of steel,
+   </p>
+                  <p id="p329">Scissors both straight and curved as well,
+   </p>
+                  <p id="p330">Of thirty different sorts, lo! brushes
+   </p>
+                  <p id="p331">Both for the nails and for the tushes.
+   </p>
+                  <p id="p332">Rousseau, I would remark in passing,(12)
+   </p>
+                  <p id="p333">Could not conceive how serious Grimm
+   </p>
+                  <p id="p334">Dared calmly cleanse his nails ’fore him,
+   </p>
+                  <p id="p335">Eloquent raver all-surpassing,—
+   </p>
+                  <p id="p336">The friend of liberty and laws
+   </p>
+                  <p id="p337">In this case quite mistaken was.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p338">[Note 12: “Tout le monde sut qu’il (Grimm) mettait du blanc; et moi, qui n’en croyait rien, je commençai de le croire, non seulement par l’embellissement de son teint, et pour avoir trouvé des tasses de blanc sur la toilette, mais sur ce qu’entrant un matin dans sa chambre, je le trouvais brossant ses ongles avec une petite vergette faite exprès, ouvrage qu’il continua fièrement devant moi. Je jugeai qu’un homme qui passe deux heures tous les matins à brosser ses ongles peut bien passer quelques instants à remplir de blanc les creux de sa peau.”</p>
+         <p class="align-center" id="align-center1">Confessions de J. J. Rousseau]
+   </p>
+         <div class="poem poem-normal" id="poem-normal13">
+            <h4 id="h410">XXII
+   </h4>
+            <div class="poem poem-body" id="poem-body13">
+               <div class="poem stanza" id="stanza26">
+                  <p id="p339">The most industrious man alive
+   </p>
+                  <p id="p340">May yet be studious of his nails;
+   </p>
+                  <p id="p341">What boots it with the age to strive?
+   </p>
+                  <p id="p342">Custom the despot soon prevails.
+   </p>
+                  <p id="p343">A new Kaverine Eugene mine,
+   </p>
+                  <p id="p344">Dreading the world’s remarks malign,
+   </p>
+                  <p id="p345">Was that which we are wont to call
+   </p>
+                  <p id="p346">A fop, in dress pedantical.
+   </p>
+                  <p id="p347">Three mortal hours per diem he
+   </p>
+                  <p id="p348">Would loiter by the looking-glass,
+   </p>
+                  <p id="p349">And from his dressing-room would pass
+   </p>
+                  <p id="p350">Like Venus when, capriciously,
+   </p>
+                  <p id="p351">The goddess would a masquerade
+   </p>
+                  <p id="p352">Attend in male attire arrayed.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza27">
+                  <p id="p353">On this artistical retreat
+   </p>
+                  <p id="p354">Having once fixed your interest,
+   </p>
+                  <p id="p355">I might to connoisseurs repeat
+   </p>
+                  <p id="p356">The style in which my hero dressed;
+   </p>
+                  <p id="p357">Though I confess I hardly dare
+   </p>
+                  <p id="p358">Describe in detail the affair,
+   </p>
+                  <p id="p359">Since words like pantaloons, vest, coat,
+   </p>
+                  <p id="p360">To Russ indigenous are not;
+   </p>
+                  <p id="p361">And also that my feeble verse—
+   </p>
+                  <p id="p362">Pardon I ask for such a sin—
+   </p>
+                  <p id="p363">With words of foreign origin
+   </p>
+                  <p id="p364">Too much I’m given to intersperse,
+   </p>
+                  <p id="p365">Though to the Academy I come
+   </p>
+                  <p id="p366">And oft its Dictionary thumb.(13)
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p367">[Note 13: Refers to Dictionary of the Academy, compiled during the reign of Catherine II under the supervision of Lomonossoff.]</p>
+         <div class="poem poem-normal" id="poem-normal14">
+            <h4 id="h411">XXIV
+   </h4>
+            <div class="poem poem-body" id="poem-body14">
+               <div class="poem stanza" id="stanza28">
+                  <p id="p368">But such is not my project now,
+   </p>
+                  <p id="p369">So let us to the ball-room haste,
+   </p>
+                  <p id="p370">Whither at headlong speed doth go
+   </p>
+                  <p id="p371">Eugene in hackney carriage placed.
+   </p>
+                  <p id="p372">Past darkened windows and long streets
+   </p>
+                  <p id="p373">Of slumbering citizens he fleets,
+   </p>
+                  <p id="p374">Till carriage lamps, a double row,
+   </p>
+                  <p id="p375">Cast a gay lustre on the snow,
+   </p>
+                  <p id="p376">Which shines with iridescent hues.
+   </p>
+                  <p id="p377">He nears a spacious mansion’s gate,
+   </p>
+                  <p id="p378">By many a lamp illuminate,
+   </p>
+                  <p id="p379">And through the lofty windows views
+   </p>
+                  <p id="p380">Profiles of lovely dames he knows
+   </p>
+                  <p id="p381">And also fashionable beaux.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza29">
+                  <p id="p382">Our hero stops and doth alight,
+   </p>
+                  <p id="p383">Flies past the porter to the stair,
+   </p>
+                  <p id="p384">But, ere he mounts the marble flight,
+   </p>
+                  <p id="p385">With hurried hand smooths down his hair.
+   </p>
+                  <p id="p386">He enters: in the hall a crowd,
+   </p>
+                  <p id="p387">No more the music thunders loud,
+   </p>
+                  <p id="p388">Some a mazurka occupies,
+   </p>
+                  <p id="p389">Crushing and a confusing noise;
+   </p>
+                  <p id="p390">Spurs of the Cavalier Guard clash,
+   </p>
+                  <p id="p391">The feet of graceful ladies fly,
+   </p>
+                  <p id="p392">And following them ye might espy
+   </p>
+                  <p id="p393">Full many a glance like lightning flash,
+   </p>
+                  <p id="p394">And by the fiddle’s rushing sound
+   </p>
+                  <p id="p395">The voice of jealousy is drowned.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza30">
+                  <p id="p396">In my young days of wild delight
+   </p>
+                  <p id="p397">On balls I madly used to dote,
+   </p>
+                  <p id="p398">Fond declarations they invite
+   </p>
+                  <p id="p399">Or the delivery of a note.
+   </p>
+                  <p id="p400">So hearken, every worthy spouse,
+   </p>
+                  <p id="p401">I would your vigilance arouse,
+   </p>
+                  <p id="p402">Attentive be unto my rhymes
+   </p>
+                  <p id="p403">And due precautions take betimes.
+   </p>
+                  <p id="p404">Ye mothers also, caution use,
+   </p>
+                  <p id="p405">Upon your daughters keep an eye,
+   </p>
+                  <p id="p406">Employ your glasses constantly,
+   </p>
+                  <p id="p407">For otherwise—God only knows!
+   </p>
+                  <p id="p408">I lift a warning voice because
+   </p>
+                  <p id="p409">I long have ceased to offend the laws.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza31">
+                  <p id="p410">Alas! life’s hours which swiftly fly
+   </p>
+                  <p id="p411">I’ve wasted in amusements vain,
+   </p>
+                  <p id="p412">But were it not immoral I
+   </p>
+                  <p id="p413">Should dearly like a dance again.
+   </p>
+                  <p id="p414">I love its furious delight,
+   </p>
+                  <p id="p415">The crowd and merriment and light,
+   </p>
+                  <p id="p416">The ladies, their fantastic dress,
+   </p>
+                  <p id="p417">Also their feet—yet ne’ertheless
+   </p>
+                  <p id="p418">Scarcely in Russia can ye find
+   </p>
+                  <p id="p419">Three pairs of handsome female feet;
+   </p>
+                  <p id="p420">Ah! I still struggle to forget
+   </p>
+                  <p id="p421">A pair; though desolate my mind,
+   </p>
+                  <p id="p422">Their memory lingers still and seems
+   </p>
+                  <p id="p423">To agitate me in my dreams.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza32">
+                  <p id="p424">When, where, and in what desert land,
+   </p>
+                  <p id="p425">Madman, wilt thou from memory raze
+   </p>
+                  <p id="p426">Those feet? Alas! on what far strand
+   </p>
+                  <p id="p427">Do ye of spring the blossoms graze?
+   </p>
+                  <p id="p428">Lapped in your Eastern luxury,
+   </p>
+                  <p id="p429">No trace ye left in passing by
+   </p>
+                  <p id="p430">Upon the dreary northern snows,
+   </p>
+                  <p id="p431">But better loved the soft repose
+   </p>
+                  <p id="p432">Of splendid carpets richly wrought.
+   </p>
+                  <p id="p433">I once forgot for your sweet cause
+   </p>
+                  <p id="p434">The thirst for fame and man’s applause,
+   </p>
+                  <p id="p435">My country and an exile’s lot;
+   </p>
+                  <p id="p436">My joy in youth was fleeting e’en
+   </p>
+                  <p id="p437">As your light footprints on the green.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza33">
+                  <p id="p438">Diana’s bosom, Flora’s cheeks,
+   </p>
+                  <p id="p439">Are admirable, my dear friend,
+   </p>
+                  <p id="p440">But yet Terpsichore bespeaks
+   </p>
+                  <p id="p441">Charms more enduring in the end.
+   </p>
+                  <p id="p442">For promises her feet reveal
+   </p>
+                  <p id="p443">Of untold gain she must conceal,
+   </p>
+                  <p id="p444">Their privileged allurements fire
+   </p>
+                  <p id="p445">A hidden train of wild desire.
+   </p>
+                  <p id="p446">I love them, O my dear Elvine,(14)
+   </p>
+                  <p id="p447">Beneath the table-cloth of white,
+   </p>
+                  <p id="p448">In winter on the fender bright,
+   </p>
+                  <p id="p449">In springtime on the meadows green,
+   </p>
+                  <p id="p450">Upon the ball-room’s glassy floor
+   </p>
+                  <p id="p451">Or by the ocean’s rocky shore.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p452">[Note 14: <i>Elvine</i>, or<i> Elvina</i>, was not improbably the owner of the seductive feet apostrophized by the poet, since, in 1816, he wrote an ode, “To Her,” which commences thus:</p>
+         <div class="poem poem-normal" id="poem-normal15">
+            <div class="poem poem-body" id="poem-body15">
+               <div class="poem stanza" id="stanza34">
+                  <p id="p453">“Elvina, my dear, come, give me thine hand,” and so forth.]
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza35">
+                  <p id="p454">Beside the stormy sea one day
+   </p>
+                  <p id="p455">I envied sore the billows tall,
+   </p>
+                  <p id="p456">Which rushed in eager dense array
+   </p>
+                  <p id="p457">Enamoured at her feet to fall.
+   </p>
+                  <p id="p458">How like the billow I desired
+   </p>
+                  <p id="p459">To kiss the feet which I admired!
+   </p>
+                  <p id="p460">No, never in the early blaze
+   </p>
+                  <p id="p461">Of fiery youth’s untutored days
+   </p>
+                  <p id="p462">So ardently did I desire
+   </p>
+                  <p id="p463">A young Armida’s lips to press,
+   </p>
+                  <p id="p464">Her cheek of rosy loveliness
+   </p>
+                  <p id="p465">Or bosom full of languid fire,—
+   </p>
+                  <p id="p466">A gust of passion never tore
+   </p>
+                  <p id="p467">My spirit with such pangs before.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza36">
+                  <p id="p468">Another time, so willed it Fate,
+   </p>
+                  <p id="p469">Immersed in secret thought I stand
+   </p>
+                  <p id="p470">And grasp a stirrup fortunate—
+   </p>
+                  <p id="p471">Her foot was in my other hand.
+   </p>
+                  <p id="p472">Again imagination blazed,
+   </p>
+                  <p id="p473">The contact of the foot I raised
+   </p>
+                  <p id="p474">Rekindled in my withered heart
+   </p>
+                  <p id="p475">The fires of passion and its smart—
+   </p>
+                  <p id="p476">Away! and cease to ring their praise
+   </p>
+                  <p id="p477">For ever with thy tattling lyre,
+   </p>
+                  <p id="p478">The proud ones are not worth the fire
+   </p>
+                  <p id="p479">Of passion they so often raise.
+   </p>
+                  <p id="p480">The words and looks of charmers sweet
+   </p>
+                  <p id="p481">Are oft deceptive—like their feet.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza37">
+                  <p id="p482">Where is Onéguine? Half asleep,
+   </p>
+                  <p id="p483">Straight from the ball to bed he goes,
+   </p>
+                  <p id="p484">Whilst Petersburg from slumber deep
+   </p>
+                  <p id="p485">The drum already doth arouse.
+   </p>
+                  <p id="p486">The shopman and the pedlar rise
+   </p>
+                  <p id="p487">And to the Bourse the cabman plies;
+   </p>
+                  <p id="p488">The Okhtenka with pitcher speeds,(15)
+   </p>
+                  <p id="p489">Crunching the morning snow she treads;
+   </p>
+                  <p id="p490">Morning awakes with joyous sound;
+   </p>
+                  <p id="p491">The shutters open; to the skies
+   </p>
+                  <p id="p492">In column blue the smoke doth rise;
+   </p>
+                  <p id="p493">The German baker looks around
+   </p>
+                  <p id="p494">His shop, a night-cap on his head,
+   </p>
+                  <p id="p495">And pauses oft to serve out bread.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p496">[Note 15: i.e. the milkmaid from the Okhta villages, a suburb of St. Petersburg on the right bank of the Neva chiefly inhabited by the labouring classes.]</p>
+         <div class="poem poem-normal" id="poem-normal16">
+            <h4 id="h412">XXXIII
+   </h4>
+            <div class="poem poem-body" id="poem-body16">
+               <div class="poem stanza" id="stanza38">
+                  <p id="p497">But turning morning into night,
+   </p>
+                  <p id="p498">Tired by the ball’s incessant noise,
+   </p>
+                  <p id="p499">The votary of vain delight
+   </p>
+                  <p id="p500">Sleep in the shadowy couch enjoys,
+   </p>
+                  <p id="p501">Late in the afternoon to rise,
+   </p>
+                  <p id="p502">When the same life before him lies
+   </p>
+                  <p id="p503">Till morn—life uniform but gay,
+   </p>
+                  <p id="p504">To-morrow just like yesterday.
+   </p>
+                  <p id="p505">But was our friend Eugene content,
+   </p>
+                  <p id="p506">Free, in the blossom of his spring,
+   </p>
+                  <p id="p507">Amidst successes flattering
+   </p>
+                  <p id="p508">And pleasure’s daily blandishment,
+   </p>
+                  <p id="p509">Or vainly ’mid luxurious fare
+   </p>
+                  <p id="p510">Was he in health and void of care?—
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza39">
+                  <p id="p511">Even so! His passions soon abated,
+   </p>
+                  <p id="p512">Hateful the hollow world became,
+   </p>
+                  <p id="p513">Nor long his mind was agitated
+   </p>
+                  <p id="p514">By love’s inevitable flame.
+   </p>
+                  <p id="p515">For treachery had done its worst;
+   </p>
+                  <p id="p516">Friendship and friends he likewise curst,
+   </p>
+                  <p id="p517">Because he could not gourmandise
+   </p>
+                  <p id="p518">Daily beefsteaks and Strasbourg pies
+   </p>
+                  <p id="p519">And irrigate them with champagne;
+   </p>
+                  <p id="p520">Nor slander viciously could spread
+   </p>
+                  <p id="p521">Whene’er he had an aching head;
+   </p>
+                  <p id="p522">And, though a plucky scatterbrain,
+   </p>
+                  <p id="p523">He finally lost all delight
+   </p>
+                  <p id="p524">In bullets, sabres, and in fight.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza40">
+                  <p id="p525">His malady, whose cause I ween
+   </p>
+                  <p id="p526">It now to investigate is time,
+   </p>
+                  <p id="p527">Was nothing but the British spleen
+   </p>
+                  <p id="p528">Transported to our Russian clime.
+   </p>
+                  <p id="p529">It gradually possessed his mind;
+   </p>
+                  <p id="p530">Though, God be praised! he ne’er designed
+   </p>
+                  <p id="p531">To slay himself with blade or ball,
+   </p>
+                  <p id="p532">Indifferent he became to all,
+   </p>
+                  <p id="p533">And like Childe Harold gloomily
+   </p>
+                  <p id="p534">He to the festival repairs,
+   </p>
+                  <p id="p535">Nor boston nor the world’s affairs
+   </p>
+                  <p id="p536">Nor tender glance nor amorous sigh
+   </p>
+                  <p id="p537">Impressed him in the least degree,—
+   </p>
+                  <p id="p538">Callous to all he seemed to be.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza41">
+                  <p id="p539">Ye miracles of courtly grace,
+   </p>
+                  <p id="p540">He left <i>you </i>first, and I must own
+   </p>
+                  <p id="p541">The manners of the highest class
+   </p>
+                  <p id="p542">Have latterly vexatious grown;
+   </p>
+                  <p id="p543">And though perchance a lady may
+   </p>
+                  <p id="p544">Discourse of Bentham or of Say,
+   </p>
+                  <p id="p545">Yet as a rule their talk I call
+   </p>
+                  <p id="p546">Harmless, but quite nonsensical.
+   </p>
+                  <p id="p547">Then they’re so innocent of vice,
+   </p>
+                  <p id="p548">So full of piety, correct,
+   </p>
+                  <p id="p549">So prudent, and so circumspect
+   </p>
+                  <p id="p550">Stately, devoid of prejudice,
+   </p>
+                  <p id="p551">So inaccessible to men,
+   </p>
+                  <p id="p552">Their looks alone produce the spleen.(16)
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p553">[Note 16: Apropos of this somewhat ungallant sentiment, a Russian scholiast remarks:—“The whole of this ironical stanza is but a <i>refined eulogy </i>of the excellent qualities of our countrywomen. Thus Boileau, in the guise of invective, eulogizes Louis XIV. Russian ladies unite in their persons great acquirements, combined with amiability and strict morality; also a species of Oriental charm which so much captivated Madame de Stael.” It will occur to most that the apologist of the Russian fair “doth protest too much.” The poet in all probability wrote the offending stanza in a fit of Byronic “spleen,” as he would most likely himself have called it. Indeed, since Byron, poets of his school seem to assume this virtue if they have it not, and we take their utterances under its influence for what they are worth.]</p>
+         <div class="poem poem-normal" id="poem-normal17">
+            <h4 id="h413">XXXVII
+   </h4>
+            <div class="poem poem-body" id="poem-body17">
+               <div class="poem stanza" id="stanza42">
+                  <p id="p554">And you, my youthful damsels fair,
+   </p>
+                  <p id="p555">Whom latterly one often meets
+   </p>
+                  <p id="p556">Urging your droshkies swift as air
+   </p>
+                  <p id="p557">Along Saint Petersburg’s paved streets,
+   </p>
+                  <p id="p558">From you too Eugene took to flight,
+   </p>
+                  <p id="p559">Abandoning insane delight,
+   </p>
+                  <p id="p560">And isolated from all men,
+   </p>
+                  <p id="p561">Yawning betook him to a pen.
+   </p>
+                  <p id="p562">He thought to write, but labour long
+   </p>
+                  <p id="p563">Inspired him with disgust and so
+   </p>
+                  <p id="p564">Nought from his pen did ever flow,
+   </p>
+                  <p id="p565">And thus he never fell among
+   </p>
+                  <p id="p566">That vicious set whom I don’t blame—
+   </p>
+                  <p id="p567">Because a member I became.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza43">
+                  <p id="p568">Once more to idleness consigned,
+   </p>
+                  <p id="p569">He felt the laudable desire
+   </p>
+                  <p id="p570">From mere vacuity of mind
+   </p>
+                  <p id="p571">The wit of others to acquire.
+   </p>
+                  <p id="p572">A case of books he doth obtain—
+   </p>
+                  <p id="p573">He reads at random, reads in vain.
+   </p>
+                  <p id="p574">This nonsense, that dishonest seems,
+   </p>
+                  <p id="p575">This wicked, that absurd he deems,
+   </p>
+                  <p id="p576">All are constrained and fetters bear,
+   </p>
+                  <p id="p577">Antiquity no pleasure gave,
+   </p>
+                  <p id="p578">The moderns of the ancients rave—
+   </p>
+                  <p id="p579">Books he abandoned like the fair,
+   </p>
+                  <p id="p580">His book-shelf instantly doth drape
+   </p>
+                  <p id="p581">With taffety instead of crape.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza44">
+                  <p id="p582">Having abjured the haunts of men,
+   </p>
+                  <p id="p583">Like him renouncing vanity,
+   </p>
+                  <p id="p584">His friendship I acquired just then;
+   </p>
+                  <p id="p585">His character attracted me.
+   </p>
+                  <p id="p586">An innate love of meditation,
+   </p>
+                  <p id="p587">Original imagination,
+   </p>
+                  <p id="p588">And cool sagacious mind he had:
+   </p>
+                  <p id="p589">I was incensed and he was sad.
+   </p>
+                  <p id="p590">Both were of passion satiate
+   </p>
+                  <p id="p591">And both of dull existence tired,
+   </p>
+                  <p id="p592">Extinct the flame which once had fired;
+   </p>
+                  <p id="p593">Both were expectant of the hate
+   </p>
+                  <p id="p594">With which blind Fortune oft betrays
+   </p>
+                  <p id="p595">The very morning of our days.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza45">
+                  <p id="p596">He who hath lived and living, thinks,
+   </p>
+                  <p id="p597">Must e’en despise his kind at last;
+   </p>
+                  <p id="p598">He who hath suffered ofttimes shrinks
+   </p>
+                  <p id="p599">From shades of the relentless past.
+   </p>
+                  <p id="p600">No fond illusions live to soothe,
+   </p>
+                  <p id="p601">But memory like a serpent’s tooth
+   </p>
+                  <p id="p602">With late repentance gnaws and stings.
+   </p>
+                  <p id="p603">All this in many cases brings
+   </p>
+                  <p id="p604">A charm with it in conversation.
+   </p>
+                  <p id="p605">Onéguine’s speeches I abhorred
+   </p>
+                  <p id="p606">At first, but soon became inured
+   </p>
+                  <p id="p607">To the sarcastic observation,
+   </p>
+                  <p id="p608">To witticisms and taunts half-vicious
+   </p>
+                  <p id="p609">And gloomy epigrams malicious.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza46">
+                  <p id="p610">How oft, when on a summer night
+   </p>
+                  <p id="p611">Transparent o’er the Neva beamed
+   </p>
+                  <p id="p612">The firmament in mellow light,
+   </p>
+                  <p id="p613">And when the watery mirror gleamed
+   </p>
+                  <p id="p614">No more with pale Diana’s rays,(17)
+   </p>
+                  <p id="p615">We called to mind our youthful days—
+   </p>
+                  <p id="p616">The days of love and of romance!
+   </p>
+                  <p id="p617">Then would we muse as in a trance,
+   </p>
+                  <p id="p618">Impressionable for an hour,
+   </p>
+                  <p id="p619">And breathe the balmy breath of night;
+   </p>
+                  <p id="p620">And like the prisoner’s our delight
+   </p>
+                  <p id="p621">Who for the greenwood quits his tower,
+   </p>
+                  <p id="p622">As on the rapid wings of thought
+   </p>
+                  <p id="p623">The early days of life we sought.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p624">[Note 17: The midsummer nights in the latitude of St. Petersburg are a prolonged twilight.]</p>
+         <div class="poem poem-normal" id="poem-normal18">
+            <h4 id="h414">XLII
+   </h4>
+            <div class="poem poem-body" id="poem-body18">
+               <div class="poem stanza" id="stanza47">
+                  <p id="p625">Absorbed in melancholy mood
+   </p>
+                  <p id="p626">And o’er the granite coping bent,
+   </p>
+                  <p id="p627">Onéguine meditative stood,
+   </p>
+                  <p id="p628">E’en as the poet says he leant.(18)
+   </p>
+                  <p id="p629">’Tis silent all! Alone the cries
+   </p>
+                  <p id="p630">Of the night sentinels arise
+   </p>
+                  <p id="p631">And from the Millionaya afar(19)
+   </p>
+                  <p id="p632">The sudden rattling of a car.
+   </p>
+                  <p id="p633">Lo! on the sleeping river borne,
+   </p>
+                  <p id="p634">A boat with splashing oar floats by,
+   </p>
+                  <p id="p635">And now we hear delightedly
+   </p>
+                  <p id="p636">A jolly song and distant horn;
+   </p>
+                  <p id="p637">But sweeter in a midnight dream
+   </p>
+                  <p id="p638">Torquato Tasso’s strains I deem.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p639">[Note 18: Refers to Mouravieff’s “Goddess of the Neva.” At St. Petersburg the banks of the Neva are lined throughout with splendid granite quays.]</p>
+         <p id="p640">[Note 19: A street running parallel to the Neva, and leading from the Winter Palace to the Summer Palace and Garden.]</p>
+         <div class="poem poem-normal" id="poem-normal19">
+            <h4 id="h415">XLIII
+   </h4>
+            <div class="poem poem-body" id="poem-body19">
+               <div class="poem stanza" id="stanza48">
+                  <p id="p641">Ye billows of blue Hadria’s sea,
+   </p>
+                  <p id="p642">O Brenta, once more we shall meet
+   </p>
+                  <p id="p643">And, inspiration firing me,
+   </p>
+                  <p id="p644">Your magic voices I shall greet,
+   </p>
+                  <p id="p645">Whose tones Apollo’s sons inspire,
+   </p>
+                  <p id="p646">And after Albion’s proud lyre (20)
+   </p>
+                  <p id="p647">Possess my love and sympathy.
+   </p>
+                  <p id="p648">The nights of golden Italy
+   </p>
+                  <p id="p649">I’ll pass beneath the firmament,
+   </p>
+                  <p id="p650">Hid in the gondola’s dark shade,
+   </p>
+                  <p id="p651">Alone with my Venetian maid,
+   </p>
+                  <p id="p652">Now talkative, now reticent;
+   </p>
+                  <p id="p653">From her my lips shall learn the tongue
+   </p>
+                  <p id="p654">Of love which whilom Petrarch sung.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p655">[Note 20: The strong influence exercised by Byron’s genius on the imagination of Pushkin is well known. Shakespeare and other English dramatists had also their share in influencing his mind, which, at all events in its earlier developments, was of an essentially imitative type. As an example of his Shakespearian tastes, see his poem of “Angelo,” founded upon “Measure for Measure.”]</p>
+         <div class="poem poem-normal" id="poem-normal20">
+            <h4 id="h416">XLIV
+   </h4>
+            <div class="poem poem-body" id="poem-body20">
+               <div class="poem stanza" id="stanza49">
+                  <p id="p656">When will my hour of freedom come!
+   </p>
+                  <p id="p657">Time, I invoke thee! favouring gales
+   </p>
+                  <p id="p658">Awaiting on the shore I roam
+   </p>
+                  <p id="p659">And beckon to the passing sails.
+   </p>
+                  <p id="p660">Upon the highway of the sea
+   </p>
+                  <p id="p661">When shall I wing my passage free
+   </p>
+                  <p id="p662">On waves by tempests curdled o’er!
+   </p>
+                  <p id="p663">’Tis time to quit this weary shore
+   </p>
+                  <p id="p664">So uncongenial to my mind,
+   </p>
+                  <p id="p665">To dream upon the sunny strand
+   </p>
+                  <p id="p666">Of Africa, ancestral land,(21)
+   </p>
+                  <p id="p667">Of dreary Russia left behind,
+   </p>
+                  <p id="p668">Wherein I felt love’s fatal dart,
+   </p>
+                  <p id="p669">Wherein I buried left my heart.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p670">[Note 21: The poet was, on his mother’s side, of African extraction, a circumstance which perhaps accounts for the southern fervour of his imagination. His great-grandfather, Abraham Petròvitch Hannibal, was seized on the coast of Africa when eight years of age by a corsair, and carried a slave to Constantinople. The Russian Ambassador bought and presented him to Peter the Great who caused him to be baptized at Vilnius. Subsequently one of Hannibal’s brothers made his way to Constantinople and thence to St. Petersburg for the purpose of ransoming him; but Peter would not surrender his godson who died at the age of ninety-two, having attained the rank of general in the Russian service.]</p>
+         <div class="poem poem-normal" id="poem-normal21">
+            <h4 id="h417">XLV
+   </h4>
+            <div class="poem poem-body" id="poem-body21">
+               <div class="poem stanza" id="stanza50">
+                  <p id="p671">Eugene designed with me to start
+   </p>
+                  <p id="p672">And visit many a foreign clime,
+   </p>
+                  <p id="p673">But Fortune cast our lots apart
+   </p>
+                  <p id="p674">For a protracted space of time.
+   </p>
+                  <p id="p675">Just at that time his father died,
+   </p>
+                  <p id="p676">And soon Onéguine’s door beside
+   </p>
+                  <p id="p677">Of creditors a hungry rout
+   </p>
+                  <p id="p678">Their claims and explanations shout.
+   </p>
+                  <p id="p679">But Eugene, hating litigation
+   </p>
+                  <p id="p680">And with his lot in life content,
+   </p>
+                  <p id="p681">To a surrender gave consent,
+   </p>
+                  <p id="p682">Seeing in this no deprivation,
+   </p>
+                  <p id="p683">Or counting on his uncle’s death
+   </p>
+                  <p id="p684">And what the old man might bequeath.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza51">
+                  <p id="p685">And in reality one day
+   </p>
+                  <p id="p686">The steward sent a note to tell
+   </p>
+                  <p id="p687">How sick to death his uncle lay
+   </p>
+                  <p id="p688">And wished to say to him farewell.
+   </p>
+                  <p id="p689">Having this mournful document
+   </p>
+                  <p id="p690">Perused, Eugene in postchaise went
+   </p>
+                  <p id="p691">And hastened to his uncle’s side,
+   </p>
+                  <p id="p692">But in his heart dissatisfied,
+   </p>
+                  <p id="p693">Having for money’s sake alone
+   </p>
+                  <p id="p694">Sorrow to counterfeit and wail—
+   </p>
+                  <p id="p695">Thus we began our little tale—
+   </p>
+                  <p id="p696">But, to his uncle’s mansion flown,
+   </p>
+                  <p id="p697">He found him on the table laid,
+   </p>
+                  <p id="p698">A due which must to earth be paid.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza52">
+                  <p id="p699">The courtyard full of serfs he sees,
+   </p>
+                  <p id="p700">And from the country all around
+   </p>
+                  <p id="p701">Had come both friends and enemies—
+   </p>
+                  <p id="p702">Funeral amateurs abound!
+   </p>
+                  <p id="p703">The body they consigned to rest,
+   </p>
+                  <p id="p704">And then made merry pope and guest,
+   </p>
+                  <p id="p705">With serious air then went away
+   </p>
+                  <p id="p706">As men who much had done that day.
+   </p>
+                  <p id="p707">Lo! my Onéguine rural lord!
+   </p>
+                  <p id="p708">Of mines and meadows, woods and lakes,
+   </p>
+                  <p id="p709">He now a full possession takes,
+   </p>
+                  <p id="p710">He who economy abhorred,
+   </p>
+                  <p id="p711">Delighted much his former ways
+   </p>
+                  <p id="p712">To vary for a few brief days.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza53">
+                  <p id="p713">For two whole days it seemed a change
+   </p>
+                  <p id="p714">To wander through the meadows still,
+   </p>
+                  <p id="p715">The cool dark oaken grove to range,
+   </p>
+                  <p id="p716">To listen to the rippling rill.
+   </p>
+                  <p id="p717">But on the third of grove and mead
+   </p>
+                  <p id="p718">He took no more the slightest heed;
+   </p>
+                  <p id="p719">They made him feel inclined to doze;
+   </p>
+                  <p id="p720">And the conviction soon arose,
+   </p>
+                  <p id="p721">Ennui can in the country dwell
+   </p>
+                  <p id="p722">Though without palaces and streets,
+   </p>
+                  <p id="p723">Cards, balls, routs, poetry or fêtes;
+   </p>
+                  <p id="p724">On him spleen mounted sentinel
+   </p>
+                  <p id="p725">And like his shadow dogged his life,
+   </p>
+                  <p id="p726">Or better,—like a faithful wife.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza54">
+                  <p id="p727">I was for calm existence made,
+   </p>
+                  <p id="p728">For rural solitude and dreams,
+   </p>
+                  <p id="p729">My lyre sings sweeter in the shade
+   </p>
+                  <p id="p730">And more imagination teems.
+   </p>
+                  <p id="p731">On innocent delights I dote,
+   </p>
+                  <p id="p732">Upon my lake I love to float,
+   </p>
+                  <p id="p733">For law I <i>far niente</i> take
+   </p>
+                  <p id="p734">And every morning I awake
+   </p>
+                  <p id="p735">The child of sloth and liberty.
+   </p>
+                  <p id="p736">I slumber much, a little read,
+   </p>
+                  <p id="p737">Of fleeting glory take no heed.
+   </p>
+                  <p id="p738">In former years thus did not I
+   </p>
+                  <p id="p739">In idleness and tranquil joy
+   </p>
+                  <p id="p740">The happiest days of life employ?
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza55">
+                  <p id="p741">Love, flowers, the country, idleness
+   </p>
+                  <p id="p742">And fields my joys have ever been;
+   </p>
+                  <p id="p743">I like the difference to express
+   </p>
+                  <p id="p744">Between myself and my Eugene,
+   </p>
+                  <p id="p745">Lest the malicious reader or
+   </p>
+                  <p id="p746">Some one or other editor
+   </p>
+                  <p id="p747">Of keen sarcastic intellect
+   </p>
+                  <p id="p748">Herein my portrait should detect,
+   </p>
+                  <p id="p749">And impiously should declare,
+   </p>
+                  <p id="p750">To sketch myself that I have tried
+   </p>
+                  <p id="p751">Like Byron, bard of scorn and pride,
+   </p>
+                  <p id="p752">As if impossible it were
+   </p>
+                  <p id="p753">To write of any other elf
+   </p>
+                  <p id="p754">Than one’s own fascinating self.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza56">
+                  <p id="p755">Here I remark all poets are
+   </p>
+                  <p id="p756">Love to idealize inclined;
+   </p>
+                  <p id="p757">I have dreamed many a vision fair
+   </p>
+                  <p id="p758">And the recesses of my mind
+   </p>
+                  <p id="p759">Retained the image, though short-lived,
+   </p>
+                  <p id="p760">Which afterwards the muse revived.
+   </p>
+                  <p id="p761">Thus carelessly I once portrayed
+   </p>
+                  <p id="p762">Mine own ideal, the mountain maid,
+   </p>
+                  <p id="p763">The captives of the Salguir’s shore.(22)
+   </p>
+                  <p id="p764">But now a question in this wise
+   </p>
+                  <p id="p765">Oft upon friendly lips doth rise:
+   </p>
+                  <p id="p766">Whom doth thy plaintive Muse adore?
+   </p>
+                  <p id="p767">To whom amongst the jealous throng
+   </p>
+                  <p id="p768">Of maids dost thou inscribe thy song?
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="firstpara" id="p769">[Note 22: Refers to two of the most interesting productions of the poet. The former line indicates the <i>Prisoner of the Caucasus</i>, the latter, <i>The Fountain of Baktchiserai</i>. The Salguir is a river of the Crimea.]</p>
+         <div class="poem poem-normal" id="poem-normal22">
+            <h4 id="h418">LII
+   </h4>
+            <div class="poem poem-body" id="poem-body22">
+               <div class="poem stanza" id="stanza57">
+                  <p id="p770">Whose glance reflecting inspiration
+   </p>
+                  <p id="p771">With tenderness hath recognized
+   </p>
+                  <p id="p772">Thy meditative incantation—
+   </p>
+                  <p id="p773">Whom hath thy strain immortalized?
+   </p>
+                  <p id="p774">None, be my witness Heaven above!
+   </p>
+                  <p id="p775">The malady of hopeless love
+   </p>
+                  <p id="p776">I have endured without respite.
+   </p>
+                  <p id="p777">Happy who thereto can unite
+   </p>
+                  <p id="p778">Poetic transport. They impart
+   </p>
+                  <p id="p779">A double force unto their song
+   </p>
+                  <p id="p780">Who following Petrarch move along
+   </p>
+                  <p id="p781">And ease the tortures of the heart—
+   </p>
+                  <p id="p782">Perchance they laurels also cull—
+   </p>
+                  <p id="p783">But I, in love, was mute and dull.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza58">
+                  <p id="p784">The Muse appeared, when love passed by
+   </p>
+                  <p id="p785">And my dark soul to light was brought;
+   </p>
+                  <p id="p786">Free, I renewed the idolatry
+   </p>
+                  <p id="p787">Of harmony enshrining thought.
+   </p>
+                  <p id="p788">I write, and anguish flies away,
+   </p>
+                  <p id="p789">Nor doth my absent pen portray
+   </p>
+                  <p id="p790">Around my stanzas incomplete
+   </p>
+                  <p id="p791">Young ladies’ faces and their feet.
+   </p>
+                  <p id="p792">Extinguished ashes do not blaze—
+   </p>
+                  <p id="p793">I mourn, but tears I cannot shed—
+   </p>
+                  <p id="p794">Soon, of the tempest which hath fled
+   </p>
+                  <p id="p795">Time will the ravages efface—
+   </p>
+                  <p id="p796">When that time comes, a poem I’ll strive
+   </p>
+                  <p id="p797">To write in cantos twenty-five.
+   </p>
+               </div>
+               <div class="poem stanza" id="stanza59">
+                  <p id="p798">I’ve thought well o’er the general plan,
+   </p>
+                  <p id="p799">The hero’s name too in advance,
+   </p>
+                  <p id="p800">Meantime I’ll finish whilst I can
+   </p>
+                  <p id="p801">Canto the First of this romance.
+   </p>
+                  <p id="p802">I’ve scanned it with a jealous eye,
+   </p>
+                  <p id="p803">Discovered much absurdity,
+   </p>
+                  <p id="p804">But will not modify a tittle—
+   </p>
+                  <p id="p805">I owe the censorship a little.
+   </p>
+                  <p id="p806">For journalistic deglutition
+   </p>
+                  <p id="p807">I yield the fruit of work severe.
+   </p>
+                  <p id="p808">Go, on the Neva’s bank appear,
+   </p>
+                  <p id="p809">My very latest composition!
+   </p>
+                  <p id="p810">Enjoy the meed which Fame bestows—
+   </p>
+                  <p id="p811">Misunderstanding, words and blows.
+   </p>
+               </div>
+            </div>
+         </div>
+         <p class="align-center" id="align-center2">END OF CANTO THE FIRST
+   </p>
+      </div>
+   </div>
+</body>
+
+</html>
+2023-03-17 01:00:44 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-17 01:00:45 INFO  - Step 14 - I restart app
+2023-03-17 01:01:09 INFO  - Step 15 - I open Books
+2023-03-17 01:01:09 INFO  - Button 'tabBooks' :: Clicking
+2023-03-17 01:01:10 INFO  - Step 16 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-17 01:01:10 INFO  - Label 'lblBookName' :: Clicking
+2023-03-17 01:01:11 INFO  - Step 17 - Click READ action button on book details screen
+2023-03-17 01:01:11 INFO  - Button 'Read' :: Clicking
+2023-03-17 01:01:12 INFO  - Step 18 - The BLACK_TEXT_ON_WHITE background is correct
+2023-03-17 01:01:12 INFO  - context - NATIVE_APP
+2023-03-17 01:01:15 INFO  - context - NATIVE_APP
+2023-03-17 01:01:15 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-17 01:01:17 INFO  - Taking screenshot
+2023-03-17 01:01:18 INFO  - Test finished - logging out
+2023-03-17 01:01:19 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 01:01:22 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 01:01:23 INFO  - Button 'Accounts' :: Clicking
+2023-03-17 01:01:24 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-17 01:01:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-17 01:01:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-17 01:01:26 INFO  - Button 'Log out' :: Clicking
+2023-03-17 01:01:26 INFO  - Button 'Log in' :: Getting text from element
+2023-03-17 01:01:29 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-17 01:01:30 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-17 01:01:30 INFO  - Unlocking credential for current thread
+2023-03-17 01:01:30 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4cf78cfd

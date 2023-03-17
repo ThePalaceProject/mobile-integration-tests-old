@@ -1,0 +1,537 @@
+2023-03-17 00:30:22 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-03-17 00:30:22 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-17 00:31:11 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-17 00:31:11 INFO  - Session id - 618ec6f0667ce09a10f3960f7675ebaeb372c7c9
+2023-03-17 00:31:11 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-17 00:31:11 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-17 00:31:14 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-17 00:31:14 INFO  - Button 'Search' :: Clicking
+2023-03-17 00:31:16 INFO  - Text Field 'Search' :: Clearing
+2023-03-17 00:31:16 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-17 00:31:18 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-17 00:31:19 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-17 00:31:19 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:31:20 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:31:21 INFO  - Button 'Accounts' :: Clicking
+2023-03-17 00:31:23 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-17 00:31:23 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:31:24 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:31:24 INFO  - Button 'Accounts' :: Clicking
+2023-03-17 00:31:25 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-17 00:31:27 INFO  - Locking credential with barcode 01230000000304
+2023-03-17 00:31:27 INFO  - There are books on the account: 
+2023-03-17 00:31:28 INFO  - There is not books on the account.
+2023-03-17 00:31:28 INFO  - Count of books on the account after opening account: 0
+2023-03-17 00:31:28 INFO  - Text Field 'Card' :: Clearing
+2023-03-17 00:31:28 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-03-17 00:31:29 INFO  - Text Field 'Pin' :: Clearing
+2023-03-17 00:31:29 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-17 00:31:31 INFO  - Button 'Log in' :: Clicking
+2023-03-17 00:31:36 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-17 00:31:37 INFO  - Step 3 - Login is performed successfully
+2023-03-17 00:31:58 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-17 00:31:59 INFO  - Step 4 - I open Catalog
+2023-03-17 00:31:59 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-17 00:32:22 INFO  - Step 5 - I open search modal
+2023-03-17 00:32:42 INFO  - Button 'Search' :: Clicking
+2023-03-17 00:32:44 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-17 00:32:44 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-17 00:32:44 INFO  - randomBookName: The Secret Next Door
+2023-03-17 00:32:44 INFO  - Error details button is not present
+2023-03-17 00:32:44 INFO  - Text Field 'Search value input' :: Sending keys 'The Secret Next Door'
+2023-03-17 00:32:46 INFO  - Error details button is not present
+2023-03-17 00:32:50 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-17 00:32:50 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-17 00:32:51 INFO  - Button 'actionButton' :: Clicking
+2023-03-17 00:32:58 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-17 00:33:00 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-17 00:33:00 INFO  - Label 'lblBookName' :: Clicking
+2023-03-17 00:33:01 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-17 00:33:02 INFO  - Button 'Read' :: Clicking
+2023-03-17 00:33:02 INFO  - Step 10 - I scroll page forward from 7 to 9 times
+2023-03-17 00:33:02 INFO  - Scrolling 7 times on reader epub screen
+2023-03-17 00:33:19 INFO  - Step 11 - I save font size as 'fontSize'
+2023-03-17 00:33:20 INFO  - context - NATIVE_APP
+2023-03-17 00:33:20 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-17 00:33:22 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-17 00:33:22 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>SecretNextDoor-4</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:2d1de702-f41f-4168-9ebe-1792dd209203" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="SecretNextDoor-4" lang="en-US" xml:lang="en-US">
+		<div class="Basic-Text-Frame">
+			<h1 class="cn" id="_idParaDest-4"><a id="_idTextAnchor003"></a>Contents</h1>
+			<p class="toc"><a href="SecretNextDoor.xhtml#_idTextAnchor000">Front Cover</a></p>
+			<p class="toc"><a href="SecretNextDoor-2.xhtml#_idTextAnchor001">Title Page</a></p>
+			<p class="toc"><a href="SecretNextDoor-3.xhtml#_idTextAnchor002">Copyright</a></p>
+			<p class="toc"><a href="SecretNextDoor-6.xhtml#_idTextAnchor004">Chapter One</a></p>
+			<p class="toc"><a href="SecretNextDoor-7.xhtml#_idTextAnchor005">Chapter Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-8.xhtml#_idTextAnchor006">Chapter Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-9.xhtml#_idTextAnchor007">Chapter Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-10.xhtml#_idTextAnchor008">Chapter Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-11.xhtml#_idTextAnchor009">Chapter Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-12.xhtml#_idTextAnchor010">Chapter Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-13.xhtml#_idTextAnchor011">Chapter Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-14.xhtml#_idTextAnchor012">Chapter Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-15.xhtml#_idTextAnchor013">Chapter Ten</a></p>
+			<p class="toc"><a href="SecretNextDoor-16.xhtml#_idTextAnchor014">Chapter Eleven</a></p>
+			<p class="toc"><a href="SecretNextDoor-17.xhtml#_idTextAnchor015">Chapter Twelve</a></p>
+			<p class="toc"><a href="SecretNextDoor-18.xhtml#_idTextAnchor016">Chapter Thirteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-19.xhtml#_idTextAnchor017">Chapter Fourteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-20.xhtml#_idTextAnchor018">Chapter Fifteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-21.xhtml#_idTextAnchor019">Chapter Sixteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-22.xhtml#_idTextAnchor020">Chapter Seventeen</a></p>
+			<p class="toc"><a href="SecretNextDoor-23.xhtml#_idTextAnchor021">Chapter Eighteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-24.xhtml#_idTextAnchor022">Chapter Nineteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-25.xhtml#_idTextAnchor023">Chapter Twenty</a></p>
+			<p class="toc"><a href="SecretNextDoor-26.xhtml#_idTextAnchor024">Chapter Twenty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-27.xhtml#_idTextAnchor025">Chapter Twenty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-28.xhtml#_idTextAnchor026">Chapter Twenty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-29.xhtml#_idTextAnchor027">Chapter Twenty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-30.xhtml#_idTextAnchor028">Chapter Twenty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-31.xhtml#_idTextAnchor029">Chapter Twenty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-32.xhtml#_idTextAnchor030">Chapter Twenty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-33.xhtml#_idTextAnchor031">Chapter Twenty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-34.xhtml#_idTextAnchor032">Chapter Twenty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-35.xhtml#_idTextAnchor033">Chapter Thirty</a></p>
+			<p class="toc"><a href="SecretNextDoor-36.xhtml#_idTextAnchor034">Chapter Thirty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-37.xhtml#_idTextAnchor035">Chapter Thirty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-38.xhtml#_idTextAnchor036">Chapter Thirty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-39.xhtml#_idTextAnchor037">Chapter Thirty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-40.xhtml#_idTextAnchor038">Chapter Thirty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-41.xhtml#_idTextAnchor039">Chapter Thirty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-42.xhtml#_idTextAnchor040">Chapter Thirty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-43.xhtml#_idTextAnchor041">Chapter Thirty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-44.xhtml#_idTextAnchor042">Chapter Thirty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-45.xhtml#_idTextAnchor043">Chapter Forty</a></p>
+			<p class="toc"><a href="SecretNextDoor-46.xhtml#_idTextAnchor044">Chapter Forty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-47.xhtml#_idTextAnchor045">An excerpt from <span class="i">Her Perfect Life</span></a></p>
+			<p class="toc"><a href="SecretNextDoor-48.xhtml#_idTextAnchor046">Reading Group Guide</a></p>
+			<p class="toc"><a href="SecretNextDoor-49.xhtml#_idTextAnchor047">A Conversation with the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-50.xhtml#_idTextAnchor048">Acknowledgments</a></p>
+			<p class="toc"><a href="SecretNextDoor-51.xhtml#_idTextAnchor049">About the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-53.xhtml#_idTextAnchor050">Back Cover</a></p>
+		</div>
+	</body>
+</html>
+2023-03-17 00:33:22 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-17 00:33:22 INFO  - Step 12 - I open font settings
+2023-03-17 00:33:23 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-17 00:33:23 INFO  - Step 13 - I INCREASE_FONT of text
+2023-03-17 00:33:23 INFO  - Button 'setTextLarger' :: Clicking
+2023-03-17 00:33:24 INFO  - Step 14 - Font size 'fontSize' is increased
+2023-03-17 00:33:25 INFO  - context - NATIVE_APP
+2023-03-17 00:33:25 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-17 00:33:26 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-17 00:33:26 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>SecretNextDoor-4</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:2d1de702-f41f-4168-9ebe-1792dd209203" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="SecretNextDoor-4" lang="en-US" xml:lang="en-US">
+		<div class="Basic-Text-Frame">
+			<h1 class="cn" id="_idParaDest-4"><a id="_idTextAnchor003"></a>Contents</h1>
+			<p class="toc"><a href="SecretNextDoor.xhtml#_idTextAnchor000">Front Cover</a></p>
+			<p class="toc"><a href="SecretNextDoor-2.xhtml#_idTextAnchor001">Title Page</a></p>
+			<p class="toc"><a href="SecretNextDoor-3.xhtml#_idTextAnchor002">Copyright</a></p>
+			<p class="toc"><a href="SecretNextDoor-6.xhtml#_idTextAnchor004">Chapter One</a></p>
+			<p class="toc"><a href="SecretNextDoor-7.xhtml#_idTextAnchor005">Chapter Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-8.xhtml#_idTextAnchor006">Chapter Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-9.xhtml#_idTextAnchor007">Chapter Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-10.xhtml#_idTextAnchor008">Chapter Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-11.xhtml#_idTextAnchor009">Chapter Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-12.xhtml#_idTextAnchor010">Chapter Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-13.xhtml#_idTextAnchor011">Chapter Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-14.xhtml#_idTextAnchor012">Chapter Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-15.xhtml#_idTextAnchor013">Chapter Ten</a></p>
+			<p class="toc"><a href="SecretNextDoor-16.xhtml#_idTextAnchor014">Chapter Eleven</a></p>
+			<p class="toc"><a href="SecretNextDoor-17.xhtml#_idTextAnchor015">Chapter Twelve</a></p>
+			<p class="toc"><a href="SecretNextDoor-18.xhtml#_idTextAnchor016">Chapter Thirteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-19.xhtml#_idTextAnchor017">Chapter Fourteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-20.xhtml#_idTextAnchor018">Chapter Fifteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-21.xhtml#_idTextAnchor019">Chapter Sixteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-22.xhtml#_idTextAnchor020">Chapter Seventeen</a></p>
+			<p class="toc"><a href="SecretNextDoor-23.xhtml#_idTextAnchor021">Chapter Eighteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-24.xhtml#_idTextAnchor022">Chapter Nineteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-25.xhtml#_idTextAnchor023">Chapter Twenty</a></p>
+			<p class="toc"><a href="SecretNextDoor-26.xhtml#_idTextAnchor024">Chapter Twenty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-27.xhtml#_idTextAnchor025">Chapter Twenty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-28.xhtml#_idTextAnchor026">Chapter Twenty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-29.xhtml#_idTextAnchor027">Chapter Twenty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-30.xhtml#_idTextAnchor028">Chapter Twenty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-31.xhtml#_idTextAnchor029">Chapter Twenty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-32.xhtml#_idTextAnchor030">Chapter Twenty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-33.xhtml#_idTextAnchor031">Chapter Twenty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-34.xhtml#_idTextAnchor032">Chapter Twenty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-35.xhtml#_idTextAnchor033">Chapter Thirty</a></p>
+			<p class="toc"><a href="SecretNextDoor-36.xhtml#_idTextAnchor034">Chapter Thirty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-37.xhtml#_idTextAnchor035">Chapter Thirty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-38.xhtml#_idTextAnchor036">Chapter Thirty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-39.xhtml#_idTextAnchor037">Chapter Thirty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-40.xhtml#_idTextAnchor038">Chapter Thirty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-41.xhtml#_idTextAnchor039">Chapter Thirty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-42.xhtml#_idTextAnchor040">Chapter Thirty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-43.xhtml#_idTextAnchor041">Chapter Thirty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-44.xhtml#_idTextAnchor042">Chapter Thirty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-45.xhtml#_idTextAnchor043">Chapter Forty</a></p>
+			<p class="toc"><a href="SecretNextDoor-46.xhtml#_idTextAnchor044">Chapter Forty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-47.xhtml#_idTextAnchor045">An excerpt from <span class="i">Her Perfect Life</span></a></p>
+			<p class="toc"><a href="SecretNextDoor-48.xhtml#_idTextAnchor046">Reading Group Guide</a></p>
+			<p class="toc"><a href="SecretNextDoor-49.xhtml#_idTextAnchor047">A Conversation with the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-50.xhtml#_idTextAnchor048">Acknowledgments</a></p>
+			<p class="toc"><a href="SecretNextDoor-51.xhtml#_idTextAnchor049">About the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-53.xhtml#_idTextAnchor050">Back Cover</a></p>
+		</div>
+	</body>
+</html>
+2023-03-17 00:33:26 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-17 00:33:27 INFO  - Step 15 - I restart app
+2023-03-17 00:33:51 INFO  - Step 16 - I open Books
+2023-03-17 00:33:51 INFO  - Button 'tabBooks' :: Clicking
+2023-03-17 00:33:52 INFO  - Step 17 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-17 00:33:53 INFO  - Label 'lblBookName' :: Clicking
+2023-03-17 00:33:54 INFO  - Step 18 - Click READ action button on book details screen
+2023-03-17 00:33:55 INFO  - Button 'Read' :: Clicking
+2023-03-17 00:33:55 INFO  - Step 19 - Font size 'fontSize' is increased
+2023-03-17 00:33:56 INFO  - context - NATIVE_APP
+2023-03-17 00:33:57 INFO  - context - NATIVE_APP
+2023-03-17 00:33:58 INFO  - context - NATIVE_APP
+2023-03-17 00:33:58 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-17 00:33:59 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-17 00:33:59 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>SecretNextDoor-4</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:2d1de702-f41f-4168-9ebe-1792dd209203" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="SecretNextDoor-4" lang="en-US" xml:lang="en-US">
+		<div class="Basic-Text-Frame">
+			<h1 class="cn" id="_idParaDest-4"><a id="_idTextAnchor003"></a>Contents</h1>
+			<p class="toc"><a href="SecretNextDoor.xhtml#_idTextAnchor000">Front Cover</a></p>
+			<p class="toc"><a href="SecretNextDoor-2.xhtml#_idTextAnchor001">Title Page</a></p>
+			<p class="toc"><a href="SecretNextDoor-3.xhtml#_idTextAnchor002">Copyright</a></p>
+			<p class="toc"><a href="SecretNextDoor-6.xhtml#_idTextAnchor004">Chapter One</a></p>
+			<p class="toc"><a href="SecretNextDoor-7.xhtml#_idTextAnchor005">Chapter Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-8.xhtml#_idTextAnchor006">Chapter Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-9.xhtml#_idTextAnchor007">Chapter Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-10.xhtml#_idTextAnchor008">Chapter Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-11.xhtml#_idTextAnchor009">Chapter Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-12.xhtml#_idTextAnchor010">Chapter Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-13.xhtml#_idTextAnchor011">Chapter Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-14.xhtml#_idTextAnchor012">Chapter Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-15.xhtml#_idTextAnchor013">Chapter Ten</a></p>
+			<p class="toc"><a href="SecretNextDoor-16.xhtml#_idTextAnchor014">Chapter Eleven</a></p>
+			<p class="toc"><a href="SecretNextDoor-17.xhtml#_idTextAnchor015">Chapter Twelve</a></p>
+			<p class="toc"><a href="SecretNextDoor-18.xhtml#_idTextAnchor016">Chapter Thirteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-19.xhtml#_idTextAnchor017">Chapter Fourteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-20.xhtml#_idTextAnchor018">Chapter Fifteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-21.xhtml#_idTextAnchor019">Chapter Sixteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-22.xhtml#_idTextAnchor020">Chapter Seventeen</a></p>
+			<p class="toc"><a href="SecretNextDoor-23.xhtml#_idTextAnchor021">Chapter Eighteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-24.xhtml#_idTextAnchor022">Chapter Nineteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-25.xhtml#_idTextAnchor023">Chapter Twenty</a></p>
+			<p class="toc"><a href="SecretNextDoor-26.xhtml#_idTextAnchor024">Chapter Twenty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-27.xhtml#_idTextAnchor025">Chapter Twenty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-28.xhtml#_idTextAnchor026">Chapter Twenty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-29.xhtml#_idTextAnchor027">Chapter Twenty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-30.xhtml#_idTextAnchor028">Chapter Twenty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-31.xhtml#_idTextAnchor029">Chapter Twenty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-32.xhtml#_idTextAnchor030">Chapter Twenty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-33.xhtml#_idTextAnchor031">Chapter Twenty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-34.xhtml#_idTextAnchor032">Chapter Twenty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-35.xhtml#_idTextAnchor033">Chapter Thirty</a></p>
+			<p class="toc"><a href="SecretNextDoor-36.xhtml#_idTextAnchor034">Chapter Thirty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-37.xhtml#_idTextAnchor035">Chapter Thirty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-38.xhtml#_idTextAnchor036">Chapter Thirty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-39.xhtml#_idTextAnchor037">Chapter Thirty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-40.xhtml#_idTextAnchor038">Chapter Thirty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-41.xhtml#_idTextAnchor039">Chapter Thirty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-42.xhtml#_idTextAnchor040">Chapter Thirty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-43.xhtml#_idTextAnchor041">Chapter Thirty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-44.xhtml#_idTextAnchor042">Chapter Thirty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-45.xhtml#_idTextAnchor043">Chapter Forty</a></p>
+			<p class="toc"><a href="SecretNextDoor-46.xhtml#_idTextAnchor044">Chapter Forty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-47.xhtml#_idTextAnchor045">An excerpt from <span class="i">Her Perfect Life</span></a></p>
+			<p class="toc"><a href="SecretNextDoor-48.xhtml#_idTextAnchor046">Reading Group Guide</a></p>
+			<p class="toc"><a href="SecretNextDoor-49.xhtml#_idTextAnchor047">A Conversation with the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-50.xhtml#_idTextAnchor048">Acknowledgments</a></p>
+			<p class="toc"><a href="SecretNextDoor-51.xhtml#_idTextAnchor049">About the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-53.xhtml#_idTextAnchor050">Back Cover</a></p>
+		</div>
+	</body>
+</html>
+2023-03-17 00:33:59 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-17 00:34:00 INFO  - Step 20 - I return to previous screen from epub
+2023-03-17 00:34:01 INFO  - Button 'btnBack' :: Clicking
+2023-03-17 00:34:01 INFO  - Step 21 - Click READ action button on book details screen
+2023-03-17 00:34:03 INFO  - Button 'Read' :: Clicking
+2023-03-17 00:34:04 INFO  - Step 22 - Font size 'fontSize' is increased
+2023-03-17 00:34:04 INFO  - context - NATIVE_APP
+2023-03-17 00:34:04 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-17 00:34:06 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-17 00:34:06 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>SecretNextDoor-4</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:2d1de702-f41f-4168-9ebe-1792dd209203" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="SecretNextDoor-4" lang="en-US" xml:lang="en-US">
+		<div class="Basic-Text-Frame">
+			<h1 class="cn" id="_idParaDest-4"><a id="_idTextAnchor003"></a>Contents</h1>
+			<p class="toc"><a href="SecretNextDoor.xhtml#_idTextAnchor000">Front Cover</a></p>
+			<p class="toc"><a href="SecretNextDoor-2.xhtml#_idTextAnchor001">Title Page</a></p>
+			<p class="toc"><a href="SecretNextDoor-3.xhtml#_idTextAnchor002">Copyright</a></p>
+			<p class="toc"><a href="SecretNextDoor-6.xhtml#_idTextAnchor004">Chapter One</a></p>
+			<p class="toc"><a href="SecretNextDoor-7.xhtml#_idTextAnchor005">Chapter Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-8.xhtml#_idTextAnchor006">Chapter Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-9.xhtml#_idTextAnchor007">Chapter Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-10.xhtml#_idTextAnchor008">Chapter Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-11.xhtml#_idTextAnchor009">Chapter Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-12.xhtml#_idTextAnchor010">Chapter Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-13.xhtml#_idTextAnchor011">Chapter Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-14.xhtml#_idTextAnchor012">Chapter Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-15.xhtml#_idTextAnchor013">Chapter Ten</a></p>
+			<p class="toc"><a href="SecretNextDoor-16.xhtml#_idTextAnchor014">Chapter Eleven</a></p>
+			<p class="toc"><a href="SecretNextDoor-17.xhtml#_idTextAnchor015">Chapter Twelve</a></p>
+			<p class="toc"><a href="SecretNextDoor-18.xhtml#_idTextAnchor016">Chapter Thirteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-19.xhtml#_idTextAnchor017">Chapter Fourteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-20.xhtml#_idTextAnchor018">Chapter Fifteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-21.xhtml#_idTextAnchor019">Chapter Sixteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-22.xhtml#_idTextAnchor020">Chapter Seventeen</a></p>
+			<p class="toc"><a href="SecretNextDoor-23.xhtml#_idTextAnchor021">Chapter Eighteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-24.xhtml#_idTextAnchor022">Chapter Nineteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-25.xhtml#_idTextAnchor023">Chapter Twenty</a></p>
+			<p class="toc"><a href="SecretNextDoor-26.xhtml#_idTextAnchor024">Chapter Twenty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-27.xhtml#_idTextAnchor025">Chapter Twenty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-28.xhtml#_idTextAnchor026">Chapter Twenty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-29.xhtml#_idTextAnchor027">Chapter Twenty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-30.xhtml#_idTextAnchor028">Chapter Twenty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-31.xhtml#_idTextAnchor029">Chapter Twenty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-32.xhtml#_idTextAnchor030">Chapter Twenty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-33.xhtml#_idTextAnchor031">Chapter Twenty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-34.xhtml#_idTextAnchor032">Chapter Twenty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-35.xhtml#_idTextAnchor033">Chapter Thirty</a></p>
+			<p class="toc"><a href="SecretNextDoor-36.xhtml#_idTextAnchor034">Chapter Thirty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-37.xhtml#_idTextAnchor035">Chapter Thirty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-38.xhtml#_idTextAnchor036">Chapter Thirty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-39.xhtml#_idTextAnchor037">Chapter Thirty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-40.xhtml#_idTextAnchor038">Chapter Thirty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-41.xhtml#_idTextAnchor039">Chapter Thirty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-42.xhtml#_idTextAnchor040">Chapter Thirty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-43.xhtml#_idTextAnchor041">Chapter Thirty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-44.xhtml#_idTextAnchor042">Chapter Thirty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-45.xhtml#_idTextAnchor043">Chapter Forty</a></p>
+			<p class="toc"><a href="SecretNextDoor-46.xhtml#_idTextAnchor044">Chapter Forty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-47.xhtml#_idTextAnchor045">An excerpt from <span class="i">Her Perfect Life</span></a></p>
+			<p class="toc"><a href="SecretNextDoor-48.xhtml#_idTextAnchor046">Reading Group Guide</a></p>
+			<p class="toc"><a href="SecretNextDoor-49.xhtml#_idTextAnchor047">A Conversation with the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-50.xhtml#_idTextAnchor048">Acknowledgments</a></p>
+			<p class="toc"><a href="SecretNextDoor-51.xhtml#_idTextAnchor049">About the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-53.xhtml#_idTextAnchor050">Back Cover</a></p>
+		</div>
+	</body>
+</html>
+2023-03-17 00:34:06 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-17 00:34:06 INFO  - Step 23 - I save font size as 'fontSize'
+2023-03-17 00:34:07 INFO  - context - NATIVE_APP
+2023-03-17 00:34:07 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-17 00:34:08 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-17 00:34:08 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>SecretNextDoor-4</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:2d1de702-f41f-4168-9ebe-1792dd209203" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="SecretNextDoor-4" lang="en-US" xml:lang="en-US">
+		<div class="Basic-Text-Frame">
+			<h1 class="cn" id="_idParaDest-4"><a id="_idTextAnchor003"></a>Contents</h1>
+			<p class="toc"><a href="SecretNextDoor.xhtml#_idTextAnchor000">Front Cover</a></p>
+			<p class="toc"><a href="SecretNextDoor-2.xhtml#_idTextAnchor001">Title Page</a></p>
+			<p class="toc"><a href="SecretNextDoor-3.xhtml#_idTextAnchor002">Copyright</a></p>
+			<p class="toc"><a href="SecretNextDoor-6.xhtml#_idTextAnchor004">Chapter One</a></p>
+			<p class="toc"><a href="SecretNextDoor-7.xhtml#_idTextAnchor005">Chapter Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-8.xhtml#_idTextAnchor006">Chapter Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-9.xhtml#_idTextAnchor007">Chapter Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-10.xhtml#_idTextAnchor008">Chapter Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-11.xhtml#_idTextAnchor009">Chapter Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-12.xhtml#_idTextAnchor010">Chapter Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-13.xhtml#_idTextAnchor011">Chapter Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-14.xhtml#_idTextAnchor012">Chapter Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-15.xhtml#_idTextAnchor013">Chapter Ten</a></p>
+			<p class="toc"><a href="SecretNextDoor-16.xhtml#_idTextAnchor014">Chapter Eleven</a></p>
+			<p class="toc"><a href="SecretNextDoor-17.xhtml#_idTextAnchor015">Chapter Twelve</a></p>
+			<p class="toc"><a href="SecretNextDoor-18.xhtml#_idTextAnchor016">Chapter Thirteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-19.xhtml#_idTextAnchor017">Chapter Fourteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-20.xhtml#_idTextAnchor018">Chapter Fifteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-21.xhtml#_idTextAnchor019">Chapter Sixteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-22.xhtml#_idTextAnchor020">Chapter Seventeen</a></p>
+			<p class="toc"><a href="SecretNextDoor-23.xhtml#_idTextAnchor021">Chapter Eighteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-24.xhtml#_idTextAnchor022">Chapter Nineteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-25.xhtml#_idTextAnchor023">Chapter Twenty</a></p>
+			<p class="toc"><a href="SecretNextDoor-26.xhtml#_idTextAnchor024">Chapter Twenty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-27.xhtml#_idTextAnchor025">Chapter Twenty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-28.xhtml#_idTextAnchor026">Chapter Twenty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-29.xhtml#_idTextAnchor027">Chapter Twenty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-30.xhtml#_idTextAnchor028">Chapter Twenty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-31.xhtml#_idTextAnchor029">Chapter Twenty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-32.xhtml#_idTextAnchor030">Chapter Twenty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-33.xhtml#_idTextAnchor031">Chapter Twenty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-34.xhtml#_idTextAnchor032">Chapter Twenty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-35.xhtml#_idTextAnchor033">Chapter Thirty</a></p>
+			<p class="toc"><a href="SecretNextDoor-36.xhtml#_idTextAnchor034">Chapter Thirty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-37.xhtml#_idTextAnchor035">Chapter Thirty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-38.xhtml#_idTextAnchor036">Chapter Thirty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-39.xhtml#_idTextAnchor037">Chapter Thirty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-40.xhtml#_idTextAnchor038">Chapter Thirty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-41.xhtml#_idTextAnchor039">Chapter Thirty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-42.xhtml#_idTextAnchor040">Chapter Thirty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-43.xhtml#_idTextAnchor041">Chapter Thirty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-44.xhtml#_idTextAnchor042">Chapter Thirty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-45.xhtml#_idTextAnchor043">Chapter Forty</a></p>
+			<p class="toc"><a href="SecretNextDoor-46.xhtml#_idTextAnchor044">Chapter Forty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-47.xhtml#_idTextAnchor045">An excerpt from <span class="i">Her Perfect Life</span></a></p>
+			<p class="toc"><a href="SecretNextDoor-48.xhtml#_idTextAnchor046">Reading Group Guide</a></p>
+			<p class="toc"><a href="SecretNextDoor-49.xhtml#_idTextAnchor047">A Conversation with the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-50.xhtml#_idTextAnchor048">Acknowledgments</a></p>
+			<p class="toc"><a href="SecretNextDoor-51.xhtml#_idTextAnchor049">About the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-53.xhtml#_idTextAnchor050">Back Cover</a></p>
+		</div>
+	</body>
+</html>
+2023-03-17 00:34:08 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-17 00:34:09 INFO  - Step 24 - I open font settings
+2023-03-17 00:34:09 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-17 00:34:10 INFO  - Step 25 - I DECREASE_FONT of text
+2023-03-17 00:34:10 INFO  - Button 'setTextSmaller' :: Clicking
+2023-03-17 00:34:11 INFO  - Step 26 - Font size 'fontSize' is decreased
+2023-03-17 00:34:11 INFO  - context - NATIVE_APP
+2023-03-17 00:34:11 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-17 00:34:12 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-17 00:34:12 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" style="--RS__viewportWidth:calc(1440px / 3.5); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+	<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+		<title>SecretNextDoor-4</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:2d1de702-f41f-4168-9ebe-1792dd209203" name="Adept.expected.resource" />
+	<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+	<body id="SecretNextDoor-4" lang="en-US" xml:lang="en-US">
+		<div class="Basic-Text-Frame">
+			<h1 class="cn" id="_idParaDest-4"><a id="_idTextAnchor003"></a>Contents</h1>
+			<p class="toc"><a href="SecretNextDoor.xhtml#_idTextAnchor000">Front Cover</a></p>
+			<p class="toc"><a href="SecretNextDoor-2.xhtml#_idTextAnchor001">Title Page</a></p>
+			<p class="toc"><a href="SecretNextDoor-3.xhtml#_idTextAnchor002">Copyright</a></p>
+			<p class="toc"><a href="SecretNextDoor-6.xhtml#_idTextAnchor004">Chapter One</a></p>
+			<p class="toc"><a href="SecretNextDoor-7.xhtml#_idTextAnchor005">Chapter Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-8.xhtml#_idTextAnchor006">Chapter Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-9.xhtml#_idTextAnchor007">Chapter Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-10.xhtml#_idTextAnchor008">Chapter Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-11.xhtml#_idTextAnchor009">Chapter Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-12.xhtml#_idTextAnchor010">Chapter Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-13.xhtml#_idTextAnchor011">Chapter Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-14.xhtml#_idTextAnchor012">Chapter Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-15.xhtml#_idTextAnchor013">Chapter Ten</a></p>
+			<p class="toc"><a href="SecretNextDoor-16.xhtml#_idTextAnchor014">Chapter Eleven</a></p>
+			<p class="toc"><a href="SecretNextDoor-17.xhtml#_idTextAnchor015">Chapter Twelve</a></p>
+			<p class="toc"><a href="SecretNextDoor-18.xhtml#_idTextAnchor016">Chapter Thirteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-19.xhtml#_idTextAnchor017">Chapter Fourteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-20.xhtml#_idTextAnchor018">Chapter Fifteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-21.xhtml#_idTextAnchor019">Chapter Sixteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-22.xhtml#_idTextAnchor020">Chapter Seventeen</a></p>
+			<p class="toc"><a href="SecretNextDoor-23.xhtml#_idTextAnchor021">Chapter Eighteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-24.xhtml#_idTextAnchor022">Chapter Nineteen</a></p>
+			<p class="toc"><a href="SecretNextDoor-25.xhtml#_idTextAnchor023">Chapter Twenty</a></p>
+			<p class="toc"><a href="SecretNextDoor-26.xhtml#_idTextAnchor024">Chapter Twenty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-27.xhtml#_idTextAnchor025">Chapter Twenty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-28.xhtml#_idTextAnchor026">Chapter Twenty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-29.xhtml#_idTextAnchor027">Chapter Twenty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-30.xhtml#_idTextAnchor028">Chapter Twenty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-31.xhtml#_idTextAnchor029">Chapter Twenty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-32.xhtml#_idTextAnchor030">Chapter Twenty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-33.xhtml#_idTextAnchor031">Chapter Twenty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-34.xhtml#_idTextAnchor032">Chapter Twenty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-35.xhtml#_idTextAnchor033">Chapter Thirty</a></p>
+			<p class="toc"><a href="SecretNextDoor-36.xhtml#_idTextAnchor034">Chapter Thirty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-37.xhtml#_idTextAnchor035">Chapter Thirty-Two</a></p>
+			<p class="toc"><a href="SecretNextDoor-38.xhtml#_idTextAnchor036">Chapter Thirty-Three</a></p>
+			<p class="toc"><a href="SecretNextDoor-39.xhtml#_idTextAnchor037">Chapter Thirty-Four</a></p>
+			<p class="toc"><a href="SecretNextDoor-40.xhtml#_idTextAnchor038">Chapter Thirty-Five</a></p>
+			<p class="toc"><a href="SecretNextDoor-41.xhtml#_idTextAnchor039">Chapter Thirty-Six</a></p>
+			<p class="toc"><a href="SecretNextDoor-42.xhtml#_idTextAnchor040">Chapter Thirty-Seven</a></p>
+			<p class="toc"><a href="SecretNextDoor-43.xhtml#_idTextAnchor041">Chapter Thirty-Eight</a></p>
+			<p class="toc"><a href="SecretNextDoor-44.xhtml#_idTextAnchor042">Chapter Thirty-Nine</a></p>
+			<p class="toc"><a href="SecretNextDoor-45.xhtml#_idTextAnchor043">Chapter Forty</a></p>
+			<p class="toc"><a href="SecretNextDoor-46.xhtml#_idTextAnchor044">Chapter Forty-One</a></p>
+			<p class="toc"><a href="SecretNextDoor-47.xhtml#_idTextAnchor045">An excerpt from <span class="i">Her Perfect Life</span></a></p>
+			<p class="toc"><a href="SecretNextDoor-48.xhtml#_idTextAnchor046">Reading Group Guide</a></p>
+			<p class="toc"><a href="SecretNextDoor-49.xhtml#_idTextAnchor047">A Conversation with the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-50.xhtml#_idTextAnchor048">Acknowledgments</a></p>
+			<p class="toc"><a href="SecretNextDoor-51.xhtml#_idTextAnchor049">About the Author</a></p>
+			<p class="toc"><a href="SecretNextDoor-53.xhtml#_idTextAnchor050">Back Cover</a></p>
+		</div>
+	</body>
+</html>
+2023-03-17 00:34:12 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-17 00:34:13 INFO  - Taking screenshot
+2023-03-17 00:34:14 INFO  - Test finished - logging out
+2023-03-17 00:34:15 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:34:18 INFO  - Button 'tabSettings' :: Clicking
+2023-03-17 00:34:20 INFO  - Button 'Accounts' :: Clicking
+2023-03-17 00:34:21 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-17 00:34:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-17 00:34:24 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-17 00:34:24 INFO  - Button 'Log out' :: Clicking
+2023-03-17 00:34:25 INFO  - Button 'Log in' :: Getting text from element
+2023-03-17 00:34:33 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-17 00:34:34 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-17 00:34:34 INFO  - Unlocking credential for current thread
+2023-03-17 00:34:34 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4cf78cfd
