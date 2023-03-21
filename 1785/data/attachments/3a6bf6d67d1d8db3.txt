@@ -1,0 +1,67 @@
+2023-03-21 17:57:36 INFO  - Scenario 'Delete bookmarks' start
+2023-03-21 17:57:36 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-21 17:57:59 INFO  - Application on platform 'IOS' is ready...
+2023-03-21 17:57:59 INFO  - Session id - dcc04ddd090da309755548c146dd39eba7cbd4c9
+2023-03-21 17:57:59 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-21 17:57:59 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-21 17:58:00 INFO  - Button 'Find your library button' :: Clicking
+2023-03-21 17:58:01 INFO  - Text Field 'Search field' :: Clicking
+2023-03-21 17:58:08 INFO  - Text Field 'Search field' :: Clearing
+2023-03-21 17:58:08 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-21 17:58:19 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-21 17:58:21 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-21 17:58:21 INFO  - Button 'Settings' :: Clicking
+2023-03-21 17:58:22 INFO  - Button 'Settings' :: Clicking
+2023-03-21 17:58:23 INFO  - Button 'Libraries button' :: Clicking
+2023-03-21 17:58:25 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-21 17:58:25 INFO  - Button 'Settings' :: Clicking
+2023-03-21 17:58:26 INFO  - Button 'Settings' :: Clicking
+2023-03-21 17:58:27 INFO  - Button 'Libraries button' :: Clicking
+2023-03-21 17:58:29 INFO  - Locking credential with barcode 01230000000303
+2023-03-21 17:58:29 INFO  - There are books on the account: 
+2023-03-21 17:59:27 INFO  - bookName: H Is for Hawaii Distributor: Palace Marketplace
+2023-03-21 17:59:27 INFO  - bookName: Malcolm Gladwell Box Set Distributor: Palace Marketplace
+2023-03-21 17:59:27 INFO  - Count of books on the account after opening account: 2
+2023-03-21 17:59:48 INFO  - Text Field 'Card' :: Clicking
+2023-03-21 17:59:49 INFO  - Text Field 'Card' :: Clearing
+2023-03-21 17:59:49 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-21 17:59:54 INFO  - Text Field 'Pin' :: Clearing
+2023-03-21 17:59:54 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-21 17:59:57 INFO  - Button 'Log in' :: Clicking
+2023-03-21 18:00:21 INFO  - Step 3 - Login is performed successfully
+2023-03-21 18:00:22 INFO  - Step 4 - I open Catalog
+2023-03-21 18:00:22 INFO  - Button 'Catalog' :: Clicking
+2023-03-21 18:00:24 INFO  - Step 5 - I open search modal
+2023-03-21 18:00:25 INFO  - Button 'Search button' :: Clicking
+2023-03-21 18:00:29 INFO  - Step 6 - I search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-21 18:00:29 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-21 18:00:29 INFO  - randomBookName: Quicksand
+2023-03-21 18:00:29 INFO  - Text Field 'Search value input' :: Sending keys 'Quicksand'
+2023-03-21 18:00:33 INFO  - Button 'Search' :: Clicking
+2023-03-21 18:00:36 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-21 18:00:37 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-21 18:00:38 INFO  - Button 'actionButton' :: Clicking
+2023-03-21 18:01:00 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-21 18:01:19 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-21 18:01:20 INFO  - Label 'lblBookName' :: Clicking
+2023-03-21 18:01:21 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-21 18:01:22 INFO  - Button 'Read' :: Clicking
+2023-03-21 18:01:34 INFO  - Alert appears and dismiss alert
+2023-03-21 18:01:34 INFO  - Step 10 - I click on right book corner on epub reader screen
+2023-03-21 18:01:40 INFO  - Step 11 - Add bookmark on reader epub screen
+2023-03-21 18:01:42 INFO  - Button 'Add Bookmark' :: Clicking
+2023-03-21 18:02:04 INFO  - Taking screenshot
+2023-03-21 18:02:05 INFO  - Test finished - logging out
+2023-03-21 18:02:08 INFO  - Button 'Settings' :: Clicking
+2023-03-21 18:02:09 INFO  - Button 'Settings' :: Clicking
+2023-03-21 18:02:11 INFO  - Button 'Libraries button' :: Clicking
+2023-03-21 18:02:15 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-21 18:02:16 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-21 18:02:17 INFO  - Button 'Log out' :: Clicking
+2023-03-21 18:02:19 INFO  - Button 'Log out approve' :: Clicking
+2023-03-21 18:02:23 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-03-21 18:02:24 INFO  - Button 'Log in' :: Getting text from element
+2023-03-21 18:02:30 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-21 18:02:31 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-21 18:02:32 INFO  - Unlocking credential for current thread
+2023-03-21 18:02:32 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@29bc8a5

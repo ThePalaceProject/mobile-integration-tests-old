@@ -1,0 +1,66 @@
+2023-03-21 17:22:07 INFO  - Scenario 'Navigate by Page' start
+2023-03-21 17:22:07 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-21 17:22:24 INFO  - Application on platform 'IOS' is ready...
+2023-03-21 17:22:24 INFO  - Session id - 1d2fb7e5f811f0715f90b3dba286255109524a86
+2023-03-21 17:22:24 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-21 17:22:25 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-21 17:22:25 INFO  - Button 'Find your library button' :: Clicking
+2023-03-21 17:22:26 INFO  - Text Field 'Search field' :: Clicking
+2023-03-21 17:22:33 INFO  - Text Field 'Search field' :: Clearing
+2023-03-21 17:22:33 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-21 17:22:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-21 17:22:45 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-21 17:22:45 INFO  - Button 'Settings' :: Clicking
+2023-03-21 17:22:46 INFO  - Button 'Settings' :: Clicking
+2023-03-21 17:22:47 INFO  - Button 'Libraries button' :: Clicking
+2023-03-21 17:22:49 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-21 17:22:49 INFO  - Button 'Settings' :: Clicking
+2023-03-21 17:22:50 INFO  - Button 'Settings' :: Clicking
+2023-03-21 17:22:51 INFO  - Button 'Libraries button' :: Clicking
+2023-03-21 17:22:54 INFO  - Locking credential with barcode 01230000000303
+2023-03-21 17:22:54 INFO  - There are books on the account: 
+2023-03-21 17:22:55 INFO  - bookName: Malcolm Gladwell Box Set Distributor: Palace Marketplace
+2023-03-21 17:22:55 INFO  - bookName: H Is for Hawaii Distributor: Palace Marketplace
+2023-03-21 17:22:55 INFO  - Count of books on the account after opening account: 2
+2023-03-21 17:23:16 INFO  - Text Field 'Card' :: Clicking
+2023-03-21 17:23:17 INFO  - Text Field 'Card' :: Clearing
+2023-03-21 17:23:17 INFO  - Text Field 'Card' :: Typing '01230000000303'
+2023-03-21 17:23:19 INFO  - Text Field 'Pin' :: Clearing
+2023-03-21 17:23:19 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-21 17:23:22 INFO  - Button 'Log in' :: Clicking
+2023-03-21 17:23:45 INFO  - Step 3 - Login is performed successfully
+2023-03-21 17:23:45 INFO  - Step 4 - I open Catalog
+2023-03-21 17:23:45 INFO  - Button 'Catalog' :: Clicking
+2023-03-21 17:23:47 INFO  - Step 5 - I open search modal
+2023-03-21 17:23:48 INFO  - Button 'Search button' :: Clicking
+2023-03-21 17:23:50 INFO  - Step 6 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-21 17:23:50 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-21 17:23:50 INFO  - randomBookName: Flower of the South
+2023-03-21 17:23:50 INFO  - Text Field 'Search value input' :: Sending keys 'Flower of the South'
+2023-03-21 17:23:52 INFO  - Button 'Search' :: Clicking
+2023-03-21 17:23:54 INFO  - Step 7 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-21 17:23:56 INFO  - Button 'actionButton' :: Clicking
+2023-03-21 17:24:17 INFO  - Step 8 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-21 17:24:20 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-21 17:24:21 INFO  - Label 'lblBookName' :: Clicking
+2023-03-21 17:24:22 INFO  - Step 9 - Click READ action button on book details screen
+2023-03-21 17:24:23 INFO  - Button 'Read' :: Clicking
+2023-03-21 17:24:44 INFO  - Step 10 - 'bookInfo' book is present on epub reader screen
+2023-03-21 17:24:44 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-03-21 17:24:45 INFO  - Book name on epub reader screen - Flower of the South
+2023-03-21 17:24:45 INFO  - Step 11 - I click on right book corner on epub reader screen
+2023-03-21 17:25:06 INFO  - Taking screenshot
+2023-03-21 17:25:08 INFO  - Test finished - logging out
+2023-03-21 17:25:11 INFO  - Button 'Settings' :: Clicking
+2023-03-21 17:25:13 INFO  - Button 'Settings' :: Clicking
+2023-03-21 17:25:13 INFO  - Button 'Libraries button' :: Clicking
+2023-03-21 17:25:17 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-21 17:25:17 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-21 17:25:18 INFO  - Button 'Log out' :: Clicking
+2023-03-21 17:25:19 INFO  - Button 'Log out approve' :: Clicking
+2023-03-21 17:25:22 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-03-21 17:25:23 INFO  - Button 'Log in' :: Getting text from element
+2023-03-21 17:25:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-21 17:25:28 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-21 17:25:28 INFO  - Unlocking credential for current thread
+2023-03-21 17:25:28 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@29bc8a5

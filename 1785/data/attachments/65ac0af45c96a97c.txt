@@ -1,0 +1,83 @@
+2023-03-21 19:06:25 INFO  - Scenario 'Playback speed: Check of playback speed' start
+2023-03-21 19:06:25 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-21 19:06:48 INFO  - Application on platform 'IOS' is ready...
+2023-03-21 19:06:48 INFO  - Session id - 209fc7378427c38cb80a78ea305649b021d95490
+2023-03-21 19:06:48 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-21 19:06:48 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-21 19:06:49 INFO  - Button 'Find your library button' :: Clicking
+2023-03-21 19:06:50 INFO  - Text Field 'Search field' :: Clicking
+2023-03-21 19:06:57 INFO  - Text Field 'Search field' :: Clearing
+2023-03-21 19:06:57 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-21 19:07:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-21 19:07:12 INFO  - Step 1 - Account 'LYRASIS Reads' is present on Accounts screen
+2023-03-21 19:07:13 INFO  - Button 'Settings' :: Clicking
+2023-03-21 19:07:14 INFO  - Button 'Settings' :: Clicking
+2023-03-21 19:07:15 INFO  - Button 'Libraries button' :: Clicking
+2023-03-21 19:07:17 INFO  - Step 2 - I enter credentials for 'LYRASIS Reads' account
+2023-03-21 19:07:18 INFO  - Button 'Settings' :: Clicking
+2023-03-21 19:07:19 INFO  - Button 'Settings' :: Clicking
+2023-03-21 19:07:20 INFO  - Button 'Libraries button' :: Clicking
+2023-03-21 19:07:25 INFO  - Locking credential with barcode 01230000000304
+2023-03-21 19:07:25 INFO  - There are books on the account: 
+2023-03-21 19:07:57 INFO  - bookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood Distributor: Palace Marketplace
+2023-03-21 19:07:57 INFO  - bookName: The Social Leap Distributor: Palace Marketplace
+2023-03-21 19:07:57 INFO  - bookName: The Story of the Chicago Cubs : Distributor: BiblioBoard
+2023-03-21 19:07:57 INFO  - bookName: Arctic Warriors Distributor: Palace Marketplace
+2023-03-21 19:07:57 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-03-21 19:07:57 INFO  - Count of books on the account after opening account: 5
+2023-03-21 19:08:18 INFO  - Text Field 'Card' :: Clicking
+2023-03-21 19:08:20 INFO  - Text Field 'Card' :: Clearing
+2023-03-21 19:08:20 INFO  - Text Field 'Card' :: Typing '01230000000304'
+2023-03-21 19:08:23 INFO  - Text Field 'Pin' :: Clearing
+2023-03-21 19:08:23 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-21 19:08:27 INFO  - Button 'Log in' :: Clicking
+2023-03-21 19:08:36 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-03-21 19:08:39 INFO  - Step 3 - Login is performed successfully
+2023-03-21 19:08:40 INFO  - Step 4 - I open Catalog
+2023-03-21 19:08:40 INFO  - Button 'Catalog' :: Clicking
+2023-03-21 19:08:42 INFO  - Step 5 - I open search modal
+2023-03-21 19:08:44 INFO  - Button 'Search button' :: Clicking
+2023-03-21 19:08:46 INFO  - Step 6 - I search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-21 19:08:46 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-21 19:08:46 INFO  - randomBookName: The Santa Suit
+2023-03-21 19:08:47 INFO  - Text Field 'Search value input' :: Sending keys 'The Santa Suit'
+2023-03-21 19:08:49 INFO  - Button 'Search' :: Clicking
+2023-03-21 19:08:52 INFO  - Step 7 - I switch to 'Audiobooks' catalog tab
+2023-03-21 19:08:52 INFO  - Button 'Audiobooks' :: Clicking
+2023-03-21 19:09:34 INFO  - Step 8 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-21 19:09:36 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-21 19:09:37 INFO  - Label 'lblBookName' :: Clicking
+2023-03-21 19:09:39 INFO  - Step 9 - Click GET action button on book details screen
+2023-03-21 19:09:39 INFO  - Button 'Get' :: Clicking
+2023-03-21 19:10:02 INFO  - Step 10 - I check that book contains LISTEN action button on book details screen
+2023-03-21 19:10:03 INFO  - Step 11 - Click LISTEN action button on book details screen
+2023-03-21 19:10:04 INFO  - Button 'Listen' :: Clicking
+2023-03-21 19:10:27 INFO  - Step 12 - Audio player screen of book 'bookInfo' is opened
+2023-03-21 19:10:28 INFO  - Step 13 - Select 1.25X playback speed on playback speed audiobook screen
+2023-03-21 19:10:28 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-03-21 19:10:30 INFO  - Button 'One and one quarter faster than normal speed.' :: Clicking
+2023-03-21 19:10:32 INFO  - Step 14 - Current playback speed value is 1.25X on audio player screen
+2023-03-21 19:10:33 INFO  - Step 15 - Return to previous screen from audio player screen
+2023-03-21 19:10:33 INFO  - Button 'btnBack' :: Clicking
+2023-03-21 19:10:34 INFO  - Step 16 - Click LISTEN action button on book details screen
+2023-03-21 19:10:35 INFO  - Button 'Listen' :: Clicking
+2023-03-21 19:10:56 INFO  - Step 17 - Audio player screen of book 'bookInfo' is opened
+2023-03-21 19:10:57 INFO  - Step 18 - Current playback speed value is 1.25X on audio player screen
+2023-03-21 19:10:58 INFO  - Step 19 - I restart app
+2023-03-21 19:11:07 INFO  - Step 20 - I open Books
+2023-03-21 19:11:07 INFO  - Button 'My Books' :: Clicking
+2023-03-21 19:11:09 INFO  - Step 21 - Open AUDIOBOOK book with LISTEN action button and 'bookInfo' bookInfo on books screen
+2023-03-21 19:11:29 INFO  - Label 'lblBookName' :: Clicking
+2023-03-21 19:11:51 INFO  - Taking screenshot
+2023-03-21 19:11:53 INFO  - Test finished - logging out
+2023-03-21 19:11:56 INFO  - Button 'Settings' :: Clicking
+2023-03-21 19:11:57 INFO  - Button 'Settings' :: Clicking
+2023-03-21 19:11:58 INFO  - Button 'Libraries button' :: Clicking
+2023-03-21 19:12:03 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-21 19:12:04 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-21 19:12:05 INFO  - Button 'Log out' :: Clicking
+2023-03-21 19:12:06 INFO  - Button 'Log out approve' :: Clicking
+2023-03-21 19:12:10 INFO  - Button 'Sign out ActionButtonAlert' :: Clicking
+2023-03-21 19:12:11 INFO  - Button 'Log in' :: Getting text from element
+2023-03-21 19:12:32 INFO  - Unlocking credential for current thread
+2023-03-21 19:12:32 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1c8bd071
