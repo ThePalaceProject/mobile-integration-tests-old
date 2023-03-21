@@ -1,0 +1,36 @@
+2023-03-20 23:55:06 INFO  - Scenario 'Check of a book format in LYRASIS' start
+2023-03-20 23:55:06 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-20 23:55:23 INFO  - Application on platform 'IOS' is ready...
+2023-03-20 23:55:23 INFO  - Session id - 94f23f69bd3d2d0c40dfa877d8fee7be5cd89508
+2023-03-20 23:55:23 INFO  - Step 0 - I add "LYRASIS Reads" account from welcomeScreen
+2023-03-20 23:55:24 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-20 23:55:24 INFO  - Button 'Find your library button' :: Clicking
+2023-03-20 23:55:26 INFO  - Text Field 'Search field' :: Clicking
+2023-03-20 23:55:31 INFO  - Text Field 'Search field' :: Clearing
+2023-03-20 23:55:31 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-20 23:55:41 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-20 23:55:42 INFO  - Step 1 - I open Catalog
+2023-03-20 23:55:42 INFO  - Button 'Catalog' :: Clicking
+2023-03-20 23:55:43 INFO  - Step 2 - I open search modal
+2023-03-20 23:55:44 INFO  - Button 'Search button' :: Clicking
+2023-03-20 23:55:46 INFO  - Step 3 - I search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-20 23:55:46 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-20 23:55:46 INFO  - randomBookName: Pieces of Eight
+2023-03-20 23:55:47 INFO  - Text Field 'Search value input' :: Sending keys 'Pieces of Eight'
+2023-03-20 23:55:48 INFO  - Button 'Search' :: Clicking
+2023-03-20 23:55:50 INFO  - Step 4 - I switch to 'eBooks' catalog tab
+2023-03-20 23:55:50 INFO  - Button 'eBooks' :: Clicking
+2023-03-20 23:56:32 INFO  - Step 5 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-20 23:56:33 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-20 23:56:34 INFO  - Label 'lblBookName' :: Clicking
+2023-03-20 23:56:35 INFO  - Step 6 - Book 'bookInfo' is opened on book details screen
+2023-03-20 23:56:36 INFO  - Label 'Book title' :: Getting text from element
+2023-03-20 23:56:40 INFO  - Label 'Author' :: Getting text from element
+2023-03-20 23:56:42 INFO  - Label 'Book title' :: Getting text from element
+2023-03-20 23:56:45 INFO  - Label 'Author' :: Getting text from element
+2023-03-20 23:56:47 INFO  - Step 7 - Book format in Information section is displayed on book details screen
+2023-03-20 23:56:48 INFO  - Step 8 - Book format in Information section is 'eBook' on book details screen
+2023-03-20 23:56:48 INFO  - Label 'Book format label' :: Getting text from element
+2023-03-20 23:56:49 INFO  - Taking screenshot
+2023-03-20 23:56:50 INFO  - Unlocking credential for current thread
+2023-03-20 23:56:50 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@712859c
