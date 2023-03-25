@@ -1,0 +1,85 @@
+2023-03-25 20:42:27 INFO  - Scenario 'Settings: Check of Wrapped scrolling in Lyrasis' start
+2023-03-25 20:42:27 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-25 20:43:11 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-25 20:43:11 INFO  - Session id - 6ed733ec30b35e29593facdc4fa6a6dddea589eb
+2023-03-25 20:43:11 INFO  - Step 0 - Close tutorial screen
+2023-03-25 20:43:11 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-25 20:43:14 INFO  - Step 1 - Welcome screen is opened
+2023-03-25 20:43:15 INFO  - Step 2 - Close welcome screen
+2023-03-25 20:43:15 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-25 20:43:16 INFO  - Step 3 - Add library screen is opened
+2023-03-25 20:43:17 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-03-25 20:43:17 INFO  - Button 'Search' :: Clicking
+2023-03-25 20:43:19 INFO  - Text Field 'Search' :: Clearing
+2023-03-25 20:43:19 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-25 20:43:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-25 20:43:23 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-03-25 20:43:23 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 20:43:24 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 20:43:26 INFO  - Button 'Accounts' :: Clicking
+2023-03-25 20:43:28 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-03-25 20:43:28 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 20:43:28 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 20:43:30 INFO  - Button 'Accounts' :: Clicking
+2023-03-25 20:43:31 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-25 20:43:32 INFO  - Locking credential with barcode 01230000000005
+2023-03-25 20:43:32 INFO  - There are books on the account: 
+2023-03-25 20:44:04 INFO  - bookName: The Cold War Wilderness of Mirrors Distributor: Palace Marketplace
+2023-03-25 20:44:04 INFO  - Count of books on the account after opening account: 1
+2023-03-25 20:44:04 INFO  - Text Field 'Card' :: Clearing
+2023-03-25 20:44:04 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-03-25 20:44:06 INFO  - Text Field 'Pin' :: Clearing
+2023-03-25 20:44:06 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-25 20:44:08 INFO  - Button 'Log in' :: Clicking
+2023-03-25 20:44:41 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-25 20:44:42 INFO  - Step 7 - Login is performed successfully
+2023-03-25 20:45:03 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-25 20:45:04 INFO  - Step 8 - Open Catalog
+2023-03-25 20:45:04 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-25 20:45:25 INFO  - Step 9 - Open search modal
+2023-03-25 20:45:45 INFO  - Button 'Search' :: Clicking
+2023-03-25 20:45:47 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-25 20:45:47 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-25 20:45:47 INFO  - randomBookName: Eleanor Roosevelt
+2023-03-25 20:45:48 INFO  - Error details button is not present
+2023-03-25 20:45:48 INFO  - Text Field 'Search value input' :: Sending keys 'Eleanor Roosevelt'
+2023-03-25 20:45:51 INFO  - Error details button is not present
+2023-03-25 20:45:53 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-25 20:45:57 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-25 20:45:58 INFO  - Button 'actionButton' :: Clicking
+2023-03-25 20:46:03 INFO  - Step 12 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-03-25 20:46:04 INFO  - Step 13 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-25 20:46:05 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-25 20:46:05 INFO  - Label 'lblBookName' :: Clicking
+2023-03-25 20:46:06 INFO  - Step 14 - Click READ action button on book details screen
+2023-03-25 20:46:07 INFO  - Button 'Read' :: Clicking
+2023-03-25 20:46:11 INFO  - Step 15 - Reader pdf screen is opened
+2023-03-25 20:46:14 INFO  - Step 16 - Open pdf settings screen on pdf reader screen
+2023-03-25 20:46:14 INFO  - Button 'Settings' :: Clicking
+2023-03-25 20:46:15 INFO  - Step 17 - Tap Wrapped scrolling on pdf settings screen
+2023-03-25 20:46:15 INFO  - Button 'Wrapped scrolling' :: Clicking
+2023-03-25 20:46:16 INFO  - Step 18 - Open pdf settings screen on pdf reader screen
+2023-03-25 20:46:16 INFO  - Button 'Settings' :: Clicking
+2023-03-25 20:46:17 INFO  - Step 19 - Wrapped scrolling is chosen on settings screen
+2023-03-25 20:46:17 INFO  - Button 'Wrapped scrolling' :: Getting attribute 'checked'
+2023-03-25 20:46:18 INFO  - Step 20 - Spreads options are available on settings screen
+2023-03-25 20:46:19 INFO  - Step 21 - Open pdf settings screen on pdf reader screen
+2023-03-25 20:46:20 INFO  - Button 'Settings' :: Clicking
+2023-03-25 20:46:21 INFO  - Step 22 - Save page number as 'pageInfo' on pdf reader screen
+2023-03-25 20:46:21 INFO  - Label 'Page number' :: Getting text from element
+2023-03-25 20:46:22 INFO  - Step 23 - Go to next page on reader pdf screen
+2023-03-25 20:46:24 INFO  - Swiping from coordinates (x:1200; y:614) to (x:0; y:614)
+2023-03-25 20:46:25 INFO  - Step 24 - Page number is not equal to 'pageInfo' on pdf reader screen
+2023-03-25 20:46:25 INFO  - Label 'Page number' :: Getting text from element
+2023-03-25 20:46:26 INFO  - Taking screenshot
+2023-03-25 20:46:27 INFO  - Test finished - logging out
+2023-03-25 20:46:28 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 20:46:31 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 20:46:32 INFO  - Button 'Accounts' :: Clicking
+2023-03-25 20:46:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-25 20:46:36 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-25 20:46:36 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-25 20:46:37 INFO  - Button 'Log out' :: Clicking
+2023-03-25 20:46:58 INFO  - Button 'Log in' :: Getting text from element
+2023-03-25 20:47:06 INFO  - Unlocking credential for current thread
+2023-03-25 20:47:06 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2a7902b0

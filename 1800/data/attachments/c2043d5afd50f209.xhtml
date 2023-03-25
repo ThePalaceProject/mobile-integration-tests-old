@@ -1,0 +1,246 @@
+2023-03-25 18:16:20 INFO  - Scenario 'Font settings: Check of increasing and reducing the text size' start
+2023-03-25 18:16:20 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-25 18:17:06 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-25 18:17:06 INFO  - Session id - b17a6b04822312942188861b4a45144ccde168a4
+2023-03-25 18:17:06 INFO  - Step 0 - Close tutorial screen
+2023-03-25 18:17:06 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-25 18:17:09 INFO  - Step 1 - Welcome screen is opened
+2023-03-25 18:17:09 INFO  - Step 2 - Close welcome screen
+2023-03-25 18:17:09 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-25 18:17:10 INFO  - Step 3 - Add library screen is opened
+2023-03-25 18:17:10 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-03-25 18:17:11 INFO  - Button 'Search' :: Clicking
+2023-03-25 18:17:12 INFO  - Text Field 'Search' :: Clearing
+2023-03-25 18:17:12 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-25 18:17:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-25 18:17:14 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-03-25 18:17:14 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 18:17:17 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 18:17:17 INFO  - Button 'Accounts' :: Clicking
+2023-03-25 18:17:19 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-03-25 18:17:19 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 18:17:19 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 18:17:20 INFO  - Button 'Accounts' :: Clicking
+2023-03-25 18:17:21 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-25 18:17:21 INFO  - Locking credential with barcode 01230000000004
+2023-03-25 18:17:21 INFO  - There are books on the account: 
+2023-03-25 18:17:54 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-03-25 18:17:54 INFO  - Count of books on the account after opening account: 1
+2023-03-25 18:17:54 INFO  - Text Field 'Card' :: Clearing
+2023-03-25 18:17:54 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-03-25 18:17:55 INFO  - Text Field 'Pin' :: Clearing
+2023-03-25 18:17:55 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-25 18:17:57 INFO  - Button 'Log in' :: Clicking
+2023-03-25 18:18:04 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-25 18:18:04 INFO  - Step 7 - Login is performed successfully
+2023-03-25 18:18:25 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-25 18:18:25 INFO  - Step 8 - Open Catalog
+2023-03-25 18:18:25 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-25 18:18:47 INFO  - Step 9 - Open search modal
+2023-03-25 18:19:07 INFO  - Button 'Search' :: Clicking
+2023-03-25 18:19:08 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-25 18:19:08 INFO  - Count of attempts to get random book name without bad symbols-4
+2023-03-25 18:19:08 INFO  - randomBookName: The Perishing
+2023-03-25 18:19:09 INFO  - Error details button is not present
+2023-03-25 18:19:09 INFO  - Text Field 'Search value input' :: Sending keys 'The Perishing'
+2023-03-25 18:19:11 INFO  - Error details button is not present
+2023-03-25 18:19:14 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-25 18:19:15 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-25 18:19:15 INFO  - Button 'actionButton' :: Clicking
+2023-03-25 18:19:21 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-25 18:19:22 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-25 18:19:22 INFO  - Label 'lblBookName' :: Clicking
+2023-03-25 18:19:22 INFO  - Step 13 - Click READ action button on book details screen
+2023-03-25 18:19:23 INFO  - Button 'Read' :: Clicking
+2023-03-25 18:19:23 INFO  - Step 14 - Scroll page forward from 7 to 9 times
+2023-03-25 18:19:23 INFO  - Scrolling 8 times on reader epub screen
+2023-03-25 18:19:41 INFO  - Step 15 - Save font size as 'fontSize'
+2023-03-25 18:19:42 INFO  - context - NATIVE_APP
+2023-03-25 18:19:42 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-25 18:19:43 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-25 18:19:43 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Perishing</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:5160335b-9c3b-4864-ad08-3e52a5f26664" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section epub:type="frontmatter" title="Dedication">
+<p class="ded_pb"><span class="right_1" epub:type="pagebreak" id="page_vii" title="vii"></span><span class="strikethrough"><i>For you</i></span></p>
+<p class="ded_pe"><i>I did it for me</i>.<span class="right_1" epub:type="pagebreak" id="page_viii" title="viii"></span></p>
+</section>
+</body>
+</html>
+2023-03-25 18:19:43 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-25 18:19:43 INFO  - Step 16 - Open font settings
+2023-03-25 18:19:43 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-25 18:19:44 INFO  - Step 17 - INCREASE_FONT of text
+2023-03-25 18:19:44 INFO  - Button 'setTextLarger' :: Clicking
+2023-03-25 18:19:44 INFO  - Step 18 - Font size 'fontSize' is increased
+2023-03-25 18:19:45 INFO  - context - NATIVE_APP
+2023-03-25 18:19:45 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-25 18:19:45 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-25 18:19:45 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Perishing</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:5160335b-9c3b-4864-ad08-3e52a5f26664" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section epub:type="frontmatter" title="Dedication">
+<p class="ded_pb"><span class="right_1" epub:type="pagebreak" id="page_vii" title="vii"></span><span class="strikethrough"><i>For you</i></span></p>
+<p class="ded_pe"><i>I did it for me</i>.<span class="right_1" epub:type="pagebreak" id="page_viii" title="viii"></span></p>
+</section>
+</body>
+</html>
+2023-03-25 18:19:45 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-25 18:19:46 INFO  - Step 19 - Restart app
+2023-03-25 18:20:10 INFO  - Step 20 - Open Books
+2023-03-25 18:20:10 INFO  - Button 'tabBooks' :: Clicking
+2023-03-25 18:20:11 INFO  - Step 21 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-03-25 18:20:26 INFO  - Label 'lblBookName' :: Clicking
+2023-03-25 18:20:27 INFO  - Step 22 - Click READ action button on book details screen
+2023-03-25 18:20:28 INFO  - Button 'Read' :: Clicking
+2023-03-25 18:20:28 INFO  - Step 23 - Font size 'fontSize' is increased
+2023-03-25 18:20:28 INFO  - context - NATIVE_APP
+2023-03-25 18:20:29 INFO  - context - NATIVE_APP
+2023-03-25 18:20:30 INFO  - context - NATIVE_APP
+2023-03-25 18:20:31 INFO  - context - NATIVE_APP
+2023-03-25 18:20:31 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-25 18:20:32 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-25 18:20:32 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Perishing</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:5160335b-9c3b-4864-ad08-3e52a5f26664" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section epub:type="frontmatter" title="Dedication">
+<p class="ded_pb"><span class="right_1" epub:type="pagebreak" id="page_vii" title="vii"></span><span class="strikethrough"><i>For you</i></span></p>
+<p class="ded_pe"><i>I did it for me</i>.<span class="right_1" epub:type="pagebreak" id="page_viii" title="viii"></span></p>
+</section>
+</body>
+</html>
+2023-03-25 18:20:32 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-25 18:20:32 INFO  - Step 24 - Return to previous screen from epub
+2023-03-25 18:20:33 INFO  - Button 'btnBack' :: Clicking
+2023-03-25 18:20:33 INFO  - Step 25 - Click READ action button on book details screen
+2023-03-25 18:20:34 INFO  - Button 'Read' :: Clicking
+2023-03-25 18:20:34 INFO  - Step 26 - Font size 'fontSize' is increased
+2023-03-25 18:20:35 INFO  - context - NATIVE_APP
+2023-03-25 18:20:35 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-25 18:20:36 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-25 18:20:36 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Perishing</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:5160335b-9c3b-4864-ad08-3e52a5f26664" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section epub:type="frontmatter" title="Dedication">
+<p class="ded_pb"><span class="right_1" epub:type="pagebreak" id="page_vii" title="vii"></span><span class="strikethrough"><i>For you</i></span></p>
+<p class="ded_pe"><i>I did it for me</i>.<span class="right_1" epub:type="pagebreak" id="page_viii" title="viii"></span></p>
+</section>
+</body>
+</html>
+2023-03-25 18:20:36 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-25 18:20:37 INFO  - Step 27 - Save font size as 'fontSize'
+2023-03-25 18:20:37 INFO  - context - NATIVE_APP
+2023-03-25 18:20:37 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-25 18:20:37 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-25 18:20:37 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Perishing</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:5160335b-9c3b-4864-ad08-3e52a5f26664" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section epub:type="frontmatter" title="Dedication">
+<p class="ded_pb"><span class="right_1" epub:type="pagebreak" id="page_vii" title="vii"></span><span class="strikethrough"><i>For you</i></span></p>
+<p class="ded_pe"><i>I did it for me</i>.<span class="right_1" epub:type="pagebreak" id="page_viii" title="viii"></span></p>
+</section>
+</body>
+</html>
+2023-03-25 18:20:37 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-25 18:20:38 INFO  - Step 28 - Open font settings
+2023-03-25 18:20:38 INFO  - Button 'btnFontSettings' :: Clicking
+2023-03-25 18:20:38 INFO  - Step 29 - DECREASE_FONT of text
+2023-03-25 18:20:38 INFO  - Button 'setTextSmaller' :: Clicking
+2023-03-25 18:20:39 INFO  - Step 30 - Font size 'fontSize' is decreased
+2023-03-25 18:20:40 INFO  - context - NATIVE_APP
+2023-03-25 18:20:40 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-03-25 18:20:40 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-03-25 18:20:40 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en" style="--RS__viewportWidth:calc(1600px / 2.125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:110%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<title>The Perishing</title>
+<link href="../styles/stylesheet.css" rel="stylesheet" type="text/css" />
+<meta content="urn:uuid:5160335b-9c3b-4864-ad08-3e52a5f26664" name="Adept.expected.resource" />
+<link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body>
+<section epub:type="frontmatter" title="Dedication">
+<p class="ded_pb"><span class="right_1" epub:type="pagebreak" id="page_vii" title="vii"></span><span class="strikethrough"><i>For you</i></span></p>
+<p class="ded_pe"><i>I did it for me</i>.<span class="right_1" epub:type="pagebreak" id="page_viii" title="viii"></span></p>
+</section>
+</body>
+</html>
+2023-03-25 18:20:40 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-03-25 18:20:40 INFO  - Taking screenshot
+2023-03-25 18:20:41 INFO  - Test finished - logging out
+2023-03-25 18:20:42 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 18:20:45 INFO  - Button 'tabSettings' :: Clicking
+2023-03-25 18:20:46 INFO  - Button 'Accounts' :: Clicking
+2023-03-25 18:20:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-25 18:20:48 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-25 18:20:49 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-25 18:20:49 INFO  - Button 'Log out' :: Clicking
+2023-03-25 18:21:09 INFO  - Button 'Log in' :: Getting text from element
+2023-03-25 18:21:28 INFO  - Unlocking credential for current thread
+2023-03-25 18:21:28 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2a7902b0
