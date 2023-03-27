@@ -1,0 +1,78 @@
+2023-03-27 20:04:50 INFO  - Scenario 'Open book to last page read' start
+2023-03-27 20:04:50 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-27 20:05:17 INFO  - Application on platform 'ANDROID' is ready...
+2023-03-27 20:05:18 INFO  - Session id - 247d2b7d23a0b0e7129d28386b7e5f3573e7c033
+2023-03-27 20:05:18 INFO  - Step 0 - Close tutorial screen
+2023-03-27 20:05:18 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-27 20:05:20 INFO  - Step 1 - Welcome screen is opened
+2023-03-27 20:05:21 INFO  - Step 2 - Close welcome screen
+2023-03-27 20:05:21 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-03-27 20:05:21 INFO  - Step 3 - Add library screen is opened
+2023-03-27 20:05:22 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-03-27 20:05:22 INFO  - Button 'Search' :: Clicking
+2023-03-27 20:05:25 INFO  - Text Field 'Search' :: Clearing
+2023-03-27 20:05:25 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-03-27 20:05:28 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-27 20:05:29 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-03-27 20:05:29 INFO  - Button 'tabSettings' :: Clicking
+2023-03-27 20:05:31 INFO  - Button 'tabSettings' :: Clicking
+2023-03-27 20:05:32 INFO  - Button 'Accounts' :: Clicking
+2023-03-27 20:05:34 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-03-27 20:05:34 INFO  - Button 'tabSettings' :: Clicking
+2023-03-27 20:05:35 INFO  - Button 'tabSettings' :: Clicking
+2023-03-27 20:05:36 INFO  - Button 'Accounts' :: Clicking
+2023-03-27 20:05:37 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-27 20:05:38 INFO  - Locking credential with barcode 01230000000003
+2023-03-27 20:05:38 INFO  - There are books on the account: 
+2023-03-27 20:06:09 INFO  - There is not books on the account.
+2023-03-27 20:06:09 INFO  - Count of books on the account after opening account: 0
+2023-03-27 20:06:09 INFO  - Text Field 'Card' :: Clearing
+2023-03-27 20:06:09 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-03-27 20:06:11 INFO  - Text Field 'Pin' :: Clearing
+2023-03-27 20:06:11 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-27 20:06:13 INFO  - Button 'Log in' :: Clicking
+2023-03-27 20:06:19 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-27 20:06:20 INFO  - Step 7 - Login is performed successfully
+2023-03-27 20:06:41 INFO  - Button 'Log ... action' :: Getting text from element
+2023-03-27 20:06:42 INFO  - Step 8 - Open Catalog
+2023-03-27 20:06:42 INFO  - Button 'tabCatalog' :: Clicking
+2023-03-27 20:07:03 INFO  - Step 9 - Open search modal
+2023-03-27 20:07:23 INFO  - Button 'Search' :: Clicking
+2023-03-27 20:07:25 INFO  - Step 10 - Search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-27 20:07:25 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-03-27 20:07:25 INFO  - randomBookName: A Spark of Light
+2023-03-27 20:07:26 INFO  - Error details button is not present
+2023-03-27 20:07:26 INFO  - Text Field 'Search value input' :: Sending keys 'A Spark of Light'
+2023-03-27 20:07:28 INFO  - Error details button is not present
+2023-03-27 20:07:31 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-27 20:07:32 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-27 20:07:32 INFO  - Button 'actionButton' :: Clicking
+2023-03-27 20:07:38 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-27 20:07:39 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-27 20:07:39 INFO  - Label 'lblBookName' :: Clicking
+2023-03-27 20:07:40 INFO  - Step 13 - Click READ action button on book details screen
+2023-03-27 20:07:42 INFO  - Button 'Read' :: Clicking
+2023-03-27 20:07:43 INFO  - Step 14 - Scroll page forward from 7 to 10 times
+2023-03-27 20:07:43 INFO  - Scrolling 8 times on reader epub screen
+2023-03-27 20:08:08 INFO  - Step 15 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-03-27 20:08:08 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-03-27 20:08:10 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-03-27 20:08:11 INFO  - Step 16 - Wait for 3 seconds
+2023-03-27 20:08:14 INFO  - Step 17 - Return to previous screen for epub and pdf
+2023-03-27 20:08:14 INFO  - Step 18 - Click READ action button on book details screen
+2023-03-27 20:08:15 INFO  - Button 'Read' :: Clicking
+2023-03-27 20:08:15 INFO  - Step 19 - 'bookInfo' book is present on epub reader screen
+2023-03-27 20:08:18 INFO  - Label 'lblBookName' :: Getting text from element
+2023-03-27 20:08:19 INFO  - Book name on epub reader screen - Spark of Light (9780463902790)
+2023-03-27 20:08:19 INFO  - Taking screenshot
+2023-03-27 20:08:20 INFO  - Test finished - logging out
+2023-03-27 20:08:21 INFO  - Button 'tabSettings' :: Clicking
+2023-03-27 20:08:24 INFO  - Button 'tabSettings' :: Clicking
+2023-03-27 20:08:25 INFO  - Button 'Accounts' :: Clicking
+2023-03-27 20:08:26 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-27 20:08:28 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-27 20:08:28 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-27 20:08:29 INFO  - Button 'Log out' :: Clicking
+2023-03-27 20:08:50 INFO  - Button 'Log in' :: Getting text from element
+2023-03-27 20:09:01 INFO  - Unlocking credential for current thread
+2023-03-27 20:09:01 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@64a1a400
