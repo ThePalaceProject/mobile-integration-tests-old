@@ -1,0 +1,71 @@
+2023-03-31 09:34:25 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-03-31 09:34:25 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-03-31 09:34:50 INFO  - Application on platform 'IOS' is ready...
+2023-03-31 09:34:50 INFO  - Session id - e6859948cce052e3c6479fd791a6c6dd45a31ec7
+2023-03-31 09:34:50 INFO  - Step 0 - Close tutorial screen
+2023-03-31 09:34:50 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-03-31 09:34:51 INFO  - Step 1 - Welcome screen is opened
+2023-03-31 09:34:52 INFO  - Step 2 - Close welcome screen
+2023-03-31 09:34:52 INFO  - Button 'Find your library button' :: Clicking
+2023-03-31 09:34:53 INFO  - Step 3 - Add library screen is opened
+2023-03-31 09:34:59 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-03-31 09:34:59 INFO  - Text Field 'Search field' :: Clicking
+2023-03-31 09:35:05 INFO  - Text Field 'Search field' :: Clearing
+2023-03-31 09:35:05 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-03-31 09:35:16 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-03-31 09:35:18 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-03-31 09:35:18 INFO  - Button 'Settings' :: Clicking
+2023-03-31 09:35:21 INFO  - Button 'Settings' :: Clicking
+2023-03-31 09:35:22 INFO  - Button 'Libraries button' :: Clicking
+2023-03-31 09:35:24 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-03-31 09:35:24 INFO  - Button 'Settings' :: Clicking
+2023-03-31 09:35:26 INFO  - Button 'Settings' :: Clicking
+2023-03-31 09:35:28 INFO  - Button 'Libraries button' :: Clicking
+2023-03-31 09:35:31 INFO  - Locking credential with barcode 01230000000004
+2023-03-31 09:35:31 INFO  - There are books on the account: 
+2023-03-31 09:35:32 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-03-31 09:35:32 INFO  - bookName: Dream Hoarders Distributor: Palace Marketplace
+2023-03-31 09:35:32 INFO  - bookName: How the Word Is Passed Distributor: Palace Marketplace
+2023-03-31 09:35:32 INFO  - bookName: The Great Displacement Distributor: Palace Marketplace
+2023-03-31 09:35:32 INFO  - Count of books on the account after opening account: 4
+2023-03-31 09:35:54 INFO  - Text Field 'Card' :: Clicking
+2023-03-31 09:35:55 INFO  - Text Field 'Card' :: Clearing
+2023-03-31 09:35:55 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-03-31 09:35:59 INFO  - Text Field 'Pin' :: Clearing
+2023-03-31 09:35:59 INFO  - Text Field 'Pin' :: Typing '********'
+2023-03-31 09:36:03 INFO  - Button 'Log in' :: Clicking
+2023-03-31 09:36:11 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-03-31 09:36:13 INFO  - Step 7 - Login is performed successfully
+2023-03-31 09:36:14 INFO  - Step 8 - Open Catalog
+2023-03-31 09:36:14 INFO  - Button 'Catalog' :: Clicking
+2023-03-31 09:36:16 INFO  - Step 9 - Open search modal
+2023-03-31 09:36:17 INFO  - Button 'Search button' :: Clicking
+2023-03-31 09:36:20 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-03-31 09:36:20 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-03-31 09:36:20 INFO  - randomBookName: Stand by Me
+2023-03-31 09:36:20 INFO  - Text Field 'Search value input' :: Sending keys 'Stand by Me'
+2023-03-31 09:36:22 INFO  - Button 'Search' :: Clicking
+2023-03-31 09:36:28 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-03-31 09:36:28 INFO  - Button 'eBooks' :: Clicking
+2023-03-31 09:37:11 INFO  - Step 12 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-03-31 09:37:13 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-03-31 09:37:14 INFO  - Label 'lblBookName' :: Clicking
+2023-03-31 09:37:15 INFO  - Step 13 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-03-31 09:37:15 INFO  - Button 'Get' :: Clicking
+2023-03-31 09:37:17 INFO  - Button 'Cancel' :: Clicking
+2023-03-31 09:37:20 INFO  - Step 14 - Check that book contains DOWNLOAD action button on book details screen
+2023-03-31 09:37:21 INFO  - Step 15 - Check that book contains RETURN action button on book details screen
+2023-03-31 09:37:22 INFO  - Taking screenshot
+2023-03-31 09:37:25 INFO  - Test finished - logging out
+2023-03-31 09:37:28 INFO  - Button 'Settings' :: Clicking
+2023-03-31 09:37:30 INFO  - Button 'Settings' :: Clicking
+2023-03-31 09:37:31 INFO  - Button 'Libraries button' :: Clicking
+2023-03-31 09:37:36 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-31 09:37:37 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-31 09:37:38 INFO  - Button 'Log out' :: Clicking
+2023-03-31 09:37:40 INFO  - Button 'Log out approve' :: Clicking
+2023-03-31 09:38:02 INFO  - Button 'Log in' :: Getting text from element
+2023-03-31 09:38:03 INFO  - Text Field 'Card' :: Getting text from element
+2023-03-31 09:38:04 INFO  - Text Field 'Pin' :: Getting text from element
+2023-03-31 09:38:06 INFO  - Unlocking credential for current thread
+2023-03-31 09:38:06 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@65b5af0
