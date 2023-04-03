@@ -1,0 +1,81 @@
+2023-04-03 20:18:49 INFO  - Scenario 'Font settings: Check of text theme' start
+2023-04-03 20:18:49 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-03 20:19:18 INFO  - Application on platform 'ANDROID' is ready...
+2023-04-03 20:19:18 INFO  - Session id - b488089a1466a193df0e480cb73686d7e88a4c99
+2023-04-03 20:19:18 INFO  - Step 0 - Close tutorial screen
+2023-04-03 20:19:18 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-03 20:19:20 INFO  - Step 1 - Welcome screen is opened
+2023-04-03 20:19:21 INFO  - Step 2 - Close welcome screen
+2023-04-03 20:19:21 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-04-03 20:19:22 INFO  - Step 3 - Add library screen is opened
+2023-04-03 20:19:23 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-03 20:19:23 INFO  - Button 'Search' :: Clicking
+2023-04-03 20:19:24 INFO  - Text Field 'Search' :: Clearing
+2023-04-03 20:19:24 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-04-03 20:19:28 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-03 20:19:29 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-03 20:19:29 INFO  - Button 'tabSettings' :: Clicking
+2023-04-03 20:19:30 INFO  - Button 'tabSettings' :: Clicking
+2023-04-03 20:19:32 INFO  - Button 'Accounts' :: Clicking
+2023-04-03 20:19:34 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-03 20:19:34 INFO  - Button 'tabSettings' :: Clicking
+2023-04-03 20:19:35 INFO  - Button 'tabSettings' :: Clicking
+2023-04-03 20:19:36 INFO  - Button 'Accounts' :: Clicking
+2023-04-03 20:19:37 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-03 20:19:38 INFO  - Locking credential with barcode 01230000000002
+2023-04-03 20:19:38 INFO  - There are books on the account: 
+2023-04-03 20:19:39 INFO  - bookName: Faust Part 1 Distributor: Palace Marketplace
+2023-04-03 20:19:39 INFO  - bookName: Anna Karenina Distributor: Palace Marketplace
+2023-04-03 20:19:39 INFO  - bookName: Boy With Loaded Gun Distributor: Palace Marketplace
+2023-04-03 20:19:39 INFO  - bookName: The Story of a Boy Favored by Providence Distributor: Palace Marketplace
+2023-04-03 20:19:39 INFO  - bookName: Black Notice Distributor: Palace Marketplace
+2023-04-03 20:19:39 INFO  - bookName: The JFK Report Distributor: Palace Marketplace
+2023-04-03 20:19:39 INFO  - Count of books on the account after opening account: 6
+2023-04-03 20:19:39 INFO  - Text Field 'Card' :: Clearing
+2023-04-03 20:19:39 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-04-03 20:19:41 INFO  - Text Field 'Pin' :: Clearing
+2023-04-03 20:19:41 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-03 20:19:45 INFO  - Button 'Log in' :: Clicking
+2023-04-03 20:19:51 INFO  - Button 'Log ... action' :: Getting text from element
+2023-04-03 20:19:51 INFO  - Step 7 - Login is performed successfully
+2023-04-03 20:20:13 INFO  - Button 'Log ... action' :: Getting text from element
+2023-04-03 20:20:13 INFO  - Step 8 - Open Catalog
+2023-04-03 20:20:13 INFO  - Button 'tabCatalog' :: Clicking
+2023-04-03 20:20:34 INFO  - Step 9 - Open search modal
+2023-04-03 20:20:54 INFO  - Button 'Search' :: Clicking
+2023-04-03 20:20:57 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-03 20:20:57 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-04-03 20:20:57 INFO  - randomBookName: The Silver Medalist
+2023-04-03 20:20:57 INFO  - Error details button is not present
+2023-04-03 20:20:58 INFO  - Text Field 'Search value input' :: Sending keys 'The Silver Medalist'
+2023-04-03 20:21:01 INFO  - Error details button is not present
+2023-04-03 20:21:04 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-03 20:21:05 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-03 20:21:06 INFO  - Button 'actionButton' :: Clicking
+2023-04-03 20:21:13 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-03 20:21:14 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-03 20:21:15 INFO  - Label 'lblBookName' :: Clicking
+2023-04-03 20:21:15 INFO  - Step 13 - Click READ action button on book details screen
+2023-04-03 20:21:16 INFO  - Button 'Read' :: Clicking
+2023-04-03 20:21:17 INFO  - Step 14 - Scroll page forward from 7 to 9 times
+2023-04-03 20:21:17 INFO  - Scrolling 8 times on reader epub screen
+2023-04-03 20:21:45 INFO  - Step 15 - Open font settings
+2023-04-03 20:21:47 INFO  - Button 'btnFontSettings' :: Clicking
+2023-04-03 20:21:47 INFO  - Step 16 - Change contrast to BLACK_TEXT_ON_WHITE
+2023-04-03 20:21:47 INFO  - Button 'setThemeLight' :: Clicking
+2023-04-03 20:21:48 INFO  - Step 17 - The BLACK_TEXT_ON_WHITE background is correct
+2023-04-03 20:21:49 INFO  - context - NATIVE_APP
+2023-04-03 20:21:49 INFO  - context - WEBVIEW_Terrace
+2023-04-03 20:21:49 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-04-03 20:21:50 INFO  - Taking screenshot
+2023-04-03 20:21:51 INFO  - Test finished - logging out
+2023-04-03 20:21:53 INFO  - Button 'tabSettings' :: Clicking
+2023-04-03 20:21:55 INFO  - Button 'tabSettings' :: Clicking
+2023-04-03 20:21:57 INFO  - Button 'Accounts' :: Clicking
+2023-04-03 20:21:58 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-03 20:22:00 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-03 20:22:01 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-03 20:22:02 INFO  - Button 'Log out' :: Clicking
+2023-04-03 20:22:23 INFO  - Button 'Log in' :: Getting text from element
+2023-04-03 20:22:24 INFO  - Unlocking credential for current thread
+2023-04-03 20:22:24 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@23fec2ef
