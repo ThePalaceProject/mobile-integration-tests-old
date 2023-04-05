@@ -1,0 +1,86 @@
+2023-04-05 21:04:43 INFO  - Scenario 'Biblioboard: Check playback speed and sleep timer' start
+2023-04-05 21:04:43 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-05 21:05:10 INFO  - Application on platform 'ANDROID' is ready...
+2023-04-05 21:05:10 INFO  - Session id - b5b1ed148b87770fa16ed1a5130f5326c35681bc
+2023-04-05 21:05:10 INFO  - Step 0 - Close tutorial screen
+2023-04-05 21:05:10 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-05 21:05:12 INFO  - Step 1 - Welcome screen is opened
+2023-04-05 21:05:13 INFO  - Step 2 - Close welcome screen
+2023-04-05 21:05:13 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-04-05 21:05:13 INFO  - Step 3 - Add library screen is opened
+2023-04-05 21:05:15 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-05 21:05:15 INFO  - Button 'Search' :: Clicking
+2023-04-05 21:05:16 INFO  - Text Field 'Search' :: Clearing
+2023-04-05 21:05:16 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-04-05 21:05:19 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-05 21:05:19 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-05 21:05:19 INFO  - Button 'tabSettings' :: Clicking
+2023-04-05 21:05:21 INFO  - Button 'tabSettings' :: Clicking
+2023-04-05 21:05:22 INFO  - Button 'Accounts' :: Clicking
+2023-04-05 21:05:25 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-05 21:05:25 INFO  - Button 'tabSettings' :: Clicking
+2023-04-05 21:05:26 INFO  - Button 'tabSettings' :: Clicking
+2023-04-05 21:05:26 INFO  - Button 'Accounts' :: Clicking
+2023-04-05 21:05:28 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-05 21:05:28 INFO  - Locking credential with barcode 01230000000004
+2023-04-05 21:05:28 INFO  - There are books on the account: 
+2023-04-05 21:05:29 INFO  - bookName: The Great Displacement Distributor: Palace Marketplace
+2023-04-05 21:05:29 INFO  - bookName: How the Word Is Passed Distributor: Palace Marketplace
+2023-04-05 21:05:29 INFO  - bookName: Dream Hoarders Distributor: Palace Marketplace
+2023-04-05 21:05:29 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-04-05 21:05:29 INFO  - Count of books on the account after opening account: 4
+2023-04-05 21:05:29 INFO  - Text Field 'Card' :: Clearing
+2023-04-05 21:05:29 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-04-05 21:05:31 INFO  - Text Field 'Pin' :: Clearing
+2023-04-05 21:05:31 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-05 21:05:32 INFO  - Button 'Log in' :: Clicking
+2023-04-05 21:05:40 INFO  - Button 'Log ... action' :: Getting text from element
+2023-04-05 21:05:41 INFO  - Step 7 - Login is performed successfully
+2023-04-05 21:06:01 INFO  - Button 'Log ... action' :: Getting text from element
+2023-04-05 21:06:02 INFO  - Step 8 - Open Catalog
+2023-04-05 21:06:02 INFO  - Button 'tabCatalog' :: Clicking
+2023-04-05 21:06:25 INFO  - Step 9 - Open search modal
+2023-04-05 21:06:45 INFO  - Button 'Search' :: Clicking
+2023-04-05 21:06:46 INFO  - Step 10 - Search for "Nobody Move" and save bookName as 'bookNameInfo'
+2023-04-05 21:06:47 INFO  - Error details button is not present
+2023-04-05 21:06:47 INFO  - Text Field 'Search value input' :: Sending keys 'Nobody Move'
+2023-04-05 21:06:49 INFO  - Error details button is not present
+2023-04-05 21:06:52 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-04-05 21:06:52 INFO  - Button 'Audiobooks' :: Clicking
+2023-04-05 21:07:14 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-05 21:07:14 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-05 21:07:15 INFO  - Label 'lblBookName' :: Clicking
+2023-04-05 21:07:15 INFO  - Step 13 - Click GET action button on book details screen
+2023-04-05 21:07:16 INFO  - Button 'Get' :: Clicking
+2023-04-05 21:07:21 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-04-05 21:07:22 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-04-05 21:07:22 INFO  - Button 'Listen' :: Clicking
+2023-04-05 21:07:22 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-04-05 21:07:25 INFO  - Step 17 - The speed by default is 1.0
+2023-04-05 21:07:25 INFO  - Button 'Button play speed' :: Getting text from element
+2023-04-05 21:07:26 INFO  - Step 18 - Open playback speed on audio player screen
+2023-04-05 21:07:26 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-04-05 21:07:27 INFO  - Step 19 - Close playback speed screen
+2023-04-05 21:07:27 INFO  - Button 'Cancel button' :: Clicking
+2023-04-05 21:07:27 INFO  - Step 20 - Play button is present on audio player screen
+2023-04-05 21:07:31 INFO  - Step 21 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-04-05 21:07:31 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-04-05 21:07:32 INFO  - Button 'End of file' :: Clicking
+2023-04-05 21:07:32 INFO  - Step 22 - Sleep timer is set to endOfChapter on audio player screen
+2023-04-05 21:07:33 INFO  - Step 23 - Open sleep timer on audio player screen
+2023-04-05 21:07:33 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-04-05 21:07:33 INFO  - Step 24 - Close sleep timer screen
+2023-04-05 21:07:33 INFO  - Button 'Cancel button' :: Clicking
+2023-04-05 21:07:34 INFO  - Step 25 - Play button is present on audio player screen
+2023-04-05 21:07:35 INFO  - Taking screenshot
+2023-04-05 21:07:36 INFO  - Test finished - logging out
+2023-04-05 21:07:38 INFO  - Button 'tabSettings' :: Clicking
+2023-04-05 21:07:41 INFO  - Button 'tabSettings' :: Clicking
+2023-04-05 21:07:42 INFO  - Button 'Accounts' :: Clicking
+2023-04-05 21:07:42 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-05 21:07:44 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-05 21:07:44 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-05 21:07:44 INFO  - Button 'Log out' :: Clicking
+2023-04-05 21:08:05 INFO  - Button 'Log in' :: Getting text from element
+2023-04-05 21:08:05 INFO  - Unlocking credential for current thread
+2023-04-05 21:08:05 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1a7a9f7c
