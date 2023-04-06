@@ -1,0 +1,80 @@
+2023-04-06 22:52:46 INFO  - Scenario 'Check invalid data in searching Lyrasis' start
+2023-04-06 22:52:46 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-06 22:53:09 INFO  - Application on platform 'IOS' is ready...
+2023-04-06 22:53:09 INFO  - Session id - debc64679af2f9e0b008ab0f45162621d592f703
+2023-04-06 22:53:09 INFO  - Step 0 - Close tutorial screen
+2023-04-06 22:53:09 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-06 22:53:10 INFO  - Step 1 - Welcome screen is opened
+2023-04-06 22:53:11 INFO  - Step 2 - Close welcome screen
+2023-04-06 22:53:11 INFO  - Button 'Find your library button' :: Clicking
+2023-04-06 22:53:12 INFO  - Step 3 - Add library screen is opened
+2023-04-06 22:53:17 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-06 22:53:17 INFO  - Text Field 'Search field' :: Clicking
+2023-04-06 22:53:24 INFO  - Text Field 'Search field' :: Clearing
+2023-04-06 22:53:24 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-06 22:53:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-06 22:53:37 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-06 22:53:37 INFO  - Button 'Settings' :: Clicking
+2023-04-06 22:53:39 INFO  - Button 'Settings' :: Clicking
+2023-04-06 22:53:40 INFO  - Button 'Libraries button' :: Clicking
+2023-04-06 22:53:41 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-06 22:53:42 INFO  - Button 'Settings' :: Clicking
+2023-04-06 22:53:43 INFO  - Button 'Settings' :: Clicking
+2023-04-06 22:53:44 INFO  - Button 'Libraries button' :: Clicking
+2023-04-06 22:53:46 INFO  - Locking credential with barcode 01230000000002
+2023-04-06 22:53:46 INFO  - There are books on the account: 
+2023-04-06 22:53:47 INFO  - bookName: The JFK Report Distributor: Palace Marketplace
+2023-04-06 22:53:47 INFO  - bookName: Anna Karenina Distributor: Palace Marketplace
+2023-04-06 22:53:47 INFO  - bookName: Faust Part 1 Distributor: Palace Marketplace
+2023-04-06 22:53:47 INFO  - bookName: Black Notice Distributor: Palace Marketplace
+2023-04-06 22:53:47 INFO  - bookName: The Story of a Boy Favored by Providence Distributor: Palace Marketplace
+2023-04-06 22:53:47 INFO  - bookName: Boy With Loaded Gun Distributor: Palace Marketplace
+2023-04-06 22:53:47 INFO  - Count of books on the account after opening account: 6
+2023-04-06 22:54:08 INFO  - Text Field 'Card' :: Clicking
+2023-04-06 22:54:09 INFO  - Text Field 'Card' :: Clearing
+2023-04-06 22:54:09 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-04-06 22:54:12 INFO  - Text Field 'Pin' :: Clearing
+2023-04-06 22:54:12 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-06 22:54:16 INFO  - Button 'Log in' :: Clicking
+2023-04-06 22:54:38 INFO  - Step 7 - Login is performed successfully
+2023-04-06 22:54:39 INFO  - Step 8 - Open Catalog
+2023-04-06 22:54:39 INFO  - Button 'Catalog' :: Clicking
+2023-04-06 22:54:41 INFO  - Step 9 - Open search modal
+2023-04-06 22:54:42 INFO  - Button 'Search button' :: Clicking
+2023-04-06 22:54:44 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-06 22:54:44 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-04-06 22:54:44 INFO  - randomBookName: The Story of the Baltimore Orioles :
+2023-04-06 22:54:44 INFO  - Text Field 'Search value input' :: Sending keys 'The Story of the Baltimore Orioles :'
+2023-04-06 22:54:46 INFO  - Button 'Search' :: Clicking
+2023-04-06 22:54:49 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-04-06 22:54:49 INFO  - Button 'eBooks' :: Clicking
+2023-04-06 22:55:32 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-06 22:55:33 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-06 22:55:34 INFO  - Button 'actionButton' :: Clicking
+2023-04-06 22:55:56 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-04-06 22:55:58 INFO  - Step 14 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-06 22:55:59 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-06 22:56:00 INFO  - Label 'lblBookName' :: Clicking
+2023-04-06 22:56:01 INFO  - Step 15 - Click READ action button on book details screen
+2023-04-06 22:56:02 INFO  - Button 'Read' :: Clicking
+2023-04-06 22:56:23 INFO  - Step 16 - Reader pdf screen is opened
+2023-04-06 22:56:25 INFO  - Step 17 - Open search pdf screen
+2023-04-06 22:56:25 INFO  - Button 'Search button' :: Clicking
+2023-04-06 22:56:27 INFO  - Step 18 - Search pdf screen is opened
+2023-04-06 22:56:27 INFO  - Step 19 - Enter word <script>alert(‘hello world’)</script> and save as 'data' on search pdf screen
+2023-04-06 22:56:28 INFO  - Text Field 'Search line' :: Sending keys '<script>alert(‘hello world’)</script>'
+2023-04-06 22:56:30 INFO  - Step 20 - Search result is empty on search pdf screen
+2023-04-06 22:56:45 INFO  - Taking screenshot
+2023-04-06 22:56:46 INFO  - Test finished - logging out
+2023-04-06 22:56:49 INFO  - Button 'Settings' :: Clicking
+2023-04-06 22:56:50 INFO  - Button 'Settings' :: Clicking
+2023-04-06 22:56:51 INFO  - Button 'Libraries button' :: Clicking
+2023-04-06 22:56:55 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-06 22:56:56 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-06 22:56:57 INFO  - Button 'Log out' :: Clicking
+2023-04-06 22:56:58 INFO  - Button 'Log out approve' :: Clicking
+2023-04-06 22:57:19 INFO  - Button 'Log in' :: Getting text from element
+2023-04-06 22:57:20 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-06 22:57:20 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-06 22:57:21 INFO  - Unlocking credential for current thread
+2023-04-06 22:57:21 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@398e071
