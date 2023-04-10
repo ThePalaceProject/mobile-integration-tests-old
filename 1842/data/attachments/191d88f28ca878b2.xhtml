@@ -1,0 +1,350 @@
+2023-04-10 20:27:48 INFO  - Scenario 'Font settings: Check of text theme' start
+2023-04-10 20:27:48 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-10 20:28:21 INFO  - Application on platform 'ANDROID' is ready...
+2023-04-10 20:28:21 INFO  - Session id - 6a6f7a6a4a2c09504342f8d138755ad46d858412
+2023-04-10 20:28:21 INFO  - Step 0 - Close tutorial screen
+2023-04-10 20:28:21 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-10 20:28:24 INFO  - Step 1 - Welcome screen is opened
+2023-04-10 20:28:25 INFO  - Step 2 - Close welcome screen
+2023-04-10 20:28:25 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-04-10 20:28:25 INFO  - Step 3 - Add library screen is opened
+2023-04-10 20:28:27 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-10 20:28:27 INFO  - Button 'Search' :: Clicking
+2023-04-10 20:28:28 INFO  - Text Field 'Search' :: Clearing
+2023-04-10 20:28:28 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-04-10 20:28:31 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-10 20:28:31 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-10 20:28:31 INFO  - Button 'tabSettings' :: Clicking
+2023-04-10 20:28:33 INFO  - Button 'tabSettings' :: Clicking
+2023-04-10 20:28:34 INFO  - Button 'Accounts' :: Clicking
+2023-04-10 20:28:36 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-10 20:28:36 INFO  - Button 'tabSettings' :: Clicking
+2023-04-10 20:28:36 INFO  - Button 'tabSettings' :: Clicking
+2023-04-10 20:28:37 INFO  - Button 'Accounts' :: Clicking
+2023-04-10 20:28:39 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-10 20:28:40 INFO  - Locking credential with barcode 01230000000002
+2023-04-10 20:28:40 INFO  - There are books on the account: 
+2023-04-10 20:28:40 INFO  - bookName: The JFK Report Distributor: Palace Marketplace
+2023-04-10 20:28:40 INFO  - bookName: Black Notice Distributor: Palace Marketplace
+2023-04-10 20:28:40 INFO  - bookName: The Story of a Boy Favored by Providence Distributor: Palace Marketplace
+2023-04-10 20:28:40 INFO  - bookName: Boy With Loaded Gun Distributor: Palace Marketplace
+2023-04-10 20:28:40 INFO  - bookName: Anna Karenina Distributor: Palace Marketplace
+2023-04-10 20:28:40 INFO  - bookName: Faust Part 1 Distributor: Palace Marketplace
+2023-04-10 20:28:40 INFO  - Count of books on the account after opening account: 6
+2023-04-10 20:28:40 INFO  - Text Field 'Card' :: Clearing
+2023-04-10 20:28:40 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-04-10 20:28:42 INFO  - Text Field 'Pin' :: Clearing
+2023-04-10 20:28:42 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-10 20:28:45 INFO  - Button 'Log in' :: Clicking
+2023-04-10 20:28:51 INFO  - Button 'Log ... action' :: Getting text from element
+2023-04-10 20:28:51 INFO  - Step 7 - Login is performed successfully
+2023-04-10 20:29:13 INFO  - Button 'Log ... action' :: Getting text from element
+2023-04-10 20:29:13 INFO  - Step 8 - Open Catalog
+2023-04-10 20:29:13 INFO  - Button 'tabCatalog' :: Clicking
+2023-04-10 20:29:34 INFO  - Step 9 - Open search modal
+2023-04-10 20:29:54 INFO  - Button 'Search' :: Clicking
+2023-04-10 20:29:56 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-10 20:29:56 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-04-10 20:29:56 INFO  - randomBookName: Turn the Tables
+2023-04-10 20:29:56 INFO  - Error details button is not present
+2023-04-10 20:29:57 INFO  - Text Field 'Search value input' :: Sending keys 'Turn the Tables'
+2023-04-10 20:30:00 INFO  - Error details button is not present
+2023-04-10 20:30:03 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-10 20:30:04 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-10 20:30:04 INFO  - Button 'actionButton' :: Clicking
+2023-04-10 20:30:12 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-10 20:30:13 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-10 20:30:15 INFO  - Label 'lblBookName' :: Clicking
+2023-04-10 20:30:15 INFO  - Step 13 - Click READ action button on book details screen
+2023-04-10 20:30:16 INFO  - Button 'Read' :: Clicking
+2023-04-10 20:30:17 INFO  - Step 14 - Scroll page forward from 7 to 9 times
+2023-04-10 20:30:17 INFO  - Scrolling 8 times on reader epub screen
+2023-04-10 20:30:42 INFO  - Step 15 - Open font settings
+2023-04-10 20:30:43 INFO  - Button 'btnFontSettings' :: Clicking
+2023-04-10 20:30:44 INFO  - Step 16 - Change contrast to BLACK_TEXT_ON_WHITE
+2023-04-10 20:30:44 INFO  - Button 'setThemeLight' :: Clicking
+2023-04-10 20:30:45 INFO  - Step 17 - The BLACK_TEXT_ON_WHITE background is correct
+2023-04-10 20:30:45 INFO  - context - NATIVE_APP
+2023-04-10 20:30:45 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-04-10 20:30:45 INFO  - context - WEBVIEW_Terrace
+2023-04-10 20:30:47 INFO  - pageSourceWithSettingsStart+++++++++++++++++++++++++
+2023-04-10 20:30:47 INFO  - <html xmlns="http://www.w3.org/1999/xhtml" style="--RS__viewportWidth:calc(1080px / 2.8125); --USER__fontFamily:sans-serif; --USER__fontOverride:readium-font-on; --USER__appearance:readium-default-on; --USER__fontSize:100%; --USER__advancedSettings:readium-advanced-on; --USER__scroll:readium-scroll-off;">
+<head><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-before.css" />
+
+<meta name="generator" content="HTML Tidy for Linux (vers 7 December 2008), see www.w3.org" />
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8" />
+<title>Turn the Tables</title>
+<meta name="GENERATOR" content="OpenOffice.org 3.0 (Unix)" />
+<meta name="AUTHOR" content="JM Snyder" />
+<meta name="CREATED" content="20100531;20520000" />
+<meta name="CHANGEDBY" content="JM Snyder" />
+<meta name="CHANGED" content="20100712;20170000" />
+<meta name="eBook-CoverPath" content="F:\Writings\Published\JMS Books\J.M. Snyder\Turn the Tables\Turn the Tables Cover.jpg" />
+<meta name="eBook-PPCCoverPath" content="" />
+<meta name="eBook-PPCThumbPath" content="" />
+<meta name="eBook-SpinePath" content="" />
+<meta name="eBook-ThumbPath" content="" />
+<meta name="eBook-author" content="JM Snyder" />
+<meta name="eBook-filename" content="Turn_the_Tables_by_JM_Snyder_LIT.lit" />
+<meta name="eBook-title" content="Turn the Tables by JM Snyder" />
+<meta content="http://www.w3.org/1999/xhtml; charset=utf-8" http-equiv="Content-Type" /><link href="stylesheet.css" type="text/css" rel="stylesheet" /><style type="text/css">
+		@page { margin-bottom: 5.000000pt; margin-top: 5.000000pt; }</style><link rel="stylesheet" type="text/css" href="/assets/readium-css/ReadiumCSS-after.css" />
+<script type="text/javascript" src="/assets/scripts/gestures.js"></script>
+<script type="text/javascript" src="/assets/scripts/utils.js"></script>
+<script type="text/javascript" src="/assets/scripts/crypto-sha256.js"></script>
+<script type="text/javascript" src="/assets/scripts/highlight.js"></script>
+<style>@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Source+Sans+Pro|Vollkorn');</style>
+<style type="text/css"> @font-face{font-family: "OpenDyslexic"; src:url("/assets/fonts/OpenDyslexic-Regular.otf") format('truetype');}</style>
+</head>
+<body dir="ltr" class="calibre">
+<p class="western9" id="calibre_pb_2">Turn the Tables</p>
+<p class="western">By J.M. Snyder</p>
+<p class="c1"><br class="calibre2" /></p>
+<p class="western7">Vic Braunson came home from a long,
+exhausting evening at work to find the door to the apartment he
+shared with his lover Matt diLorenzo locked. Surprised, Vic dug his
+keys out of his pocket and fiddled with them for a moment in the
+hallway’s bad light until he managed to find the one that fit the
+door. He turned it in the lock, then placed a hand on the doorknob
+and felt a steady bass beating like a heart in the palm of his
+hand. As he opened the door, heavy music poured out into the hall.
+Quickly Vic stepped inside and shut the door behind him. Their
+neighbors would be complaining about that, if they hadn’t
+already.</p>
+<p class="western7">Locking the door, Vic kicked off his shoes
+and dropped his keys onto the nearby telephone table. “Matt?” he
+called, raising his voice over the thudding music. As he shrugged
+out of his jacket, he peeked into the living room where the stereo
+played, but all that stared back at him was Sadie, the
+golden-haired mutt he had rescued from the pound. She lay curled
+into a ball on Vic’s recliner, head in her paws and a suffering
+look on her face. Though Vic couldn’t read her mind, he knew she
+had to be thinking exactly what he himself thought at that moment.
+<i class="calibre3">Turn that shit down</i>.</p>
+<p class="western7">In two steps Vic crossed to the stereo and
+clicked off the power. Silence rushed into the room around him,
+pressing against his eardrums almost painfully. Unbuttoning his
+work shirt, he ambled into the kitchen in search of his lover, but
+Matt wasn’t there, either. A pot of spaghetti sauce simmering on
+the stove smelled heavenly, but there were no noodles draining in
+the sink or any plates out to suggest dinner might be ready.
+Heading down the hall to their bedroom, Vic called out again,
+“Matty?”</p>
+<p class="western7">His lover’s voice had a touch of playful
+wickedness to it when he replied, “You’ll find me eventually.
+You’re running out of places to look.”</p>
+<p class="western7">“It sounded like a damn club in here with
+that music,” Vic muttered, relieved. He dropped his shirt to the
+floor and set to work on his belt buckle. “You had to turn it up so
+loud?”</p>
+<p class="western7">The buckle was undone and hanging from the
+loops, the zipper on his work pants halfway down, when he turned
+the corner and finally found his lover. Whatever else he might have
+said dried up in the back of his throat and he swallowed, hard.</p>
+<p class="western7">Matt lay on their bed, head propped up on
+both their pillows, naked except for the dark shadows that pooled
+at his crotch. The lamp on Vic’s side of the bed shed the only
+light in the room, and it cast a golden glow across Matt’s olive
+skin, turning it a gloriously dusky shade. Dark hair whorled down
+his chest and arms and legs. Vic’s fingers ached to delve into the
+disheveled curls on top of Matt’s head; his tongue wanted to lick
+down all the hair between Matt’s crown and groin, then bury itself
+deep into the musk of Matt’s sex.</p>
+<p class="western7">Slowly the weariness Vic had felt all evening
+while at work fell away, replaced with a hunger that had nothing to
+do with the prospect of spaghetti. “Damn,” he managed. “You better
+be waiting for me.”</p>
+<p class="western7">“You better make it worth the wait,” Matt
+replied.</p>
+<p class="western7">With a seductive rustle of skin over satin,
+Matt spread his legs invitingly. Shadows parted and Vic saw the
+ruddy tip of his lover’s penis resting along his inner thigh. One
+of Matt’s hands trailed over his hip, fingertips rubbing through
+the thick thatch of hair at his crotch. Each circular movement
+stimulated his dick, awakening it. As Vic watched, Matt traced his
+forefinger along the shaft slowly. It stirred, thickening, and Matt
+stroked from the tip back to the base, then down again. With each
+pass he grew harder, his cock stiffening, lengthening.</p>
+<p class="western7">Vic couldn’t look away.</p>
+<p class="western7">Matt’s fingers pinched the tip of his dick
+and he gasped. The sound sent a shiver of delight down Vic’s spine.
+Suddenly he couldn’t move fast enough—he stumbled against the door
+frame as he shucked off his pants and underwear together, almost
+tripping in his haste to reach the bed. But when he tried to crawl
+onto the mattress, Matt blocked him with a stubborn foot against
+his knee. “Not so fast, sexy. You made me wait for you—”</p>
+<p class="western7">“I was at <i class="calibre3">work</i>,” Vic growled. He
+grabbed Matt’s foot in his hand and tried to shove it out of his
+way.</p>
+<p class="western7">But Matt was adamant. Pulling free from Vic’s
+grip, he set his foot flat against Vic’s thigh to hold him back.
+“Now you have to wait for me. I’m not ready yet.”</p>
+<p class="western7">As if to prove this, he closed his fist
+around his cock and squeezed. Another gasp escaped his lips; his
+foot slipped slightly and his toes curled against Vic’s inner
+thigh, digging into the sensitive skin.</p>
+<p class="western7">Vic would be damned if Matt expected him to
+stand there and watch as his lover got off without him. Already his
+slumbering cock pointed Matt’s way, the thick shaft flush against
+Vic’s pubic mound where it stood at attention. His balls hung heavy
+between his legs, eager to be pleased. He grabbed Matt’s foot in
+his hand and tugged. If Matt wouldn’t let him closer, then fine.
+Vic would bring Matt to <i class="calibre3">him</i> instead.</p>
+<p class="western7">Matt slid along the satin coverlet easily,
+almost without friction. “Hey!” he cried, surprised, as Vic reeled
+him in.</p>
+<p class="western7">When his other foot came into reach, Vic
+grabbed that, too, and used both legs to pull his lover closer. Now
+Matt lay back on the bed staring up at Vic, who held Matt’s feet
+both hands. The backs of Matt’s legs rested along Vic’s broad
+chest, his ass butting up firmly against Vic’s groin. Though Vic
+usually preferred to be on the receiving end during their
+lovemaking, the feel of Matt’s taut buttocks on his cock made Vic
+weak with desire.</p>
+<p class="western7">Vic had Matt right where he wanted him. He
+licked out and tasted the big toe on Matt’s left foot; another
+shiver raced down his spine, electrifying his dick. If there was
+one part on his lover Vic loved to love, it was Matt’s large,
+perfect feet. His lover knew of Vic’s fetish and kept himself
+groomed for Vic’s pleasure—there was nothing Vic loved more than a
+footjob, his cock thrust between the soles of Matt’s feet, and many
+times they cuddled on the couch with Vic lying on his back and Matt
+on his stomach above Vic, arms crossed on Vic’s calves so he could
+watch television as Vic rubbed his feet.</p>
+<p class="western7">Now Matt’s feet were smooth in Vic’s hands,
+the bottoms of his toes slightly pruny as if he’d taken a shower
+earlier and the skin hadn’t quite dried completely yet. The tiny
+ridges excited Vic—he let his tongue play over the underside of
+Matt’s toes and grinned as they wriggled from the ticklish
+sensation. Playfully Vic nipped at Matt’s slim third toe, which was
+a little longer than the others and stood out above them.</p>
+<p class="western7">With a snicker Matt tried to pull his leg
+away and couldn’t. Vic had his forearms locked around Matt’s knees,
+holding him tight, wrists pressing Matt’s ankles to his chest. As
+he suckled the toes on Matt’s left foot, his fingers laced through
+those on Matt’s right to massage them gently.</p>
+<p class="western7">Matt was aroused by the gentle foot play, and
+his cock jerked in his hands as he fondled himself. “Yes,” he
+sighed, writhing on the bed. Each move he made pressed his ass flat
+against Vic’s throbbing dick. Between them, Vic’s balls began to
+ache. Matt arched his foot in Vic’s palm and spread his toes as Vic
+licked between them. “Fuck me.”</p>
+<p class="western7">Vic froze. They rarely switched it up during
+sex—Vic liked the feel of a cock in his ass and little else got him
+off. Matt enjoyed being on top, in control, able to bring a burly,
+brawny man like Vic to release. The number of times Vic took the
+lead could be counted on one hand. But the idea of turning the
+tables this time excited Vic, and when he met Matt’s eyes, he saw
+the same thoughts burning lustily in his lover’s deep green
+gaze.</p>
+<p class="western7">“Fuck me,” Matt said again. “There’s lube by
+the bed. I got it out earlier.”</p>
+<p class="western7">Sure enough, a half-used tube lay on Matt’s
+bedside table. Vic reached for it with his left hand, unwilling to
+release Matt’s feet. But he couldn’t quite reach so Matt bent his
+knees, his feet slipping free to allow Vic a little extra
+stretching room. Vic snagged the tube by the end that was already
+crimped from use. It looked like a half-empty tube of toothpaste,
+well-worn and folded to get every last drop squeezed from it.</p>
+<p class="western7">When he turned back, Matt had placed the
+soles of his feet on Vic’s chest. Matt’s toes tickled Vic’s nipples
+as they fiddled with the small, silver hoops he wore pierced
+through them. While Vic tried to unscrew the cap on the lube, Matt
+spreading his knees apart to watch. The view Vic got when he looked
+down was wonderful. Matt’s cock curled up at Vic like a crooked
+finger calling him forward, his dark anus puckered like a
+promise.</p>
+<p class="western7">Vic fumbled a moment longer with the lube,
+then thought <i class="calibre3">fuck it</i> and settled for squeezing the tube hard
+enough to pop the cap off the end. It shot to the floor as cool,
+clear gel splashed Vic’s hands.</p>
+<p class="western7">Matt caught one of Vic’s nipple rings between
+his toes and pulled gently. Delight shot through Vic, exciting his
+dick. “Whoops.”</p>
+<p class="western7">“This is normally your job,” Vic grumbled.
+The gel warmed to his skin as he slathered it along his hard
+shaft.</p>
+<p class="western7">Using Vic for leverage, Matt pushed his feet
+against his lover’s chest and rose his hips up off the bed. “Fuck
+<i class="calibre3">meeee</i>,” he cried, his voice loud in their quiet
+apartment.</p>
+<p class="western7">“Keep it down,” Vic admonished, grabbing
+Matt’s dick with his slick hand. “You want the neighbors to
+hear?”</p>
+<p class="western7">“That’s why the music was on.” Matt thrust up
+into Vic’s palm, his feet flat against Vic’s chest. As Vic stroked
+Matt’s length, his other hand slid between Matt’s legs to
+distribute the lube there, as well. Matt fisted the satin coverlet
+beneath him when Vic’s large thumb rimmed his tight asshole, then
+eased inside. “Now! Please, now, Vic, <i class="calibre3">yes!</i>”</p>
+<p class="western7">It was an unusual sensation for Vic, watching
+his lover writhe beneath him. Every facial expression spoke of
+Matt’s pleasure, and Vic loved seeing what his next touch might
+bring. Hands grasping at the bed sheet, eyes squeezed shut, mouth a
+perfect <i class="calibre3">O</i> of desire. “Yes,” Matt panted, his breath coming
+in short, quick bursts as he fucked against Vic’s thumb. “Please,
+yes, Vic, <i class="calibre3">please</i>.”</p>
+<p class="western7">“Is that what I look like?” Vic wanted to
+know. He guided his cock to Matt’s ass and pressed the tip against
+the tight hole. His thumb popped free from Matt to trace the flared
+head. With a gentle nudge of his hips, he pushed into Matt just
+enough to cause his lover to cry out with lust. “Matty? I
+said—”</p>
+<p class="western7">“Just <i class="calibre3">fuck</i> me already!” Matt squirmed
+beneath him, hungry with desire. Then he laughed breathlessly.
+“That’s what you look like, Vic. Fuck me, fuck me! I never get
+tired of hearing you say that.”</p>
+<p class="western7">Confusion flickered across Vic’s face. “So
+wait, you’re not asking for it?”</p>
+<p class="western7">Matt’s reply was to relax his legs, which had
+been holding Vic back. His feet slid up Vic’s chest and over his
+shoulders, where Matt crossed his ankles behind Vic’s bald head.
+The move pulled Vic closer and he knelt on the edge of the bed,
+pulling Matt’s hips toward him as his cock shoved deep into Matt’s
+ass. “<i class="calibre3">Yes!</i>” Matt cried again. “God, you’re so big.”</p>
+<p class="western7">Spreading his knees, Vic took Matt’s weight
+onto his thighs and thrust into him with slow, even movements. His
+hands found Matt’s cock and balls, kneading them as they moved
+together. Behind Vic’s head, Matt’s toes flexed to rub against the
+base of Vic’s shaved scalp, a sexy sensation that made Vic harder
+than he thought possible. Matt’s ass constricted around his dick,
+pulsing, clenching, bringing Vic to climax.</p>
+<p class="western7">Just before he came, he pulled out to shoot
+his load onto Matt’s genitals. Cum beaded in the dark hair at
+Matt’s crotch, viscous and thick. Matt’s hard cock caught the brunt
+of it, the underside painted white. The fact that he was still
+erect bothered Vic. “You didn’t get off.”</p>
+<p class="western7">“Yet,” Matt amended. Lathering his dick with
+Vic’s juices, he told his lover, “Crawl up on here, big boy. Let me
+at that ass of yours.”</p>
+<p class="western7">His ankles unhooked from behind Vic’s neck
+and his legs dropped away on either side of Vic. Moving forward,
+Vic straddled Matt and felt the familiar touch of his lover’s
+fingers between his buttocks. He leaned down over Matt to claim his
+first kiss of the evening. As Matt guided his dick into place, Vic
+murmured against his mouth, “Fuck me, Matty.”</p>
+<p class="western7">He felt more than saw Matt’s smile. Sweet
+pain blossomed through Vic as his lover slid home. “I thought you’d
+never ask.”</p>
+<p class="western5"><br class="calibre2" /></p>
+<p class="western">THE END</p>
+</body>
+</html>
+2023-04-10 20:30:47 INFO  - pageSourceWithSettingsEnd+++++++++++++++++++++++++
+2023-04-10 20:30:47 INFO  - Step 18 - Restart app
+2023-04-10 20:31:12 INFO  - Step 19 - Open Books
+2023-04-10 20:31:12 INFO  - Button 'tabBooks' :: Clicking
+2023-04-10 20:31:13 INFO  - Step 20 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-04-10 20:31:33 INFO  - Label 'lblBookName' :: Clicking
+2023-04-10 20:31:54 INFO  - Taking screenshot
+2023-04-10 20:31:55 INFO  - Test finished - logging out
+2023-04-10 20:31:57 INFO  - Button 'tabSettings' :: Clicking
+2023-04-10 20:31:59 INFO  - Button 'tabSettings' :: Clicking
+2023-04-10 20:32:00 INFO  - Button 'Accounts' :: Clicking
+2023-04-10 20:32:02 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-10 20:32:04 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-10 20:32:04 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-10 20:32:04 INFO  - Button 'Log out' :: Clicking
+2023-04-10 20:32:25 INFO  - Button 'Log in' :: Getting text from element
+2023-04-10 20:32:25 INFO  - Unlocking credential for current thread
+2023-04-10 20:32:25 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@576ca85e
