@@ -1,0 +1,79 @@
+2023-04-11 22:48:20 INFO  - Scenario 'Check invalid data in searching Lyrasis' start
+2023-04-11 22:48:20 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-11 22:48:39 INFO  - Application on platform 'IOS' is ready...
+2023-04-11 22:48:39 INFO  - Session id - aa3f6bce243192db49bae89a639213e02c4f8413
+2023-04-11 22:48:39 INFO  - Step 0 - Close tutorial screen
+2023-04-11 22:48:39 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-11 22:48:40 INFO  - Step 1 - Welcome screen is opened
+2023-04-11 22:48:40 INFO  - Step 2 - Close welcome screen
+2023-04-11 22:48:40 INFO  - Button 'Find your library button' :: Clicking
+2023-04-11 22:48:41 INFO  - Step 3 - Add library screen is opened
+2023-04-11 22:48:45 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-11 22:48:45 INFO  - Text Field 'Search field' :: Clicking
+2023-04-11 22:48:51 INFO  - Text Field 'Search field' :: Clearing
+2023-04-11 22:48:51 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-11 22:49:01 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-11 22:49:02 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-11 22:49:02 INFO  - Button 'Settings' :: Clicking
+2023-04-11 22:49:03 INFO  - Button 'Settings' :: Clicking
+2023-04-11 22:49:04 INFO  - Button 'Libraries button' :: Clicking
+2023-04-11 22:49:05 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-11 22:49:05 INFO  - Button 'Settings' :: Clicking
+2023-04-11 22:49:05 INFO  - Button 'Settings' :: Clicking
+2023-04-11 22:49:06 INFO  - Button 'Libraries button' :: Clicking
+2023-04-11 22:49:08 INFO  - Locking credential with barcode 01230000000003
+2023-04-11 22:49:08 INFO  - There are books on the account: 
+2023-04-11 22:49:09 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2023-04-11 22:49:09 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-04-11 22:49:09 INFO  - bookName: The Black Kids Distributor: Palace Marketplace
+2023-04-11 22:49:09 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-04-11 22:49:09 INFO  - Count of books on the account after opening account: 4
+2023-04-11 22:49:30 INFO  - Text Field 'Card' :: Clicking
+2023-04-11 22:49:31 INFO  - Text Field 'Card' :: Clearing
+2023-04-11 22:49:31 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-04-11 22:49:33 INFO  - Text Field 'Pin' :: Clearing
+2023-04-11 22:49:33 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-11 22:49:36 INFO  - Button 'Log in' :: Clicking
+2023-04-11 22:49:45 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-04-11 22:49:47 INFO  - Step 7 - Login is performed successfully
+2023-04-11 22:49:48 INFO  - Step 8 - Open Catalog
+2023-04-11 22:49:48 INFO  - Button 'Catalog' :: Clicking
+2023-04-11 22:49:50 INFO  - Step 9 - Open search modal
+2023-04-11 22:49:51 INFO  - Button 'Search button' :: Clicking
+2023-04-11 22:49:54 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-11 22:49:54 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-04-11 22:49:54 INFO  - randomBookName: Modern Middle East
+2023-04-11 22:49:54 INFO  - Text Field 'Search value input' :: Sending keys 'Modern Middle East'
+2023-04-11 22:49:55 INFO  - Button 'Search' :: Clicking
+2023-04-11 22:49:57 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-04-11 22:49:57 INFO  - Button 'eBooks' :: Clicking
+2023-04-11 22:50:39 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-11 22:50:40 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-11 22:50:41 INFO  - Button 'actionButton' :: Clicking
+2023-04-11 22:51:03 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-04-11 22:51:04 INFO  - Step 14 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-11 22:51:06 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-11 22:51:07 INFO  - Label 'lblBookName' :: Clicking
+2023-04-11 22:51:08 INFO  - Step 15 - Click READ action button on book details screen
+2023-04-11 22:51:09 INFO  - Button 'Read' :: Clicking
+2023-04-11 22:51:31 INFO  - Step 16 - Reader pdf screen is opened
+2023-04-11 22:51:32 INFO  - Step 17 - Open search pdf screen
+2023-04-11 22:51:32 INFO  - Button 'Search button' :: Clicking
+2023-04-11 22:51:33 INFO  - Step 18 - Search pdf screen is opened
+2023-04-11 22:51:33 INFO  - Step 19 - Enter word <font color=red>Red text</font> and save as 'data' on search pdf screen
+2023-04-11 22:51:33 INFO  - Text Field 'Search line' :: Sending keys '<font color=red>Red text</font>'
+2023-04-11 22:51:35 INFO  - Step 20 - Search result is empty on search pdf screen
+2023-04-11 22:51:48 INFO  - Taking screenshot
+2023-04-11 22:51:49 INFO  - Test finished - logging out
+2023-04-11 22:51:52 INFO  - Button 'Settings' :: Clicking
+2023-04-11 22:51:53 INFO  - Button 'Settings' :: Clicking
+2023-04-11 22:51:54 INFO  - Button 'Libraries button' :: Clicking
+2023-04-11 22:51:57 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-11 22:51:58 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-11 22:51:58 INFO  - Button 'Log out' :: Clicking
+2023-04-11 22:51:59 INFO  - Button 'Log out approve' :: Clicking
+2023-04-11 22:52:20 INFO  - Button 'Log in' :: Getting text from element
+2023-04-11 22:52:21 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-11 22:52:22 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-11 22:52:22 INFO  - Unlocking credential for current thread
+2023-04-11 22:52:22 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@20a3749c
