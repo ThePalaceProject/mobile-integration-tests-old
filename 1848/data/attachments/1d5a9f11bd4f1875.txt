@@ -1,0 +1,103 @@
+2023-04-13 21:49:35 INFO  - Scenario 'Delete bookmarks' start
+2023-04-13 21:49:35 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-13 21:49:59 INFO  - Application on platform 'IOS' is ready...
+2023-04-13 21:49:59 INFO  - Session id - 39c9c4e7f41e6b2ca905870143e4b169153a344e
+2023-04-13 21:49:59 INFO  - Step 0 - Close tutorial screen
+2023-04-13 21:49:59 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-13 21:50:00 INFO  - Step 1 - Welcome screen is opened
+2023-04-13 21:50:00 INFO  - Step 2 - Close welcome screen
+2023-04-13 21:50:00 INFO  - Button 'Find your library button' :: Clicking
+2023-04-13 21:50:01 INFO  - Step 3 - Add library screen is opened
+2023-04-13 21:50:06 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-13 21:50:06 INFO  - Text Field 'Search field' :: Clicking
+2023-04-13 21:50:12 INFO  - Text Field 'Search field' :: Clearing
+2023-04-13 21:50:12 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-13 21:50:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-13 21:50:25 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-13 21:50:25 INFO  - Button 'Settings' :: Clicking
+2023-04-13 21:50:27 INFO  - Button 'Settings' :: Clicking
+2023-04-13 21:50:28 INFO  - Button 'Libraries button' :: Clicking
+2023-04-13 21:50:30 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-13 21:50:30 INFO  - Button 'Settings' :: Clicking
+2023-04-13 21:50:31 INFO  - Button 'Settings' :: Clicking
+2023-04-13 21:50:32 INFO  - Button 'Libraries button' :: Clicking
+2023-04-13 21:50:35 INFO  - Locking credential with barcode 01230000000003
+2023-04-13 21:50:35 INFO  - There are books on the account: 
+2023-04-13 21:50:36 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-04-13 21:50:36 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2023-04-13 21:50:36 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-04-13 21:50:36 INFO  - bookName: The Black Kids Distributor: Palace Marketplace
+2023-04-13 21:50:36 INFO  - Count of books on the account after opening account: 4
+2023-04-13 21:50:58 INFO  - Text Field 'Card' :: Clicking
+2023-04-13 21:50:59 INFO  - Text Field 'Card' :: Clearing
+2023-04-13 21:50:59 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-04-13 21:51:02 INFO  - Text Field 'Pin' :: Clearing
+2023-04-13 21:51:02 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-13 21:51:06 INFO  - Button 'Log in' :: Clicking
+2023-04-13 21:51:15 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-04-13 21:51:17 INFO  - Step 7 - Login is performed successfully
+2023-04-13 21:51:18 INFO  - Step 8 - Open Catalog
+2023-04-13 21:51:18 INFO  - Button 'Catalog' :: Clicking
+2023-04-13 21:51:21 INFO  - Step 9 - Open search modal
+2023-04-13 21:51:22 INFO  - Button 'Search button' :: Clicking
+2023-04-13 21:51:24 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-13 21:51:24 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-04-13 21:51:24 INFO  - randomBookName: Hearers of the Word
+2023-04-13 21:51:25 INFO  - Text Field 'Search value input' :: Sending keys 'Hearers of the Word'
+2023-04-13 21:51:26 INFO  - Button 'Search' :: Clicking
+2023-04-13 21:51:29 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-13 21:51:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-13 21:51:36 INFO  - Button 'actionButton' :: Clicking
+2023-04-13 21:51:58 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-13 21:52:00 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-13 21:52:01 INFO  - Label 'lblBookName' :: Clicking
+2023-04-13 21:52:02 INFO  - Step 13 - Click READ action button on book details screen
+2023-04-13 21:52:03 INFO  - Button 'Read' :: Clicking
+2023-04-13 21:52:24 INFO  - Step 14 - Open navigation bar on reader epub screen
+2023-04-13 21:52:25 INFO  - Step 15 - Add bookmark on reader epub screen
+2023-04-13 21:52:26 INFO  - Button 'Add Bookmark' :: Clicking
+2023-04-13 21:52:27 INFO  - Step 16 - Delete bookmark on reader epub screen
+2023-04-13 21:52:27 INFO  - Button 'Delete Bookmark' :: Clicking
+2023-04-13 21:52:28 INFO  - Step 17 - Bookmark is not displayed on reader epub screen
+2023-04-13 21:52:29 INFO  - Step 18 - Scroll page forward from 7 to 9 times
+2023-04-13 21:52:29 INFO  - Scrolling 8 times on reader epub screen
+2023-04-13 21:52:45 INFO  - Step 19 - Add bookmark on reader epub screen
+2023-04-13 21:52:45 INFO  - Button 'Add Bookmark' :: Clicking
+2023-04-13 21:52:47 INFO  - Step 20 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-04-13 21:52:47 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-04-13 21:52:47 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-04-13 21:52:48 INFO  - Step 21 - Save device time and date as 'deviceTimeDateKey'
+2023-04-13 21:52:48 INFO  - Step 22 - Open navigation bar on reader epub screen
+2023-04-13 21:52:49 INFO  - Step 23 - Open bookmarks epub screen
+2023-04-13 21:52:49 INFO  - Button 'Table of contents' :: Clicking
+2023-04-13 21:52:51 INFO  - Label 'tab' :: Clicking
+2023-04-13 21:52:52 INFO  - Step 24 - Delete bookmark on bookmarks epub screen
+2023-04-13 21:52:56 INFO  - Swiping from coordinates (x:195; y:174) to (x:26; y:174)
+2023-04-13 21:52:58 INFO  - Button 'btnDelete' :: Clicking
+2023-04-13 21:52:59 INFO  - Step 25 - Bookmark with 'chapterNameKey' and 'deviceTimeDateKey' is not displayed on bookmarks epub screen
+2023-04-13 21:52:59 INFO  - expected bookmark info: 
+2023-04-13 21:52:59 INFO  - expected bookmark title-Introduction
+2023-04-13 21:52:59 INFO  - actual year-2023
+2023-04-13 21:52:59 INFO  - actual month-4
+2023-04-13 21:52:59 INFO  - actual dayNumber-13
+2023-04-13 21:52:59 INFO  - actual min-52
+2023-04-13 21:52:59 INFO  - actual hour-21
+2023-04-13 21:53:00 INFO  - Step 26 - Return to reader epub screen from toc bookmarks epub screen
+2023-04-13 21:53:00 INFO  - Button 'Back button' :: Clicking
+2023-04-13 21:53:01 INFO  - Step 27 - Click on left book corner on epub reader screen
+2023-04-13 21:53:02 INFO  - Step 28 - 'chapterNameKey' chapter name is displayed on reader epub screen
+2023-04-13 21:53:02 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-04-13 21:53:03 INFO  - Taking screenshot
+2023-04-13 21:53:05 INFO  - Test finished - logging out
+2023-04-13 21:53:08 INFO  - Button 'Settings' :: Clicking
+2023-04-13 21:53:09 INFO  - Button 'Settings' :: Clicking
+2023-04-13 21:53:10 INFO  - Button 'Libraries button' :: Clicking
+2023-04-13 21:53:13 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-13 21:53:14 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-13 21:53:15 INFO  - Button 'Log out' :: Clicking
+2023-04-13 21:53:16 INFO  - Button 'Log out approve' :: Clicking
+2023-04-13 21:53:37 INFO  - Button 'Log in' :: Getting text from element
+2023-04-13 21:53:38 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-13 21:53:39 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-13 21:53:39 INFO  - Unlocking credential for current thread
+2023-04-13 21:53:39 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6154199e
