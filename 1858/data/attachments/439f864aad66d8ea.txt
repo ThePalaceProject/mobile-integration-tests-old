@@ -1,0 +1,91 @@
+2023-04-16 20:03:59 INFO  - Scenario 'Check end of chapter sleep timer' start
+2023-04-16 20:03:59 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-16 20:04:41 INFO  - Application on platform 'IOS' is ready...
+2023-04-16 20:04:41 INFO  - Session id - e2f5be466a9ee30608518cdcf37b354a254f8986
+2023-04-16 20:04:41 INFO  - Step 0 - Close tutorial screen
+2023-04-16 20:04:41 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-16 20:04:42 INFO  - Step 1 - Welcome screen is opened
+2023-04-16 20:04:42 INFO  - Step 2 - Close welcome screen
+2023-04-16 20:04:43 INFO  - Button 'Find your library button' :: Clicking
+2023-04-16 20:04:43 INFO  - Step 3 - Add library screen is opened
+2023-04-16 20:04:48 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-16 20:04:48 INFO  - Text Field 'Search field' :: Clicking
+2023-04-16 20:04:54 INFO  - Text Field 'Search field' :: Clearing
+2023-04-16 20:04:54 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-16 20:05:05 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-16 20:05:05 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-16 20:05:06 INFO  - Button 'Settings' :: Clicking
+2023-04-16 20:05:08 INFO  - Button 'Settings' :: Clicking
+2023-04-16 20:05:08 INFO  - Button 'Libraries button' :: Clicking
+2023-04-16 20:05:10 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-16 20:05:10 INFO  - Button 'Settings' :: Clicking
+2023-04-16 20:05:11 INFO  - Button 'Settings' :: Clicking
+2023-04-16 20:05:12 INFO  - Button 'Libraries button' :: Clicking
+2023-04-16 20:05:15 INFO  - Locking credential with barcode 01230000000004
+2023-04-16 20:05:15 INFO  - There are books on the account: 
+2023-04-16 20:05:16 INFO  - bookName: Dream Hoarders Distributor: Palace Marketplace
+2023-04-16 20:05:16 INFO  - Count of books on the account after opening account: 1
+2023-04-16 20:05:37 INFO  - Text Field 'Card' :: Clicking
+2023-04-16 20:05:38 INFO  - Text Field 'Card' :: Clearing
+2023-04-16 20:05:38 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-04-16 20:05:41 INFO  - Text Field 'Pin' :: Clearing
+2023-04-16 20:05:41 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-16 20:05:45 INFO  - Button 'Log in' :: Clicking
+2023-04-16 20:05:54 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-04-16 20:05:56 INFO  - Step 7 - Login is performed successfully
+2023-04-16 20:05:57 INFO  - Step 8 - Open Catalog
+2023-04-16 20:05:57 INFO  - Button 'Catalog' :: Clicking
+2023-04-16 20:05:59 INFO  - Step 9 - Open search modal
+2023-04-16 20:06:00 INFO  - Button 'Search button' :: Clicking
+2023-04-16 20:06:02 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-16 20:06:02 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-04-16 20:06:02 INFO  - randomBookName: The Alchemist
+2023-04-16 20:06:02 INFO  - Text Field 'Search value input' :: Sending keys 'The Alchemist'
+2023-04-16 20:06:03 INFO  - Button 'Search' :: Clicking
+2023-04-16 20:06:07 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-04-16 20:06:07 INFO  - Button 'Audiobooks' :: Clicking
+2023-04-16 20:06:49 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-16 20:06:50 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-16 20:06:52 INFO  - Label 'lblBookName' :: Clicking
+2023-04-16 20:06:53 INFO  - Step 13 - Click GET action button on book details screen
+2023-04-16 20:06:53 INFO  - Button 'Get' :: Clicking
+2023-04-16 20:07:38 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-04-16 20:07:39 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-04-16 20:07:40 INFO  - Button 'Listen' :: Clicking
+2023-04-16 20:08:02 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-04-16 20:08:03 INFO  - Step 17 - Open toc audiobook screen
+2023-04-16 20:08:03 INFO  - Button 'btnToc' :: Clicking
+2023-04-16 20:08:04 INFO  - Step 18 - The first chapter is loaded
+2023-04-16 20:08:33 INFO  - Step 19 - Open the 2 chapter on toc audiobook screen and save the chapter name as 'chapterName' and chapter number as 'chapterNumber'
+2023-04-16 20:08:33 INFO  - Label 'Chapter' :: Getting attribute 'name'
+2023-04-16 20:08:36 INFO  - Label 'Chapter' :: Clicking
+2023-04-16 20:08:39 INFO  - Step 20 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-04-16 20:08:39 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-04-16 20:08:44 INFO  - Button 'End of Chapter' :: Clicking
+2023-04-16 20:08:47 INFO  - Step 21 - Select 2X playback speed on playback speed audiobook screen
+2023-04-16 20:08:47 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-04-16 20:08:48 INFO  - Button 'Two times normal speed. Fastest.' :: Clicking
+2023-04-16 20:08:50 INFO  - Step 22 - Stretch slider on the time tracking line forward on audio player screen
+2023-04-16 20:08:52 INFO  - Step 23 - Listen a chapter on audio player screen
+2023-04-16 20:08:55 INFO  - Label 'lblRightTime' :: Getting attribute 'value'
+2023-04-16 20:08:56 INFO  - Step 24 - Play button is present on audio player screen
+2023-04-16 20:08:57 INFO  - Step 25 - Save the name of chapter as 'nextChapter' on audio player screen
+2023-04-16 20:08:57 INFO  - Label 'lblChapterName' :: Getting attribute 'value'
+2023-04-16 20:08:57 INFO  - Step 26 - Open toc audiobook screen
+2023-04-16 20:08:57 INFO  - Button 'btnToc' :: Clicking
+2023-04-16 20:09:00 INFO  - Step 27 - Chapter name next to 'chapterNumber' on toc audiobook screen is equal to 'nextChapter' saved chapter name
+2023-04-16 20:09:36 INFO  - Label 'element 3' :: Getting attribute 'name'
+2023-04-16 20:09:37 INFO  - Taking screenshot
+2023-04-16 20:09:41 INFO  - Test finished - logging out
+2023-04-16 20:09:50 INFO  - Button 'Settings' :: Clicking
+2023-04-16 20:09:51 INFO  - Button 'Settings' :: Clicking
+2023-04-16 20:09:54 INFO  - Button 'Libraries button' :: Clicking
+2023-04-16 20:10:01 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-16 20:10:01 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-16 20:10:03 INFO  - Button 'Log out' :: Clicking
+2023-04-16 20:10:04 INFO  - Button 'Log out approve' :: Clicking
+2023-04-16 20:10:25 INFO  - Button 'Log in' :: Getting text from element
+2023-04-16 20:10:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-16 20:10:28 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-16 20:10:28 INFO  - Unlocking credential for current thread
+2023-04-16 20:10:28 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2d67117c

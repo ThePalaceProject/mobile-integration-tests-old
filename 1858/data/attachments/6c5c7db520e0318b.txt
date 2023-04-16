@@ -1,0 +1,99 @@
+2023-04-16 19:46:19 INFO  - Scenario 'Check playback speed and sleep timer' start
+2023-04-16 19:46:19 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-16 19:46:40 INFO  - Application on platform 'IOS' is ready...
+2023-04-16 19:46:40 INFO  - Session id - 16ee3e87bdff0847d7affa4add1f71b5c56dc6bb
+2023-04-16 19:46:40 INFO  - Step 0 - Close tutorial screen
+2023-04-16 19:46:40 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-16 19:46:41 INFO  - Step 1 - Welcome screen is opened
+2023-04-16 19:46:41 INFO  - Step 2 - Close welcome screen
+2023-04-16 19:46:41 INFO  - Button 'Find your library button' :: Clicking
+2023-04-16 19:46:42 INFO  - Step 3 - Add library screen is opened
+2023-04-16 19:46:47 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-16 19:46:47 INFO  - Text Field 'Search field' :: Clicking
+2023-04-16 19:46:53 INFO  - Text Field 'Search field' :: Clearing
+2023-04-16 19:46:53 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-16 19:47:03 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-16 19:47:04 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-16 19:47:04 INFO  - Button 'Settings' :: Clicking
+2023-04-16 19:47:06 INFO  - Button 'Settings' :: Clicking
+2023-04-16 19:47:07 INFO  - Button 'Libraries button' :: Clicking
+2023-04-16 19:47:08 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-16 19:47:08 INFO  - Button 'Settings' :: Clicking
+2023-04-16 19:47:09 INFO  - Button 'Settings' :: Clicking
+2023-04-16 19:47:10 INFO  - Button 'Libraries button' :: Clicking
+2023-04-16 19:47:12 INFO  - Locking credential with barcode 01230000000002
+2023-04-16 19:47:12 INFO  - There are books on the account: 
+2023-04-16 19:47:13 INFO  - bookName: The JFK Report Distributor: Palace Marketplace
+2023-04-16 19:47:13 INFO  - bookName: Anna Karenina Distributor: Palace Marketplace
+2023-04-16 19:47:13 INFO  - Count of books on the account after opening account: 2
+2023-04-16 19:47:34 INFO  - Text Field 'Card' :: Clicking
+2023-04-16 19:47:35 INFO  - Text Field 'Card' :: Clearing
+2023-04-16 19:47:35 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-04-16 19:47:37 INFO  - Text Field 'Pin' :: Clearing
+2023-04-16 19:47:37 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-16 19:47:40 INFO  - Button 'Log in' :: Clicking
+2023-04-16 19:48:02 INFO  - Step 7 - Login is performed successfully
+2023-04-16 19:48:02 INFO  - Step 8 - Open Catalog
+2023-04-16 19:48:02 INFO  - Button 'Catalog' :: Clicking
+2023-04-16 19:48:04 INFO  - Step 9 - Open categories by chain and chain starts from CategoryScreen:
+2023-04-16 19:48:04 INFO  - Swiping from coordinates (x:195; y:260) to (x:195; y:675)
+2023-04-16 19:48:07 INFO  - Button 'Audible Studios' :: Clicking
+2023-04-16 19:48:12 INFO  - Step 10 - Category "Audible Studios" with books is opened on catalog books screen
+2023-04-16 19:48:15 INFO  - Step 11 - Get names of books on screen and save them as 'listOfBooks'
+2023-04-16 19:48:38 INFO  - Label 'element 1' :: Getting attribute 'name'
+2023-04-16 19:48:38 INFO  - Label 'element 2' :: Getting attribute 'name'
+2023-04-16 19:48:39 INFO  - Label 'element 3' :: Getting attribute 'name'
+2023-04-16 19:48:39 INFO  - Label 'element 4' :: Getting attribute 'name'
+2023-04-16 19:48:40 INFO  - Label 'element 5' :: Getting attribute 'name'
+2023-04-16 19:48:40 INFO  - Label 'element 6' :: Getting attribute 'name'
+2023-04-16 19:48:40 INFO  - Found list of books from all subcategories on screen - The Mystery of Mrs. Christie. Audiobook., Fahrenheit 451. Audiobook., Alice's Adventures in Wonderland. Audiobook., The Critique of Practical Reason. Audiobook., Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood. Audiobook., Cryptonomicon. Audiobook.
+2023-04-16 19:48:40 INFO  - amount of books from all subcategories on screen - 6
+2023-04-16 19:48:40 INFO  - Step 12 - Open Catalog
+2023-04-16 19:48:40 INFO  - Button 'Catalog' :: Clicking
+2023-04-16 19:48:42 INFO  - Step 13 - Open search modal
+2023-04-16 19:48:43 INFO  - Button 'Search button' :: Clicking
+2023-04-16 19:48:45 INFO  - Step 14 - Search for a AUDIOBOOK book from 'listOfBooks' and save as 'bookNameInfo'
+2023-04-16 19:48:45 INFO  - Text Field 'Search value input' :: Sending keys 'Alice's Adventures in Wonderland'
+2023-04-16 19:48:46 INFO  - Button 'Search' :: Clicking
+2023-04-16 19:48:49 INFO  - Step 15 - Switch to 'Audiobooks' catalog tab
+2023-04-16 19:48:49 INFO  - Button 'Audiobooks' :: Clicking
+2023-04-16 19:49:30 INFO  - Step 16 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-16 19:49:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-16 19:49:32 INFO  - Label 'lblBookName' :: Clicking
+2023-04-16 19:49:33 INFO  - Step 17 - Click GET action button on book details screen
+2023-04-16 19:49:33 INFO  - Button 'Get' :: Clicking
+2023-04-16 19:50:34 INFO  - Step 18 - Check that book contains LISTEN action button on book details screen
+2023-04-16 19:50:35 INFO  - Step 19 - Click LISTEN action button on book details screen
+2023-04-16 19:50:35 INFO  - Button 'Listen' :: Clicking
+2023-04-16 19:50:57 INFO  - Step 20 - Audio player screen of book 'bookInfo' is opened
+2023-04-16 19:50:57 INFO  - Step 21 - The speed by default is 1.0
+2023-04-16 19:50:57 INFO  - Button 'Button play speed' :: Getting text from element
+2023-04-16 19:50:58 INFO  - Step 22 - Open playback speed on audio player screen
+2023-04-16 19:50:58 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-04-16 19:50:59 INFO  - Step 23 - Close playback speed screen
+2023-04-16 19:50:59 INFO  - Button 'Cancel button' :: Clicking
+2023-04-16 19:51:00 INFO  - Step 24 - Play button is present on audio player screen
+2023-04-16 19:51:01 INFO  - Step 25 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-04-16 19:51:01 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-04-16 19:51:01 INFO  - Button 'End of Chapter' :: Clicking
+2023-04-16 19:51:02 INFO  - Step 26 - Sleep timer is set to endOfChapter on audio player screen
+2023-04-16 19:51:02 INFO  - Label 'lblRightTime' :: Getting attribute 'value'
+2023-04-16 19:51:04 INFO  - Step 27 - Open sleep timer on audio player screen
+2023-04-16 19:51:04 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-04-16 19:51:05 INFO  - Step 28 - Close sleep timer screen
+2023-04-16 19:51:05 INFO  - Button 'Cancel button' :: Clicking
+2023-04-16 19:51:05 INFO  - Step 29 - Play button is present on audio player screen
+2023-04-16 19:51:06 INFO  - Taking screenshot
+2023-04-16 19:51:08 INFO  - Test finished - logging out
+2023-04-16 19:51:11 INFO  - Button 'Settings' :: Clicking
+2023-04-16 19:51:12 INFO  - Button 'Settings' :: Clicking
+2023-04-16 19:51:12 INFO  - Button 'Libraries button' :: Clicking
+2023-04-16 19:51:15 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-16 19:51:16 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-16 19:51:16 INFO  - Button 'Log out' :: Clicking
+2023-04-16 19:51:17 INFO  - Button 'Log out approve' :: Clicking
+2023-04-16 19:51:38 INFO  - Button 'Log in' :: Getting text from element
+2023-04-16 19:51:39 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-16 19:51:39 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-16 19:51:40 INFO  - Unlocking credential for current thread
+2023-04-16 19:51:40 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@b54612b
