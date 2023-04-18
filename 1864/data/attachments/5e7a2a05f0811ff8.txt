@@ -1,0 +1,76 @@
+2023-04-18 21:13:51 INFO  - Scenario 'Navigate by Page' start
+2023-04-18 21:13:51 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-18 21:14:10 INFO  - Application on platform 'IOS' is ready...
+2023-04-18 21:14:10 INFO  - Session id - 2ccae248dda8beb7768beaa87fd988494c9396cf
+2023-04-18 21:14:10 INFO  - Step 0 - Close tutorial screen
+2023-04-18 21:14:11 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-18 21:14:11 INFO  - Step 1 - Welcome screen is opened
+2023-04-18 21:14:12 INFO  - Step 2 - Close welcome screen
+2023-04-18 21:14:12 INFO  - Button 'Find your library button' :: Clicking
+2023-04-18 21:14:13 INFO  - Step 3 - Add library screen is opened
+2023-04-18 21:14:17 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-18 21:14:17 INFO  - Text Field 'Search field' :: Clicking
+2023-04-18 21:14:23 INFO  - Text Field 'Search field' :: Clearing
+2023-04-18 21:14:23 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-18 21:14:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-18 21:14:35 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-18 21:14:35 INFO  - Button 'Settings' :: Clicking
+2023-04-18 21:14:36 INFO  - Button 'Settings' :: Clicking
+2023-04-18 21:14:37 INFO  - Button 'Libraries button' :: Clicking
+2023-04-18 21:14:38 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-18 21:14:38 INFO  - Button 'Settings' :: Clicking
+2023-04-18 21:14:39 INFO  - Button 'Settings' :: Clicking
+2023-04-18 21:14:40 INFO  - Button 'Libraries button' :: Clicking
+2023-04-18 21:14:43 INFO  - Locking credential with barcode 01230000000003
+2023-04-18 21:14:43 INFO  - There are books on the account: 
+2023-04-18 21:14:44 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-04-18 21:14:44 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-04-18 21:14:44 INFO  - bookName: The Montessori Baby Distributor: Palace Marketplace
+2023-04-18 21:14:44 INFO  - Count of books on the account after opening account: 3
+2023-04-18 21:15:05 INFO  - Text Field 'Card' :: Clicking
+2023-04-18 21:15:06 INFO  - Text Field 'Card' :: Clearing
+2023-04-18 21:15:06 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-04-18 21:15:09 INFO  - Text Field 'Pin' :: Clearing
+2023-04-18 21:15:09 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-18 21:15:12 INFO  - Button 'Log in' :: Clicking
+2023-04-18 21:15:20 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-04-18 21:15:21 INFO  - Step 7 - Login is performed successfully
+2023-04-18 21:15:22 INFO  - Step 8 - Open Catalog
+2023-04-18 21:15:22 INFO  - Button 'Catalog' :: Clicking
+2023-04-18 21:15:24 INFO  - Step 9 - Open search modal
+2023-04-18 21:15:25 INFO  - Button 'Search button' :: Clicking
+2023-04-18 21:15:27 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-18 21:15:27 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-04-18 21:15:27 INFO  - randomBookName: The Flash: The Secret Files of Barry Allen
+2023-04-18 21:15:28 INFO  - Text Field 'Search value input' :: Sending keys 'The Flash: The Secret Files of Barry Allen'
+2023-04-18 21:15:29 INFO  - Button 'Search' :: Clicking
+2023-04-18 21:15:32 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-18 21:15:33 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-18 21:15:35 INFO  - Button 'actionButton' :: Clicking
+2023-04-18 21:15:57 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-18 21:16:02 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-18 21:16:04 INFO  - Label 'lblBookName' :: Clicking
+2023-04-18 21:16:05 INFO  - Step 13 - Click READ action button on book details screen
+2023-04-18 21:16:06 INFO  - Button 'Read' :: Clicking
+2023-04-18 21:16:28 INFO  - Step 14 - 'bookInfo' book is present on epub reader screen
+2023-04-18 21:16:28 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-04-18 21:16:28 INFO  - Book name on epub reader screen - The Flash: The Secret Files of Barry Allen
+2023-04-18 21:16:28 INFO  - Step 15 - Scroll page forward from 7 to 10 times
+2023-04-18 21:16:28 INFO  - Scrolling 8 times on reader epub screen
+2023-04-18 21:16:41 INFO  - Step 16 - Open navigation bar on reader epub screen
+2023-04-18 21:16:42 INFO  - Step 17 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-04-18 21:16:42 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-04-18 21:16:42 INFO  - Taking screenshot
+2023-04-18 21:16:45 INFO  - Test finished - logging out
+2023-04-18 21:16:48 INFO  - Button 'Settings' :: Clicking
+2023-04-18 21:16:49 INFO  - Button 'Settings' :: Clicking
+2023-04-18 21:16:50 INFO  - Button 'Libraries button' :: Clicking
+2023-04-18 21:16:53 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-18 21:16:54 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-18 21:16:55 INFO  - Button 'Log out' :: Clicking
+2023-04-18 21:16:56 INFO  - Button 'Log out approve' :: Clicking
+2023-04-18 21:17:17 INFO  - Button 'Log in' :: Getting text from element
+2023-04-18 21:17:18 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-18 21:17:19 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-18 21:17:20 INFO  - Unlocking credential for current thread
+2023-04-18 21:17:20 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@31d93f81
