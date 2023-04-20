@@ -1,0 +1,76 @@
+2023-04-20 21:13:21 INFO  - Scenario 'Get a book from Subcategory List View and Return from Books in LYRASIS' start
+2023-04-20 21:13:21 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-20 21:13:41 INFO  - Application on platform 'IOS' is ready...
+2023-04-20 21:13:41 INFO  - Session id - 191c163f84b2028332344adb1d3aacd0dc1a71a8
+2023-04-20 21:13:41 INFO  - Step 0 - Close tutorial screen
+2023-04-20 21:13:41 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-20 21:13:42 INFO  - Step 1 - Welcome screen is opened
+2023-04-20 21:13:43 INFO  - Step 2 - Close welcome screen
+2023-04-20 21:13:43 INFO  - Button 'Find your library button' :: Clicking
+2023-04-20 21:13:44 INFO  - Step 3 - Add library screen is opened
+2023-04-20 21:13:49 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-20 21:13:49 INFO  - Text Field 'Search field' :: Clicking
+2023-04-20 21:13:55 INFO  - Text Field 'Search field' :: Clearing
+2023-04-20 21:13:55 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-20 21:14:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-20 21:14:07 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-20 21:14:07 INFO  - Button 'Settings' :: Clicking
+2023-04-20 21:14:09 INFO  - Button 'Settings' :: Clicking
+2023-04-20 21:14:10 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 21:14:12 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-20 21:14:12 INFO  - Button 'Settings' :: Clicking
+2023-04-20 21:14:13 INFO  - Button 'Settings' :: Clicking
+2023-04-20 21:14:14 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 21:14:17 INFO  - Locking credential with barcode 01230000000004
+2023-04-20 21:14:17 INFO  - There are books on the account: 
+2023-04-20 21:14:18 INFO  - There is not books on the account.
+2023-04-20 21:14:18 INFO  - Count of books on the account after opening account: 0
+2023-04-20 21:14:40 INFO  - Text Field 'Card' :: Clicking
+2023-04-20 21:14:41 INFO  - Text Field 'Card' :: Clearing
+2023-04-20 21:14:41 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-04-20 21:14:44 INFO  - Text Field 'Pin' :: Clearing
+2023-04-20 21:14:44 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-20 21:14:47 INFO  - Button 'Log in' :: Clicking
+2023-04-20 21:14:55 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-04-20 21:14:57 INFO  - Step 7 - Login is performed successfully
+2023-04-20 21:14:58 INFO  - Step 8 - Open Catalog
+2023-04-20 21:14:58 INFO  - Button 'Catalog' :: Clicking
+2023-04-20 21:15:00 INFO  - Step 9 - Open search modal
+2023-04-20 21:15:01 INFO  - Button 'Search button' :: Clicking
+2023-04-20 21:15:03 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-20 21:15:03 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-04-20 21:15:03 INFO  - randomBookName: The Secret Next Door
+2023-04-20 21:15:04 INFO  - Text Field 'Search value input' :: Sending keys 'The Secret Next Door'
+2023-04-20 21:15:05 INFO  - Button 'Search' :: Clicking
+2023-04-20 21:15:09 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-04-20 21:15:09 INFO  - Button 'eBooks' :: Clicking
+2023-04-20 21:15:52 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-20 21:15:53 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-20 21:15:54 INFO  - Button 'actionButton' :: Clicking
+2023-04-20 21:16:16 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-04-20 21:16:17 INFO  - Step 14 - Click READ action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-20 21:16:19 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-20 21:16:20 INFO  - Button 'actionButton' :: Clicking
+2023-04-20 21:16:41 INFO  - Step 15 - Wait for 3 seconds
+2023-04-20 21:16:44 INFO  - Step 16 - 'bookInfo' book is present on epub reader screen
+2023-04-20 21:16:45 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-04-20 21:16:45 INFO  - Book name on epub reader screen - The Secret Next Door
+2023-04-20 21:16:45 INFO  - Step 17 - Return to previous screen for epub and pdf
+2023-04-20 21:16:46 INFO  - Button 'btnBack' :: Clicking
+2023-04-20 21:16:47 INFO  - Step 18 - Open Books
+2023-04-20 21:16:47 INFO  - Button 'My Books' :: Clicking
+2023-04-20 21:16:48 INFO  - Step 19 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-04-20 21:17:29 INFO  - Taking screenshot
+2023-04-20 21:17:30 INFO  - Test finished - logging out
+2023-04-20 21:17:34 INFO  - Button 'Settings' :: Clicking
+2023-04-20 21:17:36 INFO  - Button 'Settings' :: Clicking
+2023-04-20 21:17:37 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 21:17:40 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-20 21:17:41 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-20 21:17:42 INFO  - Button 'Log out' :: Clicking
+2023-04-20 21:17:43 INFO  - Button 'Log out approve' :: Clicking
+2023-04-20 21:18:05 INFO  - Button 'Log in' :: Getting text from element
+2023-04-20 21:18:05 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-20 21:18:06 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-20 21:18:07 INFO  - Unlocking credential for current thread
+2023-04-20 21:18:07 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@122fc5

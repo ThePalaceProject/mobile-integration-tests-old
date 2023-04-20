@@ -1,0 +1,82 @@
+2023-04-20 21:57:39 INFO  - Scenario 'Navigate by Page Lyrasis' start
+2023-04-20 21:57:39 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-20 21:58:00 INFO  - Application on platform 'IOS' is ready...
+2023-04-20 21:58:00 INFO  - Session id - f4574f187d6a788c6fb1c9f22114c4870c4681a0
+2023-04-20 21:58:00 INFO  - Step 0 - Close tutorial screen
+2023-04-20 21:58:00 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-20 21:58:01 INFO  - Step 1 - Welcome screen is opened
+2023-04-20 21:58:01 INFO  - Step 2 - Close welcome screen
+2023-04-20 21:58:01 INFO  - Button 'Find your library button' :: Clicking
+2023-04-20 21:58:02 INFO  - Step 3 - Add library screen is opened
+2023-04-20 21:58:07 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-20 21:58:07 INFO  - Text Field 'Search field' :: Clicking
+2023-04-20 21:58:13 INFO  - Text Field 'Search field' :: Clearing
+2023-04-20 21:58:13 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-20 21:58:24 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-20 21:58:25 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-20 21:58:26 INFO  - Button 'Settings' :: Clicking
+2023-04-20 21:58:27 INFO  - Button 'Settings' :: Clicking
+2023-04-20 21:58:28 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 21:58:29 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-20 21:58:29 INFO  - Button 'Settings' :: Clicking
+2023-04-20 21:58:30 INFO  - Button 'Settings' :: Clicking
+2023-04-20 21:58:31 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 21:58:34 INFO  - Locking credential with barcode 01230000000005
+2023-04-20 21:58:34 INFO  - There are books on the account: 
+2023-04-20 21:58:35 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-04-20 21:58:35 INFO  - Count of books on the account after opening account: 1
+2023-04-20 21:58:56 INFO  - Text Field 'Card' :: Clicking
+2023-04-20 21:58:57 INFO  - Text Field 'Card' :: Clearing
+2023-04-20 21:58:57 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-04-20 21:59:00 INFO  - Text Field 'Pin' :: Clearing
+2023-04-20 21:59:00 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-20 21:59:04 INFO  - Button 'Log in' :: Clicking
+2023-04-20 21:59:12 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-04-20 21:59:14 INFO  - Step 7 - Login is performed successfully
+2023-04-20 21:59:14 INFO  - Step 8 - Open Catalog
+2023-04-20 21:59:15 INFO  - Button 'Catalog' :: Clicking
+2023-04-20 21:59:18 INFO  - Step 9 - Open search modal
+2023-04-20 21:59:18 INFO  - Button 'Search button' :: Clicking
+2023-04-20 21:59:20 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-20 21:59:20 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-04-20 21:59:20 INFO  - randomBookName: Balance Beam :
+2023-04-20 21:59:21 INFO  - Text Field 'Search value input' :: Sending keys 'Balance Beam :'
+2023-04-20 21:59:22 INFO  - Button 'Search' :: Clicking
+2023-04-20 21:59:25 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-04-20 21:59:25 INFO  - Button 'eBooks' :: Clicking
+2023-04-20 22:00:06 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-20 22:00:07 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-20 22:00:08 INFO  - Button 'actionButton' :: Clicking
+2023-04-20 22:00:30 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-04-20 22:00:32 INFO  - Step 14 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-20 22:00:33 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-20 22:00:34 INFO  - Label 'lblBookName' :: Clicking
+2023-04-20 22:00:37 INFO  - Step 15 - Click READ action button on book details screen
+2023-04-20 22:00:37 INFO  - Button 'Read' :: Clicking
+2023-04-20 22:00:58 INFO  - Step 16 - Reader pdf screen is opened
+2023-04-20 22:00:59 INFO  - Step 17 - Save page number as 'pageInfo' on pdf reader screen
+2023-04-20 22:01:00 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-04-20 22:01:03 INFO  - Step 18 - Go to next page on reader pdf screen
+2023-04-20 22:01:08 INFO  - Swiping from coordinates (x:292; y:302) to (x:2; y:302)
+2023-04-20 22:01:10 INFO  - Step 19 - Page number increased by 1 from 'pageInfo' on pdf reader screen
+2023-04-20 22:01:31 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-04-20 22:01:33 INFO  - Step 20 - Save page number as 'pageInfo2' on pdf reader screen
+2023-04-20 22:01:35 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-04-20 22:01:37 INFO  - Step 21 - Go to previous page on reader pdf screen
+2023-04-20 22:01:40 INFO  - Swiping from coordinates (x:98; y:175) to (x:387; y:175)
+2023-04-20 22:01:42 INFO  - Step 22 - Page number decreased by 1 from 'pageInfo2' on pdf reader screen
+2023-04-20 22:02:04 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-04-20 22:02:06 INFO  - Taking screenshot
+2023-04-20 22:02:15 INFO  - Test finished - logging out
+2023-04-20 22:02:18 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:02:19 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:02:22 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 22:02:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-20 22:02:28 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-20 22:02:28 INFO  - Button 'Log out' :: Clicking
+2023-04-20 22:02:30 INFO  - Button 'Log out approve' :: Clicking
+2023-04-20 22:02:52 INFO  - Button 'Log in' :: Getting text from element
+2023-04-20 22:02:53 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-20 22:02:54 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-20 22:02:54 INFO  - Unlocking credential for current thread
+2023-04-20 22:02:54 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7a023bf4

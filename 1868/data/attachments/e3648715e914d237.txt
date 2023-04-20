@@ -1,0 +1,84 @@
+2023-04-20 21:59:09 INFO  - Scenario 'BiblioBoard: Check of not rewinding forward and back by tapping on time bar' start
+2023-04-20 21:59:09 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-20 21:59:38 INFO  - Application on platform 'IOS' is ready...
+2023-04-20 21:59:38 INFO  - Session id - de3b645fefbe64e78855a4eea80e140905c85a07
+2023-04-20 21:59:38 INFO  - Step 0 - Close tutorial screen
+2023-04-20 21:59:38 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-20 21:59:40 INFO  - Step 1 - Welcome screen is opened
+2023-04-20 21:59:41 INFO  - Step 2 - Close welcome screen
+2023-04-20 21:59:41 INFO  - Button 'Find your library button' :: Clicking
+2023-04-20 21:59:42 INFO  - Step 3 - Add library screen is opened
+2023-04-20 21:59:46 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-20 21:59:46 INFO  - Text Field 'Search field' :: Clicking
+2023-04-20 21:59:53 INFO  - Text Field 'Search field' :: Clearing
+2023-04-20 21:59:53 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-20 22:00:04 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-20 22:00:05 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-20 22:00:05 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:00:10 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:00:12 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 22:00:14 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-20 22:00:14 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:00:15 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:00:16 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 22:00:19 INFO  - Locking credential with barcode 01230000000002
+2023-04-20 22:00:19 INFO  - There are books on the account: 
+2023-04-20 22:00:20 INFO  - There is not books on the account.
+2023-04-20 22:00:20 INFO  - Count of books on the account after opening account: 0
+2023-04-20 22:00:42 INFO  - Text Field 'Card' :: Clicking
+2023-04-20 22:00:43 INFO  - Text Field 'Card' :: Clearing
+2023-04-20 22:00:43 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-04-20 22:00:46 INFO  - Text Field 'Pin' :: Clearing
+2023-04-20 22:00:46 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-20 22:00:50 INFO  - Button 'Log in' :: Clicking
+2023-04-20 22:01:12 INFO  - Step 7 - Login is performed successfully
+2023-04-20 22:01:13 INFO  - Step 8 - Open Catalog
+2023-04-20 22:01:13 INFO  - Button 'Catalog' :: Clicking
+2023-04-20 22:01:17 INFO  - Step 9 - Open search modal
+2023-04-20 22:01:18 INFO  - Button 'Search button' :: Clicking
+2023-04-20 22:01:21 INFO  - Step 10 - Search for "Daykeeper" and save bookName as 'bookNameInfo'
+2023-04-20 22:01:22 INFO  - Text Field 'Search value input' :: Sending keys 'Daykeeper'
+2023-04-20 22:01:23 INFO  - Button 'Search' :: Clicking
+2023-04-20 22:01:27 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-04-20 22:01:27 INFO  - Button 'Audiobooks' :: Clicking
+2023-04-20 22:02:09 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-20 22:02:11 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-20 22:02:13 INFO  - Label 'lblBookName' :: Clicking
+2023-04-20 22:02:14 INFO  - Step 13 - Click GET action button on book details screen
+2023-04-20 22:02:15 INFO  - Button 'Get' :: Clicking
+2023-04-20 22:02:58 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-04-20 22:03:00 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-04-20 22:03:00 INFO  - Button 'Listen' :: Clicking
+2023-04-20 22:03:22 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-04-20 22:03:23 INFO  - Step 17 - Tap play button on audio player screen
+2023-04-20 22:03:23 INFO  - Button 'btnPlay' :: Clicking
+2023-04-20 22:03:25 INFO  - Step 18 - Pause button is present on audio player screen
+2023-04-20 22:03:26 INFO  - Step 19 - Tap pause button on audio player screen
+2023-04-20 22:03:26 INFO  - Button 'btnPause' :: Clicking
+2023-04-20 22:03:27 INFO  - Step 20 - Play button is present on audio player screen
+2023-04-20 22:03:28 INFO  - Step 21 - Stretch slider on the time tracking line forward on audio player screen
+2023-04-20 22:03:30 INFO  - Step 22 - Wait for 5 seconds
+2023-04-20 22:03:35 INFO  - Step 23 - Save book play time as 'timeBehind' on audio player screen
+2023-04-20 22:03:35 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2023-04-20 22:03:36 INFO  - Step 24 - Tap on the time bar forward on audio player screen
+2023-04-20 22:03:39 INFO  - Step 25 - Save book play time as 'timeForward' on audio player screen
+2023-04-20 22:03:39 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2023-04-20 22:03:40 INFO  - Step 26 - Play times 'timeBehind' and 'timeForward' are equals
+2023-04-20 22:03:40 INFO  - Step 27 - Tap on the time bar back on audio player screen
+2023-04-20 22:03:43 INFO  - Step 28 - Save book play time as 'timeBackward' on audio player screen
+2023-04-20 22:03:43 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2023-04-20 22:03:43 INFO  - Step 29 - Play times 'timeBehind' and 'timeBackward' are equals
+2023-04-20 22:03:43 INFO  - Taking screenshot
+2023-04-20 22:03:46 INFO  - Test finished - logging out
+2023-04-20 22:03:49 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:03:50 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:03:51 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 22:03:55 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-20 22:03:56 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-20 22:03:57 INFO  - Button 'Log out' :: Clicking
+2023-04-20 22:03:58 INFO  - Button 'Log out approve' :: Clicking
+2023-04-20 22:04:20 INFO  - Button 'Log in' :: Getting text from element
+2023-04-20 22:04:21 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-20 22:04:23 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-20 22:04:24 INFO  - Unlocking credential for current thread
+2023-04-20 22:04:24 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3bbef93d

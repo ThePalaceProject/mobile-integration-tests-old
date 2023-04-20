@@ -1,0 +1,76 @@
+2023-04-20 22:54:51 INFO  - Scenario 'Alert: Check of Cancel button after Remove button tapping' start
+2023-04-20 22:54:51 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-20 22:55:11 INFO  - Application on platform 'IOS' is ready...
+2023-04-20 22:55:11 INFO  - Session id - 224cbb040f3a932546a83a2118ef540b8c96d097
+2023-04-20 22:55:11 INFO  - Step 0 - Close tutorial screen
+2023-04-20 22:55:11 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-20 22:55:12 INFO  - Step 1 - Welcome screen is opened
+2023-04-20 22:55:12 INFO  - Step 2 - Close welcome screen
+2023-04-20 22:55:12 INFO  - Button 'Find your library button' :: Clicking
+2023-04-20 22:55:13 INFO  - Step 3 - Add library screen is opened
+2023-04-20 22:55:18 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-20 22:55:18 INFO  - Text Field 'Search field' :: Clicking
+2023-04-20 22:55:24 INFO  - Text Field 'Search field' :: Clearing
+2023-04-20 22:55:24 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-20 22:55:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-20 22:55:36 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-20 22:55:36 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:55:37 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:55:39 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 22:55:40 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-20 22:55:41 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:55:42 INFO  - Button 'Settings' :: Clicking
+2023-04-20 22:55:42 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 22:55:45 INFO  - Locking credential with barcode 01230000000003
+2023-04-20 22:55:45 INFO  - There are books on the account: 
+2023-04-20 22:55:47 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-04-20 22:55:47 INFO  - Count of books on the account after opening account: 1
+2023-04-20 22:56:08 INFO  - Text Field 'Card' :: Clicking
+2023-04-20 22:56:09 INFO  - Text Field 'Card' :: Clearing
+2023-04-20 22:56:09 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-04-20 22:56:12 INFO  - Text Field 'Pin' :: Clearing
+2023-04-20 22:56:12 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-20 22:56:15 INFO  - Button 'Log in' :: Clicking
+2023-04-20 22:56:29 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-04-20 22:56:31 INFO  - Step 7 - Login is performed successfully
+2023-04-20 22:56:31 INFO  - Step 8 - Open Catalog
+2023-04-20 22:56:31 INFO  - Button 'Catalog' :: Clicking
+2023-04-20 22:56:33 INFO  - Step 9 - Open search modal
+2023-04-20 22:56:34 INFO  - Button 'Search button' :: Clicking
+2023-04-20 22:56:37 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-20 22:56:37 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-04-20 22:56:37 INFO  - randomBookName: The Thursday Murder Club
+2023-04-20 22:56:37 INFO  - Text Field 'Search value input' :: Sending keys 'The Thursday Murder Club'
+2023-04-20 22:56:38 INFO  - Button 'Search' :: Clicking
+2023-04-20 22:56:41 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-04-20 22:56:41 INFO  - Button 'Audiobooks' :: Clicking
+2023-04-20 22:57:22 INFO  - Step 12 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-20 22:57:23 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-20 22:57:25 INFO  - Label 'lblBookName' :: Clicking
+2023-04-20 22:57:26 INFO  - Step 13 - Click RESERVE action button on book details screen
+2023-04-20 22:57:27 INFO  - Button 'Reserve' :: Clicking
+2023-04-20 22:57:51 INFO  - Alert appears and dismiss alert
+2023-04-20 22:57:51 INFO  - Step 14 - Open Holds
+2023-04-20 22:57:51 INFO  - Button 'Reservations' :: Clicking
+2023-04-20 22:57:53 INFO  - Step 15 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-04-20 22:57:55 INFO  - Step 16 - Open AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2023-04-20 22:57:56 INFO  - Label 'lblBookName' :: Clicking
+2023-04-20 22:57:57 INFO  - Step 17 - Click REMOVE button but cancel the action by clicking CANCEL button on the alert
+2023-04-20 22:57:57 INFO  - Button 'Remove' :: Clicking
+2023-04-20 23:08:20 INFO  - Step 18 - Open Holds
+2023-04-20 23:08:20 INFO  - Button 'Reservations' :: Clicking
+2023-04-20 23:08:21 INFO  - Step 19 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-04-20 23:08:22 INFO  - Taking screenshot
+2023-04-20 23:08:25 INFO  - Test finished - logging out
+2023-04-20 23:08:28 INFO  - Button 'Settings' :: Clicking
+2023-04-20 23:08:29 INFO  - Button 'Settings' :: Clicking
+2023-04-20 23:08:30 INFO  - Button 'Libraries button' :: Clicking
+2023-04-20 23:08:33 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-20 23:08:34 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-20 23:08:34 INFO  - Button 'Log out' :: Clicking
+2023-04-20 23:08:35 INFO  - Button 'Log out approve' :: Clicking
+2023-04-20 23:08:57 INFO  - Button 'Log in' :: Getting text from element
+2023-04-20 23:08:58 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-20 23:08:59 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-20 23:08:59 INFO  - Unlocking credential for current thread
+2023-04-20 23:08:59 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@122fc5
