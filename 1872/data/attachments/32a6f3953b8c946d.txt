@@ -1,0 +1,81 @@
+2023-04-21 21:28:45 INFO  - Scenario 'Settings: Check of Vertical scrolling in Lyrasis' start
+2023-04-21 21:28:45 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-21 21:29:16 INFO  - Application on platform 'ANDROID' is ready...
+2023-04-21 21:29:16 INFO  - Session id - a8e4d5084db07f1eb3be72346d2abec1a700ac2d
+2023-04-21 21:29:16 INFO  - Step 0 - Close tutorial screen
+2023-04-21 21:29:16 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-21 21:29:18 INFO  - Step 1 - Welcome screen is opened
+2023-04-21 21:29:19 INFO  - Step 2 - Close welcome screen
+2023-04-21 21:29:19 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-04-21 21:29:20 INFO  - Step 3 - Add library screen is opened
+2023-04-21 21:29:21 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-21 21:29:21 INFO  - Button 'Search' :: Clicking
+2023-04-21 21:29:23 INFO  - Text Field 'Search' :: Clearing
+2023-04-21 21:29:23 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-04-21 21:29:25 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-21 21:29:26 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-21 21:29:26 INFO  - Button 'tabSettings' :: Clicking
+2023-04-21 21:29:27 INFO  - Button 'tabSettings' :: Clicking
+2023-04-21 21:29:28 INFO  - Button 'Accounts' :: Clicking
+2023-04-21 21:29:30 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-21 21:29:30 INFO  - Button 'tabSettings' :: Clicking
+2023-04-21 21:29:31 INFO  - Button 'tabSettings' :: Clicking
+2023-04-21 21:29:31 INFO  - Button 'Accounts' :: Clicking
+2023-04-21 21:29:32 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-21 21:29:33 INFO  - Locking credential with barcode 01230000000003
+2023-04-21 21:29:33 INFO  - There are books on the account: 
+2023-04-21 21:29:34 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-04-21 21:29:34 INFO  - Count of books on the account after opening account: 1
+2023-04-21 21:29:34 INFO  - Text Field 'Card' :: Clearing
+2023-04-21 21:29:34 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-04-21 21:29:36 INFO  - Text Field 'Pin' :: Clearing
+2023-04-21 21:29:36 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-21 21:29:38 INFO  - Button 'Log in' :: Clicking
+2023-04-21 21:29:45 INFO  - Button 'Log ... action' :: Getting text from element
+2023-04-21 21:29:46 INFO  - Step 7 - Login is performed successfully
+2023-04-21 21:30:07 INFO  - Button 'Log ... action' :: Getting text from element
+2023-04-21 21:30:07 INFO  - Step 8 - Open Catalog
+2023-04-21 21:30:07 INFO  - Button 'tabCatalog' :: Clicking
+2023-04-21 21:30:28 INFO  - Step 9 - Open search modal
+2023-04-21 21:30:48 INFO  - Button 'Search' :: Clicking
+2023-04-21 21:30:49 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-21 21:30:49 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-04-21 21:30:49 INFO  - randomBookName: Crickets :
+2023-04-21 21:30:49 INFO  - Error details button is not present
+2023-04-21 21:30:49 INFO  - Text Field 'Search value input' :: Sending keys 'Crickets :'
+2023-04-21 21:30:52 INFO  - Error details button is not present
+2023-04-21 21:30:54 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-21 21:30:57 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-21 21:30:57 INFO  - Button 'actionButton' :: Clicking
+2023-04-21 21:31:01 INFO  - Step 12 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-04-21 21:31:01 INFO  - Step 13 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-21 21:31:02 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-21 21:31:02 INFO  - Label 'lblBookName' :: Clicking
+2023-04-21 21:31:02 INFO  - Step 14 - Click READ action button on book details screen
+2023-04-21 21:31:03 INFO  - Button 'Read' :: Clicking
+2023-04-21 21:31:04 INFO  - Step 15 - Reader pdf screen is opened
+2023-04-21 21:31:08 INFO  - Step 16 - Open pdf settings screen on pdf reader screen
+2023-04-21 21:31:08 INFO  - Button 'Settings' :: Clicking
+2023-04-21 21:31:08 INFO  - Step 17 - Tap Vertical scrolling on pdf settings screen
+2023-04-21 21:31:08 INFO  - Button 'Vertical scrolling' :: Clicking
+2023-04-21 21:31:09 INFO  - Step 18 - Open pdf settings screen on pdf reader screen
+2023-04-21 21:31:09 INFO  - Button 'Settings' :: Clicking
+2023-04-21 21:31:10 INFO  - Step 19 - Vertical scrolling is chosen on settings screen
+2023-04-21 21:31:10 INFO  - Button 'Vertical scrolling' :: Getting attribute 'checked'
+2023-04-21 21:31:11 INFO  - Step 20 - Spreads options are available on settings screen
+2023-04-21 21:31:12 INFO  - Step 21 - Open pdf settings screen on pdf reader screen
+2023-04-21 21:31:12 INFO  - Button 'Settings' :: Clicking
+2023-04-21 21:31:12 INFO  - Step 22 - Save page number as 'pageInfo' on pdf reader screen
+2023-04-21 21:31:12 INFO  - Label 'Last page number' :: Getting text from element
+2023-04-21 21:31:13 INFO  - Taking screenshot
+2023-04-21 21:31:15 INFO  - Test finished - logging out
+2023-04-21 21:31:16 INFO  - Button 'tabSettings' :: Clicking
+2023-04-21 21:31:19 INFO  - Button 'tabSettings' :: Clicking
+2023-04-21 21:31:20 INFO  - Button 'Accounts' :: Clicking
+2023-04-21 21:31:20 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-21 21:31:22 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-21 21:31:23 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-21 21:31:23 INFO  - Button 'Log out' :: Clicking
+2023-04-21 21:31:43 INFO  - Button 'Log in' :: Getting text from element
+2023-04-21 21:31:43 INFO  - Unlocking credential for current thread
+2023-04-21 21:31:43 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7a9c9209
