@@ -1,0 +1,100 @@
+2023-04-22 19:33:47 INFO  - Scenario 'Switch Library Reservations' start
+2023-04-22 19:33:47 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-22 19:34:22 INFO  - Application on platform 'ANDROID' is ready...
+2023-04-22 19:34:23 INFO  - Session id - 439e6b5f508381d779b67cfafe2831ce829d473a
+2023-04-22 19:34:23 INFO  - Step 0 - Close tutorial screen
+2023-04-22 19:34:23 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-22 19:34:26 INFO  - Step 1 - Welcome screen is opened
+2023-04-22 19:34:27 INFO  - Step 2 - Close welcome screen
+2023-04-22 19:34:27 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-04-22 19:34:29 INFO  - Step 3 - Add library screen is opened
+2023-04-22 19:34:31 INFO  - Step 4 - Add library "Plumas County Library" on Add library screen
+2023-04-22 19:34:31 INFO  - Button 'Search' :: Clicking
+2023-04-22 19:34:34 INFO  - Text Field 'Search' :: Clearing
+2023-04-22 19:34:34 INFO  - Text Field 'Search' :: Typing 'Plumas County Library'
+2023-04-22 19:34:38 INFO  - Button 'Plumas County Library' :: Clicking
+2023-04-22 19:34:39 INFO  - Step 5 - Account "Plumas County Library" is present on Accounts screen
+2023-04-22 19:34:39 INFO  - Button 'tabSettings' :: Clicking
+2023-04-22 19:34:42 INFO  - Button 'tabSettings' :: Clicking
+2023-04-22 19:34:43 INFO  - Button 'Accounts' :: Clicking
+2023-04-22 19:34:45 INFO  - Step 6 - Add 'LYRASIS Reads' account
+2023-04-22 19:34:45 INFO  - Button 'tabSettings' :: Clicking
+2023-04-22 19:34:46 INFO  - Button 'tabSettings' :: Clicking
+2023-04-22 19:34:47 INFO  - Button 'Accounts' :: Clicking
+2023-04-22 19:34:49 INFO  - Button 'btnAddLibrary' :: Clicking
+2023-04-22 19:34:51 INFO  - Button 'Search' :: Clicking
+2023-04-22 19:34:53 INFO  - Text Field 'Search' :: Clearing
+2023-04-22 19:34:53 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-04-22 19:34:56 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-22 19:35:18 INFO  - Step 7 - Enter credentials for 'LYRASIS Reads' account
+2023-04-22 19:35:18 INFO  - Button 'tabSettings' :: Clicking
+2023-04-22 19:35:19 INFO  - Button 'tabSettings' :: Clicking
+2023-04-22 19:35:20 INFO  - Button 'Accounts' :: Clicking
+2023-04-22 19:35:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-22 19:35:23 INFO  - Locking credential with barcode 01230000000003
+2023-04-22 19:35:23 INFO  - There are books on the account: 
+2023-04-22 19:35:24 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-04-22 19:35:24 INFO  - Count of books on the account after opening account: 1
+2023-04-22 19:35:24 INFO  - Text Field 'Card' :: Clearing
+2023-04-22 19:35:24 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-04-22 19:35:26 INFO  - Text Field 'Pin' :: Clearing
+2023-04-22 19:35:26 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-22 19:35:29 INFO  - Button 'Log in' :: Clicking
+2023-04-22 19:35:38 INFO  - Button 'Log ... action' :: Getting text from element
+2023-04-22 19:35:39 INFO  - Step 8 - Login is performed successfully
+2023-04-22 19:36:01 INFO  - Button 'Log ... action' :: Getting text from element
+2023-04-22 19:36:02 INFO  - Step 9 - Open Catalog
+2023-04-22 19:36:02 INFO  - Button 'tabCatalog' :: Clicking
+2023-04-22 19:36:23 INFO  - Step 10 - Open search modal
+2023-04-22 19:36:43 INFO  - Button 'Search' :: Clicking
+2023-04-22 19:36:45 INFO  - Step 11 - Search 'unavailable' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-22 19:36:45 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-04-22 19:36:45 INFO  - randomBookName: Take the Lead
+2023-04-22 19:36:46 INFO  - Error details button is not present
+2023-04-22 19:36:47 INFO  - Text Field 'Search value input' :: Sending keys 'Take the Lead'
+2023-04-22 19:36:50 INFO  - Error details button is not present
+2023-04-22 19:36:52 INFO  - Step 12 - Switch to 'eBooks' catalog tab
+2023-04-22 19:36:52 INFO  - Button 'eBooks' :: Clicking
+2023-04-22 19:37:15 INFO  - Step 13 - Subcategory screen is present
+2023-04-22 19:37:16 INFO  - Error details button is not present
+2023-04-22 19:37:16 INFO  - Step 14 - Open EBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-22 19:37:17 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-22 19:37:18 INFO  - Label 'lblBookName' :: Clicking
+2023-04-22 19:37:19 INFO  - Step 15 - Book 'bookInfo' is opened on book details screen
+2023-04-22 19:37:19 INFO  - Label 'Book title' :: Getting text from element
+2023-04-22 19:37:21 INFO  - Label 'Book Authors' :: Getting text from element
+2023-04-22 19:37:22 INFO  - Label 'Book title' :: Getting text from element
+2023-04-22 19:37:23 INFO  - Label 'Book Authors' :: Getting text from element
+2023-04-22 19:37:24 INFO  - Step 16 - Click RESERVE action button on book details screen
+2023-04-22 19:37:24 INFO  - Button 'Reserve' :: Clicking
+2023-04-22 19:37:28 INFO  - Step 17 - Check that book contains REMOVE action button on book details screen
+2023-04-22 19:37:30 INFO  - Step 18 - Open Holds
+2023-04-22 19:37:30 INFO  - Button 'tabHolds' :: Clicking
+2023-04-22 19:37:30 INFO  - Step 19 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-04-22 19:37:32 INFO  - Step 20 - Open Catalog
+2023-04-22 19:37:32 INFO  - Button 'tabCatalog' :: Clicking
+2023-04-22 19:37:53 INFO  - Step 21 - Open Catalog
+2023-04-22 19:37:53 INFO  - Button 'tabCatalog' :: Clicking
+2023-04-22 19:38:14 INFO  - Step 22 - Switch to 'Plumas County Library' from side menu
+2023-04-22 19:38:14 INFO  - Button 'tabCatalog' :: Clicking
+2023-04-22 19:38:15 INFO  - Button 'Menu' :: Clicking
+2023-04-22 19:38:17 INFO  - Button 'Menu' :: Clicking
+2023-04-22 19:38:18 INFO  - Step 23 - Open Holds
+2023-04-22 19:38:18 INFO  - Button 'tabHolds' :: Clicking
+2023-04-22 19:38:19 INFO  - Step 24 - There are not books on holds screen
+2023-04-22 19:38:40 INFO  - Taking screenshot
+2023-04-22 19:38:42 INFO  - Test finished - logging out
+2023-04-22 19:38:43 INFO  - Button 'tabSettings' :: Clicking
+2023-04-22 19:38:47 INFO  - Button 'tabSettings' :: Clicking
+2023-04-22 19:38:48 INFO  - Button 'Accounts' :: Clicking
+2023-04-22 19:38:50 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-22 19:38:53 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-22 19:38:54 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-22 19:38:55 INFO  - Button 'Log out' :: Clicking
+2023-04-22 19:39:16 INFO  - Button 'Log in' :: Getting text from element
+2023-04-22 19:39:17 INFO  - Button 'tabSettings' :: Clicking
+2023-04-22 19:39:17 INFO  - Button 'tabSettings' :: Clicking
+2023-04-22 19:39:19 INFO  - Button 'Accounts' :: Clicking
+2023-04-22 19:39:21 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-22 19:39:23 INFO  - Unlocking credential for current thread
+2023-04-22 19:39:23 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@76e25eee
