@@ -1,0 +1,67 @@
+2023-04-23 06:48:53 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-04-23 06:48:53 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-23 06:49:36 INFO  - Application on platform 'IOS' is ready...
+2023-04-23 06:49:36 INFO  - Session id - 2eaaf7e7df2521762b92f71eb1765816d554e7d2
+2023-04-23 06:49:36 INFO  - Step 0 - Close tutorial screen
+2023-04-23 06:49:37 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-23 06:49:37 INFO  - Step 1 - Welcome screen is opened
+2023-04-23 06:49:38 INFO  - Step 2 - Close welcome screen
+2023-04-23 06:49:38 INFO  - Button 'Find your library button' :: Clicking
+2023-04-23 06:49:39 INFO  - Step 3 - Add library screen is opened
+2023-04-23 06:49:44 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-23 06:49:44 INFO  - Text Field 'Search field' :: Clicking
+2023-04-23 06:49:51 INFO  - Text Field 'Search field' :: Clearing
+2023-04-23 06:49:51 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-23 06:50:02 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-23 06:50:04 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-23 06:50:04 INFO  - Button 'Settings' :: Clicking
+2023-04-23 06:50:05 INFO  - Button 'Settings' :: Clicking
+2023-04-23 06:50:06 INFO  - Button 'Libraries button' :: Clicking
+2023-04-23 06:50:07 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-23 06:50:07 INFO  - Button 'Settings' :: Clicking
+2023-04-23 06:50:08 INFO  - Button 'Settings' :: Clicking
+2023-04-23 06:50:09 INFO  - Button 'Libraries button' :: Clicking
+2023-04-23 06:50:12 INFO  - Locking credential with barcode 01230000000002
+2023-04-23 06:50:12 INFO  - There are books on the account: 
+2023-04-23 06:50:12 INFO  - bookName: Shadows of Swanford Abbey Distributor: Bibliotheca
+2023-04-23 06:50:12 INFO  - Count of books on the account after opening account: 1
+2023-04-23 06:50:34 INFO  - Text Field 'Card' :: Clicking
+2023-04-23 06:50:35 INFO  - Text Field 'Card' :: Clearing
+2023-04-23 06:50:35 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-04-23 06:50:37 INFO  - Text Field 'Pin' :: Clearing
+2023-04-23 06:50:37 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-23 06:50:40 INFO  - Button 'Log in' :: Clicking
+2023-04-23 06:51:03 INFO  - Step 7 - Login is performed successfully
+2023-04-23 06:51:04 INFO  - Step 8 - Open Catalog
+2023-04-23 06:51:04 INFO  - Button 'Catalog' :: Clicking
+2023-04-23 06:51:06 INFO  - Step 9 - Open search modal
+2023-04-23 06:51:07 INFO  - Button 'Search button' :: Clicking
+2023-04-23 06:51:09 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-04-23 06:51:09 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-04-23 06:51:09 INFO  - randomBookName: A short history of electronic music
+2023-04-23 06:51:10 INFO  - Text Field 'Search value input' :: Sending keys 'A short history of electronic music'
+2023-04-23 06:51:12 INFO  - Button 'Search' :: Clicking
+2023-04-23 06:51:15 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-04-23 06:51:15 INFO  - Button 'eBooks' :: Clicking
+2023-04-23 06:51:58 INFO  - Step 12 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-23 06:52:00 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-23 06:52:01 INFO  - Label 'lblBookName' :: Clicking
+2023-04-23 06:52:02 INFO  - Step 13 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-04-23 06:52:02 INFO  - Button 'Get' :: Clicking
+2023-04-23 06:52:05 INFO  - Button 'Cancel' :: Clicking
+2023-04-23 06:52:09 INFO  - Step 14 - Check that book contains DOWNLOAD action button on book details screen
+2023-04-23 06:52:10 INFO  - Step 15 - Check that book contains RETURN action button on book details screen
+2023-04-23 06:52:11 INFO  - Taking screenshot
+2023-04-23 06:52:13 INFO  - Test finished - logging out
+2023-04-23 06:52:16 INFO  - Button 'Settings' :: Clicking
+2023-04-23 06:52:17 INFO  - Button 'Settings' :: Clicking
+2023-04-23 06:52:18 INFO  - Button 'Libraries button' :: Clicking
+2023-04-23 06:52:21 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-23 06:52:22 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-23 06:52:23 INFO  - Button 'Log out' :: Clicking
+2023-04-23 06:52:24 INFO  - Button 'Log out approve' :: Clicking
+2023-04-23 06:52:46 INFO  - Button 'Log in' :: Getting text from element
+2023-04-23 06:52:47 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-23 06:52:47 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-23 06:52:48 INFO  - Unlocking credential for current thread
+2023-04-23 06:52:48 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@684294f9
