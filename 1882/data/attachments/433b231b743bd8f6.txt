@@ -1,0 +1,90 @@
+2023-04-25 19:20:25 INFO  - Scenario 'Open the audiobook at the last open chapter and check time code' start
+2023-04-25 19:20:25 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-25 19:21:56 INFO  - Application on platform 'IOS' is ready...
+2023-04-25 19:21:57 INFO  - Session id - 7ba471d2d1f0310cfce8bdbaf063366ddfc78176
+2023-04-25 19:21:57 INFO  - Step 0 - Close tutorial screen
+2023-04-25 19:21:57 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-25 19:21:58 INFO  - Step 1 - Welcome screen is opened
+2023-04-25 19:21:58 INFO  - Step 2 - Close welcome screen
+2023-04-25 19:21:58 INFO  - Button 'Find your library button' :: Clicking
+2023-04-25 19:21:59 INFO  - Step 3 - Add library screen is opened
+2023-04-25 19:22:04 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-25 19:22:04 INFO  - Text Field 'Search field' :: Clicking
+2023-04-25 19:22:10 INFO  - Text Field 'Search field' :: Clearing
+2023-04-25 19:22:10 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-25 19:22:20 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-25 19:22:21 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-25 19:22:21 INFO  - Button 'Settings' :: Clicking
+2023-04-25 19:22:23 INFO  - Button 'Settings' :: Clicking
+2023-04-25 19:22:24 INFO  - Button 'Libraries button' :: Clicking
+2023-04-25 19:22:25 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-25 19:22:25 INFO  - Button 'Settings' :: Clicking
+2023-04-25 19:22:26 INFO  - Button 'Settings' :: Clicking
+2023-04-25 19:22:27 INFO  - Button 'Libraries button' :: Clicking
+2023-04-25 19:22:29 INFO  - Locking credential with barcode 01230000000003
+2023-04-25 19:22:29 INFO  - There are books on the account: 
+2023-04-25 19:22:31 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-04-25 19:22:31 INFO  - Count of books on the account after opening account: 1
+2023-04-25 19:22:52 INFO  - Text Field 'Card' :: Clicking
+2023-04-25 19:22:53 INFO  - Text Field 'Card' :: Clearing
+2023-04-25 19:22:53 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-04-25 19:22:56 INFO  - Text Field 'Pin' :: Clearing
+2023-04-25 19:22:56 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-25 19:22:59 INFO  - Button 'Log in' :: Clicking
+2023-04-25 19:23:07 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-04-25 19:23:09 INFO  - Step 7 - Login is performed successfully
+2023-04-25 19:23:09 INFO  - Step 8 - Open Catalog
+2023-04-25 19:23:09 INFO  - Button 'Catalog' :: Clicking
+2023-04-25 19:23:12 INFO  - Step 9 - Open categories by chain and chain starts from CategoryScreen:
+2023-04-25 19:23:13 INFO  - Swiping from coordinates (x:214; y:260) to (x:214; y:740)
+2023-04-25 19:23:19 INFO  - Button 'Audible Studios' :: Clicking
+2023-04-25 19:23:21 INFO  - Step 10 - Category "Audible Studios" with books is opened on catalog books screen
+2023-04-25 19:23:25 INFO  - Step 11 - Get names of books on screen and save them as 'listOfBooks'
+2023-04-25 19:23:49 INFO  - Label 'element 1' :: Getting attribute 'name'
+2023-04-25 19:23:50 INFO  - Label 'element 2' :: Getting attribute 'name'
+2023-04-25 19:23:51 INFO  - Label 'element 3' :: Getting attribute 'name'
+2023-04-25 19:23:52 INFO  - Label 'element 4' :: Getting attribute 'name'
+2023-04-25 19:23:53 INFO  - Label 'element 5' :: Getting attribute 'name'
+2023-04-25 19:23:53 INFO  - Label 'element 6' :: Getting attribute 'name'
+2023-04-25 19:23:54 INFO  - Label 'element 7' :: Getting attribute 'name'
+2023-04-25 19:23:55 INFO  - Found list of books from all subcategories on screen - The Mystery of Mrs. Christie. Audiobook., Fahrenheit 451. Audiobook., Alice's Adventures in Wonderland. Audiobook., The Critique of Practical Reason. Audiobook., Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood. Audiobook., Cryptonomicon. Audiobook., Snow Crash. Audiobook.
+2023-04-25 19:23:552023-04-25 19:24:17 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-04-25 19:24:18 INFO  - Step 17 - Open toc audiobook screen
+2023-04-25 19:24:18 INFO  - Button 'btnToc' :: Clicking
+2023-04-25 19:24:19 INFO  - Step 18 - Wait for 5 seconds
+2023-04-25 19:24:24 INFO  - Step 19 - Open the 3 chapter on toc audiobook screen and save the chapter name as 'chapterNameKey'
+2023-04-25 19:24:24 INFO  - Label 'Chapter' :: Getting attribute 'name'
+2023-04-25 19:24:36 INFO  - Label 'Chapter' :: Clicking
+2023-04-25 19:24:37 INFO  - Step 20 - Audio player screen of book 'bookInfo' is opened
+2023-04-25 19:24:38 INFO  - Step 21 - Chapter name on audio player screen is equal to 'chapterN2023-04-25 19:24:50 INFO  - Step 16 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-25 19:25:11 INFO  - Label 'lblBookName' :: Clicking
+2023-04-25 19:25:32 INFO  - Taking screenshot
+2023-04-25 19:25:35 INFO  - Test finished - logging out
+2023-04-25 19:25:38 INFO  - Button 'Settings' :: Clicking
+2023-04-25 19:25:39 INFO  - Button 'Settings' :: Clicking
+2023-04-25 19:25:40 INFO  - Button 'Libraries button' :: Clicking
+2023-04-25 19:25:45 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-25 19:25:45 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-25 19:25:47 INFO  - Button 'Log out' :: Clicking
+2023-04-25 19:25:48 INFO  - Button 'Log out approve' :: Clicking
+2023-04-25 19:26:09 INFO  - Button 'Log in' :: Getting text from element
+2023-04-25 19:26:10 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-25 19:26:11 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-25 19:26:12 INFO  - Unlocking credential for current thread
+2023-04-25 19:26:12 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5a94dd9f
+Listen' :: Clicking
+2023-04-25 19:25:19 INFO  - Step 30 - Audio player screen of book 'bookInfo' is opened
+2023-04-25 19:25:20 INFO  - Step 31 - Chapter name on audio player screen is equal to 'chapterNameKey' saved chapter name
+2023-04-25 19:25:20 INFO  - Label 'lblChapterName' :: Getting attribute 'value'
+2023-04-25 19:25:21 INFO  - Step 32 - Play time is the same with 'timeAhead' play time before restart on books detail screen
+2023-04-25 19:25:21 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2023-04-25 19:25:22 INFO  - Step 33 - Open toc audiobook screen
+2023-04-25 19:25:22 INFO  - Button 'btnToc' :: Clicking
+2023-04-25 19:25:23 INFO  - Step 34 - Open random chapter on toc audiobook screen and save chapter name as 'chapterNameKey2'
+2023-04-25 19:26:03 INFO  - Label 'Chapter' :: Getting attribute 'name'
+2023-04-25 19:26:05 INFO  - Label 'Chapter' :: Clicking
+2023-04-25 19:26:06 INFO  - Step 35 - Audio player screen of book 'bookInfo' is opened
+2023-04-25 19:26:07 INFO  - Step 36 - Wait for 3 seconds
+2023-04-25 19:26:10 INFO  - Step 37 - Tap pause button on audio player screen
+2023-04-25 19:26:10 INFO  - Button 'btnPause' :: Clicking
+2023-04-25 19:26:11 INFO  - Step 38 - Play button is present on audio player screen
