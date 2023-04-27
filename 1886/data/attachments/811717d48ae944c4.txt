@@ -1,0 +1,78 @@
+2023-04-27 20:04:49 INFO  - Scenario 'Playback speed: Check of playback speed' start
+2023-04-27 20:04:49 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-04-27 20:05:09 INFO  - Application on platform 'IOS' is ready...
+2023-04-27 20:05:09 INFO  - Session id - f262cc1c66a95abfe26aafee37737645a6b4f233
+2023-04-27 20:05:09 INFO  - Step 0 - Close tutorial screen
+2023-04-27 20:05:10 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-04-27 20:05:11 INFO  - Step 1 - Welcome screen is opened
+2023-04-27 20:05:11 INFO  - Step 2 - Close welcome screen
+2023-04-27 20:05:11 INFO  - Button 'Find your library button' :: Clicking
+2023-04-27 20:05:12 INFO  - Step 3 - Add library screen is opened
+2023-04-27 20:05:17 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-04-27 20:05:17 INFO  - Text Field 'Search field' :: Clicking
+2023-04-27 20:05:24 INFO  - Text Field 'Search field' :: Clearing
+2023-04-27 20:05:24 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-04-27 20:05:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-04-27 20:05:37 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-04-27 20:05:38 INFO  - Button 'Settings' :: Clicking
+2023-04-27 20:05:40 INFO  - Button 'Settings' :: Clicking
+2023-04-27 20:05:42 INFO  - Button 'Libraries button' :: Clicking
+2023-04-27 20:05:44 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-04-27 20:05:44 INFO  - Button 'Settings' :: Clicking
+2023-04-27 20:05:45 INFO  - Button 'Settings' :: Clicking
+2023-04-27 20:05:46 INFO  - Button 'Libraries button' :: Clicking
+2023-04-27 20:05:49 INFO  - Locking credential with barcode 01230000000002
+2023-04-27 20:05:49 INFO  - There are books on the account: 
+2023-04-27 20:05:50 INFO  - There is not books on the account.
+2023-04-27 20:05:50 INFO  - Count of books on the account after opening account: 0
+2023-04-27 20:06:12 INFO  - Text Field 'Card' :: Clicking
+2023-04-27 20:06:13 INFO  - Text Field 'Card' :: Clearing
+2023-04-27 20:06:13 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-04-27 20:06:17 INFO  - Text Field 'Pin' :: Clearing
+2023-04-27 20:06:17 INFO  - Text Field 'Pin' :: Typing '********'
+2023-04-27 20:06:21 INFO  - Button 'Log in' :: Clicking
+2023-04-27 20:06:47 INFO  - Step 7 - Login is performed successfully
+2023-04-27 20:06:48 INFO  - Step 8 - Open Catalog
+2023-04-27 20:06:48 INFO  - Button 'Catalog' :: Clicking
+2023-04-27 20:06:50 INFO  - Step 9 - Open categories by chain and chain starts from CategoryScreen:
+2023-04-27 20:06:51 INFO  - Swiping from coordinates (x:195; y:260) to (x:195; y:675)
+2023-04-27 20:06:56 INFO  - Button 'Audible Studios' :: Clicking
+2023-04-27 20:06:57 INFO  - Step 10 - Category "Audible Studios" with books is opened on catalog books screen
+2023-04-27 20:07:03 INFO  - Step 11 - Get names of books on screen and save them as 'listOfBooks'
+2023-04-27 20:07:29 INFO  - Label 'element 1' :: Getting attribute 'name'
+2023-04-27 20:07:30 INFO  - Label 'element 2' :: Getting attribute 'name'
+2023-04-27 20:07:31 INFO  - Label 'element 3' :: Getting attribute 'name'
+2023-04-27 20:07:32 INFO  - Label 'element 4' :: Getting attribute 'name'
+2023-04-27 20:07:33 INFO  - Label 'element 5' :: Getting attribute 'name'
+2023-04-27 20:07:34 INFO  - Label 'element 6' :: Getting attribute 'name'
+2023-04-27 20:07:36 INFO  - Found list of books from all subcategories on screen - The Mystery of Mrs. Christie. Audiobook., Fahrenheit 451. Audiobook., Alice's Adventures in Wonderland. Audiobook., The Critique of Practical Reason. Audiobook., Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood. Audiobook., Cryptonomicon. Audiobook.
+2023-04-27 20:07:36 INFO  - amount of books from all subcategories on screen - 6
+2023-04-27 20:07:36 INFO  - Step 12 - Open Catalog
+2023-04-27 20:07:36 INFO  - Button 'Catalog' :: Clicking
+2023-04-27 20:07:38 INFO  - Step 13 - Open search modal
+2023-04-27 20:07:39 INFO  - Button 'Search button' :: Clicking
+2023-04-27 20:07:43 INFO  - Step 14 - Search for a AUDIOBOOK book from 'listOfBooks' and save as 'bookNameInfo'
+2023-04-27 20:07:43 INFO  - Text Field 'Search value input' :: Sending keys 'Alice's Adventures in Wonderland'
+2023-04-27 20:07:45 INFO  - Button 'Search' :: Clicking
+2023-04-27 20:07:49 INFO  - Step 15 - Switch to 'Audiobooks' catalog tab
+2023-04-27 20:07:49 INFO  - Button 'Audiobooks' :: Clicking
+2023-04-27 20:08:32 INFO  - Step 16 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-04-27 20:08:34 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-04-27 20:08:35 INFO  - Label 'lblBookName' :: Clicking
+2023-04-27 20:08:36 INFO  - Step 17 - Click GET action button on book details screen
+2023-04-27 20:08:37 INFO  - Button 'Get' :: Clicking
+2023-04-27 20:09:48 INFO  - Alert appears and dismiss alert
+2023-04-27 20:09:48 INFO  - Step 18 - Check that book contains LISTEN action button on book details screen
+2023-04-27 20:10:09 INFO  - Taking screenshot
+2023-04-27 20:10:12 INFO  - Test finished - logging out
+2023-04-27 20:10:15 INFO  - Button 'Settings' :: Clicking
+2023-04-27 20:10:16 INFO  - Button 'Settings' :: Clicking
+2023-04-27 20:10:17 INFO  - Button 'Libraries button' :: Clicking
+2023-04-27 20:10:21 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-27 20:10:22 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-27 20:10:24 INFO  - Button 'Log out' :: Clicking
+2023-04-27 20:10:25 INFO  - Button 'Log out approve' :: Clicking
+2023-04-27 20:10:46 INFO  - Button 'Log in' :: Getting text from element
+2023-04-27 20:10:48 INFO  - Text Field 'Card' :: Getting text from element
+2023-04-27 20:10:48 INFO  - Text Field 'Pin' :: Getting text from element
+2023-04-27 20:10:49 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@35de7503
