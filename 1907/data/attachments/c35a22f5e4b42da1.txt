@@ -1,0 +1,77 @@
+2023-05-08 21:34:41 INFO  - Scenario 'TOC: Contents with text: Check of list of chapters and navigation in Lyrasis' start
+2023-05-08 21:34:41 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-08 21:35:10 INFO  - Application on platform 'ANDROID' is ready...
+2023-05-08 21:35:10 INFO  - Session id - 19275edafbac79a3d490d57f9ec8e4585cd4252b
+2023-05-08 21:35:10 INFO  - Step 0 - Close tutorial screen
+2023-05-08 21:35:10 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-08 21:35:14 INFO  - Step 1 - Welcome screen is opened
+2023-05-08 21:35:15 INFO  - Step 2 - Close welcome screen
+2023-05-08 21:35:15 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-05-08 21:35:17 INFO  - Step 3 - Add library screen is opened
+2023-05-08 21:35:20 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-08 21:35:20 INFO  - Button 'Search' :: Clicking
+2023-05-08 21:35:22 INFO  - Text Field 'Search' :: Clearing
+2023-05-08 21:35:22 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-05-08 21:35:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-08 21:35:27 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-08 21:35:27 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 21:35:30 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 21:35:31 INFO  - Button 'Accounts' :: Clicking
+2023-05-08 21:35:33 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-08 21:35:33 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 21:35:35 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 21:35:36 INFO  - Button 'Accounts' :: Clicking
+2023-05-08 21:35:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-08 21:35:39 INFO  - Locking credential with barcode 01230000000004
+2023-05-08 21:35:39 INFO  - There are books on the account: 
+2023-05-08 21:35:40 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-05-08 21:35:40 INFO  - bookName: Alice's Adventures in Wonderland Distributor: Palace Marketplace
+2023-05-08 21:35:40 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-05-08 21:35:40 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-05-08 21:35:40 INFO  - Count of books on the account after opening account: 4
+2023-05-08 21:35:40 INFO  - Text Field 'Card' :: Clearing
+2023-05-08 21:35:40 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-05-08 21:35:43 INFO  - Text Field 'Pin' :: Clearing
+2023-05-08 21:35:43 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-08 21:35:46 INFO  - Button 'Log in' :: Clicking
+2023-05-08 21:35:53 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-08 21:35:54 INFO  - Step 7 - Login is performed successfully
+2023-05-08 21:36:15 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-08 21:36:16 INFO  - Step 8 - Open Catalog
+2023-05-08 21:36:16 INFO  - Button 'tabCatalog' :: Clicking
+2023-05-08 21:36:38 INFO  - Step 9 - Open search modal
+2023-05-08 21:36:58 INFO  - Button 'Search' :: Clicking
+2023-05-08 21:37:01 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-08 21:37:01 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-08 21:37:01 INFO  - randomBookName: School Carnival
+2023-05-08 21:37:02 INFO  - Error details button is not present
+2023-05-08 21:37:02 INFO  - Text Field 'Search value input' :: Sending keys 'School Carnival'
+2023-05-08 21:37:06 INFO  - Error details button is not present
+2023-05-08 21:37:10 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-08 21:37:11 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-08 21:37:12 INFO  - Button 'actionButton' :: Clicking
+2023-05-08 21:37:17 INFO  - Step 12 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-05-08 21:37:18 INFO  - Step 13 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-08 21:37:19 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-08 21:37:20 INFO  - Label 'lblBookName' :: Clicking
+2023-05-08 21:37:21 INFO  - Step 14 - Click READ action button on book details screen
+2023-05-08 21:37:22 INFO  - Button 'Read' :: Clicking
+2023-05-08 21:37:22 INFO  - Step 15 - Reader pdf screen is opened
+2023-05-08 21:37:27 INFO  - Step 16 - Open table of contents on pdf reader screen
+2023-05-08 21:37:27 INFO  - Button 'Table of content' :: Clicking
+2023-05-08 21:37:27 INFO  - Step 17 - Open text chapter content on pdf toc screen
+2023-05-08 21:37:28 INFO  - Button 'Chapter content' :: Clicking
+2023-05-08 21:37:30 INFO  - Step 18 - Text chapter content is opened on pdf toc screen
+2023-05-08 21:37:31 INFO  - Step 19 - Open random chapter and save the number as 'pageInfo' on pdf toc screen
+2023-05-08 21:37:31 INFO  - Label 'Chapter' :: Clicking
+2023-05-08 21:37:52 INFO  - Taking screenshot
+2023-05-08 21:37:54 INFO  - Test finished - logging out
+2023-05-08 21:37:55 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 21:37:58 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 21:37:59 INFO  - Button 'Accounts' :: Clicking
+2023-05-08 21:38:00 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-08 21:38:02 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-08 21:38:03 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-08 21:38:04 INFO  - Button 'Log out' :: Clicking
+2023-05-08 21:38:24 INFO  - Button 'Log in' :: Getting text from element
+2023-05-08 21:38:25 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@c47cdc

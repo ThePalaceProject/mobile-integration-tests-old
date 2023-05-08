@@ -1,0 +1,88 @@
+2023-05-08 19:41:36 INFO  - Scenario 'Check playback speed and sleep timer' start
+2023-05-08 19:41:36 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-08 19:42:06 INFO  - Application on platform 'ANDROID' is ready...
+2023-05-08 19:42:07 INFO  - Session id - f2e92b3673744b0c8a2404968113aaaa0fe66f37
+2023-05-08 19:42:07 INFO  - Step 0 - Close tutorial screen
+2023-05-08 19:42:07 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-08 19:42:09 INFO  - Step 1 - Welcome screen is opened
+2023-05-08 19:42:10 INFO  - Step 2 - Close welcome screen
+2023-05-08 19:42:10 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-05-08 19:42:10 INFO  - Step 3 - Add library screen is opened
+2023-05-08 19:42:11 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-08 19:42:11 INFO  - Button 'Search' :: Clicking
+2023-05-08 19:42:13 INFO  - Text Field 'Search' :: Clearing
+2023-05-08 19:42:13 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-05-08 19:42:18 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-08 19:42:18 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-08 19:42:18 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 19:42:20 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 19:42:21 INFO  - Button 'Accounts' :: Clicking
+2023-05-08 19:42:24 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-08 19:42:24 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 19:42:25 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 19:42:26 INFO  - Button 'Accounts' :: Clicking
+2023-05-08 19:42:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-08 19:42:28 INFO  - Locking credential with barcode 01230000000003
+2023-05-08 19:42:28 INFO  - There are books on the account: 
+2023-05-08 19:42:29 INFO  - There is not books on the account.
+2023-05-08 19:42:29 INFO  - Count of books on the account after opening account: 0
+2023-05-08 19:42:29 INFO  - Text Field 'Card' :: Clearing
+2023-05-08 19:42:29 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-05-08 19:42:31 INFO  - Text Field 'Pin' :: Clearing
+2023-05-08 19:42:31 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-08 19:42:34 INFO  - Button 'Log in' :: Clicking
+2023-05-08 19:42:40 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-08 19:42:41 INFO  - Step 7 - Login is performed successfully
+2023-05-08 19:43:02 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-08 19:43:03 INFO  - Step 8 - Open Catalog
+2023-05-08 19:43:03 INFO  - Button 'tabCatalog' :: Clicking
+2023-05-08 19:43:23 INFO  - Step 9 - Open categories by chain and chain starts from CategoryScreen:
+2023-05-08 19:43:24 INFO  - Swiping from coordinates (x:540; y:260) to (x:540; y:1684)
+2023-05-08 19:44:05 INFO  - Button 'Audible Studios' :: Clicking
+2023-05-08 19:44:06 INFO  - Step 10 - Category "Audible Studios" with books is opened on catalog books screen
+2023-05-08 19:44:10 INFO  - Step 11 - Get names of books on screen and save them as 'listOfBooks'
+2023-05-08 19:44:12 INFO  - Label 'element 1' :: Getting text from element
+2023-05-08 19:44:12 INFO  - Label 'element 2' :: Getting text from element
+2023-05-08 19:44:13 INFO  - Label 'element 3' :: Getting text from element
+2023-05-08 19:44:14 INFO  - Label 'element 4' :: Getting text from element
+2023-05-08 19:44:14 INFO  - Step 12 - Open Catalog
+2023-05-08 19:44:14 INFO  - Button 'tabCatalog' :: Clicking
+2023-05-08 19:44:36 INFO  - Step 13 - Open search modal
+2023-05-08 19:44:57 INFO  - Button 'Search' :: Clicking
+2023-05-08 19:44:59 INFO  - Step 14 - Search for a AUDIOBOOK book from 'listOfBooks' and save as 'bookNameInfo'
+2023-05-08 19:45:00 INFO  - Error details button is not present
+2023-05-08 19:45:00 INFO  - Text Field 'Search value input' :: Sending keys 'Alice's Adventures in Wonderland'
+2023-05-08 19:45:04 INFO  - Error details button is not present
+2023-05-08 19:45:08 INFO  - Step 15 - Switch to 'Audiobooks' catalog tab
+2023-05-08 19:45:08 INFO  - Button 'Audiobooks' :: Clicking
+2023-05-08 19:45:30 INFO  - Step 16 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-08 19:45:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-08 19:45:32 INFO  - Label 'lblBookName' :: Clicking
+2023-05-08 19:45:32 INFO  - Step 17 - Click GET action button on book details screen
+2023-05-08 19:45:34 INFO  - Button 'Get' :: Clicking
+2023-05-08 19:46:05 INFO  - Step 18 - Check that book contains LISTEN action button on book details screen
+2023-05-08 19:46:07 INFO  - Step 19 - Click LISTEN action button on book details screen
+2023-05-08 19:46:07 INFO  - Button 'Listen' :: Clicking
+2023-05-08 19:46:08 INFO  - Step 20 - Audio player screen of book 'bookInfo' is opened
+2023-05-08 19:46:12 INFO  - Step 21 - The speed by default is 1.0
+2023-05-08 19:46:12 INFO  - Button 'Button play speed' :: Getting text from element
+2023-05-08 19:46:12 INFO  - Step 22 - Open playback speed on audio player screen
+2023-05-08 19:46:12 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-05-08 19:46:13 INFO  - Step 23 - Close playback speed screen
+2023-05-08 19:46:13 INFO  - Button 'Cancel button' :: Clicking
+2023-05-08 19:46:14 INFO  - Step 24 - Play button is present on audio player screen
+2023-05-08 19:46:15 INFO  - Step 25 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-05-08 19:46:15 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-05-08 19:46:17 INFO  - Button 'End of file' :: Clicking
+2023-05-08 19:46:19 INFO  - Step 26 - Sleep timer is set to endOfChapter on audio player screen
+2023-05-08 19:46:39 INFO  - Taking screenshot
+2023-05-08 19:46:41 INFO  - Test finished - logging out
+2023-05-08 19:46:42 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 19:46:44 INFO  - Button 'tabSettings' :: Clicking
+2023-05-08 19:46:46 INFO  - Button 'Accounts' :: Clicking
+2023-05-08 19:46:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-08 19:46:51 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-08 19:46:51 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-08 19:46:52 INFO  - Button 'Log out' :: Clicking
+2023-05-08 19:47:13 INFO  - Button 'Log in' :: Getting text from element
+2023-05-08 19:47:13 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@c4fe9da
