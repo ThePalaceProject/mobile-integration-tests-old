@@ -1,0 +1,82 @@
+2023-05-09 21:13:54 INFO  - Scenario 'Navigate by Page' start
+2023-05-09 21:13:54 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-09 21:14:42 INFO  - Application on platform 'IOS' is ready...
+2023-05-09 21:14:43 INFO  - Session id - 52faba07329511d749fc019e19b98aa4e86717e3
+2023-05-09 21:14:43 INFO  - Step 0 - Close tutorial screen
+2023-05-09 21:14:43 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-09 21:14:44 INFO  - Step 1 - Welcome screen is opened
+2023-05-09 21:14:45 INFO  - Step 2 - Close welcome screen
+2023-05-09 21:14:45 INFO  - Button 'Find your library button' :: Clicking
+2023-05-09 21:14:45 INFO  - Step 3 - Add library screen is opened
+2023-05-09 21:14:50 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-09 21:14:50 INFO  - Text Field 'Search field' :: Clicking
+2023-05-09 21:14:56 INFO  - Text Field 'Search field' :: Clearing
+2023-05-09 21:14:56 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-09 21:15:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-09 21:15:07 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-09 21:15:07 INFO  - Button 'Settings' :: Clicking
+2023-05-09 21:15:09 INFO  - Button 'Settings' :: Clicking
+2023-05-09 21:15:10 INFO  - Button 'Libraries button' :: Clicking
+2023-05-09 21:15:12 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-09 21:15:12 INFO  - Button 'Settings' :: Clicking
+2023-05-09 21:15:13 INFO  - Button 'Settings' :: Clicking
+2023-05-09 21:15:14 INFO  - Button 'Libraries button' :: Clicking
+2023-05-09 21:15:16 INFO  - Locking credential with barcode 01230000000005
+2023-05-09 21:15:16 INFO  - There are books on the account: 
+2023-05-09 21:15:17 INFO  - There is not books on the account.
+2023-05-09 21:15:17 INFO  - Count of books on the account after opening account: 0
+2023-05-09 21:15:38 INFO  - Text Field 'Card' :: Clicking
+2023-05-09 21:15:39 INFO  - Text Field 'Card' :: Clearing
+2023-05-09 21:15:39 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-05-09 21:15:41 INFO  - Text Field 'Pin' :: Clearing
+2023-05-09 21:15:41 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-09 21:15:44 INFO  - Button 'Log in' :: Clicking
+2023-05-09 21:15:52 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-05-09 21:15:54 INFO  - Step 7 - Login is performed successfully
+2023-05-09 21:15:55 INFO  - Step 8 - Open Catalog
+2023-05-09 21:15:55 INFO  - Button 'Catalog' :: Clicking
+2023-05-09 21:15:57 INFO  - Step 9 - Open search modal
+2023-05-09 21:15:58 INFO  - Button 'Search button' :: Clicking
+2023-05-09 21:16:00 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-09 21:16:00 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-05-09 21:16:00 INFO  - randomBookName: The Mystery Of The Sycamore
+2023-05-09 21:16:01 INFO  - Text Field 'Search value input' :: Sending keys 'The Mystery Of The Sycamore'
+2023-05-09 21:16:02 INFO  - Button 'Search' :: Clicking
+2023-05-09 21:16:05 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-09 21:16:06 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-09 21:16:08 INFO  - Button 'actionButton' :: Clicking
+2023-05-09 21:16:30 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-09 21:16:32 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-09 21:16:33 INFO  - Label 'lblBookName' :: Clicking
+2023-05-09 21:16:34 INFO  - Step 13 - Click READ action button on book details screen
+2023-05-09 21:16:36 INFO  - Button 'Read' :: Clicking
+2023-05-09 21:16:57 INFO  - Step 14 - 'bookInfo' book is present on epub reader screen
+2023-05-09 21:16:57 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-05-09 21:16:58 INFO  - Book name on epub reader screen - The Mystery Of The Sycamore
+2023-05-09 21:16:58 INFO  - Step 15 - Scroll page forward from 7 to 10 times
+2023-05-09 21:16:58 INFO  - Scrolling 7 times on reader epub screen
+2023-05-09 21:17:20 INFO  - Step 16 - Open navigation bar on reader epub screen
+2023-05-09 21:17:21 INFO  - Step 17 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-05-09 21:17:21 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-05-09 21:17:22 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-05-09 21:17:22 INFO  - Step 18 - Open navigation bar on reader epub screen
+2023-05-09 21:17:22 INFO  - Step 19 - Next page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-05-09 21:17:22 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-05-09 21:17:23 INFO  - actualPageNumberOfNextPage7
+2023-05-09 21:17:23 INFO  - expectedPageNumberOfNextPage8
+2023-05-09 21:17:23 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-05-09 21:17:23 INFO  - actualChapterNameOfNextPageChapter I: The Letter That Said Come
+2023-05-09 21:17:23 INFO  - expectedChapterNameOfNextPageChapter I: The Letter That Said Come
+2023-05-09 21:17:23 INFO  - Taking screenshot
+2023-05-09 21:17:25 INFO  - Test finished - logging out
+2023-05-09 21:17:27 INFO  - Button 'Settings' :: Clicking
+2023-05-09 21:17:28 INFO  - Button 'Settings' :: Clicking
+2023-05-09 21:17:28 INFO  - Button 'Libraries button' :: Clicking
+2023-05-09 21:17:31 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-09 21:17:32 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-09 21:17:32 INFO  - Button 'Log out' :: Clicking
+2023-05-09 21:17:33 INFO  - Button 'Log out approve' :: Clicking
+2023-05-09 21:17:54 INFO  - Button 'Log in' :: Getting text from element
+2023-05-09 21:17:55 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-09 21:17:55 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-09 21:17:56 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@73a01c61

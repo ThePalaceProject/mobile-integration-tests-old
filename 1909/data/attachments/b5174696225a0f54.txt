@@ -1,0 +1,66 @@
+2023-05-09 20:50:46 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-05-09 20:50:46 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-09 20:51:03 INFO  - Application on platform 'IOS' is ready...
+2023-05-09 20:51:03 INFO  - Session id - b08937debbc797a85cc4f920dd40da5500bf397e
+2023-05-09 20:51:03 INFO  - Step 0 - Close tutorial screen
+2023-05-09 20:51:03 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-09 20:51:04 INFO  - Step 1 - Welcome screen is opened
+2023-05-09 20:51:04 INFO  - Step 2 - Close welcome screen
+2023-05-09 20:51:04 INFO  - Button 'Find your library button' :: Clicking
+2023-05-09 20:51:05 INFO  - Step 3 - Add library screen is opened
+2023-05-09 20:51:10 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-09 20:51:10 INFO  - Text Field 'Search field' :: Clicking
+2023-05-09 20:51:15 INFO  - Text Field 'Search field' :: Clearing
+2023-05-09 20:51:15 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-09 20:51:25 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-09 20:51:26 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-09 20:51:26 INFO  - Button 'Settings' :: Clicking
+2023-05-09 20:51:28 INFO  - Button 'Settings' :: Clicking
+2023-05-09 20:51:29 INFO  - Button 'Libraries button' :: Clicking
+2023-05-09 20:51:30 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-09 20:51:30 INFO  - Button 'Settings' :: Clicking
+2023-05-09 20:51:31 INFO  - Button 'Settings' :: Clicking
+2023-05-09 20:51:32 INFO  - Button 'Libraries button' :: Clicking
+2023-05-09 20:51:34 INFO  - Locking credential with barcode 01230000000002
+2023-05-09 20:51:34 INFO  - There are books on the account: 
+2023-05-09 20:51:35 INFO  - bookName: The Ice Queen Distributor: Palace Marketplace
+2023-05-09 20:51:35 INFO  - Count of books on the account after opening account: 1
+2023-05-09 20:51:56 INFO  - Text Field 'Card' :: Clicking
+2023-05-09 20:51:57 INFO  - Text Field 'Card' :: Clearing
+2023-05-09 20:51:57 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-05-09 20:52:00 INFO  - Text Field 'Pin' :: Clearing
+2023-05-09 20:52:00 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-09 20:52:03 INFO  - Button 'Log in' :: Clicking
+2023-05-09 20:52:25 INFO  - Step 7 - Login is performed successfully
+2023-05-09 20:52:27 INFO  - Step 8 - Open Catalog
+2023-05-09 20:52:27 INFO  - Button 'Catalog' :: Clicking
+2023-05-09 20:52:29 INFO  - Step 9 - Open search modal
+2023-05-09 20:52:30 INFO  - Button 'Search button' :: Clicking
+2023-05-09 20:52:32 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-09 20:52:32 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-09 20:52:32 INFO  - randomBookName: Zodiac
+2023-05-09 20:52:34 INFO  - Text Field 'Search value input' :: Sending keys 'Zodiac'
+2023-05-09 20:52:35 INFO  - Button 'Search' :: Clicking
+2023-05-09 20:52:37 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-05-09 20:52:37 INFO  - Button 'Audiobooks' :: Clicking
+2023-05-09 20:53:19 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-09 20:53:20 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-09 20:53:21 INFO  - Label 'lblBookName' :: Clicking
+2023-05-09 20:53:22 INFO  - Step 13 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-05-09 20:53:22 INFO  - Button 'Get' :: Clicking
+2023-05-09 20:53:23 INFO  - Button 'Cancel' :: Clicking
+2023-05-09 20:53:26 INFO  - Step 14 - Check that book contains DOWNLOAD action button on book details screen
+2023-05-09 20:53:27 INFO  - Step 15 - Check that book contains RETURN action button on book details screen
+2023-05-09 20:53:28 INFO  - Taking screenshot
+2023-05-09 20:53:30 INFO  - Test finished - logging out
+2023-05-09 20:53:33 INFO  - Button 'Settings' :: Clicking
+2023-05-09 20:53:34 INFO  - Button 'Settings' :: Clicking
+2023-05-09 20:53:35 INFO  - Button 'Libraries button' :: Clicking
+2023-05-09 20:53:38 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-09 20:53:38 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-09 20:53:39 INFO  - Button 'Log out' :: Clicking
+2023-05-09 20:53:40 INFO  - Button 'Log out approve' :: Clicking
+2023-05-09 20:54:01 INFO  - Button 'Log in' :: Getting text from element
+2023-05-09 20:54:02 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-09 20:54:02 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-09 20:54:03 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3fc84748
