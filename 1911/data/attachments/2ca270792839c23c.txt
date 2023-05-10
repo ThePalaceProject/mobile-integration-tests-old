@@ -1,0 +1,86 @@
+2023-05-10 19:42:44 INFO  - Scenario 'Biblioboard: Navigate by Audiobook' start
+2023-05-10 19:42:44 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-10 19:43:13 INFO  - Application on platform 'ANDROID' is ready...
+2023-05-10 19:43:13 INFO  - Session id - e16e3e5e98a9fea71d45246e82b64cbea1fe7290
+2023-05-10 19:43:13 INFO  - Step 0 - Close tutorial screen
+2023-05-10 19:43:13 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-10 19:43:16 INFO  - Step 1 - Welcome screen is opened
+2023-05-10 19:43:17 INFO  - Step 2 - Close welcome screen
+2023-05-10 19:43:17 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-05-10 19:43:18 INFO  - Step 3 - Add library screen is opened
+2023-05-10 19:43:20 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-10 19:43:20 INFO  - Button 'Search' :: Clicking
+2023-05-10 19:43:22 INFO  - Text Field 'Search' :: Clearing
+2023-05-10 19:43:22 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-05-10 19:43:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-10 19:43:28 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-10 19:43:28 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 19:43:32 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 19:43:34 INFO  - Button 'Accounts' :: Clicking
+2023-05-10 19:43:37 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-10 19:43:37 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 19:43:38 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 19:43:40 INFO  - Button 'Accounts' :: Clicking
+2023-05-10 19:43:41 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-10 19:43:42 INFO  - Locking credential with barcode 01230000000005
+2023-05-10 19:43:42 INFO  - There are books on the account: 
+2023-05-10 19:43:43 INFO  - There is not books on the account.
+2023-05-10 19:43:43 INFO  - Count of books on the account after opening account: 0
+2023-05-10 19:43:43 INFO  - Text Field 'Card' :: Clearing
+2023-05-10 19:43:43 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-05-10 19:43:45 INFO  - Text Field 'Pin' :: Clearing
+2023-05-10 19:43:45 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-10 19:43:48 INFO  - Button 'Log in' :: Clicking
+2023-05-10 19:43:57 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-10 19:43:58 INFO  - Step 7 - Login is performed successfully
+2023-05-10 19:44:20 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-10 19:44:21 INFO  - Step 8 - Open Catalog
+2023-05-10 19:44:21 INFO  - Button 'tabCatalog' :: Clicking
+2023-05-10 19:44:43 INFO  - Step 9 - Open search modal
+2023-05-10 19:45:03 INFO  - Button 'Search' :: Clicking
+2023-05-10 19:45:06 INFO  - Step 10 - Search for "Kate & Ruby" and save bookName as 'bookNameInfo'
+2023-05-10 19:45:07 INFO  - Error details button is not present
+2023-05-10 19:45:07 INFO  - Text Field 'Search value input' :: Sending keys 'Kate & Ruby'
+2023-05-10 19:45:11 INFO  - Error details button is not present
+2023-05-10 19:45:15 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-05-10 19:45:15 INFO  - Button 'Audiobooks' :: Clicking
+2023-05-10 19:45:36 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-10 19:45:37 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-10 19:45:38 INFO  - Label 'lblBookName' :: Clicking
+2023-05-10 19:45:39 INFO  - Step 13 - Click GET action button on book details screen
+2023-05-10 19:45:41 INFO  - Button 'Get' :: Clicking
+2023-05-10 19:45:46 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-05-10 19:45:47 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-05-10 19:45:47 INFO  - Button 'Listen' :: Clicking
+2023-05-10 19:45:48 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-05-10 19:45:52 INFO  - Step 17 - Tap play button on audio player screen
+2023-05-10 19:45:52 INFO  - Button 'btnPlay' :: Clicking
+2023-05-10 19:45:54 INFO  - Step 18 - Pause button is present on audio player screen
+2023-05-10 19:45:55 INFO  - Step 19 - Tap pause button on audio player screen
+2023-05-10 19:45:55 INFO  - Button 'btnPause' :: Clicking
+2023-05-10 19:45:56 INFO  - Step 20 - Play button is present on audio player screen
+2023-05-10 19:45:57 INFO  - Step 21 - Book is not playing on audio player screen
+2023-05-10 19:45:57 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-05-10 19:46:00 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-05-10 19:46:01 INFO  - Step 22 - Save book play time as 'timeAhead' on audio player screen
+2023-05-10 19:46:01 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-05-10 19:46:01 INFO  - Step 23 - Save chapter time as 'chapterTimeKey' on audio player screen
+2023-05-10 19:46:01 INFO  - Label 'lblRightTime' :: Getting text from element
+2023-05-10 19:46:02 INFO  - Step 24 - Skip ahead 15 seconds on audio player screen
+2023-05-10 19:46:02 INFO  - Button 'btnSkipAhead' :: Clicking
+2023-05-10 19:46:03 INFO  - Step 25 - Tap pause button on audio player screen
+2023-05-10 19:46:03 INFO  - Button 'btnPause' :: Clicking
+2023-05-10 19:46:05 INFO  - Step 26 - Play button is present on audio player screen
+2023-05-10 19:46:06 INFO  - Step 27 - Playback has been moved forward by 15 seconds from 'timeAhead' and 'chapterTimeKey' seconds on audio player screen
+2023-05-10 19:46:06 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-05-10 19:46:07 INFO  - Taking screenshot
+2023-05-10 19:46:09 INFO  - Test finished - logging out
+2023-05-10 19:46:11 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 19:46:14 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 19:46:15 INFO  - Button 'Accounts' :: Clicking
+2023-05-10 19:46:16 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-10 19:46:19 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-10 19:46:20 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-10 19:46:20 INFO  - Button 'Log out' :: Clicking
+2023-05-10 19:46:42 INFO  - Button 'Log in' :: Getting text from element
+2023-05-10 19:46:43 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@59df5b0e

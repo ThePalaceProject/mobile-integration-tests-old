@@ -1,0 +1,82 @@
+2023-05-10 21:21:08 INFO  - Scenario 'Check table of contents in Lyrasis' start
+2023-05-10 21:21:08 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-10 21:21:34 INFO  - Application on platform 'ANDROID' is ready...
+2023-05-10 21:21:34 INFO  - Session id - f4bf7a0063d56d263dd8f1410be66165f668e2ed
+2023-05-10 21:21:34 INFO  - Step 0 - Close tutorial screen
+2023-05-10 21:21:34 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-10 21:21:39 INFO  - Step 1 - Welcome screen is opened
+2023-05-10 21:21:43 INFO  - Step 2 - Close welcome screen
+2023-05-10 21:21:43 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-05-10 21:21:43 INFO  - Step 3 - Add library screen is opened
+2023-05-10 21:21:46 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-10 21:21:46 INFO  - Button 'Search' :: Clicking
+2023-05-10 21:21:48 INFO  - Text Field 'Search' :: Clearing
+2023-05-10 21:21:48 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-05-10 21:21:51 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-10 21:21:53 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-10 21:21:53 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 21:21:55 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 21:21:57 INFO  - Button 'Accounts' :: Clicking
+2023-05-10 21:22:02 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-10 21:22:02 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 21:22:03 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 21:22:05 INFO  - Button 'Accounts' :: Clicking
+2023-05-10 21:22:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-10 21:22:07 INFO  - Locking credential with barcode 01230000000005
+2023-05-10 21:22:07 INFO  - There are books on the account: 
+2023-05-10 21:22:08 INFO  - There is not books on the account.
+2023-05-10 21:22:08 INFO  - Count of books on the account after opening account: 0
+2023-05-10 21:22:08 INFO  - Text Field 'Card' :: Clearing
+2023-05-10 21:22:08 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-05-10 21:22:11 INFO  - Text Field 'Pin' :: Clearing
+2023-05-10 21:22:11 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-10 21:22:13 INFO  - Button 'Log in' :: Clicking
+2023-05-10 21:22:28 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-10 21:22:28 INFO  - Step 7 - Login is performed successfully
+2023-05-10 21:22:53 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-10 21:22:53 INFO  - Step 8 - Open Catalog
+2023-05-10 21:22:53 INFO  - Button 'tabCatalog' :: Clicking
+2023-05-10 21:23:15 INFO  - Step 9 - Open search modal
+2023-05-10 21:23:36 INFO  - Button 'Search' :: Clicking
+2023-05-10 21:23:39 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-10 21:23:39 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-10 21:23:39 INFO  - randomBookName: Drawing and Learning About Monster Trucks :
+2023-05-10 21:23:39 INFO  - Error details button is not present
+2023-05-10 21:23:40 INFO  - Text Field 'Search value input' :: Sending keys 'Drawing and Learning About Monster Trucks :'
+2023-05-10 21:23:43 INFO  - Error details button is not present
+2023-05-10 21:23:46 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-10 21:23:52 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-10 21:23:55 INFO  - Button 'actionButton' :: Clicking
+2023-05-10 21:26:18 INFO  - Step 12 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-05-10 21:26:18 INFO  - Step 13 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-10 21:26:20 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-10 21:26:21 INFO  - Label 'lblBookName' :: Clicking
+2023-05-10 21:26:21 INFO  - Step 14 - Click READ action button on book details screen
+2023-05-10 21:26:23 INFO  - Button 'Read' :: Clicking
+2023-05-10 21:26:25 INFO  - Step 15 - Reader pdf screen is opened
+2023-05-10 21:26:27 INFO  - Step 16 - Open table of contents on pdf reader screen
+2023-05-10 21:26:27 INFO  - Button 'Table of content' :: Clicking
+2023-05-10 21:26:30 INFO  - Step 17 - There are content list with thumbnails and chapter content on pdf toc screen
+2023-05-10 21:26:34 INFO  - Step 18 - Return to pdf reader screen from pdf toc screen
+2023-05-10 21:26:34 INFO  - Step 19 - PDF toc screen is closed
+2023-05-10 21:26:35 INFO  - Step 20 - Open table of contents on pdf reader screen
+2023-05-10 21:26:35 INFO  - Button 'Table of content' :: Clicking
+2023-05-10 21:26:36 INFO  - Step 21 - Open table of contents on pdf reader screen
+2023-05-10 21:26:36 INFO  - Button 'Table of content' :: Clicking
+2023-05-10 21:26:38 INFO  - Step 22 - PDF toc screen is closed
+2023-05-10 21:26:38 INFO  - Step 23 - Open table of contents on pdf reader screen
+2023-05-10 21:26:39 INFO  - Button 'Table of content' :: Clicking
+2023-05-10 21:26:39 INFO  - Step 24 - Close pdf toc screen by back button
+2023-05-10 21:26:39 INFO  - Button 'Back button' :: Clicking
+2023-05-10 21:26:41 INFO  - Step 25 - PDF toc screen is closed
+2023-05-10 21:26:42 INFO  - Taking screenshot
+2023-05-10 21:26:44 INFO  - Test finished - logging out
+2023-05-10 21:26:45 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 21:26:52 INFO  - Button 'tabSettings' :: Clicking
+2023-05-10 21:26:52 INFO  - Button 'Accounts' :: Clicking
+2023-05-10 21:26:53 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-10 21:26:55 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-10 21:26:56 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-10 21:26:56 INFO  - Button 'Log out' :: Clicking
+2023-05-10 21:27:18 INFO  - Button 'Log in' :: Getting text from element
+2023-05-10 21:27:19 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6ce57d7a
