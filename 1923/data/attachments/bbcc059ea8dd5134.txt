@@ -1,0 +1,70 @@
+2023-05-14 20:33:25 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-05-14 20:33:25 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-14 20:33:44 INFO  - Application on platform 'IOS' is ready...
+2023-05-14 20:33:44 INFO  - Session id - 99cc95da33acd20fee0dc32182e63a37beec0d38
+2023-05-14 20:33:44 INFO  - Step 0 - Close tutorial screen
+2023-05-14 20:33:44 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-14 20:33:45 INFO  - Step 1 - Welcome screen is opened
+2023-05-14 20:33:45 INFO  - Step 2 - Close welcome screen
+2023-05-14 20:33:46 INFO  - Button 'Find your library button' :: Clicking
+2023-05-14 20:33:46 INFO  - Step 3 - Add library screen is opened
+2023-05-14 20:33:51 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-14 20:33:51 INFO  - Text Field 'Search field' :: Clicking
+2023-05-14 20:33:57 INFO  - Text Field 'Search field' :: Clearing
+2023-05-14 20:33:57 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-14 20:34:08 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-14 20:34:09 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-14 20:34:09 INFO  - Button 'Settings' :: Clicking
+2023-05-14 20:34:10 INFO  - Button 'Settings' :: Clicking
+2023-05-14 20:34:11 INFO  - Button 'Libraries button' :: Clicking
+2023-05-14 20:34:13 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-14 20:34:13 INFO  - Button 'Settings' :: Clicking
+2023-05-14 20:34:13 INFO  - Button 'Settings' :: Clicking
+2023-05-14 20:34:14 INFO  - Button 'Libraries button' :: Clicking
+2023-05-14 20:34:16 INFO  - Locking credential with barcode 01230000000003
+2023-05-14 20:34:16 INFO  - There are books on the account: 
+2023-05-14 20:34:18 INFO  - bookName: The Mystery of Mrs. Christie Distributor: Palace Marketplace
+2023-05-14 20:34:18 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-05-14 20:34:18 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-05-14 20:34:18 INFO  - Count of books on the account after opening account: 3
+2023-05-14 20:34:38 INFO  - Text Field 'Card' :: Clicking
+2023-05-14 20:34:39 INFO  - Text Field 'Card' :: Clearing
+2023-05-14 20:34:39 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-05-14 20:34:42 INFO  - Text Field 'Pin' :: Clearing
+2023-05-14 20:34:42 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-14 20:34:45 INFO  - Button 'Log in' :: Clicking
+2023-05-14 20:34:52 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-05-14 20:34:54 INFO  - Step 7 - Login is performed successfully
+2023-05-14 20:34:54 INFO  - Step 8 - Open Catalog
+2023-05-14 20:34:54 INFO  - Button 'Catalog' :: Clicking
+2023-05-14 20:34:56 INFO  - Step 9 - Open search modal
+2023-05-14 20:34:57 INFO  - Button 'Search button' :: Clicking
+2023-05-14 20:34:58 INFO  - Step 10 - Search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-14 20:34:58 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-14 20:34:58 INFO  - randomBookName: What It Takes to Survive
+2023-05-14 20:34:59 INFO  - Text Field 'Search value input' :: Sending keys 'What It Takes to Survive'
+2023-05-14 20:35:00 INFO  - Button 'Search' :: Clicking
+2023-05-14 20:35:03 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-05-14 20:35:03 INFO  - Button 'eBooks' :: Clicking
+2023-05-14 20:35:45 INFO  - Step 12 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-14 20:35:46 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-14 20:35:46 INFO  - Label 'lblBookName' :: Clicking
+2023-05-14 20:35:47 INFO  - Step 13 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-05-14 20:35:47 INFO  - Button 'Get' :: Clicking
+2023-05-14 20:35:49 INFO  - Button 'Cancel' :: Clicking
+2023-05-14 20:35:52 INFO  - Step 14 - Check that book contains DOWNLOAD action button on book details screen
+2023-05-14 20:35:52 INFO  - Step 15 - Check that book contains RETURN action button on book details screen
+2023-05-14 20:35:53 INFO  - Taking screenshot
+2023-05-14 20:35:54 INFO  - Test finished - logging out
+2023-05-14 20:35:57 INFO  - Button 'Settings' :: Clicking
+2023-05-14 20:35:58 INFO  - Button 'Settings' :: Clicking
+2023-05-14 20:35:59 INFO  - Button 'Libraries button' :: Clicking
+2023-05-14 20:36:02 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-14 20:36:02 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-14 20:36:03 INFO  - Button 'Log out' :: Clicking
+2023-05-14 20:36:04 INFO  - Button 'Log out approve' :: Clicking
+2023-05-14 20:36:25 INFO  - Button 'Log in' :: Getting text from element
+2023-05-14 20:36:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-14 20:36:26 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-14 20:36:26 INFO  - Unlocking credential for current thread
+2023-05-14 20:36:26 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@26f06a96
