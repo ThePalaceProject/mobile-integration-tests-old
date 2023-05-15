@@ -1,0 +1,77 @@
+2023-05-15 13:16:24 INFO  - Scenario 'Hold from Subcategory List View and Remove a Reserved Book from Holds' start
+2023-05-15 13:16:24 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-15 13:16:57 INFO  - Application on platform 'ANDROID' is ready...
+2023-05-15 13:16:57 INFO  - Session id - 054f9e90919ddd7bd36c152e4869778510e4647f
+2023-05-15 13:16:57 INFO  - Step 0 - Close tutorial screen
+2023-05-15 13:16:57 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-15 13:16:59 INFO  - Step 1 - Welcome screen is opened
+2023-05-15 13:17:00 INFO  - Step 2 - Close welcome screen
+2023-05-15 13:17:00 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-05-15 13:17:01 INFO  - Step 3 - Add library screen is opened
+2023-05-15 13:17:03 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-15 13:17:03 INFO  - Button 'Search' :: Clicking
+2023-05-15 13:17:04 INFO  - Text Field 'Search' :: Clearing
+2023-05-15 13:17:04 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-05-15 13:17:08 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-15 13:17:09 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-15 13:17:09 INFO  - Button 'tabSettings' :: Clicking
+2023-05-15 13:17:11 INFO  - Button 'tabSettings' :: Clicking
+2023-05-15 13:17:12 INFO  - Button 'Accounts' :: Clicking
+2023-05-15 13:17:14 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-15 13:17:15 INFO  - Button 'tabSettings' :: Clicking
+2023-05-15 13:17:16 INFO  - Button 'tabSettings' :: Clicking
+2023-05-15 13:17:17 INFO  - Button 'Accounts' :: Clicking
+2023-05-15 13:17:18 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-15 13:17:19 INFO  - Locking credential with barcode 01230000000002
+2023-05-15 13:17:19 INFO  - There are books on the account: 
+2023-05-15 13:17:20 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-05-15 13:17:20 INFO  - bookName: The Ice Queen Distributor: Palace Marketplace
+2023-05-15 13:17:20 INFO  - Count of books on the account after opening account: 2
+2023-05-15 13:17:20 INFO  - Text Field 'Card' :: Clearing
+2023-05-15 13:17:20 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-05-15 13:17:24 INFO  - Text Field 'Pin' :: Clearing
+2023-05-15 13:17:24 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-15 13:17:27 INFO  - Button 'Log in' :: Clicking
+2023-05-15 13:17:34 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-15 13:17:35 INFO  - Step 7 - Login is performed successfully
+2023-05-15 13:17:55 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-15 13:17:56 INFO  - Step 8 - Open Catalog
+2023-05-15 13:17:56 INFO  - Button 'tabCatalog' :: Clicking
+2023-05-15 13:18:16 INFO  - Step 9 - Open search modal
+2023-05-15 13:18:37 INFO  - Button 'Search' :: Clicking
+2023-05-15 13:18:38 INFO  - Step 10 - Search 'unavailable' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-15 13:18:38 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-05-15 13:18:38 INFO  - randomBookName: The Sentence
+2023-05-15 13:18:39 INFO  - Error details button is not present
+2023-05-15 13:18:39 INFO  - Text Field 'Search value input' :: Sending keys 'The Sentence'
+2023-05-15 13:18:41 INFO  - Error details button is not present
+2023-05-15 13:18:44 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-05-15 13:18:44 INFO  - Button 'Audiobooks' :: Clicking
+2023-05-15 13:19:06 INFO  - Step 12 - Click RESERVE action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-15 13:19:06 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-15 13:19:07 INFO  - Button 'actionButton' :: Clicking
+2023-05-15 13:19:10 INFO  - Step 13 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-05-15 13:19:11 INFO  - Step 14 - Close Book Details for IOSTab
+2023-05-15 13:19:11 INFO  - Step 15 - Open Holds
+2023-05-15 13:19:11 INFO  - Button 'tabHolds' :: Clicking
+2023-05-15 13:19:12 INFO  - Step 16 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-05-15 13:19:13 INFO  - Step 17 - Open EBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2023-05-15 13:19:13 INFO  - Label 'lblBookName' :: Clicking
+2023-05-15 13:19:14 INFO  - Step 18 - Click REMOVE action button on book details screen
+2023-05-15 13:19:15 INFO  - Button 'Remove' :: Clicking
+2023-05-15 13:19:19 INFO  - Step 19 - Open Holds
+2023-05-15 13:19:19 INFO  - Button 'tabHolds' :: Clicking
+2023-05-15 13:19:20 INFO  - Step 20 - Wait for 7 seconds
+2023-05-15 13:19:27 INFO  - Step 21 - EBOOK book with REMOVE action button and 'bookInfo' bookInfo is not present on holds screen
+2023-05-15 13:20:08 INFO  - Taking screenshot
+2023-05-15 13:20:08 INFO  - Test finished - logging out
+2023-05-15 13:20:09 INFO  - Button 'tabSettings' :: Clicking
+2023-05-15 13:20:12 INFO  - Button 'tabSettings' :: Clicking
+2023-05-15 13:20:13 INFO  - Button 'Accounts' :: Clicking
+2023-05-15 13:20:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-15 13:20:16 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-15 13:20:17 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-15 13:20:17 INFO  - Button 'Log out' :: Clicking
+2023-05-15 13:20:38 INFO  - Button 'Log in' :: Getting text from element
+2023-05-15 13:20:39 INFO  - Unlocking credential for current thread
+2023-05-15 13:20:39 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@719fad7f
