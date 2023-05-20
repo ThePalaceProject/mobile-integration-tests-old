@@ -1,0 +1,77 @@
+2023-05-20 10:39:15 INFO  - Scenario 'Check invalid data in searching Lyrasis' start
+2023-05-20 10:39:15 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-20 10:40:06 INFO  - Application on platform 'IOS' is ready...
+2023-05-20 10:40:06 INFO  - Session id - d75c38061d4e5000ba699d878622e3eaa97a168b
+2023-05-20 10:40:06 INFO  - Step 0 - Close tutorial screen
+2023-05-20 10:40:06 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-20 10:40:06 INFO  - Step 1 - Welcome screen is opened
+2023-05-20 10:40:07 INFO  - Step 2 - Close welcome screen
+2023-05-20 10:40:07 INFO  - Button 'Find your library button' :: Clicking
+2023-05-20 10:40:07 INFO  - Step 3 - Add library screen is opened
+2023-05-20 10:40:13 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-20 10:40:13 INFO  - Text Field 'Search field' :: Clicking
+2023-05-20 10:40:19 INFO  - Text Field 'Search field' :: Clearing
+2023-05-20 10:40:19 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-20 10:40:31 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-20 10:40:32 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-20 10:40:32 INFO  - Button 'Settings' :: Clicking
+2023-05-20 10:40:34 INFO  - Button 'Settings' :: Clicking
+2023-05-20 10:40:34 INFO  - Button 'Libraries button' :: Clicking
+2023-05-20 10:40:35 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-20 10:40:35 INFO  - Button 'Settings' :: Clicking
+2023-05-20 10:40:36 INFO  - Button 'Settings' :: Clicking
+2023-05-20 10:40:37 INFO  - Button 'Libraries button' :: Clicking
+2023-05-20 10:40:39 INFO  - Locking credential with barcode 01230000000004
+2023-05-20 10:40:39 INFO  - There are books on the account: 
+2023-05-20 10:40:40 INFO  - bookName: Brave New Work Distributor: Palace Marketplace
+2023-05-20 10:40:40 INFO  - bookName: Two in the Bush Distributor: BiblioBoard
+2023-05-20 10:40:40 INFO  - bookName: The Song of Achilles Distributor: Bibliotheca
+2023-05-20 10:40:40 INFO  - bookName: Mixed Blood Distributor: Axis 360
+2023-05-20 10:40:40 INFO  - bookName: Outliers Distributor: Palace Marketplace
+2023-05-20 10:40:40 INFO  - bookName: Later Distributor: Bibliotheca
+2023-05-20 10:40:40 INFO  - bookName: Ask the Passengers Distributor: Axis 360
+2023-05-20 10:40:40 INFO  - bookName: Legends of the North Cascades Distributor: Bibliotheca
+2023-05-20 10:40:40 INFO  - bookName: Elixir Project Distributor: BiblioBoard
+2023-05-20 10:40:40 INFO  - bookName: Anna Karenina Distributor: Palace Marketplace
+2023-05-20 10:40:40 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-05-20 10:40:40 INFO  - bookName: The Alchemist Distributor: Bibliotheca
+2023-05-20 10:40:40 INFO  - bookName: The Star of Fate Distributor: Axis 360
+2023-05-20 10:40:40 INFO  - Count of books on the account after opening account: 13
+2023-05-20 10:41:01 INFO  - Text Field 'Card' :: Clicking
+2023-05-20 10:41:02 INFO  - Text Field 'Card' :: Clearing
+2023-05-20 10:41:02 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-05-20 10:41:04 INFO  - Text Field 'Pin' :: Clearing
+2023-05-20 10:41:04 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-20 10:41:08 INFO  - Button 'Log in' :: Clicking
+2023-05-20 10:41:21 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-05-20 10:41:23 INFO  - Step 7 - Login is performed successfully
+2023-05-20 10:41:24 INFO  - Step 8 - Open Catalog
+2023-05-20 10:41:24 INFO  - Button 'Catalog' :: Clicking
+2023-05-20 10:41:26 INFO  - Step 9 - Open search modal
+2023-05-20 10:41:27 INFO  - Button 'Search button' :: Clicking
+2023-05-20 10:41:29 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-20 10:41:29 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-20 10:41:29 INFO  - randomBookName: Ambulances :
+2023-05-20 10:41:30 INFO  - Text Field 'Search value input' :: Sending keys 'Ambulances :'
+2023-05-20 10:41:31 INFO  - Button 'Search' :: Clicking
+2023-05-20 10:41:34 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-05-20 10:41:34 INFO  - Button 'eBooks' :: Clicking
+2023-05-20 10:42:16 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-20 10:42:19 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-20 10:42:21 INFO  - Button 'actionButton' :: Clicking
+2023-05-20 10:42:26 INFO  - Alert appears and dismiss alert
+2023-05-20 10:42:26 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-05-20 10:42:47 INFO  - Taking screenshot
+2023-05-20 10:42:51 INFO  - Test finished - logging out
+2023-05-20 10:42:54 INFO  - Button 'Settings' :: Clicking
+2023-05-20 10:42:55 INFO  - Button 'Settings' :: Clicking
+2023-05-20 10:42:56 INFO  - Button 'Libraries button' :: Clicking
+2023-05-20 10:43:00 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-20 10:43:00 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-20 10:43:01 INFO  - Button 'Log out' :: Clicking
+2023-05-20 10:43:01 INFO  - Button 'Log out approve' :: Clicking
+2023-05-20 10:43:23 INFO  - Button 'Log in' :: Getting text from element
+2023-05-20 10:43:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-20 10:43:24 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-20 10:43:25 INFO  - Unlocking credential for current thread
+2023-05-20 10:43:25 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@24c95a62

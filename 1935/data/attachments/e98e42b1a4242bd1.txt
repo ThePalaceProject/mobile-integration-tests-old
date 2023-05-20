@@ -1,0 +1,77 @@
+2023-05-20 08:42:27 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-05-20 08:42:27 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-20 08:43:38 INFO  - Application on platform 'IOS' is ready...
+2023-05-20 08:43:38 INFO  - Session id - b45fe2553d6263600e66c1c2ad7bd8e17a4da8ac
+2023-05-20 08:43:38 INFO  - Step 0 - Close tutorial screen
+2023-05-20 08:43:38 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-20 08:43:39 INFO  - Step 1 - Welcome screen is opened
+2023-05-20 08:43:39 INFO  - Step 2 - Close welcome screen
+2023-05-20 08:43:39 INFO  - Button 'Find your library button' :: Clicking
+2023-05-20 08:43:40 INFO  - Step 3 - Add library screen is opened
+2023-05-20 08:43:45 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-20 08:43:45 INFO  - Text Field 'Search field' :: Clicking
+2023-05-20 08:43:51 INFO  - Text Field 'Search field' :: Clearing
+2023-05-20 08:43:51 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-20 08:44:02 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-20 08:44:04 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-20 08:44:04 INFO  - Button 'Settings' :: Clicking
+2023-05-20 08:44:06 INFO  - Button 'Settings' :: Clicking
+2023-05-20 08:44:06 INFO  - Button 'Libraries button' :: Clicking
+2023-05-20 08:44:07 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-20 08:44:07 INFO  - Button 'Settings' :: Clicking
+2023-05-20 08:44:08 INFO  - Button 'Settings' :: Clicking
+2023-05-20 08:44:08 INFO  - Button 'Libraries button' :: Clicking
+2023-05-20 08:44:11 INFO  - Locking credential with barcode 01230000000003
+2023-05-20 08:44:11 INFO  - There are books on the account: 
+2023-05-20 08:44:12 INFO  - bookName: Murder at the Columbarium Distributor: BiblioBoard
+2023-05-20 08:44:12 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-05-20 08:44:12 INFO  - bookName: Kate & Ruby Distributor: BiblioBoard
+2023-05-20 08:44:12 INFO  - bookName: Whiteout Distributor: Bibliotheca
+2023-05-20 08:44:12 INFO  - bookName: Bocas : a novel Distributor: BiblioBoard
+2023-05-20 08:44:12 INFO  - bookName: The Columbarium Distributor: BiblioBoard
+2023-05-20 08:44:12 INFO  - bookName: The Mystery of Mrs. Christie Distributor: Palace Marketplace
+2023-05-20 08:44:12 INFO  - bookName: The Dressmakers of Auschwitz Distributor: Bibliotheca
+2023-05-20 08:44:12 INFO  - bookName: The Martian Distributor: Palace Marketplace
+2023-05-20 08:44:12 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-05-20 08:44:12 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2023-05-20 08:44:12 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-05-20 08:44:12 INFO  - Count of books on the account after opening account: 12
+2023-05-20 08:44:33 INFO  - Text Field 'Card' :: Clicking
+2023-05-20 08:44:34 INFO  - Text Field 'Card' :: Clearing
+2023-05-20 08:44:34 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-05-20 08:44:37 INFO  - Text Field 'Pin' :: Clearing
+2023-05-20 08:44:37 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-20 08:44:40 INFO  - Button 'Log in' :: Clicking
+2023-05-20 08:44:48 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-05-20 08:44:51 INFO  - Step 7 - Login is performed successfully
+2023-05-20 08:44:52 INFO  - Step 8 - Open Catalog
+2023-05-20 08:44:52 INFO  - Button 'Catalog' :: Clicking
+2023-05-20 08:44:54 INFO  - Step 9 - Open search modal
+2023-05-20 08:44:56 INFO  - Button 'Search button' :: Clicking
+2023-05-20 08:44:58 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-20 08:44:58 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-20 08:44:58 INFO  - randomBookName: The Secret Lives of Church Ladies
+2023-05-20 08:44:59 INFO  - Text Field 'Search value input' :: Sending keys 'The Secret Lives of Church Ladies'
+2023-05-20 08:45:00 INFO  - Button 'Search' :: Clicking
+2023-05-20 08:45:05 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-05-20 08:45:05 INFO  - Button 'Audiobooks' :: Clicking
+2023-05-20 08:45:47 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-20 08:45:51 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-20 08:45:54 INFO  - Label 'lblBookName' :: Clicking
+2023-05-20 08:45:58 INFO  - Step 13 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-05-20 08:45:58 INFO  - Button 'Get' :: Clicking
+2023-05-20 08:46:11 INFO  - Button 'Cancel' :: Clicking
+2023-05-20 08:46:33 INFO  - Taking screenshot
+2023-05-20 08:46:35 INFO  - Test finished - logging out
+2023-05-20 08:46:39 INFO  - Button 'Settings' :: Clicking
+2023-05-20 08:46:40 INFO  - Button 'Settings' :: Clicking
+2023-05-20 08:46:40 INFO  - Button 'Libraries button' :: Clicking
+2023-05-20 08:46:43 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-20 08:46:44 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-20 08:46:44 INFO  - Button 'Log out' :: Clicking
+2023-05-20 08:46:45 INFO  - Button 'Log out approve' :: Clicking
+2023-05-20 08:47:06 INFO  - Button 'Log in' :: Getting text from element
+2023-05-20 08:47:07 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-20 08:47:08 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-20 08:47:09 INFO  - Unlocking credential for current thread
+2023-05-20 08:47:09 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@139a4444
