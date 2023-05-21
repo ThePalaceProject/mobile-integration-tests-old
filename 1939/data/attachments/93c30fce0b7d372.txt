@@ -1,0 +1,87 @@
+2023-05-21 08:29:31 INFO  - Scenario 'Hold from Book Detail View and Remove a Reserved Book from Book Detail View' start
+2023-05-21 08:29:31 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-21 08:30:09 INFO  - Application on platform 'IOS' is ready...
+2023-05-21 08:30:09 INFO  - Session id - 89d99239cff9eab64bee8586b8a2c78072c78089
+2023-05-21 08:30:09 INFO  - Step 0 - Close tutorial screen
+2023-05-21 08:30:09 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-21 08:30:10 INFO  - Step 1 - Welcome screen is opened
+2023-05-21 08:30:11 INFO  - Step 2 - Close welcome screen
+2023-05-21 08:30:11 INFO  - Button 'Find your library button' :: Clicking
+2023-05-21 08:30:12 INFO  - Step 3 - Add library screen is opened
+2023-05-21 08:30:18 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-21 08:30:18 INFO  - Text Field 'Search field' :: Clicking
+2023-05-21 08:30:25 INFO  - Text Field 'Search field' :: Clearing
+2023-05-21 08:30:25 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-21 08:30:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-21 08:30:39 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-21 08:30:39 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:30:41 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:30:42 INFO  - Button 'Libraries button' :: Clicking
+2023-05-21 08:30:44 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-21 08:30:44 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:30:45 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:30:46 INFO  - Button 'Libraries button' :: Clicking
+2023-05-21 08:30:49 INFO  - Locking credential with barcode 01230000000005
+2023-05-21 08:30:49 INFO  - There are books on the account: 
+2023-05-21 08:30:50 INFO  - bookName: The Adventures of Tom Sawyer Distributor: Palace Marketplace
+2023-05-21 08:30:50 INFO  - bookName: How to Connect Distributor: Bibliotheca
+2023-05-21 08:30:50 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-05-21 08:30:50 INFO  - bookName: The Power of Now Distributor: Bibliotheca
+2023-05-21 08:30:50 INFO  - bookName: The Mark of Athena Distributor: Axis 360
+2023-05-21 08:30:50 INFO  - bookName: A Spark of Light Distributor: Axis 360
+2023-05-21 08:30:50 INFO  - bookName: My Year Abroad Distributor: Palace Marketplace
+2023-05-21 08:30:50 INFO  - bookName: Your Brain at Work Distributor: Palace Marketplace
+2023-05-21 08:30:50 INFO  - bookName: A Thousand Brains Distributor: Palace Marketplace
+2023-05-21 08:30:50 INFO  - bookName: Daughter of the Morning Star Distributor: Bibliotheca
+2023-05-21 08:30:50 INFO  - bookName: These Precious Days Distributor: Bibliotheca
+2023-05-21 08:30:50 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-05-21 08:30:50 INFO  - Count of books on the account after opening account: 12
+2023-05-21 08:31:12 INFO  - Text Field 'Card' :: Clicking
+2023-05-21 08:31:14 INFO  - Text Field 'Card' :: Clearing
+2023-05-21 08:31:14 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-05-21 08:31:17 INFO  - Text Field 'Pin' :: Clearing
+2023-05-21 08:31:17 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-21 08:31:20 INFO  - Button 'Log in' :: Clicking
+2023-05-21 08:31:33 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-05-21 08:31:36 INFO  - Step 7 - Login is performed successfully
+2023-05-21 08:31:37 INFO  - Step 8 - Open Catalog
+2023-05-21 08:31:38 INFO  - Button 'Catalog' :: Clicking
+2023-05-21 08:31:40 INFO  - Step 9 - Open search modal
+2023-05-21 08:31:42 INFO  - Button 'Search button' :: Clicking
+2023-05-21 08:31:45 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-21 08:31:45 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-21 08:31:45 INFO  - randomBookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood
+2023-05-21 08:31:46 INFO  - Text Field 'Search value input' :: Sending keys 'Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood'
+2023-05-21 08:31:49 INFO  - Button 'Search' :: Clicking
+2023-05-21 08:31:53 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-05-21 08:31:53 INFO  - Button 'Audiobooks' :: Clicking
+2023-05-21 08:32:36 INFO  - Step 12 - Subcategory screen is present
+2023-05-21 08:32:37 INFO  - Step 13 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-21 08:32:40 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-21 08:32:41 INFO  - Label 'lblBookName' :: Clicking
+2023-05-21 08:32:43 INFO  - Step 14 - Book 'bookInfo' is opened on book details screen
+2023-05-21 08:32:46 INFO  - Label 'Book title' :: Getting text from element
+2023-05-21 08:33:08 INFO  - Label 'Author' :: Getting text from element
+2023-05-21 08:33:14 INFO  - Label 'Book title' :: Getting text from element
+2023-05-21 08:33:21 INFO  - Label 'Author' :: Getting text from element
+2023-05-21 08:33:23 INFO  - Step 15 - Click RESERVE action button on book details screen
+2023-05-21 08:33:24 INFO  - Button 'Reserve' :: Clicking
+2023-05-21 08:33:52 INFO  - Alert appears and dismiss alert
+2023-05-21 08:33:52 INFO  - Step 16 - Click REMOVE action button on book details screen
+2023-05-21 08:33:54 INFO  - Button 'Remove' :: Clicking
+2023-05-21 08:34:22 INFO  - Button 'Remove ActionButtonAlert' :: Clicking
+2023-05-21 08:34:24 INFO  - Step 17 - Check that book contains RESERVE action button on book details screen
+2023-05-21 08:34:28 INFO  - Taking screenshot
+2023-05-21 08:34:31 INFO  - Test finished - logging out
+2023-05-21 08:34:35 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:34:36 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:34:37 INFO  - Button 'Libraries button' :: Clicking
+2023-05-21 08:34:41 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-21 08:34:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-21 08:34:43 INFO  - Button 'Log out' :: Clicking
+2023-05-21 08:34:44 INFO  - Button 'Log out approve' :: Clicking
+2023-05-21 08:35:06 INFO  - Button 'Log in' :: Getting text from element
+2023-05-21 08:35:08 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-21 08:35:09 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-21 08:35:10 INFO  - Unlocking credential for current thread
+2023-05-21 08:35:10 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@39edd2bf

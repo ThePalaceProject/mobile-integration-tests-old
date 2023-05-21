@@ -1,0 +1,76 @@
+2023-05-21 08:23:42 INFO  - Scenario 'Check invalid data in searching Lyrasis' start
+2023-05-21 08:23:42 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-21 08:24:27 INFO  - Application on platform 'IOS' is ready...
+2023-05-21 08:24:27 INFO  - Session id - dee25f6c14a407eddf28f3808a36a0f9d4b6ee1c
+2023-05-21 08:24:27 INFO  - Step 0 - Close tutorial screen
+2023-05-21 08:24:27 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-21 08:24:28 INFO  - Step 1 - Welcome screen is opened
+2023-05-21 08:24:29 INFO  - Step 2 - Close welcome screen
+2023-05-21 08:24:29 INFO  - Button 'Find your library button' :: Clicking
+2023-05-21 08:24:30 INFO  - Step 3 - Add library screen is opened
+2023-05-21 08:24:36 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-21 08:24:36 INFO  - Text Field 'Search field' :: Clicking
+2023-05-21 08:24:43 INFO  - Text Field 'Search field' :: Clearing
+2023-05-21 08:24:43 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-21 08:24:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-21 08:24:57 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-21 08:24:57 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:24:59 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:25:00 INFO  - Button 'Libraries button' :: Clicking
+2023-05-21 08:25:02 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-21 08:25:02 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:25:03 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:25:04 INFO  - Button 'Libraries button' :: Clicking
+2023-05-21 08:25:08 INFO  - Locking credential with barcode 01230000000002
+2023-05-21 08:25:08 INFO  - There are books on the account: 
+2023-05-21 08:25:08 INFO  - bookName: Whiteout Distributor: Bibliotheca
+2023-05-21 08:25:08 INFO  - bookName: Look into My Eyes Distributor: Axis 360
+2023-05-21 08:25:08 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-05-21 08:25:08 INFO  - bookName: The Cenci Distributor: Palace Marketplace
+2023-05-21 08:25:08 INFO  - bookName: Malcolm Gladwell Box Set Distributor: Palace Marketplace
+2023-05-21 08:25:08 INFO  - bookName: Science Fiction : Distributor: BiblioBoard
+2023-05-21 08:25:08 INFO  - bookName: Where I Come From Distributor: Bibliotheca
+2023-05-21 08:25:08 INFO  - bookName: Santa Cruise Distributor: Bibliotheca
+2023-05-21 08:25:08 INFO  - bookName: Treasure Island Distributor: Axis 360
+2023-05-21 08:25:08 INFO  - bookName: The Martian Distributor: Palace Marketplace
+2023-05-21 08:25:08 INFO  - bookName: How to Connect Distributor: Bibliotheca
+2023-05-21 08:25:08 INFO  - bookName: The Latehomecomer Distributor: Axis 360
+2023-05-21 08:25:08 INFO  - bookName: The Dressmakers of Auschwitz Distributor: Bibliotheca
+2023-05-21 08:25:08 INFO  - Count of books on the account after opening account: 13
+2023-05-21 08:25:31 INFO  - Text Field 'Card' :: Clicking
+2023-05-21 08:25:32 INFO  - Text Field 'Card' :: Clearing
+2023-05-21 08:25:32 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-05-21 08:25:35 INFO  - Text Field 'Pin' :: Clearing
+2023-05-21 08:25:35 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-21 08:25:38 INFO  - Button 'Log in' :: Clicking
+2023-05-21 08:26:02 INFO  - Step 7 - Login is performed successfully
+2023-05-21 08:26:03 INFO  - Step 8 - Open Catalog
+2023-05-21 08:26:03 INFO  - Button 'Catalog' :: Clicking
+2023-05-21 08:26:06 INFO  - Step 9 - Open search modal
+2023-05-21 08:26:07 INFO  - Button 'Search button' :: Clicking
+2023-05-21 08:26:10 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-21 08:26:10 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-21 08:26:10 INFO  - randomBookName: The Story of the Baltimore Ravens :
+2023-05-21 08:26:11 INFO  - Text Field 'Search value input' :: Sending keys 'The Story of the Baltimore Ravens :'
+2023-05-21 08:26:13 INFO  - Button 'Search' :: Clicking
+2023-05-21 08:26:16 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-05-21 08:26:16 INFO  - Button 'eBooks' :: Clicking
+2023-05-21 08:26:59 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-21 08:27:02 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-21 08:27:04 INFO  - Button 'actionButton' :: Clicking
+2023-05-21 08:27:09 INFO  - Alert appears and dismiss alert
+2023-05-21 08:27:09 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-05-21 08:27:31 INFO  - Taking screenshot
+2023-05-21 08:27:35 INFO  - Test finished - logging out
+2023-05-21 08:27:38 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:27:40 INFO  - Button 'Settings' :: Clicking
+2023-05-21 08:27:41 INFO  - Button 'Libraries button' :: Clicking
+2023-05-21 08:27:45 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-21 08:27:46 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-21 08:27:47 INFO  - Button 'Log out' :: Clicking
+2023-05-21 08:27:48 INFO  - Button 'Log out approve' :: Clicking
+2023-05-21 08:28:10 INFO  - Button 'Log in' :: Getting text from element
+2023-05-21 08:28:12 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-21 08:28:13 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-21 08:28:14 INFO  - Unlocking credential for current thread
+2023-05-21 08:28:14 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@79770a3e
