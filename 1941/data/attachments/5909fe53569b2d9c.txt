@@ -1,0 +1,92 @@
+2023-05-21 19:25:08 INFO  - Scenario 'Open the audiobook at the last open chapter and check time code' start
+2023-05-21 19:25:08 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-21 19:25:41 INFO  - Application on platform 'IOS' is ready...
+2023-05-21 19:25:42 INFO  - Session id - 8897fac53755fdab7bcf34aa7ff7297df2a8d949
+2023-05-21 19:25:42 INFO  - Step 0 - Close tutorial screen
+2023-05-21 19:25:42 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-21 19:25:42 INFO  - Step 1 - Welcome screen is opened
+2023-05-21 19:25:43 INFO  - Step 2 - Close welcome screen
+2023-05-21 19:25:43 INFO  - Button 'Find your library button' :: Clicking
+2023-05-21 19:25:44 INFO  - Step 3 - Add library screen is opened
+2023-05-21 19:25:50 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-21 19:25:50 INFO  - Text Field 'Search field' :: Clicking
+2023-05-21 19:25:56 INFO  - Text Field 'Search field' :: Clearing
+2023-05-21 19:25:56 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-21 19:26:07 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-21 19:26:08 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-21 19:26:08 INFO  - Button 'Settings' :: Clicking
+2023-05-21 19:26:10 INFO  - Button 'Settings' :: Clicking
+2023-05-21 19:26:11 INFO  - Button 'Libraries button' :: Clicking
+2023-05-21 19:26:12 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-21 19:26:12 INFO  - Button 'Settings' :: Clicking
+2023-05-21 19:26:13 INFO  - Button 'Settings' :: Clicking
+2023-05-21 19:26:14 INFO  - Button 'Libraries button' :: Clicking
+2023-05-21 19:26:17 INFO  - Locking credential with barcode 01230000000002
+2023-05-21 19:26:17 INFO  - There are books on the account: 
+2023-05-21 19:26:18 INFO  - bookName: How to Connect Distributor: Bibliotheca
+2023-05-21 19:26:18 INFO  - bookName: Whiteout Distributor: Bibliotheca
+2023-05-21 19:26:18 INFO  - bookName: Santa Cruise Distributor: Bibliotheca
+2023-05-21 19:26:18 INFO  - bookName: The Latehomecomer Distributor: Axis 360
+2023-05-21 19:26:18 INFO  - bookName: Look into My Eyes Distributor: Axis 360
+2023-05-21 19:26:18 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-05-21 19:26:18 INFO  - bookName: The Martian Distributor: Palace Marketplace
+2023-05-21 19:26:18 INFO  - bookName: The Cenci Distributor: Palace Marketplace
+2023-05-21 19:26:18 INFO  - bookName: Science Fiction : Distributor: BiblioBoard
+2023-05-21 19:26:18 INFO  - bookName: Treasure Island Distributor: Axis 360
+2023-05-21 19:26:18 INFO  - bookName: The Dressmakers of Auschwitz Distributor: Bibliotheca
+2023-05-21 19:26:18 INFO  - bookName: Where I Come From Distributor: Bibliotheca
+2023-05-21 19:26:18 INFO  - bookName: Malcolm Gladwell Box Set Distributor: Palace Marketplace
+2023-05-21 19:26:18 INFO  - Count of books on the account after opening account: 13
+2023-05-21 19:26:39 INFO  - Text Field 'Card' :: Clicking
+2023-05-21 19:26:40 INFO  - Text Field 'Card' :: Clearing
+2023-05-21 19:26:40 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-05-21 19:26:43 INFO  - Text Field 'Pin' :: Clearing
+2023-05-21 19:26:43 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-21 19:26:46 INFO  - Button 'Log in' :: Clicking
+2023-05-21 19:27:08 INFO  - Step 7 - Login is performed successfully
+2023-05-21 19:27:08 INFO  - Step 8 - Open Catalog
+2023-05-21 19:27:08 INFO  - Button 'Catalog' :: Clicking
+2023-05-21 19:27:11 INFO  - Step 9 - Open search modal
+2023-05-21 19:27:11 INFO  - Button 'Search button' :: Clicking
+2023-05-21 19:27:13 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-21 19:27:13 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-21 19:27:13 INFO  - randomBookName: The Visiting Privilege
+2023-05-21 19:27:13 INFO  - Text Field 'Search value input' :: Sending keys 'The Visiting Privilege'
+2023-05-21 19:27:15 INFO  - Button 'Search' :: Clicking
+2023-05-21 19:27:17 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-05-21 19:27:18 INFO  - Button 'Audiobooks' :: Clicking
+2023-05-21 19:28:00 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-21 19:28:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-21 19:28:02 INFO  - Label 'lblBookName' :: Clicking
+2023-05-21 19:28:03 INFO  - Step 13 - Click GET action button on book details screen
+2023-05-21 19:28:03 INFO  - Button 'Get' :: Clicking
+2023-05-21 19:28:29 INFO  - Alert appears and dismiss alert
+2023-05-21 19:28:29 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-05-21 19:28:50 INFO  - Taking screenshot
+2023-05-21 19:28:52 INFO  - Test finished - logging out
+2023-05-21 19:28:55 INFO  - Button 'Settings' :: Clicking
+2023-05-21 19:28:57 INFO  - Button 'Settings' :: Clicking
+2023-05-21 19:28:57 INFO  - Button 'Libraries button' :: Clicking
+2023-05-21 19:29:00 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-21 19:29:01 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-21 19:29:02 INFO  - Button 'Log out' :: Clicking
+2023-05-21 19:29:03 INFO  - Button 'Log out approve' :: Clicking
+2023-05-21 19:29:24 INFO  - Button 'Log in' :: Getting text from element
+2023-05-21 19:29:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-21 19:29:26 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-21 19:29:26 INFO  - Unlocking credential for current thread
+2023-05-21 19:29:26 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3b8311e7
+023-05-21 19:25:27 INFO  - Test finished - logging out
+2023-05-21 19:25:30 INFO  - Button 'Settings' :: Clicking
+2023-05-21 19:25:32 INFO  - Button 'Settings' :: Clicking
+2023-05-21 19:25:33 INFO  - Button 'Libraries button' :: Clicking
+2023-05-21 19:25:36 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-21 19:25:36 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-21 19:25:37 INFO  - Button 'Log out' :: Clicking
+2023-05-21 19:25:38 INFO  - Button 'Log out approve' :: Clicking
+2023-05-21 19:26:00 INFO  - Button 'Log in' :: Getting text from element
+2023-05-21 19:26:00 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-21 19:26:01 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-21 19:26:02 INFO  - Unlocking credential for current thread
+2023-05-21 19:26:02 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@84d5e0f
+2023-05-21 19:26:02 INFO  - Scenario 'Open the audiobook at the last open chapter and check time code' end
