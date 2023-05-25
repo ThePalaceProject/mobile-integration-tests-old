@@ -1,0 +1,84 @@
+2023-05-25 21:51:19 INFO  - Scenario 'Check table of contents Lyrasis' start
+2023-05-25 21:51:19 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-25 21:51:39 INFO  - Application on platform 'IOS' is ready...
+2023-05-25 21:51:40 INFO  - Session id - 88cf511950226cb1e1871f56601a83366d9c2f24
+2023-05-25 21:51:40 INFO  - Step 0 - Close tutorial screen
+2023-05-25 21:51:40 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-25 21:51:41 INFO  - Step 1 - Welcome screen is opened
+2023-05-25 21:51:42 INFO  - Step 2 - Close welcome screen
+2023-05-25 21:51:42 INFO  - Button 'Find your library button' :: Clicking
+2023-05-25 21:51:43 INFO  - Step 3 - Add library screen is opened
+2023-05-25 21:51:49 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-25 21:51:49 INFO  - Text Field 'Search field' :: Clicking
+2023-05-25 21:51:56 INFO  - Text Field 'Search field' :: Clearing
+2023-05-25 21:51:56 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-25 21:52:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-25 21:52:11 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-25 21:52:11 INFO  - Button 'Settings' :: Clicking
+2023-05-25 21:52:13 INFO  - Button 'Settings' :: Clicking
+2023-05-25 21:52:14 INFO  - Button 'Libraries button' :: Clicking
+2023-05-25 21:52:17 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-25 21:52:17 INFO  - Button 'Settings' :: Clicking
+2023-05-25 21:52:18 INFO  - Button 'Settings' :: Clicking
+2023-05-25 21:52:20 INFO  - Button 'Libraries button' :: Clicking
+2023-05-25 21:52:24 INFO  - Locking credential with barcode 01230000000003
+2023-05-25 21:52:24 INFO  - There are books on the account: 
+2023-05-25 21:52:25 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-05-25 21:52:25 INFO  - Books without revoke in link. BookName: These Precious Days Distributor: framework.utilities.returningBooksUtil.Distributor@5b9d5fe8
+2023-05-25 21:52:25 INFO  - Books without revoke in link. BookName: The Song of Achilles Distributor: framework.utilities.returningBooksUtil.Distributor@c526762
+2023-05-25 21:52:25 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-05-25 21:52:25 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-05-25 21:52:25 INFO  - Books without revoke in link. BookName: Daughter of the Morning Star Distributor: framework.utilities.returningBooksUtil.Distributor@771bec99
+2023-05-25 21:52:25 INFO  - bookName: The Mystery of Mrs. Christie Distributor: Palace Marketplace
+2023-05-25 21:52:25 INFO  - Count of books on the account after opening account: 4
+2023-05-25 21:52:47 INFO  - Text Field 'Card' :: Clicking
+2023-05-25 21:52:49 INFO  - Text Field 'Card' :: Clearing
+2023-05-25 21:52:49 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-05-25 21:52:52 INFO  - Text Field 'Pin' :: Clearing
+2023-05-25 21:52:52 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-25 21:52:56 INFO  - Button 'Log in' :: Clicking
+2023-05-25 21:53:04 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-05-25 21:53:07 INFO  - Step 7 - Login is performed successfully
+2023-05-25 21:53:08 INFO  - Step 8 - Open Catalog
+2023-05-25 21:53:08 INFO  - Button 'Catalog' :: Clicking
+2023-05-25 21:53:11 INFO  - Step 9 - Open search modal
+2023-05-25 21:53:13 INFO  - Button 'Search button' :: Clicking
+2023-05-25 21:53:15 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-25 21:53:15 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-25 21:53:15 INFO  - randomBookName: Chimpanzees :
+2023-05-25 21:53:16 INFO  - Text Field 'Search value input' :: Sending keys 'Chimpanzees :'
+2023-05-25 21:53:18 INFO  - Button 'Search' :: Clicking
+2023-05-25 21:53:21 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-05-25 21:53:21 INFO  - Button 'eBooks' :: Clicking
+2023-05-25 21:54:03 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-25 21:54:05 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-25 21:54:06 INFO  - Button 'actionButton' :: Clicking
+2023-05-25 21:54:29 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-05-25 21:54:31 INFO  - Step 14 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-25 21:54:33 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-25 21:54:34 INFO  - Label 'lblBookName' :: Clicking
+2023-05-25 21:54:36 INFO  - Step 15 - Click READ action button on book details screen
+2023-05-25 21:54:37 INFO  - Button 'Read' :: Clicking
+2023-05-25 21:54:59 INFO  - Step 16 - Reader pdf screen is opened
+2023-05-25 21:55:00 INFO  - Step 17 - Open table of contents on pdf reader screen
+2023-05-25 21:55:00 INFO  - Button 'Table of content button' :: Clicking
+2023-05-25 21:55:02 INFO  - Step 18 - Open text chapter content on pdf toc screen
+2023-05-25 21:55:02 INFO  - Button 'Toc button' :: Clicking
+2023-05-25 21:55:04 INFO  - Step 19 - Text chapter content is opened on pdf toc screen
+2023-05-25 21:55:05 INFO  - Step 20 - Open content with thumbnails on pdf toc screen
+2023-05-25 21:55:05 INFO  - Button 'Thumbnails button' :: Clicking
+2023-05-25 21:55:07 INFO  - Step 21 - Thumbnails of the book pages are displayed
+2023-05-25 21:55:10 INFO  - Taking screenshot
+2023-05-25 21:55:15 INFO  - Test finished - logging out
+2023-05-25 21:55:18 INFO  - Button 'Settings' :: Clicking
+2023-05-25 21:55:20 INFO  - Button 'Settings' :: Clicking
+2023-05-25 21:55:21 INFO  - Button 'Libraries button' :: Clicking
+2023-05-25 21:55:26 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-25 21:55:27 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-25 21:55:28 INFO  - Button 'Log out' :: Clicking
+2023-05-25 21:55:30 INFO  - Button 'Log out approve' :: Clicking
+2023-05-25 21:55:51 INFO  - Button 'Log in' :: Getting text from element
+2023-05-25 21:55:52 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-25 21:55:53 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-25 21:55:54 INFO  - Unlocking credential for current thread
+2023-05-25 21:55:54 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1e841d9e
