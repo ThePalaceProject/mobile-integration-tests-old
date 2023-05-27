@@ -1,0 +1,67 @@
+2023-05-27 09:12:19 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-05-27 09:12:19 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-27 09:13:14 INFO  - Application on platform 'IOS' is ready...
+2023-05-27 09:13:14 INFO  - Session id - 9afba1b4641fa2c9640c40471f0bba0c7bd1ccf4
+2023-05-27 09:13:14 INFO  - Step 0 - Close tutorial screen
+2023-05-27 09:13:14 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-27 09:13:14 INFO  - Step 1 - Welcome screen is opened
+2023-05-27 09:13:15 INFO  - Step 2 - Close welcome screen
+2023-05-27 09:13:15 INFO  - Button 'Find your library button' :: Clicking
+2023-05-27 09:13:16 INFO  - Step 3 - Add library screen is opened
+2023-05-27 09:13:21 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-27 09:13:21 INFO  - Text Field 'Search field' :: Clicking
+2023-05-27 09:13:27 INFO  - Text Field 'Search field' :: Clearing
+2023-05-27 09:13:27 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-27 09:13:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-27 09:13:39 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-27 09:13:39 INFO  - Button 'Settings' :: Clicking
+2023-05-27 09:13:41 INFO  - Button 'Settings' :: Clicking
+2023-05-27 09:13:42 INFO  - Button 'Libraries button' :: Clicking
+2023-05-27 09:13:43 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-27 09:13:43 INFO  - Button 'Settings' :: Clicking
+2023-05-27 09:13:44 INFO  - Button 'Settings' :: Clicking
+2023-05-27 09:13:44 INFO  - Button 'Libraries button' :: Clicking
+2023-05-27 09:13:46 INFO  - Locking credential with barcode 01230000000002
+2023-05-27 09:13:46 INFO  - There are books on the account: 
+2023-05-27 09:13:48 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-05-27 09:13:48 INFO  - Count of books on the account after opening account: 1
+2023-05-27 09:14:09 INFO  - Text Field 'Card' :: Clicking
+2023-05-27 09:14:10 INFO  - Text Field 'Card' :: Clearing
+2023-05-27 09:14:10 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-05-27 09:14:12 INFO  - Text Field 'Pin' :: Clearing
+2023-05-27 09:14:12 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-27 09:14:16 INFO  - Button 'Log in' :: Clicking
+2023-05-27 09:14:38 INFO  - Step 7 - Login is performed successfully
+2023-05-27 09:14:39 INFO  - Step 8 - Open Catalog
+2023-05-27 09:14:39 INFO  - Button 'Catalog' :: Clicking
+2023-05-27 09:14:42 INFO  - Step 9 - Open search modal
+2023-05-27 09:14:42 INFO  - Button 'Search button' :: Clicking
+2023-05-27 09:14:45 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-27 09:14:45 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-05-27 09:14:45 INFO  - randomBookName: Living in Space
+2023-05-27 09:14:46 INFO  - Text Field 'Search value input' :: Sending keys 'Living in Space'
+2023-05-27 09:14:47 INFO  - Button 'Search' :: Clicking
+2023-05-27 09:14:51 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-05-27 09:14:51 INFO  - Button 'eBooks' :: Clicking
+2023-05-27 09:15:33 INFO  - Step 12 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-27 09:15:36 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-27 09:15:38 INFO  - Label 'lblBookName' :: Clicking
+2023-05-27 09:15:40 INFO  - Step 13 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-05-27 09:15:40 INFO  - Button 'Get' :: Clicking
+2023-05-27 09:15:55 INFO  - Button 'Cancel' :: Clicking
+2023-05-27 09:15:59 INFO  - Step 14 - Check that book contains DOWNLOAD action button on book details screen
+2023-05-27 09:16:01 INFO  - Step 15 - Check that book contains RETURN action button on book details screen
+2023-05-27 09:16:04 INFO  - Taking screenshot
+2023-05-27 09:16:06 INFO  - Test finished - logging out
+2023-05-27 09:16:10 INFO  - Button 'Settings' :: Clicking
+2023-05-27 09:16:10 INFO  - Button 'Settings' :: Clicking
+2023-05-27 09:16:11 INFO  - Button 'Libraries button' :: Clicking
+2023-05-27 09:16:13 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-27 09:16:13 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-27 09:16:14 INFO  - Button 'Log out' :: Clicking
+2023-05-27 09:16:15 INFO  - Button 'Log out approve' :: Clicking
+2023-05-27 09:16:36 INFO  - Button 'Log in' :: Getting text from element
+2023-05-27 09:16:36 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-27 09:16:37 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-27 09:16:38 INFO  - Unlocking credential for current thread
+2023-05-27 09:16:38 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7c963222
