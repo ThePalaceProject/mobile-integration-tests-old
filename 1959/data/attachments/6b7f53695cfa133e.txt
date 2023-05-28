@@ -1,0 +1,81 @@
+2023-05-28 20:04:52 INFO  - Scenario 'LYRASIS: Getting and returning books from Book Detail View' start
+2023-05-28 20:04:52 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-28 20:05:10 INFO  - Application on platform 'IOS' is ready...
+2023-05-28 20:05:10 INFO  - Session id - da5e90d44454688b659fcbe4534b63a5cc2d7a47
+2023-05-28 20:05:10 INFO  - Step 0 - Close tutorial screen
+2023-05-28 20:05:10 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-28 20:05:11 INFO  - Step 1 - Welcome screen is opened
+2023-05-28 20:05:11 INFO  - Step 2 - Close welcome screen
+2023-05-28 20:05:11 INFO  - Button 'Find your library button' :: Clicking
+2023-05-28 20:05:12 INFO  - Step 3 - Add library screen is opened
+2023-05-28 20:05:18 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-28 20:05:18 INFO  - Text Field 'Search field' :: Clicking
+2023-05-28 20:05:25 INFO  - Text Field 'Search field' :: Clearing
+2023-05-28 20:05:25 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-28 20:05:36 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-28 20:05:37 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-28 20:05:38 INFO  - Button 'Settings' :: Clicking
+2023-05-28 20:05:38 INFO  - Button 'Settings' :: Clicking
+2023-05-28 20:05:40 INFO  - Button 'Libraries button' :: Clicking
+2023-05-28 20:05:41 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-28 20:05:41 INFO  - Button 'Settings' :: Clicking
+2023-05-28 20:05:43 INFO  - Button 'Settings' :: Clicking
+2023-05-28 20:05:44 INFO  - Button 'Libraries button' :: Clicking
+2023-05-28 20:05:47 INFO  - Locking credential with barcode 01230000000004
+2023-05-28 20:05:47 INFO  - There are books on the account: 
+2023-05-28 20:05:48 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-05-28 20:05:48 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-05-28 20:05:48 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-05-28 20:05:48 INFO  - Count of books on the account after opening account: 3
+2023-05-28 20:06:09 INFO  - Text Field 'Card' :: Clicking
+2023-05-28 20:06:10 INFO  - Text Field 'Card' :: Clearing
+2023-05-28 20:06:10 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-05-28 20:06:13 INFO  - Text Field 'Pin' :: Clearing
+2023-05-28 20:06:13 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-28 20:06:17 INFO  - Button 'Log in' :: Clicking
+2023-05-28 20:06:23 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-05-28 20:06:25 INFO  - Step 7 - Login is performed successfully
+2023-05-28 20:06:26 INFO  - Step 8 - Open Catalog
+2023-05-28 20:06:26 INFO  - Button 'Catalog' :: Clicking
+2023-05-28 20:06:28 INFO  - Step 9 - Open search modal
+2023-05-28 20:06:31 INFO  - Button 'Search button' :: Clicking
+2023-05-28 20:06:33 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-28 20:06:33 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-28 20:06:33 INFO  - randomBookName: Super Harry
+2023-05-28 20:06:34 INFO  - Text Field 'Search value input' :: Sending keys 'Super Harry'
+2023-05-28 20:06:35 INFO  - Button 'Search' :: Clicking
+2023-05-28 20:06:37 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-05-28 20:06:37 INFO  - Button 'eBooks' :: Clicking
+2023-05-28 20:07:19 INFO  - Step 12 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-28 20:07:22 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-28 20:07:23 INFO  - Label 'lblBookName' :: Clicking
+2023-05-28 20:07:24 INFO  - Step 13 - Click GET action button on book details screen
+2023-05-28 20:07:26 INFO  - Button 'Get' :: Clicking
+2023-05-28 20:08:09 INFO  - Step 14 - Check that book contains READ action button on book details screen
+2023-05-28 20:08:10 INFO  - Step 15 - Click RETURN action button on book details screen
+2023-05-28 20:08:11 INFO  - Button 'Return' :: Clicking
+2023-05-28 20:08:36 INFO  - Button 'Return ActionButtonAlert' :: Clicking
+2023-05-28 20:08:37 INFO  - Step 16 - Check that book contains GET action button on book details screen
+2023-05-28 20:08:41 INFO  - Step 17 - Click GET action button on book details screen
+2023-05-28 20:08:42 INFO  - Button 'Get' :: Clicking
+2023-05-28 20:09:25 INFO  - Step 18 - Check that book contains READ action button on book details screen
+2023-05-28 20:09:26 INFO  - Step 19 - Click READ action button on book details screen
+2023-05-28 20:09:26 INFO  - Button 'Read' :: Clicking
+2023-05-28 20:09:48 INFO  - Step 20 - Wait for 3 seconds
+2023-05-28 20:09:51 INFO  - Step 21 - Book 'bookInfo' with EBOOK type is present on epub or pdf or audiobook screen
+2023-05-28 20:09:52 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-05-28 20:09:52 INFO  - Book name on epub reader screen - 9781398419568
+2023-05-28 20:09:52 INFO  - Taking screenshot
+2023-05-28 20:09:54 INFO  - Test finished - logging out
+2023-05-28 20:09:57 INFO  - Button 'Settings' :: Clicking
+2023-05-28 20:09:59 INFO  - Button 'Settings' :: Clicking
+2023-05-28 20:10:00 INFO  - Button 'Libraries button' :: Clicking
+2023-05-28 20:10:04 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-28 20:10:04 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-28 20:10:05 INFO  - Button 'Log out' :: Clicking
+2023-05-28 20:10:07 INFO  - Button 'Log out approve' :: Clicking
+2023-05-28 20:10:28 INFO  - Button 'Log in' :: Getting text from element
+2023-05-28 20:10:29 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-28 20:10:30 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-28 20:10:31 INFO  - Unlocking credential for current thread
+2023-05-28 20:10:31 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5f453014
