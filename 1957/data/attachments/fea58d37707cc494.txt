@@ -1,0 +1,86 @@
+2023-05-28 08:39:06 INFO  - Scenario 'Hold from Book Detail View and and Remove a Reserved Book from Holds' start
+2023-05-28 08:39:06 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-28 08:39:49 INFO  - Application on platform 'IOS' is ready...
+2023-05-28 08:39:49 INFO  - Session id - b75b105c140cee1a6669ac8bc17675723e1ad1e9
+2023-05-28 08:39:49 INFO  - Step 0 - Close tutorial screen
+2023-05-28 08:39:49 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-28 08:39:50 INFO  - Step 1 - Welcome screen is opened
+2023-05-28 08:39:51 INFO  - Step 2 - Close welcome screen
+2023-05-28 08:39:51 INFO  - Button 'Find your library button' :: Clicking
+2023-05-28 08:39:52 INFO  - Step 3 - Add library screen is opened
+2023-05-28 08:39:58 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-28 08:39:58 INFO  - Text Field 'Search field' :: Clicking
+2023-05-28 08:40:05 INFO  - Text Field 'Search field' :: Clearing
+2023-05-28 08:40:05 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-28 08:40:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-28 08:40:19 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-28 08:40:19 INFO  - Button 'Settings' :: Clicking
+2023-05-28 08:40:21 INFO  - Button 'Settings' :: Clicking
+2023-05-28 08:40:22 INFO  - Button 'Libraries button' :: Clicking
+2023-05-28 08:40:24 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-28 08:40:24 INFO  - Button 'Settings' :: Clicking
+2023-05-28 08:40:25 INFO  - Button 'Settings' :: Clicking
+2023-05-28 08:40:26 INFO  - Button 'Libraries button' :: Clicking
+2023-05-28 08:40:29 INFO  - Locking credential with barcode 01230000000004
+2023-05-28 08:40:29 INFO  - There are books on the account: 
+2023-05-28 08:40:30 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-05-28 08:40:30 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-05-28 08:40:30 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-05-28 08:40:30 INFO  - Count of books on the account after opening account: 3
+2023-05-28 08:40:52 INFO  - Text Field 'Card' :: Clicking
+2023-05-28 08:40:53 INFO  - Text Field 'Card' :: Clearing
+2023-05-28 08:40:53 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-05-28 08:40:57 INFO  - Text Field 'Pin' :: Clearing
+2023-05-28 08:40:57 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-28 08:41:00 INFO  - Button 'Log in' :: Clicking
+2023-05-28 08:41:09 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-05-28 08:41:11 INFO  - Step 7 - Login is performed successfully
+2023-05-28 08:41:13 INFO  - Step 8 - Open Catalog
+2023-05-28 08:41:13 INFO  - Button 'Catalog' :: Clicking
+2023-05-28 08:41:16 INFO  - Step 9 - Open search modal
+2023-05-28 08:41:18 INFO  - Button 'Search button' :: Clicking
+2023-05-28 08:41:21 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-28 08:41:21 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-28 08:41:21 INFO  - randomBookName: Dream Hoarders
+2023-05-28 08:41:22 INFO  - Text Field 'Search value input' :: Sending keys 'Dream Hoarders'
+2023-05-28 08:41:24 INFO  - Button 'Search' :: Clicking
+2023-05-28 08:41:27 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-05-28 08:41:27 INFO  - Button 'Audiobooks' :: Clicking
+2023-05-28 08:42:09 INFO  - Step 12 - Subcategory screen is present
+2023-05-28 08:42:10 INFO  - Step 13 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-28 08:42:13 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-28 08:42:14 INFO  - Label 'lblBookName' :: Clicking
+2023-05-28 08:42:16 INFO  - Step 14 - Book 'bookInfo' is opened on book details screen
+2023-05-28 08:42:21 INFO  - Label 'Book title' :: Getting text from element
+2023-05-28 08:42:28 INFO  - Label 'Author' :: Getting text from element
+2023-05-28 08:42:34 INFO  - Label 'Book title' :: Getting text from element
+2023-05-28 08:42:42 INFO  - Label 'Author' :: Getting text from element
+2023-05-28 08:42:43 INFO  - Step 15 - Click RESERVE action button on book details screen
+2023-05-28 08:42:44 INFO  - Button 'Reserve' :: Clicking
+2023-05-28 08:43:13 INFO  - Alert appears and dismiss alert
+2023-05-28 08:43:13 INFO  - Step 16 - Close Book Details for IOSTab
+2023-05-28 08:43:14 INFO  - Step 17 - Open Holds
+2023-05-28 08:43:14 INFO  - Button 'Reservations' :: Clicking
+2023-05-28 08:43:15 INFO  - Step 18 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-05-28 08:43:17 INFO  - Step 19 - Open AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2023-05-28 08:43:18 INFO  - Label 'lblBookName' :: Clicking
+2023-05-28 08:43:19 INFO  - Step 20 - Click REMOVE action button on book details screen
+2023-05-28 08:43:21 INFO  - Button 'Remove' :: Clicking
+2023-05-28 08:53:45 INFO  - Step 21 - Open Holds
+2023-05-28 08:53:45 INFO  - Button 'Reservations' :: Clicking
+2023-05-28 08:53:47 INFO  - Step 22 - Wait for 7 seconds
+2023-05-28 08:53:54 INFO  - Step 23 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is not present on holds screen
+2023-05-28 08:53:56 INFO  - Taking screenshot
+2023-05-28 08:54:01 INFO  - Test finished - logging out
+2023-05-28 08:54:04 INFO  - Button 'Settings' :: Clicking
+2023-05-28 08:54:05 INFO  - Button 'Settings' :: Clicking
+2023-05-28 08:54:06 INFO  - Button 'Libraries button' :: Clicking
+2023-05-28 08:54:10 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-28 08:54:11 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-28 08:54:12 INFO  - Button 'Log out' :: Clicking
+2023-05-28 08:54:13 INFO  - Button 'Log out approve' :: Clicking
+2023-05-28 08:54:35 INFO  - Button 'Log in' :: Getting text from element
+2023-05-28 08:54:36 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-28 08:54:37 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-28 08:54:38 INFO  - Unlocking credential for current thread
+2023-05-28 08:54:38 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@37c6dcab

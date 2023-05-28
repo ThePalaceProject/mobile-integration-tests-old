@@ -1,0 +1,82 @@
+2023-05-28 07:01:21 INFO  - Scenario 'Navigate by Page' start
+2023-05-28 07:01:21 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-28 07:02:03 INFO  - Application on platform 'IOS' is ready...
+2023-05-28 07:02:03 INFO  - Session id - 9e2d709fbf34222efef8dcd83d54cbee98608c22
+2023-05-28 07:02:03 INFO  - Step 0 - Close tutorial screen
+2023-05-28 07:02:04 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-28 07:02:04 INFO  - Step 1 - Welcome screen is opened
+2023-05-28 07:02:05 INFO  - Step 2 - Close welcome screen
+2023-05-28 07:02:05 INFO  - Button 'Find your library button' :: Clicking
+2023-05-28 07:02:06 INFO  - Step 3 - Add library screen is opened
+2023-05-28 07:02:13 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-28 07:02:13 INFO  - Text Field 'Search field' :: Clicking
+2023-05-28 07:02:20 INFO  - Text Field 'Search field' :: Clearing
+2023-05-28 07:02:20 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-28 07:02:33 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-28 07:02:35 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-28 07:02:35 INFO  - Button 'Settings' :: Clicking
+2023-05-28 07:02:37 INFO  - Button 'Settings' :: Clicking
+2023-05-28 07:02:38 INFO  - Button 'Libraries button' :: Clicking
+2023-05-28 07:02:40 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-28 07:02:40 INFO  - Button 'Settings' :: Clicking
+2023-05-28 07:02:41 INFO  - Button 'Settings' :: Clicking
+2023-05-28 07:02:42 INFO  - Button 'Libraries button' :: Clicking
+2023-05-28 07:02:46 INFO  - Locking credential with barcode 01230000000002
+2023-05-28 07:02:46 INFO  - There are books on the account: 
+2023-05-28 07:02:46 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-05-28 07:02:46 INFO  - Count of books on the account after opening account: 1
+2023-05-28 07:03:09 INFO  - Text Field 'Card' :: Clicking
+2023-05-28 07:03:10 INFO  - Text Field 'Card' :: Clearing
+2023-05-28 07:03:10 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-05-28 07:03:13 INFO  - Text Field 'Pin' :: Clearing
+2023-05-28 07:03:13 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-28 07:03:16 INFO  - Button 'Log in' :: Clicking
+2023-05-28 07:03:40 INFO  - Step 7 - Login is performed successfully
+2023-05-28 07:03:41 INFO  - Step 8 - Open Catalog
+2023-05-28 07:03:41 INFO  - Button 'Catalog' :: Clicking
+2023-05-28 07:03:44 INFO  - Step 9 - Open search modal
+2023-05-28 07:03:45 INFO  - Button 'Search button' :: Clicking
+2023-05-28 07:03:48 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-28 07:03:48 INFO  - Count of attempts to get random book name without bad symbols-4
+2023-05-28 07:03:48 INFO  - randomBookName: The Rose
+2023-05-28 07:03:49 INFO  - Text Field 'Search value input' :: Sending keys 'The Rose'
+2023-05-28 07:03:50 INFO  - Button 'Search' :: Clicking
+2023-05-28 07:03:53 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-28 07:04:02 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-28 07:04:04 INFO  - Button 'actionButton' :: Clicking
+2023-05-28 07:04:27 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-28 07:04:30 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-28 07:04:31 INFO  - Label 'lblBookName' :: Clicking
+2023-05-28 07:04:33 INFO  - Step 13 - Click READ action button on book details screen
+2023-05-28 07:04:35 INFO  - Button 'Read' :: Clicking
+2023-05-28 07:04:57 INFO  - Step 14 - 'bookInfo' book is present on epub reader screen
+2023-05-28 07:04:57 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-05-28 07:04:57 INFO  - Book name on epub reader screen - The Rose
+2023-05-28 07:04:57 INFO  - Step 15 - Scroll page forward from 7 to 10 times
+2023-05-28 07:04:57 INFO  - Scrolling 8 times on reader epub screen
+2023-05-28 07:05:17 INFO  - Step 16 - Open navigation bar on reader epub screen
+2023-05-28 07:05:18 INFO  - Step 17 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-05-28 07:05:18 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-05-28 07:05:19 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-05-28 07:05:20 INFO  - Step 18 - Open navigation bar on reader epub screen
+2023-05-28 07:05:20 INFO  - Step 19 - Next page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-05-28 07:05:20 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-05-28 07:05:21 INFO  - actualPageNumberOfNextPage4
+2023-05-28 07:05:21 INFO  - expectedPageNumberOfNextPage5
+2023-05-28 07:05:21 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-05-28 07:05:22 INFO  - actualChapterNameOfNextPageThe Rose
+2023-05-28 07:05:22 INFO  - expectedChapterNameOfNextPageThe Rose
+2023-05-28 07:05:22 INFO  - Taking screenshot
+2023-05-28 07:05:24 INFO  - Test finished - logging out
+2023-05-28 07:05:28 INFO  - Button 'Settings' :: Clicking
+2023-05-28 07:05:29 INFO  - Button 'Settings' :: Clicking
+2023-05-28 07:05:30 INFO  - Button 'Libraries button' :: Clicking
+2023-05-28 07:05:34 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-28 07:05:35 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-28 07:05:36 INFO  - Button 'Log out' :: Clicking
+2023-05-28 07:05:38 INFO  - Button 'Log out approve' :: Clicking
+2023-05-28 07:06:00 INFO  - Button 'Log in' :: Getting text from element
+2023-05-28 07:06:01 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-28 07:06:02 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-28 07:06:04 INFO  - Unlocking credential for current thread
+2023-05-28 07:06:04 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@71807079
