@@ -1,0 +1,77 @@
+2023-05-29 20:20:49 INFO  - Scenario 'Font settings: Check of text theme' start
+2023-05-29 20:20:49 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-29 20:21:16 INFO  - Application on platform 'ANDROID' is ready...
+2023-05-29 20:21:16 INFO  - Session id - 6b2cef7377b31c8c7df2bc4f696a6ad55b1c5f8b
+2023-05-29 20:21:16 INFO  - Step 0 - Close tutorial screen
+2023-05-29 20:21:16 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-29 20:21:19 INFO  - Step 1 - Welcome screen is opened
+2023-05-29 20:21:20 INFO  - Step 2 - Close welcome screen
+2023-05-29 20:21:20 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-05-29 20:21:20 INFO  - Step 3 - Add library screen is opened
+2023-05-29 20:21:22 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-29 20:21:22 INFO  - Button 'Search' :: Clicking
+2023-05-29 20:21:24 INFO  - Text Field 'Search' :: Clearing
+2023-05-29 20:21:24 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-05-29 20:21:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-29 20:21:27 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-29 20:21:27 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 20:21:29 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 20:21:30 INFO  - Button 'Accounts' :: Clicking
+2023-05-29 20:21:32 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-29 20:21:32 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 20:21:33 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 20:21:34 INFO  - Button 'Accounts' :: Clicking
+2023-05-29 20:21:35 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-29 20:21:35 INFO  - Locking credential with barcode 01230000000005
+2023-05-29 20:21:35 INFO  - There are books on the account: 
+2023-05-29 20:21:37 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-05-29 20:21:37 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-05-29 20:21:37 INFO  - Count of books on the account after opening account: 2
+2023-05-29 20:21:37 INFO  - Text Field 'Card' :: Clearing
+2023-05-29 20:21:37 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-05-29 20:21:38 INFO  - Text Field 'Pin' :: Clearing
+2023-05-29 20:21:38 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-29 20:21:40 INFO  - Button 'Log in' :: Clicking
+2023-05-29 20:21:46 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-29 20:21:47 INFO  - Step 7 - Login is performed successfully
+2023-05-29 20:22:08 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-29 20:22:08 INFO  - Step 8 - Open Catalog
+2023-05-29 20:22:08 INFO  - Button 'tabCatalog' :: Clicking
+2023-05-29 20:22:29 INFO  - Step 9 - Open search modal
+2023-05-29 20:22:49 INFO  - Button 'Search' :: Clicking
+2023-05-29 20:22:51 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-29 20:22:51 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-29 20:22:51 INFO  - randomBookName: The Big Book of Cidermaking
+2023-05-29 20:22:51 INFO  - Error details button is not present
+2023-05-29 20:22:52 INFO  - Text Field 'Search value input' :: Sending keys 'The Big Book of Cidermaking'
+2023-05-29 20:22:55 INFO  - Error details button is not present
+2023-05-29 20:22:57 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-29 20:22:59 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-29 20:23:00 INFO  - Button 'actionButton' :: Clicking
+2023-05-29 20:23:09 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-29 20:23:10 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-29 20:23:10 INFO  - Label 'lblBookName' :: Clicking
+2023-05-29 20:23:10 INFO  - Step 13 - Click READ action button on book details screen
+2023-05-29 20:23:11 INFO  - Button 'Read' :: Clicking
+2023-05-29 20:23:12 INFO  - Step 14 - Scroll page forward from 7 to 9 times
+2023-05-29 20:23:12 INFO  - Scrolling 7 times on reader epub screen
+2023-05-29 20:23:42 INFO  - Step 15 - Open font settings
+2023-05-29 20:23:43 INFO  - Button 'btnFontSettings' :: Clicking
+2023-05-29 20:23:43 INFO  - Step 16 - Change contrast to BLACK_TEXT_ON_WHITE
+2023-05-29 20:23:43 INFO  - Button 'setThemeLight' :: Clicking
+2023-05-29 20:23:44 INFO  - Step 17 - The BLACK_TEXT_ON_WHITE background is correct
+2023-05-29 20:23:45 INFO  - context - NATIVE_APP
+2023-05-29 20:23:45 INFO  - context - WEBVIEW_Terrace
+2023-05-29 20:23:45 INFO  - context - WEBVIEW_org.thepalaceproject.palace
+2023-05-29 20:23:46 INFO  - Taking screenshot
+2023-05-29 20:23:47 INFO  - Test finished - logging out
+2023-05-29 20:23:48 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 20:23:51 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 20:23:52 INFO  - Button 'Accounts' :: Clicking
+2023-05-29 20:23:53 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-29 20:23:56 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-29 20:23:56 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-29 20:23:56 INFO  - Button 'Log out' :: Clicking
+2023-05-29 20:24:17 INFO  - Button 'Log in' :: Getting text from element
+2023-05-29 20:24:17 INFO  - Unlocking credential for current thread
+2023-05-29 20:24:17 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7997e9ed

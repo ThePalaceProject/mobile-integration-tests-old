@@ -1,0 +1,69 @@
+2023-05-29 19:30:15 INFO  - Scenario 'LYRASIS: Reserving from Book Detail View' start
+2023-05-29 19:30:15 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-29 19:30:50 INFO  - Application on platform 'ANDROID' is ready...
+2023-05-29 19:30:50 INFO  - Session id - feabf5ebb12811e942c7b3f9a305e2bb834bf9a0
+2023-05-29 19:30:50 INFO  - Step 0 - Close tutorial screen
+2023-05-29 19:30:50 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-29 19:30:58 INFO  - Step 1 - Welcome screen is opened
+2023-05-29 19:30:59 INFO  - Step 2 - Close welcome screen
+2023-05-29 19:30:59 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-05-29 19:30:59 INFO  - Step 3 - Add library screen is opened
+2023-05-29 19:31:01 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-29 19:31:01 INFO  - Button 'Search' :: Clicking
+2023-05-29 19:31:02 INFO  - Text Field 'Search' :: Clearing
+2023-05-29 19:31:02 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-05-29 19:31:05 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-29 19:31:05 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-29 19:31:06 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 19:31:07 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 19:31:08 INFO  - Button 'Accounts' :: Clicking
+2023-05-29 19:31:10 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-29 19:31:10 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 19:31:10 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 19:31:11 INFO  - Button 'Accounts' :: Clicking
+2023-05-29 19:31:12 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-29 19:31:13 INFO  - Locking credential with barcode 01230000000003
+2023-05-29 19:31:13 INFO  - There are books on the account: 
+2023-05-29 19:31:14 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-05-29 19:31:14 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-05-29 19:31:14 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-05-29 19:31:14 INFO  - bookName: The Mystery of Mrs. Christie Distributor: Palace Marketplace
+2023-05-29 19:31:14 INFO  - Count of books on the account after opening account: 4
+2023-05-29 19:31:14 INFO  - Text Field 'Card' :: Clearing
+2023-05-29 19:31:14 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-05-29 19:31:16 INFO  - Text Field 'Pin' :: Clearing
+2023-05-29 19:31:16 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-29 19:31:18 INFO  - Button 'Log in' :: Clicking
+2023-05-29 19:31:30 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-29 19:31:30 INFO  - Step 7 - Login is performed successfully
+2023-05-29 19:31:51 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-29 19:31:52 INFO  - Step 8 - Open Catalog
+2023-05-29 19:31:52 INFO  - Button 'tabCatalog' :: Clicking
+2023-05-29 19:32:13 INFO  - Step 9 - Open search modal
+2023-05-29 19:32:33 INFO  - Button 'Search' :: Clicking
+2023-05-29 19:32:34 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-29 19:32:34 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-29 19:32:34 INFO  - randomBookName: The Curse of the Pharaohs
+2023-05-29 19:32:35 INFO  - Error details button is not present
+2023-05-29 19:32:35 INFO  - Text Field 'Search value input' :: Sending keys 'The Curse of the Pharaohs'
+2023-05-29 19:32:38 INFO  - Error details button is not present
+2023-05-29 19:32:41 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-05-29 19:32:41 INFO  - Button 'Audiobooks' :: Clicking
+2023-05-29 19:33:02 INFO  - Step 12 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-29 19:33:03 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-29 19:33:03 INFO  - Label 'lblBookName' :: Clicking
+2023-05-29 19:33:04 INFO  - Step 13 - Click RESERVE action button on book details screen
+2023-05-29 19:33:05 INFO  - Button 'Reserve' :: Clicking
+2023-05-29 19:33:07 INFO  - Step 14 - Check that book contains REMOVE action button on book details screen
+2023-05-29 19:33:08 INFO  - Taking screenshot
+2023-05-29 19:33:09 INFO  - Test finished - logging out
+2023-05-29 19:33:10 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 19:33:12 INFO  - Button 'tabSettings' :: Clicking
+2023-05-29 19:33:14 INFO  - Button 'Accounts' :: Clicking
+2023-05-29 19:33:15 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-29 19:33:17 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-29 19:33:17 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-29 19:33:17 INFO  - Button 'Log out' :: Clicking
+2023-05-29 19:33:38 INFO  - Button 'Log in' :: Getting text from element
+2023-05-29 19:33:38 INFO  - Unlocking credential for current thread
+2023-05-29 19:33:38 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@104e1ef4
