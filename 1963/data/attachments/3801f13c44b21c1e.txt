@@ -1,0 +1,70 @@
+2023-05-30 22:19:27 INFO  - Scenario 'Hold from Subcategory List View and Remove a Reserved Book from Subcategory List View' start
+2023-05-30 22:19:27 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-30 22:19:47 INFO  - Application on platform 'IOS' is ready...
+2023-05-30 22:19:47 INFO  - Session id - 292de1eedb857d772ca14982b1cc20ee1b355006
+2023-05-30 22:19:47 INFO  - Step 0 - Close tutorial screen
+2023-05-30 22:19:47 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-30 22:19:48 INFO  - Step 1 - Welcome screen is opened
+2023-05-30 22:19:48 INFO  - Step 2 - Close welcome screen
+2023-05-30 22:19:49 INFO  - Button 'Find your library button' :: Clicking
+2023-05-30 22:19:49 INFO  - Step 3 - Add library screen is opened
+2023-05-30 22:19:54 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-30 22:19:54 INFO  - Text Field 'Search field' :: Clicking
+2023-05-30 22:20:00 INFO  - Text Field 'Search field' :: Clearing
+2023-05-30 22:20:00 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-05-30 22:20:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-30 22:20:11 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-30 22:20:11 INFO  - Button 'Settings' :: Clicking
+2023-05-30 22:20:13 INFO  - Button 'Settings' :: Clicking
+2023-05-30 22:20:14 INFO  - Button 'Libraries button' :: Clicking
+2023-05-30 22:20:15 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-30 22:20:15 INFO  - Button 'Settings' :: Clicking
+2023-05-30 22:20:16 INFO  - Button 'Settings' :: Clicking
+2023-05-30 22:20:17 INFO  - Button 'Libraries button' :: Clicking
+2023-05-30 22:20:20 INFO  - Locking credential with barcode 01230000000005
+2023-05-30 22:20:20 INFO  - There are books on the account: 
+2023-05-30 22:20:20 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-05-30 22:20:20 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-05-30 22:20:20 INFO  - Count of books on the account after opening account: 2
+2023-05-30 22:20:41 INFO  - Text Field 'Card' :: Clicking
+2023-05-30 22:20:42 INFO  - Text Field 'Card' :: Clearing
+2023-05-30 22:20:42 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-05-30 22:20:45 INFO  - Text Field 'Pin' :: Clearing
+2023-05-30 22:20:45 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-30 22:20:48 INFO  - Button 'Log in' :: Clicking
+2023-05-30 22:21:00 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-05-30 22:21:02 INFO  - Step 7 - Login is performed successfully
+2023-05-30 22:21:03 INFO  - Step 8 - Open Catalog
+2023-05-30 22:21:03 INFO  - Button 'Catalog' :: Clicking
+2023-05-30 22:21:05 INFO  - Step 9 - Open search modal
+2023-05-30 22:21:06 INFO  - Button 'Search button' :: Clicking
+2023-05-30 22:21:09 INFO  - Step 10 - Search 'unavailable' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-30 22:21:09 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-30 22:21:09 INFO  - randomBookName: Blacktop Wasteland
+2023-05-30 22:21:10 INFO  - Text Field 'Search value input' :: Sending keys 'Blacktop Wasteland'
+2023-05-30 22:21:11 INFO  - Button 'Search' :: Clicking
+2023-05-30 22:21:14 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-05-30 22:21:14 INFO  - Button 'Audiobooks' :: Clicking
+2023-05-30 22:21:56 INFO  - Step 12 - Click RESERVE action button on AUDIOBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-30 22:21:57 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-30 22:21:58 INFO  - Button 'actionButton' :: Clicking
+2023-05-30 22:22:01 INFO  - Alert appears and dismiss alert
+2023-05-30 22:22:01 INFO  - Step 13 - Click REMOVE action button on AUDIOBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-30 22:22:05 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-30 22:22:06 INFO  - Button 'actionButton' :: Clicking
+2023-05-30 22:22:09 INFO  - Button 'Remove ActionButtonAlert' :: Clicking
+2023-05-30 22:22:10 INFO  - Step 14 - AUDIOBOOK book with RESERVE action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-05-30 22:22:15 INFO  - Taking screenshot
+2023-05-30 22:22:16 INFO  - Test finished - logging out
+2023-05-30 22:22:19 INFO  - Button 'Settings' :: Clicking
+2023-05-30 22:22:20 INFO  - Button 'Settings' :: Clicking
+2023-05-30 22:22:21 INFO  - Button 'Libraries button' :: Clicking
+2023-05-30 22:22:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-30 22:22:26 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-30 22:22:27 INFO  - Button 'Log out' :: Clicking
+2023-05-30 22:22:28 INFO  - Button 'Log out approve' :: Clicking
+2023-05-30 22:22:49 INFO  - Button 'Log in' :: Getting text from element
+2023-05-30 22:22:50 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-30 22:22:51 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-30 22:22:52 INFO  - Unlocking credential for current thread
+2023-05-30 22:22:52 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2a3e44ec
