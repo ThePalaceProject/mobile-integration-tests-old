@@ -1,0 +1,77 @@
+2023-05-31 20:17:40 INFO  - Scenario 'LYRASIS: Getting and returning books from Book Detail View' start
+2023-05-31 20:17:40 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-05-31 20:18:07 INFO  - Application on platform 'ANDROID' is ready...
+2023-05-31 20:18:07 INFO  - Session id - 5ff48b97c800ecfd4a04b5cedf4889f9fca5324d
+2023-05-31 20:18:07 INFO  - Step 0 - Close tutorial screen
+2023-05-31 20:18:07 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-05-31 20:18:10 INFO  - Step 1 - Welcome screen is opened
+2023-05-31 20:18:10 INFO  - Step 2 - Close welcome screen
+2023-05-31 20:18:11 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-05-31 20:18:11 INFO  - Step 3 - Add library screen is opened
+2023-05-31 20:18:12 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-05-31 20:18:12 INFO  - Button 'Search' :: Clicking
+2023-05-31 20:18:14 INFO  - Text Field 'Search' :: Clearing
+2023-05-31 20:18:14 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-05-31 20:18:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-31 20:18:17 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-05-31 20:18:17 INFO  - Button 'tabSettings' :: Clicking
+2023-05-31 20:18:19 INFO  - Button 'tabSettings' :: Clicking
+2023-05-31 20:18:20 INFO  - Button 'Accounts' :: Clicking
+2023-05-31 20:18:22 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-05-31 20:18:22 INFO  - Button 'tabSettings' :: Clicking
+2023-05-31 20:18:23 INFO  - Button 'tabSettings' :: Clicking
+2023-05-31 20:18:24 INFO  - Button 'Accounts' :: Clicking
+2023-05-31 20:18:26 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-31 20:18:27 INFO  - Locking credential with barcode 01230000000002
+2023-05-31 20:18:27 INFO  - There are books on the account: 
+2023-05-31 20:18:27 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-05-31 20:18:27 INFO  - Count of books on the account after opening account: 1
+2023-05-31 20:18:27 INFO  - Text Field 'Card' :: Clearing
+2023-05-31 20:18:27 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-05-31 20:18:30 INFO  - Text Field 'Pin' :: Clearing
+2023-05-31 20:18:30 INFO  - Text Field 'Pin' :: Typing '********'
+2023-05-31 20:18:32 INFO  - Button 'Log in' :: Clicking
+2023-05-31 20:18:37 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-31 20:18:38 INFO  - Step 7 - Login is performed successfully
+2023-05-31 20:18:59 INFO  - Button 'Log ... action' :: Getting text from element
+2023-05-31 20:19:00 INFO  - Step 8 - Open Catalog
+2023-05-31 20:19:00 INFO  - Button 'tabCatalog' :: Clicking
+2023-05-31 20:19:23 INFO  - Step 9 - Open search modal
+2023-05-31 20:19:44 INFO  - Button 'Search' :: Clicking
+2023-05-31 20:19:46 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-05-31 20:19:46 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-05-31 20:19:46 INFO  - randomBookName: How to Create Spectacular Halloween Costumes
+2023-05-31 20:19:46 INFO  - Error details button is not present
+2023-05-31 20:19:46 INFO  - Text Field 'Search value input' :: Sending keys 'How to Create Spectacular Halloween Costumes'
+2023-05-31 20:19:49 INFO  - Error details button is not present
+2023-05-31 20:19:52 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-05-31 20:19:52 INFO  - Button 'eBooks' :: Clicking
+2023-05-31 20:20:14 INFO  - Step 12 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-05-31 20:20:15 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-05-31 20:20:15 INFO  - Label 'lblBookName' :: Clicking
+2023-05-31 20:20:16 INFO  - Step 13 - Click GET action button on book details screen
+2023-05-31 20:20:18 INFO  - Button 'Get' :: Clicking
+2023-05-31 20:20:24 INFO  - Step 14 - Check that book contains READ action button on book details screen
+2023-05-31 20:20:24 INFO  - Step 15 - Click RETURN action button on book details screen
+2023-05-31 20:20:25 INFO  - Button 'Return' :: Clicking
+2023-05-31 20:20:27 INFO  - Step 16 - Check that book contains GET action button on book details screen
+2023-05-31 20:20:28 INFO  - Step 17 - Click GET action button on book details screen
+2023-05-31 20:20:28 INFO  - Button 'Get' :: Clicking
+2023-05-31 20:20:33 INFO  - Step 18 - Check that book contains READ action button on book details screen
+2023-05-31 20:20:34 INFO  - Step 19 - Click READ action button on book details screen
+2023-05-31 20:20:34 INFO  - Button 'Read' :: Clicking
+2023-05-31 20:20:35 INFO  - Step 20 - Wait for 3 seconds
+2023-05-31 20:20:38 INFO  - Step 21 - Book 'bookInfo' with EBOOK type is present on epub or pdf or audiobook screen
+2023-05-31 20:20:58 INFO  - Label 'Book name' :: Getting text from element
+2023-05-31 20:20:59 INFO  - Taking screenshot
+2023-05-31 20:21:03 INFO  - Test finished - logging out
+2023-05-31 20:21:05 INFO  - Button 'tabSettings' :: Clicking
+2023-05-31 20:21:07 INFO  - Button 'tabSettings' :: Clicking
+2023-05-31 20:21:08 INFO  - Button 'Accounts' :: Clicking
+2023-05-31 20:21:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-05-31 20:21:11 INFO  - Text Field 'Card' :: Getting text from element
+2023-05-31 20:21:12 INFO  - Text Field 'Pin' :: Getting text from element
+2023-05-31 20:21:13 INFO  - Button 'Log out' :: Clicking
+2023-05-31 20:21:33 INFO  - Button 'Log in' :: Getting text from element
+2023-05-31 20:21:34 INFO  - Unlocking credential for current thread
+2023-05-31 20:21:34 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@28a835
