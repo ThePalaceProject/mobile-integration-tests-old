@@ -1,0 +1,77 @@
+2023-06-04 05:44:26 INFO  - Scenario 'Navigate by Audiobook' start
+2023-06-04 05:44:26 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-04 05:44:57 INFO  - Application on platform 'IOS' is ready...
+2023-06-04 05:44:57 INFO  - Session id - 23026be0bcd56585d1824a79bbc112e1dc65ae00
+2023-06-04 05:44:57 INFO  - Step 0 - Close tutorial screen
+2023-06-04 05:44:58 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-04 05:44:58 INFO  - Step 1 - Welcome screen is opened
+2023-06-04 05:44:59 INFO  - Step 2 - Close welcome screen
+2023-06-04 05:44:59 INFO  - Button 'Find your library button' :: Clicking
+2023-06-04 05:45:00 INFO  - Step 3 - Add library screen is opened
+2023-06-04 05:45:06 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-04 05:45:06 INFO  - Text Field 'Search field' :: Clicking
+2023-06-04 05:45:13 INFO  - Text Field 'Search field' :: Clearing
+2023-06-04 05:45:13 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-04 05:45:25 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-04 05:45:26 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-04 05:45:26 INFO  - Button 'Settings' :: Clicking
+2023-06-04 05:45:30 INFO  - Button 'Settings' :: Clicking
+2023-06-04 05:45:31 INFO  - Button 'Libraries button' :: Clicking
+2023-06-04 05:45:32 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-04 05:45:32 INFO  - Button 'Settings' :: Clicking
+2023-06-04 05:45:33 INFO  - Button 'Settings' :: Clicking
+2023-06-04 05:45:34 INFO  - Button 'Libraries button' :: Clicking
+2023-06-04 05:45:36 INFO  - Locking credential with barcode 01230000000005
+2023-06-04 05:45:36 INFO  - There are books on the account: 
+2023-06-04 05:45:37 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-06-04 05:45:37 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-06-04 05:45:37 INFO  - Count of books on the account after opening account: 2
+2023-06-04 05:45:59 INFO  - Text Field 'Card' :: Clicking
+2023-06-04 05:46:00 INFO  - Text Field 'Card' :: Clearing
+2023-06-04 05:46:00 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-06-04 05:46:02 INFO  - Text Field 'Pin' :: Clearing
+2023-06-04 05:46:02 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-04 05:46:05 INFO  - Button 'Log in' :: Clicking
+2023-06-04 05:46:12 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-06-04 05:46:14 INFO  - Step 7 - Login is performed successfully
+2023-06-04 05:46:15 INFO  - Step 8 - Open Catalog
+2023-06-04 05:46:15 INFO  - Button 'Catalog' :: Clicking
+2023-06-04 05:46:18 INFO  - Step 9 - Open search modal
+2023-06-04 05:46:20 INFO  - Button 'Search button' :: Clicking
+2023-06-04 05:46:22 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-04 05:46:22 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-04 05:46:22 INFO  - randomBookName: The Santa Suit
+2023-06-04 05:46:23 INFO  - Text Field 'Search value input' :: Sending keys 'The Santa Suit'
+2023-06-04 05:46:24 INFO  - Button 'Search' :: Clicking
+2023-06-04 05:46:26 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-04 05:46:26 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-04 05:47:08 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-04 05:47:10 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-04 05:47:11 INFO  - Label 'lblBookName' :: Clicking
+2023-06-04 05:47:13 INFO  - Step 13 - Click GET action button on book details screen
+2023-06-04 05:47:14 INFO  - Button 'Get' :: Clicking
+2023-06-04 05:47:59 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-06-04 05:48:01 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-06-04 05:48:02 INFO  - Button 'Listen' :: Clicking
+2023-06-04 05:48:23 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-06-04 05:48:24 INFO  - Step 17 - Tap play button on audio player screen
+2023-06-04 05:48:24 INFO  - Button 'btnPlay' :: Clicking
+2023-06-04 05:48:25 INFO  - Step 18 - Pause button is present on audio player screen
+2023-06-04 05:48:26 INFO  - Step 19 - Tap pause button on audio player screen
+2023-06-04 05:48:26 INFO  - Button 'btnPause' :: Clicking
+2023-06-04 05:48:26 INFO  - Step 20 - Play button is present on audio player screen
+2023-06-04 05:48:27 INFO  - Step 21 - Book is not playing on audio player screen
+2023-06-04 05:48:27 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2023-06-04 05:48:47 INFO  - Taking screenshot
+2023-06-04 05:48:49 INFO  - Test finished - logging out
+2023-06-04 05:48:52 INFO  - Button 'Settings' :: Clicking
+2023-06-04 05:48:54 INFO  - Button 'Settings' :: Clicking
+2023-06-04 05:48:55 INFO  - Button 'Libraries button' :: Clicking
+2023-06-04 05:48:57 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-04 05:48:58 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-04 05:48:59 INFO  - Button 'Log out' :: Clicking
+2023-06-04 05:49:00 INFO  - Button 'Log out approve' :: Clicking
+2023-06-04 05:49:22 INFO  - Button 'Log in' :: Getting text from element
+2023-06-04 05:49:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-04 05:49:23 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-04 05:49:24 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1670a6ff

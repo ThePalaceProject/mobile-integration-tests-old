@@ -1,0 +1,76 @@
+2023-06-04 08:13:42 INFO  - Scenario 'Playback speed: Check of playback speed' start
+2023-06-04 08:13:42 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-04 08:14:14 INFO  - Application on platform 'IOS' is ready...
+2023-06-04 08:14:15 INFO  - Session id - 3ae2629fc369ac325127909e7b8c41e2ceff4049
+2023-06-04 08:14:15 INFO  - Step 0 - Close tutorial screen
+2023-06-04 08:14:15 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-04 08:14:15 INFO  - Step 1 - Welcome screen is opened
+2023-06-04 08:14:16 INFO  - Step 2 - Close welcome screen
+2023-06-04 08:14:16 INFO  - Button 'Find your library button' :: Clicking
+2023-06-04 08:14:17 INFO  - Step 3 - Add library screen is opened
+2023-06-04 08:14:23 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-04 08:14:23 INFO  - Text Field 'Search field' :: Clicking
+2023-06-04 08:14:30 INFO  - Text Field 'Search field' :: Clearing
+2023-06-04 08:14:30 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-04 08:14:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-04 08:14:45 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-04 08:14:46 INFO  - Button 'Settings' :: Clicking
+2023-06-04 08:14:47 INFO  - Button 'Settings' :: Clicking
+2023-06-04 08:14:49 INFO  - Button 'Libraries button' :: Clicking
+2023-06-04 08:14:50 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-04 08:14:50 INFO  - Button 'Settings' :: Clicking
+2023-06-04 08:14:51 INFO  - Button 'Settings' :: Clicking
+2023-06-04 08:14:52 INFO  - Button 'Libraries button' :: Clicking
+2023-06-04 08:15:00 INFO  - Locking credential with barcode 01230000000004
+2023-06-04 08:15:00 INFO  - There are books on the account: 
+2023-06-04 08:15:01 INFO  - bookName: Apples Never Fall Distributor: Palace Marketplace
+2023-06-04 08:15:01 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-06-04 08:15:01 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-06-04 08:15:01 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-06-04 08:15:01 INFO  - bookName: The Ice Queen Distributor: Palace Marketplace
+2023-06-04 08:15:01 INFO  - Count of books on the account after opening account: 5
+2023-06-04 08:15:22 INFO  - Text Field 'Card' :: Clicking
+2023-06-04 08:15:24 INFO  - Text Field 'Card' :: Clearing
+2023-06-04 08:15:24 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-06-04 08:15:26 INFO  - Text Field 'Pin' :: Clearing
+2023-06-04 08:15:26 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-04 08:15:29 INFO  - Button 'Log in' :: Clicking
+2023-06-04 08:15:36 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-06-04 08:15:38 INFO  - Step 7 - Login is performed successfully
+2023-06-04 08:15:39 INFO  - Step 8 - Open Catalog
+2023-06-04 08:15:39 INFO  - Button 'Catalog' :: Clicking
+2023-06-04 08:15:45 INFO  - Step 9 - Open search modal
+2023-06-04 08:15:47 INFO  - Button 'Search button' :: Clicking
+2023-06-04 08:15:50 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-04 08:15:50 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-04 08:15:50 INFO  - randomBookName: The Big Short
+2023-06-04 08:15:51 INFO  - Text Field 'Search value input' :: Sending keys 'The Big Short'
+2023-06-04 08:15:52 INFO  - Button 'Search' :: Clicking
+2023-06-04 08:15:54 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-04 08:15:54 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-04 08:16:36 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-04 08:16:39 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-04 08:16:40 INFO  - Label 'lblBookName' :: Clicking
+2023-06-04 08:16:41 INFO  - Step 13 - Click GET action button on book details screen
+2023-06-04 08:16:43 INFO  - Button 'Get' :: Clicking
+2023-06-04 08:17:27 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-06-04 08:17:28 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-06-04 08:17:30 INFO  - Button 'Listen' :: Clicking
+2023-06-04 08:17:51 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-06-04 08:17:52 INFO  - Step 17 - Select 2X playback speed on playback speed audiobook screen
+2023-06-04 08:17:52 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-06-04 08:17:54 INFO  - Button 'Two times normal speed. Fastest.' :: Clicking
+2023-06-04 08:17:55 INFO  - Step 18 - Current playback speed value is 2X on audio player screen
+2023-06-04 08:18:16 INFO  - Taking screenshot
+2023-06-04 08:18:18 INFO  - Test finished - logging out
+2023-06-04 08:18:22 INFO  - Button 'Settings' :: Clicking
+2023-06-04 08:18:23 INFO  - Button 'Settings' :: Clicking
+2023-06-04 08:18:23 INFO  - Button 'Libraries button' :: Clicking
+2023-06-04 08:18:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-04 08:18:27 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-04 08:18:28 INFO  - Button 'Log out' :: Clicking
+2023-06-04 08:18:30 INFO  - Button 'Log out approve' :: Clicking
+2023-06-04 08:18:51 INFO  - Button 'Log in' :: Getting text from element
+2023-06-04 08:18:52 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-04 08:18:53 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-04 08:18:54 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1670a6ff
