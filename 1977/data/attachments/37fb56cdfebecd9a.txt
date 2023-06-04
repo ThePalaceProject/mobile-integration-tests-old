@@ -1,0 +1,84 @@
+2023-06-04 20:06:29 INFO  - Scenario 'Biblioboard: Check end of chapter sleep timer' start
+2023-06-04 20:06:29 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-04 20:06:51 INFO  - Application on platform 'IOS' is ready...
+2023-06-04 20:06:51 INFO  - Session id - 686fd57e105481b2f7d4e7b64606a6663eabbbe6
+2023-06-04 20:06:51 INFO  - Step 0 - Close tutorial screen
+2023-06-04 20:06:51 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-04 20:06:52 INFO  - Step 1 - Welcome screen is opened
+2023-06-04 20:06:53 INFO  - Step 2 - Close welcome screen
+2023-06-04 20:06:53 INFO  - Button 'Find your library button' :: Clicking
+2023-06-04 20:06:54 INFO  - Step 3 - Add library screen is opened
+2023-06-04 20:06:59 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-04 20:06:59 INFO  - Text Field 'Search field' :: Clicking
+2023-06-04 20:07:06 INFO  - Text Field 'Search field' :: Clearing
+2023-06-04 20:07:06 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-04 20:07:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-04 20:07:18 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-04 20:07:18 INFO  - Button 'Settings' :: Clicking
+2023-06-04 20:07:20 INFO  - Button 'Settings' :: Clicking
+2023-06-04 20:07:21 INFO  - Button 'Libraries button' :: Clicking
+2023-06-04 20:07:24 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-04 20:07:24 INFO  - Button 'Settings' :: Clicking
+2023-06-04 20:07:25 INFO  - Button 'Settings' :: Clicking
+2023-06-04 20:07:26 INFO  - Button 'Libraries button' :: Clicking
+2023-06-04 20:07:29 INFO  - Locking credential with barcode 01230000000003
+2023-06-04 20:07:29 INFO  - There are books on the account: 
+2023-06-04 20:07:30 INFO  - Books without revoke in link. BookName: The Sentence Distributor: framework.utilities.returningBooksUtil.Distributor@796f22a3
+2023-06-04 20:07:30 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-06-04 20:07:30 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-06-04 20:07:30 INFO  - Count of books on the account after opening account: 2
+2023-06-04 20:07:52 INFO  - Text Field 'Card' :: Clicking
+2023-06-04 20:07:53 INFO  - Text Field 'Card' :: Clearing
+2023-06-04 20:07:53 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-06-04 20:07:57 INFO  - Text Field 'Pin' :: Clearing
+2023-06-04 20:07:57 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-04 20:08:00 INFO  - Button 'Log in' :: Clicking
+2023-06-04 20:08:09 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-06-04 20:08:12 INFO  - Step 7 - Login is performed successfully
+2023-06-04 20:08:13 INFO  - Step 8 - Open Catalog
+2023-06-04 20:08:13 INFO  - Button 'Catalog' :: Clicking
+2023-06-04 20:08:15 INFO  - Step 9 - Open search modal
+2023-06-04 20:08:17 INFO  - Button 'Search button' :: Clicking
+2023-06-04 20:08:19 INFO  - Step 10 - Search for "The Columbarium" and save bookName as 'bookNameInfo'
+2023-06-04 20:08:20 INFO  - Text Field 'Search value input' :: Sending keys 'The Columbarium'
+2023-06-04 20:08:21 INFO  - Button 'Search' :: Clicking
+2023-06-04 20:08:24 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-04 20:08:24 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-04 20:09:06 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-04 20:09:07 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-04 20:09:08 INFO  - Label 'lblBookName' :: Clicking
+2023-06-04 20:09:10 INFO  - Step 13 - Click GET action button on book details screen
+2023-06-04 20:09:11 INFO  - Button 'Get' :: Clicking
+2023-06-04 20:09:55 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-06-04 20:09:56 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-06-04 20:09:56 INFO  - Button 'Listen' :: Clicking
+2023-06-04 20:10:18 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-06-04 20:10:19 INFO  - Step 17 - Open toc audiobook screen
+2023-06-04 20:10:19 INFO  - Button 'btnToc' :: Clicking
+2023-06-04 20:10:20 INFO  - Step 18 - The first chapter is loaded
+2023-06-04 20:10:28 INFO  - Step 19 - Open the 2 chapter on toc audiobook screen and save the chapter name as 'chapterName' and chapter number as 'chapterNumber'
+2023-06-04 20:10:28 INFO  - Label 'Chapter' :: Getting attribute 'name'
+2023-06-04 20:10:30 INFO  - Label 'Chapter' :: Clicking
+2023-06-04 20:10:32 INFO  - Step 20 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-06-04 20:10:32 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-06-04 20:10:33 INFO  - Button 'End of Chapter' :: Clicking
+2023-06-04 20:10:34 INFO  - Step 21 - Select 2X playback speed on playback speed audiobook screen
+2023-06-04 20:10:34 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-06-04 20:10:36 INFO  - Button 'Two times normal speed. Fastest.' :: Clicking
+2023-06-04 20:10:37 INFO  - Step 22 - Stretch slider on the time tracking line forward on audio player screen
+2023-06-04 20:10:41 INFO  - Step 23 - Listen a chapter on audio player screen
+2023-06-04 20:10:44 INFO  - Label 'lblRightTime' :: Getting attribute 'value'
+2023-06-04 20:11:05 INFO  - Step 24 - Play button is present on audio player screen
+2023-06-04 20:11:26 INFO  - Taking screenshot
+2023-06-04 20:11:29 INFO  - Test finished - logging out
+2023-06-04 20:11:33 INFO  - Button 'Settings' :: Clicking
+2023-06-04 20:11:35 INFO  - Button 'Settings' :: Clicking
+2023-06-04 20:11:36 INFO  - Button 'Libraries button' :: Clicking
+2023-06-04 20:11:40 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-04 20:11:41 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-04 20:11:42 INFO  - Button 'Log out' :: Clicking
+2023-06-04 20:11:44 INFO  - Button 'Log out approve' :: Clicking
+2023-06-04 20:12:05 INFO  - Button 'Log in' :: Getting text from element
+2023-06-04 20:12:06 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-04 20:12:07 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-04 20:12:07 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@77aa4e48
