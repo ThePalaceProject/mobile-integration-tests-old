@@ -1,0 +1,75 @@
+2023-06-07 19:27:27 INFO  - Scenario 'Biblioboard: Open the audiobook at the last open chapter and check time code' start
+2023-06-07 19:27:27 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-07 19:27:57 INFO  - Application on platform 'ANDROID' is ready...
+2023-06-07 19:27:57 INFO  - Session id - 5d7a3994b0ef59d07e6ef86738d07dbaaaefd79d
+2023-06-07 19:27:57 INFO  - Step 0 - Close tutorial screen
+2023-06-07 19:27:57 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-07 19:27:59 INFO  - Step 1 - Welcome screen is opened
+2023-06-07 19:28:00 INFO  - Step 2 - Close welcome screen
+2023-06-07 19:28:00 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-06-07 19:28:02 INFO  - Step 3 - Add library screen is opened
+2023-06-07 19:28:03 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-07 19:28:03 INFO  - Button 'Search' :: Clicking
+2023-06-07 19:28:06 INFO  - Text Field 'Search' :: Clearing
+2023-06-07 19:28:06 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-06-07 19:28:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-07 19:28:11 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-07 19:28:11 INFO  - Button 'tabSettings' :: Clicking
+2023-06-07 19:28:14 INFO  - Button 'tabSettings' :: Clicking
+2023-06-07 19:28:16 INFO  - Button 'Accounts' :: Clicking
+2023-06-07 19:28:18 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-07 19:28:18 INFO  - Button 'tabSettings' :: Clicking
+2023-06-07 19:28:19 INFO  - Button 'tabSettings' :: Clicking
+2023-06-07 19:28:20 INFO  - Button 'Accounts' :: Clicking
+2023-06-07 19:28:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-07 19:28:23 INFO  - Locking credential with barcode 01230000000004
+2023-06-07 19:28:23 INFO  - There are books on the account: 
+2023-06-07 19:28:24 INFO  - bookName: Dear Life Distributor: Axis 360
+2023-06-07 19:28:24 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-06-07 19:28:24 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-06-07 19:28:24 INFO  - bookName: The Ice Queen Distributor: Palace Marketplace
+2023-06-07 19:28:24 INFO  - bookName: Apples Never Fall Distributor: Palace Marketplace
+2023-06-07 19:28:24 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-06-07 19:28:24 INFO  - Count of books on the account after opening account: 6
+2023-06-07 19:28:24 INFO  - Text Field 'Card' :: Clearing
+2023-06-07 19:28:24 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-06-07 19:28:28 INFO  - Text Field 'Pin' :: Clearing
+2023-06-07 19:28:28 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-07 19:28:31 INFO  - Button 'Log in' :: Clicking
+2023-06-07 19:28:39 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-07 19:28:40 INFO  - Step 7 - Login is performed successfully
+2023-06-07 19:29:02 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-07 19:29:02 INFO  - Step 8 - Open Catalog
+2023-06-07 19:29:02 INFO  - Button 'tabCatalog' :: Clicking
+2023-06-07 19:29:23 INFO  - Step 9 - Open search modal
+2023-06-07 19:29:43 INFO  - Button 'Search' :: Clicking
+2023-06-07 19:29:46 INFO  - Step 10 - Search for "Bocas : a novel" and save bookName as 'bookNameInfo'
+2023-06-07 19:29:46 INFO  - Error details button is not present
+2023-06-07 19:29:47 INFO  - Text Field 'Search value input' :: Sending keys 'Bocas : a novel'
+2023-06-07 19:29:50 INFO  - Error details button is not present
+2023-06-07 19:29:53 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-07 19:29:53 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-07 19:30:15 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-07 19:30:16 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-07 19:30:17 INFO  - Label 'lblBookName' :: Clicking
+2023-06-07 19:30:18 INFO  - Step 13 - Click GET action button on book details screen
+2023-06-07 19:30:19 INFO  - Button 'Get' :: Clicking
+2023-06-07 19:30:24 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-06-07 19:30:25 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-06-07 19:30:26 INFO  - Button 'Listen' :: Clicking
+2023-06-07 19:30:27 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-06-07 19:30:31 INFO  - Step 17 - Open toc audiobook screen
+2023-06-07 19:30:31 INFO  - Button 'btnToc' :: Clicking
+2023-06-07 19:30:35 INFO  - Step 18 - Wait for 5 seconds
+2023-06-07 19:30:40 INFO  - Step 19 - Open the 3 chapter on toc audiobook screen and save the chapter name as 'chapterNameKey'
+2023-06-07 19:30:42 INFO  - Taking screenshot
+2023-06-07 19:30:44 INFO  - Test finished - logging out
+2023-06-07 19:30:46 INFO  - Button 'tabSettings' :: Clicking
+2023-06-07 19:30:49 INFO  - Button 'tabSettings' :: Clicking
+2023-06-07 19:30:50 INFO  - Button 'Accounts' :: Clicking
+2023-06-07 19:30:52 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-07 19:30:54 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-07 19:30:54 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-07 19:30:55 INFO  - Button 'Log out' :: Clicking
+2023-06-07 19:31:16 INFO  - Button 'Log in' :: Getting text from element
+2023-06-07 19:31:17 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@546d83f5
