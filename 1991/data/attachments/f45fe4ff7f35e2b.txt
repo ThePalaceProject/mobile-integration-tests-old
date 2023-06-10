@@ -1,0 +1,88 @@
+2023-06-10 20:18:11 INFO  - Scenario 'Get a book from Subcategory List View and Return from Books in LYRASIS' start
+2023-06-10 20:18:11 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-10 20:18:56 INFO  - Application on platform 'ANDROID' is ready...
+2023-06-10 20:18:56 INFO  - Session id - 930fa67e90d5e7f5d55f336254e1427740d4e1a7
+2023-06-10 20:18:56 INFO  - Step 0 - Close tutorial screen
+2023-06-10 20:18:56 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-10 20:18:58 INFO  - Step 1 - Welcome screen is opened
+2023-06-10 20:18:59 INFO  - Step 2 - Close welcome screen
+2023-06-10 20:18:59 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-06-10 20:19:00 INFO  - Step 3 - Add library screen is opened
+2023-06-10 20:19:01 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-10 20:19:01 INFO  - Button 'Search' :: Clicking
+2023-06-10 20:19:02 INFO  - Text Field 'Search' :: Clearing
+2023-06-10 20:19:02 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-06-10 20:19:04 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-10 20:19:05 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-10 20:19:06 INFO  - Button 'tabSettings' :: Clicking
+2023-06-10 20:19:06 INFO  - Button 'tabSettings' :: Clicking
+2023-06-10 20:19:07 INFO  - Button 'Accounts' :: Clicking
+2023-06-10 20:19:09 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-10 20:19:09 INFO  - Button 'tabSettings' :: Clicking
+2023-06-10 20:19:09 INFO  - Button 'tabSettings' :: Clicking
+2023-06-10 20:19:10 INFO  - Button 'Accounts' :: Clicking
+2023-06-10 20:19:11 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-10 20:19:12 INFO  - Locking credential with barcode 01230000000004
+2023-06-10 20:19:12 INFO  - There are books on the account: 
+2023-06-10 20:19:14 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-06-10 20:19:14 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-06-10 20:19:14 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-06-10 20:19:14 INFO  - bookName: The Ice Queen Distributor: Palace Marketplace
+2023-06-10 20:19:14 INFO  - bookName: The Mystery of Mrs. Christie Distributor: Palace Marketplace
+2023-06-10 20:19:14 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-06-10 20:19:14 INFO  - bookName: Apples Never Fall Distributor: Palace Marketplace
+2023-06-10 20:19:14 INFO  - Count of books on the account after opening account: 7
+2023-06-10 20:19:14 INFO  - Text Field 'Card' :: Clearing
+2023-06-10 20:19:14 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-06-10 20:19:15 INFO  - Text Field 'Pin' :: Clearing
+2023-06-10 20:19:15 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-10 20:19:16 INFO  - Button 'Log in' :: Clicking
+2023-06-10 20:19:23 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-10 20:19:23 INFO  - Step 7 - Login is performed successfully
+2023-06-10 20:19:44 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-10 20:19:44 INFO  - Step 8 - Open Catalog
+2023-06-10 20:19:44 INFO  - Button 'tabCatalog' :: Clicking
+2023-06-10 20:20:05 INFO  - Step 9 - Open search modal
+2023-06-10 20:20:25 INFO  - Button 'Search' :: Clicking
+2023-06-10 20:20:27 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-10 20:20:27 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-06-10 20:20:27 INFO  - randomBookName: Legends of the North Cascades
+2023-06-10 20:20:27 INFO  - Error details button is not present
+2023-06-10 20:20:27 INFO  - Text Field 'Search value input' :: Sending keys 'Legends of the North Cascades'
+2023-06-10 20:20:30 INFO  - Error details button is not present
+2023-06-10 20:20:32 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-06-10 20:20:32 INFO  - Button 'eBooks' :: Clicking
+2023-06-10 20:20:55 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-10 20:20:55 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-10 20:20:56 INFO  - Button 'actionButton' :: Clicking
+2023-06-10 20:21:04 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-06-10 20:21:04 INFO  - Step 14 - Click READ action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-10 20:21:05 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-10 20:21:05 INFO  - Button 'actionButton' :: Clicking
+2023-06-10 20:21:05 INFO  - Step 15 - Wait for 3 seconds
+2023-06-10 20:21:08 INFO  - Step 16 - 'bookInfo' book is present on epub reader screen
+2023-06-10 20:21:10 INFO  - Label 'lblBookName' :: Getting text from element
+2023-06-10 20:21:11 INFO  - Book name on epub reader screen - Legends of the North Cascades: A Novel
+2023-06-10 20:21:11 INFO  - Step 17 - Return to previous screen for epub and pdf
+2023-06-10 20:21:12 INFO  - Step 18 - Open Books
+2023-06-10 20:21:12 INFO  - Button 'tabBooks' :: Clicking
+2023-06-10 20:21:13 INFO  - Step 19 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-06-10 20:21:14 INFO  - Step 20 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-06-10 20:21:14 INFO  - Label 'lblBookName' :: Clicking
+2023-06-10 20:21:15 INFO  - Step 21 - Click RETURN action button on book details screen
+2023-06-10 20:21:16 INFO  - Button 'Return' :: Clicking
+2023-06-10 20:21:22 INFO  - Step 22 - Open Books
+2023-06-10 20:21:22 INFO  - Button 'tabBooks' :: Clicking
+2023-06-10 20:21:22 INFO  - Step 23 - Wait for 7 seconds
+2023-06-10 20:21:30 INFO  - Step 24 - EBOOK book with READ action button and 'bookInfo' bookInfo is not present on books screen
+2023-06-10 20:22:10 INFO  - Taking screenshot
+2023-06-10 20:22:11 INFO  - Test finished - logging out
+2023-06-10 20:22:12 INFO  - Button 'tabSettings' :: Clicking
+2023-06-10 20:22:15 INFO  - Button 'tabSettings' :: Clicking
+2023-06-10 20:22:16 INFO  - Button 'Accounts' :: Clicking
+2023-06-10 20:22:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-10 20:22:18 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-10 20:22:19 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-10 20:22:19 INFO  - Button 'Log out' :: Clicking
+2023-06-10 20:22:40 INFO  - Button 'Log in' :: Getting text from element
+2023-06-10 20:22:40 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@57467f49
