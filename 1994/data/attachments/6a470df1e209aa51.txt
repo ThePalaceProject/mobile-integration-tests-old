@@ -1,0 +1,46 @@
+2023-06-11 11:40:11 INFO  - Scenario 'Check fields in Information section in LYRASIS' start
+2023-06-11 11:40:11 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-11 11:40:55 INFO  - Application on platform 'IOS' is ready...
+2023-06-11 11:40:55 INFO  - Session id - c1f60dd73751c00dbd90f7e95ca3557e9715cb38
+2023-06-11 11:40:55 INFO  - Step 0 - Close tutorial screen
+2023-06-11 11:40:55 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-11 11:40:56 INFO  - Step 1 - Welcome screen is opened
+2023-06-11 11:40:57 INFO  - Step 2 - Close welcome screen
+2023-06-11 11:40:57 INFO  - Button 'Find your library button' :: Clicking
+2023-06-11 11:40:58 INFO  - Step 3 - Add library screen is opened
+2023-06-11 11:41:04 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-11 11:41:04 INFO  - Text Field 'Search field' :: Clicking
+2023-06-11 11:41:11 INFO  - Text Field 'Search field' :: Clearing
+2023-06-11 11:41:11 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-11 11:41:24 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-11 11:41:25 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-11 11:41:25 INFO  - Button 'Settings' :: Clicking
+2023-06-11 11:41:28 INFO  - Button 'Settings' :: Clicking
+2023-06-11 11:41:29 INFO  - Button 'Libraries button' :: Clicking
+2023-06-11 11:41:30 INFO  - Step 6 - Open Catalog
+2023-06-11 11:41:31 INFO  - Button 'Catalog' :: Clicking
+2023-06-11 11:41:32 INFO  - Step 7 - Open search modal
+2023-06-11 11:41:34 INFO  - Button 'Search button' :: Clicking
+2023-06-11 11:41:37 INFO  - Step 8 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-11 11:41:37 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-11 11:41:37 INFO  - randomBookName: Evil Behind That Door
+2023-06-11 11:41:38 INFO  - Text Field 'Search value input' :: Sending keys 'Evil Behind That Door'
+2023-06-11 11:41:39 INFO  - Button 'Search' :: Clicking
+2023-06-11 11:41:43 INFO  - Step 9 - Switch to 'eBooks' catalog tab
+2023-06-11 11:41:43 INFO  - Button 'eBooks' :: Clicking
+2023-06-11 11:42:25 INFO  - Step 10 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-11 11:42:28 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-11 11:42:30 INFO  - Label 'lblBookName' :: Clicking
+2023-06-11 11:42:32 INFO  - Step 11 - Book 'bookInfo' is opened on book details screen
+2023-06-11 11:42:34 INFO  - Label 'Book title' :: Getting text from element
+2023-06-11 11:42:40 INFO  - Label 'Author' :: Getting text from element
+2023-06-11 11:42:45 INFO  - Label 'Book title' :: Getting text from element
+2023-06-11 11:42:51 INFO  - Label 'Author' :: Getting text from element
+2023-06-11 11:42:52 INFO  - Step 12 - Publisher and Categories in Information section are displayed on book details screen
+2023-06-11 11:42:59 INFO  - Step 13 - Publisher and Categories in Information section are correct on book details screen
+2023-06-11 11:42:59 INFO  - Label 'Publisher label' :: Getting attribute 'name'
+2023-06-11 11:43:03 INFO  - Label 'Categories label' :: Getting attribute 'name'
+2023-06-11 11:43:06 INFO  - Step 14 - Distributor is equal to 'Biblioboard' on book details screen
+2023-06-11 11:43:06 INFO  - Label 'Distributor label' :: Getting attribute 'name'
+2023-06-11 11:43:09 INFO  - Taking screenshot
+2023-06-11 11:43:12 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@240e3126
