@@ -1,0 +1,80 @@
+2023-06-12 20:22:59 INFO  - Scenario 'Biblioboard: Check end of chapter sleep timer' start
+2023-06-12 20:22:59 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-12 20:24:34 INFO  - Application on platform 'ANDROID' is ready...
+2023-06-12 20:24:35 INFO  - Session id - d2e600195b1ad0f0696a43dab62da1225ad9b3de
+2023-06-12 20:24:35 INFO  - Step 0 - Close tutorial screen
+2023-06-12 20:24:35 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-12 20:24:37 INFO  - Step 1 - Welcome screen is opened
+2023-06-12 20:24:38 INFO  - Step 2 - Close welcome screen
+2023-06-12 20:24:38 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-06-12 20:24:38 INFO  - Step 3 - Add library screen is opened
+2023-06-12 20:24:40 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-12 20:24:40 INFO  - Button 'Search' :: Clicking
+2023-06-12 20:24:42 INFO  - Text Field 'Search' :: Clearing
+2023-06-12 20:24:42 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-06-12 20:24:47 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-12 20:24:47 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-12 20:24:47 INFO  - Button 'tabSettings' :: Clicking
+2023-06-12 20:24:49 INFO  - Button 'tabSettings' :: Clicking
+2023-06-12 20:24:50 INFO  - Button 'Accounts' :: Clicking
+2023-06-12 20:24:53 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-12 20:24:53 INFO  - Button 'tabSettings' :: Clicking
+2023-06-12 20:24:53 INFO  - Button 'tabSettings' :: Clicking
+2023-06-12 20:24:55 INFO  - Button 'Accounts' :: Clicking
+2023-06-12 20:24:56 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-12 20:24:57 INFO  - Locking credential with barcode 01230000000003
+2023-06-12 20:24:57 INFO  - There are books on the account: 
+2023-06-12 20:24:58 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-06-12 20:24:58 INFO  - bookName: The Pioneers Distributor: Palace Marketplace
+2023-06-12 20:24:58 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-06-12 20:24:58 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-06-12 20:24:58 INFO  - Count of books on the account after opening account: 4
+2023-06-12 20:24:58 INFO  - Text Field 'Card' :: Clearing
+2023-06-12 20:24:58 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-06-12 20:25:01 INFO  - Text Field 'Pin' :: Clearing
+2023-06-12 20:25:01 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-12 20:25:04 INFO  - Button 'Log in' :: Clicking
+2023-06-12 20:25:12 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-12 20:25:13 INFO  - Step 7 - Login is performed successfully
+2023-06-12 20:25:34 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-12 20:25:35 INFO  - Step 8 - Open Catalog
+2023-06-12 20:25:35 INFO  - Button 'tabCatalog' :: Clicking
+2023-06-12 20:25:56 INFO  - Step 9 - Open search modal
+2023-06-12 20:26:16 INFO  - Button 'Search' :: Clicking
+2023-06-12 20:26:18 INFO  - Step 10 - Search for "The Columbarium" and save bookName as 'bookNameInfo'
+2023-06-12 20:26:19 INFO  - Error details button is not present
+2023-06-12 20:26:20 INFO  - Text Field 'Search value input' :: Sending keys 'The Columbarium'
+2023-06-12 20:26:24 INFO  - Error details button is not present
+2023-06-12 20:26:27 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-12 20:26:27 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-12 20:26:48 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-12 20:26:49 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-12 20:26:49 INFO  - Label 'lblBookName' :: Clicking
+2023-06-12 20:26:50 INFO  - Step 13 - Click GET action button on book details screen
+2023-06-12 20:26:52 INFO  - Button 'Get' :: Clicking
+2023-06-12 20:26:58 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-06-12 20:26:58 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-06-12 20:26:59 INFO  - Button 'Listen' :: Clicking
+2023-06-12 20:27:00 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-06-12 20:27:05 INFO  - Step 17 - Open toc audiobook screen
+2023-06-12 20:27:05 INFO  - Button 'btnToc' :: Clicking
+2023-06-12 20:27:05 INFO  - Step 18 - The first chapter is loaded
+2023-06-12 20:27:09 INFO  - Step 19 - Open the 2 chapter on toc audiobook screen and save the chapter name as 'chapterName' and chapter number as 'chapterNumber'
+2023-06-12 20:27:22 INFO  - Label 'element 2' :: Getting attribute 'text'
+2023-06-12 20:27:23 INFO  - Label 'element 2' :: Clicking
+2023-06-12 20:27:23 INFO  - Step 20 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-06-12 20:27:23 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-06-12 20:27:24 INFO  - Button 'End of file' :: Clicking
+2023-06-12 20:27:26 INFO  - Step 21 - Select 2X playback speed on playback speed audiobook screen
+2023-06-12 20:27:26 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-06-12 20:27:47 INFO  - Taking screenshot
+2023-06-12 20:27:48 INFO  - Test finished - logging out
+2023-06-12 20:27:50 INFO  - Button 'tabSettings' :: Clicking
+2023-06-12 20:27:52 INFO  - Button 'tabSettings' :: Clicking
+2023-06-12 20:27:54 INFO  - Button 'Accounts' :: Clicking
+2023-06-12 20:27:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-12 20:27:58 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-12 20:27:58 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-12 20:27:59 INFO  - Button 'Log out' :: Clicking
+2023-06-12 20:28:19 INFO  - Button 'Log in' :: Getting text from element
+2023-06-12 20:28:20 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@36c316e3
