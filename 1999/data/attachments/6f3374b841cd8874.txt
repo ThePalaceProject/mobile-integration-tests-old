@@ -1,0 +1,77 @@
+2023-06-13 21:53:26 INFO  - Scenario 'Get a book from Subcategory List View and Return from Books in LYRASIS' start
+2023-06-13 21:53:26 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-13 21:53:43 INFO  - Application on platform 'IOS' is ready...
+2023-06-13 21:53:43 INFO  - Session id - 8dfcc63503784f4088fe2f18956a2ae95df5f162
+2023-06-13 21:53:43 INFO  - Step 0 - Close tutorial screen
+2023-06-13 21:53:44 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-13 21:53:45 INFO  - Step 1 - Welcome screen is opened
+2023-06-13 21:53:45 INFO  - Step 2 - Close welcome screen
+2023-06-13 21:53:45 INFO  - Button 'Find your library button' :: Clicking
+2023-06-13 21:53:46 INFO  - Step 3 - Add library screen is opened
+2023-06-13 21:53:51 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-13 21:53:51 INFO  - Text Field 'Search field' :: Clicking
+2023-06-13 21:53:58 INFO  - Text Field 'Search field' :: Clearing
+2023-06-13 21:53:58 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-13 21:54:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-13 21:54:09 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-13 21:54:09 INFO  - Button 'Settings' :: Clicking
+2023-06-13 21:54:11 INFO  - Button 'Settings' :: Clicking
+2023-06-13 21:54:11 INFO  - Button 'Libraries button' :: Clicking
+2023-06-13 21:54:12 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-13 21:54:12 INFO  - Button 'Settings' :: Clicking
+2023-06-13 21:54:13 INFO  - Button 'Settings' :: Clicking
+2023-06-13 21:54:13 INFO  - Button 'Libraries button' :: Clicking
+2023-06-13 21:54:15 INFO  - Locking credential with barcode 01230000000003
+2023-06-13 21:54:15 INFO  - There are books on the account: 
+2023-06-13 21:54:16 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-06-13 21:54:16 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-06-13 21:54:16 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-06-13 21:54:16 INFO  - Count of books on the account after opening account: 3
+2023-06-13 21:54:37 INFO  - Text Field 'Card' :: Clicking
+2023-06-13 21:54:38 INFO  - Text Field 'Card' :: Clearing
+2023-06-13 21:54:38 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-06-13 21:54:41 INFO  - Text Field 'Pin' :: Clearing
+2023-06-13 21:54:41 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-13 21:54:44 INFO  - Button 'Log in' :: Clicking
+2023-06-13 21:54:54 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-06-13 21:54:55 INFO  - Step 7 - Login is performed successfully
+2023-06-13 21:54:56 INFO  - Step 8 - Open Catalog
+2023-06-13 21:54:56 INFO  - Button 'Catalog' :: Clicking
+2023-06-13 21:54:57 INFO  - Step 9 - Open search modal
+2023-06-13 21:54:58 INFO  - Button 'Search button' :: Clicking
+2023-06-13 21:55:00 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-13 21:55:00 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-13 21:55:00 INFO  - randomBookName: Five Tuesdays in Winter
+2023-06-13 21:55:01 INFO  - Text Field 'Search value input' :: Sending keys 'Five Tuesdays in Winter'
+2023-06-13 21:55:02 INFO  - Button 'Search' :: Clicking
+2023-06-13 21:55:04 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-06-13 21:55:04 INFO  - Button 'eBooks' :: Clicking
+2023-06-13 21:55:45 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-13 21:55:47 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-13 21:55:47 INFO  - Button 'actionButton' :: Clicking
+2023-06-13 21:56:09 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-06-13 21:56:11 INFO  - Step 14 - Click READ action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-13 21:56:12 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-13 21:56:13 INFO  - Button 'actionButton' :: Clicking
+2023-06-13 21:56:35 INFO  - Step 15 - Wait for 3 seconds
+2023-06-13 21:56:38 INFO  - Step 16 - 'bookInfo' book is present on epub reader screen
+2023-06-13 21:56:38 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-06-13 21:56:39 INFO  - Book name on epub reader screen - Five Tuesdays in Winter
+2023-06-13 21:56:39 INFO  - Step 17 - Return to previous screen for epub and pdf
+2023-06-13 21:56:40 INFO  - Button 'btnBack' :: Clicking
+2023-06-13 21:56:41 INFO  - Step 18 - Open Books
+2023-06-13 21:56:41 INFO  - Button 'My Books' :: Clicking
+2023-06-13 21:56:41 INFO  - Step 19 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-06-13 21:57:22 INFO  - Taking screenshot
+2023-06-13 21:57:24 INFO  - Test finished - logging out
+2023-06-13 21:57:27 INFO  - Button 'Settings' :: Clicking
+2023-06-13 21:57:28 INFO  - Button 'Settings' :: Clicking
+2023-06-13 21:57:29 INFO  - Button 'Libraries button' :: Clicking
+2023-06-13 21:57:32 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-13 21:57:33 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-13 21:57:34 INFO  - Button 'Log out' :: Clicking
+2023-06-13 21:57:35 INFO  - Button 'Log out approve' :: Clicking
+2023-06-13 21:57:56 INFO  - Button 'Log in' :: Getting text from element
+2023-06-13 21:57:56 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-13 21:57:57 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-13 21:57:57 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@27e91d8e
