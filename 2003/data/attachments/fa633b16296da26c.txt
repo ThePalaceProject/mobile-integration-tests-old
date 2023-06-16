@@ -1,0 +1,88 @@
+2023-06-15 23:31:42 INFO  - Scenario 'Hold from Book Detail View and and Remove a Reserved Book from Holds' start
+2023-06-15 23:31:42 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-15 23:32:02 INFO  - Application on platform 'IOS' is ready...
+2023-06-15 23:32:02 INFO  - Session id - a9273ffdca962281335f7534a3f2a66360581120
+2023-06-15 23:32:02 INFO  - Step 0 - Close tutorial screen
+2023-06-15 23:32:02 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-15 23:32:03 INFO  - Step 1 - Welcome screen is opened
+2023-06-15 23:32:03 INFO  - Step 2 - Close welcome screen
+2023-06-15 23:32:03 INFO  - Button 'Find your library button' :: Clicking
+2023-06-15 23:32:04 INFO  - Step 3 - Add library screen is opened
+2023-06-15 23:32:10 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-15 23:32:11 INFO  - Text Field 'Search field' :: Clicking
+2023-06-15 23:32:17 INFO  - Text Field 'Search field' :: Clearing
+2023-06-15 23:32:17 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-15 23:32:29 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-15 23:32:31 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-15 23:32:31 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:32:33 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:32:33 INFO  - Button 'Libraries button' :: Clicking
+2023-06-15 23:32:35 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-15 23:32:35 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:32:36 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:32:38 INFO  - Button 'Libraries button' :: Clicking
+2023-06-15 23:32:41 INFO  - Locking credential with barcode 01230000000004
+2023-06-15 23:32:41 INFO  - There are books on the account: 
+2023-06-15 23:32:42 INFO  - bookName: The Ice Queen Distributor: Palace Marketplace
+2023-06-15 23:32:42 INFO  - bookName: Apples Never Fall Distributor: Palace Marketplace
+2023-06-15 23:32:42 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-06-15 23:32:42 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-06-15 23:32:42 INFO  - bookName: The Mystery of Mrs. Christie Distributor: Palace Marketplace
+2023-06-15 23:32:42 INFO  - Count of books on the account after opening account: 5
+2023-06-15 23:33:03 INFO  - Text Field 'Card' :: Clicking
+2023-06-15 23:33:05 INFO  - Text Field 'Card' :: Clearing
+2023-06-15 23:33:05 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-06-15 23:33:08 INFO  - Text Field 'Pin' :: Clearing
+2023-06-15 23:33:08 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-15 23:33:12 INFO  - Button 'Log in' :: Clicking
+2023-06-15 23:33:19 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-06-15 23:33:22 INFO  - Step 7 - Login is performed successfully
+2023-06-15 23:33:23 INFO  - Step 8 - Open Catalog
+2023-06-15 23:33:23 INFO  - Button 'Catalog' :: Clicking
+2023-06-15 23:33:25 INFO  - Step 9 - Open search modal
+2023-06-15 23:33:27 INFO  - Button 'Search button' :: Clicking
+2023-06-15 23:33:30 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-15 23:33:30 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-15 23:33:30 INFO  - randomBookName: Children of Virtue and Vengeance
+2023-06-15 23:33:32 INFO  - Text Field 'Search value input' :: Sending keys 'Children of Virtue and Vengeance'
+2023-06-15 23:33:34 INFO  - Button 'Search' :: Clicking
+2023-06-15 23:33:38 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-15 23:33:38 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-15 23:34:20 INFO  - Step 12 - Subcategory screen is present
+2023-06-15 23:34:21 INFO  - Step 13 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-15 23:34:22 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-15 23:34:23 INFO  - Label 'lblBookName' :: Clicking
+2023-06-15 23:34:25 INFO  - Step 14 - Book 'bookInfo' is opened on book details screen
+2023-06-15 23:34:28 INFO  - Label 'Book title' :: Getting text from element
+2023-06-15 23:34:32 INFO  - Label 'Author' :: Getting text from element
+2023-06-15 23:34:35 INFO  - Label 'Book title' :: Getting text from element
+2023-06-15 23:34:39 INFO  - Label 'Author' :: Getting text from element
+2023-06-15 23:34:40 INFO  - Step 15 - Click RESERVE action button on book details screen
+2023-06-15 23:34:41 INFO  - Button 'Reserve' :: Clicking
+2023-06-15 23:35:06 INFO  - Alert appears and dismiss alert
+2023-06-15 23:35:06 INFO  - Step 16 - Close Book Details for IOSTab
+2023-06-15 23:35:07 INFO  - Step 17 - Open Holds
+2023-06-15 23:35:07 INFO  - Button 'Reservations' :: Clicking
+2023-06-15 23:35:08 INFO  - Step 18 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-06-15 23:35:09 INFO  - Step 19 - Open AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2023-06-15 23:35:10 INFO  - Label 'lblBookName' :: Clicking
+2023-06-15 23:35:11 INFO  - Step 20 - Click REMOVE action button on book details screen
+2023-06-15 23:35:12 INFO  - Button 'Remove' :: Clicking
+2023-06-15 23:35:36 INFO  - Button 'Remove ActionButtonAlert' :: Clicking
+2023-06-15 23:35:38 INFO  - Step 21 - Open Holds
+2023-06-15 23:35:38 INFO  - Button 'Reservations' :: Clicking
+2023-06-15 23:35:39 INFO  - Step 22 - Wait for 7 seconds
+2023-06-15 23:35:46 INFO  - Step 23 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is not present on holds screen
+2023-06-15 23:36:26 INFO  - Taking screenshot
+2023-06-15 23:36:30 INFO  - Test finished - logging out
+2023-06-15 23:36:34 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:36:35 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:36:37 INFO  - Button 'Libraries button' :: Clicking
+2023-06-15 23:36:42 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-15 23:36:43 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-15 23:36:44 INFO  - Button 'Log out' :: Clicking
+2023-06-15 23:36:46 INFO  - Button 'Log out approve' :: Clicking
+2023-06-15 23:37:08 INFO  - Button 'Log in' :: Getting text from element
+2023-06-15 23:37:09 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-15 23:37:10 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-15 23:37:11 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@17c29a5e

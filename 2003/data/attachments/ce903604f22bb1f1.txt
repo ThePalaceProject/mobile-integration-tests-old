@@ -1,0 +1,64 @@
+2023-06-15 23:27:26 INFO  - Scenario 'Hold from Subcategory List View and Remove a Reserved Book from Subcategory List View' start
+2023-06-15 23:27:26 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-15 23:27:47 INFO  - Application on platform 'IOS' is ready...
+2023-06-15 23:27:48 INFO  - Session id - 41c3dd49b76de41f14d8304abd64f1781f250fd4
+2023-06-15 23:27:48 INFO  - Step 0 - Close tutorial screen
+2023-06-15 23:27:48 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-15 23:27:49 INFO  - Step 1 - Welcome screen is opened
+2023-06-15 23:27:49 INFO  - Step 2 - Close welcome screen
+2023-06-15 23:27:49 INFO  - Button 'Find your library button' :: Clicking
+2023-06-15 23:27:50 INFO  - Step 3 - Add library screen is opened
+2023-06-15 23:27:56 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-15 23:27:56 INFO  - Text Field 'Search field' :: Clicking
+2023-06-15 23:28:02 INFO  - Text Field 'Search field' :: Clearing
+2023-06-15 23:28:02 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-15 23:28:13 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-15 23:28:14 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-15 23:28:14 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:28:16 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:28:17 INFO  - Button 'Libraries button' :: Clicking
+2023-06-15 23:28:19 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-15 23:28:19 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:28:20 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:28:21 INFO  - Button 'Libraries button' :: Clicking
+2023-06-15 23:28:25 INFO  - Locking credential with barcode 01230000000002
+2023-06-15 23:28:25 INFO  - There are books on the account: 
+2023-06-15 23:28:26 INFO  - There is not books on the account.
+2023-06-15 23:28:26 INFO  - Count of books on the account after opening account: 0
+2023-06-15 23:28:47 INFO  - Text Field 'Card' :: Clicking
+2023-06-15 23:28:48 INFO  - Text Field 'Card' :: Clearing
+2023-06-15 23:28:48 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-06-15 23:28:52 INFO  - Text Field 'Pin' :: Clearing
+2023-06-15 23:28:52 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-15 23:28:55 INFO  - Button 'Log in' :: Clicking
+2023-06-15 23:29:17 INFO  - Step 7 - Login is performed successfully
+2023-06-15 23:29:18 INFO  - Step 8 - Open Catalog
+2023-06-15 23:29:18 INFO  - Button 'Catalog' :: Clicking
+2023-06-15 23:29:20 INFO  - Step 9 - Open search modal
+2023-06-15 23:29:22 INFO  - Button 'Search button' :: Clicking
+2023-06-15 23:29:24 INFO  - Step 10 - Search 'unavailable' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-15 23:29:24 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-15 23:29:24 INFO  - randomBookName: Dune
+2023-06-15 23:29:24 INFO  - Text Field 'Search value input' :: Sending keys 'Dune'
+2023-06-15 23:29:25 INFO  - Button 'Search' :: Clicking
+2023-06-15 23:29:28 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-15 23:29:28 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-15 23:30:10 INFO  - Step 12 - Click RESERVE action button on AUDIOBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-15 23:30:11 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-15 23:30:12 INFO  - Button 'actionButton' :: Clicking
+2023-06-15 23:30:16 INFO  - Alert appears and dismiss alert
+2023-06-15 23:30:16 INFO  - Step 13 - Click REMOVE action button on AUDIOBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-15 23:30:36 INFO  - Button 'actionButton' :: Clicking
+2023-06-15 23:30:58 INFO  - Taking screenshot
+2023-06-15 23:30:59 INFO  - Test finished - logging out
+2023-06-15 23:31:02 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:31:04 INFO  - Button 'Settings' :: Clicking
+2023-06-15 23:31:04 INFO  - Button 'Libraries button' :: Clicking
+2023-06-15 23:31:08 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-15 23:31:09 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-15 23:31:10 INFO  - Button 'Log out' :: Clicking
+2023-06-15 23:31:11 INFO  - Button 'Log out approve' :: Clicking
+2023-06-15 23:31:33 INFO  - Button 'Log in' :: Getting text from element
+2023-06-15 23:31:34 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-15 23:31:34 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-15 23:31:35 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@17c29a5e
