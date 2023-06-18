@@ -1,0 +1,79 @@
+2023-06-18 06:18:45 INFO  - Scenario 'LYRASIS: Getting and returning books from Book Detail View' start
+2023-06-18 06:18:45 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-18 06:19:21 INFO  - Application on platform 'IOS' is ready...
+2023-06-18 06:19:21 INFO  - Session id - e4c26be30fa718414f1224572b34a8146debc9a5
+2023-06-18 06:19:21 INFO  - Step 0 - Close tutorial screen
+2023-06-18 06:19:22 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-18 06:19:22 INFO  - Step 1 - Welcome screen is opened
+2023-06-18 06:19:23 INFO  - Step 2 - Close welcome screen
+2023-06-18 06:19:23 INFO  - Button 'Find your library button' :: Clicking
+2023-06-18 06:19:24 INFO  - Step 3 - Add library screen is opened
+2023-06-18 06:19:30 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-18 06:19:30 INFO  - Text Field 'Search field' :: Clicking
+2023-06-18 06:19:37 INFO  - Text Field 'Search field' :: Clearing
+2023-06-18 06:19:37 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-18 06:19:49 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-18 06:19:50 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-18 06:19:51 INFO  - Button 'Settings' :: Clicking
+2023-06-18 06:19:52 INFO  - Button 'Settings' :: Clicking
+2023-06-18 06:19:53 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 06:19:54 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-18 06:19:54 INFO  - Button 'Settings' :: Clicking
+2023-06-18 06:19:55 INFO  - Button 'Settings' :: Clicking
+2023-06-18 06:19:55 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 06:19:58 INFO  - Locking credential with barcode 01230000000004
+2023-06-18 06:19:58 INFO  - There are books on the account: 
+2023-06-18 06:19:59 INFO  - bookName: The Mystery of Mrs. Christie Distributor: Palace Marketplace
+2023-06-18 06:19:59 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-06-18 06:19:59 INFO  - bookName: The Ice Queen Distributor: Palace Marketplace
+2023-06-18 06:19:59 INFO  - bookName: Apples Never Fall Distributor: Palace Marketplace
+2023-06-18 06:19:59 INFO  - Count of books on the account after opening account: 4
+2023-06-18 06:20:21 INFO  - Text Field 'Card' :: Clicking
+2023-06-18 06:20:21 INFO  - Text Field 'Card' :: Clearing
+2023-06-18 06:20:21 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-06-18 06:20:24 INFO  - Text Field 'Pin' :: Clearing
+2023-06-18 06:20:24 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-18 06:20:27 INFO  - Button 'Log in' :: Clicking
+2023-06-18 06:20:35 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-06-18 06:20:37 INFO  - Step 7 - Login is performed successfully
+2023-06-18 06:20:38 INFO  - Step 8 - Open Catalog
+2023-06-18 06:20:38 INFO  - Button 'Catalog' :: Clicking
+2023-06-18 06:20:40 INFO  - Step 9 - Open search modal
+2023-06-18 06:20:41 INFO  - Button 'Search button' :: Clicking
+2023-06-18 06:20:43 INFO  - Step 10 - Search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-18 06:20:43 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-06-18 06:20:43 INFO  - randomBookName: The Painted Bird
+2023-06-18 06:20:44 INFO  - Text Field 'Search value input' :: Sending keys 'The Painted Bird'
+2023-06-18 06:20:45 INFO  - Button 'Search' :: Clicking
+2023-06-18 06:20:48 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-18 06:20:48 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-18 06:21:29 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-18 06:21:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-18 06:21:32 INFO  - Label 'lblBookName' :: Clicking
+2023-06-18 06:21:33 INFO  - Step 13 - Click GET action button on book details screen
+2023-06-18 06:21:35 INFO  - Button 'Get' :: Clicking
+2023-06-18 06:22:19 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-06-18 06:22:21 INFO  - Step 15 - Click RETURN action button on book details screen
+2023-06-18 06:22:21 INFO  - Button 'Return' :: Clicking
+2023-06-18 06:22:46 INFO  - Button 'Return ActionButtonAlert' :: Clicking
+2023-06-18 06:22:47 INFO  - Step 16 - Check that book contains GET action button on book details screen
+2023-06-18 06:22:51 INFO  - Step 17 - Click GET action button on book details screen
+2023-06-18 06:22:52 INFO  - Button 'Get' :: Clicking
+2023-06-18 06:23:36 INFO  - Step 18 - Check that book contains LISTEN action button on book details screen
+2023-06-18 06:23:37 INFO  - Step 19 - Click LISTEN action button on book details screen
+2023-06-18 06:23:38 INFO  - Button 'Listen' :: Clicking
+2023-06-18 06:23:59 INFO  - Step 20 - Wait for 3 seconds
+2023-06-18 06:24:03 INFO  - Step 21 - Book 'bookInfo' with AUDIOBOOK type is present on epub or pdf or audiobook screen
+2023-06-18 06:24:03 INFO  - Taking screenshot
+2023-06-18 06:24:06 INFO  - Test finished - logging out
+2023-06-18 06:24:09 INFO  - Button 'Settings' :: Clicking
+2023-06-18 06:24:10 INFO  - Button 'Settings' :: Clicking
+2023-06-18 06:24:11 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 06:24:14 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-18 06:24:14 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-18 06:24:15 INFO  - Button 'Log out' :: Clicking
+2023-06-18 06:24:16 INFO  - Button 'Log out approve' :: Clicking
+2023-06-18 06:24:38 INFO  - Button 'Log in' :: Getting text from element
+2023-06-18 06:24:39 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-18 06:24:40 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-18 06:24:40 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4b427a86
