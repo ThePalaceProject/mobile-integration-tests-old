@@ -1,0 +1,76 @@
+2023-06-18 23:44:31 INFO  - Scenario 'Alert: Check of Cancel button after Remove button tapping' start
+2023-06-18 23:44:31 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-18 23:44:49 INFO  - Application on platform 'IOS' is ready...
+2023-06-18 23:44:49 INFO  - Session id - a7a2f7b2913f3ff0fea1ee06e0a44cbd6df88c13
+2023-06-18 23:44:49 INFO  - Step 0 - Close tutorial screen
+2023-06-18 23:44:49 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-18 23:44:50 INFO  - Step 1 - Welcome screen is opened
+2023-06-18 23:44:51 INFO  - Step 2 - Close welcome screen
+2023-06-18 23:44:51 INFO  - Button 'Find your library button' :: Clicking
+2023-06-18 23:44:52 INFO  - Step 3 - Add library screen is opened
+2023-06-18 23:44:58 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-18 23:44:58 INFO  - Text Field 'Search field' :: Clicking
+2023-06-18 23:45:05 INFO  - Text Field 'Search field' :: Clearing
+2023-06-18 23:45:05 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-18 23:45:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-18 23:45:18 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-18 23:45:18 INFO  - Button 'Settings' :: Clicking
+2023-06-18 23:45:20 INFO  - Button 'Settings' :: Clicking
+2023-06-18 23:45:20 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 23:45:22 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-18 23:45:23 INFO  - Button 'Settings' :: Clicking
+2023-06-18 23:45:24 INFO  - Button 'Settings' :: Clicking
+2023-06-18 23:45:24 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 23:45:27 INFO  - Locking credential with barcode 01230000000002
+2023-06-18 23:45:27 INFO  - There are books on the account: 
+2023-06-18 23:45:28 INFO  - bookName: The Revolutionary War in the Adirondacks Distributor: Palace Marketplace
+2023-06-18 23:45:28 INFO  - bookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood Distributor: Palace Marketplace
+2023-06-18 23:45:28 INFO  - Count of books on the account after opening account: 2
+2023-06-18 23:45:49 INFO  - Text Field 'Card' :: Clicking
+2023-06-18 23:45:50 INFO  - Text Field 'Card' :: Clearing
+2023-06-18 23:45:50 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-06-18 23:45:53 INFO  - Text Field 'Pin' :: Clearing
+2023-06-18 23:45:53 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-18 23:45:57 INFO  - Button 'Log in' :: Clicking
+2023-06-18 23:46:19 INFO  - Step 7 - Login is performed successfully
+2023-06-18 23:46:20 INFO  - Step 8 - Open Catalog
+2023-06-18 23:46:20 INFO  - Button 'Catalog' :: Clicking
+2023-06-18 23:46:23 INFO  - Step 9 - Open search modal
+2023-06-18 23:46:24 INFO  - Button 'Search button' :: Clicking
+2023-06-18 23:46:26 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-18 23:46:26 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-18 23:46:26 INFO  - randomBookName: Eldritch Tales
+2023-06-18 23:46:26 INFO  - Text Field 'Search value input' :: Sending keys 'Eldritch Tales'
+2023-06-18 23:46:27 INFO  - Button 'Search' :: Clicking
+2023-06-18 23:46:30 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-18 23:46:30 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-18 23:47:12 INFO  - Step 12 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-18 23:47:13 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-18 23:47:13 INFO  - Label 'lblBookName' :: Clicking
+2023-06-18 23:47:14 INFO  - Step 13 - Click RESERVE action button on book details screen
+2023-06-18 23:47:16 INFO  - Button 'Reserve' :: Clicking
+2023-06-18 23:47:42 INFO  - Alert appears and dismiss alert
+2023-06-18 23:47:42 INFO  - Step 14 - Open Holds
+2023-06-18 23:47:42 INFO  - Button 'Reservations' :: Clicking
+2023-06-18 23:47:44 INFO  - Step 15 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-06-18 23:47:45 INFO  - Step 16 - Open AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2023-06-18 23:47:45 INFO  - Label 'lblBookName' :: Clicking
+2023-06-18 23:47:47 INFO  - Step 17 - Click REMOVE button but cancel the action by clicking CANCEL button on the alert
+2023-06-18 23:47:47 INFO  - Button 'Remove' :: Clicking
+2023-06-18 23:48:12 INFO  - Button 'Cancel ActionButtonAlert' :: Clicking
+2023-06-18 23:48:14 INFO  - Step 18 - Open Holds
+2023-06-18 23:48:14 INFO  - Button 'Reservations' :: Clicking
+2023-06-18 23:48:15 INFO  - Step 19 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-06-18 23:48:15 INFO  - Taking screenshot
+2023-06-18 23:48:19 INFO  - Test finished - logging out
+2023-06-18 23:48:22 INFO  - Button 'Settings' :: Clicking
+2023-06-18 23:48:23 INFO  - Button 'Settings' :: Clicking
+2023-06-18 23:48:24 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 23:48:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-18 23:48:27 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-18 23:48:28 INFO  - Button 'Log out' :: Clicking
+2023-06-18 23:48:29 INFO  - Button 'Log out approve' :: Clicking
+2023-06-18 23:48:50 INFO  - Button 'Log in' :: Getting text from element
+2023-06-18 23:48:51 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-18 23:48:51 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-18 23:48:52 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3e55f153

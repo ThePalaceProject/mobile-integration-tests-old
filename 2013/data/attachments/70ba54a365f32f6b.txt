@@ -1,0 +1,76 @@
+2023-06-18 19:50:07 INFO  - Scenario 'Check playback speed and sleep timer' start
+2023-06-18 19:50:07 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-18 19:50:27 INFO  - Application on platform 'IOS' is ready...
+2023-06-18 19:50:27 INFO  - Session id - 60f24319463001a999f6bb569890285d33eefe86
+2023-06-18 19:50:27 INFO  - Step 0 - Close tutorial screen
+2023-06-18 19:50:27 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-18 19:50:28 INFO  - Step 1 - Welcome screen is opened
+2023-06-18 19:50:28 INFO  - Step 2 - Close welcome screen
+2023-06-18 19:50:28 INFO  - Button 'Find your library button' :: Clicking
+2023-06-18 19:50:29 INFO  - Step 3 - Add library screen is opened
+2023-06-18 19:50:35 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-18 19:50:35 INFO  - Text Field 'Search field' :: Clicking
+2023-06-18 19:50:42 INFO  - Text Field 'Search field' :: Clearing
+2023-06-18 19:50:42 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-18 19:50:53 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-18 19:50:54 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-18 19:50:54 INFO  - Button 'Settings' :: Clicking
+2023-06-18 19:50:56 INFO  - Button 'Settings' :: Clicking
+2023-06-18 19:50:56 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 19:50:58 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-18 19:50:58 INFO  - Button 'Settings' :: Clicking
+2023-06-18 19:50:59 INFO  - Button 'Settings' :: Clicking
+2023-06-18 19:51:00 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 19:51:02 INFO  - Locking credential with barcode 01230000000003
+2023-06-18 19:51:02 INFO  - There are books on the account: 
+2023-06-18 19:51:04 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-06-18 19:51:04 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-06-18 19:51:04 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-06-18 19:51:04 INFO  - Count of books on the account after opening account: 3
+2023-06-18 19:51:25 INFO  - Text Field 'Card' :: Clicking
+2023-06-18 19:51:26 INFO  - Text Field 'Card' :: Clearing
+2023-06-18 19:51:26 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-06-18 19:51:29 INFO  - Text Field 'Pin' :: Clearing
+2023-06-18 19:51:29 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-18 19:51:32 INFO  - Button 'Log in' :: Clicking
+2023-06-18 19:51:47 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-06-18 19:51:49 INFO  - Step 7 - Login is performed successfully
+2023-06-18 19:51:50 INFO  - Step 8 - Open Catalog
+2023-06-18 19:51:50 INFO  - Button 'Catalog' :: Clicking
+2023-06-18 19:51:51 INFO  - Step 9 - Open categories by chain and chain starts from CategoryScreen:
+2023-06-18 19:51:52 INFO  - Swiping from coordinates (x:195; y:260) to (x:195; y:675)
+2023-06-18 19:51:58 INFO  - Button 'Audible Studios' :: Clicking
+2023-06-18 19:51:59 INFO  - Step 10 - Category "Audible Studios" with books is opened on catalog books screen
+2023-06-18 19:52:03 INFO  - Step 11 - Get names of books on screen and save them as 'listOfBooks'
+2023-06-18 19:52:27 INFO  - Label 'element 1' :: Getting attribute 'name'
+2023-06-18 19:52:28 INFO  - Label 'element 2' :: Getting attribute 'name'
+2023-06-18 19:52:29 INFO  - Label 'element 3' :: Getting attribute 'name'
+2023-06-18 19:52:29 INFO  - Label 'element 4' :: Getting attribute 'name'
+2023-06-18 19:52:30 INFO  - Label 'element 5' :: Getting attribute 'name'
+2023-06-18 19:52:30 INFO  - Label 'element 6' :: Getting attribute 'name'
+2023-06-18 19:52:31 INFO  - Found list of books from all subcategories on screen - The Mystery of Mrs. Christie. Audiobook., Fahrenheit 451. Audiobook., Alice's Adventures in Wonderland. Audiobook., The Critique of Practical Reason. Audiobook., Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood. Audiobook., Cryptonomicon. Audiobook.
+2023-06-18 19:52:31 INFO  - amount of books from all subcategories on screen - 6
+2023-06-18 19:52:31 INFO  - Step 12 - Open Catalog
+2023-06-18 19:52:31 INFO  - Button 'Catalog' :: Clicking
+2023-06-18 19:52:33 INFO  - Step 13 - Open search modal
+2023-06-18 19:52:34 INFO  - Button 'Search button' :: Clicking
+2023-06-18 19:52:35 INFO  - Step 14 - Search for a AUDIOBOOK book from 'listOfBooks' and save as 'bookNameInfo'
+2023-06-18 19:52:36 INFO  - Text Field 'Search value input' :: Sending keys 'Alice's Adventures in Wonderland'
+2023-06-18 19:52:38 INFO  - Button 'Search' :: Clicking
+2023-06-18 19:52:40 INFO  - Step 15 - Switch to 'Audiobooks' catalog tab
+2023-06-18 19:52:40 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-18 19:53:22 INFO  - Step 16 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-18 19:53:42 INFO  - Label 'lblBookName' :: Clicking
+2023-06-18 19:54:04 INFO  - Taking screenshot
+2023-06-18 19:54:06 INFO  - Test finished - logging out
+2023-06-18 19:54:09 INFO  - Button 'Settings' :: Clicking
+2023-06-18 19:54:10 INFO  - Button 'Settings' :: Clicking
+2023-06-18 19:54:11 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 19:54:13 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-18 19:54:14 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-18 19:54:14 INFO  - Button 'Log out' :: Clicking
+2023-06-18 19:54:15 INFO  - Button 'Log out approve' :: Clicking
+2023-06-18 19:54:37 INFO  - Button 'Log in' :: Getting text from element
+2023-06-18 19:54:37 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-18 19:54:38 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-18 19:54:39 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@35a13fff

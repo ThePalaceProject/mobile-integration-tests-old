@@ -1,0 +1,77 @@
+2023-06-18 20:26:48 INFO  - Scenario 'Check end of chapter sleep timer' start
+2023-06-18 20:26:48 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-18 20:27:08 INFO  - Application on platform 'IOS' is ready...
+2023-06-18 20:27:08 INFO  - Session id - 374843d06ad1266414379a5da77aa5ce8b9a70fa
+2023-06-18 20:27:08 INFO  - Step 0 - Close tutorial screen
+2023-06-18 20:27:08 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-18 20:27:09 INFO  - Step 1 - Welcome screen is opened
+2023-06-18 20:27:09 INFO  - Step 2 - Close welcome screen
+2023-06-18 20:27:10 INFO  - Button 'Find your library button' :: Clicking
+2023-06-18 20:27:10 INFO  - Step 3 - Add library screen is opened
+2023-06-18 20:27:16 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-18 20:27:16 INFO  - Text Field 'Search field' :: Clicking
+2023-06-18 20:27:22 INFO  - Text Field 'Search field' :: Clearing
+2023-06-18 20:27:22 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-18 20:27:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-18 20:27:35 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-18 20:27:35 INFO  - Button 'Settings' :: Clicking
+2023-06-18 20:27:36 INFO  - Button 'Settings' :: Clicking
+2023-06-18 20:27:37 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 20:27:39 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-18 20:27:39 INFO  - Button 'Settings' :: Clicking
+2023-06-18 20:27:40 INFO  - Button 'Settings' :: Clicking
+2023-06-18 20:27:40 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 20:27:43 INFO  - Locking credential with barcode 01230000000002
+2023-06-18 20:27:43 INFO  - There are books on the account: 
+2023-06-18 20:27:45 INFO  - bookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood Distributor: Palace Marketplace
+2023-06-18 20:27:45 INFO  - bookName: The Revolutionary War in the Adirondacks Distributor: Palace Marketplace
+2023-06-18 20:27:45 INFO  - Count of books on the account after opening account: 2
+2023-06-18 20:28:06 INFO  - Text Field 'Card' :: Clicking
+2023-06-18 20:28:07 INFO  - Text Field 'Card' :: Clearing
+2023-06-18 20:28:07 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-06-18 20:28:10 INFO  - Text Field 'Pin' :: Clearing
+2023-06-18 20:28:10 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-18 20:28:13 INFO  - Button 'Log in' :: Clicking
+2023-06-18 20:28:35 INFO  - Step 7 - Login is performed successfully
+2023-06-18 20:28:36 INFO  - Step 8 - Open Catalog
+2023-06-18 20:28:36 INFO  - Button 'Catalog' :: Clicking
+2023-06-18 20:28:37 INFO  - Step 9 - Open search modal
+2023-06-18 20:28:38 INFO  - Button 'Search button' :: Clicking
+2023-06-18 20:28:40 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-18 20:28:40 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-18 20:28:40 INFO  - randomBookName: This Is Your Brain on Food
+2023-06-18 20:28:40 INFO  - Text Field 'Search value input' :: Sending keys 'This Is Your Brain on Food'
+2023-06-18 20:28:42 INFO  - Button 'Search' :: Clicking
+2023-06-18 20:28:44 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-18 20:28:44 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-18 20:29:26 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-18 20:29:28 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-18 20:29:29 INFO  - Label 'lblBookName' :: Clicking
+2023-06-18 20:29:30 INFO  - Step 13 - Click GET action button on book details screen
+2023-06-18 20:29:30 INFO  - Button 'Get' :: Clicking
+2023-06-18 20:30:14 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-06-18 20:30:15 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-06-18 20:30:16 INFO  - Button 'Listen' :: Clicking
+2023-06-18 20:30:22 INFO  - Alert appears and dismiss alert
+2023-06-18 20:30:22 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-06-18 20:30:22 INFO  - Step 17 - Open toc audiobook screen
+2023-06-18 20:30:22 INFO  - Button 'btnToc' :: Clicking
+2023-06-18 20:30:23 INFO  - Step 18 - The first chapter is loaded
+2023-06-18 20:30:27 INFO  - Step 19 - Open the 2 chapter on toc audiobook screen and save the chapter name as 'chapterName' and chapter number as 'chapterNumber'
+2023-06-18 20:30:27 INFO  - Label 'Chapter' :: Getting attribute 'name'
+2023-06-18 20:30:27 INFO  - Label 'Chapter' :: Clicking
+2023-06-18 20:30:29 INFO  - Step 20 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-06-18 20:30:29 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-06-18 20:30:50 INFO  - Taking screenshot
+2023-06-18 20:30:51 INFO  - Test finished - logging out
+2023-06-18 20:30:54 INFO  - Button 'Settings' :: Clicking
+2023-06-18 20:30:55 INFO  - Button 'Settings' :: Clicking
+2023-06-18 20:30:56 INFO  - Button 'Libraries button' :: Clicking
+2023-06-18 20:30:59 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-18 20:31:00 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-18 20:31:00 INFO  - Button 'Log out' :: Clicking
+2023-06-18 20:31:02 INFO  - Button 'Log out approve' :: Clicking
+2023-06-18 20:31:23 INFO  - Button 'Log in' :: Getting text from element
+2023-06-18 20:31:24 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-18 20:31:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-18 20:31:25 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@33162942
