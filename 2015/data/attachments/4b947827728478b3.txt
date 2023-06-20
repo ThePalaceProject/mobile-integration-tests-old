@@ -1,0 +1,82 @@
+2023-06-19 22:48:36 INFO  - Scenario 'Settings: Check of Wrapped scrolling in Lyrasis' start
+2023-06-19 22:48:36 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-19 22:49:03 INFO  - Application on platform 'ANDROID' is ready...
+2023-06-19 22:49:03 INFO  - Session id - 5ba222814df0cb3670c151fc12388233bee1a58b
+2023-06-19 22:49:03 INFO  - Step 0 - Close tutorial screen
+2023-06-19 22:49:04 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-19 22:49:06 INFO  - Step 1 - Welcome screen is opened
+2023-06-19 22:49:06 INFO  - Step 2 - Close welcome screen
+2023-06-19 22:49:06 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-06-19 22:49:07 INFO  - Step 3 - Add library screen is opened
+2023-06-19 22:49:08 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-19 22:49:08 INFO  - Button 'Search' :: Clicking
+2023-06-19 22:49:10 INFO  - Text Field 'Search' :: Clearing
+2023-06-19 22:49:10 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-06-19 22:49:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-19 22:49:14 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-19 22:49:14 INFO  - Button 'tabSettings' :: Clicking
+2023-06-19 22:49:16 INFO  - Button 'tabSettings' :: Clicking
+2023-06-19 22:49:17 INFO  - Button 'Accounts' :: Clicking
+2023-06-19 22:49:19 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-19 22:49:19 INFO  - Button 'tabSettings' :: Clicking
+2023-06-19 22:49:19 INFO  - Button 'tabSettings' :: Clicking
+2023-06-19 22:49:20 INFO  - Button 'Accounts' :: Clicking
+2023-06-19 22:49:21 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-19 22:49:23 INFO  - Locking credential with barcode 01230000000003
+2023-06-19 22:49:23 INFO  - There are books on the account: 
+2023-06-19 22:49:24 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-06-19 22:49:24 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-06-19 22:49:24 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-06-19 22:49:24 INFO  - Count of books on the account after opening account: 3
+2023-06-19 22:49:24 INFO  - Text Field 'Card' :: Clearing
+2023-06-19 22:49:24 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-06-19 22:49:26 INFO  - Text Field 'Pin' :: Clearing
+2023-06-19 22:49:26 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-19 22:49:28 INFO  - Button 'Log in' :: Clicking
+2023-06-19 22:49:36 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-19 22:49:36 INFO  - Step 7 - Login is performed successfully
+2023-06-19 22:49:57 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-19 22:49:57 INFO  - Step 8 - Open Catalog
+2023-06-19 22:49:57 INFO  - Button 'tabCatalog' :: Clicking
+2023-06-19 22:50:18 INFO  - Step 9 - Open search modal
+2023-06-19 22:50:38 INFO  - Button 'Search' :: Clicking
+2023-06-19 22:50:40 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-19 22:50:40 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-19 22:50:40 INFO  - randomBookName: Work or Starve : Caption John Smith and the Jamestown Colony
+2023-06-19 22:50:41 INFO  - Error details button is not present
+2023-06-19 22:50:41 INFO  - Text Field 'Search value input' :: Sending keys 'Work or Starve : Caption John Smith and the Jamestown Colony'
+2023-06-19 22:50:44 INFO  - Error details button is not present
+2023-06-19 22:50:49 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-19 22:50:49 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-19 22:50:50 INFO  - Button 'actionButton' :: Clicking
+2023-06-19 22:50:54 INFO  - Step 12 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-06-19 22:50:55 INFO  - Step 13 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-19 22:50:55 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-19 22:50:56 INFO  - Label 'lblBookName' :: Clicking
+2023-06-19 22:50:56 INFO  - Step 14 - Click READ action button on book details screen
+2023-06-19 22:50:57 INFO  - Button 'Read' :: Clicking
+2023-06-19 22:50:58 INFO  - Step 15 - Reader pdf screen is opened
+2023-06-19 22:51:03 INFO  - Step 16 - Open pdf settings screen on pdf reader screen
+2023-06-19 22:51:03 INFO  - Button 'Settings' :: Clicking
+2023-06-19 22:51:03 INFO  - Step 17 - Tap Wrapped scrolling on pdf settings screen
+2023-06-19 22:51:03 INFO  - Button 'Wrapped scrolling' :: Clicking
+2023-06-19 22:51:05 INFO  - Step 18 - Open pdf settings screen on pdf reader screen
+2023-06-19 22:51:05 INFO  - Button 'Settings' :: Clicking
+2023-06-19 22:51:06 INFO  - Step 19 - Wrapped scrolling is chosen on settings screen
+2023-06-19 22:51:06 INFO  - Button 'Wrapped scrolling' :: Getting attribute 'checked'
+2023-06-19 22:51:07 INFO  - Step 20 - Spreads options are available on settings screen
+2023-06-19 22:51:07 INFO  - Step 21 - Open pdf settings screen on pdf reader screen
+2023-06-19 22:51:08 INFO  - Button 'Settings' :: Clicking
+2023-06-19 22:51:08 INFO  - Step 22 - Save page number as 'pageInfo' on pdf reader screen
+2023-06-19 22:51:08 INFO  - Label 'Current page number' :: Getting text from element
+2023-06-19 22:51:09 INFO  - Taking screenshot
+2023-06-19 22:51:11 INFO  - Test finished - logging out
+2023-06-19 22:51:12 INFO  - Button 'tabSettings' :: Clicking
+2023-06-19 22:51:15 INFO  - Button 'tabSettings' :: Clicking
+2023-06-19 22:51:16 INFO  - Button 'Accounts' :: Clicking
+2023-06-19 22:51:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-19 22:51:19 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-19 22:51:20 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-19 22:51:20 INFO  - Button 'Log out' :: Clicking
+2023-06-19 22:51:40 INFO  - Button 'Log in' :: Getting text from element
+2023-06-19 22:51:41 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1f4fb3b
