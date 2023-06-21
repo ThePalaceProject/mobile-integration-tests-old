@@ -1,0 +1,77 @@
+2023-06-20 22:56:36 INFO  - Scenario 'Navigate by Page slider Lyrasis' start
+2023-06-20 22:56:36 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-20 22:56:55 INFO  - Application on platform 'IOS' is ready...
+2023-06-20 22:56:56 INFO  - Session id - 35cba73e532a18a8eb1d503d879192ed7e58b8fa
+2023-06-20 22:56:56 INFO  - Step 0 - Close tutorial screen
+2023-06-20 22:56:56 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-20 22:56:56 INFO  - Step 1 - Welcome screen is opened
+2023-06-20 22:56:57 INFO  - Step 2 - Close welcome screen
+2023-06-20 22:56:57 INFO  - Button 'Find your library button' :: Clicking
+2023-06-20 22:56:57 INFO  - Step 3 - Add library screen is opened
+2023-06-20 22:57:02 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-20 22:57:02 INFO  - Text Field 'Search field' :: Clicking
+2023-06-20 22:57:08 INFO  - Text Field 'Search field' :: Clearing
+2023-06-20 22:57:08 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-06-20 22:57:19 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-20 22:57:20 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-20 22:57:20 INFO  - Button 'Settings' :: Clicking
+2023-06-20 22:57:21 INFO  - Button 'Settings' :: Clicking
+2023-06-20 22:57:22 INFO  - Button 'Libraries button' :: Clicking
+2023-06-20 22:57:23 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-20 22:57:23 INFO  - Button 'Settings' :: Clicking
+2023-06-20 22:57:24 INFO  - Button 'Settings' :: Clicking
+2023-06-20 22:57:24 INFO  - Button 'Libraries button' :: Clicking
+2023-06-20 22:57:27 INFO  - Locking credential with barcode 01230000000005
+2023-06-20 22:57:27 INFO  - There are books on the account: 
+2023-06-20 22:57:28 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-06-20 22:57:28 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-06-20 22:57:28 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-06-20 22:57:28 INFO  - Count of books on the account after opening account: 3
+2023-06-20 22:57:49 INFO  - Text Field 'Card' :: Clicking
+2023-06-20 22:57:49 INFO  - Text Field 'Card' :: Clearing
+2023-06-20 22:57:49 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-06-20 22:57:52 INFO  - Text Field 'Pin' :: Clearing
+2023-06-20 22:57:52 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-20 22:57:55 INFO  - Button 'Log in' :: Clicking
+2023-06-20 22:58:03 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-06-20 22:58:05 INFO  - Step 7 - Login is performed successfully
+2023-06-20 22:58:06 INFO  - Step 8 - Open Catalog
+2023-06-20 22:58:06 INFO  - Button 'Catalog' :: Clicking
+2023-06-20 22:58:08 INFO  - Step 9 - Open search modal
+2023-06-20 22:58:09 INFO  - Button 'Search button' :: Clicking
+2023-06-20 22:58:13 INFO  - Step 10 - Search 'available' book of distributor 'Biblioboard' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-20 22:58:13 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-06-20 22:58:13 INFO  - randomBookName: Little Lion Shares
+2023-06-20 22:58:13 INFO  - Text Field 'Search value input' :: Sending keys 'Little Lion Shares'
+2023-06-20 22:58:15 INFO  - Button 'Search' :: Clicking
+2023-06-20 22:58:17 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-06-20 22:58:17 INFO  - Button 'eBooks' :: Clicking
+2023-06-20 22:58:59 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-20 22:59:00 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-20 22:59:01 INFO  - Button 'actionButton' :: Clicking
+2023-06-20 22:59:23 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-06-20 22:59:24 INFO  - Step 14 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-20 22:59:26 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-20 22:59:27 INFO  - Label 'lblBookName' :: Clicking
+2023-06-20 22:59:29 INFO  - Step 15 - Click READ action button on book details screen
+2023-06-20 22:59:31 INFO  - Button 'Read' :: Clicking
+2023-06-20 22:59:52 INFO  - Step 16 - Reader pdf screen is opened
+2023-06-20 22:59:53 INFO  - Step 17 - Save page number as 'pageNumber' on pdf reader screen
+2023-06-20 22:59:54 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-06-20 22:59:55 INFO  - Step 18 - Slide page slider RIGHT on reader pdf screen
+2023-06-20 22:59:58 INFO  - Swiping from coordinates (x:321; y:862) to (x:0; y:862)
+2023-06-20 22:59:59 INFO  - Step 19 - The 'pageNumber' saved page number is less than the current page number on the reader pdf screen
+2023-06-20 23:00:00 INFO  - Label 'lblPageNumber' :: Getting attribute 'name'
+2023-06-20 23:00:00 INFO  - Taking screenshot
+2023-06-20 23:00:04 INFO  - Test finished - logging out
+2023-06-20 23:00:07 INFO  - Button 'Settings' :: Clicking
+2023-06-20 23:00:08 INFO  - Button 'Settings' :: Clicking
+2023-06-20 23:00:09 INFO  - Button 'Libraries button' :: Clicking
+2023-06-20 23:00:12 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-20 23:00:12 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-20 23:00:13 INFO  - Button 'Log out' :: Clicking
+2023-06-20 23:00:14 INFO  - Button 'Log out approve' :: Clicking
+2023-06-20 23:00:35 INFO  - Button 'Log in' :: Getting text from element
+2023-06-20 23:00:35 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-20 23:00:36 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-20 23:00:37 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@7eb5462b
