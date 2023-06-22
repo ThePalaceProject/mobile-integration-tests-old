@@ -1,0 +1,105 @@
+2023-06-22 08:16:32 INFO  - Scenario 'Check books sorting in Reservations' start
+2023-06-22 08:16:32 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-22 08:16:58 INFO  - Application on platform 'ANDROID' is ready...
+2023-06-22 08:16:58 INFO  - Session id - eb0fa78d70c7add3f567b2d4ba55208c18625203
+2023-06-22 08:16:58 INFO  - Step 0 - Close tutorial screen
+2023-06-22 08:16:58 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-22 08:17:01 INFO  - Step 1 - Welcome screen is opened
+2023-06-22 08:17:01 INFO  - Step 2 - Close welcome screen
+2023-06-22 08:17:01 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-06-22 08:17:02 INFO  - Step 3 - Add library screen is opened
+2023-06-22 08:17:03 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-22 08:17:04 INFO  - Button 'Search' :: Clicking
+2023-06-22 08:17:06 INFO  - Text Field 'Search' :: Clearing
+2023-06-22 08:17:06 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-06-22 08:17:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-22 08:17:10 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-22 08:17:10 INFO  - Button 'tabSettings' :: Clicking
+2023-06-22 08:17:14 INFO  - Button 'tabSettings' :: Clicking
+2023-06-22 08:17:15 INFO  - Button 'Accounts' :: Clicking
+2023-06-22 08:17:17 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-22 08:17:17 INFO  - Button 'tabSettings' :: Clicking
+2023-06-22 08:17:18 INFO  - Button 'tabSettings' :: Clicking
+2023-06-22 08:17:20 INFO  - Button 'Accounts' :: Clicking
+2023-06-22 08:17:21 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-22 08:17:22 INFO  - Locking credential with barcode 01230000000004
+2023-06-22 08:17:22 INFO  - There are books on the account: 
+2023-06-22 08:17:23 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-06-22 08:17:23 INFO  - bookName: The Mystery of Mrs. Christie Distributor: Palace Marketplace
+2023-06-22 08:17:23 INFO  - bookName: The Ice Queen Distributor: Palace Marketplace
+2023-06-22 08:17:23 INFO  - Count of books on the account after opening account: 3
+2023-06-22 08:17:23 INFO  - Text Field 'Card' :: Clearing
+2023-06-22 08:17:23 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-06-22 08:17:25 INFO  - Text Field 'Pin' :: Clearing
+2023-06-22 08:17:25 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-22 08:17:27 INFO  - Button 'Log in' :: Clicking
+2023-06-22 08:17:34 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-22 08:17:34 INFO  - Step 7 - Login is performed successfully
+2023-06-22 08:17:56 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-22 08:17:57 INFO  - Step 8 - Open Catalog
+2023-06-22 08:17:57 INFO  - Button 'tabCatalog' :: Clicking
+2023-06-22 08:18:19 INFO  - Step 9 - Open search modal
+2023-06-22 08:18:39 INFO  - Button 'Search' :: Clicking
+2023-06-22 08:18:41 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-22 08:18:41 INFO  - Count of attempts to get random book name without bad symbols-3
+2023-06-22 08:18:41 INFO  - randomBookName: Cryptonomicon
+2023-06-22 08:18:41 INFO  - Error details button is not present
+2023-06-22 08:18:42 INFO  - Text Field 'Search value input' :: Sending keys 'Cryptonomicon'
+2023-06-22 08:18:45 INFO  - Error details button is not present
+2023-06-22 08:18:47 INFO  - Step 11 - Click RESERVE action button on AUDIOBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-22 08:18:48 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-22 08:18:48 INFO  - Button 'actionButton' :: Clicking
+2023-06-22 08:18:51 INFO  - Step 12 - Open Catalog
+2023-06-22 08:18:51 INFO  - Button 'tabCatalog' :: Clicking
+2023-06-22 08:19:12 INFO  - Step 13 - Open search modal
+2023-06-22 08:19:32 INFO  - Button 'Search' :: Clicking
+2023-06-22 08:19:34 INFO  - Step 14 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo2'
+2023-06-22 08:19:34 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-22 08:19:34 INFO  - randomBookName: The Critique of Practical Reason
+2023-06-22 08:19:35 INFO  - Error details button is not present
+2023-06-22 08:19:35 INFO  - Text Field 'Search value input' :: Sending keys 'The Critique of Practical Reason'
+2023-06-22 08:19:39 INFO  - Error details button is not present
+2023-06-22 08:19:42 INFO  - Step 15 - Click RESERVE action button on AUDIOBOOK book with 'bookNameInfo2' bookName on catalog books screen and save book as 'bookInfo2'
+2023-06-22 08:19:43 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-22 08:19:45 INFO  - Button 'actionButton' :: Clicking
+2023-06-22 08:19:47 INFO  - Step 16 - Clear search field on catalog books screen
+2023-06-22 08:19:47 INFO  - Button 'Clear search field btn' :: Clicking
+2023-06-22 08:19:48 INFO  - Step 17 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo3'
+2023-06-22 08:19:48 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-22 08:19:48 INFO  - randomBookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood
+2023-06-22 08:19:49 INFO  - Error details button is not present
+2023-06-22 08:19:49 INFO  - Text Field 'Search value input' :: Sending keys 'Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood'
+2023-06-22 08:19:53 INFO  - Error details button is not present
+2023-06-22 08:19:55 INFO  - Step 18 - Click RESERVE action button on EBOOK book with 'bookNameInfo3' bookName on catalog books screen and save book as 'bookInfo3'
+2023-06-22 08:19:57 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-22 08:19:58 INFO  - Button 'actionButton' :: Clicking
+2023-06-22 08:20:01 INFO  - Step 19 - Open Holds
+2023-06-22 08:20:01 INFO  - Button 'tabHolds' :: Clicking
+2023-06-22 08:20:02 INFO  - Step 20 - Books are sorted by Title by default on holds screen
+2023-06-22 08:20:02 INFO  - Button 'Sorting button' :: Getting text from element
+2023-06-22 08:20:03 INFO  - Step 21 - Books are sorted by Title ascending on holds screen
+2023-06-22 08:20:04 INFO  - Label 'element 1' :: Getting text from element
+2023-06-22 08:20:04 INFO  - Label 'element 2' :: Getting text from element
+2023-06-22 08:20:05 INFO  - Label 'element 3' :: Getting text from element
+2023-06-22 08:20:05 INFO  - Step 22 - Sort books by AUTHOR
+2023-06-22 08:20:05 INFO  - Button 'Sort by button' :: Clicking
+2023-06-22 08:20:06 INFO  - Button 'Facet search value Author' :: Clicking
+2023-06-22 08:20:08 INFO  - Step 23 - Books are sorted by Author ascending on holds screen
+2023-06-22 08:20:09 INFO  - Label 'element 1' :: Getting text from element
+2023-06-22 08:20:09 INFO  - Label 'element 2' :: Getting text from element
+2023-06-22 08:20:10 INFO  - Label 'element 3' :: Getting text from element
+2023-06-22 08:20:10 INFO  - Step 24 - There are sorting by 'Title' and 'Author' in 'LYRASIS Reads' on holds screen
+2023-06-22 08:20:10 INFO  - Button 'Sorting button' :: Clicking
+2023-06-22 08:20:11 INFO  - Button 'Title type of button' :: Getting text from element
+2023-06-22 08:20:12 INFO  - Button 'Author type of button' :: Getting text from element
+2023-06-22 08:20:13 INFO  - Taking screenshot
+2023-06-22 08:20:14 INFO  - Test finished - logging out
+2023-06-22 08:20:16 INFO  - Button 'tabSettings' :: Clicking
+2023-06-22 08:20:19 INFO  - Button 'tabSettings' :: Clicking
+2023-06-22 08:20:21 INFO  - Button 'Accounts' :: Clicking
+2023-06-22 08:20:22 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-22 08:20:24 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-22 08:20:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-22 08:20:26 INFO  - Button 'Log out' :: Clicking
+2023-06-22 08:20:47 INFO  - Button 'Log in' :: Getting text from element
+2023-06-22 08:20:48 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@58c5504f
