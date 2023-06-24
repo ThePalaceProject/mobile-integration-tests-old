@@ -1,0 +1,75 @@
+2023-06-24 20:15:48 INFO  - Scenario 'Hold from Book Detail View and Remove a Reserved Book from Book Detail View' start
+2023-06-24 20:15:48 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-24 20:16:16 INFO  - Application on platform 'ANDROID' is ready...
+2023-06-24 20:16:16 INFO  - Session id - 9816d93da6d517e348f16cd65a4e6016649d2323
+2023-06-24 20:16:16 INFO  - Step 0 - Close tutorial screen
+2023-06-24 20:16:17 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-24 20:16:19 INFO  - Step 1 - Welcome screen is opened
+2023-06-24 20:16:20 INFO  - Step 2 - Close welcome screen
+2023-06-24 20:16:20 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-06-24 20:16:20 INFO  - Step 3 - Add library screen is opened
+2023-06-24 20:16:21 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-24 20:16:21 INFO  - Button 'Search' :: Clicking
+2023-06-24 20:16:24 INFO  - Text Field 'Search' :: Clearing
+2023-06-24 20:16:24 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-06-24 20:16:27 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-24 20:16:28 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-24 20:16:28 INFO  - Button 'tabSettings' :: Clicking
+2023-06-24 20:16:29 INFO  - Button 'tabSettings' :: Clicking
+2023-06-24 20:16:30 INFO  - Button 'Accounts' :: Clicking
+2023-06-24 20:16:32 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-24 20:16:32 INFO  - Button 'tabSettings' :: Clicking
+2023-06-24 20:16:32 INFO  - Button 'tabSettings' :: Clicking
+2023-06-24 20:16:33 INFO  - Button 'Accounts' :: Clicking
+2023-06-24 20:16:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-24 20:16:35 INFO  - Locking credential with barcode 01230000000004
+2023-06-24 20:16:35 INFO  - There are books on the account: 
+2023-06-24 20:16:36 INFO  - bookName: The Mystery of Mrs. Christie Distributor: Palace Marketplace
+2023-06-24 20:16:36 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-06-24 20:16:36 INFO  - Count of books on the account after opening account: 2
+2023-06-24 20:16:36 INFO  - Text Field 'Card' :: Clearing
+2023-06-24 20:16:36 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-06-24 20:16:38 INFO  - Text Field 'Pin' :: Clearing
+2023-06-24 20:16:38 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-24 20:16:40 INFO  - Button 'Log in' :: Clicking
+2023-06-24 20:16:48 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-24 20:16:48 INFO  - Step 7 - Login is performed successfully
+2023-06-24 20:17:09 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-24 20:17:09 INFO  - Step 8 - Open Catalog
+2023-06-24 20:17:09 INFO  - Button 'tabCatalog' :: Clicking
+2023-06-24 20:17:29 INFO  - Step 9 - Open search modal
+2023-06-24 20:17:50 INFO  - Button 'Search' :: Clicking
+2023-06-24 20:17:51 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-24 20:17:51 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-24 20:17:51 INFO  - randomBookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood
+2023-06-24 20:17:52 INFO  - Error details button is not present
+2023-06-24 20:17:52 INFO  - Text Field 'Search value input' :: Sending keys 'Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood'
+2023-06-24 20:17:54 INFO  - Error details button is not present
+2023-06-24 20:17:58 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-24 20:17:58 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-24 20:18:19 INFO  - Step 12 - Subcategory screen is present
+2023-06-24 20:18:20 INFO  - Error details button is not present
+2023-06-24 20:18:20 INFO  - Step 13 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-24 20:18:20 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-24 20:18:20 INFO  - Label 'lblBookName' :: Clicking
+2023-06-24 20:18:21 INFO  - Step 14 - Book 'bookInfo' is opened on book details screen
+2023-06-24 20:18:21 INFO  - Label 'Book title' :: Getting text from element
+2023-06-24 20:18:22 INFO  - Label 'Book Authors' :: Getting text from element
+2023-06-24 20:18:22 INFO  - Label 'Book title' :: Getting text from element
+2023-06-24 20:18:22 INFO  - Label 'Book Authors' :: Getting text from element
+2023-06-24 20:18:23 INFO  - Step 15 - Click RESERVE action button on book details screen
+2023-06-24 20:18:23 INFO  - Button 'Reserve' :: Clicking
+2023-06-24 20:18:25 INFO  - Step 16 - Click REMOVE action button on book details screen
+2023-06-24 20:18:25 INFO  - Button 'Remove' :: Clicking
+2023-06-24 20:18:27 INFO  - Step 17 - Check that book contains RESERVE action button on book details screen
+2023-06-24 20:18:28 INFO  - Taking screenshot
+2023-06-24 20:18:29 INFO  - Test finished - logging out
+2023-06-24 20:18:30 INFO  - Button 'tabSettings' :: Clicking
+2023-06-24 20:18:33 INFO  - Button 'tabSettings' :: Clicking
+2023-06-24 20:18:33 INFO  - Button 'Accounts' :: Clicking
+2023-06-24 20:18:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-24 20:18:37 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-24 20:18:37 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-24 20:18:37 INFO  - Button 'Log out' :: Clicking
+2023-06-24 20:18:58 INFO  - Button 'Log in' :: Getting text from element
+2023-06-24 20:18:58 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1aa7b06d
