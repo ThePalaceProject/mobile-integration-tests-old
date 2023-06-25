@@ -1,0 +1,74 @@
+2023-06-25 14:07:27 INFO  - Scenario 'Get a book from Subcategory List View and Read from Books in LYRASIS' start
+2023-06-25 14:07:27 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-25 14:07:52 INFO  - Application on platform 'ANDROID' is ready...
+2023-06-25 14:07:52 INFO  - Session id - ac25b43aa0089ac6d393c434c29af9b44c3d0d9e
+2023-06-25 14:07:52 INFO  - Step 0 - Close tutorial screen
+2023-06-25 14:07:52 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-25 14:07:55 INFO  - Step 1 - Welcome screen is opened
+2023-06-25 14:07:55 INFO  - Step 2 - Close welcome screen
+2023-06-25 14:07:55 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-06-25 14:07:55 INFO  - Step 3 - Add library screen is opened
+2023-06-25 14:07:56 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-25 14:07:56 INFO  - Button 'Search' :: Clicking
+2023-06-25 14:07:57 INFO  - Text Field 'Search' :: Clearing
+2023-06-25 14:07:57 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-06-25 14:08:00 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-25 14:08:00 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-25 14:08:00 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 14:08:02 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 14:08:03 INFO  - Button 'Accounts' :: Clicking
+2023-06-25 14:08:04 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-25 14:08:04 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 14:08:05 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 14:08:05 INFO  - Button 'Accounts' :: Clicking
+2023-06-25 14:08:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-25 14:08:07 INFO  - Locking credential with barcode 01230000000003
+2023-06-25 14:08:07 INFO  - There are books on the account: 
+2023-06-25 14:08:08 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-06-25 14:08:08 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-06-25 14:08:08 INFO  - Count of books on the account after opening account: 2
+2023-06-25 14:08:08 INFO  - Text Field 'Card' :: Clearing
+2023-06-25 14:08:08 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-06-25 14:08:10 INFO  - Text Field 'Pin' :: Clearing
+2023-06-25 14:08:10 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-25 14:08:11 INFO  - Button 'Log in' :: Clicking
+2023-06-25 14:08:19 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-25 14:08:19 INFO  - Step 7 - Login is performed successfully
+2023-06-25 14:08:40 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-25 14:08:40 INFO  - Step 8 - Open Catalog
+2023-06-25 14:08:40 INFO  - Button 'tabCatalog' :: Clicking
+2023-06-25 14:09:02 INFO  - Step 9 - Open search modal
+2023-06-25 14:09:22 INFO  - Button 'Search' :: Clicking
+2023-06-25 14:09:24 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-25 14:09:24 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-25 14:09:24 INFO  - randomBookName: Unprotected
+2023-06-25 14:09:24 INFO  - Error details button is not present
+2023-06-25 14:09:24 INFO  - Text Field 'Search value input' :: Sending keys 'Unprotected'
+2023-06-25 14:09:26 INFO  - Error details button is not present
+2023-06-25 14:09:30 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-06-25 14:09:30 INFO  - Button 'eBooks' :: Clicking
+2023-06-25 14:09:50 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-25 14:09:50 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-25 14:09:51 INFO  - Button 'actionButton' :: Clicking
+2023-06-25 14:09:57 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-06-25 14:09:57 INFO  - Step 14 - Open Books
+2023-06-25 14:09:57 INFO  - Button 'tabBooks' :: Clicking
+2023-06-25 14:09:58 INFO  - Step 15 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-06-25 14:09:58 INFO  - Label 'lblBookName' :: Clicking
+2023-06-25 14:09:59 INFO  - Step 16 - Click READ action button on book details screen
+2023-06-25 14:10:00 INFO  - Button 'Read' :: Clicking
+2023-06-25 14:10:00 INFO  - Step 17 - Wait for 3 seconds
+2023-06-25 14:10:03 INFO  - Step 18 - 'bookInfo' book is present on epub reader screen
+2023-06-25 14:10:04 INFO  - Label 'lblBookName' :: Getting text from element
+2023-06-25 14:10:05 INFO  - Book name on epub reader screen - Unprotected: A Memoir
+2023-06-25 14:10:05 INFO  - Taking screenshot
+2023-06-25 14:10:07 INFO  - Test finished - logging out
+2023-06-25 14:10:08 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 14:10:10 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 14:10:11 INFO  - Button 'Accounts' :: Clicking
+2023-06-25 14:10:12 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-25 14:10:13 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-25 14:10:14 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-25 14:10:14 INFO  - Button 'Log out' :: Clicking
+2023-06-25 14:10:34 INFO  - Button 'Log in' :: Getting text from element
+2023-06-25 14:10:35 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@48a7c14c
