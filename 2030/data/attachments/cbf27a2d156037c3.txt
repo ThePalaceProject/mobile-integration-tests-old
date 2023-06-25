@@ -1,0 +1,84 @@
+2023-06-25 17:57:29 INFO  - Scenario 'Check end of chapter sleep timer' start
+2023-06-25 17:57:29 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-25 17:57:56 INFO  - Application on platform 'ANDROID' is ready...
+2023-06-25 17:57:56 INFO  - Session id - 762fee421cd1bb5b5ed96ed5eaaa5a1a550a40d6
+2023-06-25 17:57:56 INFO  - Step 0 - Close tutorial screen
+2023-06-25 17:57:56 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-25 17:57:59 INFO  - Step 1 - Welcome screen is opened
+2023-06-25 17:58:00 INFO  - Step 2 - Close welcome screen
+2023-06-25 17:58:00 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-06-25 17:58:01 INFO  - Step 3 - Add library screen is opened
+2023-06-25 17:58:02 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-25 17:58:02 INFO  - Button 'Search' :: Clicking
+2023-06-25 17:58:03 INFO  - Text Field 'Search' :: Clearing
+2023-06-25 17:58:03 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-06-25 17:58:08 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-25 17:58:09 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-25 17:58:09 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 17:58:09 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 17:58:11 INFO  - Button 'Accounts' :: Clicking
+2023-06-25 17:58:13 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-25 17:58:13 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 17:58:13 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 17:58:14 INFO  - Button 'Accounts' :: Clicking
+2023-06-25 17:58:15 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-25 17:58:16 INFO  - Locking credential with barcode 01230000000005
+2023-06-25 17:58:16 INFO  - There are books on the account: 
+2023-06-25 17:58:17 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-06-25 17:58:17 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-06-25 17:58:17 INFO  - bookName: The Latehomecomer Distributor: Axis 360
+2023-06-25 17:58:17 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-06-25 17:58:17 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-06-25 17:58:17 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-06-25 17:58:17 INFO  - Count of books on the account after opening account: 6
+2023-06-25 17:58:17 INFO  - Text Field 'Card' :: Clearing
+2023-06-25 17:58:17 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-06-25 17:58:19 INFO  - Text Field 'Pin' :: Clearing
+2023-06-25 17:58:19 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-25 17:58:22 INFO  - Button 'Log in' :: Clicking
+2023-06-25 17:58:30 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-25 17:58:30 INFO  - Step 7 - Login is performed successfully
+2023-06-25 17:58:51 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-25 17:58:51 INFO  - Step 8 - Open Catalog
+2023-06-25 17:58:51 INFO  - Button 'tabCatalog' :: Clicking
+2023-06-25 17:59:14 INFO  - Step 9 - Open search modal
+2023-06-25 17:59:35 INFO  - Button 'Search' :: Clicking
+2023-06-25 17:59:36 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-25 17:59:37 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-25 17:59:37 INFO  - randomBookName: Blacktop Wasteland
+2023-06-25 17:59:38 INFO  - Error details button is not present
+2023-06-25 17:59:38 INFO  - Text Field 'Search value input' :: Sending keys 'Blacktop Wasteland'
+2023-06-25 17:59:40 INFO  - Error details button is not present
+2023-06-25 17:59:44 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-25 17:59:44 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-25 18:00:05 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-25 18:00:06 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-25 18:00:06 INFO  - Label 'lblBookName' :: Clicking
+2023-06-25 18:00:06 INFO  - Step 13 - Click GET action button on book details screen
+2023-06-25 18:00:08 INFO  - Button 'Get' :: Clicking
+2023-06-25 18:00:15 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-06-25 18:00:15 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-06-25 18:00:16 INFO  - Button 'Listen' :: Clicking
+2023-06-25 18:00:16 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-06-25 18:00:21 INFO  - Step 17 - Open toc audiobook screen
+2023-06-25 18:00:21 INFO  - Button 'btnToc' :: Clicking
+2023-06-25 18:00:22 INFO  - Step 18 - The first chapter is loaded
+2023-06-25 18:00:22 INFO  - Step 19 - Open the 2 chapter on toc audiobook screen and save the chapter name as 'chapterName' and chapter number as 'chapterNumber'
+2023-06-25 18:00:24 INFO  - Label 'element 2' :: Getting attribute 'text'
+2023-06-25 18:00:25 INFO  - Label 'element 2' :: Clicking
+2023-06-25 18:00:25 INFO  - Step 20 - Set END_OF_CHAPTER sleep timer on sleep timer audiobook screen
+2023-06-25 18:00:25 INFO  - Button 'btnSleepTimer' :: Clicking
+2023-06-25 18:00:27 INFO  - Button 'End of file' :: Clicking
+2023-06-25 18:00:28 INFO  - Step 21 - Select 2X playback speed on playback speed audiobook screen
+2023-06-25 18:00:28 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-06-25 18:00:49 INFO  - Taking screenshot
+2023-06-25 18:00:50 INFO  - Test finished - logging out
+2023-06-25 18:00:52 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 18:00:54 INFO  - Button 'tabSettings' :: Clicking
+2023-06-25 18:00:55 INFO  - Button 'Accounts' :: Clicking
+2023-06-25 18:00:56 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-25 18:00:59 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-25 18:00:59 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-25 18:01:00 INFO  - Button 'Log out' :: Clicking
+2023-06-25 18:01:22 INFO  - Button 'Log in' :: Getting text from element
+2023-06-25 18:01:22 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@566735f3
