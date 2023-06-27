@@ -1,0 +1,94 @@
+2023-06-27 01:19:27 INFO  - Scenario 'Biblioboard: Navigate by Audiobook' start
+2023-06-27 01:19:27 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-27 01:19:57 INFO  - Application on platform 'ANDROID' is ready...
+2023-06-27 01:19:57 INFO  - Session id - eb2f70703eb47ee2c096d4c0314647dd26f56e67
+2023-06-27 01:19:57 INFO  - Step 0 - Close tutorial screen
+2023-06-27 01:19:57 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-27 01:19:59 INFO  - Step 1 - Welcome screen is opened
+2023-06-27 01:20:00 INFO  - Step 2 - Close welcome screen
+2023-06-27 01:20:00 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-06-27 01:20:01 INFO  - Step 3 - Add library screen is opened
+2023-06-27 01:20:02 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-27 01:20:02 INFO  - Button 'Search' :: Clicking
+2023-06-27 01:20:04 INFO  - Text Field 'Search' :: Clearing
+2023-06-27 01:20:04 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-06-27 01:20:08 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-27 01:20:09 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-27 01:20:09 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 01:20:10 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 01:20:11 INFO  - Button 'Accounts' :: Clicking
+2023-06-27 01:20:13 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-27 01:20:13 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 01:20:14 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 01:20:15 INFO  - Button 'Accounts' :: Clicking
+2023-06-27 01:20:16 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-27 01:20:17 INFO  - Locking credential with barcode 01230000000002
+2023-06-27 01:20:17 INFO  - There are books on the account: 
+2023-06-27 01:20:18 INFO  - bookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood Distributor: Palace Marketplace
+2023-06-27 01:20:18 INFO  - bookName: The Revolutionary War in the Adirondacks Distributor: Palace Marketplace
+2023-06-27 01:20:18 INFO  - Count of books on the account after opening account: 2
+2023-06-27 01:20:18 INFO  - Text Field 'Card' :: Clearing
+2023-06-27 01:20:18 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-06-27 01:20:20 INFO  - Text Field 'Pin' :: Clearing
+2023-06-27 01:20:20 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-27 01:20:22 INFO  - Button 'Log in' :: Clicking
+2023-06-27 01:20:29 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-27 01:20:30 INFO  - Step 7 - Login is performed successfully
+2023-06-27 01:20:51 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-27 01:20:51 INFO  - Step 8 - Open Catalog
+2023-06-27 01:20:51 INFO  - Button 'tabCatalog' :: Clicking
+2023-06-27 01:21:13 INFO  - Step 9 - Open search modal
+2023-06-27 01:21:33 INFO  - Button 'Search' :: Clicking
+2023-06-27 01:21:36 INFO  - Step 10 - Search for "The Last Resort" and save bookName as 'bookNameInfo'
+2023-06-27 01:21:36 INFO  - Error details button is not present
+2023-06-27 01:21:37 INFO  - Text Field 'Search value input' :: Sending keys 'The Last Resort'
+2023-06-27 01:21:39 INFO  - Error details button is not present
+2023-06-27 01:21:43 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-27 01:21:43 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-27 01:22:05 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-27 01:22:05 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-27 01:22:06 INFO  - Label 'lblBookName' :: Clicking
+2023-06-27 01:22:06 INFO  - Step 13 - Click GET action button on book details screen
+2023-06-27 01:22:07 INFO  - Button 'Get' :: Clicking
+2023-06-27 01:22:12 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-06-27 01:22:13 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-06-27 01:22:13 INFO  - Button 'Listen' :: Clicking
+2023-06-27 01:22:14 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-06-27 01:22:22 INFO  - Step 17 - Tap play button on audio player screen
+2023-06-27 01:22:22 INFO  - Button 'btnPlay' :: Clicking
+2023-06-27 01:22:24 INFO  - Step 18 - Pause button is present on audio player screen
+2023-06-27 01:22:25 INFO  - Step 19 - Tap pause button on audio player screen
+2023-06-27 01:22:26 INFO  - Button 'btnPause' :: Clicking
+2023-06-27 01:22:26 INFO  - Step 20 - Play button is present on audio player screen
+2023-06-27 01:22:27 INFO  - Step 21 - Book is not playing on audio player screen
+2023-06-27 01:22:27 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-06-27 01:22:30 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-06-27 01:22:30 INFO  - Step 22 - Save book play time as 'timeAhead' on audio player screen
+2023-06-27 01:22:30 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-06-27 01:22:31 INFO  - Step 23 - Save chapter time as 'chapterTimeKey' on audio player screen
+2023-06-27 01:22:31 INFO  - Label 'lblRightTime' :: Getting text from element
+2023-06-27 01:22:31 INFO  - Step 24 - Skip ahead 15 seconds on audio player screen
+2023-06-27 01:22:31 INFO  - Button 'btnSkipAhead' :: Clicking
+2023-06-27 01:22:32 INFO  - Step 25 - Tap pause button on audio player screen
+2023-06-27 01:22:53 INFO  - Step 26 - Play button is present on audio player screen
+2023-06-27 01:22:53 INFO  - Step 27 - Playback has been moved forward by 15 seconds from 'timeAhead' and 'chapterTimeKey' seconds on audio player screen
+2023-06-27 01:22:53 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-06-27 01:22:54 INFO  - Step 28 - Save book play time as 'timeBehind' on audio player screen
+2023-06-27 01:22:54 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-06-27 01:22:54 INFO  - Step 29 - Skip behind 15 seconds on audio player screen
+2023-06-27 01:22:54 INFO  - Button 'btnSkipBehind' :: Clicking
+2023-06-27 01:22:55 INFO  - Step 30 - Tap pause button on audio player screen
+2023-06-27 01:23:16 INFO  - Step 31 - Play button is present on audio player screen
+2023-06-27 01:23:16 INFO  - Step 32 - Playback has been moved behind by 15 seconds from 'timeBehind' and 'chapterTimeKey' seconds on audio player screen
+2023-06-27 01:23:16 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-06-27 01:23:16 INFO  - Taking screenshot
+2023-06-27 01:23:18 INFO  - Test finished - logging out
+2023-06-27 01:23:19 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 01:23:22 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 01:23:23 INFO  - Button 'Accounts' :: Clicking
+2023-06-27 01:23:24 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-27 01:23:27 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-27 01:23:27 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-27 01:23:28 INFO  - Button 'Log out' :: Clicking
+2023-06-27 01:23:49 INFO  - Button 'Log in' :: Getting text from element
+2023-06-27 01:23:49 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5d8f55aa
