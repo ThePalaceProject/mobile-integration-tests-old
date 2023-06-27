@@ -1,0 +1,68 @@
+2023-06-27 14:37:30 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-06-27 14:37:30 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-06-27 14:37:57 INFO  - Application on platform 'ANDROID' is ready...
+2023-06-27 14:37:57 INFO  - Session id - 794f83ded3433557f90057b6ab7a287e1369eb2c
+2023-06-27 14:37:57 INFO  - Step 0 - Close tutorial screen
+2023-06-27 14:37:57 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-06-27 14:37:59 INFO  - Step 1 - Welcome screen is opened
+2023-06-27 14:38:00 INFO  - Step 2 - Close welcome screen
+2023-06-27 14:38:00 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-06-27 14:38:01 INFO  - Step 3 - Add library screen is opened
+2023-06-27 14:38:02 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-06-27 14:38:02 INFO  - Button 'Search' :: Clicking
+2023-06-27 14:38:03 INFO  - Text Field 'Search' :: Clearing
+2023-06-27 14:38:03 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-06-27 14:38:07 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-27 14:38:07 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-06-27 14:38:08 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 14:38:12 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 14:38:13 INFO  - Button 'Accounts' :: Clicking
+2023-06-27 14:38:15 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-06-27 14:38:15 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 14:38:15 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 14:38:17 INFO  - Button 'Accounts' :: Clicking
+2023-06-27 14:38:18 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-27 14:38:19 INFO  - Locking credential with barcode 01230000000002
+2023-06-27 14:38:19 INFO  - There are books on the account: 
+2023-06-27 14:38:20 INFO  - bookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood Distributor: Palace Marketplace
+2023-06-27 14:38:20 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-06-27 14:38:20 INFO  - bookName: The Revolutionary War in the Adirondacks Distributor: Palace Marketplace
+2023-06-27 14:38:20 INFO  - Count of books on the account after opening account: 3
+2023-06-27 14:38:20 INFO  - Text Field 'Card' :: Clearing
+2023-06-27 14:38:20 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-06-27 14:38:22 INFO  - Text Field 'Pin' :: Clearing
+2023-06-27 14:38:22 INFO  - Text Field 'Pin' :: Typing '********'
+2023-06-27 14:38:24 INFO  - Button 'Log in' :: Clicking
+2023-06-27 14:38:31 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-27 14:38:32 INFO  - Step 7 - Login is performed successfully
+2023-06-27 14:38:53 INFO  - Button 'Log ... action' :: Getting text from element
+2023-06-27 14:38:53 INFO  - Step 8 - Open Catalog
+2023-06-27 14:38:53 INFO  - Button 'tabCatalog' :: Clicking
+2023-06-27 14:39:14 INFO  - Step 9 - Open search modal
+2023-06-27 14:39:35 INFO  - Button 'Search' :: Clicking
+2023-06-27 14:39:36 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-06-27 14:39:36 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-06-27 14:39:36 INFO  - randomBookName: The Mother Tongue
+2023-06-27 14:39:37 INFO  - Error details button is not present
+2023-06-27 14:39:37 INFO  - Text Field 'Search value input' :: Sending keys 'The Mother Tongue'
+2023-06-27 14:39:40 INFO  - Error details button is not present
+2023-06-27 14:39:43 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-06-27 14:39:43 INFO  - Button 'Audiobooks' :: Clicking
+2023-06-27 14:40:04 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-06-27 14:40:05 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-06-27 14:40:05 INFO  - Label 'lblBookName' :: Clicking
+2023-06-27 14:40:06 INFO  - Step 13 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-06-27 14:40:06 INFO  - Button 'Get' :: Clicking
+2023-06-27 14:40:07 INFO  - Button 'Cancel' :: Clicking
+2023-06-27 14:40:10 INFO  - Step 14 - Check that book contains DOWNLOAD action button on book details screen
+2023-06-27 14:40:31 INFO  - Taking screenshot
+2023-06-27 14:40:32 INFO  - Test finished - logging out
+2023-06-27 14:40:33 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 14:40:36 INFO  - Button 'tabSettings' :: Clicking
+2023-06-27 14:40:38 INFO  - Button 'Accounts' :: Clicking
+2023-06-27 14:40:39 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-06-27 14:40:41 INFO  - Text Field 'Card' :: Getting text from element
+2023-06-27 14:40:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-06-27 14:40:43 INFO  - Button 'Log out' :: Clicking
+2023-06-27 14:41:04 INFO  - Button 'Log in' :: Getting text from element
+2023-06-27 14:41:05 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1790b9ec
