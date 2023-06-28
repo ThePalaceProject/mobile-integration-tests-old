@@ -1,6 +1,6 @@
 Feature: Manage Libraries
 
-  @tier3
+  @tier6
   Scenario: Settings: Add library: general checks
     When Close tutorial screen
     Then Welcome screen is opened
@@ -15,13 +15,13 @@ Feature: Manage Libraries
     Then Add library screen is opened
       And Libraries are sorted in alphabetical order on add account screen
 
-  @tier3
+  @tier6
   Scenario: Navigate by Tutorial
     Then Tutorial screen is opened
       And Each tutorial page can be opened on tutorial screen for android and close tutorial screen
       And Welcome screen is opened
 
-  @tier3
+  @tier6
   Scenario: Welcome screen: Add Library
     When Close tutorial screen
     Then Welcome screen is opened
@@ -30,7 +30,7 @@ Feature: Manage Libraries
     When Add library "LYRASIS Reads" on Add library screen
     Then Account "LYRASIS Reads" is present on Accounts screen
 
-  @tier3
+  @tier6
   Scenario: Settings: Add library
     When Close tutorial screen
     Then Welcome screen is opened
@@ -44,7 +44,7 @@ Feature: Manage Libraries
     Then Category rows are loaded
       And List of books on screen is not equal to list of books saved as 'nameOfBooks'
 
-  @tier3
+  @tier6
   Scenario: Settings: Add Library: Check of the added libraries sorting
     When Close tutorial screen
     Then Welcome screen is opened
@@ -64,7 +64,7 @@ Feature: Manage Libraries
     When Click to 'Escondido Public Library' and save library name as 'libraryInfo' on libraries screen
     Then The screen with settings for 'libraryInfo' library is opened
 
-  @tier3
+  @tier6
   Scenario: Settings: Libraries: Remove library
     When Close tutorial screen
     Then Welcome screen is opened
@@ -77,7 +77,7 @@ Feature: Manage Libraries
     And Remove 'Palace Bookshelf' account
     Then Account 'Palace Bookshelf' is not present on Accounts screen
 
-  @tier3 @exclude_ios
+  @tier6 @exclude_ios
   Scenario: Switch library bookshelf (ANDROID)
     When Close tutorial screen
     Then Welcome screen is opened
@@ -164,7 +164,7 @@ Feature: Manage Libraries
       And Click the log out button on the account screen
     Then Logout is performed successfully
 
-  @tier3
+  @tier6
   Scenario: Logo: Add library: Check of adding a library
     When Close tutorial screen
     Then Welcome screen is opened
@@ -176,7 +176,7 @@ Feature: Manage Libraries
       And Add 'LYRASIS Reads' account by the logo
     Then Category rows are loaded
 
-  @tier3
+  @tier6
   Scenario: Logo: Add Library: Check of sorting libraries
     When Close tutorial screen
     Then Welcome screen is opened
@@ -197,7 +197,7 @@ Feature: Manage Libraries
     When Tap cancel button on find your library screen
     Then Category rows are loaded
 
-  @tier3
+  @tier6
   Scenario: Logo: Switch library
     When Close tutorial screen
     Then Welcome screen is opened

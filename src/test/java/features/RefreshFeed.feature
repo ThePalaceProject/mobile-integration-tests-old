@@ -1,6 +1,6 @@
 Feature: Feed
 
-  @tier3 @exclude_ios
+  @tier6 @exclude_ios
   Scenario: Update Bookshelf List (ANDROID)
     When Close tutorial screen
     Then Welcome screen is opened
