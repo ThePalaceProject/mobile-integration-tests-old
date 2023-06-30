@@ -99,7 +99,7 @@ Feature: Manage Libraries
       And Open Books
     Then There are not books on books screen
 
-  @tier3 @exclude_android
+  @tier2 @exclude_android
   Scenario: Switch library bookshelf (IOS)
     When Close tutorial screen
     Then Welcome screen is opened

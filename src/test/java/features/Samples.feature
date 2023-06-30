@@ -1,6 +1,6 @@
 Feature: Check of View Sample
 
-  @tier3 @exclude_android
+  @tier2 @exclude_android
   Scenario: Palace Marketplace: Check of view sample
     When Close tutorial screen
     Then Welcome screen is opened

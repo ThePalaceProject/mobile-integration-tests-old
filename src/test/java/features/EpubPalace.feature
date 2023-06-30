@@ -90,7 +90,7 @@ Feature: Read EPUB in Palace Bookshelf
       And Open font and background settings epub screen
     Then Font and background settings epub screen is opened
 
-  @tier3 @exclude_android
+  @tier2 @exclude_android
   Scenario: Font settings: Check of increasing and reducing the text size
     When Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
       And Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
@@ -120,7 +120,7 @@ Feature: Read EPUB in Palace Bookshelf
       And Click READ action button on book details screen
     Then Font size 'fontSize' is decreased
 
-  @tier3 @exclude_android
+  @tier2 @exclude_android
   Scenario: Font settings: Check of font style
     When Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
       And Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
@@ -160,7 +160,7 @@ Feature: Read EPUB in Palace Bookshelf
       And Click READ action button on book details screen
     Then Book text displays in FONT_DYSLEXIC font
 
-  @tier3 @exclude_android
+  @tier2 @exclude_android
   Scenario: Font settings: Check of text theme
     When Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
       And Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
