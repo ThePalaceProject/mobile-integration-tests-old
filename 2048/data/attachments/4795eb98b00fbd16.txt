@@ -1,0 +1,53 @@
+2023-07-03 12:24:37 INFO  - Scenario 'Get: Log in: Library card: Check that the field doesn't allow characters except numbers' start
+2023-07-03 12:24:37 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-03 12:25:00 INFO  - Application on platform 'IOS' is ready...
+2023-07-03 12:25:00 INFO  - Session id - 8a2acb47f7f1bc6f630a1b61988a630fdf13ffe7
+2023-07-03 12:25:00 INFO  - Step 0 - Close tutorial screen
+2023-07-03 12:25:00 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-03 12:25:01 INFO  - Step 1 - Welcome screen is opened
+2023-07-03 12:25:01 INFO  - Step 2 - Close welcome screen
+2023-07-03 12:25:01 INFO  - Button 'Find your library button' :: Clicking
+2023-07-03 12:25:02 INFO  - Step 3 - Add library screen is opened
+2023-07-03 12:25:08 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-03 12:25:08 INFO  - Text Field 'Search field' :: Clicking
+2023-07-03 12:25:15 INFO  - Text Field 'Search field' :: Clearing
+2023-07-03 12:25:15 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-07-03 12:25:26 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-03 12:25:27 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-03 12:25:27 INFO  - Button 'Settings' :: Clicking
+2023-07-03 12:25:29 INFO  - Button 'Settings' :: Clicking
+2023-07-03 12:25:30 INFO  - Button 'Libraries button' :: Clicking
+2023-07-03 12:25:31 INFO  - Step 6 - Open Catalog
+2023-07-03 12:25:31 INFO  - Button 'Catalog' :: Clicking
+2023-07-03 12:25:33 INFO  - Step 7 - Open search modal
+2023-07-03 12:25:34 INFO  - Button 'Search button' :: Clicking
+2023-07-03 12:25:36 INFO  - Step 8 - Search for "The Last Goodnight" and save bookName as 'bookNameInfo'
+2023-07-03 12:25:37 INFO  - Text Field 'Search value input' :: Sending keys 'The Last Goodnight'
+2023-07-03 12:25:38 INFO  - Button 'Search' :: Clicking
+2023-07-03 12:25:40 INFO  - Step 9 - Open book with GET action button and 'bookNameInfo' bookName on catalog books screen
+2023-07-03 12:25:40 INFO  - Label 'action button' :: Clicking
+2023-07-03 12:25:41 INFO  - Step 10 - Click GET action button on book details screen
+2023-07-03 12:25:42 INFO  - Button 'Get' :: Clicking
+2023-07-03 12:26:23 INFO  - Step 11 - Sing in screen is opened
+2023-07-03 12:26:43 INFO  - Step 12 - Enter a Library card with 14 latin letters and save it as 'libraryCard' on Sign in screen
+2023-07-03 12:26:43 INFO  - Text Field 'Library card' :: Clearing
+2023-07-03 12:26:43 INFO  - Text Field 'Library card' :: Typing 'jdtqmMwVGWmdPd'
+2023-07-03 12:27:04 ERROR - No elements with locator 'By.xpath: //XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeTextField' were found in DISPLAYED state: Expected condition failed:  (tried for 20 second(s) with 300 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az1103-979', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1040-azure', java.version: '11.0.19'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 14.0, bundleID: org.thepalaceproject.palace, bundleId: org.thepalaceproject.palace, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 14.0, bundleID: org.thepalaceproject.palace, bundleId: org.thepalaceproject.palace, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java unix), device: iphone, deviceName: iPhone 14, deviceOrientation: PORTRAIT, javascriptEnabled: true, locale: ru_RU, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 14-16.4}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 16, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 8a2acb47f7f1bc6f630a1b61988..., takesScreenshot: true, udid: 00008110-0008644C0291401E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8407, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java unix), device: iphone, deviceName: iPhone 14, deviceOrientation: PORTRAIT, javascriptEnabled: true, locale: ru_RU, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 14-16.4}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 16, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 8a2acb47f7f1bc6f630a1b61988..., takesScreenshot: true, udid: 00008110-0008644C0291401E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8407, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 8a2acb47f7f1bc6f630a1b61988a630fdf13ffe7
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az1103-979', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1040-azure', java.version: '11.0.19'
+Driver info: driver.version: unknown
+2023-07-03 12:27:04 FATAL - An exception occurred while tried to save the page source: org.openqa.selenium.InvalidElementStateException: The application under test with bundle id 'org.thepalaceproject.palace' is not running, possibly crashed (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az1103-979', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1040-azure', java.version: '11.0.19'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 14.0, bundleID: org.thepalaceproject.palace, bundleId: org.thepalaceproject.palace, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.appium_version: 1.21.0, browserstack.isTargetBased: false, browserstack.is_hub_canary: false, browserstack.minOSVersion: 14.0, bundleID: org.thepalaceproject.palace, bundleId: org.thepalaceproject.palace, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java unix), device: iphone, deviceName: iPhone 14, deviceOrientation: PORTRAIT, javascriptEnabled: true, locale: ru_RU, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 14-16.4}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 16, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 8a2acb47f7f1bc6f630a1b61988..., takesScreenshot: true, udid: 00008110-0008644C0291401E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8407, webStorageEnabled: false, webkitResponseTimeout: 20000}, custom_replay_kit_params: {"rotation":"false","captur..., databaseEnabled: false, detected_language: selenium/3.141.59 (java unix), device: iphone, deviceName: iPhone 14, deviceOrientation: PORTRAIT, javascriptEnabled: true, locale: ru_RU, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 14-16.4}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, os_version: 16, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionId: 8a2acb47f7f1bc6f630a1b61988..., takesScreenshot: true, udid: 00008110-0008644C0291401E, uiautomator2ServerLaunchTimeout: 60000, useXctestrunFile: true, version: , waitForQuiescence: false, wdaStartupRetries: 3, wda_port: 8407, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 8a2acb47f7f1bc6f630a1b61988a630fdf13ffe7
+2023-07-03 12:27:04 INFO  - Taking screenshot
+2023-07-03 12:27:04 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@29ed092a
