@@ -1,0 +1,76 @@
+2023-07-04 02:36:20 INFO  - Scenario 'Get a book from Subcategory List View and Read from Books in LYRASIS' start
+2023-07-04 02:36:20 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-04 02:36:49 INFO  - Application on platform 'ANDROID' is ready...
+2023-07-04 02:36:49 INFO  - Session id - 7def3e12a1194459cbf9e9c1117a292135682eb9
+2023-07-04 02:36:49 INFO  - Step 0 - Close tutorial screen
+2023-07-04 02:36:49 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-04 02:36:51 INFO  - Step 1 - Welcome screen is opened
+2023-07-04 02:36:52 INFO  - Step 2 - Close welcome screen
+2023-07-04 02:36:52 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-07-04 02:36:53 INFO  - Step 3 - Add library screen is opened
+2023-07-04 02:36:54 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-04 02:36:54 INFO  - Button 'Search' :: Clicking
+2023-07-04 02:36:58 INFO  - Text Field 'Search' :: Clearing
+2023-07-04 02:36:58 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-07-04 02:37:01 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-04 02:37:02 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-04 02:37:02 INFO  - Button 'tabSettings' :: Clicking
+2023-07-04 02:37:04 INFO  - Button 'tabSettings' :: Clicking
+2023-07-04 02:37:05 INFO  - Button 'Accounts' :: Clicking
+2023-07-04 02:37:07 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-07-04 02:37:07 INFO  - Button 'tabSettings' :: Clicking
+2023-07-04 02:37:08 INFO  - Button 'tabSettings' :: Clicking
+2023-07-04 02:37:09 INFO  - Button 'Accounts' :: Clicking
+2023-07-04 02:37:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-04 02:37:11 INFO  - Locking credential with barcode 01230000000005
+2023-07-04 02:37:11 INFO  - There are books on the account: 
+2023-07-04 02:37:12 INFO  - bookName: Animal Instinct Distributor: Palace Marketplace
+2023-07-04 02:37:12 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-07-04 02:37:12 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-07-04 02:37:12 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-07-04 02:37:12 INFO  - Count of books on the account after opening account: 4
+2023-07-04 02:37:12 INFO  - Text Field 'Card' :: Clearing
+2023-07-04 02:37:12 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-07-04 02:37:14 INFO  - Text Field 'Pin' :: Clearing
+2023-07-04 02:37:14 INFO  - Text Field 'Pin' :: Typing '********'
+2023-07-04 02:37:17 INFO  - Button 'Log in' :: Clicking
+2023-07-04 02:37:25 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-04 02:37:25 INFO  - Step 7 - Login is performed successfully
+2023-07-04 02:37:46 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-04 02:37:46 INFO  - Step 8 - Open Catalog
+2023-07-04 02:37:46 INFO  - Button 'tabCatalog' :: Clicking
+2023-07-04 02:38:07 INFO  - Step 9 - Open search modal
+2023-07-04 02:38:27 INFO  - Button 'Search' :: Clicking
+2023-07-04 02:38:29 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-07-04 02:38:29 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-07-04 02:38:29 INFO  - randomBookName: His Only Wife
+2023-07-04 02:38:30 INFO  - Error details button is not present
+2023-07-04 02:38:30 INFO  - Text Field 'Search value input' :: Sending keys 'His Only Wife'
+2023-07-04 02:38:33 INFO  - Error details button is not present
+2023-07-04 02:38:36 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-07-04 02:38:36 INFO  - Button 'eBooks' :: Clicking
+2023-07-04 02:38:57 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-04 02:38:58 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-04 02:38:58 INFO  - Button 'actionButton' :: Clicking
+2023-07-04 02:39:04 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-07-04 02:39:05 INFO  - Step 14 - Open Books
+2023-07-04 02:39:05 INFO  - Button 'tabBooks' :: Clicking
+2023-07-04 02:39:06 INFO  - Step 15 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-07-04 02:39:07 INFO  - Label 'lblBookName' :: Clicking
+2023-07-04 02:39:07 INFO  - Step 16 - Click READ action button on book details screen
+2023-07-04 02:39:09 INFO  - Button 'Read' :: Clicking
+2023-07-04 02:39:09 INFO  - Step 17 - Wait for 3 seconds
+2023-07-04 02:39:12 INFO  - Step 18 - 'bookInfo' book is present on epub reader screen
+2023-07-04 02:39:14 INFO  - Label 'lblBookName' :: Getting text from element
+2023-07-04 02:39:15 INFO  - Book name on epub reader screen - His Only Wife
+2023-07-04 02:39:15 INFO  - Taking screenshot
+2023-07-04 02:39:17 INFO  - Test finished - logging out
+2023-07-04 02:39:18 INFO  - Button 'tabSettings' :: Clicking
+2023-07-04 02:39:21 INFO  - Button 'tabSettings' :: Clicking
+2023-07-04 02:39:22 INFO  - Button 'Accounts' :: Clicking
+2023-07-04 02:39:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-04 02:39:26 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-04 02:39:26 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-04 02:39:27 INFO  - Button 'Log out' :: Clicking
+2023-07-04 02:39:47 INFO  - Button 'Log in' :: Getting text from element
+2023-07-04 02:39:48 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2ea7e934
