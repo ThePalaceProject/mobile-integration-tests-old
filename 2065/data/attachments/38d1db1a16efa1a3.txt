@@ -1,0 +1,72 @@
+2023-07-14 04:50:11 INFO  - Scenario 'Delete bookmarks' start
+2023-07-14 04:50:11 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-14 04:50:36 INFO  - Application on platform 'ANDROID' is ready...
+2023-07-14 04:50:36 INFO  - Session id - 07bb2a1c13ffff2f8de70434502e792877a6289a
+2023-07-14 04:50:36 INFO  - Step 0 - Close tutorial screen
+2023-07-14 04:50:36 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-14 04:50:38 INFO  - Step 1 - Welcome screen is opened
+2023-07-14 04:50:39 INFO  - Step 2 - Close welcome screen
+2023-07-14 04:50:39 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-07-14 04:50:39 INFO  - Step 3 - Add library screen is opened
+2023-07-14 04:50:40 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-14 04:50:41 INFO  - Button 'Search' :: Clicking
+2023-07-14 04:50:42 INFO  - Text Field 'Search' :: Clearing
+2023-07-14 04:50:42 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-07-14 04:50:44 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-14 04:50:45 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-14 04:50:45 INFO  - Button 'tabSettings' :: Clicking
+2023-07-14 04:50:46 INFO  - Button 'tabSettings' :: Clicking
+2023-07-14 04:50:47 INFO  - Button 'Accounts' :: Clicking
+2023-07-14 04:50:49 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-07-14 04:50:50 INFO  - Button 'tabSettings' :: Clicking
+2023-07-14 04:50:51 INFO  - Button 'tabSettings' :: Clicking
+2023-07-14 04:50:51 INFO  - Button 'Accounts' :: Clicking
+2023-07-14 04:50:52 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-14 04:50:53 INFO  - Locking credential with barcode 01230000000002
+2023-07-14 04:50:53 INFO  - There are books on the account: 
+2023-07-14 04:50:55 INFO  - bookName: Apples Never Fall Distributor: Palace Marketplace
+2023-07-14 04:50:55 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-07-14 04:50:55 INFO  - Count of books on the account after opening account: 2
+2023-07-14 04:50:55 INFO  - Text Field 'Card' :: Clearing
+2023-07-14 04:50:55 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-07-14 04:50:56 INFO  - Text Field 'Pin' :: Clearing
+2023-07-14 04:50:56 INFO  - Text Field 'Pin' :: Typing '********'
+2023-07-14 04:50:58 INFO  - Button 'Log in' :: Clicking
+2023-07-14 04:51:16 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-14 04:51:16 INFO  - Step 7 - Login is performed successfully
+2023-07-14 04:51:37 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-14 04:51:38 INFO  - Step 8 - Open Catalog
+2023-07-14 04:51:38 INFO  - Button 'tabCatalog' :: Clicking
+2023-07-14 04:51:59 INFO  - Step 9 - Open search modal
+2023-07-14 04:52:19 INFO  - Button 'Search' :: Clicking
+2023-07-14 04:52:21 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-07-14 04:52:21 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-07-14 04:52:21 INFO  - randomBookName: The Spectacles
+2023-07-14 04:52:21 INFO  - Error details button is not present
+2023-07-14 04:52:21 INFO  - Text Field 'Search value input' :: Sending keys 'The Spectacles'
+2023-07-14 04:52:24 INFO  - Error details button is not present
+2023-07-14 04:52:27 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-14 04:52:27 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-14 04:52:28 INFO  - Button 'actionButton' :: Clicking
+2023-07-14 04:52:35 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-14 04:52:36 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-14 04:52:36 INFO  - Label 'lblBookName' :: Clicking
+2023-07-14 04:52:36 INFO  - Step 13 - Click READ action button on book details screen
+2023-07-14 04:52:37 INFO  - Button 'Read' :: Clicking
+2023-07-14 04:52:37 INFO  - Step 14 - Open navigation bar on reader epub screen
+2023-07-14 04:52:45 INFO  - Step 15 - Add bookmark on reader epub screen
+2023-07-14 04:52:45 INFO  - Button 'btnAddBookmark' :: Clicking
+2023-07-14 04:52:46 INFO  - Step 16 - Delete bookmark on reader epub screen
+2023-07-14 04:52:46 INFO  - Button 'btnDeleteBookmark' :: Clicking
+2023-07-14 04:52:47 INFO  - Step 17 - Bookmark is not displayed on reader epub screen
+2023-07-14 04:52:48 INFO  - Taking screenshot
+2023-07-14 04:52:51 INFO  - Test finished - logging out
+2023-07-14 04:52:53 INFO  - Button 'tabSettings' :: Clicking
+2023-07-14 04:52:55 INFO  - Button 'tabSettings' :: Clicking
+2023-07-14 04:52:56 INFO  - Button 'Accounts' :: Clicking
+2023-07-14 04:52:57 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-14 04:52:59 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-14 04:52:59 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-14 04:52:59 INFO  - Button 'Log out' :: Clicking
+2023-07-14 04:53:20 INFO  - Button 'Log in' :: Getting text from element
+2023-07-14 04:53:21 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@70a1a9d9
