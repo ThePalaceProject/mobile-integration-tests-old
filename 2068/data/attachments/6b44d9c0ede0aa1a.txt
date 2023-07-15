@@ -1,0 +1,66 @@
+2023-07-15 06:23:03 INFO  - Scenario 'LYRASIS: Reserving from Book Detail View' start
+2023-07-15 06:23:03 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-15 06:23:31 INFO  - Application on platform 'ANDROID' is ready...
+2023-07-15 06:23:31 INFO  - Session id - 9b70baa18da1702a93c9061aa7d3fbdd07ded227
+2023-07-15 06:23:31 INFO  - Step 0 - Close tutorial screen
+2023-07-15 06:23:31 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-15 06:23:33 INFO  - Step 1 - Welcome screen is opened
+2023-07-15 06:23:34 INFO  - Step 2 - Close welcome screen
+2023-07-15 06:23:34 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-07-15 06:23:34 INFO  - Step 3 - Add library screen is opened
+2023-07-15 06:23:35 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-15 06:23:35 INFO  - Button 'Search' :: Clicking
+2023-07-15 06:23:36 INFO  - Text Field 'Search' :: Clearing
+2023-07-15 06:23:36 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-07-15 06:23:43 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-15 06:23:45 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-15 06:23:45 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 06:23:48 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 06:23:50 INFO  - Button 'Accounts' :: Clicking
+2023-07-15 06:23:51 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-07-15 06:23:52 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 06:23:52 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 06:23:53 INFO  - Button 'Accounts' :: Clicking
+2023-07-15 06:23:54 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-15 06:23:55 INFO  - Locking credential with barcode 01230000000004
+2023-07-15 06:23:55 INFO  - There are books on the account: 
+2023-07-15 06:23:56 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-07-15 06:23:56 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-07-15 06:23:56 INFO  - Count of books on the account after opening account: 2
+2023-07-15 06:23:56 INFO  - Text Field 'Card' :: Clearing
+2023-07-15 06:23:56 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-07-15 06:23:58 INFO  - Text Field 'Pin' :: Clearing
+2023-07-15 06:23:58 INFO  - Text Field 'Pin' :: Typing '********'
+2023-07-15 06:24:00 INFO  - Button 'Log in' :: Clicking
+2023-07-15 06:24:05 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-15 06:24:06 INFO  - Step 7 - Login is performed successfully
+2023-07-15 06:24:27 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-15 06:24:27 INFO  - Step 8 - Open Catalog
+2023-07-15 06:24:27 INFO  - Button 'tabCatalog' :: Clicking
+2023-07-15 06:24:47 INFO  - Step 9 - Open search modal
+2023-07-15 06:25:08 INFO  - Button 'Search' :: Clicking
+2023-07-15 06:25:09 INFO  - Step 10 - Search 'unavailable' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-07-15 06:25:09 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-07-15 06:25:09 INFO  - randomBookName: Six Months in 1945
+2023-07-15 06:25:10 INFO  - Error details button is not present
+2023-07-15 06:25:10 INFO  - Text Field 'Search value input' :: Sending keys 'Six Months in 1945'
+2023-07-15 06:25:12 INFO  - Error details button is not present
+2023-07-15 06:25:17 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-07-15 06:25:17 INFO  - Button 'Audiobooks' :: Clicking
+2023-07-15 06:25:38 INFO  - Step 12 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-15 06:25:39 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-15 06:25:39 INFO  - Label 'lblBookName' :: Clicking
+2023-07-15 06:25:39 INFO  - Step 13 - Click RESERVE action button on book details screen
+2023-07-15 06:25:41 INFO  - Button 'Reserve' :: Clicking
+2023-07-15 06:25:46 INFO  - Step 14 - Check that book contains REMOVE action button on book details screen
+2023-07-15 06:26:07 INFO  - Taking screenshot
+2023-07-15 06:26:08 INFO  - Test finished - logging out
+2023-07-15 06:26:09 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 06:26:11 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 06:26:12 INFO  - Button 'Accounts' :: Clicking
+2023-07-15 06:26:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-15 06:26:15 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-15 06:26:15 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-15 06:26:15 INFO  - Button 'Log out' :: Clicking
+2023-07-15 06:26:36 INFO  - Button 'Log in' :: Getting text from element
+2023-07-15 06:26:36 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@50f2d58f

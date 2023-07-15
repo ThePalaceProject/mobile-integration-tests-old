@@ -1,0 +1,86 @@
+2023-07-15 08:38:13 INFO  - Scenario 'Check of not rewinding forward and back by tapping on time bar' start
+2023-07-15 08:38:13 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-15 08:38:49 INFO  - Application on platform 'ANDROID' is ready...
+2023-07-15 08:38:49 INFO  - Session id - c50f1259821a1909721dba0f695c3ea66ac646ec
+2023-07-15 08:38:49 INFO  - Step 0 - Close tutorial screen
+2023-07-15 08:38:49 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-15 08:38:51 INFO  - Step 1 - Welcome screen is opened
+2023-07-15 08:38:51 INFO  - Step 2 - Close welcome screen
+2023-07-15 08:38:51 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-07-15 08:38:52 INFO  - Step 3 - Add library screen is opened
+2023-07-15 08:38:53 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-15 08:38:53 INFO  - Button 'Search' :: Clicking
+2023-07-15 08:38:55 INFO  - Text Field 'Search' :: Clearing
+2023-07-15 08:38:55 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-07-15 08:38:58 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-15 08:38:58 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-15 08:38:58 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 08:38:59 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 08:39:00 INFO  - Button 'Accounts' :: Clicking
+2023-07-15 08:39:02 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-07-15 08:39:02 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 08:39:03 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 08:39:04 INFO  - Button 'Accounts' :: Clicking
+2023-07-15 08:39:05 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-15 08:39:07 INFO  - Locking credential with barcode 01230000000005
+2023-07-15 08:39:07 INFO  - There are books on the account: 
+2023-07-15 08:39:08 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-07-15 08:39:08 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-07-15 08:39:08 INFO  - bookName: Blessed Monsters Distributor: Palace Marketplace
+2023-07-15 08:39:08 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-07-15 08:39:08 INFO  - bookName: Animal Instinct Distributor: Palace Marketplace
+2023-07-15 08:39:08 INFO  - Count of books on the account after opening account: 5
+2023-07-15 08:39:08 INFO  - Text Field 'Card' :: Clearing
+2023-07-15 08:39:08 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-07-15 08:39:09 INFO  - Text Field 'Pin' :: Clearing
+2023-07-15 08:39:09 INFO  - Text Field 'Pin' :: Typing '********'
+2023-07-15 08:39:11 INFO  - Button 'Log in' :: Clicking
+2023-07-15 08:39:16 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-15 08:39:17 INFO  - Step 7 - Login is performed successfully
+2023-07-15 08:39:38 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-15 08:39:39 INFO  - Step 8 - Open Catalog
+2023-07-15 08:39:39 INFO  - Button 'tabCatalog' :: Clicking
+2023-07-15 08:40:01 INFO  - Step 9 - Open search modal
+2023-07-15 08:40:21 INFO  - Button 'Search' :: Clicking
+2023-07-15 08:40:23 INFO  - Step 10 - Search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-07-15 08:40:23 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-07-15 08:40:23 INFO  - randomBookName: The Silence of Murder
+2023-07-15 08:40:23 INFO  - Error details button is not present
+2023-07-15 08:40:24 INFO  - Text Field 'Search value input' :: Sending keys 'The Silence of Murder'
+2023-07-15 08:40:26 INFO  - Error details button is not present
+2023-07-15 08:40:30 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-07-15 08:40:30 INFO  - Button 'Audiobooks' :: Clicking
+2023-07-15 08:40:52 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-15 08:40:52 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-15 08:40:53 INFO  - Label 'lblBookName' :: Clicking
+2023-07-15 08:40:53 INFO  - Step 13 - Click GET action button on book details screen
+2023-07-15 08:40:55 INFO  - Button 'Get' :: Clicking
+2023-07-15 08:41:01 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-07-15 08:41:01 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-07-15 08:41:01 INFO  - Button 'Listen' :: Clicking
+2023-07-15 08:41:02 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-07-15 08:41:08 INFO  - Step 17 - Tap play button on audio player screen
+2023-07-15 08:41:08 INFO  - Button 'btnPlay' :: Clicking
+2023-07-15 08:41:09 INFO  - Step 18 - Pause button is present on audio player screen
+2023-07-15 08:41:10 INFO  - Step 19 - Tap pause button on audio player screen
+2023-07-15 08:41:10 INFO  - Button 'btnPause' :: Clicking
+2023-07-15 08:41:11 INFO  - Step 20 - Play button is present on audio player screen
+2023-07-15 08:41:12 INFO  - Step 21 - Stretch slider on the time tracking line forward on audio player screen
+2023-07-15 08:41:16 INFO  - Step 22 - Wait for 5 seconds
+2023-07-15 08:41:21 INFO  - Step 23 - Save book play time as 'timeBehind' on audio player screen
+2023-07-15 08:41:21 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-07-15 08:41:29 INFO  - Step 24 - Tap on the time bar forward on audio player screen
+2023-07-15 08:41:32 INFO  - Step 25 - Save book play time as 'timeForward' on audio player screen
+2023-07-15 08:41:32 INFO  - Label 'lblLeftTime' :: Getting text from element
+2023-07-15 08:41:32 INFO  - Step 26 - Play times 'timeBehind' and 'timeForward' are equals
+2023-07-15 08:41:32 INFO  - Taking screenshot
+2023-07-15 08:41:34 INFO  - Test finished - logging out
+2023-07-15 08:41:35 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 08:41:38 INFO  - Button 'tabSettings' :: Clicking
+2023-07-15 08:41:39 INFO  - Button 'Accounts' :: Clicking
+2023-07-15 08:41:40 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-15 08:41:41 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-15 08:41:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-15 08:41:42 INFO  - Button 'Log out' :: Clicking
+2023-07-15 08:42:03 INFO  - Button 'Log in' :: Getting text from element
+2023-07-15 08:42:03 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4de9ad23
