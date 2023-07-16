@@ -120,6 +120,11 @@ public class AndroidAudioPlayerScreen extends AudioPlayerScreen {
     }
 
     @Override
+    public String getPlayingTime() {
+        return lblLeftTime.getText();
+    }
+
+    @Override
     public void tapOnPlayBarForward() {
         double xPositionFurtherFromCenter = lblPlaybackProgress.getElement().getCenter().x * 1.25;
         double yPosition = lblPlaybackProgress.getElement().getCenter().y;
@@ -174,6 +179,11 @@ public class AndroidAudioPlayerScreen extends AudioPlayerScreen {
     public boolean isBookmarkAddedMessageDisplayed() {
         //too fast
         return true;
+    }
+
+    @Override
+    public void tapCloseBtnOnBookmarkMessage() {
+        //only for iOS
     }
 
     @Override

@@ -562,7 +562,7 @@ Feature: Audiobook in LYRASIS
     Then Chapters screen is opened
 
   @logout @returnBooks @tier1
-  Scenario: Bookmark icon: Perform check of enabling the bookmark
+  Scenario: Bookmark icon: Check of enabling the bookmark
     When Search for "Down the Hatch" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
       And Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
@@ -575,8 +575,73 @@ Feature: Audiobook in LYRASIS
       And Tap pause button on audio player screen
       And Tap bookmark icon on audio player screen
     Then The message Bookmark added appears on audio player screen
-    When Save chapter time as 'chapterTime' on audio player screen
+    When Save book play time as 'chapterTime' on audio player screen
       And Save the name of chapter as 'chapterName' on audio player screen
       And Open toc audiobook screen
       And Open Bookmarks on toc audiobook screen
     Then Bookmark for the chapter 'chapterName' with the time 'chapterTime' is saved on Bookmarks screen
+
+  @logout @returnBooks @tier1
+  Scenario: Bookmark icon: Check of closing the message
+    When Search for "Down the Hatch" and save bookName as 'bookNameInfo'
+      And Switch to 'Audiobooks' catalog tab
+      And Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+      And Click GET action button on book details screen
+    Then Check that book contains LISTEN action button on book details screen
+    When Click LISTEN action button on book details screen
+    Then Audio player screen of book 'bookInfo' is opened
+    When Tap play button on audio player screen
+      And Wait for 5 seconds
+      And Tap pause button on audio player screen
+      And Tap bookmark icon on audio player screen
+      And Tap close bookmark message on audio player screen
+    Then The message Bookmark added disappears on audio player screen
+
+  @logout @returnBooks @tier1
+  Scenario: Bookmarks: Check of list of bookmarks
+    When Search for "Down the Hatch" and save bookName as 'bookNameInfo'
+      And Switch to 'Audiobooks' catalog tab
+      And Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+      And Click GET action button on book details screen
+    Then Check that book contains LISTEN action button on book details screen
+    When Click LISTEN action button on book details screen
+    Then Audio player screen of book 'bookInfo' is opened
+    When Tap play button on audio player screen
+      And Wait for 5 seconds
+      And Tap pause button on audio player screen
+      And Tap bookmark icon on audio player screen
+    Then The message Bookmark added appears on audio player screen
+    When Save book play time as 'playTime1' on audio player screen
+      And Save the name of chapter as 'chapterName1' on audio player screen
+      And Tap play button on audio player screen
+      And Wait for 5 seconds
+      And Tap pause button on audio player screen
+      And Tap bookmark icon on audio player screen
+    Then The message Bookmark added appears on audio player screen
+    When Save book play time as 'playTime2' on audio player screen
+      And Save the name of chapter as 'chapterName2' on audio player screen
+      And Open toc audiobook screen
+      And Open Bookmarks on toc audiobook screen
+    Then Bookmark with play time 'playTime1' and chapter name 'chapterName1' is displayed on Bookmarks audiobook screen
+
+  @logout @returnBooks @tier1
+  Scenario: Bookmarks: Check of bookmarks redirection
+    When Search for "Down the Hatch" and save bookName as 'bookNameInfo'
+      And Switch to 'Audiobooks' catalog tab
+      And Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+      And Click GET action button on book details screen
+    Then Check that book contains LISTEN action button on book details screen
+    When Click LISTEN action button on book details screen
+    Then Audio player screen of book 'bookInfo' is opened
+    When Tap play button on audio player screen
+      And Wait for 5 seconds
+      And Tap pause button on audio player screen
+      And Tap bookmark icon on audio player screen
+    Then The message Bookmark added appears on audio player screen
+    When Save book play time as 'chapterTime' on audio player screen
+      And Save the name of chapter as 'chapterName' on audio player screen
+      And Open toc audiobook screen
+      And Open Bookmarks on toc audiobook screen
+      And Choose bookmark with chapter name 'chapterName' and time 'chapterTime' on Bookmarks screen
+#    Then The chapter 'chapterName' is opened and the player time is 'chapterTime' on audio player screen
+

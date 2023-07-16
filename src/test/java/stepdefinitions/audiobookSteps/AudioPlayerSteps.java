@@ -85,6 +85,16 @@ public class AudioPlayerSteps {
         Assert.assertTrue("Bookmark added message is not displayed", audioPlayerScreen.isBookmarkAddedMessageDisplayed());
     }
 
+    @Then("The message Bookmark added disappears on audio player screen")
+    public void checkBookmarkMessageDisappears() {
+        Assert.assertFalse("Bookmark added message is still displayed", audioPlayerScreen.isBookmarkAddedMessageDisplayed());
+    }
+
+    @When("Tap close bookmark message on audio player screen")
+    public void tapCloseBtn() {
+        audioPlayerScreen.tapCloseBtnOnBookmarkMessage();
+    }
+
     @Then("Pause button is present on audio player screen")
     public void checkThatPauseButtonIsPresentOnAudioPlayerScreen() {
         Assert.assertTrue("Pause button is not present on audio player screen", audioPlayerScreen.isPauseButtonPresent());
@@ -172,14 +182,14 @@ public class AudioPlayerSteps {
 
     @When("Save book play time as {string} on audio player screen")
     public void saveBookPlayTimeOnAudioPlayerScreen(String dateKey) {
-        context.add(dateKey, audioPlayerScreen.getLeftTime());
+        context.add(dateKey, audioPlayerScreen.getPlayingTime());
+//        context.add(dateKey, audioPlayerScreen.getLeftTime());
     }
 
     @When("Save chapter time as {string} on audio player screen")
     public void saveChapterTime(String chapterTimeKey) {
         context.add(chapterTimeKey, audioPlayerScreen.getRightTime());
     }
-
     @When("Skip ahead 15 seconds on audio player screen")
     public void skipAheadOnAudioPlayerScreen() {
         audioPlayerScreen.skipAhead();

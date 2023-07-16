@@ -56,6 +56,8 @@ public abstract class AudioPlayerScreen extends Screen {
 
     public abstract Duration getLeftTime();
 
+    public abstract String getPlayingTime();
+
     public abstract void tapOnPlayBarForward();
 
     public abstract void tapOnPlayBarBackward();
@@ -75,4 +77,6 @@ public abstract class AudioPlayerScreen extends Screen {
     public abstract void tapBookmarkIcon();
 
     public abstract boolean isBookmarkAddedMessageDisplayed();
+
+    public abstract void tapCloseBtnOnBookmarkMessage();
 }

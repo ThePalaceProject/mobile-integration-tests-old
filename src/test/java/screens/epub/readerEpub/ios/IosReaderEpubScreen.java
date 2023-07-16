@@ -91,8 +91,6 @@ public class IosReaderEpubScreen extends ReaderEpubScreen {
         return RegExUtil.getStringFromFirstGroup(pageNumberAndChapterNameRegEx, RegEx.PAGE_NUMBER_AND_CHAPTER_NAME_REGEX_FOR_IOS);
     }
 
-
-
     @Override
     public double getFontSize() {
         return RegExUtil.getDoubleFromFirstGroup(getBookSource(), RegEx.FONT_SIZE_REGEX_IOS);

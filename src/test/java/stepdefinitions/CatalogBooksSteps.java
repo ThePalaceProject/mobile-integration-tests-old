@@ -39,7 +39,7 @@ public class CatalogBooksSteps {
 
     @When("Open random book on catalog book screen and save book as {string}")
     public void openRandomBookAndSaveBookInfo(String bookInfoKey) {
-        int bookNumber = random.nextInt(catalogBooksScreen.getNumberOfBooksOnTheScreen() - 4) + 4;
+        int bookNumber = random.nextInt(catalogBooksScreen.getNumberOfBooksOnTheScreen());
         CatalogBookModel bookInfo = catalogBooksScreen.openBookAndGetBookInfo(bookNumber);
         context.add(bookInfoKey, bookInfo);
     }

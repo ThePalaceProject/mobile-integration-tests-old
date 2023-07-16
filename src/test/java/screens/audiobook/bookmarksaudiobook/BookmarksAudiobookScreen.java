@@ -13,7 +13,11 @@ public abstract class BookmarksAudiobookScreen extends Screen {
 
     public abstract boolean isNoBookmarksMessageDisplayed();
 
-    public abstract String getChapterName();
+    public abstract String getFirstChapterName();
 
-    public abstract String getChapterTime();
+    public abstract String getFirstChapterTime();
+
+    public abstract boolean isBookmarkPresent(String chapterName, String chapterTime);
+
+    public abstract void chooseBookmark(String chapterName, String chapterTime);
 }

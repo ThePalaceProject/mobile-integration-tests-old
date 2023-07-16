@@ -13,6 +13,8 @@ import org.junit.Assert;
 import screens.audiobook.bookmarksaudiobook.BookmarksAudiobookScreen;
 import screens.audiobook.tocAudiobook.TocAudiobookScreen;
 
+import java.time.Duration;
+
 public class TocAudiobookSteps {
     private final ScenarioContext context;
     private final TocAudiobookScreen tocAudiobookScreen;
@@ -110,10 +112,28 @@ public class TocAudiobookSteps {
     @Then("Bookmark for the chapter {string} with the time {string} is saved on Bookmarks screen")
     public void checkIfBookmarkedSaved(String chapterNameKey, String chapterTimeKey) {
         String expectedChapterName = context.get(chapterNameKey);
-        String expectedChapterTime = context.get(chapterTimeKey).toString();
-        String actualChapterName = bookmarksAudiobookScreen.getChapterName();
-        String actualChapterTime = bookmarksAudiobookScreen.getChapterTime();
+        Duration expectedChapterTime = context.get(chapterTimeKey);
+        String actualChapterName = bookmarksAudiobookScreen.getFirstChapterName();
+        String actualChapterTime = bookmarksAudiobookScreen.getFirstChapterTime();
         Assert.assertEquals("There is no correct chapter name", expectedChapterName, actualChapterName);
-        Assert.assertEquals("There is no correct chapter time", expectedChapterTime, actualChapterTime);
+        Assert.assertEquals("There is no correct chapter time", expectedChapterTime.toString(), actualChapterTime);
     }
+
+    @Then("Bookmark with play time {string} and chapter name {string} is displayed on Bookmarks audiobook screen")
+    public void checkListOfBookmarks(String chapterTimeKey, String chapterNameKey) {
+        String chapterTime = context.get(chapterTimeKey);
+        String chapterName = context.get(chapterNameKey);
+        Assert.assertTrue(String.format("Bookmark with chapter name %s and chapter time %s is not displayed", chapterName, chapterTime), bookmarksAudiobookScreen.isBookmarkPresent(chapterName, chapterTime));
+    }
+
+    @When("Choose bookmark with chapter name {string} and time {string} on Bookmarks screen")
+    public void chooseBookmark(String chapterNameKey, String chapterTimeKey) {
+        String chapterTime = context.get(chapterTimeKey);
+        String chapterName = context.get(chapterNameKey);
+        bookmarksAudiobookScreen.chooseBookmark(chapterName, chapterTime);
+
+        //ДОДЕЛАТЬ
+    }
+
+
 }

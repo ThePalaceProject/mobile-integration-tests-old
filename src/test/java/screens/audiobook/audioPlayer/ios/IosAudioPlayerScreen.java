@@ -44,6 +44,7 @@ public class IosAudioPlayerScreen extends AudioPlayerScreen {
     private final IButton btnSlider = getElementFactory().getButton(By.xpath("//XCUIElementTypeOther[@name=\"progress_grip\"]"), "Slider");
     private final IButton btnBookmark = getElementFactory().getButton(By.name("Add Bookmark"), "Bookmark icon");
     private final ILabel lblBookmarkAdded = getElementFactory().getLabel(By.name("Bookmark added"), "Bookmark added message");
+    private final IButton btnCloseBookmarkMessage = getElementFactory().getButton(By.xpath("//XCUIElementTypeStaticText[@name=\"Bookmark added\"]//following::XCUIElementTypeButton"), "Close bookmark message btn");
 
 
     public IosAudioPlayerScreen() {
@@ -132,7 +133,16 @@ public class IosAudioPlayerScreen extends AudioPlayerScreen {
 
     @Override
     public Duration getLeftTime() {
+
+
+        System.out.println(lblLeftTime.getAttribute(IosAttributes.VALUE));
+
         return DateUtils.getDuration(lblLeftTime.getAttribute(IosAttributes.VALUE));
+    }
+
+    @Override
+    public String getPlayingTime() {
+        return lblLeftTime.getAttribute(IosAttributes.VALUE);
     }
 
     @Override
@@ -197,6 +207,11 @@ public class IosAudioPlayerScreen extends AudioPlayerScreen {
     @Override
     public boolean isBookmarkAddedMessageDisplayed() {
         return lblBookmarkAdded.state().waitForDisplayed();
+    }
+
+    @Override
+    public void tapCloseBtnOnBookmarkMessage() {
+        btnCloseBookmarkMessage.click();
     }
 
     @Override
