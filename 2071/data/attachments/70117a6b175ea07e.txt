@@ -1,0 +1,80 @@
+2023-07-16 04:18:43 INFO  - Scenario 'Open book to last page read' start
+2023-07-16 04:18:43 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-16 04:19:11 INFO  - Application on platform 'ANDROID' is ready...
+2023-07-16 04:19:11 INFO  - Session id - a4d8ace436f794d060138422841f8dbbb134ad76
+2023-07-16 04:19:11 INFO  - Step 0 - Close tutorial screen
+2023-07-16 04:19:11 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-16 04:19:13 INFO  - Step 1 - Welcome screen is opened
+2023-07-16 04:19:14 INFO  - Step 2 - Close welcome screen
+2023-07-16 04:19:14 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-07-16 04:19:14 INFO  - Step 3 - Add library screen is opened
+2023-07-16 04:19:15 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-16 04:19:16 INFO  - Button 'Search' :: Clicking
+2023-07-16 04:19:17 INFO  - Text Field 'Search' :: Clearing
+2023-07-16 04:19:17 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-07-16 04:19:20 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-16 04:19:21 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-16 04:19:21 INFO  - Button 'tabSettings' :: Clicking
+2023-07-16 04:19:22 INFO  - Button 'tabSettings' :: Clicking
+2023-07-16 04:19:23 INFO  - Button 'Accounts' :: Clicking
+2023-07-16 04:19:25 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-07-16 04:19:25 INFO  - Button 'tabSettings' :: Clicking
+2023-07-16 04:19:26 INFO  - Button 'tabSettings' :: Clicking
+2023-07-16 04:19:27 INFO  - Button 'Accounts' :: Clicking
+2023-07-16 04:19:28 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-16 04:19:29 INFO  - Locking credential with barcode 01230000000003
+2023-07-16 04:19:29 INFO  - There are books on the account: 
+2023-07-16 04:19:30 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-07-16 04:19:30 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-07-16 04:19:30 INFO  - Count of books on the account after opening account: 2
+2023-07-16 04:19:30 INFO  - Text Field 'Card' :: Clearing
+2023-07-16 04:19:30 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-07-16 04:19:32 INFO  - Text Field 'Pin' :: Clearing
+2023-07-16 04:19:32 INFO  - Text Field 'Pin' :: Typing '********'
+2023-07-16 04:19:35 INFO  - Button 'Log in' :: Clicking
+2023-07-16 04:19:41 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-16 04:19:41 INFO  - Step 7 - Login is performed successfully
+2023-07-16 04:20:03 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-16 04:20:03 INFO  - Step 8 - Open Catalog
+2023-07-16 04:20:03 INFO  - Button 'tabCatalog' :: Clicking
+2023-07-16 04:20:23 INFO  - Step 9 - Open search modal
+2023-07-16 04:20:44 INFO  - Button 'Search' :: Clicking
+2023-07-16 04:20:46 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-07-16 04:20:46 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-07-16 04:20:46 INFO  - randomBookName: Libertie
+2023-07-16 04:20:46 INFO  - Error details button is not present
+2023-07-16 04:20:47 INFO  - Text Field 'Search value input' :: Sending keys 'Libertie'
+2023-07-16 04:20:49 INFO  - Error details button is not present
+2023-07-16 04:20:52 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-16 04:20:53 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-16 04:20:53 INFO  - Button 'actionButton' :: Clicking
+2023-07-16 04:21:00 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-16 04:21:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-16 04:21:01 INFO  - Label 'lblBookName' :: Clicking
+2023-07-16 04:21:02 INFO  - Step 13 - Click READ action button on book details screen
+2023-07-16 04:21:03 INFO  - Button 'Read' :: Clicking
+2023-07-16 04:21:03 INFO  - Step 14 - Scroll page forward from 7 to 10 times
+2023-07-16 04:21:04 INFO  - Scrolling 8 times on reader epub screen
+2023-07-16 04:21:31 INFO  - Step 15 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-07-16 04:21:31 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-07-16 04:21:32 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-07-16 04:21:32 INFO  - Step 16 - Wait for 3 seconds
+2023-07-16 04:21:35 INFO  - Step 17 - Return to previous screen for epub and pdf
+2023-07-16 04:21:36 INFO  - Step 18 - Click READ action button on book details screen
+2023-07-16 04:21:37 INFO  - Button 'Read' :: Clicking
+2023-07-16 04:21:37 INFO  - Step 19 - 'bookInfo' book is present on epub reader screen
+2023-07-16 04:21:40 INFO  - Label 'lblBookName' :: Getting text from element
+2023-07-16 04:21:41 INFO  - Book name on epub reader screen - Libertie
+2023-07-16 04:21:41 INFO  - Step 20 - PageNumber 'pageNumberKey' is correct
+2023-07-16 04:21:41 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-07-16 04:22:02 INFO  - Taking screenshot
+2023-07-16 04:22:04 INFO  - Test finished - logging out
+2023-07-16 04:22:05 INFO  - Button 'tabSettings' :: Clicking
+2023-07-16 04:22:07 INFO  - Button 'tabSettings' :: Clicking
+2023-07-16 04:22:08 INFO  - Button 'Accounts' :: Clicking
+2023-07-16 04:22:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-16 04:22:12 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-16 04:22:12 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-16 04:22:12 INFO  - Button 'Log out' :: Clicking
+2023-07-16 04:22:33 INFO  - Button 'Log in' :: Getting text from element
+2023-07-16 04:22:33 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@e5959f7
