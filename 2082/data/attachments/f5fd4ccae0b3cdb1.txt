@@ -1,0 +1,68 @@
+2023-07-22 03:25:54 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-07-22 03:25:54 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-22 03:26:22 INFO  - Application on platform 'ANDROID' is ready...
+2023-07-22 03:26:22 INFO  - Session id - 335e497121fe38e4768e20eba7411f641c76fb42
+2023-07-22 03:26:22 INFO  - Step 0 - Close tutorial screen
+2023-07-22 03:26:22 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-22 03:26:24 INFO  - Step 1 - Welcome screen is opened
+2023-07-22 03:26:25 INFO  - Step 2 - Close welcome screen
+2023-07-22 03:26:25 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-07-22 03:26:25 INFO  - Step 3 - Add library screen is opened
+2023-07-22 03:26:26 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-22 03:26:26 INFO  - Button 'Search' :: Clicking
+2023-07-22 03:26:28 INFO  - Text Field 'Search' :: Clearing
+2023-07-22 03:26:28 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-07-22 03:26:30 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-22 03:26:30 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-22 03:26:30 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 03:26:31 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 03:26:32 INFO  - Button 'Accounts' :: Clicking
+2023-07-22 03:26:34 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-07-22 03:26:35 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 03:26:35 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 03:26:36 INFO  - Button 'Accounts' :: Clicking
+2023-07-22 03:26:37 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-22 03:26:38 INFO  - Locking credential with barcode 01230000000004
+2023-07-22 03:26:38 INFO  - There are books on the account: 
+2023-07-22 03:26:39 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-07-22 03:26:39 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-07-22 03:26:39 INFO  - bookName: Anna Karenina Distributor: Palace Marketplace
+2023-07-22 03:26:39 INFO  - Count of books on the account after opening account: 3
+2023-07-22 03:26:39 INFO  - Text Field 'Card' :: Clearing
+2023-07-22 03:26:39 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-07-22 03:26:40 INFO  - Text Field 'Pin' :: Clearing
+2023-07-22 03:26:40 INFO  - Text Field 'Pin' :: Typing '********'
+2023-07-22 03:26:42 INFO  - Button 'Log in' :: Clicking
+2023-07-22 03:26:48 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-22 03:26:48 INFO  - Step 7 - Login is performed successfully
+2023-07-22 03:27:10 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-22 03:27:10 INFO  - Step 8 - Open Catalog
+2023-07-22 03:27:10 INFO  - Button 'tabCatalog' :: Clicking
+2023-07-22 03:27:33 INFO  - Step 9 - Open search modal
+2023-07-22 03:27:53 INFO  - Button 'Search' :: Clicking
+2023-07-22 03:27:55 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-07-22 03:27:55 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-07-22 03:27:55 INFO  - randomBookName: Crocodile on the Sandbank
+2023-07-22 03:27:55 INFO  - Error details button is not present
+2023-07-22 03:27:56 INFO  - Text Field 'Search value input' :: Sending keys 'Crocodile on the Sandbank'
+2023-07-22 03:27:58 INFO  - Error details button is not present
+2023-07-22 03:28:02 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-07-22 03:28:02 INFO  - Button 'Audiobooks' :: Clicking
+2023-07-22 03:28:23 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-22 03:28:24 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-22 03:28:24 INFO  - Label 'lblBookName' :: Clicking
+2023-07-22 03:28:24 INFO  - Step 13 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-07-22 03:28:24 INFO  - Button 'Get' :: Clicking
+2023-07-22 03:28:26 INFO  - Button 'Cancel' :: Clicking
+2023-07-22 03:28:29 INFO  - Step 14 - Check that book contains DOWNLOAD action button on book details screen
+2023-07-22 03:28:50 INFO  - Taking screenshot
+2023-07-22 03:28:51 INFO  - Test finished - logging out
+2023-07-22 03:28:52 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 03:28:55 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 03:28:56 INFO  - Button 'Accounts' :: Clicking
+2023-07-22 03:28:57 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-22 03:28:58 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-22 03:28:59 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-22 03:29:00 INFO  - Button 'Log out' :: Clicking
+2023-07-22 03:29:21 INFO  - Button 'Log in' :: Getting text from element
+2023-07-22 03:29:21 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2cfb4f5d
