@@ -1,0 +1,83 @@
+2023-07-22 14:57:11 INFO  - Scenario 'Hold from Book Detail View and and Remove a Reserved Book from Holds' start
+2023-07-22 14:57:11 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-22 14:57:39 INFO  - Application on platform 'ANDROID' is ready...
+2023-07-22 14:57:39 INFO  - Session id - 2233bf256de56af2d97c843806ecd31653aa9bcb
+2023-07-22 14:57:39 INFO  - Step 0 - Close tutorial screen
+2023-07-22 14:57:40 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-22 14:57:42 INFO  - Step 1 - Welcome screen is opened
+2023-07-22 14:57:42 INFO  - Step 2 - Close welcome screen
+2023-07-22 14:57:43 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-07-22 14:57:43 INFO  - Step 3 - Add library screen is opened
+2023-07-22 14:57:45 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-22 14:57:45 INFO  - Button 'Search' :: Clicking
+2023-07-22 14:57:46 INFO  - Text Field 'Search' :: Clearing
+2023-07-22 14:57:46 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-07-22 14:57:49 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-22 14:57:51 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-22 14:57:51 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 14:57:51 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 14:57:52 INFO  - Button 'Accounts' :: Clicking
+2023-07-22 14:57:54 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-07-22 14:57:54 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 14:57:54 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 14:57:55 INFO  - Button 'Accounts' :: Clicking
+2023-07-22 14:57:56 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-22 14:57:57 INFO  - Locking credential with barcode 01230000000002
+2023-07-22 14:57:57 INFO  - There are books on the account: 
+2023-07-22 14:57:58 INFO  - bookName: Apples Never Fall Distributor: Palace Marketplace
+2023-07-22 14:57:58 INFO  - Count of books on the account after opening account: 1
+2023-07-22 14:57:58 INFO  - Text Field 'Card' :: Clearing
+2023-07-22 14:57:58 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-07-22 14:58:00 INFO  - Text Field 'Pin' :: Clearing
+2023-07-22 14:58:00 INFO  - Text Field 'Pin' :: Typing '********'
+2023-07-22 14:58:02 INFO  - Button 'Log in' :: Clicking
+2023-07-22 14:58:09 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-22 14:58:09 INFO  - Step 7 - Login is performed successfully
+2023-07-22 14:58:30 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-22 14:58:30 INFO  - Step 8 - Open Catalog
+2023-07-22 14:58:30 INFO  - Button 'tabCatalog' :: Clicking
+2023-07-22 14:58:51 INFO  - Step 9 - Open search modal
+2023-07-22 14:59:11 INFO  - Button 'Search' :: Clicking
+2023-07-22 14:59:13 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-07-22 14:59:13 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-07-22 14:59:13 INFO  - randomBookName: Children of Virtue and Vengeance
+2023-07-22 14:59:13 INFO  - Error details button is not present
+2023-07-22 14:59:13 INFO  - Text Field 'Search value input' :: Sending keys 'Children of Virtue and Vengeance'
+2023-07-22 14:59:16 INFO  - Error details button is not present
+2023-07-22 14:59:20 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-07-22 14:59:20 INFO  - Button 'Audiobooks' :: Clicking
+2023-07-22 14:59:42 INFO  - Step 12 - Subcategory screen is present
+2023-07-22 14:59:42 INFO  - Error details button is not present
+2023-07-22 14:59:42 INFO  - Step 13 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-22 14:59:42 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-22 14:59:43 INFO  - Label 'lblBookName' :: Clicking
+2023-07-22 14:59:43 INFO  - Step 14 - Book 'bookInfo' is opened on book details screen
+2023-07-22 14:59:43 INFO  - Label 'Book title' :: Getting text from element
+2023-07-22 14:59:44 INFO  - Label 'Book Authors' :: Getting text from element
+2023-07-22 14:59:45 INFO  - Label 'Book title' :: Getting text from element
+2023-07-22 14:59:45 INFO  - Label 'Book Authors' :: Getting text from element
+2023-07-22 14:59:45 INFO  - Step 15 - Click RESERVE action button on book details screen
+2023-07-22 14:59:45 INFO  - Button 'Reserve' :: Clicking
+2023-07-22 14:59:48 INFO  - Step 16 - Close Book Details for IOSTab
+2023-07-22 14:59:48 INFO  - Step 17 - Open Holds
+2023-07-22 14:59:48 INFO  - Button 'tabHolds' :: Clicking
+2023-07-22 14:59:49 INFO  - Step 18 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-07-22 14:59:49 INFO  - Step 19 - Open AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2023-07-22 14:59:49 INFO  - Label 'lblBookName' :: Clicking
+2023-07-22 14:59:50 INFO  - Step 20 - Click REMOVE action button on book details screen
+2023-07-22 14:59:51 INFO  - Button 'Remove' :: Clicking
+2023-07-22 14:59:54 INFO  - Step 21 - Open Holds
+2023-07-22 14:59:54 INFO  - Button 'tabHolds' :: Clicking
+2023-07-22 14:59:54 INFO  - Step 22 - Wait for 7 seconds
+2023-07-22 15:00:01 INFO  - Step 23 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is not present on holds screen
+2023-07-22 15:00:42 INFO  - Taking screenshot
+2023-07-22 15:00:43 INFO  - Test finished - logging out
+2023-07-22 15:00:44 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 15:00:46 INFO  - Button 'tabSettings' :: Clicking
+2023-07-22 15:00:47 INFO  - Button 'Accounts' :: Clicking
+2023-07-22 15:00:48 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-22 15:00:50 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-22 15:00:50 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-22 15:00:51 INFO  - Button 'Log out' :: Clicking
+2023-07-22 15:01:11 INFO  - Button 'Log in' :: Getting text from element
+2023-07-22 15:01:11 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@23d7488a
