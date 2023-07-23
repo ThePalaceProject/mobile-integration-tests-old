@@ -1,0 +1,80 @@
+2023-07-23 06:37:39 INFO  - Scenario 'TOC: Check of table of contents' start
+2023-07-23 06:37:39 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-23 06:38:09 INFO  - Application on platform 'ANDROID' is ready...
+2023-07-23 06:38:09 INFO  - Session id - 151e3cedb2ffeaf59e6aa4ad560acc5ac3acf34b
+2023-07-23 06:38:09 INFO  - Step 0 - Close tutorial screen
+2023-07-23 06:38:09 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-23 06:38:11 INFO  - Step 1 - Welcome screen is opened
+2023-07-23 06:38:12 INFO  - Step 2 - Close welcome screen
+2023-07-23 06:38:12 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-07-23 06:38:13 INFO  - Step 3 - Add library screen is opened
+2023-07-23 06:38:14 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-23 06:38:14 INFO  - Button 'Search' :: Clicking
+2023-07-23 06:38:17 INFO  - Text Field 'Search' :: Clearing
+2023-07-23 06:38:17 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-07-23 06:38:21 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-23 06:38:21 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-23 06:38:21 INFO  - Button 'tabSettings' :: Clicking
+2023-07-23 06:38:23 INFO  - Button 'tabSettings' :: Clicking
+2023-07-23 06:38:24 INFO  - Button 'Accounts' :: Clicking
+2023-07-23 06:38:26 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-07-23 06:38:26 INFO  - Button 'tabSettings' :: Clicking
+2023-07-23 06:38:27 INFO  - Button 'tabSettings' :: Clicking
+2023-07-23 06:38:28 INFO  - Button 'Accounts' :: Clicking
+2023-07-23 06:38:29 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-23 06:38:30 INFO  - Locking credential with barcode 01230000000004
+2023-07-23 06:38:30 INFO  - There are books on the account: 
+2023-07-23 06:38:31 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-07-23 06:38:31 INFO  - bookName: Anna Karenina Distributor: Palace Marketplace
+2023-07-23 06:38:31 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-07-23 06:38:31 INFO  - Count of books on the account after opening account: 3
+2023-07-23 06:38:31 INFO  - Text Field 'Card' :: Clearing
+2023-07-23 06:38:31 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-07-23 06:38:34 INFO  - Text Field 'Pin' :: Clearing
+2023-07-23 06:38:34 INFO  - Text Field 'Pin' :: Typing '********'
+2023-07-23 06:38:37 INFO  - Button 'Log in' :: Clicking
+2023-07-23 06:38:47 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-23 06:38:48 INFO  - Step 7 - Login is performed successfully
+2023-07-23 06:39:09 INFO  - Button 'Log ... action' :: Getting text from element
+2023-07-23 06:39:09 INFO  - Step 8 - Open Catalog
+2023-07-23 06:39:09 INFO  - Button 'tabCatalog' :: Clicking
+2023-07-23 06:39:30 INFO  - Step 9 - Open search modal
+2023-07-23 06:39:50 INFO  - Button 'Search' :: Clicking
+2023-07-23 06:39:53 INFO  - Step 10 - Search for "Down the Hatch" and save bookName as 'bookNameInfo'
+2023-07-23 06:39:53 INFO  - Error details button is not present
+2023-07-23 06:39:54 INFO  - Text Field 'Search value input' :: Sending keys 'Down the Hatch'
+2023-07-23 06:39:57 INFO  - Error details button is not present
+2023-07-23 06:40:05 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-07-23 06:40:05 INFO  - Button 'Audiobooks' :: Clicking
+2023-07-23 06:40:28 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-23 06:40:29 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-23 06:40:29 INFO  - Label 'lblBookName' :: Clicking
+2023-07-23 06:40:31 INFO  - Step 13 - Click GET action button on book details screen
+2023-07-23 06:40:32 INFO  - Button 'Get' :: Clicking
+2023-07-23 06:40:39 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-07-23 06:40:40 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-07-23 06:40:40 INFO  - Button 'Listen' :: Clicking
+2023-07-23 06:40:40 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-07-23 06:40:45 INFO  - Step 17 - Open toc audiobook screen
+2023-07-23 06:40:45 INFO  - Button 'btnToc' :: Clicking
+2023-07-23 06:40:47 INFO  - Step 18 - There are two tabs Content and Bookmarks on toc audiobook screen
+2023-07-23 06:40:51 INFO  - Step 19 - Open Bookmarks on toc audiobook screen
+2023-07-23 06:40:51 INFO  - Button 'Bookmarks tab' :: Clicking
+2023-07-23 06:40:57 INFO  - Step 20 - Bookmarks screen is opened
+2023-07-23 06:40:57 INFO  - Button 'Bookmarks tab' :: Getting attribute 'selected'
+2023-07-23 06:40:58 INFO  - Step 21 - There is no bookmarks message on Bookmarks screen
+2023-07-23 06:40:58 INFO  - Step 22 - Open Chapters on toc audiobook screen
+2023-07-23 06:40:58 INFO  - Button 'Chapters tab' :: Clicking
+2023-07-23 06:40:59 INFO  - Step 23 - Chapters screen is opened
+2023-07-23 06:40:59 INFO  - Button 'Chapters tab' :: Getting attribute 'selected'
+2023-07-23 06:41:03 INFO  - Taking screenshot
+2023-07-23 06:41:07 INFO  - Test finished - logging out
+2023-07-23 06:41:08 INFO  - Button 'tabSettings' :: Clicking
+2023-07-23 06:41:11 INFO  - Button 'tabSettings' :: Clicking
+2023-07-23 06:41:12 INFO  - Button 'Accounts' :: Clicking
+2023-07-23 06:41:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-23 06:41:16 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-23 06:41:17 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-23 06:41:17 INFO  - Button 'Log out' :: Clicking
+2023-07-23 06:41:39 INFO  - Button 'Log in' :: Getting text from element
+2023-07-23 06:41:39 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@259d84
