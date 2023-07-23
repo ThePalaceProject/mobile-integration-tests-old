@@ -1,0 +1,76 @@
+2023-07-23 16:23:33 INFO  - Scenario 'Hold from Book Detail View and Remove a Reserved Book from Book Detail View' start
+2023-07-23 16:23:33 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-23 16:23:51 INFO  - Application on platform 'IOS' is ready...
+2023-07-23 16:23:51 INFO  - Session id - 3926f2336b4cdeb6089656e48cbf561cc3559ed7
+2023-07-23 16:23:51 INFO  - Step 0 - Close tutorial screen
+2023-07-23 16:23:52 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-23 16:23:52 INFO  - Step 1 - Welcome screen is opened
+2023-07-23 16:23:53 INFO  - Step 2 - Close welcome screen
+2023-07-23 16:23:53 INFO  - Button 'Find your library button' :: Clicking
+2023-07-23 16:23:53 INFO  - Step 3 - Add library screen is opened
+2023-07-23 16:23:59 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-23 16:23:59 INFO  - Text Field 'Search field' :: Clicking
+2023-07-23 16:24:05 INFO  - Text Field 'Search field' :: Clearing
+2023-07-23 16:24:05 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-07-23 16:24:16 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-23 16:24:17 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-23 16:24:17 INFO  - Button 'Settings' :: Clicking
+2023-07-23 16:24:18 INFO  - Button 'Settings' :: Clicking
+2023-07-23 16:24:19 INFO  - Button 'Libraries button' :: Clicking
+2023-07-23 16:24:20 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-07-23 16:24:21 INFO  - Button 'Settings' :: Clicking
+2023-07-23 16:24:21 INFO  - Button 'Settings' :: Clicking
+2023-07-23 16:24:22 INFO  - Button 'Libraries button' :: Clicking
+2023-07-23 16:24:24 INFO  - Locking credential with barcode 01230000000004
+2023-07-23 16:24:24 INFO  - There are books on the account: 
+2023-07-23 16:24:25 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-07-23 16:24:25 INFO  - bookName: Anna Karenina Distributor: Palace Marketplace
+2023-07-23 16:24:25 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-07-23 16:24:25 INFO  - Count of books on the account after opening account: 3
+2023-07-23 16:24:46 INFO  - Text Field 'Card' :: Clicking
+2023-07-23 16:24:47 INFO  - Text Field 'Card' :: Clearing
+2023-07-23 16:24:47 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-07-23 16:24:50 INFO  - Text Field 'Pin' :: Clearing
+2023-07-23 16:24:50 INFO  - Text Field 'Pin' :: Typing '********'
+2023-07-23 16:24:52 INFO  - Button 'Log in' :: Clicking
+2023-07-23 16:25:00 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-07-23 16:25:02 INFO  - Step 7 - Login is performed successfully
+2023-07-23 16:25:03 INFO  - Step 8 - Open Catalog
+2023-07-23 16:25:03 INFO  - Button 'Catalog' :: Clicking
+2023-07-23 16:25:04 INFO  - Step 9 - Open search modal
+2023-07-23 16:25:05 INFO  - Button 'Search button' :: Clicking
+2023-07-23 16:25:07 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-07-23 16:25:07 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-07-23 16:25:07 INFO  - randomBookName: Dream Hoarders
+2023-07-23 16:25:07 INFO  - Text Field 'Search value input' :: Sending keys 'Dream Hoarders'
+2023-07-23 16:25:08 INFO  - Button 'Search' :: Clicking
+2023-07-23 16:25:11 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-07-23 16:25:11 INFO  - Button 'Audiobooks' :: Clicking
+2023-07-23 16:25:52 INFO  - Step 12 - Subcategory screen is present
+2023-07-23 16:25:53 INFO  - Step 13 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-23 16:25:54 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-23 16:25:55 INFO  - Label 'lblBookName' :: Clicking
+2023-07-23 16:25:56 INFO  - Step 14 - Book 'bookInfo' is opened on book details screen
+2023-07-23 16:25:58 INFO  - Label 'Book title' :: Getting text from element
+2023-07-23 16:26:02 INFO  - Label 'Author' :: Getting text from element
+2023-07-23 16:26:05 INFO  - Label 'Book title' :: Getting text from element
+2023-07-23 16:26:09 INFO  - Label 'Author' :: Getting text from element
+2023-07-23 16:26:10 INFO  - Step 15 - Click RESERVE action button on book details screen
+2023-07-23 16:26:11 INFO  - Button 'Reserve' :: Clicking
+2023-07-23 16:26:35 INFO  - Alert appears and dismiss alert
+2023-07-23 16:26:35 INFO  - Step 16 - Click REMOVE action button on book details screen
+2023-07-23 16:26:36 INFO  - Button 'Remove' :: Clicking
+2023-07-23 16:36:58 INFO  - Step 17 - Check that book contains RESERVE action button on book details screen
+2023-07-23 16:37:19 INFO  - Taking screenshot
+2023-07-23 16:37:21 INFO  - Test finished - logging out
+2023-07-23 16:37:24 INFO  - Button 'Settings' :: Clicking
+2023-07-23 16:37:25 INFO  - Button 'Settings' :: Clicking
+2023-07-23 16:37:26 INFO  - Button 'Libraries button' :: Clicking
+2023-07-23 16:37:29 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-23 16:37:29 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-23 16:37:30 INFO  - Button 'Log out' :: Clicking
+2023-07-23 16:37:30 INFO  - Button 'Log out approve' :: Clicking
+2023-07-23 16:37:51 INFO  - Button 'Log in' :: Getting text from element
+2023-07-23 16:37:52 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-23 16:37:52 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-23 16:37:53 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@395921ab

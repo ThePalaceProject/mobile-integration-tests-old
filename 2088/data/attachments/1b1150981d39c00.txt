@@ -1,0 +1,77 @@
+2023-07-23 14:15:03 INFO  - Scenario 'Open book to last page read' start
+2023-07-23 14:15:03 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-23 14:15:20 INFO  - Application on platform 'IOS' is ready...
+2023-07-23 14:15:21 INFO  - Session id - 74300eeb5f28093ba2a490766dd0b2baef522925
+2023-07-23 14:15:21 INFO  - Step 0 - Close tutorial screen
+2023-07-23 14:15:21 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-23 14:15:21 INFO  - Step 1 - Welcome screen is opened
+2023-07-23 14:15:22 INFO  - Step 2 - Close welcome screen
+2023-07-23 14:15:22 INFO  - Button 'Find your library button' :: Clicking
+2023-07-23 14:15:23 INFO  - Step 3 - Add library screen is opened
+2023-07-23 14:15:28 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-23 14:15:28 INFO  - Text Field 'Search field' :: Clicking
+2023-07-23 14:15:34 INFO  - Text Field 'Search field' :: Clearing
+2023-07-23 14:15:34 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-07-23 14:15:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-23 14:15:46 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-23 14:15:46 INFO  - Button 'Settings' :: Clicking
+2023-07-23 14:15:48 INFO  - Button 'Settings' :: Clicking
+2023-07-23 14:15:48 INFO  - Button 'Libraries button' :: Clicking
+2023-07-23 14:15:49 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-07-23 14:15:49 INFO  - Button 'Settings' :: Clicking
+2023-07-23 14:15:50 INFO  - Button 'Settings' :: Clicking
+2023-07-23 14:15:51 INFO  - Button 'Libraries button' :: Clicking
+2023-07-23 14:15:53 INFO  - Locking credential with barcode 01230000000003
+2023-07-23 14:15:53 INFO  - There are books on the account: 
+2023-07-23 14:15:54 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-07-23 14:15:54 INFO  - Count of books on the account after opening account: 1
+2023-07-23 14:16:15 INFO  - Text Field 'Card' :: Clicking
+2023-07-23 14:16:16 INFO  - Text Field 'Card' :: Clearing
+2023-07-23 14:16:16 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-07-23 14:16:19 INFO  - Text Field 'Pin' :: Clearing
+2023-07-23 14:16:19 INFO  - Text Field 'Pin' :: Typing '********'
+2023-07-23 14:16:21 INFO  - Button 'Log in' :: Clicking
+2023-07-23 14:16:28 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-07-23 14:16:30 INFO  - Step 7 - Login is performed successfully
+2023-07-23 14:16:30 INFO  - Step 8 - Open Catalog
+2023-07-23 14:16:30 INFO  - Button 'Catalog' :: Clicking
+2023-07-23 14:16:32 INFO  - Step 9 - Open search modal
+2023-07-23 14:16:33 INFO  - Button 'Search button' :: Clicking
+2023-07-23 14:16:35 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-07-23 14:16:35 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-07-23 14:16:35 INFO  - randomBookName: Psychopathia Sexualis
+2023-07-23 14:16:36 INFO  - Text Field 'Search value input' :: Sending keys 'Psychopathia Sexualis'
+2023-07-23 14:16:37 INFO  - Button 'Search' :: Clicking
+2023-07-23 14:16:39 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-23 14:16:40 INFO  - Button 'actionButton' :: Clicking
+2023-07-23 14:17:02 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-23 14:17:03 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-23 14:17:03 INFO  - Label 'lblBookName' :: Clicking
+2023-07-23 14:17:04 INFO  - Step 13 - Click READ action button on book details screen
+2023-07-23 14:17:05 INFO  - Button 'Read' :: Clicking
+2023-07-23 14:17:26 INFO  - Step 14 - Scroll page forward from 7 to 10 times
+2023-07-23 14:17:26 INFO  - Scrolling 7 times on reader epub screen
+2023-07-23 14:17:40 INFO  - Step 15 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-07-23 14:17:40 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-07-23 14:17:41 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-07-23 14:17:42 INFO  - Step 16 - Wait for 3 seconds
+2023-07-23 14:17:45 INFO  - Step 17 - Return to previous screen for epub and pdf
+2023-07-23 14:17:47 INFO  - Button 'btnBack' :: Clicking
+2023-07-23 14:17:48 INFO  - Step 18 - Click READ action button on book details screen
+2023-07-23 14:17:48 INFO  - Button 'Read' :: Clicking
+2023-07-23 14:18:09 INFO  - Step 19 - 'bookInfo' book is present on epub reader screen
+2023-07-23 14:18:09 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-07-23 14:18:13 INFO  - Book name on epub reader screen - Psychopathia sexualis
+2023-07-23 14:18:13 INFO  - Taking screenshot
+2023-07-23 14:18:15 INFO  - Test finished - logging out
+2023-07-23 14:18:18 INFO  - Button 'Settings' :: Clicking
+2023-07-23 14:18:19 INFO  - Button 'Settings' :: Clicking
+2023-07-23 14:18:19 INFO  - Button 'Libraries button' :: Clicking
+2023-07-23 14:18:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-23 14:18:23 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-23 14:18:24 INFO  - Button 'Log out' :: Clicking
+2023-07-23 14:18:25 INFO  - Button 'Log out approve' :: Clicking
+2023-07-23 14:18:46 INFO  - Button 'Log in' :: Getting text from element
+2023-07-23 14:18:47 INFO  - Text Field 'Card' :: Getting text from element
+2023-07-23 14:18:48 INFO  - Text Field 'Pin' :: Getting text from element
+2023-07-23 14:18:48 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3d67df94
