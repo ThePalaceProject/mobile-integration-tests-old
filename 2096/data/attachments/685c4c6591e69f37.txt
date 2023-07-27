@@ -1,0 +1,41 @@
+2023-07-27 07:37:58 INFO  - Scenario 'Check of a book title and author in LYRASIS' start
+2023-07-27 07:37:58 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-07-27 07:38:46 INFO  - Application on platform 'IOS' is ready...
+2023-07-27 07:38:46 INFO  - Session id - 1bc161922275b56efae93e428f1bb94ef7a0a928
+2023-07-27 07:38:46 INFO  - Step 0 - Close tutorial screen
+2023-07-27 07:38:47 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-07-27 07:38:48 INFO  - Step 1 - Welcome screen is opened
+2023-07-27 07:38:49 INFO  - Step 2 - Close welcome screen
+2023-07-27 07:38:49 INFO  - Button 'Find your library button' :: Clicking
+2023-07-27 07:38:50 INFO  - Step 3 - Add library screen is opened
+2023-07-27 07:38:55 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-07-27 07:38:56 INFO  - Text Field 'Search field' :: Clicking
+2023-07-27 07:39:02 INFO  - Text Field 'Search field' :: Clearing
+2023-07-27 07:39:02 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-07-27 07:39:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-07-27 07:39:15 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-07-27 07:39:15 INFO  - Button 'Settings' :: Clicking
+2023-07-27 07:39:21 INFO  - Button 'Settings' :: Clicking
+2023-07-27 07:39:23 INFO  - Button 'Libraries button' :: Clicking
+2023-07-27 07:39:25 INFO  - Step 6 - Open Catalog
+2023-07-27 07:39:25 INFO  - Button 'Catalog' :: Clicking
+2023-07-27 07:39:28 INFO  - Step 7 - Open search modal
+2023-07-27 07:39:29 INFO  - Button 'Search button' :: Clicking
+2023-07-27 07:39:32 INFO  - Step 8 - Search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-07-27 07:39:32 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-07-27 07:39:32 INFO  - randomBookName: Six Months in 1945
+2023-07-27 07:39:32 INFO  - Text Field 'Search value input' :: Sending keys 'Six Months in 1945'
+2023-07-27 07:39:35 INFO  - Button 'Search' :: Clicking
+2023-07-27 07:39:38 INFO  - Step 9 - Switch to 'Audiobooks' catalog tab
+2023-07-27 07:39:38 INFO  - Button 'Audiobooks' :: Clicking
+2023-07-27 07:40:21 INFO  - Step 10 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-07-27 07:40:22 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-07-27 07:40:24 INFO  - Label 'lblBookName' :: Clicking
+2023-07-27 07:40:26 INFO  - Step 11 - Book 'bookInfo' is opened on book details screen
+2023-07-27 07:40:29 INFO  - Label 'Book title' :: Getting text from element
+2023-07-27 07:40:35 INFO  - Label 'Author' :: Getting text from element
+2023-07-27 07:40:39 INFO  - Label 'Book title' :: Getting text from element
+2023-07-27 07:40:44 INFO  - Label 'Author' :: Getting text from element
+2023-07-27 07:40:45 INFO  - Step 12 - Book 'bookInfo' has correct title and author name on book details screen
+2023-07-27 07:40:45 INFO  - Taking screenshot
+2023-07-27 07:40:48 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@21def047
