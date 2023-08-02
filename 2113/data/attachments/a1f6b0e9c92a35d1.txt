@@ -1,0 +1,70 @@
+2023-08-02 03:46:19 INFO  - Scenario 'LYRASIS: Check of canceling the downloading from book details view' start
+2023-08-02 03:46:19 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-02 03:46:44 INFO  - Application on platform 'ANDROID' is ready...
+2023-08-02 03:46:44 INFO  - Session id - ef76a9c964e41c00f20a1d0a1d671f9688fbae1c
+2023-08-02 03:46:44 INFO  - Step 0 - Close tutorial screen
+2023-08-02 03:46:44 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-02 03:46:46 INFO  - Step 1 - Welcome screen is opened
+2023-08-02 03:46:47 INFO  - Step 2 - Close welcome screen
+2023-08-02 03:46:47 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-08-02 03:46:48 INFO  - Step 3 - Add library screen is opened
+2023-08-02 03:46:49 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-02 03:46:49 INFO  - Button 'Search' :: Clicking
+2023-08-02 03:46:52 INFO  - Text Field 'Search' :: Clearing
+2023-08-02 03:46:52 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-08-02 03:46:54 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-02 03:46:55 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-02 03:46:55 INFO  - Button 'tabSettings' :: Clicking
+2023-08-02 03:46:56 INFO  - Button 'tabSettings' :: Clicking
+2023-08-02 03:46:57 INFO  - Button 'Accounts' :: Clicking
+2023-08-02 03:47:00 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-08-02 03:47:00 INFO  - Button 'tabSettings' :: Clicking
+2023-08-02 03:47:01 INFO  - Button 'tabSettings' :: Clicking
+2023-08-02 03:47:02 INFO  - Button 'Accounts' :: Clicking
+2023-08-02 03:47:03 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-02 03:47:04 INFO  - Locking credential with barcode 01230000000005
+2023-08-02 03:47:04 INFO  - There are books on the account: 
+2023-08-02 03:47:05 INFO  - bookName: Alice's Adventures in Wonderland Distributor: Palace Marketplace
+2023-08-02 03:47:05 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-08-02 03:47:05 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-08-02 03:47:05 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-08-02 03:47:05 INFO  - bookName: Animal Instinct Distributor: Palace Marketplace
+2023-08-02 03:47:05 INFO  - Count of books on the account after opening account: 5
+2023-08-02 03:47:05 INFO  - Text Field 'Card' :: Clearing
+2023-08-02 03:47:05 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-08-02 03:47:07 INFO  - Text Field 'Pin' :: Clearing
+2023-08-02 03:47:07 INFO  - Text Field 'Pin' :: Typing '********'
+2023-08-02 03:47:09 INFO  - Button 'Log in' :: Clicking
+2023-08-02 03:47:15 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-02 03:47:15 INFO  - Step 7 - Login is performed successfully
+2023-08-02 03:47:36 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-02 03:47:36 INFO  - Step 8 - Open Catalog
+2023-08-02 03:47:36 INFO  - Button 'tabCatalog' :: Clicking
+2023-08-02 03:48:00 INFO  - Step 9 - Open search modal
+2023-08-02 03:48:20 INFO  - Button 'Search' :: Clicking
+2023-08-02 03:48:22 INFO  - Step 10 - Search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-02 03:48:22 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-08-02 03:48:22 INFO  - randomBookName: Turning the Tide
+2023-08-02 03:48:22 INFO  - Error details button is not present
+2023-08-02 03:48:22 INFO  - Text Field 'Search value input' :: Sending keys 'Turning the Tide'
+2023-08-02 03:48:25 INFO  - Error details button is not present
+2023-08-02 03:48:28 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-08-02 03:48:28 INFO  - Button 'Audiobooks' :: Clicking
+2023-08-02 03:48:48 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-02 03:48:49 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-02 03:48:49 INFO  - Label 'lblBookName' :: Clicking
+2023-08-02 03:48:49 INFO  - Step 13 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-08-02 03:48:50 INFO  - Button 'Get' :: Clicking
+2023-08-02 03:48:51 INFO  - Button 'Cancel' :: Clicking
+2023-08-02 03:48:55 INFO  - Step 14 - Check that book contains DOWNLOAD action button on book details screen
+2023-08-02 03:49:16 INFO  - Taking screenshot
+2023-08-02 03:49:17 INFO  - Test finished - logging out
+2023-08-02 03:49:18 INFO  - Button 'tabSettings' :: Clicking
+2023-08-02 03:49:22 INFO  - Button 'tabSettings' :: Clicking
+2023-08-02 03:49:22 INFO  - Button 'Accounts' :: Clicking
+2023-08-02 03:49:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-02 03:49:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-02 03:49:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-02 03:49:26 INFO  - Button 'Log out' :: Clicking
+2023-08-02 03:49:46 INFO  - Button 'Log in' :: Getting text from element
+2023-08-02 03:49:46 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@78faa3af
