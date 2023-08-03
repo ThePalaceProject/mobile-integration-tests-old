@@ -1,0 +1,78 @@
+2023-08-03 10:03:33 INFO  - Scenario 'Check books sorting in Reservations' start
+2023-08-03 10:03:33 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-03 10:04:00 INFO  - Application on platform 'ANDROID' is ready...
+2023-08-03 10:04:00 INFO  - Session id - 20cd5475848711e4d7cecd9179d92cdde89348d3
+2023-08-03 10:04:00 INFO  - Step 0 - Close tutorial screen
+2023-08-03 10:04:00 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-03 10:04:02 INFO  - Step 1 - Welcome screen is opened
+2023-08-03 10:04:03 INFO  - Step 2 - Close welcome screen
+2023-08-03 10:04:03 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-08-03 10:04:03 INFO  - Step 3 - Add library screen is opened
+2023-08-03 10:04:05 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-03 10:04:05 INFO  - Button 'Search' :: Clicking
+2023-08-03 10:04:07 INFO  - Text Field 'Search' :: Clearing
+2023-08-03 10:04:07 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-08-03 10:04:09 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-03 10:04:10 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-03 10:04:10 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 10:04:11 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 10:04:12 INFO  - Button 'Accounts' :: Clicking
+2023-08-03 10:04:14 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-08-03 10:04:14 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 10:04:14 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 10:04:15 INFO  - Button 'Accounts' :: Clicking
+2023-08-03 10:04:16 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-03 10:04:17 INFO  - Locking credential with barcode 01230000000003
+2023-08-03 10:04:17 INFO  - There are books on the account: 
+2023-08-03 10:04:19 INFO  - bookName: The Ice Queen Distributor: Palace Marketplace
+2023-08-03 10:04:19 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-08-03 10:04:19 INFO  - bookName: The Mystery of Mrs. Christie Distributor: Palace Marketplace
+2023-08-03 10:04:19 INFO  - bookName: Apples Never Fall Distributor: Palace Marketplace
+2023-08-03 10:04:19 INFO  - bookName: Too Much and Never Enough Distributor: Palace Marketplace
+2023-08-03 10:04:19 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-08-03 10:04:19 INFO  - Count of books on the account after opening account: 6
+2023-08-03 10:04:19 INFO  - Text Field 'Card' :: Clearing
+2023-08-03 10:04:19 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-08-03 10:04:20 INFO  - Text Field 'Pin' :: Clearing
+2023-08-03 10:04:20 INFO  - Text Field 'Pin' :: Typing '********'
+2023-08-03 10:04:22 INFO  - Button 'Log in' :: Clicking
+2023-08-03 10:04:28 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-03 10:04:29 INFO  - Step 7 - Login is performed successfully
+2023-08-03 10:04:49 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-03 10:04:50 INFO  - Step 8 - Open Catalog
+2023-08-03 10:04:50 INFO  - Button 'tabCatalog' :: Clicking
+2023-08-03 10:05:10 INFO  - Step 9 - Open search modal
+2023-08-03 10:05:30 INFO  - Button 'Search' :: Clicking
+2023-08-03 10:05:31 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-03 10:05:31 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-08-03 10:05:31 INFO  - randomBookName: End Times
+2023-08-03 10:05:32 INFO  - Error details button is not present
+2023-08-03 10:05:32 INFO  - Text Field 'Search value input' :: Sending keys 'End Times'
+2023-08-03 10:05:34 INFO  - Error details button is not present
+2023-08-03 10:05:38 INFO  - Step 11 - Click RESERVE action button on AUDIOBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-03 10:05:39 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-03 10:05:39 INFO  - Button 'actionButton' :: Clicking
+2023-08-03 10:05:41 INFO  - Step 12 - Open Catalog
+2023-08-03 10:05:41 INFO  - Button 'tabCatalog' :: Clicking
+2023-08-03 10:06:02 INFO  - Step 13 - Open search modal
+2023-08-03 10:06:22 INFO  - Button 'Search' :: Clicking
+2023-08-03 10:06:23 INFO  - Step 14 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo2'
+2023-08-03 10:06:23 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-08-03 10:06:23 INFO  - randomBookName: Too Much and Never Enough
+2023-08-03 10:06:23 INFO  - Error details button is not present
+2023-08-03 10:06:24 INFO  - Text Field 'Search value input' :: Sending keys 'Too Much and Never Enough'
+2023-08-03 10:06:26 INFO  - Error details button is not present
+2023-08-03 10:06:29 INFO  - Step 15 - Click RESERVE action button on AUDIOBOOK book with 'bookNameInfo2' bookName on catalog books screen and save book as 'bookInfo2'
+2023-08-03 10:06:50 INFO  - Button 'actionButton' :: Clicking
+2023-08-03 10:07:10 INFO  - Taking screenshot
+2023-08-03 10:07:12 INFO  - Test finished - logging out
+2023-08-03 10:07:13 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 10:07:15 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 10:07:16 INFO  - Button 'Accounts' :: Clicking
+2023-08-03 10:07:17 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-03 10:07:19 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-03 10:07:19 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-03 10:07:19 INFO  - Button 'Log out' :: Clicking
+2023-08-03 10:07:40 INFO  - Button 'Log in' :: Getting text from element
+2023-08-03 10:07:40 INFO  - Unlocking credential for current thread
+2023-08-03 10:07:40 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@519aa821

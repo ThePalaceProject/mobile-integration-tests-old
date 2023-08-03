@@ -1,0 +1,81 @@
+2023-08-03 08:28:22 INFO  - Scenario 'LYRASIS: Getting and returning books from Book Detail View' start
+2023-08-03 08:28:22 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-03 08:28:52 INFO  - Application on platform 'ANDROID' is ready...
+2023-08-03 08:28:52 INFO  - Session id - a3d603a637d8ab1888e2a10d311554ad01d8a050
+2023-08-03 08:28:52 INFO  - Step 0 - Close tutorial screen
+2023-08-03 08:28:52 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-03 08:28:55 INFO  - Step 1 - Welcome screen is opened
+2023-08-03 08:28:56 INFO  - Step 2 - Close welcome screen
+2023-08-03 08:28:56 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-08-03 08:28:57 INFO  - Step 3 - Add library screen is opened
+2023-08-03 08:28:59 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-03 08:28:59 INFO  - Button 'Search' :: Clicking
+2023-08-03 08:29:01 INFO  - Text Field 'Search' :: Clearing
+2023-08-03 08:29:01 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-08-03 08:29:05 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-03 08:29:06 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-03 08:29:06 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 08:29:08 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 08:29:10 INFO  - Button 'Accounts' :: Clicking
+2023-08-03 08:29:12 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-08-03 08:29:12 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 08:29:13 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 08:29:14 INFO  - Button 'Accounts' :: Clicking
+2023-08-03 08:29:16 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-03 08:29:17 INFO  - Locking credential with barcode 01230000000004
+2023-08-03 08:29:17 INFO  - There are books on the account: 
+2023-08-03 08:29:18 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-08-03 08:29:18 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-08-03 08:29:18 INFO  - bookName: The Innovators Distributor: Palace Marketplace
+2023-08-03 08:29:18 INFO  - bookName: Anna Karenina Distributor: Palace Marketplace
+2023-08-03 08:29:18 INFO  - Count of books on the account after opening account: 4
+2023-08-03 08:29:18 INFO  - Text Field 'Card' :: Clearing
+2023-08-03 08:29:18 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-08-03 08:29:20 INFO  - Text Field 'Pin' :: Clearing
+2023-08-03 08:29:20 INFO  - Text Field 'Pin' :: Typing '********'
+2023-08-03 08:29:23 INFO  - Button 'Log in' :: Clicking
+2023-08-03 08:29:31 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-03 08:29:32 INFO  - Step 7 - Login is performed successfully
+2023-08-03 08:29:54 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-03 08:29:55 INFO  - Step 8 - Open Catalog
+2023-08-03 08:29:55 INFO  - Button 'tabCatalog' :: Clicking
+2023-08-03 08:30:18 INFO  - Step 9 - Open search modal
+2023-08-03 08:30:38 INFO  - Button 'Search' :: Clicking
+2023-08-03 08:30:41 INFO  - Step 10 - Search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-03 08:30:41 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-08-03 08:30:41 INFO  - randomBookName: Stink: the Incredible Shrinking Kid
+2023-08-03 08:30:41 INFO  - Error details button is not present
+2023-08-03 08:30:42 INFO  - Text Field 'Search value input' :: Sending keys 'Stink: the Incredible Shrinking Kid'
+2023-08-03 08:30:45 INFO  - Error details button is not present
+2023-08-03 08:30:50 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-08-03 08:30:50 INFO  - Button 'eBooks' :: Clicking
+2023-08-03 08:31:11 INFO  - Step 12 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-03 08:31:12 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-03 08:31:14 INFO  - Label 'lblBookName' :: Clicking
+2023-08-03 08:31:15 INFO  - Step 13 - Click GET action button on book details screen
+2023-08-03 08:31:16 INFO  - Button 'Get' :: Clicking
+2023-08-03 08:31:28 INFO  - Step 14 - Check that book contains READ action button on book details screen
+2023-08-03 08:31:29 INFO  - Step 15 - Click RETURN action button on book details screen
+2023-08-03 08:31:30 INFO  - Button 'Return' :: Clicking
+2023-08-03 08:31:34 INFO  - Step 16 - Check that book contains GET action button on book details screen
+2023-08-03 08:31:36 INFO  - Step 17 - Click GET action button on book details screen
+2023-08-03 08:31:36 INFO  - Button 'Get' :: Clicking
+2023-08-03 08:32:03 INFO  - Step 18 - Check that book contains READ action button on book details screen
+2023-08-03 08:32:04 INFO  - Step 19 - Click READ action button on book details screen
+2023-08-03 08:32:05 INFO  - Button 'Read' :: Clicking
+2023-08-03 08:32:06 INFO  - Step 20 - Wait for 3 seconds
+2023-08-03 08:32:09 INFO  - Step 21 - Book 'bookInfo' with EBOOK type is present on epub or pdf or audiobook screen
+2023-08-03 08:32:12 INFO  - Label 'lblBookName' :: Getting text from element
+2023-08-03 08:32:13 INFO  - Book name on epub reader screen - Incredible Shrinking Kid (9780763651886)
+2023-08-03 08:32:13 INFO  - Taking screenshot
+2023-08-03 08:32:14 INFO  - Test finished - logging out
+2023-08-03 08:32:16 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 08:32:19 INFO  - Button 'tabSettings' :: Clicking
+2023-08-03 08:32:21 INFO  - Button 'Accounts' :: Clicking
+2023-08-03 08:32:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-03 08:32:25 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-03 08:32:26 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-03 08:32:27 INFO  - Button 'Log out' :: Clicking
+2023-08-03 08:32:48 INFO  - Button 'Log in' :: Getting text from element
+2023-08-03 08:32:49 INFO  - Unlocking credential for current thread
+2023-08-03 08:32:49 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4da324c
