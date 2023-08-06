@@ -1,0 +1,64 @@
+2023-08-06 04:51:09 INFO  - Scenario 'LYRASIS: Biblioboard audiobooks: Check of canceling the downloading from book details view' start
+2023-08-06 04:51:09 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-06 04:51:54 INFO  - Application on platform 'IOS' is ready...
+2023-08-06 04:51:54 INFO  - Session id - 313cbcad6f21fb565b0a7fe6fad92bee2b916e50
+2023-08-06 04:51:54 INFO  - Step 0 - Close tutorial screen
+2023-08-06 04:51:54 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-06 04:51:55 INFO  - Step 1 - Welcome screen is opened
+2023-08-06 04:51:55 INFO  - Step 2 - Close welcome screen
+2023-08-06 04:51:55 INFO  - Button 'Find your library button' :: Clicking
+2023-08-06 04:51:56 INFO  - Step 3 - Add library screen is opened
+2023-08-06 04:52:01 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-06 04:52:01 INFO  - Text Field 'Search field' :: Clicking
+2023-08-06 04:52:08 INFO  - Text Field 'Search field' :: Clearing
+2023-08-06 04:52:08 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-08-06 04:52:20 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-06 04:52:21 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-06 04:52:21 INFO  - Button 'Settings' :: Clicking
+2023-08-06 04:52:23 INFO  - Button 'Settings' :: Clicking
+2023-08-06 04:52:23 INFO  - Button 'Libraries button' :: Clicking
+2023-08-06 04:52:25 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-08-06 04:52:25 INFO  - Button 'Settings' :: Clicking
+2023-08-06 04:52:26 INFO  - Button 'Settings' :: Clicking
+2023-08-06 04:52:26 INFO  - Button 'Libraries button' :: Clicking
+2023-08-06 04:52:29 INFO  - Locking credential with barcode 01230000000002
+2023-08-06 04:52:29 INFO  - There are books on the account: 
+2023-08-06 04:52:30 INFO  - bookName: Factfulness Distributor: Palace Marketplace
+2023-08-06 04:52:30 INFO  - Count of books on the account after opening account: 1
+2023-08-06 04:52:51 INFO  - Text Field 'Card' :: Clicking
+2023-08-06 04:52:52 INFO  - Text Field 'Card' :: Clearing
+2023-08-06 04:52:52 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-08-06 04:52:55 INFO  - Text Field 'Pin' :: Clearing
+2023-08-06 04:52:55 INFO  - Text Field 'Pin' :: Typing '********'
+2023-08-06 04:52:59 INFO  - Button 'Log in' :: Clicking
+2023-08-06 04:53:23 INFO  - Step 7 - Login is performed successfully
+2023-08-06 04:53:24 INFO  - Step 8 - Open Catalog
+2023-08-06 04:53:24 INFO  - Button 'Catalog' :: Clicking
+2023-08-06 04:53:27 INFO  - Step 9 - Open search modal
+2023-08-06 04:53:29 INFO  - Button 'Search button' :: Clicking
+2023-08-06 04:53:32 INFO  - Step 10 - Search for "Let's Hear It For Beagles" and save bookName as 'bookNameInfo'
+2023-08-06 04:53:33 INFO  - Text Field 'Search value input' :: Sending keys 'Let's Hear It For Beagles'
+2023-08-06 04:53:35 INFO  - Button 'Search' :: Clicking
+2023-08-06 04:53:39 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-08-06 04:53:39 INFO  - Button 'Audiobooks' :: Clicking
+2023-08-06 04:54:22 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-06 04:54:26 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-06 04:54:28 INFO  - Label 'lblBookName' :: Clicking
+2023-08-06 04:54:30 INFO  - Step 13 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-08-06 04:54:30 INFO  - Button 'Get' :: Clicking
+2023-08-06 04:54:35 INFO  - Button 'Cancel' :: Clicking
+2023-08-06 04:54:46 INFO  - Step 14 - Check that book contains DOWNLOAD action button on book details screen
+2023-08-06 04:55:09 INFO  - Taking screenshot
+2023-08-06 04:55:14 INFO  - Test finished - logging out
+2023-08-06 04:55:18 INFO  - Button 'Settings' :: Clicking
+2023-08-06 04:55:19 INFO  - Button 'Settings' :: Clicking
+2023-08-06 04:55:20 INFO  - Button 'Libraries button' :: Clicking
+2023-08-06 04:55:24 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-06 04:55:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-06 04:55:27 INFO  - Button 'Log out' :: Clicking
+2023-08-06 04:55:28 INFO  - Button 'Log out approve' :: Clicking
+2023-08-06 04:55:50 INFO  - Button 'Log in' :: Getting text from element
+2023-08-06 04:55:51 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-06 04:55:52 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-06 04:55:53 INFO  - Unlocking credential for current thread
+2023-08-06 04:55:53 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@3d91ef08
