@@ -58,7 +58,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario: Biblioboard: Open the audiobook at the last open chapter and check time code
     When Search for "Bocas : a novel" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -98,7 +98,7 @@ Feature: Audiobook in LYRASIS
       And Chapter name on audio player screen is equal to 'chapterNameKey2' saved chapter name
       And Play time is the same with 'timeAhead' play time before restart on books detail screen
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario Outline: Navigate by Audiobook
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -130,7 +130,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario: Biblioboard: Navigate by Audiobook
     When Search for "The Last Resort" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -156,7 +156,7 @@ Feature: Audiobook in LYRASIS
     Then Play button is present on audio player screen
       And Playback has been moved behind by 15 seconds from 'timeBehind' and 'chapterTimeKey' seconds on audio player screen
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario Outline: Check end of chapter sleep timer
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -183,7 +183,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario: Biblioboard: Check end of chapter sleep timer
     When Search for "The Columbarium" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -204,7 +204,7 @@ Feature: Audiobook in LYRASIS
       And Open toc audiobook screen
     Then Chapter name next to 'chapterNumber' on toc audiobook screen is equal to 'nextChapter' saved chapter name
 
-  @logout @returnBooks @tier10 @exclude_android
+  @logout @returnBooks @tier1 @exclude_android
   Scenario Outline: Check of line for time remaining
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -221,7 +221,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier10 @exclude_android
+  @logout @returnBooks @tier1 @exclude_android
   Scenario: Biblioboard: Check of line for time remaining
     When Search for "Two in the Bush" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -232,7 +232,7 @@ Feature: Audiobook in LYRASIS
     Then Audio player screen of book 'bookInfo' is opened
       And Line for time remaining is displayed on audio player screen
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario Outline: Check of switching to the next time
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -254,7 +254,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario: Biblioboard: Check of switching to the next time
     When Search for "Elixir Project" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -270,7 +270,7 @@ Feature: Audiobook in LYRASIS
       And Listen a chapter on audio player screen
     Then Next chapter play automatically and chapter name is not 'chapterName' on audio player screen
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario Outline: Check playback speed and sleep timer
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -295,7 +295,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario: Biblioboard: Check playback speed and sleep timer
     When Search for "Nobody Move" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -314,7 +314,7 @@ Feature: Audiobook in LYRASIS
       And Close sleep timer screen
     Then Play button is present on audio player screen
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario Outline: Check time tracking line
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -342,7 +342,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario: Biblioboard: Check time tracking line
     When Search for "Baby Carter" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -364,7 +364,7 @@ Feature: Audiobook in LYRASIS
       And Wait for 5 seconds
     Then Playing time is not equal to 'timeInfo2' on audio playing screen
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario Outline: Check of not rewinding forward and back by tapping on time bar
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -392,7 +392,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario: BiblioBoard: Check of not rewinding forward and back by tapping on time bar
     When Search for "Daykeeper" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -415,7 +415,7 @@ Feature: Audiobook in LYRASIS
       And Save book play time as 'timeBackward' on audio player screen
     Then Play times 'timeBehind' and 'timeBackward' are equals
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario: Bibliotheca: Check of not rewinding forward and back by tapping on time bar
     When Search for "Down the Hatch" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -438,7 +438,7 @@ Feature: Audiobook in LYRASIS
       And Save book play time as 'timeBackward' on audio player screen
     Then Play times 'timeBehind' and 'timeBackward' are equals
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario Outline: Playback speed: Check of playback speed
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -476,7 +476,7 @@ Feature: Audiobook in LYRASIS
       | Axis 360           | 1.50  | 6                 | 9                  |
       | Axis 360           | 2     | 5                 | 10                 |
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario Outline: Biblioboard: Playback speed: Check of playback speed
     When Search for "Four Women" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -510,7 +510,7 @@ Feature: Audiobook in LYRASIS
       | 1.50  | 6                 | 9                  |
       | 2     | 5                 | 10                 |
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario Outline: Bibliotheca: Playback speed: Check of playback speed
     When Search for "The Sentence" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -544,7 +544,7 @@ Feature: Audiobook in LYRASIS
       | 1.50  | 6                 | 9                  |
       | 2     | 5                 | 10                 |
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario: TOC: Check of table of contents
     When Search for "Down the Hatch" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -561,7 +561,7 @@ Feature: Audiobook in LYRASIS
     When Open Chapters on toc audiobook screen
     Then Chapters screen is opened
 
-  @logout @returnBooks @tier10
+  @logout @returnBooks @tier1
   Scenario: Bookmark icon: Perform check of enabling the bookmark
     When Search for "Down the Hatch" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
