@@ -58,7 +58,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier1
+  @logout @returnBooks @tier10
   Scenario: Biblioboard: Open the audiobook at the last open chapter and check time code
     When Search for "Bocas : a novel" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -98,7 +98,7 @@ Feature: Audiobook in LYRASIS
       And Chapter name on audio player screen is equal to 'chapterNameKey2' saved chapter name
       And Play time is the same with 'timeAhead' play time before restart on books detail screen
 
-  @logout @returnBooks @tier1
+  @logout @returnBooks @tier10
   Scenario Outline: Navigate by Audiobook
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -130,7 +130,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier1
+  @logout @returnBooks @tier10
   Scenario: Biblioboard: Navigate by Audiobook
     When Search for "The Last Resort" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
