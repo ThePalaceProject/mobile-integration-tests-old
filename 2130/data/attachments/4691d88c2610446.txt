@@ -1,0 +1,78 @@
+2023-08-08 04:34:41 INFO  - Scenario 'Get a book from Subcategory List View and Read from Books in LYRASIS' start
+2023-08-08 04:34:41 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-08 04:35:05 INFO  - Application on platform 'ANDROID' is ready...
+2023-08-08 04:35:05 INFO  - Session id - 5b5ddfcb3b7dbb655e74e1ee71405496ea76a446
+2023-08-08 04:35:05 INFO  - Step 0 - Close tutorial screen
+2023-08-08 04:35:05 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-08 04:35:07 INFO  - Step 1 - Welcome screen is opened
+2023-08-08 04:35:07 INFO  - Step 2 - Close welcome screen
+2023-08-08 04:35:07 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-08-08 04:35:08 INFO  - Step 3 - Add library screen is opened
+2023-08-08 04:35:09 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-08 04:35:09 INFO  - Button 'Search' :: Clicking
+2023-08-08 04:35:11 INFO  - Text Field 'Search' :: Clearing
+2023-08-08 04:35:11 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-08-08 04:35:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-08 04:35:14 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-08 04:35:14 INFO  - Button 'tabSettings' :: Clicking
+2023-08-08 04:35:16 INFO  - Button 'tabSettings' :: Clicking
+2023-08-08 04:35:17 INFO  - Button 'Accounts' :: Clicking
+2023-08-08 04:35:18 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-08-08 04:35:19 INFO  - Button 'tabSettings' :: Clicking
+2023-08-08 04:35:19 INFO  - Button 'tabSettings' :: Clicking
+2023-08-08 04:35:20 INFO  - Button 'Accounts' :: Clicking
+2023-08-08 04:35:21 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-08 04:35:22 INFO  - Locking credential with barcode 01230000000005
+2023-08-08 04:35:22 INFO  - There are books on the account: 
+2023-08-08 04:35:23 INFO  - bookName: Alice's Adventures in Wonderland Distributor: Palace Marketplace
+2023-08-08 04:35:23 INFO  - bookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood Distributor: Palace Marketplace
+2023-08-08 04:35:23 INFO  - bookName: Animal Instinct Distributor: Palace Marketplace
+2023-08-08 04:35:23 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-08-08 04:35:23 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-08-08 04:35:23 INFO  - Count of books on the account after opening account: 5
+2023-08-08 04:35:23 INFO  - Text Field 'Card' :: Clearing
+2023-08-08 04:35:23 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-08-08 04:35:25 INFO  - Text Field 'Pin' :: Clearing
+2023-08-08 04:35:25 INFO  - Text Field 'Pin' :: Typing '********'
+2023-08-08 04:35:27 INFO  - Button 'Log in' :: Clicking
+2023-08-08 04:35:32 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-08 04:35:33 INFO  - Step 7 - Login is performed successfully
+2023-08-08 04:35:54 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-08 04:35:54 INFO  - Step 8 - Open Catalog
+2023-08-08 04:35:54 INFO  - Button 'tabCatalog' :: Clicking
+2023-08-08 04:36:18 INFO  - Step 9 - Open search modal
+2023-08-08 04:36:38 INFO  - Button 'Search' :: Clicking
+2023-08-08 04:36:39 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-08 04:36:39 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-08-08 04:36:39 INFO  - randomBookName: Milk and Honey
+2023-08-08 04:36:40 INFO  - Error details button is not present
+2023-08-08 04:36:40 INFO  - Text Field 'Search value input' :: Sending keys 'Milk and Honey'
+2023-08-08 04:36:43 INFO  - Error details button is not present
+2023-08-08 04:36:50 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-08-08 04:36:50 INFO  - Button 'eBooks' :: Clicking
+2023-08-08 04:37:11 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-08 04:37:12 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-08 04:37:13 INFO  - Button 'actionButton' :: Clicking
+2023-08-08 04:37:22 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-08-08 04:37:22 INFO  - Step 14 - Open Books
+2023-08-08 04:37:22 INFO  - Button 'tabBooks' :: Clicking
+2023-08-08 04:37:24 INFO  - Step 15 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-08-08 04:37:24 INFO  - Label 'lblBookName' :: Clicking
+2023-08-08 04:37:24 INFO  - Step 16 - Click READ action button on book details screen
+2023-08-08 04:37:25 INFO  - Button 'Read' :: Clicking
+2023-08-08 04:37:26 INFO  - Step 17 - Wait for 3 seconds
+2023-08-08 04:37:29 INFO  - Step 18 - 'bookInfo' book is present on epub reader screen
+2023-08-08 04:37:30 INFO  - Label 'lblBookName' :: Getting text from element
+2023-08-08 04:37:31 INFO  - Book name on epub reader screen - Milk and Honey
+2023-08-08 04:37:31 INFO  - Taking screenshot
+2023-08-08 04:37:32 INFO  - Test finished - logging out
+2023-08-08 04:37:34 INFO  - Button 'tabSettings' :: Clicking
+2023-08-08 04:37:36 INFO  - Button 'tabSettings' :: Clicking
+2023-08-08 04:37:37 INFO  - Button 'Accounts' :: Clicking
+2023-08-08 04:37:38 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-08 04:37:40 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-08 04:37:40 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-08 04:37:40 INFO  - Button 'Log out' :: Clicking
+2023-08-08 04:38:01 INFO  - Button 'Log in' :: Getting text from element
+2023-08-08 04:38:01 INFO  - Unlocking credential for current thread
+2023-08-08 04:38:01 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5bd04157
