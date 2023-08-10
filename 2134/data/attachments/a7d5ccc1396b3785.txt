@@ -1,0 +1,81 @@
+2023-08-10 07:46:47 INFO  - Scenario 'Alert: Check of Cancel button after Remove button tapping' start
+2023-08-10 07:46:47 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-10 07:47:07 INFO  - Application on platform 'IOS' is ready...
+2023-08-10 07:47:07 INFO  - Session id - 2aaac67fb5e20d44975e797609bd5c4ff76b7546
+2023-08-10 07:47:07 INFO  - Step 0 - Close tutorial screen
+2023-08-10 07:47:07 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-10 07:47:09 INFO  - Step 1 - Welcome screen is opened
+2023-08-10 07:47:09 INFO  - Step 2 - Close welcome screen
+2023-08-10 07:47:10 INFO  - Button 'Find your library button' :: Clicking
+2023-08-10 07:47:11 INFO  - Step 3 - Add library screen is opened
+2023-08-10 07:47:16 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-10 07:47:17 INFO  - Text Field 'Search field' :: Clicking
+2023-08-10 07:47:23 INFO  - Text Field 'Search field' :: Clearing
+2023-08-10 07:47:23 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-08-10 07:47:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-10 07:47:36 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-10 07:47:36 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:47:38 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:47:39 INFO  - Button 'Libraries button' :: Clicking
+2023-08-10 07:47:41 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-08-10 07:47:41 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:47:43 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:47:45 INFO  - Button 'Libraries button' :: Clicking
+2023-08-10 07:47:48 INFO  - Locking credential with barcode 01230000000005
+2023-08-10 07:47:48 INFO  - There are books on the account: 
+2023-08-10 07:47:50 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-08-10 07:47:50 INFO  - bookName: Animal Instinct Distributor: Palace Marketplace
+2023-08-10 07:47:50 INFO  - bookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood Distributor: Palace Marketplace
+2023-08-10 07:47:50 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-08-10 07:47:50 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-08-10 07:47:50 INFO  - Count of books on the account after opening account: 5
+2023-08-10 07:48:11 INFO  - Text Field 'Card' :: Clicking
+2023-08-10 07:48:12 INFO  - Text Field 'Card' :: Clearing
+2023-08-10 07:48:12 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-08-10 07:48:16 INFO  - Text Field 'Pin' :: Clearing
+2023-08-10 07:48:16 INFO  - Text Field 'Pin' :: Typing '********'
+2023-08-10 07:48:20 INFO  - Button 'Log in' :: Clicking
+2023-08-10 07:48:29 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-08-10 07:48:32 INFO  - Step 7 - Login is performed successfully
+2023-08-10 07:48:33 INFO  - Step 8 - Open Catalog
+2023-08-10 07:48:33 INFO  - Button 'Catalog' :: Clicking
+2023-08-10 07:48:36 INFO  - Step 9 - Open search modal
+2023-08-10 07:48:37 INFO  - Button 'Search button' :: Clicking
+2023-08-10 07:48:40 INFO  - Step 10 - Search 'unavailable' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-10 07:48:40 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-08-10 07:48:40 INFO  - randomBookName: Too Much and Never Enough
+2023-08-10 07:48:41 INFO  - Text Field 'Search value input' :: Sending keys 'Too Much and Never Enough'
+2023-08-10 07:48:43 INFO  - Button 'Search' :: Clicking
+2023-08-10 07:48:46 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-08-10 07:48:46 INFO  - Button 'Audiobooks' :: Clicking
+2023-08-10 07:49:28 INFO  - Step 12 - Open AUDIOBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-10 07:49:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-10 07:49:32 INFO  - Label 'lblBookName' :: Clicking
+2023-08-10 07:49:33 INFO  - Step 13 - Click RESERVE action button on book details screen
+2023-08-10 07:49:34 INFO  - Button 'Reserve' :: Clicking
+2023-08-10 07:50:10 INFO  - Alert appears and dismiss alert
+2023-08-10 07:50:10 INFO  - Step 14 - Open Holds
+2023-08-10 07:50:10 INFO  - Button 'Reservations' :: Clicking
+2023-08-10 07:50:12 INFO  - Step 15 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-08-10 07:50:13 INFO  - Step 16 - Open AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo on holds screen
+2023-08-10 07:50:14 INFO  - Label 'lblBookName' :: Clicking
+2023-08-10 07:50:16 INFO  - Step 17 - Click REMOVE button but cancel the action by clicking CANCEL button on the alert
+2023-08-10 07:50:17 INFO  - Button 'Remove' :: Clicking
+2023-08-10 07:50:43 INFO  - Button 'Cancel ActionButtonAlert' :: Clicking
+2023-08-10 07:50:45 INFO  - Step 18 - Open Holds
+2023-08-10 07:50:45 INFO  - Button 'Reservations' :: Clicking
+2023-08-10 07:50:46 INFO  - Step 19 - AUDIOBOOK book with REMOVE action button and 'bookInfo' bookInfo is present on holds screen
+2023-08-10 07:50:56 INFO  - Taking screenshot
+2023-08-10 07:51:00 INFO  - Test finished - logging out
+2023-08-10 07:51:04 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:51:05 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:51:07 INFO  - Button 'Libraries button' :: Clicking
+2023-08-10 07:51:11 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-10 07:51:13 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-10 07:51:14 INFO  - Button 'Log out' :: Clicking
+2023-08-10 07:51:15 INFO  - Button 'Log out approve' :: Clicking
+2023-08-10 07:51:37 INFO  - Button 'Log in' :: Getting text from element
+2023-08-10 07:51:38 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-10 07:51:39 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-10 07:51:40 INFO  - Unlocking credential for current thread
+2023-08-10 07:51:40 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@37625a94

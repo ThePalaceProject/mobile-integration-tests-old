@@ -1,0 +1,73 @@
+2023-08-10 07:02:22 INFO  - Scenario 'Hold from Subcategory List View and Remove a Reserved Book from Subcategory List View' start
+2023-08-10 07:02:22 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-10 07:02:42 INFO  - Application on platform 'IOS' is ready...
+2023-08-10 07:02:42 INFO  - Session id - 39bda39f5201f378e25ac77dc7c24a26f3645e0b
+2023-08-10 07:02:42 INFO  - Step 0 - Close tutorial screen
+2023-08-10 07:02:43 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-10 07:02:43 INFO  - Step 1 - Welcome screen is opened
+2023-08-10 07:02:44 INFO  - Step 2 - Close welcome screen
+2023-08-10 07:02:44 INFO  - Button 'Find your library button' :: Clicking
+2023-08-10 07:02:45 INFO  - Step 3 - Add library screen is opened
+2023-08-10 07:02:50 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-10 07:02:50 INFO  - Text Field 'Search field' :: Clicking
+2023-08-10 07:02:55 INFO  - Text Field 'Search field' :: Clearing
+2023-08-10 07:02:55 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-08-10 07:03:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-10 07:03:07 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-10 07:03:07 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:03:08 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:03:09 INFO  - Button 'Libraries button' :: Clicking
+2023-08-10 07:03:11 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-08-10 07:03:11 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:03:12 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:03:13 INFO  - Button 'Libraries button' :: Clicking
+2023-08-10 07:03:15 INFO  - Locking credential with barcode 01230000000005
+2023-08-10 07:03:15 INFO  - There are books on the account: 
+2023-08-10 07:03:17 INFO  - bookName: Animal Instinct Distributor: Palace Marketplace
+2023-08-10 07:03:17 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-08-10 07:03:17 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-08-10 07:03:17 INFO  - bookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood Distributor: Palace Marketplace
+2023-08-10 07:03:17 INFO  - bookName: Phantom Lover Distributor: Palace Marketplace
+2023-08-10 07:03:17 INFO  - Count of books on the account after opening account: 5
+2023-08-10 07:03:38 INFO  - Text Field 'Card' :: Clicking
+2023-08-10 07:03:39 INFO  - Text Field 'Card' :: Clearing
+2023-08-10 07:03:39 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-08-10 07:03:42 INFO  - Text Field 'Pin' :: Clearing
+2023-08-10 07:03:42 INFO  - Text Field 'Pin' :: Typing '********'
+2023-08-10 07:03:45 INFO  - Button 'Log in' :: Clicking
+2023-08-10 07:03:53 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-08-10 07:03:55 INFO  - Step 7 - Login is performed successfully
+2023-08-10 07:03:55 INFO  - Step 8 - Open Catalog
+2023-08-10 07:03:55 INFO  - Button 'Catalog' :: Clicking
+2023-08-10 07:03:57 INFO  - Step 9 - Open search modal
+2023-08-10 07:03:58 INFO  - Button 'Search button' :: Clicking
+2023-08-10 07:04:01 INFO  - Step 10 - Search 'unavailable' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-10 07:04:01 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-08-10 07:04:01 INFO  - randomBookName: The Song of Achilles
+2023-08-10 07:04:01 INFO  - Text Field 'Search value input' :: Sending keys 'The Song of Achilles'
+2023-08-10 07:04:02 INFO  - Button 'Search' :: Clicking
+2023-08-10 07:04:05 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-08-10 07:04:05 INFO  - Button 'Audiobooks' :: Clicking
+2023-08-10 07:04:46 INFO  - Step 12 - Click RESERVE action button on AUDIOBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-10 07:04:47 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-10 07:04:48 INFO  - Button 'actionButton' :: Clicking
+2023-08-10 07:04:51 INFO  - Alert appears and dismiss alert
+2023-08-10 07:04:51 INFO  - Step 13 - Click REMOVE action button on AUDIOBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-10 07:04:54 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-10 07:04:55 INFO  - Button 'actionButton' :: Clicking
+2023-08-10 07:04:57 INFO  - Button 'Remove ActionButtonAlert' :: Clicking
+2023-08-10 07:04:58 INFO  - Step 14 - AUDIOBOOK book with RESERVE action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-08-10 07:05:02 INFO  - Taking screenshot
+2023-08-10 07:05:05 INFO  - Test finished - logging out
+2023-08-10 07:05:08 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:05:09 INFO  - Button 'Settings' :: Clicking
+2023-08-10 07:05:10 INFO  - Button 'Libraries button' :: Clicking
+2023-08-10 07:05:13 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-10 07:05:14 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-10 07:05:14 INFO  - Button 'Log out' :: Clicking
+2023-08-10 07:05:15 INFO  - Button 'Log out approve' :: Clicking
+2023-08-10 07:05:37 INFO  - Button 'Log in' :: Getting text from element
+2023-08-10 07:05:38 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-10 07:05:38 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-10 07:05:39 INFO  - Unlocking credential for current thread
+2023-08-10 07:05:39 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@37625a94
