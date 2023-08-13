@@ -1,0 +1,86 @@
+2023-08-13 15:22:46 INFO  - Scenario 'Navigate by Page' start
+2023-08-13 15:22:46 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-13 15:23:14 INFO  - Application on platform 'ANDROID' is ready...
+2023-08-13 15:23:14 INFO  - Session id - 7a9e4070bbb45e6ae708174de4076524f92db470
+2023-08-13 15:23:14 INFO  - Step 0 - Close tutorial screen
+2023-08-13 15:23:14 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-13 15:23:16 INFO  - Step 1 - Welcome screen is opened
+2023-08-13 15:23:17 INFO  - Step 2 - Close welcome screen
+2023-08-13 15:23:17 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-08-13 15:23:18 INFO  - Step 3 - Add library screen is opened
+2023-08-13 15:23:19 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-13 15:23:19 INFO  - Button 'Search' :: Clicking
+2023-08-13 15:23:21 INFO  - Text Field 'Search' :: Clearing
+2023-08-13 15:23:21 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-08-13 15:23:24 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-13 15:23:24 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-13 15:23:25 INFO  - Button 'tabSettings' :: Clicking
+2023-08-13 15:23:26 INFO  - Button 'tabSettings' :: Clicking
+2023-08-13 15:23:27 INFO  - Button 'Accounts' :: Clicking
+2023-08-13 15:23:29 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-08-13 15:23:29 INFO  - Button 'tabSettings' :: Clicking
+2023-08-13 15:23:30 INFO  - Button 'tabSettings' :: Clicking
+2023-08-13 15:23:32 INFO  - Button 'Accounts' :: Clicking
+2023-08-13 15:23:33 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-13 15:23:34 INFO  - Locking credential with barcode 01230000000002
+2023-08-13 15:23:34 INFO  - There are books on the account: 
+2023-08-13 15:23:35 INFO  - bookName: Legacy Distributor: Palace Marketplace
+2023-08-13 15:23:35 INFO  - bookName: Factfulness Distributor: Palace Marketplace
+2023-08-13 15:23:35 INFO  - bookName: Cryptonomicon Distributor: Palace Marketplace
+2023-08-13 15:23:35 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-08-13 15:23:35 INFO  - Count of books on the account after opening account: 4
+2023-08-13 15:23:35 INFO  - Text Field 'Card' :: Clearing
+2023-08-13 15:23:35 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-08-13 15:23:36 INFO  - Text Field 'Pin' :: Clearing
+2023-08-13 15:23:36 INFO  - Text Field 'Pin' :: Typing '********'
+2023-08-13 15:23:39 INFO  - Button 'Log in' :: Clicking
+2023-08-13 15:23:45 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-13 15:23:46 INFO  - Step 7 - Login is performed successfully
+2023-08-13 15:24:07 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-13 15:24:08 INFO  - Step 8 - Open Catalog
+2023-08-13 15:24:08 INFO  - Button 'tabCatalog' :: Clicking
+2023-08-13 15:24:31 INFO  - Step 9 - Open search modal
+2023-08-13 15:24:51 INFO  - Button 'Search' :: Clicking
+2023-08-13 15:24:53 INFO  - Step 10 - Search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-13 15:24:53 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-08-13 15:24:53 INFO  - randomBookName: Ginny Goblin Cannot Have a Monster for a Pet
+2023-08-13 15:24:54 INFO  - Error details button is not present
+2023-08-13 15:24:54 INFO  - Text Field 'Search value input' :: Sending keys 'Ginny Goblin Cannot Have a Monster for a Pet'
+2023-08-13 15:24:57 INFO  - Error details button is not present
+2023-08-13 15:25:00 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-13 15:25:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-13 15:25:02 INFO  - Button 'actionButton' :: Clicking
+2023-08-13 15:25:17 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-13 15:25:18 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-13 15:25:18 INFO  - Label 'lblBookName' :: Clicking
+2023-08-13 15:25:19 INFO  - Step 13 - Click READ action button on book details screen
+2023-08-13 15:25:20 INFO  - Button 'Read' :: Clicking
+2023-08-13 15:25:23 INFO  - Step 14 - 'bookInfo' book is present on epub reader screen
+2023-08-13 15:25:30 INFO  - Label 'lblBookName' :: Getting text from element
+2023-08-13 15:25:31 INFO  - Book name on epub reader screen - Ginny Goblin Cannot Have a Monster for a Pet (9780358064305)
+2023-08-13 15:25:31 INFO  - Step 15 - Scroll page forward from 7 to 10 times
+2023-08-13 15:25:31 INFO  - Scrolling 7 times on reader epub screen
+2023-08-13 15:25:50 INFO  - Step 16 - Open navigation bar on reader epub screen
+2023-08-13 15:25:51 INFO  - Step 17 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-08-13 15:25:51 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-08-13 15:25:52 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-08-13 15:25:52 INFO  - Step 18 - Open navigation bar on reader epub screen
+2023-08-13 15:25:53 INFO  - Step 19 - Next page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-08-13 15:25:53 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-08-13 15:25:53 INFO  - actualPageNumberOfNextPage27
+2023-08-13 15:25:53 INFO  - expectedPageNumberOfNextPage28
+2023-08-13 15:25:53 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-08-13 15:25:54 INFO  - actualChapterNameOfNextPage
+2023-08-13 15:25:54 INFO  - expectedChapterNameOfNextPage
+2023-08-13 15:25:54 INFO  - Taking screenshot
+2023-08-13 15:25:56 INFO  - Test finished - logging out
+2023-08-13 15:25:57 INFO  - Button 'tabSettings' :: Clicking
+2023-08-13 15:26:00 INFO  - Button 'tabSettings' :: Clicking
+2023-08-13 15:26:02 INFO  - Button 'Accounts' :: Clicking
+2023-08-13 15:26:02 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-13 15:26:04 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-13 15:26:05 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-13 15:26:05 INFO  - Button 'Log out' :: Clicking
+2023-08-13 15:26:26 INFO  - Button 'Log in' :: Getting text from element
+2023-08-13 15:26:27 INFO  - Unlocking credential for current thread
+2023-08-13 15:26:27 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1f2cef7
