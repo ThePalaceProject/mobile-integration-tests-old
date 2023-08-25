@@ -1,0 +1,82 @@
+2023-08-25 03:00:10 INFO  - Scenario 'LYRASIS: Getting and returning books from Book Detail View' start
+2023-08-25 03:00:10 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-25 03:00:29 INFO  - Application on platform 'IOS' is ready...
+2023-08-25 03:00:29 INFO  - Session id - 5d2629cc1b83759a29a7857e25f5bd90a17e2e59
+2023-08-25 03:00:29 INFO  - Step 0 - Close tutorial screen
+2023-08-25 03:00:29 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-25 03:00:30 INFO  - Step 1 - Welcome screen is opened
+2023-08-25 03:00:30 INFO  - Step 2 - Close welcome screen
+2023-08-25 03:00:30 INFO  - Button 'Find your library button' :: Clicking
+2023-08-25 03:00:31 INFO  - Step 3 - Add library screen is opened
+2023-08-25 03:00:37 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-25 03:00:37 INFO  - Text Field 'Search field' :: Clicking
+2023-08-25 03:00:43 INFO  - Text Field 'Search field' :: Clearing
+2023-08-25 03:00:43 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-08-25 03:00:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-25 03:00:56 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-25 03:00:56 INFO  - Button 'Settings' :: Clicking
+2023-08-25 03:00:57 INFO  - Button 'Settings' :: Clicking
+2023-08-25 03:00:58 INFO  - Button 'Libraries button' :: Clicking
+2023-08-25 03:01:00 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-08-25 03:01:00 INFO  - Button 'Settings' :: Clicking
+2023-08-25 03:01:01 INFO  - Button 'Settings' :: Clicking
+2023-08-25 03:01:02 INFO  - Button 'Libraries button' :: Clicking
+2023-08-25 03:01:05 INFO  - Locking credential with barcode 01230000000005
+2023-08-25 03:01:05 INFO  - There are books on the account: 
+2023-08-25 03:01:05 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-08-25 03:01:05 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-08-25 03:01:05 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-08-25 03:01:05 INFO  - bookName: Alice's Adventures in Wonderland Distributor: Palace Marketplace
+2023-08-25 03:01:05 INFO  - Count of books on the account after opening account: 4
+2023-08-25 03:01:27 INFO  - Text Field 'Card' :: Clicking
+2023-08-25 03:01:28 INFO  - Text Field 'Card' :: Clearing
+2023-08-25 03:01:28 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-08-25 03:01:31 INFO  - Text Field 'Pin' :: Clearing
+2023-08-25 03:01:31 INFO  - Text Field 'Pin' :: Typing '********'
+2023-08-25 03:01:34 INFO  - Button 'Log in' :: Clicking
+2023-08-25 03:01:57 INFO  - Step 7 - Login is performed successfully
+2023-08-25 03:01:57 INFO  - Step 8 - Open Catalog
+2023-08-25 03:01:57 INFO  - Button 'Catalog' :: Clicking
+2023-08-25 03:02:00 INFO  - Step 9 - Open search modal
+2023-08-25 03:02:01 INFO  - Button 'Search button' :: Clicking
+2023-08-25 03:02:03 INFO  - Step 10 - Search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-25 03:02:03 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-08-25 03:02:03 INFO  - randomBookName: Stink: the Incredible Shrinking Kid
+2023-08-25 03:02:04 INFO  - Text Field 'Search value input' :: Sending keys 'Stink: the Incredible Shrinking Kid'
+2023-08-25 03:02:05 INFO  - Button 'Search' :: Clicking
+2023-08-25 03:02:08 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-08-25 03:02:08 INFO  - Button 'eBooks' :: Clicking
+2023-08-25 03:02:49 INFO  - Step 12 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-25 03:02:51 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-25 03:02:51 INFO  - Label 'lblBookName' :: Clicking
+2023-08-25 03:02:53 INFO  - Step 13 - Click GET action button on book details screen
+2023-08-25 03:02:53 INFO  - Button 'Get' :: Clicking
+2023-08-25 03:03:37 INFO  - Step 14 - Check that book contains READ action button on book details screen
+2023-08-25 03:03:38 INFO  - Step 15 - Click RETURN action button on book details screen
+2023-08-25 03:03:39 INFO  - Button 'Return' :: Clicking
+2023-08-25 03:04:04 INFO  - Button 'Return ActionButtonAlert' :: Clicking
+2023-08-25 03:04:05 INFO  - Step 16 - Check that book contains GET action button on book details screen
+2023-08-25 03:04:09 INFO  - Step 17 - Click GET action button on book details screen
+2023-08-25 03:04:09 INFO  - Button 'Get' :: Clicking
+2023-08-25 03:04:54 INFO  - Step 18 - Check that book contains READ action button on book details screen
+2023-08-25 03:04:54 INFO  - Step 19 - Click READ action button on book details screen
+2023-08-25 03:04:55 INFO  - Button 'Read' :: Clicking
+2023-08-25 03:05:02 INFO  - Alert appears and dismiss alert
+2023-08-25 03:05:02 INFO  - Step 20 - Wait for 3 seconds
+2023-08-25 03:05:05 INFO  - Step 21 - Book 'bookInfo' with EBOOK type is present on epub or pdf or audiobook screen
+2023-08-25 03:05:05 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-08-25 03:05:06 INFO  - Book name on epub reader screen - Incredible Shrinking Kid (9780763651886)
+2023-08-25 03:05:06 INFO  - Taking screenshot
+2023-08-25 03:05:07 INFO  - Test finished - logging out
+2023-08-25 03:05:10 INFO  - Button 'Settings' :: Clicking
+2023-08-25 03:05:11 INFO  - Button 'Settings' :: Clicking
+2023-08-25 03:05:12 INFO  - Button 'Libraries button' :: Clicking
+2023-08-25 03:05:16 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-25 03:05:17 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-25 03:05:18 INFO  - Button 'Log out' :: Clicking
+2023-08-25 03:05:19 INFO  - Button 'Log out approve' :: Clicking
+2023-08-25 03:05:40 INFO  - Button 'Log in' :: Getting text from element
+2023-08-25 03:05:41 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-25 03:05:42 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-25 03:05:42 INFO  - Unlocking credential for current thread
+2023-08-25 03:05:42 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2df2cfc
