@@ -1,0 +1,156 @@
+2023-08-26 14:47:36 INFO  - Scenario 'Navigate by bookmarks' start
+2023-08-26 14:47:36 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-26 14:48:01 INFO  - Application on platform 'ANDROID' is ready...
+2023-08-26 14:48:01 INFO  - Session id - 8991dc328bce31719ab4f45ece058d21cde6cf03
+2023-08-26 14:48:01 INFO  - Step 0 - Close tutorial screen
+2023-08-26 14:48:01 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-26 14:48:03 INFO  - Step 1 - Welcome screen is opened
+2023-08-26 14:48:04 INFO  - Step 2 - Close welcome screen
+2023-08-26 14:48:04 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-08-26 14:48:04 INFO  - Step 3 - Add library screen is opened
+2023-08-26 14:48:06 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-26 14:48:06 INFO  - Button 'Search' :: Clicking
+2023-08-26 14:48:07 INFO  - Text Field 'Search' :: Clearing
+2023-08-26 14:48:07 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-08-26 14:48:10 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-26 14:48:11 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-26 14:48:11 INFO  - Button 'tabSettings' :: Clicking
+2023-08-26 14:48:15 INFO  - Button 'tabSettings' :: Clicking
+2023-08-26 14:48:16 INFO  - Button 'Accounts' :: Clicking
+2023-08-26 14:48:18 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-08-26 14:48:18 INFO  - Button 'tabSettings' :: Clicking
+2023-08-26 14:48:18 INFO  - Button 'tabSettings' :: Clicking
+2023-08-26 14:48:19 INFO  - Button 'Accounts' :: Clicking
+2023-08-26 14:48:20 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-26 14:48:21 INFO  - Locking credential with barcode 01230000000005
+2023-08-26 14:48:21 INFO  - There are books on the account: 
+2023-08-26 14:48:22 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-08-26 14:48:22 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-08-26 14:48:22 INFO  - bookName: Animal Instinct Distributor: Palace Marketplace
+2023-08-26 14:48:22 INFO  - bookName: Alice's Adventures in Wonderland Distributor: Palace Marketplace
+2023-08-26 14:48:22 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-08-26 14:48:22 INFO  - Count of books on the account after opening account: 5
+2023-08-26 14:48:22 INFO  - Text Field 'Card' :: Clearing
+2023-08-26 14:48:22 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-08-26 14:48:24 INFO  - Text Field 'Pin' :: Clearing
+2023-08-26 14:48:24 INFO  - Text Field 'Pin' :: Typing '********'
+2023-08-26 14:48:26 INFO  - Button 'Log in' :: Clicking
+2023-08-26 14:48:31 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-26 14:48:32 INFO  - Step 7 - Login is performed successfully
+2023-08-26 14:48:53 INFO  - Button 'Log ... action' :: Getting text from element
+2023-08-26 14:48:53 INFO  - Step 8 - Open Catalog
+2023-08-26 14:48:53 INFO  - Button 'tabCatalog' :: Clicking
+2023-08-26 14:49:15 INFO  - Step 9 - Open search modal
+2023-08-26 14:49:36 INFO  - Button 'Search' :: Clicking
+2023-08-26 14:49:37 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-26 14:49:37 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-08-26 14:49:37 INFO  - randomBookName: Later
+2023-08-26 14:49:38 INFO  - Error details button is not present
+2023-08-26 14:49:38 INFO  - Text Field 'Search value input' :: Sending keys 'Later'
+2023-08-26 14:49:40 INFO  - Error details button is not present
+2023-08-26 14:49:43 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-26 14:49:44 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-26 14:49:45 INFO  - Button 'actionButton' :: Clicking
+2023-08-26 14:49:52 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-26 14:49:53 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-26 14:49:53 INFO  - Label 'lblBookName' :: Clicking
+2023-08-26 14:49:53 INFO  - Step 13 - Click READ action button on book details screen
+2023-08-26 14:49:55 INFO  - Button 'Read' :: Clicking
+2023-08-26 14:49:57 INFO  - Step 14 - Open navigation bar on reader epub screen
+2023-08-26 14:50:00 INFO  - Step 15 - Add bookmark on reader epub screen
+2023-08-26 14:50:02 INFO  - Button 'btnAddBookmark' :: Clicking
+2023-08-26 14:50:03 INFO  - Step 16 - Bookmark is displayed on reader epub screen
+2023-08-26 14:50:04 INFO  - Step 17 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-08-26 14:50:04 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-08-26 14:50:04 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-08-26 14:50:04 INFO  - Step 18 - Save device time and date as 'deviceTimeDateKey'
+2023-08-26 14:50:04 INFO  - Step 19 - Scroll page forward from 7 to 9 times
+2023-08-26 14:50:04 INFO  - Scrolling 8 times on reader epub screen
+2023-08-26 14:50:24 INFO  - Step 20 - Add bookmark on reader epub screen
+2023-08-26 14:50:24 INFO  - Button 'btnAddBookmark' :: Clicking
+2023-08-26 14:50:24 INFO  - Step 21 - Save pageNumber as 'pageNumberKey2' and chapterName as 'chapterNameKey2' on epub reader screen
+2023-08-26 14:50:24 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-08-26 14:50:25 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-08-26 14:50:26 INFO  - Step 22 - Save device time and date as 'deviceTimeDateKey2'
+2023-08-26 14:50:26 INFO  - Step 23 - Open navigation bar on reader epub screen
+2023-08-26 14:50:27 INFO  - Step 24 - Open bookmarks epub screen
+2023-08-26 14:50:27 INFO  - Button 'btnChapters' :: Clicking
+2023-08-26 14:50:28 INFO  - Label 'tab' :: Clicking
+2023-08-26 14:50:30 INFO  - Step 25 - Bookmark with 'chapterNameKey' and 'deviceTimeDateKey' is displayed on bookmarks epub screen
+2023-08-26 14:50:30 INFO  - expected bookmark info: 
+2023-08-26 14:50:30 INFO  - expected bookmark title-Cover
+2023-08-26 14:50:30 INFO  - expected year-2023
+2023-08-26 14:50:30 INFO  - expected month-8
+2023-08-26 14:50:30 INFO  - expected dayNumber-26
+2023-08-26 14:50:30 INFO  - expected min-50
+2023-08-26 14:50:30 INFO  - expected hour-14
+2023-08-26 14:50:30 INFO  - Label 'element 1' :: Getting text from element
+2023-08-26 14:50:31 INFO  - Label 'element 2' :: Getting text from element
+2023-08-26 14:50:32 INFO  - Label 'element 1' :: Getting text from element
+2023-08-26 14:50:32 INFO  - Label 'element 2' :: Getting text from element
+2023-08-26 14:50:33 INFO  - Label 'element 1' :: Getting text from element
+2023-08-26 14:50:33 INFO  - Label 'element 2' :: Getting text from element
+2023-08-26 14:50:34 INFO  - Label 'element 3' :: Getting text from element
+2023-08-26 14:50:34 INFO  - bookmark number 0 info: 
+2023-08-26 14:50:34 INFO  - actual bookmark title-Cover
+2023-08-26 14:50:34 INFO  - actual year-2023
+2023-08-26 14:50:34 INFO  - actual month-8
+2023-08-26 14:50:34 INFO  - actual dayNumber-26
+2023-08-26 14:50:34 INFO  - actual min-50
+2023-08-26 14:50:34 INFO  - actual hour-14
+2023-08-26 14:50:34 INFO  - Step 26 - Bookmark with 'chapterNameKey2' and 'deviceTimeDateKey2' is displayed on bookmarks epub screen
+2023-08-26 14:50:34 INFO  - expected bookmark info: 
+2023-08-26 14:50:34 INFO  - expected bookmark title-Title Page
+2023-08-26 14:50:34 INFO  - expected year-2023
+2023-08-26 14:50:34 INFO  - expected month-8
+2023-08-26 14:50:34 INFO  - expected dayNumber-26
+2023-08-26 14:50:34 INFO  - expected min-50
+2023-08-26 14:50:34 INFO  - expected hour-14
+2023-08-26 14:50:34 INFO  - Label 'element 1' :: Getting text from element
+2023-08-26 14:50:35 INFO  - Label 'element 2' :: Getting text from element
+2023-08-26 14:50:36 INFO  - Label 'element 1' :: Getting text from element
+2023-08-26 14:50:36 INFO  - Label 'element 2' :: Getting text from element
+2023-08-26 14:50:37 INFO  - Label 'element 1' :: Getting text from element
+2023-08-26 14:50:38 INFO  - Label 'element 2' :: Getting text from element
+2023-08-26 14:50:38 INFO  - Label 'element 3' :: Getting text from element
+2023-08-26 14:50:38 INFO  - bookmark number 0 info: 
+2023-08-26 14:50:38 INFO  - actual bookmark title-Cover
+2023-08-26 14:50:38 INFO  - actual year-2023
+2023-08-26 14:50:38 INFO  - actual month-8
+2023-08-26 14:50:38 INFO  - actual dayNumber-26
+2023-08-26 14:50:38 INFO  - actual min-50
+2023-08-26 14:50:38 INFO  - actual hour-14
+2023-08-26 14:50:39 INFO  - Label 'element 1' :: Getting text from element
+2023-08-26 14:50:39 INFO  - Label 'element 2' :: Getting text from element
+2023-08-26 14:50:40 INFO  - Label 'element 1' :: Getting text from element
+2023-08-26 14:50:41 INFO  - Label 'element 2' :: Getting text from element
+2023-08-26 14:50:42 INFO  - Label 'element 1' :: Getting text from element
+2023-08-26 14:50:42 INFO  - Label 'element 2' :: Getting text from element
+2023-08-26 14:50:43 INFO  - Label 'element 3' :: Getting text from element
+2023-08-26 14:50:43 INFO  - bookmark number 1 info: 
+2023-08-26 14:50:43 INFO  - actual bookmark title-Title Page
+2023-08-26 14:50:43 INFO  - actual year-2023
+2023-08-26 14:50:43 INFO  - actual month-8
+2023-08-26 14:50:43 INFO  - actual dayNumber-26
+2023-08-26 14:50:43 INFO  - actual min-50
+2023-08-26 14:50:43 INFO  - actual hour-14
+2023-08-26 14:50:43 INFO  - Step 27 - Open random bookmark and save chapter name as 'chapterNameKey3' on bookmarks epub screen
+2023-08-26 14:50:44 INFO  - Label 'element 1' :: Getting text from element
+2023-08-26 14:50:44 INFO  - Label 'element 2' :: Getting text from element
+2023-08-26 14:50:46 INFO  - Label 'element 1' :: Getting text from element
+2023-08-26 14:50:46 INFO  - Label 'element 2' :: Getting text from element
+2023-08-26 14:50:47 INFO  - Label 'element 2' :: Clicking
+2023-08-26 14:50:47 INFO  - Step 28 - 'chapterNameKey3' chapter name is displayed on reader epub screen
+2023-08-26 14:50:48 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-08-26 14:50:49 INFO  - Taking screenshot
+2023-08-26 14:50:49 INFO  - Test finished - logging out
+2023-08-26 14:50:50 INFO  - Button 'tabSettings' :: Clicking
+2023-08-26 14:50:53 INFO  - Button 'tabSettings' :: Clicking
+2023-08-26 14:50:54 INFO  - Button 'Accounts' :: Clicking
+2023-08-26 14:50:56 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-26 14:50:57 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-26 14:50:57 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-26 14:50:57 INFO  - Button 'Log out' :: Clicking
+2023-08-26 14:51:18 INFO  - Button 'Log in' :: Getting text from element
+2023-08-26 14:51:18 INFO  - Unlocking credential for current thread
+2023-08-26 14:51:18 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@db74242
