@@ -1,0 +1,48 @@
+2023-08-26 08:26:10 INFO  - Scenario 'Check related books section in LYRASIS' start
+2023-08-26 08:26:10 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-26 08:26:36 INFO  - Application on platform 'ANDROID' is ready...
+2023-08-26 08:26:36 INFO  - Session id - f78427294700fd0d17c8f977c46515b18e55617c
+2023-08-26 08:26:36 INFO  - Step 0 - Close tutorial screen
+2023-08-26 08:26:36 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-26 08:26:38 INFO  - Step 1 - Welcome screen is opened
+2023-08-26 08:26:39 INFO  - Step 2 - Close welcome screen
+2023-08-26 08:26:39 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-08-26 08:26:39 INFO  - Step 3 - Add library screen is opened
+2023-08-26 08:26:40 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-26 08:26:40 INFO  - Button 'Search' :: Clicking
+2023-08-26 08:26:42 INFO  - Text Field 'Search' :: Clearing
+2023-08-26 08:26:42 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-08-26 08:26:45 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-26 08:26:45 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-26 08:26:45 INFO  - Button 'tabSettings' :: Clicking
+2023-08-26 08:26:46 INFO  - Button 'tabSettings' :: Clicking
+2023-08-26 08:26:47 INFO  - Button 'Accounts' :: Clicking
+2023-08-26 08:26:49 INFO  - Step 6 - Open Catalog
+2023-08-26 08:26:49 INFO  - Button 'tabCatalog' :: Clicking
+2023-08-26 08:27:12 INFO  - Step 7 - Open search modal
+2023-08-26 08:27:33 INFO  - Button 'Search' :: Clicking
+2023-08-26 08:27:34 INFO  - Step 8 - Search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-26 08:27:34 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-08-26 08:27:34 INFO  - randomBookName: Love Overboard
+2023-08-26 08:27:34 INFO  - Error details button is not present
+2023-08-26 08:27:34 INFO  - Text Field 'Search value input' :: Sending keys 'Love Overboard'
+2023-08-26 08:27:37 INFO  - Error details button is not present
+2023-08-26 08:27:39 INFO  - Step 9 - Switch to 'Audiobooks' catalog tab
+2023-08-26 08:27:39 INFO  - Button 'Audiobooks' :: Clicking
+2023-08-26 08:28:01 INFO  - Step 10 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-26 08:28:01 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-26 08:28:01 INFO  - Label 'lblBookName' :: Clicking
+2023-08-26 08:28:02 INFO  - Step 11 - Book 'bookInfo' is opened on book details screen
+2023-08-26 08:28:02 INFO  - Label 'Book title' :: Getting text from element
+2023-08-26 08:28:03 INFO  - Label 'Book Authors' :: Getting text from element
+2023-08-26 08:28:03 INFO  - Label 'Book title' :: Getting text from element
+2023-08-26 08:28:03 INFO  - Label 'Book Authors' :: Getting text from element
+2023-08-26 08:28:04 INFO  - Step 12 - Related books section is displayed on book details screen
+2023-08-26 08:28:04 INFO  - Label 'Book title' :: Getting text from element
+2023-08-26 08:28:04 INFO  - Label 'Book Authors' :: Getting text from element
+2023-08-26 08:28:05 INFO  - Swiping from coordinates (x:720; y:2324) to (x:720; y:435)
+2023-08-26 08:28:07 INFO  - Step 13 - There is a list of related books on book details screen
+2023-08-26 08:28:07 INFO  - Step 14 - More button in related books section is available on book details screen
+2023-08-26 08:28:07 INFO  - Taking screenshot
+2023-08-26 08:28:08 INFO  - Unlocking credential for current thread
+2023-08-26 08:28:08 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2047f57a

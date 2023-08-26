@@ -1,0 +1,48 @@
+2023-08-26 08:22:19 INFO  - Scenario 'Check related books section in LYRASIS' start
+2023-08-26 08:22:19 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-26 08:22:42 INFO  - Application on platform 'ANDROID' is ready...
+2023-08-26 08:22:42 INFO  - Session id - 90c47989545c8b9415adc1bae88b3cdff9c337fb
+2023-08-26 08:22:42 INFO  - Step 0 - Close tutorial screen
+2023-08-26 08:22:42 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-26 08:22:44 INFO  - Step 1 - Welcome screen is opened
+2023-08-26 08:22:45 INFO  - Step 2 - Close welcome screen
+2023-08-26 08:22:45 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-08-26 08:22:45 INFO  - Step 3 - Add library screen is opened
+2023-08-26 08:22:47 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-26 08:22:47 INFO  - Button 'Search' :: Clicking
+2023-08-26 08:22:48 INFO  - Text Field 'Search' :: Clearing
+2023-08-26 08:22:48 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-08-26 08:22:51 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-26 08:22:51 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-26 08:22:51 INFO  - Button 'tabSettings' :: Clicking
+2023-08-26 08:22:53 INFO  - Button 'tabSettings' :: Clicking
+2023-08-26 08:22:53 INFO  - Button 'Accounts' :: Clicking
+2023-08-26 08:22:55 INFO  - Step 6 - Open Catalog
+2023-08-26 08:22:55 INFO  - Button 'tabCatalog' :: Clicking
+2023-08-26 08:23:15 INFO  - Step 7 - Open search modal
+2023-08-26 08:23:35 INFO  - Button 'Search' :: Clicking
+2023-08-26 08:23:37 INFO  - Step 8 - Search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-26 08:23:37 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-08-26 08:23:37 INFO  - randomBookName: The Sentence
+2023-08-26 08:23:37 INFO  - Error details button is not present
+2023-08-26 08:23:37 INFO  - Text Field 'Search value input' :: Sending keys 'The Sentence'
+2023-08-26 08:23:39 INFO  - Error details button is not present
+2023-08-26 08:23:41 INFO  - Step 9 - Switch to 'Audiobooks' catalog tab
+2023-08-26 08:23:42 INFO  - Button 'Audiobooks' :: Clicking
+2023-08-26 08:24:03 INFO  - Step 10 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-26 08:24:04 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-26 08:24:04 INFO  - Label 'lblBookName' :: Clicking
+2023-08-26 08:24:04 INFO  - Step 11 - Book 'bookInfo' is opened on book details screen
+2023-08-26 08:24:04 INFO  - Label 'Book title' :: Getting text from element
+2023-08-26 08:24:07 INFO  - Label 'Book Authors' :: Getting text from element
+2023-08-26 08:24:07 INFO  - Label 'Book title' :: Getting text from element
+2023-08-26 08:24:07 INFO  - Label 'Book Authors' :: Getting text from element
+2023-08-26 08:24:08 INFO  - Step 12 - Related books section is displayed on book details screen
+2023-08-26 08:24:08 INFO  - Label 'Book title' :: Getting text from element
+2023-08-26 08:24:08 INFO  - Label 'Book Authors' :: Getting text from element
+2023-08-26 08:24:09 INFO  - Swiping from coordinates (x:720; y:2324) to (x:720; y:435)
+2023-08-26 08:24:10 INFO  - Step 13 - There is a list of related books on book details screen
+2023-08-26 08:24:11 INFO  - Step 14 - More button in related books section is available on book details screen
+2023-08-26 08:24:11 INFO  - Taking screenshot
+2023-08-26 08:24:12 INFO  - Unlocking credential for current thread
+2023-08-26 08:24:12 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@2047f57a
