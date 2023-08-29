@@ -1,0 +1,88 @@
+2023-08-29 04:46:02 INFO  - Scenario 'Open book to last page read' start
+2023-08-29 04:46:02 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-08-29 04:46:24 INFO  - Application on platform 'IOS' is ready...
+2023-08-29 04:46:24 INFO  - Session id - 586487afef67164a2776692d1e4c8d598c7fbc8a
+2023-08-29 04:46:24 INFO  - Step 0 - Close tutorial screen
+2023-08-29 04:46:25 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-08-29 04:46:25 INFO  - Step 1 - Welcome screen is opened
+2023-08-29 04:46:26 INFO  - Step 2 - Close welcome screen
+2023-08-29 04:46:26 INFO  - Button 'Find your library button' :: Clicking
+2023-08-29 04:46:27 INFO  - Step 3 - Add library screen is opened
+2023-08-29 04:46:31 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-08-29 04:46:32 INFO  - Text Field 'Search field' :: Clicking
+2023-08-29 04:46:38 INFO  - Text Field 'Search field' :: Clearing
+2023-08-29 04:46:38 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-08-29 04:46:48 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-08-29 04:46:49 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-08-29 04:46:49 INFO  - Button 'Settings' :: Clicking
+2023-08-29 04:46:51 INFO  - Button 'Settings' :: Clicking
+2023-08-29 04:46:52 INFO  - Button 'Libraries button' :: Clicking
+2023-08-29 04:46:53 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-08-29 04:46:53 INFO  - Button 'Settings' :: Clicking
+2023-08-29 04:46:54 INFO  - Button 'Settings' :: Clicking
+2023-08-29 04:46:55 INFO  - Button 'Libraries button' :: Clicking
+2023-08-29 04:46:58 INFO  - Locking credential with barcode 01230000000005
+2023-08-29 04:46:58 INFO  - There are books on the account: 
+2023-08-29 04:46:59 INFO  - bookName: Alice's Adventures in Wonderland Distributor: Palace Marketplace
+2023-08-29 04:46:59 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-08-29 04:46:59 INFO  - bookName: Animal Instinct Distributor: Palace Marketplace
+2023-08-29 04:46:59 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-08-29 04:46:59 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-08-29 04:46:59 INFO  - Count of books on the account after opening account: 5
+2023-08-29 04:47:20 INFO  - Text Field 'Card' :: Clicking
+2023-08-29 04:47:21 INFO  - Text Field 'Card' :: Clearing
+2023-08-29 04:47:21 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-08-29 04:47:24 INFO  - Text Field 'Pin' :: Clearing
+2023-08-29 04:47:24 INFO  - Text Field 'Pin' :: Typing '********'
+2023-08-29 04:47:27 INFO  - Button 'Log in' :: Clicking
+2023-08-29 04:47:49 INFO  - Step 7 - Login is performed successfully
+2023-08-29 04:47:49 INFO  - Step 8 - Open Catalog
+2023-08-29 04:47:49 INFO  - Button 'Catalog' :: Clicking
+2023-08-29 04:47:51 INFO  - Step 9 - Open search modal
+2023-08-29 04:47:52 INFO  - Button 'Search button' :: Clicking
+2023-08-29 04:47:54 INFO  - Step 10 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-08-29 04:47:54 INFO  - Count of attempts to get random book name without bad symbols-3
+2023-08-29 04:47:54 INFO  - randomBookName: Our Missing Hearts
+2023-08-29 04:47:54 INFO  - Text Field 'Search value input' :: Sending keys 'Our Missing Hearts'
+2023-08-29 04:47:56 INFO  - Button 'Search' :: Clicking
+2023-08-29 04:47:58 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-29 04:47:59 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-29 04:48:00 INFO  - Button 'actionButton' :: Clicking
+2023-08-29 04:48:22 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-08-29 04:48:24 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-08-29 04:48:24 INFO  - Label 'lblBookName' :: Clicking
+2023-08-29 04:48:25 INFO  - Step 13 - Click READ action button on book details screen
+2023-08-29 04:48:27 INFO  - Button 'Read' :: Clicking
+2023-08-29 04:48:48 INFO  - Step 14 - Scroll page forward from 7 to 10 times
+2023-08-29 04:48:48 INFO  - Scrolling 7 times on reader epub screen
+2023-08-29 04:49:02 INFO  - Step 15 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-08-29 04:49:02 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-08-29 04:49:02 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-08-29 04:49:03 INFO  - Step 16 - Wait for 3 seconds
+2023-08-29 04:49:06 INFO  - Step 17 - Return to previous screen for epub and pdf
+2023-08-29 04:49:08 INFO  - Button 'btnBack' :: Clicking
+2023-08-29 04:49:08 INFO  - Step 18 - Click READ action button on book details screen
+2023-08-29 04:49:09 INFO  - Button 'Read' :: Clicking
+2023-08-29 04:49:31 INFO  - Step 19 - 'bookInfo' book is present on epub reader screen
+2023-08-29 04:49:31 INFO  - Label 'lblBookName' :: Getting attribute 'name'
+2023-08-29 04:49:33 INFO  - Book name on epub reader screen - Our Missing Hearts
+2023-08-29 04:49:33 INFO  - Step 20 - PageNumber 'pageNumberKey' is correct
+2023-08-29 04:49:33 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-08-29 04:49:34 INFO  - Step 21 - Scroll page forward from 3 to 4 times
+2023-08-29 04:49:34 INFO  - Scrolling 3 times on reader epub screen
+2023-08-29 04:49:41 INFO  - Step 22 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-08-29 04:49:41 INFO  - Label 'lblPageNumberAndChapterName' :: Getting attribute 'name'
+2023-08-29 04:49:43 INFO  - Taking screenshot
+2023-08-29 04:49:49 INFO  - Test finished - logging out
+2023-08-29 04:49:52 INFO  - Button 'Settings' :: Clicking
+2023-08-29 04:49:54 INFO  - Button 'Settings' :: Clicking
+2023-08-29 04:49:55 INFO  - Button 'Libraries button' :: Clicking
+2023-08-29 04:49:59 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-29 04:49:59 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-29 04:50:00 INFO  - Button 'Log out' :: Clicking
+2023-08-29 04:50:01 INFO  - Button 'Log out approve' :: Clicking
+2023-08-29 04:50:23 INFO  - Button 'Log in' :: Getting text from element
+2023-08-29 04:50:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-08-29 04:50:24 INFO  - Text Field 'Pin' :: Getting text from element
+2023-08-29 04:50:25 INFO  - Unlocking credential for current thread
+2023-08-29 04:50:25 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1f5aebb
