@@ -26,6 +26,7 @@ public abstract class AbstractApplicationSteps extends BaseSteps implements IApp
     protected final FindYourLibScreen findYourLibScreen;
     protected final BottomMenuForm bottomMenuForm;
     protected final SettingsScreen settingsScreen;
+    protected final AlertScreen alertScreen;
 
     public AbstractApplicationSteps() {
         welcomeScreen = AqualityServices.getScreenFactory().getScreen(WelcomeScreen.class);
@@ -35,6 +36,7 @@ public abstract class AbstractApplicationSteps extends BaseSteps implements IApp
         findYourLibScreen = AqualityServices.getScreenFactory().getScreen(FindYourLibScreen.class);
         bottomMenuForm = AqualityServices.getScreenFactory().getScreen(BottomMenuForm.class);
         settingsScreen = AqualityServices.getScreenFactory().getScreen(SettingsScreen.class);
+        alertScreen = AqualityServices.getScreenFactory().getScreen(AlertScreen.class)
     }
 
     public abstract void turnOnTestMode();
@@ -151,6 +153,9 @@ public abstract class AbstractApplicationSteps extends BaseSteps implements IApp
 
     @Override
     public void closeTutorialScreen() {
+        if(alertScreen.state().waitForDisplayed()) {
+            alertScreen.waitAndPerformAlertActionIfDisplayed(ActionButtonsForBooksAndAlertsKeys.ALLOW);
+        }
         tutorialScreen.closeTutorial();
     }
 
