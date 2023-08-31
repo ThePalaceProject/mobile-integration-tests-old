@@ -36,7 +36,7 @@ public abstract class AbstractApplicationSteps extends BaseSteps implements IApp
         findYourLibScreen = AqualityServices.getScreenFactory().getScreen(FindYourLibScreen.class);
         bottomMenuForm = AqualityServices.getScreenFactory().getScreen(BottomMenuForm.class);
         settingsScreen = AqualityServices.getScreenFactory().getScreen(SettingsScreen.class);
-        alertScreen = AqualityServices.getScreenFactory().getScreen(AlertScreen.class)
+        alertScreen = AqualityServices.getScreenFactory().getScreen(AlertScreen.class);
     }
 
     public abstract void turnOnTestMode();
