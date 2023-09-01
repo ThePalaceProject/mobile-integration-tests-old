@@ -55,6 +55,8 @@ public abstract class AbstractApplicationSteps extends BaseSteps implements IApp
 
     public abstract boolean isMenuBarDisplayed();
 
+    public abstract void closeAlert();
+
     public abstract String getTypeOfButton(String type);
 
     @Override
@@ -153,8 +155,8 @@ public abstract class AbstractApplicationSteps extends BaseSteps implements IApp
 
     @Override
     public void closeTutorialScreen() {
-        if(AqualityServices.getApplication().getPlatformName() == PlatformName.IOS && alertScreen.state().waitForDisplayed()) {
-            alertScreen.waitAndPerformAlertActionIfDisplayed(ActionButtonsForBooksAndAlertsKeys.ALLOW);
+        if(AqualityServices.getApplication().getPlatformName() == PlatformName.IOS) {
+            closeAlert();
         }
         tutorialScreen.closeTutorial();
     }
