@@ -2,6 +2,7 @@ package stepdefinitions.application.components.impl;
 
 import aquality.appium.mobile.application.AqualityServices;
 import aquality.appium.mobile.application.PlatformName;
+import enums.localization.catalog.EnumActionButtonsForBooksAndAlertsKeys;
 import factories.steps.StepsType;
 import screens.alert.AlertScreen;
 import screens.bottommenu.BottomMenu;
