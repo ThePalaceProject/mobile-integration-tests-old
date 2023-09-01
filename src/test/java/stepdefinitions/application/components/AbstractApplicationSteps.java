@@ -1,6 +1,7 @@
 package stepdefinitions.application.components;
 
 import aquality.appium.mobile.application.AqualityServices;
+import aquality.appium.mobile.application.PlatformName;
 import constants.localization.french.FrenchIos;
 import constants.localization.italian.ItalianIos;
 import constants.localization.spanish.SpanishIos;
@@ -35,7 +36,6 @@ public abstract class AbstractApplicationSteps extends BaseSteps implements IApp
         findYourLibScreen = AqualityServices.getScreenFactory().getScreen(FindYourLibScreen.class);
         bottomMenuForm = AqualityServices.getScreenFactory().getScreen(BottomMenuForm.class);
         settingsScreen = AqualityServices.getScreenFactory().getScreen(SettingsScreen.class);
-        alertScreen = AqualityServices.getScreenFactory().getScreen(AlertScreen.class);
     }
 
     public abstract void turnOnTestMode();
