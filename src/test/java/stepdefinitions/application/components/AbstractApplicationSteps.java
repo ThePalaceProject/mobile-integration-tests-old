@@ -26,7 +26,6 @@ public abstract class AbstractApplicationSteps extends BaseSteps implements IApp
     protected final FindYourLibScreen findYourLibScreen;
     protected final BottomMenuForm bottomMenuForm;
     protected final SettingsScreen settingsScreen;
-    protected final AlertScreen alertScreen;
 
     public AbstractApplicationSteps() {
         welcomeScreen = AqualityServices.getScreenFactory().getScreen(WelcomeScreen.class);
