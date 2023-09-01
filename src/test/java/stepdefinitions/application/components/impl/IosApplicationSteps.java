@@ -88,6 +88,11 @@ public class IosApplicationSteps extends AbstractApplicationSteps {
     }
 
     @Override
+    public void closeAlert() {
+        alertScreen.waitAndPerformAlertActionIfDisplayed(EnumActionButtonsForBooksAndAlertsKeys.ALLOW);
+    }
+
+    @Override
     public String getTypeOfButton(String type) {
         return bottomMenuForm.getTypeOfTab(type);
     }
