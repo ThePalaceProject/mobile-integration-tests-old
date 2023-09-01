@@ -49,6 +49,11 @@ public class AndroidApplicationSteps extends AbstractApplicationSteps {
     }
 
     @Override
+    public void closeAlert() {
+
+    }
+
+    @Override
     public boolean isMenuBarDisplayed() {
         return bottomMenuForm.isMenuDisplayed();
     }
