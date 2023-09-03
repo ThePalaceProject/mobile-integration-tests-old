@@ -1,0 +1,82 @@
+2023-09-03 15:47:23 INFO  - Scenario 'Biblioboard: Check playback speed and sleep timer' start
+2023-09-03 15:47:23 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-09-03 15:48:34 INFO  - Application on platform 'IOS' is ready...
+2023-09-03 15:48:34 INFO  - Session id - 031990f729a41ff515932523f094f58688229d25
+2023-09-03 15:48:34 INFO  - Step 0 - Close tutorial screen
+2023-09-03 15:48:35 INFO  - Button 'Allow ActionButtonAlert' :: Clicking
+2023-09-03 15:48:37 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-09-03 15:48:38 INFO  - Step 1 - Welcome screen is opened
+2023-09-03 15:48:38 INFO  - Step 2 - Close welcome screen
+2023-09-03 15:48:39 INFO  - Button 'Find your library button' :: Clicking
+2023-09-03 15:48:39 INFO  - Step 3 - Add library screen is opened
+2023-09-03 15:48:44 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-09-03 15:48:45 INFO  - Text Field 'Search field' :: Clicking
+2023-09-03 15:48:51 INFO  - Text Field 'Search field' :: Clearing
+2023-09-03 15:48:51 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-09-03 15:49:02 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-03 15:49:04 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-09-03 15:49:04 INFO  - Button 'Settings' :: Clicking
+2023-09-03 15:49:05 INFO  - Button 'Settings' :: Clicking
+2023-09-03 15:49:06 INFO  - Button 'Libraries button' :: Clicking
+2023-09-03 15:49:07 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-09-03 15:49:07 INFO  - Button 'Settings' :: Clicking
+2023-09-03 15:49:08 INFO  - Button 'Settings' :: Clicking
+2023-09-03 15:49:08 INFO  - Button 'Libraries button' :: Clicking
+2023-09-03 15:49:10 INFO  - Locking credential with barcode 01230000000005
+2023-09-03 15:49:10 INFO  - There are books on the account: 
+2023-09-03 15:49:11 INFO  - bookName: Animal Instinct Distributor: Palace Marketplace
+2023-09-03 15:49:11 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-09-03 15:49:11 INFO  - Books without revoke in link. BookName: Milk and Honey Distributor: framework.utilities.returningBooksUtil.Distributor@5d0d7635
+2023-09-03 15:49:11 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-09-03 15:49:11 INFO  - bookName: Juliet Takes a Breath: The Graphic Novel Distributor: Bibliotheca
+2023-09-03 15:49:11 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-09-03 15:49:11 INFO  - bookName: Alice's Adventures in Wonderland Distributor: Palace Marketplace
+2023-09-03 15:49:11 INFO  - Books without revoke in link. BookName: The Sympathizer Distributor: framework.utilities.returningBooksUtil.Distributor@7a039b9a
+2023-09-03 15:49:11 INFO  - Books without revoke in link. BookName: The Song of Achilles Distributor: framework.utilities.returningBooksUtil.Distributor@55020eed
+2023-09-03 15:49:11 INFO  - Count of books on the account after opening account: 6
+2023-09-03 15:49:33 INFO  - Text Field 'Card' :: Clicking
+2023-09-03 15:49:33 INFO  - Text Field 'Card' :: Clearing
+2023-09-03 15:49:33 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-09-03 15:49:36 INFO  - Text Field 'Pin' :: Clearing
+2023-09-03 15:49:36 INFO  - Text Field 'Pin' :: Typing '********'
+2023-09-03 15:49:39 INFO  - Button 'Log in' :: Clicking
+2023-09-03 15:50:02 INFO  - Step 7 - Login is performed successfully
+2023-09-03 15:50:03 INFO  - Step 8 - Open Catalog
+2023-09-03 15:50:03 INFO  - Button 'Catalog' :: Clicking
+2023-09-03 15:50:05 INFO  - Step 9 - Open search modal
+2023-09-03 15:50:07 INFO  - Button 'Search button' :: Clicking
+2023-09-03 15:50:09 INFO  - Step 10 - Search for "Nobody Move" and save bookName as 'bookNameInfo'
+2023-09-03 15:50:10 INFO  - Text Field 'Search value input' :: Sending keys 'Nobody Move'
+2023-09-03 15:50:11 INFO  - Button 'Search' :: Clicking
+2023-09-03 15:50:13 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-09-03 15:50:13 INFO  - Button 'Audiobooks' :: Clicking
+2023-09-03 15:50:55 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-03 15:50:58 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-03 15:50:59 INFO  - Label 'lblBookName' :: Clicking
+2023-09-03 15:51:01 INFO  - Step 13 - Click GET action button on book details screen
+2023-09-03 15:51:12 INFO  - Button 'Get' :: Clicking
+2023-09-03 15:52:13 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-09-03 15:52:17 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-09-03 15:52:19 INFO  - Button 'Listen' :: Clicking
+2023-09-03 15:52:25 INFO  - Alert appears and dismiss alert
+2023-09-03 15:52:25 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-09-03 15:52:26 INFO  - Step 17 - The speed by default is 1.0
+2023-09-03 15:52:26 INFO  - Button 'Button play speed' :: Getting text from element
+2023-09-03 15:52:27 INFO  - Step 18 - Open playback speed on audio player screen
+2023-09-03 15:52:27 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-09-03 15:52:28 INFO  - Step 19 - Close playback speed screen
+2023-09-03 15:52:28 INFO  - Button 'Cancel button' :: Clicking
+2023-09-03 15:52:49 INFO  - Taking screenshot
+2023-09-03 15:52:51 INFO  - Test finished - logging out
+2023-09-03 15:52:55 INFO  - Button 'Settings' :: Clicking
+2023-09-03 15:52:56 INFO  - Button 'Settings' :: Clicking
+2023-09-03 15:52:56 INFO  - Button 'Libraries button' :: Clicking
+2023-09-03 15:52:59 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-03 15:53:00 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-03 15:53:00 INFO  - Button 'Log out' :: Clicking
+2023-09-03 15:53:01 INFO  - Button 'Log out approve' :: Clicking
+2023-09-03 15:53:23 INFO  - Button 'Log in' :: Getting text from element
+2023-09-03 15:53:24 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-03 15:53:24 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-03 15:53:25 INFO  - Unlocking credential for current thread
+2023-09-03 15:53:25 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4cbd4aba

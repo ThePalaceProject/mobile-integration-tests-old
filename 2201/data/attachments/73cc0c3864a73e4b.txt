@@ -1,0 +1,85 @@
+2023-09-03 16:43:28 INFO  - Scenario 'Check time tracking line' start
+2023-09-03 16:43:28 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-09-03 16:44:32 INFO  - Application on platform 'IOS' is ready...
+2023-09-03 16:44:32 INFO  - Session id - 2de3270cfeb413f0734c3455c6eec804662e7b19
+2023-09-03 16:44:32 INFO  - Step 0 - Close tutorial screen
+2023-09-03 16:44:33 INFO  - Button 'Allow ActionButtonAlert' :: Clicking
+2023-09-03 16:44:35 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-09-03 16:44:36 INFO  - Step 1 - Welcome screen is opened
+2023-09-03 16:44:36 INFO  - Step 2 - Close welcome screen
+2023-09-03 16:44:37 INFO  - Button 'Find your library button' :: Clicking
+2023-09-03 16:44:37 INFO  - Step 3 - Add library screen is opened
+2023-09-03 16:44:43 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-09-03 16:44:43 INFO  - Text Field 'Search field' :: Clicking
+2023-09-03 16:44:49 INFO  - Text Field 'Search field' :: Clearing
+2023-09-03 16:44:49 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-09-03 16:45:01 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-03 16:45:02 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-09-03 16:45:03 INFO  - Button 'Settings' :: Clicking
+2023-09-03 16:45:04 INFO  - Button 'Settings' :: Clicking
+2023-09-03 16:45:05 INFO  - Button 'Libraries button' :: Clicking
+2023-09-03 16:45:06 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-09-03 16:45:07 INFO  - Button 'Settings' :: Clicking
+2023-09-03 16:45:07 INFO  - Button 'Settings' :: Clicking
+2023-09-03 16:45:08 INFO  - Button 'Libraries button' :: Clicking
+2023-09-03 16:45:10 INFO  - Locking credential with barcode 01230000000005
+2023-09-03 16:45:10 INFO  - There are books on the account: 
+2023-09-03 16:45:11 INFO  - bookName: Goliath Distributor: Palace Marketplace
+2023-09-03 16:45:11 INFO  - bookName: Animal Instinct Distributor: Palace Marketplace
+2023-09-03 16:45:11 INFO  - bookName: The Will to Change Distributor: Palace Marketplace
+2023-09-03 16:45:11 INFO  - Books without revoke in link. BookName: The Sympathizer Distributor: framework.utilities.returningBooksUtil.Distributor@3d25b8e3
+2023-09-03 16:45:11 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-09-03 16:45:11 INFO  - Books without revoke in link. BookName: Milk and Honey Distributor: framework.utilities.returningBooksUtil.Distributor@4189f3e3
+2023-09-03 16:45:11 INFO  - bookName: Alice's Adventures in Wonderland Distributor: Palace Marketplace
+2023-09-03 16:45:11 INFO  - Books without revoke in link. BookName: The Song of Achilles Distributor: framework.utilities.returningBooksUtil.Distributor@6e22bf52
+2023-09-03 16:45:11 INFO  - Count of books on the account after opening account: 5
+2023-09-03 16:45:32 INFO  - Text Field 'Card' :: Clicking
+2023-09-03 16:45:33 INFO  - Text Field 'Card' :: Clearing
+2023-09-03 16:45:33 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-09-03 16:45:36 INFO  - Text Field 'Pin' :: Clearing
+2023-09-03 16:45:36 INFO  - Text Field 'Pin' :: Typing '********'
+2023-09-03 16:45:39 INFO  - Button 'Log in' :: Clicking
+2023-09-03 16:46:02 INFO  - Step 7 - Login is performed successfully
+2023-09-03 16:46:03 INFO  - Step 8 - Open Catalog
+2023-09-03 16:46:03 INFO  - Button 'Catalog' :: Clicking
+2023-09-03 16:46:06 INFO  - Step 9 - Open search modal
+2023-09-03 16:46:08 INFO  - Button 'Search button' :: Clicking
+2023-09-03 16:46:10 INFO  - Step 10 - Search 'available' book of distributor 'Axis 360' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-09-03 16:46:10 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-09-03 16:46:10 INFO  - randomBookName: Pygmalion
+2023-09-03 16:46:11 INFO  - Text Field 'Search value input' :: Sending keys 'Pygmalion'
+2023-09-03 16:46:12 INFO  - Button 'Search' :: Clicking
+2023-09-03 16:46:17 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-09-03 16:46:17 INFO  - Button 'Audiobooks' :: Clicking
+2023-09-03 16:46:59 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-03 16:47:00 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-03 16:47:01 INFO  - Label 'lblBookName' :: Clicking
+2023-09-03 16:47:02 INFO  - Step 13 - Click GET action button on book details screen
+2023-09-03 16:47:03 INFO  - Button 'Get' :: Clicking
+2023-09-03 16:47:45 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-09-03 16:47:48 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-09-03 16:47:49 INFO  - Button 'Listen' :: Clicking
+2023-09-03 16:47:55 INFO  - Alert appears and dismiss alert
+2023-09-03 16:47:55 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-09-03 16:47:56 INFO  - Step 17 - Tap play button on audio player screen
+2023-09-03 16:47:56 INFO  - Button 'btnPlay' :: Clicking
+2023-09-03 16:47:56 INFO  - Step 18 - Pause button is present on audio player screen
+2023-09-03 16:47:57 INFO  - Step 19 - Tap pause button on audio player screen
+2023-09-03 16:47:57 INFO  - Button 'btnPause' :: Clicking
+2023-09-03 16:47:58 INFO  - Step 20 - Play button is present on audio player screen
+2023-09-03 16:47:58 INFO  - Step 21 - Save book play time as 'timeInfo' on audio player screen
+2023-09-03 16:47:58 INFO  - Label 'lblLeftTime' :: Getting attribute 'value'
+2023-09-03 16:48:19 INFO  - Taking screenshot
+2023-09-03 16:48:21 INFO  - Test finished - logging out
+2023-09-03 16:48:24 INFO  - Button 'Settings' :: Clicking
+2023-09-03 16:48:26 INFO  - Button 'Settings' :: Clicking
+2023-09-03 16:48:26 INFO  - Button 'Libraries button' :: Clicking
+2023-09-03 16:48:29 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-03 16:48:30 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-03 16:48:31 INFO  - Button 'Log out' :: Clicking
+2023-09-03 16:48:31 INFO  - Button 'Log out approve' :: Clicking
+2023-09-03 16:48:52 INFO  - Button 'Log in' :: Getting text from element
+2023-09-03 16:48:53 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-03 16:48:54 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-03 16:48:55 INFO  - Unlocking credential for current thread
+2023-09-03 16:48:55 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@4cbd4aba
