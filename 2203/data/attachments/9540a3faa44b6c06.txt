@@ -1,0 +1,80 @@
+2023-09-04 06:10:49 INFO  - Scenario 'Open book to last page read' start
+2023-09-04 06:10:49 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-09-04 06:11:25 INFO  - Application on platform 'ANDROID' is ready...
+2023-09-04 06:11:25 INFO  - Session id - fa52923f12f2f3b4018e93491fb3ac6e4cba1dbc
+2023-09-04 06:11:25 INFO  - Step 0 - Close tutorial screen
+2023-09-04 06:11:25 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-09-04 06:11:28 INFO  - Step 1 - Welcome screen is opened
+2023-09-04 06:11:28 INFO  - Step 2 - Close welcome screen
+2023-09-04 06:11:28 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-09-04 06:11:28 INFO  - Step 3 - Add library screen is opened
+2023-09-04 06:11:30 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-09-04 06:11:30 INFO  - Button 'Search' :: Clicking
+2023-09-04 06:11:32 INFO  - Text Field 'Search' :: Clearing
+2023-09-04 06:11:32 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-09-04 06:11:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-04 06:11:35 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-09-04 06:11:35 INFO  - Button 'tabSettings' :: Clicking
+2023-09-04 06:11:36 INFO  - Button 'tabSettings' :: Clicking
+2023-09-04 06:11:37 INFO  - Button 'Accounts' :: Clicking
+2023-09-04 06:11:39 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-09-04 06:11:39 INFO  - Button 'tabSettings' :: Clicking
+2023-09-04 06:11:39 INFO  - Button 'tabSettings' :: Clicking
+2023-09-04 06:11:40 INFO  - Button 'Accounts' :: Clicking
+2023-09-04 06:11:42 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-04 06:11:43 INFO  - Locking credential with barcode 01230000000003
+2023-09-04 06:11:43 INFO  - There are books on the account: 
+2023-09-04 06:11:43 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-09-04 06:11:43 INFO  - bookName: The Mystery of Mrs. Christie Distributor: Palace Marketplace
+2023-09-04 06:11:43 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-09-04 06:11:43 INFO  - Count of books on the account after opening account: 3
+2023-09-04 06:11:43 INFO  - Text Field 'Card' :: Clearing
+2023-09-04 06:11:43 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-09-04 06:11:45 INFO  - Text Field 'Pin' :: Clearing
+2023-09-04 06:11:45 INFO  - Text Field 'Pin' :: Typing '********'
+2023-09-04 06:11:47 INFO  - Button 'Log in' :: Clicking
+2023-09-04 06:11:52 INFO  - Button 'Log ... action' :: Getting text from element
+2023-09-04 06:11:53 INFO  - Step 7 - Login is performed successfully
+2023-09-04 06:12:14 INFO  - Button 'Log ... action' :: Getting text from element
+2023-09-04 06:12:14 INFO  - Step 8 - Open Catalog
+2023-09-04 06:12:14 INFO  - Button 'tabCatalog' :: Clicking
+2023-09-04 06:12:35 INFO  - Step 9 - Open search modal
+2023-09-04 06:12:55 INFO  - Button 'Search' :: Clicking
+2023-09-04 06:12:57 INFO  - Step 10 - Search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-09-04 06:12:57 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-09-04 06:12:57 INFO  - randomBookName: The Girl Who Could Silence the Wind
+2023-09-04 06:12:57 INFO  - Error details button is not present
+2023-09-04 06:12:57 INFO  - Text Field 'Search value input' :: Sending keys 'The Girl Who Could Silence the Wind'
+2023-09-04 06:13:00 INFO  - Error details button is not present
+2023-09-04 06:13:02 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-04 06:13:03 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-04 06:13:03 INFO  - Button 'actionButton' :: Clicking
+2023-09-04 06:13:11 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-04 06:13:12 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-04 06:13:12 INFO  - Label 'lblBookName' :: Clicking
+2023-09-04 06:13:13 INFO  - Step 13 - Click READ action button on book details screen
+2023-09-04 06:13:14 INFO  - Button 'Read' :: Clicking
+2023-09-04 06:13:14 INFO  - Step 14 - Scroll page forward from 7 to 10 times
+2023-09-04 06:13:14 INFO  - Scrolling 9 times on reader epub screen
+2023-09-04 06:13:30 INFO  - Step 15 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-09-04 06:13:31 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-09-04 06:13:31 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-09-04 06:13:32 INFO  - Step 16 - Wait for 3 seconds
+2023-09-04 06:13:35 INFO  - Step 17 - Return to previous screen for epub and pdf
+2023-09-04 06:13:35 INFO  - Step 18 - Click READ action button on book details screen
+2023-09-04 06:13:36 INFO  - Button 'Read' :: Clicking
+2023-09-04 06:13:37 INFO  - Step 19 - 'bookInfo' book is present on epub reader screen
+2023-09-04 06:13:40 INFO  - Label 'lblBookName' :: Getting text from element
+2023-09-04 06:13:41 INFO  - Book name on epub reader screen - Girl Who Could Silence the Wind (9780763659684)
+2023-09-04 06:13:41 INFO  - Taking screenshot
+2023-09-04 06:13:42 INFO  - Test finished - logging out
+2023-09-04 06:13:43 INFO  - Button 'tabSettings' :: Clicking
+2023-09-04 06:13:46 INFO  - Button 'tabSettings' :: Clicking
+2023-09-04 06:13:47 INFO  - Button 'Accounts' :: Clicking
+2023-09-04 06:13:48 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-04 06:13:49 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-04 06:13:50 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-04 06:13:50 INFO  - Button 'Log out' :: Clicking
+2023-09-04 06:14:10 INFO  - Button 'Log in' :: Getting text from element
+2023-09-04 06:14:10 INFO  - Unlocking credential for current thread
+2023-09-04 06:14:10 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@1c7e34a7
