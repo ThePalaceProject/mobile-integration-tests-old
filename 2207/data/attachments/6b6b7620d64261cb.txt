@@ -1,0 +1,79 @@
+2023-09-06 04:32:43 INFO  - Scenario 'Check playback speed and sleep timer' start
+2023-09-06 04:32:43 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-09-06 04:33:06 INFO  - Application on platform 'IOS' is ready...
+2023-09-06 04:33:06 INFO  - Session id - 981c7d64ad3334ec19e895ad0b0ccaa2e546669a
+2023-09-06 04:33:06 INFO  - Step 0 - Close tutorial screen
+2023-09-06 04:33:07 INFO  - Button 'Allow ActionButtonAlert' :: Clicking
+2023-09-06 04:33:07 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-09-06 04:33:08 INFO  - Step 1 - Welcome screen is opened
+2023-09-06 04:33:09 INFO  - Step 2 - Close welcome screen
+2023-09-06 04:33:09 INFO  - Button 'Find your library button' :: Clicking
+2023-09-06 04:33:09 INFO  - Step 3 - Add library screen is opened
+2023-09-06 04:33:15 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-09-06 04:33:15 INFO  - Text Field 'Search field' :: Clicking
+2023-09-06 04:33:21 INFO  - Text Field 'Search field' :: Clearing
+2023-09-06 04:33:21 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-09-06 04:33:31 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-06 04:33:32 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-09-06 04:33:32 INFO  - Button 'Settings' :: Clicking
+2023-09-06 04:33:34 INFO  - Button 'Settings' :: Clicking
+2023-09-06 04:33:34 INFO  - Button 'Libraries button' :: Clicking
+2023-09-06 04:33:35 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-09-06 04:33:35 INFO  - Button 'Settings' :: Clicking
+2023-09-06 04:33:36 INFO  - Button 'Settings' :: Clicking
+2023-09-06 04:33:37 INFO  - Button 'Libraries button' :: Clicking
+2023-09-06 04:33:39 INFO  - Locking credential with barcode 01230000000004
+2023-09-06 04:33:39 INFO  - There are books on the account: 
+2023-09-06 04:33:40 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-09-06 04:33:40 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-09-06 04:33:40 INFO  - bookName: Cryptonomicon Distributor: Palace Marketplace
+2023-09-06 04:33:40 INFO  - bookName: Adventures of Huckleberry Finn: A Signature Performance by Elijah Wood Distributor: Palace Marketplace
+2023-09-06 04:33:40 INFO  - Count of books on the account after opening account: 4
+2023-09-06 04:34:01 INFO  - Text Field 'Card' :: Clicking
+2023-09-06 04:34:02 INFO  - Text Field 'Card' :: Clearing
+2023-09-06 04:34:02 INFO  - Text Field 'Card' :: Typing '01230000000004'
+2023-09-06 04:34:05 INFO  - Text Field 'Pin' :: Clearing
+2023-09-06 04:34:05 INFO  - Text Field 'Pin' :: Typing '********'
+2023-09-06 04:34:07 INFO  - Button 'Log in' :: Clicking
+2023-09-06 04:34:13 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-09-06 04:34:15 INFO  - Step 7 - Login is performed successfully
+2023-09-06 04:34:15 INFO  - Step 8 - Open Catalog
+2023-09-06 04:34:15 INFO  - Button 'Catalog' :: Clicking
+2023-09-06 04:34:17 INFO  - Step 9 - Open search modal
+2023-09-06 04:34:18 INFO  - Button 'Search button' :: Clicking
+2023-09-06 04:34:19 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-09-06 04:34:19 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-09-06 04:34:19 INFO  - randomBookName: Blacktop Wasteland
+2023-09-06 04:34:20 INFO  - Text Field 'Search value input' :: Sending keys 'Blacktop Wasteland'
+2023-09-06 04:34:21 INFO  - Button 'Search' :: Clicking
+2023-09-06 04:34:23 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-09-06 04:34:23 INFO  - Button 'Audiobooks' :: Clicking
+2023-09-06 04:35:05 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-06 04:35:06 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-06 04:35:06 INFO  - Label 'lblBookName' :: Clicking
+2023-09-06 04:35:07 INFO  - Step 13 - Click GET action button on book details screen
+2023-09-06 04:35:08 INFO  - Button 'Get' :: Clicking
+2023-09-06 04:35:53 INFO  - Step 14 - Check that book contains LISTEN action button on book details screen
+2023-09-06 04:35:54 INFO  - Step 15 - Click LISTEN action button on book details screen
+2023-09-06 04:35:54 INFO  - Button 'Listen' :: Clicking
+2023-09-06 04:36:15 INFO  - Step 16 - Audio player screen of book 'bookInfo' is opened
+2023-09-06 04:36:16 INFO  - Step 17 - The speed by default is 1.0
+2023-09-06 04:36:16 INFO  - Button 'Button play speed' :: Getting text from element
+2023-09-06 04:36:16 INFO  - Step 18 - Open playback speed on audio player screen
+2023-09-06 04:36:16 INFO  - Button 'btnPlaybackSpeed' :: Clicking
+2023-09-06 04:36:17 INFO  - Step 19 - Close playback speed screen
+2023-09-06 04:36:17 INFO  - Button 'Cancel button' :: Clicking
+2023-09-06 04:36:38 INFO  - Taking screenshot
+2023-09-06 04:36:40 INFO  - Test finished - logging out
+2023-09-06 04:36:43 INFO  - Button 'Settings' :: Clicking
+2023-09-06 04:36:44 INFO  - Button 'Settings' :: Clicking
+2023-09-06 04:36:44 INFO  - Button 'Libraries button' :: Clicking
+2023-09-06 04:36:47 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-06 04:36:48 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-06 04:36:48 INFO  - Button 'Log out' :: Clicking
+2023-09-06 04:36:49 INFO  - Button 'Log out approve' :: Clicking
+2023-09-06 04:37:10 INFO  - Button 'Log in' :: Getting text from element
+2023-09-06 04:37:11 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-06 04:37:12 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-06 04:37:12 INFO  - Unlocking credential for current thread
+2023-09-06 04:37:12 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@35350521
