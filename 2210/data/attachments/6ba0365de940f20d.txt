@@ -1,0 +1,43 @@
+2023-09-08 07:34:45 INFO  - Scenario 'Check of a book title and author in LYRASIS' start
+2023-09-08 07:34:45 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-09-08 07:35:21 INFO  - Application on platform 'IOS' is ready...
+2023-09-08 07:35:21 INFO  - Session id - 2bffee6e8e608307cef8a75301b3842eb58559b8
+2023-09-08 07:35:21 INFO  - Step 0 - Close tutorial screen
+2023-09-08 07:35:23 INFO  - Button 'Allow ActionButtonAlert' :: Clicking
+2023-09-08 07:35:24 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-09-08 07:35:26 INFO  - Step 1 - Welcome screen is opened
+2023-09-08 07:35:26 INFO  - Step 2 - Close welcome screen
+2023-09-08 07:35:27 INFO  - Button 'Find your library button' :: Clicking
+2023-09-08 07:35:28 INFO  - Step 3 - Add library screen is opened
+2023-09-08 07:35:34 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-09-08 07:35:34 INFO  - Text Field 'Search field' :: Clicking
+2023-09-08 07:35:40 INFO  - Text Field 'Search field' :: Clearing
+2023-09-08 07:35:40 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-09-08 07:35:53 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-08 07:35:55 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-09-08 07:35:55 INFO  - Button 'Settings' :: Clicking
+2023-09-08 07:35:57 INFO  - Button 'Settings' :: Clicking
+2023-09-08 07:35:59 INFO  - Button 'Libraries button' :: Clicking
+2023-09-08 07:36:01 INFO  - Step 6 - Open Catalog
+2023-09-08 07:36:02 INFO  - Button 'Catalog' :: Clicking
+2023-09-08 07:36:04 INFO  - Step 7 - Open search modal
+2023-09-08 07:36:05 INFO  - Button 'Search button' :: Clicking
+2023-09-08 07:36:08 INFO  - Step 8 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-09-08 07:36:09 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-09-08 07:36:09 INFO  - randomBookName: The Fabric of the Cosmos
+2023-09-08 07:36:09 INFO  - Text Field 'Search value input' :: Sending keys 'The Fabric of the Cosmos'
+2023-09-08 07:36:11 INFO  - Button 'Search' :: Clicking
+2023-09-08 07:36:15 INFO  - Step 9 - Switch to 'Audiobooks' catalog tab
+2023-09-08 07:36:15 INFO  - Button 'Audiobooks' :: Clicking
+2023-09-08 07:36:57 INFO  - Step 10 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-08 07:36:59 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-08 07:37:00 INFO  - Label 'lblBookName' :: Clicking
+2023-09-08 07:37:02 INFO  - Step 11 - Book 'bookInfo' is opened on book details screen
+2023-09-08 07:37:06 INFO  - Label 'Book title' :: Getting text from element
+2023-09-08 07:37:13 INFO  - Label 'Author' :: Getting text from element
+2023-09-08 07:37:19 INFO  - Label 'Book title' :: Getting text from element
+2023-09-08 07:37:27 INFO  - Label 'Author' :: Getting text from element
+2023-09-08 07:37:29 INFO  - Step 12 - Book 'bookInfo' has correct title and author name on book details screen
+2023-09-08 07:37:29 INFO  - Step 13 - The book cover is displayed on book details screen
+2023-09-08 07:37:30 INFO  - Taking screenshot
+2023-09-08 07:37:32 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@622edd5f
