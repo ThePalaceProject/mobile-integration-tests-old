@@ -16,15 +16,15 @@ import java.time.Duration;
 
 @ScreenType(platform = PlatformName.ANDROID)
 public class AndroidAccountScreen extends AccountScreen {
-    private static final String BTN_LOGIN_ID = "authBasicLogin";
+    private static final String BTN_LOGIN_ID = "authBasicTokenLogin";
     private static final String LOGIN_BTN_LOC_PATTERN = "//*[contains(@resource-id,\"" + BTN_LOGIN_ID + "\") and @text=\"%1$s\"]";
 
     private final IButton btnLogin = getElementFactory().getButton(By.xpath(String.format(LOGIN_BTN_LOC_PATTERN, AccountScreenLoginStatus.SIGN_IN.getDefaultLocalizedValue())),"Log in");
     private final IButton btnLoginAction = getElementFactory().getButton(By.id(BTN_LOGIN_ID), "Log ... action");
     private final IButton btnLogout = getElementFactory().getButton(By.xpath(String.format(LOGIN_BTN_LOC_PATTERN, AccountScreenLoginStatus.SIGN_OUT.getDefaultLocalizedValue())),"Log out");
     private final IButton btnLogInError = getElementFactory().getButton(By.id("accountLoginButtonErrorDetails"), "Error info");
-    private final ITextBox txbCard = getElementFactory().getTextBox(By.id("authBasicUserField"), "Card");
-    private final ITextBox txbPin = getElementFactory().getTextBox(By.id("authBasicPassField"), "Pin");
+    private final ITextBox txbCard = getElementFactory().getTextBox(By.id("authBasicTokenUserField"), "Card");
+    private final ITextBox txbPin = getElementFactory().getTextBox(By.id("authBasicTokenPassField"), "Pin");
     private final ILabel lblLoading = getElementFactory().getLabel(By.id("accountLoginProgressBar"), "Login loading status bar");
     private final IButton btnContentLicenses = getElementFactory().getButton(By.xpath("//android.widget.TextView[@text=\"Content Licenses\"]"), "Content Licenses");
     private final ILabel lblLibrariesAndPalaces = getElementFactory().getLabel(By.xpath("//android.widget.TextView[contains(@text, \"Libraries are palaces\")]"), "\tLibraries are palaces for the people");
