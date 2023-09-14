@@ -1,0 +1,88 @@
+2023-09-14 07:11:39 INFO  - Scenario 'Switch Library Reservations' start
+2023-09-14 07:11:39 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-09-14 07:12:06 INFO  - Application on platform 'ANDROID' is ready...
+2023-09-14 07:12:06 INFO  - Session id - dab363db4d55943ecf89ca14d86c43b05759e4a4
+2023-09-14 07:12:06 INFO  - Step 0 - Close tutorial screen
+2023-09-14 07:12:06 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-09-14 07:12:08 INFO  - Step 1 - Welcome screen is opened
+2023-09-14 07:12:09 INFO  - Step 2 - Close welcome screen
+2023-09-14 07:12:09 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-09-14 07:12:09 INFO  - Step 3 - Add library screen is opened
+2023-09-14 07:12:11 INFO  - Step 4 - Add library "Plumas County Library" on Add library screen
+2023-09-14 07:12:11 INFO  - Button 'Search' :: Clicking
+2023-09-14 07:12:14 INFO  - Text Field 'Search' :: Clearing
+2023-09-14 07:12:14 INFO  - Text Field 'Search' :: Typing 'Plumas County Library'
+2023-09-14 07:12:18 INFO  - Button 'Plumas County Library' :: Clicking
+2023-09-14 07:12:18 INFO  - Step 5 - Account "Plumas County Library" is present on Accounts screen
+2023-09-14 07:12:18 INFO  - Button 'tabSettings' :: Clicking
+2023-09-14 07:12:20 INFO  - Button 'tabSettings' :: Clicking
+2023-09-14 07:12:21 INFO  - Button 'Accounts' :: Clicking
+2023-09-14 07:12:24 INFO  - Step 6 - Add 'LYRASIS Reads' account
+2023-09-14 07:12:24 INFO  - Button 'tabSettings' :: Clicking
+2023-09-14 07:12:25 INFO  - Button 'tabSettings' :: Clicking
+2023-09-14 07:12:26 INFO  - Button 'Accounts' :: Clicking
+2023-09-14 07:12:27 INFO  - Button 'btnAddLibrary' :: Clicking
+2023-09-14 07:12:28 INFO  - Button 'Search' :: Clicking
+2023-09-14 07:12:30 INFO  - Text Field 'Search' :: Clearing
+2023-09-14 07:12:30 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-09-14 07:12:34 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-14 07:12:56 INFO  - Step 7 - Enter credentials for 'LYRASIS Reads' account
+2023-09-14 07:12:56 INFO  - Button 'tabSettings' :: Clicking
+2023-09-14 07:12:57 INFO  - Button 'tabSettings' :: Clicking
+2023-09-14 07:12:59 INFO  - Button 'Accounts' :: Clicking
+2023-09-14 07:13:00 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-14 07:13:01 INFO  - Locking credential with barcode 01230000000003
+2023-09-14 07:13:01 INFO  - There are books on the account: 
+2023-09-14 07:13:03 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-09-14 07:13:03 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-09-14 07:13:03 INFO  - bookName: Too Much and Never Enough Distributor: Palace Marketplace
+2023-09-14 07:13:03 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-09-14 07:13:03 INFO  - Count of books on the account after opening account: 4
+2023-09-14 07:13:03 INFO  - Text Field 'Card' :: Clearing
+2023-09-14 07:13:03 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-09-14 07:13:05 INFO  - Text Field 'Pin' :: Clearing
+2023-09-14 07:13:05 INFO  - Text Field 'Pin' :: Typing '********'
+2023-09-14 07:13:07 INFO  - Button 'Log in' :: Clicking
+2023-09-14 07:13:28 INFO  - Button 'Log ... action' :: Getting text from element
+2023-09-14 07:13:29 INFO  - Step 8 - Login is performed successfully
+2023-09-14 07:13:50 INFO  - Button 'Log ... action' :: Getting text from element
+2023-09-14 07:13:51 INFO  - Step 9 - Open Catalog
+2023-09-14 07:13:51 INFO  - Button 'tabCatalog' :: Clicking
+2023-09-14 07:14:12 INFO  - Step 10 - Open search modal
+2023-09-14 07:14:33 INFO  - Button 'Search' :: Clicking
+2023-09-14 07:14:34 INFO  - Step 11 - Search 'unavailable' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-09-14 07:14:34 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-09-14 07:14:34 INFO  - randomBookName: Lemon
+2023-09-14 07:14:35 INFO  - Error details button is not present
+2023-09-14 07:14:42 INFO  - Text Field 'Search value input' :: Sending keys 'Lemon'
+2023-09-14 07:14:48 INFO  - Error details button is not present
+2023-09-14 07:14:48 INFO  - Step 12 - Switch to 'eBooks' catalog tab
+2023-09-14 07:14:48 INFO  - Button 'eBooks' :: Clicking
+2023-09-14 07:15:10 INFO  - Step 13 - Subcategory screen is present
+2023-09-14 07:15:11 INFO  - Error details button is not present
+2023-09-14 07:15:11 INFO  - Step 14 - Open EBOOK book with RESERVE action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-14 07:15:12 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-14 07:15:13 INFO  - Label 'lblBookName' :: Clicking
+2023-09-14 07:15:13 INFO  - Step 15 - Book 'bookInfo' is opened on book details screen
+2023-09-14 07:15:13 INFO  - Label 'Book title' :: Getting text from element
+2023-09-14 07:15:15 INFO  - Label 'Book Authors' :: Getting text from element
+2023-09-14 07:15:16 INFO  - Label 'Book title' :: Getting text from element
+2023-09-14 07:15:17 INFO  - Label 'Book Authors' :: Getting text from element
+2023-09-14 07:15:17 INFO  - Step 16 - Click RESERVE action button on book details screen
+2023-09-14 07:15:18 INFO  - Button 'Reserve' :: Clicking
+2023-09-14 07:15:27 INFO  - Step 17 - Check that book contains REMOVE action button on book details screen
+2023-09-14 07:15:48 INFO  - Taking screenshot
+2023-09-14 07:15:49 INFO  - Test finished - logging out
+2023-09-14 07:15:51 INFO  - Button 'tabSettings' :: Clicking
+2023-09-14 07:15:54 INFO  - Button 'tabSettings' :: Clicking
+2023-09-14 07:15:54 INFO  - Button 'Accounts' :: Clicking
+2023-09-14 07:15:56 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-14 07:15:58 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-14 07:15:59 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-14 07:15:59 INFO  - Button 'Log out' :: Clicking
+2023-09-14 07:16:20 INFO  - Button 'Log in' :: Getting text from element
+2023-09-14 07:16:21 INFO  - Button 'tabSettings' :: Clicking
+2023-09-14 07:16:21 INFO  - Button 'tabSettings' :: Clicking
+2023-09-14 07:16:22 INFO  - Button 'Accounts' :: Clicking
+2023-09-14 07:16:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-14 07:16:25 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5d91f4ac
