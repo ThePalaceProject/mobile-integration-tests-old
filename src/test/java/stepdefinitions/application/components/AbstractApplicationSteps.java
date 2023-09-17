@@ -1,7 +1,6 @@
 package stepdefinitions.application.components;
 
 import aquality.appium.mobile.application.AqualityServices;
-import aquality.appium.mobile.application.PlatformName;
 import constants.localization.french.FrenchIos;
 import constants.localization.italian.ItalianIos;
 import constants.localization.spanish.SpanishIos;
@@ -9,6 +8,7 @@ import enums.timeouts.RestartAppTimeouts;
 import org.assertj.core.api.SoftAssertions;
 import org.junit.Assert;
 import screens.addaccount.AddAccountScreen;
+import screens.alert.AlertScreen;
 import screens.bottommenu.BottomMenuForm;
 import screens.catalog.screen.catalog.CatalogScreen;
 import screens.findyourlibraryscreen.FindYourLibScreen;
