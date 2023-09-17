@@ -154,9 +154,7 @@ public abstract class AbstractApplicationSteps extends BaseSteps implements IApp
 
     @Override
     public void closeTutorialScreen() {
-        if(AqualityServices.getApplication().getPlatformName() == PlatformName.IOS) {
-            closeAlert();
-        }
+        closeAlert();
         tutorialScreen.closeTutorial();
     }
 
