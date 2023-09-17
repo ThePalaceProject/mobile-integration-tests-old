@@ -2,6 +2,7 @@ package stepdefinitions.application.components.impl;
 
 import aquality.appium.mobile.application.AqualityServices;
 import aquality.appium.mobile.application.PlatformName;
+import enums.localization.catalog.EnumActionButtonsForBooksAndAlertsKeys;
 import factories.steps.StepsType;
 import screens.bottommenu.BottomMenu;
 import stepdefinitions.application.components.AbstractApplicationSteps;
@@ -51,7 +52,7 @@ public class AndroidApplicationSteps extends AbstractApplicationSteps {
     @Override
     public void closeAlert() {
         if(alertScreen.state().waitForDisplayed()) {
-            alertScreen.waitAndPerformAlertActionIfDisplayed(ActionButtonsForBooksAndAlertsKeys.ALLOW);
+            alertScreen.waitAndPerformAlertActionIfDisplayed(EnumActionButtonsForBooksAndAlertsKeys.ALLOW);
         }
     }
 
