@@ -50,7 +50,9 @@ public class AndroidApplicationSteps extends AbstractApplicationSteps {
 
     @Override
     public void closeAlert() {
-
+        if(alertScreen.state().waitForDisplayed()) {
+            alertScreen.waitAndPerformAlertActionIfDisplayed(ActionButtonsForBooksAndAlertsKeys.ALLOW);
+        }
     }
 
     @Override
