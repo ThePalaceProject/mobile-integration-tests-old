@@ -156,7 +156,7 @@ Feature: Audiobook in LYRASIS
     Then Play button is present on audio player screen
       And Playback has been moved behind by 15 seconds from 'timeBehind' and 'chapterTimeKey' seconds on audio player screen
 
-  @logout @returnBooks @tier1
+  @logout @returnBooks @tier2
   Scenario Outline: Check end of chapter sleep timer
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -183,7 +183,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier1
+  @logout @returnBooks @tier2
   Scenario: Biblioboard: Check end of chapter sleep timer
     When Search for "The Columbarium" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -204,7 +204,7 @@ Feature: Audiobook in LYRASIS
       And Open toc audiobook screen
     Then Chapter name next to 'chapterNumber' on toc audiobook screen is equal to 'nextChapter' saved chapter name
 
-  @logout @returnBooks @tier1 @exclude_android
+  @logout @returnBooks @tier2 @exclude_android
   Scenario Outline: Check of line for time remaining
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -221,7 +221,7 @@ Feature: Audiobook in LYRASIS
       | Palace Marketplace |
       | Axis 360           |
 
-  @logout @returnBooks @tier1 @exclude_android
+  @logout @returnBooks @tier2 @exclude_android
   Scenario: Biblioboard: Check of line for time remaining
     When Search for "Two in the Bush" and save bookName as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
@@ -232,7 +232,7 @@ Feature: Audiobook in LYRASIS
     Then Audio player screen of book 'bookInfo' is opened
       And Line for time remaining is displayed on audio player screen
 
-  @logout @returnBooks @tier1
+  @logout @returnBooks @tier2
   Scenario Outline: Check of switching to the next time
     When Search 'available' book of distributor '<distributor>' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
       And Switch to 'Audiobooks' catalog tab
