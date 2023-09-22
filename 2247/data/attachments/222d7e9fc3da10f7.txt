@@ -1,0 +1,71 @@
+2023-09-22 20:44:05 INFO  - Scenario 'LYRASIS: Biblioboard audiobooks: Check of canceling the downloading from book details view' start
+2023-09-22 20:44:05 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-09-22 20:44:26 INFO  - Application on platform 'IOS' is ready...
+2023-09-22 20:44:26 INFO  - Session id - 0f8eff4d5c6a0f7ad7bc2d2af8eaf15efbad7438
+2023-09-22 20:44:26 INFO  - Step 0 - Close tutorial screen
+2023-09-22 20:44:47 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-09-22 20:44:48 INFO  - Step 1 - Welcome screen is opened
+2023-09-22 20:44:49 INFO  - Step 2 - Close welcome screen
+2023-09-22 20:44:49 INFO  - Button 'Find your library button' :: Clicking
+2023-09-22 20:44:50 INFO  - Step 3 - Add library screen is opened
+2023-09-22 20:44:56 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-09-22 20:44:56 INFO  - Text Field 'Search field' :: Clicking
+2023-09-22 20:45:03 INFO  - Text Field 'Search field' :: Clearing
+2023-09-22 20:45:03 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-09-22 20:45:14 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-22 20:45:16 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-09-22 20:45:16 INFO  - Button 'Settings' :: Clicking
+2023-09-22 20:45:17 INFO  - Button 'Settings' :: Clicking
+2023-09-22 20:45:19 INFO  - Button 'Libraries button' :: Clicking
+2023-09-22 20:45:21 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-09-22 20:45:21 INFO  - Button 'Settings' :: Clicking
+2023-09-22 20:45:22 INFO  - Button 'Settings' :: Clicking
+2023-09-22 20:45:24 INFO  - Button 'Libraries button' :: Clicking
+2023-09-22 20:45:28 INFO  - Locking credential with barcode 01230000000003
+2023-09-22 20:45:28 INFO  - There are books on the account: 
+2023-09-22 20:45:29 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2023-09-22 20:45:29 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-09-22 20:45:29 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-09-22 20:45:29 INFO  - bookName: Children of Virtue and Vengeance Distributor: Palace Marketplace
+2023-09-22 20:45:29 INFO  - bookName: Godsgrave Distributor: Palace Marketplace
+2023-09-22 20:45:29 INFO  - bookName: Cryptonomicon Distributor: Palace Marketplace
+2023-09-22 20:45:29 INFO  - bookName: Too Much and Never Enough Distributor: Palace Marketplace
+2023-09-22 20:45:29 INFO  - Count of books on the account after opening account: 7
+2023-09-22 20:45:50 INFO  - Text Field 'Card' :: Clicking
+2023-09-22 20:45:51 INFO  - Text Field 'Card' :: Clearing
+2023-09-22 20:45:51 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-09-22 20:45:55 INFO  - Text Field 'Pin' :: Clearing
+2023-09-22 20:45:55 INFO  - Text Field 'Pin' :: Typing '********'
+2023-09-22 20:45:58 INFO  - Button 'Log in' :: Clicking
+2023-09-22 20:46:04 INFO  - Button 'Not Now ActionButtonAlert' :: Clicking
+2023-09-22 20:46:19 INFO  - Step 7 - Login is performed successfully
+2023-09-22 20:46:20 INFO  - Step 8 - Open Catalog
+2023-09-22 20:46:20 INFO  - Button 'Catalog' :: Clicking
+2023-09-22 20:46:23 INFO  - Step 9 - Open search modal
+2023-09-22 20:46:24 INFO  - Button 'Search button' :: Clicking
+2023-09-22 20:46:26 INFO  - Step 10 - Search for "Let's Hear It For Beagles" and save bookName as 'bookNameInfo'
+2023-09-22 20:46:27 INFO  - Text Field 'Search value input' :: Sending keys 'Let's Hear It For Beagles'
+2023-09-22 20:46:29 INFO  - Button 'Search' :: Clicking
+2023-09-22 20:46:32 INFO  - Step 11 - Switch to 'Audiobooks' catalog tab
+2023-09-22 20:46:32 INFO  - Button 'Audiobooks' :: Clicking
+2023-09-22 20:47:13 INFO  - Step 12 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-22 20:47:15 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-22 20:47:16 INFO  - Label 'lblBookName' :: Clicking
+2023-09-22 20:47:18 INFO  - Step 13 - Click GET action button and cancel downloading by click CANCEL button on book detail screen
+2023-09-22 20:47:18 INFO  - Button 'Get' :: Clicking
+2023-09-22 20:47:19 INFO  - Button 'Cancel' :: Clicking
+2023-09-22 20:47:21 INFO  - Step 14 - Check that book contains DOWNLOAD action button on book details screen
+2023-09-22 20:47:23 INFO  - Step 15 - Check that book contains RETURN action button on book details screen
+2023-09-22 20:47:24 INFO  - Taking screenshot
+2023-09-22 20:47:27 INFO  - Test finished - logging out
+2023-09-22 20:47:30 INFO  - Button 'Settings' :: Clicking
+2023-09-22 20:47:31 INFO  - Button 'Settings' :: Clicking
+2023-09-22 20:47:33 INFO  - Button 'Libraries button' :: Clicking
+2023-09-22 20:47:37 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-22 20:47:39 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-22 20:47:40 INFO  - Button 'Log out' :: Clicking
+2023-09-22 20:47:41 INFO  - Button 'Log out approve' :: Clicking
+2023-09-22 20:48:03 INFO  - Button 'Log in' :: Getting text from element
+2023-09-22 20:48:04 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-22 20:48:05 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-22 20:48:06 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6c574b10

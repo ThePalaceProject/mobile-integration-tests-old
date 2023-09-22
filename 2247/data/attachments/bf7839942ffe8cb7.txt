@@ -1,0 +1,72 @@
+2023-09-22 19:26:59 INFO  - Scenario 'Get a book from Book Detail View and Return from Books in LYRASIS' start
+2023-09-22 19:26:59 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-09-22 19:27:23 INFO  - Application on platform 'IOS' is ready...
+2023-09-22 19:27:23 INFO  - Session id - e885f3e8cc4f1ec7365e064e63abd0099c663fb2
+2023-09-22 19:27:23 INFO  - Step 0 - Close tutorial screen
+2023-09-22 19:27:43 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-09-22 19:27:44 INFO  - Step 1 - Welcome screen is opened
+2023-09-22 19:27:45 INFO  - Step 2 - Close welcome screen
+2023-09-22 19:27:45 INFO  - Button 'Find your library button' :: Clicking
+2023-09-22 19:27:45 INFO  - Step 3 - Add library screen is opened
+2023-09-22 19:27:50 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-09-22 19:27:50 INFO  - Text Field 'Search field' :: Clicking
+2023-09-22 19:27:56 INFO  - Text Field 'Search field' :: Clearing
+2023-09-22 19:27:56 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-09-22 19:28:07 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-22 19:28:08 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-09-22 19:28:08 INFO  - Button 'Settings' :: Clicking
+2023-09-22 19:28:10 INFO  - Button 'Settings' :: Clicking
+2023-09-22 19:28:11 INFO  - Button 'Libraries button' :: Clicking
+2023-09-22 19:28:12 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-09-22 19:28:12 INFO  - Button 'Settings' :: Clicking
+2023-09-22 19:28:13 INFO  - Button 'Settings' :: Clicking
+2023-09-22 19:28:14 INFO  - Button 'Libraries button' :: Clicking
+2023-09-22 19:28:16 INFO  - Locking credential with barcode 01230000000002
+2023-09-22 19:28:16 INFO  - There are books on the account: 
+2023-09-22 19:28:17 INFO  - bookName: The Martian Distributor: Palace Marketplace
+2023-09-22 19:28:17 INFO  - bookName: Legacy Distributor: Palace Marketplace
+2023-09-22 19:28:17 INFO  - bookName: The Ice Queen Distributor: Palace Marketplace
+2023-09-22 19:28:17 INFO  - bookName: Alice's Adventures in Wonderland Distributor: Palace Marketplace
+2023-09-22 19:28:17 INFO  - bookName: Hidden Games Distributor: Palace Marketplace
+2023-09-22 19:28:17 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-09-22 19:28:17 INFO  - Count of books on the account after opening account: 6
+2023-09-22 19:28:39 INFO  - Text Field 'Card' :: Clicking
+2023-09-22 19:28:40 INFO  - Text Field 'Card' :: Clearing
+2023-09-22 19:28:40 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-09-22 19:28:42 INFO  - Text Field 'Pin' :: Clearing
+2023-09-22 19:28:42 INFO  - Text Field 'Pin' :: Typing '********'
+2023-09-22 19:28:45 INFO  - Button 'Log in' :: Clicking
+2023-09-22 19:29:07 INFO  - Step 7 - Login is performed successfully
+2023-09-22 19:29:08 INFO  - Step 8 - Open Catalog
+2023-09-22 19:29:08 INFO  - Button 'Catalog' :: Clicking
+2023-09-22 19:29:10 INFO  - Step 9 - Open search modal
+2023-09-22 19:29:10 INFO  - Button 'Search button' :: Clicking
+2023-09-22 19:29:12 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-09-22 19:29:12 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-09-22 19:29:12 INFO  - randomBookName: The Anomaly
+2023-09-22 19:29:13 INFO  - Text Field 'Search value input' :: Sending keys 'The Anomaly'
+2023-09-22 19:29:14 INFO  - Button 'Search' :: Clicking
+2023-09-22 19:29:16 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-09-22 19:29:16 INFO  - Button 'eBooks' :: Clicking
+2023-09-22 19:29:58 INFO  - Step 12 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-22 19:30:00 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-22 19:30:00 INFO  - Label 'lblBookName' :: Clicking
+2023-09-22 19:30:02 INFO  - Step 13 - Click GET action button on book details screen
+2023-09-22 19:30:03 INFO  - Button 'Get' :: Clicking
+2023-09-22 19:30:50 INFO  - Step 14 - Close Book Details for IOSTab
+2023-09-22 19:30:50 INFO  - Step 15 - Open Books
+2023-09-22 19:30:50 INFO  - Button 'My Books' :: Clicking
+2023-09-22 19:30:51 INFO  - Step 16 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on books screen
+2023-09-22 19:31:32 INFO  - Taking screenshot
+2023-09-22 19:31:34 INFO  - Test finished - logging out
+2023-09-22 19:31:38 INFO  - Button 'Settings' :: Clicking
+2023-09-22 19:31:39 INFO  - Button 'Settings' :: Clicking
+2023-09-22 19:31:40 INFO  - Button 'Libraries button' :: Clicking
+2023-09-22 19:31:43 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-22 19:31:44 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-22 19:31:45 INFO  - Button 'Log out' :: Clicking
+2023-09-22 19:31:46 INFO  - Button 'Log out approve' :: Clicking
+2023-09-22 19:32:08 INFO  - Button 'Log in' :: Getting text from element
+2023-09-22 19:32:09 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-22 19:32:09 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-22 19:32:10 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@75d63bbd
