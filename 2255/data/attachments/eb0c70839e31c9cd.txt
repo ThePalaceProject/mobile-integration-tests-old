@@ -1,0 +1,46 @@
+2023-09-24 20:00:38 INFO  - Scenario 'Check fields in Information section in LYRASIS' start
+2023-09-24 20:00:38 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-09-24 20:00:53 INFO  - Application on platform 'IOS' is ready...
+2023-09-24 20:00:53 INFO  - Session id - b8a14e4936046cd49d389e85eb44e242685c3502
+2023-09-24 20:00:53 INFO  - Step 0 - Close tutorial screen
+2023-09-24 20:01:14 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-09-24 20:01:14 INFO  - Step 1 - Welcome screen is opened
+2023-09-24 20:01:15 INFO  - Step 2 - Close welcome screen
+2023-09-24 20:01:15 INFO  - Button 'Find your library button' :: Clicking
+2023-09-24 20:01:16 INFO  - Step 3 - Add library screen is opened
+2023-09-24 20:01:21 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-09-24 20:01:22 INFO  - Text Field 'Search field' :: Clicking
+2023-09-24 20:01:28 INFO  - Text Field 'Search field' :: Clearing
+2023-09-24 20:01:28 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-09-24 20:01:40 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-24 20:01:42 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-09-24 20:01:42 INFO  - Button 'Settings' :: Clicking
+2023-09-24 20:01:43 INFO  - Button 'Settings' :: Clicking
+2023-09-24 20:01:44 INFO  - Button 'Libraries button' :: Clicking
+2023-09-24 20:01:45 INFO  - Step 6 - Open Catalog
+2023-09-24 20:01:45 INFO  - Button 'Catalog' :: Clicking
+2023-09-24 20:01:47 INFO  - Step 7 - Open search modal
+2023-09-24 20:01:48 INFO  - Button 'Search button' :: Clicking
+2023-09-24 20:01:50 INFO  - Step 8 - Search 'available' book of distributor 'Palace Marketplace' and bookType 'AUDIOBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-09-24 20:01:50 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-09-24 20:01:50 INFO  - randomBookName: The Great Influenza
+2023-09-24 20:01:50 INFO  - Text Field 'Search value input' :: Sending keys 'The Great Influenza'
+2023-09-24 20:01:52 INFO  - Button 'Search' :: Clicking
+2023-09-24 20:01:55 INFO  - Step 9 - Switch to 'Audiobooks' catalog tab
+2023-09-24 20:01:55 INFO  - Button 'Audiobooks' :: Clicking
+2023-09-24 20:02:38 INFO  - Step 10 - Open AUDIOBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-24 20:02:41 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-24 20:02:43 INFO  - Label 'lblBookName' :: Clicking
+2023-09-24 20:02:45 INFO  - Step 11 - Book 'bookInfo' is opened on book details screen
+2023-09-24 20:02:48 INFO  - Label 'Book title' :: Getting text from element
+2023-09-24 20:03:04 INFO  - Label 'Author' :: Getting text from element
+2023-09-24 20:03:12 INFO  - Label 'Book title' :: Getting text from element
+2023-09-24 20:03:26 INFO  - Label 'Author' :: Getting text from element
+2023-09-24 20:03:28 INFO  - Step 12 - Publisher and Categories in Information section are displayed on book details screen
+2023-09-24 20:03:37 INFO  - Step 13 - Publisher and Categories in Information section are correct on book details screen
+2023-09-24 20:03:37 INFO  - Label 'Publisher label' :: Getting attribute 'name'
+2023-09-24 20:03:42 INFO  - Label 'Categories label' :: Getting attribute 'name'
+2023-09-24 20:03:45 INFO  - Step 14 - Distributor is equal to 'Palace Marketplace' on book details screen
+2023-09-24 20:03:45 INFO  - Label 'Distributor label' :: Getting attribute 'name'
+2023-09-24 20:03:47 INFO  - Taking screenshot
+2023-09-24 20:03:54 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@692fcfef
