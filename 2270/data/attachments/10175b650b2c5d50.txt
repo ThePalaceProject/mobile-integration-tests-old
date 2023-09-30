@@ -1,0 +1,77 @@
+2023-09-30 13:42:25 INFO  - Scenario 'Open book to last page read' start
+2023-09-30 13:42:25 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-09-30 13:43:05 INFO  - Application on platform 'ANDROID' is ready...
+2023-09-30 13:43:05 INFO  - Session id - e5eb60d01cea9044b63e7923495cb55c03d447f3
+2023-09-30 13:43:05 INFO  - Step 0 - Close tutorial screen
+2023-09-30 13:43:25 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-09-30 13:43:25 INFO  - Step 1 - Welcome screen is opened
+2023-09-30 13:43:26 INFO  - Step 2 - Close welcome screen
+2023-09-30 13:43:26 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-09-30 13:43:26 INFO  - Step 3 - Add library screen is opened
+2023-09-30 13:43:27 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-09-30 13:43:27 INFO  - Button 'Search' :: Clicking
+2023-09-30 13:43:29 INFO  - Text Field 'Search' :: Clearing
+2023-09-30 13:43:29 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-09-30 13:43:32 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-30 13:43:32 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-09-30 13:43:32 INFO  - Button 'tabSettings' :: Clicking
+2023-09-30 13:43:35 INFO  - Button 'tabSettings' :: Clicking
+2023-09-30 13:43:36 INFO  - Button 'Accounts' :: Clicking
+2023-09-30 13:43:38 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-09-30 13:43:38 INFO  - Button 'tabSettings' :: Clicking
+2023-09-30 13:43:38 INFO  - Button 'tabSettings' :: Clicking
+2023-09-30 13:43:40 INFO  - Button 'Accounts' :: Clicking
+2023-09-30 13:43:41 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-30 13:43:41 INFO  - Locking credential with barcode 01230000000002
+2023-09-30 13:43:41 INFO  - There are books on the account: 
+2023-09-30 13:43:43 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-09-30 13:43:43 INFO  - Count of books on the account after opening account: 1
+2023-09-30 13:43:43 INFO  - Text Field 'Card' :: Clearing
+2023-09-30 13:43:43 INFO  - Text Field 'Card' :: Typing '01230000000002'
+2023-09-30 13:43:44 INFO  - Text Field 'Pin' :: Clearing
+2023-09-30 13:43:44 INFO  - Text Field 'Pin' :: Typing '********'
+2023-09-30 13:43:47 INFO  - Button 'Log in' :: Clicking
+2023-09-30 13:44:03 INFO  - Button 'Log ... action' :: Getting text from element
+2023-09-30 13:44:03 INFO  - Step 7 - Login is performed successfully
+2023-09-30 13:44:24 INFO  - Button 'Log ... action' :: Getting text from element
+2023-09-30 13:44:24 INFO  - Step 8 - Open Catalog
+2023-09-30 13:44:24 INFO  - Button 'tabCatalog' :: Clicking
+2023-09-30 13:44:46 INFO  - Step 9 - Open search modal
+2023-09-30 13:45:06 INFO  - Button 'Search' :: Clicking
+2023-09-30 13:45:08 INFO  - Step 10 - Search 'available' book of distributor 'Axis 360' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-09-30 13:45:08 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-09-30 13:45:08 INFO  - randomBookName: The Barefoot Investor
+2023-09-30 13:45:08 INFO  - Error details button is not present
+2023-09-30 13:45:08 INFO  - Text Field 'Search value input' :: Sending keys 'The Barefoot Investor'
+2023-09-30 13:45:10 INFO  - Error details button is not present
+2023-09-30 13:45:21 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-30 13:45:21 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-30 13:45:22 INFO  - Button 'actionButton' :: Clicking
+2023-09-30 13:45:34 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-09-30 13:45:34 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-09-30 13:45:34 INFO  - Label 'lblBookName' :: Clicking
+2023-09-30 13:45:35 INFO  - Step 13 - Click READ action button on book details screen
+2023-09-30 13:45:36 INFO  - Button 'Read' :: Clicking
+2023-09-30 13:45:36 INFO  - Step 14 - Scroll page forward from 7 to 10 times
+2023-09-30 13:45:36 INFO  - Scrolling 9 times on reader epub screen
+2023-09-30 13:46:01 INFO  - Step 15 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-09-30 13:46:01 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-09-30 13:46:03 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-09-30 13:46:03 INFO  - Step 16 - Wait for 3 seconds
+2023-09-30 13:46:06 INFO  - Step 17 - Return to previous screen for epub and pdf
+2023-09-30 13:46:08 INFO  - Step 18 - Click READ action button on book details screen
+2023-09-30 13:46:08 INFO  - Button 'Read' :: Clicking
+2023-09-30 13:46:09 INFO  - Step 19 - 'bookInfo' book is present on epub reader screen
+2023-09-30 13:46:15 INFO  - Label 'lblBookName' :: Getting text from element
+2023-09-30 13:46:15 INFO  - Book name on epub reader screen - Barefoot Investor : The Only Money Guide You'll Ever Need (9780730324225)
+2023-09-30 13:46:15 INFO  - Taking screenshot
+2023-09-30 13:46:16 INFO  - Test finished - logging out
+2023-09-30 13:46:17 INFO  - Button 'tabSettings' :: Clicking
+2023-09-30 13:46:20 INFO  - Button 'tabSettings' :: Clicking
+2023-09-30 13:46:21 INFO  - Button 'Accounts' :: Clicking
+2023-09-30 13:46:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-09-30 13:46:24 INFO  - Text Field 'Card' :: Getting text from element
+2023-09-30 13:46:24 INFO  - Text Field 'Pin' :: Getting text from element
+2023-09-30 13:46:24 INFO  - Button 'Log out' :: Clicking
+2023-09-30 13:46:45 INFO  - Button 'Log in' :: Getting text from element
+2023-09-30 13:46:45 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@60c97129
