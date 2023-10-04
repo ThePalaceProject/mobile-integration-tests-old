@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 public class XMLUtil {
-    private static final String BASE_URL = "https://gorgon.tpp-qa.lyrasistechnology.org";
+    private static final String BASE_URL = "https://gorgon.staging.palaceproject.io";
     private static final String partOfURL = "lyrasis-reads/crawlable";
     private HashMap<String, List<BookModel>> hashMapAvailableEbooks;
     private HashMap<String, List<BookModel>> hashMapAvailableAudiobooks;
