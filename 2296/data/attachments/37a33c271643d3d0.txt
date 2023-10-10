@@ -1,0 +1,66 @@
+2023-10-10 04:05:11 INFO  - Scenario 'Get a book from Subcategory List View and Read from Books in LYRASIS' start
+2023-10-10 04:05:11 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-10-10 04:06:10 INFO  - Application on platform 'IOS' is ready...
+2023-10-10 04:06:10 INFO  - Session id - e7d5f5e2653961f44fed303f3ca91d7b0ec4b47f
+2023-10-10 04:06:10 INFO  - Step 0 - Close tutorial screen
+2023-10-10 04:06:30 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-10-10 04:06:31 INFO  - Step 1 - Welcome screen is opened
+2023-10-10 04:06:32 INFO  - Step 2 - Close welcome screen
+2023-10-10 04:06:32 INFO  - Button 'Find your library button' :: Clicking
+2023-10-10 04:06:33 INFO  - Step 3 - Add library screen is opened
+2023-10-10 04:06:38 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-10-10 04:06:38 INFO  - Text Field 'Search field' :: Clicking
+2023-10-10 04:06:44 INFO  - Text Field 'Search field' :: Clearing
+2023-10-10 04:06:44 INFO  - Text Field 'Search field' :: Typing 'LYRASIS Reads'
+2023-10-10 04:06:55 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-10-10 04:06:56 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-10-10 04:06:56 INFO  - Button 'Settings' :: Clicking
+2023-10-10 04:06:57 INFO  - Button 'Settings' :: Clicking
+2023-10-10 04:06:58 INFO  - Button 'Libraries button' :: Clicking
+2023-10-10 04:07:00 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-10-10 04:07:00 INFO  - Button 'Settings' :: Clicking
+2023-10-10 04:07:01 INFO  - Button 'Settings' :: Clicking
+2023-10-10 04:07:02 INFO  - Button 'Libraries button' :: Clicking
+2023-10-10 04:07:06 INFO  - Locking credential with barcode 01230000000005
+2023-10-10 04:07:06 INFO  - There are books on the account: 
+2023-10-10 04:07:06 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-10-10 04:07:06 INFO  - Count of books on the account after opening account: 1
+2023-10-10 04:07:29 INFO  - Text Field 'Card' :: Clicking
+2023-10-10 04:07:32 INFO  - Text Field 'Card' :: Clearing
+2023-10-10 04:07:32 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-10-10 04:07:38 INFO  - Text Field 'Pin' :: Clearing
+2023-10-10 04:07:38 INFO  - Text Field 'Pin' :: Typing '********'
+2023-10-10 04:07:42 INFO  - Button 'Log in' :: Clicking
+2023-10-10 04:08:10 INFO  - Step 7 - Login is performed successfully
+2023-10-10 04:08:12 INFO  - Step 8 - Open Catalog
+2023-10-10 04:08:12 INFO  - Button 'Catalog' :: Clicking
+2023-10-10 04:08:16 INFO  - Step 9 - Open search modal
+2023-10-10 04:08:19 INFO  - Button 'Search button' :: Clicking
+2023-10-10 04:08:24 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-10-10 04:08:24 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-10-10 04:08:24 INFO  - randomBookName: Santa Cruise
+2023-10-10 04:08:26 INFO  - Text Field 'Search value input' :: Sending keys 'Santa Cruise'
+2023-10-10 04:08:28 INFO  - Button 'Search' :: Clicking
+2023-10-10 04:08:34 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-10-10 04:08:34 INFO  - Button 'eBooks' :: Clicking
+2023-10-10 04:09:18 INFO  - Step 12 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-10-10 04:09:22 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-10-10 04:09:25 INFO  - Button 'actionButton' :: Clicking
+2023-10-10 04:09:48 INFO  - Step 13 - EBOOK book with READ action button and 'bookInfo' bookInfo is present on catalog books screen
+2023-10-10 04:09:50 INFO  - Step 14 - Open Books
+2023-10-10 04:09:50 INFO  - Button 'My Books' :: Clicking
+2023-10-10 04:09:52 INFO  - Step 15 - Open EBOOK book with READ action button and 'bookInfo' bookInfo on books screen
+2023-10-10 04:10:13 INFO  - Label 'lblBookName' :: Clicking
+2023-10-10 04:10:34 INFO  - Taking screenshot
+2023-10-10 04:10:37 INFO  - Test finished - logging out
+2023-10-10 04:10:41 INFO  - Button 'Settings' :: Clicking
+2023-10-10 04:10:44 INFO  - Button 'Settings' :: Clicking
+2023-10-10 04:10:47 INFO  - Button 'Libraries button' :: Clicking
+2023-10-10 04:10:53 INFO  - Text Field 'Card' :: Getting text from element
+2023-10-10 04:10:55 INFO  - Text Field 'Pin' :: Getting text from element
+2023-10-10 04:10:56 INFO  - Button 'Log out' :: Clicking
+2023-10-10 04:10:58 INFO  - Button 'Log out approve' :: Clicking
+2023-10-10 04:11:20 INFO  - Button 'Log in' :: Getting text from element
+2023-10-10 04:11:23 INFO  - Text Field 'Card' :: Getting text from element
+2023-10-10 04:11:25 INFO  - Text Field 'Pin' :: Getting text from element
+2023-10-10 04:11:27 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@731ee5f5
