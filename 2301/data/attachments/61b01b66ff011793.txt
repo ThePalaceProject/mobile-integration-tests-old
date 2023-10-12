@@ -1,0 +1,89 @@
+2023-10-12 03:44:34 INFO  - Scenario 'Navigate by Page' start
+2023-10-12 03:44:34 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-10-12 03:45:07 INFO  - Application on platform 'ANDROID' is ready...
+2023-10-12 03:45:07 INFO  - Session id - 57c023e8ddfb606e89e48dc08e06ed60b495ae2b
+2023-10-12 03:45:07 INFO  - Step 0 - Close tutorial screen
+2023-10-12 03:45:27 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-10-12 03:45:28 INFO  - Step 1 - Welcome screen is opened
+2023-10-12 03:45:28 INFO  - Step 2 - Close welcome screen
+2023-10-12 03:45:28 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-10-12 03:45:29 INFO  - Step 3 - Add library screen is opened
+2023-10-12 03:45:30 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-10-12 03:45:30 INFO  - Button 'Search' :: Clicking
+2023-10-12 03:45:31 INFO  - Text Field 'Search' :: Clearing
+2023-10-12 03:45:31 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-10-12 03:45:35 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-10-12 03:45:35 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-10-12 03:45:35 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 03:45:37 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 03:45:38 INFO  - Button 'Accounts' :: Clicking
+2023-10-12 03:45:40 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-10-12 03:45:40 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 03:45:40 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 03:45:41 INFO  - Button 'Accounts' :: Clicking
+2023-10-12 03:45:43 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-10-12 03:45:44 INFO  - Locking credential with barcode 01230000000003
+2023-10-12 03:45:44 INFO  - There are books on the account: 
+2023-10-12 03:45:45 INFO  - bookName: Snow Crash Distributor: Palace Marketplace
+2023-10-12 03:45:45 INFO  - bookName: The Critique of Practical Reason Distributor: Palace Marketplace
+2023-10-12 03:45:45 INFO  - bookName: Fahrenheit 451 Distributor: Palace Marketplace
+2023-10-12 03:45:45 INFO  - bookName: Zodiac Distributor: Palace Marketplace
+2023-10-12 03:45:45 INFO  - bookName: Cryptonomicon Distributor: Palace Marketplace
+2023-10-12 03:45:45 INFO  - bookName: Transient Desires Distributor: Bibliotheca
+2023-10-12 03:45:45 INFO  - bookName: Legacy Distributor: Palace Marketplace
+2023-10-12 03:45:45 INFO  - bookName: The Mother Tongue Distributor: Palace Marketplace
+2023-10-12 03:45:45 INFO  - Count of books on the account after opening account: 8
+2023-10-12 03:45:45 INFO  - Text Field 'Card' :: Clearing
+2023-10-12 03:45:45 INFO  - Text Field 'Card' :: Typing '01230000000003'
+2023-10-12 03:45:47 INFO  - Text Field 'Pin' :: Clearing
+2023-10-12 03:45:47 INFO  - Text Field 'Pin' :: Typing '********'
+2023-10-12 03:45:50 INFO  - Button 'Log in' :: Clicking
+2023-10-12 03:46:08 INFO  - Button 'Log ... action' :: Getting text from element
+2023-10-12 03:46:09 INFO  - Step 7 - Login is performed successfully
+2023-10-12 03:46:30 INFO  - Button 'Log ... action' :: Getting text from element
+2023-10-12 03:46:30 INFO  - Step 8 - Open Catalog
+2023-10-12 03:46:30 INFO  - Button 'tabCatalog' :: Clicking
+2023-10-12 03:46:51 INFO  - Step 9 - Open search modal
+2023-10-12 03:47:12 INFO  - Button 'Search' :: Clicking
+2023-10-12 03:47:13 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-10-12 03:47:13 INFO  - Count of attempts to get random book name without bad symbols-1
+2023-10-12 03:47:13 INFO  - randomBookName: His Only Wife
+2023-10-12 03:47:13 INFO  - Error details button is not present
+2023-10-12 03:47:14 INFO  - Text Field 'Search value input' :: Sending keys 'His Only Wife'
+2023-10-12 03:47:19 INFO  - Error details button is not present
+2023-10-12 03:47:20 INFO  - Step 11 - Click GET action button on EBOOK book with 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-10-12 03:47:20 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-10-12 03:47:21 INFO  - Button 'actionButton' :: Clicking
+2023-10-12 03:47:27 INFO  - Step 12 - Open EBOOK book with READ action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-10-12 03:47:28 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-10-12 03:47:29 INFO  - Label 'lblBookName' :: Clicking
+2023-10-12 03:47:29 INFO  - Step 13 - Click READ action button on book details screen
+2023-10-12 03:47:31 INFO  - Button 'Read' :: Clicking
+2023-10-12 03:47:32 INFO  - Step 14 - 'bookInfo' book is present on epub reader screen
+2023-10-12 03:47:32 INFO  - Label 'lblBookName' :: Getting text from element
+2023-10-12 03:47:34 INFO  - Book name on epub reader screen - His Only Wife
+2023-10-12 03:47:34 INFO  - Step 15 - Scroll page forward from 7 to 10 times
+2023-10-12 03:47:34 INFO  - Scrolling 8 times on reader epub screen
+2023-10-12 03:47:55 INFO  - Step 16 - Open navigation bar on reader epub screen
+2023-10-12 03:47:56 INFO  - Step 17 - Save pageNumber as 'pageNumberKey' and chapterName as 'chapterNameKey' on epub reader screen
+2023-10-12 03:47:56 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-10-12 03:47:57 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-10-12 03:47:57 INFO  - Step 18 - Open navigation bar on reader epub screen
+2023-10-12 03:47:58 INFO  - Step 19 - Next page is opened and old page has 'pageNumberKey' pageNumber and 'chapterNameKey' chapterName on epub reader screen
+2023-10-12 03:47:58 INFO  - Label 'lblPageNumber' :: Getting text from element
+2023-10-12 03:47:58 INFO  - actualPageNumberOfNextPage4
+2023-10-12 03:47:58 INFO  - expectedPageNumberOfNextPage5
+2023-10-12 03:47:58 INFO  - Label 'lblChapterName' :: Getting text from element
+2023-10-12 03:47:59 INFO  - actualChapterNameOfNextPage
+2023-10-12 03:47:59 INFO  - expectedChapterNameOfNextPage
+2023-10-12 03:47:59 INFO  - Taking screenshot
+2023-10-12 03:48:00 INFO  - Test finished - logging out
+2023-10-12 03:48:01 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 03:48:04 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 03:48:05 INFO  - Button 'Accounts' :: Clicking
+2023-10-12 03:48:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-10-12 03:48:08 INFO  - Text Field 'Card' :: Getting text from element
+2023-10-12 03:48:09 INFO  - Text Field 'Pin' :: Getting text from element
+2023-10-12 03:48:09 INFO  - Button 'Log out' :: Clicking
+2023-10-12 03:48:30 INFO  - Button 'Log in' :: Getting text from element
+2023-10-12 03:48:30 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@5981d7b4

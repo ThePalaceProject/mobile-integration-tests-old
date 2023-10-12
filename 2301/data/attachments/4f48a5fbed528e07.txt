@@ -1,0 +1,77 @@
+2023-10-12 02:57:26 INFO  - Scenario 'LYRASIS: Getting and returning books from Book Detail View' start
+2023-10-12 02:57:26 INFO  - Setting application driver using the server on 'https://hub-cloud.browserstack.com/wd/hub'
+2023-10-12 02:57:55 INFO  - Application on platform 'ANDROID' is ready...
+2023-10-12 02:57:55 INFO  - Session id - 5f8c0c56d6647e3af14e7a8ea05a7e61ef3951d7
+2023-10-12 02:57:55 INFO  - Step 0 - Close tutorial screen
+2023-10-12 02:58:15 INFO  - Button 'btnCloseTutorial' :: Clicking
+2023-10-12 02:58:16 INFO  - Step 1 - Welcome screen is opened
+2023-10-12 02:58:16 INFO  - Step 2 - Close welcome screen
+2023-10-12 02:58:16 INFO  - Button 'btnFindLibrary' :: Clicking
+2023-10-12 02:58:17 INFO  - Step 3 - Add library screen is opened
+2023-10-12 02:58:18 INFO  - Step 4 - Add library "LYRASIS Reads" on Add library screen
+2023-10-12 02:58:18 INFO  - Button 'Search' :: Clicking
+2023-10-12 02:58:20 INFO  - Text Field 'Search' :: Clearing
+2023-10-12 02:58:20 INFO  - Text Field 'Search' :: Typing 'LYRASIS Reads'
+2023-10-12 02:58:23 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-10-12 02:58:24 INFO  - Step 5 - Account "LYRASIS Reads" is present on Accounts screen
+2023-10-12 02:58:24 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 02:58:25 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 02:58:26 INFO  - Button 'Accounts' :: Clicking
+2023-10-12 02:58:28 INFO  - Step 6 - Enter credentials for 'LYRASIS Reads' account
+2023-10-12 02:58:29 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 02:58:29 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 02:58:30 INFO  - Button 'Accounts' :: Clicking
+2023-10-12 02:58:31 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-10-12 02:58:32 INFO  - Locking credential with barcode 01230000000005
+2023-10-12 02:58:32 INFO  - There are books on the account: 
+2023-10-12 02:58:33 INFO  - bookName: The House in the Cerulean Sea Distributor: Palace Marketplace
+2023-10-12 02:58:33 INFO  - Count of books on the account after opening account: 1
+2023-10-12 02:58:33 INFO  - Text Field 'Card' :: Clearing
+2023-10-12 02:58:33 INFO  - Text Field 'Card' :: Typing '01230000000005'
+2023-10-12 02:58:36 INFO  - Text Field 'Pin' :: Clearing
+2023-10-12 02:58:36 INFO  - Text Field 'Pin' :: Typing '********'
+2023-10-12 02:58:38 INFO  - Button 'Log in' :: Clicking
+2023-10-12 02:58:56 INFO  - Button 'Log ... action' :: Getting text from element
+2023-10-12 02:58:57 INFO  - Step 7 - Login is performed successfully
+2023-10-12 02:59:18 INFO  - Button 'Log ... action' :: Getting text from element
+2023-10-12 02:59:19 INFO  - Step 8 - Open Catalog
+2023-10-12 02:59:19 INFO  - Button 'tabCatalog' :: Clicking
+2023-10-12 02:59:40 INFO  - Step 9 - Open search modal
+2023-10-12 03:00:00 INFO  - Button 'Search' :: Clicking
+2023-10-12 03:00:03 INFO  - Step 10 - Search 'available' book of distributor 'Bibliotheca' and bookType 'EBOOK' from "LYRASIS Reads" and save as 'bookNameInfo'
+2023-10-12 03:00:03 INFO  - Count of attempts to get random book name without bad symbols-2
+2023-10-12 03:00:03 INFO  - randomBookName: Chocolate Cream Pie Murder
+2023-10-12 03:00:03 INFO  - Error details button is not present
+2023-10-12 03:00:04 INFO  - Text Field 'Search value input' :: Sending keys 'Chocolate Cream Pie Murder'
+2023-10-12 03:00:07 INFO  - Error details button is not present
+2023-10-12 03:00:10 INFO  - Step 11 - Switch to 'eBooks' catalog tab
+2023-10-12 03:00:10 INFO  - Button 'eBooks' :: Clicking
+2023-10-12 03:00:31 INFO  - Step 12 - Open EBOOK book with GET action button and 'bookNameInfo' bookName on catalog books screen and save book as 'bookInfo'
+2023-10-12 03:00:31 INFO  - Label 'lblAuthor' :: Getting text from element
+2023-10-12 03:00:32 INFO  - Label 'lblBookName' :: Clicking
+2023-10-12 03:00:32 INFO  - Step 13 - Click GET action button on book details screen
+2023-10-12 03:00:34 INFO  - Button 'Get' :: Clicking
+2023-10-12 03:00:41 INFO  - Step 14 - Check that book contains READ action button on book details screen
+2023-10-12 03:00:42 INFO  - Step 15 - Click RETURN action button on book details screen
+2023-10-12 03:00:42 INFO  - Button 'Return' :: Clicking
+2023-10-12 03:00:47 INFO  - Step 16 - Check that book contains GET action button on book details screen
+2023-10-12 03:00:48 INFO  - Step 17 - Click GET action button on book details screen
+2023-10-12 03:00:48 INFO  - Button 'Get' :: Clicking
+2023-10-12 03:00:52 INFO  - Step 18 - Check that book contains READ action button on book details screen
+2023-10-12 03:00:52 INFO  - Step 19 - Click READ action button on book details screen
+2023-10-12 03:00:53 INFO  - Button 'Read' :: Clicking
+2023-10-12 03:00:54 INFO  - Step 20 - Wait for 3 seconds
+2023-10-12 03:00:57 INFO  - Step 21 - Book 'bookInfo' with EBOOK type is present on epub or pdf or audiobook screen
+2023-10-12 03:00:58 INFO  - Label 'lblBookName' :: Getting text from element
+2023-10-12 03:00:59 INFO  - Book name on epub reader screen - Chocolate Cream Pie Murder
+2023-10-12 03:00:59 INFO  - Taking screenshot
+2023-10-12 03:01:00 INFO  - Test finished - logging out
+2023-10-12 03:01:02 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 03:01:04 INFO  - Button 'tabSettings' :: Clicking
+2023-10-12 03:01:05 INFO  - Button 'Accounts' :: Clicking
+2023-10-12 03:01:06 INFO  - Button 'LYRASIS Reads' :: Clicking
+2023-10-12 03:01:09 INFO  - Text Field 'Card' :: Getting text from element
+2023-10-12 03:01:10 INFO  - Text Field 'Pin' :: Getting text from element
+2023-10-12 03:01:10 INFO  - Button 'Log out' :: Clicking
+2023-10-12 03:01:30 INFO  - Button 'Log in' :: Getting text from element
+2023-10-12 03:01:31 INFO  - isLoggerNullAfterAnnotation-framework.utilities.Logger@6f95ea0
